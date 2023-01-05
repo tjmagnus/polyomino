@@ -9,15 +9,15 @@
   </docinfo>
 
   <book xml:id="my-great-book">
-    <title>Polyominos, Polygons, and Polyhedra: Discovering Geometry</title>
-    <subtitle>An example to get you started</subtitle>
+    <title>Polyominos, Polygons, and Polyhedra</title>
+    <subtitle>Discovering Geometry through Exploratory Activity</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
+          <personname>Teresa Deltz Magnus</personname>
+          <department>Department of Mathematics and Computer Science</department>
+          <institution>Rivier University</institution>
         </author>
         <date>
           <today />
@@ -44,10 +44,10 @@
     </frontmatter>
 
     <chapter xml:id="chapter-">
-      <title></title>
+      <title>Foundation: Area</title>
 
       <section xml:id="section-">
-        <title></title>
+        <title>Exploring with Polyominos</title>
         <p>Hello</p>
       </section>
 
