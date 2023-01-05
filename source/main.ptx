@@ -9,7 +9,7 @@
   </docinfo>
 
   <book xml:id="my-great-book">
-    <title>Great Book</title>
+    <title>Polyominos, Polygons, and Polyhedra: Discovering Geometry</title>
     <subtitle>An example to get you started</subtitle>
 
     <frontmatter xml:id="frontmatter">
