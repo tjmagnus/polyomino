@@ -36,8 +36,10 @@
         <copyright>
           <year>2020<ndash />2023</year>
           <holder>You</holder>
-          <shortlicense> 
-            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+          <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+            International License. To view a copy of this license, visit <url
+              href="http://creativecommons.org/licenses/by-sa/4.0/"
+              visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
           </shortlicense>
         </copyright>
       </colophon>
@@ -49,13 +51,29 @@
       <section xml:id="section-">
         <title>Exploring with Polyominos</title>
         <p>Hello</p>
+
+        <exercise>
+          <statement>
+            <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
+          </statement>
+          <hint>
+            <p>
+              Rewrite the fraction before taking the derivative.
+            </p>
+          </hint>
+        </exercise>
       </section>
 
     </chapter>
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
+      <solutions inline="hint answer">
+        <title> Select hints and answers </title>
+      </solutions>
 
+      <appendix>
+      </appendix>
       <colophon>
         <p> This book was authored in <pretext />. </p>
       </colophon>
