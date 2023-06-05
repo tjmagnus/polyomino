@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<pretext xml:lang="en-US">
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <docinfo>
     <macros>
@@ -10,7 +10,7 @@
 
   <book xml:id="my-great-book">
     <title>Polyominos, Polygons, and Polyhedra</title>
-    <subtitle>Discovering Geometry through Exploratory Activity</subtitle>
+    <subtitle>Discovering Geometry through Explorations</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
@@ -45,10 +45,12 @@
       </colophon>
     </frontmatter>
 
+    <xi:include href="ch-intro.ptx"/>
+
     <chapter xml:id="chapter-">
       <title>Foundation: Area</title>
 
-      <section xml:id="section-">
+      <section xml:id="section-polyomino">
         <title>Exploring with Polyominos</title>
         <p>Hello</p>
 
@@ -63,7 +65,10 @@
           </hint>
         </exercise>
       </section>
-
+      <section xml:id="sec-rectangle">
+        <title>rectangle</title>
+        
+      </section>
     </chapter>
 
     <backmatter xml:id="backmatter">

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Introduction</title>
+
+    <section xml:id="section-student">
+        <title>To the Student</title>
+        <p>
+        Why do we study geometry? Geometry is one of the oldest fields of study and
+        one of the most useful. Give examples. Talk about integration between algebra 
+        and geometry.
+        
+        </p>
+
+        <p>
+        What to expect in this class: Talk about the focus on the why behind the how. 
+        Discuss benefits of open-ended exploration. Mention the use of our toolkit.
+        </p>
+
+        <exercise>
+          <statement>
+            <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
+          </statement>
+          <hint>
+            <p>
+              Rewrite the fraction before taking the derivative.
+            </p>
+          </hint>
+        </exercise>
+      </section>
+
+
+</chapter>
