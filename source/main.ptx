@@ -47,6 +47,10 @@
 
     <xi:include href="ch-intro.ptx"/>
 
+    <xi:include href="ch-explore.ptx"/>
+
+    <xi:include href="ch-area.ptx"/>
+
     <chapter xml:id="chapter-">
       <title>Foundation: Area</title>
 
@@ -84,6 +88,6 @@
       </colophon>
 
     </backmatter>
-
+ 
   </book>
 </pretext>
