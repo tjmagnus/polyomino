@@ -47,7 +47,10 @@
 
     <xi:include href="ch-intro.ptx"/>
 
-    <chapter xml:id="chapter-">
+    <!-- <xi:include href="ch-area.ptx"/> -->
+    
+
+    <chapter xml:id="chapter-area">
       <title>Foundation: Area</title>
 
       <section xml:id="section-polyomino">
@@ -70,6 +73,8 @@
         
       </section>
     </chapter>
+
+<xi:include href="ch-isom.ptx"/>
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
