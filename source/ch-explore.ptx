@@ -69,8 +69,12 @@
             Interactive tool on Polypad by Mathigon 
           </url>
         </p>
-
+      
+          <interactive xml:id="interactive-phet-fourier" 
+          iframe="https://mathigon.org/polypad/deIUjqp9tTSpa" preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
+       
         </statement>
+        
         <!-- <answer>
           <p>
             Just the answer.
@@ -82,8 +86,13 @@
         <statement>
           <p>
             Since a tetromino is formed by joining four unit squares, each 
-            tetromino has an area of four square units.
+            tetromino has an area of four square units, as illustrated here.
           </p>
+          <image source="area-tetromino" width="50%">
+            <description>
+              The L-tetromino drawn as a joining of four square tiles.
+            </description>
+          </image>
         </statement>
       </task>
     
