@@ -78,6 +78,8 @@
       </section>
     </chapter>
 
+<xi:include href="ch-isom.ptx"/>
+
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
       <solutions inline="hint answer">
