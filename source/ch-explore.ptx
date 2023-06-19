@@ -40,28 +40,14 @@
             Interactive tool on Polypad by Mathigon
           </url>
         </statement>
-       
-       <!-- <hint>
-          <p>
-            A little hint.
-          </p>
-        </hint>
-        <answer>
-          <p>
-            Just the answer.
-          </p>
-        </answer>
-        <solution>
-          <p>
-            All the glorious details about how to do the first step.
-          </p>
-        </solution>-->
       </task>
     
       <task>
         <statement>
           <p>
-            Pictured below are the four other tetrominoes, an I-shape, a Z-shape, a T-shape,
+            Just as a domino consists of two squares joined at an edge, a 
+            <term>tetromino</term> is a flat figure created by joining four congruent 
+            squares along edges. Pictured below are the four other tetrominoes, an I-shape, a Z-shape, a T-shape,
             and a small square. Like the L-shape, some of these can cover the 
             larger square without overlaps or gaps. Identify which tetrominoes 
             will tile the large square and show how this can be done. If there 
@@ -75,19 +61,27 @@
               one tall rectangle, one T-shape, one zigzag-shape, and a small 
               square. The frames to fill are squares of the same height as the 
               tall rectangle are also provided.
-            </description>
-                
+            </description>   
           </image>
 
           <url href="https://mathigon.org/polypad/deIUjqp9tTSpaQ"> 
             Interactive tool on Polypad by Mathigon 
           </url>
         </statement>
-        <answer>
+        <!-- <answer>
           <p>
             Just the answer.
           </p>
-        </answer>
+        </answer> -->
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Since a tetromino is formed by joining four unit squares, each 
+            tetromino has an area of four square units.
+          </p>
+        </statement>
       </task>
     
       <conclusion>
