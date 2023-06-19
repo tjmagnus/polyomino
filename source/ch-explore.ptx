@@ -32,13 +32,14 @@
               and half as wide as the square.
             </description>
           </image>
-<p>
-  This task may be completed with pen and paper or using an 
-  interactive tool. 
-</p>
+          <p>
+            This task may be completed with pen and paper or using an 
+            interactive tool. 
+          
           <url href="https://mathigon.org/polypad/OqM1coKhvKsMuw"> 
             Interactive tool on Polypad by Mathigon
           </url>
+        </p>
         </statement>
       </task>
     
@@ -63,10 +64,12 @@
               tall rectangle are also provided.
             </description>   
           </image>
-
+        <p>
           <url href="https://mathigon.org/polypad/deIUjqp9tTSpaQ"> 
             Interactive tool on Polypad by Mathigon 
           </url>
+        </p>
+
         </statement>
         <!-- <answer>
           <p>
