@@ -15,7 +15,7 @@
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>Teresa Deltz Magnus</personname>
+          <personname>Teresa D. Magnus</personname>
           <department>Department of Mathematics and Computer Science</department>
           <institution>Rivier University</institution>
         </author>
@@ -50,6 +50,9 @@
     <xi:include href="ch-explore.ptx"/>
 
     <xi:include href="ch-area.ptx"/>
+
+    <xi:include href="ch-isom.ptx"/>
+
 
     <chapter xml:id="chapter-">
       <title>Foundation: Area</title>

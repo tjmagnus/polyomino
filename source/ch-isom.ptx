@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-isom.ptx" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Isomorphisms</title>
+<introduction>
+    <p>
+        Are you aware that animated movies and computer graphics use a lot of mathematics
+        and geometry? The images are moved by moving key points to new locations on the screen and 
+        the screen. The process of moving each point in the Euclidean plane to a new, possibly the same, point
+        is called a <term>transformation</term>. Every point is assignment a single landing position; no point 
+        is sent to more than one position by a single transformation.
+    </p>
+
+<p>
+    A <term>reflection</term> is the first transformation we will explore. Each reflection is defined by a 
+    mirror line and the reflection takes each point to its reflected image. If we were to fold the plane across
+    the mirror line, the points and their images would fall on top of each other.  
+</p>
+</introduction>
+    <section xml:id="section-reflections">
+        <title>Reflections</title>
+        
+
+        <p>
+        What to expect in this class: Talk about the focus on the why behind the how. 
+        Discuss benefits of open-ended exploration. Mention the use of our toolkit.
+        </p>
+
+        <exercise>
+          <statement>
+            <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
+          </statement>
+          <hint>
+            <p>
+              Rewrite the fraction before taking the derivative.
+            </p>
+          </hint>
+        </exercise>
+      </section>
+
+
+</chapter>
