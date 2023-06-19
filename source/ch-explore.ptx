@@ -9,24 +9,36 @@
       <introduction>
 
         <p>
-          Complete the following tasks before reading the section.
+          Although this task is to fix a box, you are encouraged to think 
+          outside the box as you do this activity. You will find that a 
+          willingness to take chances and try out different strategies will  
+          be essential to your success in this course. Taking time to reflect 
+          as you respond to the "why" questions and sharing your ideas with 
+          your classmates will also contribute 
+          greatly to your learning. Have fun!
         </p>
       </introduction>
     
       <task>
         <statement>
           <p>
-            Cover the blue square with copies of the green L-shaped 
-            tetronimo. Do not overlap any tetrominoes or leave any 
-            gaps. How many tetrominos are required?
+            Fill the blue square with non-overlapping copies of the green L-shaped 
+            tetronimo. How many tetrominos are required?
           </p>
 
           <image source="magnus-ltetromino" width="50%">
-            <description>An L-shape and square.</description>
+            <description>
+              An L-shape and square.The L is three-fourths as high 
+              and half as wide as the square.
+            </description>
           </image>
-
-          <url href="https://mathigon.org/polypad/OqM1coKhvKsMuw"> Interactive tool 
-            on Polypad by Mathigon</url>
+<p>
+  This task may be completed with pen and paper or using an 
+  interactive tool. 
+</p>
+          <url href="https://mathigon.org/polypad/OqM1coKhvKsMuw"> 
+            Interactive tool on Polypad by Mathigon
+          </url>
         </statement>
        
        <!-- <hint>
@@ -59,9 +71,10 @@
 
           <image source="whichtetromino" width="70%">
             <description>
-              Four shapes each formed by joining four unit squares along edges. 
-              One I-shape, one T-shape, one Z-shape, and a small square. Four larger squares 
-              are also provided.
+              Four shapes each formed by joining four unit squares along edges: 
+              one tall rectangle, one T-shape, one zigzag-shape, and a small 
+              square. The frames to fill are squares of the same height as the 
+              tall rectangle are also provided.
             </description>
                 
           </image>
