@@ -51,7 +51,7 @@
             squares along edges. Pictured below are the four other tetrominoes, an I-shape, a Z-shape, a T-shape,
             and a small square. Like the L-shape, some of these can cover the 
             larger square without overlaps or gaps. Identify which tetrominoes 
-            will tile the large square and show how this can be done. If there 
+            will tile one of the larger squares and show how this can be done. If there 
             are any tetrominoes which cannot tile the square alone, explain 
             why you believe the tiling is impossible. 
           </p>
@@ -70,16 +70,10 @@
           </url>
         </p>
       
-          <interactive xml:id="interactive-phet-fourier" 
-          iframe="https://mathigon.org/polypad/deIUjqp9tTSpa" preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
+          <interactive xml:id="which-fill-square" 
+          iframe="https://www.mathigon.org/polypad/deIUjqp9tTSpa" preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
        
         </statement>
-        
-        <!-- <answer>
-          <p>
-            Just the answer.
-          </p>
-        </answer> -->
       </task>
 
       <task>
@@ -93,9 +87,58 @@
               The L-tetromino drawn as a joining of four square tiles.
             </description>
           </image>
+          <p>
+            What is the area of the square that you filled with tetrominoes?
+          </p>
         </statement>
       </task>
     
+      <task>
+        <statement>
+          <p>
+           Similarly, we define a <term>pentomino</term> to be a figure 
+           formed by joining five congruent squares along edges. One pentomino 
+           is pictured. Use copies of the small square to construct other pentominoes. 
+           There are twelve total! Note that if two pentominos are reflections or 
+           rotations of the other we consider them to be the same pentomino.  
+          </p>
+          <image source="buildpentominoes" width="70%">
+            <description>
+              Five squares joined at edges with three in the first column and one  
+              at the top and one at the bottom of  
+              the second column. An additional square is provided to build 
+              more pentominoes.
+            </description>
+          </image>
+          <p>
+            <url href="https://mathigon.org/polypad/lejfSv8Xt8FxJA"> 
+              Interactive tool on Polypad by Mathigon
+            </url>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use some of the different pentominoes you created to 
+            build solid rectangles. Use each pentomino at most once 
+            in each rectangle you build. What 
+            dimensions are possible? Can you build a rectangle that 
+            uses every pentomino exactly once?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What must be true about all of the rectangles you 
+            and your classmates constructed in the last question? Why?
+          </p>
+        </statement>
+      </task>
+      
       <conclusion>
         <p>
           A little wrap up.
