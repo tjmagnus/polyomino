@@ -1,0 +1,15 @@
+<section xml:id="section-argue">
+    <title>Invitation to Explain </title>
+    <p>What happens when you add odd numbers together?</p>
+
+    <exercise>
+      <statement>
+        <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
+      </statement>
+      <hint>
+        <p>
+          Rewrite the fraction before taking the derivative.
+        </p>
+      </hint>
+    </exercise>
+  </section>

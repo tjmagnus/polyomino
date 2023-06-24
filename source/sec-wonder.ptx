@@ -1,0 +1,15 @@
+<section xml:id="section-wonder">
+    <title>Invitation to Notice and Wonder </title>
+    <p>add an activity here, perhaps Mobius band, spherical triangles, or Euler's formula.</p>
+
+    <exercise>
+      <statement>
+        <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
+      </statement>
+      <hint>
+        <p>
+          Rewrite the fraction before taking the derivative.
+        </p>
+      </hint>
+    </exercise>
+  </section>

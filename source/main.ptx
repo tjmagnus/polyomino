@@ -47,14 +47,18 @@
 
     <xi:include href="ch-intro.ptx"/>
 
-    <xi:include href="ch-explore.ptx"/>
-
     <xi:include href="ch-area.ptx"/>
 
+    <xi:include href="ch-length.ptx"/>
+
+    <xi:include href="ch-polygons.ptx"/>
+
+    <xi:include href="ch-polyhedra.ptx"/>
+    
     <xi:include href="ch-isom.ptx"/>
 
 
-    <chapter xml:id="chapter-">
+    <!--<chapter xml:id="chapter-">
       <title>Foundation: Area</title>
 
       <section xml:id="section-polyomino">
@@ -76,9 +80,8 @@
         <title>rectangle</title>
         
       </section>
-    </chapter>
+    </chapter> -->
 
-<xi:include href="ch-isom.ptx"/>
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>

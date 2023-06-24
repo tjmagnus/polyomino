@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Introduction</title>
+    <title>Introduction to Geometrical Thinking</title>
 
-    <section xml:id="section-student">
+    <xi:include href="sec-explore.ptx"/>
+    <xi:include href="sec-wonder.ptx"/>
+    <xi:include href="sec-argue.ptx"/>
+    <xi:include href="sec-struggle.ptx"/>
+    
+    <!--<section xml:id="section-student">
         <title>To the Student</title>
         <p>
         Why do we study geometry? Geometry is one of the oldest fields of study and
@@ -27,7 +32,7 @@
             </p>
           </hint>
         </exercise>
-      </section>
+      </section> -->
 
 
 </chapter>

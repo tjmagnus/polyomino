@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="explore" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="explore" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Invitation to Explore</title>
     <exploration>
       
@@ -141,10 +141,29 @@
       
       <conclusion>
         <p>
-          A little wrap up.
+          Hopefully as you worked through this task, you allowed yourself 
+          to experiment with different arrangements of squares and 
+          polyominoes. This openness to exploration is essential to 
+          mathematical thinking. Phrases like "what if" or "I wonder"  
+          arise often as a mathematician creates and makes sense 
+          of new ideas. 
+        </p>
+        <p>
+          Unfortunately, most students have had little opportunity to 
+          creatively explore in their mathematics classes. You have probably 
+          memorized formulas and performed calculations in many of your mathematics 
+          classes. While formulas and calculations are useful tool
+          that come from mathematics, they are not the essence of mathematics. 
+          Moreover, a machine can do those skills better than a human can. In this course, 
+          we will practice the creative 
+          thinking, reasoning, and problem-solving practices that set us apart  
+          computers. We will suggest and try different approaches to problems. 
+          Hopefully, we will have fun along the way.  
+          
+
         </p>
       </conclusion>
     
     </exploration>
 
-  </chapter>
+</section>

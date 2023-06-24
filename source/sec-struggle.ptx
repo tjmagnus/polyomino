@@ -1,0 +1,15 @@
+<section xml:id="section-struggle">
+    <title>Invitation to Learn through Struggle </title>
+    <p>add an activity here, perhaps geoboard squares and triangles.</p>
+
+    <exercise>
+      <statement>
+        <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
+      </statement>
+      <hint>
+        <p>
+          Rewrite the fraction before taking the derivative.
+        </p>
+      </hint>
+    </exercise>
+  </section>
