@@ -139,31 +139,67 @@
         </statement>
       </task>
       
-      <conclusion>
+    </exploration>
+        <p>
+          The purpose of the preceding activity is two-fold. It introduces the exploratory 
+          nature of the course and it suggests a few important geometric facts that 
+          we will use as our initial geometrical foundation. 
+        </p>
+        <principle xml:id="principle-areameaning">
+          <statement>
+            <p>
+              The area of a closed figure in the plane is the number of unit  
+              squares needed to fill the figure.
+            </p>
+          </statement>
+        </principle>
+        <principle xml:id="principle-arearect">
+          <statement>
+            <p>
+              The area of a rectangle is the product of its length and width; in 
+              symbols, <m>A=\ell \times w</m>.
+            </p>
+          </statement>
+        </principle>
+        <principle xml:id="principle-areasums">
+          <statement>
+            <p>
+              If a region can be cut into non-overlapping sections, 
+              the area of the whole region is equal to the sum of the 
+              areas of the sections.
+            </p>
+          </statement>
+        </principle>
         <p>
           Hopefully as you worked through this task, you allowed yourself 
           to experiment with different arrangements of squares and 
           polyominoes. This openness to exploration is essential to 
           mathematical thinking. Phrases like "what if" or "I wonder"  
-          arise often as a mathematician creates and makes sense 
+          arise often as mathematicians create and make sense 
           of new ideas. 
+        </p>
+
+        <p> In addition, mathematics is a social activity. When we notice 
+          patterns and make conjectures, we share our ideas with others and 
+          use logic to make convincing arguments. For over 2500 years, mathematicians 
+          have been adding to the body of mathematical knowledge; some of which has 
+          been shared with you during your studies. The field of mathematics continues 
+          to grow. 
         </p>
         <p>
           Unfortunately, most students have had little opportunity to 
           creatively explore in their mathematics classes. You have probably 
           memorized formulas and performed calculations in many of your mathematics 
-          classes. While formulas and calculations are useful tool
-          that come from mathematics, they are not the essence of mathematics. 
-          Moreover, a machine can do those skills better than a human can. In this course, 
-          we will practice the creative 
-          thinking, reasoning, and problem-solving practices that set us apart  
-          computers. We will suggest and try different approaches to problems. 
-          Hopefully, we will have fun along the way.  
-          
+          classes. While formulas and calculations are useful tools
+          in mathematics, they are not the essence of mathematics and 
+          can often be done via a computer. In this course, 
+          we will develop the creative 
+          thinking, reasoning, and problem-solving practices that set humans apart  
+          computers and are valued by employers. We will think outside the box, 
+          make predictions, and wonder why. Different approaches and strategies are encouraged. 
+          Relax and have fun exploring mathematics! 
 
         </p>
-      </conclusion>
     
-    </exploration>
 
 </section>
