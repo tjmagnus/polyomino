@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-area" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Area of Polygons</title>
+    <title>Area of Polygons and other Shapes in the Plane</title>
   <introduction>
     <p>
-        This section will include
+        In section <xref ref="intro-sec-explore"/>, we realized that the area of 
+          any rectangle filled with non-overlapping pentominoes would have
+          to be a multiple of five. 
     </p>
   </introduction>  
 

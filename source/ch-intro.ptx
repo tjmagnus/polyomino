@@ -4,8 +4,9 @@
     <title>Introduction to Geometrical Thinking</title>
 
     <xi:include href="sec-explore.ptx"/>
-    <xi:include href="sec-wonder.ptx"/>
+    <!-- <xi:include href="sec-wonder.ptx"/> -->
     <xi:include href="sec-argue.ptx"/>
+    <xi:include href="sec-apply.ptx"/>
     <xi:include href="sec-struggle.ptx"/>
     
     <!--<section xml:id="section-student">

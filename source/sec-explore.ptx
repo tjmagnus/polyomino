@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="explore" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="intro-sec-explore" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Invitation to Explore</title>
-    <exploration>
+    <exploration xml:id="intro-explore-exp-pentrect">
       
       <title>Tiling Rectangles with Polyominoes</title>
       
@@ -141,11 +141,11 @@
       
     </exploration>
         <p>
-          The purpose of the preceding activity is two-fold. It introduces the exploratory 
+          The purpose of <xref ref="intro-explore-exp-pentrect"/> is two-fold. It introduces the exploratory 
           nature of the course and it suggests a few important geometric facts that 
           we will use as our initial geometrical foundation. 
         </p>
-        <principle xml:id="principle-areameaning">
+        <principle xml:id="intro-explore-principle-areameaning">
           <statement>
             <p>
               The area of a closed figure in the plane is the number of unit  
@@ -153,7 +153,7 @@
             </p>
           </statement>
         </principle>
-        <principle xml:id="principle-arearect">
+        <principle xml:id="intro-explore-principle-arearect">
           <statement>
             <p>
               The area of a rectangle is the product of its length and width; in 
@@ -161,7 +161,7 @@
             </p>
           </statement>
         </principle>
-        <principle xml:id="principle-areasums">
+        <principle xml:id="intro-explore-principle-areasums">
           <statement>
             <p>
               If a region can be cut into non-overlapping sections, 

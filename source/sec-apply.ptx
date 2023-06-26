@@ -1,0 +1,15 @@
+<section xml:id="intro-sec-apply">
+<title>Invitation to Apply Knowledge </title>
+<p>Discuss some of the tools and how to use them.</p>
+
+<exercise>
+  <statement>
+    <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
+  </statement>
+  <hint>
+    <p>
+      Rewrite the fraction before taking the derivative.
+    </p>
+  </hint>
+</exercise>
+</section>
