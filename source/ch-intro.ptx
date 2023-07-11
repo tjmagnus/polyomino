@@ -2,14 +2,50 @@
 
 <chapter xml:id="ch-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Introduction to Geometrical Thinking</title>
+    <introduction>
+      <p>
+        Geometry is all around us, in nature, in architecture, in art,
+        in games, and in technology. Throughout history, humans have 
+        marveled upon geometrical patterns, investigated possibilities, 
+        developed geometrical tools, and shared these discoveries with 
+        others. Mathematicians use logic to confirm what they appear to 
+        see and to convince other scholars. Over time, the study of geometry 
+        evolved to the collection of axioms, theorems, and formulas that you 
+        may have studied in previous classes.
+      </p>
+      <p>
+        Some of these formulas and theorems are worth knowing well: basic area and volume 
+        formulas, the Pythagorean theorem, for example, arise frequently in applications and 
+        conversation. You will appear more literate if you can use them. However, 
+        memorization and application is not the primary goal of this course. 
+        After all, search engines, calculators, and artificial intelligence can provide us with formulas
+        and perform calculations.
+      </p>
+      <p>
+        Of greater worth, is the ability to see the mathematics around 
+        us, to ask questions and seek understanding, to imagine and create, 
+        and to share our knowledge with others. In this first chapter and 
+        throughout the book, you will be encouraged to practice mathematical 
+        habits of mind that will enable you to learn new ideas and delve deeper 
+        into familiar topics. Many of the geometrical ideas explored in this introductory 
+        chapter will be revisited later in the course. 
+      </p>
 
-    <xi:include href="sec-explore.ptx"/>
+    </introduction>
+    <paragraphs component="instructor">
+      <title>To the Instructor</title>
+      <p>DISCUSS HOW THIS SECTION RELATES TO FUTURE TOPICS 
+      AND GIVE JOURNAL POSSIBILITIES</p>
+    </paragraphs>
+
+    <xi:include href="sec-intro-explore.ptx"/>
     <!-- <xi:include href="sec-wonder.ptx"/> -->
-    <xi:include href="sec-argue.ptx"/>
-    <xi:include href="sec-apply.ptx"/>
-    <xi:include href="sec-struggle.ptx"/>
+    <xi:include href="sec-intro-argue.ptx"/>
+    <xi:include href="sec-intro-apply.ptx"/>
+    <xi:include href="sec-intro-struggle.ptx"/>
     
-    <!--<section xml:id="section-student">
+    <!--move to preface
+      <section xml:id="section-student">
         <title>To the Student</title>
         <p>
         Why do we study geometry? Geometry is one of the oldest fields of study and

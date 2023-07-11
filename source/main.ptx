@@ -43,6 +43,108 @@
           </shortlicense>
         </copyright>
       </colophon>
+      <!--
+         <dedication>
+    <p permid="mjH">
+      For WHO
+    </p>
+  </dedication>
+
+  <acknowledgement>
+    <p permid="SqQ">
+      Discuss where my inspiration came from: Henri Picciotto, others.
+    </p>
+
+    <p permid="yxZ">
+      Others who deserve mentioning. First testers perhaps.
+    </p>
+
+    <p permid="eFi">
+      Others?
+    </p>
+
+    <p permid="KMr">
+      The book would only be available in this interactive online
+       format, thanks to the support and assistance from (name some?)
+      participants of the
+      <url href="https://groups.google.com/forum/#!forum/pretext-support" visual="groups.google.com/forum/#!forum/pretext-support">pretext-support group</url>.
+    </p>
+
+    <p permid="qTA">
+      Finally, a thank you to the numerous students
+    </p>
+  </acknowledgement>
+
+  <preface xml:id="preface" permid="xOf">
+    <p permid="BsF">
+      This text aims to 
+    </p>
+
+    <p permid="NGX">
+      The topics covered 
+    </p>
+
+    <p permid="tOg">
+      Considerations for planning
+    </p>
+
+    <p permid="ZVp">
+      Okay to edit? 
+    </p>
+      
+      <p permid="kuu">
+        My hope is to continue improving the book, releasing a new edition each spring in time for fall adoptions.  These new editions will incorporate additions and corrections suggested by instructors and students who use the text the previous semesters.
+        Thus I encourage you to send along any suggestions and comments as you have them.
+      </p>
+    </paragraphs>
+    <attribution>
+    <line>Teresa D. Magnus, Ph.D.</line>
+    <line>Rivier University, 2024</line></attribution>
+  </preface>
+
+  <preface permid="dVo">
+    <title>How to use this book</title>
+    <p permid="Gcy">
+      Write a few paragraphs here
+    </p>
+
+    <paragraphs permid="qjG">
+      <title><em>Investigate!</em> activities</title>
+      <p permid="QBD">
+        Say something about the role of explorations.
+      </p>
+    </paragraphs>
+
+    <paragraphs permid="WqP">
+      <title>Examples</title>
+      <p permid="wIM">
+        Say something about examples or some other feature as appropriate.
+      </p>
+    </paragraphs>
+
+    <paragraphs permid="CxY">
+      <title>Exercises</title>
+      <p permid="cPV">
+        Add something here about how students should approach exercises. 
+      </p>
+      
+    </paragraphs>
+    
+    <paragraphs permid="iFh">
+      <title>Interactive Online Version</title>
+      <p permid="pen">
+        For those of you reading this in a PDF or in print, I encourage you to also check out the interactive online version, which makes navigating the book a little easier.  Additionally, some of the exercises are implemented as <webwork /> problems, which allow you to check your work without seeing the correct answer immediately.  Additional interactivity is planned, including instructional videos for examples and additional exercises at the end of sections.  These <q>bonus</q> features will be added on a rolling basis, so keep an eye out!  
+      </p>
+      <p permid="Vlw">
+        You can view the interactive version for free at <url href="http://discrete.openmathbooks.org/" visual="discrete.openmathbooks.org"/> or by scanning the QR code below with your smart phone.
+      </p>
+      
+      <sidebyside width="25%" permid="OMq">
+          <image source="images/qrcode.png"/>
+      </sidebyside>
+    </paragraphs>
+  </preface>
+      -->
     </frontmatter>
 
     <xi:include href="ch-intro.ptx"/>
@@ -58,29 +160,7 @@
     <xi:include href="ch-isom.ptx"/>
 
 
-    <!--<chapter xml:id="chapter-">
-      <title>Foundation: Area</title>
-
-      <section xml:id="section-polyomino">
-        <title>Exploring with Polyominos</title>
-        <p>Hello</p>
-
-        <exercise>
-          <statement>
-            <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
-          </statement>
-          <hint>
-            <p>
-              Rewrite the fraction before taking the derivative.
-            </p>
-          </hint>
-        </exercise>
-      </section>
-      <section xml:id="sec-rectangle">
-        <title>rectangle</title>
-        
-      </section>
-    </chapter> -->
+    
 
 
     <backmatter xml:id="backmatter">

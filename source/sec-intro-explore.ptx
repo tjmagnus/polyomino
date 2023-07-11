@@ -18,7 +18,37 @@
           greatly to your learning. Have fun!
         </p>
       </introduction>
-    
+    <paragraphs component="instructor">
+      <title>Instructor's Note:</title>
+      <p>
+        This activity should not require much of an introduction and 
+        provides an opportunity for students to get to know a few classmates  
+        and experience a tactile or visual learning experience 
+        in a low-stress environment. Expectations of group work can begin 
+        to be established. In my classes, I begin without using technology 
+        to encourage interaction. A HANDOUT IS AVAILABLE AT MY INSTRUCTOR's
+          PAGE.
+      </p>
+      <p>
+        As part of the post-exploration discussion, you may want 
+        to remind the students about how area is simply the number 
+        of unit squares that fill the interior. It can be noted how 
+        the area formula for a rectangle is easy to remember and related 
+        to the operation for multiplication. In addition, we will be using 
+        the fact that the total area is preserved when a figure is cut into 
+        smaller figures and then rearranged to form a new figure. This principle 
+        will be used to derive area formulas for other figures and to demonstrate 
+        the universality of the Pythagorean Theorem. 
+      </p>
+      <p>
+      This exploration is also available as a Desmos classroom activity. 
+      <url href="teacher.desmos.com/activitybuilder/custom/648a1bcce94034a3fecf0109"></url>.
+      For a tactile experience, a classroom set of pentominoes may be provided 
+      after students have had enough opportunity to discover most of them on their 
+      own in small groups. Printable pentominoes can be found online. 
+      Graph paper is useful for discovering pentominoes when technology is not used.
+    </p>
+  </paragraphs>
       <task>
         <statement>
           <p>
@@ -36,7 +66,7 @@
             This task may be completed with pen and paper or using an 
             interactive tool. 
           
-          <url href="https://mathigon.org/polypad/OqM1coKhvKsMuw"> 
+          <url href="mathigon.org/polypad/OqM1coKhvKsMuw"> 
             Interactive tool on Polypad by Mathigon
           </url>
         </p>
@@ -69,10 +99,11 @@
             Interactive tool on Polypad by Mathigon 
           </url>
         </p>
-      
+      <!--
           <interactive xml:id="which-fill-square" 
-          iframe="https://www.mathigon.org/polypad/deIUjqp9tTSpa" preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
-       
+          iframe="https://www.mathigon.org/polypad/deIUjqp9tTSpa" 
+          preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
+      -->
         </statement>
       </task>
 
@@ -98,9 +129,9 @@
           <p>
            Similarly, we define a <term>pentomino</term> to be a figure 
            formed by joining five congruent squares along edges. One pentomino 
-           is pictured. Use copies of the small square to construct other pentominoes. 
-           There are twelve total! Note that if two pentominos are reflections or 
-           rotations of the other we consider them to be the same pentomino.  
+           is pictured. Create new pentominoes by copying and moving the provided square.   
+           Note that if two pentominos are reflections or 
+           rotations of each other we consider them to be the same pentomino.  
           </p>
           <image source="buildpentominoes" width="70%">
             <description>
@@ -116,16 +147,53 @@
             </url>
           </p>
         </statement>
+        <hint>
+          <p>
+            There are twelve different pentominoes. Did you find them all?
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The pentominoes may be labeled as F, I, L, N, P, T, U, V, W, X, Y, and Z.
+            Can you figure out which is which?
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use some of the pentominoes you created to 
+            build solid rectangles. 
+            <ul>
+              <li>
+                <p>
+                  What dimensions are possible? Does it matter 
+                  whether you restrict yourself to never using
+                  a pentomino more than once in a rectangle?
+                </p>
+              </li>
+              <li>
+                <p>
+                Can you build a rectangle that 
+                uses every pentomino exactly once?
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+        <hint>
+          <p> An interactive Polypad activity can be accessed via Polypad by Mathigon 
+            using the link  <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">.
+            </url>
+          </p> 
+        </hint>
       </task>
 
       <task>
         <statement>
-          <p>
-            Use some of the different pentominoes you created to 
-            build solid rectangles. Use each pentomino at most once 
-            in each rectangle you build. What 
-            dimensions are possible? Can you build a rectangle that 
-            uses every pentomino exactly once?
+          <p> 
+            Are there any rectangles that cannot be filled using 
+            only pentominoes? Why?
           </p>
         </statement>
       </task>
@@ -133,10 +201,15 @@
       <task>
         <statement>
           <p>
-            What must be true about all of the rectangles you 
-            and your classmates constructed in the last question? Why?
+            As you participated in this exploration, what did you 
+            wonder? What did you notice about area?
           </p>
         </statement>
+        <hint>
+          <p>
+            There is no right or wrong answer here! Write something!
+          </p>
+        </hint>
       </task>
       
     </exploration>
@@ -198,7 +271,6 @@
           computers and are valued by employers. We will think outside the box, 
           make predictions, and wonder why. Different approaches and strategies are encouraged. 
           Relax and have fun exploring mathematics! 
-
         </p>
     
 
