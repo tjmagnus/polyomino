@@ -1,15 +1,100 @@
 <section xml:id="intro-sec-struggle">
     <title>Invitation to Learn through Struggle </title>
-    <p>add an activity here, perhaps geoboard squares and triangles.</p>
+    <introduction>
+      <p>
+        Talk about how we grow by moving beyond our comfort zone. That the 
+        nature of mathematics involves struggling with a problem, trying different 
+        strategies, taking breaks but persisting. In the explorations in this section, 
+        you will find that some of the problems are easy, but others require looking at 
+        the problem in new ways and trying different strategies.
+      </p>
+    </introduction>
 
-    <exercise>
-      <statement>
-        <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
-      </statement>
-      <hint>
+    <exploration xml:id="intro-struggle-exp-geoboardsq">
+      <title>Triangles on a Geoboard</title>
+      <introduction>
         <p>
-          Rewrite the fraction before taking the derivative.
+          In this exploration, we will work with a geoboard that has four rows 
+          and four columns of pins such as the one pictured below.
         </p>
-      </hint>
-    </exercise>
+        <image source="4by4geoboard" width="50%">
+          <description>
+            A grid with 16 dots arranged in four rows and four columns.
+          </description>
+        </image>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Refer to the picture of the <m>4\times 4</m>-geoboard above as you 
+            answer the questions.
+          </p>
+          <ol>
+            <li>
+              <p>
+                Measuring along any row, we will assume that the horizontal 
+                distance between neighboring dots on a geoboard is one unit. 
+                What is the distance across the top of the geoboard from the leftmost 
+                pin to the rightmost pin?
+              </p>
+            </li>
+            <li>
+              <p>
+                Similarly, the vertical distance between neighboring pins in any 
+                column will be one unit. Determine the area of the square whose vertices 
+                are the four outermost pins on this geoboard.
+              </p>
+            </li>
+            <li>
+              <p>
+                Determine the shortest diagonal distance between two pins. In other
+                words, what is the distance from the pin in the upper left corner to 
+                the pin in the second row and second column?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the distance from the top left pin to the bottom right pin?
+              </p>
+            </li>
+          </ol>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            As we construct triangles and other shapes on our geoboard, note that 
+            each vertex must be one one of the sixteen pins.
+          </p>
+          <ol>
+            <li xml:id="lgst-4x4geobd-tri">
+              <p>
+                Construct a triangle with the smallest possible area. 
+                What is the area?
+              </p>
+            </li>
+            <li>
+              <p>
+                On the first geoboard below, construct a triangle with the largest possible area. What is this area? 
+                On the second geoboard, construct a second triangle with a different shape but the same area as the 
+                one you just drew.
+              </p>
+              <!--Add side by side geoboard images here.-->
+            </li>
+          </ol>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p> 
+            On each geoboard below, construct a square with an area different than 
+            any square you've already drawn. Counting the triangles you drew in 
+            <xref ref="lgst-4x4geobd-tri"/>, it is possible to create a total of eight 
+            triangles each with a different area.
+          </p>
+          <!--add seven copies of the 4x4 geoboard-->
+        </statement>
+      </task>
+    </exploration>
+    
   </section>
