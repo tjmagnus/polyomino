@@ -1,15 +1,28 @@
 <section xml:id="intro-sec-apply">
 <title>Invitation to Apply Knowledge </title>
-<p>Discuss some of the tools and how to use them.</p>
-
-<exercise>
-  <statement>
-    <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
-  </statement>
-  <hint>
-    <p>
-      Rewrite the fraction before taking the derivative.
-    </p>
-  </hint>
-</exercise>
+<introduction>
+<p>
+  Throughout our learning, and in fact throughout our lives, we add knowledge to our toolkit
+  that we can later reference as needed. The tools in our toolkit can then be used to solve problems, 
+  to further build our understanding of related concepts, and to support the validity of an argument.
+</p>
+<p> 
+  Our first tools will be the principles, <xref ref="intro-explore-principle-areameaning"/>, 
+  <xref ref="intro-explore-principle-arearect"/>, and <xref ref="intro-explore-principle-areasums"/> from 
+  <xref ref="intro-sec-explore"/>. In other words, we can use the area formula for a rectangle and 
+  the fact that the area of a region is equal to the sum of the area of its parts. 
+  We will also include in our toolbox all of the algebraic rules 
+  and procedures that allow us to perform calculations, simplify expressions, and solve 
+  equations. Eventually we will add more tools to our collection including the Pythagorean theorem and 
+  area formulas for other shapes. In the following exploration, you may use the Pythagorean theorem 
+  and the area formula for a triangle, but you are encouraged to try to answer the questions with 
+  only the tools we already have. In fact, if you find yourself using the Pythagorean theorem, there is  
+  probably an easier method!
+</p>
+</introduction>
+<exploration>
+  <p>
+    A variation of the tangram activity will work here.
+  </p>
+</exploration>
 </section>
