@@ -7,22 +7,150 @@
   to further build our understanding of related concepts, and to support the validity of an argument.
 </p>
 <p> 
-  Our first tools will be the principles, <xref ref="intro-explore-principle-areameaning"/>, 
+  Inside the toolbox for this course, we currently have the three principles, <xref ref="intro-explore-principle-areameaning"/>, 
   <xref ref="intro-explore-principle-arearect"/>, and <xref ref="intro-explore-principle-areasums"/> from 
   <xref ref="intro-sec-explore"/>. In other words, we can use the area formula for a rectangle and 
   the fact that the area of a region is equal to the sum of the area of its parts. 
   We will also include in our toolbox all of the algebraic rules 
   and procedures that allow us to perform calculations, simplify expressions, and solve 
-  equations. Eventually we will add more tools to our collection including the Pythagorean theorem and 
-  area formulas for other shapes. In the following exploration, you may use the Pythagorean theorem 
-  and the area formula for a triangle, but you are encouraged to try to answer the questions with 
-  only the tools we already have. In fact, if you find yourself using the Pythagorean theorem, there is  
-  probably an easier method!
+  equations. Eventually we will add more tools to our collection including the Pythagorean theorem, 
+  area formulas for other shapes, and other geometrical theorems and formulas. Definitions are also important 
+  in mathematics as they often include key properties. As we encounter new definitions, these too 
+  will be added to our tool box. <!--add definitions for rectangle parallelogram and triangle trapezoid, 
+    isosceles, equilateral, equiangular, concave, and convex-->
 </p>
+
 </introduction>
-<exploration>
+<exploration xml:id="intro-explore-apply-tangram">
+      
+<title>Explorations with Tangrams</title>
+
+<introduction>
   <p>
-    A variation of the tangram activity will work here.
+    In this exploration, use the tools currently in our toolbox as you answer the questions. 
+    You may find yourself wanting to use the Pythagorean theorem 
+    and the area formula for a triangle, but you are encouraged to try to answer the questions 
+    without these formulas. In fact, if you find yourself using the Pythagorean theorem, there is  
+    probably an easier method!
   </p>
+  <p>
+    A set of tangrams consists of the following seven pieces, two large triangles, one medium 
+    triangle, a parallelogram, a square, and two small triangles. 
+  </p>
+    <image source="tangram_pieces" width="90%">
+      <description>
+        Seven tangram shapes. The triangles are all isosceles right triangles and the parallelogram 
+        is equilateral. The small triangles can be arranged to fill either the square, 
+        the parallelogram, or the medium triangle. The hypotenuse of the medium triangle is the same 
+        as the base of the large triangle. 
+      </description>
+    </image>
+  <p> 
+    You are encourage to move the pieces around: either print and cut the shapes shown above or 
+    open the tangram interactive on Polypad by Mathigon.
+    <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">  
+      Interactive Tangrams on Polypad by Mathigon
+    </url>
+  </p>
+
+</introduction>
+<task>
+  <statement>
+  <p>
+    Assume that the length of each side of the square is 1 unit. Determine the area of each of  
+    the figures:
+  </p>
+    <ol>
+      <li>
+        <p>
+          The area of the square.
+        </p>
+      </li>
+      <li>
+        <p>
+          The area of one small triangle.
+        </p>
+      </li>
+      <li>
+        <p>
+          The area of the parallelogram.
+        </p>
+      </li>
+      <li>
+        <p>
+          The area of the medium triangle.
+        </p>
+      </li>
+      <li>
+        <p>
+          The area of the large triangle.
+        </p>
+      </li>
+    </ol> 
+</statement>
+</task>
+<task>
+  <statement>
+  <p> 
+    This one does require the Pythagorean Theorem!!! Find the lengths.
+  </p>
+  </statement>
+</task>
+<task>
+  <statement>
+    <p>
+      Construct each of the following if possible:
+    </p>
+    <ol>
+      <li>
+        <p>
+          A triangle using three tangram pieces.
+        </p>
+      </li>
+      <li>
+        <p>
+          A rectangle
+        </p>
+      </li>
+      <li>
+        <p>
+          A parallelogram that is not a rectangle using two pieces.
+        </p>
+      </li>
+      <li>
+        <p>
+          A non-isosceles trapezoid (you choose the number of pieces).
+        </p>
+      </li>
+      <li>
+        <p>
+          A pentagon.
+        </p>
+      </li>
+      <li>
+        <p>
+          A non-square rectangle using all seven pieces.
+        </p>
+      </li>
+      <li>
+        <p>
+          A square using all seven pieces.
+        </p>
+        <ol>
+          <li>
+            <p>
+              What is the area of this square?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the side length of this square?
+            </p>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </statement>
+</task>
 </exploration>
 </section>
