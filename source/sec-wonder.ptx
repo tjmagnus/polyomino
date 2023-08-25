@@ -1,6 +1,8 @@
 <section xml:id="intro-sec-wonder">
     <title>Invitation to Notice and Wonder </title>
-    <p>add an activity here, perhaps Mobius band, spherical triangles, or Euler's formula.</p>
+    <p>add an activity here, perhaps Mobius band, spherical triangles, or Euler's formula.
+      Another idea is to add the sum of first <m>n</m> numbers equals <m>n^2</m> here.
+    </p>
 
     <exercise>
       <statement>

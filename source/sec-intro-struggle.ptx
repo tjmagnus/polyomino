@@ -1,8 +1,18 @@
 <section xml:id="intro-sec-struggle">
-    <title>Invitation to Learn through Struggle </title>
+    <title>Invitation to Overcome Challenges </title>
     <introduction>
       <p>
-        Talk about how we grow by moving beyond our comfort zone. That the 
+        Have you ever watched a baby learn a new skill, like walking, crawling, or even 
+        rolling over? The child does not master the skill on the first try, but they are 
+        determined. They fall down, but they keep trying. They readjust what they are doing, 
+        figure out how to create momentum and balance, and finally succeed. Even then they 
+        may stumble, but they persist. In the process, they grow stronger and can apply these  
+        skills to later learning, like running, climbing the cabinets, reaching the cookie jar.
+      </p>
+      <p>
+        Throughout our lives, we grow by challenging ourselves to move beyond our comfort zone. 
+        We learn to read and write, to play games and sports, to cook, make music, or other art. 
+        Our brains are muscles that develop as we attempt new challenges. That the 
         nature of mathematics involves struggling with a problem, trying different 
         strategies, taking breaks but persisting. In the explorations in this section, 
         you will find that some of the problems are easy, but others require looking at 
@@ -76,10 +86,17 @@
             <li>
               <p>
                 On the first geoboard below, construct a triangle with the largest possible area. What is this area? 
-                On the second geoboard, construct a second triangle with a different shape but the same area as the 
-                one you just drew.
+                What is this area? On the second geoboard, construct a second 
+                triangle with a different shape but the same area.
               </p>
-              <!--Add side by side geoboard images here.-->
+              <sidebyside widths="30% 30% 30%">
+                <image source="4by4geoboard"/>
+                <image source="4by4geoboard"/>
+                <p> What is the area?</p>
+              </sidebyside>
+        
+             
+
             </li>
           </ol>
         </statement>

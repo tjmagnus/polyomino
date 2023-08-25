@@ -1,15 +1,61 @@
 <section xml:id="intro-sec-argue">
     <title>Invitation to Discover "Why" </title>
-    <p>What happens when you add odd numbers together?</p>
+    <!--Might move into chapter on area near area formulas assignment-->
+    
 
-    <exercise>
+    <exploration>
+      <task>
       <statement>
-        <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
+        <p> Compute the following sums?
+          <ol>
+            <li>
+              <p>
+                <m>1+3</m>
+              </p>
+            </li>
+            <li>
+              <m>1+3+5</m>
+            </li>
+            <li>
+              <m>1+3+5+7</m>
+            </li>
+            <li>
+              <m>1+3+5+7+9</m>
+            </li>
+          </ol> 
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Without actually adding the values, make a prediction for the 
+          following sums:
+          <ol>
+            <li>
+              <m>1+3+5+\cdots +11</m>
+            </li>
+            <li>
+              <p>
+                <m>1+3+5+\cdots + 41</m>
+              </p>
+            </li>
+            <li>
+              <m>1+3+5+\cdots +201</m>
+            </li>
+          </ol>
+        </p>
       </statement>
       <hint>
         <p>
-          Rewrite the fraction before taking the derivative.
+          The expression <m>1+3+5+\cdots + 11</m> is another way of writing 
+          <m>1+3+5+7+9+11</m>. We write enough addends to establish a pattern  
+          and then the <m>\cdots </m> tells the reader that the pattern continues.
+          The <m>+11</m> at the end indicates that the sum will end when the pattern 
+          reaches <m>11</m>. 
         </p>
       </hint>
-    </exercise>
+    </task>
+    </exploration>
+      
   </section>
