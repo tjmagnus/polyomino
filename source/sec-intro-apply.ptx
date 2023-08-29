@@ -1,6 +1,7 @@
 <section xml:id="intro-sec-apply">
 <title>Invitation to Apply Knowledge </title>
-<introduction>
+<subsection xml:id="subsec-Building-Toolbox">
+  <title>Building a Course Toolbox</title>
 <p>
   Throughout our learning, and in fact throughout our lives, we add knowledge to our toolkit
   that we can later reference as needed. The tools in our toolkit can then be used to solve problems, 
@@ -14,17 +15,66 @@
   We will also include in our toolbox all of the algebraic rules 
   and procedures that allow us to perform calculations, simplify expressions, and solve 
   equations. Eventually we will add more tools to our collection including the Pythagorean theorem, 
-  area formulas for other shapes, and other geometrical theorems and formulas. Definitions are also important 
-  in mathematics as they often include key properties. As we encounter new definitions, these too 
-  will be added to our tool box. <!--add definitions for rectangle parallelogram and triangle trapezoid, 
-    isosceles, equilateral, equiangular, concave, and convex-->
+  area formulas for other shapes, and other geometrical theorems and formulas. 
 </p>
-
-</introduction>
+<p>
+  Definitions are also important 
+  in mathematics as they often include key properties. As we encounter new definitions, these too 
+  will be added to our tool box. In the first part of this course, we will work 
+  primarily with polygons. What is a polygon? Giving a clear, clean definition of the word
+  "polygon" is difficult so we will describe it verbally and give several examples. If you search for 
+  the definition, you will probably learn that a polygon is a closed plane figure formed by a sequence 
+  of straight 
+  sides. Thus a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
+  that a polygon will have a well-defined interior; the polygon forms a solid boundary between this 
+  interior and the rest of the plane.
+</p>
+<figure width="%" xml:id="polygonvisualdefinition">
+  <caption>Some examples of polygons</caption>
+  <sidebyside>
+    <figure>
+      <caption>A right trapezoid</caption>
+      <image source="righttrapezoid">
+        <description>(for accessibility)</description>
+      </image>
+    </figure>
+    <figure>
+      <caption>A concave pentagon.</caption>
+      <image source="concavepentagon"/>
+    </figure>
+  </sidebyside>
+</figure>
+<figure xml:id="nonpolygons">
+  <caption>Examples of figures that are not polygons</caption>
+  <sidebyside>
+    <figure>
+      <caption>Not closed.</caption>
+      <image source="unclosed">
+        <description>
+          A figure formed by line segments with a gap remaining.
+        </description>
+      </image>
+    </figure>
+    <figure>
+      <caption>Curved edges</caption>
+      <image source="acurvedside"> 
+        <description>
+          A closed figure consisting of some straight sides and 
+          some curved sides. 
+        </description>
+      </image>
+    </figure>
+  </sidebyside>
+</figure>
+<p>
+  Definitions for some polygons and related properties are provided at the 
+  end of the section. You are encouraged to refer to them if you are uncertain 
+  about any terms you encounter.
+</p>
+</subsection>
 <exploration xml:id="intro-explore-apply-tangram">
-      
-<title>Explorations with Tangrams</title>
 
+<title>Explorations with Tangrams</title>
 <introduction>
   <p>
     In this exploration, use the tools currently in our toolbox as you answer the questions. 
@@ -37,7 +87,9 @@
     A set of tangrams consists of the following seven pieces, two large triangles, one medium 
     triangle, a parallelogram, a square, and two small triangles. 
   </p>
-    <image source="tangram_pieces" width="90%">
+  <figure xml:id="Tangrampieces">
+    <caption>The Seven Tangrams</caption>
+    <image source="tangram_pieces">
       <description>
         Seven tangram shapes. The triangles are all isosceles right triangles and the parallelogram 
         is equilateral. The small triangles can be arranged to fill either the square, 
@@ -45,14 +97,14 @@
         as the base of the large triangle. 
       </description>
     </image>
+  </figure>
   <p> 
-    You are encourage to move the pieces around: either print and cut the shapes shown above or 
+    You are encouraged to move the pieces around: either print and cut the shapes shown above or 
     open the tangram interactive on Polypad by Mathigon.
     <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">  
       Interactive Tangrams on Polypad by Mathigon
     </url>
   </p>
-
 </introduction>
 <task>
   <statement>
@@ -92,7 +144,9 @@
 <task>
   <statement>
   <p> 
-    This one does require the Pythagorean Theorem!!! Find the lengths.
+    Find the lengths of the sides of each tangram shape. You may use the 
+    Pythagorean Theorem, but it is possible to determine these lengths 
+    without it!
   </p>
   </statement>
 </task>
@@ -165,5 +219,39 @@
     </p>
   </hint>
 </task>
+
+
+
+
 </exploration>
+  
+    <definition xml:id="def-triangle">
+      <statement>
+        <p>
+          A <term>triangle</term> is a polygon with exactly three sides.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-quadrilateral">
+      <statement>
+        <p>
+          A <term>quadrilateral</term> is a polygon with exactly three sides.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-ngon">
+      <statement>
+        <p>
+          A <term>pentagon</term> is a polygon with five sides. A <term>hexagon</term> 
+          has six sides. We use the general term <term><m>n</m>-gon</term> to describe  
+          a polygon with exactly <m>n</m> sides. Other common numerical prefixes 
+          used to describe polygons include <term>octa</term> (eight) and <term>deca</term> (ten).
+        </p>
+      </statement>
+    </definition>
+ 
+   <!--add definitions for rectangle parallelogram and triangle trapezoid, 
+    isosceles, equilateral, equiangular, concave, and convex-->
+
+
 </section>
