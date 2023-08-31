@@ -6,71 +6,35 @@
   Throughout our learning, and in fact throughout our lives, we add knowledge to our toolkit
   that we can later reference as needed. The tools in our toolkit can then be used to solve problems, 
   to further build our understanding of related concepts, and to support the validity of an argument.
+  You are already familiar with some of these tools. You've learned how to perform 
+  computations, have used some geometric formulas, and can recognize many shapes. 
 </p>
 <p> 
-  Inside the toolbox for this course, we currently have the three principles, <xref ref="intro-explore-principle-areameaning"/>, 
+  Although you may already know some of the facts and formulas from previous coursework, we 
+  will develop a toolbox from the ground up, starting with basic principles and assumptions 
+  that are intuitively obvious. With many geometric formulas and theorems, we will want to explore 
+  why these are true before adding them to our toolbox. Currently our course toolbox only 
+  contains the three principles, <xref ref="intro-explore-principle-areameaning"/>, 
   <xref ref="intro-explore-principle-arearect"/>, and <xref ref="intro-explore-principle-areasums"/> from 
-  <xref ref="intro-sec-explore"/>. In other words, we can use the area formula for a rectangle and 
-  the fact that the area of a region is equal to the sum of the area of its parts. 
+  <xref ref="intro-sec-explore"/>. In other words, we can think about the area of a region as 
+  the number of <m>1\times1</m> blocks that fills the interior, we can use the area formula 
+  for a rectangle, and we know that
+  the area of a region is equal to the sum of the area of its parts. 
   We will also include in our toolbox all of the algebraic rules 
   and procedures that allow us to perform calculations, simplify expressions, and solve 
   equations. Eventually we will add more tools to our collection including the Pythagorean theorem, 
-  area formulas for other shapes, and other geometrical theorems and formulas. 
+  area formulas for other shapes, and other geometrical theorems and formulas, but the
+  reasons behind these will be explored in future sections and based on the initial three 
+  principles. 
 </p>
 <p>
-  Definitions are also important 
-  in mathematics as they often include key properties. As we encounter new definitions, these too 
-  will be added to our tool box. In the first part of this course, we will work 
-  primarily with polygons. What is a polygon? Giving a clear, clean definition of the word
-  "polygon" is difficult so we will describe it verbally and give several examples. If you search for 
-  the definition, you will probably learn that a polygon is a closed plane figure formed by a sequence 
-  of straight 
-  sides. Thus a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
-  that a polygon will have a well-defined interior; the polygon forms a solid boundary between this 
-  interior and the rest of the plane.
+  Definitions are important in mathematics as they often include key properties. 
+  As we encounter new definitions, these too 
+  will be added to our tool box. As you work through the next exploration, you will 
+  encounter terms like trapezoid and isosceles. Definitions for these and other terms are 
+  provided at the end of this section in case you would like to refresh your memory. 
 </p>
-<figure width="%" xml:id="polygonvisualdefinition">
-  <caption>Some examples of polygons</caption>
-  <sidebyside>
-    <figure>
-      <caption>A right trapezoid</caption>
-      <image source="righttrapezoid">
-        <description>(for accessibility)</description>
-      </image>
-    </figure>
-    <figure>
-      <caption>A concave pentagon.</caption>
-      <image source="concavepentagon"/>
-    </figure>
-  </sidebyside>
-</figure>
-<figure xml:id="nonpolygons">
-  <caption>Examples of figures that are not polygons</caption>
-  <sidebyside>
-    <figure>
-      <caption>Not closed.</caption>
-      <image source="unclosed">
-        <description>
-          A figure formed by line segments with a gap remaining.
-        </description>
-      </image>
-    </figure>
-    <figure>
-      <caption>Curved edges</caption>
-      <image source="acurvedside"> 
-        <description>
-          A closed figure consisting of some straight sides and 
-          some curved sides. 
-        </description>
-      </image>
-    </figure>
-  </sidebyside>
-</figure>
-<p>
-  Definitions for some polygons and related properties are provided at the 
-  end of the section. You are encouraged to refer to them if you are uncertain 
-  about any terms you encounter.
-</p>
+
 </subsection>
 <exploration xml:id="intro-explore-apply-tangram">
 
@@ -99,11 +63,13 @@
     </image>
   </figure>
   <p> 
-    You are encouraged to move the pieces around: either print and cut the shapes shown above or 
-    open the tangram interactive on Polypad by Mathigon.
+    To complete this exploration, you will need to move the seven Tangram pieces 
+    around. If you do not have a set of Tangrams, you may print and cut out the 
+    shapes shown above. A tangram interactive is also availabe on Polypad by Mathigon
+    via the link
     <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">  
       Interactive Tangrams on Polypad by Mathigon
-    </url>
+    </url>.
   </p>
 </introduction>
 <task>
@@ -144,7 +110,8 @@
 <task>
   <statement>
   <p> 
-    Find the lengths of the sides of each tangram shape. You may use the 
+    Still assuming that length of each side of the square is 1 unit,
+    now find the lengths of the sides of the other tangram shapes. You may use the 
     Pythagorean Theorem, but it is possible to determine these lengths 
     without it!
   </p>
@@ -220,11 +187,59 @@
   </hint>
 </task>
 
-
-
-
 </exploration>
-  
+  <subsection xml:id="subsec-defining-polygons">
+    <title>Defining-Polygons</title>
+<p>
+  In the first part of this course, we will work 
+  primarily with polygons. What is a polygon? Giving a clear, clean definition of the word
+  "polygon" is difficult so we will describe it verbally and give several examples. If you search for 
+  the definition, you will probably learn that a polygon is a closed plane figure formed by a sequence 
+  of straight 
+  sides. Thus a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
+  that a polygon will have a well-defined interior; the polygon forms a solid boundary between this 
+  interior and the rest of the plane.
+</p>
+<figure width="%" xml:id="polygonvisualdefinition">
+  <caption>Some examples of polygons</caption>
+  <sidebyside>
+    <figure>
+      <caption>A right trapezoid</caption>
+      <image source="righttrapezoid">
+        <description>(for accessibility)</description>
+      </image>
+    </figure>
+    <figure>
+      <caption>A concave pentagon.</caption>
+      <image source="concavepentagon"/>
+    </figure>
+  </sidebyside>
+</figure>
+<figure xml:id="nonpolygons">
+  <caption>Examples of figures that are not polygons</caption>
+  <sidebyside>
+    <figure>
+      <caption>Not closed.</caption>
+      <image source="unclosed">
+        <description>
+          A figure formed by line segments with a gap remaining.
+        </description>
+      </image>
+    </figure>
+    <figure>
+      <caption>Curved edges</caption>
+      <image source="acurvedside"> 
+        <description>
+          A closed figure consisting of some straight sides and 
+          some curved sides. 
+        </description>
+      </image>
+    </figure>
+  </sidebyside>
+</figure>
+<p>
+  Some specific types of polygons are defined below. We add these to our toolbox.
+</p>
     <definition xml:id="def-triangle">
       <statement>
         <p>
@@ -246,12 +261,143 @@
           has six sides. We use the general term <term><m>n</m>-gon</term> to describe  
           a polygon with exactly <m>n</m> sides. Other common numerical prefixes 
           used to describe polygons include <term>octa</term> (eight) and <term>deca</term> (ten).
+          These will be explored more in <xref ref="ch-polygons"/>.
         </p>
       </statement>
     </definition>
+    <p> 
+      Some polygons are defined by the types of angles they have.
+    </p>
+    <definition xml:id="def-types-of-angles">
+      <statement>
+        <p>
+          An angle is said to be a <term>right angle</term> if its measure is 90 degrees. 
+          Angles that have measures less than 90 degrees are said to be <term>acute</term> and 
+          angles with measures greater than 90 degrees are said to be <term>obtuse</term>.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-triangles-by-angles">
+      <statement>
+        <p>
+          A triangle is said to be a <term>right triangle</term> if one of its angles is a 
+          right angle. If one of its angles is obtuse, we say that the triangle is an 
+          <term>obtuse triangle</term>. An <term>acute triangle</term> is a triangle with 
+          three acute angles. We will explore the measurement of angles more in 
+          <xref ref="ch-polygons"/> and <xref ref="ch-isom"/>.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-rectquads">
+      <statement>
+        <p>
+          A quadrilateral with four right angles is called a <term>rectangle</term>
+          A <term>square</term> is a rectangle whose sides are all the same length.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-equiangular">
+      <statement>
+        <p>
+          A polygon is said to be <term>equiangular</term> if all of its angles have 
+          the same measure.
+        </p>
+      </statement>
+    </definition>
+    <p>
+      Quadrilaterals may also be described by the existance of parallel sides.
+    </p>
+    <definition xml:id="def-parallel">
+      <statement>
+        <p>
+          Two lines are said to be <term>parallel</term> if they never meet. 
+          Two line segments or two sides of a polygon are said to be 
+          <term>parallel</term> if the lines they are a part of are parallel.
+          Note that a line always extends infinitely in two directions while a 
+          line segment has endpoints.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-parallelogram">
+      <statement>
+        <p>
+          A <term>parallelogram</term> is a quadrilateral with two pairs of 
+          parallel sides.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-trapezoid">
+      <statement>
+        <p>
+          A quadrilateral with exactly one pair of parallel sides is called 
+          a <term>trapezoid</term>.
+        </p>
+      </statement>
+    </definition>
+    <p>
+      Triangles and other polygons may also be classified by whether sides have the same length.
+      The word <term>congruent</term> means same length when used to describe line segments
+      or sides of polygons.
+    </p>
+    <definition xml:id="def-equilateral">
+      <statement>
+        <p>
+          A polygon is described as being <term>equilateral</term> if all of its sides 
+          are congruent. An equilateral quadrilateral is called a <term>rhombus</term>.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-isosceles">
+      <statement>
+        <p>
+          The word <term>isosceles</term> comes from two Greek words, <sq>isos</sq> meaning <sq>equal</sq> 
+          and <sq>skelos</sq> meaning <sq>leg</sq>. An <term>isosceles triangle</term> is a triangle with two  
+          congruent sides. An <term>isosceles trapezoid</term> is a trapezoid with two 
+          congruent, non-parallel sides.  
+        </p>
+      </statement>
+    </definition>
+    <aside>
+      <title>Isosceles and Equilateral Triangles</title>
+      <p>
+        Some textbooks will restrict the term isosceles triangle to a triangle with exactly two  
+        congruent sides while others allow two or all three of the sides to be congruent. 
+        This latter definition is used when one is  
+        one wants to argue that properties of isosceles triangles extend to equilateral triangles.
+    </p> 
+    <!--The next two paragraphs do not appear. Perhaps they will when more is added to this section.-->
+    <p>
+        Should you become a teacher, it is wise to be mindful of how your textbook uses these terms. In the early 
+        sections of this text, we will distinguish between isosceles and equilateral triangles  
+        as you are asked to sketch and identify examples. When we explore properties of triangles, 
+        you may use the fact that properties of an isosceles triangle will also hold for equilateral  
+        triangles. 
+      </p> 
+      <p>
+        In case you are curious, <sq>equilateral</sq> comes from Latin and French words meaning equal 
+        sides.
+      </p>
+    </aside>
+    <definition xml:id="def-scalene">
+      <statement>
+        <p>
+          A triangle with no congruent angles is said to be a <term>scalene triangle</term>.
+        </p>
+      </statement>
+    </definition>
+    <p>
+      We also distinguish between convex and concave polygons.
+    </p>
+    <definition xml:id="def-">
+      <statement>
+        <p>
+          A <term>convex polygon</term> is
+        </p>
+      </statement>
+    </definition>
+  </subsection>
  
-   <!--add definitions for rectangle parallelogram and triangle trapezoid, 
-    isosceles, equilateral, equiangular, concave, and convex-->
+   <!--add exploration on total angle measure of a triangle? corresponding angles?-->
 
 
 </section>

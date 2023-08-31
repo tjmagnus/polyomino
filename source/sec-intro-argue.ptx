@@ -2,7 +2,6 @@
     <title>Invitation to Discover "Why" </title>
     <!--Might move into chapter on area near area formulas assignment-->
     
-
     <exploration>
       <task>
       <statement>
@@ -56,6 +55,32 @@
         </p>
       </hint>
     </task>
-    </exploration>
-      
+    <task>
+      <statement>
+        <p>
+          Based on your work above, give a simple formula that can be used to 
+          calculate <m>1+3+5+\cdots+(2n+1)</m> for any positive integer <m>n</m>.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          In the previous problem, <m>n=100</m> since <m>201=2(100)+1</m>.
+        </p>
+      </hint>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Here I plan to add a sequence of pictures of squares.
+        </p>
+      </statement>
+    </task>
+  </exploration>
+  <subsection xml:id="subsec-explain">
+    <title>Conjectures and Explanations in Mathematics</title>
+    <p>
+      Have you ever wondered how mathematics came into existence? A simple answer is 
+      that someone explored mathematical objects, like numbers or 
+    </p>
+  </subsection>    
   </section>
