@@ -1,6 +1,6 @@
 <section xml:id="intro-sec-apply">
 <title>Invitation to Apply Knowledge </title>
-<subsection xml:id="subsec-Building-Toolbox">
+<subsection xml:id="intro-apply-subsec-BuildingToolbox">
   <title>Building a Course Toolbox</title>
 <p>
   Throughout our learning, and in fact throughout our lives, we add knowledge to our toolkit
@@ -36,7 +36,7 @@
 </p>
 
 </subsection>
-<exploration xml:id="intro-explore-apply-tangram">
+<exploration xml:id="intro-apply-explore-tangram">
 
 <title>Explorations with Tangrams</title>
 <introduction>
@@ -188,8 +188,8 @@
 </task>
 
 </exploration>
-  <subsection xml:id="subsec-defining-polygons">
-    <title>Defining-Polygons</title>
+  <subsection xml:id="intro-apply-subsec-definingpolygons">
+    <title>Defining Polygons</title>
 <p>
   In the first part of this course, we will work 
   primarily with polygons. What is a polygon? Giving a clear, clean definition of the word
@@ -268,7 +268,7 @@
     <p> 
       Some polygons are defined by the types of angles they have.
     </p>
-    <definition xml:id="def-types-of-angles">
+    <definition xml:id="def-typesofangles">
       <statement>
         <p>
           An angle is said to be a <term>right angle</term> if its measure is 90 degrees. 
@@ -381,23 +381,43 @@
     <definition xml:id="def-scalene">
       <statement>
         <p>
-          A triangle with no congruent angles is said to be a <term>scalene triangle</term>.
+          A triangle with no congruent sides is said to be a <term>scalene triangle</term>.
         </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-kite">
+      <statement>
+        A <term>kite</term> is a quadrilateral with two pairs of adjacent 
+        congruent sides. A kite has reflective (fold) symmetry across one of its  
+        diagonals.
       </statement>
     </definition>
     <p>
       We also distinguish between convex and concave polygons.
     </p>
-    <definition xml:id="def-">
+    <definition xml:id="def-convexconcave">
       <statement>
         <p>
-          A <term>convex polygon</term> is
+          A polygon is <term>convex polygon</term> if every interior angle has a measure  
+          less than 180 degrees. If a polygon is not convex, then it is <term>concave</term>.
         </p>
       </statement>
     </definition>
+
   </subsection>
  
    <!--add exploration on total angle measure of a triangle? corresponding angles?-->
 
+   <subsection xml:id="subsec">
+    <title>Angles of a Triangle</title>
+    <p>
+    UNDER CONSTRUCTION!!!This section may include an exploration that leads to the claim that the total angle 
+    measure of a triangle is 180 degrees and possibly also the corresponding angle theorem. 
+      Make three congruent triangles such that the shape can be altered simultaneously, but 
+      the triangles can be translated and rotated freely. Be sure to note that we observed this  
+      without proof.
+      See <url href="https://www.geogebra.org/m/tdkudjys"></url>.
+    </p>
+   </subsection>
 
 </section>
