@@ -116,6 +116,7 @@
       <!-- <xi:include href="sec-wonder.ptx"/> -->
       <xi:include href="sec-intro-argue.ptx"/>
       <xi:include href="sec-intro-struggle.ptx"/>
+      <!--<xi:include href="sec-intro-journal.ptx"-->
       <xi:include href="sec-intro-references.ptx"/>
 
 </chapter>

@@ -18,7 +18,7 @@
   why these are true before adding them to our toolbox. Currently our course toolbox only 
   contains the three principles, <xref ref="intro-explore-principle-areameaning"/>, 
   <xref ref="intro-explore-principle-arearect"/>, and <xref ref="intro-explore-principle-areasums"/> from 
-  <xref ref="intro-sec-explore"/>. In other words, we can think about the area of a region as 
+  <xref ref="sec-intro-explore"/>. In other words, we can think about the area of a region as 
   the number of <m>1\times1</m> blocks that fills the interior, we can use the area formula 
   for a rectangle, and we know that
   the area of a region is equal to the sum of the area of its parts. 
@@ -190,7 +190,7 @@
 </task>
 
 </exploration>
-  <subsection xml:id="intro-apply-subsec-definingpolygons">
+<subsection xml:id="intro-apply-subsec-definingpolygons">
     <title>Defining Polygons</title>
 <p>
   In the first part of this course, we will work 
@@ -198,7 +198,7 @@
   "polygon" is difficult so we will describe it verbally and give several examples. If you search for 
   the definition, you will probably learn that a polygon is a closed plane figure formed by a sequence 
   of straight 
-  sides. Thus a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
+  sides. <idx><h>polygon</h></idx> Thus, a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
   that a polygon will have a well-defined interior; the polygon forms a solid boundary between this 
   interior and the rest of the plane.
 </p>
@@ -240,26 +240,42 @@
   </sidebyside>
 </figure>
 <p>
-  Some specific types of polygons are defined below. We add these to our toolbox.
+  Some specific types of polygons are defined below. We add these to our toolbox. 
+  An easy way to find definitions later is to use the index at the end of the textbook.
+  ADD MORE PERHAPS AN EXERCISE AND/OR VIDEO ON USING THE INDEX.
 </p>
     <definition xml:id="def-triangle">
+      <idx><h>triangle</h></idx>
+      <idx><h>polygon</h><h>triangle</h></idx>
       <statement>
         <p>
-          A <term>triangle</term> is a polygon with exactly three sides.
+          A <term>triangle</term> is a polygon with 
+          exactly three sides.
         </p>
       </statement>
     </definition>
     <definition xml:id="def-quadrilateral">
+      <idx><h>quadrilateral</h></idx>
+      <idx><h>polygon</h><h>quadrilateral</h></idx>
       <statement>
         <p>
-          A <term>quadrilateral</term> is a polygon with exactly three sides.
+          A <term>quadrilateral</term> is a 
+          polygon with exactly four sides.
         </p>
       </statement>
     </definition>
     <definition xml:id="def-ngon">
+      <idx><h>polygon</h><h>n-gon</h></idx>
+      <idx><h>polygon</h><h>pentagon</h></idx>
+      <idx><h>polygon</h><h>octagon</h></idx>
+      <idx><h>polygon</h><h>decagon</h></idx>
+      <idx><h>n-gon</h></idx>
+      <idx><h>pentagon</h></idx>
+      <idx><h>octagon</h></idx>
+      <idx><h>decagon</h></idx>
       <statement>
         <p>
-          A <term>pentagon</term> is a polygon with five sides. A <term>hexagon</term> 
+          A <term>pentagon</term> is a polygon <idx>n-gon</idx> with five sides. A <term>hexagon</term> 
           has six sides. We use the general term <term><m>n</m>-gon</term> to describe  
           a polygon with exactly <m>n</m> sides. Other common numerical prefixes 
           used to describe polygons include <term>octa</term> (eight) and <term>deca</term> (ten).
@@ -271,6 +287,12 @@
       Some polygons are defined by the types of angles they have.
     </p>
     <definition xml:id="def-typesofangles">
+      <idx><h>right</h><h>angle</h></idx>
+      <idx><h>acute</h><h>angle</h></idx>
+      <idx><h>obtuse</h><h>angle</h></idx>
+      <idx><h>angle</h><h>right</h></idx>
+      <idx><h>angle</h><h>acute</h></idx>
+      <idx><h>angle</h><h>obtuse</h></idx>
       <statement>
         <p>
           An angle is said to be a <term>right angle</term> if its measure is 90 degrees. 
@@ -280,6 +302,12 @@
       </statement>
     </definition>
     <definition xml:id="def-triangles-by-angles">
+      <idx><h>triangle</h><h>right</h></idx>
+      <idx><h>triangle</h><h>acute</h></idx>
+      <idx><h>triangle</h><h>obtuse</h></idx>
+      <idx><h>right</h><h>triangle</h></idx> 
+      <idx><h>acute</h><h>triangle</h></idx>
+      <idx><h>obtuse</h><h>triangle</h></idx>
       <statement>
         <p>
           A triangle is said to be a <term>right triangle</term> if one of its angles is a 
@@ -291,6 +319,10 @@
       </statement>
     </definition>
     <definition xml:id="def-rectquads">
+      <idx><h>quadrilateral</h><h>rectangle</h></idx>
+      <idx><h>quadrilateral</h><h>square</h></idx>
+      <idx><h>rectangle</h></idx>
+      <idx><h>square</h></idx>
       <statement>
         <p>
           A quadrilateral with four right angles is called a <term>rectangle</term>
@@ -299,6 +331,7 @@
       </statement>
     </definition>
     <definition xml:id="def-equiangular">
+      <idx><h>equiangular</h></idx>
       <statement>
         <p>
           A polygon is said to be <term>equiangular</term> if all of its angles have 
@@ -310,6 +343,8 @@
       Quadrilaterals may also be described by the existance of parallel sides.
     </p>
     <definition xml:id="def-parallel">
+      <idx><h>parallel</h><h>lines</h></idx>
+      <idx><h>parallel</h><h>sides of a polygon</h></idx>
       <statement>
         <p>
           Two lines are said to be <term>parallel</term> if they never meet. 
@@ -321,27 +356,55 @@
       </statement>
     </definition>
     <definition xml:id="def-parallelogram">
+      <idx><h>parallelogram</h></idx>
+      <idx><h>quadrilateral</h><h>parallelogram</h></idx>
+      <idx><h>parallelogram</h><h>altitude</h></idx>
+      <idx><h>parallelogram</h><h>base</h></idx>
+      <idx><h>altitude</h><h>parallelogram</h></idx>
+      <idx><h>base</h><h>parallelogram</h></idx>
       <statement>
         <p>
           A <term>parallelogram</term> is a quadrilateral with two pairs of 
-          parallel sides.
+          parallel sides. When describing the measurements of a 
+          parallelogram, it is useful to identify one side as the <term>base</term>.
+          The <term>height</term> of the parallelogram is measured along an 
+          <term>altitude</term>, namely a segment
+          formed connecting a point on the side opposite the base
+          to a point on the base such that the altitude meets the base at a right angle.
         </p>
       </statement>
     </definition>
     <definition xml:id="def-trapezoid">
+      <idx><h>trapezoid</h></idx>
+      <idx><h>quadrilateral</h><h>trapezoid</h></idx>
+      <idx><h>trapezoid</h><h>altitude</h></idx>
+      <idx><h>trapezoid</h><h>base</h></idx>
+      <idx><h>altitude</h><h>trapezoid</h></idx>
+      <idx><h>base</h><h>trapezoid</h></idx>
       <statement>
         <p>
           A quadrilateral with exactly one pair of parallel sides is called 
-          a <term>trapezoid</term>.
+          a <term>trapezoid</term>. One of the parallel sides is called the 
+          <term>base</term> and the other is called the <term>summit</term>. 
+          The height of a trapezoid is the distance between the base and the 
+          summit, measured along an altitude which is perpendicular to the base.
         </p>
       </statement>
     </definition>
+
     <p>
-      Triangles and other polygons may also be classified by whether sides have the same length.
-      The word <term>congruent</term> means same length when used to describe line segments
-      or sides of polygons.
+      Triangles and other polygons may also be classified by whether some of their 
+      sides have the same length.
+      Two sides of a polygon are said to be <term>congruent</term> 
+      <idx><h>congruent sides</h></idx> 
+      if they are the same length.
     </p>
     <definition xml:id="def-equilateral">
+      <idx><h>equilateral</h><h>triangle</h></idx>
+      <idx><h>equilateral</h><h>quadrilateral</h></idx>
+      <idx><h>rhombus</h></idx>
+      <idx><h>quadrilateral</h><h>rhombus</h></idx>
+      <idx><h>triangle</h><h>equilateral</h></idx>
       <statement>
         <p>
           A polygon is described as being <term>equilateral</term> if all of its sides 
@@ -350,6 +413,11 @@
       </statement>
     </definition>
     <definition xml:id="def-isosceles">
+      <idx><h>isosceles</h></idx>
+      <idx><h>isosceles</h><h>triangle</h></idx>
+      <idx><h>isosceles</h><h>trazezoid</h></idx>
+      <idx><h>triangle</h><h>isosceles</h></idx>
+      <idx><h>trapezoid</h><h>isosceles</h></idx>
       <statement>
         <p>
           The word <term>isosceles</term> comes from two Greek words, <sq>isos</sq> meaning <sq>equal</sq> 
@@ -381,6 +449,8 @@
       </p>
     </aside>
     <definition xml:id="def-scalene">
+      <idx><h>scalene</h></idx>
+      <idx><h>triangle</h><h>scalene</h></idx>
       <statement>
         <p>
           A triangle with no congruent sides is said to be a <term>scalene triangle</term>.
@@ -388,6 +458,8 @@
       </statement>
     </definition>
     <definition xml:id="def-kite">
+      <idx><h>kite</h></idx>
+      <idx><h>quadrilateral</h><h>kite</h></idx>
       <statement>
         A <term>kite</term> is a quadrilateral with two pairs of adjacent 
         congruent sides. A kite has reflective (fold) symmetry across one of its  
@@ -398,6 +470,10 @@
       We also distinguish between convex and concave polygons.
     </p>
     <definition xml:id="def-convexconcave">
+      <idx><h>convex</h></idx>
+      <idx><h>concave</h></idx>
+      <idx><h>polygon</h><h>convex</h></idx>
+      <idx><h>polygon</h><h>concave</h></idx>
       <statement>
         <p>
           A polygon is <term>convex polygon</term> if every interior angle has a measure  

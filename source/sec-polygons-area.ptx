@@ -2,22 +2,78 @@
 
 <section xml:id="sec-polygons-area" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Why do the area formulas hold?</title>
+    <introduction>
+        <p>
+            In these activities we will determine the area formulas for three 
+            shapes, a parallelogram, a triangle, and a trapezoid. Our goal 
+            will be not only to use the formulas but more importantly to be  
+            able to explain why they follow from the basic principles. In 
+            particular, we will use the formula for the area of a rectangle,
+            <m>A=\ell\times w</m>, as our starting point and derive other 
+            area formulas from it. 
+        </p>
+    </introduction>
     <exploration>
-        <title>Discovering Area Formulas</title>
+        <title>Discovering an Area Formula for a Parallelogram</title>
         <introduction>
             <p>
-                In this activity we will determine the area formulas for three 
-                shapes, a parallelogram, a triangle, and a trapezoid. Our goal 
-                will be not only to use the formulas but more importantly to be  
-                able to explain why they follow from the basic principles. 
+                Refer to the definition of parallogram <xref ref="def-parallelogram"/>
+                as needed to complete the following.
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    Add something here.
+                    Sketch the following:
+                </p>
+                    <ol>
+                        <li xml:id="sketchaparallelogram">
+                            <p>
+                                A parallelogram with two different angle
+                                measures and two different lengths.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A parallelogram with a least one acute angle 
+                                and four congruent sides.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A parallelogram with four congruent angles. What 
+                                do we usually call this parallelogram?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Two parallelograms which share the 
+                                same side lengths  
+                                but have different heights.
+                            </p>
+                        </li>
+                    </ol>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Beginning with the parallelogram pictured below or the one you 
+                            sketched in <xref ref="sketchaparallelogram"/>, explain and demonstrate 
+                            how you would construct a rectangle with the same area. You are allowed 
+                            to cut the parallelogram and rearrange or duplicate pieces as part of your 
+                            argument.
                 </p>
             </statement>
+        </task>
+        <task>
+        <statement>
+            <p>
+                Building on the previous problem, derive an area formula for a parallelogram.
+                Explain how it comes from the area formula for a rectangle and how you know it 
+                must work for all parallelograms.
+            </p>
+        </statement>
         </task>
     </exploration>
 </section>

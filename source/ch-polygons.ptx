@@ -4,18 +4,23 @@
     <title>Exploring Polygons</title>
   <introduction>
     <p>
+      Say something about how we will look at measurements related to polygons, 
+      beginning with area and then investigating angle measure and side length. 
+    </p>
+    <p>
         In section <xref ref="sec-intro-explore"/>, we introduced three basic 
         principles about area, <xref ref="intro-explore-principle-areameaning"/>, 
         <xref ref="intro-explore-principle-arearect"/>, and 
         <xref ref="intro-explore-principle-areasums"/>. 
       Hopefully, you will agree that length should also be additive; namely,
       that if we extend a segment of length <m>n</m> by a segment of length 
-      <m>m</m>, the resulting segment has length <m>n+m</m>. We restate that 
+      <m>m</m>, the resulting segment has length <m>n+m</m>. We restate this 
       below:
     </p>
     <aside>
       <p>
-        Click on each link to view the statement of the principle.
+        To view the statements of the earlier principles, 
+        click on each corresponding link. .
       </p>
     </aside>
     <principle xml:id="polygons-principle-addlengths">
