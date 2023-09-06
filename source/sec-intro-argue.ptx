@@ -1,5 +1,5 @@
 <section xml:id="intro-sec-argue">
-    <title>Invitation to Discover "Why" </title>
+    <title>Invitation to Discover <q>Why</q> </title>
     <!--Might move into chapter on area near area formulas assignment-->
     
     <exploration>
@@ -76,6 +76,7 @@
       </statement>
     </task>
   </exploration>
+  
   <subsection xml:id="subsec-explain">
     <title>Conjectures and Explanations in Mathematics</title>
     <p>

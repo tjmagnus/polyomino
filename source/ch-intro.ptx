@@ -32,44 +32,90 @@
       </p>
 
     </introduction>
-    <paragraphs component="instructor">
-      <title>To the Instructor</title>
-      <p>DISCUSS HOW THIS SECTION RELATES TO FUTURE TOPICS 
-      AND GIVE JOURNAL POSSIBILITIES</p>
-    </paragraphs>
-
-    <xi:include href="sec-intro-explore.ptx"/>
-    <xi:include href="sec-intro-apply.ptx"/>
-    <!-- <xi:include href="sec-wonder.ptx"/> -->
-    <xi:include href="sec-intro-argue.ptx"/>
-    <xi:include href="sec-intro-struggle.ptx"/>
+    <section xml:id="sec-intro-aboutTextbook">
+      <title>About this Textbook</title>
+      
+        <subsection xml:id="sec-To-Instructor" component="instructor">
+          <title>To the Instructor</title>
+          <p>DISCUSS HOW THIS SECTION RELATES TO FUTURE TOPICS 
+          AND GIVE JOURNAL POSSIBILITIES</p>
+        </subsection>
     
-    <!--move to preface
-      <section xml:id="section-student">
-        <title>To the Student</title>
+    <!--move to preface?-->
+    
+        <subsection xml:id="sec-To-The-Student">
+          <title>To The Student</title>
+       
         <p>
-        Why do we study geometry? Geometry is one of the oldest fields of study and
-        one of the most useful. Give examples. Talk about integration between algebra 
-        and geometry.
-        
+          This class may be different from many of the mathematics classes you have 
+          taken in the past.  You will be encouraged to explore geometrical ideas, 
+          solve puzzles, make conjectures, discuss with classmates, make connections 
+          between ideas, explain your solutions, and justify your reasoning.  You 
+          should not expect to be shown how to do problems by the instructions. In 
+          fact, there may not be one, single right way to complete some of the 
+          problems but rather many acceptable ways of coming to a solution.  Your 
+          teacher will encourage you to share these alternative approaches with the 
+          class. 
         </p>
-
         <p>
-        What to expect in this class: Talk about the focus on the why behind the how. 
-        Discuss benefits of open-ended exploration. Mention the use of our toolkit.
+          Perhaps this course would be easier for you if you were simply told 
+          how to solve the problems, but the objective of this course is not 
+          to learn facts and methods, but rather to develop your mathematical 
+          thinking and communication skills.  In this technological age, 
+          computers can do many of the algorithms and processes that used to 
+          be the core of mathematics education, but they have not replaced man’s 
+          role of developing strategies to solve problems and recognizing when 
+          mathematics can be applied to real world situations.  Developing these 
+          reasoning skills will help you more in your future than simply being able 
+          to quote the Pythagorean Theorem. On the other hand, it is still useful to 
+          know the Pythagorean Theorem so that you are able to recognize when it can 
+          (and cannot) be used to solve both elementary and complex problems.  This 
+          theorem along with some other basic formulas you have learned in the past 
+          (and can look up online) form a toolbox for our work, but we will give more 
+          emphasis to the creative process that is mathematics.  
         </p>
-
-        <exercise>
-          <statement>
-            <p> What is the derivative of <m>f(x)=\frac{x^2+1}{x}</m>? </p>
-          </statement>
-          <hint>
+        <p>
+          In <q>A Mathematician’s Lament</q> Paul Lockhart describes a nightmare 
+          in which music was taught in the same way that mathematics is currently 
+          taught.<!--~\cite{lament}-->  He says, 
+        </p>
+          <blockquote>
             <p>
-              Rewrite the fraction before taking the derivative.
+              Mathematics is the music of reason. To do mathematics is to engage in an act of discovery and conjecture, 
+              intuition and inspiration; to be in a state of confusion— not because it 
+              makes no sense to you, but because you gave it sense and you still don’t 
+              understand what your creation is up to; to have a breakthrough idea; to 
+              be frustrated as an artist; to be awed and overwhelmed by an almost painful 
+              beauty; to be alive.
             </p>
-          </hint>
-        </exercise>
-      </section> -->
+            
+            <p>
+              If we were to teach music via lecture and mere recall, 
+              focusing on the notation and structure, but not allowing students to experience 
+              and create music, the subject would be dry and uninteresting, the creative 
+              process would be stifled, and very few would have an interest in learning 
+              music.  Yet, that is what we have done with much of our mathematics instruction.  
+              We have removed both the exploration and the fun. 
+            </p>
+          </blockquote>
+        <p>
+          So I encourage you to embrace the experience that is mathematics.  
+          Approach each puzzle with an open mind, make guesses as to what is 
+          happening, and experiment to determine whether your ideas are correct.  
+          Play with the materials and the concepts and ask new questions.  In this 
+          course, you might even be invited to explore a question you posed instead 
+          of the one the teacher originally posed!  Mathematics is not just about finding the answer; 
+          even when there is an answer, our work should evoke new questions: Why? What else? 
+        </p>
+   
+        </subsection>
+      </section>
 
+      <xi:include href="sec-intro-explore.ptx"/>
+      <xi:include href="sec-intro-apply.ptx"/>
+      <!-- <xi:include href="sec-wonder.ptx"/> -->
+      <xi:include href="sec-intro-argue.ptx"/>
+      <xi:include href="sec-intro-struggle.ptx"/>
+      <xi:include href="sec-intro-references.ptx"/>
 
 </chapter>
