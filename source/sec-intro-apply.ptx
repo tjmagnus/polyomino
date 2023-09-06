@@ -1,5 +1,7 @@
-<section xml:id="intro-sec-apply">
-<title>Invitation to Apply Knowledge </title>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-apply" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Invitation to Apply Knowledge </title>
 <subsection xml:id="intro-apply-subsec-BuildingToolbox">
   <title>Building a Course Toolbox</title>
 <p>
@@ -415,7 +417,7 @@
     measure of a triangle is 180 degrees and possibly also the corresponding angle theorem. 
       Make three congruent triangles such that the shape can be altered simultaneously, but 
       the triangles can be translated and rotated freely. Be sure to note that we observed this  
-      without proof.
+      without proof. Include a principle for additivity of angles.
       See <url href="https://www.geogebra.org/m/tdkudjys"></url>.
     </p>
    </subsection>

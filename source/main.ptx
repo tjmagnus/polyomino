@@ -149,15 +149,13 @@
 
     <xi:include href="ch-intro.ptx"/>
 
-    <xi:include href="ch-area.ptx"/>
-
-    <xi:include href="ch-length.ptx"/>
-
     <xi:include href="ch-polygons.ptx"/>
 
     <xi:include href="ch-polyhedra.ptx"/>
     
     <xi:include href="ch-isom.ptx"/>
+
+    <!--<xi:include href="ch-topics.ptx."/>-->
 
 
     

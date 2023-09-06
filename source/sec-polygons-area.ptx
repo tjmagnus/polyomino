@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polygons-area" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Why do the area formulas hold?</title>
+    <exploration>
+        <title>Discovering Area Formulas</title>
+        <introduction>
+            <p>
+                In this activity we will determine the area formulas for three 
+                shapes, a parallelogram, a triangle, and a trapezoid. Our goal 
+                will be not only to use the formulas but more importantly to be  
+                able to explain why they follow from the basic principles. 
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Add something here.
+                </p>
+            </statement>
+        </task>
+    </exploration>
+</section>

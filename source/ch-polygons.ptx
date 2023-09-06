@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-polygons" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Area of Polygons</title>
+    <title>Exploring Polygons</title>
   <introduction>
     <p>
-        This chapter will include regular and nonregular 
-        polygons, angle measure of triangle, additivity of  
-        angle measure, regular and semiregular tilings.
+        In section <xref ref="sec-intro-explore"/>, we introduced three basic 
+        principles about area, <xref ref="intro-explore-principle-areameaning"/>, 
+        <xref ref="intro-explore-principle-arearect"/>, and 
+        <xref ref="intro-explore-principle-areasums"/>. 
+      Hopefully, you will agree that length should also be additive; namely,
+      that if we extend a segment of length <m>n</m> by a segment of length 
+      <m>m</m>, the resulting segment has length <m>n+m</m>. We restate that 
+      below:
+    </p>
+    <aside>
+      <p>
+        Click on each link to view the statement of the principle.
+      </p>
+    </aside>
+    <principle xml:id="polygons-principle-addlengths">
+      <statement>
+        <p>
+          Suppose that <m>C</m> is a point on the interior of line segment 
+          <m>\overline{AB}</m>, then the length of <m>\overline{AB}</m> equals
+          the sum of the lengths of <m>\overline{AC}</m> and <m>\overline{CB}</m>.
+        </p>
+      </statement>
+    </principle>
+    <p>
+      In this chapter, we will show how these principles lead to the area formulas 
+      for other polygons and to the Pythagorean Theorem. Instead of being facts handed 
+      down through the ages, we will have first-hand knowledge of why they hold and 
+      how they fit with basic principles.
     </p>
   </introduction>  
-
-
+  <xi:include href="sec-polygons-area.ptx"/>
+  <!--<xi:include href="sec-polygons-angles.ptx"/>
+  <xi:include href="sec-polygons-regular.ptx"/>
+  <xi:include href="sec-polygons-length.ptx"/>-->
 </chapter>

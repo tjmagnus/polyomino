@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polygons-regular" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Explorations with Regular Polygons</title>
+  <introduction>
+    <p>
+        This chapter will include regular and nonregular 
+        polygons, angle measure of triangle, additivity of  
+        angle measure <!--in intro apply?-->, regular and semiregular tilings.
+    </p>
+  </introduction>  
+<subsection>
+  <title>To be added</title>
+  <p>
+    Add something here.
+  </p>
+</subsection>
+
+</section>

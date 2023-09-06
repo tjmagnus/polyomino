@@ -79,6 +79,7 @@
     <!-- Lots of elements have this possibility; see the guide -->
     <knowl
       theorem="no"
+      axiom="yes"
       proof="yes"
       definition="no"
       example="yes"

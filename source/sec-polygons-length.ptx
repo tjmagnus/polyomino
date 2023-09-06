@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-length" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-polygons-length" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Lengths and the Pythagorean Theorem</title>
   <introduction>
     <p>
@@ -9,6 +9,9 @@
         measuring distance on a coordinate plane.
     </p>
   </introduction>  
+<subsection>
+  <title>Add Later</title>
+  <p>Write something here.</p>
+</subsection>
 
-
-</chapter>
+</section>
