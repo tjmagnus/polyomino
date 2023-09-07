@@ -6,6 +6,7 @@
     <p>
       Say something about how we will look at measurements related to polygons, 
       beginning with area and then investigating angle measure and side length. 
+      Also, describe the current status of our toolbox. 
     </p>
     <p>
         In section <xref ref="sec-intro-explore"/>, we introduced three basic 
@@ -40,7 +41,12 @@
     </p>
   </introduction>  
   <xi:include href="sec-polygons-area.ptx"/>
-  <!--<xi:include href="sec-polygons-angles.ptx"/>
+  <!--<xi:include href="sec-polygons-parallel.ptx" />
+  <xi:include href="sec-polygons-angles.ptx"/>
   <xi:include href="sec-polygons-regular.ptx"/>
-  <xi:include href="sec-polygons-length.ptx"/>-->
+  <xi:include href="sec-polygons-length.ptx"/>
+  <xi:include href="sec-polygons-taxicab.ptx"/>
+  <xi:include href="sec-polygons-summary.ptx"/>
+  <xi:include href="sec-polygons-writing.ptx"/>
+  <xi:include href="sec-polygons-references.ptx"/>-->
 </chapter>

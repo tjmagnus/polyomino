@@ -37,7 +37,6 @@
   provided at the end of this section in case you would like to refresh your memory. 
 </p>
 
-</subsection>
 <exploration xml:id="intro-apply-explore-tangram">
 
 <title>Explorations with Tangrams</title>
@@ -79,7 +78,6 @@
   <p>
     Assume that the length of each side of the square is 1 unit. Determine the area of each of  
     the figures:
-  </p>
     <ol>
       <li>
         <p>
@@ -107,6 +105,7 @@
         </p>
       </li>
     </ol> 
+  </p>
 </statement>
 </task>
 <task>
@@ -123,56 +122,56 @@
   <statement>
     <p>
       Construct each of the following if possible:
+      <ol>
+        <li>
+          <p>
+            A triangle using three tangram pieces.
+          </p>
+        </li>
+        <li>
+          <p>
+            A rectangle
+          </p>
+        </li>
+        <li>
+          <p>
+            A parallelogram that is not a rectangle using two pieces.
+          </p>
+        </li>
+        <li>
+          <p>
+            A non-isosceles trapezoid (you choose the number of pieces).
+          </p>
+        </li>
+        <li>
+          <p>
+            A pentagon.
+          </p>
+        </li>
+        <li>
+          <p>
+            A non-square rectangle using all seven pieces.
+          </p>
+        </li>
+        <li>
+          <p>
+            A square using all seven pieces.
+            <ol>
+              <li>
+                <p>
+                  What is the area of this square?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the side length of this square?
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+      </ol>
     </p>
-    <ol>
-      <li>
-        <p>
-          A triangle using three tangram pieces.
-        </p>
-      </li>
-      <li>
-        <p>
-          A rectangle
-        </p>
-      </li>
-      <li>
-        <p>
-          A parallelogram that is not a rectangle using two pieces.
-        </p>
-      </li>
-      <li>
-        <p>
-          A non-isosceles trapezoid (you choose the number of pieces).
-        </p>
-      </li>
-      <li>
-        <p>
-          A pentagon.
-        </p>
-      </li>
-      <li>
-        <p>
-          A non-square rectangle using all seven pieces.
-        </p>
-      </li>
-      <li>
-        <p>
-          A square using all seven pieces.
-        </p>
-        <ol>
-          <li>
-            <p>
-              What is the area of this square?
-            </p>
-          </li>
-          <li>
-            <p>
-              What is the side length of this square?
-            </p>
-          </li>
-        </ol>
-      </li>
-    </ol>
   </statement>
 </task>
 <task>
@@ -190,6 +189,7 @@
 </task>
 
 </exploration>
+</subsection>
 <subsection xml:id="intro-apply-subsec-definingpolygons">
     <title>Defining Polygons</title>
 <p>
@@ -202,7 +202,7 @@
   that a polygon will have a well-defined interior; the polygon forms a solid boundary between this 
   interior and the rest of the plane.
 </p>
-<figure width="%" xml:id="polygonvisualdefinition">
+<figure xml:id="polygonvisualdefinition">
   <caption>Some examples of polygons</caption>
   <sidebyside>
     <figure>
@@ -250,7 +250,7 @@
       <statement>
         <p>
           A <term>triangle</term> is a polygon with 
-          exactly three sides.
+          exactly three sides. 
         </p>
       </statement>
     </definition>
@@ -461,9 +461,11 @@
       <idx><h>kite</h></idx>
       <idx><h>quadrilateral</h><h>kite</h></idx>
       <statement>
-        A <term>kite</term> is a quadrilateral with two pairs of adjacent 
-        congruent sides. A kite has reflective (fold) symmetry across one of its  
-        diagonals.
+        <p>
+          A <term>kite</term> is a quadrilateral with two pairs of adjacent 
+          congruent sides. A kite has reflective (fold) symmetry across one of its  
+          diagonals.
+        </p>
       </statement>
     </definition>
     <p>
@@ -496,6 +498,17 @@
       without proof. Include a principle for additivity of angles.
       See <url href="https://www.geogebra.org/m/tdkudjys"></url>.
     </p>
-   </subsection>
-
+   
+   <exercise>
+    <task>
+      <statement>
+        <p>
+          We defined the height and base of a parallelogram and of a trapezoid above.
+        
+        </p>
+      </statement>
+    </task>
+     
+   </exercise>
+  </subsection>
 </section>

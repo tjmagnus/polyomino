@@ -13,6 +13,8 @@
             area formulas from it. 
         </p>
     </introduction>
+    <subsection>
+        <title>Area of a Parallelogram</title>
     <exploration>
         <title>Discovering an Area Formula for a Parallelogram</title>
         <introduction>
@@ -25,7 +27,6 @@
             <statement>
                 <p>
                     Sketch the following:
-                </p>
                     <ol>
                         <li xml:id="sketchaparallelogram">
                             <p>
@@ -53,16 +54,17 @@
                             </p>
                         </li>
                     </ol>
+                </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
                     Beginning with the parallelogram pictured below or the one you 
-                            sketched in <xref ref="sketchaparallelogram"/>, explain and demonstrate 
-                            how you would construct a rectangle with the same area. You are allowed 
-                            to cut the parallelogram and rearrange or duplicate pieces as part of your 
-                            argument.
+                    sketched in <xref ref="sketchaparallelogram"/>, explain and demonstrate 
+                    how you would construct a rectangle with the same area. You are allowed 
+                    to cut the parallelogram and rearrange or duplicate pieces as part of your 
+                    argument.
                 </p>
             </statement>
         </task>
@@ -76,4 +78,260 @@
         </statement>
         </task>
     </exploration>
+    <p>
+        Now that we know the area formula for parallelograms and why it works, we may add it to 
+        our toolbox and use it as well as the area formula for a rectangle in the next   
+        exploration.
+    </p>
+    </subsection>
+    <subsection xml:id="subsec-">
+        <title>The Area of a Triangle</title>
+
+    <exploration>
+        <title>Discovering the Area Formula for a Triangle</title>
+        <introduction>
+            <p>
+                You probably remember the angle formula for a triangle; in fact, you 
+                may have used it already in this course! But why is the area 
+                <m>A=\frac{1}{2}bh</m>? This exploration will encourage you to 
+                answer that question. 
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Triangles come in all shapes and sizes. Sketch one or more 
+                    examples of the following types of triangles.
+                    <ol>
+                        <li>
+                            <p>
+                                An equilateral triangle.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                            A right isosceles triangle. 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                An acute triangle that is not equilateral.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                An obtuse scalene triangle.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    To demonstrate WHY the formula, <m>A(tri)=\frac{1}{2}bh</m>, 
+                    gives the area for any triangle, construct a parallelogram 
+                    based on the triangle shown below. How is the area of your 
+                    parallelogram related to the area of the triangle? Explain.
+                </p>
+                <aside>
+                    <p>
+                        Resist the urge to use numbers instead of the variables,
+                        <m>b</m> and <m>h</m>. Specific triangles will have numerical  
+                        dimensions, but we want a formula that will work for all triangles, 
+                        not just the one you have. Variables allow us to generalize formulas.
+                    </p>
+                </aside>
+                <image source="parallelogram-arbitrary">
+                    <description>A parallelogram that is not a rectangle.</description>
+                </image>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    A friend (or one of your students) asks you why the area formula 
+                    for a triangle is <m>A(tri)=\frac{1}{2}bh</m>. Rewrite and elaborate 
+                    on your answer to the previous task to give a clear, thorough, and 
+                    cohesive explanation. Be sure to use words and pictures as needed to 
+                    make the definitions of <m>b</m> and <m>h</m> clear. The relationship 
+                    between the triangle and the parallelogram needs to be made explicit
+                    as well. Do they have the same height and base? Why or why not? Why 
+                    must their areas be related and how?  
+                </p>
+            </statement>
+        </task>
+    </exploration>
+    </subsection>
+    <subsection><title>The Area of a Trapezoid</title>
+    <p>
+        We now have three area formulas in our toolbox:
+    </p>
+    <table xml:id="formulas-areathroughtriangle">
+        <title>First Three Area Formulas</title>
+        <tabular>
+            <row header ="yes">
+                <cell>Shape</cell>
+                <cell>Area Formula</cell>
+                <cell>Variables</cell>
+            </row>
+            <row>
+                <cell>Rectangle</cell>
+                <cell><m>A=\ell w</m></cell>
+                <cell>area <m>A</m>, length <m>\ell</m>, width <m>w</m></cell>
+            </row>
+            <row>
+                <cell>Parallelogram</cell>
+                <cell><m>A=bh</m></cell>
+                <cell>area <m>A</m>, base <m>b</m>, height <m>h</m></cell>
+            </row>
+            <row>
+                <cell>Triangle</cell>
+                <cell><m>A=\frac{1}{2}bh</m></cell>
+                <cell>area <m>A</m>, base <m>b</m>, height <m>h</m></cell>
+            </row>
+        </tabular>
+    </table>
+    <p>
+       You may use these formulas in the next exploration as needed.
+    </p>
+    <exploration>
+        <title>The Area Formula for a Trapezoid</title>
+        <introduction>
+            <p>
+            We now turn to the <xref ref="def-trapezoid">trapezoid</xref>. Once
+            again, we look at some examples before exploring the formula for area.  
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Sketch example(s) of each of the following trapezoids:
+                    <ol>
+                        <li>
+                            <p>
+                                An isosceles trapezoid.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A trapezoid with one right angle.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A trapezoid with one acute base angle and one obtuse 
+                                base angle.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use dissection (cutting), duplication, and/or rearrangement to 
+                    construct or deconstruct the trapezoid below into one or more 
+                    rectangles, parallelograms, and/or triangles. If you found one 
+                    method, challenge yourself to do this a second way. Perhaps, you can 
+                    use just triangles or just parallelograms. Briefly describe your 
+                    construction or deconstruction.
+                </p>
+                <image source="trapezoid-arbitrary" width="90%">
+                    <description>
+                        An arbitrary trapezoid, not isosceles and not a right trapezoid.
+                    </description>
+                </image>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    How does your (de)construction demonstrate that the area formula for 
+                    a trapezoid is <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m>? The steps that 
+                    follow will assist you in forming a convincing argument.
+                    <ol>
+                        <li>
+                            <p>
+                                Choose one of the constructions or deconstructions you created 
+                                in the previous task. Label the height of the trapezoid with the 
+                                variable <m>h</m>. The summit and base of the trapezoid are typically 
+                                labeled <m>b_1</m> and <m>b_2</m>, but you are free to name them 
+                                <m>a</m> and <m>b</m> if you would like to avoid subscripts. You could 
+                                instead call the summit <m>s</m> or <m>b'</m>. Once you select 
+                                your labels, you will use them consistently for the remainder of this 
+                                activity. In my discussion, I will use <m>b_1</m> and <m>b_2</m> to represent 
+                                the summit and base.
+                            </p>
+                            <aside>
+                                <p>
+                                    You could even name the summit <m>Sidney</m> if you desire.
+                                    On the other hand, <m>Sidney</m> is a bit long to use in diagrams 
+                                    and formulas.
+                                </p>
+                            </aside>
+                        </li>
+                        <li>
+                            <p>
+                                Now identify any parts of your other shapes that must have the same 
+                                length as your trapezoid's height, base, or summit because of the way 
+                                they were constructed. Label them with the appropriate variable to 
+                                indicate this equality. Be careful!  
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                (Skip if this doesn't apply to your (de)construction.) 
+                                If you created any triangles, rectangles, or parallelograms 
+                                which have, or might have, different base length or height, you will need 
+                                to give these lengths new, different labels. If you find that you need to create a lot 
+                                of new labels, you might want to use a different construction or deconstruction
+                                to reduce the amount of algebra you will need to do later. 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                (Skip if this doesn't apply to your (de)construction.) Relate any new labels to the trapezoid's height, 
+                                base, and/or summit. For example, if you split the base into three segments, 
+                                labeled <m>x</m>, <m>y</m>, and <m>z</m>, you would write down the relationship 
+                                <m>x+y+z=b_2</m>. If you split the base into two segments, one of which is
+                                congruent to the summit, you would write <m>x+b_1=b_2</m> or equivalently,
+                                <m>b_1=b_2-x</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Compute the areas of any rectangles, parallelograms, or triangles in your 
+                                construction/deconstruction, leaving variables in your expressions for each 
+                                area. Be careful to use the variables assigned in your sketch which 
+                                may be different than the variables in the standard formulas. For example, if you
+                                created an upside-down triangle, its base may be the summit of the trapezoid, and 
+                                so we would use the label <m>b_1</m> (or <m>a</m>) instead of <m>b</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Write a draft of how your (de)construction shows that the area of any 
+                                trapezoid must be <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m> where <m>b_1</m>
+                                is the length of the summit, <m>b_2</m> is the length of the base, and 
+                                <m>h</m> is the height. You may be asked to write this explanation up more 
+                                formally outside of class.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+    </exploration>
+    </subsection>
+    <subsection xml:id="subsec-polygons-area-logicalarguments">
+        <title>Writing Convincing Arguments</title>
+        <p>
+            Add something here about what it means to write logically and 
+            convincingly for various audiences.
+        </p>
+    </subsection>
+    </section>
 </section>
