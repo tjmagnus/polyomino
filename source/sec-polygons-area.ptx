@@ -326,12 +326,150 @@
         </task>
     </exploration>
     </subsection>
+    <subsection>
+        <title>
+            Thoughts on Area
+        </title>
+        <p>
+            We now have four area formulas in our tool box. One could 
+            continue to add more: kites, pentagons, hexagons, etc., but 
+            the list would become unwieldly and unhelpful. 
+            
+            Instead, we will  
+            simply break other polygonal shapes into triangles, parallelograms, 
+            and other shapes so that we can compute the area of these and add 
+            (or subtract) the areas as appropriate. Measuring tools could 
+            be used to estimate the dimensions needed to compute the area 
+            of physical spaces such as floorspace or a garden.
+        </p>
+        <p>
+            As our shapes become more irregular or curved, we return to the meaning of 
+            area, 
+            <xref ref="intro-explore-principle-areameaning"/>. For these situations, 
+            we may superimpose the region over a grid of <m>1\times 1</m>-unit squares.
+            Of course, the boundary of the region may cross through some squares as shown 
+            below.
+            <figure width="100%" xml:id="curved-region">
+                <caption>A curved region on a grid of 1x1-unit squares</caption>
+                <image source="curvedshapearea" width="80%">
+                    <description>a curved shape over a grid of squares</description>
+                </image>                
+            </figure>
+        </p>
+        <exploration>
+            <!--keep in section or move to exercise?-->
+            <title>Estimating Area of a Curved Region</title>
+            <task>
+                <statement>
+                    <p>
+                        Give a rough estimate of the area of the region 
+                        sketched in <xref ref="curved-region"/>. Briefly 
+                        describe what you did.
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        There are many, many right answers for this task!
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Count the squares that are completely inside the sketched 
+                        region. This will give an underestimate of the area.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Give an overestimate of the area by selecting and counting a 
+                        collection of squares that completely encloses the sketched region.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Carefully add a horizontal line halfway between each pair of  
+                        horizontal lines on the original grid. Similarly add vertical 
+                        line between each existing pair of vertical lines. This will  
+                        produce a more refined grid with smaller squares.
+                        <ol>
+                            <li>
+                                <p>
+                                    Each square on the original grid had an area of 1 unit.
+                                    What is the area of each new square that you created?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Count the small squares that are entirely inside the 
+                                    region and use this to compute an underestimate of the 
+                                    region. 
+                                </p>
+                                <aside>
+                                    <p>
+                                        You may choose to use a mix of original and smaller squares
+                                        as long as they do not overlap.
+                                    </p>
+                                </aside>
+                            </li>
+                            <li>
+                                <p>
+                                    Give a more refined overestimate of the area of the region 
+                                    by identifying a collection of squares that 
+                                    encloses the region.
+                                </p>
+                            </li>
+                        </ol> 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Briefly describe how this method can be used to measure the area of any region 
+                        to a desired level of precision. What are some limitations to this method?
+                    </p>
+                </statement>
+            </task>
+        </exploration>
+        <subsubsection xml:id="subsubsec-area-circle">
+            <title>The Area of a Circle</title>
+            <p>
+                Although a circle is not a polygon, we include the formula for its area here. In fact, 
+                Archimedes (287-212 BC) determined the area of a circle by looking at inscribed and 
+                circumscribed polygons. As the number of sides grew, the area of the polygons would 
+                approach the area of the circle, with the area of the inscribed polygons giving a lower 
+                estimate and the area of the circumscribed polygons giving an overestimate. The number  
+                <m>pi</m> was not known at the time, but this method provides a means of calculating 
+                <m>pi</m> to any level of precision.  
+            </p>
+            <figure width="100%" xml:id="estimate-area-circle">
+                <caption>
+                    Inscribing and circumscribing a circle with squares, octagons,
+                    and 16-gons.
+                </caption>
+                <image source="areacirclebypolygons" width="90%">
+                    <description>Three pictures of the same circle. The first
+                        has a square inside with vertices touching the circle and a 
+                        square outside with the sides' midpoints touching the circle. 
+                        The second circle has an octagon with vertices on the circle and 
+                        a larger octagon with its sides' midpoints touching the circle. 
+                        The final picture has 16-gons that look almost like the circle itself.
+                    </description>
+                </image>
+            </figure> 
+        </subsubsection>
+    </subsection>
     <subsection xml:id="subsec-polygons-area-logicalarguments">
         <title>Writing Convincing Arguments</title>
         <p>
             Add something here about what it means to write logically and 
-            convincingly for various audiences.
+            convincingly for various audiences. Benefits of mathematical 
+            writing for various career trajectories (education, law).
         </p>
     </subsection>
-    </section>
 </section>
