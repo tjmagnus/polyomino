@@ -1,0 +1,198 @@
+<section xml:id="sec-polygons-angles.ptx" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Angle Measure </title>
+  <subsection xml:id="intro-apply-subsec-BuildingToolbox">
+    <title>Rotational Angles and a Tool for Measurement</title>
+    <sidebyside widths="67% 33%" valign="middle">
+        <p>
+            To begin our study of angle measure, we will adopt the practice of 
+            assuming that there are 360 degrees in a
+            full rotation about any point. The choice of 360 can be traced back 
+            to the Babylonians who were studying planetory paths around 400 B.C. 
+            and used a base 60 (instead of base 10) number system. One advantage 
+            of 360 is that it has a lot of factors, including 2, 3, 4, 5, 6, 8. 
+            This will prove helpful in <xref ref="sec-polygons-regular"/>. 
+        </p>
+        <figure>
+            <caption>360 degree rotation about point <m>A</m>.</caption>
+            <image source="rotate360">
+                <description>
+                    A circle centered around point A. An arrow has been added to the 
+                    circle to indicate rotation in a counterclockwise direction.
+                </description>
+            </image>
+        </figure>
+    </sidebyside>
+    <sidebyside widths="50% 50%" valign="middle">
+        <figure>
+            <caption>180 degree rotation about point <m>A</m></caption>
+            <image source="180deg">
+                <description>Line containing C A and B from left to right. 
+                    Semicircular arc drawn with center A from point B to the 
+                    line on the opposite side of A.
+                </description>
+            </image>
+        </figure>
+        <p>
+            Suppose point <m>A</m> lies between points <m>B</m> and <m>C</m> on 
+            line <m>\overleftrightarrow{BC}</m>. Since <m>\frac{360}{2}=180</m>, 
+            a rotation of 180 degrees will take 
+            the ray <m>\overrightarrow{AB}</m> to the ray <m>\overrightarrow{AC}</m>
+            on the opposite side of <m>A</m>.
+        </p>
+    </sidebyside>
+    <sidebyside widths="50% 50%" valign="middle">
+        <p>
+            We can continue to define the measurement of angles according to what 
+            fraction of a full (or half) rotation they represent. Notice how the  
+            protractor divides the semicircular arc into 180 segments, eighteen of which are labeled 
+            with numerical values. To find the measure of <m>\angle{DAB}</m>, we have  
+            placed the center dot of the protractor over the vertex <m>A</m> of the 
+            angle and lined up ray <m>\overrightarrow{AB}</m> with the mark for 0 
+            degrees. The other side of the angle <m>\overrightarrow{AD}</m> passes  
+            through the label for 40 degrees.
+        </p>
+        <image source="protractorexample">
+            <description>A protractor aligned with line containing C A B, centered 
+                at point A. Labels for every multiple of 10 degrees from zero degrees 
+                up through 180 degrees
+                are shown, both clockwise and counterclockwise. 
+                Ray AD passes through the indicator for 40 degrees.
+            </description>
+        </image>
+    </sidebyside>
+    <exploration>
+        <title>Reading a Protractor</title>
+        <task>
+            <p>
+                Use the picture above to determine the following:
+                <ol>
+                    <li>
+                        <p>The measure of angle <m>\angle{EAB}</m>.</p>
+                    </li>
+                    <li>
+                        <p>The measure of angle <m>\angle{CAD}</m>.</p>
+                    </li>
+                    <li>
+                        <p>The measure of angle <m>\angle{CAE}</m>.</p>
+                    </li>
+                    <li>
+                        <p>The measure of angle <m>\angle{EAC}</m>.</p>
+                    </li>
+                </ol>
+            </p>
+        </task>
+        <task>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            What fraction of a full rotation is 40 degrees?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What fraction of a full rotation is 110 degrees?
+                        </p>
+                    </li>
+                </ol>               
+            </p>
+        </task>
+        <task>
+            <p>
+                Use a physical protractor and a ruler to draw an angle with
+                measure 78 degrees.
+            </p>
+        </task>
+        <task>
+            <p>
+                It is possible to have angle measures greater than 180 degrees. 
+                Use words and/or pictures to describe an angle that measures 240 
+                degrees.
+            </p>
+        </task>
+    </exploration>
+    
+  </subsection>
+ <subsection xml:id="subsec">
+    <title>Angles of a Triangle</title>
+    <exploration>
+        <introduction>
+            <p>
+                The Geogebra app, 
+                <url href="https://www.geogebra.org/classic/bnayhujg">
+                Angles of a Triangle</url> is useful in completing this activity. You 
+                may also recreate the activity by carefullycutting out three copies of 
+                a scalene triangle. 
+            </p>
+            <figure xml:id="geogebra-app-for-tri-sum">
+                <caption>
+                    An interactive Geogebra applet for Triangle Sum Exploration.
+                </caption>
+            
+            <interactive geogebra="bnayhujg"/>
+        </figure>
+            <task>
+                <statement>
+                    <p>
+                        Rotate triangle <m>\Delta ABC</m> 180 degrees about the midpoint 
+                        <m>D</m> of side <m>\overline{BC}</m>. Both the original triangle  
+                        and the rotated version should be visable. What do you notice?
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        To perform this rotation on the geogebra app, click on the seventh icon 
+                        on the toolbar. Click on the interior of the triangle to select the object 
+                        to be rotated, then click on midpoint <m>D</m>. When prompted to input 
+                        the angle measure, replace 45 with 180. Then click OK.
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Also rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
+                        <m>E</m> of side <m>\overline{AB}</m>. 
+                    </p>
+                    <ol>
+                        <li>
+                            <p>
+                                What appears to be true 
+                                about points <m>A'</m>, <m>B</m>, and <m>C"</m>?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What does this tell you about the angles 
+                                <m>\angle BCA</m>, <m>\angle ABC</m>, and 
+                                <m>\angle CAB</m>? Explain.
+                            </p>
+                        </li>
+                    </ol>
+                </statement>
+            </task>
+
+        </introduction>
+    </exploration>
+    <p>
+    UNDER CONSTRUCTION!!!This section may include an exploration that leads to the claim that the total angle 
+    measure of a triangle is 180 degrees and possibly also the corresponding angle theorem. 
+      Make three congruent triangles such that the shape can be altered simultaneously, but 
+      the triangles can be translated and rotated freely. Be sure to note that we observed this  
+      without proof. Include a principle for additivity of angles.
+      See <url href="https://www.geogebra.org/m/tdkudjys"></url>.
+    </p>
+   
+   <exercise>
+    <task>
+      <statement>
+        <p>
+          We defined the height and base of a parallelogram and of a trapezoid above.
+        
+        </p>
+      </statement>
+    </task>
+     
+   </exercise>
+  </subsection>
+</section>

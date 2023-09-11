@@ -486,29 +486,5 @@
 
   </subsection>
  
-   <!--add exploration on total angle measure of a triangle? corresponding angles?-->
-
-   <subsection xml:id="subsec">
-    <title>Angles of a Triangle</title>
-    <p>
-    UNDER CONSTRUCTION!!!This section may include an exploration that leads to the claim that the total angle 
-    measure of a triangle is 180 degrees and possibly also the corresponding angle theorem. 
-      Make three congruent triangles such that the shape can be altered simultaneously, but 
-      the triangles can be translated and rotated freely. Be sure to note that we observed this  
-      without proof. Include a principle for additivity of angles.
-      See <url href="https://www.geogebra.org/m/tdkudjys"></url>.
-    </p>
-   
-   <exercise>
-    <task>
-      <statement>
-        <p>
-          We defined the height and base of a parallelogram and of a trapezoid above.
-        
-        </p>
-      </statement>
-    </task>
-     
-   </exercise>
-  </subsection>
+  
 </section>
