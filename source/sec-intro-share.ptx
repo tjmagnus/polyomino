@@ -1,11 +1,13 @@
-<section xml:id="intro-sec-argue">
-    <title>Invitation to Discover <q>Why</q> </title>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-intro-share" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Invitation to Share our Discoveries <q>Why</q> </title>
     <!--Might move into chapter on area near area formulas assignment-->
     
     <exploration>
       <task>
       <statement>
-        <p> Compute the following sums?
+        <p> Compute the following sums:
           <ol>
             <li>
               <p>
