@@ -124,14 +124,17 @@
                 may also recreate the activity by carefullycutting out three copies of 
                 a scalene triangle. 
             </p>
-        </introduction>
-        <figure xml:id="geogebra-app-for-tri-sum">
+            <figure xml:id="geogebra-app-for-tri-sum">
                 <caption>
                     An interactive Geogebra applet for Triangle Sum Exploration.
                 </caption>
-            <interactive geogebra="bnayhujg"/>
-        </figure>
-            <task>
+            <interactive platform="geogebra">
+                <slate surface="geogebra" material="bnayhujg"/>
+            </interactive>
+            </figure>
+
+        </introduction>
+        <task>
                 <statement>
                     <p>
                         Rotate triangle <m>\Delta ABC</m> 180 degrees about the midpoint 
@@ -167,7 +170,8 @@
                     </p>
                 <aside>
                     <p>
-                        Geogebra makes this easier. If you are doing this activity with 
+                        Geogebra makes exploring multiple possibilities easier. 
+                        If you are doing this activity with 
                         paper triangles, experiment with other triangles, repeating the  
                         previous tasks. If your classmates used different triangles, this  
                         would be a good time to compare results. 
@@ -209,11 +213,22 @@
     <p>
         Some new terminology and notation have also been introduced in this section.
     </p>
-    <definition xml:id="def-ray">
+    <definition xml:id="def-linesegmentray">
         <idx><h>ray</h></idx>
+        <idx><h>line</h></idx>
+        <idx><h>segment</h></idx>
+        <idx><h>line segment</h></idx>
         <statement>
           <p>
-            A <term>ray</term> is .
+            A <term>line</term> is a one-dimensional figure consisting of a set of  
+            points. It does not have any thickness. Because a line extends infinitely 
+            in both directions
+            and has no endpoints, we cannot measure the length of a line.   
+          </p>
+          <p>
+            When we talk about measuring length, we are usually referring to a 
+            line segment. A <term>line segment</term> is a part of a line consisting 
+            of a pair of endpoints and all of the points on the line that 
           </p>
         </statement>
       </definition>
