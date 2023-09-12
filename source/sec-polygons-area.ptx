@@ -342,6 +342,8 @@
             be used to estimate the dimensions needed to compute the area 
             of physical spaces such as floorspace or a garden.
         </p>
+        <subsubsection xml:id="subsec-irregular-area">
+            <title>Estimating the Area of Curved Regions</title>
         <p>
             As our shapes become more irregular or curved, we return to the meaning of 
             area, 
@@ -435,7 +437,8 @@
                     </p>
                 </statement>
             </task>
-        </exploration>
+        </exploration>          
+    </subsubsection>
         <subsubsection xml:id="subsubsec-area-circle">
             <title>The Area of a Circle</title>
             <p>

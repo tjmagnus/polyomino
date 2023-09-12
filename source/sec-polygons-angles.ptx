@@ -2,7 +2,7 @@
     <title>Angle Measure </title>
   <subsection xml:id="subsec-polygons-angles-degrees">
     <title>A Tool for Measuring Angles</title>
-    <sidebyside widths="67% 33%" valign="middle">
+    <sidebyside widths="62% 38%" valign="middle">
         <p>
             To begin our study of angle measure, we will adopt the practice of 
             assuming that there are 360 degrees in a
@@ -13,7 +13,7 @@
             <!--This will prove helpful in <xref ref="sec-polygons-regular"/>.--> 
         </p>
         <figure>
-            <caption>360 degree rotation about point <m>A</m>.</caption>
+            <caption>Full rotation about point <m>A</m>.</caption>
             <image source="rotate360">
                 <description>
                     A circle centered around point A. An arrow has been added to the 
@@ -22,9 +22,9 @@
             </image>
         </figure>
     </sidebyside>
-    <sidebyside widths="50% 50%" valign="middle">
+    <sidebyside widths="50% 50%" valign="bottom">
         <figure>
-            <caption>180 degree rotation about point <m>A</m></caption>
+            <caption>180-degree rotation about point <m>A</m></caption>
             <image source="180deg">
                 <description>Line containing C A and B from left to right. 
                     Semicircular arc drawn with center A from point B to the 
@@ -45,8 +45,9 @@
             We can continue to define the measurement of angles according to what 
             fraction of a full (or half) rotation they represent. Notice how the  
             protractor divides the semicircular arc into 180 segments, eighteen of which are labeled 
-            with numerical values. To find the measure of <m>\angle{DAB}</m>, we have  
-            placed the center dot of the protractor over the vertex <m>A</m> of the 
+            with numerical values. These are multiples of ten, representing <m>\frac{1}{18}</m> 
+            of the half-rotation. To find the measure of <m>\angle{DAB}</m>, we  
+            place the center dot of the protractor over the vertex <m>A</m> of the 
             angle and lined up ray <m>\overrightarrow{AB}</m> with the mark for 0 
             degrees. The other side of the angle <m>\overrightarrow{AD}</m> passes  
             through the label for 40 degrees.
@@ -121,10 +122,10 @@
                 The Geogebra app, 
                 <url href="https://www.geogebra.org/classic/bnayhujg">
                 Angles of a Triangle</url> is useful in completing this activity. You 
-                may also recreate the activity by carefullycutting out three copies of 
+                may also recreate the activity by carefully cutting out three copies of 
                 a scalene triangle. 
             </p>
-            <figure xml:id="geogebra-app-for-tri-sum">
+            <figure xml:id="geogebra-app-for-tri-sum-2">
                 <caption>
                     An interactive Geogebra applet for Triangle Sum Exploration.
                 </caption>
@@ -144,7 +145,7 @@
                 </statement>
                 <hint>
                     <p>
-                        To perform this rotation on the geogebra app, click on the seventh icon 
+                        To perform this rotation in the geogebra app, click on the seventh icon 
                         on the toolbar. Click on the interior of the triangle to select the object 
                         to be rotated, then click on midpoint <m>D</m>. When prompted to input 
                         the angle measure, replace 45 with 180. Then click OK.
@@ -195,7 +196,7 @@
     </exploration>
 </subsection>
 <subsection xml:id="subsec-polygons-angles-principle">
-    <title>Additivity of Angles and Some Results</title>
+    <title>Additivity of Angles and Definitions Associated with Angles</title>
     <p>
         In this section, you have likely been assuming the additivity of angle 
         measure. Like the additivity of <xref ref="intro-explore-principle-areasums">area</xref> 
@@ -223,14 +224,64 @@
             A <term>line</term> is a one-dimensional figure consisting of a set of  
             points. It does not have any thickness. Because a line extends infinitely 
             in both directions
-            and has no endpoints, we cannot measure the length of a line.   
+            and has no endpoints, we cannot measure the length of a line. For any two 
+            distinct points, there is exactly one line that contains both of them so 
+            we may refer 
+            to a line by a pair of points on the line, <m>\overleftrightarrow{AB}</m> 
+            or by a single lower case letter such as <m>\ell</m> or <m>m</m>.  
           </p>
           <p>
-            When we talk about measuring length, we are usually referring to a 
+            When we talk about measuring length, we are referring to a 
             line segment. A <term>line segment</term> is a part of a line consisting 
-            of a pair of endpoints and all of the points on the line that 
+            of a pair of endpoints and all of the points on the line between the 
+            two endpoints. For example, line segment <m>\overline{AB}</m> 
+            consists of points <m>A</m> and <m>B</m> and all points on line
+            <m>\overleftrightarrow{AB}</m> between <m>A</m> and <m>B</m>.
+          </p>
+          <p>
+            In a similar way, we define <term>ray</term> <m>\overrightarrow{AB}</m>
+            to consist of point <m>A</m>, point <m>B</m>, and all points on line 
+            <m>\overleftrightarrow{AB}</m> which are on the same side of <m>A</m> as 
+            point <m>B</m>. A ray extends infinitely in one direction, has a single 
+            endpoint, and cannot be measured.
           </p>
         </statement>
+      </definition>
+      <p>
+        While lines on a flat surface such as a plane appear straight, we will see that 
+        lines on the surface of a sphere are actually curved. 
+      </p>
+      <definition xml:id="def-angles">
+    <idx><h>angle</h></idx>
+    <idx><h>vertex</h><h>angle</h></idx>
+    <idx><h>angle</h><h>vertex</h></idx>
+    <idx><h>angle</h><h>side</h></idx>
+    <idx><h>side</h><h>angle</h></idx>
+    <idx><h>interior</h><h>angle</h></idx>
+    <idx><h>angle</h><h>interior</h></idx>
+    <statement>
+        <p>
+            An <term>angle</term> is the union of two rays with a common endpoint.
+            In particular, <m>\angle ABC</m> consists of all points that lie on the 
+            rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AB}</m>. The common 
+            endpoint is called the <term>vertex</term> of the angle and the two rays 
+            are called the <term>sides</term> of the angle.
+        </p>
+        <p>
+            When we measure an angle, denoted <m>m\angle ABC</m>, 
+            we are measuring how far we would need to rotate 
+            one side of the angle 
+            around the vertex to meet the other side. This definition introduces some  
+            ambiguity as one might rotate clockwise or counterclockwise and we could even
+            rotate multiple times around the vertex. Typically, we will consider the measure 
+            of an angle to be a number between 0 and 180 but there will be some exceptions. 
+            When we study symmetry and 
+            isometry later in <xref ref="ch-isom"/>, we will allow a wider variety of  
+            rotations. In addition, we might speak of the interior of some angles of a 
+            concave polygon as having at least one interior angle with a measure 
+            between 180 and 360 degrees. 
+        </p>
+    </statement>
       </definition>
     <!--<p>
     UNDER CONSTRUCTION!!!This section may include an exploration that leads to the claim that the total angle 
