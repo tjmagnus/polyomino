@@ -281,27 +281,72 @@
             concave polygon as having at least one interior angle with a measure 
             between 180 and 360 degrees. 
         </p>
-    </statement>
-      </definition>
-    <!--<p>
-    UNDER CONSTRUCTION!!!This section may include an exploration that leads to the claim that the total angle 
-    measure of a triangle is 180 degrees and possibly also the corresponding angle theorem. 
-      Make three congruent triangles such that the shape can be altered simultaneously, but 
-      the triangles can be translated and rotated freely. Be sure to note that we observed this  
-      without proof. Include a principle for additivity of angles.
-      See <url href="https://www.geogebra.org/m/tdkudjys"></url>.
-    </p>-->
+        </statement>
+    </definition>
+</subsection>
    
-   <exercise>
-    <task>
-      <statement>
-        <p>
-          We defined the height and base of a parallelogram and of a trapezoid above.
-        
-        </p>
-      </statement>
-    </task>
-     
-   </exercise>
-  </subsection>
+   <exercises xml:id="angles-exercises">
+    <title>Exercises</title>
+    <subexercises>
+        <title>Skills Practice</title>
+        <exercise>
+            <statement>
+                <p>
+                    Use a protractor to measure the angles. You may need to print this  
+                    picture to make accurate measurements. ADD PICTURE AND PROBLEMS.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Determine the missing angles. ADD PICTURE AND PROBLEMS.
+                </p>
+            </statement>
+        </exercise>
+    </subexercises>
+    <subexercises xml:id="angles-exercises-concepts">
+        <title>Exploring the Concepts</title>
+        <exercise>
+            <statement>
+                <p>
+                    Sketch a few convex quadrilaterals or use the geogebra tool provided.
+                    ADD TOOL WITH A QUADRILATERAL AND POLYGON anD SEGMENT DRAWING TOOLS. KEEP 
+                    ANGLE MEASUREMENT TOOL?
+                    Connect a pair of opposite vertices with a line segment, called a 
+                    <term>diagonal</term>, to divide the quadrilateral into two shapes. 
+                    <ol>
+                        <li>
+                            <p>
+                                What two shapes did this create?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What does this tell you about the angle sum of a convex quadrilateral?
+                                Explain in words and pictures why this will be true for all convex   
+                                quadrilaterals.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Experiment with other triangles or by moving vertex A in the applet.
+                                What happens to the angle measure when the quadrilateral is no longer convex?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Different interpretations of angles in a concave quadrilateral 
+                    can be made here. In your explanation, 
+                    you may need to specific whether you are looking only at interior angles or 
+                    only considering angles less than 180 degrees.
+                </p>
+            </hint>
+        </exercise>
+   </subexercises>
+   </exercises>
+  
 </section>

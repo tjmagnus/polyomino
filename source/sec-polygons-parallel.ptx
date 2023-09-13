@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polygons-parallel" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>What does Parallel Mean?</title>
+    <introduction>
+        <p>
+            Review def of parallel. Explore lines and triangles on a sphere.
+            Distance between lines.
+        </p>
+    </introduction>
+    <subsection>
+        <title>Hmmm</title>
+        <p>
+            Ideas: Segments connecting parallel lines; shortest distance. 
+            Trapezoids and parallelograms. 
+        </p>
+    </subsection>
+</section>

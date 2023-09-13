@@ -4,16 +4,94 @@
     <title>Explorations with Regular Polygons</title>
   <introduction>
     <p>
-        This chapter will include regular and nonregular 
-        polygons, angle measure of triangle, additivity of  
-        angle measure <!--in intro apply?-->, regular and semiregular tilings.
+        Have you ever studied a tiling of a floor or a pattern on a quilt? In this  
+        section, we will define a regular polygon and explore when regular tilings 
+        can be used to tile the plane. Option to also explore nonregular tilings.
     </p>
   </introduction>  
 <subsection>
-  <title>To be added</title>
+  <title>Regular Polygons</title>
+  <introduction>
+    <p>
+      We begin by defining what it means for a polygon to be regular.
+    </p>
+  </introduction>
+  <definition>
+    <idx><h>regular polygon</h></idx>
+    <idx><h>polygon</h><h>regular</h></idx>
+    <statement>
+    <p>
+      A polygon is a <term>regular polygon</term> if all of its sides and 
+      all of its angles are congruent. <!--Have we defined congruent angles?-->
+    </p>
+  </statement>
+  </definition>
+  <exercise>
+    <title>Check Your Understanding!</title>
+    <statement>
+      <p>
+        Explain why each shape below is not a regular polygon:
+      </p>
+      <image source="nonregularpolygons" width="100%">
+        <description>
+          Rhombus ABCD with obtuse angles at B and D, 
+          Rectangle EFGH with height 6 and width 10, and a 
+          House-shaped pentagon with base length 4, wall height 
+          4, and total height 6.
+        </description>
+      </image>
+    </statement>
+  </exercise>
+</subsection>
+<subsection xml:id="subsec-polygons-regular-tilings">
+  <title>Regular Tilings</title>
+  <p>
+    CREDIT TO SYMMETRY, SHAPE, AND SPACE, SECTION 4.1, PP. 85-93.
+    In the very first activity, we created a tiling of a square using tetrominos. 
+    In this section, we will consider tilings of the plane. Since the plane continues  
+    infinitely, we will not be able to fully create a tiling, but we will be able to 
+    build enough of the tiling to determine whether a tiling is possible.
+  </p>
+  <definition>
+    <idx><h>tiling</h></idx>
+    <idx><h>tiling</h><h>regular</h></idx>
+    <idx><h>regular</h><h>tiling</h></idx>
+    <idx><h>tiling</h><h>monohedral</h></idx>
+    <idx><h>monohedral tiling</h></idx>
+    <statement>
+      <p>
+        A <term>tiling</term> is a collection of closed polygons that cover a plane 
+        (continuing infinitely in all directions) with no 
+        gaps and no overlaps. A <term>monohedral tiling</term> is tiling that 
+        uses only one shape, 
+        a <term>regular tiling</term> is a monohedral tiling using a single 
+        regular polygon as its tile.
+      </p>
+    </statement>
+  </definition>
+  <!--<exploration>
+    
+  </exploration>-->
+</subsection>
+<subsection xml:id="subsec-semiregular-tilings">
+  <title>Semiregular Tilings</title>
+
   <p>
     Add something here.
   </p>
+  <definition>
+    <idx><h>tiling</h><h>semiregular</h></idx>
+    <idx><h>semiregular</h><h>tiling</h></idx>
+    <idx><h>tiling</h><h>monohedral</h></idx>
+    <statement>
+      <p>
+        A <term>semiregular tiling</term> is a tiling consisting of two or 
+        more regular polygon with common side lengths with the additional 
+        requirement that the arrangement of polygons around each vertex is 
+        the same.
+      </p>
+    </statement>
+  </definition>
 </subsection>
 
 </section>
