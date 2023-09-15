@@ -69,9 +69,96 @@
       </p>
     </statement>
   </definition>
-  <!--<exploration>
-    
-  </exploration>-->
+  <exploration>
+    <title>Regular Tilings</title>
+    <introduction>
+      <p>  
+        This activity may be completed using physical tiles or 
+        in an app. Be sure to save a record of your designs by 
+        tracing, photography, or screenshots. 
+      </p>
+    </introduction>
+    <!--add polypad or doenet app here-->
+    <task>
+      <statement>
+        <p>
+          Select a single regular polygon and use it to construct a regular  
+          tiling. Construct enough of the tiling to convince others that the 
+          tiling can continue to tile the plane with no gaps and overlaps. 
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Experiment with equilateral triangles, squares, regular pentagons, 
+          regular hexagons, and other regular n-gons to determine which can 
+          be used to create a regular tiling and which do not. What do you think 
+          will happen with regular polygons with more than ten sides? Why?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Perhaps you noticed that the vertex angle measure places a role in determining 
+          whether a regular polygon can be used to create a regular tiling. This task will  
+          lead you to determine the measure of the vertex angle of a regular pentagon. We 
+          will use this technique to find the measure of the vertex angles for other   
+          regular n-gons.
+        </p>
+        <sidebyside widths="65% 35%">
+          <figure width="100%" xml:id="regpentagon-into-tri">
+            <caption>A triangulated regular pentagon</caption>
+            <image source="VertexAngRegPentagon">
+              <description>A regular pentagon with vertices labeled A, B, C, D, and E. 
+                The interior angle at A has been split by 
+                diagonals into angles 1, 2, and 3. Angle D has been split into angles 4 and 5.
+                Angle C has been split into angles 6 and 7.
+              </description>
+            </image>
+          </figure>
+            <p>
+              <ul>
+                <li>
+                  <m>\angle 1 = \angle EAD</m>
+                </li>
+                <li>
+                  <m>\angle 2 = \angle DAC</m>
+                </li>
+                <li>
+                  <m>\angle 3 = \angle CAB</m>
+                </li>
+                <li>
+                  <m>\angle 4 = \angle EDA</m>
+                </li>
+                <li>
+                  <m>\angle 5 = \angle ADC</m>
+                </li>
+                <li>
+                  <m>\angle 6 = \angle DCA</m>
+                </li>
+                <li>
+                  <m>\angle 7 = \angle ACB</m>
+                </li>
+                <li>
+                  <m>\angle E = \angle DEA</m>, etc.
+                </li>
+              </ul>
+            </p>
+      </sidebyside>
+      <p>
+          <ol>
+            <li>
+              <p>
+                What is <m>m\angle 1 + m\angle 4 + m\angle E</m>?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </task>
+  </exploration>
 </subsection>
 <subsection xml:id="subsec-semiregular-tilings">
   <title>Semiregular Tilings</title>
