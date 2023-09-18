@@ -6,8 +6,12 @@
     <p>
         Have you ever studied a tiling of a floor or a pattern on a quilt? In this  
         section, we will define a regular polygon and explore when regular tilings 
-        can be used to tile the plane. Option to also explore nonregular tilings.
+        can be used to tile the plane. 
     </p>
+    <aside>The material in this section has been adapted from Section 4.1 in 
+      <xref ref="bibSymShapeSpace">
+      Symmetry, Shape, and Space</xref>.
+    </aside>
   </introduction>  
 <subsection>
   <title>Regular Polygons</title>
@@ -46,7 +50,6 @@
 <subsection xml:id="subsec-polygons-regular-tilings">
   <title>Regular Tilings</title>
   <p>
-    CREDIT TO SYMMETRY, SHAPE, AND SPACE, SECTION 4.1, PP. 85-93.
     In the very first activity, we created a tiling of a square using tetrominos. 
     In this section, we will consider tilings of the plane. Since the plane continues  
     infinitely, we will not be able to fully create a tiling, but we will be able to 
@@ -336,7 +339,7 @@
       meeting at and surrounding a single point?
     </p>
   </task>
-  <task>
+  <task xml:id="task-vertex-measure-regular-polygons-more">
     <p>
       In <xref ref="table-vertex-measure-regular-polygons-common"/>, you 
       determined the vertex angle measure for a few regular polygons and 
@@ -384,7 +387,7 @@
       </ol>
     </p>
   </task>
-  <task>
+  <task xml:id="tile-w-3tri-2sq">
     <statement>
     <sidebyside widths="70% 30%" valign="middle">
       <figure width="100%" xml:id="tiling33434">
@@ -426,8 +429,95 @@
     </p>
     </statement>
   </task>
-  <!--INCOMPLETE-->
+  <task>
+    <statement>
+      <p>
+        Verify arithmetically that it is possible for an equilateral triangle, 
+        a regular heptagon, and a regular tetracontakaidigon (pictured below), 
+        to fit snugly around a vertex with no overlaps. In shorthand, we can write this vertex  
+        arrangement as 3.7.42.
+      </p>
+      <figure width="50%" xml:id="tetracontakaidigon">
+        <caption>A tetracontakaidigon (42-gon).</caption>
+        <image source="tetracontakaidigon">
+          <description>(for accessibility)</description>
+        </image>
+      </figure>
+    </statement>
+  </task>
+  <task xml:id="srtiling-possible-vertex-arrangements">
+    <statement>
+      <p>
+        Use the angle measures you found in <xref ref="table-vertex-measure-regular-polygons-common"/> and 
+        <xref ref="task-vertex-measure-regular-polygons-more"/> to list all 
+        combinations of three, four, or five regular polygons that could meet at a 
+        vertex, writing the vertex configurations in shorthand notation. Like the 
+        example in <xref ref="tile-w-3tri-2sq"/>, the same shape may be repeated. If  
+        more than three polygons meet at a vertex, consider the different ways in 
+        which they could be arranged.
+      </p>
+      <aside>
+        <p>
+          Note that <m>3.4.3.4.3</m> and <m>4.3.4.3.3</m> are potentially two other ways 
+          of writing <m>3.3.4.3.4</m> in <xref ref="tiling33434"/>. 
+          We could begin at any polygon and list the polygons in order. To avoid these  
+          repetitions, it is standard practice to begin with the polygon with the  
+          smallest number of sides and then to move to its neighbor with the smallest number 
+          of sides, continuing around until all the polygons around the point have been named. 
+          Similarly, we write <m>3.3.3.4.4</m> rather than <m>3.3.4.4.3</m> for the tiling where  
+          the two squares are adjacent. 
+        </p>
+      </aside>
+    </statement>
+    <hint>
+      We are not including the three regular tilings in this list. 
+      There is one more vertex arrangement using five polygons 
+      (in addition to 3.3.4.3.4 and 3.3.3.4.4), five using
+      four polygons, and eight more using three polygons (in addition to 3.7.42).
+    </hint>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Some of the vertex arrangements in the previous task will extend to create a semiregular titling, 
+        but not all of them! Experiment by surrounding one vertex using the pattern and 
+        then try to surround the neighboring vertices using the same arrangement. Which 
+        seem to work and which fail? For the ones that fail, what seems to go wrong? 
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Only eight of the seventeen possible vertex arrangements can be used to create  
+        a semiregular tiling.
+      </p>
+    </hint>
+  </task>
+  <task>
+    <statement>
+      <p>
+        What do you notice about the vertex arrangements that work (or those that don't 
+        work)? What do you wonder?
+      </p>
+    </statement>
+  </task>
 </exploration>
+<p>
+  This activity may have involved more of a struggle that some of the others. Perhaps you 
+  only found about half of the possibilities in <xref ref="srtiling-possible-vertex-arrangements"/>
+  or you cannot yet see a pattern to help determine which vertex arrangements lead to a 
+  semiregular tiling. That is perfectly normal. Write down the ideas that you do have and 
+  share them with classmates. As you share what you have observed and listen to others' 
+  discoveries, you and your classmates may uncover some amazing results.
+</p>
 </subsection>
-
+<subsection xml:id="subsec-semireg-tiling-check">
+  <title>semireg-tiling-check</title><introduction>
+    <p>
+      Before we continue, let us check that we understand some of the essential concepts and 
+      can use some new tools.
+    </p>
+  </introduction>
+  <!--<exercises xml:id="exer-semiregtiling-basics">-->
+    
+</subsection>
 </section>
