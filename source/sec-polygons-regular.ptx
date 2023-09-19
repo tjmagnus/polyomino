@@ -8,18 +8,19 @@
         section, we will define a regular polygon and explore when regular tilings 
         can be used to tile the plane. 
     </p>
-    <aside>The material in this section has been adapted from Section 4.1 in 
-      <xref ref="bibSymShapeSpace">
-      Symmetry, Shape, and Space</xref>.
+    <aside>
+      <p>
+        The material in this section has been adapted from Section 4.1 in 
+        <xref ref="bibSymShapeSpace">
+        Symmetry, Shape, and Space</xref>.
+      </p>
     </aside>
   </introduction>  
 <subsection>
   <title>Regular Polygons</title>
-  <introduction>
     <p>
       We begin by defining what it means for a polygon to be regular.
     </p>
-  </introduction>
   <definition>
     <idx><h>regular polygon</h></idx>
     <idx><h>polygon</h><h>regular</h></idx>
@@ -112,7 +113,7 @@
           regular n-gons.
         </p>
         <sidebyside widths="65% 35%">
-          <figure width="100%" xml:id="regpentagon-into-tri">
+          <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
             <image source="VertexAngRegPentagon">
               <description>A regular pentagon with vertices labeled A, B, C, D, and E. 
@@ -334,12 +335,20 @@
   </definition>
 <exploration>
   <task>
+    <statement>
     <p>
       What must be true about the measures of the angles of the vertices 
       meeting at and surrounding a single point?
     </p>
+    </statement>
+    <answer>
+      <p>
+        The sum of the angle measures must be 360 degrees.
+      </p>
+    </answer>
   </task>
   <task xml:id="task-vertex-measure-regular-polygons-more">
+    <statement>
     <p>
       In <xref ref="table-vertex-measure-regular-polygons-common"/>, you 
       determined the vertex angle measure for a few regular polygons and 
@@ -386,11 +395,18 @@
         </li>
       </ol>
     </p>
+  </statement>
+  <hint>
+    <p>
+      The measure of the vertex angle of a regular <m>n</m>-gon 
+      is given by the formular <m>d=\frac{180(n-2)}{n}</m>.
+    </p>
+  </hint>
   </task>
   <task xml:id="tile-w-3tri-2sq">
     <statement>
     <sidebyside widths="70% 30%" valign="middle">
-      <figure width="100%" xml:id="tiling33434">
+      <figure xml:id="tiling33434">
         <caption>A 3.3.4.3.4 vertex arrangement.</caption>
         <image source="vertex33434" width="100%">
           <description>(for accessibility)</description>
@@ -437,9 +453,9 @@
         to fit snugly around a vertex with no overlaps. In shorthand, we can write this vertex  
         arrangement as 3.7.42.
       </p>
-      <figure width="50%" xml:id="tetracontakaidigon">
+      <figure xml:id="tetracontakaidigon">
         <caption>A tetracontakaidigon (42-gon).</caption>
-        <image source="tetracontakaidigon">
+        <image width="50%" source="tetracontakaidigon">
           <description>(for accessibility)</description>
         </image>
       </figure>
@@ -470,10 +486,12 @@
       </aside>
     </statement>
     <hint>
-      We are not including the three regular tilings in this list. 
-      There is one more vertex arrangement using five polygons 
-      (in addition to 3.3.4.3.4 and 3.3.3.4.4), five using
-      four polygons, and eight more using three polygons (in addition to 3.7.42).
+      <p>
+        We are not including the three regular tilings in this list. 
+        There is one more vertex arrangement using five polygons 
+        (in addition to 3.3.4.3.4 and 3.3.3.4.4), five using
+        four polygons, and eight more using three polygons (in addition to 3.7.42).
+      </p>
     </hint>
   </task>
   <task>
@@ -510,14 +528,47 @@
   discoveries, you and your classmates may uncover some amazing results.
 </p>
 </subsection>
-<subsection xml:id="subsec-semireg-tiling-check">
-  <title>semireg-tiling-check</title><introduction>
+<subsection xml:id="subsec-semireg-rules">
+  <title>Narrowing Down the Options</title>
     <p>
-      Before we continue, let us check that we understand some of the essential concepts and 
-      can use some new tools.
+      As we attempt to create a 3.3.6.6 pattern, we find that it is impossible to 
+      maintain a consistent vertex arrangement. Fairly quickly, we are forced to 
+      create a 3.6.3.6 arrangement at some vertices. On the other hand, a 3.3.6.6 
+      vertex arrangement can continue indefinitely. Let us explore why this happens.  
     </p>
-  </introduction>
-  <!--<exercises xml:id="exer-semiregtiling-basics">-->
+    <exploration>
+      <title>Triangles and Hexagons</title>
+      <task>
+        <p>
+          Use physical or virtual triangles and hexagons to 
+          sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
+          sketch if available. <!--Add app?-->
+          <ol>
+            <li>
+              <p>
+                Choose one of the two triangles at this vertex and attempt 
+              to surround it with triangles and/or hexagons while adhering 
+              to the 3.3.6.6 arrangement.
+              </p>
+            </li>
+            <li>
+              <p>
+                Note that each triangle in a 3.3.6.6 must share a side with 
+                one triangle and one hexagon due to the order of the 3's and 6's.
+                 <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>
+              </p>
+              <image source="whyno3366"></image>
+            </li>
+          </ol>
+        </p>
+      </task>
+
+    </exploration>
+    <!--<exercise xml:id="exer-semiregtiling-basics">
+      <title>Check Your Understanding</title>
+      <statement>
+
+      </statement>-->
     
 </subsection>
 </section>
