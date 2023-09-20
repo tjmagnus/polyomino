@@ -33,7 +33,8 @@
     <!-- Set which marked elements are included in this version: -->
     <!-- See
     https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
-    <version include=""/>
+    <!-- <version include="videos labs"/> -->
+    <version include="instructor"/>
   </source>
 
   <numbering>
@@ -115,13 +116,13 @@
     <!-- Set the base URL of where the online version is hosted to have links in other formats -->
     <!-- <baseurl href="changetomywebsite.org"/> -->
     <!-- Control behavior of online WeBWorK, per type: -->
-    <!--webwork
+    <webwork
       inline="dynamic"
       divisional="static"
       reading="static"
       worksheet="static"
       project="dynamic"
-    />-->
+    />
     <!-- Magic IDs identify HTML pages to analytics services   -->
     <!-- Presence implies relevant Javascript will be added    -->
     <!-- StatCounter requires both values to be set            -->
