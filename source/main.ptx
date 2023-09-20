@@ -9,8 +9,9 @@
   </docinfo>
 
   <book xml:id="Poly-cubed-geom-explor">
-    <title>Polyominoes, Polygons, and Polyhedra</title>
-    <subtitle>Discovering Geometry through Explorations</subtitle>
+    <title component="student">Polyominoes, Polygons, and Polyhedra</title>
+    <title component="instructor">Instructor's Version of Polyominoes, Polygons, and Polyhedra</title>
+      <subtitle>Discovering Geometry through Explorations</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
