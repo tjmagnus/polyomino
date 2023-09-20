@@ -80,7 +80,9 @@
       <p>  
         This activity may be completed using physical tiles or 
         in an app. Be sure to save a record of your designs by 
-        tracing, photography, or screenshots. 
+        tracing, photography, or screenshots. Some of the computations  
+        will also be used later in this section. You are encourage to 
+        keep an accessible record of your work for future reference.
       </p>
     </introduction>
     <!--add polypad or doenet app here-->
@@ -334,6 +336,13 @@
     </statement>
   </definition>
 <exploration>
+  <title>In Search of Semiregular Tilings</title>
+  <introduction>
+    <p>
+      Once again, you are encouraged to continue the practice of saving your 
+      sketches, work, and results as they may be useful later in this section.
+    </p>
+  </introduction>
   <task>
     <statement>
     <p>
@@ -399,7 +408,7 @@
   <hint>
     <p>
       The measure of the vertex angle of a regular <m>n</m>-gon 
-      is given by the formular <m>d=\frac{180(n-2)}{n}</m>.
+      is given by the formula <m>d=\frac{180(n-2)}{n}</m>.
     </p>
   </hint>
   </task>
@@ -528,8 +537,26 @@
   discoveries, you and your classmates may uncover some amazing results.
 </p>
 </subsection>
+<!--Note to instructors. Remainder can be omitted depending on the level of reasoning you 
+and completion you wish to develop and the interests of your students. 
+There will be an optional section on semiregular polyhedra 
+that applies this. In that section, students can also learn and explore the 
+possibilities without delving into the governing rules. Even if you choose to 
+skip this section, you might want to have worked through the following 
+activities or read about the topic to prepare yourself to lead a discussion. I have
+also used the following explorations as a way to engage fast groups in class 
+discovery while other groups are catching up.-->
 <subsection xml:id="subsec-semireg-rules">
   <title>Narrowing Down the Options</title>
+    <p>
+      When we look at possible vertex arrangements for a semiregular tiling,
+      our options are very limited. Not including the regular tiling by squares, 
+      you should have found three groups of four regular polygons with an 
+      angle sum of 360 degrees. All of these have at least one polygon appearing 
+      twice. Why do some of these extend to a semiregular tiling while others do 
+      not? Does it matter whether the common polygons are next to each other 
+      or separated?    
+    </p>
     <p>
       As we attempt to create a 3.3.6.6 pattern, we find that it is impossible to 
       maintain a consistent vertex arrangement. Fairly quickly, we are forced to 
@@ -537,38 +564,202 @@
       vertex arrangement can continue indefinitely. Let us explore why this happens.  
     </p>
     <exploration>
-      <title>Triangles and Hexagons</title>
+      <title>Semiregular Tilings with Four Regular Polygons at a Vertex</title>
       <task>
+        <statement>
         <p>
           Use physical or virtual triangles and hexagons to 
           sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
           sketch if available. <!--Add app?-->
-          <ol>
-            <li>
-              <p>
-                Choose one of the two triangles at this vertex and attempt 
+        <ol>
+          <li>
+            <p>
+              Choose one of the two triangles at this vertex and attempt 
               to surround it with triangles and/or hexagons while adhering 
               to the 3.3.6.6 arrangement.
-              </p>
-            </li>
-            <li>
-              <p>
-                Note that each triangle in a 3.3.6.6 must share a side with 
-                one triangle and one hexagon due to the order of the 3's and 6's.
-                 <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>
-              </p>
+            </p>
+          </li>
+          <li>
+            <p>
+              Note that each triangle in a 3.3.6.6 must share a side with 
+              one triangle and one hexagon due to the order of the 3's and 6's.
+                <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>
+            </p> 
+            <figure xml:id="triangle366">
+              <caption>Surrounding a regular triangle with regular triangles and 
+                regular hexagons.</caption>
               <image source="whyno3366"></image>
-            </li>
-          </ol>
+            </figure>
+            <p>
+              Will the remaining side abut a triangle or a hexagon? Discuss  
+              what happens in each case.
+            </p>
+          </li>
+        </ol>
         </p>
+        </statement>
       </task>
-
+      <task>
+        <statement>
+          <p>
+            There is a second group of four regular polygons consisting of  
+            two equilateral triangles and two other polygons.
+            <ol>
+              <li>
+                <p>
+                  What are the other two polygons? We will represent the number of  
+                  sides of these polygons by <m>m</m> and <m>n</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Explain why the arrangement <m>3.3.m.n</m> will not extend to 
+                  a semiregular tiling using an argument similar to what we did 
+                  with <m>3.3.6.6</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Explain why the arrangement <m>3.m.3.n</m> also fails to create a 
+                  semiregular tiling.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            The remaining semiregular tiling with four polygons meeting at 
+            each vertex has two squares and two other polygons in the vertex   
+            arrangement.
+            <ol>
+              <li>
+                <p>
+                  What are the other two polygons? Again, the number of sides of  
+                  these two polygons are represented by <m>m</m> and <m>n</m>
+                  in the questions that follow.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Are you able to surround a square along its sides by an alternating sequence of  
+                  <m>m</m>-gons and <m>n</m>-gons?
+                </p>
+              </li>
+              <li>
+                <p>
+                  One of the polygons has an odd number, <m>m</m>, of sides. Are you 
+                  able to surround the <m>m</m>-gon along its sides by an alternating 
+                  sequence of squares and <m>n</m>-gons?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Explain in words and pictures why <m>m.4.n.4</m> extends to a semiregular tiling,
+                  but <m>m.4.4.n</m> does not. Draw a sketch of <m>m.4.n.4</m> if  
+                  you do not already have one. 
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
     </exploration>
-    <!--<exercise xml:id="exer-semiregtiling-basics">
-      <title>Check Your Understanding</title>
-      <statement>
-
-      </statement>-->
-    
+    <p> 
+      We conclude that there are only two semiregular tilings and one regular 
+      tiling of the plane where four polygons meet at a vertex. All three vertex 
+      arrangements with five polygons meeting extend to semiregular tilings. 
+      To complete this analysis, we consider which three-polygon vertex arrangements  
+      extend to a semiregular tiling.
+    </p>
+    <exploration>
+      <title>Semiregular Tilings with Three Regular Polygons at a Vertex</title>
+      <task>
+        <statement>
+          <p>
+            Not including the regular tiling <m>6.6.6</m>, there are nine possible  
+            vertex arrangements consisting of three regular polygons. List as many as 
+            you can, referring back to the work you did in 
+            <xref ref="srtiling-possible-vertex-arrangements"/>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Verify algebraically that <m>5.5.10</m> can surround a single point. 
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use the fact that 5 is an odd number to explain why <m>5.5.10</m> does 
+            not extend to a semiregular tiling. You may include pictures as well as 
+            words in your explanation.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Determine the three vertex arrangements with three polygons that extend 
+            to a semiregular tiling. Why must the others be eliminated?
+          </p>
+        </statement>
+      </task>
+    </exploration>
 </subsection>
+<conclusion>
+  <p>
+    As we conclude this long section, it is wise to reflect on what we have learned.
+    What should we add to our tool box for later use? Definitions for regular polygons,
+    tilings, regular tilings, and semiregular tilings were introduced at the beginning 
+    of the section. You should also note the items below:
+  </p>
+  <exercise>
+    <title>Key Ideas related to Regular Polygons</title>
+    <p>
+    <ol>
+      <li>
+        <p>
+        What formula can be used to compute the angle measure for a regular 
+        <m>n</m>-gon?
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the sum of the measures of the vertex angles for any (not-necessarily
+          regular) convex <m>n</m>-gon? For example, the measures of the angles of  
+          any triangle add up to 180 degrees. What is the total for a convex quadrilateral,
+          a convex pentagon, etc.?
+        </p>
+      </li>
+      <li>
+        <p>
+          Describe the three regular tilings.
+        </p>
+      </li>
+      <li>
+        <p>
+          If a group of polygons meet at a single vertex, what must be the sum 
+          of the angle measures at that vertex? Note that this wording generalizes this  
+          fact to nonregular polygons as well.
+        </p>
+      </li>
+      <li>
+        <p>
+          Just because a collection of regular polygons can surround a vertex  
+          does not mean that they can create a semiregular tiling. Give an example 
+          of a vertex arrangement that does not extend to a regular tiling. Support 
+          your claim.
+        </p>
+      </li>
+    </ol>
+  </p>
+  </exercise>
+    
+</conclusion>
 </section>
