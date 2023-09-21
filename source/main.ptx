@@ -74,7 +74,7 @@
     <p permid="qTA">
       Finally, a thank you to the numerous students
     </p>
-  </acknowledgement>
+  </acknowledgement>-->
 
   <preface xml:id="preface" permid="xOf">
     <p permid="BsF">
@@ -97,10 +97,11 @@
         My hope is to continue improving the book, releasing a new edition each spring in time for fall adoptions.  These new editions will incorporate additions and corrections suggested by instructors and students who use the text the previous semesters.
         Thus I encourage you to send along any suggestions and comments as you have them.
       </p>
-    </paragraphs>
+    <!--</paragraphs>-->
     <attribution>
     <line>Teresa D. Magnus, Ph.D.</line>
-    <line>Rivier University, 2024</line></attribution>
+    <line>Rivier University, 2024</line>
+  </attribution>
   </preface>
 
   <preface permid="dVo">
@@ -110,7 +111,7 @@
     </p>
 
     <paragraphs permid="qjG">
-      <title><em>Investigate!</em> activities</title>
+      <title>Exploration activities</title>
       <p permid="QBD">
         Say something about the role of explorations.
       </p>
@@ -145,7 +146,7 @@
       </sidebyside>
     </paragraphs>
   </preface>
-      -->
+  
   
     </frontmatter>
 

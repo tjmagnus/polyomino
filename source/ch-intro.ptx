@@ -119,6 +119,7 @@
       <!--<xi:include href="sec-intro-summary-toolbox.ptx"/>
       <xi:include href="sec-intro-journal.ptx"/>-->
       <xi:include href="sec-intro-references.ptx"/>
+      <xi:include href="sec-intro-instructor"  component="instructor"/>
     
 
 </chapter>

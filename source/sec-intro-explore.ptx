@@ -6,37 +6,6 @@
       
       <title>Tiling Rectangles with Polyominoes</title>
       <introduction>
-      <commentary component="instructor">
-          <title>Instructor's Note:</title>
-          <p>
-            This activity should not require much of an introduction and 
-            provides an opportunity for students to get to know a few classmates  
-            and experience a tactile or visual learning experience 
-            in a low-stress environment. Expectations of group work can begin 
-            to be established. In my classes, I begin without using technology 
-            to encourage interaction. <!--A HANDOUT IS AVAILABLE AT MY INSTRUCTOR's
-            PAGE.-->
-          </p>
-          <p>
-            As part of the post-exploration discussion, you may want 
-            to remind the students about how area is simply the number 
-            of unit squares that fill the interior. It can be noted how 
-            the area formula for a rectangle is easy to remember and related 
-            to the operation for multiplication. In addition, we will be using 
-            the fact that the total area is preserved when a figure is cut into 
-            smaller figures and then rearranged to form a new figure. This principle 
-            will be used to derive area formulas for other figures and to demonstrate 
-            the universality of the Pythagorean Theorem. 
-          </p>
-          <p>
-          This exploration is also available as a Desmos classroom activity. 
-          <url href="teacher.desmos.com/activitybuilder/custom/648a1bcce94034a3fecf0109"></url>.
-          For a tactile experience, a classroom set of pentominoes may be provided 
-          after students have had enough opportunity to discover most of them on their 
-          own in small groups. Printable pentominoes can be found online. 
-          Graph paper is useful for discovering pentominoes when technology is not used.
-        </p>
-      </commentary>
         <p>
           Although this task is to fill a box, you are encouraged to think 
           outside the box as you do this activity. You will find that a 
@@ -270,6 +239,4 @@
           make predictions, and wonder why. Different approaches and strategies are encouraged. 
           Relax and have fun exploring mathematics! 
         </p>
-    
-
 </section>

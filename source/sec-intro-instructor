@@ -1,0 +1,54 @@
+<section xml:id="sec-intro-instructor" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Instructor Notes</title>
+
+    <subsection>
+        <title>Notes for <xref ref="sec-intro-explore"/></title>
+        <p>
+            The first exploratory activity should not require much of an introduction and 
+            provides an opportunity for students to get to know a few classmates  
+            and experience a tactile or visual learning experience 
+            in a low-stress environment. Expectations of group work can begin 
+            to be established. In my classes, I begin without using technology 
+            to encourage interaction providing groups with a set of pentominos after 
+            they have discovered most of them. A handout for this activity 
+            is available 
+            to instructors by request<!--on the book website-->. Graph paper is useful 
+            for discovering pentominoes when technology is not used. Printable pentominoes 
+            that could be cut out can easily be found on the web.This exploration 
+            is also available as a Desmos classroom activity, 
+            <url href="teacher.desmos.com/activitybuilder/custom/648a1bcce94034a3fecf0109"></url>. 
+        </p>
+        <p>
+            As part of the post-exploration discussion, you may want 
+            to remind the students about how area is simply the number 
+            of unit squares that fill the interior. It can be noted how 
+            the area formula for a rectangle is easy to remember and related 
+            to the operation for multiplication. In addition, we will be using 
+            the fact that the total area is preserved when a figure is cut into 
+            smaller figures and then rearranged to form a new figure. This principle 
+            will be used to derive area formulas for other figures and to demonstrate 
+            the universality of the Pythagorean Theorem. 
+        </p>
+        <p>
+            Other thoughts: math autobiography, 
+        </p>
+    </subsection>
+    <subsection>
+        <title>Notes for <xref ref="sec-intro-apply"/></title>
+        <p>
+            To be added.
+        </p>
+    </subsection>
+    <subsection>
+        <title>Notes for <xref ref="sec-intro-share"/></title>
+        <p>
+            To be added. 
+        </p>
+    </subsection>
+    <subsection>
+        <title>Notes for <xref ref="sec-intro-struggle"/></title>
+        <p>
+            To be added.
+        </p>
+    </subsection>
+</section>

@@ -83,7 +83,33 @@
     <title>Conjectures and Explanations in Mathematics</title>
     <p>
       Have you ever wondered how mathematics came into existence? A simple answer is 
-      that someone explored mathematical objects, like numbers or 
+      that people explored mathematical objects, like numbers or shapes, and noticed 
+      patterns and consistencies. They then sought to convince themselves and others that 
+      these patterns were not just coincidences but would have to occur.
+    </p>
+    <p>
+      How do we convince others? In mathematics, we start with basic axioms like the ones WHERE  
+      and then use logic to demonstrate that our conjecture must follow. Once we prove a claim, it 
+      is no longer a conjecture and is now considered to be a theorem. We can then add the theorem to 
+      our toolbox and use it to demonstrate new claims.
+    </p>
+    <p>
+      Since this textbook is written for students majoring in fields other than mathematics, we will not 
+      spend time developing proof-writing techniques. Even so, everyone can benefit from learning to 
+      write clear and thorough explanations and demonstrations. Future teachers should develop the 
+      ability to explain mathematics carefully and accurately, using words, pictures, and multiple approaches 
+      that their students can understand. A future lawyer or business professional will use a different 
+      style, but the practice of writing explanatory papers in mathematics will enhance their ability to 
+      present and support arguments for their cases and proposals. As you write explanations, choose an 
+      audience that makes sense for you--a student, a friend, a colleague--and use language appropriate for 
+      that audience.
+    </p>
+    <p>
+      How do we write mathematical explanations and establish new truths? We usually let our reader know  
+      what we claim and plan to prove. In geometry, we often accompany our explanations with a sketch on which 
+      we have labeled with the names of points and/or variables for lengths so that our reader can follow our 
+      argument visually. We do not assign numerical values to lengths as we do not want to limit our claim to 
+      one example. EXAMPLE
     </p>
   </subsection>    
   </section>
