@@ -1,0 +1,28 @@
+INFO    : PreTeXt project found in `C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox`.
+WARNING : Using CLI version 2.0.1 but project's `requirements.txt`
+WARNING : is configured to use 1.7.2. Consider either installing
+WARNING : CLI version 1.7.2 or changing `requirements.txt` to match 2.0.1.
+INFO    : Checking for update for required playwright chromium browser.
+INFO    : using playwright package to create previews for interactives from C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\source\main.ptx for placement in C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\generated-assets\preview
+INFO    : XSL conversion of C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\source\main.ptx by C:\Users\three\.ptx\xsl\extract-interactive.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\three\.ptx\xsl\extract-interactive.xsl
+INFO    : discovering source file's directory name: C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\source
+INFO    : verifying and expanding input directory: C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\assets
+INFO    : Opening subprocess http.server with port=8888
+INFO    : automatic screenshot of interactive with identifier "which-fill-square" on page http://localhost:8888\which-fill-square.html to file which-fill-square-preview.png
+INFO    : Closing http.server subprocess
+INFO    : manufacturing QR codes from C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\source\main.ptx for placement in C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\generated-assets\qrcode
+INFO    : XSL conversion of C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\source\main.ptx by C:\Users\three\.ptx\xsl\extract-qrcode.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    : successful application of C:\Users\three\.ptx\xsl\extract-qrcode.xsl
+INFO    : creating URL with content "which-fill-square.html" as C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox\generated-assets\qrcode\which-fill-square.png...
+INFO    : QR code creation complete
+INFO    : Removing temporary directory C:\Users\three\AppData\Local\Temp\tmpn84simqg
+CRITICAL: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\three\\AppData\\Local\\Temp\\tmpn84simqg'
+INFO    : ------------------------
+INFO    : While running pretext, the following errors occurred:
+
