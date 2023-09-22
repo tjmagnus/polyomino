@@ -242,7 +242,7 @@
 <p>
   Some specific types of polygons are defined below. We add these to our toolbox. 
   An easy way to find definitions later is to use the index at the end of the textbook.
-  ADD MORE PERHAPS AN EXERCISE AND/OR VIDEO ON USING THE INDEX.
+  <!--ADD MORE PERHAPS AN EXERCISE AND/OR VIDEO ON USING THE INDEX.-->
 </p>
     <definition xml:id="def-triangle">
       <idx><h>triangle</h></idx>

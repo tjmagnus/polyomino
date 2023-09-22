@@ -1,0 +1,8 @@
+INFO    : PreTeXt project found in `C:\Users\three\Desktop\PreTeXt-and-VS\Pretext\Geom-public-sandbox`.
+WARNING : Using CLI version 2.0.1 but project's `requirements.txt`
+WARNING : is configured to use 1.7.2. Consider either installing
+WARNING : CLI version 1.7.2 or changing `requirements.txt` to match 2.0.1.
+CRITICAL: Specification mandates value for attribute iframe, line 75, column 18
+INFO    : ------------------------
+INFO    : While running pretext, the following errors occurred:
+

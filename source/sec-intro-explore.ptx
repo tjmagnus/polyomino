@@ -66,11 +66,14 @@
             Interactive tool on Polypad by Mathigon 
           </url>
         </p>
-      <!--
-          <interactive xml:id="which-fill-square" 
+      
+          <!--<interactive xml:id="which-fill-square" 
           iframe="https://www.mathigon.org/polypad/deIUjqp9tTSpa" 
-          preview="preview/phet-fourier-preview.png" width="95%" aspect="15:10" />
-      -->
+          preview="whichtetromino" width="95%" aspect="15:10"/>-->
+      
+          <interactive xml:id="which-fill-square"
+          src="https://mathigon.org/polypad/embed/deIUjqp9tTSpaQ" 
+          frameborder="0" allowfullscreen="no"></interactive>
         </statement>
       </task>
 

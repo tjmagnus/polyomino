@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-polygons-length" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Lengths and the Pythagorean Theorem</title>
+    <title>Exploring Length and the Pythagorean Theorem</title>
   <introduction>
     <p>
-        This section will include additivity of length, 
-        puzzle proofs of the Pythagorean Theorem, and 
-        measuring distance on a coordinate plane.
+        Dating from before 500 B.C., the Pythagorean Theorem allows us to 
+        compute lengths associated with right triangles.  
+        Upon completing this section, you should be able to explain to 
+        others how the Pythagorean Theorem follows from our basic principles.
+        First, we introduce some terminology and refresh our memory on how to 
+        apply the theorem.
     </p>
   </introduction>  
 <subsection>
-  <title>Add Later</title>
-  <p>Write something here.</p>
+  <title>Right Triangles</title>
+  <definition xml:id="def-righttriangle">
+    <idx><h>triangle</h><h>right</h></idx>
+    <idx><h>right triangle</h></idx>
+    <idx><h>hypotenuse</h></idx>
+    <idx><h>leg</h><h>right triangle</h></idx>
+    <statement>
+      <p>
+        As noted in 
+        <xref ref="def-triangles-by-angles"/>, a <term>right triangle</term>
+        is a triangle with one right angle. The longest side, called the 
+        <term>hypotenuse</term>, of a right triangle
+        is always opposite the right angle. The other two sides of the right 
+        triangle are called the <term>legs</term>. 
+      </p>
+    </statement>
+  </definition>
+<reading-questions>
+  <title>Check Your Understanding</title>
+  <introduction>
+    <p>
+      Refer to the picture as you answer the following:
+      <image source="righttri" width="%">
+        <description>(for accessibility)</description>
+      </image>
+    </p>
+  </introduction>
+</reading-questions>
 </subsection>
-
+<!--Add an exercise why each leg of a triangle must be shorter the the hypotenuse.-->
 </section>
