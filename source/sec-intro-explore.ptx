@@ -71,9 +71,9 @@
           iframe="https://www.mathigon.org/polypad/deIUjqp9tTSpa" 
           preview="whichtetromino" width="95%" aspect="15:10"/>-->
       
-          <interactive xml:id="which-fill-square"
+          <!--<interactive xml:id="which-fill-square"
           src="https://mathigon.org/polypad/embed/deIUjqp9tTSpaQ" 
-          frameborder="0" allowfullscreen="no"></interactive>
+          frameborder="0" allowfullscreen="no"></interactive>-->
         </statement>
       </task>
 
