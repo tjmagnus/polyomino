@@ -24,20 +24,26 @@
             tetronimo. How many tetrominos are required?
           </p>
 
-          <image source="magnus-ltetromino" width="50%">
-            <description>
-              An L-shape and square.The L is three-fourths as high 
-              and half as wide as the square.
-            </description>
-          </image>
           <p>
             This task may be completed with pen and paper or using an 
             interactive tool. 
           
-          <url href="mathigon.org/polypad/OqM1coKhvKsMuw">  
-            Interactive tool on Polypad by Mathigon
+        </p>
+        <interactive xml:id="Lfillsquare" 
+        iframe="https://www.mathigon.org/polypad/embed/OqM1coKhvKsMuw" 
+        preview="magnus-ltetromino" aspect="16:12"/>
+<!--How to caption properly?-->
+        <p>
+          <url href="https://mathigon.org/polypad/embed/OqM1coKhvKsMuw"> 
+            Interactive tool on Polypad by Mathigon 
           </url>
         </p>
+        <image source="magnus-ltetromino" width="50%">
+          <description>
+            An L-shape and square.The L is three-fourths as high 
+            and half as wide as the square.
+          </description>
+        </image>
         </statement>
       </task>
       <task>
@@ -45,15 +51,17 @@
           <p>
             Just as a domino consists of two squares joined at an edge, a 
             <term>tetromino</term> is a flat figure created by joining four congruent 
-            squares along edges. Pictured below are the four other tetrominoes, an I-shape, a Z-shape, a T-shape,
+            squares along edges. Pictured below are the four other tetrominoes, 
+            an I-shape, a Z-shape, a T-shape,
             and a small square. Like the L-shape, some of these can cover the 
             larger square without overlaps or gaps. Identify which tetrominoes 
             will tile one of the larger squares and show how this can be done. If there 
             are any tetrominoes which cannot tile the square alone, explain 
-            why you believe the tiling is impossible. 
+            why you believe the tiling is impossible. Four larger squares are 
+            provided; try to tile one with the I-shape, one with the Z-shape, etc. 
           </p>
 
-          <image source="whichtetromino" width="70%">
+          <image source="whichtetromino">
             <description>
               Four shapes each formed by joining four unit squares along edges: 
               one tall rectangle, one T-shape, one zigzag-shape, and a small 
@@ -61,15 +69,15 @@
               tall rectangle are also provided.
             </description>   
           </image>
-        <p>
-          <url href="https://mathigon.org/polypad/deIUjqp9tTSpaQ"> 
-            Interactive tool on Polypad by Mathigon 
-          </url>
-        </p>
-      
           <interactive xml:id="which-fill-square" 
           iframe="https://www.mathigon.org/polypad/embed/deIUjqp9tTSpaQ" 
-          preview="whichtetromino" width="95%" aspect="15:10"/>
+          preview="whichtetromino" aspect="16:12"/>
+<!--How to caption properly?-->
+          <p>
+            <url href="https://mathigon.org/polypad/deIUjqp9tTSpaQ"> 
+              Interactive tool on Polypad by Mathigon 
+            </url>
+          </p>
       
           <!--<interactive xml:id="which-fill-square"
           src="https://mathigon.org/polypad/embed/deIUjqp9tTSpaQ" 
@@ -94,7 +102,7 @@
         </statement>
       </task>
     
-      <task>
+      <task xml:id="create-pentominoes">
         <statement>
           <p>
            Similarly, we define a <term>pentomino</term> to be a figure 
@@ -102,6 +110,14 @@
            is pictured. Create new pentominoes by copying and moving the provided square.   
            Note that if two pentominos are reflections or 
            rotations of each other we consider them to be the same pentomino.  
+          </p>
+          <interactive xml:id="app-buildpentominoes" 
+          iframe="https://www.mathigon.org/polypad/embed/lejfSv8Xt8FxJA" 
+          preview="buildpentominoes" aspect="16:12"/>
+          <p>
+            <url href="https://mathigon.org/polypad/lejfSv8Xt8FxJA"> 
+              Interactive tool on Polypad by Mathigon
+            </url>
           </p>
           <image source="buildpentominoes" width="70%">
             <description>
@@ -111,11 +127,6 @@
               more pentominoes.
             </description>
           </image>
-          <p>
-            <url href="https://mathigon.org/polypad/lejfSv8Xt8FxJA"> 
-              Interactive tool on Polypad by Mathigon
-            </url>
-          </p>
         </statement>
         <hint>
           <p>
@@ -129,7 +140,7 @@
           </p>
         </answer>
       </task>
-      <task>
+      <task xml:id="hiddenapp-pentominofilling">
         <statement>
           <p>
             Use some of the pentominoes you created to 
@@ -156,6 +167,9 @@
             using the link  <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">.
             </url>
           </p> 
+          <interactive xml:id="app-pentominorectangles" 
+          iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
+          preview="pentomino-rectangles" aspect="22:15"/>
         </hint>
       </task>
 

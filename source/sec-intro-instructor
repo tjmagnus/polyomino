@@ -8,29 +8,63 @@
             provides an opportunity for students to get to know a few classmates  
             and experience a tactile or visual learning experience 
             in a low-stress environment. Expectations of group work can begin 
-            to be established. In my classes, I begin without using technology 
-            to encourage interaction providing groups with a set of pentominos after 
-            they have discovered most of them. A handout for this activity 
+            to be established. Although this activity may be done via applets embedded 
+            within the online version of the textbook, I prefer to have my students
+            complete this activity in small groups (three per group) with a worksheet 
+            and graph paper. A handout for the inclass version 
+            of this activity 
             is available 
-            to instructors by request<!--on the book website-->. Graph paper is useful 
-            for discovering pentominoes when technology is not used. Printable pentominoes 
-            that could be cut out can easily be found on the web.This exploration 
-            is also available as a Desmos classroom activity, 
-            <url href="teacher.desmos.com/activitybuilder/custom/648a1bcce94034a3fecf0109"></url>. 
+            to instructors by request.<!--on the book website Also make sure that 
+            the pdf version has tetromino and pentomino cut-outs-->. 
         </p>
         <p>
+            I provide each group with a set of plastic pentominos only after 
+            they have discovered most of them through experimentation. 
+            Printable pentominoes that could be cut out can easily be found on 
+            the web. For students completing this exploration in the online 
+            textbook, I have hidden the last interactive inside the 
+            hint to <xref ref="hiddenapp-pentominofilling"/>, so that the answer 
+            to students will 
+            take some time trying to create the twelve pentominos in 
+            <xref ref="create-pentominoes"/> without having the answer immediately
+            visible. For another option, this exploration 
+            is available as a Desmos classroom activity, 
+            <url href="teacher.desmos.com/activitybuilder/custom/648a1bcce94034a3fecf0109"></url>. 
+            however, the instructor may wish to break this up (make two copies to 
+            edit) into two four-slide 
+            activities so that the slides with the pentominoes will not be visible 
+            too soon. 
+        </p>
+        <p>
+            This activity also plays an important role in preparing students for much 
+            of the work to come. We will build upon the basic principles about area, 
+            <xref ref="area-meaning"/>, <xref ref="area-rect"/>, and 
+            <xref ref="area-sums"/> as we compute areas of other shapes and as we 
+            prove the Pythagorean theorem. We will also introduce additivity of 
+            length, angle measure, and volume. These intuitive concepts have many 
+            applications and connections.
             As part of the post-exploration discussion, you may want 
             to remind the students about how area is simply the number 
             of unit squares that fill the interior. It can be noted how 
             the area formula for a rectangle is easy to remember and related 
-            to the operation for multiplication. In addition, we will be using 
+            to the operation for multiplication. We will be using 
             the fact that the total area is preserved when a figure is cut into 
             smaller figures and then rearranged to form a new figure. This principle 
             will be used to derive area formulas for other figures and to demonstrate 
             the universality of the Pythagorean Theorem. 
         </p>
         <p>
-            Other thoughts: math autobiography, 
+           I often assign a math autobiography at the beginning of the semester and
+           and have students refer back to it in their final portfolio. Students often 
+           respond positively to the "Notice and Wonder" reflective writing assignment
+           based on Eddie Wu's TedX talk, 
+           <url href="https://www.youtube.com/watch?v=PXwStduNw14"/>
+           <!--is this the same video?-->
+        .
+           The latter makes a good "snow day" activity. I have been less successful 
+           with students' response to "A Mathematician's Lament" by Paul Lockhart. Many 
+           students struggle to see how mathematics is like art, especially at the 
+           beginning of the semester. 
         </p>
     </subsection>
     <subsection>
