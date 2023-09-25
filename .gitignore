@@ -89,3 +89,5 @@ GitHub.sublime-settings
 .dropbox.attr
 .dropbox.cache
 
+# Don't include log files
+logs/*

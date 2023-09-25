@@ -27,12 +27,12 @@
 
       <colophon>
 
-        <website>
+        <!--<website>
           <name>
-            <c>example.org</c>
+            <c>www.rivier.edu</c>
           </name>
-          <address>https://example.org</address>
-        </website>
+          <address>www.rivier.edu</address>
+        </website>-->
 
         <copyright>
           <year>2020<ndash />2023</year>

@@ -67,9 +67,9 @@
           </url>
         </p>
       
-          <!--<interactive xml:id="which-fill-square" 
-          iframe="https://www.mathigon.org/polypad/deIUjqp9tTSpa" 
-          preview="whichtetromino" width="95%" aspect="15:10"/>-->
+          <interactive xml:id="which-fill-square" 
+          iframe="https://www.mathigon.org/polypad/embed/deIUjqp9tTSpaQ" 
+          preview="whichtetromino" width="95%" aspect="15:10"/>
       
           <!--<interactive xml:id="which-fill-square"
           src="https://mathigon.org/polypad/embed/deIUjqp9tTSpaQ" 
