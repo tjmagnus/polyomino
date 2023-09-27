@@ -35,12 +35,181 @@
   <introduction>
     <p>
       Refer to the picture as you answer the following:
-      <image source="righttri" width="%">
+      <image source="righttriangleparts" width="%">
         <description>(for accessibility)</description>
       </image>
     </p>
   </introduction>
+  <exercise>
+    <statement>
+      <p>
+        Which lower case letter represents the hypotenuse in the triangle above?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>b=\overline{AC}</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Which angle appears to be the smallest in the triangle?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        <m>\angle BAC</m>
+      </p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Which side appears to be the shortest in the triangle?
+      </p>
+    </statement>
+    <answer>
+      <p><m>a=\overline{BC}</m></p>
+    </answer>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        How are the answers to the last two questions related? Does this relationship
+        also hold for the largest side and largest angle?
+      </p>
+    </statement>
+    <answer>
+      <p>
+        The smallest side is opposite the smallest angle. The largest side is opposite  
+        the largest angle.
+      </p>
+    </answer>
+  </exercise>
 </reading-questions>
 </subsection>
-<!--Add an exercise why each leg of a triangle must be shorter the the hypotenuse.-->
+<subsection>
+  <title>The Pythagorean Theorem</title>
+  <p>
+    The Pythagorean Theorem states that if <m>a</m> and <m>b</m> are the lengths of
+    the sides of a right triangle and <m>c</m> is the length of the hypotenuse,
+    then <m>a^2+b^2=c^2</m>. The next set of questions will refresh your skill in 
+    using the Pythagorean Theorem to determine missing lengths.
+  </p>
+  <reading-questions>
+    <title>Check your Understanding</title>
+    <exercise>
+      <statement>
+        <p>
+          A triangle has legs of length 5 and 7. Determine the length of the 
+          hypotenuse.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>\sqrt{74}\approx8.602</m>
+        </p>
+      </answer>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          A square has a diagonal of length <m>\sqrt{80}</m>. Determine the 
+          length of the sides.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Since the sides of a square are the same length, use the same letter 
+          to represent all of them. How do you create a triangle from a square?
+        </p>
+      </hint>
+      <answer>
+        <p>
+          <m>\sqrt{40}=2\sqrt{10}\approx 6.325</m>
+        </p>
+      </answer>
+    </exercise>
+  </reading-questions>
+</subsection>
+<subsection>
+  <title>Proving the Pythagorean Theorem with Picture Puzzles</title>
+  <p>
+    The Pythagorean Theorem is very useful, but it is also somewhat mysterious.
+    Why does the formula work for all right triangles? Surprisingly, there are 
+    more than 350 recognized proofs of the Pythagorean. We will look at just a few. 
+    In the following exploration,
+    you will rearrange polygons built from a right triangle,
+    and use the rearrangements to explain why 
+    <m>a^2+b^2=c^2</m> in each case. You are encouraged to try all the proofs and to 
+    choose one to learn well enough to convince others.
+  </p>
+  <aside>
+    <p>
+      The book, The Pythagorean Proposition, by Elisha S. Loomis, (NCTM:1968) 
+      contains 367 proofs of the Pythagorean Theorem. 
+      <!--also he published a nonproof in 1901.--> 
+    </p>
+  </aside>
+  <exploration>
+    <title>Puzzling over Why the Pythagorean Theorem Holds</title>
+    <introduction>
+      <p>
+        For these explorations, we start with an arbitrary right triangle with 
+        hypotenuse length <m>c</m> and legs of length <m>a</m> and <m>b</m>.
+      </p>
+    </introduction>
+    <exercise>
+      <task xml:id="4triandcsq">
+        <title>First Pythagorean Puzzle</title>
+        <statement>
+          <p>
+            The four triangles on the right are congruent copies of <m>\Delta ABC</m>
+            and the square in the upper right has side length <m>c</m>.
+          </p>
+          <image source="PythRightTriCsquare">
+            <description>
+              Right triangle ABC and four congruent copies, a square
+              of side length c, and a larger square that can be filled by four copies of  
+              the triangle and the smaller square.
+            </description>
+          </image>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Fill the square on the lower left using the four copies of the triangle  
+                  and the square on the right. Pieces can be moved by selecting the interior 
+                  and rotated by moving the visible point. Triangle <m>\Delta ABC</m> is 
+                  only shown for reference and will not be used. As always, there should be  
+                  no gaps nor overlaps. Preserve your work with a sketch or screenshot.
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the length of a side of the square that you filled? Give your 
+                  answer in terms of lengths <m>a</m>, <m>b</m>, and <m>c</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+      <task xml:id="4triandsquaresAandB">
+        <statement>
+          <p>
+            The four triangles on the right are congruent copies of <m>\Delta ABC</m>
+            and the square in the upper right has side length <m>c</m>.
+          </p>
+        </statement>
+      </task>
+
+  
+    </exercise>
+  </exploration>
+</subsection>
+<!--Add an exercise why each leg of a triangle must be shorter the the hypotenuse. Also
+can they prove that the smallest side is opposite the smallest angle?-->
 </section>
