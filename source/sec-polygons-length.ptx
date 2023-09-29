@@ -162,7 +162,7 @@
       </p>
     </introduction>
     <exercise>
-      <task xml:id="4triandcsq">
+      <task xml:id="tri4andcsq">
         <title>First Pythagorean Puzzle</title>
         <statement>
           <p>
@@ -197,7 +197,7 @@
           </p>
         </statement>
       </task>
-      <task xml:id="4triandsquaresAandB">
+      <task xml:id="tri4andsquaresAandB">
         <statement>
           <p>
             The four triangles on the right are congruent copies of <m>\Delta ABC</m>

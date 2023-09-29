@@ -44,9 +44,10 @@
   <xi:include href="sec-polygons-parallel.ptx"/>
   <xi:include href="sec-polygons-angles.ptx"/>
   <xi:include href="sec-polygons-regular.ptx"/>
-  <!--<xi:include href="sec-polygons-length.ptx"/>
-  <xi:include href="sec-polygons-taxicab.ptx"/>
+  <xi:include href="sec-polygons-length.ptx"/>
+  <!--<xi:include href="sec-polygons-taxicab.ptx"/>
   <xi:include href="sec-polygons-summary.ptx"/>
   <xi:include href="sec-polygons-writing.ptx"/>-->
+  <xi:include href="sec-polygons-instructor"/>
   <xi:include href="sec-polygons-references.ptx"/>
 </chapter>
