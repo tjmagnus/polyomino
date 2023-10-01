@@ -161,7 +161,6 @@
         hypotenuse length <m>c</m> and legs of length <m>a</m> and <m>b</m>.
       </p>
     </introduction>
-    <exercise>
       <task xml:id="tri4andcsq">
         <title>First Pythagorean Puzzle</title>
         <statement>
@@ -190,7 +189,14 @@
               <li>
                 <p>
                   What is the length of a side of the square that you filled? Give your 
-                  answer in terms of lengths <m>a</m>, <m>b</m>, and <m>c</m>.
+                  answer in terms of lengths <m>a</m>, <m>b</m>, and/or <m>c</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Determine the area of each of the pieces used to fill the square frame 
+                  using the variables <m>a</m>, <m>b</m>, and/or <m>c</m>. Write the sum 
+                  of these areas still using variables.
                 </p>
               </li>
             </ol>
@@ -198,16 +204,88 @@
         </statement>
       </task>
       <task xml:id="tri4andsquaresAandB">
+        <title>Second Pythagorean Puzzle</title>
         <statement>
           <p>
             The four triangles on the right are congruent copies of <m>\Delta ABC</m>
-            and the square in the upper right has side length <m>c</m>.
+            and the square in the upper right has side length <m>a</m>, the length of  
+            the shorter leg of the right triangle. The square below  
+            it has a side length <m>b</m> corresponding to the other leg.
+          </p>
+          <image source="PythRightTriABsquares">
+            <description>Four congruent right triangles, two squares with side lengths, a 
+              and b,
+              corresponding to the legs of the right triangle, and a larger square frame.
+            </description>
+          </image>
+          <p>
+            <ol>
+              <li>
+                <p>
+                 Fill the square frame on the lower left with the four congruent right 
+                 triangles and the squares with lengths <m>a</m> and <m>b</m>, respectively.
+                 Preserve your work with a sketch or screenshot. 
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the length of a side of the square that you filled? Give your 
+                  answer in terms of lengths <m>a</m>, <m>b</m>, and/or <m>c</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Determine the area of each of the pieces used to fill the square frame 
+                  using the variables <m>a</m>, <m>b</m>, and/or <m>c</m>. Write the sum 
+                  of these areas still using variables.
+                </p>
+              </li>
+            </ol>
           </p>
         </statement>
       </task>
-
-  
-    </exercise>
+      <task>
+        <title>Using the First Two Puzzles Together to Prove the Pythagorean Theorem</title>
+        <statement>
+          <p>
+            Look at the two ways in which you filled the square frames and the expressions 
+            for the area of the frames. How can you use this to justify the formula 
+            <m>a^2+b^2=c^2</m>?
+          </p>
+          <aside>
+            <p>
+              An alternative is to use just the first puzzle and more algebra to prove the 
+              Pythagorean Theorem. This is acceptable, but Education majors may appreciate 
+              that the method of using both puzzles together can be used to convince third graders.
+            </p>
+          </aside>
+        </statement>
+        <hint>
+          <p>
+            Are the square frames the same size? Why does this allow us to set the two  
+            sums of areas equal to each other?
+          </p>
+        </hint>
+      </task>
+      <task xml:id="GarfieldTask">
+        <title>A Presidential Proof</title>
+        <statement>
+          <p>
+            This proof of the Pythagorean Theorem is attributed to James A. Garfield, 
+            the twentieth President of the United States. Refer to the diagram below:
+          </p>
+          <image source="Garfield">
+            <description>(for accessibility)</description>
+          </image>
+            <p>
+            <ol>
+              <li>
+                <p>The diag</p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
   </exploration>
 </subsection>
 <!--Add an exercise why each leg of a triangle must be shorter the the hypotenuse. Also
