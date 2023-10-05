@@ -175,6 +175,14 @@
               the triangle and the smaller square.
             </description>
           </image>
+          <figure xml:id="PythRTriCsq">
+            <caption>
+                An interactive Geogebra applet for proving the Pythagorean Theorem.
+            </caption>
+        <interactive platform="geogebra">
+            <slate surface="geogebra" material="wpd66vrf"/>
+        </interactive>
+        </figure>
           <p>
             <ol>
               <li>
@@ -218,6 +226,14 @@
               corresponding to the legs of the right triangle, and a larger square frame.
             </description>
           </image>
+          <figure xml:id="PythRTriABsq">
+            <caption>
+                An interactive Geogebra applet for proving the Pythagorean Theorem.
+            </caption>
+        <interactive platform="geogebra">
+            <slate surface="geogebra" material="c2re6w2y"/>
+        </interactive>
+        </figure>
           <p>
             <ol>
               <li>
@@ -264,7 +280,7 @@
           <p>
             Are the square frames the same size? Why does this allow us to set the two  
             sums of areas equal to each other?
-          </p>
+          </p> 
         </hint>
       </task>
       <task xml:id="GarfieldTask">
@@ -275,19 +291,129 @@
             the twentieth President of the United States. Refer to the diagram below:
           </p>
           <image source="Garfield">
-            <description>(for accessibility)</description>
+            <description>
+              Right triangle ABC with right angle at C. Point D is placed on ray 
+              CA so that the length of AD equals the length of BC. Point E is placed on the same 
+              side of CD as B so that 
+              line DE is perpendicular to AD and segment DE is the same length as AC. Points E and B 
+              are joined by a segment. This creates two congruent right triangles ABC and EAD and an 
+              isoceles right triangle BAE. The outer boundary is a trapezoid BCDE since BC and DE are 
+              parallel.
+            </description>
           </image>
             <p>
             <ol>
               <li>
-                <p>The diag</p>
+                <p>
+                  The diagram above consists of two congruent right triangles and 
+                  one isosceles right triangle arranged to form a trapezoid. Label 
+                  the hypotenuses with the letter <m>c</m>. Label the smallest side  
+                  of these triangles <m>a</m> and the other leg <m>b</m>. Note that 
+                  the hypotenuse of the remaining right triangle is longer than <m>c</m>.
+                  Instead, call it <m>d</m>. 
+                </p>
+              </li>
+              <li>
+                <p>
+                  Identify the two parallel bases for the trapezoid. Determine the 
+                  height of this trapezoid in terms of the labels you put on the 
+                  diagram. 
+                </p>
+              </li>
+              <li>
+                <p>
+                  Compute the area of the trapezoid using the trapezoid formula leaving 
+                  your answer in terms of the variables you used to label the 
+                  diagram.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Similarly, compute the areas of each of the three triangular 
+                  pieces and add them together.
+                </p>
+              </li>
+              <li>
+                <p>
+                  How does this prove the Pythagorean Theorem?
+                </p>
               </li>
             </ol>
           </p>
         </statement>
       </task>
+      <task xml:id="sqtostairs-Pyth-task">
+        <statement>
+          <p>
+            The final proof of the Pythagorean Theorem is primarily 
+            visual. Almost no algebra is required.
+          </p>
+          <figure xml:id="PythBlocks">
+            <caption>
+                An interactive Geogebra applet for proving the Pythagorean Theorem.
+            </caption>
+        <interactive platform="geogebra">
+            <slate surface="geogebra" material="xvnba5ja"/>
+        </interactive>
+        </figure>
+        <ol>
+          <li>
+            <p>
+              Rearrange the four congruent triangle copies and the small square to form 
+              a square. Verify that your shape is definitely a square. 
+              Do not use <m>\Delta ABC</m>. Drag the centers of shapes to move 
+              them and use the labeled corners to rotate. Save a copy of your work.
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the length of a side of this square?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the area of the square you created?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the length of a side of the small square in terms of the labels <m>a</m>,
+              <m>b</m>, and <m>c</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              Once again, our goal is to show <m>a^2+b^2=c^2</m>. Use the same five pieces to 
+              create a pair of touching squares of area <m>a^2</m> and <m>b^2</m>. Some puzzle 
+              pieces will cover parts of both squares. A second 
+              copy of the Geogebra applet is provided below for your use.
+            </p>
+            <figure xml:id="PythBlocks2">
+              <caption>
+                  An interactive Geogebra applet for proving the Pythagorean Theorem, repeated 
+                  from above.
+              </caption>
+          <interactive platform="geogebra">
+              <slate surface="geogebra" material="xvnba5ja"/>
+          </interactive>
+          </figure>
+          </li>
+          <li>
+            <p>
+              Does the small square have the same dimensions as before? How do you know?
+            </p>
+          </li>
+          <li>
+            <p>
+              How do these two sketches together show that the Pythagorean Theorem holds?
+            </p>
+          </li>
+        </ol>
+        </statement>
+      </task>
   </exploration>
 </subsection>
-<!--Add an exercise why each leg of a triangle must be shorter the the hypotenuse. Also
+<!--Reflect on this activity: Difference between using the PT to solve problems or compute 
+  lengths vs. proving that it holds. Add an exercise why each leg of a triangle must be shorter the the hypotenuse. Also
 can they prove that the smallest side is opposite the smallest angle?-->
 </section>
