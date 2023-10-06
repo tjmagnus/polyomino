@@ -413,7 +413,26 @@
       </task>
   </exploration>
 </subsection>
-<!--Reflect on this activity: Difference between using the PT to solve problems or compute 
-  lengths vs. proving that it holds. Add an exercise why each leg of a triangle must be shorter the the hypotenuse. Also
-can they prove that the smallest side is opposite the smallest angle?-->
+<subsection>
+  <title>Reflecting on the Pythagorean Theorem</title>
+  <p>
+    Most people can state the Pythagorean Theorem and use it to find missing lengths in a right triangle,
+    but in this section you have learned why the theorem holds for all right triangles. We have practiced 
+    using variables in our arguments so that our explanation is not just shown for a right triangle with 
+    lengths 3, 4, and 5 (or 5, 12, and 13), but for all right triangles. Even so, the fact that we used  
+    puzzle pieces enables us to share this knowledge with anyone who has at least a fourth grade knowledge  
+    of geometry, area, and square numbers. A few of our proofs did not require the algebraic representation 
+    and symbolic manipulation learned in middle or high school.
+  </p>
+  <p>
+    On the other hand, we need to be careful that we do not try to apply this theorem to non-right 
+    triangles. It is possible to create a triangle whose side lengths are 3, 5, and 6, but this triangle will  
+    not have a right angle. In fact, the converse of the Pythagorean theorem states that if <m>a</m>, <m>b</m>,
+    and <m>c</m> are sides of a triangle with <m>a^2+b^2=c^2</m>, then the triangle will have a right angle 
+    opposite the side with length <m>c</m>. We will not prove this converse OR DO I PUT IT AS AN EXERCISE. 
+  </p>
+</subsection>
+<!--Exercise ideas:
+Routine Pythagorean problems. Prove converse of Pythagorean Theorem. Prove that the side opposite the right 
+angle must be the longest side. Letter to a friend. -->
 </section>
