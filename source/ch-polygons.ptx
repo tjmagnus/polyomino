@@ -48,6 +48,8 @@
   <!--<xi:include href="sec-polygons-taxicab.ptx"/>
   <xi:include href="sec-polygons-summary.ptx"/>
   <xi:include href="sec-polygons-writing.ptx"/>-->
-  <xi:include href="sec-polygons-instructor"/>
   <xi:include href="sec-polygons-references.ptx"/>
+  <commentary component="instructor">
+    <xi:include href="sec-polygons-instructor"/>
+  </commentary>
 </chapter>

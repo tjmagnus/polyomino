@@ -4,15 +4,48 @@
     <title>What does Parallel Mean?</title>
     <introduction>
         <p>
-            Review def of parallel. Explore lines and triangles on a sphere.
-            Distance between lines.
+            What does it mean for two lines to be parallel? Remembering that lines continue
+            indefinitely, we defined two lines in the same plane to be <xref ref="def-parallel">
+            <term>parallel</term></xref> if they never intersect. In this section, we
+            will look more closely at this definition, explore properties related to parallel lines,
+            and explore what lines look like in other geometries.
         </p>
     </introduction>
     <subsection>
-        <title>Hmmm</title>
+        <title>Geometry on Another Surface</title>
+        <p>
+            In school, we typically consider lines to lie on a flat surface called a plane. While 
+            most of this textbook will follow this tradition, we take a brief departure from planar 
+            geometry in this section. The world we live on is not flat; it is roughly spherical. One 
+            could also study the behavior of lines in our universe: Are they straight or do the bend? 
+            What can we say about parallel lines in these environments? Do our familiar properties hold?
+        </p>
+        <exploration>
+            <title>Lines on a Sphere</title>
+            <introduction>
+                <p>
+                    For this activity, you will need a sphere, some rubber bands large enough to go around 
+                    your sphere, a protractor, a marker, and a piece of thread. Possible <q>spheres</q> 
+                    include styrophone balls, oranges, rubber softballs, or spheres sold by math education 
+                    supply companies. Aim for a sphere around the size of a softball or larger. 
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Write three different endings to the statement, <q>A line is ...</q>.
+                    </p>
+                </statement>
+            </task>
+        </exploration>
+    </subsection>
+    <subsection xml:id="subsec-">
+        <title>Parallel Lines</title>
         <p>
             Ideas: Segments connecting parallel lines; shortest distance. 
             Trapezoids and parallelograms. 
         </p>
     </subsection>
+
+
 </section>

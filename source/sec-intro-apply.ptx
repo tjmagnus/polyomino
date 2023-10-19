@@ -347,7 +347,9 @@
       <idx><h>parallel</h><h>sides of a polygon</h></idx>
       <statement>
         <p>
-          Two lines are said to be <term>parallel</term> if they never meet. 
+          Two lines in the same plane are said to be <term>parallel</term> if they 
+          never intersect. <!--They share no points in common and every pair of points on 
+          one of the lines must be on the same side of the other line.-->
           Two line segments or two sides of a polygon are said to be 
           <term>parallel</term> if the lines they are a part of are parallel.
           Note that a line always extends infinitely in two directions while a 

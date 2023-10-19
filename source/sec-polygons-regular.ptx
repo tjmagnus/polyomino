@@ -3,7 +3,7 @@
 <section xml:id="sec-polygons-regular" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Explorations with Regular Polygons</title>
   <introduction>
-    <commentary component="instructor">
+    <!--Put instructor notes in last section. <commentary component="instructor">
       <title>Note to instructors:</title> 
       <p>
         Explorations into regular and semiregular tilings will encourage students  
@@ -43,7 +43,7 @@
         discovered new pentagonal tiles. As you look at other resources, note that the 
         terms <q>tiling</q> and <q>tessellation</q> are used interchangeably.
       </p>
-    </commentary>
+    </commentary>-->
     <p>
         Have you ever studied a tiling of a floor or a pattern on a quilt? In this  
         section, we will define a regular polygon and explore when regular tilings 
@@ -125,12 +125,24 @@
         will also be used later in this section. You are encourage to 
         keep an accessible record of your work for future reference.
       </p>
+      <p>
+        The web application <url href="https://mathigon.org/polypad#polygons">Polypad
+        by Mathigon</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
+        These are the top six shapes in the Polygons and Shapes menu. Simply 
+        drag the shape from the left into the whiteboard area. Rotate using the black dot 
+        and move by clicking on the interior. For <m>n</m>-gons with <m>n>8</m>, use  
+        the hexagon labeled "regular" in the bottom rom of shapes. After you have moved this  
+        figure into the whiteboard, use the dotted vertex to increase the number of sides.
+        You can then use the duplicated sheet icon on the flip/cut/... menu to make copies 
+        of your <m>n</m>-gon.
+      </p>
     </introduction>
     <!--add polypad or doenet app here-->
     <task>
       <statement>
         <p>
-          Select a single regular polygon and use it to construct a regular  
+          Select a single regular polygon, making copies of it as needed,
+          and use it to construct a regular  
           tiling. Construct enough of the tiling to convince others that the 
           tiling can continue to tile the plane with no gaps and overlaps. 
         </p>
@@ -140,9 +152,9 @@
       <statement>
         <p>
           Experiment with equilateral triangles, squares, regular pentagons, 
-          regular hexagons, and other regular n-gons to determine which can 
+          regular hexagons, and other regular <m>n</m>-gons to determine which can 
           be used to create a regular tiling and which do not. What do you think 
-          will happen with regular polygons with more than ten sides? Why?
+          will happen with regular polygons with more than eight sides? Why?
         </p>
       </statement>
     </task>

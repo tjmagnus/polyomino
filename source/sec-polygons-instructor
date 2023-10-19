@@ -7,4 +7,29 @@
             Notes for the instructor will be added.
         </p>
     </subsection>
+    <subsection>
+        <title>Notes for <xref ref="sec-polygons-regular"/></title>
+        <p>
+            Copied from exploration: <!--Revise here or there!-->  
+                This activity may be completed using physical tiles or 
+                in an app. <commentary component="instructor"> Unfortunately, the only regular polygons included in 
+                most sets of pattern blocks only include triangles, quadrilaterals, and 
+                hexagons so cardstock stencils may be needed.</commentary> Be sure to save a record of your designs by 
+                tracing, photography, or screenshots. Some of the computations  
+                will also be used later in this section. You are encourage to 
+                keep an accessible record of your work for future reference.
+              </p>
+              <p>
+                The web application <url href="https://mathigon.org/polypad#polygons">Polypad
+                by Mathigon</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
+                These are the top six shapes in the Polygons and Shapes menu. Simply 
+                drag the shape from the left into the whiteboard area. Rotate using the black dot 
+                and move by clicking on the interior. For <m>n</m>-gons with <m>n>8</m>, use  
+                the hexagon labeled "regular" in the bottom rom of shapes. After you have moved this  
+                figure into the whiteboard, use the dotted vertex to increase the number of sides.
+                You can then use the duplicated sheet icon on the flip/cut/... menu to make copies 
+                of your <m>n</m>-gon.
+              
+        </p>
+    </subsection>
 </section>
