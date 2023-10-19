@@ -41,8 +41,8 @@
     </p>
   </introduction>  
   <xi:include href="sec-polygons-area.ptx"/>
-  <xi:include href="sec-polygons-parallel.ptx"/>
   <xi:include href="sec-polygons-angles.ptx"/>
+  <xi:include href="sec-polygons-parallel.ptx"/>
   <xi:include href="sec-polygons-regular.ptx"/>
   <xi:include href="sec-polygons-length.ptx"/>
   <!--<xi:include href="sec-polygons-taxicab.ptx"/>
