@@ -20,7 +20,7 @@
             could also study the behavior of lines in our universe: Are they straight or do the bend? 
             What can we say about parallel lines in these environments? Do our familiar properties hold?
         </p>
-        <exploration>
+        <exploration xml:id="parallel-explor-lines-sphere">
             <title>Defining Lines on a Sphere</title>
             <introduction>
                 <p>
@@ -119,13 +119,13 @@
             hemispheres of the same size.  Restrict yourself to this definition of line for the next   
             exploration. 
         </p>
-        <exploration>
+        <exploration xml:id="parallel-explor-spherical-triangles">
             <title>Properties of Spherical Lines and Triangles</title>
-            <aside>
+            <!--<aside>
                 <p>
                     Instructions for virtual version is available in the instructor's note for this section.
                 </p>
-            </aside>
+            </aside>-->
             <task>
                 <statement>
                     <p>
@@ -221,13 +221,125 @@
             </task> 
         </exploration>
     </subsection>
-    <subsection xml:id="subsec-possible-parallel">
-        <title>Parallel Lines</title>
-        <p>
-            Ideas: Segments connecting parallel lines; shortest distance. 
-            Trapezoids and parallelograms. 
-        </p>
+    <subsection xml:id="subsec-understanding-parallel">
+        <title>Understanding Parallel Lines</title>
+            <p> 
+                Talk about Playfair's Postulate, role of the plane, skew lines.
+            </p>
+<!--                Ideas: Segments connecting parallel lines; shortest distance. 
+                Trapezoids and parallelograms. -->
+                <principle xml:id="principle-Playfair">
+                    <title>Playfair's Parallel Postulate</title>
+                    <statement>
+                        <p>
+                            Given a line <m>\ell</m> and a point <m>P</m> not on <m>\ell</m>, there is one 
+                            and only one line passing through <m>P</m> and parallel to <m>\ell</m>. 
+                        </p>
+                    </statement>
+                 </principle>
     </subsection>
-
-
+    <subsection xml:id="subsec-parallel-postulates">
+    <title>Different Geometries?</title>
+        <p>
+            Were you surprised by your results in this exploration? You are not alone. Prior to 300 BC, 
+            Greek scholars, including
+            Thales, Pythagoras, Hippocrates, Eudoxus, Plato, and Socrates, developed the logic structure of
+            Euclidean geometry. 
+        </p>
+            <aside>
+                <p>
+                   The Greeks were not alone in exploring geometry! In fact, they were familiar with 
+                   geometrical calculation methods used by the Egyptions 
+                   and Babylonians. There is evidence of geometric knowledge in Hindu, Chinese, and 
+                </p>
+            </aside>
+        <p>
+            This structure included a set of five postulates (like our principles) and rigorous
+            proofs of geometrical properties from these postulates. Euclid compiled all of this work into a 
+            thirteen-volume work called the <em>Elements</em>, produced around 300 B.C. This treatise included
+            the proofs of 465 theorems deduced from just the five postulates and notions of equality and 
+            inequality. 
+        </p>
+        <principle>
+            <title>Euclid's First Postulate</title>
+            <statement>
+                <p> 
+                    Given any two points, there is a unique line containing the points.
+                </p>
+            </statement>
+        </principle>
+        <principle>
+            <title>Euclid's Second Postulate</title>
+            <statement>
+                <p>
+                    Any line segment can be extended to create a line.
+                </p> 
+            </statement>
+        </principle>
+        <principle>
+            <title>
+                Euclid's Third Postulate
+            </title>
+            <statement>
+                <p>
+                    Given a point <m>C</m> and a length <m>r</m>, it is possible to construct a 
+                    circle with center <m>C</m> and radius <m>r</m>.
+                </p>
+            </statement>
+        </principle>
+        <principle>
+            <title>Euclid's Fourth Postulate</title>
+            <statement>
+                <p>
+                    All right angles are congruent.
+                </p>
+            </statement>
+        </principle>
+        <principle>
+            <title>Euclid's Fifth Postulate</title>
+            <statement>
+                <p>
+                    If two lines are cut by a transversal line so that the sum of the measures 
+                    of the interior angles on one side of the transversal is less than 180 degrees,
+                    then the two lines will intersect on that side of the transversal. 
+                </p>
+            </statement>
+        </principle>
+        <p>
+             The first four postulates are straightforward and easy to accept, but the fifth postulate 
+             is more complex and less intuitive. Over the centuries, mathematicians sought to prove the fifth postulate from 
+             the first four. They found equivalent statements such as <xref ref="principle-Playfair">Playfair's Postulate</xref>, but could not 
+             prove these statements from the first four postulates either. 
+        </p>
+        <p>
+             At the beginning of the 18th century, geometers took a different tactic and began to explore 
+             what would happen if this fifth postulate did not hold. This led to two alternative parallel  
+             postulates, the elliptic parallel postulate and the hyperbolic parallel postulate.
+        </p>
+             <principle xml:id="principle-elliptic">
+                <title>Elliptic Parallel Postulate</title>
+                <statement>
+                    <p>
+                        There are no parallel lines.
+                    </p>
+                </statement>
+             </principle>
+             <principle xml:id="principle-">
+                <title>Hyperbolic Parallel Postulate</title>
+                <statement>
+                    <p>
+                        Given a line <m>\ell</m> and a point <m>P</m> not on <m>\ell</m>, there are at 
+                        least two lines passing through <m>P</m> and parallel to <m>\ell</m>.
+                    </p>
+                </statement>
+             </principle>
+        <p>
+             Each of these alternatives to the Euclidean Parallel Postulate, together with the first four 
+             postulates, leads to a different geometry. Elliptical geometry is similar to what we worked with 
+             on a sphere while hyperbolic geometry has a ruffled surface like that of a saddle or Pringle's 
+             potato chip. In hyperbolic geometry, the sum of the angles in any triangle is less than 180 degrees; 
+             whereas, we found the sum of the angles in a spherical (or elliptical) triangle to be greater than  
+             180 degrees. The interested student is encouraged to consult other sources to learn more.
+        </p>
+    </subsection>   
 </section>
