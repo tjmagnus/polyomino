@@ -224,7 +224,15 @@
     <subsection xml:id="subsec-understanding-parallel">
         <title>Understanding Parallel Lines</title>
             <p> 
-                Talk about Playfair's Postulate, role of the plane, skew lines.
+                The two explorations, <xref ref="parallel-explor-lines-sphere"/> and 
+                <xref ref="parallel-explor-spherical-triangles"/> led to some observations that might 
+                have surprised you. One of 
+                the ways in which spherical geometry differs from Euclidean geometry is that no lines on 
+                the sphere are parallel. Of course, we could have defined <term>line</term> differently, but 
+                that would have led to a loss of other properties of lines, such as the existence and uniqueness 
+                of a line joining any pair of points. Hence, we need to be clear regarding the geometry we  
+                are working with. Except where specified, our study will be limited to Euclidean geometry and 
+                Playfair's Parallel Postulate will be one of our principles. 
             </p>
 <!--                Ideas: Segments connecting parallel lines; shortest distance. 
                 Trapezoids and parallelograms. -->
@@ -237,11 +245,118 @@
                         </p>
                     </statement>
                  </principle>
+
+           <!--Check your understanding question. Give an example of two lines that are not parallel but do not 
+        intersect. Define skew.-->>
+            <p>
+                We also observed that angle measures in spherical triangles did not behave in the way that Euclidean 
+                triangles do. This  
+                suggests that the measures of angles may be related to the parallel postulate. 
+                Indeed the two concepts are closely connected. In section <xref ref="subsec-polygons-angles-triangle"/>,
+                we rotated a triangle 180 degrees about a midpoint of one of its 
+                sides and again around the midpoint of a second side and noticed that copies of the three angles
+                formed a line when placed side by side at a vertex. We now look at that exploration in the context of  
+                parallelism.
+            </p>
+            <exploration>
+                <title>Parallel Lines and Corresponding Angles</title>
+                <task>
+                    <statement>
+                        <p>
+                            In the following application, triangle <m>\Delta ABC</m> has been rotated 180 degrees  
+                            about midpoint <m>D</m> of side <m>BC</m> to form <m>\Delta A'C'B'</m>. Note that point 
+                            <m>B'</m> coincides with <m>C</m> and point <m>C'</m> coincides with <m>B</m>.
+                        </p>
+                        <figure xml:id="geogebra-app-corres-angles">
+                            <caption>
+                                An interactive Geogebra applet for Exploration on Parallel Lines and Corresponding Angles.
+                            </caption>
+                        <interactive platform="geogebra">
+                            <slate surface="geogebra" material="ts65chjj"/>
+                        </interactive>
+                        </figure>
+                        <p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        What appears to be true about lines <m>\overleftrightarrow{AB}</m> and 
+                                    <m>\overleftrightarrow{CA'}</m>?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        What other two lines appear to have this property?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Verify your observation by using the parallel line tool in the app. After selecting 
+                                        parallel lines from the line tool menu, click on the line segment it should be parallel 
+                                        to and then click on the point it should pass through.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m>
+                            <ol>
+                                <li>
+                                    <p>
+                                        in terms of angle measure? How do you know? 
+                                    </p>
+                                    <aside>
+                                        <p>
+                                            An angle measurement tool is provided in the app if you choose to use it. Click on the 
+                                            three points defining the angle in counterclockwise order with the vertex of the angle 
+                                            being the second of the three. You may be able to give an explanation that does not use  
+                                            actual measurement.
+                                        </p>
+                                    </aside>
+                                </li>
+                                <li> 
+                                    <p>
+                                        In terms of their relationship to the parallel lines, <m>\overleftrightarrow{CA'}</m>
+                                        and <m>\overleftrightarrow{AB}</m> and the line <m>\overleftrightarrow{BC}</m>? 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        In terms of triangle <m>\Delta ABC</m> and its copy <m>\Delta AC'B'</m>?
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+            </exploration>
+            <p>
+                When a line cuts across two other lines, we call it a <term>transversal</term> of the lines. When a transversal 
+                <m>\overleftrightarrow{BC}</m>
+                cuts across two parallel lines <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m> so that points 
+                <m>A</m> and <m>D</m> are on opposite sides of <m>\overleftrightarrow{BC}</m>, angles <m>\angle{ABC}</m> 
+                and <m>\angle DCB</m> are said to be <term>alternate interior angles</term>. 
+                
+                
+                we will not give a proof, the following two statements are equivalent to Playfair's Parallel  
+                Postulate:
+                <principle xml:id="principle-corresponding-angles">
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+                </principle>
+            </p>
     </subsection>
+    <!-- Where to include this?
     <subsection xml:id="subsec-parallel-postulates">
     <title>Different Geometries?</title>
         <p>
-            Were you surprised by your results in this exploration? You are not alone. Prior to 300 BC, 
+            Were you surprised by the results in this section? You are not alone. Prior to 300 BC, 
             Greek scholars, including
             Thales, Pythagoras, Hippocrates, Eudoxus, Plato, and Socrates, developed the logic structure of
             Euclidean geometry. 
@@ -341,5 +456,5 @@
              whereas, we found the sum of the angles in a spherical (or elliptical) triangle to be greater than  
              180 degrees. The interested student is encouraged to consult other sources to learn more.
         </p>
-    </subsection>   
+    </subsection>  --> 
 </section>
