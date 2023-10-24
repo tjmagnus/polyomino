@@ -374,9 +374,18 @@
         <exercise>
             <statement>
                 <p>
-                    Sketch a few convex quadrilaterals or use the geogebra tool provided.
-                    ADD TOOL WITH A QUADRILATERAL AND POLYGON anD SEGMENT DRAWING TOOLS. KEEP 
-                    ANGLE MEASUREMENT TOOL?
+                    Sketch a few convex quadrilaterals on paper or using the GeoGebra drawing 
+                    tool.
+                </p>
+                    <figure xml:id="geogebra-app-for-quadangle-sum">
+                        <caption>
+                            An interactive GeoGebra applet for Quadrilateral Angle Sum Exercise.
+                        </caption>
+                    <interactive platform="geogebra">
+                        <slate surface="geogebra" material="vcqaebv6"/>
+                    </interactive>
+                    </figure>  
+                    <p>
                     Connect a pair of opposite vertices with a line segment, called a 
                     <term>diagonal</term>, to divide the quadrilateral into two shapes. 
                     <ol>

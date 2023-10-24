@@ -116,7 +116,12 @@
     <p permid="Gcy">
       Write a few paragraphs here
     </p>
-
+    <p>
+      An Instructor's Version is available to faculty upon request. Email the author at 
+      <url href="tmagnus@rivier.edu">tmagnus@rivier.edu</url> with your name, contact information, 
+      and the link to a webpage verifying your role as instructor. Suggestions on how to improve
+      this textbook are welcome.
+    </p>
     <paragraphs permid="qjG">
       <title>Exploration activities</title>
       <p permid="QBD">
@@ -142,9 +147,14 @@
     <paragraphs permid="iFh">
       <title>Interactive Online Version</title>
       <p permid="pen">
-        For those of you reading this in a PDF or in print, I encourage you to also check out the interactive online version, which makes navigating the book a little easier.  Additionally, some of the exercises are implemented as <webwork /> problems, which allow you to check your work without seeing the correct answer immediately.  Additional interactivity is planned, including instructional videos for examples and additional exercises at the end of sections.  These <q>bonus</q> features will be added on a rolling basis, so keep an eye out!  
+        For those of you reading this in a PDF or in print, I encourage you to also check out 
+        the interactive online version, which makes navigating the book a little easier.  
+        Additionally, many of the activities are implemented as GeoGebra or Polypad applets, 
+        which allow you to work interactively inside the textbook. Some exercises can be checked 
+        inside the online textbook and hyperlinks to definitions and other items are included. 
       </p>
-      <p permid="Vlw">
+      <p>
+        My hope is to add other features, like how-to-use-the-software videos, in the future.
         You can view the interactive version for free at <url href="http://discrete.openmathbooks.org/" visual="discrete.openmathbooks.org"/> or by scanning the QR code below with your smart phone.
       </p>
       
