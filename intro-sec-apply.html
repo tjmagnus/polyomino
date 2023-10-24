@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Invitation to Apply Knowledge</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Polyominoes, Polygons, and Polyhedra">
+<meta property="book:author" content="Teresa D. Magnus">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.3/pretext_search.js"></script><link href="https://pretextbook.org/css/0.7/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.3</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.3/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.3/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.3/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.7/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.7/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Explorations</span></a></h1>
+<p class="byline">Teresa D. Magnus</p>
+</div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" class="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms" class="searchterms"></span>
+</h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="intro-sec-explore.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-intro.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><a class="next-button button" href="intro-sec-argue.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural">
+<li><div class="toc-item"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Geometrical Thinking</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="intro-sec-explore.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Invitation to Explore</span></a></div></li>
+<li class="active">
+<div class="toc-item"><a href="intro-sec-apply.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Invitation to Apply Knowledge</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="intro-sec-apply.html#intro-apply-subsec-BuildingToolbox" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Building a Course Toolbox</span></a></div></li>
+<li><div class="toc-item"><a href="intro-sec-apply.html#intro-apply-subsec-definingpolygons" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Defining Polygons</span></a></div></li>
+<li><div class="toc-item"><a href="intro-sec-apply.html#subsec" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Angles of a Triangle</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="intro-sec-argue.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Invitation to Discover "Why"</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="intro-sec-argue.html#subsec-explain" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Conjectures and Explanations in Mathematics</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="intro-sec-struggle.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Invitation to Overcome Challenges</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="ch-area.html" class="internal"><span class="codenumber">2</span> <span class="title">Area of Polygons and other Shapes in the Plane</span></a></div></li>
+<li><div class="toc-item"><a href="ch-length.html" class="internal"><span class="codenumber">3</span> <span class="title">Lengths and the Pythagorean Theorem</span></a></div></li>
+<li><div class="toc-item"><a href="ch-polygons.html" class="internal"><span class="codenumber">4</span> <span class="title">Area of Polygons</span></a></div></li>
+<li><div class="toc-item"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">5</span> <span class="title">Polyhedra</span></a></div></li>
+<li>
+<div class="toc-item"><a href="ch-isom.html" class="internal"><span class="codenumber">6</span> <span class="title">Isomorphisms</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="isom-sec-reflections.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Reflections</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="solutions-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Select hints and answers</span></a></div></li>
+<li><div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">B</span> <span class="title"></span></a></div></li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="intro-sec-apply"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.2</span> <span class="title">Invitation to Apply Knowledge</span>
+</h2>
+<section class="subsection" id="intro-apply-subsec-BuildingToolbox"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.1</span> <span class="title">Building a Course Toolbox</span>
+</h3>
+<div class="para" id="p-33">Throughout our learning, and in fact throughout our lives, we add knowledge to our toolkit that we can later reference as needed. The tools in our toolkit can then be used to solve problems, to further build our understanding of related concepts, and to support the validity of an argument. You are already familiar with some of these tools. You’ve learned how to perform computations, have used some geometric formulas, and can recognize many shapes.</div>
+<div class="para" id="p-34">Although you may already know some of the facts and formulas from previous coursework, we will develop a toolbox from the ground up, starting with basic principles and assumptions that are intuitively obvious. With many geometric formulas and theorems, we will want to explore why these are true before adding them to our toolbox. Currently our course toolbox only contains the three principles, <a href="" class="xref" data-knowl="./knowl/intro-explore-principle-areameaning.html" title="Principle 1.1.1">Principle 1.1.1</a>, <a href="" class="xref" data-knowl="./knowl/intro-explore-principle-arearect.html" title="Principle 1.1.2">Principle 1.1.2</a>, and <a href="" class="xref" data-knowl="./knowl/intro-explore-principle-areasums.html" title="Principle 1.1.3">Principle 1.1.3</a> from <a href="intro-sec-explore.html" class="internal" title="Section 1.1: Invitation to Explore">Section 1.1</a>. In other words, we can think about the area of a region as the number of <span class="process-math">\(1\times1\)</span> blocks that fills the interior, we can use the area formula for a rectangle, and we know that the area of a region is equal to the sum of the area of its parts. We will also include in our toolbox all of the algebraic rules and procedures that allow us to perform calculations, simplify expressions, and solve equations. Eventually we will add more tools to our collection including the Pythagorean theorem, area formulas for other shapes, and other geometrical theorems and formulas, but the reasons behind these will be explored in future sections and based on the initial three principles.</div>
+<div class="para" id="p-35">Definitions are important in mathematics as they often include key properties. As we encounter new definitions, these too will be added to our tool box. As you work through the next exploration, you will encounter terms like trapezoid and isosceles. Definitions for these and other terms are provided at the end of this section in case you would like to refresh your memory.</div></section><article class="exploration project-like" id="intro-apply-explore-tangram"><h3 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Explorations with Tangrams.</span>
+</h3>
+<div class="introduction" id="introduction-3">
+<div class="para" id="p-36">In this exploration, use the tools currently in our toolbox as you answer the questions. You may find yourself wanting to use the Pythagorean theorem and the area formula for a triangle, but you are encouraged to try to answer the questions without these formulas. In fact, if you find yourself using the Pythagorean theorem, there is probably an easier method!</div> <div class="para" id="p-37">A set of tangrams consists of the following seven pieces, two large triangles, one medium triangle, a parallelogram, a square, and two small triangles.</div> <figure class="figure figure-like" id="Tangrampieces"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/tangram_pieces.svg" role="img" class="contained" alt="Seven tangram shapes. The triangles are all isosceles right triangles and the parallelogram is equilateral. The small triangles can be arranged to fill either the square, the parallelogram, or the medium triangle. The hypotenuse of the medium triangle is the same as the base of the large triangle."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.1<span class="period">.</span></span><span class="space"> </span>The Seven Tangrams</figcaption></figure> <div class="para" id="p-38">To complete this exploration, you will need to move the seven Tangram pieces around. If you do not have a set of Tangrams, you may print and cut out the shapes shown above. A tangram interactive is also availabe on Polypad by Mathigon via the link <a class="external" href="https://mathigon.org/polypad/ElO9tSXslRwSzw" target="_blank">Interactive Tangrams on Polypad by Mathigon</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-6" id="fn-6"><sup> 1 </sup></a>.</div>
+</div>
+<article class="task exercise-like" id="task-8"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="para" id="p-39">Assume that the length of each side of the square is 1 unit. Determine the area of each of the figures:</div> <ol class="decimal">
+<li id="li-3"><div class="para" id="p-40">The area of the square.</div></li>
+<li id="li-4"><div class="para" id="p-41">The area of one small triangle.</div></li>
+<li id="li-5"><div class="para" id="p-42">The area of the parallelogram.</div></li>
+<li id="li-6"><div class="para" id="p-43">The area of the medium triangle.</div></li>
+<li id="li-7"><div class="para" id="p-44">The area of the large triangle.</div></li>
+</ol></article><article class="task exercise-like" id="task-9"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="para" id="p-45">Still assuming that length of each side of the square is 1 unit, now find the lengths of the sides of the other tangram shapes. You may use the Pythagorean Theorem, but it is possible to determine these lengths without it!</div></article><article class="task exercise-like" id="task-10"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="para" id="p-46">Construct each of the following if possible:</div> <ol class="decimal">
+<li id="li-8"><div class="para" id="p-47">A triangle using three tangram pieces.</div></li>
+<li id="li-9"><div class="para" id="p-48">A rectangle</div></li>
+<li id="li-10"><div class="para" id="p-49">A parallelogram that is not a rectangle using two pieces.</div></li>
+<li id="li-11"><div class="para" id="p-50">A non-isosceles trapezoid (you choose the number of pieces).</div></li>
+<li id="li-12"><div class="para" id="p-51">A pentagon.</div></li>
+<li id="li-13"><div class="para" id="p-52">A non-square rectangle using all seven pieces.</div></li>
+<li id="li-14">
+<div class="para" id="p-53">A square using all seven pieces.</div>
+<ol class="lower-alpha">
+<li id="li-15"><div class="para" id="p-54">What is the area of this square?</div></li>
+<li id="li-16"><div class="para" id="p-55">What is the side length of this square?</div></li>
+</ol>
+</li>
+</ol></article><article class="task exercise-like" id="task-11"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<div class="para" id="p-56">Were you able to answer the questions above without using the Pythagorean theorem? If not, explore how this might be done!</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-4" id="hint-4"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-4"><div class="hint solution-like"><div class="para" id="p-57">What tools do we have in our toolbox? How can these help?</div></div></div>
+</div></article></article><section class="subsection" id="intro-apply-subsec-definingpolygons"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.2</span> <span class="title">Defining Polygons</span>
+</h3>
+<div class="para" id="p-58">In the first part of this course, we will work primarily with polygons. What is a polygon? Giving a clear, clean definition of the word "polygon" is difficult so we will describe it verbally and give several examples. If you search for the definition, you will probably learn that a polygon is a closed plane figure formed by a sequence of straight sides. Thus a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean that a polygon will have a well-defined interior; the polygon forms a solid boundary between this interior and the rest of the plane.</div>
+<figure class="figure figure-like" id="polygonvisualdefinition"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-3"><img src="external/righttrapezoid.svg" role="img" class="contained" alt="(for accessibility)"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>A right trapezoid</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-4"><img src="external/concavepentagon.svg" role="img" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>A concave pentagon.</figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.2<span class="period">.</span></span><span class="space"> </span>Some examples of polygons</figcaption></figure><figure class="figure figure-like" id="nonpolygons"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-6"><img src="external/unclosed.svg" role="img" class="contained" alt="A figure formed by line segments with a gap remaining."><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Not closed.</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-7"><img src="external/acurvedside.svg" role="img" class="contained" alt="A closed figure consisting of some straight sides and some curved sides."><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Curved edges</figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.3<span class="period">.</span></span><span class="space"> </span>Examples of figures that are not polygons</figcaption></figure><div class="para" id="p-59">Some specific types of polygons are defined below. We add these to our toolbox.</div>
+<article class="definition definition-like" id="def-triangle"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-60">A <dfn class="terminology">triangle</dfn> is a polygon with exactly three sides.</div></article><article class="definition definition-like" id="def-quadrilateral"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-61">A <dfn class="terminology">quadrilateral</dfn> is a polygon with exactly three sides.</div></article><article class="definition definition-like" id="def-ngon"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-62">A <dfn class="terminology">pentagon</dfn> is a polygon with five sides. A <dfn class="terminology">hexagon</dfn> has six sides. We use the general term <dfn class="terminology"><span class="process-math">\(n\)</span>-gon</dfn> to describe a polygon with exactly <span class="process-math">\(n\)</span> sides. Other common numerical prefixes used to describe polygons include <dfn class="terminology">octa</dfn> (eight) and <dfn class="terminology">deca</dfn> (ten). These will be explored more in <a href="ch-polygons.html" class="internal" title="Chapter 4: Area of Polygons">Chapter 4</a>.</div></article><div class="para" id="p-63">Some polygons are defined by the types of angles they have.</div>
+<article class="definition definition-like" id="def-typesofangles"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-64">An angle is said to be a <dfn class="terminology">right angle</dfn> if its measure is 90 degrees. Angles that have measures less than 90 degrees are said to be <dfn class="terminology">acute</dfn> and angles with measures greater than 90 degrees are said to be <dfn class="terminology">obtuse</dfn>.</div></article><article class="definition definition-like" id="def-triangles-by-angles"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-65">A triangle is said to be a <dfn class="terminology">right triangle</dfn> if one of its angles is a right angle. If one of its angles is obtuse, we say that the triangle is an <dfn class="terminology">obtuse triangle</dfn>. An <dfn class="terminology">acute triangle</dfn> is a triangle with three acute angles. We will explore the measurement of angles more in <a href="ch-polygons.html" class="internal" title="Chapter 4: Area of Polygons">Chapter 4</a> and <a href="ch-isom.html" class="internal" title="Chapter 6: Isomorphisms">Chapter 6</a>.</div></article><article class="definition definition-like" id="def-rectquads"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-66">A quadrilateral with four right angles is called a <dfn class="terminology">rectangle</dfn> A <dfn class="terminology">square</dfn> is a rectangle whose sides are all the same length.</div></article><article class="definition definition-like" id="def-equiangular"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-67">A polygon is said to be <dfn class="terminology">equiangular</dfn> if all of its angles have the same measure.</div></article><div class="para" id="p-68">Quadrilaterals may also be described by the existance of parallel sides.</div>
+<article class="definition definition-like" id="def-parallel"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-69">Two lines are said to be <dfn class="terminology">parallel</dfn> if they never meet. Two line segments or two sides of a polygon are said to be <dfn class="terminology">parallel</dfn> if the lines they are a part of are parallel. Note that a line always extends infinitely in two directions while a line segment has endpoints.</div></article><article class="definition definition-like" id="def-parallelogram"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.12</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-70">A <dfn class="terminology">parallelogram</dfn> is a quadrilateral with two pairs of parallel sides.</div></article><article class="definition definition-like" id="def-trapezoid"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.13</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-71">A quadrilateral with exactly one pair of parallel sides is called a <dfn class="terminology">trapezoid</dfn>.</div></article><div class="para" id="p-72">Triangles and other polygons may also be classified by whether sides have the same length. The word <dfn class="terminology">congruent</dfn> means same length when used to describe line segments or sides of polygons.</div>
+<article class="definition definition-like" id="def-equilateral"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.14</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-73">A polygon is described as being <dfn class="terminology">equilateral</dfn> if all of its sides are congruent. An equilateral quadrilateral is called a <dfn class="terminology">rhombus</dfn>.</div></article><article class="definition definition-like" id="def-isosceles"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.15</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-74">The word <dfn class="terminology">isosceles</dfn> comes from two Greek words, ‘isos’ meaning ‘equal’ and ‘skelos’ meaning ‘leg’. An <dfn class="terminology">isosceles triangle</dfn> is a triangle with two congruent sides. An <dfn class="terminology">isosceles trapezoid</dfn> is a trapezoid with two congruent, non-parallel sides.</div></article><aside class="aside aside-like" id="aside-1"><h4 class="heading"><span class="title">Isosceles and Equilateral Triangles.</span></h4>
+<div class="para" id="p-75">Some textbooks will restrict the term isosceles triangle to a triangle with exactly two congruent sides while others allow two or all three of the sides to be congruent. This latter definition is used when one is one wants to argue that properties of isosceles triangles extend to equilateral triangles.</div>
+<div class="para" id="p-76">Should you become a teacher, it is wise to be mindful of how your textbook uses these terms. In the early sections of this text, we will distinguish between isosceles and equilateral triangles as you are asked to sketch and identify examples. When we explore properties of triangles, you may use the fact that properties of an isosceles triangle will also hold for equilateral triangles.</div>
+<div class="para" id="p-77">In case you are curious, ‘equilateral’ comes from Latin and French words meaning equal sides.</div></aside><article class="definition definition-like" id="def-scalene"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.16</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-78">A triangle with no congruent sides is said to be a <dfn class="terminology">scalene triangle</dfn>.</div></article><article class="definition definition-like" id="def-kite"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.17</span><span class="period">.</span>
+</h4>A <dfn class="terminology">kite</dfn> is a quadrilateral with two pairs of adjacent congruent sides. A kite has reflective (fold) symmetry across one of its diagonals.</article><div class="para" id="p-79">We also distinguish between convex and concave polygons.</div>
+<article class="definition definition-like" id="def-convexconcave"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.18</span><span class="period">.</span>
+</h4>
+<div class="para" id="p-80">A polygon is <dfn class="terminology">convex polygon</dfn> if every interior angle has a measure less than 180 degrees. If a polygon is not convex, then it is <dfn class="terminology">concave</dfn>.</div></article></section><section class="subsection" id="subsec"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.2.3</span> <span class="title">Angles of a Triangle</span>
+</h3>
+<div class="para" id="p-81">UNDER CONSTRUCTION!!!This section may include an exploration that leads to the claim that the total angle measure of a triangle is 180 degrees and possibly also the corresponding angle theorem. Make three congruent triangles such that the shape can be altered simultaneously, but the triangles can be translated and rotated freely. Be sure to note that we observed this without proof. See <a class="external" href="https://www.geogebra.org/m/tdkudjys" target="_blank"><code class="code-inline tex2jax_ignore">https://www.geogebra.org/m/tdkudjys</code></a>.</div></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-6"><div class="fn"><code class="code-inline tex2jax_ignore">mathigon.org/polypad/ElO9tSXslRwSzw</code></div></div>
+</div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="intro-sec-explore.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="intro-sec-argue.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
