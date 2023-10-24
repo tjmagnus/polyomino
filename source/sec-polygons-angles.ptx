@@ -247,10 +247,10 @@
           </p>
         </statement>
       </definition>
-      <p>
+      <!--<p>
         While lines on a flat surface such as a plane appear straight, we will see that 
         lines on the surface of a sphere are actually curved. 
-      </p>
+      </p>-->
       <definition xml:id="def-angles">
     <idx><h>angle</h></idx>
     <idx><h>vertex</h><h>angle</h></idx>
@@ -283,6 +283,62 @@
         </p>
         </statement>
     </definition>
+</subsection>
+<subsection>
+    <title>Vertical Angles</title>
+    <p>
+        To conclude this section, we will use what we have learned to make a claim about vertical 
+        angles.
+    </p>
+    <definition xml:id="def-vertical-angles">
+            <idx><h>angle</h><h>vertical</h></idx>
+            <idx><h>vertical angle</h></idx>
+            <statement>
+            <p>
+                When a pair of lines intersect, each pair of opposite angles formed by the intersection 
+                are said to be a pair of <term>vertical angles</term>. Vertical angles will have a common 
+                vertex, namely the point of intersection, and the sides of one angle will be the opposite rays 
+                of the sides of the other angle.
+            </p>
+        </statement>
+    </definition>
+    <exercise>
+        <statement>
+            <sidebyside widths="50% 50%" valign="middle">
+                <p>
+                    Determine two pairs of vertical angles in the figure to the right.
+                </p>
+                <figure xml:id="image-vert-angles">
+                    <caption>Lines intersecting to form vertical angles</caption>
+                    <image source="verticalangles"> 
+                        <description>
+                            Two lines meet at point E. One line contains points A, E, and B in 
+                            order and the other contains points C, E, and D in that order.
+                        </description>
+                    </image>
+                </figure>
+            </sidebyside>   
+        </statement>
+        <hint>
+            <p>Each pair of vertical angles consists of two angles.</p>
+        </hint>
+        <answer>
+            <p>
+                One pair consists of <m>\angle AEC</m> and <m>\angle BED</m>. The other pair  
+                of vertical angles are <m>\angle AED</m> and <m>\angle BEC</m>.
+            </p>
+        </answer>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                What must be true about the measures of any pair of vertical angles? Give a 
+                thorough explanation of why this must be true using 
+                Principle <xref ref="polygons-angles-principle-addangles"></xref>.
+            </p>
+        </statement>
+    </exercise>
+
 </subsection>
    
    <exercises xml:id="angles-exercises">

@@ -351,13 +351,13 @@
             we may superimpose the region over a grid of <m>1\times 1</m>-unit squares.
             Of course, the boundary of the region may cross through some squares as shown 
             below.
-            <figure width="100%" xml:id="curved-region">
+        </p>
+            <figure xml:id="curved-region">
                 <caption>A curved region on a grid of 1x1-unit squares</caption>
                 <image source="curvedshapearea" width="80%">
                     <description>a curved shape over a grid of squares</description>
                 </image>                
             </figure>
-        </p>
         <exploration>
             <!--keep in section or move to exercise?-->
             <title>Estimating Area of a Curved Region</title>
@@ -450,7 +450,7 @@
                 <m>pi</m> was not known at the time, but this method provides a means of calculating 
                 <m>pi</m> to any level of precision.  
             </p>
-            <figure width="100%" xml:id="estimate-area-circle">
+            <figure xml:id="estimate-area-circle">
                 <caption>
                     Inscribing and circumscribing a circle with squares, octagons,
                     and 16-gons.

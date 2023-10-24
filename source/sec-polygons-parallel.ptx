@@ -247,7 +247,7 @@
                  </principle>
 
            <!--Check your understanding question. Give an example of two lines that are not parallel but do not 
-        intersect. Define skew.-->>
+        intersect. Define skew.-->
             <p>
                 We also observed that angle measures in spherical triangles did not behave in the way that Euclidean 
                 triangles do. This  
@@ -259,7 +259,7 @@
                 parallelism.
             </p>
             <exploration>
-                <title>Parallel Lines and Corresponding Angles</title>
+                <title> Alternate Interior Angles</title>
                 <task>
                     <statement>
                         <p>
@@ -269,7 +269,7 @@
                         </p>
                         <figure xml:id="geogebra-app-corres-angles">
                             <caption>
-                                An interactive Geogebra applet for Exploration on Parallel Lines and Corresponding Angles.
+                                An interactive Geogebra applet for Exploration on Alternate Interior Angles.
                             </caption>
                         <interactive platform="geogebra">
                             <slate surface="geogebra" material="ts65chjj"/>
@@ -306,7 +306,7 @@
                             <ol>
                                 <li>
                                     <p>
-                                        in terms of angle measure? How do you know? 
+                                        In terms of angle measure? How do you know? 
                                     </p>
                                     <aside>
                                         <p>
@@ -343,6 +343,7 @@
                 
                 we will not give a proof, the following two statements are equivalent to Playfair's Parallel  
                 Postulate:
+            </p>
                 <principle xml:id="principle-corresponding-angles">
                     <statement>
                         <p>
@@ -350,7 +351,6 @@
                         </p>
                     </statement>
                 </principle>
-            </p>
     </subsection>
     <!-- Where to include this?
     <subsection xml:id="subsec-parallel-postulates">
