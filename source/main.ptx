@@ -27,16 +27,16 @@
 
       <colophon>
 
-        <!--<website>
+        <website>
           <name>
-            <c>www.rivier.edu</c>
+            <c> https://tjmagnus.github.io/polyomino/</c>
           </name>
-          <address>www.rivier.edu</address>
+          <address> https://tjmagnus.github.io/polyomino/</address>
         </website>-->
 
         <copyright>
           <year>2020<ndash />2023</year>
-          <holder>You</holder>
+          <holder>Teresa Magnus</holder>
           <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
             International License. To view a copy of this license, visit <url
               href="http://creativecommons.org/licenses/by-sa/4.0/"
@@ -51,13 +51,13 @@
           </shortlicense>
         </copyright>
       </colophon>
-      <!--
+      
          <dedication>
     <p permid="mjH">
-      For WHO
+      For John and Paul
     </p>
   </dedication>
-
+<!--
   <acknowledgement>
     <p permid="SqQ">
       Discuss where my inspiration came from: Henri Picciotto, others.
@@ -101,8 +101,12 @@
     </p>
       
       <p permid="kuu">
-        My hope is to continue improving the book, releasing a new edition each spring in time for fall adoptions.  These new editions will incorporate additions and corrections suggested by instructors and students who use the text the previous semesters.
-        Thus I encourage you to send along any suggestions and comments as you have them.
+        My hope is to continue improving the book, releasing a new edition each spring 
+        in time for fall adoptions.  These new editions will incorporate additions and 
+        corrections suggested by instructors and students who use the text the previous 
+        semesters.
+        Thus I encourage you to send along any corrections, suggestions, and comments 
+        as you have them.
       </p>
     <!--</paragraphs>-->
     <attribution>
@@ -155,7 +159,7 @@
       </p>
       <p>
         My hope is to add other features, like how-to-use-the-software videos, in the future.
-        You can view the interactive version for free at <url href="http://discrete.openmathbooks.org/" visual="discrete.openmathbooks.org"/> or by scanning the QR code below with your smart phone.
+        You can view the interactive version for free at <url href=" https://tjmagnus.github.io/polyomino/" visual="discrete.openmathbooks.org"/> or by scanning the QR code below with your smart phone.
       </p>
       
       <sidebyside width="25%" permid="OMq">
