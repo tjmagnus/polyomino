@@ -284,15 +284,24 @@
           they are intuitively obvious, but they give us some building blocks we will need to 
           justify more complex ideas. We state them here for clarity and future reference.
         </p>
-        <principle xml:id="intro-explore-principle-areameaning">
+        <definition xml:id="def-area">
+          <idx><h>area</h></idx>
+          <statement>
+            <p>
+              The <term>area</term> of a closed figure in the plane is the number of unit  
+              squares needed to fill the figure without any gaps or overlaps. 
+            </p>
+          </statement>
+        </definition>
+        <!--<principle xml:id="intro-explore-principle-areameaning">
           <title>Notion of Area</title>
           <statement>
             <p>
               The area of a closed figure in the plane is the number of unit  
-              squares needed to fill the figure.
+              squares needed to fill the figure without any gaps or overlaps.
             </p>
           </statement>
-        </principle>
+        </principle>-->
         <principle xml:id="intro-explore-principle-arearect">
           <title>Area of a Rectangle</title>
           <statement>
