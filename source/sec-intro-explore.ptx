@@ -302,7 +302,7 @@
             </p>
           </statement>
         </principle>-->
-        <principle xml:id="intro-explore-principle-arearect">
+        <principle xml:id="principle-arearect">
           <title>Area of a Rectangle</title>
           <statement>
             <p>
@@ -311,7 +311,7 @@
             </p>
           </statement>
         </principle>
-        <principle xml:id="intro-explore-principle-areasums">
+        <principle xml:id="principle-areasums">
           <title>Additivity of Area</title>
           <statement>
             <p>
@@ -351,4 +351,5 @@
           Relax and have fun exploring mathematics! 
         </p>
       </subsection>
+      <!--Add definition of polyomino before the exercises.-->
 </section>

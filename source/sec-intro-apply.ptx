@@ -8,33 +8,77 @@
   Throughout our learning, and in fact throughout our lives, we add knowledge to our toolkit
   that we can later reference as needed. The tools in our toolkit can then be used to solve problems, 
   to further build our understanding of related concepts, and to support the validity of an argument.
-  You are already familiar with some of these tools. You've learned how to perform 
-  computations, have used some geometric formulas, and can recognize many shapes. 
+  Most likely, you are already familiar with some of these tools from previous coursework. 
+  You know how to perform 
+  computations, have used geometric formulas, and can recognize many shapes. 
 </p>
 <p> 
-  Although you may already know some of the facts and formulas from previous coursework, we 
-  will develop a toolbox from the ground up, starting with basic principles and assumptions 
-  that are intuitively obvious. With many geometric formulas and theorems, we will want to explore 
-  why these are true before adding them to our toolbox. Currently our course toolbox only 
-  contains the three principles, <xref ref="intro-explore-principle-areameaning"/>, 
-  <xref ref="intro-explore-principle-arearect"/>, and <xref ref="intro-explore-principle-areasums"/> from 
+  Although you already know some of the facts and formulas, we 
+  will develop a toolbox from the ground up in this course, starting with basic principles and assumptions 
+  that are intuitively obvious. With geometric formulas and theorems, we will want to explore 
+  why these are true before adding them to our toolbox. When we need to assume a statement without 
+  proving it, we will acknowledge the assumption and identify it as a principle rather than a 
+  theorem. Theorems will be justified logically from the principles and previously proved theorems. 
+  Definitions are developed to give us helpful terminology and state the characteristics needed to 
+  identify the object. We typically do not include every property of an object in the definition; 
+  some properties can be proved from the initial definition. For example, we define a rectangle  
+  to be a quadraliteral with four right angles. The property that opposite sides of a rectangle  
+  are congruent is not included in the definition, because it can be proved from the definition.
+</p>
+<p>
+  Depending on the level of a geometry textbook and the author's goals, you will see some differences 
+  between the statements of geometric definitions and principles (also called axioms). For this reason, a 
+  proof you find elsewhere may not be sufficient here due to its reliance on different assumptions.
+  Students are encouraged to use the resources in this text for their work. In addition, you should be  
+  mindful of the order in which theorems are introduced as you cannot use a theorem that comes later  
+  in the textbook as an argument in a proof. On the other hand, this textbook is not as rigorous as 
+  some geometry textbooks. In order to maintain the exploratory and intuitive nature of this book, the 
+  author will include some principles here that might appear as proved theorems in other texts. 
+  At times, proofs may be included as exercises leaving the choice of rigor up to the course instructor. 
+</p>
+<!--Insert Circular Reasoning example as an exercise?-->
+<p> 
+  Currently our course toolbox only 
+  contains the definition of <xref ref="def-area">area</xref> and two principles, 
+  <xref ref="principle-arearect"/> and <xref ref="principle-areasums"/> from 
   <xref ref="sec-intro-explore"/>. In other words, we can think about the area of a region as 
   the number of <m>1\times1</m> blocks that fills the interior, we can use the area formula 
   for a rectangle, and we know that
   the area of a region is equal to the sum of the area of its parts. 
+  Hopefully, you will agree that length should also be additive; namely,
+  that if we extend a segment of length <m>n</m> by a segment of length 
+  <m>m</m>, the resulting segment has length <m>n+m</m>. We restate this 
+  below:
+</p>
+<aside>
+<p>
+  To view the statements of the earlier principles, 
+  click on each corresponding link. .
+</p>
+</aside>
+<principle xml:id="principle-addlengths">
+<statement>
+  <p>
+    Suppose that <m>C</m> is a point on the interior of line segment 
+    <m>\overline{AB}</m>, then the length of <m>\overline{AB}</m> equals
+    the sum of the lengths of <m>\overline{AC}</m> and <m>\overline{CB}</m>.
+  </p>
+</statement>
+</principle>
+<p>
   We will also include in our toolbox all of the algebraic rules 
   and procedures that allow us to perform calculations, simplify expressions, and solve 
   equations. Eventually we will add more tools to our collection including the Pythagorean theorem, 
   area formulas for other shapes, and other geometrical theorems and formulas, but the
-  reasons behind these will be explored in future sections and based on the initial three 
+  reasons behind these will be explored in future sections and based on definitions and the initial 
   principles. 
 </p>
-<p>
-  Definitions are important in mathematics as they often include key properties. 
-  As we encounter new definitions, these too 
+<p> 
+  As we encounter and state new definitions, these too 
   will be added to our tool box. As you work through the next exploration, you will 
   encounter terms like trapezoid and isosceles. Definitions for these and other terms are 
-  provided at the end of this section in case you would like to refresh your memory. 
+  provided at the end of this section in case you would like to refresh your memory. You can 
+  also use the index or textbook's search tool to find definitions.
 </p>
 
 <exploration xml:id="intro-apply-explore-tangram">
@@ -178,7 +222,8 @@
   <statement>
     <p>
       Were you able to answer the questions above without using the 
-      Pythagorean theorem? If not, explore how this might be done! 
+      Pythagorean theorem or the area formula for a triangle? 
+      If not, explore how this might be done! 
     </p>
   </statement>
   <hint>
@@ -189,6 +234,19 @@
 </task>
 
 </exploration>
+  <p>
+    In this exercise, we have practiced using our initial principles and 
+    identified some tools, namely the Pythagorean Theorem and the area formula 
+    for a triangle, that will be developed later. We also noted that there are 
+    multiple ways to solve a problem. Solutions do not need to use formulas and 
+    should evolve from what we know and what we have in our toolbox. Still, we  
+    want to grow our toolbox to increase our ability to solve problems and justify 
+    claims. 
+  </p>
+  <p>
+    Perhaps you moved figures around and lined up sides to determine whether the lengths  
+    were the same. <!--definition and principle of congruence-->
+  </p>
 </subsection>
 <subsection xml:id="intro-apply-subsec-definingpolygons">
     <title>Defining Polygons</title>
@@ -196,9 +254,10 @@
   In the first part of this course, we will work 
   primarily with polygons. What is a polygon? Giving a clear, clean definition of the word
   "polygon" is difficult so we will describe it verbally and give several examples. If you search for 
-  the definition, you will probably learn that a polygon is a closed plane figure formed by a sequence 
-  of straight 
-  sides. <idx><h>polygon</h></idx> Thus, a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
+  the definition in books or on the web, you will find different attempts to give a clear definition.
+  We will describe a <term>polygon</term> <idx><h>polygon</h></idx> as being a closed plane figure 
+  formed by a sequence of straight sides.  
+  Thus, a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
   that a polygon will have a well-defined interior; the polygon forms a solid boundary between this 
   interior and the rest of the plane.
 </p>
@@ -441,7 +500,7 @@
     <p>
         Should you become a teacher, it is wise to be mindful of how your textbook uses these terms. In the early 
         sections of this text, we will distinguish between isosceles and equilateral triangles  
-        as you are asked to sketch and identify examples. When we explore properties of triangles, 
+        when you are asked to sketch and identify examples. When we explore properties of triangles, 
         you may use the fact that properties of an isosceles triangle will also hold for equilateral  
         triangles. 
       </p> 

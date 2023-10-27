@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-polygons" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Exploring Polygons</title>
+    <title>Exploring Polygons and Other Figures on the Plane</title>
   <introduction>
     <p>
       Say something about how we will look at measurements related to polygons, 
@@ -10,13 +10,9 @@
     </p>
     <p>
         In section <xref ref="sec-intro-explore"/>, we introduced three basic 
-        principles about area, <xref ref="intro-explore-principle-areameaning"/>, 
-        <xref ref="intro-explore-principle-arearect"/>, and 
-        <xref ref="intro-explore-principle-areasums"/>. 
-      Hopefully, you will agree that length should also be additive; namely,
-      that if we extend a segment of length <m>n</m> by a segment of length 
-      <m>m</m>, the resulting segment has length <m>n+m</m>. We restate this 
-      below:
+        principles about area, 
+        <xref ref="principle-arearect"/>, 
+        <xref ref="principle-areasums"/>, and <xref ref="principle-addlengths"/>. 
     </p>
     <aside>
       <p>
@@ -24,15 +20,7 @@
         click on each corresponding link. .
       </p>
     </aside>
-    <principle xml:id="polygons-principle-addlengths">
-      <statement>
-        <p>
-          Suppose that <m>C</m> is a point on the interior of line segment 
-          <m>\overline{AB}</m>, then the length of <m>\overline{AB}</m> equals
-          the sum of the lengths of <m>\overline{AC}</m> and <m>\overline{CB}</m>.
-        </p>
-      </statement>
-    </principle>
+
     <p>
       In this chapter, we will show how these principles lead to the area formulas 
       for other polygons and to the Pythagorean Theorem. Instead of being facts handed 

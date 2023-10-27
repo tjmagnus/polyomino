@@ -199,11 +199,11 @@
     <title>Additivity of Angles and Definitions Associated with Angles</title>
     <p>
         In this section, you have likely been assuming the additivity of angle 
-        measure. Like the additivity of <xref ref="intro-explore-principle-areasums">area</xref> 
-        and <xref ref="polygons-principle-addlengths">length</xref>, this is intuitively obvious and 
+        measure. Like the additivity of <xref ref="principle-areasums">area</xref> 
+        and <xref ref="principle-addlengths">length</xref>, this is intuitively obvious and 
         will prove useful. We state this as a principle and add it to our toolbox.
     </p>
-    <principle xml:id="polygons-angles-principle-addangles">
+    <principle xml:id="principle-addangles">
         <statement>
             <p>
                 If ray <m>\overrightarrow{AD}</m> lies in the interior of angle 
@@ -334,7 +334,7 @@
             <p>
                 What must be true about the measures of any pair of vertical angles? Give a 
                 thorough explanation of why this must be true using 
-                Principle <xref ref="polygons-angles-principle-addangles"></xref>.
+                Principle <xref ref="principle-addangles"></xref>.
             </p>
         </statement>
     </exercise>
