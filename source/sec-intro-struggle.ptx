@@ -78,6 +78,14 @@
             As we construct triangles and other shapes on our geoboard, note that 
             each vertex must be one one of the sixteen pins.
           </p>
+          <aside>
+            <p>
+              An interactive GeoBoard is available at the Polypad by Mathigon, 
+              <url href="polypad.org/embed/OADtl0auGfB1A">
+                polypad.org/DLddLdVKLW461A</url>
+              or use the embedded interactive in the hint below.
+            </p>
+          </aside>
           <ol>
             <li xml:id="lgst-4x4geobd-tri">
               <p>
@@ -91,14 +99,25 @@
                 What is this area? On the second geoboard, construct a second 
                 triangle with a different shape but the same area.
               </p>
-              <sidebyside widths="30% 30% 30%">
+              <sidebyside widths="30% 30% 30%" valign="middle">
                 <image source="4by4geoboard"/>
                 <image source="4by4geoboard"/>
-                <p> What is the area?</p>
+                <p> What is the common area?</p>
               </sidebyside>
             </li>
           </ol>
         </statement>
+        <hint>
+          <interactive xml:id="interactive4x4geoboard" 
+              iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
+              preview="" aspect="16:12"/>
+      <!--How to caption properly?-->
+              <p>
+                <url href="https://mathigon.org/polypad/embed/OADtl0auGfB1A"> 
+                  Interactive tool on Polypad by Mathigon 
+                </url>
+              </p>
+        </hint>
       </task>
       <task>
         <statement>

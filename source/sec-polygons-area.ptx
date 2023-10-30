@@ -345,9 +345,9 @@
         <subsubsection xml:id="subsec-irregular-area">
             <title>Estimating the Area of Curved Regions</title>
         <p>
-            As our shapes become more irregular or curved, we return to the meaning of 
-            area, 
-            <xref ref="intro-explore-principle-areameaning"/>. For these situations, 
+            As our shapes become more irregular or curved, we 
+            apply the definition of area 
+            <xref ref="def-area"/> together with estimation. For these situations, 
             we may superimpose the region over a grid of <m>1\times 1</m>-unit squares.
             Of course, the boundary of the region may cross through some squares as shown 
             below.
