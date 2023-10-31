@@ -23,7 +23,7 @@
                 as needed to complete the following.
             </p>
         </introduction>
-        <task>
+        <task xml:id="parallelogramtypes">
             <statement>
                 <p>
                     Sketch the following:
@@ -61,7 +61,8 @@
             <statement>
                 <p>
                     Beginning with the parallelogram pictured below or the one you 
-                    sketched in <xref ref="sketchaparallelogram"/>, explain and demonstrate 
+                    sketched in <xref ref="sketchaparallelogram"/> of 
+                    <xref ref="parallelogramtypes"/>, explain and demonstrate 
                     how you would construct a rectangle with the same area. You are allowed 
                     to cut the parallelogram and rearrange or duplicate pieces as part of your 
                     argument.
@@ -72,19 +73,28 @@
         <statement>
             <p>
                 Building on the previous problem, derive an area formula for a parallelogram.
-                Explain how it comes from the area formula for a rectangle and how you know it 
+                Use a combination of words and pictures to explain how it 
+                comes from the area formula for a rectangle and how you know it 
                 must work for all parallelograms.
             </p>
         </statement>
+        <hint>
+            <p>
+                Be sure to label the height <m>h</m> and base <m>b</m> in your 
+                pictures. These lengths should stay the same throughout your 
+                explanation and clarify the relationship between your parallelogram 
+                and rectangle.
+            </p>
+        </hint>
         </task>
     </exploration>
-    <p>
-        Now that we know the area formula for parallelograms and why it works, we may add it to 
-        our toolbox and use it as well as the area formula for a rectangle in the next   
-        exploration.
-    </p>
+        <p>
+            Now that we know the area formula for parallelograms and why it works, we may add it to 
+            our toolbox and use it as well as the area formula for a rectangle in the next   
+            exploration.
+        </p>
     </subsection>
-    <subsection xml:id="subsec-">
+    <subsection xml:id="subsec-area-tri">
         <title>The Area of a Triangle</title>
 
     <exploration>
@@ -93,7 +103,7 @@
             <p>
                 You probably remember the angle formula for a triangle; in fact, you 
                 may have used it already in this course! But why is the area 
-                <m>A=\frac{1}{2}bh</m>? This exploration will encourage you to 
+                <m>A_{tri}=\frac{1}{2}bh</m>? This exploration will encourage you to 
                 answer that question. 
             </p>
         </introduction>
@@ -143,8 +153,8 @@
                         not just the one you have. Variables allow us to generalize formulas.
                     </p>
                 </aside>
-                <image source="parallelogram-arbitrary">
-                    <description>A parallelogram that is not a rectangle.</description>
+                <image source="obtuse-tri">
+                    <description>A scalene triangle.</description>
                 </image>
             </statement>
         </task>
@@ -152,10 +162,10 @@
             <statement>
                 <p>
                     A friend (or one of your students) asks you why the area formula 
-                    for a triangle is <m>A(tri)=\frac{1}{2}bh</m>. Rewrite and elaborate 
+                    for a triangle is <m>A=\frac{1}{2}bh</m>. Rewrite and elaborate 
                     on your answer to the previous task to give a clear, thorough, and 
                     cohesive explanation. Be sure to use words and pictures as needed to 
-                    make the definitions of <m>b</m> and <m>h</m> clear. The relationship 
+                    make the locations of <m>b</m> and <m>h</m> clear. The relationship 
                     between the triangle and the parallelogram needs to be made explicit
                     as well. Do they have the same height and base? Why or why not? Why 
                     must their areas be related and how?  
@@ -184,24 +194,24 @@
             </row>
             <row>
                 <cell>Rectangle</cell>
-                <cell><m>A=\ell w</m></cell>
+                <cell><m>A_{rect}=\ell w</m></cell>
                 <cell>area <m>A</m>, length <m>\ell</m>, width <m>w</m></cell>
             </row>
             <row>
                 <cell>Parallelogram</cell>
-                <cell><m>A=bh</m></cell>
+                <cell><m>A_{par}=bh</m></cell>
                 <cell>area <m>A</m>, base <m>b</m>, height <m>h</m></cell>
             </row>
             <row>
                 <cell>Triangle</cell>
-                <cell><m>A=\frac{1}{2}bh</m></cell>
+                <cell><m>A_{tri}=\frac{1}{2}bh</m></cell>
                 <cell>area <m>A</m>, base <m>b</m>, height <m>h</m></cell>
             </row>
         </tabular>
     </table>
-    <p>
-       You may use these formulas in the next exploration as needed.
-    </p>
+        <p>
+        You may use these three formulas in the next exploration as needed.
+        </p>
     <exploration>
         <title>The Area Formula for a Trapezoid</title>
         <introduction>
@@ -265,17 +275,17 @@
                                 in the previous task. Label the height of the trapezoid with the 
                                 variable <m>h</m>. The summit and base of the trapezoid are typically 
                                 labeled <m>b_1</m> and <m>b_2</m>, but you are free to name them 
-                                <m>a</m> and <m>b</m> if you would like to avoid subscripts. You could 
-                                instead call the summit <m>s</m> or <m>b'</m>. Once you select 
+                                <m>a</m> and <m>b</m> if you would like to avoid subscripts. Once you select 
                                 your labels, you will use them consistently for the remainder of this 
                                 activity. In my discussion, I will use <m>b_1</m> and <m>b_2</m> to represent 
                                 the summit and base.
                             </p>
                             <aside>
                                 <p>
-                                    You could even name the summit <m>Sidney</m> if you desire.
-                                    On the other hand, <m>Sidney</m> is a bit long to use in diagrams 
-                                    and formulas.
+                                    You could even name the summit <m>s</m> or <m>Elizabeth</m> if 
+                                    you desire.
+                                    On the other hand, <m>Elizabeth</m> is a bit long to use in diagrams 
+                                    and formulas so single letters are usually chosen.
                                 </p>
                             </aside>
                         </li>
@@ -299,11 +309,12 @@
                         </li>
                         <li>
                             <p>
-                                (Skip if this doesn't apply to your (de)construction.) Relate any new labels to the trapezoid's height, 
+                                (Skip if this doesn't apply to your (de)construction.) 
+                                Relate any new labels to the trapezoid's height, 
                                 base, and/or summit. For example, if you split the base into three segments, 
                                 labeled <m>x</m>, <m>y</m>, and <m>z</m>, you would write down the relationship 
                                 <m>x+y+z=b_2</m>. If you split the base into two segments, one of which is
-                                congruent to the summit, you would write <m>x+b_1=b_2</m> or equivalently,
+                                congruent to the summit, you might write <m>x+b_1=b_2</m> or equivalently,
                                 <m>b_1=b_2-x</m>.
                             </p>
                         </li>
@@ -322,7 +333,7 @@
                                 Write a draft of how your (de)construction shows that the area of any 
                                 trapezoid must be <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m> where <m>b_1</m>
                                 is the length of the summit, <m>b_2</m> is the length of the base, and 
-                                <m>h</m> is the height. You may be asked to write this explanation up more 
+                                <m>h</m> is the height. You may be asked to write this explanation more 
                                 formally outside of class.
                             </p>
                         </li>
@@ -475,12 +486,12 @@
             </figure> 
         </subsubsection>
     </subsection>
-    <subsection xml:id="subsec-polygons-area-logicalarguments">
+<!--    <subsection xml:id="subsec-polygons-area-logicalarguments">
         <title>Writing Convincing Arguments</title>
         <p>
             Add something here about what it means to write logically and 
             convincingly for various audiences. Benefits of mathematical 
             writing for various career trajectories (education, law).
         </p>
-    </subsection>
+    </subsection>-->
 </section>
