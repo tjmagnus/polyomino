@@ -284,9 +284,9 @@
           <m>(n+1)^2=n^2+2n+1</m>.
       </p>
       </blockquote>
-      <figure width="70%">
+      <figure>
         <caption>Visualization of <m>(n+1)^2=n^2+2n+1</m></caption>
-        <image source="nthsumofodds"></image>
+        <image source="nthsumofodds" width="70%"></image>
       </figure>
       <blockquote>
           <p>

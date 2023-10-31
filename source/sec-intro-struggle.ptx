@@ -1,6 +1,8 @@
 <section xml:id="sec-intro-struggle">
     <title>Invitation to Overcome Challenges </title>
-    <introduction>
+    <subsection>
+      <title>Growing through Persistance</title>
+ 
       <p>
         Have you ever watched a baby learn a new skill, like walking, crawling, or even 
         rolling over? The child does not master the skill on the first try, but they are 
@@ -18,7 +20,6 @@
         you will find that some of the problems are easy, but others require looking at 
         the problem in new ways and trying different strategies.
       </p>
-    </introduction>
 
     <exploration xml:id="intro-struggle-exp-geoboardsq">
       <title>Triangles on a Geoboard</title>
@@ -41,6 +42,7 @@
               A grid with 16 dots arranged in four rows and four columns.
             </description>
           </image>
+          <p>
           <ol>
             <li>
               <p>
@@ -70,6 +72,7 @@
               </p>
             </li>
           </ol>
+          </p>
         </statement>
       </task>
       <task>
@@ -86,6 +89,7 @@
               or use the embedded interactive in the hint below.
             </p>
           </aside>
+          <p>
           <ol>
             <li xml:id="lgst-4x4geobd-tri">
               <p>
@@ -95,19 +99,18 @@
             </li>
             <li>
               <p>
-                On the first geoboard below, construct a triangle with the largest possible area. What is this area? 
+                <!--On the first geoboard below, construct a triangle with the largest possible area. What is this area? 
                 What is this area? On the second geoboard, construct a second 
-                triangle with a different shape but the same area.
+                triangle with a different shape but the same area.-->
+                Construct a triangle with the largest possible area. Then construct a 
+                second triangle with the same area that is not the same shape as the first.
+                Record your sketches and compute this area.
               </p>
-              <sidebyside widths="30% 30% 30%" valign="middle">
+              <!--<sidebyside widths="30% 30% 30%" valign="middle">
                 <image source="4by4geoboard"/>
                 <image source="4by4geoboard"/>
                 <p> What is the common area?</p>
-              </sidebyside>
-            </li>
-          </ol>
-        </statement>
-        <hint>
+              </sidebyside>-->
           <interactive xml:id="interactive4x4geoboard" 
               iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
               preview="" aspect="16:12"/>
@@ -117,11 +120,14 @@
                   Interactive tool on Polypad by Mathigon 
                 </url>
               </p>
-        </hint>
+            </li>
+          </ol>
+          </p>
+            </statement>
       </task>
       <task>
         <statement>
-          <p> 
+          <!--<p> 
             On each geoboard below, construct a triangle with an area different than 
             any triangle you've already drawn. Counting the triangles you drew in 
             <xref ref="lgst-4x4geobd-tri"/>, it is possible to create a total of eight 
@@ -138,7 +144,24 @@
             <image source="4by4geoboard"/>
             <image source="4by4geoboard"/>
             <image source="4by4geoboard"/>
-          </sidebyside>
+          </sidebyside>-->
+          <p>
+            Construct triangles with an area different than 
+            any triangle you've already drawn. Counting the triangles you drew in 
+            <xref ref="lgst-4x4geobd-tri"/>, it is possible to create a total of eight 
+            triangles each with a different area. Be sure to record your sketches of the 
+            triangles and their areas for 
+            reference.
+          </p>
+          <interactive 
+          iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
+          preview="" aspect="16:12"/>
+  <!--How to caption properly?-->
+          <p>
+            <url href="https://mathigon.org/polypad/embed/OADtl0auGfB1A"> 
+              Interactive tool on Polypad by Mathigon 
+            </url>
+          </p>
         </statement>
         <hint>
           <p>
@@ -156,13 +179,15 @@
         </statement>
       </task>
     </exploration>
+  </subsection>
     <subsection xml:id="subsec-intro-struggle-reflect">
       <title>Confronting the Challenge</title>
       <p>
         To give you the experience of confronting the challenge and the exhilaration 
         of conquering it, the answer to the last task in this exploration will not 
-        be provided here. Hopefully, you and your classmates can share your varied 
-        approaches and discoveries.
+        be provided here. Searching for solutions or examples will not help you grow mathematically. 
+        Instead, consider other ways in which you might attack the problem. Dare to 
+        try something new!
       </p>
       <p>
         The above exploration starts off relatively easy. 
@@ -210,10 +235,11 @@
       <p>
         If today was not your day to shine, perhaps you were hesitant to consider 
         alternative approaches or to pursue your ideas. This particular topic might 
-        not have engaged you in the same way as it did others. There will be more opportunities  
+        not have engaged you in the same way as it did others. Or maybe it was just 
+        an off day. There will be more opportunities  
         to overcome challenges throughout this book, and so long as you are open to 
-        learning, there will be some that will
-        connect more with you. After all, the course has just 
+        learning and exploring your own ideas, you will grow in mathematical ability 
+        and confidence. After all, the course has just 
         started and you are just getting to know the book and its style, your 
         instructor and your classmates. By the way, your brain may hurt a little as 
         you confront and conquer mathematical challenges. Like every other muscle in 

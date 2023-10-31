@@ -118,7 +118,8 @@
         <statement>
           <p>
             Just as a domino consists of two squares joined at an edge, a 
-            <term>tetromino</term> is a flat figure created by joining four congruent 
+            <term>tetromino</term> <idx><h>tetromino</h></idx> <idx><h>polyomino</h>
+            <h>tetromino</h></idx> is a flat figure created by joining four congruent 
             squares along edges. Pictured below are the four other tetrominoes, 
             an I-shape, a Z-shape, a T-shape,
             and a small square. Like the L-shape, some of these can cover the 
@@ -178,7 +179,9 @@
       <task xml:id="create-pentominoes">
         <statement>
           <p>
-           Similarly, we define a <term>pentomino</term> to be a figure 
+           Similarly, we define a <term>pentomino</term> <idx><h>pentomino</h></idx>
+           <idx><h>polyomino</h><h>pentomino</h></idx> 
+           to be a figure 
            formed by joining five congruent squares along edges. One pentomino 
            is pictured. Create new pentominoes by copying and moving the provided
            purple unit square.   
@@ -351,5 +354,55 @@
           Relax and have fun exploring mathematics! 
         </p>
       </subsection>
-      <!--Add definition of polyomino before the exercises.-->
+      <commentary component="instructor">
+        <title>To the Instructor: Plans for Inclusion</title>
+        <p>
+          EXERCISES UNDER CONSTRUCTION. Exercises on computing area by breaking 
+          regions into rectangles. Exercises on polyomino area. Area model for 
+          multidigit factors. EXTENSIONS UNDER CONSTRUCTION:
+          Area model for polynomials and fractions. Histogram use of area.
+          JOURNAL IDEAS: Here or at end of chapter or only in instructor's guide. 
+        </p>
+      </commentary>
+      <exercises>
+        <title>Exercises</title>
+        <introduction>
+          <p>
+            The following definition will be useful in the exercises for this  
+            section.
+          </p>
+          <definition xml:id="def-polyomino">
+            <idx><h>polyomino</h></idx>
+            <idx><h>triomino</h></idx>
+            <idx><h>hexomino</h></idx>
+            <idx><h>pentomino</h></idx>
+            <idx><h>tetromino</h></idx>
+            <statement>
+              <p>
+                A <term>polyomino</term> is a flat geometric figure formed by 
+                gluing equal-sized squares together along their edges. A <term>triomino</term>
+                consists of three squares, a <term>tetromino</term> consists of four squares,
+                a <term>pentomino</term> consists of five squares, and a <term>hexomino</term> 
+                consists of six squares.
+              </p>
+            </statement>
+          </definition>  
+        </introduction>
+          <exercise>
+            <statement>
+              <p>
+                Sketch the two distinct triominos.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                The two triominos will be distinct if they cannot be rotated 
+              or slid to land on top of each other. <!--Make sure this is 
+              consistant. Flips make the pentomino different?-->
+              </p>
+            </hint>
+          </exercise>
+
+      </exercises>
+      
 </section>

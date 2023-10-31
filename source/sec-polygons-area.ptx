@@ -170,6 +170,12 @@
     </p>
     <table xml:id="formulas-areathroughtriangle">
         <title>First Three Area Formulas</title>
+        <idx><h>area</h><h>of triangle</h></idx>
+        <idx><h>area</h><h>of parallelogram</h></idx>
+        <idx><h>area</h><h>of rectangle</h></idx>
+        <idx><h>triangle</h><h>area</h></idx>
+        <idx><h>parallelogram</h><h>area</h></idx>
+        <idx><h>rectangle</h><h>area</h></idx>
         <tabular>
             <row header ="yes">
                 <cell>Shape</cell>
@@ -331,10 +337,12 @@
             Thoughts on Area
         </title>
         <p>
-            We now have four area formulas in our tool box. One could 
+            Adding the formula <m>A=\frac{1}{2}(b_1+b_2)h</m> for the area of a 
+            trapezoid, we now have four area formulas in our tool box. One could 
             continue to add more: kites, pentagons, hexagons, etc., but 
             the list would become unwieldly and unhelpful. 
-            
+            <idx><h>trapezoid</h><h>area</h></idx>
+            <idx><h>area</h><h>of a trapezoid</h></idx>
             Instead, we will  
             simply break other polygonal shapes into triangles, parallelograms, 
             and other shapes so that we can compute the area of these and add 
