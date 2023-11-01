@@ -195,6 +195,11 @@
       <title>List of Principles</title>
       <list-of elements="principle" divisions="section" empty="no" />
   </appendix>
+  <appendix xml:id="algebra-review">
+    <title>Algebra Review</title>
+    <xi:include href="algebra-principles.ptx" />
+    <!--<xi:include href="exponents-roots.ptx" />-->
+  </appendix>
   <appendix>
     <title>List of Symbols</title>
         <notation-list/>

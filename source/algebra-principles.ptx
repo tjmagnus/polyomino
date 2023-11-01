@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="algebra-principles" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Principles of Algebra</title>
+    <introduction>
+        <p>
+            Here we summarize the principles that define operations on the 
+            set of real numbers. Methods of performing calculations, 
+            simplifying algebraic expressions, and solving equations follow 
+            from these principles.  
+        </p>
+    </introduction>
+    <subsection>
+        <title>Field Properties of the Real Numbers</title>
+    <principle xml:id="principle-closure-reals">
+        <title>Closure of Addition and Multiplication on the Set of Real Numbers</title>
+        <statement>
+            <p>
+                If <m>a</m> and <m>b</m> are real numbers, then <m>a+b</m> and 
+                <m>a\cdot b</m> are real numbers.
+            </p>
+        </statement>
+    </principle>
+    <principle xml:id="principle-commutative">
+        <title>Commutative Laws</title>
+        <statement>
+            <p>
+                If <m>a</m> and <m>b</m> are real numbers, then <m>a+b=b+a</m>
+                and <m>a\cdot b=b\cdot a</m>.  
+            </p>
+        </statement>
+    </principle>
+    <principle xml:id="principle-associative">
+        <title>Associative Laws</title>
+        <statement>
+            <p>
+                If <m>a</m>, <m>b</m>, and <m>c</m> are real numbers, 
+                then <m>(a+b)+c=a+(b+c)</m>
+                and <m>(a\cdot b)\cdot c=a\cdot (b\cdot c)</m>. 
+            </p>
+        </statement>
+    </principle>
+    <principle xml:id="principle-distributive">
+        <title>The Distributive Law</title>
+        <statement>
+            <p>
+                If <m>a</m>, <m>b</m>, and <m>c</m> are real numbers, 
+                then <m>c\cdot(a+b)=ca+cb</m>
+                and <m>(a+b)\cdot c=ac+bc</m>.    
+            </p>
+            <p>
+                Note that the distributive law also allows us to add fractions 
+                with a common denominator;
+                <me>
+                    \frac{x}{d}+\frac{y}{d}=\frac{1}{d}\cdot x+\frac{1}{d}\cdot y
+                    =\frac{1}{d}(x+y)=\frac{x+y}{d}.
+                </me>
+                In short, <m>\frac{x}{d}+\frac{y}{d}=\frac{x+y}{d}.</m>
+            </p>
+        </statement>
+    </principle>
+    <principle xml:id="principle-identity">
+        <title>The Identity Properties</title>
+        <statement>
+            <p>
+                If <m>a</m> is an real number, then <m>a+0=a</m>, <m>0+a=a</m>,
+                <m>a\cdot 1=a</m>, and <m>1\cdot a=a.</m> We call 0 the <term>additive identity</term>
+                and 1 the <term>multiplicative identity</term>.
+            </p>
+        </statement>
+    </principle>
+    <!--Add inverse property and zero properties-->
+    </subsection>
+</section>
