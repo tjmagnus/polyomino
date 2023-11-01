@@ -57,6 +57,7 @@
 </p>
 </aside>
 <principle xml:id="principle-addlengths">
+  <title>Additivity of Length</title>
 <statement>
   <p>
     Suppose that <m>C</m> is a point on the interior of line segment 

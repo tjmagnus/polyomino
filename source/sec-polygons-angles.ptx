@@ -188,7 +188,7 @@
         <p>
             The <term>measure of <m>\angle ABC</m></term>, written <m>m\angle ABC</m>,
             is the number of degrees of rotation about vertex <m>B</m> needed to move ray 
-            <m>overrightarrow{BC}</m> onto <m>overrightarrow{BA}</m>.
+            <m>\overrightarrow{BC}</m> onto <m>\overrightarrow{BA}</m>.
         </p>
       </statement>
     </definition>
@@ -336,6 +336,7 @@
         </statement>
     </definition>
     <principle xml:id="principle-addangles">
+        <title>Additivity of Angle Measure</title>
         <statement>
             <p>
                 If ray <m>\overrightarrow{AD}</m> lies in the interior of angle 
