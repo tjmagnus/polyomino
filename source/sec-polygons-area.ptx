@@ -480,7 +480,8 @@
                         square outside with the sides' midpoints touching the circle. 
                         The second circle has an octagon with vertices on the circle and 
                         a larger octagon with its sides' midpoints touching the circle. 
-                        The final picture has 16-gons that look almost like the circle itself.
+                        The final picture has a pair of 16-gons that are 
+                        almost indistinguishable from the circle between them.
                     </description>
                 </image>
             </figure> 
