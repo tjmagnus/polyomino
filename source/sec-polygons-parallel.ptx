@@ -16,7 +16,9 @@
         <p>
             In school, we typically consider lines to lie on a flat surface called a plane. While 
             most of this textbook will follow this tradition, we take a brief departure from planar 
-            geometry in this section. The world we live on is not flat; it is roughly spherical. One 
+            geometry in this section. The world we live on is not flat; it is roughly spherical. What 
+            objects might act like lines on the surface of a sphere. Do spherical lines have the same 
+            properties as lines on a plane? One 
             could also study the behavior of lines in our universe: Are they straight or do the bend? 
             What can we say about parallel lines in these environments? Do our familiar properties hold?
         </p>
@@ -75,7 +77,7 @@
                         You’ve probably heard the expression, 
                        <q>The shortest distance between two points lies along a line.</q>  
                         We shall use this property of line segment to determine which linear 
-                        features on a sphere are actually lines and line segments.  
+                        features on a sphere act as lines and line segments.  
                         Suppose you’re planning to fly from Chicago, Illinois 
                         (41.8781N, 87.6298W), to Rome, Italy (41.9028N,12.4964E).  
                         There are many paths you could take, many of which might qualify as 
@@ -162,9 +164,11 @@
                     <p>
                         To measure the angles on a sphere, pass a piece of thread through the vertex hole of a 
                         protractor and tie it securely. Hold the protractor with that hole at the vertex of the 
-                        angle you wish to measure, aligning the baseline with one side of the angle. Use the thread 
-                        to straighten and lengthen the second side of the angle so that you can read the measure on 
-                        the protractor. Measure the three angles of your triangle and then add the three measures.
+                        angle you wish to measure, aligning the baseline of the protractor with one side of the angle. 
+                        By pulling the thread tight and visually aligning it with the second side of the angle, you 
+                        should be able to read the measure on 
+                        the protractor. Record the measurements of each of the three angles of your triangle and 
+                        then add the three measures.
                         <ol>
                             <li>
                                 <p>Angle A:</p>
@@ -231,8 +235,11 @@
                 the sphere are parallel. Of course, we could have defined <term>line</term> differently, but 
                 that would have led to a loss of other properties of lines, such as the existence and uniqueness 
                 of a line joining any pair of points. Hence, we need to be clear regarding the geometry we  
-                are working with. Except where specified, our study will be limited to Euclidean geometry and 
-                Playfair's Parallel Postulate will be one of our principles. 
+                are working with. Except where specified, our study will be limited to Euclidean geometry 
+                where lines lie on planes, not spheres. In Euclidean geometry, parallel lines do exist; in 
+                fact, for each point and line not passing through that point, we can always draw exactly 
+                one line that is parallel to the given line and passes through the given point. We will 
+                accept this statement, known as Playfair's Parallel Postulate, as one of our principles. 
             </p>
 <!--                Ideas: Segments connecting parallel lines; shortest distance. 
                 Trapezoids and parallelograms. -->
@@ -245,9 +252,18 @@
                         </p>
                     </statement>
                  </principle>
-
-           <!--Check your understanding question. Give an example of two lines that are not parallel but do not 
-        intersect. Define skew.-->
+                 <p>
+                    In order to be parallel, two lines must lie in the same plane. If you are reading this indoors, 
+                    you probably have a wall in front of you and a wall somewhere to your right. The line where the 
+                    ceiling meets the wall in front of you will never intersect the line formed by the intersection of  
+                    the floor and the wall to your right. Still, we do not consider these two lines to be parallel because  
+                    there is no plane containing both lines. Instead, we say that these are <term>skew lines</term>.
+                 </p>
+<exercise>
+    <title>Check your Understanding</title>
+<p>
+    Add picture of rectangular pyramid and ask for examples of skew and parallel lines
+</p></exercise>
             <p>
                 We also observed that angle measures in spherical triangles did not behave in the way that Euclidean 
                 triangles do. This  
@@ -347,7 +363,8 @@
                 <principle xml:id="principle-corresponding-angles">
                     <statement>
                         <p>
-                            
+                            Given two parallel lines <m>m</m> and <m>n</m> and a line <m>t</m> that 
+                            crosses <m>m</m> and <m>n</m>, corresponding angles have the same angle measure.
                         </p>
                     </statement>
                 </principle>
@@ -356,7 +373,8 @@
     <subsection xml:id="subsec-parallel-postulates">
     <title>Different Geometries?</title>
         <p>
-            Were you surprised by the results in this section? You are not alone. Prior to 300 BC, 
+            Were you surprised by that lines and triangles behave differently in spherical geometry? 
+            You are not alone. Prior to 300 BC, 
             Greek scholars, including
             Thales, Pythagoras, Hippocrates, Eudoxus, Plato, and Socrates, developed the logic structure of
             Euclidean geometry. 
