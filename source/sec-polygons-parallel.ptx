@@ -259,11 +259,49 @@
                     the floor and the wall to your right. Still, we do not consider these two lines to be parallel because  
                     there is no plane containing both lines. Instead, we say that these are <term>skew lines</term>.
                  </p>
+                 <figure xml:id="skewlines">
+                    <caption>Illustrating skew lines as edges on a rectangular room.</caption>
+                    <image source="skew" width="%">
+                        <description>Rectangular box: front face has vertices 
+                            A, B, C, and D
+                            counterclockwise starting in lower left corner. On the 
+                            back face, the verices G, H, F, and E are counterclockwise 
+                            starting in lower left, so that edges AG, BH, CF, and DE join 
+                            the front and back faces.
+                        </description>
+                    </image>
+                 </figure>
 <exercise>
     <title>Check your Understanding</title>
+    <statement>
 <p>
-    Add picture of rectangular pyramid and ask for examples of skew and parallel lines
-</p></exercise>
+    Refer to <xref ref="skewlines"/> as you answer the following.
+    <ol>
+        <li>
+            <p>
+                In the figure, it looks like <m>overleftrightarrow{BH}</m>
+                and <m>overleftrightarrow{EF}</m> should intersect. Explain 
+                why they do not intersect when we think of the figure as a three-dimensional 
+                rectangular box or room.
+            </p>
+        </li>
+        <li>
+            <p>
+                Identify a second line (extension of an edge of the box in the picture) 
+                that would be considered to 
+                be skew to <m>overleftrightarrow{BH}</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+                How many lines suggested by edges of this box are parallel 
+                to <m>overleftrightarrow{BH}</m>? Name them.
+            </p>
+        </li>
+    </ol>
+</p>
+</statement>
+</exercise>
             <p>
                 We also observed that angle measures in spherical triangles did not behave in the way that Euclidean 
                 triangles do. This  
@@ -357,14 +395,23 @@
                 and <m>\angle DCB</m> are said to be <term>alternate interior angles</term>. 
                 
                 
-                we will not give a proof, the following two statements are equivalent to Playfair's Parallel  
-                Postulate:
+                We will not give a proof, the following two statements are equivalent to Playfair's Parallel  
+                Postulate. They hold in Euclidean geometry where Playfair's Parallel Postulate is assumed, but 
+                fail in non-Euclidean geometries like Spherical Geometry in <xref ref="parallel-explor-lines-sphere"/> and 
+                <xref ref="parallel-explor-spherical-triangles"/>.
             </p>
                 <principle xml:id="principle-corresponding-angles">
                     <statement>
                         <p>
                             Given two parallel lines <m>m</m> and <m>n</m> and a line <m>t</m> that 
                             crosses <m>m</m> and <m>n</m>, corresponding angles have the same angle measure.
+                        </p>
+                    </statement>
+                </principle>
+                <principle xml:id="principle-trisum">
+                    <statement>
+                        <p>
+                            The sum of the interior angles of any triangle is 180 degrees.
                         </p>
                     </statement>
                 </principle>
