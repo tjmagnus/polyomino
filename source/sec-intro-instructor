@@ -1,4 +1,5 @@
-<section xml:id="sec-intro-instructor" xmlns:xi="http://www.w3.org/2001/XInclude">
+<commentary component="instructor">
+    <section xml:id="sec-intro-instructor" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Instructor Notes</title>
 
     <subsection>
@@ -152,4 +153,4 @@
             me that it was isosceles and why their arguments did not hold.
         </p>
     </subsection>
-</section>
+</section></commentary>
