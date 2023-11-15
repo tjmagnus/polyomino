@@ -37,7 +37,5 @@
   <xi:include href="sec-polygons-summary.ptx"/>
   <xi:include href="sec-polygons-writing.ptx"/>-->
   <xi:include href="sec-polygons-references.ptx"/>
-  <commentary component="instructor">
-    <xi:include href="sec-polygons-instructor"/>
-  </commentary>
+  <xi:include href="sec-polygons-instructor"/>
 </chapter>

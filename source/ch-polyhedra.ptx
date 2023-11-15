@@ -13,7 +13,5 @@
    <xi:include href="sec-polyhedra-semiregular"/>
    <xi:include href="sec-polyhedra-Prisms-Cylinders"/>
    <xi:include href="sec-polyhedra-pyramids-cones"/>
-   <commentary component="instructor">
     <xi:include href="sec-polyhedra-instructor"/>
-   </commentary>
 </chapter>

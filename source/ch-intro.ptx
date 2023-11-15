@@ -41,8 +41,5 @@
       <!--<xi:include href="sec-intro-summary-toolbox.ptx"/>-->
      <!-- <xi:include href="sec-intro-journal.ptx"/>-->
       <xi:include href="sec-intro-references.ptx"/>
-      <commentary component="instructor">
-      <xi:include href="sec-intro-instructor"/></commentary>
-    
-
+      <xi:include href="sec-intro-instructor"/>
 </chapter>

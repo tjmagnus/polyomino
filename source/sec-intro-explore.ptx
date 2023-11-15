@@ -354,7 +354,7 @@
           Relax and have fun exploring mathematics! 
         </p>
       </subsection>
-      <commentary component="instructor">
+      <subsection component="instructor">
         <title>To the Instructor: Plans for Inclusion</title>
         <p>
           EXERCISES UNDER CONSTRUCTION. Exercises on computing area by breaking 
@@ -363,7 +363,7 @@
           Area model for polynomials and fractions. Histogram use of area.
           JOURNAL IDEAS: Here or at end of chapter or only in instructor's guide. 
         </p>
-      </commentary>
+      </subsection>
       <exercises>
         <title>Exercises</title>
         <introduction>
