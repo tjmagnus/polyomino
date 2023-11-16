@@ -17,9 +17,13 @@
             rectangle and two triangles. Unfortunately, this dissection is the hardest 
             one to work with algebraically as it requires breaking the longer 
             base into three parts and introducing two extra variables. After they have 
-            completed the inclass activity, I show them pictures of some possible dissections 
-            that previous students have used.   <!--Update picture.-->
+            completed the inclass activity, I show them the following picture of some possible dissections 
+            that previous students have used.   
         </p>
+        <figure>
+            <caption>Dissections of Trapezoids</caption>
+            <image xml:id="trapezoid-area"></image>
+        </figure>
     </subsection>
     <subsection>
         <title>Notes for <xref ref="sec-polygons-angles"/></title>
