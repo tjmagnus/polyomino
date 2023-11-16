@@ -278,14 +278,15 @@
     </exploration>
   </subsection>
   <subsection xml:id="subsec-reflect-exp-pentrect">
-      <title>Reflections on the Exploration</title>
+      <title>Learning from the Exploration</title>
       
         <p>
           The purpose of <xref ref="intro-explore-exp-pentrect"/> is two-fold. It introduces the exploratory 
-          nature of the course and it also suggests a few important geometric facts that 
+          nature of the course and it also suggests a few important geometric facts and definitions that 
           we will use as our initial geometrical foundation. These facts are chosen because  
           they are intuitively obvious, but they give us some building blocks we will need to 
-          justify more complex ideas. We state them here for clarity and future reference.
+          justify more complex ideas. We state them here for clarity and future reference beginning 
+          with a definition for area.
         </p>
         <definition xml:id="def-area">
           <idx><h>area</h></idx>
@@ -296,15 +297,13 @@
             </p>
           </statement>
         </definition>
-        <!--<principle xml:id="intro-explore-principle-areameaning">
-          <title>Notion of Area</title>
-          <statement>
-            <p>
-              The area of a closed figure in the plane is the number of unit  
-              squares needed to fill the figure without any gaps or overlaps.
-            </p>
-          </statement>
-        </principle>-->
+        <p>
+          We noted that each tetromino was made up of four unit squares and 
+          each pentomino consisted of five unit squares; thus 
+          the area of a tetromino is four square units and the area of a 
+          pentomino is five square units. We also recalled the area formula for 
+          a rectangle.
+        </p>
         <principle xml:id="principle-arearect">
           <title>Area of a Rectangle</title>
           <statement>
@@ -314,6 +313,17 @@
             </p>
           </statement>
         </principle>
+        <p>
+          Another observation is that if you can fill a closed region with smaller 
+          shapes so that none of the smaller shapes overlap and no part of the region 
+          is left uncovered, then the area of the region is equal to the sum of the 
+          areas of the smaller shapes. While this may seem like a simple idea, we will  
+          see that it allows us to determine the area formulas of other geometric  
+          shapes and to prove the Pythagorean Theorem. We can dissect <idx><h>dissect</h></idx> 
+          shape into smaller shapes, rearrange them into another shape, and argue 
+          that the two regions have the same area because they both consist of the same 
+          colllection of smaller shapes.
+        </p>
         <principle xml:id="principle-areasums">
           <title>Additivity of Area</title>
           <statement>
@@ -323,17 +333,53 @@
               areas of the sections.
             </p>
           </statement>
-        </principle>
+        </principle> 
+        <p>
+          We applied these two principles in <xref ref="hiddenapp-pentominofilling"/>
+          where we attempted to construct rectangles using pentominos. Since pentominos 
+          have an area of five square units, we could only construct rectangles with areas 
+          divisible by 5, namely 5, 15, 20, 25, 30, 35, 40, 45, 50, 55, and 60. 
+          <fn>To construct a rectangle of area 10, the same pentomino must be used twice.</fn>
+          In the same way, any shape made up entirely of tetrominos must have an area 
+          divisible by 4.
+        </p>
+        <p>
+          Finally, we observed that when the lengths of all sides of a two-dimensional 
+          figure are doubled (or tripled), the area of the figure is muliplied by 4 (or 9).
+          This is easy to observe in a rectangle with length <m>\ell</m> and width <m>w</m>. 
+          When we create a new rectangle with length <m>L=2\ell</m> and width <m>W=2w</m>, 
+          the resulting area is <m>LW=(2\ell)(2w)=(2\cdot 2)(\ell w)=4\ell w</m>.
+        </p>
+      </subsection>
+      <subsection xml:id="subsec-creative-expl">
+        <title>Exploring to Learn</title>
         <p>
           Hopefully as you worked through this task, you allowed yourself 
           to experiment with different arrangements of squares and 
-          polyominoes. This openness to exploration is essential to 
+          polyominoes. This openness to creative exploration is essential to 
           mathematical thinking. Phrases like "what if" or "I wonder"  
           arise often as mathematicians create and make sense 
-          of new ideas. 
+          of new ideas. If you find yourself wanting to explore a question arising 
+          from a task but not explicitly asked, jot down your question and share it 
+          with your instructor. Your instructor might encourage you to investigate your 
+          question or even invite your classmates to consider it.<fn>Some questions may 
+          be addressed in a later section, too tangential, beyond the scope of this course, 
+          or even unsolved by the mathematical community. Thus your instructor will 
+          make the decision on which questions to pursue and when. 
+          </fn>
         </p>
-
-        <p> In addition, mathematics is a social activity. When we notice 
+        <p> 
+          You may have noticed that you and your peers discovered 
+          different ways of completing the same task. Multiple approaches and 
+          multiple solutions are often welcome and even encouraged! If you have a 
+          strategy that is different than your group members, try both separately 
+          and then compare. You have the ability to do the mathematics, but it will  
+          be more meaningful if you attack tasks in a way that makes sense to you.
+          This will require you and your peers to take some risks, to challenge you to 
+          speak up, and to be nonjudgmental of others.
+        </p>
+        <p> 
+          In fact, doing mathematics is a social activity. When we notice 
           patterns and make conjectures, we share our ideas with others and 
           use logic to make convincing arguments. For over 2500 years, mathematicians 
           have been adding to the body of mathematical knowledge; some of which has 
