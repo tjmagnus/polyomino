@@ -32,7 +32,7 @@
             <c> https://tjmagnus.github.io/polyomino/</c>
           </name>
           <address> https://tjmagnus.github.io/polyomino/</address>
-        </website>-->
+        </website>
 
         <copyright>
           <year>2020<ndash />2023</year>
@@ -179,7 +179,7 @@
     
     <xi:include href="ch-isom.ptx"/>
 
-    <!--<xi:include href="ch-topics.ptx."/>-->
+    
 
 
     

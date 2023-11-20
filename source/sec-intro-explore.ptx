@@ -548,17 +548,35 @@
                 </p>
               </li>
               <li>
-                <!--<sidebyside>-->
+                <sidebyside width="50% 30%">
                 <p>
                   The standard algorithm to multiply  <m>47 \times 25</m> is shown.   
                   Identify what the 235 and 940 in the algorithm represent in the area 
                   model pictured at the beginning of this exercise.
                 </p>
-              <!--</sidebyside>-->
+                <!--<table>-->
+                  <tabular halign="right">
+                    <row header="no" bottom="none">
+                      <cell>47</cell>
+                    </row>
+                    <row header="no" bottom="medium">
+                      <cell><m>\times</m> 25</cell>
+                    </row>
+                    <row header="no" bottom="none">
+                      <cell>235</cell>
+                    </row>
+                    <row header="no" bottom="minor">
+                      <cell>+ 940</cell>
+                    </row>
+                    <row header="no" bottom="none">
+                      <cell>1175</cell>
+                    </row>
+                  </tabular>
+                <!--</table>-->
+              </sidebyside> <!--Also look at https://tex.stackexchange.com/questions/695293/long-multiplication-using-latex
+              for a discussion on how to show long multiplication via LaTeX. -->
               </li>
             </ol>
-       
-
           </p>
           </statement>
         </exercise>
