@@ -260,7 +260,13 @@
           </p>
         </statement>
       </task>
-
+      <task>
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+      </task>
       <task>
         <statement>
           <p>
@@ -274,8 +280,8 @@
           </p>
         </hint>
       </task>
-      
     </exploration>
+    
   </subsection>
   <subsection xml:id="subsec-reflect-exp-pentrect">
       <title>Learning from the Exploration</title>
@@ -400,55 +406,199 @@
           Relax and have fun exploring mathematics! 
         </p>
       </subsection>
-      <subsection component="instructor">
-        <title>To the Instructor: Plans for Inclusion</title>
+      <subsection>
+        <title>A definition for polyomino.</title>
         <p>
-          EXERCISES UNDER CONSTRUCTION. Exercises on computing area by breaking 
-          regions into rectangles. Exercises on polyomino area. Area model for 
-          multidigit factors. EXTENSIONS UNDER CONSTRUCTION:
-          Area model for polynomials and fractions. Histogram use of area.
-          JOURNAL IDEAS: Here or at end of chapter or only in instructor's guide. 
+          The following definition will be useful in the exercises for this  
+          section.
         </p>
+        <definition xml:id="def-polyomino">
+          <idx><h>polyomino</h></idx>
+          <idx><h>triomino</h></idx>
+          <idx><h>hexomino</h></idx>
+          <idx><h>pentomino</h></idx>
+          <idx><h>tetromino</h></idx>
+          <statement>
+            <p>
+              A <term>polyomino</term> is a flat geometric figure formed by 
+              gluing equal-sized squares together along their edges. A <term>triomino</term>
+              consists of three squares, a <term>tetromino</term> consists of four squares,
+              a <term>pentomino</term> consists of five squares, and a <term>hexomino</term> 
+              consists of six squares.
+            </p>
+          </statement>
+        </definition>
+        <exercise>
+          <statement>
+            <p>
+              How many distinct triominos exist? Sketch them. Do not include any 
+              triominos that are reflections or rotations of ones you have already 
+              sketched.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              There are just two.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              One is I-shaped; the other L-shaped.
+            </p>
+          </answer>
+        </exercise>
       </subsection>
-      <exercises>
-        <title>Exercises</title>
+<!--From Apex Calculus, definitions to set up exercises:
+\newcommand{\printconcepts}{\noindent\textit{\Large Terms and Concepts}\vskip \baselineskip}
+\newcommand{\printproblems}{\vskip \baselineskip\noindent\textit{\Large Problems}\vskip \baselineskip}
+\newcommand{\printreview}{\vskip \baselineskip\noindent\textit{\Large Review}\vskip \baselineskip}
+
+\newcommand{\inanswersection}{%
+	\renewcommand{\printconcepts}{}%
+	\renewcommand{\printproblems}{}%
+	\renewcommand{\printreview}{}%
+}%
+
+\newcount\showexercises
+\newboolean{printquestions}
+\newboolean{printoddanswersonly}
+
+\setboolean{printoddanswersonly}{true}
+\newcommand{\printallanswers}{\setboolean{printoddanswersonly}{false}}
+
+
+\newcount\numberofexercises
+
+\newcounter{numofexer}
+\newcounter{negnumofexer}-->
+      <exercises xml:id="SAR-intro-exp">
+        <title>Skills and Recall</title>
         <introduction>
           <p>
-            The following definition will be useful in the exercises for this  
-            section.
+            Exercises in this section are designed to check that you have 
+            understood the main ideas and that you can perform 
+            the skills, techniques, and formulas needed to move on in the course. 
+            Exercises in this group may also encourage practice of skills that 
+            appear in education licensure exams.
           </p>
-          <definition xml:id="def-polyomino">
-            <idx><h>polyomino</h></idx>
-            <idx><h>triomino</h></idx>
-            <idx><h>hexomino</h></idx>
-            <idx><h>pentomino</h></idx>
-            <idx><h>tetromino</h></idx>
-            <statement>
-              <p>
-                A <term>polyomino</term> is a flat geometric figure formed by 
-                gluing equal-sized squares together along their edges. A <term>triomino</term>
-                consists of three squares, a <term>tetromino</term> consists of four squares,
-                a <term>pentomino</term> consists of five squares, and a <term>hexomino</term> 
-                consists of six squares.
-              </p>
-            </statement>
-          </definition>  
         </introduction>
-          <exercise>
+        <exercise xml:id="SAR-intro-exp-areas">
+          <statement>
+            <p>
+              Determine the area of the following figures:
+              ADD FIGURES HERE!!! DISSECT INTO RECTANGLES, PENTOMINOS.
+            </p>
+          </statement>
+        </exercise>
+        <exercise xml:id="SAR-intro-exp-hexomino">
+          <statement>
+            <p>
+              A hexomino is constructed from six <m>1 \times 1</m> squares. 
+              Explain why it is impossible to construct a solid rectangle with area twenty 
+              using non-overlapping hexomino tiles?
+            </p>
+          </statement>
+        </exercise>
+        <exercise xml:id="SAR-intro-exp-areamodel">
+          <title>The Area Model for Multiplication</title>
             <statement>
-              <p>
-                Sketch the two distinct triominos.
+              <p> 
+                This problem illustrates the Area Model for Multiplication, an 
+                effective way of helping elementary school students visualize the operation 
+                of multiplication. <idx><h>area model for multiplication</h></idx>
+                <ol>
+                  <li>
+                    <p>
+                      On graph paper sketch a <m>3 \times 5</m> rectangle.  Show the fifteen 
+                      squares that make up the area.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Note that 12 can be factored as <m>1 \times 12</m>, <m>2 \times 6</m>, 
+                      or <m>3 \times 4</m>.  Sketch area models for each of these products.
+                    </p>
+                  </li>
+                </ol>
               </p>
             </statement>
-            <hint>
-              <p>
-                The two triominos will be distinct if they cannot be rotated 
-              or slid to land on top of each other. <!--Make sure this is 
-              consistant. Flips make the pentomino different?-->
-              </p>
-            </hint>
-          </exercise>
+        </exercise>
 
       </exercises>
-      
+      <exercises xml:id="ExtConc-intro-exp">
+        <title>Extending the Concepts</title>
+        <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
+          <title>Area Model for Multidigit Numbers</title>
+          <statement>
+          <p>
+            Multiplication of two-digit numbers can be represented 
+            using the area model: for example, to multiply 47 by 25 we can represent 
+            47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones.  We then can sketch 
+            the product as shown to the right. ADD PICTURE <!--Add picture!-->
+            <ol>
+              <li>
+                <p>
+                  Determine the area of each of the four subrectangles pictured. Here, the squares 
+                  on the grid are not <m>1\times 1</m> but defined by the notations on the sides.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add the four areas of the subrectangles together to find the total area.
+                </p>
+              </li>
+              <li>
+                <!--<sidebyside>-->
+                <p>
+                  The standard algorithm to multiply  <m>47 \times 25</m> is shown.   
+                  Identify what the 235 and 940 in the algorithm represent in the area 
+                  model pictured at the beginning of this exercise.
+                </p>
+              <!--</sidebyside>-->
+              </li>
+            </ol>
+       
+
+          </p>
+          </statement>
+        </exercise>
+      </exercises>
+      <exercises xml:id="Writing-intro-exp">
+        <title>Writing Prompts</title>
+        <exercise xml:id="Writing-intro-exp-autobiography">
+          <title>Mathematical Autobiography</title>
+          <p>
+            Write an essay (2 to 4 pages) in which you discuss the experiences 
+            in your life that have formed you as a mathematician or geometer. 
+            This essay will be unique to you, but here are some questions that 
+            you might consider in your reflection: 
+            Were there any turning points in your education? What experiences 
+            have stimulated and which have stimied your mathematical growth? 
+            Are there obstacles that you 
+            have overcome or would like to overcome? How? What are you personal 
+            goals in this course? What do you see as personal challenges to being 
+            successful?  
+          </p>
+          <p>
+            The paper should <em>not</em> be a mere timeline (boring!) or a list of answers to the 
+            questions above (disjointed), but instead <em>should</em> be a cohesive  
+            essay that focuses on the development of your mathematical ability, confidence, 
+            and attitude, centering on a few key turning points.  Examples of experiences 
+            that help illustrate your statements should be included. 
+            How did the class format (lecture, testing, activities, interaction,
+            pacing) change you? Did you have experiences beyond the classroom that affected 
+            your mathematical growth? <!--This essay should 
+            demonstrate that you have thought deeply about the topic.  
+            Your attitude and definition of mathematics might not match your instructor's, 
+            but that is okay in this paper where your personal reflections matter.-->
+          </p>
+          <p>
+            You may be asked to look back on this essay at the end of the semester  
+            to assess personal growth. Your instructor may also use this autobiography to 
+            better understand you as a student. In case your instructor knows your past teachers,
+            use psuedonyms or letters to refer to them. The essay should focus 
+            on you, not your teachers.  
+          </p>
+        </exercise>
+      </exercises>
 </section>
