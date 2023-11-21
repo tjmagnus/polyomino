@@ -89,7 +89,7 @@
         <statement>
           <p>
             Fill the blue square with non-overlapping copies of the green L-shaped 
-            tetronimo. How many tetrominos are required?
+            tetronimo. How many tetrominoes are required?
           </p>
 
           <p>
@@ -179,14 +179,15 @@
       <task xml:id="create-pentominoes">
         <statement>
           <p>
-           Similarly, we define a <term>pentomino</term> <idx><h>pentomino</h></idx>
-           <idx><h>polyomino</h><h>pentomino</h></idx> 
-           to be a figure 
-           formed by joining five congruent squares along edges. One pentomino 
-           is pictured. Create new pentominoes by copying and moving the provided
-           purple unit square.   
-           Note that if two pentominos are reflections or 
-           rotations of each other we consider them to be the same pentomino.  
+            Similarly, we define a <term>pentomino</term> <idx><h>pentomino</h></idx>
+            <idx><h>polyomino</h><h>pentomino</h></idx> 
+            to be a figure 
+            formed by joining five congruent squares along edges. One pentomino 
+            is pictured. Create new pentominoes by copying and moving the provided
+            purple unit square.   
+            Note that if two pentominoes are reflections or 
+            rotations of each other we consider them to be the same pentomino. Be sure 
+            to save a copy of your sketch for future reference. 
           </p>
           <interactive xml:id="app-buildpentominoes" 
           iframe="https://www.mathigon.org/polypad/embed/lejfSv8Xt8FxJA" 
@@ -212,7 +213,7 @@
         </hint>
         <answer>
           <p>
-            The pentominoes may be labeled as F, I, L, N, P, T, U, V, W, X, Y, and Z.
+            The pentominoes may be labeled as F, I, L, N, P, T, U, V, W, X, y, and Z.
             Can you figure out which is which?
           </p>
         </answer>
@@ -263,13 +264,6 @@
       <task>
         <statement>
           <p>
-            
-          </p>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
             As you participated in this exploration, what did you 
             wonder? What did you notice about area?
           </p>
@@ -281,11 +275,119 @@
         </hint>
       </task>
     </exploration>
-    
+    <exploration>
+      <title>More Explorations with Pentominoes</title>
+        <introduction component="instructor">
+          <p>
+            Note to instructor: Questions from this exploration may be used as an 
+            in-class supplement to the first exploration, as a homework assignment, 
+            or omitted.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              To simplify our discussion, we can call each pentomino by the letter it 
+              most resembles, namely  F, I, L, P, T, U, V,  W, X, y, Z, and N.  
+              The F and N pentominos are less obvious and are identified below.  
+              Sketch and identify the others or refer to and label your earlier sketches.
+            </p>
+            <image source="fnpentominos" width="60%">
+              <description>
+                The F-pentomino is three squares tall with an extra square attached to the 
+                middle of these three on one side and an extra square attached to the top 
+                square on the other side. The N-pentomino has a column of three squares and a 
+                column of two squares. Slide one of the columns so that the two columns only 
+                share a single side of a square and the total height is four units.
+              </description>
+            </image>
+          </statement>
+        </task>
+        <task> 
+          <statement>
+            <p>
+              Observe how a larger copy of the L-pentomino tile can be created by filling 
+              it with four different pentominoes:
+            </p>
+        <image source="doublingl" width="40%">
+          <description>
+            The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
+            F-, and P-pentominoes.
+          </description>
+        </image>
+        <p>
+        <ol>
+          <li>
+            <p>
+              How are the height and width of the new larger L-tile related to the 
+              height and width of the basic L-tile?
+            </p>
+          </li>
+          <li>
+            <p>
+              How is the area of the new larger L-tile related to the area of the 
+              basic L-tile?
+            </p>
+          </li>
+          <li>
+            <p>
+              Choose another pentomino from among F, I, P, T, U, W, y, and Z, 
+              and demonstrate how it can be created using four distinct polyominoes.
+              Note that this cannot be done with X or V.
+            </p>
+          </li>
+        </ol>
+      </p>
+      </statement>
+      <hint>
+        <p> Use the interactive Polypad activity below or access a fullscreen 
+          version at Polypad by Mathigon using the link  
+          <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">Pentomino Set
+          </url>.
+        </p> 
+        <interactive 
+        iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
+        preview="pentomino-rectangles" aspect="22:15"/>
+      </hint>
+      </task>
+      <task>
+        <statement>
+          <p>
+            On the other hand, it is possible to create a copy of the V tile that is 
+            three times the height 
+            and width of the basic V tile by filling it with nine distinct pentominoes.
+            <ol>
+              <li>
+                <p>
+                  Show how this can be done.
+                </p>
+              </li>
+              <li>
+                <p>
+                  How does the new area compare with the original?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Explore whether other pentominoes can be <q>tripled</q> in this way.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What happens to the area of a figure when its height and width of are doubled?  tripled?  
+            How does the number of basic pentominoes needed to fill the figure change?
+          </p>
+        </statement>
+      </task>
+    </exploration>
   </subsection>
   <subsection xml:id="subsec-reflect-exp-pentrect">
-      <title>Learning from the Exploration</title>
-      
+      <title>Learning from the Explorations</title>
         <p>
           The purpose of <xref ref="intro-explore-exp-pentrect"/> is two-fold. It introduces the exploratory 
           nature of the course and it also suggests a few important geometric facts and definitions that 
@@ -342,11 +444,11 @@
         </principle> 
         <p>
           We applied these two principles in <xref ref="hiddenapp-pentominofilling"/>
-          where we attempted to construct rectangles using pentominos. Since pentominos 
+          where we attempted to construct rectangles using pentominoes. Since pentominoes 
           have an area of five square units, we could only construct rectangles with areas 
           divisible by 5, namely 5, 15, 20, 25, 30, 35, 40, 45, 50, 55, and 60. 
           <fn>To construct a rectangle of area 10, the same pentomino must be used twice.</fn>
-          In the same way, any shape made up entirely of tetrominos must have an area 
+          In the same way, any shape made up entirely of tetrominoes must have an area 
           divisible by 4.
         </p>
         <p>
@@ -354,13 +456,13 @@
           figure are doubled (or tripled), the area of the figure is muliplied by 4 (or 9).
           This is easy to observe in a rectangle with length <m>\ell</m> and width <m>w</m>. 
           When we create a new rectangle with length <m>L=2\ell</m> and width <m>W=2w</m>, 
-          the resulting area is <m>LW=(2\ell)(2w)=(2\cdot 2)(\ell w)=4\ell w</m>.
+          the resulting area is <m>LW=(2\ell)(2w)=(2\cdot 2)(\ell w)=4\ell w</m> square units.
         </p>
       </subsection>
       <subsection xml:id="subsec-creative-expl">
         <title>Exploring to Learn</title>
         <p>
-          Hopefully as you worked through this task, you allowed yourself 
+          Hopefully as you worked through these tasks, you allowed yourself 
           to experiment with different arrangements of squares and 
           polyominoes. This openness to creative exploration is essential to 
           mathematical thinking. Phrases like "what if" or "I wonder"  
@@ -406,48 +508,7 @@
           Relax and have fun exploring mathematics! 
         </p>
       </subsection>
-      <subsection>
-        <title>A definition for polyomino.</title>
-        <p>
-          The following definition will be useful in the exercises for this  
-          section.
-        </p>
-        <definition xml:id="def-polyomino">
-          <idx><h>polyomino</h></idx>
-          <idx><h>triomino</h></idx>
-          <idx><h>hexomino</h></idx>
-          <idx><h>pentomino</h></idx>
-          <idx><h>tetromino</h></idx>
-          <statement>
-            <p>
-              A <term>polyomino</term> is a flat geometric figure formed by 
-              gluing equal-sized squares together along their edges. A <term>triomino</term>
-              consists of three squares, a <term>tetromino</term> consists of four squares,
-              a <term>pentomino</term> consists of five squares, and a <term>hexomino</term> 
-              consists of six squares.
-            </p>
-          </statement>
-        </definition>
-        <exercise>
-          <statement>
-            <p>
-              How many distinct triominos exist? Sketch them. Do not include any 
-              triominos that are reflections or rotations of ones you have already 
-              sketched.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              There are just two.
-            </p>
-          </hint>
-          <answer>
-            <p>
-              One is I-shaped; the other L-shaped.
-            </p>
-          </answer>
-        </exercise>
-      </subsection>
+
 <!--From Apex Calculus, definitions to set up exercises:
 \newcommand{\printconcepts}{\noindent\textit{\Large Terms and Concepts}\vskip \baselineskip}
 \newcommand{\printproblems}{\vskip \baselineskip\noindent\textit{\Large Problems}\vskip \baselineskip}
@@ -486,16 +547,78 @@
           <statement>
             <p>
               Determine the area of the following figures:
-              ADD FIGURES HERE!!! DISSECT INTO RECTANGLES, PENTOMINOS.
+              ADD FIGURES HERE!!! DISSECT INTO RECTANGLES, PENTOMINOES.
             </p>
           </statement>
+        </exercise>
+        <exercise xml:id="SAR-intro-exp-numtriominoes">
+          <statement>
+            <p>
+              How many distinct triominoes exist? Sketch them. Do not include any 
+              triominoes that are reflections or rotations of ones you have already 
+              sketched.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              There are just two.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              One is I-shaped; the other L-shaped.
+            </p>
+          </answer>
         </exercise>
         <exercise xml:id="SAR-intro-exp-hexomino">
           <statement>
             <p>
               A hexomino is constructed from six <m>1 \times 1</m> squares. 
               Explain why it is impossible to construct a solid rectangle with area twenty 
-              using non-overlapping hexomino tiles?
+              using non-overlapping hexomino tiles.
+            </p>
+          </statement>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Jay constructs a solid rectangle using heptomino (seven-square) tiles. 
+              What must be true about the area of Jay's rectangle?
+            </p>
+          </statement>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              <ol>
+                <li>
+                  <p>
+                    Show that it is possible to construct a rectangle of area 10 
+                    using pentominoes if you are allowed to reuse the same tile.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Show that if you are allowed to use copies of the same pentomino 
+                    (4-square) tile multiple times you can construct a rectangle of area  <m>5n</m>  
+                    for every whole number  <m>n</m>. 
+                    (Hint: Use the same tetromino <m>n</m> times.)
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </statement>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Sketch all the different rectangles with no gaps or overlaps 
+              that can be created by a 
+              single set of five tetrominoes? 
+              You don't have to use all of the tetrominoes in each rectangles 
+              and you may use  
+              a new set of tetrominoes for each rectangle; however no rectangle 
+              will use a single tile more than once.
             </p>
           </statement>
         </exercise>
@@ -527,14 +650,22 @@
       </exercises>
       <exercises xml:id="ExtConc-intro-exp">
         <title>Extending the Concepts</title>
-        <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
-          <title>Area Model for Multidigit Numbers</title>
+        <exercise xml:id="ExtConc-intro-exp-areamodel-twodigit">
+          <title>Area Model for Two-digit Numbers</title>
           <statement>
           <p>
             Multiplication of two-digit numbers can be represented 
             using the area model: for example, to multiply 47 by 25 we can represent 
             47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones.  We then can sketch 
-            the product as shown to the right. ADD PICTURE <!--Add picture!-->
+            the product as shown.  
+          </p>
+            <image source="hw2digit-areamodel" width="40%">
+              <description>
+                A rectangle labeled with sides 40+7 and 20+5 and split into 
+                subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
+              </description>
+            </image>
+            <p>
             <ol>
               <li>
                 <p>
@@ -548,13 +679,13 @@
                 </p>
               </li>
               <li>
-                <sidebyside width="50% 30%">
+                <sidebyside width="60% 30%">
                 <p>
                   The standard algorithm to multiply  <m>47 \times 25</m> is shown.   
                   Identify what the 235 and 940 in the algorithm represent in the area 
                   model pictured at the beginning of this exercise.
                 </p>
-                <!--<table>-->
+                <table>
                   <tabular halign="right">
                     <row header="no" bottom="none">
                       <cell>47</cell>
@@ -572,13 +703,70 @@
                       <cell>1175</cell>
                     </row>
                   </tabular>
-                <!--</table>-->
-              </sidebyside> <!--Also look at https://tex.stackexchange.com/questions/695293/long-multiplication-using-latex
-              for a discussion on how to show long multiplication via LaTeX. -->
+                </table>
+              </sidebyside> <!--Fix alignment -->
               </li>
             </ol>
           </p>
           </statement>
+        </exercise>
+        <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
+          <title>Multiplication of Multidigit Numbers</title>
+          <statement>
+            <p>
+              Sketch an area model illustration of the product <m>2132\times 51</m>,
+              not necessarily drawn to scale, but with each side length broken down 
+              into thousands, hundreds, tens, and ones as appropriate. Demonstrate 
+              how this area model can be used to compute the product.
+            </p>
+          </statement>
+        </exercise>
+        <exercise xml:id="ExtConc-intro-exp-areamodel-fractions">
+          <title>Modeling the Multiplication of Fractions and Mixed Numbers</title>
+          <statement>
+            <p>
+              <ol>
+                <li>
+                  <p>
+                    Draw a square and assume each side has length of 1. Divide the height 
+                    equally into thirds and the width equally into fourths. 
+                    How many subrectangles does this split the square into? 
+                    What is the area of each subrectangle? 
+                    What does this tell you about <m>\frac{1}{3} \times \frac{1}{4}</m>?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The sketch shows a model of  <m>2\frac{2}{3} \times 1 \frac{2}{5}</m>.  
+                    Compute the areas of each of the four shaded regions 
+                    (blue, orange, pink, and green), and then compute the total. 
+                    Note that solid lines are used to represent lengths of whole units 
+                    and dashed lines represent fractional lengths
+                  </p>
+                  <image source="hw-mixed-num-areamodel" width="40%">
+                    <description>
+                      A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five 
+                      fifths. The side of length 3 is split into two whole units and three thirds. 
+                      The upper 1/3 strip and rightmost 1/5 strip are unshaded. 
+                      The two 1 by 1 squares are shaded blue. Two one by one-third rectangles are orange.
+                      Four one-fifth by one rectangles are pink and there are four green one third by 
+                      one-fifth rectangles forming a 2/3 by 2/5 rectangle.
+                    </description>
+                  </image>
+                </li>
+                <li>
+                  <p>
+                    Draw an area model of  <m>\frac{2}{5} \times \frac{3}{4}</m> by dividing 
+                    the unit length into fifths and the unit width into fourths.
+                    Shade and compute the product.  Explain how you find the numerator 
+                    and denominator of the unsimplified fraction from the sketch.
+                  </p>
+                </li>
+              </ol>
+              
+            </p>
+          </statement>
+
         </exercise>
       </exercises>
       <exercises xml:id="Writing-intro-exp">

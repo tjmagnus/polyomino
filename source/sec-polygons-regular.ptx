@@ -52,7 +52,7 @@
 <subsection xml:id="subsec-polygons-regular-tilings">
   <title>Regular Tilings</title>
   <p>
-    In the very first activity, we created a tiling of a square using tetrominos. 
+    In the very first activity, we created a tiling of a square using tetrominoes. 
     In this section, we will consider tilings of the plane. Since the plane continues  
     infinitely, we will not be able to fully create a tiling, but we will be able to 
     build enough of the tiling to determine whether a tiling is possible.
