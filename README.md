@@ -1,5 +1,5 @@
 # Polyominoes, Polygons, and Polyhedra
 
-To be added later.
+Geometry online opensource textbook for Elementary Education majors under construction. Geogebra and Polypad interactives cannot be used for commercial use.
 
 <!--Visit <https://pretextbook.org/documentation.html> to learn more.-->
