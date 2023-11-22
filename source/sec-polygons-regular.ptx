@@ -768,4 +768,45 @@
   </p>
   </exercise>
 </subsection>
+
+<exercises xml:id="exercises-polygons-regular">
+  <title>Exercises</title>
+  <subexercises xml:id="SAR-polygons-regular">
+      <title>Skills and Recall</title>
+      <exercise>
+          <statement>
+              <p>
+                  Add some area problems.
+              </p>
+          </statement>
+      </exercise>
+      <exercise>
+          <statement>
+              <p>
+                  Add more tiling problems.
+              </p>
+          </statement>
+      </exercise>
+  </subexercises>
+  <subexercises xml:id="ExtConc-polygons-regular">
+      <title>Extending the Concepts</title>
+      <exercise>
+          <statement>
+              <p>
+                  Under construction.
+              </p>
+          </statement>
+      </exercise>
+ </subexercises>
+ <subexercises xml:id="writing-polygons-regular">
+  <title>Writing Prompts</title>
+  <exercise>
+      <statement>
+          <p>
+              Add paper?.
+          </p>
+      </statement>
+  </exercise>
+  </subexercises>
+ </exercises>
 </section>

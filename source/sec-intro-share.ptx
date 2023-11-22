@@ -324,4 +324,41 @@
     </statement>
   </exercise>
 </subsection>
-  </section>
+<exercises xml:id="exercises-intro-share">
+  <title>Exercises</title>
+  <subexercises xml:id="SAR-intro-share">
+  <title>Skills and Recall</title>
+  <exercise xml:id="SAR-intro-share-insertname">
+    <statement>
+      <p>
+        Add problems.
+      </p>
+    </statement>
+  </exercise>
+</subexercises>
+<subexercises xml:id="ExtConc-intro-share">
+  <title>Extending the Concepts</title>
+  <exercise>
+    <statement>
+      <p>
+        Add problems.
+      </p>
+    </statement>
+  </exercise>
+</subexercises>
+<subexercises xml:id="Writing-intro-share">
+  <title>
+    Writing Prompts
+  </title>
+  <exercise xml:id="writing-intro-share-wonder">
+    <title>Wonder in Mathematics</title>
+    <statement>
+      <p>
+        Insert the prompt for Wonder paper.
+      </p>
+    </statement>
+  </exercise>
+</subexercises>
+</exercises>
+    </section>
+

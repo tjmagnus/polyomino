@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-intro-apply" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Invitation to Apply Knowledge </title>
+  <title>Invitation to Use Resources </title>
   <!--Quote by Carol Dweck, "Today, you are quitting your old job and you're 
     starting you new job.
     Your old job was getting as many As as possible and acing all the achievement 
@@ -80,12 +80,11 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   Since we are most interested in discovering facts and formulas that will hold 
   for a whole class of geometric shapes, we will often use variables to represent 
   numerical quantities such as length, area, and angle measure. We include in 
-  our toolbox the <xref ref="field-properties">algebraic rules and procedures</xref> 
-  that allow us to perform 
+  our toolbox the <xref ref="field-properties">algebraic rules and procedures 
+  in</xref> that allow us to perform 
   calculations, simplify expressions, and solve equations. There is a 
-  <xref ref="algebraic-properties">section</xref> in the 
-  appendix (back matter) on algebra for your reference. You can find it quickly by 
-  scrolling down the lefthand 
+  <xref ref="algebraic-principles">section</xref> in this book's 
+  appendix (back matter) on algebra for your review and reference. 
 </p>
 
 <p>
@@ -567,6 +566,35 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     </definition>
 
   </subsection>
- 
-  
+  <exercises xml:id="exercises-intro-apply">
+    <title>Exercises</title>
+    <subexercises xml:id="SAR-intro-apply">
+      <title>Skills and Recall</title>
+      <exercise xml:id="SAR-intro-apply-nameit">
+        <statement>
+          <p> 
+            Tangram problems. Using definitions and formulas.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-intro-apply">
+      <title>Extending the Concepts</title>
+      <exercise xml:id="ExtConc-intro-apply-nameit">
+        <statement>
+          <p>
+            Under construction
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-intro-apply-nameit">
+      <title>Writing Prompts</title>
+      <exercise>
+        <statement>
+          <p>Add some.</p>
+        </statement>
+      </exercise>
+    </subexercises>
+  </exercises>
 </section>

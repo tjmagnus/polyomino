@@ -35,10 +35,10 @@
   <introduction>
     <p>
       Refer to the picture as you answer the following:
+    </p>
       <image source="righttriangleparts" width="%">
         <description>(for accessibility)</description>
       </image>
-    </p>
   </introduction>
   <exercise>
     <statement>
@@ -356,6 +356,7 @@
             <slate surface="geogebra" material="xvnba5ja"/>
         </interactive>
         </figure>
+        <p>
         <ol>
           <li>
             <p>
@@ -409,6 +410,7 @@
             </p>
           </li>
         </ol>
+        </p>
         </statement>
       </task>
   </exploration>
@@ -432,6 +434,49 @@
     opposite the side with length <m>c</m>. We will not prove this converse OR DO I PUT IT AS AN EXERCISE. 
   </p>
 </subsection>
+<exercises xml:id="exercises-polygons-length">
+  <title>Exercises</title>
+  <subexercises xml:id="SAR-polygons-length">
+      <title>Skills and Recall</title>
+      <exercise>
+          <statement>
+              <p>
+                  Add some Pythagorean problems.
+              </p>
+          </statement>
+      </exercise>
+      <exercise>
+          <statement>
+              <p>
+                  Add more Pythagorean problems.
+              </p>
+          </statement>
+      </exercise>
+  </subexercises>
+  <subexercises xml:id="ExtConc-polygons-length">
+      <title>Extending the Concepts</title>
+      <exercise>
+          <statement>
+              <p>
+                Under construction.
+              </p>
+              <p component="instructor">Prove converse of Pythagorean Theorem. Prove that the side opposite the right 
+                angle must be the longest side.--How hard is this?
+              </p>
+          </statement>
+      </exercise>
+ </subexercises>
+ <subexercises xml:id="writing-polygons-length">
+  <title>Writing Prompts</title>
+  <exercise>
+      <statement>
+          <p>
+              Put Pythagorean paper here.
+          </p>
+      </statement>
+  </exercise>
+  </subexercises>
+ </exercises>
 <!--Exercise ideas:
 Routine Pythagorean problems. Prove converse of Pythagorean Theorem. Prove that the side opposite the right 
 angle must be the longest side. Letter to a friend. -->

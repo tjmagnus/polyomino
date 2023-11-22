@@ -495,4 +495,45 @@
             writing for various career trajectories (education, law).
         </p>
     </subsection>-->
+    <exercises xml:id="exercises-polygons-area">
+        <title>Exercises</title>
+        <subexercises xml:id="SAR-polygons-area">
+            <title>Skills and Recall</title>
+            <exercise>
+                <statement>
+                    <p>
+                        Add some area problems.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        Add more area problems.
+                    </p>
+                </statement>
+            </exercise>
+        </subexercises>
+        <subexercises xml:id="ExtConc-polygons-area">
+            <title>Extending the Concepts</title>
+            <exercise>
+                <statement>
+                    <p>
+                        Under construction.
+                    </p>
+                </statement>
+            </exercise>
+       </subexercises>
+       <subexercises xml:id="writing-polygons-area">
+        <title>Writing Prompts</title>
+        <exercise>
+            <statement>
+                <p>
+                    Add trapezoid writing assignment.
+                </p>
+            </statement>
+        </exercise>
+        </subexercises>
+       </exercises>
+      
 </section>

@@ -532,7 +532,9 @@
 
 \newcounter{numofexer}
 \newcounter{negnumofexer}-->
-      <exercises xml:id="SAR-intro-exp">
+      <exercises xml:id="Exercises-intro-exp">
+        <title>Exercises</title>
+        <subexercises xml:id="SAR-intro-exp">
         <title>Skills and Recall</title>
         <introduction>
           <p>
@@ -646,9 +648,8 @@
               </p>
             </statement>
         </exercise>
-
-      </exercises>
-      <exercises xml:id="ExtConc-intro-exp">
+      </subexercises>
+      <subexercises xml:id="ExtConc-intro-exp">
         <title>Extending the Concepts</title>
         <exercise xml:id="ExtConc-intro-exp-areamodel-twodigit">
           <title>Area Model for Two-digit Numbers</title>
@@ -813,9 +814,78 @@
             </p>
           </statement>
         </exercise>
-      </exercises>
-      <exercises xml:id="Writing-intro-exp">
-        <title>Writing Prompts</title>
+        <exercise xml:id="ExtConc-intro-exp-probability">
+          <title>Area in Probability</title>
+          <statement>
+            <p>
+              A tetrahedral die is a triangular pyramid with four sides numbered 1 
+              through 4.  Because the die is shaped like a triangular pyramid, 
+              there is no top face so the number rolled will correspond to the top point 
+              if the dice are labeled like the ones to the right.  
+              If three tetrahedral die are rolled the possible sums range from  3  to 12. 
+              For example, consider the sum 5 which can be achieved by each of the 
+              following six rolls:  
+              (1,1,3), (1,2,2), (1,3,1), (2,1,2), (2,2,1), (3,1,1).
+              <ol>
+                <li>
+                  <p>
+                    Determine all of the ways that a sum of 9 can occur.
+                  </p> 
+                </li>
+                <li>
+                  <p>
+                    List all of the ways that a sum of 6 can be rolled.
+                  </p>
+                </li> 
+                <li>
+                  <p>
+                    The sketch below is a bar graph or histogram showing the 
+                    frequency or number of ways that each of the sums from 3 to 12 can be 
+                    rolled with three tetrahedral dice.  Note that the sums are 
+                    given on the horizontal axis 
+                    and the frequencies are on the vertical axis.
+                    <ol>
+                      <li>
+                        <p>
+                          What is the total number of possible rolls?
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          What is the number of rolls resulting in 7?
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          The probability of an event is computed by dividing 
+                          the number of 
+                          different rolls meeting the criteria for that event by 
+                          the total number of different possible rolls. 
+                          What is the probability of rolling a 7 with three tetrahedral
+                          dice?
+                        </p>
+                      </li>
+                    </ol>
+                  </p>
+                </li>
+              </ol>
+            </p>
+            <image source="histogram">
+              <title>Frequency of sums of tetrahedral dice rolls</title>
+              <description>
+                A symmetric histogram graph is shown. The following rectangular bars appear on the 
+                graph, each with width 1 and base on the x-axis. Above the number 3 and 
+                above the number 12, sits a rectangle with
+                height 1. Above both 4 and 11, the bar's height is 3. Above both 5 and 10, the 
+                height is 6. Above both 6 and 9, the height is 10. And above both 7 and 8, 
+                the height is 12.
+              </description>
+            </image>
+          </statement>
+        </exercise>
+      </subexercises>
+      <subexercises xml:id="Writing-intro-exp">
+        <title>Writing Prompt</title>
         <exercise xml:id="Writing-intro-exp-autobiography">
           <title>Mathematical Autobiography</title>
           <p>
@@ -851,5 +921,6 @@
             on you, not your teachers.  
           </p>
         </exercise>
+      </subexercises>
       </exercises>
 </section>

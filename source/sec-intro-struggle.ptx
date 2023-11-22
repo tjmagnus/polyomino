@@ -247,4 +247,40 @@
         comes from overcoming the struggle, from remembering and building on the accomplishments.  
       </p>
     </subsection>
+    <exercises xml:id="exercises-intro-struggle">
+      <title>Exercises</title>
+      <subexercises xml:id="SAR-intro-struggle">
+      <title>Skills and Recall</title>
+      <exercise xml:id="SAR-intro-struggle-insertname">
+        <statement>
+          <p>
+            Add problems.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-intro-struggle">
+      <title>Extending the Concepts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add problems.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-intro-struggle">
+      <title>
+        Writing Prompts
+      </title>
+      <exercise xml:id="writing-intro-struggle-prompt">
+        <title>Wonder in Mathematics</title>
+        <statement>
+          <p>
+            Insert paper prompts here.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    </exercises>
   </section>

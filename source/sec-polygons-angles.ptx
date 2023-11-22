@@ -459,10 +459,10 @@
 
 </subsection>
    
-   <exercises xml:id="angles-exercises">
+   <exercises xml:id="exercises-polygons-angles">
     <title>Exercises</title>
-    <subexercises>
-        <title>Skills Practice</title>
+    <subexercises xml:id="SAR-polygons-angles">
+        <title>Skills and Recall</title>
         <exercise>
             <statement>
                 <p>
@@ -479,8 +479,8 @@
             </statement>
         </exercise>
     </subexercises>
-    <subexercises xml:id="angles-exercises-concepts">
-        <title>Exploring the Concepts</title>
+    <subexercises xml:id="ExtConc-polygons-angles">
+        <title>Extending the Concepts</title>
         <exercise>
             <statement>
                 <p>
