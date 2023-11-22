@@ -768,6 +768,51 @@
           </statement>
 
         </exercise>
+        <exercise xml:id="ExtConc-intro-exp-areamodel-polynomials">
+          <title>Modeling the Multiplication of Polynomials</title>
+          <statement>
+            <p>
+              The sketch below illustrates a product of polynomials.
+            </p>
+            <image source="hw1-binomareamodel" width="40%">
+              <description>
+                A rectangle cut into four subrectangles. The left side is made up of a 
+                segment of length 7 plus a segment of length 
+                x with a horizontal line cutting the rectangle between these two segments. 
+                The bottom edge is composed of a segment of length 5 plus a segment 
+                of length 4x. A vertical line cuts the rectangle between these two segments.
+              </description>
+            </image>
+            <p>
+              <ol>
+                <li>
+                <p>
+                  Write the height of the entire rectangle as an algebraic 
+                  expression involving the variable <m>x</m>.
+                </p>
+                </li>
+                <li>
+                  <p>
+                    Write the width of the entire rectangle as an algebraic expression 
+                    involving the variable <m>x</m>.
+                  </p>
+                </li>  
+                <li>
+                  <p>
+                    Algebraically compute the area of the entire rectangle as the product 
+                    of your two algebraic expressions.  Show your work.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Find the area geometrically by finding the areas of the four subrectangles 
+                    and adding the areas together.  Show your work.  Did you get the same result?
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </statement>
+        </exercise>
       </exercises>
       <exercises xml:id="Writing-intro-exp">
         <title>Writing Prompts</title>

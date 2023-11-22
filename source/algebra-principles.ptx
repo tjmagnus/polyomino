@@ -2,16 +2,29 @@
 
 <section xml:id="algebra-principles" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Principles of Algebra</title>
-    <introduction>
+    <definition xml:id="def-expression">
+        <idx><h>expression</h></idx>
+        <idx><h>equation</h></idx>
+        <idx><h>algebraic expression</h></idx>
+        <idx><h>algebraic equation</h></idx>
+      <statement>
         <p>
-            Here we summarize the principles that define operations on the 
+          An <term>expression</term> in mathematics is a representation of a 
+          numerical quantity consisting of a finite number of variables and/or 
+          numbers joined by algebraic operations such as addition, subtraction, 
+          multiplication, division, and exponentiation. An expression 
+          is said to be <term>algebraic</term> if it contains at least one variable.
+        </p>
+      </statement>
+      </definition>
+    <subsection xml:id="field-properties">
+        <title>Field Properties of the Real Numbers</title>
+        <p>
+            We summarize the principles that define operations on the 
             set of real numbers. Methods of performing calculations, 
             simplifying algebraic expressions, and solving equations follow 
             from these principles.  
         </p>
-    </introduction>
-    <subsection>
-        <title>Field Properties of the Real Numbers</title>
     <principle xml:id="principle-closure-reals">
         <title>Closure of Addition and Multiplication on the Set of Real Numbers</title>
         <statement>
