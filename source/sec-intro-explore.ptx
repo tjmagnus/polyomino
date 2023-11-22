@@ -680,7 +680,7 @@
                 </p>
               </li>
               <li>
-                <sidebyside width="60% 30%">
+                <sidebyside widths="60% 30%">
                 <p>
                   The standard algorithm to multiply  <m>47 \times 25</m> is shown.   
                   Identify what the 235 and 940 in the algorithm represent in the area 
