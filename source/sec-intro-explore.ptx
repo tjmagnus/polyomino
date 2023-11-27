@@ -651,6 +651,7 @@
       </subexercises>
       <subexercises xml:id="ExtConc-intro-exp">
         <title>Extending the Concepts</title>
+        <!--exercises on patterns of polyominoes: "snake polyominoes?, branches?, etc."-->
         <exercise xml:id="ExtConc-intro-exp-areamodel-twodigit">
           <title>Area Model for Two-digit Numbers</title>
           <statement>
@@ -767,7 +768,6 @@
               
             </p>
           </statement>
-
         </exercise>
         <exercise xml:id="ExtConc-intro-exp-areamodel-polynomials">
           <title>Modeling the Multiplication of Polynomials</title>

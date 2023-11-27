@@ -198,7 +198,6 @@
   <appendix xml:id="algebra-review">
     <title>Algebra Review</title>
     <xi:include href="algebra-principles.ptx" />
-    <!--<xi:include href="exponents-roots.ptx" />-->
   </appendix>
   <appendix>
     <title>List of Symbols</title>

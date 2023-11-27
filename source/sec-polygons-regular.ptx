@@ -776,16 +776,137 @@
       <exercise>
           <statement>
               <p>
-                  Add some area problems.
+                  Sketch a picture of each of the following:
+                  <ol>
+                    <li>
+                      <p>
+                        A rectangle that is a regular quadrilateral.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        A rectangle that is not a regular quadrilateral.
+                      </p>
+                    </li>
+                  </ol>
               </p>
           </statement>
       </exercise>
       <exercise>
+        <statement>
+          <p>
+            What is the total angle measure of each of the following?
+            <ol>
+              <li>
+                <p>
+                  a triangle
+                </p>
+              </li>
+              <li>
+                <p>
+                  a convex quadrilateral
+                </p>
+              </li>
+              <li>
+                <p>
+                  a convex 11-gon
+                </p>
+              </li>
+              <li>
+                <p>
+                  a convex 50-gon
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            (a) 180 degrees, (b) 360 degrees, (c) 1620 degrees, (d) 8640 degrees
+          </p>
+        </answer>
+        <solution>
+          <p>
+            (c) <m>180*(11-2)=1620</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
           <statement>
               <p>
-                  Add more tiling problems.
+                  Demonstrate that each of the following exist by sketching an 
+                  example:
+                  <ol>
+                    <li>
+                      <p>
+                        a pentagon that is not convex
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        a convex hexagon with at least one right angle
+                      </p>
+                    </li>
+                  </ol>
               </p>
           </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Demonstrate that each of the following exist by sketching an 
+            example:
+            <ol>
+              <li>
+                <p>
+                  an equilateral polygon that is not regular
+                </p>
+              </li>
+              <li>
+                <p>
+                  an equiangular polygon that is not regular
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Answer the following:
+            <ol>
+              <li>
+                <p>
+                  What is the measure of each vertex in a regular 18-gon?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the measure of each vertex in a regular 9-gon?
+                </p>
+              </li>
+              <li>
+                <p>
+                  If a regular 18-gon, a regular 9-gon, and an equilateral triangle  
+                  meet at a vertex, will there be a gap? an overlap? or will they fit  
+                  together without gaps or overlaps?
+                </p>
+              </li>
+              <li>
+                Explain why it is impossible to create a semiregular tiling using 
+                regular 18-gons, regular 9-gons, and equilateral triangles.
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Explain why the following are not semiregular tilings:
+          </p>
+        </statement>
       </exercise>
   </subexercises>
   <subexercises xml:id="ExtConc-polygons-regular">

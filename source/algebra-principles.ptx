@@ -84,4 +84,29 @@
     </principle>
     <!--Add inverse property and zero properties-->
     </subsection>
+    <subsection xml:id="subsec-algrev-sqroots">
+        <title>Working with squares and square roots</title>
+        The notation <m>c^2</m> is read <m>c</m>-squared and is equivalent to 
+        the product <m>c\times c</m>. Later in this text we will be interested 
+        in cubing a number <m>s</m> which we can write as <m>s^3</m> or 
+        <m>s\times s\times s</m>. On the set of nonnegative 
+        numbers <fn>A number <m>x</m> is said to be <term>nonnegative</term> if 
+        <m>x\ge 0</m>. The square root cannot undo the action of squaring a 
+        negative number like <m>-3</m> because <m>\sqrt{(-3)^2}=3</m>.</fn>, the 
+        square root acts as the inverse (or "undoing") function of the squaring 
+        function. Thus, whenever you would like to undo the squaring function 
+        in an equation such as in the above example, we will take the square 
+        root of both sides. Hence, the equation in the Pythagorean Theorem can 
+        be written equivalently as <m>\sqrt{a^2 + b^2}=\sqrt{c^2}</m> or 
+        <m>\sqrt{a^2 + b^2}=c</m>. Note the inverse action: <m>\sqrt{c^2}=c</m>. 
+        In fact, the squaring function also undoes the square root function: 
+        <m>(\sqrt{c})^2=\sqrt{c}\times\sqrt{c}=c</m>. This is what we mean by a 
+        pair of inverse functions; applying them one right after the other 
+        (in either order) cancels their action. Examples of inverse function 
+        pairs that you may be more familiar with include adding 4 and subtracting 
+        4 and also dividing by 10 and multiplying by 10. Note how the two 
+        functions undo each other and recall how you have used them to solve 
+        equations. 
+        The cubing function and cube root function are also inverses.
+    </subsection>
 </section>
