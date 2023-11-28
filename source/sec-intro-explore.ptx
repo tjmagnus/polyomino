@@ -870,8 +870,9 @@
                 </li>
               </ol>
             </p>
+            <figure xml:id="histogram-exercise">
+              <caption>Frequency of sums of tetrahedral dice rolls</caption>
             <image source="histogram">
-              <title>Frequency of sums of tetrahedral dice rolls</title>
               <description>
                 A symmetric histogram graph is shown. The following rectangular bars appear on the 
                 graph, each with width 1 and base on the x-axis. Above the number 3 and 
@@ -881,6 +882,7 @@
                 the height is 12.
               </description>
             </image>
+          </figure>
           </statement>
         </exercise>
       </subexercises>
