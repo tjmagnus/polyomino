@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-isom-reflect-Cartesian" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>An Introduction to Reflections</title>
+<introduction>
+<p>
+    A <term>reflection</term> is the first transformation we will explore. 
+    Each reflection is defined by a 
+    mirror line and the reflection takes each point to its reflected image. If we were to fold the plane across
+    the mirror line, the points and their images would fall on top of each other.
+    The exploration <xref ref="expl-reflect-pentomino-coordplane"/> is best 
+    done by hand so that you get a deeper understanding 
+    of what happens to points in a transformation. Print out the pictures and use colored 
+    pencils or use virtual copies of the pictures if you are able to draw on images.
+</p>
+<p component="instructor">
+    A pdf version of this activity is available. Be sure to check that students correctly 
+    sketch the reflection in <xref ref="drawreflection"/>. Encourage students to compare 
+    their sketches with others and discuss if there are different sketches. Miras (math education supply stores) or  small 
+    mirrors (craft stores) can be effective at resolving differences and helping students visualize,
+    but I recommend letting them try to draw the reflection first without these aids.
+</p>
+</introduction>
+<exploration xml:id="expl-reflect-pentomino-coordplane">
+    <title>
+        Reflections in the Cartesian Coordinate Plane
+    </title>
+    <task xml:id="drawreflection">
+    <statement>
+        <p>
+            Reflect pentomino <m>ABCDEF</m> across line <m>\overleftrightarrow{GH}</m> 
+            by thinking of the line as either a mirror or a fold-and-trace line.  
+            In what ways are the reflected image <m>A'B'C'D'E'F'</m> and the original 
+            figure <m>ABCDEF</m> the same?  
+            In what ways are they different?  
+        </p>
+        <image source="reflectP">
+            <description>
+                On graph paper, line GH passes through the points G(0,0) and H(4,4).
+                A backwards P-pentomino is formed using the following sequence of points:
+                A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.
+            </description>
+        </image>
+    </statement>
+    <answer>
+        <p>
+            If you are using paper, you can check your answer by folding 
+            across line <m>\overleftrightarrow{GH}</m>.
+            Do your figures line up?
+        </p>
+    </answer>
+    </task>
+    <task xml:id="disc-prop-reflection-perp-bis">
+        <statement>
+            <p>
+                On your sketch for <xref ref="drawreflection"/>, label the 
+                new vertices by adding an apostrophe <m>'</m> to each letter; 
+                point <m>A'</m> will be the reflection of point <m>A</m>
+                across line <m>\overleftrightarrow{GH}</m>, point <m>B'</m> will be 
+                the reflection of point <m>B</m>
+                across line <m>\overleftrightarrow{GH}</m>, and so forth, forming 
+                pentomino <m>A'B'C'D'E'F'</m>.
+                <ol>
+                    <li>
+                      <p>
+                        Where does <m>\overline{BB'}</m> intersect 
+                        <m>\overleftrightarrow{GH}</m>? How is this point related to segment
+                        <m>\overline{BB'}</m>?
+                      </p>
+                    </li>
+                    <li>
+                        <p>
+                            What type of angle is formed by the intersection of <m>\overleftrightarrow{BB'}</m> 
+                            and <m>\overleftrightarrow{GH}</m>?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Using the 1 cm graph paper as a guide, what is the
+                            shortest distance from point <m>B</m> to line 
+                            <m>\overleftrightarrow{GH}</m>? What is the distance 
+                            from <m>B</m> to <m>B'</m>?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What happens to the other points in the reflection? Suppose <m>P</m> is 
+                            any point in the plane and let <m>P’</m>  be its image created by 
+                            reflecting it across any line in the plane.  What do you expect to be true about the relationship between the segment 
+                            <m>\overline{PP'}</m> and the reflecting line?
+                        </p>
+                        <aside>
+                            <p>
+                                The letter <m>P</m> is being used as a variable point that can represent 
+                                any point on the plane, including <m>A</m>, <m>B</m>, and so forth. 
+                                When <m>P=A</m>, <m>P'=A'</m>.
+                                When <m>P=C</m>, <m>P'=C'</m>. This allows us to discuss properties that 
+                                hold for all points in a single statement.
+                            </p>
+                        </aside>
+                    </li>
+                    <li>
+                        e.  What happens if you reflect point <m>G</m> across line <m>\overleftrightarrow{GH}</m>?  
+                        Is that true for any point on <m>\overleftrightarrow{GH}</m>?
+                    </li>
+                </ol>  
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Pentomino  <m>ABCDEFGHIJ</m> and its reflection <m>A’B’C’D’E’F’G’H’I’J’</m> 
+                are shown below.  
+                Use what you discovered in <xref ref="disc-prop-reflection-perp-bis"/> 
+                to sketch the reflecting line.
+            </p>
+            <image source="intro-reflect-findline"></image>
+
+        </statement>
+    </task>
+</exploration>
+</section>
+
+      
