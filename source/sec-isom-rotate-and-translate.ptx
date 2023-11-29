@@ -50,7 +50,83 @@
             <statement>
                 <p>
                     Does the transformation mapping <m>\Delta ABC</m> to <m>\Delta A'B'C'</m> preserve distance? 
-                    In other words, is <m>AB=A'B'</m>
+                    In other words, is the length of each side of <m>\Delta A'B'C'</m> equal to its corresponding 
+                    side in <m>\Delta ABC</m>?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Are the corresponding angles of <m>\Delta ABC</m> to <m>\Delta A'B'C'</m> congruent?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Sketch the segments <m>\overline{AA'}</m>, <m>\overline{BB'}</m>,
+                    and <m>\overline{CC'}</m>. 
+                    <ol>
+                        <li>
+                            <p>
+                                What do you notice about the lengths of these segments?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What appears to be true about the lines <m>\overleftrightarrow{AA'}</m>, 
+                                <m>\overleftrightarrow{BB'}</m>,
+                                and <m>\overleftrightarrow{CC'}</m>? 
+                            </p>
+                        </li>
+                    </ol>    
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    (b) Since lines have infinite length, you should be looking for a property other
+                    than length.
+                </p>
+            </hint>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    An isometry affects all points in the plane, not just those pictured. Draw three new points:
+                    point <m>D</m> lying on side <m>\overline{BC}</m>, point <m>E</m> lying in the exterior of 
+                    triangle <m>\Delta ABC</m>, and point <m>F</m> lying in the interior of <m>\Delta ABC</m>.
+                    <ol>
+                        <li>
+                            <p>
+                                Sketch point <m>D'</m>, the image of <m>D</m> under the transformation that takes
+                                <m>\Delta ABC</m> to <m>\Delta A'B'C'</m>. How is the location of <m>D'</m> related 
+                                to <m>\Delta A'B'C'</m>?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Sketch point <m>E'</m>, the image of <m>E</m> under the transformation that takes
+                                <m>\Delta ABC</m> to <m>\Delta A'B'C'</m>. How is the location of <m>E'</m> related 
+                                to <m>\Delta A'B'C'</m>?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Sketch point <m>F'</m> the image of <m>F</m> under the transformation that takes
+                                <m>\Delta ABC</m> to <m>\Delta A'B'C'</m>. How is the location of <m>F'</m> related 
+                                to <m>\Delta A'B'C'</m>?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    We call the isometry in <xref ref="translated-triangle"/> a translation. Describe in your 
+                    own words how a translation acts on points in the plane.
                 </p>
             </statement>
         </task>

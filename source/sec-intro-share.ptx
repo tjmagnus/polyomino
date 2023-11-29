@@ -136,11 +136,11 @@
           <p>
             The first four steps of a pattern are provided. 
           </p>
-          <figure>
+          <!--<figure>
             <caption>
               A geometric pattern.
-            </caption>
-            <image source="SumOfOddNums">
+            </caption>-->
+            <image source="sumofoddnums">
               <description>
                 First, a 1 by 1 square. Second, four 1 by 1 squares 
                 arranged to form a 2 by 2 square. Third, a 2 by 2 square with a 
@@ -152,7 +152,7 @@
                 right corner.
               </description>
             </image>
-          </figure>
+          <!--</figure>-->
           <p>
             Sketch what the fifth and sixth step of the pattern should look 
             like.
