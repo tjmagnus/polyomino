@@ -154,7 +154,7 @@
             triangles and their areas for 
             reference.
           </p>
-          <interactive 
+          <interactive xml:id="geoboardonpolypad"
           iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
           preview="" aspect="16:12"/>
   <!--How to caption properly?-->

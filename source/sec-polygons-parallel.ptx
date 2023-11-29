@@ -325,7 +325,7 @@
                             <caption>
                                 An interactive Geogebra applet for Exploration on Alternate Interior Angles.
                             </caption>
-                        <interactive platform="geogebra">
+                        <interactive xml:id="correspanglesgeoapp" platform="geogebra">
                             <slate surface="geogebra" material="ts65chjj"/>
                         </interactive>
                         </figure>

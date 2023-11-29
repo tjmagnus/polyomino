@@ -345,7 +345,7 @@
           <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">Pentomino Set
           </url>.
         </p> 
-        <interactive 
+        <interactive xml:id="pentominosetonPP"
         iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
         preview="pentomino-rectangles" aspect="22:15"/>
       </hint>

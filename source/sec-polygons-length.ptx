@@ -179,7 +179,7 @@
             <caption>
                 An interactive Geogebra applet for proving the Pythagorean Theorem.
             </caption>
-        <interactive platform="geogebra">
+        <interactive xml:id="pyththmgeoapp" platform="geogebra">
             <slate surface="geogebra" material="wpd66vrf"/>
         </interactive>
         </figure>
@@ -230,7 +230,7 @@
             <caption>
                 An interactive Geogebra applet for proving the Pythagorean Theorem.
             </caption>
-        <interactive platform="geogebra">
+        <interactive xml:id="pythproofgeoapp" platform="geogebra">
             <slate surface="geogebra" material="c2re6w2y"/>
         </interactive>
         </figure>
@@ -352,7 +352,7 @@
             <caption>
                 An interactive Geogebra applet for proving the Pythagorean Theorem.
             </caption>
-        <interactive platform="geogebra">
+        <interactive xml:id="stairsteppyththmapp" platform="geogebra">
             <slate surface="geogebra" material="xvnba5ja"/>
         </interactive>
         </figure>
@@ -394,7 +394,7 @@
                   An interactive Geogebra applet for proving the Pythagorean Theorem, repeated 
                   from above.
               </caption>
-          <interactive platform="geogebra">
+          <interactive xml:id="stairsteppyththmappcopy" platform="geogebra">
               <slate surface="geogebra" material="xvnba5ja"/>
           </interactive>
           </figure>

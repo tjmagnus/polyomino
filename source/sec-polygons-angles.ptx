@@ -229,7 +229,7 @@
                 <caption>
                     An interactive GeoGebra applet for Triangle Sum Exploration.
                 </caption>
-            <interactive platform="geogebra">
+            <interactive xml:id="geogebratrisum2" platform="geogebra">
                 <slate surface="geogebra" material="bnayhujg"/>
             </interactive>
             </figure>
@@ -499,7 +499,7 @@
                         <caption>
                             An interactive GeoGebra applet for Quadrilateral Angle Sum Exercise.
                         </caption>
-                    <interactive platform="geogebra">
+                    <interactive xml:id="quadsumgeoapp" platform="geogebra">
                         <slate surface="geogebra" material="vcqaebv6"/>
                     </interactive>
                     </figure>  
