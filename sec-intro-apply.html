@@ -358,8 +358,14 @@ window.MathJax = {
 </ul>
 </li>
 <li>
-<div class="toc-item"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Isomorphisms</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="isom-sec-reflections.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Reflections</span></a></div></li></ul>
+<div class="toc-item"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-isom-reflect-Cartesian.html#subsection-36" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Exploring Reflections</span></a></div></li>
+<li><div class="toc-item"><a href="sec-isom-reflect-Cartesian.html#subsection-37" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Key Ideas regarding Reflections</span></a></div></li>
+</ul>
+</li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
@@ -445,12 +451,12 @@ window.MathJax = {
 </h3>
 <div class="para" id="p-140">In the first part of this course, we will work primarily with polygons. What is a polygon? Giving a clear, clean definition of the word "polygon" is difficult so we will describe it verbally and give several examples. If you search for the definition in books or on the web, you will find different attempts to give a clear definition. We will describe a <dfn class="terminology">polygon</dfn>  as being a closed plane figure formed by a sequence of straight sides. Thus, a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean that a polygon will have a well-defined interior; the polygon forms a solid boundary between this interior and the rest of the plane.</div>
 <figure class="figure figure-like" id="polygonvisualdefinition"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-3"><img src="external/righttrapezoid.svg" role="img" class="contained" alt="(for accessibility)"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>A right trapezoid</figcaption></figure></div>
-<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-4"><img src="external/concavepentagon.svg" role="img" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>A concave pentagon.</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-4"><img src="external/righttrapezoid.svg" role="img" class="contained" alt="(for accessibility)"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>A right trapezoid</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-5"><img src="external/concavepentagon.svg" role="img" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>A concave pentagon.</figcaption></figure></div>
 </div></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.3<span class="period">.</span></span><span class="space"> </span>Some examples of polygons</figcaption></figure><figure class="figure figure-like" id="nonpolygons"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-6"><img src="external/unclosed.svg" role="img" class="contained" alt="A figure formed by line segments with a gap remaining."><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Not closed.</figcaption></figure></div>
-<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-7"><img src="external/acurvedside.svg" role="img" class="contained" alt="A closed figure consisting of some straight sides and some curved sides."><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Curved edges</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-7"><img src="external/unclosed.svg" role="img" class="contained" alt="A figure formed by line segments with a gap remaining."><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Not closed.</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="figure-8"><img src="external/acurvedside.svg" role="img" class="contained" alt="A closed figure consisting of some straight sides and some curved sides."><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Curved edges</figcaption></figure></div>
 </div></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2.4<span class="period">.</span></span><span class="space"> </span>Examples of figures that are not polygons</figcaption></figure><div class="para" id="p-141">Some specific types of polygons are defined below. We add these to our toolbox. An easy way to find definitions later is to use the index at the end of the textbook. </div>
 <article class="definition definition-like" id="def-triangle"><h4 class="heading">
@@ -464,7 +470,7 @@ window.MathJax = {
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
 </h4> <div class="para" id="p-146">An angle is said to be a <dfn class="terminology">right angle</dfn> if its measure is 90 degrees. Angles that have measures less than 90 degrees are said to be <dfn class="terminology">acute</dfn> and angles with measures greater than 90 degrees are said to be <dfn class="terminology">obtuse</dfn>.</div></article><article class="definition definition-like" id="def-triangles-by-angles"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
-</h4> <div class="para" id="p-147">A triangle is said to be a <dfn class="terminology">right triangle</dfn> if one of its angles is a right angle. If one of its angles is obtuse, we say that the triangle is an <dfn class="terminology">obtuse triangle</dfn>. An <dfn class="terminology">acute triangle</dfn> is a triangle with three acute angles. We will explore the measurement of angles more in <a href="ch-polygons.html" class="internal" title="Chapter 2: Exploring Polygons and Other Figures on the Plane">Chapter 2</a> and <a href="ch-isom.html" class="internal" title="Chapter 4: Isomorphisms">Chapter 4</a>.</div></article><article class="definition definition-like" id="def-rectquads"><h4 class="heading">
+</h4> <div class="para" id="p-147">A triangle is said to be a <dfn class="terminology">right triangle</dfn> if one of its angles is a right angle. If one of its angles is obtuse, we say that the triangle is an <dfn class="terminology">obtuse triangle</dfn>. An <dfn class="terminology">acute triangle</dfn> is a triangle with three acute angles. We will explore the measurement of angles more in <a href="ch-polygons.html" class="internal" title="Chapter 2: Exploring Polygons and Other Figures on the Plane">Chapter 2</a> and <a href="ch-isom.html" class="internal" title="Chapter 4: Transformations">Chapter 4</a>.</div></article><article class="definition definition-like" id="def-rectquads"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span>
 </h4> <div class="para" id="p-148">A quadrilateral with four right angles is called a <dfn class="terminology">rectangle</dfn> A <dfn class="terminology">square</dfn> is a rectangle whose sides are all the same length.</div></article><article class="definition definition-like" id="def-equiangular"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.2.11</span><span class="period">.</span>

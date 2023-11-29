@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Isomorphisms</title>
+<title>Transformations</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -101,7 +101,7 @@ window.MathJax = {
 <div id="searchempty" class="searchempty"><span>No results.</span></div>
 <ol id="searchresults" class="searchresults"></ol>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-polyhedra-instructor.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Poly-cubed-geom-explor.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="isom-sec-reflections.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span><div class="searchbox"><div class="searchwidget">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="index-1.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-polyhedra-instructor.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Poly-cubed-geom-explor.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-isom-reflect-Cartesian.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button>
 </div></div>
 <span class="nav-runestone-controls"><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="avatarbutton" class="avatarbutton name">You!</span><div id="preferences_menu_holder" class="preferences_menu_holder hidden"><ol id="preferences_menu" class="preferences_menu" style="font-family: 'Roboto Serif', serif;">
@@ -358,8 +358,14 @@ window.MathJax = {
 </ul>
 </li>
 <li class="active">
-<div class="toc-item"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Isomorphisms</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="isom-sec-reflections.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Reflections</span></a></div></li></ul>
+<div class="toc-item"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-isom-reflect-Cartesian.html#subsection-36" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Exploring Reflections</span></a></div></li>
+<li><div class="toc-item"><a href="sec-isom-reflect-Cartesian.html#subsection-37" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Key Ideas regarding Reflections</span></a></div></li>
+</ul>
+</li></ul>
 </li>
 <li>
 <div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
@@ -382,11 +388,15 @@ window.MathJax = {
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-isom"><h2 class="heading">
-<span class="type">Chapter</span><span class="space"> </span><span class="codenumber">4</span><span class="space"> </span><span class="title">Isomorphisms</span>
+<span class="type">Chapter</span><span class="space"> </span><span class="codenumber">4</span><span class="space"> </span><span class="title">Transformations</span>
 </h2>
-<section class="introduction" id="introduction-21"><div class="para" id="p-564">Are you aware that animated movies and computer graphics use a lot of mathematics and geometry? The images are moved by moving key points to new locations on the screen and the screen. The process of moving each point in the Euclidean plane to a new, possibly the same, point is called a <dfn class="terminology">transformation</dfn>. Every point is assignment a single landing position; no point is sent to more than one position by a single transformation.</div> <div class="para" id="p-565">A <dfn class="terminology">reflection</dfn> is the first transformation we will explore. Each reflection is defined by a mirror line and the reflection takes each point to its reflected image. If we were to fold the plane across the mirror line, the points and their images would fall on top of each other.</div></section><nav class="summary-links"><ul><li><a href="isom-sec-reflections.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Reflections</span></a></li></ul></nav></section></div>
+<section class="introduction" id="introduction-21"><div class="para" id="p-564">Are you aware that animated movies and computer graphics use a lot of mathematics and geometry? The images are moved by moving key points to new locations on the screen and the screen. The process of moving each point in the Euclidean plane to a new, possibly the same, point is called a <dfn class="terminology">transformation</dfn>.  Every point is assigned a single landing position; no point is sent to more than one position by a single transformation.</div> <div class="para" id="p-565">Since it is impossible to show the action of a transformation on every point in the plane, we typically will view how a transformation affects a given figure. The images below show two examples of the effect of transformations on the pentomino <span class="process-math">\(ABCDEFGH\text{.}\)</span>
+</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:44.4444444444444%;"><figure class="figure figure-like" id="figure-30"><img src="external/rotate-example.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.0.1<span class="period">.</span></span><span class="space"> </span>Rotation of pentomino <span class="process-math">\(ABCDEFGH\)</span></figcaption></figure></div>
+<div class="sbspanel top" style="width:44.4444444444444%;"><figure class="figure figure-like" id="figure-31"><img src="external/reflect-dilate-example.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.0.2<span class="period">.</span></span><span class="space"> </span>Reflected dilation of pentomino <span class="process-math">\(ABCDEFGH\)</span></figcaption></figure></div>
+</div></div></section><nav class="summary-links"><ul><li><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></li></ul></nav></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-polyhedra-instructor.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="isom-sec-reflections.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-polyhedra-instructor.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-isom-reflect-Cartesian.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
