@@ -41,6 +41,7 @@
           </image>
         </figure>
       </sidebyside>
+      </introduction>
       <p>
         <idx><h>isometry</h></idx>
         <idx><h>rigid transformation</h></idx>
@@ -57,7 +58,7 @@
         is not an isometry because 
         it does not preserve distance; the lengths of the sides change.  
       </p>
-    </introduction>
+
 <xi:include href="sec-isom-reflect-Cartesian.ptx"/>
 
 
