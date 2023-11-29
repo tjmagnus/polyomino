@@ -93,7 +93,7 @@
                         </p>
                         <aside>
                             <p>
-                                The letter <m>P</m> is being used as a variable point that can represent 
+                                The letter <m>P</m> is being used as a variable that can represent 
                                 any point on the plane, including <m>A</m>, <m>B</m>, and so forth. 
                                 When <m>P=A</m>, <m>P'=A'</m>.
                                 When <m>P=C</m>, <m>P'=C'</m>. This allows us to discuss properties that 
@@ -102,7 +102,7 @@
                         </aside>
                     </li>
                     <li>
-                        e.  What happens if you reflect point <m>G</m> across line <m>\overleftrightarrow{GH}</m>?  
+                        What happens if you reflect point <m>G</m> across line <m>\overleftrightarrow{GH}</m>?  
                         Is that true for any point on <m>\overleftrightarrow{GH}</m>?
                     </li>
                 </ol>  
