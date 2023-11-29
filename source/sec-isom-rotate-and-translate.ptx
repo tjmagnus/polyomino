@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-isom-rotate-and-translate" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Orientation-Preserving Isometries</title>
+  <subsection xml:id="subsec-isom-RAT-definingOP">
+    <title>What do we mean by orientation-preserving?</title>
+        <p>
+            The picture shows a triangle <m>\Delta ABC</m> reflected across a line <m>\ell</m>. Although the 
+            letters <m>A</m>, <m>B</m>, and <m>C</m> are in alphabetical order when read clockwise from the 
+            original figure, the letters in the reflected image <m>\Delta A'B'C'</m> are in the reverse order. 
+            When this happens, we say that the transformation <term>reverses orientation</term>. Any reflection
+            will be an orientation-reversing transformation. 
+        </p>    
+        <idx><h>orientation</h></idx>
+        <idx><h>reverse orientation</h></idx>
+        <figure xml:id="reversing-orientation-fig">
+            <caption>A reflection reverses orientation</caption>
+            <image source="orientation-reflection" width="90%">
+                <description>
+                    Triangle ABC reflected across a line ell to create 
+                    triangle C'B'A'.
+                </description>
+            </image>
+        </figure>
+        <p>
+            Not all transformations reverse orientation. In this section, you will encounter two types
+            of <term>orientation-preserving</term> transformations: rotations and translations. When either of 
+            these is performed, the order in which the vertices are read is unchanged.
+            <idx><h>orientation-preserving</h></idx>
+            <idx><h>preserve orientation</h></idx>
+        </p>
+  </subsection>
+  <subsection xml:id="subsec-isom-RAT-translation">
+    <title>Translations</title>
+    <exploration>
+        <title>Exploring a Translation</title>
+        <introduction>
+            <p>
+                Figure shows an example of the action of a translation on triangle <m>\Delta ABC</m>. Use this 
+                figure to answer the following:
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        
+    </exploration>
+  </subsection>
+</section>
