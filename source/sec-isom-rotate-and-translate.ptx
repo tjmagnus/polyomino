@@ -36,14 +36,21 @@
         <title>Exploring a Translation</title>
         <introduction>
             <p>
-                Figure shows an example of the action of a translation on triangle <m>\Delta ABC</m>. Use this 
+                Figure <xref ref="translated-triangle"/> shows an example of the action of a translation on triangle <m>\Delta ABC</m>. Use this 
                 figure to answer the following:
             </p>
+            <figure width="90%" xml:id="translated-triangle">
+                <caption>A translation of <m>\Delta ABC</m></caption>
+                <image source="translation" width="90%">
+                    <description>Triangle ABC is slid slightly right and upward to form triangle A'B'C'.</description>
+                </image>
+            </figure>
         </introduction>
         <task>
             <statement>
                 <p>
-                    
+                    Does the transformation mapping <m>\Delta ABC</m> to <m>\Delta A'B'C'</m> preserve distance? 
+                    In other words, is <m>AB=A'B'</m>
                 </p>
             </statement>
         </task>
