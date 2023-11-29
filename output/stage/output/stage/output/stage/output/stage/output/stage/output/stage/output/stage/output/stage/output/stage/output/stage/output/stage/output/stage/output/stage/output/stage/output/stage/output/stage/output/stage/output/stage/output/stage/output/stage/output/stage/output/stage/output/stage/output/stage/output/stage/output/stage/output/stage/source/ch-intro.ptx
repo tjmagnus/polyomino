@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Introduction to Geometrical Thinking</title>
+    <introduction>
+      <p>
+        Geometry is all around us, in nature, in architecture, in art,
+        in games, and in technology. Throughout history, humans have 
+        marveled upon geometrical patterns, investigated possibilities, 
+        developed geometrical tools, and shared these discoveries with 
+        others. Mathematicians use logic to confirm what they appear to 
+        see and to convince other scholars. The theorems and formulas that you 
+        have likely encountered in previous classes were developed and refined 
+        over the last two millenia.
+      </p>
+      <p>
+        Some of these formulas and theorems are worth knowing well: basic area and volume 
+        formulas, the Pythagorean theorem, for example, arise frequently in applications and 
+        conversation. You can apply geometry to real-world problems and you 
+        will appear more literate if you can know them well. However, 
+        memorization and application is not the primary goal of this course. 
+        After all, search engines, calculators, and artificial intelligence can 
+        recall formulas and perform calculations for us.
+      </p>
+      <p>
+        Of greater worth, is the ability to see the mathematics around 
+        us, to ask questions and seek understanding, to imagine and create, 
+        and to share our knowledge with others. In this first chapter and 
+        throughout the book, you will be encouraged to practice mathematical 
+        habits of mind that will enable you to learn new ideas and delve deeper 
+        into familiar topics. At the same time, we will be establishing some
+        key geometrical ideas that will be revisited later in the course. 
+      </p>
+
+    </introduction>
+
+      <xi:include href="sec-intro-explore.ptx"/>
+      <xi:include href="sec-intro-apply.ptx"/>
+      <xi:include href="sec-intro-share.ptx"/>
+      <xi:include href="sec-intro-struggle.ptx"/>
+      <!--<xi:include href="sec-intro-summary-toolbox.ptx"/>-->
+     <!-- <xi:include href="sec-intro-journal.ptx"/>-->
+      <xi:include href="sec-intro-references.ptx"/>
+      <xi:include href="sec-intro-instructor"/>
+</chapter>

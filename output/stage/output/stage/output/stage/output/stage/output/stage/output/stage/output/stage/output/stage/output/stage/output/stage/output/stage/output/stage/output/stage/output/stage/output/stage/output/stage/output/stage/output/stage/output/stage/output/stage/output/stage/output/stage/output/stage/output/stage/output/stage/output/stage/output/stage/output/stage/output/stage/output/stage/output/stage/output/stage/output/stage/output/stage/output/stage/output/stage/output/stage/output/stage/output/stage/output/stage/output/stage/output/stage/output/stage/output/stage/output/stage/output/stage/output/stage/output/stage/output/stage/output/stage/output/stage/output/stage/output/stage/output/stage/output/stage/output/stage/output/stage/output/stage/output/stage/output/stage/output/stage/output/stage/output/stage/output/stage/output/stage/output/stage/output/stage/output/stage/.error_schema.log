@@ -1,0 +1,5 @@
+/workspaces/polyomino/source/main.ptx:12:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element nbsp, got nothing
+/workspaces/polyomino/source/main.ptx:12:0:ERROR:RELAXNGV:RELAXNG_ERR_INVALIDATTR: Invalid attribute component for element title
+/workspaces/polyomino/source/main.ptx:12:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
+/workspaces/polyomino/source/main.ptx:12:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element title failed to validate content
+/workspaces/polyomino/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content

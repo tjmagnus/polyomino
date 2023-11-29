@@ -1,0 +1,543 @@
+<section xml:id="sec-polygons-angles" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploring Angle Measure </title>
+  <subsection xml:id="subsec-polygons-angles-degrees">
+    <title>How Can We Measure Angles</title>
+    <p>
+        Having looked at area as the measure of the interior space of a polygon, 
+        we now turn our attention to measuring angles. What is an angle and how do 
+        we measure it? To fully grasp the definition of angle, we need to first   
+        understand the notion of ray.
+    </p>
+    <definition xml:id="def-ray">
+        <idx><h>ray</h></idx>
+        <statement>
+          <p>
+            <term>Ray</term> <m>\overrightarrow{AB}</m>
+            consists of point <m>A</m>, point <m>B</m>, and all points on line 
+            <m>\overleftrightarrow{AB}</m> which are on the same side of <m>A</m> as 
+            point <m>B</m>. A ray extends infinitely in one direction, has a single 
+            endpoint, and cannot be measured.
+          </p>
+        </statement>
+      </definition>
+
+      <definition xml:id="def-angles">
+    <idx><h>angle</h></idx>
+    <idx><h>vertex</h><h>angle</h></idx>
+    <idx><h>angle</h><h>vertex</h></idx>
+    <idx><h>angle</h><h>side</h></idx>
+    <idx><h>side</h><h>angle</h></idx>
+    <statement>
+        <p>
+            An <term>angle</term> is the union of two rays with a common endpoint.
+            In particular, <m>\angle BAC</m> consists of all points that lie on the 
+            rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>. The common 
+            endpoint <m>A</m> of the rays is called the <term>vertex</term> of the 
+            angle and the two rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>
+            are called the <term>sides</term> of the angle.
+        </p>
+    </statement>
+</definition>
+    <p>
+        To think of the measure of an angle as the space between the rays is  
+        vague and misleading. The area between the rays is infinite. Note also  
+        that the points <m>B</m> and <m>C</m> on the sides of <m>\angle{BAC}</m>
+        do not play a role in defining or measuring the angle. If <m>D</m> is any other point 
+        on ray <m>\overrightarrow{AB}</m> other than <m>A</m>,
+        then <m>\angle{DAC}</m> is the same angle 
+        as <m>\angle{BAC}</m> and hence have the same measure. Thus it would make  
+        no sense to use the linear distance between <m>B</m> and <m>C</m> for measuring 
+        <m>\angle{BAC}</m>. The sides of an angle are infinite and beyond what can 
+        be drawn. 
+    </p>
+    <p> 
+        Instead, we think of angle measurement in terms of rotational movement around the vertex, specifically 
+        the amount of rotation needed to move one side of the angle on top of the other.
+    </p>
+    <sidebyside widths="62% 28%" valign="middle">
+        <p>
+            To begin our study of angle measure, we will adopt the practice of 
+            assuming that there are 360 degrees in a
+            full rotation about any point. The choice of 360 can be traced back 
+            to the Babylonians who were studying planetory paths around 400 B.C. 
+            and used a base 60 (instead of base 10) number system. One advantage 
+            of the number 360 is that it has a lot of factors, including 2, 3, 4, 5, 6, 8. 
+            <!--This will prove helpful in <xref ref="sec-polygons-regular"/>.--> 
+        </p>
+        <figure>
+            <caption>Full rotation about point <m>A</m>.</caption>
+            <image source="rotate360">
+                <description>
+                    A circle centered around point A. An arrow has been added to the 
+                    circle to indicate rotation in a counterclockwise direction.
+                </description>
+            </image>
+        </figure>
+    </sidebyside>
+    <sidebyside widths="50% 50%" valign="top">
+        <!--How to crop this?-->
+        <figure>
+            <caption>180-degree rotation about point <m>A</m></caption>
+            <image source="180deg">
+                <description>Line containing C A and B from left to right. 
+                    Semicircular arc drawn with center A from point B to the 
+                    line on the opposite side of A.
+                </description>
+            </image>
+        </figure>
+        <p>
+            Suppose point <m>A</m> lies between points <m>B</m> and <m>C</m> on 
+            line <m>\overleftrightarrow{BC}</m>. In this case, we say that rays 
+            <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m> are 
+            <term>opposite rays</term><idx><h>opposite rays</h></idx>
+            <idx><h>rays</h><h>opposite</h></idx>. Since <m>\frac{360}{2}=180</m>, 
+            a rotation of 180 degrees will take 
+            the ray <m>\overrightarrow{AB}</m> to the ray <m>\overrightarrow{AC}</m>
+            on the opposite side of <m>A</m>.
+        </p>
+    </sidebyside>
+    <sidebyside widths="50% 50%" valign="middle">
+        <p>
+            Continuing, we define the measurement of angles according to what 
+            fraction of a full (or half) rotation they represent. Notice how the  
+            protractor divides the semicircular arc into 180 segments, eighteen of which are labeled 
+            with numerical values. These are multiples of ten, representing 
+            <m>\frac{1}{18}, \frac{2}{18}, \dots, \frac{18}{18}  </m>
+            of the half-rotation 180 degrees. To find the measure 
+            of <m>\angle{DAB}</m>, we  
+            place the center dot of the protractor over the vertex <m>A</m> of the 
+            angle and lined up ray <m>\overrightarrow{AB}</m> with the mark for 0 
+            degrees. The other side of the angle <m>\overrightarrow{AD}</m> passes  
+            through the mark for 40 degrees.
+        </p>
+        <figure xml:id="protractor">
+            <caption>Using a protractor to measure angles.</caption>
+        <image source="protractorexample">
+            <description>A protractor aligned with line containing C A B, centered 
+                at point A. Labels for every multiple of 10 degrees from zero degrees 
+                up through 180 degrees
+                are shown, both clockwise and counterclockwise. 
+                Ray AD passes through the indicator for 40 degrees.
+            </description>
+        </image>
+        </figure>   
+    </sidebyside>
+    <exploration>
+        <title>Reading a Protractor</title>
+        <task>
+            <p>
+                Use the picture above to determine the following:
+                <ol>
+                    <li>
+                        <p>The measure of angle <m>\angle{EAB}</m>.</p>
+                    </li>
+                    <li>
+                        <p>The measure of angle <m>\angle{CAD}</m>.</p>
+                    </li>
+                    <li>
+                        <p>The measure of angle <m>\angle{CAE}</m>.</p>
+                    </li>
+                    <li>
+                        <p>The measure of angle <m>\angle{EAC}</m>.</p>
+                    </li>
+                </ol>
+            </p>
+        </task>
+        <task>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            What fraction of a full rotation is 40 degrees?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What fraction of a full rotation is 110 degrees?
+                        </p>
+                    </li>
+                </ol>               
+            </p>
+        </task>
+        <task>
+            <p>
+                Use a physical protractor and a ruler to draw an angle with
+                measure 78 degrees. Describe your technique.
+            </p>
+        </task>
+        <task>
+            <p>
+                It is possible to have angle measures greater than 180 degrees. 
+                Use words and/or pictures to describe an angle that measures 240 
+                degrees.
+            </p>
+        </task>
+    </exploration>
+    <p>
+        We give a more concise definition of angle measure and introduce the 
+        notion of angle congruence.
+    </p>
+    <definition>
+        <idx><h>angle measure</h></idx>
+        <idx><h>measure</h><h>angle</h></idx>
+    <notation>
+        <usage><m>m\angle ABC</m></usage>
+      <description>angle measure</description>
+    </notation>
+      <statement>
+        <p>
+            The <term>measure of <m>\angle ABC</m></term>, written <m>m\angle ABC</m>,
+            is the number of degrees of rotation about vertex <m>B</m> needed to move ray 
+            <m>\overrightarrow{BC}</m> onto <m>\overrightarrow{BA}</m>.
+        </p>
+      </statement>
+    </definition>
+    <definition>
+        <idx><h>congruent</h><h>angles</h></idx>
+        <notation>
+            <usage><m>\angle ABC\cong\angle DEF</m></usage>
+            <description>congruent angles</description>
+        </notation>
+        <statement>
+            <p>If two angles <m>\angle ABC</m> and <m>\angle DEF</m> have the 
+            same measure, we say that the angles are <term>congruent</term> and write 
+            <m>\angle ABC\cong\angle DEF</m>. Thus, 
+            <m>\angle ABC\cong\angle DEF</m> means <m>m\angle ABC = m\angle DEF</m>.
+            </p>
+        </statement>
+    </definition>
+        <aside>
+            <p>
+                Note the use of the equals sign in <m>m\angle ABC = m\angle DEF</m> 
+                where the two sides of the equation represent numbers. The symbol
+                <m>\cong</m> relates geometrical objects of the same type.
+            </p>
+        </aside>
+  </subsection>
+ <subsection xml:id="subsec-polygons-angles-triangle">
+    <title>Angles of a Triangle</title>
+    <exploration>
+        <introduction>
+            <p>
+                The GeoGebra app, 
+                <url href="https://www.geogebra.org/classic/bnayhujg">
+                Angles of a Triangle</url> is useful in completing this activity. You 
+                may also perform this activity by carefully cutting out 
+                a scalene triangle and tracing it on a sheet of paper. 
+            </p>
+            <figure xml:id="geogebra-app-for-tri-sum-2">
+                <caption>
+                    An interactive GeoGebra applet for Triangle Sum Exploration.
+                </caption>
+            <interactive platform="geogebra">
+                <slate surface="geogebra" material="bnayhujg"/>
+            </interactive>
+            </figure>
+
+        </introduction>
+        <task>
+                <statement>
+                    <p>
+                        Rotate triangle <m>\Delta ABC</m> 180 degrees about the midpoint 
+                        <m>D</m> of side <m>\overline{BC}</m> (see hint). Both the original triangle  
+                        and the rotated version should be visible. What do you notice?
+                    </p>
+                    <p>
+                        Note that two of the points are double labeled, once for each 
+                        triangle. If you rightclick on 
+                        the label, you can move it to make the original label visible.
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        To perform this rotation in the GeoGebra app, click on the angle rotation icon 
+                        in the toolbar. Next, click on the interior of the triangle to select the object 
+                        to be rotated, then click on midpoint <m>D</m> to identify the center of the rotation. 
+                        When prompted to input 
+                        the angle measure, replace 45 with 180. Then click OK.
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Also rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
+                        <m>E</m> of side <m>\overline{AB}</m>. 
+                        <ol>
+                            <li>
+                                <p>
+                                    Which angle of <m>\Delta ABC</m> is congruent to 
+                                    <m>\angle A'C'B'</m>?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Which angle of <m>\Delta ABC</m> is congruent to 
+                                    <m>\angle B_{1}'A_{1}'C_{1}'</m>?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What does this tell you about 
+                        <m>m\angle ABC+m\angle BCA + m\angle CAB</m>? Explain how the picture 
+                        shows this. 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Make a claim about the sum of the interior angles of a triangle.
+                    </p>
+                    <p>
+                        Does your work for all triangles or just the one in the 
+                        picture? To test this in the GeoGebra applet, select the arrow 
+                        in the tool menu. Then click and drag one of the vertices in 
+                        the original triangle to change the shape. Do your claims still  
+                        hold?
+                    </p>
+                <aside>
+                    <p>
+                        Geogebra makes exploring multiple possibilities easier. 
+                        If you are doing this activity with 
+                        paper triangles, experiment with other triangles, repeating the  
+                        previous tasks. If your classmates used different triangles, this  
+                        would be a good time to compare results. 
+                    </p>
+                </aside>
+                </statement>
+            </task>
+    </exploration>
+</subsection>
+<subsection xml:id="subsec-polygons-angles-principle">
+    <title>Additivity of Angles and Definitions Associated with Angles</title>
+    <p>
+        In this section, you have likely been assuming the additivity of angle 
+        measure. Like the additivity of <xref ref="principle-areasums">area</xref> 
+        and <xref ref="principle-addlengths">length</xref>, this is intuitively obvious and 
+        will prove useful. We state this as a principle and add it to our toolbox. 
+        First, we must clarify what we mean by the interior of an 
+        angle.
+    </p>
+    <definition>
+        <idx><h>interior</h><h>angle</h></idx>
+        <idx><h>angle</h><h>interior</h></idx>
+        <statement>
+            <p>
+            A point <m>D</m> is said to be in the <term>interior</term> of <m>\angle ABC</m>
+            if <m>D</m> lies between points <m>A</m> and <m>C</m> on line segment 
+            <m>\overline{AC}</m>.
+            </p>
+        </statement>
+    </definition>
+    <principle xml:id="principle-addangles">
+        <title>Additivity of Angle Measure</title>
+        <statement>
+            <p>
+                If ray <m>\overrightarrow{AD}</m> lies in the interior of angle 
+                <m>\angle BAC</m>, then <m>m\angle{BAC}=m\angle{BAD}+m\angle{DAC}</m>.
+            </p>
+        </statement>
+    </principle>
+    <!--<p>
+        Some new terminology and notation have also been introduced in this section.
+    </p>
+    <definition xml:id="def-linesegment">
+        <idx><h>ray</h></idx>
+        <idx><h>line</h></idx>
+        <idx><h>segment</h></idx>
+        <idx><h>line segment</h></idx>
+        <statement>
+          <p>
+            A <term>line</term> is a one-dimensional figure consisting of a set of  
+            points. It does not have any thickness. Because a line extends infinitely 
+            in both directions
+            and has no endpoints, we cannot measure the length of a line. For any two 
+            distinct points, there is exactly one line that contains both of them so 
+            we may refer 
+            to a line by a pair of points on the line, <m>\overleftrightarrow{AB}</m> 
+            or by a single lower case letter such as <m>\ell</m> or <m>m</m>.  
+          </p>
+          <p>
+            When we talk about measuring length, we are referring to a 
+            line segment. A <term>line segment</term> is a part of a line consisting 
+            of a pair of endpoints and all of the points on the line between the 
+            two endpoints. For example, line segment <m>\overline{AB}</m> 
+            consists of points <m>A</m> and <m>B</m> and all points on line
+            <m>\overleftrightarrow{AB}</m> between <m>A</m> and <m>B</m>.
+          </p>
+          <p>
+            In a similar way, we define <term>ray</term> <m>\overrightarrow{AB}</m>
+            to consist of point <m>A</m>, point <m>B</m>, and all points on line 
+            <m>\overleftrightarrow{AB}</m> which are on the same side of <m>A</m> as 
+            point <m>B</m>. A ray extends infinitely in one direction, has a single 
+            endpoint, and cannot be measured.
+          </p>
+        </statement>
+      </definition>-->
+      <!--<p>
+        While lines on a flat surface such as a plane appear straight, we will see that 
+        lines on the surface of a sphere are actually curved. 
+      </p>-->
+     <!--
+        <p>
+            When we measure an angle, denoted <m>m\angle ABC</m>, 
+            we are measuring how far we would need to rotate 
+            one side of the angle 
+            around the vertex to meet the other side. This definition introduces some  
+            ambiguity as one might rotate clockwise or counterclockwise and we could even
+            rotate multiple times around the vertex. Typically, we will consider the measure 
+            of an angle to be a number between 0 and 180 but there will be some exceptions. 
+            When we study symmetry and 
+            isometry later in <xref ref="ch-isom"/>, we will allow a wider variety of  
+            rotations. In addition, we might speak of the interior of some angles of a 
+            concave polygon as having at least one interior angle with a measure 
+            between 180 and 360 degrees. 
+        </p>
+        </statement>
+    </definition>-->
+</subsection>
+<subsection>
+    <title>Vertical Angles</title>
+    <p>
+        To conclude this section, we will use what we have learned to make a claim about vertical 
+        angles.
+    </p>
+    <definition xml:id="def-vertical-angles">
+            <idx><h>angle</h><h>vertical</h></idx>
+            <idx><h>vertical angle</h></idx>
+            <statement>
+            <p>
+                When a pair of lines intersect, each pair of opposite angles formed by the intersection 
+                are said to be a pair of <term>vertical angles</term>. Vertical angles share a common 
+                vertex, namely the point of intersection, and the sides of one angle will be the opposite rays 
+                of the sides of the other angle.
+            </p>
+        </statement>
+    </definition>
+    <exercise>
+        <statement>
+            <sidebyside widths="50% 50%" valign="middle">
+                <p>
+                    Determine two pairs of vertical angles in the figure to the right.
+                </p>
+                <figure xml:id="image-vert-angles">
+                    <caption>Lines intersecting to form vertical angles</caption>
+                    <image source="verticalangles"> 
+                        <description>
+                            Two lines meet at point E. One line contains points A, E, and B in 
+                            order and the other contains points C, E, and D in that order.
+                        </description>
+                    </image>
+                </figure>
+            </sidebyside>   
+        </statement>
+        <hint>
+            <p>Each pair of vertical angles consists of two angles.</p>
+        </hint>
+        <answer>
+            <p>
+                One pair consists of <m>\angle AEC</m> and <m>\angle BED</m>. The other pair  
+                of vertical angles are <m>\angle AED</m> and <m>\angle BEC</m>.
+            </p>
+        </answer>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                What must be true about the measures of any pair of vertical angles? Give a 
+                thorough explanation of why this must be true using 
+                Principle <xref ref="principle-addangles"></xref>.
+            </p>
+        </statement>
+    </exercise>
+
+</subsection>
+   
+   <exercises xml:id="exercises-polygons-angles">
+    <title>Exercises</title>
+    <subexercises xml:id="SAR-polygons-angles">
+        <title>Skills and Recall</title>
+        <exercise>
+            <statement>
+                <p>
+                    Use a protractor to measure the angles. You may need to print this  
+                    picture to make accurate measurements. ADD PICTURE AND PROBLEMS.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Determine the missing angles. ADD PICTURE AND PROBLEMS.
+                </p>
+            </statement>
+        </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-polygons-angles">
+        <title>Extending the Concepts</title>
+        <exercise>
+            <statement>
+                <p>
+                    Must the right angle be the largest angle of a right triangle?
+                    Explain how this follows from results of this section.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Sketch a few convex quadrilaterals on paper or using the GeoGebra drawing 
+                    tool.
+                </p>
+                    <figure xml:id="geogebra-app-for-quadangle-sum">
+                        <caption>
+                            An interactive GeoGebra applet for Quadrilateral Angle Sum Exercise.
+                        </caption>
+                    <interactive platform="geogebra">
+                        <slate surface="geogebra" material="vcqaebv6"/>
+                    </interactive>
+                    </figure>  
+                    <p>
+                    Connect a pair of opposite vertices with a line segment, called a 
+                    <term>diagonal</term>, to divide the quadrilateral into two shapes. 
+                    <ol>
+                        <li>
+                            <p>
+                                What two shapes did this create?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What does this tell you about the angle sum of a convex quadrilateral?
+                                Explain in words and pictures why this will be true for all convex   
+                                quadrilaterals.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Experiment with other triangles or by moving vertex A in the applet.
+                                What happens to the angle measure when the quadrilateral is no longer convex?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Different interpretations of angles in a concave quadrilateral 
+                    can be made here. In your explanation, 
+                    you may need to specific whether you are looking only at interior angles or 
+                    only considering angles less than 180 degrees.
+                </p>
+            </hint>
+        </exercise>
+   </subexercises>
+   </exercises>
+  
+</section>

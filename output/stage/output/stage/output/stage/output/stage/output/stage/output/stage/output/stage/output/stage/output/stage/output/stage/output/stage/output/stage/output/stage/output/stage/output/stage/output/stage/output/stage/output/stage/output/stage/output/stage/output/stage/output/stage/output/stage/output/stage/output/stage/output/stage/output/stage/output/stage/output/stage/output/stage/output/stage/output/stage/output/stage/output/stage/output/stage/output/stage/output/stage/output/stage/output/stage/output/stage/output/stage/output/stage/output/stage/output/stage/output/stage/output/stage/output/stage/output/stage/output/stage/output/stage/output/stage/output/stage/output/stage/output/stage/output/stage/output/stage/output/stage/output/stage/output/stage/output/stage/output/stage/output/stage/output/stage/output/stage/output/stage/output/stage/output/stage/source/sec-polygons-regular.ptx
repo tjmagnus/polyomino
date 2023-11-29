@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-polygons-regular" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploring Regular Polygons</title>
+  <introduction>
+
+    <p>
+        Have you ever studied a tiling of a floor or a pattern on a quilt? In this  
+        section, we will define a regular polygon and explore when regular tilings 
+        can be used to tile the plane. 
+    </p>
+    <aside>
+      <p>
+        The material in this section has been adapted from Section 4.1 in 
+        <xref ref="bibSymShapeSpace">
+        Symmetry, Shape, and Space</xref>.
+      </p>
+    </aside>
+  </introduction>  
+<subsection>
+  <title>Regular Polygons</title>
+    <p>
+      We begin by defining what it means for a polygon to be regular.
+    </p>
+  <definition>
+    <idx><h>regular polygon</h></idx>
+    <idx><h>polygon</h><h>regular</h></idx>
+    <statement>
+    <p>
+      A polygon is a <term>regular polygon</term> if all of its sides and 
+      all of its angles are congruent. <!--Have we defined congruent angles?-->
+    </p>
+  </statement>
+  </definition>
+  <exercise>
+    <title>Check Your Understanding!</title>
+    <statement>
+      <p>
+        Explain why each shape below is not a regular polygon:
+      </p>
+      <image source="nonregularpolygons" width="100%">
+        <description>
+          Rhombus ABCD with obtuse angles at B and D, 
+          Rectangle EFGH with height 6 and width 10, and a 
+          House-shaped pentagon with base length 4, wall height 
+          4, and total height 6.
+        </description>
+      </image>
+    </statement>
+  </exercise>
+</subsection>
+<subsection xml:id="subsec-polygons-regular-tilings">
+  <title>Regular Tilings</title>
+  <p>
+    In the very first activity, we created a tiling of a square using tetrominoes. 
+    In this section, we will consider tilings of the plane. Since the plane continues  
+    infinitely, we will not be able to fully create a tiling, but we will be able to 
+    build enough of the tiling to determine whether a tiling is possible.
+  </p>
+  <definition>
+    <idx><h>tiling</h></idx>
+    <idx><h>tiling</h><h>regular</h></idx>
+    <idx><h>regular</h><h>tiling</h></idx>
+    <idx><h>tiling</h><h>monohedral</h></idx>
+    <idx><h>monohedral tiling</h></idx>
+    <statement>
+      <p>
+        A <term>tiling</term> is a collection of closed polygons that cover a plane 
+        (continuing infinitely in all directions) with no 
+        gaps and no overlaps. A <term>monohedral tiling</term> is tiling that 
+        uses only one shape, 
+        a <term>regular tiling</term> is a monohedral tiling using a single 
+        regular polygon as its tile. In a regular tiling, each side of a polygon 
+        will line up perfectly with a side of an adjacent copy.
+      </p>
+    </statement>
+  </definition>
+  <exploration xml:id="explor-reg-tilings">
+    <title>Regular Tilings</title>
+    <introduction>
+      <p>  
+        This activity may be completed using physical tiles or 
+        in an app. Be sure to save a record of your designs by 
+        tracing, photography, or screenshots. Some of the computations  
+        will also be used later in this section. You are encourage to 
+        keep an accessible record of your work for future reference.
+      </p>
+      <p>
+        The web application <url href="https://mathigon.org/polypad#polygons">Polypad
+        by Mathigon</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
+        These are the top six shapes in the Polygons and Shapes menu. Simply 
+        drag the shape from the left into the whiteboard area. Rotate using the black dot 
+        and move by clicking on the interior. For <m>n</m>-gons with <m>n>8</m>, use  
+        the hexagon labeled "regular" in the bottom rom of shapes. After you have moved this  
+        figure into the whiteboard, use the dotted vertex to increase the number of sides.
+        You can then use the duplicated sheet icon on the flip/cut/... menu to make copies 
+        of your <m>n</m>-gon.
+      </p>
+    </introduction>
+    <!--add polypad or doenet app here-->
+    <task>
+      <statement>
+        <p>
+          Select a single regular polygon, making copies of it as needed,
+          and use it to construct a regular  
+          tiling. Construct enough of the tiling to convince others that the 
+          tiling can continue to tile the plane with no gaps and overlaps. 
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Experiment with equilateral triangles, squares, regular pentagons, 
+          regular hexagons, and other regular <m>n</m>-gons to determine which can 
+          be used to create a regular tiling and which do not. What do you think 
+          will happen with regular polygons with more than eight sides? Why?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Perhaps you noticed that the vertex angle measure places a role in determining 
+          whether a regular polygon can be used to create a regular tiling. This task will  
+          lead you to determine the measure of the vertex angle of a regular pentagon. We 
+          will use this technique to find the measure of the vertex angles for other   
+          regular n-gons.
+        </p>
+        <sidebyside widths="65% 35%">
+          <figure xml:id="regpentagon-into-tri">
+            <caption>A triangulated regular pentagon</caption>
+            <image source="VertexAngRegPentagon">
+              <description>A regular pentagon with vertices labeled A, B, C, D, and E. 
+                The interior angle at A has been split by 
+                diagonals into angles 1, 2, and 3. Angle D has been split into angles 4 and 5.
+                Angle C has been split into angles 6 and 7.
+              </description>
+            </image>
+          </figure>
+            <p>
+              <ul>
+                <li>
+                  <m>\angle 1 = \angle EAD</m>
+                </li>
+                <li>
+                  <m>\angle 2 = \angle DAC</m>
+                </li>
+                <li>
+                  <m>\angle 3 = \angle CAB</m>
+                </li>
+                <li>
+                  <m>\angle 4 = \angle EDA</m>
+                </li>
+                <li>
+                  <m>\angle 5 = \angle ADC</m>
+                </li>
+                <li>
+                  <m>\angle 6 = \angle DCA</m>
+                </li>
+                <li>
+                  <m>\angle 7 = \angle ACB</m>
+                </li>
+                <li>
+                  <m>\angle E = \angle DEA</m>, etc.
+                </li>
+              </ul>
+            </p>
+      </sidebyside>
+      <p>
+          <ol>
+            <li>
+              <p>
+                Explain why <m>m\angle EAB=m\angle 1+m\angle 2+m\angle 3</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                What is <m>m\angle 1 + m\angle 4 + m\angle E</m>?
+              </p>
+            </li>
+            <li>
+              <p>
+                Use the fact that the pentagon is divided into triangles to 
+                determine <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
+                +m\angle E</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Having just computed the sum of the five congruent angles of  
+                a regular pentagon, determine <m>m\angle A</m>. 
+              </p>
+            </li>
+            <li>
+              <p>
+                Some of what you found, but not all, will be true for all convex 
+                pentagons. What results about angle measure will also hold for 
+                non-regular convex pentagons? What will be different?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use your work from the previous task to complete the row for regular 
+          pentagon in the table below. Repeat this procedure for squares, regular 
+          hexagons, regular octagons, and regular decagons, drawing diagonals from 
+          a single vertex to dissect the polygon into triangles, using the triangles  
+          to determine the total vertex angle measure, and then determining the 
+          measure of each angle. In the final row, <m>n</m> is a variable representing 
+          the number of sides and the answers will be algebraic expressions involving the 
+          variable <m>n</m>.
+        </p>
+        <table xml:id="table-vertex-measure-regular-polygons-common">
+          <title>Angles of Regular Polygons</title>
+          <tabular halign="center" row-headers="yes">
+            <col right="medium"/>
+            <col right="minor"/>
+            <col right="minor"/>
+            <col right="minor"/>
+            <col />
+            <row bottom="medium" header="yes">
+            <cell>shape</cell>
+            <cell><line>number</line><line>of sides</line></cell>
+            <cell><line>number of</line><line>triangles</line></cell>
+            <cell><line>total angle</line><line>measure</line></cell>
+            <cell><line>single vertex</line><line>measure</line></cell>
+            </row>
+            <row bottom="minor">
+              <cell>triangle</cell>
+              <cell>3</cell>
+              <cell>1</cell>
+              <cell>180</cell>
+              <cell>60</cell>
+            </row>
+            <row bottom="minor">
+              <cell>square</cell>
+              <cell>4</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row bottom="minor">
+              <cell>regular pentagon</cell>
+              <cell>5</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row bottom="minor">
+              <cell>regular hexagon</cell>
+              <cell>6</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row bottom="minor">
+              <cell>regular octagon</cell>
+              <cell>8</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row bottom="minor">
+              <cell>regular decagon</cell>
+              <cell>10</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>regular <m>n</m>-gon</cell>
+              <cell><m>n</m></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Returning to the question of when a regular polygon can be  
+          used to create a regular tiling, 
+          <ol>
+            <li>
+              <p>
+                How many equilateral triangles can meet at a single point?
+              </p>
+            </li>
+            <li>
+              <p>
+                How many squares can meet at a single point?
+              </p>
+            </li>
+            <li>
+              <p>
+                How many regular hexagons can meet at a single point?
+              </p>
+            </li>
+            <li>
+              <p>
+                Explain in words and pictures why these three regular 
+                polygons can each produce a regular tiling.
+              </p>
+            </li>
+            <li>
+              <p>
+                When we tried to surround a point with regular pentagons a 
+                gap was formed. What is the degree measure of that gap?
+              </p>
+            </li>
+            <li>
+              <p>
+                If <m>n\geq 7</m>, do you know whether a regular <m>n</m>-gon might 
+                produce a regular tiling? Include a discussion of vertex angle measure 
+                in your explanation.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </task>
+  </exploration>
+</subsection>
+<subsection xml:id="subsec-semiregular-tilings">
+  <title>Semiregular Tilings</title>
+  <p>
+    If we allow more than one regular polygon to be used in a tiling, we may 
+    are able to create a wider variety of designs.
+  </p>
+  <definition xml:id="def-semireg-tiling">
+    <idx><h>tiling</h><h>semiregular</h></idx>
+    <idx><h>semiregular</h><h>tiling</h></idx>
+    <idx><h>tiling</h><h>monohedral</h></idx>
+    <statement>
+      <p>
+        A <term>semiregular tiling</term> is a tiling consisting of two or 
+        more regular polygon with common side lengths with the additional 
+        requirement that the arrangement of polygons around each vertex is 
+        the same.
+      </p>
+    </statement>
+  </definition>
+<exploration>
+  <title>In Search of Semiregular Tilings</title>
+  <introduction>
+    <p>
+      Once again, you are encouraged to continue the practice of saving your 
+      sketches, work, and results as they may be useful later in this section.
+    </p>
+  </introduction>
+  <task>
+    <statement>
+    <p>
+      What must be true about the measures of the angles of the vertices 
+      meeting at and surrounding a single point?
+    </p>
+    </statement>
+    <answer>
+      <p>
+        The sum of the angle measures must be 360 degrees.
+      </p>
+    </answer>
+  </task>
+  <task xml:id="task-vertex-measure-regular-polygons-more">
+    <statement>
+    <p>
+      In <xref ref="table-vertex-measure-regular-polygons-common"/>, you 
+      determined the vertex angle measure for a few regular polygons and 
+      developed a general formula for finding this measure. Use the formula, 
+      to determine the vertex angle measure of each of the following regular 
+      <m>n</m>-gons. If the answer is not a whole number, write the answer as 
+      a mixed number.
+      <ol cols="2">
+        <li>
+          <p>
+            heptagon (7 sides)
+          </p>
+        </li>
+        <li>
+          <p>
+            nonagon (9 sides)
+          </p>
+        </li>
+        <li>
+          <p>
+            dodecagon (12 sides)
+          </p>
+        </li>
+        <li>
+          <p>
+            pentakaidecagon (15 sides)
+          </p>
+        </li>
+        <li>
+          <p>
+            octakaidecagon (18 sides)
+          </p>
+        </li>
+        <li>
+          <p>
+            icosagon (20 sides)
+          </p>
+        </li>
+        <li>
+          <p>tetrakaicosaigon (24 sides)</p>
+        </li>
+        <li>
+          <p>tetracontakaidigon (42 sides)</p>
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <hint>
+    <p>
+      The measure of the vertex angle of a regular <m>n</m>-gon 
+      is given by the formula <m>d=\frac{180(n-2)}{n}</m>.
+    </p>
+  </hint>
+  </task>
+  <task xml:id="tile-w-3tri-2sq">
+    <statement>
+    <sidebyside widths="70% 30%" valign="middle">
+      <figure xml:id="tiling33434">
+        <caption>A 3.3.4.3.4 vertex arrangement.</caption>
+        <image source="vertex33434" width="100%">
+          <description>(for accessibility)</description>
+        </image>
+      </figure>
+      <p>
+        The vertex arrangement pictured is denoted <m>3.3.4.3.4</m> 
+        (triangle, triangle, square, triangle, square).
+      </p>
+      
+    </sidebyside>
+    <p>
+      <ol>
+        <li>
+          <p>
+            Verify that the sum of the angles meeting at the vertex is  
+            360 degrees.
+          </p>
+        </li>
+        <li>
+          <p>
+            Extend the <m>3.3.4.3.4</m> design making sure that you always 
+            have one or two triangles between any two squares. Will this 
+            eventually fill the plane without gaps or overlaps? 
+          </p>
+        </li>
+        <li>
+          <p>
+            Note that <m>3.3.3.4.4</m> gives a different pattern. Show that it is  
+            possible to create a tiling 
+            using the vertex arrangement <m>3.3.3.4.4</m> by building outward from your 
+            initial vertex arrangement.
+          </p>
+        </li>
+      </ol>
+    </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Verify arithmetically that it is possible for an equilateral triangle, 
+        a regular heptagon, and a regular tetracontakaidigon (pictured below), 
+        to fit snugly around a vertex with no overlaps. In shorthand, we can write this vertex  
+        arrangement as <m>3.7.42</m>.
+      </p>
+      <figure xml:id="tetracontakaidigon">
+        <caption>A tetracontakaidigon (42-gon).</caption>
+        <image width="50%" source="tetracontakaidigon">
+          <description>(for accessibility)</description>
+        </image>
+      </figure>
+    </statement>
+  </task>
+  <task xml:id="srtiling-possible-vertex-arrangements">
+    <statement>
+      <p>
+        Use the angle measures you found in <xref ref="table-vertex-measure-regular-polygons-common"/> and 
+        <xref ref="task-vertex-measure-regular-polygons-more"/> to list all 
+        combinations of three, four, or five regular polygons that could meet at a 
+        vertex, writing the vertex configurations in shorthand notation. Like the 
+        example in <xref ref="tile-w-3tri-2sq"/>, the same shape may be repeated. If  
+        more than three polygons meet at a vertex, consider the different ways in 
+        which they could be arranged.
+      </p>
+      <aside>
+        <p>
+          Note that <m>3.4.3.4.3</m> and <m>4.3.4.3.3</m> are potentially two other ways 
+          of writing <m>3.3.4.3.4</m> in <xref ref="tiling33434"/>. 
+          We could begin at any polygon and list the polygons in order. To avoid these  
+          repetitions, it is standard practice to begin with the polygon with the  
+          smallest number of sides and then to move to its neighbor with the smallest number 
+          of sides, continuing around until all the polygons around the point have been named. 
+          Similarly, we write <m>3.3.3.4.4</m> rather than <m>3.3.4.4.3</m> for the tiling where  
+          the two squares are adjacent. 
+        </p>
+      </aside>
+    </statement>
+    <hint>
+      <p>
+        We are not including the three regular tilings in this list. 
+        There is one more vertex arrangement using five polygons 
+        (in addition to 3.3.4.3.4 and 3.3.3.4.4), five using
+        four polygons, and eight more using three polygons (in addition to 3.7.42).
+      </p>
+    </hint>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Some of the vertex arrangements in the previous task will extend to create a semiregular titling, 
+        but not all of them! Experiment by surrounding one vertex using the pattern and 
+        then try to surround the neighboring vertices using the same arrangement. Which 
+        seem to work and which fail? For the ones that fail, what seems to go wrong? 
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Only eight of the seventeen possible vertex arrangements can be used to create  
+        a semiregular tiling.
+      </p>
+    </hint>
+  </task>
+  <task>
+    <statement>
+      <p>
+        What do you notice about the vertex arrangements that work (or those that don't 
+        work)? What do you wonder?
+      </p>
+    </statement>
+  </task>
+</exploration>
+<p>
+  This activity may have involved more of a struggle that some of the others. Perhaps you 
+  only found about half of the possibilities in <xref ref="srtiling-possible-vertex-arrangements"/>
+  or you cannot yet see a pattern to help determine which vertex arrangements lead to a 
+  semiregular tiling. That is perfectly normal. Write down the ideas that you do have and 
+  share them with classmates. As you share what you have observed and listen to others' 
+  discoveries, you and your classmates may uncover some amazing results.
+</p>
+</subsection>
+
+
+<subsection xml:id="subsec-semireg-rules">
+  <title>Narrowing Down the Options</title>
+    <p>
+      When we look at possible vertex arrangements for a semiregular tiling,
+      our options are very limited. Not including the regular tiling by squares, 
+      you should have found three groups of four regular polygons with an 
+      angle sum of 360 degrees. All of these have at least one polygon appearing 
+      twice. Why do some of these extend to a semiregular tiling while others do 
+      not? Does it matter whether the common polygons are next to each other 
+      or separated?    
+    </p>
+    <p>
+      As we attempt to create a 3.3.6.6 pattern, we find that it is impossible to 
+      maintain a consistent vertex arrangement. Fairly quickly, we are forced to 
+      create a 3.6.3.6 arrangement at some vertices. On the other hand, a 3.3.6.6 
+      vertex arrangement can continue indefinitely. Let us explore why this happens.  
+    </p>
+    <exploration>
+      <title>Semiregular Tilings with Four Regular Polygons at a Vertex</title>
+      <task>
+        <statement>
+        <p>
+          Use physical or virtual triangles and hexagons to 
+          sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
+          sketch if available. <!--Add app?-->
+        <ol>
+          <li>
+            <p>
+              Choose one of the two triangles at this vertex and attempt 
+              to surround it with triangles and/or hexagons while adhering 
+              to the 3.3.6.6 arrangement.
+            </p>
+          </li>
+          <li>
+            <p>
+              Note that each triangle in a 3.3.6.6 must share a side with 
+              one triangle and one hexagon due to the order of the 3's and 6's.
+                <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>
+            </p> 
+            <figure xml:id="triangle366">
+              <caption>Surrounding a regular triangle with regular triangles and 
+                regular hexagons.</caption>
+              <image source="whyno3366"></image>
+            </figure>
+            <p>
+              Will the remaining side abut a triangle or a hexagon? Discuss  
+              what happens in each case.
+            </p>
+          </li>
+        </ol>
+        </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            There is a second group of four regular polygons consisting of  
+            two equilateral triangles and two other polygons.
+            <ol>
+              <li>
+                <p>
+                  What are the other two polygons? We will represent the number of  
+                  sides of these polygons by <m>m</m> and <m>n</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Explain why the arrangement <m>3.3.m.n</m> will not extend to 
+                  a semiregular tiling using an argument similar to what we did 
+                  with <m>3.3.6.6</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Explain why the arrangement <m>3.m.3.n</m> also fails to create a 
+                  semiregular tiling.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            The remaining semiregular tiling with four polygons meeting at 
+            each vertex has two squares and two other polygons in the vertex   
+            arrangement.
+            <ol>
+              <li>
+                <p>
+                  What are the other two polygons? Again, the number of sides of  
+                  these two polygons are represented by <m>m</m> and <m>n</m>
+                  in the questions that follow.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Are you able to surround a square along its sides by an alternating sequence of  
+                  <m>m</m>-gons and <m>n</m>-gons?
+                </p>
+              </li>
+              <li>
+                <p>
+                  One of the polygons has an odd number, <m>m</m>, of sides. Are you 
+                  able to surround the <m>m</m>-gon along its sides by an alternating 
+                  sequence of squares and <m>n</m>-gons?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Explain in words and pictures why <m>m.4.n.4</m> extends to a semiregular tiling,
+                  but <m>m.4.4.n</m> does not. Draw a sketch of <m>m.4.n.4</m> if  
+                  you do not already have one. 
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+    </exploration>
+    <p> 
+      We conclude that there are only two semiregular tilings and one regular 
+      tiling of the plane where four polygons meet at a vertex. All three vertex 
+      arrangements with five polygons meeting extend to semiregular tilings. 
+      To complete this analysis, we consider which three-polygon vertex arrangements  
+      extend to a semiregular tiling.
+    </p>
+    <exploration>
+      <title>Semiregular Tilings with Three Regular Polygons at a Vertex</title>
+      <task>
+        <statement>
+          <p>
+            Not including the regular tiling <m>6.6.6</m>, there are nine possible  
+            vertex arrangements consisting of three regular polygons. List as many as 
+            you can, referring back to the work you did in 
+            <xref ref="srtiling-possible-vertex-arrangements"/>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Verify algebraically that <m>5.5.10</m> can surround a single point. 
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use the fact that 5 is an odd number to explain why <m>5.5.10</m> does 
+            not extend to a semiregular tiling. You may include pictures as well as 
+            words in your explanation.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Determine the three vertex arrangements with three polygons that extend 
+            to a semiregular tiling. Why must the others be eliminated?
+          </p>
+        </statement>
+      </task>
+    </exploration>
+</subsection>
+<subsection xml:id="subsec-polygons-regular-summary">
+  <title>Summary and Tools</title>
+  <p>
+    As we conclude this long section, it is wise to reflect on what we have learned.
+    What should we add to our tool box for later use? Definitions for regular polygons,
+    tilings, regular tilings, and semiregular tilings were introduced at the beginning 
+    of the section. You should also note the items below:
+  </p>
+  <exercise>
+    <title>Key Ideas related to Regular Polygons</title>
+    <p>
+    <ol>
+      <li>
+        <p>
+        What formula can be used to compute the angle measure for a regular 
+        <m>n</m>-gon?
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the sum of the measures of the vertex angles for any (not-necessarily
+          regular) convex <m>n</m>-gon? For example, the measures of the angles of  
+          any triangle add up to 180 degrees. What is the total for a convex quadrilateral,
+          a convex pentagon, etc.?
+        </p>
+      </li>
+      <li>
+        <p>
+          Describe the three regular tilings.
+        </p>
+      </li>
+      <li>
+        <p>
+          If a group of polygons meet at a single vertex, what must be the sum 
+          of the angle measures at that vertex? Note that this wording generalizes this  
+          fact to nonregular polygons as well.
+        </p>
+      </li>
+      <li>
+        <p>
+          Just because a collection of regular polygons can surround a vertex  
+          does not mean that they can create a semiregular tiling. Give an example 
+          of a vertex arrangement that does not extend to a regular tiling. Support 
+          your claim.
+        </p>
+      </li>
+    </ol>
+  </p>
+  </exercise>
+</subsection>
+
+<exercises xml:id="exercises-polygons-regular">
+  <title>Exercises</title>
+  <subexercises xml:id="SAR-polygons-regular">
+      <title>Skills and Recall</title>
+      <exercise>
+          <statement>
+              <p>
+                  Sketch a picture of each of the following:
+                  <ol>
+                    <li>
+                      <p>
+                        A rectangle that is a regular quadrilateral.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        A rectangle that is not a regular quadrilateral.
+                      </p>
+                    </li>
+                  </ol>
+              </p>
+          </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            What is the total angle measure of each of the following?
+            <ol>
+              <li>
+                <p>
+                  a triangle
+                </p>
+              </li>
+              <li>
+                <p>
+                  a convex quadrilateral
+                </p>
+              </li>
+              <li>
+                <p>
+                  a convex 11-gon
+                </p>
+              </li>
+              <li>
+                <p>
+                  a convex 50-gon
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            (a) 180 degrees, (b) 360 degrees, (c) 1620 degrees, (d) 8640 degrees
+          </p>
+        </answer>
+        <solution>
+          <p>
+            (c) <m>180*(11-2)=1620</m>
+          </p>
+        </solution>
+      </exercise>
+      <exercise>
+          <statement>
+              <p>
+                  Demonstrate that each of the following exist by sketching an 
+                  example:
+                  <ol>
+                    <li>
+                      <p>
+                        a pentagon that is not convex
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        a convex hexagon with at least one right angle
+                      </p>
+                    </li>
+                  </ol>
+              </p>
+          </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Demonstrate that each of the following exist by sketching an 
+            example:
+            <ol>
+              <li>
+                <p>
+                  an equilateral polygon that is not regular
+                </p>
+              </li>
+              <li>
+                <p>
+                  an equiangular polygon that is not regular
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Answer the following:
+            <ol>
+              <li>
+                <p>
+                  What is the measure of each vertex in a regular 18-gon?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the measure of each vertex in a regular 9-gon?
+                </p>
+              </li>
+              <li>
+                <p>
+                  If a regular 18-gon, a regular 9-gon, and an equilateral triangle  
+                  meet at a vertex, will there be a gap? an overlap? or will they fit  
+                  together without gaps or overlaps?
+                </p>
+              </li>
+              <li>
+                Explain why it is impossible to create a semiregular tiling using 
+                regular 18-gons, regular 9-gons, and equilateral triangles.
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Explain why the following are not semiregular tilings:
+          </p>
+        </statement>
+      </exercise>
+  </subexercises>
+  <subexercises xml:id="ExtConc-polygons-regular">
+      <title>Extending the Concepts</title>
+      <exercise>
+          <statement>
+              <p>
+                  Under construction.
+              </p>
+          </statement>
+      </exercise>
+ </subexercises>
+ <subexercises xml:id="writing-polygons-regular">
+  <title>Writing Prompts</title>
+  <exercise>
+      <statement>
+          <p>
+              Add paper?.
+          </p>
+      </statement>
+  </exercise>
+  </subexercises>
+ </exercises>
+</section>

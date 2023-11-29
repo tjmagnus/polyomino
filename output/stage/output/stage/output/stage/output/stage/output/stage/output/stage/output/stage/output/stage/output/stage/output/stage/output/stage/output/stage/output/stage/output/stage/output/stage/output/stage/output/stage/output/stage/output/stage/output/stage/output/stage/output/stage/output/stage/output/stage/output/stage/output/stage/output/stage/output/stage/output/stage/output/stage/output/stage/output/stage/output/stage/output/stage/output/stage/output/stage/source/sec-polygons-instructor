@@ -1,0 +1,119 @@
+<section component="instructor" xml:id="sec-polygons-instructor" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Instructor Notes</title>
+
+    <subsection>
+        <title>Notes for <xref ref="sec-polygons-area"/></title>
+        <p>
+            Although students may know the area formulas for a parallelogram and a 
+            triangle, they don't necessarily know how they are related and why height 
+            is such an important parameter. Students are less likely to know the area 
+            of a trapezoid, which is fine since it is rarely used, but this activity 
+            enables them to reconstruct the formula. The emphasis in this section is 
+            on creativity, justification, and communication, not computation.  
+            this can be an opportunity to demonstrate how the use of labels makes it 
+            easier to communicate clearly. I typically assign the trapezoid area "letter"
+            as one of the two major explanatory papers in the course. The most common 
+            dissection created by students involves cutting the trapezoid into a 
+            rectangle and two triangles. Unfortunately, this dissection is the hardest 
+            one to work with algebraically as it requires breaking the longer 
+            base into three parts and introducing two extra variables. After they have 
+            completed the inclass activity, I show them the following picture of some possible dissections 
+            that previous students have used.   
+        </p>
+        <figure>
+            <caption>Dissections of Trapezoids</caption>
+            <image xml:id="trapezoid-area"></image>
+        </figure>
+    </subsection>
+    <subsection>
+        <title>Notes for <xref ref="sec-polygons-angles"/></title>
+        <p>
+            Students should have access to a protractor. Not all students will know how to 
+            use one correctly. If the protractor has a hole to align with the vertex, that 
+            will be useful in measuring spherical angles in section 
+            <xref ref="sec-polygons-parallel"/>
+        </p>
+    </subsection>
+    <subsection>
+        <title>
+            Notes for <xref ref="sec-polygons-parallel"/>
+        </title>
+        <p>
+            This is a new section and has not been tested in a class. I'm still trying 
+            to strike a balance between introducing students to the strange and exciting 
+            world of non-Euclidean geometry without overwhelming them with mathematical 
+            rigor. I have used the activities in worksheet form, but the reading sections 
+            are new and may change. I encourage you to try the spherical triangle activity 
+            in advance to decide whether physical spheres will work for your class and 
+            how to measure angles. Alternatively, you might 
+            consider using the geogebra app <url href="www.geogebra.org/m/j4yqa9jd"/>, 
+            authored by Heather Pierce, to have students
+            draw lines and triangles on a virtual sphere. 
+            <!--Consider adding resources on spherical and hyperbolic geometry 
+                for teachers who want more.-->
+        </p>
+        <p>
+            I am considering adding an exploration of hyperbolic triangles in the exercise 
+            section or as an optional subsection.
+        </p>
+    </subsection>
+    <subsection>
+        <title>Notes for <xref ref="sec-polygons-regular"/></title> 
+      <p>
+        Explorations into regular and semiregular tilings will encourage students  
+        to discover the total angle measure of a convex <m>n-</m>gon, to develop 
+        a formula for the vertex angle of a regular <m>n-</m>gon, and to observe how  
+        alternating patterns can continue around even-sided polygons but not odd ones.  
+      </p>
+      <p>
+        For in-class exploration, you may opt to have pattern blocks or stencils 
+        available to assemble and trace, but most sets of pattern blocks do not include 
+        regular pentagons, regular heptagons, regular octagons, etc. The online application 
+         <url href="mathigon.org/polypad#geometry"> Polypad by Mathigon
+        </url>, provides regular polygons for <m>n=3</m> through <m>n=8</m> and 
+        regular <m>n</m>-gons can be created using the "regular" tile and dragging the 
+        dot. Some interactives and images will be included in the exploration activities.
+      </p>
+      <p>
+        The end of this section, from <xref first="subsec-semireg-rules" 
+        last="subsec-polygons-regular-summary"/>,
+        can be omitted depending on the level of reasoning and rigor you 
+        wish to develop and the interests of your students. 
+        There will be an optional section in <xref ref="ch-polyhedra"/> 
+        on semiregular polyhedra that applies what is developed here. 
+        In that section, students can also learn and explore the 
+        possibilities without delving into the governing rules. Even if you choose to 
+        skip this section, you might want to have worked through the following 
+        activities or read about the topic to prepare yourself to lead a discussion. I have
+        also used the following explorations as a way to engage fast groups in class 
+        discovery while other groups  are catching up.
+      </p>
+      <p>
+        This section also offers the opportunity for further explorations into 
+        dual tilings, tilings with nonregular polygons, creating art from regular 
+        tilings, and asymmetric tilings. A few of these are suggested in the list of  
+        projects at the end of this section. My students have enjoyed hearing about 
+        Marjorie Rice, a housewife, mother, and amateur mathematician who famously 
+        discovered new pentagonal tiles. As you look at other resources, note that the 
+        terms <q>tiling</q> and <q>tessellation</q> are used interchangeably.
+      </p>
+    <p>
+        The web application <url href="https://mathigon.org/polypad#polygons">Polypad
+        by Mathigon</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
+        These are the top six shapes in the Polygons and Shapes menu. Simply 
+        drag the shape from the left into the whiteboard area. Rotate using the black dot 
+        and move by clicking on the interior. For <m>n</m>-gons with <m>n>8</m>, use  
+        the hexagon labeled "regular" in the bottom rom of shapes. After you have moved this  
+        figure into the whiteboard, use the dotted vertex to increase the number of sides.
+        You can then use the duplicated sheet icon on the flip/cut/... menu to make copies 
+        of your <m>n</m>-gon.   
+    </p>
+    </subsection>
+    <subsection>
+        <title>Notes for <xref ref="sec-polygons-length"/></title>
+        <p>
+            To be added. I assign an explanatory letter on the Pythagorean theorem.
+        </p>
+    </subsection>
+
+</section>

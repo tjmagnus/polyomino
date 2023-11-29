@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-polyhedra" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Polyhedra</title>
+  <introduction>
+    <p>
+        This section will include regular and semiregular polyhedra, 
+        volumes and surface area of prisms, cylinders, pyramids, 
+        and cones, Euler's formula for polyhedra.
+    </p>
+  </introduction> 
+   <xi:include href="sec-polyhedra-regular"/>
+   <xi:include href="sec-polyhedra-semiregular"/>
+   <xi:include href="sec-polyhedra-Prisms-Cylinders"/>
+   <xi:include href="sec-polyhedra-pyramids-cones"/>
+    <xi:include href="sec-polyhedra-instructor"/>
+</chapter>
