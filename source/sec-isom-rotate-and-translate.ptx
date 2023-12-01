@@ -153,6 +153,8 @@
             </statement>
         </task>
     </exploration>
+    <subsubsection xml:id="subsec-isom-RAT-props-translation">
+        <title>Properties of Translations</title>
     <p>
         In <xref ref="expl-translation"/>, we observed many of the properties of a 
         transformation called a <term>translation</term>. <idx><h>translation</h></idx>
@@ -169,15 +171,23 @@
     <p>
         In addition, we observed that the translation preserved orientation, distance, angle measure, and shape. When you
         chose a random point on <m>\overline{BC}</m>, its image landed on <m>\overline{B'C'}</m>, suggesting 
-        that a translation should <term>preserve linearity</term> of points. A transformation that preserves 
-        linearity, that takes collinear points to collinear points, is called a <term>collineation</term>.
-        <idx><h>preserves</h><h>linearity</h></idx>
-        <idx><h>collineation</h></idx>
+        that a translation should <term>preserve linearity</term> of points. 
     </p>
+    <definition xml:id="def-">
+        <statement>
+            <p>
+                A transformation that preserves 
+                linearity, that takes collinear points to collinear points, is called a <term>collineation</term>.
+                <idx><h>preserves</h><h>linearity</h></idx>
+                <idx><h>collineation</h></idx>
+            </p>
+        </statement>
+    </definition>
+    </subsubsection>
   </subsection>
   <subsection xml:id="subsec-isom-RAT-rotation">
     <title>Rotations</title>
-    <introduction>
+    <introduction xml:id="intro-def-rotation">
         <p>
             The third transformation we will consider is a <term>rotation</term>. Like a translation, 
             a rotation preserves the orientation of the vertices.  Each rotation has a single point, 
@@ -213,8 +223,10 @@
         <task>
             <statement>
                 <p>
-                    What point in <xref ref="rotated-triangle"/> is the center of the rotation?  
-                    Is it part of either triangle?  How do you know?
+                    What point in <xref ref="rotated-triangle"/> is the center of this particular rotation?  
+                    Is it on either triangle, in the interior of either triangle, or in the exterior of both 
+                    triangles?  How do you know that the point you identified as the center meets the criteria 
+                    in the definition of <xref ref="intro-def-rotation">center</xref>?
                 </p>
             </statement>
         </task>
@@ -264,5 +276,20 @@
             </statement>
         </task>
     </exploration>
+    <subsubsection xml:id="subsec-isom-RAT-props-rotation">
+        <title>Properties of Rotations</title>
+    <p>
+        A rotation is specified by two pieces of information, namely its center and the angle of rotation.  
+        The center is the one point which does not move and forms the vertex for the rotation angle.  
+        A good way to visualize a rotation is to imagine putting a thumbtack through the center and moving the 
+        paper around that center.  The distance between the center and each point does not change under the rotation, 
+        but the direction from the center to each point is changed according to the rotation angle. 
+        Normally we think of a positive rotation moving each point <m>P</m> to its image <m>P’</m> in the 
+        counterclockwise direction. Thus, a rotational angle with negative degree measure would move the image 
+        clockwise around the center. Rotational angles may be greater than 180 degrees or negative; 
+        in fact, any number of degrees is allowed!
+    </p>
+    </subsubsection>
   </subsection>
+  <!--Exercise ideas: rotations where the center is on or in the triangle-->
 </section>
