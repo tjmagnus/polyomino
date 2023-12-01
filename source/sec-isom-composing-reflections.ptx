@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-isom-composing-reflections" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Compositions of Reflections</title>
+<subsection>
+    <title>Summarizing What We Know</title>
+<p>
+    As we prepare to build on our knowledge of isometries, it is wise to summarize what we know so far. 
+    We know that a transformation of a plane is a mapping or function that sends each point <m>P</m> on the
+    plane to a unique point <m>P'</m> called its image under the transformation. Some transformations are 
+    collineations, meaning that if a set of 
+    points all lie on the same line, then their images will also lie on a single line. 
+    We have observed that some collineations preserve shape and angle measure and that some collineations 
+    that preserve angle measure will also preserve distance. The transformations that preserve all of these, 
+    collinearity, angle measure, and distances are called <term>isometries</term>. 
+    
+    COME BACK TO THIS!!!!!!!
+    will be adding one more isometry to the chart in the next class and then we will experiment to see what happens when we do one isometry after another.  Our longterm goal is to answer the question: Is the composition of two isometries always an isometry?  What type?  The chart will be useful in answering these questions!  Fill it out to the best of your ability now even if you’re not 100% certain of your answers.  You will have a chance to revise and add to this chart later.
+
+A defining object is an object that is essential in determining where every point on the plane gets mapped in an isometry.  It does not depend on any one point being mapped but is universal to the entire mapping.  Examples include a reflecting line, center, vector, angle measure.
+
+An isometry has the same orientation if points that were in clockwise order produce images in the same clockwise order.  Every object moved by a same-orientation isometry could be moved into position without being turned over.  If an isometry does not maintain the same orientation, that is, if points originally in clockwise order get moved into counterclockwise order, we say the isometry has reverse orientation.
+
+</p>
+</subsection>
+</section>
