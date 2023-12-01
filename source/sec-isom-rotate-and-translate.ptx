@@ -32,7 +32,14 @@
   </subsection>
   <subsection xml:id="subsec-isom-RAT-translation">
     <title>Translations</title>
-    <exploration>
+    <introduction>
+        <p>
+            In the next exploration, you are given a picture of an object and its image under a translation.
+            As you complete the tasks, think about what properties a translation must have and how one might 
+            describe a specific translation.
+        </p>
+    </introduction>
+    <exploration xml:id="expl-translation">
         <title>Exploring a Translation</title>
         <introduction>
             <p>
@@ -65,6 +72,14 @@
         <task>
             <statement>
                 <p>
+                    Is the orientation of the triangle <m>\Delta ABC</m> preserved under the translation? How do 
+                    you know?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
                     Sketch the segments <m>\overline{AA'}</m>, <m>\overline{BB'}</m>,
                     and <m>\overline{CC'}</m>. 
                     <ol>
@@ -85,10 +100,17 @@
             </statement>
             <hint>
                 <p>
-                    (b) Since lines have infinite length, you should be looking for a property other
+                    Since lines have infinite length, you should be looking for a property other
                     than length.
                 </p>
             </hint>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Are the
+                </p>
+            </statement>
         </task>
         <task>
             <statement>
@@ -130,7 +152,117 @@
                 </p>
             </statement>
         </task>
-        
+    </exploration>
+    <p>
+        In <xref ref="expl-translation"/>, we observed many of the properties of a 
+        transformation called a <term>translation</term>. <idx><h>translation</h></idx>
+        Each translation is uniquely defined by a <term>translation vector</term><fn>A <term>vector</term>
+        is simply a directed line segment between two points.</fn> which indicates 
+        the direction and distance that every point is moved by the translation. The choice of the translation
+        vector, on the other hand, is not unique. Any vector of the same length which points in the same 
+        direction may serve as the vector for the translation. In <xref ref="translated-triangle"/>, the vector 
+        <m>\overrightarrow{BB'}</m> is a translation vector for the given translation; however, <m>\overrightarrow{AA'}</m>,
+        <m>\overrightarrow{CC'}</m>, or even your <m>\overrightarrow{EE'}</m> would describe the same translation. Any of these
+        may be chosen as the translation vector for this translation. You probably noticed that these were parallel 
+        and the same length.
+    </p>
+    <p>
+        In addition, we observed that the translation preserved orientation, distance, angle measure, and shape. When you
+        chose a random point on <m>\overline{BC}</m>, its image landed on <m>\overline{B'C'}</m>, suggesting 
+        that a translation should <term>preserve linearity</term> of points. A transformation that preserves 
+        linearity, that takes collinear points to collinear points, is called a <term>collineation</term>.
+        <idx><h>preserves</h><h>linearity</h></idx>
+        <idx><h>collineation</h></idx>
+    </p>
+  </subsection>
+  <subsection xml:id="subsec-isom-RAT-rotation">
+    <title>Rotations</title>
+    <introduction>
+        <p>
+            The third transformation we will consider is a <term>rotation</term>. Like a translation, 
+            a rotation preserves the orientation of the vertices.  Each rotation has a single point, 
+            called the <term>center</term> of the rotation, which is not moved by the rotation.  
+            All other points are rotated around the center a specific number of degrees.
+            <idx><h>rotation</h></idx>
+            <idx><h>center</h><h>of a rotation</h></idx>
+        </p>
+    </introduction>
+    <exploration xml:id="expl-rotation">
+        <title>Exploring a Rotation</title>
+        <introduction>
+            <p>
+                Figure <xref ref="rotated-triangle"/> shows an example of the action of a translation on triangle <m>\Delta ABC</m>. Use this 
+                figure to answer the following:
+            </p>
+            <figure width="90%" xml:id="rotated-triangle">
+                <caption>A rotation of <m>\Delta ABC</m></caption>
+                <image source="rotation" width="90%">
+                    <description>Triangle ABC is rotated around a point F to form triangle A'B'C'.</description>
+                </image>
+            </figure>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    List the vertices of the original triangle in clockwise order starting with <m>A</m>.  
+                    List the vertices of the image in clockwise order starting with <m>A’</m>.  
+                    Does the rotation preserve the orientation of the triangle?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What point in <xref ref="rotated-triangle"/> is the center of the rotation?  
+                    Is it part of either triangle?  How do you know?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Is the rotation distance-preserving? How do you know?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    In <xref ref="rotated triangle"/>, the following angle measures are given:
+                    <md><mrow> m\angle{AFC} \amp =48</mrow>
+                        <mrow> m\angle{CFB} \amp =26</mrow>
+                        <mrow> m\angle{BFA'} \amp =36</mrow>
+                        <mrow> m\angle{A'FC'} \amp =48</mrow>
+                        <mrow> m\angle{C'FB'} \amp =26</mrow></md>
+                    Determine the following angle measures:
+                    <ol>
+                        <li>
+                            <p>
+                                <m>\angle{AFA'}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\angle{BFB'}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\angle{CFC'}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the degree measure of the rotational angle of this rotation? 
+                    Is it a clockwise or counterclockwise rotation?
+                </p>
+            </statement>
+        </task>
     </exploration>
   </subsection>
 </section>
