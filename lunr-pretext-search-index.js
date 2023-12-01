@@ -1402,7 +1402,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Orientation-Preserving Isometries",
-  "body": " Orientation-Preserving Isometries   What do we mean by orientation-preserving?  The picture shows a triangle reflected across a line . Although the letters , , and are in alphabetical order when read clockwise from the original figure, the letters in the reflected image are in the reverse order. When this happens, we say that the transformation reverses orientation . Any reflection will be an orientation-reversing transformation.  orientation  reverse orientation   A reflection reverses orientation   Triangle ABC reflected across a line ell to create triangle C'B'A'.    Not all transformations reverse orientation. In this section, you will encounter two types of orientation-preserving transformations: rotations and translations. When either of these is performed, the order in which the vertices are read is unchanged. orientation-preserving  preserve orientation     Translations   Exploring a Translation   Figure shows an example of the action of a translation on triangle . Use this figure to answer the following:   A translation of   Triangle ABC is slid slightly right and upward to form triangle A'B'C'.      Does the transformation mapping to preserve distance? In other words, is the length of each side of equal to its corresponding side in ?    Are the corresponding angles of to congruent?    Sketch the segments , , and .   What do you notice about the lengths of these segments?    What appears to be true about the lines , , and ?      (b) Since lines have infinite length, you should be looking for a property other than length.    An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of triangle , and point lying in the interior of .   Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point the image of under the transformation that takes to . How is the location of related to ?       We call the isometry in a translation. Describe in your own words how a translation acts on points in the plane.     "
+  "body": " Orientation-Preserving Isometries   What do we mean by orientation-preserving?  The picture shows a triangle reflected across a line . Although the letters , , and are in alphabetical order when read clockwise from the original figure, the letters in the reflected image are in the reverse order. When this happens, we say that the transformation reverses orientation . Any reflection will be an orientation-reversing transformation.  orientation  reverse orientation   A reflection reverses orientation   Triangle ABC reflected across a line ell to create triangle C'B'A'.    Not all transformations reverse orientation. In this section, you will encounter two types of orientation-preserving transformations: rotations and translations. When either of these is performed, the order in which the vertices are read is unchanged. orientation-preserving  preserve orientation     Translations   In the next exploration, you are given a picture of an object and its image under a translation. As you complete the tasks, think about what properties a translation must have and how one might describe a specific translation.    Exploring a Translation   Figure shows an example of the action of a translation on triangle . Use this figure to answer the following:   A translation of   Triangle ABC is slid slightly right and upward to form triangle A'B'C'.      Does the transformation mapping to preserve distance? In other words, is the length of each side of equal to its corresponding side in ?    Are the corresponding angles of to congruent?    Is the orientation of the triangle preserved under the translation? How do you know?    Sketch the segments , , and .   What do you notice about the lengths of these segments?    What appears to be true about the lines , , and ?      Since lines have infinite length, you should be looking for a property other than length.    Are the    An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of triangle , and point lying in the interior of .   Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point the image of under the transformation that takes to . How is the location of related to ?       We call the isometry in a translation. Describe in your own words how a translation acts on points in the plane.    In , we observed many of the properties of a transformation called a translation . translation Each translation is uniquely defined by a translation vector A vector is simply a directed line segment between two points. which indicates the direction and distance that every point is moved by the translation. The choice of the translation vector, on the other hand, is not unique. Any vector of the same length which points in the same direction may serve as the vector for the translation. In , the vector is a translation vector for the given translation; however, , , or even your would describe the same translation. Any of these may be chosen as the translation vector for this translation. You probably noticed that these were parallel and the same length.  In addition, we observed that the translation preserved orientation, distance, angle measure, and shape. When you chose a random point on , its image landed on , suggesting that a translation should preserve linearity of points. A transformation that preserves linearity, that takes collinear points to collinear points, is called a collineation . preserves linearity  collineation     Rotations   The third transformation we will consider is a rotation . Like a translation, a rotation preserves the orientation of the vertices. Each rotation has a single point, called the center of the rotation, which is not moved by the rotation. All other points are rotated around the center a specific number of degrees. rotation  center of a rotation     Exploring a Rotation   Figure shows an example of the action of a translation on triangle . Use this figure to answer the following:   A rotation of   Triangle ABC is rotated around a point F to form triangle A'B'C'.      List the vertices of the original triangle in clockwise order starting with . List the vertices of the image in clockwise order starting with . Does the rotation preserve the orientation of the triangle?    What point in is the center of the rotation? Is it part of either triangle? How do you know?    Is the rotation distance-preserving? How do you know?    In , the following angle measures are given: Determine the following angle measures:                     What is the degree measure of the rotational angle of this rotation? Is it a clockwise or counterclockwise rotation?     "
 },
 {
   "id": "subsec-isom-RAT-definingOP-2",
@@ -1432,13 +1432,49 @@ var ptx_lunr_docs = [
   "body": "orientation-preserving "
 },
 {
-  "id": "subsec-isom-RAT-translation-2",
+  "id": "expl-translation",
   "level": "2",
-  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-translation-2",
+  "url": "sec-isom-rotate-and-translate.html#expl-translation",
   "type": "Exploration",
   "number": "4.2.1",
   "title": "Exploring a Translation.",
-  "body": " Exploring a Translation   Figure shows an example of the action of a translation on triangle . Use this figure to answer the following:   A translation of   Triangle ABC is slid slightly right and upward to form triangle A'B'C'.      Does the transformation mapping to preserve distance? In other words, is the length of each side of equal to its corresponding side in ?    Are the corresponding angles of to congruent?    Sketch the segments , , and .   What do you notice about the lengths of these segments?    What appears to be true about the lines , , and ?      (b) Since lines have infinite length, you should be looking for a property other than length.    An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of triangle , and point lying in the interior of .   Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point the image of under the transformation that takes to . How is the location of related to ?       We call the isometry in a translation. Describe in your own words how a translation acts on points in the plane.   "
+  "body": " Exploring a Translation   Figure shows an example of the action of a translation on triangle . Use this figure to answer the following:   A translation of   Triangle ABC is slid slightly right and upward to form triangle A'B'C'.      Does the transformation mapping to preserve distance? In other words, is the length of each side of equal to its corresponding side in ?    Are the corresponding angles of to congruent?    Is the orientation of the triangle preserved under the translation? How do you know?    Sketch the segments , , and .   What do you notice about the lengths of these segments?    What appears to be true about the lines , , and ?      Since lines have infinite length, you should be looking for a property other than length.    Are the    An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of triangle , and point lying in the interior of .   Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point the image of under the transformation that takes to . How is the location of related to ?       We call the isometry in a translation. Describe in your own words how a translation acts on points in the plane.   "
+},
+{
+  "id": "subsec-isom-RAT-translation-4",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-translation-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "translation translation vector vector "
+},
+{
+  "id": "subsec-isom-RAT-translation-5",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-translation-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "preserve linearity collineation "
+},
+{
+  "id": "subsec-isom-RAT-rotation-2-1",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-rotation-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "rotation center "
+},
+{
+  "id": "expl-rotation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#expl-rotation",
+  "type": "Exploration",
+  "number": "4.2.2",
+  "title": "Exploring a Rotation.",
+  "body": " Exploring a Rotation   Figure shows an example of the action of a translation on triangle . Use this figure to answer the following:   A rotation of   Triangle ABC is rotated around a point F to form triangle A'B'C'.      List the vertices of the original triangle in clockwise order starting with . List the vertices of the image in clockwise order starting with . Does the rotation preserve the orientation of the triangle?    What point in is the center of the rotation? Is it part of either triangle? How do you know?    Is the rotation distance-preserving? How do you know?    In , the following angle measures are given: Determine the following angle measures:                     What is the degree measure of the rotational angle of this rotation? Is it a clockwise or counterclockwise rotation?   "
 },
 {
   "id": "list-of-principles",
