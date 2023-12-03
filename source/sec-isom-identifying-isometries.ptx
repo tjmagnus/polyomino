@@ -4,6 +4,24 @@
   <title>Identifying Isometries</title>
 <subsection>
     <title>Summarizing What We Know and Generating New Questions</title>
+    <introduction>
+        <p>
+                As we prepare to build on our knowledge of isometries, 
+                it is wise to summarize what we know so far. 
+                We know that a transformation of a plane is a mapping or function 
+                that sends each point <m>P</m> on the
+                plane to a unique point <m>P'</m> called its image under the 
+                transformation. Some transformations are 
+                <term>collineations</term>, meaning that if a set of 
+                points all lie on the same line, then their images will also lie on 
+                a single line. 
+                We have observed that some collineations preserve shape and angle 
+                measure and that some collineations 
+                that preserve angle measure will also preserve distance. 
+                The transformations that preserve all of these, 
+                collinearity, angle measure, and distance, are called <term>isometries</term>.
+            </p>
+    </introduction>
     <exercise>
       <title>Reflect and Wonder</title>
       <statement>
@@ -11,13 +29,15 @@
           <ol>
             <li>
               <p>
-                Write down three things you know about transformations.
+                Write down three things you know about transformations,
+                especially the three isometries we have looked at, namely 
+                reflections, translations, and rotations.
               </p>
             </li>
             <li>
               <p>
-                Is there anything that was discussed in the sections on transformations that you need 
-                clarity on?
+                Is there anything that was discussed in the first sections 
+                on transformations that you need clarity on?
               </p>
             </li>
             <li>
@@ -30,36 +50,44 @@
       </statement>
     </exercise>
     <p>
-        As we prepare to build on our knowledge of isometries, it is wise to summarize what we know so far. 
-        We know that a transformation of a plane is a mapping or function that sends each point <m>P</m> on the
-        plane to a unique point <m>P'</m> called its image under the transformation. Some transformations are 
-        collineations, meaning that if a set of 
-        points all lie on the same line, then their images will also lie on a single line. 
-        We have observed that some collineations preserve shape and angle measure and that some collineations 
-        that preserve angle measure will also preserve distance. The transformations that preserve all of these, 
-        collinearity, angle measure, and distance, are called <term>isometries</term>. 
-    </p>
-    <p>
-        We are now familiar with three types of isometries: reflections, translations, and rotations. Are 
-        there other types of isometries? Are there transformations that are not isometries? Given a picture 
+        We are now familiar with three types of isometries: reflections, 
+        translations, and rotations. Are there other types of isometries? 
+        Are there transformations that are not isometries? Given a picture 
         of two congruent figures, is there always an isometry mapping one to the other? If so, how do we 
         determine what type of isometry it is? 
     </p>
     <p>
-        For this last question, we look at some of the properties that distinguish the types of isometries. 
-        If the orientation is reversed, the isometry may be a reflection. On the other hand, if the
-        orientation is preserved, the isometry will not be a reflection, but may be a translation or a 
-        rotation. Once we deside the type of isometry, we will want to specify it further by naming the 
-        mirror line for a reflection, a translation vector for a translation, or 
-        the center and rotational angle for a reflection.
+        The answer to the final question is yes. If we have two congruent figures,
+        there will be an isometry that maps one onto the other. In fact, this notion 
+        of congruence as being able to lay one figure on top of the other preceded
+        the more technical measurement definitions for congruence taught in many 
+        middle and high school geometry classes. There has been a shift back to 
+        this transformational meaning of congruent in recent years. It is possible your 
+        teacher adopted this approach.
+    </p>
+    <p>
+        Our goal is this section and next will be to identify the type of isometry 
+        that takes one figure onto a congruent copy. Is it a reflection, a translation, 
+        a rotation, or something else? Then having determined the type can we specify 
+        the exact action that performs the movement. A good place to start is to 
+        identify whether the isometry preserves orientation.
     </p>
     <exercise>
       <title>
-        Reflect and Wonder
+        Distinguishing Between Types of Isometries
       </title>
       <statement>
         <p>
           <ol>
+            <li>
+                <p>
+                  Imagine that <m>\Delta ABC</m> is a moveable cutout triangle with a pretty blue pattern on 
+                  the front face and gray cardboard on the back. We can think of the action of an isometry 
+                  as moving <m>\Delta ABC</m> so that it aligns perfectly with its image <m>\Delta A'B'C'</m>.   
+                  Which isometries studied so far will keep <m>\Delta ABC</m> blue side up? Which will turn 
+                  <m>\Delta ABC</m> over so that it is cardboard side up? What property is this related to?
+                </p>
+            </li>
             <li>
               <p>
                 How might you tell the difference between a translation and a rotation? Assume that you are 
@@ -69,33 +97,46 @@
                 neither?
               </p>
             </li>
-            <li>
-              <p>
-                Imagine that <m>\Delta ABC</m> is a moveable cutout triangle with a pretty blue pattern on 
-                the front face and gray cardboard on the back. We can think of the action of an isometry 
-                as moving <m>\Delta ABC</m> so that it aligns perfectly with its image <m>\Delta A'B'C'</m>.   
-                Which isometries studied so far will keep <m>\Delta ABC</m> blue side up? Which will turn 
-                <m>\Delta ABC</m> over so that it is cardboard side up? What property is this related to?
-              </p>
-            </li>
           </ol>
         </p>
       </statement>
-    <p> 
-        Is the composition of two isometries always an isometry?  What type?  
-        The chart will be useful in answering these questions!  Fill it out to the best of your ability 
-        now even if you’re not 100% certain of your answers.  You will have a chance to revise and add to this 
-        chart later.
-    </p>
-    A defining object is an object that is essential in determining where every point on the 
-    plane gets mapped in an isometry.  It does not depend on any one point being mapped but is universal to 
-    the entire mapping.  
-    Examples include a reflecting line, center, vector, angle measure.
-    An isometry has the same orientation if points that were in clockwise order produce images in the same 
-    clockwise order.  Every object moved by a same-orientation isometry could be moved into position without 
-    being turned over.  If an isometry does not maintain the same orientation, that is, if points originally 
-    in clockwise order get moved into counterclockwise order, we say the isometry has reverse orientation.
-
     </exercise>
-</subsection>
+    </subsection>
+    <subsection>
+        <title>Defining Objects of Isometries</title>
+            <p>
+                Now that we can determine whether the isometry mapping one 
+                figure onto a congruent image is a reflection, translation,
+                or rotation, we need to identify the defining object(s) of the 
+                isometry. Table <xref ref="table-def-obj-1"/> lists the defining 
+                objects for the three isometries we have studied. 
+            </p>
+                <table>
+                    <title>Defining Objects for Three Isometries</title>
+                    <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                      <cell>Isometry</cell>
+                      <cell>Defining Objects</cell>
+                        </row>
+                        <row header="no">
+                            <cell>Reflection</cell>
+                            <cell>Reflecting Line (or mirror)</cell>
+                        </row>
+                        <row>
+                            <cell>Translation</cell>
+                            <cell>Translation Vector</cell>
+                        </row>
+                        <row>
+                            <cell>Rotation</cell>
+                            <cell>Center and Rotational Angle</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p>
+                    Although the defining objects will determine how the 
+                    isometry acts on all points in the plane, we will focus on just a
+                    few points <m>P</m> their images <m>P'</m> in order to find the defining 
+                    objects.
+                </p>
+    </subsection>
 </section>
