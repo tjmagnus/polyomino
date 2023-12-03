@@ -61,6 +61,7 @@
 
 <xi:include href="sec-isom-reflect-Cartesian.ptx"/>
 <xi:include href="sec-isom-rotate-and-translate.ptx"/>
+<xi:include href="sec-isom-identifying-isometries.ptx"/>
 <xi:include href="sec-isom-composing-reflections.ptx"/>
 <!--<xi:include href="sec-isom-reflecting-with-tech.ptx"/>-->
 <xi:include href="sec-isom-instructor.ptx"/>

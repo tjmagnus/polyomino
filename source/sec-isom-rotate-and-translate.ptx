@@ -43,7 +43,7 @@
         <title>Exploring a Translation</title>
         <introduction>
             <p>
-                Figure <xref ref="translated-triangle"/> shows an example of the action of a translation on triangle <m>\Delta ABC</m>. Use this 
+                <xref ref="translated-triangle"/> shows an example of the action of a translation on triangle <m>\Delta ABC</m>. Use this 
                 figure to answer the following:
             </p>
             <figure width="90%" xml:id="translated-triangle">
@@ -105,13 +105,13 @@
                 </p>
             </hint>
         </task>
-        <task>
+       <!--<task>
             <statement>
                 <p>
                     Are the
                 </p>
             </statement>
-        </task>
+        </task>-->
         <task>
             <statement>
                 <p>
@@ -240,7 +240,7 @@
         <task>
             <statement>
                 <p>
-                    In <xref ref="rotated triangle"/>, the following angle measures are given:
+                    In <xref ref="rotated-triangle"/>, the following angle measures are given:
                     <md><mrow> m\angle{AFC} \amp =48</mrow>
                         <mrow> m\angle{CFB} \amp =26</mrow>
                         <mrow> m\angle{BFA'} \amp =36</mrow>
@@ -291,5 +291,6 @@
     </p>
     </subsubsection>
   </subsection>
-  <!--Exercise ideas: rotations where the center is on or in the triangle-->
+  <!--Exercise ideas: rotations where the center is on or in the triangle.
+Drawing the image of a translation. Drawing the image of a rotation.-->
 </section>
