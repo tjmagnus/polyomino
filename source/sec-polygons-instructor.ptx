@@ -113,6 +113,14 @@
         <title>Notes for <xref ref="sec-polygons-length"/></title>
         <p>
             To be added. I assign an explanatory letter on the Pythagorean theorem.
+            I need to go back and fix some of the puzzles. Because three of the 
+            blue copies of triangles are duplicates of the first, they do not 
+            expand if you change the shape of <m>\Delta ABC</m>, but the first  
+            triangle does. Until this is fixed, encourage students not to touch 
+            <m>\Delta ABC</m>. They can use the reset icon or Ctrl-Z to go back if a 
+            student does 
+            this. They can also refresh the webpage and it will go back to the 
+            original. It should stay on the same page.
         </p>
     </subsection>
 
