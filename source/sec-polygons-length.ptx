@@ -168,13 +168,6 @@
             The four triangles on the right are congruent copies of <m>\Delta ABC</m>
             and the square in the upper right has side length <m>c</m>.
           </p>
-          <image source="PythRightTriCsquare">
-            <description>
-              Right triangle ABC and four congruent copies, a square
-              of side length c, and a larger square that can be filled by four copies of  
-              the triangle and the smaller square.
-            </description>
-          </image>
           <figure xml:id="PythRTriCsq">
             <caption>
                 An interactive Geogebra applet for proving the Pythagorean Theorem.
@@ -220,18 +213,18 @@
             the shorter leg of the right triangle. The square below  
             it has a side length <m>b</m> corresponding to the other leg.
           </p>
-          <image source="PythRightTriABsquares">
+          <!--<image source="PythRightTriABsquares">
             <description>Four congruent right triangles, two squares with side lengths, a 
               and b,
               corresponding to the legs of the right triangle, and a larger square frame.
             </description>
-          </image>
+          </image>-->
           <figure xml:id="PythRTriABsq">
             <caption>
                 An interactive Geogebra applet for proving the Pythagorean Theorem.
             </caption>
         <interactive xml:id="pythproofgeoapp" platform="geogebra">
-            <slate surface="geogebra" material="c2re6w2y"/>
+            <slate surface="geogebra" material="hsbubxhz"/>
         </interactive>
         </figure>
           <p>
@@ -379,7 +372,7 @@
           <li>
             <p>
               What is the length of a side of the small square in terms of the labels <m>a</m>,
-              <m>b</m>, and <m>c</m>?
+              <m>b</m>, and/or <m>c</m>?
             </p>
           </li>
           <li>
@@ -401,7 +394,9 @@
           </li>
           <li>
             <p>
-              Does the small square have the same dimensions as before? How do you know?
+              How do you know that the two squares in your diagram are actually 
+              squares and that their side lengths are <m>a</m> and <m>b</m>, respectively? 
+              Base your arguement on the lengths of the triangle sides.
             </p>
           </li>
           <li>
