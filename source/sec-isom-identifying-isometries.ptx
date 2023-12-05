@@ -103,40 +103,109 @@
     </exercise>
     </subsection>
     <subsection>
-        <title>Defining Objects of Isometries</title>
+      <title>Defining Objects of Isometries</title>
+        <p>
+          Now that we can determine whether the isometry mapping one 
+          figure onto a congruent image is a reflection, translation,
+          or rotation, we need to identify the defining object(s) of the 
+          isometry. Table <xref ref="table-def-obj-1"/> lists the defining 
+          objects for the three isometries we have studied. 
+        </p>
+        <table>
+            <title>Defining Objects for Three Isometries</title>
+            <tabular halign="center">
+                <row header="yes" bottom="minor">
+              <cell>Isometry</cell>
+              <cell>Defining Objects</cell>
+                </row>
+                <row header="no">
+                    <cell>Reflection</cell>
+                    <cell>Reflecting Line (or mirror)</cell>
+                </row>
+                <row>
+                    <cell>Translation</cell>
+                    <cell>Translation Vector</cell>
+                </row>
+                <row>
+                    <cell>Rotation</cell>
+                    <cell>Center and Rotational Angle</cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            How do we find the mirror? the vector? the center and angle for an isometry?
+            Although the defining objects will determine how the 
+            isometry acts on all points in the plane, we will focus on just a
+            few points <m>P</m> their images <m>P'</m> in order to find the defining 
+            objects. 
+        </p>
+        <exploration xml:id="expl-isom-finding-defining-objects">
+          <title>
+            Finding Defining Objects of Isometries
+          </title>
+          <introduction>
             <p>
-                Now that we can determine whether the isometry mapping one 
-                figure onto a congruent image is a reflection, translation,
-                or rotation, we need to identify the defining object(s) of the 
-                isometry. Table <xref ref="table-def-obj-1"/> lists the defining 
-                objects for the three isometries we have studied. 
+              For each isometry, we will observe some properties of the isometry 
+              and defining object(s) and then use these properties to construct 
+              the defining object(s).
             </p>
-                <table>
-                    <title>Defining Objects for Three Isometries</title>
-                    <tabular halign="center">
-                        <row header="yes" bottom="minor">
-                      <cell>Isometry</cell>
-                      <cell>Defining Objects</cell>
-                        </row>
-                        <row header="no">
-                            <cell>Reflection</cell>
-                            <cell>Reflecting Line (or mirror)</cell>
-                        </row>
-                        <row>
-                            <cell>Translation</cell>
-                            <cell>Translation Vector</cell>
-                        </row>
-                        <row>
-                            <cell>Rotation</cell>
-                            <cell>Center and Rotational Angle</cell>
-                        </row>
-                    </tabular>
-                </table>
-                <p>
-                    Although the defining objects will determine how the 
-                    isometry acts on all points in the plane, we will focus on just a
-                    few points <m>P</m> their images <m>P'</m> in order to find the defining 
-                    objects.
-                </p>
+          </introduction>
+          <task xml:id="task-mirror">
+            <title>Finding the Mirror of a Reflection</title>
+            <statement>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      Refer to <xref ref="reversing-orientation-fig"/> which shows 
+                      a reflection of <m>\Delta ABC</m> across line <m>m</m>, 
+                      how is the reflecting line related to each segment connecting a 
+                      point in the triangle to its image? 
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Click on the tools available in the top menu of the following 
+                      interactive. Then sketch the reflecting line for the isometry that 
+                      takes <m>\Delta ABC</m> to <m>\Delta A'B'C'</m> using the tools you 
+                      think would enable you to determine the exact reflecting line. Do not use  
+                      guess and check.
+                    </p>
+                    <figure xml:id="tech-to-find-mirror">
+                      <caption>
+                          An interactive Geogebra applet for finding the mirror of a reflection.
+                      </caption>
+                    <interactive xml:id="app-find-mirror" platform="geogebra">
+                        <slate surface="geogebra" material="yza8zwbr"/>
+                    </interactive>
+                    </figure>
+                  </li>
+                  <li>
+                    <p>
+                    Use the <sq>Reflect About Line</sq> tool in the above app to check that 
+                    reflecting <m>\Delta ABC</m> across the line you created results in 
+                    a triangle that aligns perfectly with <m>\Delta A'B'C'</m>.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                    Write down instructions of how you can create the reflecting line given 
+                    a triangle <m>\Delta ABC</m> and its reflected image <m>\Delta A'B'C'</m>.
+                    The instructions should be detailed enough that others can follow them.
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </statement>
+          </task>
+          <task>
+            <title>Finding the Vector for a Translation</title>
+            <statement>
+              <p>
+                AAAADDDDD
+              </p>
+            </statement>
+          </task>
+        </exploration>
     </subsection>
 </section>

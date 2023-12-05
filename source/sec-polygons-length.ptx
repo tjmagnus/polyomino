@@ -339,7 +339,9 @@
         <statement>
           <p>
             The final proof of the Pythagorean Theorem is primarily 
-            visual. Almost no algebra is required.
+            visual. Almost no algebra is required. The interactive again 
+            provides four copies of a right triangle and a smaller square of  
+            unlabeled side length that can be moved and rotated. 
           </p>
           <figure xml:id="PythBlocks">
             <caption>
@@ -466,7 +468,7 @@
   <exercise>
       <statement>
           <p>
-              Put Pythagorean paper here.
+              
           </p>
       </statement>
   </exercise>
