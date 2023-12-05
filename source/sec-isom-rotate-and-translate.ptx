@@ -30,18 +30,37 @@
             <idx><h>preserve orientation</h></idx>
         </p>
   </subsection>
-  <subsection xml:id="subsec-isom-RAT-translation">
+  <subsection xml:id="subsec-Translations">
     <title>Translations</title>
-    <introduction>
-        <p>
-            In the next exploration, you are given a picture of an object and its image under a translation.
-            As you complete the tasks, think about what properties a translation must have and how one might 
-            describe a specific translation.
-        </p>
-    </introduction>
-    <exploration xml:id="expl-translation">
-        <title>Exploring a Translation</title>
-        <introduction>
+  
+  <exploration xml:id="subsec-isom-RAT-translation">
+    <title>Translating on a Coordinate Plane</title>
+    <task>
+        <statement>
+            <p>
+                <xref ref="app-translate-wcoords"/> gives a picture of quadrilateral <m>ABCD</m> a vector 
+                <m>\overrightarrow{EF}</m> on a coordinate grid. Vector <m>\overrightarrow{EF}</m> goes from <m>(2,4)</m>
+                to <m>(5,3)</m> suggesting that it moves points three units to the right and 
+                one unit down.
+            </p>
+            <figure xml:id="app-translate-wcoords">
+                <caption>An interactive Geogebra applet for translating by a coordinate vector.</caption>
+                <interactive xml:id="coordtranslationapp"
+                platform="geogebra">
+                <slate surface="geogebra" material="dqxsdp2b"/>
+                </interactive>
+            </figure>
+            <p>
+                Use the point tool to locate and mark the image <m>A'</m> created by moving point <m>A</m>
+                by vector <m>\overrightarrow{EF}</m>. Create <m>B'</m>, <m>C'</m>, and <m>D'</m> in a similar 
+                fashion. Then use the polygon tool to draw quadrilateral <m>A'B'C'D'</m>.
+            </p>
+        </statement>
+    </task>
+        
+   
+
+        <!--       <introduction>
             <p>
                 <xref ref="translated-triangle"/> shows an example of the action of a translation on triangle <m>\Delta ABC</m>. Use this 
                 figure to answer the following:
@@ -52,7 +71,7 @@
                     <description>Triangle ABC is slid slightly right and upward to form triangle A'B'C'.</description>
                 </image>
             </figure>
-        </introduction>
+        </introduction>-->
         <task>
             <statement>
                 <p>
@@ -105,13 +124,13 @@
                 </p>
             </hint>
         </task>
-       <!--<task>
+       <task>
             <statement>
                 <p>
                     Are the
                 </p>
             </statement>
-        </task>-->
+        </task>
         <task>
             <statement>
                 <p>
