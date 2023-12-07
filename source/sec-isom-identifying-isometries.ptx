@@ -142,7 +142,7 @@
             Although the defining objects will determine how the 
             isometry acts on all points in the plane, we will focus on just a
             few points <m>P</m> along with their images <m>P'</m> in order to find the defining 
-            objects. 
+            objects. You will want to record your discoveries for later reference.
         </p>
         <exploration xml:id="expl-isom-finding-defining-objects">
           <title>
@@ -207,10 +207,152 @@
             <title>Finding the Vector for a Translation</title>
             <statement>
               <p>
-                In 
+                In <xref ref="explor-isom-RAT-translation"/>, you were given a 
+                translation vector <m>\overrightarrow{EF}</m> which indicated the direction and 
+                distance that each point should be moved, specifically three units
+                right and one unit down. In the activity <m>E</m> had the coordinates  
+                <m>(2,4)</m> and <m>F</m> had the coordinates <m>(5,3)</m>. We will  
+                note that we could have chosen a different vector to represent <q>three 
+                units right and one unit down.</q>
+                  <ol>
+                    <li>
+                      <p>
+                        If the point <m>E</m> had the coordinates <m>(0,0)</m>, what would 
+                        the coordinates of <m>F</m> be so that <m>\overrightarrow{EF}</m> would 
+                        represent three units right and one unit down?
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        If the ending point <m>F</m> has the coordinates <m>(-2,2)</m>, 
+                        what would the coordinates of the starting point <m>E</m> 
+                        be so that <m>\overrightarrow{EF}</m> would 
+                        represent three units right and one unit down?
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Draw, identify, or describe a vector for the translation that takes <m>\Delta ABC</m> 
+                        to <m>\Delta A'B'C'</m> in <xref ref="pic-translated-triangle"/>.
+                      </p>
+                      <figure xml:id="pic-translated-triangle">
+                        <caption>Triangle <m>\Delta ABC</m> is translated to <m>\Delta A'B'C'</m></caption>
+                      <image source="translation"></image>
+                      </figure>
+                    </li>
+                    <li>
+                      <p>
+                        Write instructions that you or someone else could use to find the translation 
+                        vector when any figure and its image under a translation are given.
+                      </p>
+                    </li>
+                </ol>
               </p>
+            </statement>
+          </task>
+          <task xml:id="task-center-and-angle-1">
+            <title>Finding the Center and Angle of a Rotation, part 1</title>
+            <statement>
+              <figure xml:id="fig-find-rotcenter-app-1">
+                <caption>
+                    An interactive Geogebra applet for finding the center and 
+                    angle of a rotation.
+                </caption>
+            <interactive xml:id="find-center-easy" platform="geogebra">
+                <slate surface="geogebra" material="rvqajug7"/>
+            </interactive>
+            </figure>
+            <p>
+              In <xref ref="fig-find-rotcenter-app-1"/>, an L-pentomino and its 
+              image are shown. 
+              <ol>
+                <li>
+                  <p>
+                    Draw or identify the point that is the center of 
+                    the rotation taking <m>ABCDEF</m> to <m>A'B'C'D'E'F'</m>. How do you 
+                    know this point is the center?
+                  </p>
+                </li> 
+                <li>
+                  <p>
+                    Determine the angle of this rotation and specify whether the 
+                    rotation is performed clockwise or counterclockwise.
+                  </p>
+                </li>
+              </ol>
+            </p>
+            </statement>
+            <hint>
+              <p>
+                To measure an angle on GeoGebra, be sure to click the vertex of  
+                the angle second. For example, <m>m\angle BAF</m> would be found 
+                using the angle tool and clicking <m>B</m>, <m>A</m>, and <m>F</m>
+                in that counterclockwise order. If you click the vertices in the 
+                clockwise order, you will get <m>360-\angle BAF</m>.
+              </p> 
+            </hint>
+          </task>
+          <task xml:id="task-center-and-angle-2">
+            <title>Finding the Center and Angle of a Rotation, part 2</title>
+            <statement>
+              <figure xml:id="fig-find-rotcenter-app-2">
+                <caption>
+                    An interactive Geogebra applet for finding the center and 
+                    angle of a rotation.
+                </caption>
+            <interactive xml:id="find-center-unknown" platform="geogebra">
+                <slate surface="geogebra" material="xftukgyr"/>
+            </interactive>
+            </figure>
+            <p>
+              The center in <xref ref="fig-find-rotcenter-app-2"/> is not 
+              easy to identify. Make an initial guess at where the center might 
+              be. What are some things we could try?
+              <ol>
+                <li>
+                  <p>
+                    Perhaps the segments <m>\overline{AA'}</m>, <m>\overline{BB'}</m>, 
+                    and <m>\overline{CC'}</m> might provide information. Sketch these  
+                    three line segments. Do they help? 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Provided GeoGebra tools will allow you to find perpendicular lines, 
+                    perpendicular bisectors, angle bisectors, circles, angle measures, 
+                    and lengths. Any ideas of what we might try?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Since we have sketch the segments <m>\overline{AA'}</m>, <m>\overline{BB'}</m>, 
+                    and <m>\overline{CC'}</m>, let's use the perpendicular bisector tool to find 
+                    the perpendicular bisector of each segment. What do you notice? 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Create point <m>E</m> as a candidate for your center. Verify that 
+                    <m>m\angle AEA'=m\angle BEB' =m\angle CEC'</m>. What is the angle of rotation?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Finally, use the Rotate around Point tool to check your work.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Write instructions to yourself and others on how to find the center and 
+                    angle of a rotation when you are given a picture of a figure and its 
+                    rotated image and they do not share a vertex.
+                  </p>
+                </li>
+              </ol>
+            </p>
             </statement>
           </task>
         </exploration>
     </subsection>
 </section>
+<!--possible exercise on why perpendicular bisector is ideal-->
