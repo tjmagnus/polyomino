@@ -3,7 +3,7 @@
 <section xml:id="sec-isom-identifying-isometries" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Identifying Isometries</title>
 <subsection>
-    <title>Summarizing What We Know and Generating New Questions</title>
+    <title>What do we know? What do we wonder?</title>
     <introduction>
         <p>
                 As we prepare to build on our knowledge of isometries, 
@@ -22,8 +22,9 @@
                 collinearity, angle measure, and distance, are called <term>isometries</term>.
             </p>
     </introduction>
-    <exercise>
+    <exploration>
       <title>Reflect and Wonder</title>
+      <task>
       <statement>
         <p>
           <ol>
@@ -48,7 +49,8 @@
           </ol>
         </p>
       </statement>
-    </exercise>
+      </task>
+    </exploration>
     <p>
         We are now familiar with three types of isometries: reflections, 
         translations, and rotations. Are there other types of isometries? 
@@ -72,35 +74,38 @@
         the exact action that performs the movement. A good place to start is to 
         identify whether the isometry preserves orientation.
     </p>
-    <exercise>
+    <exploration>
       <title>
         Distinguishing Between Types of Isometries
       </title>
-      <statement>
-        <p>
-          <ol>
-            <li>
+      <task>
+        <statement>
+          <p>
+            <ol>
+              <li>
+                  <p>
+                    Imagine that <m>\Delta ABC</m> is a moveable cutout triangle with a pretty blue pattern on 
+                    the front face and gray cardboard on the back. We can think of the action of an isometry 
+                    as moving <m>\Delta ABC</m> so that it aligns perfectly with its image <m>\Delta A'B'C'</m>.   
+                    Which isometries--reflections, translations, and rotations--
+                    studied so far will keep <m>\Delta ABC</m> blue side up? Which will turn 
+                    <m>\Delta ABC</m> over so that it is cardboard side up? What property is this related to?
+                  </p>
+              </li>
+              <li>
                 <p>
-                  Imagine that <m>\Delta ABC</m> is a moveable cutout triangle with a pretty blue pattern on 
-                  the front face and gray cardboard on the back. We can think of the action of an isometry 
-                  as moving <m>\Delta ABC</m> so that it aligns perfectly with its image <m>\Delta A'B'C'</m>.   
-                  Which isometries studied so far will keep <m>\Delta ABC</m> blue side up? Which will turn 
-                  <m>\Delta ABC</m> over so that it is cardboard side up? What property is this related to?
+                  How might you tell the difference between a translation and a rotation? Assume that you are 
+                  given a picture of two congruent triangles <m>\Delta ABC</m> and <m>\Delta A'B'C'</m> where the
+                  orientation is the same. How do you know whether a translation takes <m>\Delta ABC</m> to 
+                  <m>\Delta A'B'C'</m>? How do you know whether the isometry is a rotation? Could it be both? or 
+                  neither?
                 </p>
-            </li>
-            <li>
-              <p>
-                How might you tell the difference between a translation and a rotation? Assume that you are 
-                given a picture of two congruent triangles <m>\Delta ABC</m> and <m>\Delta A'B'C'</m> where the
-                orientation is the same. How do you know whether a translation takes <m>\Delta ABC</m> to 
-                <m>\Delta A'B'C'</m>? How do you know whether the isometry is a rotation? Could it be both? or 
-                neither?
-              </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
-    </exercise>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+    </exploration>
     </subsection>
     <subsection>
       <title>Defining Objects of Isometries</title>
@@ -111,7 +116,7 @@
           isometry. Table <xref ref="table-def-obj-1"/> lists the defining 
           objects for the three isometries we have studied. 
         </p>
-        <table>
+        <table xml:id="table-def-obj-1">
             <title>Defining Objects for Three Isometries</title>
             <tabular halign="center">
                 <row header="yes" bottom="minor">
@@ -136,7 +141,7 @@
             How do we find the mirror? the vector? the center and angle for an isometry?
             Although the defining objects will determine how the 
             isometry acts on all points in the plane, we will focus on just a
-            few points <m>P</m> their images <m>P'</m> in order to find the defining 
+            few points <m>P</m> along with their images <m>P'</m> in order to find the defining 
             objects. 
         </p>
         <exploration xml:id="expl-isom-finding-defining-objects">
@@ -202,7 +207,7 @@
             <title>Finding the Vector for a Translation</title>
             <statement>
               <p>
-                CHANGE ACTIVITY IN RAT AND MOVE SOME OF IT HERE
+                In 
               </p>
             </statement>
           </task>
