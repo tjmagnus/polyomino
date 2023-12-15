@@ -53,22 +53,24 @@
     </exploration>
     <p>
         We are now familiar with three types of isometries: reflections, 
-        translations, and rotations. Are there other types of isometries? 
-        Are there transformations that are not isometries? Given a picture 
-        of two congruent figures, is there always an isometry mapping one to the other? If so, how do we 
+        translations, and rotations. Yet many questions remain: 
+        Are there other types of isometries? 
+        Are there transformations that are not isometries? If two figures are congruent, 
+        is there always an isometry mapping one to the other? If so, how do we 
         determine what type of isometry it is? 
     </p>
     <p>
-        The answer to the final question is yes. If we have two congruent figures,
+        Although we have not proved this fact, it is true that if we have two congruent figures,
         there will be an isometry that maps one onto the other. In fact, this notion 
-        of congruence as being able to lay one figure on top of the other preceded
+        of congruence as being able to lay one figure on top of the other was how Euclid 
+        envisioned congruence. This intuitive definition of congruence preceded
         the more technical measurement definitions for congruence taught in many 
         middle and high school geometry classes. There has been a shift back to 
-        this transformational meaning of congruent in recent years. It is possible your 
+        this transformational meaning of congruent in recent years. Perhaps, your 
         teacher adopted this approach.
     </p>
     <p>
-        Our goal is this section and next will be to identify the type of isometry 
+        Our goal in this section and next will be to identify the type of isometry 
         that takes one figure onto a congruent copy. Is it a reflection, a translation, 
         a rotation, or something else? Then having determined the type can we specify 
         the exact action that performs the movement. A good place to start is to 
@@ -151,7 +153,7 @@
           <introduction>
             <p>
               For each isometry, we will observe some properties of the isometry 
-              and defining object(s) and then use these properties to construct 
+              and defining object(s) and then use these properties to locate 
               the defining object(s).
             </p>
           </introduction>
@@ -353,6 +355,19 @@
             </statement>
           </task>
         </exploration>
+    </subsection>
+    <subsection>
+      <title>
+        Summarizing What You Discovered
+      </title>
+      <p>
+        In <xref ref="table-def-obj-1"/>, the definining objects for each transformation 
+        were given. Copy this table into your notes and add two new columns. The third column 
+        should be titled <term>Orientation</term> and the entries will be either <sq>reversed</sq>
+        or <sq>same</sq>. The final column will be <term>Locating Object(s)</term>. Here you will
+        write down the instructions for finding each of the defining objects in 
+        <xref ref="expl-isom-finding-defining-objects"/>; the last item in each task.
+      </p>
     </subsection>
 </section>
 <!--possible exercise on why perpendicular bisector is ideal-->
