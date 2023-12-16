@@ -3,15 +3,93 @@
 <section xml:id="sec-isom-composing-reflections" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Compositions of Reflections</title>
 <subsection>
-    <title>Goals</title>
-    <exercise>
+    <title>Compositions</title>
+    <p>
+      Each of the transformations we have studied so far, reflections, translations, and rotations, 
+      perform an action on the points of the plane. In fact, a transformation is a <term>function</term>
+      where the inputs are geometric objects instead of numbers. In algebra, you learned about the 
+      <q>add three</q> function, <m>f(x)=x+3</m>, and the <q>multiply by four</q> function, 
+      <m>g(x)=4x</m>. You also learned that you could perform two functions in succession.
+      For example, you could perform the <q>add three</q> function on the number <m>1</m> and then 
+      perform the <q>multiply by 4</q> function on the result. 
+      <me>
+        1 \overset{x+3}{\rightarrow} 4  \overset{4x}{\rightarrow} 16
+      </me>
+      In function notation, we may write <m>g(f(1))=g(1+3)=g(4)=4(4)=16</m> where we perform 
+      the inner function first. We may also perform these operations on a generic value <m>x</m>:
+      <me>g(f(x))=g(x+3)=4(x+3)=4x+12.</me> We note the importance of order. If we multiply by 4
+      first and add 3 second, we get a different result:
+      <me>f(g(x))=f(4x)=(4x)+3=4x+3.</me>
+    </p>
+    <p>
+      We now explore what happens when we compose geometric transformations. We could compose any 
+      two transformations, but we will first focus on reflections. What happens when we perform 
+      two or more reflections in succession? Do we get another reflection? Does it matter whether 
+      the lines are parallel? Does the order in which we perform the reflections matter?
+    </p>
+    <definition xml:id="def-composition">
+      <idx><h>composition</h></idx>
+      <p>
+        A <term>composition</term> of two transformations is a sequence of two transformations, 
+        <m>S</m> and <m>T</m>, performed 
+        in succession. To find the image of a point <m>P</m> under the composition, <m>S</m> 
+        followed by <m>T</m>, written <m>t(s(P))</m>, one first finds the image <m>P'</m>
+        of <m>P</m> under the action of <m>s</m> and then finds the image <m>P"</m> of  
+        <m>P'</m> under <m>t</m>.
+        <me>
+          P \overset{s}\rightarrow s(P)=P' \overset{t}\rightarrow t(P')=P''.
+        </me>
+      </p>
+    </definition>
+    <exploration>
       <title>Reflecting across Parallel Lines</title>
+      <task>
       <statement>
+        <figure xml:id="app-reflect2parallels">
+          <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
+          <interactive xml:id="ref2paralinesapp"
+          platform="geogebra">
+          <slate surface="geogebra" material="vswhjpfa"/>
+          </interactive>
+      </figure>
         <p>
-          Add
+          First explore what happens when you reflect an object first over line <m>g</m>
+          and then over line <m>h</m>  where <m>g</m> and <m>h</m> are parallel. 
+          
         </p>
       </statement>
-    </exercise>
+      <hint>
+          Use the <sq>reflect across line</sq> tool 
+          that looks like a red and blue dot on opposite sides of a diagonal line. 
+          Select the tool, select the pentomino, and then select the line. 
+          When you reflect across the second line <m>h</m> be sure to reflect the new 
+          pentomino <m>A'B'C'D'E'F'</m>, not the original.  Geogebra should label the 
+          vertices of the final object with <m>A'', B'', </m>, 
+          etc. You may choose to hide (use show/hide tool) the intermediate objects or color 
+          the initial and final objects (use right-click on the interior of the pentomino)
+          so that it is easier to focus on the first and final figures.
+      </hint>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What type of isometry takes <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Is it a 
+            reflection, a translation, a rotation, or something else?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Refer to <xref ref="table-def-obj-1"/> or the table you created at the end of 
+            <xref ref="subsec-isom-identify-exptable"/>. What is the defining object for 
+            the isometry taking <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Use the appropriate 
+            tools to locate and sketch the defining object for this isometry.
+          </p>
+        </statement>
+      </task>
+    </exploration>
+    
     <p>
         Add 
     </p>

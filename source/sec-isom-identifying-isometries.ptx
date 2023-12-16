@@ -356,7 +356,7 @@
           </task>
         </exploration>
     </subsection>
-    <subsection>
+    <subsection xml:id="subsec-isom-identify-exptable">
       <title>
         Summarizing What You Discovered
       </title>
