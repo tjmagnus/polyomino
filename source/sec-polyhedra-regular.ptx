@@ -3,7 +3,116 @@
     <subsection>
         <title>Definitions</title>
         <p>
-            Add here.
+            In this section we will explore three-dimensional solids. Solids with 
+            flat polygonal sides, like cubes and pyramids, are called polyhedra.
         </p>
+        <definition xml:id="def-polyhedron">
+            <idx><h>polyhedron</h></idx>
+            <statement>
+                <p>
+                    A <term>polyhedron (plural: polyhedra)</term> is a 
+                    three-dimensional closed figure in which all of the faces are polygons.  
+                </p>
+            </statement>
+        </definition>
+        <p>
+            We begin by defining and exploring regular polyhedra.
+        </p>
+        <definition xml:id="def-regpolyhedron">
+            <idx><h>regular polyhedron</h></idx>
+            <idx><h>polyhedron</h><h>regular</h></idx>
+            <statement>
+                <p>
+                    A polyhedron is said to be <term>regular</term>
+                    if it satisfies these two conditions:
+                    <ul>
+                        <li>
+                            <p>
+                                Every face is the same regular polygon and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                At every vertex, the number of polygons 
+                                is the same.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </definition>
+        <exercise>
+            <statement>
+                <p>
+                    Which of the following solids are polygons?
+                    <ol>
+                        <li>
+                            <p>
+                                cylinder  
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                cube
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                triangular prism 
+                            </p>
+                        </li>
+                        <li>
+                            sphere 
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    A cube and triangular prism are polyhedra. 
+                    A cylinder and sphere have curved surfaces.
+                </p>
+            </answer>
+        </exercise>
     </subsection>
+    <exploration>
+        <title>
+            Discovering Regular Polyhedra
+        </title>
+        <task>
+            <statement>
+                <p>
+                    Explain why a square pyramid is not a regular 
+                    polyhedron.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Reread the definition for <xref ref="def-regpolyhedron"/> regular polyhedron.
+                </p>
+            </hint>
+        </task>
+<task>
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    In <xref ref="sec-polygons-regular"/>, 
+                    we found the sum of the measures of the 
+                    angles at a vertex was always the same. What was that number?
+                </li>
+                <li>
+                    Why must the total degree of the angles surrounding a vertex be less than that amount if 
+                    we are building a polyhedron?
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <hint>
+        <p>
+            Look at some polyhedra or attempt to build some. Your classroom is a polyhedra.
+        </p>
+    </hint>
+</task>
+    </exploration>
 </section>
