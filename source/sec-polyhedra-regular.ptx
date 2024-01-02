@@ -8,15 +8,32 @@
         </p>
         <definition xml:id="def-polyhedron">
             <idx><h>polyhedron</h></idx>
+            <idx><h>face</h></idx>
+            <idx><h>edge</h><h>polyhedron</h></idx>
+            <idx><h>vertex</h><h>polyhedron</h></idx>
+            <idx><h>polyhedron</h><h>face</h></idx>
+            <idx><h>polyhedron</h><h>edge</h></idx>
+            <idx><h>polyhedron</h><h>vertex</h></idx>
             <statement>
                 <p>
                     A <term>polyhedron (plural: polyhedra)</term> is a 
                     three-dimensional closed figure in which all of the faces are polygons.  
                 </p>
+                <p>
+                    Here, a <term>face</term> of a geometrical solid refers to a flat surface 
+                    that forms part of the boundary of the solid. The line segments where two 
+                    faces meet are called <term>edges</term>, and the <sq>corners</sq> where  
+                    edges meet are called the <term>vertices</term> of the polyhedron. The  
+                    vertices of the polyhedron are also vertices of polygonal faces. Unless  
+                    specified otherwise, we will be measuring the angles formed by a pair of edges  
+                    which is the same as measuring the angle of a vertex of a polygonal face.
+                </p>
             </statement>
         </definition>
         <p>
-            We begin by defining and exploring regular polyhedra.
+            We begin by defining and exploring regular polyhedra. These solids appear in ancient art 
+            work and are used to model chemical and biological structures today. We will find that only 
+            a few exist.
         </p>
         <definition xml:id="def-regpolyhedron">
             <idx><h>regular polyhedron</h></idx>
@@ -92,27 +109,89 @@
                 </p>
             </hint>
         </task>
-<task>
-    <statement>
-        <p>
-            <ol>
-                <li>
-                    In <xref ref="sec-polygons-regular"/>, 
-                    we found the sum of the measures of the 
-                    angles at a vertex was always the same. What was that number?
-                </li>
-                <li>
-                    Why must the total degree of the angles surrounding a vertex be less than that amount if 
-                    we are building a polyhedron?
-                </li>
-            </ol>
-        </p>
-    </statement>
-    <hint>
-        <p>
-            Look at some polyhedra or attempt to build some. Your classroom is a polyhedra.
-        </p>
-    </hint>
-</task>
+        <task>
+            <statement>
+                <p>
+                    <ol>
+                        <li>
+                            In <xref ref="sec-polygons-regular"/>, 
+                            we found the sum of the measures of the 
+                            angles surrounding a vertex was always the same. What was that number?
+                        </li>
+                        <li>
+                            Why must the total degree of the angles surrounding a vertex be 
+                            less than that amount if 
+                            we are building a polyhedron?
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Look at some polyhedra or attempt to build some. 
+                    Unless it has curved walls, your classroom is probably a polyhedra.
+                </p>
+            </hint>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    For this task, you will need plastic or tagboard copies of congruent equilateral 
+                    triangles that can be put together. An online search for 
+                    <sq>isometric graph paper<sq> will give you a sheet of congruent triangles that could 
+                    be enlarged, printed on stiff paper, and cut. Equilateral triangles for building polyhedra may also be created 
+                    from straws and string. Side length of at least two inches is recommended.
+                </p>
+                <p>
+                    Which regular polyhedra can be formed using equilateral triangles? To answer this  
+                    question, we will consider the possible number of triangles that could meet at each 
+                    vertex and attempt to construct the polyhedron, making sure that we keep the vertex   
+                    arrangement consistent. A summary chart is provided at the end of this task to 
+                    organize your discoveries.
+                    <ol>
+                        <li>
+                            <p>
+                                What happens when you try to construct a polyhedron with only two triangles meeting at 
+                                a vertex? 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                It is possible to create a polyhedron with exactly three triangles  
+                                meeting at every vertex. 
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Build this polygon and describe its shape or save a picture of it.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            How many triangular faces does this polyhedron have?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the largest number of triangles that can meet at a vertex to form a corner or point of a 
+                                polyhedron? What happens when you squeeze one more triangle in at the vertex?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
     </exploration>
 </section>
