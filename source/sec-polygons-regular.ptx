@@ -38,14 +38,19 @@
       <p>
         Explain why each shape below is not a regular polygon:
       </p>
-      <image source="nonregularpolygons" width="100%">
-        <description>
-          Rhombus ABCD with obtuse angles at B and D, 
-          Rectangle EFGH with height 6 and width 10, and a 
-          House-shaped pentagon with base length 4, wall height 
-          4, and total height 6.
-        </description>
-      </image>
+      <figure>
+        <caption>Nonregular Polygons</caption>
+        <image source="nonregularpolygons" width="90">
+          <description>
+            <p>
+            Rhombus ABCD with obtuse angles at B and D, 
+            Rectangle EFGH with height 6 and width 10, and a 
+            House-shaped pentagon with base length 4, wall height 
+            4, and total height 6.
+            </p>
+          </description>
+        </image>
+      </figure>
     </statement>
   </exercise>
 </subsection>
@@ -131,7 +136,8 @@
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
             <image source="VertexAngRegPentagon">
-              <description>A regular pentagon with vertices labeled A, B, C, D, and E. 
+              <description>
+                A regular pentagon with vertices labeled A, B, C, D, and E. 
                 The interior angle at A has been split by 
                 diagonals into angles 1, 2, and 3. Angle D has been split into angles 4 and 5.
                 Angle C has been split into angles 6 and 7.

@@ -30,38 +30,10 @@
                 </p>
             </statement>
         </definition>
-        <p>
-            We begin by defining and exploring regular polyhedra. These solids appear in ancient art 
-            work and are used to model chemical and biological structures today. We will find that only 
-            a few exist.
-        </p>
-        <definition xml:id="def-regpolyhedron">
-            <idx><h>regular polyhedron</h></idx>
-            <idx><h>polyhedron</h><h>regular</h></idx>
-            <statement>
-                <p>
-                    A polyhedron is said to be <term>regular</term>
-                    if it satisfies these two conditions:
-                    <ul>
-                        <li>
-                            <p>
-                                Every face is the same regular polygon and
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                At every vertex, the number of polygons 
-                                is the same.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-        </definition>
         <exercise>
             <statement>
                 <p>
-                    Which of the following solids are polygons?
+                    Which of the following solids are polyhedra?
                     <ol>
                         <li>
                             <p>
@@ -91,7 +63,39 @@
                 </p>
             </answer>
         </exercise>
+        <p>
+            In this section, we define and explore regular polyhedra. These special 
+            solids appear in ancient art 
+            work, were identified by Greek mathematicians around 300 B.C., 
+            and are used to model chemical and biological structures today. 
+            We will find that only there are only a few regular polyhedra.
+        </p>
+        <definition xml:id="def-regpolyhedron">
+            <idx><h>regular polyhedron</h></idx>
+            <idx><h>polyhedron</h><h>regular</h></idx>
+            <statement>
+                <p>
+                    A polyhedron is said to be <term>regular</term>
+                    if it satisfies these two conditions:
+                    <ul>
+                        <li>
+                            <p>
+                                Every face is the same regular polygon and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                At every vertex, the number of polygons 
+                                is the same.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>
     </subsection>
+    <subsection>
+        <title>What Regular Polyhedra Exist</title>
     <exploration>
         <title>
             Discovering Regular Polyhedra
@@ -116,7 +120,8 @@
                         <li>
                             In <xref ref="sec-polygons-regular"/>, 
                             we found the sum of the measures of the 
-                            angles surrounding a vertex was always the same. What was that number?
+                            angles surrounding a vertex was always the same. 
+                            What was that sum?
                         </li>
                         <li>
                             Why must the total degree of the angles surrounding a vertex be 
@@ -138,7 +143,7 @@
                 <p>
                     For this task, you will need plastic or tagboard copies of congruent equilateral 
                     triangles that can be put together. An online search for 
-                    <sq>isometric graph paper<sq> will give you a sheet of congruent triangles that could 
+                    <sq>isometric graph paper</sq> will give you a sheet of congruent triangles that could 
                     be enlarged, printed on stiff paper, and cut. Equilateral triangles for building polyhedra may also be created 
                     from straws and string. Side length of at least two inches is recommended.
                 </p>
@@ -146,8 +151,8 @@
                     Which regular polyhedra can be formed using equilateral triangles? To answer this  
                     question, we will consider the possible number of triangles that could meet at each 
                     vertex and attempt to construct the polyhedron, making sure that we keep the vertex   
-                    arrangement consistent. A summary chart is provided at the end of this task to 
-                    organize your discoveries.
+                    arrangement consistent. A summary chart <xref ref="table-regpolyhedra-triangles"/> is 
+                    provided at the end of this task to organize your discoveries.
                     <ol>
                         <li>
                             <p>
@@ -157,7 +162,7 @@
                         </li>
                         <li>
                             <p>
-                                It is possible to create a polyhedron with exactly three triangles  
+                                It is possible to create a regular polyhedron with exactly three triangles  
                                 meeting at every vertex. 
                                 <ol>
                                     <li>
@@ -172,10 +177,52 @@
                                     </li>
                                     <li>
                                         <p>
-                                            
+                                            How many edges does this polyhedron have?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            How many vertices does this polyhedron have?
                                         </p>
                                     </li>
                                 </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                It is also possible to create a polyhedron with exactly four triangles  
+                                meeting at every vertex. 
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Build this polygon and describe its shape or save a picture 
+                                            of it. Check every vertex of the polyhedron to make sure there 
+                                            are exactly four triangles meeting.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            How many triangular faces does this polyhedron have?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            How many edges does this polyhedron have?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            How many vertices does this polyhedron have?
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Is it possible to create a regular polyhedron with exactly five 
+                                triangles meeting at each vertex? If so, build it, record your work,
+                                count the faces, edges, and vertices.  
                             </p>
                         </li>
                         <li>
@@ -186,12 +233,230 @@
                         </li>
                         <li>
                             <p>
-
+                                Optional Extension: What happens when you squeeze yet another triangle in at each <sq>vertex</sq>?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Use your answers above to complete the following table:
                             </p>
                         </li>
                     </ol>
                 </p>
+                    <table xml:id="table-regpolyhedra-triangles">
+                        <title>Regular Polyhedra with Triangular Faces</title>
+                        <tabular halign="center">
+                            <row header="yes" bottom="minor">
+                          <cell>Number of faces at each vertex</cell>
+                          <cell>Total number of faces</cell>
+                          <cell>Total number of edges</cell>
+                          <cell>Total number of vertices</cell>
+                            </row>
+                            <row>
+                                <cell>3</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>4</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>5</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    There is a polyhedron that can be constructed using a total 
+                    of six equilateral triangles. Build it and then explain why it 
+                    does not satisfy the definition of a regular polyhedron. 
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    We now explore whether we can form regular polyhedra using squares, 
+                    regular pentagons, or other regular polygons.
+                    <ol>
+                        <li>
+                            <p>
+                                Regular polyhedra with square faces:
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Each angle of a square has what degree measure?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Is it possible to create a regular polyhedron using 
+                                            only squares? If so, construct it. Then carefully describe 
+                                            this polyhedron or save a picture.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            If the construction was possible, count the faces at each 
+                                            vertex, the total number of faces, the total number of edges, 
+                                            and the total number of vertices. Record the information in the 
+                                            table below.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Would it be possible to create a regular polyhedron with fewer squares  
+                                            meeting at each vertex? Why or why not?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Would it be possible to create a regular polyhedron with more squares  
+                                            meeting at each vertex? Why or why not? 
+                                        </p>
+                                    </li>                                   
+                                </ol> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Regular polyhedra with pentagonal faces:
+                                <ol>
+                                    <li>
+                                        <p>
+                                            What is the measure of a vertex angle of a
+                                            regular pentagon?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Is it possible to create a regular polyhedron using 
+                                            only pentagons? If so, construct it. Then carefully describe 
+                                            this polyhedron or save a picture.
+                                        </p>
+                                        <aside>
+                                            <p>
+                                                Search for <q>regular pentagon template</q> to find a 
+                                                sheet of congruent regular pentagons that you can resize, print
+                                                on sturdy paper, and cut. 
+                                            </p>
+                                        </aside>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            If the construction was possible, count the faces at each 
+                                            vertex, the total number of faces, the total number of edges, 
+                                            and the total number of vertices. Record the information in the 
+                                            table below.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Is this the only possible regular polyhedron using pentagons? 
+                                            Explain.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                In search of regular polyhedra whose faces have 
+                                more than five sides:
+                                <ol>
+                                    <li>
+                                        <p>
+                                            What is the measure of each vertex angle 
+                                            in a regular hexagon?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Why will surrounding a vertex with three hexagons 
+                                            not result in a possible corner for a polyhedron? 
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            If a regular polygon has more 
+                                            than six sides, then the measure of each of its vertex  
+                                            angles must be between what two numbers?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Write a thorough and convincing argument as to 
+                                            why any regular polyhedron must be bounded by equilateral 
+                                            triangles, squares, or regular pentagons. Conclude that 
+                                            there are exactly five types of regular polyhedra.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Use your answers above to complete the following table:
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                    <table xml:id="table-regpolyhedra-sq-pent">
+                        <title>Regular Polyhedra with Square or Pentagonal Faces</title>
+                        <tabular halign="center">
+                            <row header="yes" bottom="minor">
+                          <cell>Shape of Face</cell>
+                          <cell>Number meeting at each vertex</cell>
+                          <cell>Total number of faces</cell>
+                          <cell>Total number of edges</cell>
+                          <cell>Total number of vertices</cell>
+                            </row>
+                            <row>
+                                <cell>square</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>pentagon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Look at the tables <xref ref="table-regpolyhedra-triangles"/>
+                    and <xref ref="table-regpolyhedra-sq-pent"/>. Let <m>F</m> be 
+                    the total number of faces, <m>E</m> be the total number of edges, 
+                    and <m>V</m> be the total number of vertices. What do you 
+                    notice about <m>F + V – E</m> ?
+                </p>
             </statement>
         </task>
     </exploration>
+    <p>
+        We have determined that there are exactly five regular polyhedra. They have been  
+        give the names, <term>tetrahedron</term> (four-faced), <term>hexahedron</term> 
+        (six-faced), <term>octahedron</term> (eight-faced), <term>dodecahedron</term> 
+        (12-faced), and <term>isocahedron</term> (20-faced). Match these names to the polyhedra 
+        you created and add these labels to the appropriate lines in your tables. 
+    </p>
+    </subsection>
 </section>

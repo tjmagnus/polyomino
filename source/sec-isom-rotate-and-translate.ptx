@@ -273,7 +273,7 @@
                     What point in <xref ref="rotated-triangle"/> is the center of this particular rotation?  
                     Is it on either triangle, in the interior of either triangle, or in the exterior of both 
                     triangles?  How do you know that the point you identified as the center meets the criteria 
-                    in the definition of <xref ref="intro-def-rotation">center of rotation</xref>?
+                    in the definition of <xref ref="intro-def-rotation" text="custom">center of rotation</xref>?
                 </p>
             </statement>
         </task>
