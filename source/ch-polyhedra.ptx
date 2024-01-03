@@ -4,9 +4,74 @@
     <title>Polyhedra</title>
   <introduction>
     <p>
-        This section will include regular and semiregular polyhedra, 
-        volumes and surface area of prisms, cylinders, pyramids, 
-        and cones, Euler's formula for polyhedra.
+      <p>
+        In this chapter, we will explore three-dimensional solids. Solids with 
+        flat polygonal sides, like cubes and pyramids, are called polyhedra.
+    </p>
+    <definition xml:id="def-polyhedron">
+        <idx><h>polyhedron</h></idx>
+        <idx><h>face</h></idx>
+        <idx><h>edge</h><h>polyhedron</h></idx>
+        <idx><h>vertex</h><h>polyhedron</h></idx>
+        <idx><h>polyhedron</h><h>face</h></idx>
+        <idx><h>polyhedron</h><h>edge</h></idx>
+        <idx><h>polyhedron</h><h>vertex</h></idx>
+        <statement>
+            <p>
+                A <term>polyhedron (plural: polyhedra)</term> is a 
+                three-dimensional closed figure in which all of the faces are polygons.  
+            </p>
+            <p>
+                Here, a <term>face</term> of a geometrical solid refers to a flat surface 
+                that forms part of the boundary of the solid. The line segments where two 
+                faces meet are called <term>edges</term>, and the <sq>corners</sq> where  
+                edges meet are called the <term>vertices</term> of the polyhedron. The  
+                vertices of the polyhedron are also vertices of polygonal faces. Unless  
+                specified otherwise, we will be measuring the angles formed by a pair of edges  
+                which is the same as measuring the angle of a vertex of a polygonal face.
+            </p>
+            <p>
+                While it is not incorrect to call a face of a polyhedron a <sq>side</sq>,
+                one should be careful to distinguish between a face of the polyhedron and 
+                a side of a polygon (which is an edge of the polyhedron). Using the terms
+                <term>face</term> and <term>edge</term> will make our discussions about polyhedron 
+                clearer.
+            </p>
+        </statement>
+    </definition>
+    <exercise>
+        <statement>
+            <p>
+                Which of the following solids are polyhedra?
+                <ol>
+                    <li>
+                        <p>
+                            cylinder  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            cube
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            triangular prism 
+                        </p>
+                    </li>
+                    <li>
+                        sphere 
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                A cube and triangular prism are polyhedra. 
+                A cylinder and sphere have curved surfaces.
+            </p>
+        </answer>
+    </exercise>
     </p>
   </introduction> 
    <xi:include href="sec-polyhedra-regular.ptx"/>

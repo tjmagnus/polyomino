@@ -1,74 +1,14 @@
 <section xml:id="sec-polyhedra-regular" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Regular Polyhedra</title>
     <subsection>
-        <title>Definitions</title>
+        <title>Defining Regular Polyhedra</title>
         <p>
-            In this section we will explore three-dimensional solids. Solids with 
-            flat polygonal sides, like cubes and pyramids, are called polyhedra.
-        </p>
-        <definition xml:id="def-polyhedron">
-            <idx><h>polyhedron</h></idx>
-            <idx><h>face</h></idx>
-            <idx><h>edge</h><h>polyhedron</h></idx>
-            <idx><h>vertex</h><h>polyhedron</h></idx>
-            <idx><h>polyhedron</h><h>face</h></idx>
-            <idx><h>polyhedron</h><h>edge</h></idx>
-            <idx><h>polyhedron</h><h>vertex</h></idx>
-            <statement>
-                <p>
-                    A <term>polyhedron (plural: polyhedra)</term> is a 
-                    three-dimensional closed figure in which all of the faces are polygons.  
-                </p>
-                <p>
-                    Here, a <term>face</term> of a geometrical solid refers to a flat surface 
-                    that forms part of the boundary of the solid. The line segments where two 
-                    faces meet are called <term>edges</term>, and the <sq>corners</sq> where  
-                    edges meet are called the <term>vertices</term> of the polyhedron. The  
-                    vertices of the polyhedron are also vertices of polygonal faces. Unless  
-                    specified otherwise, we will be measuring the angles formed by a pair of edges  
-                    which is the same as measuring the angle of a vertex of a polygonal face.
-                </p>
-            </statement>
-        </definition>
-        <exercise>
-            <statement>
-                <p>
-                    Which of the following solids are polyhedra?
-                    <ol>
-                        <li>
-                            <p>
-                                cylinder  
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                cube
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                triangular prism 
-                            </p>
-                        </li>
-                        <li>
-                            sphere 
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-            <answer>
-                <p>
-                    A cube and triangular prism are polyhedra. 
-                    A cylinder and sphere have curved surfaces.
-                </p>
-            </answer>
-        </exercise>
-        <p>
-            In this section, we define and explore regular polyhedra. These special 
+            In this section, we define the term <term>regular polyhedron</term> and 
+            identify all of the regular polyhedra that can be created. These special 
             solids appear in ancient art 
-            work, were identified by Greek mathematicians around 300 B.C., 
+            work, were delineated by Greek mathematicians around 300 B.C., 
             and are used to model chemical and biological structures today. 
-            We will find that only there are only a few regular polyhedra.
+            We will find that only there are only a handful of regular polyhedra.
         </p>
         <definition xml:id="def-regpolyhedron">
             <idx><h>regular polyhedron</h></idx>
@@ -301,8 +241,9 @@
                                     <li>
                                         <p>
                                             Is it possible to create a regular polyhedron using 
-                                            only squares? If so, construct it. Then carefully describe 
-                                            this polyhedron or save a picture.
+                                            only squares? If so, determine the number of squares that 
+                                            must meet at each vertex and then construct the polyhedron. 
+                                            Carefully describe this polyhedron and/or save a picture.
                                         </p>
                                     </li>
                                     <li>
@@ -341,8 +282,9 @@
                                     <li>
                                         <p>
                                             Is it possible to create a regular polyhedron using 
-                                            only pentagons? If so, construct it. Then carefully describe 
-                                            this polyhedron or save a picture.
+                                            only pentagons? If so, determine the number of regular 
+                                            pentagons that must meet at each vertex and then construct 
+                                            the polyhedron. Carefully describe this polyhedron and/or save a picture.
                                         </p>
                                         <aside>
                                             <p>

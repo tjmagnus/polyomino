@@ -4,7 +4,31 @@
     <subsection>
         <title>Notes for <xref ref="sec-polyhedra-regular"/></title>
         <p>
-            Add here.
+            I am lucky to have a sufficiently large set of Polydron pieces  
+            which allow groups of students to snap equilateral triangles, squares, 
+            regular pentagons, and regular hexagons together. Even so, building the
+            isocahedron can be tricky for many students. Groups who do succeed in 
+            this construction tend to be proud of their accomplishment and allow other 
+            groups to use their construction for counting faces, edges, and vertices. 
+        </p>
+        <p>
+            I have made tagboard pieces available in my classes, especially for 
+            <xref ref="sec-polyhedra-semiregular"/>. These have been less popular, perhaps 
+            due to the small size of the triangles and need for tape. In the next section, 
+            it is essential that the side length of each polygon be the same.
+        </p>
+        <p>
+            An alternative for this exploration would be to provide nets for polyhedra 
+            after students have discovered the number and types of regular polygons that
+            can fit around a vertex. This is especially true for the icosahedron and 
+            the dodecahedron.
+        </p>
+        <p>
+            It is possible to use combinatorics to count edges and vertices. Some students  
+            who may struggle with counting visually may appreciate a suggestion to try this. 
+            Eventually, I hope to add homework problems encouraging this technique. If you 
+            are interested, email me at <url href="mailto:tmagnus@rivier.edu"></url> and I  
+            will work on it.
         </p>
     </subsection>
 </section>

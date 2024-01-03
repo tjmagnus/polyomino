@@ -64,7 +64,8 @@
     </p>
 
     <p permid="yxZ">
-      Others who deserve mentioning. First testers perhaps.
+      Others who deserve mentioning. Volker Ecker, Steven Clontz, others 
+      in PreText support. First testers perhaps.
     </p>
 
     <p permid="eFi">
@@ -118,21 +119,28 @@
   <preface permid="dVo">
     <title>How to use this book</title>
     <p permid="Gcy">
-      Write a few paragraphs here
+      The author is writing this textbook during a 2023-2024 sabbatical. Updates and 
+      additions will be deployed every week or two to 
     </p>
     <p>
       An Instructor's Version is available to faculty upon request. Email the author at 
       <url href="tmagnus@rivier.edu">tmagnus@rivier.edu</url> with your name, contact information, 
       and the link to a webpage verifying your role as instructor. Suggestions on how to improve
-      this textbook are welcome.
+      this textbook are welcome. 
     </p>
     <paragraphs permid="qjG">
       <title>Exploration activities</title>
       <p permid="QBD">
-        Say something about the role of explorations.
+        Explorations are an essential part of this course. Students, often in groups, make  
+        sense of the mathematics and take ownership of the content by discovering relationships 
+        through hands-on activities. I am happy to share the classroom worksheets  
+        on which this course is based. In fact, I plan to continue to use handouts for 
+        most of the inclass explorations even after this textbook is complete. I plan  
+        to add many of these to an instructor-accessible  
+        website. If you need these sooner, email me! 
       </p>
     </paragraphs>
-
+<!--
     <paragraphs permid="WqP">
       <title>Examples</title>
       <p permid="wIM">
@@ -146,7 +154,7 @@
         Add something here about how students should approach exercises. 
       </p>
       
-    </paragraphs>
+    </paragraphs>-->
     
     <paragraphs permid="iFh">
       <title>Interactive Online Version</title>
@@ -159,12 +167,14 @@
       </p>
       <p>
         My hope is to add other features, like how-to-use-the-software videos, in the future.
-        You can view the interactive version for free at <url href=" https://tjmagnus.github.io/polyomino/" visual="discrete.openmathbooks.org"/> or by scanning the QR code below with your smart phone.
+        You can view the interactive version for free at 
+        <url href=" https://tjmagnus.github.io/polyomino/"/><!--or by scanning the 
+          QR code below with your smart phone-->.
       </p>
-      
+      <!--
       <sidebyside width="25%" permid="OMq">
           <image source="images/qrcode.png"/>
-      </sidebyside>
+      </sidebyside>-->
     </paragraphs>
   </preface>
   
