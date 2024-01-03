@@ -11,7 +11,7 @@
             We will find that only there are only a handful of regular polyhedra.
         </p>
         <definition xml:id="def-regpolyhedron">
-            <idx><h>regular polyhedron</h></idx>
+            <idx><h>regular</h><h>polyhedron</h></idx>
             <idx><h>polyhedron</h><h>regular</h></idx>
             <statement>
                 <p>
