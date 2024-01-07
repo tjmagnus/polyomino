@@ -6,7 +6,7 @@
             We now extend our collection of polyhedra by exploring what it means for 
             a polyhedron to be semiregular and to construct some examples.
         </p>
-        <definition>
+        <definition xml:id="def-semiregplyhdron">
             <idx><h>semiregular</h><h>polyhedron</h></idx>
             <idx><h>polyhedron</h><h>semiregular</h></idx>
             <idx><h>vertex arrangement</h><h>polyhedron</h></idx>
@@ -27,8 +27,64 @@
                         </li>
                     </ul>
                 </p>
+                <p>
+                    The notation for a vertex arrangement of a polyhedron is the same as what we  
+                    used for tilings. A cube would be denoted 4.4.4 because there 
+                    are three squares meeting at any vertex of the cube. 
+                </p>
             </statement>
         </definition>
-        
+        <exercise>
+            <title>Check your Understanding</title>
+            <statement>
+                <p>
+                    Which regular polyhedron corresponds to the notation 3.3.3.3.3?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Does the number 3 correspond to the shape of the face or the 
+                    number of faces that meet? <xref ref="def-semiregplyhdron"/>
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The icosahedron because five triangles meet at each vertex.
+                </p>
+            </answer>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-polyhedra-semiregular-examples">
+        <title>Some Examples of Semiregular Polyhedra</title>
+        <exploration>
+            <task>
+                <statement>
+                    <sidebyside widths="65 30">
+                    <p>
+                        One example of a semi-regular polyhedron is the great rhombicosi 
+                        dodecahedron pictured. Check that each vertex has the 
+                        arrangement 4.6.10. What is the sum of the angles meeting at each vertex of the great rhombicosi dodecahedron?
+                    </p>
+                    <figure xml:id="Great_rhombicosidodecahedron">
+                        <caption>Great Rhombicosidodecahedron</caption>
+                        <image source="Great_rhombicosidodecahedron">
+                            <description>
+                                The front side of a great 
+                                rhombicosidodecahedron. Five decagonal faces,
+                                eight hexagonal faces, and eight square faces are 
+                                clearly visible, but there is a hint of a square and 
+                                hexagon alonge the bottom edge.
+                                <!--Check this!Also fix svg-->
+                            </description>
+                        </image>
+                    </figure>
+                    </sidebyside>
+                    <aside>
+                        <url 
+                        href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Great_rhombicosidodecahedron.png"/>
+                    </aside>
+                </statement>
+            </task>
+        </exploration>
     </subsection>
 </section>

@@ -353,6 +353,7 @@
         requirement that the arrangement of polygons around each vertex is 
         the same. 
       </p>
+      <p>
         We can denote the vertex arrangement by identifying the number 
         of sides in each polygon as we travel around a vertex. An example of  
         this is 3.3.4.3.4 (triangle, triangle, square, triangle, square) 
@@ -601,7 +602,6 @@
             <p>
               Note that each triangle in a 3.3.6.6 must share a side with 
               one triangle and one hexagon due to the order of the 3's and 6's.
-                <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>
             </p> 
             <figure xml:id="triangle366">
               <caption>Surrounding a regular triangle with regular triangles and 
@@ -610,7 +610,8 @@
             </figure>
             <p>
               Will the remaining side abut a triangle or a hexagon? Discuss  
-              what happens in each case.
+              what happens in each case. A GeoGebra interactive of this figure is 
+              available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.
             </p>
           </li>
         </ol>

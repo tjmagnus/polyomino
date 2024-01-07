@@ -573,7 +573,36 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       <exercise xml:id="SAR-intro-apply-nameit">
         <statement>
           <p> 
-            Tangram problems. Using definitions and formulas.
+            A set of seven Tangram pieces (same shapes as above but different 
+            sizes) can be arranged to form a square 
+            with area 36 inches.
+            <ol>
+              <li>
+                <p>
+                  Determine the area of the largest triangle piece.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Determine the are of the medium triangle.
+                </p>
+              </li>
+              <li>
+                <p>
+                Determine the area of the square.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Determine the area of the small triangle.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Determine the area of the parallelogram.
+                </p>
+              </li>
+            </ol>
           </p>
         </statement>
       </exercise>

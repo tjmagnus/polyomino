@@ -84,7 +84,9 @@
     </p>
   </acknowledgement>-->
 
-  <preface xml:id="preface" permid="xOf">
+  
+    <preface xml:id="preface" permid="xOf">
+      <!--
     <p permid="BsF">
       This text aims to 
     </p>
@@ -99,7 +101,7 @@
 
     <p permid="ZVp">
       Okay to edit? 
-    </p>
+    </p>-->
       
       <p permid="kuu">
         My hope is to continue improving the book, releasing a new edition each spring 
@@ -121,12 +123,13 @@
     <p permid="Gcy">
       The author is writing this textbook during a 2023-2024 sabbatical. Updates and 
       additions will be deployed every week or two to 
+      <url href=" https://tjmagnus.github.io/polyomino/"/>. Suggestions on how to improve
+      this textbook are appreciated.
     </p>
     <p>
       An Instructor's Version is available to faculty upon request. Email the author at 
       <url href="tmagnus@rivier.edu">tmagnus@rivier.edu</url> with your name, contact information, 
-      and the link to a webpage verifying your role as instructor. Suggestions on how to improve
-      this textbook are welcome. 
+      and the link to a webpage verifying your role as instructor.  
     </p>
     <paragraphs permid="qjG">
       <title>Exploration activities</title>
@@ -137,7 +140,7 @@
         on which this course is based. In fact, I plan to continue to use handouts for 
         most of the inclass explorations even after this textbook is complete. I plan  
         to add many of these to an instructor-accessible  
-        website. If you need these sooner, email me! 
+        website. Instructors wanting to use these sooner should email me! 
       </p>
     </paragraphs>
 <!--
