@@ -296,6 +296,25 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     </figure>
   </sidebyside>
 </figure>
+<p>
+  As seen in <xref ref="polygonvisualdefinition"/>, we distinguish between 
+  convex and concave polygons.
+</p>
+<definition xml:id="def-convexconcave">
+  <idx><h>convex</h></idx>
+  <idx><h>concave</h></idx>
+  <idx><h>polygon</h><h>convex</h></idx>
+  <idx><h>polygon</h><h>concave</h></idx>
+  <statement>
+    <p>
+      A polygon is <term>convex polygon</term> if every interior angle has a measure  
+      less than 180 degrees. If a polygon is not convex, then it is <term>concave</term>.
+    </p>
+  </statement>
+</definition>
+<p>
+  Not all flat shapes are polygons as illustrated in <xref ref="nonpolygons"/>.
+</p>
 <figure xml:id="nonpolygons">
   <caption>Examples of figures that are not polygons</caption>
   <sidebyside>
@@ -552,56 +571,29 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       </statement>
     </definition>
     <p>
-      We also distinguish between convex and concave polygons.
+      While area measures the interior region bounded by a polygon or other closed  
+      figure in the plane, we can also measure the boundary itself. 
     </p>
-    <definition xml:id="def-convexconcave">
-      <idx><h>convex</h></idx>
-      <idx><h>concave</h></idx>
-      <idx><h>polygon</h><h>convex</h></idx>
-      <idx><h>polygon</h><h>concave</h></idx>
+    <definition xml:id="def-perimeter">
+      <idx>perimeter</idx>
       <statement>
         <p>
-          A polygon is <term>convex polygon</term> if every interior angle has a measure  
-          less than 180 degrees. If a polygon is not convex, then it is <term>concave</term>.
+          The <term>perimeter</term> of a closed figure is the total length of its 
+          boundary. In the case of a polygon, the perimeter is the sum of the lengths  
+          of its sides. 
         </p>
       </statement>
     </definition>
-
   </subsection>
   <exercises xml:id="exercises-intro-apply">
     <title>Exercises</title>
     <subexercises xml:id="SAR-intro-apply">
       <title>Skills and Recall</title>
-      <exercise xml:id="SAR-intro-apply-Tangramareas">
+      <exercise>
         <statement>
-          <p> 
-            In <xref ref="trioftangrams"/>, three smaller Tangram pieces fill a 
-            region congruent to the larger blue isosceles triangle. The square is half as 
-            tall as the blue triangle. Suppose that the area of the blue triangle is 
-            18 square inches.
-            <ol>
-              <li>
-                <p>
-                  What is the area of one small orange triangle? How do you know?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the area of the square? How do you know?
-                </p>
-              </li>
-            </ol>
-            <figure xml:id="trioftangrams">
-              <caption>Image for <xref ref="SAR-intro-apply-Tangramareas"/></caption>
-              <image source="tangramtriangle">
-                <description>
-                  An isosceles triangle made up of a large isosceles 
-                  triangle that fills the left half. The right half consists of  
-                  a square and and two small Tangram triangles, one above the 
-                  square and one to the right.
-                </description>
-              </image>
-            </figure>
+          <p>
+            Determine the perimeter of each of the shapes in 
+            <xref ref="exer-introbasicshape-area"/>.
           </p>
         </statement>
       </exercise>
@@ -679,6 +671,39 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           </figure>
         </statement>
       </exercise>
+      <exercise xml:id="SAR-intro-apply-Tangramareas">
+        <statement>
+          <p> 
+            In <xref ref="trioftangrams"/>, three smaller Tangram pieces fill a 
+            region congruent to the larger blue isosceles triangle. The square is half as 
+            tall as the blue triangle. Suppose that the area of the blue triangle is 
+            18 square inches.
+            <ol>
+              <li>
+                <p>
+                  What is the area of one small orange triangle? How do you know?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the area of the square? How do you know?
+                </p>
+              </li>
+            </ol>
+            <figure xml:id="trioftangrams">
+              <caption>Image for <xref ref="SAR-intro-apply-Tangramareas"/></caption>
+              <image source="tangramtriangle">
+                <description>
+                  An isosceles triangle made up of a large isosceles 
+                  triangle that fills the left half. The right half consists of  
+                  a square and and two small Tangram triangles, one above the 
+                  square and one to the right.
+                </description>
+              </image>
+            </figure>
+          </p>
+        </statement>
+      </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-intro-apply">
       <title>Extending the Concepts</title>
@@ -699,6 +724,41 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 but not equilateral.
               </li>
             </ol> 
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+        <p>
+          If two polygons have the same area, must they have the same perimeter? 
+          Support your answer using words and/or pictures.
+        </p>
+      </statement>
+      </exercise>
+      <exercise>
+        <statement>
+        <p>
+          Sketch a polygon where the numerical value of the perimeter is equal to 
+          the numerical value of the area. Be sure to label the sides with their lengths.
+          <ol>
+            <li>
+              Now triple the length of each side and recompute the area and the perimeter. 
+              What value(s) do you get? Are they still the same?
+            </li>
+            <li>
+              Assume that the original side lengths had yards as their units. What would the 
+              units be for the shape's area?
+            </li>
+          </ol>
+        </p>
+      </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            We have noted that polygons satisfy additivity of area and that 
+            segments satisfy additivity of length. Should polygons satisfy 
+            additivity of perimeter? Support your answer with pictures and words.
           </p>
         </statement>
       </exercise>

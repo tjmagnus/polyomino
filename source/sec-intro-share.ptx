@@ -326,39 +326,51 @@
 </subsection>
 <exercises xml:id="exercises-intro-share">
   <title>Exercises</title>
-  <subexercises xml:id="SAR-intro-share">
-  <title>Skills and Recall</title>
-  <exercise xml:id="SAR-intro-share-insertname">
-    <statement>
-      <p>
-        Add problems.
-      </p>
-    </statement>
-  </exercise>
-</subexercises>
-<subexercises xml:id="ExtConc-intro-share">
-  <title>Extending the Concepts</title>
-  <exercise>
-    <statement>
-      <p>
-        Add problems.
-      </p>
-    </statement>
-  </exercise>
-</subexercises>
-<subexercises xml:id="Writing-intro-share">
-  <title>
-    Writing Prompts
-  </title>
-  <exercise xml:id="writing-intro-share-wonder">
-    <title>Wonder in Mathematics</title>
-    <statement>
-      <p>
-        Insert the prompt for Wonder paper.
-      </p>
-    </statement>
-  </exercise>
-</subexercises>
-</exercises>
-    </section>
+    <subexercises xml:id="SAR-intro-share">
+    <title>Skills and Recall</title>
+      <exercise xml:id="SAR-intro-share-insertname">
+        <statement>
+          <p>
+            Add problems.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-intro-share">
+      <title>Extending the Concepts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add problems.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-intro-share">
+      <title>
+        Writing Prompts
+      </title>
+      <exercise xml:id="writing-intro-share-wonder">
+        <title>Wonder in Mathematics</title>
+        <statement>
+          <p>
+            Watch the YouTube video <url href="www.youtube.com/watch?v=PXwStduNw14"/>. 
+            Then spend some time looking for, observing, and wondering about patterns 
+            and/or commonalities in nature, art, language, numbers, etc. Choose one 
+            example and write about what you have observed and wondered about. In what 
+            ways might considering this example or the world around us with this sense 
+            of mathematics (as Eddie Woo describes it) change us and our understanding.
+          </p>
+          <aside>
+          <p>
+            <sq>Mathematics</sq> is typically called <sq>maths</sq> throughout the United 
+            Kingdom and much of the world so it is appropriate for the speaker to use 
+            this term.
+            </p>
+          </aside>
+        </statement>
+      </exercise>
+    </subexercises>
+  </exercises>
+</section>
 
