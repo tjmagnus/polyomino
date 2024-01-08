@@ -462,11 +462,13 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       <idx><h>trapezoid</h><h>base</h></idx>
       <idx><h>altitude</h><h>trapezoid</h></idx>
       <idx><h>base</h><h>trapezoid</h></idx>
+      <idx><h>leg</h><h>trapezoid</h></idx>
       <statement>
         <p>
           A quadrilateral with exactly one pair of parallel sides is called 
           a <term>trapezoid</term>. One of the parallel sides is called the 
-          <term>base</term> and the other is called the <term>summit</term>. 
+          <term>base</term> and the other is called the <term>summit</term>.
+          The remaining two sides of a trapezoid are called <term>legs</term>. 
           The height of a trapezoid is the distance between the base and the 
           summit, measured along an altitude which is perpendicular to the base.
         </p>
@@ -603,13 +605,100 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           </p>
         </statement>
       </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Sketch pictures of each of the following:
+            <ol>
+              <li>
+                <p>
+                  An isosceles obtuse triangle
+                </p>
+              </li>
+              <li>
+                <p>
+                  A rhombus that is not a square
+                </p>
+              </li>
+              <li>
+                <p>
+                  An equiangular hexagon which is not equilateral
+                </p>
+              </li>
+              <li>
+                <p>
+                  A concave quadrilateral
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise xml:id="label-altitude-etc">
+        <statement>
+          <p>
+            Triangle <m>\Delta ABC</m>, trapezoid <m>DEGF</m>, and parallelogram 
+            <m>HKJI</m> are provided in <xref ref="tri-trap-par-label"/>.
+            <ol>
+              <li>
+                <p>
+                  Label a side of triangle <m>\Delta ABC</m> as the base. Then draw 
+                  an label the altitude of the triangle corresponding to that base.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Which two sides of trapezoid <m>DEGF</m> could be considered to be bases? 
+                  Label one as the base. Also label the summit and legs of the trapezoid.
+                  Then draw and label an altitude for <m>DEGF</m>. 
+                </p>
+              </li>
+              <li>
+                <p>
+                  Label side <m>\overline{HI}</m> as the base of parallelogram 
+                  <m>HIJK</m>. Sketch and label the altitude for <m>HIJK</m> 
+                  corresponding to base <m>\overline{HI}</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Could another side of <m>HIJK</m> been chosen as the base? Which 
+                  one(s)? Would the altitude be the same?
+                </p>
+              </li>
+            </ol>
+          </p>
+          <figure xml:id="tri-trap-par-label">
+            <caption>Shapes for <xref ref="label-altitude-etc"/></caption>
+            <image source="labelbasealtitude">
+              <description>
+                A triangle, a trapezoid, and a parallelogram, all are 
+                drawn at an incline.
+              </description>
+            </image>
+          </figure>
+        </statement>
+      </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-intro-apply">
       <title>Extending the Concepts</title>
       <exercise xml:id="ExtConc-intro-apply-nameit">
         <statement>
           <p>
-            Under construction
+            Answer the questions:
+            <ol>
+              <li>
+                Is it possible for a triangle to be equilateral but not equiangular?
+              </li>
+              <li>
+                Show by example that it is possible for a quadrilateral to be equilateral but 
+                not equiangular.
+              </li>
+              <li>
+                Show by example that it is possible for a quadrilateral to be equiangular 
+                but not equilateral.
+              </li>
+            </ol> 
           </p>
         </statement>
       </exercise>
@@ -618,7 +707,21 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       <title>Writing Prompts</title>
       <exercise>
         <statement>
-          <p>Add some.</p>
+          <p>
+            By the time students reaches college, they already have some geometry tools  
+            in their toolbox. What <sq>geometric tools</sq> do you bring to the course? 
+            Of these tools, which do you feel comfortable using and which do you need to 
+            learn more about? You may include tools that we have not yet covered in this  
+            textbook. 
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Explore the Index and Search tools in this textbook. Write a paragraph in which 
+            you discuss the benefit of these tools and how to use at least one of them.
+          </p>
         </statement>
       </exercise>
     </subexercises>
