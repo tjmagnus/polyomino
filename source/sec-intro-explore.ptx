@@ -548,9 +548,82 @@
         <exercise xml:id="SAR-intro-exp-areas">
           <statement>
             <p>
-              Determine the area of the following figures:
-              ADD FIGURES HERE!!! DISSECT INTO RECTANGLES, PENTOMINOES.
+              Determine the area of each shape in <xref ref="builtrects"/>.
             </p>
+            <figure xml:id="builtrects">
+              <caption>Shapes for <xref ref="SAR-intro-exp-areas"/></caption>
+              <image source="findareaeasy">
+                <description>
+                  Shape 1 is a cross formed by two equal length intersecting bars. Each 
+                  bar is 2 inches by 8 inches so that their intersection is a 2 by 2 square. 
+                  Shape 2 is more irregular, close to a rotated L-shape with a 1 by 1 square 
+                  removed near where the legs meet. One leg of the L is 8 inches long and 2 inches wide. The other is 7 
+                  inches long and 3 inches wide. 
+                </description>
+              </image>
+            </figure>
+          </statement>
+        </exercise>
+        <exercise xml:id="SAR-intro-exp-otherarea">
+          <statement>
+            <p>
+              Refer to <xref ref="exer-introbasicshape-area"/>
+              as you answer the following:
+              <ol>
+                <li>
+                  <p>
+                    Find the area of rectangle <m>ABCD</m> with height 14 cm. and 
+                    width 6cm. Then use your 
+                    answer to find the area of right triangle <m>\Delta ACD</m>.
+                  </p>
+                </li>
+                <li>
+                  <ol>
+                    <li>
+                      <p>
+                        Find the area of rectangle <m>MHGN</m> with height <m>NG=6</m> cm.
+                        and width <m>HG=10</m> cm.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        What is the area of parallelogram <m>EHGF</m>? How do 
+                        you know?
+                      </p>
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    <li>
+                      <p>
+                        Determine the area of rectangle <m>ILKO</m> with height <m>KL=6</m> cm.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Determine the area of right triangle <m>IJO</m>.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Determine the area of trapezoid <m>IJKL</m>.
+                      </p>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </p>
+            <figure xml:id="exer-introbasicshape-area">
+              <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
+              <image source="basicshapesareaproblem"></image>
+              <description>
+                The first two shapes are described in the problem. Trapezoid IJKL 
+                in the third problem consists of a right triangle OJI and rectangle  
+                ILKO with a common side IO. The height and width of the triangle is the 
+                same, namely 6 cm. The width of the rectangle is 10 cm.
+              </description>
+            </figure>
           </statement>
         </exercise>
         <exercise xml:id="SAR-intro-exp-numtriominoes">
