@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-intro-apply" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Invitation to Use Resources </title>
+  <title>Invitation to Apply Knowledge</title>
   <!--Quote by Carol Dweck, "Today, you are quitting your old job and you're 
     starting you new job.
     Your old job was getting as many As as possible and acing all the achievement 
@@ -570,39 +570,36 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <title>Exercises</title>
     <subexercises xml:id="SAR-intro-apply">
       <title>Skills and Recall</title>
-      <exercise xml:id="SAR-intro-apply-nameit">
+      <exercise xml:id="SAR-intro-apply-Tangramareas">
         <statement>
           <p> 
-            A set of seven Tangram pieces (same shapes as above but different 
-            sizes) can be arranged to form a square 
-            with area 36 inches.
+            In <xref ref="trioftangrams"/>, three smaller Tangram pieces fill a 
+            region congruent to the larger blue isosceles triangle. The square is half as 
+            tall as the blue triangle. Suppose that the area of the blue triangle is 
+            18 square inches.
             <ol>
               <li>
                 <p>
-                  Determine the area of the largest triangle piece.
+                  What is the area of one small orange triangle? How do you know?
                 </p>
               </li>
               <li>
                 <p>
-                  Determine the are of the medium triangle.
-                </p>
-              </li>
-              <li>
-                <p>
-                Determine the area of the square.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Determine the area of the small triangle.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Determine the area of the parallelogram.
+                  What is the area of the square? How do you know?
                 </p>
               </li>
             </ol>
+            <figure xml:id="trioftangrams">
+              <caption>Image for <xref ref="SAR-intro-apply-Tangramareas"/></caption>
+              <image source="tangramtriangle">
+                <description>
+                  An isosceles triangle made up of a large isosceles 
+                  triangle that fills the left half. The right half consists of  
+                  a square and and two small Tangram triangles, one above the 
+                  square and one to the right.
+                </description>
+              </image>
+            </figure>
           </p>
         </statement>
       </exercise>
