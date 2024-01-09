@@ -257,22 +257,53 @@
         accomplishments and missteps.  
       </p>
     </subsection>
+    <subsection>
+      <title>An Algebraic Tool</title>
+      <p> 
+        As we have noticed in this section, not all segments are horizontal or 
+        vertical. To determine lengths of these slanted segments on a grid, the 
+        Pythagorean Theorem will be helpful. We will see study the Pythagorean 
+        Theorem and explore why it holds in <xref ref="sec-polygons-length"/>, but 
+        will state it here and explore the algebraic tool known as the square root.
+      </p>
+      <theorem xml:id="thm-Pythagorean">
+        <title>Pythagorean Theorem</title>
+        <statement>
+          <p>
+            Suppose <m>\Delta ABC</m> is a right triangle with right angle at <m>C</m>.
+            Let <m>a</m> and <m>b</m> be the lengths of legs <m>\overline{BC}</m> and 
+            <m>\overline{AC}</m>, respectively, and let <m>c</m> be the length of the 
+            hypotenuse <m>\overline{AB}</m>. Then <m>a^2+b^2=c^2</m>.
+          </p>
+        </statement>
+      </theorem>
+      <p>
+        Applying the Pythagorean Theorem requires facility with the algebraic operation
+        of squaring and its inverse operation, the square root function.
+      </p>
+      <definition xml:id="def-sqrt">
+        <idx><h>square root</h></idx>
+        <title>The Squaring and Square Root Functions</title>
+        <statement>
+          <p>
+            The <term>square</term> of a number <m>x</m> is the number <m>x^2=x\cdot x</m>. Note 
+            that the number <m>x</m> may be negative, positive, or 0, but the square,
+            <m>x^2</m> is always greater than or equal to 0.
+            </p>
+            <p>
+            The <term>square root</term> of a number <m>x</m> is the nonnegative  
+            number <m>r</m> such that <m>r^2=x</m>. We use the notation <m>sqrt{x}</m>
+            to represent the square root of <m>x</m>. 
+          </p>
+        </statement>
+      </definition>
+    </subsection>
     <exercises xml:id="exercises-intro-struggle">
       <title>Exercises</title>
       <subexercises xml:id="SAR-intro-struggle">
       <title>Skills and Recall</title>
       <exercise xml:id="SAR-intro-struggle-squarert">
         <statement>
-          <definition xml:id="def-sqrt">
-            <idx><h>square root</h></idx>
-            <statement>
-              <p>
-                The <term>square root</term> of a number <m>x</m> is the nonnegative  
-                number <m>r</m> such that <m>r^2=x</m>. We use the notation <m>sqrt{x}</m>
-                to represent the square root of <m>x</m>. 
-              </p>
-            </statement>
-          </definition>
           <p> 
             Compute the following numbers if they exist.
             <ol>
@@ -286,7 +317,7 @@
                 <m>\sqrt{16-25}</m>
               </li>
               <li>
-                <m>\sqrt{frac{16}{25}}</m>
+                <m>\sqrt{\frac{16}{25}}</m>
               </li>
               <li>
                 <m>\sqrt{25-16}</m>

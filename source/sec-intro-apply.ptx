@@ -287,7 +287,10 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <figure>
       <caption>A right trapezoid</caption>
       <image source="righttrapezoid">
-        <description>(for accessibility)</description>
+        <description>
+          A trapezoid with two right angles, one acute angle, and 
+          one obtuse angle.
+        </description>
       </image>
     </figure>
     <figure>
@@ -399,17 +402,27 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </p>
       </statement>
     </definition>
-    <definition xml:id="def-triangles-by-angles">
+    <definition xml:id="def-right-triangle">
       <idx><h>triangle</h><h>right</h></idx>
+      <idx><h>hypotenuse</h></idx>
+      <idx><h>leg</h><h>right triangle</h></idx>
+      <idx><h>right triangle</h></idx> 
+      <statement>
+        <p>
+          A triangle is said to be a <term>right triangle</term> if one of its angles is a 
+          right angle. In a right triangle, the side opposite the right angle is called the 
+          <term>hypotenuse</term> and the other two sides are called <term>legs</term>. 
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-triangles-by-angles">
       <idx><h>triangle</h><h>acute</h></idx>
       <idx><h>triangle</h><h>obtuse</h></idx>
-      <idx><h>right</h><h>triangle</h></idx> 
       <idx><h>acute</h><h>triangle</h></idx>
       <idx><h>obtuse</h><h>triangle</h></idx>
       <statement>
         <p>
-          A triangle is said to be a <term>right triangle</term> if one of its angles is a 
-          right angle. If one of its angles is obtuse, we say that the triangle is an 
+          If one of its angles is obtuse, we say that a triangle is an 
           <term>obtuse triangle</term>. An <term>acute triangle</term> is a triangle with 
           three acute angles. We will explore the measurement of angles more in 
           <xref ref="ch-polygons"/> and <xref ref="ch-isom"/>.
