@@ -86,6 +86,23 @@
     </subsection>
     <subsection xml:id="subsec-algrev-sqroots">
         <title>Working with squares and square roots</title>
+        <definition xml:id="def-sqrt">
+            <idx><h>square root</h></idx>
+            <title>The Squaring and Square Root Functions</title>
+            <statement>
+              <p>
+                The <term>square</term> of a number <m>x</m> is the number <m>x^2=x\cdot x</m>. Note 
+                that the number <m>x</m> may be negative, positive, or 0, but the square,
+                <m>x^2</m> is always greater than or equal to 0.
+                </p>
+                <p>
+                The <term>square root</term> of a number <m>x</m> is the nonnegative  
+                number <m>r</m> such that <m>r^2=x</m>. We use the notation <m>sqrt{x}</m>
+                to represent the square root of <m>x</m>. 
+              </p>
+            </statement>
+          </definition>
+          <p>
         The notation <m>c^2</m> is read <m>c</m>-squared and is equivalent to 
         the product <m>c\times c</m>. Later in this text we will be interested 
         in cubing a number <m>s</m> which we can write as <m>s^3</m> or 
@@ -108,5 +125,6 @@
         functions undo each other and recall how you have used them to solve 
         equations. 
         The cubing function and cube root function are also inverses.
+        </p>
     </subsection>
 </section>

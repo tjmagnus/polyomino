@@ -95,7 +95,21 @@
   <p>
     The Pythagorean Theorem states that if <m>a</m> and <m>b</m> are the lengths of
     the sides of a right triangle and <m>c</m> is the length of the hypotenuse,
-    then <m>a^2+b^2=c^2</m>. The next set of questions will refresh your skill in 
+    then <m>a^2+b^2=c^2</m>. 
+  </p>
+  <theorem xml:id="thm-Pythagorean">
+    <title>Pythagorean Theorem</title>
+    <statement>
+      <p>
+        Suppose <m>\Delta ABC</m> is a right triangle with right angle at <m>C</m>.
+        Let <m>a</m> and <m>b</m> be the lengths of legs <m>\overline{BC}</m> and 
+        <m>\overline{AC}</m>, respectively, and let <m>c</m> be the length of the 
+        hypotenuse <m>\overline{AB}</m>. Then <m>a^2+b^2=c^2</m>.
+      </p>
+    </statement>
+  </theorem>
+  <p>
+    The next set of questions will refresh your skill in 
     using the Pythagorean Theorem to determine missing lengths.
   </p>
   <reading-questions>
