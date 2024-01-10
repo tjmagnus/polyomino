@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="algebra-principles" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Principles of Algebra</title>
+    <title>Algebra Principles and Review</title>
+    <introduction>
+        <p>
+            Algebra is an important tool in geometry. We will be using algebra 
+            to compute quantities, define formulas, simplify expressions, solve 
+            equations, and to justify our claims. This section provides a review of  
+            many techniques and principles used in this course as well as some  
+            recommendations for making your writing more professional and clearer 
+            to your reader. 
+        </p>
+    </introduction>
+    <subsection>
+        <title>Algebraic Expressions and Equations</title>
+        <p>
+            Algebraic expressions and equations will be used when we wish to 
+            describe and demonstrate geometric facts and formulas involving lengths, areas, and 
+            other numerical quantities. The use of variables generalizes the
+            statement so that it describes all relevant situations, not just a
+            single example. Hence, it is essential that we can simplify expressions  
+            and solve equations. 
+        </p>
     <definition xml:id="def-expression">
+        <title>Algebraic Expression</title>
         <idx><h>expression</h></idx>
-        <idx><h>equation</h></idx>
         <idx><h>algebraic expression</h></idx>
-        <idx><h>algebraic equation</h></idx>
+        <idx><h>numerical expression</h></idx>
       <statement>
         <p>
           An <term>expression</term> in mathematics is a representation of a 
@@ -14,9 +34,100 @@
           numbers joined by algebraic operations such as addition, subtraction, 
           multiplication, division, and exponentiation. An expression 
           is said to be <term>algebraic</term> if it contains at least one variable.
+          We will also use the term <term>numerical expression</term> to describe 
+          any representation that is either an algebraic expression or number.
         </p>
       </statement>
       </definition>
+      <p>
+        Note the difference between an expression and an equation.
+      </p>
+      <definition xml:id="def-equation">
+        <title>Equation</title>
+        <idx><h>algebraic equation</h></idx>
+        <idx><h>equation</h></idx>
+        <statement>
+            <p>
+                An <term>equation</term> is a statement formed by joining two algebraic 
+                expressions together with an equal sign. When we solve an equation, we  
+                determine which numerical quantities will make the statement true.
+            </p>
+        </statement>
+      </definition>
+        <p>
+            The equals sign is also used when we simplify a statement, joining the  
+            equivalent expressions immediately preceding and following the sign. In 
+            this situation, a series of equal signs in succession are allowed. You 
+            show verify that any expressions joined by this symbol are indeed equal.
+        </p>
+        <example xml:id="example-simplify">
+            <title>Simplifying an Expression</title>
+            <statement>
+                <p>
+                    Simplify the expression <m>(x+y)^2-2xy</m>.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    Solving this expression requires an expansion of <m>(x+y)^2</m>
+                    before we can subtract <m>2xy</m>. One correct way of writing 
+                    this is the following.
+                <me>(x+y)^2-2xy=(x+y)(x+y)-2xy=x^2+2xy+y^2-2xy=x^2+y^2.</me>
+                </p>
+                <p>
+                    One might also write <m>(x+y)^2=(x+y)(x+y)=x^2+2xy+y^2</m> and 
+                    then compute <m>(x+y)^2-2xy=x^2+2xy+y^2-2xy=x^2+y^2.</m>
+                </p>
+            </answer>
+        </example>
+        <p>
+            In <xref ref="example-simplify"/>, one should avoid writing 
+            <me>(x+y)^2=x^2+2xy+y^2-2xy=x^2+y^2</me> because the two expressions on 
+            either side of the first equal sign are not equal, the expression <m>2xy</m>
+            has been subtracted in the second expression, but not the first. 
+        </p>
+        <p>
+            When solving an equation, it is bad practice to put equal signs between  
+            steps as the quantity frequently changes. Each step of the solving 
+            process should be a separate statement with a single equal sign. 
+            Simply write each step on a new line 
+            or use arrows or words (then, so, since, etc.) to link the statements.
+        </p>
+        <example xml:id="example-solving">
+            <title>Solving an Equation</title>
+            <statement>
+                <p>
+                    Solve the equation <m>(x+3)^2-6x=34.</m>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    One acceptable way of writing this for exercises is the 
+                    following:
+                    <md>
+                        <mrow>(x+3)^2-6x\amp =\amp 34</mrow>
+                        <mrow>x^2+6x+9-6x\amp =\amp 34</mrow>
+                        <mrow>x^2+9\amp =\amp 34</mrow>
+                        <mrow>-9\amp \amp -9</mrow>
+                        <mrow>x^2\amp=\amp 25</mrow>
+                        <mrow> x \amp = \pm 5</mrow>
+                    </md>
+                    We have found two numbers <m>5</m> and <m>-5</m> that 
+                    solve the equation. If this were a problem about geometric  
+                    quantities, we frequently rule out negative numbers as unreasonable.
+                </p>
+            </answer>
+        </example>
+        <p>
+            A frequent error made by students is to write 
+            <me>
+                (x+3)^2-6x= 34=x^2+6x+9-6x = 34=x^2+9=34=x^2=25= x=\pm 5.
+            </me>
+            Why is this incorrect? Near the end of the line, we see 
+            <m>25=x=\pm 5</m>. This would imply that <m>25=\pm 5</m>, a statement 
+            that is clearly false.
+        </p>
+    </subsection>
     <subsection xml:id="field-properties">
         <title>Field Properties of the Real Numbers</title>
         <p>
@@ -84,11 +195,130 @@
     </principle>
     <!--Add inverse property and zero properties-->
     </subsection>
+    <subsection xml:id="equality-properties">
+        <title>Properties of Equality</title>
+        <p>
+            When solving equations, we frequently use the following 
+            properties of equality. Many of these properties are intuitively 
+            obvious. Some follow from the <xref ref="field-properties">Field 
+            Properties for Real Numbers.</xref>
+        </p>
+        <principle xml:id="principle-addition-equality">
+            <title>Addition Principle of Equality</title>
+            <statement>
+                <p>
+                    If we add (or subtract) the same numerical expression from both sides 
+                    of an equation, we get an equivalent<fn>Two equations are 
+                    <term>equivalent</term> if they have exactly the same solution set.</fn> 
+                    equation. In symbols, <m>a=b</m> if and only if <m>a+c=b+c</m>. Here, <m>a</m>,
+                    <m>b</m>, and <m>c</m> may be numbers or algebraic expressions.
+                </p>
+            </statement>
+        </principle>
+        <principle xml:id="principle-multiplication-equality">
+            <title>Multiplication Principle of Equality</title>
+            <statement>
+                <p>
+                    If we multiply (or divide) both sides of an equation by the same 
+                    nonzero numerical expression, we get an equivalent 
+                    equation. In symbols, <m>a=b</m> if and only if <m>a\cdot c=b\cdot c</m>
+                    whenever <m>a</m>, <m>b</m>, and <m>c</m> are numbers or algebraic 
+                    expressions and <m>c\neq 0</m>. Similarly, if <m>c\neq 0</m>, then
+                    <m>a=b</m> is equivalent to <m>\frac{a}{c}=\frac{b}{c}</m>.
+                </p>
+            </statement>
+        </principle>
+        <p>
+            The next principle allows us to switch the left and right sides of any 
+            equation.
+        </p>
+        <principle xml:id="principle-symmetry-equality">
+            <title>Symmetry Property of Equality</title>
+            <statement>
+                <p>
+                    The statement <m>a=b</m> is true if and only if the 
+                    statement <m>b=a</m> is true.
+                </p>
+            </statement>
+        </principle>
+        <p>
+            In addition, if two expressions are both equal to a common expression, then 
+            they must be equal to each other.
+        </p>
+        <principle xml:id="principle-transtive-equality">
+            <title>Transitive Property of Equality</title>
+            <statement>
+                <p>
+                    If <m>a=b</m> and <m>b=c</m> are true statements, then 
+                    <m>a=c</m>.
+                </p>
+            </statement>
+        </principle>
+        <p>
+            In this course, we may use this transitivity to equate two different 
+            expressions that both give the length of a segment or the area of a 
+            figure.<fn>An additional principle, the <term>reflexive property</term>, states more 
+            explicitly that any numerical quantity is equal to itself; hence, the 
+            area of triangle <m>\Delta ABC</m> is equal to the area of triangle 
+            <m>\Delta ABC</m>.</fn>
+        </p>
+        <p>
+            The remaining properties of equality focus on the special role of zero.
+        </p>
+        <principle xml:id="principle-multiply-by-zero">
+            <title>Multiplication by Zero</title>
+            <statement>
+                <p>
+                    For any numerical expression <m>a</m>, <m>a\cdot 0=0</m>.
+                </p> 
+            </statement>
+        </principle>
+        <principle xml:id="principle-zero-product">
+            <title>Zero Product Property</title>
+            <statement>
+                <p>
+                    If <m>a</m> and <m>b</m> are any numerical expressions such 
+                    that <m>ab=0</m>, then at least one of the factors <m>a</m> 
+                    or <m>b</m> must equal zero.
+                </p>
+            </statement>
+        </principle>
+        <p>
+            When solving a polynomial equation, like <m>x^3-5x^2=6x</m>, 
+            <xref ref="principle-zero-product"/> is helpful. 
+        </p>
+        <example>
+            <title>Solving a Polynomial Equation Using Principles</title>
+            <statement>
+                <p>
+                    Solve <m>x^3-5x^2=6x</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To solve <me>x^3-5x^2=6x</me>, we first use 
+                    <xref ref="principle-addition-equality"/> to subtract 
+                    <m>6x</m> from both sides of the equation so that the
+                    right side of the equation is 0. Thus,<me>x^3-5x^2-6x=0</me>. 
+                    By <xref ref="principle-distributive"/>, 
+                    <me>x(x-6)(x+1)=(x^2-6x)(x+1)=x^3-6x^2+x^2-6x=x^3-5x^2-6x</me>. 
+                    Substituting into our earlier equation, we see  
+                    <me>x(x-6)(x+1)=0</me>. Therefore, <xref ref="principle-zero-product"/>
+                    informs us that one of the following must be true: <m>x=0</m>, 
+                    <m>x-6=0</m>, or <m>x+1=0</m>. Solving each of these for <m>x</m> 
+                    gives the possible answers, <m>x=0</m>, <m>x=6</m>, and <m>x=-1</m>.
+                    Substituting each of these into the original equation verifies that 
+                    the solution consists of these three values, <m>0</m>, <m>6</m>, and 
+                    <m>-1</m>. 
+                </p>
+            </solution>
+        </example>
+    </subsection>
     <subsection xml:id="subsec-algrev-sqroots">
         <title>Working with squares and square roots</title>
         <definition xml:id="def-sqrt">
             <idx><h>square root</h></idx>
-            <title>The Squaring and Square Root Functions</title>
+            <idx><h>square</h></idx>
             <statement>
               <p>
                 The <term>square</term> of a number <m>x</m> is the number <m>x^2=x\cdot x</m>. Note 
