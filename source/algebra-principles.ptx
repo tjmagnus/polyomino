@@ -23,7 +23,6 @@
             and solve equations. 
         </p>
     <definition xml:id="def-expression">
-        <title>Algebraic Expression</title>
         <idx><h>expression</h></idx>
         <idx><h>algebraic expression</h></idx>
         <idx><h>numerical expression</h></idx>
@@ -43,7 +42,6 @@
         Note the difference between an expression and an equation.
       </p>
       <definition xml:id="def-equation">
-        <title>Equation</title>
         <idx><h>algebraic equation</h></idx>
         <idx><h>equation</h></idx>
         <statement>
@@ -285,7 +283,7 @@
         </principle>
         <p>
             When solving a polynomial equation, like <m>x^3-5x^2=6x</m>, 
-            <xref ref="principle-zero-product"/> is helpful. 
+            <xref ref="principle-zero-product" text="title"/> is helpful. 
         </p>
         <example>
             <title>Solving a Polynomial Equation Using Principles</title>
@@ -294,16 +292,30 @@
                     Solve <m>x^3-5x^2=6x</m>.
                 </p>
             </statement>
+            <answer>
+                <p>In symbols, with properties used:
+                <md>
+                    <mrow> x^3-5x^2 \amp = 6x \amp\amp </mrow>
+                    <mrow> x^3-5x^2-6x \amp = 0 \amp \amp
+                        \text{ (Additive Property of Equality)}</mrow>
+                    <mrow> x(x^2-5x-6) \amp = 0 \amp\amp \text{ (Factor; Distributive Law)}</mrow>
+                    <mrow>x(x-6)(x+1) \amp = 0 \amp\amp \text{ (Factor; Distributive Law)}</mrow>
+                    <mrow>x=0, x=6,\amp \text{ or} x=-1 \amp\amp \text{ (Zero Product Property)}</mrow>
+                </md>
+                Click on solution to see this solution in paragraph form.
+                </p>
+            </answer>
             <solution>
                 <p>
                     To solve <me>x^3-5x^2=6x</me>, we first use 
-                    <xref ref="principle-addition-equality"/> to subtract 
+                    <xref ref="principle-addition-equality" text="title"/> to subtract 
                     <m>6x</m> from both sides of the equation so that the
                     right side of the equation is 0. Thus,<me>x^3-5x^2-6x=0</me>. 
-                    By <xref ref="principle-distributive"/>, 
+                    By <xref ref="principle-distributive" text="title"/>, 
                     <me>x(x-6)(x+1)=(x^2-6x)(x+1)=x^3-6x^2+x^2-6x=x^3-5x^2-6x</me>. 
                     Substituting into our earlier equation, we see  
-                    <me>x(x-6)(x+1)=0</me>. Therefore, <xref ref="principle-zero-product"/>
+                    <me>x(x-6)(x+1)=0</me>. Therefore, <xref ref="principle-zero-product"
+                    text="title"/>
                     informs us that one of the following must be true: <m>x=0</m>, 
                     <m>x-6=0</m>, or <m>x+1=0</m>. Solving each of these for <m>x</m> 
                     gives the possible answers, <m>x=0</m>, <m>x=6</m>, and <m>x=-1</m>.
@@ -311,6 +323,7 @@
                     the solution consists of these three values, <m>0</m>, <m>6</m>, and 
                     <m>-1</m>. 
                 </p>
+                <p>Click on answer to see the solution as a series of equations.</p>
             </solution>
         </example>
     </subsection>
@@ -327,7 +340,7 @@
                 </p>
                 <p>
                 The <term>square root</term> of a number <m>x</m> is the nonnegative  
-                number <m>r</m> such that <m>r^2=x</m>. We use the notation <m>sqrt{x}</m>
+                number <m>r</m> such that <m>r^2=x</m>. We use the notation <m>\sqrt{x}</m>
                 to represent the square root of <m>x</m>. 
               </p>
             </statement>

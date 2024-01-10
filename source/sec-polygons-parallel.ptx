@@ -5,7 +5,8 @@
     <introduction>
         <p>
             What does it mean for two lines to be parallel? Remembering that lines continue
-            indefinitely, we defined two lines in the same plane to be <xref ref="def-parallel">
+            indefinitely, we define two lines in the same plane to be <xref ref="def-parallel"
+            text="custom">
             <term>parallel</term></xref> if they never intersect. In this section, we
             will look more closely at this definition, explore properties related to parallel lines,
             and explore what lines look like in other geometries.
@@ -401,6 +402,7 @@
                 <xref ref="parallel-explor-spherical-triangles"/>.
             </p>
                 <principle xml:id="principle-corresponding-angles">
+                    <title>Corresponding Angles</title>
                     <statement>
                         <p>
                             Given two parallel lines <m>m</m> and <m>n</m> and a line <m>t</m> that 
@@ -409,6 +411,7 @@
                     </statement>
                 </principle>
                 <principle xml:id="principle-trisum">
+                    <title>Angle Sum of a Triangle</title>
                     <statement>
                         <p>
                             The sum of the interior angles of any triangle is 180 degrees.
