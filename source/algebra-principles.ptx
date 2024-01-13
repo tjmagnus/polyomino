@@ -181,6 +181,57 @@
             </p>
         </statement>
     </principle>
+    <p>
+        The Distributive Law, together with the other field properties, allows 
+        us to multiply polynomials.
+    </p>
+    <example xml:id="examp-mult-poly">
+        <title>Multiplying a Polynomial</title>
+        <statement>
+            <p>
+            Multiply <m>(2x+1)(x^2-3x+5)</m>.
+            </p>
+        </statement>
+        <answer><m>2x^3-5x^2+7x+5</m></answer>
+        <solution>
+            <p>
+                First we use the distributive law, multiplying each term in the second 
+                factor by <m>2x+1</m>:
+                <md>(2x+1)(x^2-3x+5)=(2x+1)(x^2)+(2x+1)(-3x)+(2x+1)(5)</md>. 
+                An obtional step, but one that makes the distributive law more evident, is  
+                to us the commutative law of multiplication to reverse the order of the factors  
+                in each term:
+                <md>(2x+1)(x^2)+(2x+1)(-3x)+(2x+1)(5)=x^2(2x+1)+(-3x)(2x+1)+5(2x+1).</md> 
+                We can then use the distributive law on each term to get
+                <me>
+                    <mrow>x^2(2x+1)+(-3x)(2x+1)+5(2x+1)\amp=x^2(2x)+x^2(1)-3x(2x)-3x(1)+5(2x)+5(1)</mrow>
+                    <mrow> \amp 2x^3+x^2-6x^2-3x+10x+5 </mrow>
+                </me>
+                Finally, we use the distributive law to combine like terms:
+                <me>
+                    <mrow>2x^3+x^2-6x^2-3x+10x+5 \amp =2x^3+(1-6)x^2+(10-3)x+5 </mrow>  
+                    <mrow> \amp =2x^3-5x^2+7x+5.</mrow>
+                </me>
+            </p>
+            <p>
+                Although the distributive law makes the process work, we typically speed 
+                the process up by multiplying each term in the first factor by each 
+                term in the second factor:
+                <me>
+                    <mrow> (2x+1)(x^2-3x+5)\amp =2x(x^2)+2x(-3x)+2x(5)+1(x^2)+1(-3x)+1(5)</mrow>
+                    <mrow> \amp =2x^3-6x^2+10x+x^2-3x+5</mrow>
+                    <mrow> \amp =2x^3-5x^2+7x+5.</mrow>
+                </me>
+            </p>
+        </solution>
+    </example>
+    <p>
+        As demonstrated in the solution of <xref ref="examp-mult-poly"/>, the product 
+        of two polynomials can be found by multiplying each term in the first polynomial  
+        by each term in the second polynomial and then adding these products. If the 
+        first polynomial has <m>m</m> terms and the second polynomial has <m>n</m> terms,
+        then there will be <m>mn</m> terms before we combine like terms.
+    </p>
     <principle xml:id="principle-identity">
         <title>The Identity Properties</title>
         <statement>
@@ -188,6 +239,19 @@
                 If <m>a</m> is an real number, then <m>a+0=a</m>, <m>0+a=a</m>,
                 <m>a\cdot 1=a</m>, and <m>1\cdot a=a.</m> We call 0 the <term>additive identity</term>
                 and 1 the <term>multiplicative identity</term>.
+            </p>
+        </statement>
+    </principle>
+    <principle>
+        <title>The Inverse Properties</title>
+        <statement>
+            <p>
+                If <m>a</m> is a real number, then the number <m>-a</m> exists and 
+                has the property that <m>a+(-a)=0</m>. If <m>a</m> is an nonzero real  
+                number, then the number <m>\frac{1}{a}</m> exists and has the property 
+                that <m>a\cdot\frac{1}{a}=1</m>. The number <m>-a</m> is said to be the 
+                additive inverse of <m>a</m> and the number <m>\frac{1}{a}</m> is said 
+                to be the multiplicative inverse of <m>a</m>.
             </p>
         </statement>
     </principle>
@@ -345,29 +409,75 @@
               </p>
             </statement>
           </definition>
+          <example xml:id="example-algrev-sq-sqrt">
+            <title>Computing Squares and Square Roots</title>
+            <statement>
+                <p>
+                    Compute the following using the definitions of square and square root.
+                    A calculator should not be necessary.
+                    <ol>
+                        <li>
+                            <m>5^2</m>
+                        </li>
+                        <li>
+                            <m>\sqrt{400}</m>
+                        </li>
+                        <li>
+                            <m>(\sqrt{400})^2</m>
+                        </li>
+                        <li>
+                            <m>\sqrt{5^2}</m>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    a) <m>25</m>, b) <m>20</m>, c) <m>400</m>, d) <m>5</m>
+                </p>
+            </answer>
+          </example>  
           <p>
-        The notation <m>c^2</m> is read <m>c</m>-squared and is equivalent to 
-        the product <m>c\times c</m>. Later in this text we will be interested 
-        in cubing a number <m>s</m> which we can write as <m>s^3</m> or 
-        <m>s\times s\times s</m>. On the set of nonnegative 
-        numbers <fn>A number <m>x</m> is said to be <term>nonnegative</term> if 
-        <m>x\ge 0</m>. The square root cannot undo the action of squaring a 
-        negative number like <m>-3</m> because <m>\sqrt{(-3)^2}=3</m>.</fn>, the 
-        square root acts as the inverse (or "undoing") function of the squaring 
-        function. Thus, whenever you would like to undo the squaring function 
-        in an equation such as in the above example, we will take the square 
-        root of both sides. Hence, the equation in the Pythagorean Theorem can 
-        be written equivalently as <m>\sqrt{a^2 + b^2}=\sqrt{c^2}</m> or 
-        <m>\sqrt{a^2 + b^2}=c</m>. Note the inverse action: <m>\sqrt{c^2}=c</m>. 
-        In fact, the squaring function also undoes the square root function: 
-        <m>(\sqrt{c})^2=\sqrt{c}\times\sqrt{c}=c</m>. This is what we mean by a 
-        pair of inverse functions; applying them one right after the other 
-        (in either order) cancels their action. Examples of inverse function 
+            In <xref ref="example-algrev-sq-sqrt"/>, we observe how the actions of 
+            squaring and taking the square root undo each other. The square of <m>5</m>
+            is <m>25</m> and the square root of <m>25</m> is <m>5</m>. Similarly,
+            the square root of <m>400</m> is <m>20</m> and the square of <m>20</m> is 
+            <m>400</m>. Thus, when we perform a square and a square root in succession, 
+            the two actions cancel each other out. For this reason, the squaring function 
+            and the square root function are said to be <term>inverse operations</term>
+            on the set of nonnegative 
+            numbers<fn>A number <m>x</m> is said to be <term>nonnegative</term> if 
+            <m>x\ge 0</m>.</fn>. Since geometric measurements are nonnegative, we may 
+            use the square root function to undo the squaring function and vice versa. 
+            Thus, whenever you would like to undo the squaring function 
+            in an equation such as in the above example, we will take the square 
+            root of both sides.
+          </p>
+          <p>
+            Using the <xref ref="thm-Pythagorean">Pythagorean Theorem</xref> to find 
+            lengths will require squaring and taking square roots of numbers.
+            The equation <m>a^2+b^2=c^2</m>in the Pythagorean Theorem can 
+            be written equivalently as <m>\sqrt{a^2 + b^2}=\sqrt{c^2}</m> or 
+            <m>\sqrt{a^2 + b^2}=c</m>. Note the use of the inverse action: <m>\sqrt{c^2}=c</m>. 
+            In fact, the squaring function also undoes the square root function: 
+            <m>(\sqrt{c})^2=\sqrt{c}\times\sqrt{c}=c</m>. This is what we mean by a 
+            pair of inverse functions; applying them one right after the other 
+            (in either order) cancels their action. On the other hand, we need to be  
+            careful in applying an inverse operation. The square root of <m>a^2+b^2</m>
+            is not equal to <m>a+b</m> because the square of <m>a+b</m> is not <m>a^2+b^2</m>.
+            Instead, the square of <m>a+b</m> is <m>(a+b)^2=a^2+2ab+b^2</m> so that 
+            <m>\sqrt{a^2+2ab+b^2}=\sqrt{(a+b)^2}=a+b</m>. 
+            
+            Examples of inverse function 
         pairs that you may be more familiar with include adding 4 and subtracting 
         4 and also dividing by 10 and multiplying by 10. Note how the two 
         functions undo each other and recall how you have used them to solve 
         equations. 
-        The cubing function and cube root function are also inverses.
+
+        When working in three dimensional geometry, we will need to compute the 
+        cube of a number <m>s</m> which we can write as <m>s^3</m> or 
+        <m>s\times s\times s</m>. The cubing function and cube root function are 
+        also inverses of each other.
         </p>
     </subsection>
 </section>
