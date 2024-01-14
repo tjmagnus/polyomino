@@ -467,17 +467,130 @@
             is not equal to <m>a+b</m> because the square of <m>a+b</m> is not <m>a^2+b^2</m>.
             Instead, the square of <m>a+b</m> is <m>(a+b)^2=a^2+2ab+b^2</m> so that 
             <m>\sqrt{a^2+2ab+b^2}=\sqrt{(a+b)^2}=a+b</m>. 
-            
-            Examples of inverse function 
-        pairs that you may be more familiar with include adding 4 and subtracting 
-        4 and also dividing by 10 and multiplying by 10. Note how the two 
-        functions undo each other and recall how you have used them to solve 
-        equations. 
-
-        When working in three dimensional geometry, we will need to compute the 
-        cube of a number <m>s</m> which we can write as <m>s^3</m> or 
-        <m>s\times s\times s</m>. The cubing function and cube root function are 
-        also inverses of each other.
+          </p>
+          <example xml:id="examp-algrev-triangleleg">
+            <title>Finding the Length of a Leg of a Right Triangle</title>
+            <statement>
+                <p> 
+                    The length of the hypotenuse is 16 inches and the length of one leg 
+                is 10 inches. Determine the length of the other leg.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    By the Pythagorean Theorem, we know <m>10^2+b^2=16^2</m> or <m>100+b^2=256</m>. 
+                    Subtracting <m>100</m> from both sides of the equation, we get <m>b^2=156</m>.
+                    Taking the square root of both sides of the equation, we see 
+                    <m>b=\sqrt{156}\approx 12.49.</m>
+                </p>
+            </solution>
+          </example>
+          <subsubsection>
+            <title>Other Pairs of Inverse Functions</title>
+            <p>
+                The square and square root functions are not the only pair of 
+                functions that <sq>undo</sq> each other. Some pairs that you 
+                may be more familiar with include adding <m>4</m> and subtracting 
+                <m>4</m> and the two function, dividing by <m>10</m> and multiplying by <m>10</m>. 
+                Note how the two functions in each pair undo each other and 
+                recall how you have used them to solve equations. 
+            </p>
+            <p>
+                Extending the equality 
+                principles, <xref ref="principle-addition-equality" text="title"/> and
+                <xref ref="principle-multiplication-equality" text="title"/>, we often use the method of  
+                performing the same operation to both sides of an equation. Typically, the 
+                chosen operation is the inverse of an operation that appears in the equation.    
+            </p>
+            <p>
+                When working in three dimensional geometry, we will need to compute the 
+                cube of a number <m>s</m> which we can write as <m>s^3</m> or 
+                <m>s\times s\times s</m>. The cubing function and cube root function are 
+                also inverses of each other.
+            </p>    
+            <example xml:id="example-inverse-solve-equation">
+                <title>Using Inverses to Solve an Equation</title>
+                <statement>
+                    <p>Solve the equation <m>5x^3-4=316</m>.</p>
+                </statement>
+                <solution>
+                    <p>
+                        Adding <m>4</m> to both sides of <m>5x^3-4=316</m>
+                        gives us <m>5x^3=320</m>. Next we divide the expressions 
+                        on both sides by <m>5</m>, resulting in <m>x^3=64</m>. 
+                        Finally, we take the cube root of both sides, leaving us  
+                        with <m>x=4</m>. Checking our answer, we verify that 
+                        <m>5(4^3)-4=5(64)-4=320-4=316</m> as desired.
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+    <subsection>
+        <title>Order of Operations</title>
+        <p>
+            In <xref ref="example-inverse-solve-equation"/>, you may have wondered 
+            whether it was better to add four first or divide by five. Would it even make  
+            a difference?
         </p>
+        <p>
+            Because of the way that operations are built on each other<fn>Multiplication is  
+            repeated addition, and exponentiation is repeated multiplication.</fn>, the 
+            order of performing algebraic operations is prescribed. When performing computations, 
+            we perform exponentiation before multiplication and division and we perform multiplication 
+            and division before addition and subtraction. We also perform computations from 
+            left to right. Parentheses or other grouping symbols, such as a fraction bar<fn>We can also  
+            use placement and size of type, like <m>5^{1+3}</m> or <m>5x</m>. 
+            </fn>, are used when we want to treat a numerical expression as a single quantity. 
+            Thus, we start with the innermost parentheses and work our way out. 
+        </p>
+        <p>
+            When there are variables in an expression, we may not be able to perform 
+            operations in the standard order. Without a specified value, we cannot add 
+            a number like <m>5</m> to an expression like <m>x</m>. Instead, we use the 
+            distributive law and concept of like terms to simplify our expression.
+        </p>
+        <p>
+            As equations become more complex, there is no specific order in which to 
+            perform inverse operations. If one or both sides can be simplified, that is  
+            often a good first or intermediate step. Undoing operations is typically done  
+            in the reverse order, just as we need to unpeel layers of clothing in the evening, 
+            each item being removed in the opposite order in which it was put on. Our goal in 
+            a linear equation is to get down to a single appearance of the variable and to 
+            isolate that variable, as in <m>x=</m>. In polynomial equations, we usually aim to 
+            manipulate the expression until all variables and nonzero numbers are on one side of  
+            the equation so that we can factor the expression and apply <xref ref="principle-zero-product"
+            text="title"/> to find all solutions. 
+        </p>
+        <example>
+            <title>Solving Equations with Order of Operations</title>
+            <statement>
+                <p> 
+                    Solve the equation, <m>5(x-3)+8=58</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    We will demonstrate several methods. To emphasize how  
+                    order of operations are reversed when undoing operations, we
+                    note that adding 8 would be last in a computation. Thus our first  
+                    step is to subtract 8 (or add <m>-8</m>) to both sides of our 
+                    equation, resulting in <m>5(x-3)=50</m>. Next we, divide both sides by 
+                    <m>5</m>, leaving <m>x-3=10</m>. Finally, we add <m>3</m> to get <m>x=13</m>. 
+                </p>
+                <p>
+                    Note that if we start by dividing by 5, <xref ref="principle-distributive"/> 
+                    tells us that we must also divide 8 by 5. The resulting equation, <m>x-3+\frac{8}{5}=\frac{58}{5}</m>
+                    or <m>x-3+1.6=11.6</m>, is correct but more difficult to solve.
+                </p>
+                <p>
+                    Finally, we could solve this equation by first simplifying the left side.
+                    Our expression <m>5(x-3)+8=5x-15+8=5x-7.</m> Replacing the original left 
+                    side by this simplified version gives <m>5x-7=58</m>. Adding <m>7</m> to 
+                    both sides gives <m>5x=65</m> and dividing by 5 gives <m>x=13</m>.
+                </p>
+            </solution>
+
+        </example>
     </subsection>
 </section>
