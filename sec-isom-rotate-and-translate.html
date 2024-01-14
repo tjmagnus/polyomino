@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Orientation-Preserving Isometries</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Polyominoes, Polygons, and Polyhedra">
+<meta property="book:author" content="Teresa D. Magnus">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "https://pretextbook.org/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="https://pretextbook.org/css/0.83/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Explorations</span></a></h1>
+<p class="byline">Teresa D. Magnus</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-isom-reflect-Cartesian.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-isom.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-isom-identifying-isometries.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Geometrical Thinking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-explore.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Invitation to Explore</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-To-The-Student" class="internal"><span class="codenumber">1.1.1</span> <span class="title">To The Student</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-intro-explore-3" class="internal"><span class="codenumber">1.1.2</span> <span class="title">First Exploration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-reflect-exp-pentrect" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Learning from the Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-creative-expl" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Exploring to Learn</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-explore.html#Exercises-intro-exp" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-apply.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Invitation to Apply Knowledge</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-BuildingToolbox" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Building a Course Toolbox</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-definingpolygons" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Defining Polygons</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-apply.html#exercises-intro-apply" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-share.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Invitation to Share our Discoveries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#sec-intro-share-2" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Identifying a Pattern</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-explainconjectures" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Conjectures and Explanations in Mathematics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-letter" class="internal"><span class="codenumber">1.3.3</span> <span class="title">A Sample Explanatory Letter</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-share.html#exercises-intro-share" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-struggle.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Invitation to Overcome Challenges</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-2" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Growing through Persistance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#subsec-intro-struggle-reflect" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Confronting the Challenge</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-4" class="internal"><span class="codenumber">1.4.3</span> <span class="title">A Geometric Tool and an Algebraic Tool</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-struggle.html#exercises-intro-struggle" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="ch-intro-7.html" class="internal"><span class="codenumber">1.5</span> <span class="title">References and Suggested Readings</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-polygons.html" class="internal"><span class="codenumber">2</span> <span class="title">Exploring Polygons and Other Figures on the Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-area.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Why do the area formulas hold?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Area of a Parallelogram</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-area-tri" class="internal"><span class="codenumber">2.1.2</span> <span class="title">The Area of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">The Area of a Trapezoid</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Thoughts on Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-irregular-area" class="internal"><span class="codenumber">2.1.4.1</span> <span class="title">Estimating the Area of Curved Regions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsubsec-area-circle" class="internal"><span class="codenumber">2.1.4.2</span> <span class="title">The Area of a Circle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-area.html#exercises-polygons-area" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-angles.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Exploring Angle Measure</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-degrees" class="internal"><span class="codenumber">2.2.1</span> <span class="title">How Can We Measure Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-triangle" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Angles of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-principle" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Additivity of Angles and Definitions Associated with Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#sec-polygons-angles-5" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Vertical Angles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-angles.html#exercises-polygons-angles" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What does Parallel Mean?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#sec-polygons-parallel-3" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-regular.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Exploring Regular Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#sec-polygons-regular-3" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Regular Polygons</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-polygons-regular-tilings" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Regular Tilings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semiregular-tilings" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Semiregular Tilings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semireg-rules" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Narrowing Down the Options</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-polygons-regular-summary" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Summary and Tools</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-regular.html#exercises-polygons-regular" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-length.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Exploring Length and the Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Right Triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Check Your Understanding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Check your Understanding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-5" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Proving the Pythagorean Theorem with Picture Puzzles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Reflecting on the Pythagorean Theorem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-length.html#exercises-polygons-length" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="ch-polygons-8.html" class="internal"><span class="codenumber">2.6</span> <span class="title">References and Suggested Readings</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-2" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Some Examples of Semiregular Polyhedra</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Prisms and Cylinders</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Definitions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Pyramids and Cones</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-2" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Definitions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Instructor’s Notes</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Notes for Section 3.1</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#sec-isom-reflect-Cartesian-3" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Exploring Reflections</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#sec-isom-reflect-Cartesian-4" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Key Ideas regarding Reflections</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Orientation-Preserving Isometries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP" class="internal"><span class="codenumber">4.2.1</span> <span class="title">What do we mean by orientation-preserving?</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-Translations" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Translations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-translation" class="internal"><span class="codenumber">4.2.2.1</span> <span class="title">Properties of Translations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-rotation" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Rotations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-rotation" class="internal"><span class="codenumber">4.2.3.1</span> <span class="title">Properties of Rotations</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-identifying-isometries.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Identifying Isometries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What do we know? What do we wonder?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-3" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.3</span> <span class="title">What have we learned?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-composing-reflections.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compositions of Reflections</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#sec-isom-composing-reflections-2" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Compositions</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="list-of-principles.html" class="internal"><span class="codenumber">A</span> <span class="title">List of Principles</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="algebra-review.html" class="internal"><span class="codenumber">B</span> <span class="title">Algebra Review</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">B.1</span> <span class="title">Algebra Principles and Review</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles.html#algebra-principles-3" class="internal"><span class="codenumber">B.1.1</span> <span class="title">Algebraic Expressions and Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles.html#field-properties" class="internal"><span class="codenumber">B.1.2</span> <span class="title">Field Properties of the Real Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles.html#equality-properties" class="internal"><span class="codenumber">B.1.3</span> <span class="title">Properties of Equality</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="algebra-principles.html#subsec-algrev-sqroots" class="internal"><span class="codenumber">B.1.4</span> <span class="title">Working with squares and square roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="algebra-principles.html#subsec-algrev-sqroots-7" class="internal"><span class="codenumber">B.1.4.1</span> <span class="title">Other Pairs of Inverse Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles.html#algebra-principles-7" class="internal"><span class="codenumber">B.1.5</span> <span class="title">Order of Operations</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-isom-rotate-and-translate"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">Orientation-Preserving Isometries</span>
+</h2>
+<section class="subsection" id="subsec-isom-RAT-definingOP"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="space"> </span><span class="title">What do we mean by orientation-preserving?</span>
+</h3>
+<div class="para" id="subsec-isom-RAT-definingOP-2">The picture shows a triangle <span class="process-math">\(\Delta ABC\)</span> reflected across a line <span class="process-math">\(\ell\text{.}\)</span> Although the letters <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\)</span> are in alphabetical order when read clockwise from the original figure, the letters in the reflected image <span class="process-math">\(\Delta A'B'C'\)</span> are in the reverse order. When this happens, we say that the transformation <dfn class="terminology">reverses orientation</dfn>. Any reflection will be an orientation-reversing transformation.</div>
+<figure class="figure figure-like" id="reversing-orientation-fig"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/orientation-reflection.svg" role="img" class="contained" alt="Triangle ABC reflected across a line m to create triangle C’B’A’."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.1<span class="period">.</span></span><span class="space"> </span>A reflection reverses orientation</figcaption></figure><div class="para" id="subsec-isom-RAT-definingOP-6">Not all transformations reverse orientation. In this section, you will encounter two types of <dfn class="terminology">orientation-preserving</dfn> transformations: rotations and translations. When either of these is performed, the order in which the vertices are read is unchanged. </div></section><section class="subsection" id="subsec-Translations"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="space"> </span><span class="title">Translations</span>
+</h3>
+<article class="exploration project-like" id="explor-isom-RAT-translation"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Translating on a Coordinate Plane.</span>
+</h4>
+<article class="task exercise-like" id="explor-isom-RAT-translation-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="explor-isom-RAT-translation-2-1-1">
+<a href="" class="xref" data-knowl="./knowl/xref/app-translate-wcoords.html" title="Figure 4.2.2">Figure 4.2.2</a> gives a picture of quadrilateral <span class="process-math">\(ABCD\)</span> a vector <span class="process-math">\(\overrightarrow{EF}\)</span> on a coordinate grid. Vector <span class="process-math">\(\overrightarrow{EF}\)</span> goes from <span class="process-math">\((2,4)\)</span> to <span class="process-math">\((5,3)\)</span> suggesting that it moves points three units to the right and one unit down.</div> <figure class="figure figure-like" id="app-translate-wcoords"><iframe id="coordtranslationapp" width="600" height="600" src="coordtranslationapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.2<span class="period">.</span></span><span class="space"> </span>An interactive Geogebra applet for translating by a coordinate vector.</figcaption></figure> <div class="para logical" id="explor-isom-RAT-translation-2-1-3"><ol class="decimal">
+<li id="explor-isom-RAT-translation-2-1-3-1-1">
+<div class="para" id="explor-isom-RAT-translation-2-1-3-1-1-1">Use the point tool to locate and mark the image <span class="process-math">\(A'\)</span> created by moving point <span class="process-math">\(A\)</span> by vector <span class="process-math">\(\overrightarrow{EF}\text{.}\)</span> What are the coordinates of <span class="process-math">\(A'\text{?}\)</span>
+</div>
+<aside class="aside aside-like" id="explor-isom-RAT-translation-2-1-3-1-1-2"><div class="para" id="explor-isom-RAT-translation-2-1-3-1-1-2-1">GeoGebra will assign a new name, perhaps <span class="process-math">\(H\text{,}\)</span> to the point you create. If you would like to rename it, right click on the point and select rename.</div></aside>
+</li>
+<li id="explor-isom-RAT-translation-2-1-3-1-2"><div class="para" id="explor-isom-RAT-translation-2-1-3-1-2-1">Create <span class="process-math">\(B'\text{,}\)</span> <span class="process-math">\(C'\text{,}\)</span> and <span class="process-math">\(D'\)</span> in a similar fashion, recording their coordinates. Then use the polygon tool to draw quadrilateral <span class="process-math">\(A'B'C'D'\text{.}\)</span>
+</div></li>
+</ol></div></article><article class="task exercise-like" id="explor-isom-RAT-translation-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="explor-isom-RAT-translation-3-1-1">Does the transformation mapping <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\)</span> preserve distance? In other words, is the length of each side of quadrilateral <span class="process-math">\(A'B'C'D'\)</span> equal to its corresponding side in quadrilateral <span class="process-math">\(A'B'C'D'\text{?}\)</span>
+</div></article><article class="task exercise-like" id="explor-isom-RAT-translation-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="explor-isom-RAT-translation-4-1-1">Are the corresponding angles of <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> congruent?</div></article><article class="task exercise-like" id="explor-isom-RAT-translation-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="explor-isom-RAT-translation-5-1-1">Is the orientation of quadrilateral <span class="process-math">\(\Delta ABCD\)</span> preserved under the translation? How do you know?</div></article><article class="task exercise-like" id="explor-isom-RAT-translation-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para logical" id="explor-isom-RAT-translation-6-1-1">
+<div class="para">Sketch the segments <span class="process-math">\(\overline{AA'}\text{,}\)</span> <span class="process-math">\(\overline{BB'}\text{,}\)</span> <span class="process-math">\(\overline{CC'}\text{,}\)</span> and <span class="process-math">\(\overline{DD'}\text{.}\)</span>
+</div>
+<ol class="decimal">
+<li id="explor-isom-RAT-translation-6-1-1-5-1"><div class="para" id="explor-isom-RAT-translation-6-1-1-5-1-1">What do you notice about the lengths of these segments?</div></li>
+<li id="explor-isom-RAT-translation-6-1-1-5-2"><div class="para" id="explor-isom-RAT-translation-6-1-1-5-2-1">What appears to be true about the lines <span class="process-math">\(\overleftrightarrow{AA'}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{BB'}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{CC'}\text{,}\)</span> and <span class="process-math">\(\overleftrightarrow{DD'}\text{?}\)</span>
+</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="explor-isom-RAT-translation-6-2" class="hint solution-like born-hidden-knowl"><summary><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like"><div class="para" id="explor-isom-RAT-translation-6-2-1">Since lines have infinite length, you should be looking for a property other than length.</div></div></details></div></article><article class="task exercise-like" id="explor-isom-RAT-translation-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="explor-isom-RAT-translation-7-1-1">Are the quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> congruent?</div></article><article class="task exercise-like" id="explor-isom-RAT-translation-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="explor-isom-RAT-translation-8-1">What type of quadrilateral is <span class="process-math">\(ABIH\text{?}\)</span> How do you know? Can the same be said of quadrilaterals <span class="process-math">\(ADKH\text{,}\)</span> <span class="process-math">\(CDKJ\text{,}\)</span> and <span class="process-math">\(BCJI\text{?}\)</span>
+</div></article><article class="task exercise-like" id="explor-isom-RAT-translation-9"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<div class="para logical" id="explor-isom-RAT-translation-9-1-1">
+<div class="para">An isometry affects all points in the plane, not just those pictured. Draw three new points: point <span class="process-math">\(L\)</span> lying on side <span class="process-math">\(\overline{BC}\text{,}\)</span> point <span class="process-math">\(M\)</span> lying in the exterior of quadrilateral <span class="process-math">\(ABCD\text{,}\)</span> and point <span class="process-math">\(N\)</span> lying in the interior of <span class="process-math">\(\ABCD\text{.}\)</span>
+</div>
+<ol class="decimal">
+<li id="explor-isom-RAT-translation-9-1-1-7-1"><div class="para" id="explor-isom-RAT-translation-9-1-1-7-1-1">Sketch point <span class="process-math">\(L'\text{,}\)</span> the image of <span class="process-math">\(L\)</span> under the transformation that takes <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{.}\)</span> How is the location of <span class="process-math">\(L'\)</span> related to <span class="process-math">\(A'B'C'D'\text{?}\)</span>
+</div></li>
+<li id="explor-isom-RAT-translation-9-1-1-7-2"><div class="para" id="explor-isom-RAT-translation-9-1-1-7-2-1">Sketch point <span class="process-math">\(M'\text{,}\)</span> the image of <span class="process-math">\(M\)</span> under the transformation that takes <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{.}\)</span> How is the location of <span class="process-math">\(M'\)</span> related to <span class="process-math">\(A'B'C'D'\text{?}\)</span>
+</div></li>
+<li id="explor-isom-RAT-translation-9-1-1-7-3"><div class="para" id="explor-isom-RAT-translation-9-1-1-7-3-1">Sketch point <span class="process-math">\(N'\)</span> the image of <span class="process-math">\(N\)</span> under the transformation that takes <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{.}\)</span> How is the location of <span class="process-math">\(N'\)</span> related to <span class="process-math">\(A'B'C'D'\text{?}\)</span>
+</div></li>
+</ol>
+</div></article><article class="task exercise-like" id="explor-isom-RAT-translation-10"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="explor-isom-RAT-translation-10-1-1">We call the isometry in <a href="" class="xref" data-knowl="./knowl/xref/app-translate-wcoords.html" title="Figure 4.2.2">Figure 4.2.2</a> a <dfn class="terminology">translation</dfn>. Describe in your own words how a translation acts on points in the plane.</div></article></article><section class="subsubsection" id="subsec-isom-RAT-props-translation"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.2.2.1</span><span class="space"> </span><span class="title">Properties of Translations</span>
+</h4>
+<div class="para" id="subsec-isom-RAT-props-translation-2">In <a href="" class="xref" data-knowl="./knowl/xref/explor-isom-RAT-translation.html" title="Exploration 4.2.1: Translating on a Coordinate Plane">Exploration 4.2.1</a>, we observed many of the properties of a transformation called a <dfn class="terminology">translation</dfn>.  Each translation is uniquely defined by a <dfn class="terminology">translation vector</dfn><a class="xref" id="subsec-isom-RAT-props-translation-2-5" href="" data-knowl="./knowl/fn/subsec-isom-RAT-props-translation-2-5.html" title="Footnote 4.2.1"><sup> 1 </sup></a> which indicates the direction and distance that every point is moved by the translation. The choice of the translation vector, on the other hand, is not unique. Any vector of the same length which points in the same direction may serve as the vector for the translation. In <a href="" class="xref" data-knowl="./knowl/xref/app-translate-wcoords.html" title="Figure 4.2.2">Figure 4.2.2</a>, the vector <span class="process-math">\(\overrightarrow{BB'}\)</span> is a translation vector for the given translation; however, <span class="process-math">\(\overrightarrow{AA'}\text{,}\)</span> <span class="process-math">\(\overrightarrow{CC'}\text{,}\)</span> <span class="process-math">\(\overrightarrow{DD'}\text{,}\)</span> or even your <span class="process-math">\(\overrightarrow{MM'}\)</span> would describe the same translation. Any of these vectors may be chosen as the translation vector for this translation. You probably noticed that these vectors were parallel and had the same length.</div>
+<div class="para" id="subsec-isom-RAT-props-translation-3">In addition, we observed that the translation preserved orientation, distance, angle measure, and shape. When you chose a random point <span class="process-math">\(L\)</span> on <span class="process-math">\(\overline{BC}\text{,}\)</span> its image landed on <span class="process-math">\(\overline{B'C'}\text{,}\)</span> suggesting that a translation should <dfn class="terminology">preserve linearity</dfn> of points.</div>
+<article class="definition definition-like" id="def-collineation"><h5 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="period">.</span>
+</h5>
+<div class="para" id="def-collineation-1-1">A transformation that preserves linearity, that takes collinear points to collinear points, is called a <dfn class="terminology">collineation</dfn>. </div></article></section></section><section class="subsection" id="subsec-isom-RAT-rotation"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="space"> </span><span class="title">Rotations</span>
+</h3>
+<section class="introduction" id="intro-def-rotation"><div class="para" id="intro-def-rotation-1">The third transformation we will consider is a <dfn class="terminology">rotation</dfn>. Like a translation, a rotation preserves the orientation of the vertices.  Each rotation has a single point, called the <dfn class="terminology">center</dfn> of the rotation, which is not moved by the rotation. All other points are rotated around the center a specific number of degrees. A good way to visualize a rotation is to imagine putting a pin through the center and moving the paper around that pin. </div></section><article class="exploration project-like" id="expl-rotation"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Exploring a Rotation.</span>
+</h4>
+<div class="introduction" id="expl-rotation-2">
+<div class="para" id="expl-rotation-2-1">
+<a href="" class="xref" data-knowl="./knowl/xref/rotated-triangle.html" title="Figure 4.2.4">Figure 4.2.4</a> shows an example of the action of a translation on triangle <span class="process-math">\(\Delta ABC\text{.}\)</span> Use this figure to answer the following:</div> <figure class="figure figure-like" id="rotated-triangle"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/rotation.svg" role="img" class="contained" alt="Triangle ABC is rotated around a point F to form triangle A’B’C’."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.4<span class="period">.</span></span><span class="space"> </span>A rotation of <span class="process-math">\(\Delta ABC\)</span></figcaption></figure>
+</div>
+<article class="task exercise-like" id="expl-rotation-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="expl-rotation-3-1-1">List the vertices of the original triangle in clockwise order starting with <span class="process-math">\(A\text{.}\)</span> List the vertices of the image in clockwise order starting with <span class="process-math">\(A’\text{.}\)</span> Does the rotation preserve the orientation of the triangle?</div></article><article class="task exercise-like" id="expl-rotation-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="expl-rotation-4-1-1">What point in <a href="" class="xref" data-knowl="./knowl/xref/rotated-triangle.html" title="Figure 4.2.4">Figure 4.2.4</a> is the center of this particular rotation? Is it on either triangle, in the interior of either triangle, or in the exterior of both triangles?  How do you know that the point you identified as the center meets the criteria in the definition of <a href="sec-isom-rotate-and-translate.html#intro-def-rotation" class="internal" title="Introduction">center of rotation</a>?</div></article><article class="task exercise-like" id="expl-rotation-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="expl-rotation-5-1-1">Is the rotation distance-preserving? How do you know?</div></article><article class="task exercise-like" id="expl-rotation-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para logical" id="expl-rotation-6-1-1">
+<div class="para">In <a href="" class="xref" data-knowl="./knowl/xref/rotated-triangle.html" title="Figure 4.2.4">Figure 4.2.4</a>, the following angle measures are given:</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/rotated-triangle.html" id="expl-rotation-6-1-1-2">
+\begin{align*}
+m\angle{AFC} \amp =48\\
+m\angle{CFB} \amp =26\\
+m\angle{BFA'} \amp =36\\
+m\angle{A'FC'} \amp =48\\
+m\angle{C'FB'} \amp =26
+\end{align*}
+</div>
+<div class="para">Determine the following angle measures:</div>
+<ol class="decimal">
+<li id="expl-rotation-6-1-1-3-1"><div class="para" id="expl-rotation-6-1-1-3-1-1"><span class="process-math">\(\displaystyle \angle{AFA'}\)</span></div></li>
+<li id="expl-rotation-6-1-1-3-2"><div class="para" id="expl-rotation-6-1-1-3-2-1"><span class="process-math">\(\displaystyle \angle{BFB'}\)</span></div></li>
+<li id="expl-rotation-6-1-1-3-3"><div class="para" id="expl-rotation-6-1-1-3-3-1"><span class="process-math">\(\displaystyle \angle{CFC'}\)</span></div></li>
+</ol>
+</div></article><article class="task exercise-like" id="expl-rotation-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="expl-rotation-7-1-1">What is the degree measure of the rotational angle of this rotation? Is it a clockwise or counterclockwise rotation?</div></article></article><section class="subsubsection" id="subsec-isom-RAT-props-rotation"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.2.3.1</span><span class="space"> </span><span class="title">Properties of Rotations</span>
+</h4>
+<div class="para" id="subsec-isom-RAT-props-rotation-2">A rotation is specified by two pieces of information, namely its center and the angle of rotation. The center is the one point which does not move and forms the vertex for the rotation angle. The distance between the center and each point does not change under the rotation, but the direction from the center to each point is changed according to the rotation angle. Normally we think of a positive rotation moving each point <span class="process-math">\(P\)</span> to its image <span class="process-math">\(P’\)</span> in the counterclockwise direction. Thus, a rotational angle with negative degree measure would move the image clockwise around the center. Rotational angles may be greater than 180 degrees or negative; in fact, any number of degrees is allowed!</div></section></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-isom-reflect-Cartesian.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-isom-identifying-isometries.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
