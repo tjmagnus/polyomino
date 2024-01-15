@@ -1,6 +1,34 @@
     <section xml:id="sec-intro-instructor" xmlns:xi="http://www.w3.org/2001/XInclude" component="instructor">
     <title>Instructor Notes</title>
-
+    <subsection>
+        <title>General Notes on Writing</title>
+        <p>
+            Although I am including writing prompts for most sections, I 
+            typically only assign two explanatory papers (the area formula for 
+            a trapezoid and the Pythagorean Theorem) and three to five journal essays
+            (these vary, but typically include the autobiography, the essay on wonder, 
+            and a reflection on Lockhart's "A Mathematician's Lament"). I recognize that 
+            my students have little, if any, experience in writing mathematical explanations. 
+            When I teach this course, I build revisions of these two papers into the 
+            schedule and grading specifications. Some of the journal writing prompts can 
+            be assigned at any point during the course. Teaching this  
+            course in the winter/spring semester, we typically have at least one snow day and the essay on 
+            wonder is a nice assignment to use in lieu of a class. I have found that students  
+            may not be ready to write the reflection on "A Mathematician's Lament" early in 
+            the semester. Well into the semester, many students are hanging on to the belief that 
+            math is simply a collection of tools to memorize and use. I also assign a 
+            final portfolio in which students discuss growth in their mathematical abilities, 
+            understanding, and attitude. I am happy to share a copy of my portfolio assignment, 
+            detailed descriptions of the two explanatory papers, and my specifications grading rubric.
+        </p>
+        <aside>
+            <p>
+                Eventually, I will create a website with these handouts.
+                Perhaps, I'll add an early and late reflection on Lockhart's 
+                essay.
+            </p>
+        </aside>
+    </subsection>
     <subsection>
         <title>Notes for <xref ref="sec-intro-explore"/></title>
         <p>
@@ -97,7 +125,17 @@
     <subsection>
         <title>Notes for <xref ref="sec-intro-share"/></title>
         <p>
-            In this section, we introduce students to the importance of understanding, 
+            This section is new, but I have experimented with some tasks to develop 
+            early mathematical writing skills. I have asked students to write a short paper in which 
+            they give me instructions on how to perform a (nonmathematical) task. I've also  
+            done an inclass "jigsaw group activity" in which groups of students are given 
+            different pattern block designs and have to write instructions on how to recreate 
+            the design. They then are paired with someone from a different group and attempt 
+            to recreate the design from the instructions. Pictures are not allowed in the instructions,
+            but we later discuss how pictures and precise vocabulary would have been helpful.
+        </p>
+        <p>
+            This section is designed to introduce students to the importance of understanding, 
             explaining, and communicating mathematics as a way of continuing the subject.
             I normally assign two explanatory papers in the next chapter. In them, I do 
             not force a formal proof-writing style, but I do 

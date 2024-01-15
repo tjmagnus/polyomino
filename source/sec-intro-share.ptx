@@ -331,7 +331,8 @@
       <exercise xml:id="SAR-intro-share-insertname">
         <statement>
           <p>
-            Add problems.
+            Determine two different possibilities for the next term in the 
+            sequence <m>1,2,4,\ldots</m>. Give reasons for your answers.
           </p>
         </statement>
       </exercise>
@@ -341,8 +342,120 @@
       <exercise>
         <statement>
           <p>
-            Add problems.
+            Consider the pattern suggested by the triangles of dots:
           </p>
+          <figure xml:id="fig-triangular-numbers1">
+            <caption>A Sequence of Triangles</caption>
+            <image source="trinumbersequilateral">
+              <description>T1 is a dot. The remaining figures look like equilateral
+                triangles. T2 contains a row of two dots and a dot above. T3 adds a 
+                row of three dots below T2. T4 adds a row of four dots below T3. 
+                T5 adds a row of five dots below T4.
+              </description>
+            </image>
+          </figure>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  List the number of dots in each of <m>T_1, T_2, T_3, T_4, T_5</m>.
+                  Do not add these five numbers.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Sketch <m>T_6</m>. How many dots does it have?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Without drawing the picture, how many dots should <m>T_{10}</m>
+                  have? Why?
+                </p>
+              </li>
+              <li>
+                <p>
+                  In <xref ref="right-isos-tri-5"/>, the dots in <m>T_5</m> have been  
+                  rearranged to form an isosceles right triangle, labeled <m>S_5</m>. Then a second copy 
+                  of this configuration has been made and rotated so that together they 
+                  form a rectangle, labeled <m>R_5</m>. 
+                  <ol>
+                    <li>
+                      Use this process to sketch <m>R_2</m>, <m>R_3</m>, and <m>R_4</m>. What should 
+                      <m>R_1</m> look like?
+                    </li>
+                    <li>
+                      What is the number of dots (blue and red together) in each row of <m>R_5</m>?
+                    </li>
+                    <li>
+                      How many rows of dots does <m>R_5</m> have?
+                    </li>
+                    <li>
+                      How is the product of these two numbers related to the number of dots in 
+                      <m>T_5</m>? Explain why this result is what one might expect from the picture.
+                    </li>
+                    <li>
+                      Use your sketches of <m>R_2, R_3, R_4</m> and the provided sketch of <m>R_5</m>
+                      to complete <xref ref="table-trinum"/>. 
+                    </li>
+                  </ol>
+                </p>
+              </li>
+            </ol>
+          </p>
+          <table xml:id="table-trinum">
+            <title>Counting Dots in Triangles and Rectangles</title>
+            <tabular halign="center">
+              <row header="yes" bottom="minor">
+            <cell>Index <m>n</m></cell>
+            <cell>Number of dots per row</cell>
+            <cell>Number of rows of dots</cell>
+            <cell>Number of dots in <m>R_n</m></cell>
+            <cell>Number of dots in <m>T_n</m></cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>2</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>6</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+                <cell>?</cell>
+              </row>
+            </tabular>
+          </table>
+          <figure xml:id="right-isos-tri-5">
+            <caption>Rearranging the fifth triangle of dots</caption>
+            <image source="trinumbersrightisosceles" width="80%">
+              <description>Described in problem.</description>
+            </image>
+          </figure>
         </statement>
       </exercise>
     </subexercises>
