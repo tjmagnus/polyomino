@@ -453,6 +453,15 @@
             in an equation such as in the above example, we will take the square 
             root of both sides.
           </p>
+          <principle xml:id="principle-invpropofsqrt">
+            <title>Inverse Property of Squares and Square Roots</title>
+            <statement>
+                <p>
+                    Let <m>x</m> be a nonnegative real number. Then
+                    <m>\sqrt{x^2}=x</m> and <m>(\sqrt{x})^2=x</m>.
+                </p>
+            </statement>
+          </principle>
           <p>
             Using the <xref ref="thm-Pythagorean">Pythagorean Theorem</xref> to find 
             lengths will require squaring and taking square roots of numbers.
@@ -485,7 +494,30 @@
                 </p>
             </solution>
           </example>
-          <subsubsection>
+          <p>
+            Our examples demonstrate that <m>\sqrt{x+y}\neq\sqrt{x}+\sqrt{y}</m>, but what if the 
+            operation is multiplication or division? In this situation, the 
+            expression can be simplified.
+          </p>
+          <principle xml:id="principle-exp-rt-product">
+            <title>Exponents and Roots of Products and Quotients</title>
+            <statement>
+                <p>
+                    Let <m>x</m> and <m>y</m> be nonnegative real numbers. Then
+                    <m>(xy)^2=x^2\cdot y^2</m> and <m>\sqrt{xy}=\sqrt{x}\sqrt{y}.</m> If <m>y>0</m>, 
+                    then <m>(\frac{x}{y})^2=\frac{x^2}{y^2}</m> and 
+                    <m>\sqrt{\frac{x}{y}}=\frac{\sqrt{x}}{\sqrt{y}}</m>.
+                </p>
+                <p>
+                    Moreover, if <m>n</m> is any nonnegative integer, we can say that 
+                    <m>(xy)^n=x^n\cdot y^n</m> and <m>\sqrt[n]{xy}=\sqrt[n]{x}\sqrt[n]{y}</m>. 
+                    Also <m>(\frac{x}{y})^n=\frac{x^n}{y^n}</m> and 
+                    <m>\sqrt[n]{\frac{x}{y}}=\frac{\sqrt[n]{x}}{\sqrt[n]{y}}</m> when <m>y>0</m>.
+                </p>
+            </statement>
+          </principle>
+        </subsection>
+        <subsection>
             <title>Other Pairs of Inverse Functions</title>
             <p>
                 The square and square root functions are not the only pair of 
@@ -524,7 +556,6 @@
                     </p>
                 </solution>
             </example>
-        </subsubsection>
     </subsection>
     <subsection>
         <title>Order of Operations</title>

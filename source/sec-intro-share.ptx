@@ -472,7 +472,7 @@
       <title>
         Writing Prompts
       </title>
-      <exercise xml:id="whysqrt8is2sqrt2"></exercise>
+      <exercise xml:id="whysqrt8is2sqrt2">
       <title>
         Why is <m>\sqrt{8}</m> equal to <m>2\sqrt{2}</m>?
       </title>
@@ -502,15 +502,17 @@
           </p>
         </aside>
       </statement>
-      
-      <exercise xml:id="tri-numbers-write">
-        <title>Writing about the Count of Dots in a Triangle</title>
+    </exercise>
+    <exercise xml:id="tri-numbers-write">
+      <title>Writing about the Count of Dots in a Triangle</title>
+        <statement>
         <p>
           Write a letter to a friend in the style of the letter to Aunt Josephine 
           in which you explain why <m>1+2+3+\cdots+n=\frac{n(n+1)}{2}.</m> Your sketches  
           and discoveries in <xref ref="exer-tri-numbers"/> should be helpful in 
           writing this letter.
         </p>
+        </statement>
       </exercise>
       <exercise xml:id="writing-intro-share-wonder">
         <title>Wonder in Mathematics</title>

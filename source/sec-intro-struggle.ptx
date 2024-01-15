@@ -328,7 +328,8 @@
         <statement>
           <p>
             Use algebra rules or experimentation to determine the following. Your 
-            answers should contain variables.
+            answers should contain variables. A review of square roots may be found 
+            in <xref ref="subsec-algrev-sqroots"/>
             <ol>
               <li>
                 <p>
@@ -383,7 +384,22 @@
       <title>
         Writing Prompts
       </title>
-      <exercise xml:id="writing-intro-struggle-prompt">
+      <exercise xml:id="writing-intro-struggle-geoboard">
+      <title>Geoboard Experience</title>
+      <statement>
+        <p>
+          Discuss the emotions that you experienced as you were working on this  
+          activity. Did you encounter moments when you felt stuck? How long did 
+          that last? What helped you persist through the process? Were you able to 
+          get unstuck without being told answers? How did that make you feel? Feel 
+          free to discuss other emotional stages of this activity. If this particular 
+          activity did not challenge you as much as one of the earlier ones, your 
+          instructor may give you permission to discuss one of those instead. Be  
+          sure to discuss the emotions associated with struggle and challenge.
+        </p>
+      </statement>
+      </exercise>
+      <exercise xml:id="writing-intro-struggle-other">
         <title>Growing via Challenges</title>
         <statement>
           <p>
