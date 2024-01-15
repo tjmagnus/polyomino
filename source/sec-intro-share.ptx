@@ -339,7 +339,8 @@
     </subexercises>
     <subexercises xml:id="ExtConc-intro-share">
       <title>Extending the Concepts</title>
-      <exercise>
+      <exercise xml:id="exer-tri-numbers">
+        <title>A Triangular Pattern of Dots</title>
         <statement>
           <p>
             Consider the pattern suggested by the triangles of dots:
@@ -399,6 +400,14 @@
                       to complete <xref ref="table-trinum"/>. 
                     </li>
                   </ol>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Letting <m>n</m> stand for the number of rows in our triangle <m>T_n</m>,
+                  give a formula for the total number of dots in <m>T_n</m>. The formula will  
+                  use the variable <m>n</m>, work for all possible positive integers <m>n</m>, 
+                  and not require the use of <m>\cdots</m>.
                 </p>
               </li>
             </ol>
@@ -463,6 +472,46 @@
       <title>
         Writing Prompts
       </title>
+      <exercise xml:id="whysqrt8is2sqrt2"></exercise>
+      <title>
+        Why is <m>\sqrt{8}</m> equal to <m>2\sqrt{2}</m>?
+      </title>
+      <statement>
+        <p>
+          In <xref ref="fig-tripfsqrt8"/>, assume <m>DEFB</m> is a square 
+          with side length <m>1</m> and that <m>F</m> and <m>D</m> are the midpoints  
+          of <m>\overline{AB}</m> and <m>\overline{BC}</m>, respectively.
+        </p>
+        <figure xml:id="fig-tripfsqrt8">
+          <caption>Right triangle of side length 2</caption>
+          <image source="sqrt-of-8" width="66%">
+            <description>
+              Isosceles triangle ABC has side length 2. Segment FE joins 
+              the midpoints of side AB and hypotenuse AC. Segment DE joins the 
+              midpoints of side BC and hypotenuse AC.
+            </description>
+          </image>
+        </figure>
+        <p>
+          Write a letter to Aunt Josephine or another friend in which you describe  
+          how this picture shows that <m>\sqrt{8}=2\sqrt{2}.</m>
+        </p>
+        <aside>
+          <p>Algebraically, we know <m>\sqrt{8}=\sqrt{4\cdot 2}=\sqrt{4}\cdot\sqrt{2}
+            =2\sqrt{2}</m>. For this writing prompt, give a geometric proof.
+          </p>
+        </aside>
+      </statement>
+      
+      <exercise xml:id="tri-numbers-write">
+        <title>Writing about the Count of Dots in a Triangle</title>
+        <p>
+          Write a letter to a friend in the style of the letter to Aunt Josephine 
+          in which you explain why <m>1+2+3+\cdots+n=\frac{n(n+1)}{2}.</m> Your sketches  
+          and discoveries in <xref ref="exer-tri-numbers"/> should be helpful in 
+          writing this letter.
+        </p>
+      </exercise>
       <exercise xml:id="writing-intro-share-wonder">
         <title>Wonder in Mathematics</title>
         <statement>
