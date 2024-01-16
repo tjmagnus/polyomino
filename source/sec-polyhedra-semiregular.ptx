@@ -410,18 +410,31 @@
             <statement>
                 <p>
                     A <term>prism</term> is a polyhedron consisting of two congruent parallel  
-                    polygonal bases joined by sides that are parallelograms (often rectangles).
+                    polygonal faces joined by sides that are parallelograms (often rectangles).
                 </p>
-            </statement>
+            </statement> 
         </definition>
         <definition xml:id="def-antiprism">
             <idx>antiprism</idx>
             <statement>
                 <p>
-                    An <term>antiprism</term> is a polyhedron consisting of two congruent parallel  
-                    polygonal bases joined by sides that are triangles.
+                    An <term>antiprism</term> is a polyhedron consisting of a 
+                    pair of parallel congruent  
+                    polygonal faces joined by sides that are triangles.
                 </p>
             </statement>
         </definition>
+        <p>
+            The two parallel congruent polygonal faces are called the <term>bases</term> 
+            of the prism or antiprism. The top base may be called the <term>summit</term>  
+            in which case the bottom would be called the <term>base</term>. Of course, we  
+            can sit a polyhedron on any of its faces. Sometimes the bases will be at the ends 
+            rather than at the top and bottom.
+            <idx><h>base</h><h>prism</h></idx>
+            <idx><h>summit</h><h>prism</h></idx>
+            <idx><h>base</h><h>antiprism</h></idx>
+            <idx><h>summit</h><h>antiprism</h></idx>
+        </p>
     </subsection>
+    <!--exercises on counting, Euler formula-->
 </section>

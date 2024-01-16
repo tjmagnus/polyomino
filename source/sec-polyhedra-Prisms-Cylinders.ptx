@@ -3,7 +3,40 @@
     <subsection>
         <title>Definitions</title>
         <p>
-            Add here.
+            Let us explore the geometric solid known as a <term>prism</term> in 
+            greater detail. As noted in <xref ref="def-prism"/>, a prism is a 
+            box-like geometric solid with a pair of congruent and parallel polygonal  
+            faces, the base and the summit, joined by a band of parallelograms.
+            The number of parallelograms connecting the bases will always equal 
+            the number of sides of a base.
         </p>
+        <p>
+            We are most familiar with <term>right prisms</term>, namely prisms 
+            where the bases meet all the side faces at right angles; the side faces of a 
+            right prism are rectangles. A <term>skew prism</term> is a prism with 
+            at least one side face is not a rectangle. The <term>height</term> of a skew prism is  
+            the distance between the two bases and in the case of a skew prism will be less than 
+            the height of a side face. 
+            <idx><h>right prism</h></idx>
+            <idx><h>skew prism</h></idx>
+            <idx><h>prism</h><h>skew</h></idx>
+            <idx><h>prism</h><h>right</h></idx>
+            <idx><h>height</h><h>prism</h></idx>
+        </p>
+        <figure xml:id="fig-rt-skew-prism">
+            <title>Right and Skew Prisms</title>
+            <sidebyside widths="45% 45%">
+                <figure>
+                    <caption>Right Prism</caption>
+                <image source="rightprism">
+                    <description>(for accessibility)</description>
+                </image>
+                </figure>
+                <figure>
+                    <caption>Skew Prism</caption>
+                <image source="skewprism"></image>
+                </figure>
+            </sidebyside>
+        </figure>
     </subsection>
 </section>
