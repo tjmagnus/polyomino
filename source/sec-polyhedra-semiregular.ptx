@@ -59,32 +59,369 @@
         <exploration>
             <task>
                 <statement>
-                    <sidebyside widths="65 30">
+                    <sidebyside widths="65% 30%">
                     <p>
-                        One example of a semi-regular polyhedron is the great rhombicosi 
-                        dodecahedron pictured. Check that each vertex has the 
-                        arrangement 4.6.10. What is the sum of the angles meeting at each vertex of the great rhombicosi dodecahedron?
+                        One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron
+                        pictured in <xref ref="Great_rhombicosidodecahedron"/>.
+                        Check that each vertex has the arrangement 4.6.10. What is the sum of the 
+                        angles meeting at each vertex of the great rhombicosi dodecahedron?
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
                         <caption>Great Rhombicosidodecahedron</caption>
-                        <image source="Great_rhombicosidodecahedron">
+                        <image source="Great_rhombicosidodecahedron1">
                             <description>
                                 The front side of a great 
                                 rhombicosidodecahedron. Five decagonal faces,
                                 eight hexagonal faces, and eight square faces are 
                                 clearly visible, but there is a hint of a square and 
                                 hexagon alonge the bottom edge.
-                                <!--Check this!Also fix svg-->
+                                <!--Check this!-->
                             </description>
                         </image>
                     </figure>
                     </sidebyside>
                     <aside>
-                        <url 
-                        href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Great_rhombicosidodecahedron.png"/>
+                        <p>
+                            Illustration produced by Robert Webb's 
+                            <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
+                            class="extiw" title="en:Stella (software)">Stella software</url> 
+                            as the creator of this image along with a link to the website: 
+                            <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
+                                http://www.software3d.com/Stella.php</url>. 
+                            <!--A complimentary copy of any book or poster using images from the 
+                            Software would also be appreciated where feasible., -->
+                            Attribution, <url href="https://commons.wikimedia.org/w/index.php?curid=1695513">Link</url>
+                        <!--<url 
+                        href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Great_rhombicosidodecahedron.png"/>-->
+                        </p>
                     </aside>
                 </statement>
             </task>
+            <task>
+                <statement>
+                    <p>
+                        Another Archimedean solid is the icosidodecahedron 
+                        <xref ref="icosidod-solid"/>.
+                        <ol>
+                            <li>
+                                <p>
+                                    What is the vertex arrangement of the icosidodecahedron?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How many decagons are needed to create an icosidodecahedron? 
+                                    Be sure to count the ones you cannot see as well.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How many triangles are needed to create an icosidodecahedron?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                <figure xml:id="icosidod-solid">
+                        <caption>
+                            The Icosidodecahedron
+                        </caption>
+                        <image source="icosidodecahedron" width="30%">
+                            <description>A picture of an icosidodecahedron</description>
+                        </image>
+                    </figure>
+            <aside>
+                <p>
+                    Illustration produced by Robert Webb's 
+                    <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
+                    class="extiw" title="en:Stella (software)">Stella software</url> 
+                    as the creator of this image along with a link to the website: 
+                    <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
+                        http://www.software3d.com/Stella.php</url>. 
+                    <!--A complimentary copy of any book or poster using images from the 
+                    Software would also be appreciated where feasible., -->
+                    Attribution, <url href="https://commons.wikimedia.org/w/index.php?curid=1695513">Link</url>
+                <!--<url 
+                href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Great_rhombicosidodecahedron.png"/>-->
+                </p>
+            </aside>
+        </statement>
+            </task>
+            <task xml:id="Archimedean-construction-extension">
+                <p>
+                    Choose one (or more) of the following vertex arrangements,
+                    <m>3.6.6</m>, <m>4.6.6</m>, <m>3.4.4.4</m>, <m>3.4.3.4</m>,
+                    <m>3.10.10</m>, or <m>5.6.6</m> and 
+                    construct the semisregular polyhedron that has that vertex 
+                    arrangement. If you are up for a challenge, you may choose 
+                    <m>3.4.5.4</m>, <m>3.3.3.3.4</m>, or <m>3.3.3.3.5</m>.
+                    <ol>
+                        <li>
+                            <p>
+                                How many faces of each type does your semiregular polyhedron have?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the total number of vertices? 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the total number of edges?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </task>
         </exploration>
+    </subsection>
+    <subsection>
+        <title>
+            Families of Semiregular Polyhedra
+        </title>
+        <exploration>
+        <task xml:id="semiregprism-task">
+            <title>
+                Semiregular Polyhedra with Vertex Arrangement <m>4.4.n</m>
+            </title>
+            <statement>
+                <p>
+                    <ol xml:id="build-prism">
+                        <li>
+                            <p>
+                                Build the following semiregular polyhedron which has the 
+                                following vertex arrangements. You will need these solids to answer the remainder 
+                                of the questions in this task.
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>3.4.4</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>4.4.5</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>4.4.6</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Without building <m>4.4.8</m> describe 
+                                clearly what it would look like.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The polyhedra you just are called <term>prisms</term>. Use your 
+                                constructions to complete <xref ref="table-prism"/>. 
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <table xml:id="table-prism">
+                    <title>Attributes of Prisms</title>
+                    <tabular>
+                        <row header="yes" bottom="minor">
+                            <cell>Shape of base</cell>
+                            <cell>Number of faces <m>F</m></cell>
+                            <cell>Number of vertices <m>V</m></cell>
+                            <cell>Number of edges <m>E</m></cell>
+                        </row>
+                        <row>
+                            <cell>Triangle</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Quadrilateral</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Pentagon</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Hexagon</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Heptagon (7)</cell>
+                            <cell>9</cell>
+                            <cell>14</cell>
+                            <cell>21</cell>
+                        </row>
+                        <row>
+                            <cell>Octagon</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell><m>n</m>-gon</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task xml:id="antiprism-task">
+            <title>
+                Semiregular Polyhedra with Vertex Arrangement <m>3.3.3.n</m>
+            </title>
+            <statement>
+                <p>
+                    <ol xml:id="build-antiprism">
+                        <li>
+                            <p>
+                                Build the following semiregular polyhedron which has the 
+                                following vertex arrangements. You will need these solids to answer the remainder 
+                                of the questions in this task.
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>3.3.3.3</m> (a regular polyhedron)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>3.3.3.4</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>3.3.3.5</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>3.3.3.6</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Without building <m>3.3.3.8</m> describe 
+                                clearly what it would look like.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The polyhedra you just are called <term>antiprisms</term>. Use your 
+                                constructions to complete <xref ref="table-antiprism"/>. 
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <table xml:id="table-antiprism">
+                    <title>Attributes of Antiprisms</title>
+                    <tabular>
+                        <row header="yes" bottom="minor">
+                            <cell>Shape of base</cell>
+                            <cell>Number of faces <m>F</m></cell>
+                            <cell>Number of vertices <m>V</m></cell>
+                            <cell>Number of edges <m>E</m></cell>
+                        </row>
+                        <row>
+                            <cell>Triangle</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Quadrilateral</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Pentagon</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Hexagon</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Heptagon (7)</cell>
+                            <cell>16</cell>
+                            <cell>14</cell>
+                            <cell>28</cell>
+                        </row>
+                        <row>
+                            <cell>Octagon</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell><m>n</m>-gon</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compute <m>F+V-E</m> for each row in <xref ref="table-prism"/>
+                    and each row of <xref ref="table-antiprism"/>. What do you notice?
+                </p>
+            </statement>
+        </task>
+    </exploration>
+    </subsection>
+    <subsection>
+        <title>Definitions</title>
+        <p>
+            In this section we discovered two families of semiregular polygons, 
+            prisms and antiprisms. We can also create prisms and antiprisms which  
+            have faces are not regular. In particular, the sides of a prism need not be  
+            squares, they could be rectangles or other parallelograms. The sides of an 
+            antiprism do not need to be equilateral. Moreover, the bases of a prism or antiprism may 
+            be any polygon whatsoever.
+        </p>
+        <definition xml:id="def-prism">
+            <idx>prism</idx>
+            <statement>
+                <p>
+                    A <term>prism</term> is a polyhedron consisting of two congruent parallel  
+                    polygonal bases joined by sides that are parallelograms (often rectangles).
+                </p>
+            </statement>
+        </definition>
+        <definition xml:id="def-antiprism">
+            <idx>antiprism</idx>
+            <statement>
+                <p>
+                    An <term>antiprism</term> is a polyhedron consisting of two congruent parallel  
+                    polygonal bases joined by sides that are triangles.
+                </p>
+            </statement>
+        </definition>
     </subsection>
 </section>

@@ -348,7 +348,8 @@
           <figure xml:id="fig-triangular-numbers1">
             <caption>A Sequence of Triangles</caption>
             <image source="trinumbersequilateral">
-              <description>T1 is a dot. The remaining figures look like equilateral
+              <description>
+                T1 is a dot. The remaining figures look like equilateral
                 triangles. T2 contains a row of two dots and a dot above. T3 adds a 
                 row of three dots below T2. T4 adds a row of four dots below T3. 
                 T5 adds a row of five dots below T4.
