@@ -107,6 +107,138 @@
     </subsection>
     <subsection xml:id="subsec-expl-prism-volume">
         <title>Volumes of Prisms and Cylinders</title>
-        
+        <p>
+            In this exploration, we develop learn how to measure the space inside of 
+            a prism or pyramid. Hopefully, exploring the meaning of volume will help 
+            you appreciate and remember how to find volume.
+        </p>
+        <exploration xml:id="exp-vol-intuitive">
+            <title>What is Volume</title>
+            <task>
+                <statement>
+                    <p>
+                        Suppose you have a box (right rectangular prism) that has 
+                        a height (or stretch) of 6 inches, a length of 5 inches, and a width of 
+                        7 inches and you have a large supply of <m>1”\times 1”\times 1”</m>-cubes.
+                    <ol>
+                        <li>
+                            <p>
+                                If you cover the bottom of the inside of the box with a single layer 
+                                of <m>1”\times 1”\times 1”</m>-cubes, how many cubes will fit in this first layer? 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                How many horizontal layers of <m>1”\times 1”\times 1”</m>-cubes could you fit in the box?  
+                                Would each of these layers contain the same number of cubes as the first layer?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the total number of 1”x1”x1”-cubes that could fit in the box?
+                            </p>
+                        </li>
+                    </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Explain why the formula for the volume of a rectangular 
+                        box is <m>V=\ell wh</m> where <m>\ell</m> is the height, 
+                        <m>w</m> is the width, and <m>h</m> is the height of the box.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        When <m>h</m> is a whole number, it makes sense to think about 
+                        the height as the number of layers. Not all measurements are whole 
+                        numbers though. Instead we can think of <m>h</m> as the amount that 
+                        we need to stretch that first layer to reach the summit of the prism.
+                        Suppose that our rectangular prism has the dimensions, <m>\ell=5</m>
+                        inches, <m>w=6</m> inches, and a stretch of <m>d=2.5</m> inches. Find the 
+                        volume of the prism.
+                    </p>
+                    <aside>
+                        <p>
+                            Here you may be imagining two layers with a half layer on top of them. 
+                            The half cubes (<m>1”\times 1”\times 0.5”</m>-cubes on the top layer 
+                            can be paired to create full <m>1”\times 1”\times 1”</m>-cubes.
+                        </p>
+                    </aside>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        This notion of stretching the bottom layer holds for all prisms and cylinders, 
+                        not just rectangular ones. Suppose a cylinder has a circular base with area 
+                        9.4 square centimeters.
+                        <ol>
+                            <li>
+                                If the cylinder is one centimeter tall, what is the volume of the cylinder? 
+                            </li>
+                            <li>
+                                If the cylinder is two centimeters tall, what is the volume?
+                            </li>
+                            <li>
+                                If the cylinder is five centimeters tall, what is the volume?
+                            </li>
+                            <li>
+                                If the cylinder is 7.5 centimeters tall, what is the volume?
+                            </li>
+                            <li>
+                                If the cylinder is <m>d</m> centimeters tall, what is volume?
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+        </exploration>
+        <p>
+            Exploration <xref ref="exp-vol-intuitive" text="title"/> showed that the 
+            the volume of a prism or cylinder was equal to the area of the base 
+            times the number of horizontal layers.  While you may be used to the 
+            formula <m>V=\ell wh</m>, this formula only works for rectangular prisms. 
+            Instead, note that this formula <m>V=(\ell w)d</m> is equivalent to the 
+            formula <m>V=Ad</m> where <m>A=\ell w</m>  is the area of one base of 
+            a rectangular prism and <m>d</m> is the distance between the bases, 
+            measured perpendicular to the bases.  This volume formula <m>V=Ad</m> 
+            will extend to ALL prisms and even cylinders!  Much less to memorize!
+            We only need to compute the area of the base and then multiply the area 
+            by the distance between the bases.
+        </p>
+        <exploration>
+            <title>Using the Volume Formula for Prisms and Cylinders</title>
+            <task>
+                <statement>
+                    <p>
+                        Use the formula <m>V=Ad</m> to determine the volumes of the 
+                        following figures:
+                        <ol>
+                            <li>
+                                The right prism <xref ref="triprism-vol"/> with an isosceles triangle base.
+                            </li>
+                            <li>
+                                The skew cylinder in <xref ref="skewcyl-vol"/>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure>
+                        <caption>Isosceles triangle right prism</caption>
+                        <image xml:id="vol-isos-tri-prism">
+                            <description>
+                                Prism with isosceles triangle bases. Triangles 
+                                have base 12 feet and height 14 feet. Distance 
+                                between the bases is 18 feet.
+                            </description>
+                        </image>
+                    </figure>
+                </statement>
+            </task>
+        </exploration>
     </subsection>
 </section>
