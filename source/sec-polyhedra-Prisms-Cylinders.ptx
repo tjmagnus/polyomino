@@ -97,7 +97,7 @@
                 </p>
                 <p>
                     The height or stretch of a right prism is usually measured along an 
-                    edge of one of the rectangular sides, like <m>d</m> in <xref ref="fig-right-prism"/>.
+                    edge of one of the rectangular sides, like <m>d</m> in <xref ref="fig-rt-prism"/>.
                     The stretch of a skew prism, on the other hand, 
                     will be less than the height of a side face as illustrated in 
                     <xref ref="fig-skew-prism"/>.
@@ -119,17 +119,17 @@
                     <p>
                         Suppose you have a box (right rectangular prism) that has 
                         a height (or stretch) of 6 inches, a length of 5 inches, and a width of 
-                        7 inches and you have a large supply of <m>1”\times 1”\times 1”</m>-cubes.
+                        7 inches and you have a large supply of <m>1''\times 1''\times 1''</m>-cubes.
                     <ol>
                         <li>
                             <p>
                                 If you cover the bottom of the inside of the box with a single layer 
-                                of <m>1”\times 1”\times 1”</m>-cubes, how many cubes will fit in this first layer? 
+                                of <m>1''\times 1''\times 1''</m>-cubes, how many cubes will fit in this first layer? 
                             </p>
                         </li>
                         <li>
                             <p>
-                                How many horizontal layers of <m>1”\times 1”\times 1”</m>-cubes could you fit in the box?  
+                                How many horizontal layers of <m>1''\times 1''\times 1''</m>-cubes could you fit in the box?  
                                 Would each of these layers contain the same number of cubes as the first layer?
                             </p>
                         </li>
@@ -165,8 +165,8 @@
                     <aside>
                         <p>
                             Here you may be imagining two layers with a half layer on top of them. 
-                            The half cubes (<m>1”\times 1”\times 0.5”</m>-cubes on the top layer 
-                            can be paired to create full <m>1”\times 1”\times 1”</m>-cubes.
+                            The half cubes (<m>1''\times 1''\times 0.5''</m>-cubes on the top layer 
+                            can be paired to create full <m>1''\times 1''\times 1''</m>-cubes.
                         </p>
                     </aside>
                 </statement>
@@ -227,7 +227,7 @@
                             </li>
                         </ol>
                     </p>
-                    <figure>
+                    <figure xml:id="triprism-vol">
                         <caption>Isosceles triangle right prism</caption>
                         <image xml:id="vol-isos-tri-prism">
                             <description>
