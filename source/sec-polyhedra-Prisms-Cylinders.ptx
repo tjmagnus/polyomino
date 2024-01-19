@@ -212,7 +212,7 @@
             by the distance between the bases.
         </p>
         <exploration>
-            <title>Using the Volume Formula for Prisms and Cylinders</title>
+            <title>Finding the Volume of Prisms and Cylinders</title>
             <task>
                 <statement>
                     <p>
@@ -312,5 +312,44 @@
             To compute surface area, we simply compute the area of each face 
             and add the areas together. <idx><h>surface area</h></idx>
         </p>
+        <exploration>
+            <title>Finding the Surface Area of Prisms and Cylinders</title>
+            <task>
+                <statement>
+                    <p>
+                        The triangular prism in <xref ref="triprism-vol"/> has 
+                        five faces. Determine the area of each face and then
+                        compute the surface area.
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="surf-of-cylinder">
+                <statement>
+                    <p>
+                        The right cylinder in <xref ref="fig-rtcyl-surf"/> has a height of 20 feet and a diameter of 
+                        10 ft. Determine the volume of each face and then compute the 
+                        surface area.
+                    </p>
+                    <figure xml:id="fig-rtcyl-surf">
+                        <caption>A right cylinder</caption>
+                        <image xml:id="right-cylinder-surfarea">
+                            <shortdescription>Right cylinder with height 20 feet and diameter 
+                                10 ft.</shortdescription>
+                        </image>
+                    </figure>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Create a formula for a right cylinder with height <m>h</m> 
+                        where the radius of each circular base is <m>r</m>. Your 
+                        formula should contain the variables <m>h</m> and <m>r</m>.
+                        Then check that your formula gives the same result as you found in
+                        <xref ref="surf-of-cylinder"/>.
+                    </p>
+                </statement>
+            </task>
+        </exploration>
     </subsection>
 </section>
