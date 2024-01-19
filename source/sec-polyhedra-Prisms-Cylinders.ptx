@@ -61,8 +61,8 @@
             <title>Check your understanding</title>
             <statement>
                 <p>
-                    What shape(s) join the parallel circles in a cylinder? How many 
-                    are there?
+                    Besides the parallel circles, what other shape(s) is needed 
+                    to form a cylinder? How many of these shapes are there?
                 </p>
             </statement>
             <hint>
@@ -216,29 +216,101 @@
             <task>
                 <statement>
                     <p>
-                        Use the formula <m>V=Ad</m> to determine the volumes of the 
-                        following figures:
-                        <ol>
-                            <li>
-                                The right prism <xref ref="triprism-vol"/> with an isosceles triangle base.
-                            </li>
-                            <li>
-                                The skew cylinder in <xref ref="skewcyl-vol"/>
-                            </li>
-                        </ol>
+                        Use the formula <m>V=Ad</m> to determine the volume of the 
+                        right prism <xref ref="triprism-vol"/> with an isosceles triangle base.
                     </p>
                     <figure xml:id="triprism-vol">
                         <caption>Isosceles triangle right prism</caption>
                         <image xml:id="vol-isos-tri-prism">
-                            <description>
+                            <shortdescription>
                                 Prism with isosceles triangle bases. Triangles 
                                 have base 12 feet and height 14 feet. Distance 
                                 between the bases is 18 feet.
-                            </description>
+                            </shortdescription>
                         </image>
                     </figure>
                 </statement>
             </task>
+            <task xml:id="volume-of-skew-cylinder">
+                <statement>
+                    <p>
+                        Show all work as you compute the following measurements for the
+                        skew cylinder in <xref ref="skewcyl-vol"/>. 
+                        <ol>
+                            <li>
+                                <p>
+                                    The stretch <m>d</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The area of a circular base.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The volume of the cylinder.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="skewcyl-vol">
+                        <caption>Skew cylinder</caption>
+                        <image xml:id="skew-cylinder-vol">
+                            <shortdescription>
+                               A skew cylinder with radius 4 mm and slant height 24
+                               mm. A right triangle is also drawn with the slant of the cylinder 
+                               being the hypotenuse and cylinder's altitude 
+                               of unknown length d, corresponding to one leg. The remaining leg is 
+                               9 mm long.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                </statement>
+                <hint>
+                    <p>
+                        The answers to (a) and (b) involve irrational numbers, namely 
+                        a square root and <m>\pi</m>. Your answer to (c) will be 
+                        more accurate if you use the actual square root and <m>\pi</m>, 
+                        not their estimates in your calculation of volume. If you 
+                        do use estimates, include at least four digits after the decimal point 
+                        when inputting the values into part (c).
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        (c) 1118.3 cu. mm. 
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        (a) <m>\sqrt{24^2-9^2}=\sqrt{495}</m>;
+                        (b) <m>4^2 \pi = 16\pi</m>;
+                        (c) <m>(16\pi)\cdot \sqrt{495}</m>
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Create a formula for a cylinder with height <m>h</m> 
+                        where the radius of each circular base is <m>r</m>. Your 
+                        formula should contain the variables <m>h</m> and <m>r</m>.
+                        Then check that your formula give the same result as you found in
+                        <xref ref="volume-of-skew-cylinder"/>.
+                    </p>
+                </statement>
+            </task>
         </exploration>
+    </subsection>
+    <subsection xml:id="subsec-surfarea-prism-cyl">
+        <title>The Surface Area of Prisms and Cylinders</title>
+        <p>
+            While the volume measures the amount of interior space of a 
+            3-dimensional solid, the <term>surface area</term> measures the amount of 
+            material needed to create the shell or surface of the solid.  
+            To compute surface area, we simply compute the area of each face 
+            and add the areas together. <idx><h>surface area</h></idx>
+        </p>
     </subsection>
 </section>

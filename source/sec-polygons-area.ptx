@@ -466,8 +466,12 @@
                 circumscribed polygons. As the number of sides grew, the area of the polygons would 
                 approach the area of the circle, with the area of the inscribed polygons giving a lower 
                 estimate and the area of the circumscribed polygons giving an overestimate. The number  
-                <m>pi</m> was not known at the time, but this method provides a means of calculating 
-                <m>pi</m> to any level of precision.  
+                <m>\pi</m> was not known at the time, but this method provides a means of calculating 
+                <m>\pi</m> to any level of precision. Note that <m>\pi\neq 3.14</m>. The value <m>3.14</m>
+                is only a rough estimate. In fact, mathematicians have now calculated over sixty 
+                trillion digits for <m>\pi</m>.  For our purposes, <m>\pi\approx 3.14159...</m> should 
+                be sufficient, but space travel engineers usually need about 40 digits of <m>\pi</m> for their 
+                work.
             </p>
             <figure xml:id="estimate-area-circle">
                 <caption>
@@ -475,16 +479,65 @@
                     and 16-gons.
                 </caption>
                 <image source="areacirclebypolygons" width="90%">
-                    <description>Three pictures of the same circle. The first
+                    <shortdescription>Three pictures of the same circle. The first
                         has a square inside with vertices touching the circle and a 
                         square outside with the sides' midpoints touching the circle. 
                         The second circle has an octagon with vertices on the circle and 
                         a larger octagon with its sides' midpoints touching the circle. 
                         The final picture has a pair of 16-gons that are 
                         almost indistinguishable from the circle between them.
-                    </description>
+                    </shortdescription>
                 </image>
             </figure> 
+            <p>
+                There are two measurements associated with a circle. In addition to area 
+                which measures the interior space, we often wish to compute the length of 
+                the boundary around the circle. We call this boundary length, the <term>circumference</term>
+                of the circle and can think of it as the length of string needed to wrap around 
+                the circle. Both area and circumference depend only on the length of the 
+                circle's <term>radius</term>. 
+            </p>
+            <p>
+                A technique, similar to the one described for estimating area using 
+                polygons of increasing number of sides, can be used to find the circumference 
+                or distance around a circle. We give the resulting formula below.
+            </p>
+            <definition xml:id="def-circle">
+                <title>Defining a Circle</title>
+                <idx><h>circle</h></idx>
+                <idx><h>radius</h></idx>
+                <idx><h>diameter</h></idx>
+                <idx><h>center</h><h>circle</h></idx>
+                <statement>
+                    <p>
+                        A <term>circle</term> is the set of all points that are the same 
+                        distance from a point called the <term>center</term> of the circle.
+                        The <term>radius (pl. radii)</term> refers both to any segment from the center 
+                        of the circle to a point on the circle and to the length common to 
+                        all radii. A segment that joins two points of the circle 
+                        and passes through the center is called a <term>diameter</term>. The 
+                        length of a diameter is also called the <term>diameter</term> and is twice 
+                        the length of the radius. 
+                    </p>
+                </statement>
+            </definition>
+            <p>The con</p>
+            <definition xml:id="def-circle-measures">
+                <title>Measuring a circle</title>
+                <idx><h>circumference</h></idx>
+                <idx><h>circle</h><h>circumference</h></idx>
+                <idx><h>circle</h><h>area</h></idx>
+                <idx><h>area</h><h>circle</h></idx>
+                <statement>
+                    <p>
+                        The <term>area of a circle</term> is the interior space of 
+                        a circle and is computed by the formula 
+                        <md>A=\pi r^2</md> where <m>r</m> is the radius of the circle. 
+                        The <term>circumference</term> of a circle is the length of its 
+                        boundary and is given by <md>C=2\pi r</md>.
+                    </p>
+                </statement>
+            </definition>
         </subsubsection>
     </subsection>
 <!--    <subsection xml:id="subsec-polygons-area-logicalarguments">
@@ -519,7 +572,7 @@
             <exercise>
                 <statement>
                     <p>
-                        Under construction.
+                        Under construction. Estimating area of a circle with polygons?
                     </p>
                 </statement>
             </exercise>
@@ -529,7 +582,15 @@
         <exercise>
             <statement>
                 <p>
-                    Add trapezoid writing assignment.
+                    Write a letter to a friend in which you explain how the area 
+                    of a trapezoid is derived from previously known area formulas,
+                    such as rectangles, parallelograms, and/or triangles.
+                    <!--add more details-->
+                </p>
+            </statement>
+            <statement>
+                <p>
+                    Research the history of the number <m>\pi</m>.
                 </p>
             </statement>
         </exercise>
