@@ -30,6 +30,7 @@
     </subsection>
     <subsection xml:id="subsec-expl-Euler-pyramid">
         <title>Patterns with Pyramids</title>
+        <exploration xml:id="exploring-pyramid patterns">
         <task>
             <statement>
                 <p>
@@ -85,6 +86,7 @@
             </p>
         </statement>
         </task>
+        </exploration>
     </subsection>
     <subsection>
         <title>Measuring Pyramids</title>
@@ -114,44 +116,85 @@
                 </figure>
             </introduction>
             <task xml:id="construct-rect-pyr">
+                <title>Constructing a pyramid from a net</title>
                 <statement>
                     <p>
                         Print a copy of this net, cut it out, and fold along the 
                         dashed lines to see that this forms a rectangular pyramid.
+                        Stiffer paper such as cardstock is recommended.
                         What do you notice about the corner at <m>C</m>?
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        You will use this construction again near the end of this exploration. 
+                        Keep it in good condition!
+                    </p>
+                </hint>
             </task>
             <task xml:id="lengths-rect-pyr">
+                <title>Finding Edge Lengths and Surface Area</title>
                 <statement>
                     <p>
-                        Use the fact that <m>CG=4</m> and <m>CD=3</m> to determine <m>GD</m>.
+                        Here <m>ABCD</m> is a rectangle with <m>AD=4</m> and <m>CD=3</m>. 
+                        Angles <m>\angle DCG</m>, <m>\angle ADH</m>, <m>\angle ABE</m>,
+                        and <m>\angle BCF</m> are right angles and <m>CG=4</m>. Determine 
+                        the following:
+                        <ol>
+                            <li>
+                                Determine <m>GD</m>
+                            </li>
+                            <li>
+                                Determine <m>BF</m>.
+                            </li>
+                            <li>
+                                Explain why <m>DH=GD</m> and <m>EB=BF</m>.
+                            </li>
+                            <li>
+                                Determine <m>AE</m>
+                            </li>
+                            <li>
+                                Use your knowledge of rectangles and triangles and 
+                                the definition of surface area to 
+                                determine the surface area of this rectangular pyramid.
+                            </li>
+                        </ol>
                     </p>
                 </statement>
             </task>
-            <task>
+            <!-- Move to exercises. Note that the three pyramids will not be identical. 
+                One will have a 4x4-base.
+                <task xml:id="expl-vol-rec-pyr">
+                <title>Finding the Volume of the Pyramid</title>
                 <statement>
                     <p>
-                        Determine <m>BF</m>.
+                        Prepare to construct two more copies of the rectangular prism using 
+                        the net in <xref ref="fig-explor-rect-pyr"/> on cardstock so 
+                        that you will have three rectangular pyramids. Before taping 
+                        the edges, mark the vertices <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m>
+                        so that this labels will be visible on the outside. Crease the folds 
+                        well. 
+                        <ol>
+                            <li>
+
+                            </li>
+                        </ol>
                     </p>
                 </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Explain why <m>DH=GD</m> and <m>EB=BF</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Use your knowledge of rectangles and triangles and 
-                        the definition of surface area to 
-                        determine the surface area of this rectangular pyramid.
-                    </p>
-                </statement>
-            </task>
+            </task>-->
         </exploration>
+        <p>
+            With both prisms and pyramids, formulas exist to compute the surface area of some of 
+            the common types, but these formulas are not necessary. If we can compute the areas of 
+            each face, then the surface area is simply the sum of the areas of the faces. 
+        </p>
+        <p>
+            How can we find the volume of a pyramid? It is a fact that the volume of a pyramid is
+            exactly one-third of the volume of the prism with the same stretch distance. Since we know that 
+            the volume of a prism is <m>V=Ad</m>, the volume of a pyramid must be 
+            <m>V=\frac{Ad}{3}</m> where <m>A</m> is the area of the base and <m>d</m> is the 
+            stretch distance or height. In fact, this works for cones as well. The volume of a 
+            cone is <m>V=\frac{(\pi r^2)d}{3}</m> since the area of the circular base is 
+        </p>
     </subsection>
 </section>
