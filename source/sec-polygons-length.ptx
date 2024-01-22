@@ -298,7 +298,7 @@
             the twentieth President of the United States. Refer to the diagram below:
           </p>
           <image source="Garfield">
-            <description>
+            <shortdescription>
               Right triangle ABC with right angle at C. Point D is placed on ray 
               CA so that the length of AD equals the length of BC. Point E is placed on the same 
               side of CD as B so that 
@@ -306,7 +306,7 @@
               are joined by a segment. This creates two congruent right triangles ABC and EAD and an 
               isoceles right triangle BAE. The outer boundary is a trapezoid BCDE since BC and DE are 
               parallel.
-            </description>
+            </shortdescription>
           </image>
             <p>
             <ol>

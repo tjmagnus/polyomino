@@ -9,10 +9,12 @@
       Also, describe the current status of our toolbox. 
     </p>
     <p>
-        In section <xref ref="sec-intro-explore"/>, we introduced three basic 
+        In <xref ref="sec-intro-explore"/>, we introduced two basic 
         principles about area, 
-        <xref ref="principle-arearect"/>, 
-        <xref ref="principle-areasums"/>, and <xref ref="principle-addlengths"/>. 
+        <xref ref="principle-arearect"/> and 
+        <xref ref="principle-areasums"/>. In <xref ref="sec-intro-apply"/>, we 
+        added another principle  <xref ref="principle-addlengths"/> as well as 
+        a long list of common vocabulary terms. 
     </p>
     <aside>
       <p>

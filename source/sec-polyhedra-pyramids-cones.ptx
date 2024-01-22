@@ -1,9 +1,134 @@
 <section xml:id="sec-polyhedra-pyramids-cones" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Pyramids and Cones</title>
     <subsection>
-        <title>Definitions</title>
+        <title>Defining Pyramids and Cones</title>
         <p>
-            Add here.
+            In this section, we will learn about pyramids and cones and how they are 
+            related to prisms and cylinders.
         </p>
+        <definition xml:id="def-pyramid">
+            <title>Pyramid</title>
+            <idx><h>pyramid</h></idx>
+            <idx><h>apex</h><h>pyramid</h></idx>
+            <idx><h>height</h><h>pyramid</h></idx>
+            <statement>
+                <p>
+                    A <term>pyramid</term> is a polyhedron which may have any polygon as its 
+                    base but the all remaining faces are triangles that share a common 
+                    vertex called the <term>apex</term>.  The <term>height</term> of the 
+                    pyramid is measured from the apex to the plane containing the base 
+                    along a line perpendicular to this plane.
+                </p>
+                <p>
+                    We name each pyramid according to its base. Thus, a triangular pyramid has 
+                    a triangular base, a square pyramid has a square base, and so forth. Also, the 
+                    apex of the pyramid need not be directly above the center of the base; in fact, 
+                    the apex may not be directly above any part of the pyramid.
+                </p>
+            </statement>
+        </definition>
+    </subsection>
+    <subsection xml:id="subsec-expl-Euler-pyramid">
+        <title>Patterns with Pyramids</title>
+        <task>
+            <statement>
+                <p>
+                    Use models and reasoning to complete <xref  ref="table-pyramid-FVE"/>.
+                </p>
+                <table>
+                    <title>Counting Parts of a Pyramid</title>
+                    <tabular>
+                        <row header="yes" bottom="minor">
+                        <cell>Type of Pyramid</cell>
+                        <cell><m>F=</m>Number of faces</cell>
+                        <cell><m>V=</m>Number of vertices</cell>
+                        <cell><m>E=</m>Number of edges</cell>
+                        </row>
+                        <row>
+                            <cell>Triangular pyramid</cell>
+                            <cell>4</cell>
+                            <cell>4</cell>
+                            <cell>6</cell>
+                        </row>
+                        <row>
+                            <cell>Quadrilateral pyramid</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Pentagonal pyramid</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell>Hexagonal pyramid</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                        <row>
+                            <cell><m>n</m>-gonal pyramid</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </statement>
+        </task>
+        <task>
+        <statement>
+            <p>
+                What appears to be true about <m>F+V-E</m> for each pyramid?
+            </p>
+        </statement>
+        </task>
+    </subsection>
+    <subsection>
+        <title>Measuring Pyramids</title>
+        <p>
+            We shall compute measurements a specific example, the pyramid with height 4 and 
+            3 by 4 rectangular base. Then we can attempt to generalize some of our observations 
+            to other pyramids and cylinders.
+        </p>
+        <exploration xml:id="explor-rect-pyr">
+            <title>Exploring a Rectangular Pyramid</title>
+            <introduction>
+                <p>
+                    Throughout this activity, we will explore the rectangular pyramid 
+                    that is created by folding the net in 
+                    <xref ref="fig-explor-rect-pyr"/>. 
+                </p>
+                <figure xml:id="fig-explor-rect-pyr">
+                    <caption>
+                        Rectangular Pyramid for <xref ref="explor-rect-pyr"/>
+                    </caption>
+                    <image xml:id="PyramidNet434">
+                        <shortdescription>
+                            A net that can be folded to create a 
+                            rectangular pyramid
+                        </shortdescription>
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Print a copy of this net, cut it out, and fold along the 
+                        dashed lines to see that this forms a rectangular pyramid.
+                        What do you notice about the corner at <m>C</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use the fact that <m>CG=4</m> and <m>CD=3</m> to determine
+                    </p>
+                </statement>
+            </task>
+        </exploration>
     </subsection>
 </section>

@@ -6,8 +6,37 @@
         Having looked at area as the measure of the interior space of a polygon, 
         we now turn our attention to measuring angles. What is an angle and how do 
         we measure it? To fully grasp the definition of angle, we need to first   
-        understand the notion of ray.
+        understand the difference between lines, segments, and rays.
     </p>
+    <definition xml:id="def-line-segment">
+        <idx><h>line</h></idx>
+        <idx><h>segment</h></idx>
+        <idx><h>line</h><h>segment</h></idx>
+        <idx><h>distance</h></idx>
+        <idx><h>length</h></idx>
+        <statement>
+            <p>
+                A <term>line</term> is a one-dimensional figure that extends infinitely 
+                in opposite directions. In Euclidean geometry, lines are straight, but we 
+                will encounter a geometry in which they are curved. One important trait of 
+                lines is that any pair of distinct points lie on exactly one line. For this 
+                reason, we may denote the line through points <m>A</m> and <m>B</m> as 
+                <m>\overleftrightarrow{AB}</m>. 
+            </p>
+            <p>
+                A <term>line segment</term> is the part of a line described by two endpoints.
+                Line segment <m>\overline{AB}</m> consists of <term>endpoints</term>
+                <m>A</m> and <m>B</m> and all points on line 
+                <m>\overleftrightarrow{AB}</m> which lie between <m>A</m> and <m>B</m>.
+            </p>
+            <p>
+                Unlike a line, a line segment has finite length. We define the <term>length</term> of 
+                <m>\overline{AB}</m> to be the distance from point <m>A</m> to point <m>B</m>. 
+                We use the notation <m>m(\overline{AB})</m> or simply <m>AB</m> to denote the 
+                length of <m>\overline{AB}</m>.
+            </p>
+        </statement>
+    </definition>
     <definition xml:id="def-ray">
         <idx><h>ray</h></idx>
         <statement>

@@ -13,15 +13,15 @@
         <p>
             We are most familiar with <term>right prisms</term>, namely prisms 
             where the bases meet all the side faces at right angles; the side faces of a 
-            right prism are rectangles. A <term>skew prism</term> is a prism with 
+            right prism are rectangles. An <term>oblique prism</term> is a prism with 
             at least one side face is not a rectangle.  
             <idx><h>right prism</h></idx>
-            <idx><h>skew prism</h></idx>
-            <idx><h>prism</h><h>skew</h></idx>
+            <idx><h>oblique prism</h></idx>
+            <idx><h>prism</h><h>oblique</h></idx>
             <idx><h>prism</h><h>right</h></idx>
         </p>
         <figure xml:id="fig-rt-skew-prism">
-            <caption>Right and Skew Prisms</caption>
+            <caption>Right and Oblique Prisms</caption>
             <sidebyside widths="48% 48%">
                 <figure xml:id="fig-rt-prism">
                     <caption>Right Prism</caption>
@@ -30,7 +30,7 @@
                 </image>
                 </figure>
                 <figure xml:id="fig-skew-prism">
-                    <caption>Skew Prism</caption>
+                    <caption>Oblique Prism</caption>
                 <image source="skewprism"></image>
                 </figure>
             </sidebyside>
@@ -41,7 +41,7 @@
             cylinders. Both have parallel, congruent bases.
         </p>
         <figure xml:id="fig-rt-skew-cyl">
-            <caption>Right and Skew Cylinders</caption>
+            <caption>Right and Oblique Cylinders</caption>
             <sidebyside widths="48% 48%">
                 <figure xml:id="fig-rt-cyl">
                     <caption>Right Cylinder</caption>
@@ -50,9 +50,9 @@
                 </image>
                 </figure>
                 <figure xml:id="fig-skew-cyl">
-                    <caption>Skew Cylinder</caption>
+                    <caption>Oblique Cylinder</caption>
                 <image source="skew-cylinder">
-                    <shortdescription>A can that is skewed.</shortdescription>
+                    <shortdescription>A can that is oblique.</shortdescription>
                 </image>
                 </figure>
             </sidebyside>
@@ -235,7 +235,7 @@
                 <statement>
                     <p>
                         Show all work as you compute the following measurements for the
-                        skew cylinder in <xref ref="skewcyl-vol"/>. 
+                        oblique cylinder in <xref ref="skewcyl-vol"/>. 
                         <ol>
                             <li>
                                 <p>
@@ -255,10 +255,10 @@
                         </ol>
                     </p>
                     <figure xml:id="skewcyl-vol">
-                        <caption>Skew cylinder</caption>
+                        <caption>Oblique cylinder</caption>
                         <image xml:id="skew-cylinder-vol">
                             <shortdescription>
-                               A skew cylinder with radius 4 mm and slant height 24
+                               An oblique cylinder with radius 4 mm and slant height 24
                                mm. A right triangle is also drawn with the slant of the cylinder 
                                being the hypotenuse and cylinder's altitude 
                                of unknown length d, corresponding to one leg. The remaining leg is 
