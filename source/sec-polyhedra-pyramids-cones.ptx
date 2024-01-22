@@ -30,7 +30,7 @@
     </subsection>
     <subsection xml:id="subsec-expl-Euler-pyramid">
         <title>Patterns with Pyramids</title>
-        <exploration xml:id="exploring-pyramid patterns">
+        <exploration xml:id="exploring-pyramid-patterns">
         <task>
             <statement>
                 <p>
@@ -162,7 +162,8 @@
                     </p>
                 </statement>
             </task>
-            <!-- Move to exercises. Note that the three pyramids will not be identical. 
+            <!-- Use image threePyramidNet434
+                Move to exercises. Note that the three pyramids will not be identical. 
                 One will have a 4x4-base.
                 <task xml:id="expl-vol-rec-pyr">
                 <title>Finding the Volume of the Pyramid</title>
