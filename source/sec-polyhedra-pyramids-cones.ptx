@@ -113,7 +113,7 @@
                     </image>
                 </figure>
             </introduction>
-            <task>
+            <task xml:id="construct-rect-pyr">
                 <statement>
                     <p>
                         Print a copy of this net, cut it out, and fold along the 
@@ -122,10 +122,33 @@
                     </p>
                 </statement>
             </task>
+            <task xml:id="lengths-rect-pyr">
+                <statement>
+                    <p>
+                        Use the fact that <m>CG=4</m> and <m>CD=3</m> to determine <m>GD</m>.
+                    </p>
+                </statement>
+            </task>
             <task>
                 <statement>
                     <p>
-                        Use the fact that <m>CG=4</m> and <m>CD=3</m> to determine
+                        Determine <m>BF</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Explain why <m>DH=GD</m> and <m>EB=BF</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Use your knowledge of rectangles and triangles and 
+                        the definition of surface area to 
+                        determine the surface area of this rectangular pyramid.
                     </p>
                 </statement>
             </task>
