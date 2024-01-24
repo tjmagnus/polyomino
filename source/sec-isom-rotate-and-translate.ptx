@@ -1,34 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-isom-rotate-and-translate" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Orientation-Preserving Isometries</title>
+  <title>Orientation-Maintaining Isometries</title>
   <subsection xml:id="subsec-isom-RAT-definingOP">
-    <title>What do we mean by orientation-preserving?</title>
+    <title>What do we mean by orientation-maintaining?</title>
         <p>
             The picture shows a triangle <m>\Delta ABC</m> reflected across a line <m>\ell</m>. Although the 
             letters <m>A</m>, <m>B</m>, and <m>C</m> are in alphabetical order when read clockwise from the 
             original figure, the letters in the reflected image <m>\Delta A'B'C'</m> are in the reverse order. 
-            When this happens, we say that the transformation <term>reverses orientation</term>. Any reflection
-            will be an orientation-reversing transformation. 
+            When this happens, we say that the transformation <term>changes orientation</term>. Any reflection
+            will be an <term>orientation-changing</term> transformation. 
         </p>    
-        <idx><h>orientation</h></idx>
-        <idx><h>reverse orientation</h></idx>
         <figure xml:id="reversing-orientation-fig">
             <caption>A reflection reverses orientation</caption>
             <image source="orientation-reflection" width="90%">
-                <description>
+                <shortdescription>
                     Triangle ABC reflected across a line m to create 
                     triangle C'B'A'.
-                </description>
+                </shortdescription>
             </image>
         </figure>
         <p>
-            Not all transformations reverse orientation. In this section, you will encounter two types
-            of <term>orientation-preserving</term> transformations: rotations and translations. When either of 
+            Not all transformations change orientation. In this section, you will encounter two types
+            of <term>orientation-maintaining</term> or <term>orientation-preserving</term> 
+            transformations, namely rotations and translations. When either of 
             these is performed, the order in which the vertices are read is unchanged.
-            <idx><h>orientation-preserving</h></idx>
-            <idx><h>preserve orientation</h></idx>
         </p>
+        <aside>
+            <p>
+                Most textbooks use <term>orientation-reversing</term> and <term>
+                orientation-preserving</term>. Because of the similarity in the words,
+                reversing and preserving, I have chosen to use orientation-changing and 
+                orientation-maintaining.
+            </p>
+        </aside>
+        <definition xml:id="def-orientation">
+            <idx><h>orientation</h></idx>
+            <idx><h>change orientation</h></idx>
+            <idx><h>reverse orientation</h></idx>
+            <idx><h>preserve orientation</h></idx>
+            <idx><h>maintain orientation</h></idx>
+            <idx><h>same orientation</h></idx>
+            <statement>
+                <p>
+                    A geometrical transformation is said to <term>maintain orientation</term> if  
+                    when it acts on any polygon the order of the vertices of the 
+                    resulting image, read in clockwise order, are the same as that of  
+                    the original figure. Another term for orientation-maintaining is 
+                    <term>orientation-preserving</term>.
+                </p>
+                <p>
+                    On the other hand, if the resulting images have the vertices in 
+                    the reverse order, we say that the transformation <term>changes
+                    orientation</term> or <term>reverses orientation</term>.
+                </p>
+            </statement>
+        </definition>
   </subsection>
   <subsection xml:id="subsec-Translations">
     <title>Translations</title>
@@ -99,7 +126,7 @@
         <statement>
             <p>
                 Is the orientation of quadrilateral <m>\Delta ABCD</m> 
-                preserved under the translation? How do 
+                maintained under the translation? How do 
                 you know?
             </p>
         </statement>
@@ -154,7 +181,7 @@
             <p>
                 An isometry affects all points in the plane, not just those pictured. Draw three new points:
                 point <m>L</m> lying on side <m>\overline{BC}</m>, point <m>M</m> lying in the exterior of 
-                quadrilateral <m>ABCD</m>, and point <m>N</m> lying in the interior of <m>\ABCD</m>.
+                quadrilateral <m>ABCD</m>, and point <m>N</m> lying in the interior of <m>ABCD</m>.
                 <ol>
                     <li>
                         <p>
@@ -210,7 +237,7 @@
         and had the same length.
     </p>
     <p>
-        In addition, we observed that the translation preserved orientation, 
+        In addition, we observed that the translation maintained orientation, 
         distance, angle measure, and shape. When you
         chose a random point <m>L</m> on <m>\overline{BC}</m>, its image landed on 
         <m>\overline{B'C'}</m>, suggesting 
@@ -234,7 +261,7 @@
     <introduction xml:id="intro-def-rotation">
         <p>
             The third transformation we will consider is a <term>rotation</term>. Like a translation, 
-            a rotation preserves the orientation of the vertices.  Each rotation has a single point, 
+            a rotation maintains the orientation of the vertices.  Each rotation has a single point, 
             called the <term>center</term> of the rotation, which is not moved by the rotation.  
             All other points are rotated around the center a specific number of 
             degrees. A good way to visualize a rotation is to imagine putting a 
@@ -251,19 +278,19 @@
                 <xref ref="rotated-triangle"/> shows an example of the action of a translation on triangle <m>\Delta ABC</m>. Use this 
                 figure to answer the following:
             </p>
-            <figure width="90%" xml:id="rotated-triangle">
+            <figure xml:id="rotated-triangle">
                 <caption>A rotation of <m>\Delta ABC</m></caption>
                 <image source="rotation" width="90%">
-                    <description>Triangle ABC is rotated around a point F to form triangle A'B'C'.</description>
+                    <shortdescription>Triangle ABC is rotated around a point F to form triangle A'B'C'.</shortdescription>
                 </image>
             </figure>
         </introduction>
         <task>
             <statement>
                 <p>
-                    List the vertices of the original triangle in clockwise order starting with <m>A</m>.  
-                    List the vertices of the image in clockwise order starting with <m>A’</m>.  
-                    Does the rotation preserve the orientation of the triangle?
+                    List the vertices of the original triangle <m>\Delta ABC</m> clockwise order starting with <m>A</m>.  
+                    List the vertices of the image <m>\Delta A'B'C'</m> in clockwise order starting with <m>A’</m>.  
+                    Does the rotation maintain the orientation of the triangle?
                 </p>
             </statement>
         </task>

@@ -179,6 +179,7 @@
             <m>V=\frac{Ad}{3}</m> where <m>A</m> is the area of the base and <m>d</m> is the 
             stretch distance or height. In fact, this works for cones as well. The volume of a 
             cone is <m>V=\frac{(\pi r^2)d}{3}</m> since the area of the circular base is 
+            <m>A=\pi r^2</m>.
         </p>
     </subsection>
     <exercises xml:id="Exercises-polyhedra-pyr">
@@ -205,7 +206,7 @@
         <subexercises xml:id="ExtConc-intro-exp">
             <title>Extending the Concepts</title>
             <exercise xml:id="EC-why-third">
-                <title>Visualizing the Volume Formula for a Pyramid</title>
+                <title>Visualizing the Volume Formula for a Rectangular Pyramid</title>
                 <statement>
                     <p>
                         Print the three nets in <xref ref="nets-three"/> on stiff 

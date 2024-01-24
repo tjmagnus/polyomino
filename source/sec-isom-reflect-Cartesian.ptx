@@ -37,11 +37,11 @@
             In what ways are they different?  
         </p>
         <image source="reflectP">
-            <description>
+            <shortdescription>
                 On graph paper, line GH passes through the points G(0,0) and H(4,4).
                 A backwards P-pentomino is formed using the following sequence of points:
                 A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.
-            </description>
+            </shortdescription>
         </image>
     </statement>
     <answer>
@@ -57,7 +57,7 @@
             <p>
                 On your sketch for <xref ref="drawreflection"/>, label the 
                 new vertices by adding an apostrophe <m>'</m> to each letter; 
-                point <m>A'</m> will be the reflection of point <m>A</m>
+                point <m>A'</m>, read <sq>A prime</sq> will be the reflection of point <m>A</m>
                 across line <m>\overleftrightarrow{GH}</m>, point <m>B'</m> will be 
                 the reflection of point <m>B</m>
                 across line <m>\overleftrightarrow{GH}</m>, and so forth, forming 
@@ -87,7 +87,7 @@
                     <li>
                         <p>
                             What happens to the other points in the reflection? Suppose <m>P</m> is 
-                            any point in the plane and let <m>P’</m>  be its image created by 
+                            any point in the plane and let <m>P'</m>  be its image created by 
                             reflecting it across any line in the plane.  What do you expect to be true about the relationship between the segment 
                             <m>\overline{PP'}</m> and the reflecting line?
                         </p>
@@ -112,7 +112,7 @@
     <task>
         <statement>
             <p>
-                Pentomino  <m>ABCDEFGHIJ</m> and its reflection <m>A’B’C’D’E’F’G’H’I’J’</m> 
+                Pentomino  <m>ABCDEFGHIJ</m> and its reflection <m>A'B'C'D'E'F'G'H'I'J'</m> 
                 are shown below.  
                 Use what you discovered in <xref ref="disc-prop-reflection-perp-bis"/> 
                 to sketch the reflecting line. Describe your technique.
@@ -137,18 +137,18 @@
                 Four Points on Coordinate Grid for Exploration <xref ref="expl-reflect-across-xyaxes"/>
             </caption>    
             <image source="FourpointsOnCoordAxes">
-                <description>
+                <shortdescription>
                     A coordinate grid showing the x-axis and y-axis and points
                     A=(2,5), B=(-1,3), C=(0,-4), and D=(6,-3).
-                </description>
+                </shortdescription>
             </image>    
         </figure>
     </introduction>
     <task xml:id="ref-acrossx">
         <statement>
             <p>
-                Use a red pencil to mark the reflected images  <m>A’</m>, <m>B’</m>, 
-                <m>C’</m>, and <m>D’</m> of the points  <m>A</m>,  <m>B</m>,  <m>C</m>,  
+                Use a red pencil to mark the reflected images  <m>A'</m>, <m>B'</m>, 
+                <m>C'</m>, and <m>D'</m> of the points  <m>A</m>,  <m>B</m>,  <m>C</m>,  
                 and <m>D</m>  across the horizontal (<m>x</m>-) axis.  
                 Determine their coordinates.  
                 What effect does reflecting across the <m>x</m>-axis have on coordinates?
@@ -160,8 +160,8 @@
             <p>
                 Use a green pencil to mark the reflections of the original points  <m>A</m>,  
                 <m>B</m>, <m>C</m>, and <m>D</m>  across the vertical (<m>y</m>-) axis.  
-                Determine the coordinates of their images <m>A”</m>, <m>B”</m>, <m>C”</m>, 
-                and <m>D”</m>.  
+                Determine the coordinates of their images <m>A''</m>, <m>B''</m>, <m>C''</m>, 
+                and <m>D''</m>.  
                 What effect does reflecting across the <m>y</m>-axis have on the coordinates?
             </p>
         </statement>
@@ -169,14 +169,14 @@
     <task xml:id="ref-acrossxtheny">
         <statement>
             <p>
-                Reflect the red points  <m>A’</m>, <m>B’</m>, <m>C’</m>,  and  <m>D’</m> 
+                Reflect the red points  <m>A'</m>, <m>B'</m>, <m>C'</m>,  and  <m>D'</m> 
                 sketched in <xref ref="ref-acrossx"/> across the vertical (<m>y</m>)-axis, 
                 using a blue pencil to mark them and label the new points with asterisks,
-                <m>A*</m>, <m>B*</m>, <m>C*</m>, and <m>D*</m>.  Determine the coordinates 
-                of the newest points  <m>A*</m>, <m>B*</m>, <m>C*</m>, and <m>D*</m>.  
+                <m>A^*</m>, <m>B^*</m>, <m>C^*</m>, and <m>D^*</m>.  Determine the coordinates 
+                of the newest points  <m>A^*</m>, <m>B^*</m>, <m>C^*</m>, and <m>D^*</m>.  
                 What effect does reflecting first across the <m>x</m>-axis and then 
                 across the <m>y-axis</m> have on the coordinates 
-                (from the original <m>A</m> to the final <m>A*</m> for example)? 
+                (from the original <m>A</m> to the final <m>A^*</m> for example)? 
             </p>
         </statement>
     </task>
