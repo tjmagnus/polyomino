@@ -119,12 +119,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   <figure xml:id="Tangrampieces">
     <caption>The Seven Tangrams</caption>
     <image source="tangram_pieces">
-      <description>
+      <shortdescription>
         Seven tangram shapes. The triangles are all isosceles right triangles and the parallelogram 
         is equilateral. The small triangles can be arranged to fill either the square, 
         the parallelogram, or the medium triangle. The hypotenuse of the medium triangle is the same 
         as the base of the large triangle. 
-      </description>
+      </shortdescription>
     </image>
   </figure>
   <p> 
@@ -287,10 +287,10 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <figure>
       <caption>A right trapezoid</caption>
       <image source="righttrapezoid">
-        <description>
+        <shortdescription>
           A trapezoid with two right angles, one acute angle, and 
           one obtuse angle.
-        </description>
+        </shortdescription>
       </image>
     </figure>
     <figure>
@@ -324,18 +324,18 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <figure>
       <caption>Not closed.</caption>
       <image source="unclosed">
-        <description>
+        <shortdescription>
           A figure formed by line segments with a gap remaining.
-        </description>
+        </shortdescription>
       </image>
     </figure>
     <figure>
       <caption>Curved edges</caption>
       <image source="acurvedside"> 
-        <description>
+        <shortdescription>
           A closed figure consisting of some straight sides and 
           some curved sides. 
-        </description>
+        </shortdescription>
       </image>
     </figure>
   </sidebyside>
@@ -676,10 +676,10 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           <figure xml:id="tri-trap-par-label">
             <caption>Shapes for <xref ref="label-altitude-etc"/></caption>
             <image source="labelbasealtitude">
-              <description>
+              <shortdescription>
                 A triangle, a trapezoid, and a parallelogram, all are 
                 drawn at an incline.
-              </description>
+              </shortdescription>
             </image>
           </figure>
         </statement>
@@ -703,18 +703,18 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 </p>
               </li>
             </ol>
+          </p>
             <figure xml:id="trioftangrams">
               <caption>Image for <xref ref="SAR-intro-apply-Tangramareas"/></caption>
               <image source="tangramtriangle">
-                <description>
+                <shortdescription>
                   An isosceles triangle made up of a large isosceles 
                   triangle that fills the left half. The right half consists of  
                   a square and and two small Tangram triangles, one above the 
                   square and one to the right.
-                </description>
+                </shortdescription>
               </image>
             </figure>
-          </p>
         </statement>
       </exercise>
     </subexercises>

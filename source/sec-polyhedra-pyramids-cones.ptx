@@ -36,44 +36,48 @@
                 <p>
                     Use models and reasoning to complete <xref  ref="table-pyramid-FVE"/>.
                 </p>
-                <table>
+                <table xml:id="table-pyramid-FVE">
                     <title>Counting Parts of a Pyramid</title>
-                    <tabular>
-                        <row header="yes" bottom="minor">
+                    <tabular halign="center" row-headers="yes">
+                        <col right="medium"/>
+                        <col right="minor"/>
+                        <col right="minor"/>
+                        <col />
+                        <row header="yes" bottom="medium">
                         <cell>Type of Pyramid</cell>
-                        <cell><m>F=</m>Number of faces</cell>
-                        <cell><m>V=</m>Number of vertices</cell>
-                        <cell><m>E=</m>Number of edges</cell>
+                        <cell><m>F=</m> Number of faces</cell>
+                        <cell><m>V=</m> Number of vertices</cell>
+                        <cell><m>E=</m> Number of edges</cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Triangular pyramid</cell>
                             <cell>4</cell>
                             <cell>4</cell>
                             <cell>6</cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Quadrilateral pyramid</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Pentagonal pyramid</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Hexagonal pyramid</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
                         <row>
                             <cell><m>n</m>-gonal pyramid</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
                     </tabular>
                 </table>
@@ -107,10 +111,10 @@
                     <caption>
                         Rectangular Pyramid for <xref ref="explor-rect-pyr"/>
                     </caption>
-                    <image xml:id="PyramidNet434">
+                    <image source="PyramidNet434">
                         <shortdescription>
                             A net that can be folded to create a 
-                            rectangular pyramid
+                            rectangular pyramid.
                         </shortdescription>
                     </image>
                 </figure>
@@ -162,27 +166,6 @@
                     </p>
                 </statement>
             </task>
-            <!-- Use image threePyramidNet434
-                Move to exercises. Note that the three pyramids will not be identical. 
-                One will have a 4x4-base.
-                <task xml:id="expl-vol-rec-pyr">
-                <title>Finding the Volume of the Pyramid</title>
-                <statement>
-                    <p>
-                        Prepare to construct two more copies of the rectangular prism using 
-                        the net in <xref ref="fig-explor-rect-pyr"/> on cardstock so 
-                        that you will have three rectangular pyramids. Before taping 
-                        the edges, mark the vertices <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m>
-                        so that this labels will be visible on the outside. Crease the folds 
-                        well. 
-                        <ol>
-                            <li>
-
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>-->
         </exploration>
         <p>
             With both prisms and pyramids, formulas exist to compute the surface area of some of 
@@ -198,4 +181,65 @@
             cone is <m>V=\frac{(\pi r^2)d}{3}</m> since the area of the circular base is 
         </p>
     </subsection>
+    <exercises xml:id="Exercises-polyhedra-pyr">
+        <title>Exercises</title>
+        <subexercises xml:id="SAR-polyhedra-pyr">
+        <title>Skills and Recall</title>
+            <exercise xml:id="SAR-polypyr-vol">
+                <statement>
+                    <p>
+                        Determine the volumes of the following solids:
+                        <!--Add some! Descriptive or illustration-->
+                    </p>
+                </statement>
+            </exercise>
+            <exercise xml:id="SAR-polypyr-SurfA">
+                <statement>
+                    <p>
+                        Determine the surface area of the following solids:
+                        <!--Add some! Descriptive or illustration-->
+                    </p>
+                </statement>
+            </exercise>
+        </subexercises>
+        <subexercises xml:id="ExtConc-intro-exp">
+            <title>Extending the Concepts</title>
+            <exercise xml:id="EC-why-third">
+                <title>Visualizing the Volume Formula for a Pyramid</title>
+                <statement>
+                    <p>
+                        Print the three nets in <xref ref="nets-three"/> on stiff 
+                        paper. The scale factor of any enlargements should be consistent.
+                        Cut out the nets and fold each to create a rectangular pyramid, taping 
+                        the edges as needed.
+                    </p>
+                    <figure xml:id="nets-three">
+                        <caption>Nets for <xref ref="EC-why-third"/></caption>
+                        <image source="threePyramidNet434">
+                            <shortdescription>Nets for three rectangular pyramids; two have a 
+                                3 by 4-rectangular base and height 4. The other has a 
+                                4 by 4-square base and height 3.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                    <p> 
+                        <ol>
+                            <li>
+                                Use the formula <m>V=\frac{Ad}{3}</m> to determine the volume 
+                                of each pyramid. Note that two pyramids should be identical.
+                            </li>
+                            <li>
+                                <p>
+                                    Put the three pyramids together so that they form a 
+                                    <m>3\times 4\times 4</m>-rectangular prism. How does this 
+                                    demonstrate that the formula <m>V=\frac{Ad}{3}</m> holds for 
+                                    this particular pyramid?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+        </subexercises>
+    </exercises>
 </section>

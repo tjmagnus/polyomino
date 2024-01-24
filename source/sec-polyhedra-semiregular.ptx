@@ -69,14 +69,14 @@
                     <figure xml:id="Great_rhombicosidodecahedron">
                         <caption>Great Rhombicosidodecahedron</caption>
                         <image source="Great_rhombicosidodecahedron1">
-                            <description>
+                            <shortdescription>
                                 The front side of a great 
                                 rhombicosidodecahedron. Five decagonal faces,
                                 eight hexagonal faces, and eight square faces are 
                                 clearly visible, but there is a hint of a square and 
                                 hexagon alonge the bottom edge.
                                 <!--Check this!-->
-                            </description>
+                            </shortdescription>
                         </image>
                     </figure>
                     </sidebyside>
@@ -126,7 +126,7 @@
                             The Icosidodecahedron
                         </caption>
                         <image source="icosidodecahedron" width="30%">
-                            <description>A picture of an icosidodecahedron</description>
+                            <shortdescription>A picture of an icosidodecahedron</shortdescription>
                         </image>
                     </figure>
             <aside>
@@ -186,7 +186,7 @@
             </title>
             <statement>
                 <p>
-                    <ol xml:id="build-prism">
+                    <ol>
                         <li>
                             <p>
                                 Build the following semiregular polyhedron which has the 
@@ -227,54 +227,58 @@
                 </p>
                 <table xml:id="table-prism">
                     <title>Attributes of Prisms</title>
-                    <tabular>
-                        <row header="yes" bottom="minor">
+                    <tabular halign="center" row-headers="yes">
+                        <col right="medium"/>
+                        <col right="minor"/>
+                        <col right="minor"/>
+                        <col />
+                        <row header="yes" bottom="medium">
                             <cell>Shape of base</cell>
                             <cell>Number of faces <m>F</m></cell>
                             <cell>Number of vertices <m>V</m></cell>
                             <cell>Number of edges <m>E</m></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Triangle</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Quadrilateral</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Pentagon</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Hexagon</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Heptagon (7)</cell>
                             <cell>9</cell>
                             <cell>14</cell>
                             <cell>21</cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Octagon</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
                         <row>
                             <cell><m>n</m>-gon</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
                     </tabular>
                 </table>
@@ -286,7 +290,7 @@
             </title>
             <statement>
                 <p>
-                    <ol xml:id="build-antiprism">
+                    <ol>
                         <li>
                             <p>
                                 Build the following semiregular polyhedron which has the 

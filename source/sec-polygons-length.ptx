@@ -37,7 +37,7 @@
       Refer to the picture as you answer the following:
     </p>
       <image source="righttriangleparts" width="%">
-        <description>(for accessibility)</description>
+        <shortdescription>(for accessibility)</shortdescription>
       </image>
   </introduction>
   <exercise>
