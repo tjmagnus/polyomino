@@ -391,7 +391,55 @@
             </solution>
         </example>
     </subsection>
-    <subsection xml:id="subsec-algrev-sqroots">
+    <subsection xml:id="subsec-Functions">
+        <title>Functions and Operations</title>
+        <p>
+            Operations, such as addition, subtraction, and multiplication, give us a way of  
+            combining numbers and expressions. It is worth the time to read the symbols that 
+            tell us what operation is being used. 
+        </p>
+        <p>
+            Functions typically involve operations, but they play a different role. 
+            A function is a rule that allows us to assign an output for each allowable input.
+            In algebra, functions are given by an algebraic expression where we can 
+            replace the variable by the input and compute the value of the
+            corresponding output. We also use letters, like <m>f</m> or <m>g</m>, to 
+            name our function. The symbol <m>f(x)</m> stands for the output when function 
+            <m>f</m> is performed on <m>x</m> and the symbol <m>f(5)</m> stands for the output when function 
+            <m>f</m> is performed on <m>5</m>. Often the variable <m>y</m> is used to 
+            represent the output(s). When graphing functions, we plot the pairs <m>(x,f(x))</m>;
+            also denoted <m>(x,y)</m>.
+
+        </p>
+        <example>
+            <title>Function from Algebra</title>
+            <statement>
+                <p>
+                    Let <m>f(x)=5x^2-4x+1</m>. Compute the following:
+                    <ol>
+                        <li>
+                            <m>f(0)</m>
+                        </li>
+                        <li>
+                            <m>f(2)</m>
+                        </li>
+                        <li>
+                            <m>f(t+3)</m>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    a) <m>f(0)=0+0+1=1</m>, b) <m>f(2)=5(2^2)-4(2)+1=20-8+1=13</m>,
+                    c) <m>f(t+3)=5(t+3)^2-4(t+3)+1</m> which can be simplified to 
+                    <m>f(t+3)=5t^2+30t+15-4t-12+1=5t^2+26t+4</m> but the first 
+                    answer is sufficient.
+                </p>
+            </solution>
+        </example>
+    
+    <subsubsection xml:id="subsec-algrev-sqroots">
         <title>Working with squares and square roots</title>
         <definition xml:id="def-sqrt">
             <idx><h>square root</h></idx>
@@ -516,8 +564,8 @@
                 </p>
             </statement>
           </principle>
-        </subsection>
-        <subsection>
+        </subsubsection>
+        <subsubsection>
             <title>Other Pairs of Inverse Functions</title>
             <p>
                 The square and square root functions are not the only pair of 
@@ -556,8 +604,8 @@
                     </p>
                 </solution>
             </example>
-    </subsection>
-    <subsection>
+    </subsubsection>
+    <subsubsection>
         <title>Order of Operations</title>
         <p>
             In <xref ref="example-inverse-solve-equation"/>, you may have wondered 
@@ -623,5 +671,7 @@
             </solution>
 
         </example>
+
+        </subsubsection>
     </subsection>
 </section>
