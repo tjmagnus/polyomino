@@ -192,36 +192,42 @@
             Multiply <m>(2x+1)(x^2-3x+5)</m>.
             </p>
         </statement>
-        <answer><m>2x^3-5x^2+7x+5</m></answer>
+        <answer><p><m>2x^3-5x^2+7x+5</m></p></answer>
         <solution>
             <p>
                 First we use the distributive law, multiplying each term in the second 
                 factor by <m>2x+1</m>:
-                <md>(2x+1)(x^2-3x+5)=(2x+1)(x^2)+(2x+1)(-3x)+(2x+1)(5)</md>. 
+                <m>(2x+1)(x^2-3x+5)=(2x+1)(x^2)+(2x+1)(-3x)+(2x+1)(5)</m>. 
+            </p>
+            <p>
                 An obtional step, but one that makes the distributive law more evident, is  
                 to us the commutative law of multiplication to reverse the order of the factors  
                 in each term:
-                <md>(2x+1)(x^2)+(2x+1)(-3x)+(2x+1)(5)=x^2(2x+1)+(-3x)(2x+1)+5(2x+1).</md> 
+                <m>(2x+1)(x^2)+(2x+1)(-3x)+(2x+1)(5)=x^2(2x+1)+(-3x)(2x+1)+5(2x+1).</m> 
+            </p>
+            <p>
                 We can then use the distributive law on each term to get
-                <me>
-                    <mrow>x^2(2x+1)+(-3x)(2x+1)+5(2x+1)\amp=x^2(2x)+x^2(1)-3x(2x)-3x(1)+5(2x)+5(1)</mrow>
-                    <mrow> \amp 2x^3+x^2-6x^2-3x+10x+5 </mrow>
-                </me>
+                <m>
+                    x^2(2x+1)+(-3x)(2x+1)+5(2x+1)=x^2(2x)+x^2(1)-3x(2x)-3x(1)+5(2x)+5(1)
+                    2x^3+x^2-6x^2-3x+10x+5 
+                </m>
+            </p>
+            <p>
                 Finally, we use the distributive law to combine like terms:
-                <me>
-                    <mrow>2x^3+x^2-6x^2-3x+10x+5 \amp =2x^3+(1-6)x^2+(10-3)x+5 </mrow>  
-                    <mrow> \amp =2x^3-5x^2+7x+5.</mrow>
-                </me>
+                <m>
+                    2x^3+x^2-6x^2-3x+10x+5  =2x^3+(1-6)x^2+(10-3)x+5   
+                     =2x^3-5x^2+7x+5.
+                </m>
             </p>
             <p>
                 Although the distributive law makes the process work, we typically speed 
                 the process up by multiplying each term in the first factor by each 
                 term in the second factor:
-                <me>
-                    <mrow> (2x+1)(x^2-3x+5)\amp =2x(x^2)+2x(-3x)+2x(5)+1(x^2)+1(-3x)+1(5)</mrow>
-                    <mrow> \amp =2x^3-6x^2+10x+x^2-3x+5</mrow>
-                    <mrow> \amp =2x^3-5x^2+7x+5.</mrow>
-                </me>
+                <m>
+                    (2x+1)(x^2-3x+5)=2x(x^2)+2x(-3x)+2x(5)+1(x^2)+1(-3x)+1(5)
+                     =2x^3-6x^2+10x+x^2-3x+5
+                     =2x^3-5x^2+7x+5.
+                </m>
             </p>
         </solution>
     </example>
@@ -401,18 +407,16 @@
         <p>
             Functions typically involve operations, but they play a different role. 
             A function is a rule that allows us to assign an output for each allowable input.
-            In algebra, functions are given by an algebraic expression where we can 
+            In algebra, functions are often given by an algebraic expression where we can 
             replace the variable by the input and compute the value of the
             corresponding output. We also use letters, like <m>f</m> or <m>g</m>, to 
             name our function. The symbol <m>f(x)</m> stands for the output when function 
             <m>f</m> is performed on <m>x</m> and the symbol <m>f(5)</m> stands for the output when function 
-            <m>f</m> is performed on <m>5</m>. Often the variable <m>y</m> is used to 
-            represent the output(s). When graphing functions, we plot the pairs <m>(x,f(x))</m>;
-            also denoted <m>(x,y)</m>.
-
+            <m>f</m> is performed on <m>5</m>. When graphing functions, we think of each 
+            output of the function as being <m>y</m> and graph the pairs <m>(x,f(x))</m>.
         </p>
         <example>
-            <title>Function from Algebra</title>
+            <title> A Function from Algebra</title>
             <statement>
                 <p>
                     Let <m>f(x)=5x^2-4x+1</m>. Compute the following:
@@ -433,14 +437,45 @@
                 <p>
                     a) <m>f(0)=0+0+1=1</m>, b) <m>f(2)=5(2^2)-4(2)+1=20-8+1=13</m>,
                     c) <m>f(t+3)=5(t+3)^2-4(t+3)+1</m> which can be simplified to 
-                    <m>f(t+3)=5t^2+30t+15-4t-12+1=5t^2+26t+4</m> but the first 
-                    answer is sufficient.
+                    <m>f(t+3)=5(t^2+6t+9)-4t-12+1=5t^2+30t+45-4t-11=
+                        5t^2+26t+34</m>.
                 </p>
             </solution>
         </example>
-    
+    <p>
+        Functions do not have to have algebraic formulas; for example, we could define 
+        a function that assigns the number 0 to all even numbers and 1 to all odd numbers.
+        In this example, <m>f(23)=1</m>, <m>f(-4)=0</m>, and <m>f(18)=0</m>. In geometry, 
+        we will be looking at transformations, which are functions that map points to points.
+        Sometimes, we can write geometric functions algebraically like <m>f((x,y))=(-x,3y)</m>
+        but that goes beyond the scope of this course.
+    </p>
+    <p>
+        Having seen some examples, we now give the definition of function.
+    </p>
+    <definition xml:id="def-function">
+        <idx><h>function</h></idx>
+        <statement>
+            <p>
+                A <term>function</term> is a mapping that assigns to each 
+                input exactly one output.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        As noted above the inputs and outputs be numbers or other objects such 
+        as points or even lines. What distinguishes a function from other mappings 
+        is that each input has <em>exactly one output</em>. Although it is possible 
+        for several inputs to have the same output, say <m>f(0)=0,f(2)=0,f(4)=0</m>,
+        it is not possible for <m>f(0)=0</m> and <m>f(0)=5</m>. Under the action of 
+        a function, each input uniquely determines its output.
+    </p>
     <subsubsection xml:id="subsec-algrev-sqroots">
         <title>Working with squares and square roots</title>
+        <p>
+            Two functions of interest to us in geometry are the squaring function <m>f(x)=x^2</m>
+            and the square root function <m>g(x)=\sqrt(x)</m>.
+        </p>
         <definition xml:id="def-sqrt">
             <idx><h>square root</h></idx>
             <idx><h>square</h></idx>
@@ -669,9 +704,7 @@
                     both sides gives <m>5x=65</m> and dividing by 5 gives <m>x=13</m>.
                 </p>
             </solution>
-
         </example>
-
         </subsubsection>
     </subsection>
 </section>
