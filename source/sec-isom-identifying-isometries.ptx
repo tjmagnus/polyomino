@@ -385,6 +385,7 @@
         the fifth column, <term>Locating Object(s)</term>, 
         will contain instructions for finding each of the defining objects. 
       </p>
+      <!--Is the next table premature?-->
       <table xml:id="table-def-obj-2">
         <title>Defining Objects for Three Isometries</title>
         <tabular halign="center" row-headers="yes">

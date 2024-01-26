@@ -29,6 +29,11 @@
     </p>
     <definition xml:id="def-composition">
       <idx><h>composition</h></idx>
+      <notation>
+        <usage><m>t\circ s</m></usage>
+        <description>The composition of <m>t</m> and <m>s</m>.</description>
+      </notation>
+      <statement>
       <p>
         A <term>composition</term> of two transformations is a sequence of two transformations, 
         <m>s</m> and <m>t</m>, performed 
@@ -42,6 +47,7 @@
         Note that in the composition <m>P \rightarrow s(t(P))</m>, we perform the inside function 
         <m>t</m> before the outer function <m>s</m>.
       </p>
+    </statement>
     </definition>
     <aside>
       <p>
@@ -58,13 +64,13 @@
           and then across line <m>h</m>  where <m>g</m> and <m>h</m> are parallel. 
           <ol>
             <li>
-              Use the <sq>reflect across line</sq> tool to reflect pentamino <m>ABCDEF</m>
-              across line <m>g</m> in <xref ref="app-reflect2parallels"/> to create pentamino 
+              Use the <sq>reflect across line</sq> tool to reflect pentomino <m>ABCDEF</m>
+              across line <m>g</m> in <xref ref="app-reflect2parallels"/> to create pentomino 
               <m>A'B'C'D'E'F'</m>.
             </li>
             <li>
-              Then reflect the new pentamino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
-              pentamino <m>A''B''C''D''E''F''</m>. 
+              Then reflect the new pentomino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
+              pentomino <m>A''B''C''D''E''F''</m>. 
             </li>
           </ol>
         </p>
@@ -154,24 +160,166 @@
       <title>
         Reflecting across intersecting lines
       </title>
-      <statement>
-        <p>
-          Add
-        </p>
-        <figure xml:id="app-reflect2intersect">
-          <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
-          <interactive xml:id="ref2intersectinglinesapp"
-          platform="geogebra">
-          <slate surface="geogebra" material="sNvnFAjC"/>
-          </interactive>
-      </figure>
-      </statement>
+          <task>
+            <statement>
+              <p>
+                Now we explore what happens when you reflect an object first across line <m>g</m>
+                and then across line <m>h</m>  where <m>g</m> and <m>h</m> intersect. 
+                <ol>
+                  <li>
+                    Use the <sq>reflect across line</sq> tool to reflect pentomino <m>ABCDEF</m>
+                    across line <m>g</m> in <xref ref="app-reflect2intersect"/> to create pentomino 
+                    <m>A'B'C'D'E'F'</m>.
+                  </li>
+                  <li>
+                    Then reflect the new pentomino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
+                    pentomino <m>A''B''C''D''E''F''</m>. 
+                  </li>
+                </ol>
+              </p>
+              <figure xml:id="app-reflect2intersect">
+                <caption>An interactive Geogebra applet for reflecting across intersecting lines.</caption>
+                <interactive xml:id="ref2intersectinglinesapp"
+                  platform="geogebra">
+                  <slate surface="geogebra" material="sNvnFAjC"/>
+                </interactive>
+              </figure>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Refer to the original pentomino <m>ABCDEF</m> and its image after reflecting across 
+                parallel lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2intersect"/>. 
+                <ol>
+                    <li>
+                      What type of isometry takes <m>ABCDEF</m> to the final image 
+                      <m>A''B''C''D''E''F''</m>? Is it a 
+                      reflection, a translation, a rotation, or something else?
+                    </li>
+                    <li>
+                      <p>
+                        Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots,
+                        \overline{FF''}</m>.  What do you notice?
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Each type of translation has a special object or two that helps 
+                        to determine it precisely. Identify and draw in the specific line, 
+                        vector, or center and angle for this transformation, referring to 
+                        <xref ref="table-def-obj-2"/> as needed.  
+                        How does the object(s) relate to the intersecting reflecting lines  
+                        <m>g</m> and <m>h</m>?  
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Measure the angles created by the intersecting lines. What do you notice?
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Let <m>M</m> be the point where the original two lines intersect. Measure the 
+                        lengths <m>AM</m>, <m>A''M</m>, <m>BM</m>, <m>B''M</m>, etc. What do you 
+                        notice?
+                      </p>
+                    </li>
+                </ol>
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A second copy of the GeoGebra app for reflecting across intersecting lines is provided 
+                in <xref ref="app-reflect2intersect-again"/>. This time reflect <m>ABCDEF</m> first 
+                across line <m>h</m> and then reflect the result across line <m>g</m>. How does the 
+                result compare to what happened when we reflected across g before h? Where is 
+                <m>A''B''C''D''E''F''</m>? Have any of the lengths or angles changed?
+              </p>
+
+            <figure xml:id="app-reflect2intersect-again">
+              <caption>An interactive Geogebra applet for reflecting across intersecting 
+                lines.</caption>
+              <interactive xml:id="ref2intersectinglinesapp2"
+                platform="geogebra">
+                <slate surface="geogebra" material="sNvnFAjC"/>
+              </interactive>
+            </figure>
+          </statement>
+        </task>
+    </exploration>
+    <p>
+      Next we will explore what happens when we reflect across three lines in succession. Once 
+      again, we will consider the case where the lines are parallel and when they intersect. Will 
+      we get the same transformations as before or might these be something different?
+    </p>
+    <exploration xml:id="expl-ref-three">
+      <title>Reflecting across three lines</title>
+      <task>
+        <title>
+          Orientation
+        </title>
+        <statement>
+          <p>
+            Recall that a reflection across a single line reverses the orientation.  
+            <ol>
+              <li>
+                <p>
+                  What happens to the orientation when you reflect an object across two 
+                  lines in succession?
+                </p>
+              </li>
+              <li>
+                <p>
+                  If you were to reflect the object across a third line, what would you expect 
+                  to happen to the orientation?
+                </p>
+              </li>
+            </ol> 
+          </p>
+        </statement>
+      </task>
+      <task>
+        <title>Reflecting across three parallel lines</title>
+        <statement>
+          <p>
+            Reflect the triangle in <xref ref="app-reflect3parallel"/> across lines 
+            <m>d</m>, <m>e</m>, and <m>f</m> in succession.
+            <ol>
+              <li>
+                <p>
+                  What type of single transformation (reflection, translation, rotation, 
+                  or something else) takes the original triangle to the final image?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Each type of translation has a special object or two that helps to 
+                  determine it precisely. Identify and draw in the specific line, vector,
+                  or center and angle for this transformation. How, if at all, is this 
+                  object related to the three lines <m>d</m>, <m>e</m>, and <m>f</m>?
+                </p>
+              </li>
+            </ol>
+          </p>
+          <figure xml:id="app-reflect3parallel">
+            <caption>An interactive Geogebra applet for reflecting across three parallel 
+              lines.</caption>
+            <interactive xml:id="ref3parallellinesapp"
+              platform="geogebra">
+              <slate surface="geogebra" material="UuMVxjHc"/>
+            </interactive>
+          </figure>
+        </statement>
+      </task>
     </exploration>
     <p> 
         Is the composition of two isometries always an isometry?  What type?  
-        The chart will be useful in answering these questions!  Fill it out to the best of your ability 
+        <!--The chart will be useful in answering these questions!  Fill it out to the best of your ability 
         now even if you’re not 100% certain of your answers.  You will have a chance to revise and add to this 
-        chart later.
+        chart later.-->
     </p>
 </subsection>
 </section>
