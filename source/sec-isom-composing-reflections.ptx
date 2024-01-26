@@ -6,10 +6,10 @@
     <title>Compositions</title>
     <p>
       Each of the transformations we have studied so far, reflections, translations, and rotations, 
-      perform an action on the points of the plane. In fact, a transformation is a <term>function</term>
-      where the inputs are geometric objects instead of numbers. In algebra, you learned about the 
-      <q>add three</q> function, <m>f(x)=x+3</m>, and the <q>multiply by four</q> function, 
-      <m>g(x)=4x</m>. You also learned that you could perform two functions in succession.
+      performs an action on the points of the plane. In fact, a transformation is a <term>function</term>
+      where the inputs and outputs are geometric objects instead of numbers. In algebra, you learned 
+      about the <q>add three</q> function, written <m>f(x)=x+3</m>, and the <q>multiply by four
+      </q> function, <m>g(x)=4x</m>. You also learned that you could perform two functions in succession.
       For example, you could perform the <q>add three</q> function on the number <m>1</m> and then 
       perform the <q>multiply by 4</q> function on the result. 
       <me>
@@ -31,20 +31,43 @@
       <idx><h>composition</h></idx>
       <p>
         A <term>composition</term> of two transformations is a sequence of two transformations, 
-        <m>S</m> and <m>T</m>, performed 
-        in succession. To find the image of a point <m>P</m> under the composition, <m>S</m> 
-        followed by <m>T</m>, written <m>t(s(P))</m>, one first finds the image <m>P'</m>
-        of <m>P</m> under the action of <m>s</m> and then finds the image <m>P"</m> of  
+        <m>s</m> and <m>t</m>, performed 
+        in succession. To find the image of a point <m>P</m> under the composition, <m>s</m> 
+        followed by <m>t</m>, written <m>t(s(P))</m>, one first finds the image <m>P'</m>
+        of <m>P</m> under the action of <m>s</m> and then finds the image <m>P''</m> of  
         <m>P'</m> under <m>t</m>.
         <me>
           P \overset{s}\rightarrow s(P)=P' \overset{t}\rightarrow t(P')=P''.
         </me>
+        Note that in the composition <m>P \rightarrow s(t(P))</m>, we perform the inside function 
+        <m>t</m> before the outer function <m>s</m>.
       </p>
     </definition>
-    <exploration>
+    <aside>
+      <p>
+        We can also use the notation <m>t\circ s</m> to represent the composition of <m>t</m> 
+        composed with <m>s</m>. It's action on point <m>P</m> is written <m>t(s(P))</m>. 
+      </p>
+    </aside>
+    <exploration xml:id="explor-refl-two-parallels">
       <title>Reflecting across Parallel Lines</title>
       <task>
       <statement>
+        <p>
+          First we explore what happens when you reflect an object first across line <m>g</m>
+          and then across line <m>h</m>  where <m>g</m> and <m>h</m> are parallel. 
+          <ol>
+            <li>
+              Use the <sq>reflect across line</sq> tool to reflect pentamino <m>ABCDEF</m>
+              across line <m>g</m> in <xref ref="app-reflect2parallels"/> to create pentamino 
+              <m>A'B'C'D'E'F'</m>.
+            </li>
+            <li>
+              Then reflect the new pentamino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
+              pentamino <m>A''B''C''D''E''F''</m>. 
+            </li>
+          </ol>
+        </p>
         <figure xml:id="app-reflect2parallels">
           <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
           <interactive xml:id="ref2paralinesapp"
@@ -52,54 +75,82 @@
           <slate surface="geogebra" material="vswhjpfa"/>
           </interactive>
       </figure>
-        <p>
-          First explore what happens when you reflect an object first over line <m>g</m>
-          and then over line <m>h</m>  where <m>g</m> and <m>h</m> are parallel. 
-          
-        </p>
       </statement>
-      <hint>
-          Use the <sq>reflect across line</sq> tool 
-          that looks like a red and blue dot on opposite sides of a diagonal line. 
-          Select the tool, select the pentomino, and then select the line. 
-          When you reflect across the second line <m>h</m> be sure to reflect the new 
-          pentomino <m>A'B'C'D'E'F'</m>, not the original.  Geogebra should label the 
-          vertices of the final object with <m>A'', B'', </m>, 
-          etc. You may choose to hide (use show/hide tool) the intermediate objects or color 
-          the initial and final objects (use right-click on the interior of the pentomino)
-          so that it is easier to focus on the first and final figures.
-      </hint>
       </task>
       <task>
         <statement>
           <p>
-            What type of isometry takes <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Is it a 
-            reflection, a translation, a rotation, or something else?
+            Refer to the original pentomino <m>ABCDEF</m> and its image after reflecting across 
+            parallel lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2parallels"/>. 
+            <ol>
+              <li>
+                What type of isometry takes <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Is it a 
+                reflection, a translation, a rotation, or something else?
+              </li>
+              <li>
+                Draw the segments <m>\overline{AA'}, \overline{BB'}, \ldots, \overline{FF'}</m> and 
+                measure the lengths <m>AA', BB', \ldots, FF'</m>. What do you notice?
+              </li>
+              <li>
+                <p>
+                  What do you notice about the angle between each segment, <m>\overline{AA'}, \overline{BB'}, 
+                    \ldots, \overline{FF'}</m>  and the original two lines <m>g</m> and <m>h</m>?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Measure the distance between the original pair of reflecting lines <m>g</m> and <m>h</m>. 
+                  Be sure to use a segment perpendicular to both lines to measure along. What do you notice?
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <hint>
+          <p>
+          You may choose to hide (use show/hide tool) the intermediate objects or color 
+          the initial and final objects (use right-click on the interior of the pentomino)
+          so that it is easier to focus on the first and final figures. Do not delete the 
+          intermediate construction as it will cause later constructions to also be deleted.
+          </p>
+        </hint>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Each type of isometry has a special object or two that helps to determine it precisely.  
+            As shown in <xref ref="table-def-obj-2"/>, a reflection has a reflecting line, a 
+            translation has a vector, and a rotation has a center 
+            and angle.  Identify and draw in the specific line, vector, or center and angle for this 
+            transformation.  How does this object relate to the parallel reflecting lines <m>g</m> and <m>h</m>?  
+            Verify your answer using the transformation tools in geogebra. 
           </p>
         </statement>
       </task>
       <task>
         <statement>
           <p>
-            Refer to <xref ref="table-def-obj-1"/> or the table you created at the end of 
-            <xref ref="subsec-isom-identify-exptable"/>. What is the defining object for 
-            the isometry taking <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Use the appropriate 
-            tools to locate and sketch the defining object for this isometry.
+            A second copy of the GeoGebra app for reflecting across parallel lines is provided 
+            in <xref ref="app-reflect2parallels-again"/>. This time reflect <m>ABCDEF</m> first 
+            across line <m>h</m> and then reflect the result across line <m>g</m>. How does the 
+            result compare to what happened when we reflected across g before h? Where is 
+            <m>A''B''C''D''E''F''</m>? Have any of the distances or angles changed?
           </p>
+          <figure xml:id="app-reflect2parallels-again">
+            <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
+            <interactive xml:id="ref2paralinesapp2"
+            platform="geogebra">
+            <slate surface="geogebra" material="vswhjpfa"/>
+            </interactive>
+        </figure>
         </statement>
       </task>
     </exploration>
-    
     <p>
-        Add 
+      In the next exploration, we will perform a similar experiment reflecting an object 
+      across two intersecting lines in succession.
     </p>
-    <p>
-        add  
-    </p>
-    <p>
-      Add
-    </p>
-    <exercise>
+    <exploration xml:id="explor-refl-two-intersecting">
       <title>
         Reflecting across intersecting lines
       </title>
@@ -107,15 +158,20 @@
         <p>
           Add
         </p>
+        <figure xml:id="app-reflect2intersect">
+          <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
+          <interactive xml:id="ref2intersectinglinesapp"
+          platform="geogebra">
+          <slate surface="geogebra" material="sNvnFAjC"/>
+          </interactive>
+      </figure>
       </statement>
+    </exploration>
     <p> 
         Is the composition of two isometries always an isometry?  What type?  
         The chart will be useful in answering these questions!  Fill it out to the best of your ability 
         now even if you’re not 100% certain of your answers.  You will have a chance to revise and add to this 
         chart later.
     </p>
-    
-
-    </exercise>
 </subsection>
 </section>
