@@ -314,9 +314,77 @@
           </figure>
         </statement>
       </task>
+      <task>
+        <title>Reflecting across three intersecting lines</title>
+        <statement>
+          <p>
+            Finally, we reflect the triangle across three lines, at least some 
+            of which intersect.  Use the <sq>Reflect about line</sq> tool to reflect 
+            <m>\Delta ABC</m> across <m>d</m>, then reflect its image <m>\Delta A'B'C'</m> 
+            across line <m>e</m>, and finally reflect <m>\Delta A''B''C''</m> across 
+            <m>f</m>. After creating <m>\Delta A'''B'''C'''</m>, you may hide the two 
+            intermediate triangles <m>\Delta A'B'C'</m> and <m>\Delta A''B''C''</m>. 
+            </p>
+            <figure xml:id="app-reflect3intersect">
+              <caption>
+                An interactive Geogebra applet for reflecting across 
+                three intersecting lines.
+              </caption>
+              <interactive xml:id="ref3intersectinglinesapp"
+                platform="geogebra">
+                <slate surface="geogebra" material="cZVa8nZz"/>
+              </interactive>
+            </figure>
+            <p>
+          <ol>
+            <li>
+              <p>
+                Is the orientation of the figure the same or changed under the single
+                transformation that takes <m>\Delta ABC</m> to <m>\Delta A'''B'''C'''</m>?
+              </p>
+            </li>
+            <li>
+              <p>
+                Explain how you know that this transformation is not a reflection.
+              </p>
+            </li>
+            <li>
+              <p>
+                Explain how you know that this transformation is not a translation.
+              </p>
+            </li>
+            <li>
+              <p>
+                Explain how you know that this transformation is not a rotation.
+              </p>
+            </li>
+            <li>
+              <p>
+                Hide, but do not delete, lines <m>d</m>, <m>e</m>, and <m>f</m>. Sketch the 
+                line segments, <m>\overline{AA'''}</m>, <m>\overline{BB'''}</m>,
+                and <m>\overline{CC'''}</m>. Plot the midpoint of each of these segments.
+                What do you notice about these midpoints?
+              </p>
+            </li>
+            <li>
+              <p>
+                Draw the line that passes through the midpoints of <m>\overline{AA'''}</m>
+                and <m>\overline{BB'''}</m>. Then reflect <m>\Delta ABC</m> across this line.
+                What do you notice about the relationship between this new triangle 
+                <m>\Delta A_1'B_1'C_1'</m> and <m>\Delta A'''B'''C'''</m>?
+              </p>
+            </li>
+            <li>
+              Describe a two-transformation process that takes <m>\Delta ABC</m> to 
+              <m>\Delta A'''B'''C'''</m>.
+            </li>
+          </ol>
+          </p>
+        </statement>
+      </task>
     </exploration>
     <p> 
-        Is the composition of two isometries always an isometry?  What type?  
+        Discuss glide reflections HERE. Is the composition of two isometries always an isometry?  What type?  
         <!--The chart will be useful in answering these questions!  Fill it out to the best of your ability 
         now even if you’re not 100% certain of your answers.  You will have a chance to revise and add to this 
         chart later.-->
