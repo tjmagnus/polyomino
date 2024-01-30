@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-isom-mystery-isometries" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Mystery Isometries</title>
+    <introduction>
+        <p>
+            In this sectopm, we will review the four types of isometries, 
+            reflections, translations, rotations, and glide reflections, and 
+            learn how to construct the axis of a reflection, the center and 
+            angle of a rotation, and a vector of a translation or glide 
+            reflection.
+        </p>
+        <p>
+            We know that an isometry is a transformation (or function) that 
+            preserves the measures of lines and angles.  The original object and its 
+            image under an isometry are always congruent to each other.  It turns out 
+            if we are given any two congruent figures in the plane there is an isometry 
+            that maps one of the figures onto the other.  At the end of this section, 
+            you will be given a pair of congruent figures and then will determine the 
+            associated isometry using the properties you identified in the early part of 
+            the lab.
+        </p>
+        <p>
+            Orientation is a good way of distinguishing between types of 
+            isometries, especially rotations and glide reflections.
+        </p>
+        <exercise>
+            <title>Check Your Understanding</title>
+            <statement>
+                <p>
+                    In <xref ref="check-orient"/>, which triangle has the 
+                    same orientation as <m>\Delta ABC</m>?
+                </p>
+                <figure xml:id="check-orient">
+                    <caption>CYU Orientation</caption>
+                    <image source="orient-check">
+                        <shortdescription>Triangles ABC, C'B'A', and
+                            C1,B1,A1 are shown.
+                        </shortdescription>
+                    </image>
+                </figure>
+            </statement>
+        </exercise>
+        
+    </introduction>
+
+</section>
+    
+    

@@ -382,12 +382,71 @@
           </p>
         </statement>
       </task>
+      <!--Move to exercise?<task>
+        <title>Two Parallel, One Intersects</title>
+        <statement>
+          <p>
+            For this question you will use <xref ref="app-reflect3intersect"/>.
+            If your work from the previous task is still visible, simply show 
+            (unhide) the three lines <m>d</m>, <m>e</m>, and <m>f</m>. If your 
+            work is no longer visible, reflect <m>\Delta ABC</m> across 
+            lines <m>d</m>, <m>e</m>, and <m>f</m> in succession and then hide
+            the two intermediate triangles <m>\Delta A'B'C'</m> and <m>\Delta A''B''C''</m>.
+          </p>
+        </statement>
+        
+        
+      </task>-->
     </exploration>
+  </subsection>
+  <subsection xml:id="subsec-Four-Isometries">
+      <title>The Four Isometries</title>
     <p> 
-        Discuss glide reflections HERE. Is the composition of two isometries always an isometry?  What type?  
-        <!--The chart will be useful in answering these questions!  Fill it out to the best of your ability 
-        now even if you’re not 100% certain of your answers.  You will have a chance to revise and add to this 
-        chart later.-->
+        In this chapter, we've explored the behavior of a particular type of transformation,
+        called an <term>isometry</term>. This term comes from the Greek words <q>iso-</q> meaning 
+        <q>equality</q> and <q>metria</q> meaning <q>measure</q>.
     </p>
+    <definition xml:id="def-isometry">
+      <idx><h>isometry</h></idx>
+      <statement>
+        <p>
+          An <term>isometry</term> is a function taking points on the plane to points on 
+          the plane which sends collinear points to collinear points and 
+          preserves the distance between points. 
+        </p>
+      </statement>
+    </definition>   
+    <p>
+      There are four types of isometries.  Through our explorations, we have seen that the 
+      orientation of a figure is reversed each time it is reflected. Thus,
+      orientation is changed under an odd number of reflections and maintained 
+      (flipped back) under an even number of reflections. Hence, the 
+      composition of two reflections in succession must be  
+      either a translation (when the reflecting lines are parallel) or a 
+      rotation (when the reflecting lines intersect). When we reflect 
+      across three lines, not all of which are parallel, we get an isometry 
+      which reverses the orientation of figures but is not a reflection.  
+      Instead we obtain what is known as a glide reflection. 
+    </p>
+    <p> 
+        A <term>glide reflection</term> is defined as a composition of a reflection across 
+        a line and a translation along a vector parallel to (or on) the 
+        reflecting line. In <xref ref="illustrated-glref"/>, note how the pentomino is first 
+        reflected across the line and then translated along vector 
+        <m>\overrightarrow{GH}</m>.  Any of the parallel vectors, like 
+        <m>\overrightarrow{A'A''}</m> or <m>\overrightarrow{CC''}</m>, 
+        could be used as the translation vector, but the reflecting line here 
+        is <m>\overleftrightarrow{GH}</m>, not <m>\overleftrightarrow{CC''}</m>.  
+        <idx>glide reflection</idx>
+    </p>
+    <figure xml:id="illustrated-glref">
+      <caption>Glide reflection of a pentamino.</caption>
+      <image source="glrefpicture">
+          <shortdescription>
+            L-pentamino is reflected across line GH. Then its image is slid 
+            using vector GH. A and C are two vertices on the original.
+          </shortdescription>
+      </image>
+   </figure>
 </subsection>
 </section>
