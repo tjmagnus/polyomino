@@ -16,7 +16,7 @@
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
     <!-- project). Some examples:                                            -->
-    <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
+    <exercise-inline statement="yes" hint="yes" answer="yes" solution="yes" />
     <exercise-divisional statement="yes" hint="yes" />
     <!-- Style of fill-in-the-blanks: -->
     <fillin textstyle="underline" mathstyle="shade" />
@@ -61,7 +61,7 @@
   <!-- for printing; set @sides="two" if the printing woudl be two- -->
   <!-- sided.  @pageref="yes/no" controls whether page number are   -->
   <!-- included in cross-references                                 -->
-  <latex print="no" sides="one" font-size="10" draft="no">
+  <latex print="yes" sides="two" font-size="10" draft="no">
     <!-- Control text justification and bottom page behavior: -->
     <page right-alignment="flush" bottom-alignment="ragged" />
     <!-- Add content to \geometry{}: -->

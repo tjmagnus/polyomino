@@ -4,46 +4,156 @@
     <title>Mystery Isometries</title>
     <introduction>
         <p>
-            In this sectopm, we will review the four types of isometries, 
-            reflections, translations, rotations, and glide reflections, and 
-            learn how to construct the axis of a reflection, the center and 
+            Given two congruent figures, what is the isometry that maps one 
+            onto the other? In this section, we will learn how to identify the
+            type of isometry for this mapping and 
+            to construct the axis of a reflection, the center and 
             angle of a rotation, and a vector of a translation or glide 
-            reflection.
+            reflection. 
         </p>
-        <p>
-            We know that an isometry is a transformation (or function) that 
-            preserves the measures of lines and angles.  The original object and its 
-            image under an isometry are always congruent to each other.  It turns out 
-            if we are given any two congruent figures in the plane there is an isometry 
-            that maps one of the figures onto the other.  At the end of this section, 
-            you will be given a pair of congruent figures and then will determine the 
-            associated isometry using the properties you identified in the early part of 
-            the lab.
-        </p>
-        <p>
-            Orientation is a good way of distinguishing between types of 
-            isometries, especially rotations and glide reflections.
-        </p>
-        <exercise>
-            <title>Check Your Understanding</title>
-            <statement>
-                <p>
-                    In <xref ref="check-orient"/>, which triangle has the 
-                    same orientation as <m>\Delta ABC</m>?
-                </p>
-                <figure xml:id="check-orient">
-                    <caption>CYU Orientation</caption>
-                    <image source="orient-check">
-                        <shortdescription>Triangles ABC, C'B'A', and
-                            C1,B1,A1 are shown.
-                        </shortdescription>
-                    </image>
-                </figure>
-            </statement>
-        </exercise>
-        
     </introduction>
-
+        <subsection xml:id="subsec-Isom-mystery-review">
+            <title>Review of Isometries</title>
+            <p>
+                We know that an isometry is a transformation (or function) that 
+                preserves the measures of lines and angles.  The original object and its 
+                image under an isometry are always congruent to each other.  It turns out 
+                if we are given any two congruent figures in the plane there is an isometry 
+                that maps one of the figures onto the other.  At the end of this section, 
+                you will be given a pair of congruent figures and then will determine the 
+                associated isometry using the properties you identified in the early part of 
+                the lab.
+            </p>
+        <exploration>
+            <title>Isometry Review and Tools</title>
+            <task>
+                <title>Orientation Review</title>
+                <statement>
+                    <p>
+                        Orientation is a good way of distinguishing between types of 
+                        isometries, especially rotations and glide reflections.
+                    </p>
+                    <p>
+                        In <xref ref="check-orient"/>, which triangle has the 
+                        same orientation as <m>\Delta ABC</m>?
+                    </p>
+                    <figure xml:id="check-orient">
+                        <caption>Orientation of Images of <m>\Delta ABC</m></caption>
+                        <image source="orient-check">
+                            <shortdescription>
+                                Triangles ABC, C'A'B', and
+                                C1,B1,A1 are shown.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                </statement>
+                <answer>
+                    <p>
+                        Triangle <m>\Delta C'A'B' </m> has the same orientation as 
+                        <m>\Delta ABC</m>. Triangle <m>\Delta C'_1 B'_1 A'_1</m> has 
+                        the opposite orientation.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <title>Review of Reflections</title>
+                <statement>
+                    <p>
+                        Use the GeoGebra interactive in <xref ref="fig-reflect-rev-mystery"/> 
+                        as needed to answer the following:
+                        <ol>
+                            <li>
+                                <p>
+                                    A reflection <fillin characters="5"/> the orientation 
+                                    of the figure.
+                                    <ul marker="square">
+                                        <li>
+                                            maintains
+                                        </li>
+                                        <li>
+                                            reverses
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How is the reflecting line related to the 
+                                    the segments connecting each point to its 
+                                    image? Consider both the location of 
+                                    intersection and the angle formed by the intersection.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Describe how you can create the reflecting line 
+                                    given an illustration of two congruent triangles.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="fig-reflect-rev-mystery">
+                        <caption>
+                          An interactive Geogebra applet for analyzing a reflection across 
+                          a single line.
+                        </caption>
+                        <interactive xml:id="mystery-rev-reflect-app"
+                          platform="geogebra">
+                          <slate surface="geogebra" material="vwhkwn3q"/>
+                        </interactive>
+                      </figure>
+                </statement>
+            </task>
+            <task>
+                <title>Review of Translations</title>
+                <statement>
+                    <p>
+                        Use the GeoGebra interactive in <xref ref="fig-translate-rev-mystery"/> 
+                        as needed to answer the following questions about translations:
+                        <ol>
+                            <li>
+                                <p>
+                                    A translation <fillin characters="5"/> the orientation 
+                                    of the figure.
+                                    <ul marker="square">
+                                        <li>
+                                            maintains
+                                        </li>
+                                        <li>
+                                            reverses
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How is the translation vector related to the 
+                                    segment from a point to its image? Once again,
+                                    address both length and direction in your response.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Describe how you can create the translation vector from 
+                                    an illustration of two congruent triangles <m>\Delta ABC</m>
+                                    and <m>\Delta A'B'C'</m>.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="app-translate-rev-mystery">
+                        <caption>
+                          An interactive GeoGebra applet for analyzing a translation.
+                        </caption>
+                        <interactive xml:id="mystery-rev-translate-app"
+                          platform="geogebra">
+                          <slate surface="geogebra" material="t2nuw95c"/>
+                        </interactive>
+                      </figure>
+                </statement>
+            </task>
+        </exploration>
+    </subsection>    
 </section>
     
     

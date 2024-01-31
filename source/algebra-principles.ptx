@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="algebra-principles" xmlns:xi="http://www.w3.org/2001/XInclude">
+<appendix xml:id="algebra-principles" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Algebra Principles and Review</title>
     <introduction>
         <p>
@@ -399,6 +399,7 @@
     </subsection>
     <subsection xml:id="subsec-Functions">
         <title>Functions and Operations</title>
+        <introduction>
         <p>
             Operations, such as addition, subtraction, and multiplication, give us a way of  
             combining numbers and expressions. It is worth the time to read the symbols that 
@@ -470,6 +471,7 @@
         it is not possible for <m>f(0)=0</m> and <m>f(0)=5</m>. Under the action of 
         a function, each input uniquely determines its output.
     </p>
+</introduction>
     <subsubsection xml:id="subsec-algrev-sqroots">
         <title>Working with squares and square roots</title>
         <p>
@@ -565,7 +567,7 @@
             <statement>
                 <p> 
                     The length of the hypotenuse is 16 inches and the length of one leg 
-                is 10 inches. Determine the length of the other leg.
+                    is 10 inches. Determine the length of the other leg.
                 </p>
             </statement>
             <solution>
@@ -707,4 +709,4 @@
         </example>
         </subsubsection>
     </subsection>
-</section>
+</appendix>
