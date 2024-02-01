@@ -10,16 +10,10 @@
     the mirror line, the points and their images would fall on top of each other.
     The exploration <xref ref="expl-reflect-pentomino-coordplane"/> is best 
     done by hand so that you get a deeper understanding 
-    of what happens to points in a transformation. Print out the pictures and use colored 
+    of what happens to points in a reflection. Print out the pictures and use colored 
     pencils. The ability to fold your paper may prove helpful!
 </p>
-<p component="instructor">
-    A pdf version of this activity is available MAKE SURE TYPO on p.2 part b is corrected (y-axis not x-axis). Be sure to check that students correctly 
-    sketch the reflection in <xref ref="drawreflection"/>. Encourage students to compare 
-    their sketches with others and discuss if there are different sketches. Miras (math education supply stores) or  small 
-    mirrors (craft stores) can be effective at resolving differences and helping students visualize,
-    but I recommend letting them try to draw the reflection first without these aids.
-</p>
+
 </introduction>
 <subsection>
     <title>Exploring Reflections</title>
@@ -109,7 +103,7 @@
             </p>
         </statement>
     </task>
-    <task>
+    <task xml:id="disc-prop-reflect-findline">
         <statement>
             <p>
                 Pentomino  <m>ABCDEFGHIJ</m> and its reflection <m>A'B'C'D'E'F'G'H'I'J'</m> 
@@ -134,7 +128,7 @@
         </p>
         <figure>
             <caption>
-                Four Points on Coordinate Grid for Exploration <xref ref="expl-reflect-across-xyaxes"/>
+                Four Points on Coordinate Grid for <xref ref="expl-reflect-across-xyaxes"/>
             </caption>    
             <image source="FourpointsOnCoordAxes">
                 <shortdescription>
@@ -184,7 +178,7 @@
         <statement>
             <p>
                 Focus on the original points <m>A</m>, <m>B</m>, <m>C</m>, and <m>D</m> 
-                and the final points  <m>A*</m>, <m>B*</m>, <m>C*</m>, and <m>D*</m>.  
+                and the final points  <m>A^*</m>, <m>B^*</m>, <m>C^*</m>, and <m>D^*</m>.  
                 Is there a single reflecting line that gives this mapping? 
                 What type of transformation describes this mapping?     
             </p>
@@ -242,14 +236,21 @@
         properties are identified in the next exercise. 
     </p>
     <exercise label="fillin-refl-def-prop">
-        <title>Defining Property of a Reflection</title>
+        <title>Properties of a Reflecting Line</title>
         <statement>
             <p>
                 The reflecting line <m>\ell</m> meets the segment <m>\overline{PP'}</m>,
                 connecting a point <m>P</m> and its reflected image <m>P'</m>, at a
-                ________-degree angle.
+                <fillin characters="5"/>-degree angle. The point where <m>\ell</m>
+                meets <m>\overline{PP'}</m> is <fillin characters="5"/> between 
+                points <m>P</m> and <m>P'</m>.
             </p>
         </statement>
+        <answer>
+            <p>
+                90; halfway
+            </p>
+        </answer>
     </exercise>
     <p>
         So far, we have only reflected across lines that were either horizontal, 

@@ -6,11 +6,42 @@
   <subsection>
       <title>Notes for <xref ref="sec-isom-reflect-Cartesian"/></title>
       <p>
-        Print out copies of the illustrations in this section. Bring enough red, green, and blue pencils so 
-        each group can have one of each color. Should students draw in the wrong color, they can indicate the 
-        color used in the text. Contact the author for printable pdf versions of this section's activity. Verify 
-        that students are able to draw the first reflection correctly so that they will come to the desired 
-        conclusions.
+        The author is happy to provide a pdf-version of the activities in this section. 
+        <!--NOTE TO SELF: 
+        MAKE SURE TYPO on p.2 part b is CORRECTED (y-axis not x-axis).--> Be sure to 
+        check that students correctly sketch the reflection in <xref ref="drawreflection"/>. 
+        Reflecting across a diagonal line is more challenging for some students. 
+        Encourage students to compare 
+        their sketches with others and discuss if there are different sketches. 
+        Miras (math education supply stores) or  small 
+        mirrors (craft stores) can be effective at resolving differences 
+        and helping students visualize, but I recommend letting them draw the 
+        reflection first without these aids.
+        
+        Although much of this chapter will be done with GeoGebra apps, it is worthwhile 
+        to have students do this first activity on paper in small groups. Performing 
+        actions by hand gives deeper understanding, encourages teamwork, and introduces 
+        some properties of reflections in the coordinate plane across the <m>x</m>-axis,
+        <m>y</m>-axis, and lines <m>y=x</m> and <m>y=-x</m>. In preparation for this lesson, print out copies of the illustrations in 
+        this section, bring enough reddish, greenish, and blueish pencils so 
+        each group can have at least one of each color. Should students draw in the 
+        wrong color, they can indicate the color they used by making a mark in the text. 
+    </p>
+    <p>
+      In <xref ref="disc-prop-reflection-perp-bis"/>, students should discover that 
+      the reflecting line is the perpendicular bisector of each segment joining a 
+      point in the original figure with its image. The task also reminds students that 
+      the diagonal of a 1x1-square has length <m>\sqrt{2}</m>. In 
+      <xref ref="disc-prop-reflect-findline"/>, students should use what they learned 
+      to draw the reflecting line. If their line is off, encourage them to fold along 
+      their line to check their work and consider what they might do. This type of task 
+      will appear more later in the chapter. Keep it at an exploratory level at this point.
+      Note that we have not learned how to draw a perpendicular bisector. An optional 
+      exploration MAYBE AN EXERCISE might be to discover how to use folding to create 
+      these. Current plans are to add a chapter on constructions, but probably 
+      later in the text. <xref ref="ref-acrossxtheny"/> gives an introduction to 
+      composition of reflections, a topic which will be explored in depth in 
+      <xref ref="sec-isom-composing-reflections"/>.
     </p>
     </subsection>
     <subsection>

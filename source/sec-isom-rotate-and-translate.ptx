@@ -8,8 +8,8 @@
             The picture shows a triangle <m>\Delta ABC</m> reflected across a line <m>\ell</m>. Although the 
             letters <m>A</m>, <m>B</m>, and <m>C</m> are in alphabetical order when read clockwise from the 
             original figure, the letters in the reflected image <m>\Delta A'B'C'</m> are in the reverse order. 
-            When this happens, we say that the transformation <term>changes orientation</term>. Any reflection
-            will be an <term>orientation-changing</term> transformation. 
+            When this happens, we say that the transformation <term>reverses orientation</term>. Any reflection
+            will be an <term>orientation-reversing</term> transformation. 
         </p>    
         <figure xml:id="reversing-orientation-fig">
             <caption>A reflection reverses orientation</caption>
@@ -21,17 +21,18 @@
             </image>
         </figure>
         <p>
-            Not all transformations change orientation. In this section, you will encounter two types
-            of <term>orientation-maintaining</term> or <term>orientation-preserving</term> 
+            Not all transformations change orientation. In this section, you 
+            will encounter two types of <term>orientation-maintaining</term>  
             transformations, namely rotations and translations. When either of 
-            these is performed, the order in which the vertices are read is unchanged.
+            these transformations is performed, the order in which the vertices 
+            are read is unchanged.
         </p>
         <aside>
             <p>
-                Most textbooks use <term>orientation-reversing</term> and <term>
+                Many textbooks use <term>orientation-reversing</term> and <term>
                 orientation-preserving</term>. Because of the similarity in the words,
-                reversing and preserving, I have chosen to use orientation-changing and 
-                orientation-maintaining.
+                reversing and preserving, I have chosen to use the term 
+                orientation-maintaining instead of orientation-preserving.
             </p>
         </aside>
         <definition xml:id="def-orientation">
@@ -51,17 +52,28 @@
                 </p>
                 <p>
                     On the other hand, if the resulting images have the vertices in 
-                    the reverse order, we say that the transformation <term>changes
-                    orientation</term> or <term>reverses orientation</term>.
+                    the reverse order, we say that the transformation <term>reverses 
+                    orientation</term>.
                 </p>
             </statement>
         </definition>
   </subsection>
   <subsection xml:id="subsec-Translations">
     <title>Translations</title>
-  
+    
+        <p>
+            The first orientation-maintaining transformation is called a 
+            <term>translation</term> or <term>slide</term>.
+        </p>
+    
   <exploration xml:id="explor-isom-RAT-translation">
     <title>Translating on a Coordinate Plane</title>
+    <introduction>
+        <p>
+            This exploration may also be done on paper using a print of  
+            <xref ref="app-translate-wcoords"/> instead of the application.
+        </p>
+    </introduction>
     <task>
         <statement>
             <p>
@@ -71,7 +83,7 @@
                 one unit down.
             </p>
             <figure xml:id="app-translate-wcoords">
-                <caption>An interactive Geogebra applet for translating by a coordinate vector.</caption>
+                <caption>An interactive GeoGebra applet for translating by a coordinate vector.</caption>
                 <interactive xml:id="coordtranslationapp"
                 platform="geogebra">
                 <slate surface="geogebra" material="dqxsdp2b"/>
@@ -218,6 +230,7 @@
         </statement>
     </task>
     </exploration>
+    
     <subsubsection xml:id="subsec-isom-RAT-props-translation">
         <title>Properties of Translations</title>
     <p>
