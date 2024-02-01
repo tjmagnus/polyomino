@@ -141,7 +141,7 @@
                             </li>
                         </ol>
                     </p>
-                    <figure xml:id="app-translate-rev-mystery">
+                    <figure xml:id="fig-translate-rev-mystery">
                         <caption>
                           An interactive GeoGebra applet for analyzing a translation.
                         </caption>
@@ -152,8 +152,222 @@
                       </figure>
                 </statement>
             </task>
+            <task>
+                <title>Review of Rotations</title>
+                <statement>
+                    <p>
+                        The GeoGebra interactive in <xref ref="fig-rotate-rev-mystery"/> shows the 
+                        action of a 120-degree clockwise rotation of <m>\Delta ABC</m> about point 
+                        <m>D</m>. Use this interactive
+                        as needed to answer the following questions about rotations:
+                        <ol>
+                            <li>
+                                <p>
+                                    A rotation <fillin characters="5"/> the orientation 
+                                    of the figure.
+                                    <ul marker="square">
+                                        <li>
+                                            maintains
+                                        </li>
+                                        <li>
+                                            reverses
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Construct the segments <m>AA'</m>, <m>BB'</m>, and <m>CC'</m>.  
+                                    Construct the midpoints of each of these three segments.  Then construct 
+                                    the perpendicular bisector of each of these segments.  Where do these 
+                                    three bisectors intersect?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    What are the measures of angles <m>\angle ADA'</m>, <m>\angle BDB'</m>, 
+                                    and <m>\angle CDC'</m>? How do these measures inform you that this is 
+                                    a 120-degree clockwise rotation?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    If you were given a picture of a figure and what you think is its rotated 
+                                    image, what process would you use to determine the center of the rotation 
+                                    and its angle of rotation? Write this so that another student could follow 
+                                    your steps.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="fig-rotate-rev-mystery">
+                        <caption>
+                          An interactive GeoGebra applet for analyzing a 120-degree rotation.
+                        </caption>
+                        <interactive xml:id="mystery-rev-rotate-app"
+                          platform="geogebra">
+                          <slate surface="geogebra" material="hpzcqf59"/>
+                        </interactive>
+                      </figure>
+                </statement>
+            </task>
+            <task>
+                <title>Review of Glide Reflections</title>
+                <statement>
+                    <p>
+                        A glide reflection is a two-step isometry.  We first translate by a vector and 
+                        then we reflect across the line containing (or parallel to) that vector.  
+                        The GeoGebra interactive <xref ref="fig-glideref-rev-mystery"/> shows the original triangle 
+                        <m>\Delta ABC</m> and its final image <m>A''B''C''</m> after a reflection across line <m>\overleftrightarrow{DE}</m>
+                        and translation by vector <m>\overrightarrow{DE}</m>. Answer the following questions:
+                        <ol>
+                            <li>
+                                <p>
+                                    A glide reflection <fillin characters="5"/> the orientation 
+                                    of the figure.
+                                    <ul marker="square">
+                                        <li>
+                                            maintains
+                                        </li>
+                                        <li>
+                                            reverses
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The glide reflection image in <xref ref="fig-glideref-rev-mystery"/> 
+                                    was produced by reflecting the triangle across line <m>\overleftrightarrow{DE}</m>
+                                    and then translating by vector <m>\overrightarrow{DE}</m>.  Do you get the 
+                                    same result if you translate by vector <m>\overrightarrow{DE}</m> first and then 
+                                    reflect across line <m>\overleftrightarrow{DE}</m>?
+                                    <ul marker="square">
+                                        <li>
+                                            yes
+                                        </li>
+                                        <li>
+                                            no
+                                        </li>
+                                        <li>
+                                            sometimes but not always
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    On the sketch construct the midpoints of each of the segments 
+                                    from a vertex <m>P</m> of <m>\Delta ABC</m> to its final image <m>P''</m>
+                                    on <m>\Delta A''B''C''</m>.  What information do these midpoints 
+                                    give you?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    What strategy could you use to find the reflecting line and 
+                                    translation vector for a glide reflection if you only have 
+                                    the original figure and final image?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="fig-glideref-rev-mystery">
+                        <caption>
+                          An interactive GeoGebra applet for analyzing a glide reflection.
+                        </caption>
+                        <interactive xml:id="mystery-rev-glideref-app"
+                          platform="geogebra">
+                          <slate surface="geogebra" material="fyn8nzqe"/>
+                        </interactive>
+                      </figure>
+                </statement>
+            </task>
         </exploration>
-    </subsection>    
+    </subsection>   
+    <subsection>
+        <title>Solving the Mysteries</title>
+        <p>
+            Now it is time to apply our knowledge! In the next activity, each task has a pair of  
+            congruent figures. In each of the tasks, you will determine the type of isometry that maps the 
+            original figure to its image and then to sketch the defining objects (the reflecting 
+            line, translation vector, and/or center). In the case of a rotation, also determine the
+            angle of rotation and whether it is clockwise or counterclockwise. 
+        </p>
+        <exploration>
+            <title>Mystery Isometries</title>
+            <task>
+                <title>Mystery Isometry 1</title>
+                <statement>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    The isometry that takes the polygon in <xref ref="fig-mystery-iso1"/> to 
+                                    its image is a <fillin characters="5"/>. 
+                                    <ul marker="square">
+                                        <li>
+                                            <p>
+                                                reflection
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                translation
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                rotation
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                glide reflection
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p> 
+                            </li>
+                            <li>
+                                <p>
+                                    Mystery Isometry 1 <fillin characters="5"/> the orientation of the 
+                                    polygon.
+                                    <ul marker="square">
+                                        <li>
+                                            <p>
+                                                maintains
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                reverses
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The defining object for Mystery Isometry 1 is a <fillin characters="5"/>
+                                    and is labeled on my sketch as <fillin characters="5"/>.
+                                </p>
+                            </li>
+                        </ol>
+                        </p>
+                    <figure xml:id="fig-mystery-iso1">
+                        <caption>
+                          Mystery 1 GeoGebra applet
+                        </caption>
+                        <interactive xml:id="mystery1-app"
+                          platform="geogebra">
+                          <slate surface="geogebra" material="HmCaXcwF"/>
+                        </interactive>
+                      </figure>
+                </statement>
+            </task>
+        </exploration>
+    </subsection> 
 </section>
     
     
