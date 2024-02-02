@@ -23,25 +23,25 @@
         <figure>
           <caption>Rotation of pentomino <m>ABCDEFGH</m></caption>
           <image source="rotate-example">
-            <description>
-              Pentomino <m>ABCDEFGH</m> is in black. A copy labeled <m>A'B'C'D'E'F'G'H'</m> 
+            <shortdescription>
+              Pentomino ABCDEFGH is in black. A copy labeled A'B'C'D'E'F'G'H' 
               rotated 90 degrees counterclockwise about a 
               point outside the pentomino is shown in blue.
-            </description>
+            </shortdescription> 
           </image>
         </figure>
-        <figure>
+        <figure xml:id="illus-nonisometry">
           <caption>Reflected dilation of pentomino <m>ABCDEFGH</m></caption>
           <image source="reflect-dilate-example">
-            <description>
-              Pentomino <m>ABCDEFGH</m> is shown in black. Pentomino <m>A"B"C"D"E"F"G"H"</m> 
+            <shortdescription>
+              Pentomino ABCDEFGH is shown in black. Pentomino A"B"C"D"E"F"G"H"
               is a larger copy of the original shown in blue. It has been reflected across a 
               line and enlarged by a factor of 1.5.
-            </description>
+            </shortdescription>
           </image>
         </figure>
       </sidebyside>
-      </introduction>
+      
       <p>
         <idx><h>isometry</h></idx>
         <idx><h>rigid transformation</h></idx>
@@ -58,6 +58,7 @@
         is not an isometry because 
         it does not preserve distance; the lengths of the sides change.  
       </p>
+    </introduction>
 
 <xi:include href="sec-isom-reflect-Cartesian.ptx"/>
 <xi:include href="sec-isom-rotate-and-translate.ptx"/>

@@ -233,7 +233,7 @@
         While the notion of reflecting can be intuitively understood as flipping, the 
         properties you discovered in <xref ref="disc-prop-reflection-perp-bis"></xref> 
         provide a more specific definition that can be extended to other geometries. These  
-        properties are identified in the next exercise. 
+        properties are identified in <xref ref="fillin-refl-def-prop"/>. 
     </p>
     <exercise label="fillin-refl-def-prop">
         <title>Properties of a Reflecting Line</title>
@@ -255,7 +255,7 @@
     <p>
         So far, we have only reflected across lines that were either horizontal, 
         vertical, or which make a 45-degree angle to the horizontal. As we expand our 
-        consideration to other reflections, we will drop the coordinate grid and use  
+        consideration to reflections across other lines, we will drop the coordinate grid and use  
         technology.
     </p>
 </subsection>

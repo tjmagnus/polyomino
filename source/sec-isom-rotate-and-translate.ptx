@@ -58,14 +58,117 @@
             </statement>
         </definition>
   </subsection>
+  <subsection xml:id="subsec-isom-RAT-collinearity">
+    <title>Collinearities and Isomorphisms</title>
+    <p>
+        We observed that although reflections reverse orientation, they <term>preserve</term>
+        distance, angle measure, and shape; any object and its image under a 
+        reflection are congruent. In <xref ref="fig-illustrate-collineation"/>, 
+        we see the action of the reflection across line <m>\overleftrightarrow{HI}</m>
+        not just on triangle <m>\Delta ABC</m>, but on other points on the plane.
+        Note how points <m>D</m> and <m>E</m> lie on <m>\overleftrightarrow{AC}</m>
+        and their reflected images <m>D'</m> and <m>E'</m> lie on the image 
+        <m>\overleftrightarrow{AC}</m> of <m>\overleftrightarrow{AC}</m>.
+        This suggests that this reflection, and in fact any reflection, should 
+        <term>preserve linearity</term> of points. 
+    </p>
+    <definition xml:id="def-collineation">
+        <statement>
+            <p>
+                A transformation that preserves 
+                linearity, that takes collinear points to collinear points, 
+                is called a <term>collineation</term>. 
+                <idx><h>preserves</h><h>linearity</h></idx>
+                <idx><h>collineation</h></idx>
+            </p>
+        </statement>
+    </definition>
+    <p>
+        What else do we see in <xref ref="fig-illustrate-collineation"/>?
+    </p>
+    <exploration>
+        <title>Properties Preserved by a Reflection</title>
+        <task>
+            <statement>
+                <p>
+                    Refer to the names of points in <xref ref="fig-illustrate-collineation"/>
+                    that illustrate each of the following properties preserved by the 
+                    reflection. In some cases, there may be more than one answer.
+                    <ol>
+                        <li>
+                            <p>
+                                Interior of a polygon
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Exterior of a polygon
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Betweenness of points on a line
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A point that reflects from right to left
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Distance between points
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Angle measure
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Let <m>K</m> be the point where lines <m>\overleftrightarrow{CD}</m> and
+                    <m>\overleftrightarrow{HI}</m> intersect. Where must <m>K'</m>, 
+                    the image of <m>K</m> be located? Why?
+                </p>
+            </statement>
+        </task>
+    </exploration>
+    <p>
+        The transformation in <xref ref="illus-nonisometry"/> is a collineation, 
+        but it does not preserve distance. For the remainder of <xref ref="ch-isom"/>
+        we will focus on distance-preserving collineations.
+    </p>
+    <definition xml:id="def-isom">
+        <idx><h>isomorphism</h></idx>
+        <idx><h>distance-preserving</h></idx>
+        <idx><h>collineation</h><h>distance-preserving</h></idx>
+        <statement>
+            <p>
+                A collineation is called an <term>isomorphism</term> if it preserves 
+                distance between points. In other words, <m>i</m> is an isomorphism if
+                for every two points <m>P</m> and <m>Q</m>, 
+                <m>m(\overline{PQ})m(\overline{P'Q'})=</m>. Here <m>P'=i(P)</m> and 
+                <m>Q'=i(Q)</m>.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        Reflections are just one example of an isomorphism. We shall see that 
+        translations and rotations also preserve lines and distance.
+    </p>
+  </subsection>
   <subsection xml:id="subsec-Translations">
     <title>Translations</title>
-    
         <p>
             The first orientation-maintaining transformation is called a 
             <term>translation</term> or <term>slide</term>.
         </p>
-    
   <exploration xml:id="explor-isom-RAT-translation">
     <title>Translating on a Coordinate Plane</title>
     <introduction>
@@ -249,24 +352,7 @@
         You probably noticed that these vectors were parallel 
         and had the same length.
     </p>
-    <p>
-        In addition, we observed that the translation maintained orientation, 
-        distance, angle measure, and shape. When you
-        chose a random point <m>L</m> on <m>\overline{BC}</m>, its image landed on 
-        <m>\overline{B'C'}</m>, suggesting 
-        that a translation should <term>preserve linearity</term> of points. 
-    </p>
-    <definition xml:id="def-collineation">
-        <statement>
-            <p>
-                A transformation that preserves 
-                linearity, that takes collinear points to collinear points, 
-                is called a <term>collineation</term>.
-                <idx><h>preserves</h><h>linearity</h></idx>
-                <idx><h>collineation</h></idx>
-            </p>
-        </statement>
-    </definition>
+
     </subsubsection>
   </subsection>
   <subsection xml:id="subsec-isom-RAT-rotation">
