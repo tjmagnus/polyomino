@@ -105,10 +105,49 @@
         <title>Symmetries of Regular Polygons</title>
         <statement>
           <p>
-            Provide an applet with a square, a regular pentagon, and a 
-            regular hexagon. Have them create a chart with the number of lines 
-            of symmetry and the angles of symmetry and make predictions.
+            <xref ref="fig-regpoly-symm"/> shows pictures of a regular 
+            quadrilateral, a regular pentagon, and a regular hexagon. 
+            <ol>
+              <li>
+                How many lines of symmetry does a square have? Draw the lines.
+              </li>
+              <li>
+                How many lines of symmetry does a regular pentagon have? Draw the lines.
+              </li>
+              <li>
+                How many lines of symmetry does a regular hexagon have? Draw the lines.
+              </li>
+              <li>
+                How many lines of symmetry will a regular <m>n</m>-gon have? Does it matter 
+                whether <m>n</m> is odd or even?
+              </li>
+              <li>
+                List all the angles of rotation for a square between 0 and 360 degrees.
+                What is the order of symmetry for a square?
+              </li>
+              <li>
+                List all the angles of rotation for a regular pentagon between 0 and 360 degrees.
+                What is the order of symmetry for a regular pentagon?
+              </li>
+              <li>
+                List all the angles of rotation for a regular hexagon between 0 and 360 degrees.
+                What is the order of symmetry for a regular hexagon?
+              </li>
+              <li>
+                What is the order of symmetry for a regular <m>n</m>-gon?
+              </li>
+              <li>
+                What is the smallest positive angle of rotational symmetry for a regular
+                <m>n</m>-gon?
+              </li>
+            </ol>
           </p>
+          <figure xml:id="fig-regpoly-symm">
+            <caption>Geogebra applet with regular polygons</caption>
+            <interactive xml:id="Geo-regpoly-symm" platform="geogebra">
+              <slate surface="geogebra" material="dcp64gdt"/>
+            </interactive>
+          </figure>
         </statement>
       </task>
     </exploration>
