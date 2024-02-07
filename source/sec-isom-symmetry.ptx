@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-isom-symmetry" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Symmetry</title>
+  <introduction>
+    <p>
+      Beauty of symmetry; applications in science
+      Definitions: lines of symmetry, reflectional symmetry, rotational symmetry,
+      angle of symmetry, order of symmetry
+    </p>
+  </introduction>
+
+  <exploration>
+    <title>Symmetries of Polygons and Polyominos</title>
+    <introduction>
+      <p>
+        What types of symmetry do regular polygons have? Do all polygons and 
+        polyominos have these symmetries?
+      </p>
+    </introduction>
+      <task>
+        <title>Symmetries of an Equilateral Triangle</title>
+        <statement>
+          <p>
+            <xref ref="fig-simple-symmtri"/> gives a picture of an equilateral 
+            triangle. 
+            <ol>
+              <li>
+                <p>
+                  Draw a line of symmetry for this triangle. Then use the 
+                  reflect across line tool to verify that your line works.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Does the equilateral triangle have any other lines of symmetry? 
+                  If so, draw all lines of symmetry. Use the reflect across line 
+                  tool to check your work as needed.
+                </p>
+              </li>
+              <li>
+                <p>
+                  An equilateral triangle also has rotational symmetry. Identify 
+                  the center of rotational symmetry, drawing it if it doesn't 
+                  already exist.
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the smallest positive angle of rotational symmetry for 
+                  this triangle? If you rotate in a counterclockwise direction, 
+                  where does vertex <m>A</m> move to under this rotation?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What other angles of symmetry are possible? What do you notice?
+                </p>
+              </li>
+            </ol>
+          </p>
+          <figure xml:id="fig-simple-symmtri">
+            <caption>An Equilateral Triangle</caption>
+            <interactive xml:id="simple-symmtri-app" platform="geogebra">
+            <slate surface="geogebra" material="bpwdrdwa"/>
+            </interactive>
+          </figure>
+        </statement>
+      </task>
+      <task>
+        <title>Symmetries of Other Triangles</title>
+        <statement>
+          <p>
+            <xref ref="fig-isos-and-scalene-symm"/>
+            <ol>
+              <li>
+                <p>
+                  Does an isosceles (nonequilateral) triangle have reflective symmetry? 
+                  If so, draw the line(s). If not, explain.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Does an isosceles (nonequilateral) triangle have rotational symmetry? 
+                  If so, give the center and angle of symmetry. If not, explain.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Does a scalene triangle have either reflective or rotational symmetry? 
+                  Justify your answer.
+                </p>
+              </li>
+            </ol>
+          </p>
+          <figure xml:id="fig-isos-and-scalene-symm">
+            <caption>An isosceles and a scalene triangle</caption>
+            <interactive xml:id="othertrisymm-app" platform="geogebra">
+              <slate surface="geogebra" material="rrjz4aj3"/>
+              </interactive>
+          </figure>
+        </statement>
+      </task>
+      <task>
+        <title>Symmetries of Regular Polygons</title>
+        <statement>
+          <p>
+            Provide an applet with a square, a regular pentagon, and a 
+            regular hexagon. Have them create a chart with the number of lines 
+            of symmetry and the angles of symmetry and make predictions.
+          </p>
+        </statement>
+      </task>
+    </exploration>
+
+  <subsection>
+    <title>Symmetry Transformations</title>
+    <p>
+        Definition/introduction
+    </p>
+    <exploration>
+        <title>Symmetries of an Equilateral Triangle</title>
+        <task>
+            <statement>
+                <p>
+                    Add here.
+                </p>
+                <figure xml:id="GGappfortrisymm">
+                  <caption>GeoGebra applet for exploring the symmetries of an 
+                    equilateral triangle
+                  </caption>
+                  <interactive xml:id="symmtri-app"
+                platform="geogebra">
+                <slate surface="geogebra" material="srjypnmr"/>
+                </interactive>
+                </figure>
+            </statement>
+        </task>
+    </exploration>
+
+  </subsection>
+</section>

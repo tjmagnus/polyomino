@@ -160,7 +160,7 @@
     </definition>
     <p>
         Reflections are just one example of an isomorphism. We shall see that 
-        translations and rotations also preserve lines and distance.
+        translations and rotations also preserve linearity and distance.
     </p>
   </subsection>
   <subsection xml:id="subsec-Translations">
@@ -423,17 +423,17 @@
                     <ol>
                         <li>
                             <p>
-                                <m>\angle{AFA'}</m>
+                                <m>m\angle{AFA'}</m>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <m>\angle{BFB'}</m>
+                                <m>m\angle{BFB'}</m>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <m>\angle{CFC'}</m>
+                                <m>m\angle{CFC'}</m>
                             </p>
                         </li>
                     </ol>
@@ -457,10 +457,21 @@
         The distance between the center and each point does not change under the rotation, 
         but the direction from the center to each point is changed according to the rotation angle. 
         Normally we think of a positive rotation moving each point <m>P</m> to its image <m>P’</m> in the 
-        counterclockwise direction. Thus, a rotational angle with negative degree measure would move the image 
+        counterclockwise direction. On the other hand, a rotational angle with 
+        negative degree measure would move the image 
         clockwise around the center. Rotational angles may be greater than 180 degrees or negative; 
         in fact, any number of degrees is allowed!
     </p>
+    <exercise>
+        <title>Check your understanding</title>
+        <statement>
+            <p>
+                What is the degree measure of the rotational angle of a clockwise 
+                rotation that is identical to a 123-degree counterclockwise rotation? 
+                Give two solutions, one negative and one positive.
+            </p>
+        </statement>
+    </exercise>
     </subsubsection>
   </subsection>
   <!--Exercise ideas: rotations where the center is on or in the triangle.
