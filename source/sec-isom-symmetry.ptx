@@ -13,11 +13,101 @@
   <subsection>
     <title>Two Types of Symmetry</title>
     <p>
-      Definitions: lines of symmetry, reflectional symmetry, rotational symmetry,
-      angle of symmetry, order of symmetry
+      Finite two-dimensional designs, such as snowflakes and logos, may have 
+      reflectional symmetry and/or rotational symmetry. <xref ref="fig-rosette1"/>
+      displays a design with both reflectional and rotational symmetry. 
     </p>
+    <sidebyside widths="50% 50%">
+    <definition xml:id="def-reflectional-sym">
+      <idx><h>symmetry</h><h>reflectional</h></idx>
+      <idx><h>reflectional symmetry</h></idx>
+      <idx><h>mirror symmetry</h></idx>
+      <idx><h>mirror line</h></idx>
+      <idx><h>line of symmetry</h></idx>
+      <idx><h>symmetry</h><h>line of</h></idx>
+      <statement>
+        <p>
+          A design is said to have <term>reflectional symmetry</term> if there is 
+          a line such that reflecting the design across that line causes the design 
+          to align perfectly with itself. This line is called a <term>line of symmetry
+          </term> for the design. Each point on one side of the line of symmetry reflects 
+          to a corresponding image point on the other side of the line and the image of 
+          a point reflects back across the line to the original point.
+        </p>
+        <p>
+          Reflectional symmetry is also called <term>mirror symmetry</term> and a 
+          line of symmetry may be called a <term>mirror</term>. It is possible for a 
+          design with mirror symmetry to have multiple lines of symmetry.
+        </p>
+      </statement>
+    </definition>
+    <figure xml:id="fig-rosette1">
+      <caption>Symmetric design created using <url href="eschersket.ch"></url>
+      </caption>
+      <image source="escherrosette">
+        <shortdescription>
+          An abstract design with four lines of symmetry and 
+          90-degree rotational symmetry. A square or times symbol has similar 
+          symmetry.
+        </shortdescription>
+      </image>
+    </figure>
+  </sidebyside>
+  <exercise>
+    <title>Check your Understanding</title>
+    <statement>
+      <p>
+        Draw the four lines of symmetry in <xref ref="fig-rosette1"/>. Verify
+        that the design stays the same when reflected across each line.
+      </p>
+    </statement>
+  </exercise>
+  <definition xml:id="def-rotational-symm">
+    <statement>
+      <p>
+        A design is said to have <term>rotational symmetry</term> if there is a 
+        rotation about a point with a positive angle of less than 360 degrees that 
+        maps the design onto itself. The image of the design will look identical to the original
+        even in location and angle. The number of positions that the figure can be 
+        rotated to and still look the same is called the <term>order of symmetry</term>. 
+        In calculating the order of symmetry, we count the original position (0-degree
+        rotation) or a full 360-degree turn, but not both since they are the same
+        position. If the order of symmetry of a figure is <m>k</m>, we say that the 
+        figure has <term><m>k</m>-fold symmetry.</term>
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <title>Check your understanding</title>
+    <statement>
+      <p>
+        <ol>
+          <li>
+            <p>
+              Where is the center of the rotation for the design in 
+              <xref ref="fig-rosette1"/>? How is it related to the lines of 
+              symmetry?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is the smallest positive angle of symmetry for the design 
+              in <xref ref="fig-rosette1"/>? 
+            </p>
+          </li>
+          <li>
+            <p>
+              The design in <xref ref="fig-rosette1"/> has <m>k</m>-fold 
+              symmetry for what value of <m>k</m>? Explain.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
   </subsection>
-
+  <subsection>
+    <title>Exploring Symmetry</title>
   <exploration>
     <title>Symmetries of Polygons and Polyominos</title>
     <introduction>
@@ -159,7 +249,7 @@
         </statement>
       </task>
     </exploration>
-
+  </subsection>
   <subsection>
     <title>Symmetry Transformations</title>
     <p>

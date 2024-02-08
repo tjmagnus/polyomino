@@ -12,7 +12,8 @@
     <title component="student">Polyominoes, Polygons, and Polyhedra</title>
     <title component="instructor">Instructor's Version of Polyominoes, Polygons, and Polyhedra</title>
       <subtitle>Discovering Geometry through Explorations</subtitle>
-<!--Possible cover art created using https://eschersket.ch image eschersketch-cover-->
+<!--Possible cover art created using https://eschersket.ch 
+  image source="eschersketch-cover"-->
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
