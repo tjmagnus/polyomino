@@ -4,11 +4,19 @@
   <title>Symmetry</title>
   <introduction>
     <p>
-      Beauty of symmetry; applications in science
+      Snowflakes, product logos, rose windows, mandalas: these are just a few examples of 
+      symmetry in our world. While the applications to art and architecture may 
+      be most obvious, scientists observe symmetry as they study the structure 
+      and behavior of chemicals, plantlife, and reflected objects. 
+    </p>
+  </introduction>
+  <subsection>
+    <title>Two Types of Symmetry</title>
+    <p>
       Definitions: lines of symmetry, reflectional symmetry, rotational symmetry,
       angle of symmetry, order of symmetry
     </p>
-  </introduction>
+  </subsection>
 
   <exploration>
     <title>Symmetries of Polygons and Polyominos</title>
