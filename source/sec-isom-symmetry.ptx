@@ -282,21 +282,114 @@
             </ol>
           </p>
         </statement>
-
+      </task>
+      <task>
+        <title>Notice and Wonder</title>
+        <statement>
+          <p>
+            What did you notice about the lines of symmetry and centers of rotation 
+            as you were completing this activity? What do you wonder about symmetry of 
+            finite designs? What questions remain?
+          </p>
+        </statement>
       </task>
     </exploration>
   </subsection>
   <subsection>
     <title>Symmetry Transformations</title>
+    <definition xml:id="def-symm-transformation">
+      <idx><h>symmetry transformation</h></idx>
+      <idx><h>transformation</h><h>symmetry</h></idx>
+      <statement>
+        <p>
+          A <term>symmetry transformation</term> for a design is an isometry 
+          that sends the design perfectly onto itself. The appearance of the 
+          design remains the same after the action of a symmetry transformation.
+        </p>
+        <p>
+          We also may use just the word <term>symmetry</term> to refer to a 
+          symmetry transformation. The context of how the word 
+          appears will help us decide whether <sq>symmetry</sq> refers to the property of the 
+          design or the transformation that preserves the design.
+        </p>
+      </statement>
+    </definition>
     <p>
-        Definition/introduction
+        In <xref ref="isom-composing-reflections"/>, we saw that when we performed 
+        a sequence of reflections in succession, the composition was the same as an 
+        isometry, either another reflection, a translation, a rotation, or a glide 
+        reflection depending on the number of reflections and whether the reflecting 
+        lines were parallel. With a finite design such as the one in 
+        <xref ref="fig-rosette1"/>, note that any lines of symmetry must intersect 
+        and their point of intersection will be in the center of the figure. If the 
+        figure also has rotational symmetry, the center of the rotation will also at 
+        this central point.
+    </p>
+    <exercise>
+      <title>Reflective Questions</title>
+      <statement>
+        <p>
+          Explain why a translation and a glide reflection cannot be symmetry 
+          transformation of finite designs or polygons. Do you think translations 
+          and/or glide reflections could be symmetry transformations of infinite 
+          tilings or infinite wallpaper borders? Explain in words and/or pictures.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      We now focus on the symmetries of a single equilateral triangle, investigating 
+      what happens when we compose symmetry transformations.
     </p>
     <exploration>
         <title>Symmetries of an Equilateral Triangle</title>
+        <introduction>
+          <p>
+            Throughout this exploration, you may use the GeoGebra applet, 
+            <xref ref="GGappfortrisymm"/> as needed. You are also welcome to 
+            label and cut out an equilateral triangle for a tactile experience.
+          </p>
+        </introduction>
         <task>
+          <title>Rotations of an Equilateral Triangle</title>
             <statement>
                 <p>
-                    Add here.
+                    As previously discovered, an equilateral triangle has 3-fold
+                    symmetry. 
+                    <ol>
+                      <li>
+                        <p>
+                          What is the smallest positive degree angle of symmetry?
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Suppose we name counterclockwise rotation by a 120-degree angle about 
+                          the center of this triangle
+                          <m>r_{120}</m>. What is the effect of performing <m>r_{120}</m> twice 
+                          in succession? Is it the same as a reflection or rotation? Specify 
+                          how the reflecting line (if it is a reflection) or rotation angle (if 
+                          it is a rotation) of the composed transformation 
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          What happens if you rotate the triangle using <m>r_{120}</m> three times 
+                          in succession?
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          A 0-degree rotation can be represented by <m>r_0</m>. Describe in your own 
+                          words what happens when you apply <m>r_0</m>. How does it compare to <m>r_{360}</m>?
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          A clockwise 120-degree rotation is the same as a counterclockwise rotation 
+                          of what degree?
+                        </p>
+                      </li>
+                    </ol>
                 </p>
                 <figure xml:id="GGappfortrisymm">
                   <caption>GeoGebra applet for exploring the symmetries of an 
@@ -307,9 +400,81 @@
                 <slate surface="geogebra" material="srjypnmr"/>
                 </interactive>
                 </figure>
-            </statement>
+                </statement>
+              </task>
+              <task>
+                <title>Images of Symmetries</title>
+                <statement>
+                <p>
+                  As we record the result of performing symmetries on the triangle 
+                  in <xref ref="GGappfortrisymm"/>, we will use the notation <m>r_0</m>, <m>r_{120}</m>,
+                  <m>r_{240}</m> to represent counterclockwise rotations of 
+                  0 degrees, 120 degrees, and 240 degrees about the center 
+                  of the triangle.
+                </p>
+                <p>
+                  We will also use the notation <m>m_n</m>, <m>m_p</m>, 
+                  and <m>m_v</m> to denote the reflections across line <m>n</m>
+                  with negative slope, line <m>p</m> with positive slope, and
+                  the vertical line <m>v</m>, respectively.
+                </p>
+                <p>
+                  Because these are symmetries, the actions will always result in 
+                  the same equilateral triangle. What changes is the locations of 
+                  vertices <m>A</m>, <m>B</m>, and <m>C</m>.
+                  Note that the image of the triangle after performing <m>r_0</m> 
+                  is the same as <xref ref="fig-image-eqtrisymmgp"/>. We call this 
+                  the Home Position. When using the GeoGebra applet 
+                  <xref ref="GGappfortrisymm"/>, we can click on the icon in the 
+                  upper right that looks like a circle with two clockwise-pointing 
+                  arrows to return to the Home Position. 
+              </p>
+            <figure xml:id="fig-image-eqtrisymmgp">
+              <caption>Home Position of Equilateral Triangle</caption>
+              <image source="eqtri-for-symmgp-image" width="60%">
+                <shortdescription>
+                  An equilateral triangle. Vertex B on top and
+                  vertex A lower left and vertex C lower right.
+                </shortdescription>
+              </image>
+            </figure>
+            <p>
+                  Being sure to start in the home position each time, record 
+                  where the vertices <m>A</m>, <m>B</m>, and <m>C</m> land after 
+                  each of the following symmetry transformations:
+              <ol>
+                <li>
+                  <m>r_{120}</m>
+                </li>
+                <li>
+                  <m>r_{240}</m>
+                </li>
+                <li>
+                  <m>m_n</m>
+                </li>
+                <li>
+                  <m>m_p</m>
+                </li>
+                <li>
+                  <m>m_v</m>
+                </li>
+              </ol>
+              Note that each of these five transformations should result in 
+              a different arrangement of the vertices, <m>A</m>, <m>B</m>, and
+              <m>C</m>, none of which will be the same as <m>r_0</m>. You will
+              need to refer to these arrangements in the next task.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <title>Composing Symmetries</title>
+          <statement>
+            <p>
+              Return to this!
+            </p>
+          </statement>
+          
         </task>
     </exploration>
-
   </subsection>
 </section>
