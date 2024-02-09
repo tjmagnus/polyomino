@@ -17,7 +17,7 @@
       reflectional symmetry and/or rotational symmetry. <xref ref="fig-rosette1"/>
       displays a design with both reflectional and rotational symmetry. 
     </p>
-    <sidebyside widths="50% 50%">
+
     <definition xml:id="def-reflectional-sym">
       <idx><h>symmetry</h><h>reflectional</h></idx>
       <idx><h>reflectional symmetry</h></idx>
@@ -52,7 +52,7 @@
         </shortdescription>
       </image>
     </figure>
-  </sidebyside>
+
   <exercise>
     <title>Check your Understanding</title>
     <statement>
@@ -169,18 +169,21 @@
         <title>Symmetries of Other Triangles</title>
         <statement>
           <p>
-            <xref ref="fig-isos-and-scalene-symm"/>
+            <xref ref="fig-isos-and-scalene-symm"/> shows a picture of an 
+            isosceles triangle and a scalene triangle.
             <ol>
               <li>
                 <p>
                   Does an isosceles (nonequilateral) triangle have reflective symmetry? 
-                  If so, draw the line(s). If not, explain.
+                  If so, draw the line(s) of symmetry for the isosceles triangle 
+                  in <xref ref="fig-isos-and-scalene-symm"/>. If not, explain.
                 </p>
               </li>
               <li>
                 <p>
                   Does an isosceles (nonequilateral) triangle have rotational symmetry? 
-                  If so, give the center and angle of symmetry. If not, explain.
+                  If so, give the center and angle of symmetry for the isosceles triangle 
+                  in <xref ref="fig-isos-and-scalene-symm"/>. If not, explain.
                 </p>
               </li>
               <li>
@@ -207,29 +210,33 @@
             quadrilateral, a regular pentagon, and a regular hexagon. 
             <ol>
               <li>
-                How many lines of symmetry does a square have? Draw the lines.
+                How many lines of symmetry does a square have? Draw the lines
+                of symmetry for the square in <xref ref="fig-regpoly-symm"/>.
               </li>
               <li>
-                How many lines of symmetry does a regular pentagon have? Draw the lines.
+                How many lines of symmetry does a regular pentagon have? Draw the lines
+                of symmetry for the pentagon in <xref ref="fig-regpoly-symm"/>.
               </li>
               <li>
-                How many lines of symmetry does a regular hexagon have? Draw the lines.
+                How many lines of symmetry does a regular hexagon have? Draw the lines
+                of symmetry for the hexagon in <xref ref="fig-regpoly-symm"/>.
               </li>
               <li>
                 How many lines of symmetry will a regular <m>n</m>-gon have? Does it matter 
-                whether <m>n</m> is odd or even?
+                whether <m>n</m> is odd or even? Explain your reasoning.
               </li>
               <li>
-                List all the angles of rotation for a square between 0 and 360 degrees.
-                What is the order of symmetry for a square?
+                List all the positive angles of rotation up to and including 360 degrees
+                for a square. What is the order of symmetry for a square?
               </li>
               <li>
-                List all the angles of rotation for a regular pentagon between 0 and 360 degrees.
-                What is the order of symmetry for a regular pentagon?
+                List all the positive angles of rotation up to and including 360 degrees
+                for a regular pentagon. What is the order of symmetry for a regular pentagon?
               </li>
               <li>
-                List all the angles of rotation for a regular hexagon between 0 and 360 degrees.
-                What is the order of symmetry for a regular hexagon?
+                List all the positive angles of rotation up to and including 360 degrees
+                for a regular hexagon. What is the order of symmetry for a 
+                regular hexagon?
               </li>
               <li>
                 What is the order of symmetry for a regular <m>n</m>-gon?
@@ -247,6 +254,35 @@
             </interactive>
           </figure>
         </statement>
+      </task>
+      <task>
+        <title>Symmetry of non-regular quadrilaterals</title>
+        <statement>
+          <p>
+            <ol>
+              <li>
+                Sketch an example of a quadrilateral that has exactly two lines of 
+                symmetry. Does your quadrilateral also have rotational symmetry? 
+                If it does, locate the center and state the lowest positive degree 
+                angle of rotation.
+              </li>
+              <li>
+                Sketch a quadrilateral that has no lines of symmetry and no rotational 
+                symmetry. Explain why your example satisfies these conditions.
+              </li>
+              <li>
+                Sketch a quadrilateral that has 2-fold rotational symmetry but no mirror 
+                symmetry. What is the smallest positive degree angle of rotation. Explain 
+                why your example satisfies these conditions.
+              </li>
+              <li>
+                Sketch a quadrilateral that has a line of symmetry but no rotational 
+                symmetry. Explain why your example satisfies these conditions.
+              </li>
+            </ol>
+          </p>
+        </statement>
+
       </task>
     </exploration>
   </subsection>
