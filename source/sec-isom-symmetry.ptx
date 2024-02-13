@@ -315,7 +315,7 @@
       </statement>
     </definition>
     <p>
-        In <xref ref="isom-composing-reflections"/>, we saw that when we performed 
+        In <xref ref="sec-isom-composing-reflections"/>, we saw that when we performed 
         a sequence of reflections in succession, the composition was the same as an 
         isometry, either another reflection, a translation, a rotation, or a glide 
         reflection depending on the number of reflections and whether the reflecting 
@@ -467,13 +467,162 @@
           </statement>
         </task>
         <task>
-          <title>Composing Symmetries</title>
+          <title>Setting the Stage</title>
           <statement>
             <p>
-              Return to this!
+              To prepare for the final task, we will remind ourselves of what a multiplication 
+              table is. Complete <xref ref="multiply-table"/>.
             </p>
+            <table xml:id="multiply-table">
+              <title>Multiplication Table</title>
+              <tabular halign="center" row-headers="yes">
+                <col right="medium"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <row header="yes" bottom="medium">
+                  <cell><m>\times</m></cell>
+                  <cell> 1 </cell>
+                  <cell> 2 </cell>
+                  <cell> 3 </cell>
+                  <cell> 4 </cell>
+                  <cell> 5 </cell>
+                </row>
+                <row header="no" bottom="minor">
+                      <cell> 1 </cell>
+                      <cell> 1 </cell>
+                      <cell> 2 </cell>
+                      <cell> 3 </cell>
+                      <cell> 4 </cell>
+                      <cell> 5 </cell>
+                    </row>
+                <row header="no" bottom="minor">
+                  <cell> 2 </cell>
+                  <cell>2</cell>
+                  <cell>4</cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell> 3 </cell>
+                  <cell>3</cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell> 4 </cell>
+                  <cell>4</cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell> 5 </cell>
+                  <cell>5</cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell>20</cell>
+                  <cell></cell>
+                </row>
+              </tabular>
+            </table>
           </statement>
-          
+        </task>
+        <task>
+          <statement>
+            <p>
+              Like the multiplication table above, we can create a table for the 
+              composition of symmetry isomorphisms on an equilateral triangle.
+              <ol>
+                <li>
+                  <p>
+                    ADD HERE
+                  </p>
+                </li>
+              </ol>
+            </p>
+            <table xml:id="composition-table">
+              <title>Composition Table</title>
+              <tabular halign="center" row-headers="yes">
+                <col right="medium"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <row header="yes" bottom="medium">
+                  <cell><m>\circle</m></cell>
+                  <cell><m>r_0</m></cell>
+                  <cell><m>r_{120}</m></cell>
+                  <cell><m>r_{240}</m></cell>
+                  <cell><m>m_n</m></cell>
+                  <cell><m>m_p</m></cell>
+                  <cell><m>m_v</m></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell><m>r_0</m></cell>
+                  <cell><m>r_0</m></cell>
+                  <cell><m>r_{120}</m></cell>
+                  <cell><m>r_{240}</m></cell>
+                  <cell><m>m_n</m></cell>
+                  <cell><m>m_p</m></cell>
+                  <cell><m>m_v</m></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell><m>r_{120}</m></cell>
+                  <cell><m>r_{120}</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell><m>r_{240}</m></cell>
+                  <cell><m>r_{240}</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell><m>m_n</m></cell>
+                  <cell><m>m_n</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell><m>m_p</m></cell>
+                  <cell><m>m_p</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell><m>m_v</m></cell>
+                  <cell><m>m_v</m></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                </row>
+              </tabular>
+            </table>
+          </statement>
         </task>
     </exploration>
   </subsection>

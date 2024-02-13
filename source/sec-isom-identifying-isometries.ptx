@@ -126,6 +126,11 @@
         <table xml:id="table-def-obj-1">
             <title>Defining Objects for Three Isometries</title>
             <tabular halign="center">
+              <col right="medium"/>
+              <col right="minor"/>
+              <col right="minor"/>
+              <col right="minor"/>
+              <col />
                 <row header="yes" bottom="minor">
               <cell>Isometry</cell>
               <cell>Defining Objects</cell>
