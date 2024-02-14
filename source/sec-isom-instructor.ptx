@@ -4,28 +4,28 @@
   <title>Instructor Notes</title>
 
   <subsection>
-      <title>Notes for <xref ref="sec-isom-reflect-Cartesian"/></title>
-      <p>
-        The author is happy to provide a pdf-version of the activities in this section. 
-        <!--NOTE TO SELF: 
-        MAKE SURE TYPO on p.2 part b is CORRECTED (y-axis not x-axis).--> Be sure to 
-        check that students correctly sketch the reflection in <xref ref="drawreflection"/>. 
-        Reflecting across a diagonal line is more challenging for some students. 
-        Encourage students to compare 
-        their sketches with others and discuss if there are different sketches. 
-        Miras (math education supply stores) or  small 
-        mirrors (craft stores) can be effective at resolving differences 
-        and helping students visualize, but I recommend letting them draw the 
-        reflection first without these aids.
-        
-        Although much of this chapter will be done with GeoGebra apps, it is worthwhile 
-        to have students do this first activity on paper in small groups. Performing 
-        actions by hand gives deeper understanding, encourages teamwork, and introduces 
-        some properties of reflections in the coordinate plane across the <m>x</m>-axis,
-        <m>y</m>-axis, and lines <m>y=x</m> and <m>y=-x</m>. In preparation for this lesson, print out copies of the illustrations in 
-        this section, bring enough reddish, greenish, and blueish pencils so 
-        each group can have at least one of each color. Should students draw in the 
-        wrong color, they can indicate the color they used by making a mark in the text. 
+    <title>Notes for <xref ref="sec-isom-reflect-Cartesian"/></title>
+    <p>
+      The author is happy to provide a pdf-version of the activities in this section. 
+      <!--NOTE TO SELF: 
+      MAKE SURE TYPO on p.2 part b is CORRECTED (y-axis not x-axis).--> Be sure to 
+      check that students correctly sketch the reflection in <xref ref="drawreflection"/>. 
+      Reflecting across a diagonal line is more challenging for some students. 
+      Encourage students to compare 
+      their sketches with others and discuss if there are different sketches. 
+      Miras (math education supply stores) or  small 
+      mirrors (craft stores) can be effective at resolving differences 
+      and helping students visualize, but I recommend letting them draw the 
+      reflection first without these aids.
+      
+      Although much of this chapter will be done with GeoGebra apps, it is worthwhile 
+      to have students do this first activity on paper in small groups. Performing 
+      actions by hand gives deeper understanding, encourages teamwork, and introduces 
+      some properties of reflections in the coordinate plane across the <m>x</m>-axis,
+      <m>y</m>-axis, and lines <m>y=x</m> and <m>y=-x</m>. In preparation for this lesson, print out copies of the illustrations in 
+      this section, bring enough reddish, greenish, and blueish pencils so 
+      each group can have at least one of each color. Should students draw in the 
+      wrong color, they can indicate the color they used by making a mark in the text. 
     </p>
     <p>
       In <xref ref="disc-prop-reflection-perp-bis"/>, students should discover that 
@@ -43,24 +43,53 @@
       composition of reflections, a topic which will be explored in depth in 
       <xref ref="sec-isom-composing-reflections"/>.
     </p>
-    </subsection>
-    <subsection>
-      <title>Notes for <xref ref="sec-isom-rotate-and-translate"/></title>
-      <p>Add</p>
-    </subsection>
-    <subsection>
-      <title>Notes for <xref ref="isom-identifying-isometries"/></title>
-      <p>
-        Add
-      </p>
-    </subsection>
-    <subsection>
-      <title>Notes for <xref ref="isom-composing-isometries"/></title>
-      <p>
-        Add
-      </p>
-    </subsection>
-    </section>
+  </subsection>
+  <subsection>
+    <title>Notes for <xref ref="sec-isom-rotate-and-translate"/></title>
+    <p>Add</p>
+  </subsection>
+  <subsection>
+    <title>Notes for <xref ref="sec-isom-identifying-isometries"/></title>
+    <p>
+      Add
+    </p>
+  </subsection>
+  <subsection>
+    <title>Notes for <xref ref="sec-isom-composing-isometries"/></title>
+    <p>
+      Note that students may be uncomfortable with the notation for compositions,
+      especially the fact that <m>f\circ g(x)=f(g(x))</m>. Students are used to 
+      performing computations from left to right. The author has debated whether to 
+      be consistent with composition notation or to use a new symbol that would 
+      facilitate a left-to-right method. This may change in future versions. Let me 
+      know what you think!
+    </p>
+  </subsection>
+  <subsection>
+    <title>Notes for <xref ref="sec-isom-mystery-isometries"/></title>
+    <p>
+      This section gives an opportunity for students to apply their learning 
+      from this chapter in a fun challenge.
+    </p>
+  </subsection>
+  </subsection>
+  <subsection>
+    <title>Notes for <xref ref="sec-isom-symmetry"/></title>
+  <p>
+    The beginning of this section connects the notion of symmetry with the 
+    isomorphisms of this chapter. In the next chapter, we will connect 
+    dilations to similarity. 
+  </p>
+  <p>
+    The subsection <xref ref="subsec-symm-transformations"/> at the end of this 
+    section may be omitted or given as an extension for students who appreciate 
+    the challenge. Here, students will build a group table for compositions of 
+    symmetries of an equilateral table. Completion of this subsection provides a 
+    context for a discussion of algebraic properties like the commutative law, 
+    identity properties, and inverse properties.
+  </p>
+  </subsection>
+</section>
 
 
         
