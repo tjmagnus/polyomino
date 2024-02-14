@@ -558,7 +558,7 @@
                 <col right="minor"/>
                 <col right="minor"/>
                 <row header="yes" bottom="medium">
-                  <cell><m>\circle</m></cell>
+                  <cell>/circle</cell>
                   <cell><m>r_0</m></cell>
                   <cell><m>r_{120}</m></cell>
                   <cell><m>r_{240}</m></cell>
