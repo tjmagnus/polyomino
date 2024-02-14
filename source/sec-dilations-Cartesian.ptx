@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-dilations-Cartesian" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Scaling and Similarity</title>
+
+  <introduction>
+    <p>
+        In this section, we explore a type of transformation which changes the distance 
+        between points. We begin by exploring some examples on the Cartesian
+        <m>x,y</m>-plane. 
+    </p>
+    <sidebyside widths="50% 50%">
+        <p>
+            To compute the length of a segment on a graph we use the Pythagorean 
+            Theorem. In <xref ref="diag-seg-measure"/>, the coordinates of point <m>A</m> 
+            are <m>(6,6)</m> and of point <m>B</m> are <m>(9,2)</m>. We find
+            the horizontal distance between the two points by 
+            subtracting the <m>x</m>-coordinates, <m>m(\overrline{BC})=9-6 = 3</m>, 
+            and the vertical distance by subtracting the <m>y</m>-coordinates, 
+            <m>m(\overline{AC}=6-2 = 4</m>. Then since segment <m>\overline{AB}</m>
+            is the hypotenuse of the right triangle <m>\Delta EFG</m>, we can use 
+            the Pythagorean Theorem to find its length, namely 
+            <m>m(\overline{EAB})=\sqrt{4^2+3^2}=\sqrt{9+16}=\sqrt{25}=5</m>.
+        </p>
+        <figure xml:id="diag-seg-measure">
+            <caption>Measuring distance on a graph</caption>
+            <image source="Pythmeasure">
+                <shortdescription>Right triange ABC described above.</shortdescription>
+            </image>
+        </figure>
+    </sidebyside>
+    
+    </introduction>     
+    <definition xml:id="def-dilation">
+        <idx><h>dilation</h></idx>
+        <idx><h>similarity</h></idx>
+        <idx><h>scale factor</h></idx>
+        <idx><h>center</h><h>dilation</h></idx>
+        <idx><h>magnification</h></idx>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+    </definition>
+
+
+
+
+
+</section>

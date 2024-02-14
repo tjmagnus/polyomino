@@ -708,5 +708,10 @@
           </statement>
         </task>
     </exploration>
+    <!--<conclusion>
+      <p>
+        Add something about commutativity, identity, and inverse properties. 
+      </p>
+    </conclusion>-->
   </subsection>
 </section>
