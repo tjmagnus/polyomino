@@ -9,13 +9,13 @@
         between points. We begin by exploring some examples on the Cartesian
         <m>x,y</m>-plane. 
     </p>
-    <sidebyside widths="50% 50%">
+    <!--<sidebyside widths="50% 45%">-->
         <p>
             To compute the length of a segment on a graph we use the Pythagorean 
             Theorem. In <xref ref="diag-seg-measure"/>, the coordinates of point <m>A</m> 
             are <m>(6,6)</m> and of point <m>B</m> are <m>(9,2)</m>. We find
             the horizontal distance between the two points by 
-            subtracting the <m>x</m>-coordinates, <m>m(\overrline{BC})=9-6 = 3</m>, 
+            subtracting the <m>x</m>-coordinates, <m>m(\overline{BC})=9-6 = 3</m>, 
             and the vertical distance by subtracting the <m>y</m>-coordinates, 
             <m>m(\overline{AC}=6-2 = 4</m>. Then since segment <m>\overline{AB}</m>
             is the hypotenuse of the right triangle <m>\Delta EFG</m>, we can use 
@@ -28,9 +28,136 @@
                 <shortdescription>Right triange ABC described above.</shortdescription>
             </image>
         </figure>
-    </sidebyside>
-    
-    </introduction>     
+    <!--</sidebyside>-->
+    </introduction>    
+    <subsection xml:id="subsec-scaling-Cartesian">
+        <title>Magnifying Figures on a Cartesian <m>x,y</m>-Graph</title>
+        <exploration>
+            <task>
+                <title>Constructing a Magnified Quadrilateral</title>
+                <statement>
+                    <p>
+                        Use the either a printed copy or the GeoGebra applet 
+                        of <xref ref="fig-scale-quad"/> to complete 
+                        the following:
+                        <ol>
+                            <li>
+                                <p>
+                                    Compute the lengths of the segment:
+                                    <ol>
+                                        <li>
+                                            <m>\overline{AB}</m>
+                                        </li>
+                                        <li>
+                                            <m>\overline{BC}</m>
+                                        </li>
+                                        <li>
+                                            <m>\overline{CD}</m>
+                                        </li>
+                                        <li>
+                                            <m>\overline{AD}</m>
+                                        </li>
+                                    </ol>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Measure the angles:
+                                    <ol>
+                                        <li>
+                                            <m>\angle ABC</m>
+                                        </li>
+                                        <li>
+                                            <m>\angle BCD</m>
+                                        </li>
+                                        <li>
+                                            <m>\angle CDA</m>
+                                        </li>
+                                        <li>
+                                            <m>\angle DAB</m>
+                                        </li>
+                                    </ol>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Multiply the coordinates of each vertex by
+                                    2 to obtain coordinates for points <m>A'</m>, 
+                                    <m>B'</m>, <m>C'</m>, and <m>D'</m>.
+                                </p>
+                                <p>
+                                    Then plot and connect the points to form quadrilateral
+                                    <m>\quad A'B'C'D'</m>.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="fig-scale-quad">
+                        <caption>GeoGebra app to scale a quadrilateral</caption>
+                        <interactive xml:id="scale-quad-app"
+                        platform="geogebra">
+                        <slate surface="geogebra" material="njv9uaug"/>
+                      </interactive>
+                    </figure>
+                </statement>
+            </task>
+            <task>
+                <title>Relationships between the Image and the Original</title>
+                <statement>
+                    <p>
+                        Refer to your work in <xref ref="fig-scale-quad"/> as you 
+                        answer the following:
+                        <ol>
+                            <li>
+                                <p>
+                                    Describe how the quadrilateral <m>A'B'C'D'</m>you drew in
+                                    <xref ref="fig-scale-quad"/> relates to the original 
+                                    quadrilateral <m>ABCD</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Measure the new angles, <m>\angle A'B'C'</m>,
+                                    <m>\angle B'C'D'</m>, <m>\angle C'D'A'</m>,
+                                    and <m>D'A'B'</m>. How do they compare to the 
+                                    original four angles?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Compute the lengths of the following segments
+                                    <ol>
+                                        <li>
+                                            <m>\overline{A'B'}</m>
+                                        </li>
+                                        <li>
+                                            <m>\overline{B'C'}</m>
+                                        </li>
+                                        <li>
+                                            <m>\overline{C'D'}</m>
+                                        </li>
+                                        <li>
+                                            <m>\overline{A'D'}</m>
+                                        </li>
+                                    </ol>
+                                    Compare these to the original side lengths.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Let <m>O</m> be the point <m>(0,0)</m>. 
+                                    Draw the rays <m>\overrightarrow{OA'}</m>,
+                                    <m>\overrightarrow{OB'}</m>, <m>\overrightarrow{OC'}</m>,
+                                    and <m>\overrightarrow{OD'}</m>. What do you notice about 
+                                    each of these rays?
+                                </p>
+                            </li>
+                        </ol>  
+                    </p>
+                </statement>
+            </task>
+        </exploration>
+    </subsection> 
     <definition xml:id="def-dilation">
         <idx><h>dilation</h></idx>
         <idx><h>similarity</h></idx>
