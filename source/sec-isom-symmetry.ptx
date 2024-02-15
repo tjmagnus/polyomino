@@ -707,6 +707,56 @@
             </table>
           </statement>
         </task>
+        <task>
+          <title>Observations and Summary</title>
+          <statement>
+            <p>
+              Refer to your completed version of <xref ref="composition-table"/>,
+              as you answer the following:
+              <ol>
+                <li>
+                  <p>
+                    Of the six symmetry transformations, <m>r_0</m>, 
+                    <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, <m>m_p</m>, and 
+                    <m>m_v</m>, which transformation behaves like the number 1 
+                    does in multiplication?  We call this transformation the 
+                    <term>identity transformation</term>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Which transformation <q>undoes</q> <m>R_{120}</m>? In other 
+                    words, which transformation can you perform after <m>R_{120}</m> 
+                    so that this two-step action gives the same result as the identity 
+                    transformation? Does the order of these two transformations matter?
+                  </p>
+                  <p>
+                    Algebra connection: How is this relationship like composing the <sq>multiply
+                    by five</sq> function <m>f(x)=5x</m> and the <sq>divide by 5</sq>
+                    function <m>g(y)=\frac{y}{5}</m> ?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Which transformation <q>undoes</q> <m>m_n</m> ?
+                  </p>
+                  <p>
+                    Algebra connection: Is there a real number <m>k</m> such that 
+                    the multiplication by <m>k</m> function, <m>h(x)=kx</m>, undoes itself?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Algebra connection: The operation multiplication on the set of real 
+                    numbers satisfies the commutative property, <m>a\cdot b=b\cdot a</m> for 
+                    all real numbers, <m>a</m> and <m>b</m>. Does composition of symmetry transformations 
+                    satisfy the commutative property? Support your answer.
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </statement>
+        </task>
     </exploration>
     <!--<conclusion>
       <p>
