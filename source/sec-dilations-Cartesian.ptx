@@ -275,5 +275,92 @@
             </task>
         </exploration>
 </subsection>
+<subsection xml:id="subsec-dilate-similartri">
+    <title>Dilation and Proportion</title>
+    <exploration>
+        <title>Recognizing a Dilation</title>
+        <introduction>
+            <p>
+                In <xref ref="fig-nested-simtri"/>, a dilation takes 
+                <m>\angle ABC</m> to <m>\angle DEC</m>.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    What is the center of the dilation?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What is the scale factor of this dilation? 
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compute each of the ratios:
+                    <ol>
+                        <li>
+                            <m>\frac{ED}{AB}</m>
+                        </li>
+                        <li>
+                            <m>\frac{EC}{BC}</m>
+                        </li>
+                        <li>
+                            <m>\frac{CD}{CA}</m>
+                        </li>
+                    </ol>
+                    What do you notice?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compute the ratios:
+                    <ol>
+                        <li>
+                            <m>\frac{DE}{BC}</m>
+                        </li>
+                        <li>
+                            <m>\frac{EC}{AC}</m>
+                        </li>
+                        <li>
+                            <m>\frac{CD}{AB}</m>
+                        </li>
+                    </ol>
+                    Are these the same? Why or why not?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Are any of the angles in triangle <m>\Delta ABC</m> congruent 
+                    to an angle in <m>\Delta DEC</m>? Identify all pairs of congruent
+                    angles.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Recall that two triangles <m>\Delta ABC</m> and <m>\Delta DEF</m> 
+                    are said to be congruent if the two triangles have three pairs of 
+                    congruent corresponding angles, namely <m>\angle ABC\cong \angle DEF</m>,
+                    <m>\angle BCA\cong \angle EFD</m>, and <m>\angle CAB\cong \angle FDE</m>, 
+                    and three pairs of congruent corresponding sides, namely <m>AB=DE</m>,
+                    <m>BC=EF</m>, and <m>CA=FD</m>. Are triangles <m>\Delta ABC</m> and 
+                    <m>\Delta DEC</m> in <xref ref="fig-nested-simtri"/> congruent? Explain.
+                </p>
+            </statement>
+        </task>
+        
+    </exploration>
+</subsection>
 
 </section>

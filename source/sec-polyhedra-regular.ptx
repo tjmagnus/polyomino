@@ -20,12 +20,12 @@
                     <ul>
                         <li>
                             <p>
-                                Every face is the same regular polygon and
+                                The faces are congruent regular polygons and
                             </p>
                         </li>
                         <li>
                             <p>
-                                At every vertex, the number of polygons 
+                                At every vertex, the number of polygons meeting 
                                 is the same.
                             </p>
                         </li>

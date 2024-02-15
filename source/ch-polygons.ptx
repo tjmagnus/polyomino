@@ -4,11 +4,6 @@
     <title>Exploring Polygons and Other Figures on the Plane</title>
   <introduction>
     <p>
-      Say something about how we will look at measurements related to polygons, 
-      beginning with area and then investigating angle measure and side length. 
-      Also, describe the current status of our toolbox. 
-    </p>
-    <p>
         In <xref ref="sec-intro-explore"/>, we introduced two basic 
         principles about area, 
         <xref ref="principle-arearect"/> and 
@@ -19,15 +14,63 @@
     <aside>
       <p>
         To view the statements of the earlier principles, 
-        click on each corresponding link. .
+        click on each corresponding link.
       </p>
     </aside>
-
+    <p>
+      Before we continue, it will be useful to define what it means for two
+      polygons to be congruent:
+    </p>
+    <definition xml:id="def-congruent-polygon">
+      <idx><h>congruent</h><h>polygon</h></idx>
+      <idx><h>corresponding</h><h>sides</h></idx>
+      <idx><h>corresponding</h><h>angles</h></idx>
+      <statement>
+        <p>
+          Two polygons are said to be <term>congruent</term> if they satisfy
+          all of the following:
+          <ul>
+            <li>
+              <p>
+                The polygons have the same number of sides.
+              </p>
+              <p>
+                Corresponding sides have the same length.
+              </p>
+              <p>
+                Corresponding angles have the same measure.
+              </p>
+            </li>
+          </ul>
+        </p>
+        <p>
+          As an example, consider a pair of convex quadrilaterals, <m>ABCD</m> and
+          <m>EFGH</m>. We would say <m>ABCD</m> is <term>congruent to</term>
+          <m>EFGH</m>, written <m>ABCD\cong EFGH</m> if all of the following
+          were true: <m>AB=EF</m>, <m>BC=FG</m>, <m>CD=GH</m>, <m>DA=HE</m>,
+          <m>m(\angle ABC)=m(\angle EFG)</m>, <m>m(\angle BCD)=m(\angle FGH)</m>,
+          <m>m(\angle CDA)=m(\angle GHE)</m>, and <m>m(\angle DAB)=m(\angle HEF)</m>.
+          Note how the labeling of the quadrilaterals' vertices identifies the pairs
+          of corresponding sides and the pairs of corresponding angles.
+        </p>
+      </statement>
+    </definition>
+    <p>
+      This leads us to another Principle that we will accept as intuitively obvious:
+    </p>
+    <principle xml:id="principle-area-of-congruent-figs">
+      <statement>
+        <p>
+          If two polygons are congruent, then they have the same area.
+        </p>
+      </statement>
+    </principle>
     <p>
       In this chapter, we will show how these principles lead to the area formulas 
-      for other polygons and to the Pythagorean Theorem. Instead of being facts handed 
-      down through the ages, we will have first-hand knowledge of why they hold and 
-      how they fit with basic principles.
+      for other polygons. We will also use our knowledge of area to show why the 
+      Pythagorean Theorem holds. While you may already have these area formulas and
+      the Pythagorean Theorem memorized, you will soon have first-hand knowledge 
+      of why they hold and how they fit with basic principles.
     </p>
   </introduction>  
   <xi:include href="sec-polygons-area.ptx"/>
