@@ -59,6 +59,7 @@
       This leads us to another Principle that we will accept as intuitively obvious:
     </p>
     <principle xml:id="principle-area-of-congruent-figs">
+      <title>Area of Congruent Polygons</title>
       <statement>
         <p>
           If two polygons are congruent, then they have the same area.
