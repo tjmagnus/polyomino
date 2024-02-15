@@ -14,6 +14,22 @@
         <idx><h>line</h><h>segment</h></idx>
         <idx><h>distance</h></idx>
         <idx><h>length</h></idx>
+        <notation>
+            <usage><m>\overleftrightarrow{AB}</m></usage>
+          <description>line</description>
+        </notation>
+        <notation>
+            <usage><m>\overline{AB}</m></usage>
+          <description>line segment</description>
+        </notation>
+        <notation>
+            <usage><m>m(\overline{AB})</m></usage>
+          <description>length of segment</description>
+        </notation>
+        <notation>
+            <usage><m>AB</m></usage>
+          <description>length of segment</description>
+        </notation>
         <statement>
             <p>
                 A <term>line</term> is a one-dimensional figure that extends infinitely 
@@ -39,6 +55,10 @@
     </definition>
     <definition xml:id="def-ray">
         <idx><h>ray</h></idx>
+        <notation>
+            <usage><m>\overrightarrow{AB}</m></usage>
+          <description>ray</description>
+        </notation>
         <statement>
           <p>
             <term>Ray</term> <m>\overrightarrow{AB}</m>

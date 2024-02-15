@@ -277,7 +277,7 @@
 </subsection>
 <subsection xml:id="subsec-dilate-similartri">
     <title>Dilation and Proportion</title>
-    <exploration>
+    <exploration xml:id="explor-nested-simtri">
         <title>Recognizing a Dilation</title>
         <introduction>
             <p>
@@ -359,8 +359,43 @@
                 </p>
             </statement>
         </task>
-        
+        <task>
+            <statement>
+                <p>
+                    Two triangles <m>\Delta ABC</m> and <m>\Delta DEF</m> are 
+                    said to be <xref ref="def-similar" text="custom">similar</xref> triangles
+                    if the two triangles have three pairs of congruent corresponding 
+                    angles and the ratios of each of the three pairs of corresponding 
+                    sides are equal; i.e., <m>\angle A\cong \angle D</m>, 
+                    <m>\angle B\cong \angle E</m>, <m>\angle C\cong \angle G</m>, and
+                    <m>\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}</m>.
+                    Are the triangles in <xref ref="fig-nested-simtri"/> similar? Explain..
+                </p>
+            </statement>
+        </task>
     </exploration>
+    <figure xml:id="fig-nested-simtri">
+        <caption>GeoGebra applet for <xref ref="explor-nested-simtri"/></caption>
+        <interactive xml:id="GGapp-nested-simtri"
+                    platform="geogebra">
+                    <slate surface="geogebra" material="enwtc22h"/>
+                  </interactive>
+    </figure>
+    <definition xml:id="def-similar">
+        <idx><h>similar</h></idx>
+        <notation>
+            <usage><m>\sim</m></usage>
+          <description>similar polygon</description>
+        </notation>
+        <statement>
+            <p>
+                Two polygons are said to be similar if corresponding pairs of 
+                angles are congruent and ratios of corresponding sides are equal.
+                We use the symbol <m>\sim</m> to denote similar triangles. In
+                <xref ref="fig-nested-simtri"/>, we see that 
+                <m>\Delta ABC\sim\Delta DEC</m>.
+            </p>
+        </statement>
+    </definition>
 </subsection>
-
 </section>

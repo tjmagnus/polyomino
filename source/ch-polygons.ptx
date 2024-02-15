@@ -25,6 +25,10 @@
       <idx><h>congruent</h><h>polygon</h></idx>
       <idx><h>corresponding</h><h>sides</h></idx>
       <idx><h>corresponding</h><h>angles</h></idx>
+      <notation>
+        <usage> <m>\cong</m></usage>
+        <description>congruent</description>
+      </notation>
       <statement>
         <p>
           Two polygons are said to be <term>congruent</term> if they satisfy
