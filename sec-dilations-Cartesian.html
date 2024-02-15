@@ -337,8 +337,15 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Dilations and Similarity</span></a></div>
-<ul class="structural toc-item-list contains-active"><li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Scaling and Similarity</span></a></div></li></ul>
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Similarity and Congruence</span></a></div>
+<ul class="structural toc-item-list contains-active"><li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Scaling and Similarity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(x,y\)</span>-Graph</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Defining Dilation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Dilation and Proportion</span></a></div></li>
+</ul>
+</li></ul>
 </li>
 <li class="toc-item toc-backmatter">
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
@@ -369,13 +376,133 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-dilations-Cartesian"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">5.1</span><span class="space"> </span><span class="title">Scaling and Similarity</span>
 </h2>
-<section class="introduction" id="sec-dilations-Cartesian-2"><div class="para" id="sec-dilations-Cartesian-2-1">In this section, we explore a type of transformation which changes the distance between points. We begin by exploring some examples on the Cartesian <span class="process-math">\(x,y\)</span>-plane.</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel top" style="width:50%;"><div class="para" id="sec-dilations-Cartesian-2-2-1">To compute the length of a segment on a graph we use the Pythagorean Theorem. In <a href="" class="xref" data-knowl="./knowl/xref/diag-seg-measure.html" title="Figure 5.1.1">Figure 5.1.1</a>, the coordinates of point <span class="process-math">\(A\)</span> are <span class="process-math">\((6,6)\)</span> and of point <span class="process-math">\(B\)</span> are <span class="process-math">\((9,2)\text{.}\)</span> We find the horizontal distance between the two points by subtracting the <span class="process-math">\(x\)</span>-coordinates, <span class="process-math">\(m(\overrline{BC})=9-6 = 3\text{,}\)</span> and the vertical distance by subtracting the <span class="process-math">\(y\)</span>-coordinates, <span class="process-math">\(m(\overline{AC}=6-2 = 4\text{.}\)</span> Then since segment <span class="process-math">\(\overline{AB}\)</span> is the hypotenuse of the right triangle <span class="process-math">\(\Delta EFG\text{,}\)</span> we can use the Pythagorean Theorem to find its length, namely <span class="process-math">\(m(\overline{EAB})=\sqrt{4^2+3^2}=\sqrt{9+16}=\sqrt{25}=5\text{.}\)</span>
+<section class="introduction" id="sec-dilations-Cartesian-2"><div class="para" id="sec-dilations-Cartesian-2-1">In this section, we explore a type of transformation which changes the distance between points. We begin by exploring some examples on the Cartesian <span class="process-math">\(x,y\)</span>-plane.</div>  <div class="para" id="sec-dilations-Cartesian-2-2">To compute the length of a segment on a graph we use the Pythagorean Theorem. In <a href="" class="xref" data-knowl="./knowl/xref/diag-seg-measure.html" title="Figure 5.1.1">Figure 5.1.1</a>, the coordinates of point <span class="process-math">\(A\)</span> are <span class="process-math">\((6,6)\)</span> and of point <span class="process-math">\(B\)</span> are <span class="process-math">\((9,2)\text{.}\)</span> We find the horizontal distance between the two points by subtracting the <span class="process-math">\(x\)</span>-coordinates, <span class="process-math">\(m(\overline{BC})=9-6 = 3\text{,}\)</span> and the vertical distance by subtracting the <span class="process-math">\(y\)</span>-coordinates, <span class="process-math">\(m(\overline{AC})=6-2 = 4\text{.}\)</span> Then since segment <span class="process-math">\(\overline{AB}\)</span> is the hypotenuse of the right triangle <span class="process-math">\(\Delta EFG\text{,}\)</span> we can use the Pythagorean Theorem to find its length, namely <span class="process-math">\(m(\overline{EAB})=\sqrt{4^2+3^2}=\sqrt{9+16}=\sqrt{25}=5\text{.}\)</span>
+</div> <figure class="figure figure-like" id="diag-seg-measure"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/Pythmeasure.svg" role="img" class="contained" alt="Right triange ABC described above."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.1<span class="period">.</span></span><span class="space"> </span>Measuring distance on a graph</figcaption></figure> </section><section class="subsection" id="subsec-scaling-Cartesian"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.1.1</span><span class="space"> </span><span class="title">Dilating Figures on a Cartesian <span class="process-math">\(x,y\)</span>-Graph</span>
+</h3>
+<article class="exploration project-like" id="explor-magnify-quad"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">5.1.1</span><span class="period">.</span>
+</h4>
+<article class="task exercise-like" id="explor-magnify-quad-1"><h5 class="heading">
+<span class="codenumber">(a)</span><span class="space"> </span><span class="title">Constructing a Dilated Quadrilateral.</span>
+</h5>
+<div class="para logical" id="explor-magnify-quad-1-2-1">
+<div class="para">Use the either a printed copy or the GeoGebra applet of <a href="" class="xref" data-knowl="./knowl/xref/fig-scale-quad.html" title="Figure 5.1.2">Figure 5.1.2</a> to complete the following:</div>
+<ol class="decimal">
+<li id="explor-magnify-quad-1-2-1-2-1"><div class="para logical" id="explor-magnify-quad-1-2-1-2-1-1">
+<div class="para">Compute the lengths of the segment:</div>
+<ol class="lower-alpha">
+<li id="explor-magnify-quad-1-2-1-2-1-1-1-1"><div class="para" id="p-derived-explor-magnify-quad-1-2-1-2-1-1-1-1"><span class="process-math">\(\displaystyle \overline{AB}\)</span></div></li>
+<li id="explor-magnify-quad-1-2-1-2-1-1-1-2"><div class="para" id="p-derived-explor-magnify-quad-1-2-1-2-1-1-1-2"><span class="process-math">\(\displaystyle \overline{BC}\)</span></div></li>
+<li id="explor-magnify-quad-1-2-1-2-1-1-1-3"><div class="para" id="p-derived-explor-magnify-quad-1-2-1-2-1-1-1-3"><span class="process-math">\(\displaystyle \overline{CD}\)</span></div></li>
+<li id="explor-magnify-quad-1-2-1-2-1-1-1-4"><div class="para" id="p-derived-explor-magnify-quad-1-2-1-2-1-1-1-4"><span class="process-math">\(\displaystyle \overline{AD}\)</span></div></li>
+</ol>
+</div></li>
+<li id="explor-magnify-quad-1-2-1-2-2"><div class="para logical" id="explor-magnify-quad-1-2-1-2-2-1">
+<div class="para">Measure the angles:</div>
+<ol class="lower-alpha">
+<li id="explor-magnify-quad-1-2-1-2-2-1-1-1"><div class="para" id="p-derived-explor-magnify-quad-1-2-1-2-2-1-1-1"><span class="process-math">\(\displaystyle \angle ABC\)</span></div></li>
+<li id="explor-magnify-quad-1-2-1-2-2-1-1-2"><div class="para" id="p-derived-explor-magnify-quad-1-2-1-2-2-1-1-2"><span class="process-math">\(\displaystyle \angle BCD\)</span></div></li>
+<li id="explor-magnify-quad-1-2-1-2-2-1-1-3"><div class="para" id="p-derived-explor-magnify-quad-1-2-1-2-2-1-1-3"><span class="process-math">\(\displaystyle \angle CDA\)</span></div></li>
+<li id="explor-magnify-quad-1-2-1-2-2-1-1-4"><div class="para" id="p-derived-explor-magnify-quad-1-2-1-2-2-1-1-4"><span class="process-math">\(\displaystyle \angle DAB\)</span></div></li>
+</ol>
+</div></li>
+<li id="explor-magnify-quad-1-2-1-2-3">
+<div class="para" id="explor-magnify-quad-1-2-1-2-3-1">Multiply the coordinates of each vertex by 2 to obtain coordinates for points <span class="process-math">\(A'\text{,}\)</span> <span class="process-math">\(B'\text{,}\)</span> <span class="process-math">\(C'\text{,}\)</span> and <span class="process-math">\(D'\text{.}\)</span>
+</div>
+<div class="para" id="explor-magnify-quad-1-2-1-2-3-2">Then plot and connect the points to form quadrilateral <span class="process-math">\(A'B'C'D'\text{.}\)</span>
+</div>
+</li>
+</ol>
+</div> <figure class="figure figure-like" id="fig-scale-quad"><iframe id="scale-quad-app" width="600" height="600" src="scale-quad-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.2<span class="period">.</span></span><span class="space"> </span>GeoGebra app to scale a quadrilateral</figcaption></figure></article><article class="task exercise-like" id="explor-magnify-quad-2"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Relationships between the Image and the Original.</span>
+</h5>
+<div class="para logical" id="explor-magnify-quad-2-2-1">
+<div class="para">Refer to your work in <a href="" class="xref" data-knowl="./knowl/xref/fig-scale-quad.html" title="Figure 5.1.2">Figure 5.1.2</a> as you answer the following:</div>
+<ol class="decimal">
+<li id="explor-magnify-quad-2-2-1-2-1"><div class="para" id="explor-magnify-quad-2-2-1-2-1-1">Describe how the quadrilateral <span class="process-math">\(A'B'C'D'\)</span>you drew in <a href="" class="xref" data-knowl="./knowl/xref/fig-scale-quad.html" title="Figure 5.1.2">Figure 5.1.2</a> relates to the original quadrilateral <span class="process-math">\(ABCD\text{.}\)</span>
+</div></li>
+<li id="explor-magnify-quad-2-2-1-2-2"><div class="para" id="explor-magnify-quad-2-2-1-2-2-1">Measure the new angles, <span class="process-math">\(\angle A'B'C'\text{,}\)</span> <span class="process-math">\(\angle B'C'D'\text{,}\)</span> <span class="process-math">\(\angle C'D'A'\text{,}\)</span> and <span class="process-math">\(D'A'B'\text{.}\)</span> How do they compare to the original four angles?</div></li>
+<li id="explor-magnify-quad-2-2-1-2-3"><div class="para logical" id="explor-magnify-quad-2-2-1-2-3-1">
+<div class="para">Compute the lengths of the following segments</div>
+<ol class="lower-alpha">
+<li id="explor-magnify-quad-2-2-1-2-3-1-1-1"><div class="para" id="p-derived-explor-magnify-quad-2-2-1-2-3-1-1-1"><span class="process-math">\(\displaystyle \overline{A'B'}\)</span></div></li>
+<li id="explor-magnify-quad-2-2-1-2-3-1-1-2"><div class="para" id="p-derived-explor-magnify-quad-2-2-1-2-3-1-1-2"><span class="process-math">\(\displaystyle \overline{B'C'}\)</span></div></li>
+<li id="explor-magnify-quad-2-2-1-2-3-1-1-3"><div class="para" id="p-derived-explor-magnify-quad-2-2-1-2-3-1-1-3"><span class="process-math">\(\displaystyle \overline{C'D'}\)</span></div></li>
+<li id="explor-magnify-quad-2-2-1-2-3-1-1-4"><div class="para" id="p-derived-explor-magnify-quad-2-2-1-2-3-1-1-4"><span class="process-math">\(\displaystyle \overline{A'D'}\)</span></div></li>
+</ol>
+<div class="para">Compare these to the original side lengths.</div>
+</div></li>
+<li id="explor-magnify-quad-2-2-1-2-4"><div class="para" id="explor-magnify-quad-2-2-1-2-4-1">Let <span class="process-math">\(O\)</span> be the point <span class="process-math">\((0,0)\text{.}\)</span> Draw the rays <span class="process-math">\(\overrightarrow{OA'}\text{,}\)</span> <span class="process-math">\(\overrightarrow{OB'}\text{,}\)</span> <span class="process-math">\(\overrightarrow{OC'}\text{,}\)</span> and <span class="process-math">\(\overrightarrow{OD'}\text{.}\)</span> What do you notice about these rays?</div></li>
+</ol>
+</div></article></article></section><section class="subsection" id="subsec-dilation-terminology"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.1.2</span><span class="space"> </span><span class="title">Defining Dilation</span>
+</h3>
+<div class="para" id="subsec-dilation-terminology-2">Quadrilateral <span class="process-math">\(A'B'C'D'\)</span> created in <a href="" class="xref" data-knowl="./knowl/xref/fig-scale-quad.html" title="Figure 5.1.2">Figure 5.1.2</a> is said to be the <dfn class="terminology">image</dfn> of quadrilateral <span class="process-math">\(ABCD\)</span> under the <dfn class="terminology">dilation</dfn> with <dfn class="terminology">center</dfn> <span class="process-math">\((0,0)\)</span> and <dfn class="terminology">scale factor</dfn> 2. Although the word dilation suggests enlarging, a dilation may either scale up or down.</div>
+<details id="subsec-dilation-terminology-3" class="exercise exercise-like born-hidden-knowl"><summary><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Did you notice?</span>
+</h4></summary><article class="exercise exercise-like"><div class="para logical" id="subsec-dilation-terminology-3-2-1">
+<div class="para">A few properties related to dilations appeared in <a href="" class="xref" data-knowl="./knowl/xref/explor-magnify-quad.html" title="Exploration 5.1.1">Exploration 5.1.1</a>. Answer the following:</div>
+<ol class="decimal">
+<li id="subsec-dilation-terminology-3-2-1-2-1"><div class="para" id="subsec-dilation-terminology-3-2-1-2-1-1">Does a dilation preserve the shape of figures?</div></li>
+<li id="subsec-dilation-terminology-3-2-1-2-2"><div class="para" id="subsec-dilation-terminology-3-2-1-2-2-1">Does a dilation preserve the size of figures?</div></li>
+<li id="subsec-dilation-terminology-3-2-1-2-3"><div class="para" id="subsec-dilation-terminology-3-2-1-2-3-1">What does the scale factor tell you about the relationship between the lengths of segments in the dilated image compared to the lengths of segments in the original figure?</div></li>
+<li id="subsec-dilation-terminology-3-2-1-2-4"><div class="para" id="subsec-dilation-terminology-3-2-1-2-4-1">If <span class="process-math">\(P\)</span> is a point and <span class="process-math">\(P'\)</span> is its image under a dilation, what other point must lie on line <span class="process-math">\(\overleftrightarrow{PP'}\)</span> ?</div></li>
+<li id="subsec-dilation-terminology-3-2-1-2-5"><div class="para" id="subsec-dilation-terminology-3-2-1-2-5-1">What is the image of quadrilateral <span class="process-math">\(A'B'C'D'\text{,}\)</span> created in <a href="" class="xref" data-knowl="./knowl/xref/explor-magnify-quad.html" title="Exploration 5.1.1">Exploration 5.1.1</a> under the dilation with center <span class="process-math">\((0,0)\)</span> and scale factor <span class="process-math">\(\frac{1}{2}\text{?}\)</span>
+</div></li>
+</ol>
+</div>
+<div class="solutions"><details id="subsec-dilation-terminology-3-3" class="answer solution-like born-hidden-knowl"><summary><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like"><div class="para" id="subsec-dilation-terminology-3-3-1">Dilations preserve shape but not size. The length of a dilated image of a segment is <span class="process-math">\(k\)</span> times the length of the original. The line <span class="process-math">\(\overleftrightarrow{PP'}\)</span> must pass through the center of the dilation.</div></div></details></div></article></details><article class="definition definition-like" id="def-dilation"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.4</span><span class="period">.</span>
+</h4> <div class="para" id="def-dilation-6-1">A <dfn class="terminology">dilation</dfn> with <dfn class="terminology">center</dfn> <span class="process-math">\(Q\)</span> and <dfn class="terminology">scale factor</dfn> <span class="process-math">\(k\)</span> is a geometrical transformation that maps each point <span class="process-math">\(P\)</span> to a point <span class="process-math">\(P'\)</span> on line <span class="process-math">\(\overleftrightarrow{QP}\)</span> so that <span class="process-math">\(m(\overline{QP'})=k\cdot m(\overline{QP})\text{.}\)</span> Point <span class="process-math">\(P'\)</span> is called the <dfn class="terminology">image</dfn> of <span class="process-math">\(P\)</span> under the dilation.</div></article><article class="exploration project-like" id="subsec-dilation-terminology-5"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">5.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">A Dilation not centered at the Origin.</span>
+</h4>
+<div class="introduction" id="subsec-dilation-terminology-5-2"><div class="para" id="subsec-dilation-terminology-5-2-1">The center of a dilation does not have to be the origin, <span class="process-math">\((0,0)\text{.}\)</span> It could be any point in the plane.</div></div>
+<article class="task exercise-like" id="subsec-dilation-terminology-5-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="subsec-dilation-terminology-5-3-1-1">
+<div class="para">Use a print copy or the Geogebra applet of <a href="" class="xref" data-knowl="./knowl/xref/fig-GGapp-new-center.html" title="Figure 5.1.5">Figure 5.1.5</a> to complete the following:</div>
+<ol class="decimal">
+<li id="subsec-dilation-terminology-5-3-1-1-2-1"><div class="para" id="subsec-dilation-terminology-5-3-1-1-2-1-1">Sketch or construct the dilation of triangle <span class="process-math">\(\Delta EFG\)</span> with center <span class="process-math">\(H\)</span> and scale factor <span class="process-math">\(\frac{3}{2}\text{.}\)</span>
+</div></li>
+<li id="subsec-dilation-terminology-5-3-1-1-2-2"><div class="para" id="subsec-dilation-terminology-5-3-1-1-2-2-1">Sketch or construct the dilation of triangle <span class="process-math">\(\Delta EFG\)</span> with center <span class="process-math">\(H\)</span> and scale factor <span class="process-math">\(\frac{1}{2}\text{.}\)</span>
+</div></li>
+</ol>
+</div> <figure class="figure figure-like" id="fig-GGapp-new-center"><iframe id="scale-not-origin" width="600" height="600" src="scale-not-origin-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.5<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for dilating triangle <span class="process-math">\(\Delta EFG\)</span></figcaption></figure></article></article></section><section class="subsection" id="subsec-dilate-similartri"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="space"> </span><span class="title">Dilation and Proportion</span>
+</h3>
+<article class="exploration project-like" id="explor-nested-simtri"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Recognizing a Dilation.</span>
+</h4>
+<div class="introduction" id="explor-nested-simtri-2"><div class="para" id="explor-nested-simtri-2-1">In <a href="" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" title="Figure 5.1.6">Figure 5.1.6</a>, a dilation takes <span class="process-math">\(\angle ABC\)</span> to <span class="process-math">\(\angle DEC\text{.}\)</span>
 </div></div>
-<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="diag-seg-measure"><img src="external/Pythmeasure.svg" role="img" class="contained" alt="Right triange ABC described above."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.1<span class="period">.</span></span><span class="space"> </span>Measuring distance on a graph</figcaption></figure></div>
-</div></div></section><article class="definition definition-like" id="def-dilation"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.2</span><span class="period">.</span>
-</h3> <div class="para" id="def-dilation-6-1"></div></article></section></div>
+<article class="task exercise-like" id="explor-nested-simtri-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="explor-nested-simtri-3-1-1">What is the center of the dilation?</div></article><article class="task exercise-like" id="explor-nested-simtri-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="explor-nested-simtri-4-1-1">What is the scale factor of this dilation?</div></article><article class="task exercise-like" id="explor-nested-simtri-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="explor-nested-simtri-5-1-1">
+<div class="para">Compute each of the ratios:</div>
+<ol class="decimal">
+<li id="explor-nested-simtri-5-1-1-1-1"><div class="para" id="p-derived-explor-nested-simtri-5-1-1-1-1"><span class="process-math">\(\displaystyle \frac{ED}{AB}\)</span></div></li>
+<li id="explor-nested-simtri-5-1-1-1-2"><div class="para" id="p-derived-explor-nested-simtri-5-1-1-1-2"><span class="process-math">\(\displaystyle \frac{EC}{BC}\)</span></div></li>
+<li id="explor-nested-simtri-5-1-1-1-3"><div class="para" id="p-derived-explor-nested-simtri-5-1-1-1-3"><span class="process-math">\(\displaystyle \frac{CD}{CA}\)</span></div></li>
+</ol>
+<div class="para">What do you notice?</div>
+</div></article><article class="task exercise-like" id="explor-nested-simtri-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para logical" id="explor-nested-simtri-6-1-1">
+<div class="para">Compute the ratios:</div>
+<ol class="decimal">
+<li id="explor-nested-simtri-6-1-1-1-1"><div class="para" id="p-derived-explor-nested-simtri-6-1-1-1-1"><span class="process-math">\(\displaystyle \frac{DE}{BC}\)</span></div></li>
+<li id="explor-nested-simtri-6-1-1-1-2"><div class="para" id="p-derived-explor-nested-simtri-6-1-1-1-2"><span class="process-math">\(\displaystyle \frac{EC}{AC}\)</span></div></li>
+<li id="explor-nested-simtri-6-1-1-1-3"><div class="para" id="p-derived-explor-nested-simtri-6-1-1-1-3"><span class="process-math">\(\displaystyle \frac{CD}{AB}\)</span></div></li>
+</ol>
+<div class="para">Are these the same? Why or why not?</div>
+</div></article><article class="task exercise-like" id="explor-nested-simtri-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="explor-nested-simtri-7-1-1">Are any of the angles in triangle <span class="process-math">\(\Delta ABC\)</span> congruent to an angle in <span class="process-math">\(\Delta DEC\text{?}\)</span> Identify all pairs of congruent angles.</div></article><article class="task exercise-like" id="explor-nested-simtri-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="explor-nested-simtri-8-1-1">Recall that two triangles <span class="process-math">\(\Delta ABC\)</span> and <span class="process-math">\(\Delta DEF\)</span> are said to be congruent if the two triangles have three pairs of congruent corresponding angles, namely <span class="process-math">\(\angle ABC\cong \angle DEF\text{,}\)</span> <span class="process-math">\(\angle BCA\cong \angle EFD\text{,}\)</span> and <span class="process-math">\(\angle CAB\cong \angle FDE\text{,}\)</span> and three pairs of congruent corresponding sides, namely <span class="process-math">\(AB=DE\text{,}\)</span> <span class="process-math">\(BC=EF\text{,}\)</span> and <span class="process-math">\(CA=FD\text{.}\)</span> Are triangles <span class="process-math">\(\Delta ABC\)</span> and <span class="process-math">\(\Delta DEC\)</span> in <a href="" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" title="Figure 5.1.6">Figure 5.1.6</a> congruent? Explain.</div></article><article class="task exercise-like" id="explor-nested-simtri-9"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="explor-nested-simtri-9-1-1">Two triangles <span class="process-math">\(\Delta ABC\)</span> and <span class="process-math">\(\Delta DEF\)</span> are said to be <a href="" class="xref" data-knowl="./knowl/xref/def-similar.html" title="Definition 5.1.7">similar</a> triangles if the two triangles have three pairs of congruent corresponding angles and the ratios of each of the three pairs of corresponding sides are equal; i.e., <span class="process-math">\(\angle A\cong \angle D\text{,}\)</span> <span class="process-math">\(\angle B\cong \angle E\text{,}\)</span> <span class="process-math">\(\angle C\cong \angle G\text{,}\)</span> and <span class="process-math">\(\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}\text{.}\)</span> Are the triangles in <a href="" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" title="Figure 5.1.6">Figure 5.1.6</a> similar? Explain..</div></article></article><figure class="figure figure-like" id="fig-nested-simtri"><iframe id="GGapp-nested-simtri" width="600" height="600" src="GGapp-nested-simtri-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.6<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for <a href="" class="xref" data-knowl="./knowl/xref/explor-nested-simtri.html" title="Exploration 5.1.3: Recognizing a Dilation">Exploration 5.1.3</a></figcaption></figure><article class="definition definition-like" id="def-similar"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.7</span><span class="period">.</span>
+</h4> <div class="para" id="def-similar-3-1">Two polygons are said to be similar if corresponding pairs of angles are congruent and ratios of corresponding sides are equal. We use the symbol <span class="process-math">\(\sim\)</span> to denote similar triangles. In <a href="" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" title="Figure 5.1.6">Figure 5.1.6</a>, we see that <span class="process-math">\(\Delta ABC\sim\Delta DEC\text{.}\)</span>
+</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-dilation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
