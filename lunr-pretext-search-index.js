@@ -1762,7 +1762,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "An Introduction to Reflections",
-  "body": " An Introduction to Reflections   A reflection is the first transformation we will explore. Each reflection is defined by a mirror line and the reflection takes each point to its reflected image. If we were to fold the plane across the mirror line, the points and their images would fall on top of each other. The exploration is best done by hand so that you get a deeper understanding of what happens to points in a transformation. Print out the pictures and use colored pencils. The ability to fold your paper may prove helpful!    Exploring Reflections   Reflections in the Cartesian Coordinate Plane   Reflect pentomino across line by thinking of the line as either a mirror or a fold-and-trace line. In what ways are the reflected image and the original figure the same? In what ways are they different?   On graph paper, line GH passes through the points G(0,0) and H(4,4). A backwards P-pentomino is formed using the following sequence of points: A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.    If you are using paper, you can check your answer by folding across line . Do your figures line up?    On your sketch for , label the new vertices by adding an apostrophe to each letter; point , read A prime will be the reflection of point across line , point will be the reflection of point across line , and so forth, forming pentomino .   Where does intersect ? How is this point related to segment ?    What type of angle is formed by the intersection of and ?    Using the 1 cm graph paper as a guide, what is the shortest distance from point to line ? What is the distance from to ?    What happens to the other points in the reflection? Suppose is any point in the plane and let be its image created by reflecting it across any line in the plane. What do you expect to be true about the relationship between the segment and the reflecting line?   The letter is being used as a variable that can represent any point on the plane, including , , and so forth. When , . When , . This allows us to discuss properties that hold for all points in a single statement.    What happens if you reflect point across line ? Is that true for any point on ?      Pentomino and its reflection are shown below. Use what you discovered in to sketch the reflecting line. Describe your technique.      Reflecting Across the Coordinate Axes   Every point on the Cartesian plane can be identified by its coordinates where and represent the location of the point as being units to the right and units above the origin. Use a copy of the graph below to complete the following tasks. You will need to be able to draw in four colors as described.   Four Points on Coordinate Grid for Exploration    A coordinate grid showing the x-axis and y-axis and points A=(2,5), B=(-1,3), C=(0,-4), and D=(6,-3).      Use a red pencil to mark the reflected images , , , and of the points , , , and across the horizontal ( -) axis. Determine their coordinates. What effect does reflecting across the -axis have on coordinates?    Use a green pencil to mark the reflections of the original points , , , and across the vertical ( -) axis. Determine the coordinates of their images , , , and . What effect does reflecting across the -axis have on the coordinates?    Reflect the red points , , , and sketched in across the vertical ( )-axis, using a blue pencil to mark them and label the new points with asterisks, , , , and . Determine the coordinates of the newest points , , , and . What effect does reflecting first across the -axis and then across the have on the coordinates (from the original to the final for example)?    Focus on the original points , , , and and the final points , , , and . Is there a single reflecting line that gives this mapping? What type of transformation describes this mapping?   Draw the quadrilaterals and . If there is a reflecting line, the quadrilaterals should line up when you fold along that line.    Suppose that you were to reflect the green points from across the horizontal ( )-axis. What do you notice about their images in relation to other points?      Key Ideas regarding Reflections  In this section, we have draw reflections by hand using a coordinate grid as an aid and we observed a few of the properties of reflections. Since we will be building on these discoveries, it is wise to summarize the main ideas for future reference.   reflection  mirror  reflecting line  axis of a reflection  image   A reflection across a line is a transformation of the points in the plane which maps each point in the plane by flipping it over line . The reflecting line is called the mirror or axis . The image of a point under a reflection (or any other transformation) is the point that the transformation sends to; in this case, the reflection of point .    While the notion of reflecting can be intuitively understood as flipping, the properties you discovered in provide a more specific definition that can be extended to other geometries. These properties are identified in the next exercise.  Defining Property of a Reflection  The reflecting line meets the segment , connecting a point and its reflected image , at a ________-degree angle.   So far, we have only reflected across lines that were either horizontal, vertical, or which make a 45-degree angle to the horizontal. As we expand our consideration to other reflections, we will drop the coordinate grid and use technology.   "
+  "body": " An Introduction to Reflections   A reflection is the first transformation we will explore. Each reflection is defined by a mirror line and the reflection takes each point to its reflected image. If we were to fold the plane across the mirror line, the points and their images would fall on top of each other. The exploration is best done by hand so that you get a deeper understanding of what happens to points in a reflection. Print out the pictures and use colored pencils. The ability to fold your paper may prove helpful!    Exploring Reflections   Reflections in the Cartesian Coordinate Plane   Reflect pentomino across line by thinking of the line as either a mirror or a fold-and-trace line. In what ways are the reflected image and the original figure the same? In what ways are they different?   On graph paper, line GH passes through the points G(0,0) and H(4,4). A backwards P-pentomino is formed using the following sequence of points: A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.    If you are using paper, you can check your answer by folding across line . Do your figures line up?    On your sketch for , label the new vertices by adding an apostrophe to each letter; point , read A prime will be the reflection of point across line , point will be the reflection of point across line , and so forth, forming pentomino .   Where does intersect ? How is this point related to segment ?    What type of angle is formed by the intersection of and ?    Using the 1 cm graph paper as a guide, what is the shortest distance from point to line ? What is the distance from to ?    What happens to the other points in the reflection? Suppose is any point in the plane and let be its image created by reflecting it across any line in the plane. What do you expect to be true about the relationship between the segment and the reflecting line?   The letter is being used as a variable that can represent any point on the plane, including , , and so forth. When , . When , . This allows us to discuss properties that hold for all points in a single statement.    What happens if you reflect point across line ? Is that true for any point on ?      Pentomino and its reflection are shown below. Use what you discovered in to sketch the reflecting line. Describe your technique.      Reflecting Across the Coordinate Axes   Every point on the Cartesian plane can be identified by its coordinates where and represent the location of the point as being units to the right and units above the origin. Use a copy of the graph below to complete the following tasks. You will need to be able to draw in four colors as described.   Four Points on Coordinate Grid for    A coordinate grid showing the x-axis and y-axis and points A=(2,5), B=(-1,3), C=(0,-4), and D=(6,-3).      Use a red pencil to mark the reflected images , , , and of the points , , , and across the horizontal ( -) axis. Determine their coordinates. What effect does reflecting across the -axis have on coordinates?    Use a green pencil to mark the reflections of the original points , , , and across the vertical ( -) axis. Determine the coordinates of their images , , , and . What effect does reflecting across the -axis have on the coordinates?    Reflect the red points , , , and sketched in across the vertical ( )-axis, using a blue pencil to mark them and label the new points with asterisks, , , , and . Determine the coordinates of the newest points , , , and . What effect does reflecting first across the -axis and then across the have on the coordinates (from the original to the final for example)?    Focus on the original points , , , and and the final points , , , and . Is there a single reflecting line that gives this mapping? What type of transformation describes this mapping?   Draw the quadrilaterals and . If there is a reflecting line, the quadrilaterals should line up when you fold along that line.    Suppose that you were to reflect the green points from across the horizontal ( )-axis. What do you notice about their images in relation to other points?      Key Ideas regarding Reflections  In this section, we have draw reflections by hand using a coordinate grid as an aid and we observed a few of the properties of reflections. Since we will be building on these discoveries, it is wise to summarize the main ideas for future reference.   reflection  mirror  reflecting line  axis of a reflection  image   A reflection across a line is a transformation of the points in the plane which maps each point in the plane by flipping it over line . The reflecting line is called the mirror or axis . The image of a point under a reflection (or any other transformation) is the point that the transformation sends to; in this case, the reflection of point .    While the notion of reflecting can be intuitively understood as flipping, the properties you discovered in provide a more specific definition that can be extended to other geometries. These properties are identified in .  Properties of a Reflecting Line  The reflecting line meets the segment , connecting a point and its reflected image , at a -degree angle. The point where meets is between points and .   90; halfway   So far, we have only reflected across lines that were either horizontal, vertical, or which make a 45-degree angle to the horizontal. As we expand our consideration to reflections across other lines, we will drop the coordinate grid and use technology.   "
 },
 {
   "id": "sec-isom-reflect-Cartesian-2-1",
@@ -1789,7 +1789,7 @@ var ptx_lunr_docs = [
   "type": "Exploration",
   "number": "4.1.2",
   "title": "Reflecting Across the Coordinate Axes.",
-  "body": " Reflecting Across the Coordinate Axes   Every point on the Cartesian plane can be identified by its coordinates where and represent the location of the point as being units to the right and units above the origin. Use a copy of the graph below to complete the following tasks. You will need to be able to draw in four colors as described.   Four Points on Coordinate Grid for Exploration    A coordinate grid showing the x-axis and y-axis and points A=(2,5), B=(-1,3), C=(0,-4), and D=(6,-3).      Use a red pencil to mark the reflected images , , , and of the points , , , and across the horizontal ( -) axis. Determine their coordinates. What effect does reflecting across the -axis have on coordinates?    Use a green pencil to mark the reflections of the original points , , , and across the vertical ( -) axis. Determine the coordinates of their images , , , and . What effect does reflecting across the -axis have on the coordinates?    Reflect the red points , , , and sketched in across the vertical ( )-axis, using a blue pencil to mark them and label the new points with asterisks, , , , and . Determine the coordinates of the newest points , , , and . What effect does reflecting first across the -axis and then across the have on the coordinates (from the original to the final for example)?    Focus on the original points , , , and and the final points , , , and . Is there a single reflecting line that gives this mapping? What type of transformation describes this mapping?   Draw the quadrilaterals and . If there is a reflecting line, the quadrilaterals should line up when you fold along that line.    Suppose that you were to reflect the green points from across the horizontal ( )-axis. What do you notice about their images in relation to other points?   "
+  "body": " Reflecting Across the Coordinate Axes   Every point on the Cartesian plane can be identified by its coordinates where and represent the location of the point as being units to the right and units above the origin. Use a copy of the graph below to complete the following tasks. You will need to be able to draw in four colors as described.   Four Points on Coordinate Grid for    A coordinate grid showing the x-axis and y-axis and points A=(2,5), B=(-1,3), C=(0,-4), and D=(6,-3).      Use a red pencil to mark the reflected images , , , and of the points , , , and across the horizontal ( -) axis. Determine their coordinates. What effect does reflecting across the -axis have on coordinates?    Use a green pencil to mark the reflections of the original points , , , and across the vertical ( -) axis. Determine the coordinates of their images , , , and . What effect does reflecting across the -axis have on the coordinates?    Reflect the red points , , , and sketched in across the vertical ( )-axis, using a blue pencil to mark them and label the new points with asterisks, , , , and . Determine the coordinates of the newest points , , , and . What effect does reflecting first across the -axis and then across the have on the coordinates (from the original to the final for example)?    Focus on the original points , , , and and the final points , , , and . Is there a single reflecting line that gives this mapping? What type of transformation describes this mapping?   Draw the quadrilaterals and . If there is a reflecting line, the quadrilaterals should line up when you fold along that line.    Suppose that you were to reflect the green points from across the horizontal ( )-axis. What do you notice about their images in relation to other points?   "
 },
 {
   "id": "sec-isom-reflect-Cartesian-4-3",
@@ -1806,8 +1806,8 @@ var ptx_lunr_docs = [
   "url": "sec-isom-reflect-Cartesian.html#fillin-refl-def-prop",
   "type": "Checkpoint",
   "number": "4.1.3",
-  "title": "Defining Property of a Reflection.",
-  "body": "Defining Property of a Reflection  The reflecting line meets the segment , connecting a point and its reflected image , at a ________-degree angle.  "
+  "title": "Properties of a Reflecting Line.",
+  "body": "Properties of a Reflecting Line  The reflecting line meets the segment , connecting a point and its reflected image , at a -degree angle. The point where meets is between points and .   90; halfway  "
 },
 {
   "id": "sec-isom-rotate-and-translate",
@@ -1816,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Orientation-Maintaining Isometries",
-  "body": " Orientation-Maintaining Isometries   What do we mean by orientation-maintaining?  The picture shows a triangle reflected across a line . Although the letters , , and are in alphabetical order when read clockwise from the original figure, the letters in the reflected image are in the reverse order. When this happens, we say that the transformation changes orientation . Any reflection will be an orientation-changing transformation.   A reflection reverses orientation   Triangle ABC reflected across a line m to create triangle C'B'A'.    Not all transformations change orientation. In this section, you will encounter two types of orientation-maintaining or orientation-preserving transformations, namely rotations and translations. When either of these is performed, the order in which the vertices are read is unchanged.   Most textbooks use orientation-reversing and orientation-preserving . Because of the similarity in the words, reversing and preserving, I have chosen to use orientation-changing and orientation-maintaining.    orientation  change orientation  reverse orientation  preserve orientation  maintain orientation  same orientation   A geometrical transformation is said to maintain orientation if when it acts on any polygon the order of the vertices of the resulting image, read in clockwise order, are the same as that of the original figure. Another term for orientation-maintaining is orientation-preserving .  On the other hand, if the resulting images have the vertices in the reverse order, we say that the transformation changes orientation or reverses orientation .      Translations   Translating on a Coordinate Plane    gives a picture of quadrilateral a vector on a coordinate grid. Vector goes from to suggesting that it moves points three units to the right and one unit down.   An interactive Geogebra applet for translating by a coordinate vector.       Use the point tool to locate and mark the image created by moving point by vector . What are the coordinates of ?   GeoGebra will assign a new name, perhaps , to the point you create. If you would like to rename it, right click on the point and select rename.     Create , , and in a similar fashion, recording their coordinates. Then use the polygon tool to draw quadrilateral .       Does the transformation mapping to preserve distance? In other words, is the length of each side of quadrilateral equal to its corresponding side in quadrilateral ?    Are the corresponding angles of and congruent?    Is the orientation of quadrilateral maintained under the translation? How do you know?    Sketch the segments , , , and .   What do you notice about the lengths of these segments?    What appears to be true about the lines , , , and ?      Since lines have infinite length, you should be looking for a property other than length.    Are the quadrilaterals and congruent?   What type of quadrilateral is ? How do you know? Can the same be said of quadrilaterals , , and ?   An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of quadrilateral , and point lying in the interior of .   Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point the image of under the transformation that takes to . How is the location of related to ?       We call the isometry in a translation . Describe in your own words how a translation acts on points in the plane.     Properties of Translations  In , we observed many of the properties of a transformation called a translation . translation Each translation is uniquely defined by a translation vector A vector is simply a directed line segment between two points. which indicates the direction and distance that every point is moved by the translation. The choice of the translation vector, on the other hand, is not unique. Any vector of the same length which points in the same direction may serve as the vector for the translation. In , the vector is a translation vector for the given translation; however, , , , or even your would describe the same translation. Any of these vectors may be chosen as the translation vector for this translation. You probably noticed that these vectors were parallel and had the same length.  In addition, we observed that the translation maintained orientation, distance, angle measure, and shape. When you chose a random point on , its image landed on , suggesting that a translation should preserve linearity of points.    A transformation that preserves linearity, that takes collinear points to collinear points, is called a collineation . preserves linearity  collineation        Rotations   The third transformation we will consider is a rotation . Like a translation, a rotation maintains the orientation of the vertices. Each rotation has a single point, called the center of the rotation, which is not moved by the rotation. All other points are rotated around the center a specific number of degrees. A good way to visualize a rotation is to imagine putting a pin through the center and moving the paper around that pin. rotation  center of a rotation     Exploring a Rotation    shows an example of the action of a translation on triangle . Use this figure to answer the following:   A rotation of   Triangle ABC is rotated around a point F to form triangle A'B'C'.      List the vertices of the original triangle clockwise order starting with . List the vertices of the image in clockwise order starting with . Does the rotation maintain the orientation of the triangle?    What point in is the center of this particular rotation? Is it on either triangle, in the interior of either triangle, or in the exterior of both triangles? How do you know that the point you identified as the center meets the criteria in the definition of center of rotation ?    Is the rotation distance-preserving? How do you know?    In , the following angle measures are given: Determine the following angle measures:                     What is the degree measure of the rotational angle of this rotation? Is it a clockwise or counterclockwise rotation?     Properties of Rotations  A rotation is specified by two pieces of information, namely its center and the angle of rotation. The center is the one point which does not move and forms the vertex for the rotation angle. The distance between the center and each point does not change under the rotation, but the direction from the center to each point is changed according to the rotation angle. Normally we think of a positive rotation moving each point to its image in the counterclockwise direction. Thus, a rotational angle with negative degree measure would move the image clockwise around the center. Rotational angles may be greater than 180 degrees or negative; in fact, any number of degrees is allowed!     "
+  "body": " Orientation-Maintaining Isometries   What do we mean by orientation-maintaining?  The picture shows a triangle reflected across a line . Although the letters , , and are in alphabetical order when read clockwise from the original figure, the letters in the reflected image are in the reverse order. When this happens, we say that the transformation reverses orientation . Any reflection will be an orientation-reversing transformation.   A reflection reverses orientation   Triangle ABC reflected across a line m to create triangle C'B'A'.    Not all transformations change orientation. In this section, you will encounter two types of orientation-maintaining transformations, namely rotations and translations. When either of these transformations is performed, the order in which the vertices are read is unchanged.   Many textbooks use orientation-reversing and orientation-preserving . Because of the similarity in the words, reversing and preserving, I have chosen to use the term orientation-maintaining instead of orientation-preserving.    orientation  change orientation  reverse orientation  preserve orientation  maintain orientation  same orientation   A geometrical transformation is said to maintain orientation if when it acts on any polygon the order of the vertices of the resulting image, read in clockwise order, are the same as that of the original figure. Another term for orientation-maintaining is orientation-preserving .  On the other hand, if the resulting images have the vertices in the reverse order, we say that the transformation reverses orientation .      Collinearities and Isomorphisms  We observed that although reflections reverse orientation, they preserve distance, angle measure, and shape; any object and its image under a reflection are congruent. In , we see the action of the reflection across line not just on triangle , but on other points on the plane. Note how points and lie on and their reflected images and lie on the image of . This suggests that this reflection, and in fact any reflection, should preserve linearity of points.    A transformation that preserves linearity, that takes collinear points to collinear points, is called a collineation . preserves linearity  collineation     What else do we see in ?   Properties Preserved by a Reflection   Refer to the names of points in that illustrate each of the following properties preserved by the reflection. In some cases, there may be more than one answer.   Interior of a polygon    Exterior of a polygon    Betweenness of points on a line    A point that reflects from right to left    Distance between points    Angle measure       Let be the point where lines and intersect. Where must , the image of be located? Why?    The transformation in is a collineation, but it does not preserve distance. For the remainder of we will focus on distance-preserving collineations.   isomorphism  distance-preserving  collineation distance-preserving   A collineation is called an isomorphism if it preserves distance between points. In other words, is an isomorphism if for every two points and , . Here and .    Reflections are just one example of an isomorphism. We shall see that translations and rotations also preserve linearity and distance.    Translations  The first orientation-maintaining transformation is called a translation or slide .   Translating on a Coordinate Plane   This exploration may also be done on paper using a print of instead of the application.     gives a picture of quadrilateral a vector on a coordinate grid. Vector goes from to suggesting that it moves points three units to the right and one unit down.   An interactive GeoGebra applet for translating by a coordinate vector.       Use the point tool to locate and mark the image created by moving point by vector . What are the coordinates of ?   GeoGebra will assign a new name, perhaps , to the point you create. If you would like to rename it, right click on the point and select rename.     Create , , and in a similar fashion, recording their coordinates. Then use the polygon tool to draw quadrilateral .       Does the transformation mapping to preserve distance? In other words, is the length of each side of quadrilateral equal to its corresponding side in quadrilateral ?    Are the corresponding angles of and congruent?    Is the orientation of quadrilateral maintained under the translation? How do you know?    Sketch the segments , , , and .   What do you notice about the lengths of these segments?    What appears to be true about the lines , , , and ?      Since lines have infinite length, you should be looking for a property other than length.    Are the quadrilaterals and congruent?   What type of quadrilateral is ? How do you know? Can the same be said of quadrilaterals , , and ?   An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of quadrilateral , and point lying in the interior of .   Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point the image of under the transformation that takes to . How is the location of related to ?       We call the isometry in a translation . Describe in your own words how a translation acts on points in the plane.     Properties of Translations  In , we observed many of the properties of a transformation called a translation . translation Each translation is uniquely defined by a translation vector A vector is simply a directed line segment between two points. which indicates the direction and distance that every point is moved by the translation. The choice of the translation vector, on the other hand, is not unique. Any vector of the same length which points in the same direction may serve as the vector for the translation. In , the vector is a translation vector for the given translation; however, , , , or even your would describe the same translation. Any of these vectors may be chosen as the translation vector for this translation. You probably noticed that these vectors were parallel and had the same length.     Rotations   The third transformation we will consider is a rotation . Like a translation, a rotation maintains the orientation of the vertices. Each rotation has a single point, called the center of the rotation, which is not moved by the rotation. All other points are rotated around the center a specific number of degrees. A good way to visualize a rotation is to imagine putting a pin through the center and moving the paper around that pin. rotation  center of a rotation     Exploring a Rotation    shows an example of the action of a translation on triangle . Use this figure to answer the following:   A rotation of   Triangle ABC is rotated around a point F to form triangle A'B'C'.      List the vertices of the original triangle clockwise order starting with . List the vertices of the image in clockwise order starting with . Does the rotation maintain the orientation of the triangle?    What point in is the center of this particular rotation? Is it on either triangle, in the interior of either triangle, or in the exterior of both triangles? How do you know that the point you identified as the center meets the criteria in the definition of center of rotation ?    Is the rotation distance-preserving? How do you know?    In , the following angle measures are given: Determine the following angle measures:                     What is the degree measure of the rotational angle of this rotation? Is it a clockwise or counterclockwise rotation?     Properties of Rotations  A rotation is specified by two pieces of information, namely its center and the angle of rotation. The center is the one point which does not move and forms the vertex for the rotation angle. The distance between the center and each point does not change under the rotation, but the direction from the center to each point is changed according to the rotation angle. Normally we think of a positive rotation moving each point to its image in the counterclockwise direction. On the other hand, a rotational angle with negative degree measure would move the image clockwise around the center. Rotational angles may be greater than 180 degrees or negative; in fact, any number of degrees is allowed!  Check your understanding  What is the degree measure of the rotational angle of a clockwise rotation that is identical to a 123-degree counterclockwise rotation? Give two solutions, one negative and one positive.      "
 },
 {
   "id": "subsec-isom-RAT-definingOP-2",
@@ -1825,7 +1825,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "changes orientation orientation-changing "
+  "body": "reverses orientation orientation-reversing "
 },
 {
   "id": "reversing-orientation-fig",
@@ -1843,7 +1843,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "orientation-maintaining orientation-preserving "
+  "body": "orientation-maintaining "
 },
 {
   "id": "subsec-isom-RAT-definingOP-5-1",
@@ -1861,16 +1861,61 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "4.2.2",
   "title": "",
-  "body": " orientation  change orientation  reverse orientation  preserve orientation  maintain orientation  same orientation   A geometrical transformation is said to maintain orientation if when it acts on any polygon the order of the vertices of the resulting image, read in clockwise order, are the same as that of the original figure. Another term for orientation-maintaining is orientation-preserving .  On the other hand, if the resulting images have the vertices in the reverse order, we say that the transformation changes orientation or reverses orientation .   "
+  "body": " orientation  change orientation  reverse orientation  preserve orientation  maintain orientation  same orientation   A geometrical transformation is said to maintain orientation if when it acts on any polygon the order of the vertices of the resulting image, read in clockwise order, are the same as that of the original figure. Another term for orientation-maintaining is orientation-preserving .  On the other hand, if the resulting images have the vertices in the reverse order, we say that the transformation reverses orientation .   "
+},
+{
+  "id": "subsec-isom-RAT-collinearity-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "preserve preserve linearity "
+},
+{
+  "id": "def-collineation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#def-collineation",
+  "type": "Definition",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  A transformation that preserves linearity, that takes collinear points to collinear points, is called a collineation . preserves linearity  collineation    "
+},
+{
+  "id": "subsec-isom-RAT-collinearity-5",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity-5",
+  "type": "Exploration",
+  "number": "4.2.1",
+  "title": "Properties Preserved by a Reflection.",
+  "body": " Properties Preserved by a Reflection   Refer to the names of points in that illustrate each of the following properties preserved by the reflection. In some cases, there may be more than one answer.   Interior of a polygon    Exterior of a polygon    Betweenness of points on a line    A point that reflects from right to left    Distance between points    Angle measure       Let be the point where lines and intersect. Where must , the image of be located? Why?   "
+},
+{
+  "id": "def-isom",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#def-isom",
+  "type": "Definition",
+  "number": "4.2.4",
+  "title": "",
+  "body": " isomorphism  distance-preserving  collineation distance-preserving   A collineation is called an isomorphism if it preserves distance between points. In other words, is an isomorphism if for every two points and , . Here and .   "
+},
+{
+  "id": "subsec-Translations-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-Translations-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "translation slide "
 },
 {
   "id": "explor-isom-RAT-translation",
   "level": "2",
   "url": "sec-isom-rotate-and-translate.html#explor-isom-RAT-translation",
   "type": "Exploration",
-  "number": "4.2.1",
+  "number": "4.2.2",
   "title": "Translating on a Coordinate Plane.",
-  "body": " Translating on a Coordinate Plane    gives a picture of quadrilateral a vector on a coordinate grid. Vector goes from to suggesting that it moves points three units to the right and one unit down.   An interactive Geogebra applet for translating by a coordinate vector.       Use the point tool to locate and mark the image created by moving point by vector . What are the coordinates of ?   GeoGebra will assign a new name, perhaps , to the point you create. If you would like to rename it, right click on the point and select rename.     Create , , and in a similar fashion, recording their coordinates. Then use the polygon tool to draw quadrilateral .       Does the transformation mapping to preserve distance? In other words, is the length of each side of quadrilateral equal to its corresponding side in quadrilateral ?    Are the corresponding angles of and congruent?    Is the orientation of quadrilateral maintained under the translation? How do you know?    Sketch the segments , , , and .   What do you notice about the lengths of these segments?    What appears to be true about the lines , , , and ?      Since lines have infinite length, you should be looking for a property other than length.    Are the quadrilaterals and congruent?   What type of quadrilateral is ? How do you know? Can the same be said of quadrilaterals , , and ?   An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of quadrilateral , and point lying in the interior of .   Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point the image of under the transformation that takes to . How is the location of related to ?       We call the isometry in a translation . Describe in your own words how a translation acts on points in the plane.   "
+  "body": " Translating on a Coordinate Plane   This exploration may also be done on paper using a print of instead of the application.     gives a picture of quadrilateral a vector on a coordinate grid. Vector goes from to suggesting that it moves points three units to the right and one unit down.   An interactive GeoGebra applet for translating by a coordinate vector.       Use the point tool to locate and mark the image created by moving point by vector . What are the coordinates of ?   GeoGebra will assign a new name, perhaps , to the point you create. If you would like to rename it, right click on the point and select rename.     Create , , and in a similar fashion, recording their coordinates. Then use the polygon tool to draw quadrilateral .       Does the transformation mapping to preserve distance? In other words, is the length of each side of quadrilateral equal to its corresponding side in quadrilateral ?    Are the corresponding angles of and congruent?    Is the orientation of quadrilateral maintained under the translation? How do you know?    Sketch the segments , , , and .   What do you notice about the lengths of these segments?    What appears to be true about the lines , , , and ?      Since lines have infinite length, you should be looking for a property other than length.    Are the quadrilaterals and congruent?   What type of quadrilateral is ? How do you know? Can the same be said of quadrilaterals , , and ?   An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of quadrilateral , and point lying in the interior of .   Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point , the image of under the transformation that takes to . How is the location of related to ?    Sketch point the image of under the transformation that takes to . How is the location of related to ?       We call the isometry in a translation . Describe in your own words how a translation acts on points in the plane.   "
 },
 {
   "id": "subsec-isom-RAT-props-translation-2",
@@ -1880,24 +1925,6 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "translation translation vector vector "
-},
-{
-  "id": "subsec-isom-RAT-props-translation-3",
-  "level": "2",
-  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-translation-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "preserve linearity "
-},
-{
-  "id": "def-collineation",
-  "level": "2",
-  "url": "sec-isom-rotate-and-translate.html#def-collineation",
-  "type": "Definition",
-  "number": "4.2.4",
-  "title": "",
-  "body": "  A transformation that preserves linearity, that takes collinear points to collinear points, is called a collineation . preserves linearity  collineation    "
 },
 {
   "id": "intro-def-rotation-1",
@@ -1913,9 +1940,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-isom-rotate-and-translate.html#expl-rotation",
   "type": "Exploration",
-  "number": "4.2.2",
+  "number": "4.2.3",
   "title": "Exploring a Rotation.",
   "body": " Exploring a Rotation    shows an example of the action of a translation on triangle . Use this figure to answer the following:   A rotation of   Triangle ABC is rotated around a point F to form triangle A'B'C'.      List the vertices of the original triangle clockwise order starting with . List the vertices of the image in clockwise order starting with . Does the rotation maintain the orientation of the triangle?    What point in is the center of this particular rotation? Is it on either triangle, in the interior of either triangle, or in the exterior of both triangles? How do you know that the point you identified as the center meets the criteria in the definition of center of rotation ?    Is the rotation distance-preserving? How do you know?    In , the following angle measures are given: Determine the following angle measures:                     What is the degree measure of the rotational angle of this rotation? Is it a clockwise or counterclockwise rotation?   "
+},
+{
+  "id": "subsec-isom-RAT-props-rotation-3",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-rotation-3",
+  "type": "Checkpoint",
+  "number": "4.2.7",
+  "title": "Check your understanding.",
+  "body": "Check your understanding  What is the degree measure of the rotational angle of a clockwise rotation that is identical to a 123-degree counterclockwise rotation? Give two solutions, one negative and one positive.  "
 },
 {
   "id": "sec-isom-identifying-isometries",
@@ -1924,7 +1960,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Identifying Isometries",
-  "body": " Identifying Isometries   What do we know? What do we wonder?   As we prepare to build on our knowledge of isometries, it is wise to summarize what we know so far. We know that a transformation of a plane is a mapping or function that sends each point on the plane to a unique point called its image under the transformation. Some transformations are collineations , meaning that if a set of points all lie on the same line, then their images will also lie on a single line. We have observed that some collineations preserve shape and angle measure and that some collineations that preserve angle measure will also preserve distance. The transformations that preserve all of these, collinearity, angle measure, and distance, are called isometries .    Reflect and Wonder   Before reading this section, respond to the following questions. There are no right or wrong answers!   Write down three things you know about transformations, especially the three isometries we have looked at, namely reflections, translations, and rotations.    Is there anything that was discussed in the first sections on transformations that you need clarity on?    What do you wonder about transformations? What questions remain?         Isometry Between Congruent Figures  We are now familiar with three types of isometries: reflections, translations, and rotations. Yet many questions remain: Are there other types of isometries? Are there transformations that are not isometries? If two figures are congruent, is there always an isometry mapping one to the other? If so, how do we determine what type of isometry it is?  Although we have not proved this fact, it is true that if we have two congruent figures, there will be an isometry that maps one onto the other. In fact, this notion of congruence as being able to lay one figure on top of the other was how Euclid envisioned congruence. This intuitive definition of congruence preceded the more technical measurement definitions for congruence taught in many middle and high school geometry classes. There has been a shift back to this transformational meaning of congruent in recent years. Perhaps, your teacher adopted this approach.  Our goal in this section and next will be to identify the type of isometry that takes one figure onto a congruent copy. Is it a reflection, a translation, a rotation, or something else? Then having determined the type can we specify the exact action that performs the movement. A good place to start is to identify whether the isometry maintains orientation.  Distinguishing Between Types of Isometries, Part 1     Imagine that is a moveable cutout triangle with a pretty blue pattern on the front face and gray cardboard on the back. We can think of the action of an isometry as moving so that it aligns perfectly with its image . Which isometries--reflections, translations, and rotations-- studied so far will keep blue side up? Which will turn over so that it is cardboard side up? What property is this related to?    How might you tell the difference between a translation and a rotation? Assume that you are given a picture of two congruent triangles and where the orientation is the same. How do you know whether a translation takes to ? How do you know whether the isometry is a rotation? Could it be both? or neither?        Defining Objects of Isometries  Now that we can determine whether the isometry mapping one figure onto a congruent image is a reflection, translation, or rotation, we need to identify the defining object(s) of the isometry. lists the defining objects for the three isometries we have studied.   Defining Objects for Three Isometries    Isometry  Defining Objects    Reflection  Reflecting Line (or mirror)    Translation  Translation Vector    Rotation  Center and Rotational Angle     How do we find the mirror? the vector? the center and angle for an isometry? Although the defining objects will determine how the isometry acts on all points in the plane, we will focus on just a few points along with their images in order to find the defining objects. You will want to record your discoveries for later reference.   Finding Defining Objects of Isometries   For each isometry, we will observe some properties of the isometry and defining object(s) and then use these properties to locate the defining object(s).   Finding the Mirror of a Reflection     Refer to which shows a reflection of across line , how is the reflecting line related to each segment connecting a point in the triangle to its image?    Click on the tools available in the top menu of the following interactive. Then sketch the reflecting line for the isometry that takes to using the tools you think would enable you to determine the exact reflecting line. Do not use guess and check.   An interactive Geogebra applet for finding the mirror of a reflection.      Use the Reflect About Line tool in the above app to check that reflecting across the line you created results in a triangle that aligns perfectly with .    Write down instructions of how you can create the reflecting line given a triangle and its reflected image . The instructions should be detailed enough that others can follow them.      Finding the Vector for a Translation  In , you were given a translation vector which indicated the direction and distance that each point should be moved, specifically three units right and one unit down. In the activity had the coordinates and had the coordinates . We will note that we could have chosen a different vector to represent three units right and one unit down.    If the point had the coordinates , what would the coordinates of be so that would represent three units right and one unit down?    If the ending point has the coordinates , what would the coordinates of the starting point be so that would represent three units right and one unit down?    If point has the coordinates and the picture below shows a translation that moves the figure three units right and one unit down, what are the coordinates of ?    Draw, identify, or describe a vector for the translation that takes to in .   Triangle is translated to      Write instructions that you or someone else could use to find the translation vector when any figure and its image under a translation are given.      Finding the Center and Angle of a Rotation, part 1  In , an L-pentomino and its image are shown.   Draw or identify the point that is the center of the rotation taking to . How do you know this point is the center?    Determine the angle of this rotation and specify whether the rotation is performed clockwise or counterclockwise.      An interactive Geogebra applet for finding the center and angle of a rotation in .     To measure an angle on GeoGebra, be sure to click the vertex of the angle second. For example, would be found using the angle tool and clicking , , and in that counterclockwise order. If you click the vertices in the clockwise order, you will get .   Finding the Center and Angle of a Rotation, part 2  The center in is not easy to identify. Make an initial guess at where the center might be. What are some things we could try?   An interactive Geogebra applet for finding the center and angle of a rotation.       Perhaps the segments , , and might provide information. Sketch these three line segments. Do they help?    Provided GeoGebra tools will allow you to find perpendicular lines, perpendicular bisectors, angle bisectors, circles, angle measures, and lengths. Any ideas of what we might try?    Since we have sketch the segments , , and , let's use the perpendicular bisector tool to find the perpendicular bisector of each segment. What do you notice?    Create point as a candidate for your center. Verify that . What is the angle of rotation?    Finally, use the Rotate around Point tool to check your work.    Write instructions to yourself and others on how to find the center and angle of a rotation when you are given a picture of a figure and its rotated image and they do not share a vertex.         What have we learned?  In , the definining objects for each transformation were given. We now add two new columns to this table. The third column, titled Orientation , will have either changes or maintains for its entries. The fourth column, Properties , is where you should write some of the other properties that you discovered. Since all isometries preserve distance and angle measure we will not put these in the table, but instead focus on properties that distinguish the types of isometries. Finally, the fifth column, Locating Object(s) , will contain instructions for finding each of the defining objects.    Defining Objects for Three Isometries         Isometry  Defining Object(s)  Orientation  Properties     Reflection  Reflecting Line (or mirror)  Changes   Mirror is perpendicular to  and bisects each      Translation  Translation Vector           Rotation  Center and  Angle    Perp. bisector  of each  passes through  center        Complete by filling in the column for orientation and the row for translation. Compare the last column in your table with the last item in each task of . Feel free to rewrite each entry in words that are meaningful to you before adding this to your toolbox. We will use this in the next section.    "
+  "body": " Identifying Isometries   What do we know? What do we wonder?   As we prepare to build on our knowledge of isometries, it is wise to summarize what we know so far. We know that a transformation of a plane is a mapping or function that sends each point on the plane to a unique point called its image under the transformation. Some transformations are collineations , meaning that if a set of points all lie on the same line, then their images will also lie on a single line. We have observed that some collineations preserve shape and angle measure and that some collineations that preserve angle measure will also preserve distance. The transformations that preserve all of these, collinearity, angle measure, and distance, are called isometries .    Reflect and Wonder   Before reading this section, respond to the following questions. There are no right or wrong answers!   Write down three things you know about transformations, especially the three isometries we have looked at, namely reflections, translations, and rotations.    Is there anything that was discussed in the first sections on transformations that you need clarity on?    What do you wonder about transformations? What questions remain?         Isometry Between Congruent Figures  We are now familiar with three types of isometries: reflections, translations, and rotations. Yet many questions remain: Are there other types of isometries? Are there transformations that are not isometries? If two figures are congruent, is there always an isometry mapping one to the other? If so, how do we determine what type of isometry it is?  Although we have not proved this fact, it is true that if we have two congruent figures, there will be an isometry that maps one onto the other. In fact, this notion of congruence as being able to lay one figure on top of the other was how Euclid envisioned congruence. This intuitive definition of congruence preceded the more technical measurement definitions for congruence taught in many middle and high school geometry classes. There has been a shift back to this transformational meaning of congruent in recent years. Perhaps, your teacher adopted this approach.  Our goal in this section and next will be to identify the type of isometry that takes one figure onto a congruent copy. Is it a reflection, a translation, a rotation, or something else? Then having determined the type can we specify the exact action that performs the movement. A good place to start is to identify whether the isometry maintains orientation.  Distinguishing Between Types of Isometries, Part 1     Imagine that is a moveable cutout triangle with a pretty blue pattern on the front face and gray cardboard on the back. We can think of the action of an isometry as moving so that it aligns perfectly with its image . Which isometries--reflections, translations, and rotations-- studied so far will keep blue side up? Which will turn over so that it is cardboard side up? What property is this related to?    How might you tell the difference between a translation and a rotation? Assume that you are given a picture of two congruent triangles and where the orientation is the same. How do you know whether a translation takes to ? How do you know whether the isometry is a rotation? Could it be both? or neither?        Defining Objects of Isometries  Now that we can determine whether the isometry mapping one figure onto a congruent image is a reflection, translation, or rotation, we need to identify the defining object(s) of the isometry. lists the defining objects for the three isometries we have studied.   Defining Objects for Three Isometries         Isometry  Defining Objects    Reflection  Reflecting Line (or mirror)    Translation  Translation Vector    Rotation  Center and Rotational Angle     How do we find the mirror? the vector? the center and angle for an isometry? Although the defining objects will determine how the isometry acts on all points in the plane, we will focus on just a few points along with their images in order to find the defining objects. You will want to record your discoveries for later reference.   Finding Defining Objects of Isometries   For each isometry, we will observe some properties of the isometry and defining object(s) and then use these properties to locate the defining object(s).   Finding the Mirror of a Reflection     Refer to which shows a reflection of across line , how is the reflecting line related to each segment connecting a point in the triangle to its image?    Click on the tools available in the top menu of the following interactive. Then sketch the reflecting line for the isometry that takes to using the tools you think would enable you to determine the exact reflecting line. Do not use guess and check.   An interactive Geogebra applet for finding the mirror of a reflection.      Use the Reflect About Line tool in the above app to check that reflecting across the line you created results in a triangle that aligns perfectly with .    Write down instructions of how you can create the reflecting line given a triangle and its reflected image . The instructions should be detailed enough that others can follow them.      Finding the Vector for a Translation  In , you were given a translation vector which indicated the direction and distance that each point should be moved, specifically three units right and one unit down. In the activity had the coordinates and had the coordinates . We will note that we could have chosen a different vector to represent three units right and one unit down.    If the point had the coordinates , what would the coordinates of be so that would represent three units right and one unit down?    If the ending point has the coordinates , what would the coordinates of the starting point be so that would represent three units right and one unit down?    If point has the coordinates and the picture below shows a translation that moves the figure three units right and one unit down, what are the coordinates of ?    Draw, identify, or describe a vector for the translation that takes to in .   Triangle is translated to      Write instructions that you or someone else could use to find the translation vector when any figure and its image under a translation are given.      Finding the Center and Angle of a Rotation, part 1  In , an L-pentomino and its image are shown.   Draw or identify the point that is the center of the rotation taking to . How do you know this point is the center?    Determine the angle of this rotation and specify whether the rotation is performed clockwise or counterclockwise.      An interactive Geogebra applet for finding the center and angle of a rotation in .     To measure an angle on GeoGebra, be sure to click the vertex of the angle second. For example, would be found using the angle tool and clicking , , and in that counterclockwise order. If you click the vertices in the clockwise order, you will get .   Finding the Center and Angle of a Rotation, part 2  The center in is not easy to identify. Make an initial guess at where the center might be. What are some things we could try?   An interactive Geogebra applet for finding the center and angle of a rotation.       Perhaps the segments , , and might provide information. Sketch these three line segments. Do they help?    Provided GeoGebra tools will allow you to find perpendicular lines, perpendicular bisectors, angle bisectors, circles, angle measures, and lengths. Any ideas of what we might try?    Since we have sketch the segments , , and , let's use the perpendicular bisector tool to find the perpendicular bisector of each segment. What do you notice?    Create point as a candidate for your center. Verify that . What is the angle of rotation?    Finally, use the Rotate around Point tool to check your work.    Write instructions to yourself and others on how to find the center and angle of a rotation when you are given a picture of a figure and its rotated image and they do not share a vertex.         What have we learned?  In , the definining objects for each transformation were given. We now add two new columns to this table. The third column, titled Orientation , will have either changes or maintains for its entries. The fourth column, Properties , is where you should write some of the other properties that you discovered. Since all isometries preserve distance and angle measure we will not put these in the table, but instead focus on properties that distinguish the types of isometries. Finally, the fifth column, Locating Object(s) , will contain instructions for finding each of the defining objects.    Defining Objects for Three Isometries         Isometry  Defining Object(s)  Orientation  Properties     Reflection  Reflecting Line (or mirror)  Changes   Mirror is perpendicular to  and bisects each      Translation  Translation Vector           Rotation  Center and  Angle    Perp. bisector  of each  passes through  center        Complete by filling in the column for orientation and the row for translation. Compare the last column in your table with the last item in each task of . Feel free to rewrite each entry in words that are meaningful to you before adding this to your toolbox. We will use this in the next section.    "
 },
 {
   "id": "sec-isom-identifying-isometries-2-2",
@@ -1960,7 +1996,7 @@ var ptx_lunr_docs = [
   "type": "Table",
   "number": "4.3.2",
   "title": "Defining Objects for Three Isometries",
-  "body": " Defining Objects for Three Isometries    Isometry  Defining Objects    Reflection  Reflecting Line (or mirror)    Translation  Translation Vector    Rotation  Center and Rotational Angle    "
+  "body": " Defining Objects for Three Isometries         Isometry  Defining Objects    Reflection  Reflecting Line (or mirror)    Translation  Translation Vector    Rotation  Center and Rotational Angle    "
 },
 {
   "id": "expl-isom-finding-defining-objects",
@@ -2116,6 +2152,123 @@ var ptx_lunr_docs = [
   "body": " Mystery Isometries  Mystery Isometry 1     The isometry that takes the polygon in to its image is a .   reflection    translation    rotation    glide reflection       Mystery Isometry 1 the orientation of the polygon.   maintains    reverses       The defining object for Mystery Isometry 1 is a and is labeled on my sketch as .      Mystery Isomorphism 1  Mystery Isomorphism 1 GeoGebra applet     Mystery Isometry 2     The isometry that takes the polygon in to its image is a .   reflection    translation    rotation    glide reflection       Mystery Isometry 2 the orientation of the polygon.   maintains    reverses       The defining object for Mystery Isometry 2 is a and is labeled on my sketch as .      Mystery Isomorphism 2  Mystery Isomorphism 2 GeoGebra applet     Mystery Isometry 3     The isometry that takes the polygon in to its image is a .   reflection    translation    rotation    glide reflection       Mystery Isometry 3 the orientation of the polygon.   maintains    reverses       The defining object(s) for Mystery Isometry 3 is a and is labeled on my sketch as .      Mystery Isomorphism 3  Mystery Isomorphism 3 GeoGebra applet     Mystery Isometry 4     The isometry that takes the polygon in to its image is a .   reflection    translation    rotation    glide reflection       Mystery Isometry 4 the orientation of the polygon.   maintains    reverses       The defining object(s) for Mystery Isometry 4 is a and is labeled on my sketch as .      Mystery Isomorphism 4  Mystery Isomorphism 4 GeoGebra applet     "
 },
 {
+  "id": "sec-isom-symmetry",
+  "level": "1",
+  "url": "sec-isom-symmetry.html",
+  "type": "Section",
+  "number": "4.6",
+  "title": "Symmetry",
+  "body": " Symmetry   Snowflakes, product logos, rose windows, mandalas: these are just a few examples of symmetry in our world. While the applications to art and architecture may be most obvious, scientists observe symmetry as they study the structure and behavior of chemicals, plantlife, and reflected objects.    Two Types of Symmetry  Finite two-dimensional designs, such as snowflakes and logos, may have reflectional symmetry and\/or rotational symmetry. displays a design with both reflectional and rotational symmetry.   symmetry reflectional  reflectional symmetry  mirror symmetry  mirror line  line of symmetry  symmetry line of   A design is said to have reflectional symmetry if there is a line such that reflecting the design across that line causes the design to align perfectly with itself. This line is called a line of symmetry for the design. Each point on one side of the line of symmetry reflects to a corresponding image point on the other side of the line and the image of a point reflects back across the line to the original point.  Reflectional symmetry is also called mirror symmetry and a line of symmetry may be called a mirror . It is possible for a design with mirror symmetry to have multiple lines of symmetry.     Symmetric design created using    An abstract design with four lines of symmetry and 90-degree rotational symmetry. A square or times symbol has similar symmetry.    Check your Understanding  Draw the four lines of symmetry in . Verify that the design stays the same when reflected across each line.     A design is said to have rotational symmetry if there is a rotation about a point with a positive angle of less than 360 degrees that maps the design onto itself. The image of the design will look identical to the original even in location and angle. The number of positions that the figure can be rotated to and still look the same is called the order of symmetry . In calculating the order of symmetry, we count the original position (0-degree rotation) or a full 360-degree turn, but not both since they are the same position. If the order of symmetry of a figure is , we say that the figure has -fold symmetry.     Check your understanding     Where is the center of the rotation for the design in ? How is it related to the lines of symmetry?    What is the smallest positive angle of symmetry for the design in ?    The design in has -fold symmetry for what value of ? Explain.        Exploring Symmetry   Symmetries of Polygons and Polyominos   What types of symmetry do regular polygons have? Do all polygons and polyominos have these symmetries?   Symmetries of an Equilateral Triangle   gives a picture of an equilateral triangle.   Draw a line of symmetry for this triangle. Then use the reflect across line tool to verify that your line works.    Does the equilateral triangle have any other lines of symmetry? If so, draw all lines of symmetry. Use the reflect across line tool to check your work as needed.    An equilateral triangle also has rotational symmetry. Identify the center of rotational symmetry, drawing it if it doesn't already exist.    What is the smallest positive angle of rotational symmetry for this triangle? If you rotate in a counterclockwise direction, where does vertex move to under this rotation?    What other angles of symmetry are possible? What do you notice?      An Equilateral Triangle     Symmetries of Other Triangles   shows a picture of an isosceles triangle and a scalene triangle.   Does an isosceles (nonequilateral) triangle have reflective symmetry? If so, draw the line(s) of symmetry for the isosceles triangle in . If not, explain.    Does an isosceles (nonequilateral) triangle have rotational symmetry? If so, give the center and angle of symmetry for the isosceles triangle in . If not, explain.    Does a scalene triangle have either reflective or rotational symmetry? Justify your answer.      An isosceles and a scalene triangle     Symmetries of Regular Polygons   shows pictures of a regular quadrilateral, a regular pentagon, and a regular hexagon.  How many lines of symmetry does a square have? Draw the lines of symmetry for the square in .  How many lines of symmetry does a regular pentagon have? Draw the lines of symmetry for the pentagon in .  How many lines of symmetry does a regular hexagon have? Draw the lines of symmetry for the hexagon in .  How many lines of symmetry will a regular -gon have? Does it matter whether is odd or even? Explain your reasoning.  List all the positive angles of rotation up to and including 360 degrees for a square. What is the order of symmetry for a square?  List all the positive angles of rotation up to and including 360 degrees for a regular pentagon. What is the order of symmetry for a regular pentagon?  List all the positive angles of rotation up to and including 360 degrees for a regular hexagon. What is the order of symmetry for a regular hexagon?  What is the order of symmetry for a regular -gon?  What is the smallest positive angle of rotational symmetry for a regular -gon?     Geogebra applet with regular polygons     Symmetry of non-regular quadrilaterals    Sketch an example of a quadrilateral that has exactly two lines of symmetry. Does your quadrilateral also have rotational symmetry? If it does, locate the center and state the lowest positive degree angle of rotation.  Sketch a quadrilateral that has no lines of symmetry and no rotational symmetry. Explain why your example satisfies these conditions.  Sketch a quadrilateral that has 2-fold rotational symmetry but no mirror symmetry. What is the smallest positive degree angle of rotation. Explain why your example satisfies these conditions.  Sketch a quadrilateral that has a line of symmetry but no rotational symmetry. Explain why your example satisfies these conditions.     Notice and Wonder  What did you notice about the lines of symmetry and centers of rotation as you were completing this activity? What do you wonder about symmetry of finite designs? What questions remain?      Symmetry Transformations   symmetry transformation  transformation symmetry   A symmetry transformation for a design is an isometry that sends the design perfectly onto itself. The appearance of the design remains the same after the action of a symmetry transformation.  We also may use just the word symmetry to refer to a symmetry transformation. The context of how the word appears will help us decide whether symmetry refers to the property of the design or the transformation that preserves the design.    In , we saw that when we performed a sequence of reflections in succession, the composition was the same as an isometry, either another reflection, a translation, a rotation, or a glide reflection depending on the number of reflections and whether the reflecting lines were parallel. With a finite design such as the one in , note that any lines of symmetry must intersect and their point of intersection will be in the center of the figure. If the figure also has rotational symmetry, the center of the rotation will also at this central point.  Reflective Questions  Explain why a translation and a glide reflection cannot be symmetry transformation of finite designs or polygons. Do you think translations and\/or glide reflections could be symmetry transformations of infinite tilings or infinite wallpaper borders? Explain in words and\/or pictures.   We now focus on the symmetries of a single equilateral triangle, investigating what happens when we compose symmetry transformations.   Symmetries of an Equilateral Triangle   Throughout this exploration, you may use the GeoGebra applet, as needed. You are also welcome to label and cut out an equilateral triangle for a tactile experience.   Rotations of an Equilateral Triangle  As previously discovered, an equilateral triangle has 3-fold symmetry.   What is the smallest positive degree angle of symmetry?    Suppose we name counterclockwise rotation by a 120-degree angle about the center of this triangle . What is the effect of performing twice in succession? Is it the same as a reflection or rotation? Specify how the reflecting line (if it is a reflection) or rotation angle (if it is a rotation) of the composed transformation    What happens if you rotate the triangle using three times in succession?    A 0-degree rotation can be represented by . Describe in your own words what happens when you apply . How does it compare to ?    A clockwise 120-degree rotation is the same as a counterclockwise rotation of what degree?      GeoGebra applet for exploring the symmetries of an equilateral triangle     Images of Symmetries  As we record the result of performing symmetries on the triangle in , we will use the notation , , to represent counterclockwise rotations of 0 degrees, 120 degrees, and 240 degrees about the center of the triangle.  We will also use the notation , , and to denote the reflections across line with negative slope, line with positive slope, and the vertical line , respectively.  Because these are symmetries, the actions will always result in the same equilateral triangle. What changes is the locations of vertices , , and . Note that the image of the triangle after performing is the same as . We call this the Home Position. When using the GeoGebra applet , we can click on the icon in the upper right that looks like a circle with two clockwise-pointing arrows to return to the Home Position.   Home Position of Equilateral Triangle   An equilateral triangle. Vertex B on top and vertex A lower left and vertex C lower right.    Being sure to start in the home position each time, record where the vertices , , and land after each of the following symmetry transformations:                 Note that each of these five transformations should result in a different arrangement of the vertices, , , and , none of which will be the same as . You will need to refer to these arrangements in the next task.   Setting the Stage  To prepare for the final task, we will remind ourselves of what a multiplication table is. Complete .   Multiplication Table           1  2  3  4  5    1  1  2  3  4  5    2  2  4       3  3        4  4        5  5    20        Like the multiplication table above, we can create a table for the composition of symmetry isomorphisms on an equilateral triangle using the following steps as a guide. Each entry you add to the table should always be one of the six symmetries of the triangle; namely, , , , , , or . When you use to compute compositions, be sure to reset the triangle to home position before performing the first of the two actions and then perform the second action without resetting the triangle. Compare the final result to the vertex labels you recorded in .   The row and column headed by have already been filled in. Explain why this row and column is the same as the header row and column. In particular, what is the action of on the vertices of triangle ?    Determine the compositions of two rotations, namely , , , and . Add these results to the table in the appropriate locations.    The nine cells in the upper left should now be filled. With starting with the triangle in home position, perform followed by to compute In , we defined as in common practice in algebra . Compare the final result with the images you recorded in and write the corresponding symmetry in the cell of the -row and the -column.    Is the same as ? To determine this, start at the home position and then perform first followed by . Write the corresponding symmetry in the cell of the -row and the -column. Compare these two results.    To complete the -row, compute the two compositions:    , by first reflecting the triangle in home position across line and then rotating counterclockwise by 120 degrees, and     , by first reflecting the home position triangle across line and then rotating counterclockwise by 120 degrees.   The -row should now be completely filled. Each of the symmetries, , , , , , and will appear exactly once in this row.    Now complete the -row, each time performing the symmetry corresponding to the column heading before rotating counterclockwise 240 degrees. Be sure to return to the home position before beginning each calculation.    Similarly, we will complete the -row by performing the symmetry corresponding to the column heading first followed by a reflection across line . Check again to make sure that no symmetry appears twice in the same row.    Complete the last two rows where the second transformation is reflection across the lines and respectively.      Composition Table                                                                               "
+},
+{
+  "id": "def-reflectional-sym",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#def-reflectional-sym",
+  "type": "Definition",
+  "number": "4.6.1",
+  "title": "",
+  "body": " symmetry reflectional  reflectional symmetry  mirror symmetry  mirror line  line of symmetry  symmetry line of   A design is said to have reflectional symmetry if there is a line such that reflecting the design across that line causes the design to align perfectly with itself. This line is called a line of symmetry for the design. Each point on one side of the line of symmetry reflects to a corresponding image point on the other side of the line and the image of a point reflects back across the line to the original point.  Reflectional symmetry is also called mirror symmetry and a line of symmetry may be called a mirror . It is possible for a design with mirror symmetry to have multiple lines of symmetry.   "
+},
+{
+  "id": "fig-rosette1",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#fig-rosette1",
+  "type": "Figure",
+  "number": "4.6.2",
+  "title": "",
+  "body": " Symmetric design created using    An abstract design with four lines of symmetry and 90-degree rotational symmetry. A square or times symbol has similar symmetry.   "
+},
+{
+  "id": "sec-isom-symmetry-3-5",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#sec-isom-symmetry-3-5",
+  "type": "Checkpoint",
+  "number": "4.6.3",
+  "title": "Check your Understanding.",
+  "body": "Check your Understanding  Draw the four lines of symmetry in . Verify that the design stays the same when reflected across each line.  "
+},
+{
+  "id": "def-rotational-symm",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#def-rotational-symm",
+  "type": "Definition",
+  "number": "4.6.4",
+  "title": "",
+  "body": "  A design is said to have rotational symmetry if there is a rotation about a point with a positive angle of less than 360 degrees that maps the design onto itself. The image of the design will look identical to the original even in location and angle. The number of positions that the figure can be rotated to and still look the same is called the order of symmetry . In calculating the order of symmetry, we count the original position (0-degree rotation) or a full 360-degree turn, but not both since they are the same position. If the order of symmetry of a figure is , we say that the figure has -fold symmetry.    "
+},
+{
+  "id": "sec-isom-symmetry-3-7",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#sec-isom-symmetry-3-7",
+  "type": "Checkpoint",
+  "number": "4.6.5",
+  "title": "Check your understanding.",
+  "body": "Check your understanding     Where is the center of the rotation for the design in ? How is it related to the lines of symmetry?    What is the smallest positive angle of symmetry for the design in ?    The design in has -fold symmetry for what value of ? Explain.     "
+},
+{
+  "id": "sec-isom-symmetry-4-2",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#sec-isom-symmetry-4-2",
+  "type": "Exploration",
+  "number": "4.6.1",
+  "title": "Symmetries of Polygons and Polyominos.",
+  "body": " Symmetries of Polygons and Polyominos   What types of symmetry do regular polygons have? Do all polygons and polyominos have these symmetries?   Symmetries of an Equilateral Triangle   gives a picture of an equilateral triangle.   Draw a line of symmetry for this triangle. Then use the reflect across line tool to verify that your line works.    Does the equilateral triangle have any other lines of symmetry? If so, draw all lines of symmetry. Use the reflect across line tool to check your work as needed.    An equilateral triangle also has rotational symmetry. Identify the center of rotational symmetry, drawing it if it doesn't already exist.    What is the smallest positive angle of rotational symmetry for this triangle? If you rotate in a counterclockwise direction, where does vertex move to under this rotation?    What other angles of symmetry are possible? What do you notice?      An Equilateral Triangle     Symmetries of Other Triangles   shows a picture of an isosceles triangle and a scalene triangle.   Does an isosceles (nonequilateral) triangle have reflective symmetry? If so, draw the line(s) of symmetry for the isosceles triangle in . If not, explain.    Does an isosceles (nonequilateral) triangle have rotational symmetry? If so, give the center and angle of symmetry for the isosceles triangle in . If not, explain.    Does a scalene triangle have either reflective or rotational symmetry? Justify your answer.      An isosceles and a scalene triangle     Symmetries of Regular Polygons   shows pictures of a regular quadrilateral, a regular pentagon, and a regular hexagon.  How many lines of symmetry does a square have? Draw the lines of symmetry for the square in .  How many lines of symmetry does a regular pentagon have? Draw the lines of symmetry for the pentagon in .  How many lines of symmetry does a regular hexagon have? Draw the lines of symmetry for the hexagon in .  How many lines of symmetry will a regular -gon have? Does it matter whether is odd or even? Explain your reasoning.  List all the positive angles of rotation up to and including 360 degrees for a square. What is the order of symmetry for a square?  List all the positive angles of rotation up to and including 360 degrees for a regular pentagon. What is the order of symmetry for a regular pentagon?  List all the positive angles of rotation up to and including 360 degrees for a regular hexagon. What is the order of symmetry for a regular hexagon?  What is the order of symmetry for a regular -gon?  What is the smallest positive angle of rotational symmetry for a regular -gon?     Geogebra applet with regular polygons     Symmetry of non-regular quadrilaterals    Sketch an example of a quadrilateral that has exactly two lines of symmetry. Does your quadrilateral also have rotational symmetry? If it does, locate the center and state the lowest positive degree angle of rotation.  Sketch a quadrilateral that has no lines of symmetry and no rotational symmetry. Explain why your example satisfies these conditions.  Sketch a quadrilateral that has 2-fold rotational symmetry but no mirror symmetry. What is the smallest positive degree angle of rotation. Explain why your example satisfies these conditions.  Sketch a quadrilateral that has a line of symmetry but no rotational symmetry. Explain why your example satisfies these conditions.     Notice and Wonder  What did you notice about the lines of symmetry and centers of rotation as you were completing this activity? What do you wonder about symmetry of finite designs? What questions remain?   "
+},
+{
+  "id": "def-symm-transformation",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#def-symm-transformation",
+  "type": "Definition",
+  "number": "4.6.9",
+  "title": "",
+  "body": " symmetry transformation  transformation symmetry   A symmetry transformation for a design is an isometry that sends the design perfectly onto itself. The appearance of the design remains the same after the action of a symmetry transformation.  We also may use just the word symmetry to refer to a symmetry transformation. The context of how the word appears will help us decide whether symmetry refers to the property of the design or the transformation that preserves the design.   "
+},
+{
+  "id": "subsec-symm-transformations-4",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#subsec-symm-transformations-4",
+  "type": "Checkpoint",
+  "number": "4.6.10",
+  "title": "Reflective Questions.",
+  "body": "Reflective Questions  Explain why a translation and a glide reflection cannot be symmetry transformation of finite designs or polygons. Do you think translations and\/or glide reflections could be symmetry transformations of infinite tilings or infinite wallpaper borders? Explain in words and\/or pictures.  "
+},
+{
+  "id": "subsec-symm-transformations-6",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#subsec-symm-transformations-6",
+  "type": "Exploration",
+  "number": "4.6.2",
+  "title": "Symmetries of an Equilateral Triangle.",
+  "body": " Symmetries of an Equilateral Triangle   Throughout this exploration, you may use the GeoGebra applet, as needed. You are also welcome to label and cut out an equilateral triangle for a tactile experience.   Rotations of an Equilateral Triangle  As previously discovered, an equilateral triangle has 3-fold symmetry.   What is the smallest positive degree angle of symmetry?    Suppose we name counterclockwise rotation by a 120-degree angle about the center of this triangle . What is the effect of performing twice in succession? Is it the same as a reflection or rotation? Specify how the reflecting line (if it is a reflection) or rotation angle (if it is a rotation) of the composed transformation    What happens if you rotate the triangle using three times in succession?    A 0-degree rotation can be represented by . Describe in your own words what happens when you apply . How does it compare to ?    A clockwise 120-degree rotation is the same as a counterclockwise rotation of what degree?      GeoGebra applet for exploring the symmetries of an equilateral triangle     Images of Symmetries  As we record the result of performing symmetries on the triangle in , we will use the notation , , to represent counterclockwise rotations of 0 degrees, 120 degrees, and 240 degrees about the center of the triangle.  We will also use the notation , , and to denote the reflections across line with negative slope, line with positive slope, and the vertical line , respectively.  Because these are symmetries, the actions will always result in the same equilateral triangle. What changes is the locations of vertices , , and . Note that the image of the triangle after performing is the same as . We call this the Home Position. When using the GeoGebra applet , we can click on the icon in the upper right that looks like a circle with two clockwise-pointing arrows to return to the Home Position.   Home Position of Equilateral Triangle   An equilateral triangle. Vertex B on top and vertex A lower left and vertex C lower right.    Being sure to start in the home position each time, record where the vertices , , and land after each of the following symmetry transformations:                 Note that each of these five transformations should result in a different arrangement of the vertices, , , and , none of which will be the same as . You will need to refer to these arrangements in the next task.   Setting the Stage  To prepare for the final task, we will remind ourselves of what a multiplication table is. Complete .   Multiplication Table           1  2  3  4  5    1  1  2  3  4  5    2  2  4       3  3        4  4        5  5    20        Like the multiplication table above, we can create a table for the composition of symmetry isomorphisms on an equilateral triangle using the following steps as a guide. Each entry you add to the table should always be one of the six symmetries of the triangle; namely, , , , , , or . When you use to compute compositions, be sure to reset the triangle to home position before performing the first of the two actions and then perform the second action without resetting the triangle. Compare the final result to the vertex labels you recorded in .   The row and column headed by have already been filled in. Explain why this row and column is the same as the header row and column. In particular, what is the action of on the vertices of triangle ?    Determine the compositions of two rotations, namely , , , and . Add these results to the table in the appropriate locations.    The nine cells in the upper left should now be filled. With starting with the triangle in home position, perform followed by to compute In , we defined as in common practice in algebra . Compare the final result with the images you recorded in and write the corresponding symmetry in the cell of the -row and the -column.    Is the same as ? To determine this, start at the home position and then perform first followed by . Write the corresponding symmetry in the cell of the -row and the -column. Compare these two results.    To complete the -row, compute the two compositions:    , by first reflecting the triangle in home position across line and then rotating counterclockwise by 120 degrees, and     , by first reflecting the home position triangle across line and then rotating counterclockwise by 120 degrees.   The -row should now be completely filled. Each of the symmetries, , , , , , and will appear exactly once in this row.    Now complete the -row, each time performing the symmetry corresponding to the column heading before rotating counterclockwise 240 degrees. Be sure to return to the home position before beginning each calculation.    Similarly, we will complete the -row by performing the symmetry corresponding to the column heading first followed by a reflection across line . Check again to make sure that no symmetry appears twice in the same row.    Complete the last two rows where the second transformation is reflection across the lines and respectively.      Composition Table                                                                            "
+},
+{
+  "id": "sec-dilations-Cartesian",
+  "level": "1",
+  "url": "sec-dilations-Cartesian.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "Scaling and Similarity",
+  "body": " Scaling and Similarity   In this section, we explore a type of transformation which changes the distance between points. We begin by exploring some examples on the Cartesian -plane.   To compute the length of a segment on a graph we use the Pythagorean Theorem. In , the coordinates of point are and of point are . We find the horizontal distance between the two points by subtracting the -coordinates, , and the vertical distance by subtracting the -coordinates, . Then since segment is the hypotenuse of the right triangle , we can use the Pythagorean Theorem to find its length, namely .   Measuring distance on a graph   Right triange ABC described above.       dilation  similarity  scale factor  center dilation  magnification       "
+},
+{
+  "id": "diag-seg-measure",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#diag-seg-measure",
+  "type": "Figure",
+  "number": "5.1.1",
+  "title": "",
+  "body": " Measuring distance on a graph   Right triange ABC described above.   "
+},
+{
+  "id": "def-dilation",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#def-dilation",
+  "type": "Definition",
+  "number": "5.1.2",
+  "title": "",
+  "body": " dilation  similarity  scale factor  center dilation  magnification      "
+},
+{
   "id": "list-of-principles",
   "level": "1",
   "url": "list-of-principles.html",
@@ -2138,7 +2291,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#def-expression",
   "type": "Definition",
-  "number": "B.1.10",
+  "number": "B.1.3",
   "title": "",
   "body": " expression  algebraic expression  numerical expression   An expression in mathematics is a representation of a numerical quantity consisting of a finite number of variables and\/or numbers joined by algebraic operations such as addition, subtraction, multiplication, division, and exponentiation. An expression is said to be algebraic if it contains at least one variable. We will also use the term numerical expression to describe any representation that is either an algebraic expression or number.   "
 },
@@ -2147,7 +2300,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#def-equation",
   "type": "Definition",
-  "number": "B.1.11",
+  "number": "B.1.4",
   "title": "",
   "body": " algebraic equation  equation   An equation is a statement formed by joining two algebraic expressions together with an equal sign. When we solve an equation, we determine which numerical quantities will make the statement true.   "
 },
@@ -2156,7 +2309,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#example-simplify",
   "type": "Example",
-  "number": "B.1.12",
+  "number": "B.1.5",
   "title": "Simplifying an Expression.",
   "body": " Simplifying an Expression   Simplify the expression .    Solving this expression requires an expansion of before we can subtract . One correct way of writing this is the following.   One might also write and then compute    "
 },
@@ -2165,7 +2318,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#example-solving",
   "type": "Example",
-  "number": "B.1.13",
+  "number": "B.1.6",
   "title": "Solving an Equation.",
   "body": " Solving an Equation   Solve the equation     One acceptable way of writing this for exercises is the following: We have found two numbers and that solve the equation. If this were a problem about geometric quantities, we frequently rule out negative numbers as unreasonable.   "
 },
@@ -2183,7 +2336,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-closure-reals",
   "type": "Principle",
-  "number": "B.2.14",
+  "number": "B.2.7",
   "title": "Closure of Addition and Multiplication on the Set of Real Numbers.",
   "body": " Closure of Addition and Multiplication on the Set of Real Numbers   If and are real numbers, then and are real numbers.   "
 },
@@ -2192,7 +2345,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-commutative",
   "type": "Principle",
-  "number": "B.2.15",
+  "number": "B.2.8",
   "title": "Commutative Laws.",
   "body": " Commutative Laws   If and are real numbers, then and .   "
 },
@@ -2201,7 +2354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-associative",
   "type": "Principle",
-  "number": "B.2.16",
+  "number": "B.2.9",
   "title": "Associative Laws.",
   "body": " Associative Laws   If , , and are real numbers, then and .   "
 },
@@ -2210,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-distributive",
   "type": "Principle",
-  "number": "B.2.17",
+  "number": "B.2.10",
   "title": "The Distributive Law.",
   "body": " The Distributive Law   If , , and are real numbers, then and .  Note that the distributive law also allows us to add fractions with a common denominator; In short,    "
 },
@@ -2219,7 +2372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#examp-mult-poly",
   "type": "Example",
-  "number": "B.2.18",
+  "number": "B.2.11",
   "title": "Multiplying a Polynomial.",
   "body": " Multiplying a Polynomial   Multiply .     First we use the distributive law, multiplying each term in the second factor by : .  An obtional step, but one that makes the distributive law more evident, is to us the commutative law of multiplication to reverse the order of the factors in each term:   We can then use the distributive law on each term to get   Finally, we use the distributive law to combine like terms:   Although the distributive law makes the process work, we typically speed the process up by multiplying each term in the first factor by each term in the second factor:    "
 },
@@ -2228,7 +2381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-identity",
   "type": "Principle",
-  "number": "B.2.19",
+  "number": "B.2.12",
   "title": "The Identity Properties.",
   "body": " The Identity Properties   If is an real number, then , , , and We call 0 the additive identity and 1 the multiplicative identity .   "
 },
@@ -2237,7 +2390,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#field-properties-11",
   "type": "Principle",
-  "number": "B.2.20",
+  "number": "B.2.13",
   "title": "The Inverse Properties.",
   "body": " The Inverse Properties   If is a real number, then the number exists and has the property that . If is an nonzero real number, then the number exists and has the property that . The number is said to be the additive inverse of and the number is said to be the multiplicative inverse of .   "
 },
@@ -2255,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-addition-equality",
   "type": "Principle",
-  "number": "B.3.21",
+  "number": "B.3.14",
   "title": "Addition Principle of Equality.",
   "body": " Addition Principle of Equality   If we add (or subtract) the same numerical expression from both sides of an equation, we get an equivalent Two equations are equivalent if they have exactly the same solution set. equation. In symbols, if and only if . Here, , , and may be numbers or algebraic expressions.   "
 },
@@ -2264,7 +2417,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-multiplication-equality",
   "type": "Principle",
-  "number": "B.3.22",
+  "number": "B.3.15",
   "title": "Multiplication Principle of Equality.",
   "body": " Multiplication Principle of Equality   If we multiply (or divide) both sides of an equation by the same nonzero numerical expression, we get an equivalent equation. In symbols, if and only if whenever , , and are numbers or algebraic expressions and . Similarly, if , then is equivalent to .   "
 },
@@ -2273,7 +2426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-symmetry-equality",
   "type": "Principle",
-  "number": "B.3.23",
+  "number": "B.3.16",
   "title": "Symmetry Property of Equality.",
   "body": " Symmetry Property of Equality   The statement is true if and only if the statement is true.   "
 },
@@ -2282,7 +2435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-transtive-equality",
   "type": "Principle",
-  "number": "B.3.24",
+  "number": "B.3.17",
   "title": "Transitive Property of Equality.",
   "body": " Transitive Property of Equality   If and are true statements, then .   "
 },
@@ -2300,7 +2453,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-multiply-by-zero",
   "type": "Principle",
-  "number": "B.3.25",
+  "number": "B.3.18",
   "title": "Multiplication by Zero.",
   "body": " Multiplication by Zero   For any numerical expression , .   "
 },
@@ -2309,7 +2462,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-zero-product",
   "type": "Principle",
-  "number": "B.3.26",
+  "number": "B.3.19",
   "title": "Zero Product Property.",
   "body": " Zero Product Property   If and are any numerical expressions such that , then at least one of the factors or must equal zero.   "
 },
@@ -2318,7 +2471,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#equality-properties-14",
   "type": "Example",
-  "number": "B.3.27",
+  "number": "B.3.20",
   "title": "Solving a Polynomial Equation Using Principles.",
   "body": " Solving a Polynomial Equation Using Principles   Solve .    In symbols, with properties used: Click on solution to see this solution in paragraph form.    To solve , we first use to subtract from both sides of the equation so that the right side of the equation is 0. Thus, . By , . Substituting into our earlier equation, we see . Therefore, informs us that one of the following must be true: , , or . Solving each of these for gives the possible answers, , , and . Substituting each of these into the original equation verifies that the solution consists of these three values, , , and .  Click on answer to see the solution as a series of equations.   "
 },
@@ -2336,7 +2489,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#subsec-Functions-2-3",
   "type": "Example",
-  "number": "B.4.28",
+  "number": "B.4.21",
   "title": "A Function from Algebra.",
   "body": " A Function from Algebra   Let . Compute the following:               a) , b) , c) which can be simplified to .   "
 },
@@ -2345,7 +2498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#def-function",
   "type": "Definition",
-  "number": "B.4.29",
+  "number": "B.4.22",
   "title": "",
   "body": " function   A function is a mapping that assigns to each input exactly one output.   "
 },
@@ -2354,7 +2507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#def-sqrt",
   "type": "Definition",
-  "number": "B.4.30",
+  "number": "B.4.23",
   "title": "",
   "body": " square root  square   The square of a number is the number . Note that the number may be negative, positive, or 0, but the square, is always greater than or equal to 0.  The square root of a number is the nonnegative number such that . We use the notation to represent the square root of .   "
 },
@@ -2363,7 +2516,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#example-algrev-sq-sqrt",
   "type": "Example",
-  "number": "B.4.31",
+  "number": "B.4.24",
   "title": "Computing Squares and Square Roots.",
   "body": " Computing Squares and Square Roots   Compute the following using the definitions of square and square root. A calculator should not be necessary.                  a) , b) , c) , d)    "
 },
@@ -2381,7 +2534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#principle-invpropofsqrt",
   "type": "Principle",
-  "number": "B.4.32",
+  "number": "B.4.25",
   "title": "Inverse Property of Squares and Square Roots.",
   "body": " Inverse Property of Squares and Square Roots   Let be a nonnegative real number. Then and .   "
 },
@@ -2390,7 +2543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#examp-algrev-triangleleg",
   "type": "Example",
-  "number": "B.4.33",
+  "number": "B.4.26",
   "title": "Finding the Length of a Leg of a Right Triangle.",
   "body": " Finding the Length of a Leg of a Right Triangle   The length of the hypotenuse is 16 inches and the length of one leg is 10 inches. Determine the length of the other leg.    By the Pythagorean Theorem, we know or . Subtracting from both sides of the equation, we get . Taking the square root of both sides of the equation, we see    "
 },
@@ -2399,7 +2552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#principle-exp-rt-product",
   "type": "Principle",
-  "number": "B.4.34",
+  "number": "B.4.27",
   "title": "Exponents and Roots of Products and Quotients.",
   "body": " Exponents and Roots of Products and Quotients   Let and be nonnegative real numbers. Then and If , then and .  Moreover, if is any nonnegative integer, we can say that and . Also and when .   "
 },
@@ -2408,7 +2561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#example-inverse-solve-equation",
   "type": "Example",
-  "number": "B.4.35",
+  "number": "B.4.28",
   "title": "Using Inverses to Solve an Equation.",
   "body": " Using Inverses to Solve an Equation   Solve the equation .    Adding to both sides of gives us . Next we divide the expressions on both sides by , resulting in . Finally, we take the cube root of both sides, leaving us with . Checking our answer, we verify that as desired.   "
 },
@@ -2417,7 +2570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#subsec-Functions-5-6",
   "type": "Example",
-  "number": "B.4.36",
+  "number": "B.4.29",
   "title": "Solving Equations with Order of Operations.",
   "body": " Solving Equations with Order of Operations   Solve the equation, .    We will demonstrate several methods. To emphasize how order of operations are reversed when undoing operations, we note that adding 8 would be last in a computation. Thus our first step is to subtract 8 (or add ) to both sides of our equation, resulting in . Next we, divide both sides by , leaving . Finally, we add to get .  Note that if we start by dividing by 5, tells us that we must also divide 8 by 5. The resulting equation, or , is correct but more difficult to solve.  Finally, we could solve this equation by first simplifying the left side. Our expression Replacing the original left side by this simplified version gives . Adding to both sides gives and dividing by 5 gives .   "
 },
