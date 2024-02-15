@@ -8,6 +8,6 @@
       </p>
     </introduction>
     <xi:include href="sec-dilations-Cartesian.ptx"/>
-    <xi:include href="sec-dilations-similarity.ptx"/>
-    <xi:include href="sec-dilations-instructor.ptx" />
+    <!--<xi:include href="sec-dilations-similarity.ptx"/>
+    <xi:include href="sec-dilations-instructor.ptx" />-->
 </chapter>
