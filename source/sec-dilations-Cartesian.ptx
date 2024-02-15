@@ -17,7 +17,7 @@
             the horizontal distance between the two points by 
             subtracting the <m>x</m>-coordinates, <m>m(\overline{BC})=9-6 = 3</m>, 
             and the vertical distance by subtracting the <m>y</m>-coordinates, 
-            <m>m(\overline{AC}=6-2 = 4</m>. Then since segment <m>\overline{AB}</m>
+            <m>m(\overline{AC})=6-2 = 4</m>. Then since segment <m>\overline{AB}</m>
             is the hypotenuse of the right triangle <m>\Delta EFG</m>, we can use 
             the Pythagorean Theorem to find its length, namely 
             <m>m(\overline{EAB})=\sqrt{4^2+3^2}=\sqrt{9+16}=\sqrt{25}=5</m>.
@@ -31,10 +31,10 @@
     <!--</sidebyside>-->
     </introduction>    
     <subsection xml:id="subsec-scaling-Cartesian">
-        <title>Magnifying Figures on a Cartesian <m>x,y</m>-Graph</title>
-        <exploration>
+        <title>Dilating Figures on a Cartesian <m>x,y</m>-Graph</title>
+        <exploration xml:id="explor-magnify-quad">
             <task>
-                <title>Constructing a Magnified Quadrilateral</title>
+                <title>Constructing a Dilated Quadrilateral</title>
                 <statement>
                     <p>
                         Use the either a printed copy or the GeoGebra applet 
@@ -87,7 +87,7 @@
                                 </p>
                                 <p>
                                     Then plot and connect the points to form quadrilateral
-                                    <m>\quad A'B'C'D'</m>.
+                                    <m>A'B'C'D'</m>.
                                 </p>
                             </li>
                         </ol>
@@ -149,7 +149,7 @@
                                     Draw the rays <m>\overrightarrow{OA'}</m>,
                                     <m>\overrightarrow{OB'}</m>, <m>\overrightarrow{OC'}</m>,
                                     and <m>\overrightarrow{OD'}</m>. What do you notice about 
-                                    each of these rays?
+                                    these rays?
                                 </p>
                             </li>
                         </ol>  
@@ -157,22 +157,123 @@
                 </statement>
             </task>
         </exploration>
-    </subsection> 
-    <definition xml:id="def-dilation">
-        <idx><h>dilation</h></idx>
-        <idx><h>similarity</h></idx>
-        <idx><h>scale factor</h></idx>
-        <idx><h>center</h><h>dilation</h></idx>
-        <idx><h>magnification</h></idx>
-        <statement>
-            <p>
-                
-            </p>
-        </statement>
-    </definition>
-
-
-
-
+    </subsection>
+    <subsection xml:id="subsec-dilation-terminology">
+        <title>Defining Dilation</title>
+        <p>
+            Quadrilateral <m>A'B'C'D'</m> created in <xref ref="fig-scale-quad"/> 
+            is said to be the <term>image</term>
+            of quadrilateral <m>ABCD</m> under the <term>dilation</term> with 
+            <term>center</term> <m>(0,0)</m> and <term>scale factor</term> 2. Although
+            the word dilation suggests enlarging, a dilation may either scale up or down.  
+        </p>
+        <exercise>
+            <title>Did you notice?</title>
+            <statement>
+                <p>
+                    A few properties related to dilations appeared in 
+                    <xref ref="explor-magnify-quad"/>. Answer the following:
+                    <ol>
+                        <li>
+                            <p>
+                                Does a dilation preserve the shape of figures?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Does a dilation preserve the size of figures?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What does the scale factor tell you about the 
+                                relationship between the lengths of segments in 
+                                the dilated image compared to the lengths of segments
+                                in the original figure?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                If <m>P</m> is a point and <m>P'</m> is its image under 
+                                a dilation, what other point must lie on line 
+                                <m>\overleftrightarrow{PP'}</m> ?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the image of quadrilateral <m>A'B'C'D'</m>,
+                                created in <xref ref="explor-magnify-quad"/> under the
+                                dilation with center <m>(0,0)</m> and scale factor <m>\frac{1}{2}</m>?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    Dilations preserve shape but not size. The length of a dilated
+                    image of a segment is <m>k</m> times the length of the original. 
+                    The line <m>\overleftrightarrow{PP'}</m> must pass through the 
+                    center of the dilation.
+                </p>
+            </answer>
+        </exercise>
+        <definition xml:id="def-dilation">
+            <idx><h>dilation</h></idx>
+            <idx><h>similarity</h></idx>
+            <idx><h>scale factor</h></idx>
+            <idx><h>center</h><h>dilation</h></idx>
+            <idx><h>magnification</h></idx>
+            <statement>
+                <p>
+                    A <term>dilation</term> with 
+                    <term>center</term> <m>Q</m> and <term>scale factor</term> <m>k</m>
+                    is a geometrical transformation that maps each point <m>P</m> to a point <m>P'</m>
+                    on line <m>\overleftrightarrow{QP}</m> so that 
+                    <m>m(\overline{QP'})=k\cdot m(\overline{QP})</m>. Point <m>P'</m> is
+                    called the <term>image</term> of <m>P</m> under the dilation. 
+                </p>
+            </statement>
+        </definition>
+    
+        <exploration>
+            <title>A Dilation not centered at the Origin</title>
+            <introduction>
+                <p>
+                    The center of a dilation does not have to be the origin,
+                    <m>(0,0)</m>. It could be any point in the plane.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use a print copy or the Geogebra applet of 
+                        <xref ref="fig-GGapp-new-center"/> to complete the following:
+                        <ol>
+                            <li>
+                                <p>
+                                    Sketch or construct the dilation of triangle <m>\Delta EFG</m>
+                                    with center <m>H</m> and scale factor <m>\frac{3}{2}</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Sketch or construct the dilation of triangle <m>\Delta EFG</m>
+                                    with center <m>H</m> and scale factor <m>\frac{1}{2}</m>.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="fig-GGapp-new-center">
+                        <caption>GeoGebra applet for dilating triangle <m>\Delta EFG</m></caption>
+                        <interactive xml:id="scale-not-origin"
+                        platform="geogebra">
+                        <slate surface="geogebra" material="uwqquwpn"/>
+                      </interactive>
+                    </figure>
+                </statement>
+            </task>
+        </exploration>
+</subsection>
 
 </section>
