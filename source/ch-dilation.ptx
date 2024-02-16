@@ -3,6 +3,7 @@
 <chapter xml:id="ch-dilation" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Similarity and Congruence</title>
     <xi:include href="sec-dilations-Cartesian.ptx"/>
+    <xi:include href="sec-dilations-virtual.ptx"/>
     <!--<xi:include href="sec-dilations-similarity.ptx"/>
     <xi:include href="sec-dilations-instructor.ptx" />-->
 </chapter>

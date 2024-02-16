@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-dilations-virtual" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Virtual Tools for Dilations</title>
+
+  <introduction>
+    <p>
+        In this section, we use virtual tools to perform dilations. We also 
+        expand our definition of dilations to include negative scale factors.
+    </p>
+  </introduction>
+  <!--<subsection xml:id="subsec-dilations-virtual-scale">
+    <title>How does the Scale Factor affect the Dilated Image?</title>
+  -->
+  <exploration xml:id="explore-sliding-scale">
+    <title>Role of the Scale Factor</title>
+        <introduction>
+            <p>
+                Use <xref ref="fig-vary-scale-factor"/> to complete the tasks
+                in this exploration. This GeoGebra applet allows us to see how changing 
+                the scale factor affects the dilation.
+            </p>
+        </introduction>
+    <task>
+        <statement>
+            <p>
+               With the slider for the scale factor set at <m>s=3</m>, 
+               how is quadrilateral <m>A'B'C'D'</m> related to <m>ABCD</m>?
+            </p>
+            <figure xml:id="fig-vary-scale-factor">
+                <caption>
+                    GeoGebra applet for <xref ref="explore-sliding-scale"/>
+                </caption>
+                <interactive xml:id="slide-scale-app"
+                platform="geogebra">
+                <slate surface="geogebra" material="qjarc5rc"/>
+              </interactive>
+            </figure>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What happens when the scale factor <m>s=1</m>? Why?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What happens when the slider is moved to <m>s=0</m>? Why do you
+                think that happens?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What happens when the slider is moved to <m>s=\frac{-1}{2}</m> ?
+                <m>s=-1</m> ? <m>s=-2</m> ? Describe the effect of a negative 
+                scale factor on a dilation.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Construct the four lines, <m>\overleftrightarrow{EA}</m>,
+                <m>\overleftrightarrow{EB}</m>, <m>\overleftrightarrow{EC}</m>,
+                and <m>\overleftrightarrow{EA}</m>. What do you notice about 
+                these lines and the image <m>A'B'C'D'</m> ? Is this also true 
+                when you move the slider to other values, like <m>s=3</m>?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                With <m>s=3</m>, use GeoGebra to measure the lengths <m>EA</m> and <m>EA'</m>,
+                <m>EB</m> and <m>EB'</m>, <m>EC</m> and <m>EC'</m>, and 
+                <m>ED</m> and <m>ED'</m>. What do you notice about these
+                measurements?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Still with <m>s=3</m>, use GeoGebra to measure the four sides of the
+                original quadrilateral, <m>AB</m>, <m>BC</m>,
+                <m>CD</m>, and <m>DA</m>.Compare these to the measures of the four
+                sides, <m>A'B'</m>, <m>B'C'</m>, <m>C'D'</m> and <m>D'A'</m> of 
+                the dilated quadrilateral. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Measure the area of quadrilateral <m>ABCD</m> and its image 
+                <m>A'B'C'D'</m>. Move the slider as helpful to determine how 
+                the area of a figure is affected by the scale factor.
+            </p>
+        </statement>
+    </task>
+  </exploration>
+  
+</section>
