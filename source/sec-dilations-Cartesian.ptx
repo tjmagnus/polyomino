@@ -275,7 +275,7 @@
             </task>
         </exploration>
 </subsection>
-<subsection xml:id="subsec-dilate-similartri">
+<subsection xml:id="subsec-dilate-similartri-example">
     <title>Dilation and Proportion</title>
     <exploration xml:id="explor-nested-simtri">
         <title>Recognizing a Dilation</title>
@@ -359,7 +359,7 @@
                 </p>
             </statement>
         </task>
-        <task>
+        <task xml:id="task-explor-nested-simtri-defsimilar">
             <statement>
                 <p>
                     Two triangles <m>\Delta ABC</m> and <m>\Delta DEF</m> are 
@@ -381,21 +381,6 @@
                     <slate surface="geogebra" material="enwtc22h"/>
                   </interactive>
     </figure>
-    <definition xml:id="def-similar">
-        <idx><h>similar</h></idx>
-        <notation>
-            <usage><m>\sim</m></usage>
-          <description>similar polygon</description>
-        </notation>
-        <statement>
-            <p>
-                Two polygons are said to be similar if corresponding pairs of 
-                angles are congruent and ratios of corresponding sides are equal.
-                We use the symbol <m>\sim</m> to denote similar triangles. In
-                <xref ref="fig-nested-simtri"/>, we see that 
-                <m>\Delta ABC\sim\Delta DEC</m>.
-            </p>
-        </statement>
-    </definition>
+    
 </subsection>
 </section>

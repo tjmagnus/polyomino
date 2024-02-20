@@ -33,7 +33,7 @@
         <p>
           Two polygons are said to be <term>congruent</term> if they satisfy
           all of the following:
-          <ul>
+          <ul marker="disc">
             <li>
               <p>
                 The polygons have the same number of sides.
@@ -62,6 +62,7 @@
     <p>
       This leads us to another Principle that we will accept as intuitively obvious:
     </p>
+    <!--Prove later?-->
     <principle xml:id="principle-area-of-congruent-figs">
       <title>Area of Congruent Polygons</title>
       <statement>
