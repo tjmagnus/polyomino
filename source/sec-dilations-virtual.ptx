@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-dilations-virtual" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Virtual Tools for Dilations</title>
+<section xml:id="sec-dilations-and-similarity" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Dilations and Similar Figures</title>
 
   <introduction>
     <p>
-        In this section, we use virtual tools to perform dilations. We also 
-        expand our definition of dilations to include negative scale factors.
+        In the last section, we used our familiarity with the Cartesian coordinate system to 
+        understand the actions of dilations. In this section, we will explore more general 
+        examples of dilations, study the role of the scale factor, and look at the relationship 
+        between dilations and similar figures.
     </p>
   </introduction>
   <!--<subsection xml:id="subsec-dilations-virtual-scale">
@@ -56,7 +58,7 @@
     <task>
         <statement>
             <p>
-                What happens when the slider is moved to <m>s=\frac{-1}{2}</m> ?
+                What happens when the slider is moved to <m>s=-\frac{1}{2}</m> ?
                 <m>s=-1</m> ? <m>s=-2</m> ? Describe the effect of a negative 
                 scale factor on a dilation.
             </p>
@@ -167,7 +169,6 @@
             </ol>
         </p>
     </statement>
-    
 </exercise>
 <exploration>
     <title>Mystery Dilations</title>
@@ -186,7 +187,7 @@
                     </li>
                     <li>
                         <p>
-                            What is the constant of proportionality if it exists?
+                            Determine the constant of proportionality if it exists.
                         </p>
                     </li>
                     <li>
@@ -201,10 +202,86 @@
                 <caption>GeoGebra applet for 
                     <xref ref="task-mystery-dilation-quads"/> 
                 </caption>
-                <interactive>
-                    xml:id="GGapp-mystery-dilation-quads"
+                <interactive xml:id="GGapp-mystery-dilation-quads"
                     platform="geogebra">
                     <slate surface="geogebra" material="arvgecw7"/>
+                </interactive>
+            </figure>
+        </statement>
+    </task>
+    <task xml:id="task-mystery-dilation-pentomino">
+        <statement>
+            <p>
+                Pentominos <m>ABCDEFGH</m> and <m>A''B''C''D''E''F''G''H''</m> are given 
+                in the GeoGebra applet, 
+                <xref ref="fig-mystery-dilation-pentomino"/>. Virtual tools for measuring angles
+                and line segments are provided.
+                <ol>
+                    <li>
+                        <p>
+                            Are the two pentominos similar? Be sure to 
+                            check all criteria in the definition of similar.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determine the constant of proportionality if it exists.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Is there a dilation taking <m>ABCDEFGH</m> to <m>A''B''C''D''E''F''G''H''</m>?
+                            If so, locate the center and state the scale factor.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <figure xml:id="fig-mystery-dilation-pentomino">
+                <caption>GeoGebra applet for 
+                    <xref ref="task-mystery-dilation-pentomino"/> 
+                </caption>
+                <interactive
+                    xml:id="GGapp-mystery-dilation-pentomino"
+                    platform="geogebra">
+                    <slate surface="geogebra" material="wde8jtdg"/>
+                </interactive>
+            </figure>
+        </statement>
+    </task>
+    <task xml:id="task-mystery-dilation-concave">
+        <statement>
+            <p>
+                Concave quadrilaterals <m>ABCD</m> and <m>A'B'C'D'</m> are given 
+                in the GeoGebra applet, 
+                <xref ref="fig-mystery-dilation-concave"/>. 
+                <ol>
+                    <li>
+                        <p>
+                            Are the two quadrilaterals similar? Be sure to 
+                            check all criteria in the definition of similar.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determine the constant of proportionality if it exists.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Is there a dilation taking <m>ABCD</m> to <m>A'B'C'D'</m>?
+                            If so, locate the center and state the scale factor for the dilation.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <figure xml:id="fig-mystery-dilation-concave">
+                <caption>GeoGebra applet for 
+                    <xref ref="task-mystery-dilation-concave"/> 
+                </caption>
+                <interactive
+                    xml:id="GGapp-mystery-dilation-concave"
+                    platform="geogebra">
+                    <slate surface="geogebra" material="qsdffzft"/>
                 </interactive>
             </figure>
         </statement>
@@ -212,12 +289,50 @@
     <task>
         <statement>
             <p>
-                This task may demonstrate that similar triangles might not 
-                arise from a dilation.
+                Describe the technique you used to determine whether two figures were similar. How
+                did you find the constant of proportionality?
             </p>
         </statement>
     </task>
-    
+    <task>
+        <statement>
+            <p>
+                Describe the technique you used to determine whether there was a dilation that took 
+                a figure to another figure. How did you find the center of the dilation?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Based on your exploration, which of the following are true?
+                <ol>
+                    <li>
+                        <p>
+                            If two polygons are similar there is a dilation taking one 
+                            polygon to the other.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If there is a dilation taking one polygon to another, then the polygons
+                            are similar.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Both statements are true.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Neither statement is true.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </task>
 </exploration>
 </subsection>
 </section>
