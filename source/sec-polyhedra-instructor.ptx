@@ -1,4 +1,4 @@
-<section xml:id="sec-polyhedra-instructor" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-polyhedra-instructor" xmlns:xi="http://www.w3.org/2001/XInclude" component="instructor">
     <title>Instructor's Notes</title>
 
     <subsection>
@@ -36,7 +36,7 @@
         <p>
             The first exploration provides an opportunity to review terminology 
             from the preceding section before moving on. The task 
-            <xref ref="Archimedean-construction"/> may be done with plastic or stiff  
+            <xref ref="Archimedean-construction-extension"/> may be done with plastic or stiff  
             paper polygonal pieces or you may choose to provide nets. This task may 
             also be omitted.
         </p>

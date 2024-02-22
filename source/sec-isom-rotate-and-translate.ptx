@@ -72,6 +72,10 @@
         This suggests that this reflection, and in fact any reflection, should 
         <term>preserve linearity</term> of points. 
     </p>
+    <figure xml:id="fig-illustrate-collineation">
+        <caption>Action of a Reflection</caption>
+        <image source="collineation-reflection"/>
+    </figure>
     <definition xml:id="def-collineation">
         <statement>
             <p>
@@ -91,38 +95,47 @@
         <task>
             <statement>
                 <p>
-                    Refer to the names of points in <xref ref="fig-illustrate-collineation"/>
+                    Give examples in <xref ref="fig-illustrate-collineation"/>
                     that illustrate each of the following properties preserved by the 
                     reflection. In some cases, there may be more than one answer.
                     <ol>
                         <li>
                             <p>
-                                Interior of a polygon
+                                A point in the interior of a polygon maps to a point in the 
+                                interior of the image of the polygon.
                             </p>
                         </li>
                         <li>
                             <p>
-                                Exterior of a polygon
+                                A point in the exterior of a polygon maps to a point in the 
+                                exterior of the image of the polygon.
                             </p>
                         </li>
                         <li>
                             <p>
-                                Betweenness of points on a line
+                                If a point is between two other points on a line, then its 
+                                image will also lie between the images of those two points.
                             </p>
                         </li>
                         <li>
                             <p>
-                                A point that reflects from right to left
+                                Points on the right side of the mirror will reflect to a point on the 
+                                left side of the mirror.
                             </p>
                         </li>
                         <li>
                             <p>
-                                Distance between points
+                                Distance between points is preserved.
                             </p>
                         </li>
                         <li>
                             <p>
-                                Angle measure
+                                Angle measure is preserved.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The image of a point maps reflects back to the original point. 
                             </p>
                         </li>
                     </ol>

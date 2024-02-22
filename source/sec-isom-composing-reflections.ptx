@@ -447,6 +447,14 @@
             using vector GH. A and C are two vertices on the original.
           </shortdescription>
       </image>
-   </figure>
-</subsection>
+    </figure>
+    <exercise>
+      <title>Reflective Question</title>
+      <statement>
+        <p>
+          Will a glide reflection have any fixed point(s)? How do you know?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
 </section>

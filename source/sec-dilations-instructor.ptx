@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-isom-instructor" xmlns:xi="http://www.w3.org/2001/XInclude" component="instructor">
+  <title>Instructor Notes</title>
+
+  <subsection>
+    <title>Notes for <xref ref="sec-dilations-Cartesian"/></title>
+    <p>
+Add.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Notes for <xref ref="sec-dilations-and-similarity"/></title>
+    <p>
+Add.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Notes for <xref ref="sec-dilations-similiarcongruent"/></title>
+  <p>
+    Add.
+  </p>
+  </subsection>
+</section>

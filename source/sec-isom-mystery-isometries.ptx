@@ -56,6 +56,36 @@
                 </answer>
             </task>
             <task>
+                <title>Fixed Point Review</title>
+                <statement>
+                    <p>
+                        Sometimes we can tell which points are fixed and use that 
+                        to identify the type of isometry.
+                    </p>
+                    <p> 
+                        Of the types of isometries studied thus far, 
+                        <ol>
+                            <li>
+                                <p>
+                                    which type has no fixed points?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    which type has exactly one fixed point?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    which type fixes all points that lie on a 
+                                    single line?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </task>
+            <task>
                 <title>Review of Reflections</title>
                 <statement>
                     <p>

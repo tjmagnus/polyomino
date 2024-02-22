@@ -83,7 +83,7 @@
     </p>
     <exercise>
       <title>
-        Distinguishing Between Types of Isometries, Part 1
+        Distinguishing Between Types of Isometries by Orientation
       </title>
       <task>
         <statement>
@@ -113,6 +113,58 @@
         </statement>
       </task>
     </exercise>
+    </subsection>
+    <subsection xml:id="subsec-fixed-points">
+      <title>Recognizing Isometries by Fixed Points</title>
+      <p>
+        Another way to distinguish between isometries is to note which points,
+        if any, are unmoved by the isometry. Such a point is called a <term>fixed 
+        point</term> of the isometry. If <m>P</m> is a fixed point of isometry <m>f</m>,
+        then <m>f(P)=P</m>. Following our convention of calling the image of point 
+        <m>P</m> by the symbol <m>P'</m>, <m>P</m> is a fixed point if <m>P'=P</m>.
+        <idx><h>fixed point</h></idx>
+      </p>
+      <exploration>
+        <title>Determining the Fixed Points of an Isometry</title>
+        <task>
+          <statement>
+            <p>
+              In <xref ref="fig-illustrate-collineation"/>, which point(s) are not 
+              moved by the reflection across <m>\overleftrightarrow{HI}</m>? Are there 
+              unlabeled points that are also fixed by this reflection? Explain.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              In <xref ref="rotated-triangle"/>, which point(s) are not moved by the 
+              rotation about point <m>F</m>? Are there any
+              unlabeled points that are also fixed by this reflection? Explain.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              In <xref ref="app-translate-wcoords"/>, which point(s) are not moved by the 
+              translation by vector <m>\overrightarrow{FG}</m>? Are there any
+              unlabeled points that are fixed by this translation? Explain.
+            </p>
+          </statement>
+        </task>
+      </exploration>
+      <conclusion>
+        <p>
+          Like the function <m>f(x)=x</m> you may have encountered in another
+          course, there is a transformation of the plane that maps every point to 
+          itself. We call this transformation, the <term>identity transformation</term>.
+          Under the action of the identity transformation, every point is a fixed point.
+          Clearly, the identity function also preserves distance, angle measure, and 
+          orientation. It is an isometry that preserves orientation.
+          <idx><h>identity transformation</h></idx>
+        </p>
+      </conclusion>
     </subsection>
     <subsection>
       <title>Defining Objects of Isometries</title>
