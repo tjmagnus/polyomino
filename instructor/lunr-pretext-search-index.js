@@ -2283,8 +2283,8 @@ var ptx_lunr_docs = [
   "url": "sec-dilations-Cartesian.html",
   "type": "Section",
   "number": "5.1",
-  "title": "Scaling and Similarity",
-  "body": " Scaling and Similarity   In this section, we explore a type of transformation which changes the distance between points. We begin by exploring some examples on the Cartesian -plane.   To compute the length of a segment on a graph we use the Pythagorean Theorem. In , the coordinates of point are and of point are . We find the horizontal distance between the two points by subtracting the -coordinates, , and the vertical distance by subtracting the -coordinates, . Then since segment is the hypotenuse of the right triangle , we can use the Pythagorean Theorem to find its length, namely .   Measuring distance on a graph   Right triange ABC described above.       Dilating Figures on a Cartesian -Graph   Constructing a Dilated Quadrilateral  Use the either a printed copy or the GeoGebra applet of to complete the following:   Compute the lengths of the segment:                  Measure the angles:                  Multiply the coordinates of each vertex by 2 to obtain coordinates for points , , , and .  Then plot and connect the points to form quadrilateral .      GeoGebra app to scale a quadrilateral     Relationships between the Image and the Original  Refer to your work in as you answer the following:   Describe how the quadrilateral you drew in relates to the original quadrilateral .    Measure the new angles, , , , and . How do they compare to the original four angles?    Compute the lengths of the following segments              Compare these to the original side lengths.    Let be the point . Draw the rays , , , and . What do you notice about these rays?         Defining Dilation  Quadrilateral created in is said to be the image of quadrilateral under the dilation with center  and scale factor 2. Although the word dilation suggests enlarging, a dilation may either scale up or down.  Did you notice?  A few properties related to dilations appeared in . Answer the following:   Does a dilation preserve the shape of figures?    Does a dilation preserve the size of figures?    What does the scale factor tell you about the relationship between the lengths of segments in the dilated image compared to the lengths of segments in the original figure?    If is a point and is its image under a dilation, what other point must lie on line ?    What is the image of quadrilateral , created in under the dilation with center and scale factor ?      Dilations preserve shape but not size. The length of a dilated image of a segment is times the length of the original. The line must pass through the center of the dilation.    dilation  similarity  scale factor  center dilation  magnification   A dilation with center  and scale factor  is a geometrical transformation that maps each point to a point on line so that . Point is called the image of under the dilation.     A Dilation not centered at the Origin   The center of a dilation does not have to be the origin, . It could be any point in the plane.    Use a print copy or the Geogebra applet of to complete the following:   Sketch or construct the dilation of triangle with center and scale factor .    Sketch or construct the dilation of triangle with center and scale factor .      GeoGebra applet for dilating triangle        Dilation and Proportion   Recognizing a Dilation   In , a dilation takes to .    What is the center of the dilation?    What is the scale factor of this dilation?    Compute each of the ratios:           What do you notice?    Compute the ratios:           Are these the same? Why or why not?    Are any of the angles in triangle congruent to an angle in ? Identify all pairs of congruent angles.    Recall that two triangles and are said to be congruent if the two triangles have three pairs of congruent corresponding angles, namely , , and , and three pairs of congruent corresponding sides, namely , , and . Are triangles and in congruent? Explain.    Two triangles and are said to be similar triangles if the two triangles have three pairs of congruent corresponding angles and the ratios of each of the three pairs of corresponding sides are equal; i.e., , , , and . Are the triangles in similar? Explain..     GeoGebra applet for     similar    similar polygon    Two polygons are said to be similar if corresponding pairs of angles are congruent and ratios of corresponding sides are equal. We use the symbol to denote similar triangles. In , we see that .     "
+  "title": "Transformations that Dilate",
+  "body": " Transformations that Dilate   In this section, we explore a type of transformation which changes the distance between points. We begin by exploring some examples on the Cartesian -plane.   To compute the length of a segment on a graph we use the Pythagorean Theorem. In , the coordinates of point are and of point are . We find the horizontal distance between the two points by subtracting the -coordinates, , and the vertical distance by subtracting the -coordinates, . Then since segment is the hypotenuse of the right triangle , we can use the Pythagorean Theorem to find its length, namely .   Measuring distance on a graph   Right triange ABC described above.       Dilating Figures on a Cartesian -Graph   Constructing a Dilated Quadrilateral  Use the either a printed copy or the GeoGebra applet of to complete the following:   Compute the lengths of the segment:                  Measure the angles:                  Multiply the coordinates of each vertex by 2 to obtain coordinates for points , , , and .  Then plot and connect the points to form quadrilateral .      GeoGebra app to scale a quadrilateral     Relationships between the Image and the Original  Refer to your work in as you answer the following:   Describe how the quadrilateral you drew in relates to the original quadrilateral .    Measure the new angles, , , , and . How do they compare to the original four angles?    Compute the lengths of the following segments              Compare these to the original side lengths.    Let be the point . Draw the rays , , , and . What do you notice about these rays?         Defining Dilation  Quadrilateral created in is said to be the image of quadrilateral under the dilation with center  and scale factor 2. Although the word dilation suggests enlarging, a dilation may either scale up or down.  Did you notice?  A few properties related to dilations appeared in . Answer the following:   Does a dilation preserve the shape of figures?    Does a dilation preserve the size of figures?    What does the scale factor tell you about the relationship between the lengths of segments in the dilated image compared to the lengths of segments in the original figure?    If is a point and is its image under a dilation, what other point must lie on line ?    What is the image of quadrilateral , created in under the dilation with center and scale factor ?      Dilations preserve shape but not size. The length of a dilated image of a segment is times the length of the original. The line must pass through the center of the dilation.    dilation  similarity  scale factor  center dilation  magnification   A dilation with center  and scale factor  is a geometrical transformation that maps each point to a point on line so that . Point is called the image of under the dilation.     A Dilation not centered at the Origin   The center of a dilation does not have to be the origin, . It could be any point in the plane.    Use a print copy or the Geogebra applet of to complete the following:   Sketch or construct the dilation of triangle with center and scale factor .    Sketch or construct the dilation of triangle with center and scale factor .      GeoGebra applet for dilating triangle        Dilation and Proportion   Recognizing a Dilation   In , a dilation takes to .    What is the center of the dilation?    What is the scale factor of this dilation?    Compute each of the ratios:           What do you notice?    Compute the ratios:           Are these the same? Why or why not?    Are any of the angles in triangle congruent to an angle in ? Identify all pairs of congruent angles.    Recall that two triangles and are said to be congruent if the two triangles have three pairs of congruent corresponding angles, namely , , and , and three pairs of congruent corresponding sides, namely , , and . Are triangles and in congruent? Explain.    Two triangles and are said to be similar triangles if the two triangles have three pairs of congruent corresponding angles and the ratios of each of the three pairs of corresponding sides are equal; i.e., , , , and . Are the triangles in similar? Explain..     GeoGebra applet for     "
 },
 {
   "id": "diag-seg-measure",
@@ -2359,13 +2359,49 @@ var ptx_lunr_docs = [
   "body": " GeoGebra applet for   "
 },
 {
+  "id": "sec-dilations-and-similarity",
+  "level": "1",
+  "url": "sec-dilations-and-similarity.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Dilations and Similar Figures",
+  "body": " Dilations and Similar Figures   In the last section, we used our familiarity with the Cartesian coordinate system to understand the actions of dilations. In this section, we will explore more general examples of dilations, study the role of the scale factor, and look at the relationship between dilations and similar figures.     Role of the Scale Factor   Use to complete the tasks in this exploration. This GeoGebra applet allows us to see how changing the scale factor affects the dilation.    With the slider for the scale factor set at , how is quadrilateral related to ?   GeoGebra applet for       What happens when the scale factor ? Why?    What happens when the slider is moved to ? Why do you think that happens?    What happens when the slider is moved to ? ? ? Describe the effect of a negative scale factor on a dilation.    Construct the four lines, , , , and . What do you notice about these lines and the image ? Is this also true when you move the slider to other values, like ?    With , use GeoGebra to measure the lengths and , and , and , and and . What do you notice about these measurements?    Still with , use GeoGebra to measure the four sides of the original quadrilateral, , , , and .Compare these to the measures of the four sides, , , and of the dilated quadrilateral.    Measure the area of quadrilateral and its image . Move the slider as helpful to determine how the area of a figure is affected by the scale factor.     Dilations and Similar Triangles  Our work in and suggests that the image of a polygonal figure under a dilation will have the same shape as the original and that the ratios, , of the lengths of the image's sides to their corresponding lengths in the original will be preserved.    similar  proportional sides  constant of porportionality  corresponding sides  corresponding angles    similar    Two polygons are said to be similar if corresponding pairs of angles are congruent and ratios of corresponding sides are equal. We use the symbol to denote similar triangles. This common ratio, , such that for all sides is called the constant of proportionality . In , we see that with constant of proportionality , and in , with , the absolute value of the scale factor of the dilation.    Check your understanding     Why are absolute values necessary when we say that the constant of proportionality , the absolute value of the scale factor ?    Will a pair of congruent figures also be similar?    Will a pair of similar triangles also be congruent?       Mystery Dilations   Quadrilaterals and are given in . Virtual tools for measuring angles and line segments are provided.   Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.    Determine the constant of proportionality if it exists.    Is there a dilation taking to ? If so, locate the center and state the scale factor.      GeoGebra applet for       Pentominos and are given in the GeoGebra applet, . Virtual tools for measuring angles and line segments are provided.   Are the two pentominos similar? Be sure to check all criteria in the definition of similar.    Determine the constant of proportionality if it exists.    Is there a dilation taking to ? If so, locate the center and state the scale factor.      GeoGebra applet for       Concave quadrilaterals and are given in the GeoGebra applet, .   Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.    Determine the constant of proportionality if it exists.    Is there a dilation taking to ? If so, locate the center and state the scale factor for the dilation.      GeoGebra applet for       Describe the technique you used to determine whether two figures were similar. How did you find the constant of proportionality?    Describe the technique you used to determine whether there was a dilation that took a figure to another figure. How did you find the center of the dilation?    Based on your exploration, which of the following are true?   If two polygons are similar there is a dilation taking one polygon to the other.    If there is a dilation taking one polygon to another, then the polygons are similar.    Both statements are true.    Neither statement is true.        "
+},
+{
+  "id": "explore-sliding-scale",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#explore-sliding-scale",
+  "type": "Exploration",
+  "number": "5.2.1",
+  "title": "Role of the Scale Factor.",
+  "body": " Role of the Scale Factor   Use to complete the tasks in this exploration. This GeoGebra applet allows us to see how changing the scale factor affects the dilation.    With the slider for the scale factor set at , how is quadrilateral related to ?   GeoGebra applet for       What happens when the scale factor ? Why?    What happens when the slider is moved to ? Why do you think that happens?    What happens when the slider is moved to ? ? ? Describe the effect of a negative scale factor on a dilation.    Construct the four lines, , , , and . What do you notice about these lines and the image ? Is this also true when you move the slider to other values, like ?    With , use GeoGebra to measure the lengths and , and , and , and and . What do you notice about these measurements?    Still with , use GeoGebra to measure the four sides of the original quadrilateral, , , , and .Compare these to the measures of the four sides, , , and of the dilated quadrilateral.    Measure the area of quadrilateral and its image . Move the slider as helpful to determine how the area of a figure is affected by the scale factor.   "
+},
+{
   "id": "def-similar",
   "level": "2",
-  "url": "sec-dilations-Cartesian.html#def-similar",
+  "url": "sec-dilations-and-similarity.html#def-similar",
   "type": "Definition",
-  "number": "5.1.7",
+  "number": "5.2.2",
   "title": "",
-  "body": " similar    similar polygon    Two polygons are said to be similar if corresponding pairs of angles are congruent and ratios of corresponding sides are equal. We use the symbol to denote similar triangles. In , we see that .   "
+  "body": " similar  proportional sides  constant of porportionality  corresponding sides  corresponding angles    similar    Two polygons are said to be similar if corresponding pairs of angles are congruent and ratios of corresponding sides are equal. We use the symbol to denote similar triangles. This common ratio, , such that for all sides is called the constant of proportionality . In , we see that with constant of proportionality , and in , with , the absolute value of the scale factor of the dilation.   "
+},
+{
+  "id": "subsubsec-dilations-similar-4",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#subsubsec-dilations-similar-4",
+  "type": "Checkpoint",
+  "number": "5.2.3",
+  "title": "Check your understanding.",
+  "body": "Check your understanding     Why are absolute values necessary when we say that the constant of proportionality , the absolute value of the scale factor ?    Will a pair of congruent figures also be similar?    Will a pair of similar triangles also be congruent?     "
+},
+{
+  "id": "subsubsec-dilations-similar-5",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#subsubsec-dilations-similar-5",
+  "type": "Exploration",
+  "number": "5.2.2",
+  "title": "Mystery Dilations.",
+  "body": " Mystery Dilations   Quadrilaterals and are given in . Virtual tools for measuring angles and line segments are provided.   Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.    Determine the constant of proportionality if it exists.    Is there a dilation taking to ? If so, locate the center and state the scale factor.      GeoGebra applet for       Pentominos and are given in the GeoGebra applet, . Virtual tools for measuring angles and line segments are provided.   Are the two pentominos similar? Be sure to check all criteria in the definition of similar.    Determine the constant of proportionality if it exists.    Is there a dilation taking to ? If so, locate the center and state the scale factor.      GeoGebra applet for       Concave quadrilaterals and are given in the GeoGebra applet, .   Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.    Determine the constant of proportionality if it exists.    Is there a dilation taking to ? If so, locate the center and state the scale factor for the dilation.      GeoGebra applet for       Describe the technique you used to determine whether two figures were similar. How did you find the constant of proportionality?    Describe the technique you used to determine whether there was a dilation that took a figure to another figure. How did you find the center of the dilation?    Based on your exploration, which of the following are true?   If two polygons are similar there is a dilation taking one polygon to the other.    If there is a dilation taking one polygon to another, then the polygons are similar.    Both statements are true.    Neither statement is true.      "
 },
 {
   "id": "list-of-principles",
@@ -2390,7 +2426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#def-expression",
   "type": "Definition",
-  "number": "B.1.8",
+  "number": "B.1.7",
   "title": "",
   "body": " expression  algebraic expression  numerical expression   An expression in mathematics is a representation of a numerical quantity consisting of a finite number of variables and\/or numbers joined by algebraic operations such as addition, subtraction, multiplication, division, and exponentiation. An expression is said to be algebraic if it contains at least one variable. We will also use the term numerical expression to describe any representation that is either an algebraic expression or number.   "
 },
@@ -2399,7 +2435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#def-equation",
   "type": "Definition",
-  "number": "B.1.9",
+  "number": "B.1.8",
   "title": "",
   "body": " algebraic equation  equation   An equation is a statement formed by joining two algebraic expressions together with an equal sign. When we solve an equation, we determine which numerical quantities will make the statement true.   "
 },
@@ -2408,7 +2444,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#example-simplify",
   "type": "Example",
-  "number": "B.1.10",
+  "number": "B.1.9",
   "title": "Simplifying an Expression.",
   "body": " Simplifying an Expression   Simplify the expression .    Solving this expression requires an expansion of before we can subtract . One correct way of writing this is the following.   One might also write and then compute    "
 },
@@ -2417,7 +2453,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#example-solving",
   "type": "Example",
-  "number": "B.1.11",
+  "number": "B.1.10",
   "title": "Solving an Equation.",
   "body": " Solving an Equation   Solve the equation     One acceptable way of writing this for exercises is the following: We have found two numbers and that solve the equation. If this were a problem about geometric quantities, we frequently rule out negative numbers as unreasonable.   "
 },
@@ -2435,7 +2471,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-closure-reals",
   "type": "Principle",
-  "number": "B.2.12",
+  "number": "B.2.11",
   "title": "Closure of Addition and Multiplication on the Set of Real Numbers.",
   "body": " Closure of Addition and Multiplication on the Set of Real Numbers   If and are real numbers, then and are real numbers.   "
 },
@@ -2444,7 +2480,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-commutative",
   "type": "Principle",
-  "number": "B.2.13",
+  "number": "B.2.12",
   "title": "Commutative Laws.",
   "body": " Commutative Laws   If and are real numbers, then and .   "
 },
@@ -2453,7 +2489,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-associative",
   "type": "Principle",
-  "number": "B.2.14",
+  "number": "B.2.13",
   "title": "Associative Laws.",
   "body": " Associative Laws   If , , and are real numbers, then and .   "
 },
@@ -2462,7 +2498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-distributive",
   "type": "Principle",
-  "number": "B.2.15",
+  "number": "B.2.14",
   "title": "The Distributive Law.",
   "body": " The Distributive Law   If , , and are real numbers, then and .  Note that the distributive law also allows us to add fractions with a common denominator; In short,    "
 },
@@ -2471,7 +2507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#examp-mult-poly",
   "type": "Example",
-  "number": "B.2.16",
+  "number": "B.2.15",
   "title": "Multiplying a Polynomial.",
   "body": " Multiplying a Polynomial   Multiply .     First we use the distributive law, multiplying each term in the second factor by : .  An obtional step, but one that makes the distributive law more evident, is to us the commutative law of multiplication to reverse the order of the factors in each term:   We can then use the distributive law on each term to get   Finally, we use the distributive law to combine like terms:   Although the distributive law makes the process work, we typically speed the process up by multiplying each term in the first factor by each term in the second factor:    "
 },
@@ -2480,7 +2516,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-identity",
   "type": "Principle",
-  "number": "B.2.17",
+  "number": "B.2.16",
   "title": "The Identity Properties.",
   "body": " The Identity Properties   If is an real number, then , , , and We call 0 the additive identity and 1 the multiplicative identity .   "
 },
@@ -2489,7 +2525,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#field-properties-11",
   "type": "Principle",
-  "number": "B.2.18",
+  "number": "B.2.17",
   "title": "The Inverse Properties.",
   "body": " The Inverse Properties   If is a real number, then the number exists and has the property that . If is an nonzero real number, then the number exists and has the property that . The number is said to be the additive inverse of and the number is said to be the multiplicative inverse of .   "
 },
@@ -2507,7 +2543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-addition-equality",
   "type": "Principle",
-  "number": "B.3.19",
+  "number": "B.3.18",
   "title": "Addition Principle of Equality.",
   "body": " Addition Principle of Equality   If we add (or subtract) the same numerical expression from both sides of an equation, we get an equivalent Two equations are equivalent if they have exactly the same solution set. equation. In symbols, if and only if . Here, , , and may be numbers or algebraic expressions.   "
 },
@@ -2516,7 +2552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-multiplication-equality",
   "type": "Principle",
-  "number": "B.3.20",
+  "number": "B.3.19",
   "title": "Multiplication Principle of Equality.",
   "body": " Multiplication Principle of Equality   If we multiply (or divide) both sides of an equation by the same nonzero numerical expression, we get an equivalent equation. In symbols, if and only if whenever , , and are numbers or algebraic expressions and . Similarly, if , then is equivalent to .   "
 },
@@ -2525,7 +2561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-symmetry-equality",
   "type": "Principle",
-  "number": "B.3.21",
+  "number": "B.3.20",
   "title": "Symmetry Property of Equality.",
   "body": " Symmetry Property of Equality   The statement is true if and only if the statement is true.   "
 },
@@ -2534,7 +2570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-transtive-equality",
   "type": "Principle",
-  "number": "B.3.22",
+  "number": "B.3.21",
   "title": "Transitive Property of Equality.",
   "body": " Transitive Property of Equality   If and are true statements, then .   "
 },
@@ -2552,7 +2588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-multiply-by-zero",
   "type": "Principle",
-  "number": "B.3.23",
+  "number": "B.3.22",
   "title": "Multiplication by Zero.",
   "body": " Multiplication by Zero   For any numerical expression , .   "
 },
@@ -2561,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-zero-product",
   "type": "Principle",
-  "number": "B.3.24",
+  "number": "B.3.23",
   "title": "Zero Product Property.",
   "body": " Zero Product Property   If and are any numerical expressions such that , then at least one of the factors or must equal zero.   "
 },
@@ -2570,7 +2606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#equality-properties-14",
   "type": "Example",
-  "number": "B.3.25",
+  "number": "B.3.24",
   "title": "Solving a Polynomial Equation Using Principles.",
   "body": " Solving a Polynomial Equation Using Principles   Solve .    In symbols, with properties used: Click on solution to see this solution in paragraph form.    To solve , we first use to subtract from both sides of the equation so that the right side of the equation is 0. Thus, . By , . Substituting into our earlier equation, we see . Therefore, informs us that one of the following must be true: , , or . Solving each of these for gives the possible answers, , , and . Substituting each of these into the original equation verifies that the solution consists of these three values, , , and .  Click on answer to see the solution as a series of equations.   "
 },
@@ -2588,7 +2624,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#subsec-Functions-2-3",
   "type": "Example",
-  "number": "B.4.26",
+  "number": "B.4.25",
   "title": "A Function from Algebra.",
   "body": " A Function from Algebra   Let . Compute the following:               a) , b) , c) which can be simplified to .   "
 },
@@ -2597,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#def-function",
   "type": "Definition",
-  "number": "B.4.27",
+  "number": "B.4.26",
   "title": "",
   "body": " function   A function is a mapping that assigns to each input exactly one output.   "
 },
@@ -2606,7 +2642,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#def-sqrt",
   "type": "Definition",
-  "number": "B.4.28",
+  "number": "B.4.27",
   "title": "",
   "body": " square root  square   The square of a number is the number . Note that the number may be negative, positive, or 0, but the square, is always greater than or equal to 0.  The square root of a number is the nonnegative number such that . We use the notation to represent the square root of .   "
 },
@@ -2615,7 +2651,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#example-algrev-sq-sqrt",
   "type": "Example",
-  "number": "B.4.29",
+  "number": "B.4.28",
   "title": "Computing Squares and Square Roots.",
   "body": " Computing Squares and Square Roots   Compute the following using the definitions of square and square root. A calculator should not be necessary.                  a) , b) , c) , d)    "
 },
@@ -2633,7 +2669,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#principle-invpropofsqrt",
   "type": "Principle",
-  "number": "B.4.30",
+  "number": "B.4.29",
   "title": "Inverse Property of Squares and Square Roots.",
   "body": " Inverse Property of Squares and Square Roots   Let be a nonnegative real number. Then and .   "
 },
@@ -2642,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#examp-algrev-triangleleg",
   "type": "Example",
-  "number": "B.4.31",
+  "number": "B.4.30",
   "title": "Finding the Length of a Leg of a Right Triangle.",
   "body": " Finding the Length of a Leg of a Right Triangle   The length of the hypotenuse is 16 inches and the length of one leg is 10 inches. Determine the length of the other leg.    By the Pythagorean Theorem, we know or . Subtracting from both sides of the equation, we get . Taking the square root of both sides of the equation, we see    "
 },
@@ -2651,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#principle-exp-rt-product",
   "type": "Principle",
-  "number": "B.4.32",
+  "number": "B.4.31",
   "title": "Exponents and Roots of Products and Quotients.",
   "body": " Exponents and Roots of Products and Quotients   Let and be nonnegative real numbers. Then and If , then and .  Moreover, if is any nonnegative integer, we can say that and . Also and when .   "
 },
@@ -2660,7 +2696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#example-inverse-solve-equation",
   "type": "Example",
-  "number": "B.4.33",
+  "number": "B.4.32",
   "title": "Using Inverses to Solve an Equation.",
   "body": " Using Inverses to Solve an Equation   Solve the equation .    Adding to both sides of gives us . Next we divide the expressions on both sides by , resulting in . Finally, we take the cube root of both sides, leaving us with . Checking our answer, we verify that as desired.   "
 },
@@ -2669,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#subsec-Functions-5-6",
   "type": "Example",
-  "number": "B.4.34",
+  "number": "B.4.33",
   "title": "Solving Equations with Order of Operations.",
   "body": " Solving Equations with Order of Operations   Solve the equation, .    We will demonstrate several methods. To emphasize how order of operations are reversed when undoing operations, we note that adding 8 would be last in a computation. Thus our first step is to subtract 8 (or add ) to both sides of our equation, resulting in . Next we, divide both sides by , leaving . Finally, we add to get .  Note that if we start by dividing by 5, tells us that we must also divide 8 by 5. The resulting equation, or , is correct but more difficult to solve.  Finally, we could solve this equation by first simplifying the left side. Our expression Replacing the original left side by this simplified version gives . Adding to both sides gives and dividing by 5 gives .   "
 },
