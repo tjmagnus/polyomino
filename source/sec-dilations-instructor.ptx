@@ -12,13 +12,23 @@ Add.
   <subsection>
     <title>Notes for <xref ref="sec-dilations-and-similarity"/></title>
     <p>
-Add.
+      add
     </p>
   </subsection>
   <subsection>
     <title>Notes for <xref ref="sec-dilations-similiarcongruent"/></title>
   <p>
-    Add.
+    <xref ref="explore-scalefactor-proportion"/> can be done virtually or on 
+      paper copies. The grid allows students to make computations that are more 
+      precise than a ruler. Besides being a review, the first task emphasizes that 
+      the scale factor is equal to the constant of proportionality and that
+      <m>\frac{AA'}{OA'}</m> is a different value. In fact, in this example,
+        <md>
+          <mrow> \frac{AA'}{OA'}\amp =\frac{OA'-OA}{OA'} </mrow>
+          <mrow> \amp =\frac{OA'}{OA'}-\frac{OA}{OA'}</mrow>
+          <mrow> \amp =1-\frac{1}{k}</mrow>
+        </md>
+      where <m>k</m> is the scale factor.
   </p>
   </subsection>
 </section>
