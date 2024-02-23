@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-dilations-Pyth-golden" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Pythagorean Theorem and the Golden Triangle</title>
+
+  <subsection xml:id="subsec-dil-Pyth-golden-review">
+    <title>A Review of Similarity</title>
+  <exploration>
+    <task xml:id="task-sim-right-triangles">
+      <statement>
+        <p>
+          <xref ref="fig-sim-right-triangles"/> gives a triangle <m>\Delta ABC</m>
+          and its image <m>\Delta A'B'C'</m>. Use it to complete the following.
+          <ol>
+            <li>
+              <p>
+                Determine the center <m>O</m> of the dilation.
+              </p>
+            </li>
+            <li>
+              <p>
+                Determine <m>\frac{OA'}{OA}</m>, <m>\frac{OB'}{OB}</m>, and 
+                <m>\frac{OC'}{OC}</m>. What does this tell you about the dilation? 
+              </p>
+            </li>
+            <li>
+              <p>
+                Is it true that <m>\frac{OA'}{AA'}=\frac{OB'}{BB'}=\frac{OC'}{CC'}</m> ?
+                Are these equal to the scale factor?
+              </p>
+            </li>
+            <li>
+              <p>
+                Is it true that <m>\frac{A'B'}{AB}=\frac{B'C'}{BC}=\frac{A'C'}{AC}</m> ?
+                Are these equal to the scale factor?
+              </p>
+            </li>
+            <li>
+              <p>
+                Which pairs of angles must be congruent?
+              </p>
+            </li>
+          </ol>
+        </p>
+        <figure xml:id="fig-sim-right-triangles">
+          <caption>GeoGebra applet for <xref ref="task-sim-right-triangles"/></caption>
+          <interactive xml:id="app-sim-right-triangles"
+          platform="geogebra">
+          <slate surface="geogebra" material="xevrjywj"/>
+        </interactive>
+        </figure>
+      </statement>
+    </task>
+    <task xml:id="exp-identify-sim-parts">
+      <statement>
+        <p>
+          In <xref ref="fig-identify-sim-parts"/>, triangle <m>\Delta FGH</m> is
+          similar to triangle <m>\Delta IJK</m>. Determine the following:
+          <ol>
+            <li>
+              <p>
+                <m>m\angle FGH</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>m\angle FHG</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>m\angle JIK</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>m\angle KIJ</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                The scale factor of the dilation that takes <m>\Delta FGH</m>
+                to <m>\Delta IJK</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>GH</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>IJ</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+        <figure xml:id="fig-identify-sim-parts">
+          <caption>Illustration for <xref ref="exp-identify-sim-parts"/></caption>
+          <image source="illust-ident-sim-parts">
+            <shortdescription>Triangles FGH and IJK are similar. Angle 
+              GFH has measure 110.34, angle IJK has measure 53.8. FH has length
+              13, IK has length 7.8, and, JK has length 9.06. 
+            </shortdescription>
+          </image>
+        </figure>
+      </statement>
+    </task>
+  </exploration>
+</subsection>
+<subsection xml:id="subsec-similar-applications">
+    <title>Applications of Similarity</title>
+    <p>
+        We now apply our knowledge of similarity to two topics: the Pythagorean 
+        Theorem and Golden Triangles.
+    </p>
+    <exploration xml:id="explor-similar-Pyth">
+        <title>A Proof of the Pythagorean Theorem</title>
+        <introduction>
+            <p>
+                Use <xref ref="fig-right-tri-nest"/> for this exploration:
+            </p>
+        </introduction>
+        <task xml:id="task-nested-rt-tri">
+            <title>Triangles within a triangle</title>
+            <statement>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Measure angles <m>\angle ABC</m>, <m>\angle BCA</m>,
+                                and <m>\angle CAB</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Draw a line segment from point <m>C</m> meeting side <m>\overline{AB}</m> 
+                                perpendicularly at a point <m>D</m>.
+                                How many triangles are now in the sketch? Name them.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                To what other angle(s) is <m>\angle CDA</m> congruent?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                To what other angle(s) is <m>\angle ACD</m> congruent?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Explain how you know triangle <m>\Delta ACD</m> is similar
+                                to <m>\Delta ABC</m>. What is the constant of proportionality?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What other triangle is similar to triangle <m>\Delta ABC</m>?
+                                Be sure to write the letters in the order of corresponding
+                                vertices.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <figure xml:id="fig-right-tri-nest">
+                    <caption>GeoGebra applet of a Right Triangle</caption>
+                    <interactive xml:id="app-right-tri-nest"
+                        platform="geogebra">
+                        <slate surface="geogebra" material="fcsfhfzh"/>
+                    </interactive>
+                </figure>
+            </statement>
+        </task>
+        <task xml:id="task-Pyth-pf-sim">
+            <title>A Similar Triangle Proof of the Pythagorean Theorem</title>
+            <statement>
+                <p>
+                    We continue to use <xref ref="fig-right-tri-nest"/> in this task.
+                    <ol>
+                        <li>
+                            <p>
+                                Explain why <m>\frac{AC}{AB}=\frac{AD}{AC}</m> and
+                                <m>\frac{BC}{AB}=\frac{BD}{BC}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Since <m>\frac{AC}{AB}=\frac{AD}{AC}</m>, we see 
+                                <m>AC\cdot AC=AB\cdot AD</m>. Why?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Use the equation<m>\frac{BC}{AB}=\frac{BD}{BC}</m>,
+                                to complete the equation <m>BC\cdot BC=</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                So that the Pythagorean Theorem will be more obvious,
+                                we will assign each length a single letter; namely,
+                                <m>a=BC</m>, <m>b=AC</m>, and <m>c=/AB</m>. What is 
+                                <m>AD+DB</m> using these lower-case letter(s)?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Equating <m>a^2+b^2</m> with <m>BC\cdot BC+AC\cdot AC</m>,
+                                substitute the righthand expressions from the equations in
+                                the first two parts of this task. Then add the expressions.
+                                Do you get <m>c^2</m>? Show all work.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </task>
+    </exploration>
+</subsection>
+</section>
