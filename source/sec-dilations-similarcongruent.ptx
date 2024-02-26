@@ -2,8 +2,21 @@
 
 <section xml:id="sec-dilations-similarcongruent" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Similarity and Congruence</title>
-
+<p>
+  UNDER CONSTRUCTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+</p>
   <p>
-    Add.
+    In this section, I plan to add information on the relationship between 
+    congruency of figures and isometries. We will add SAS and SSS to our toolbox,
+    probably as assumed principles. Will this need to be in <xref ref="ch-isom"/>
+    instead? 
+  </p>
+  <p>
+    In addition, we will look at similar triangles and add AAA to our toolbox.
+    Will other similarity criteria be needed for later work.
+  </p>
+  <p>
+    Efforts will be made to use a transformational, exploratory approach to the 
+    extent possible.
   </p>
 </section>

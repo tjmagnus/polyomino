@@ -4,7 +4,8 @@
     <title>Similarity and Congruence</title>
     <xi:include href="sec-dilations-Cartesian.ptx"/>
     <xi:include href="sec-dilations-and-similarity.ptx"/>
-    <xi:include href="sec-dilations-Pyth-golden.ptx" />
     <xi:include href="sec-dilations-similarcongruent.ptx"/>
+    <xi:include href="sec-dilations-Pyth-golden.ptx" />
+    <xi:include href="sec-dilations-scale-symm.ptx"/>
     <xi:include href="sec-dilations-instructor.ptx" />
 </chapter>

@@ -13,6 +13,7 @@
   </introduction>
   <!--<subsection xml:id="subsec-dilations-virtual-scale">
     <title>How does the Scale Factor affect the Dilated Image?</title>
+    Also, AAA similarity is assumed. Where should it and SAS and SSS go?
   -->
   <exploration xml:id="explore-sliding-scale">
     <title>Role of the Scale Factor</title>
@@ -135,8 +136,7 @@
             ratio, <m>k</m>, such that <m>k=\frac{P'Q'}{PQ}</m> for all sides <m>PQ</m>
             is called the <term>constant of proportionality</term>. 
             
-            In
-            <xref ref="fig-nested-simtri"/>, we see that 
+            In  <xref ref="fig-nested-simtri"/>, we see that 
             <m>\Delta ABC\sim\Delta DEC</m> with constant of proportionality
             <m>k=\frac{1}{3}</m>, and in <xref ref="fig-vary-scale-factor"/>,
             <m>A'B'C'D'\sim ABCD</m> with <m>k=|s|</m>, the absolute value of 

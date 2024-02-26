@@ -219,4 +219,35 @@
         </task>
     </exploration>
 </subsection>
+<subsection xml:id="subsec-A Special Kind of Triangle">
+  <title>A Special Kind of Triangle</title>
+  <p>
+    The right triangle in <xref ref="explor-similar-Pyth"/> had the property 
+    that the altitude drawn from the right angle to the hypotenuse split the 
+    triangle into two smaller triangles, both of which were similar to the 
+    original triangle. This property is true for all right triangles since the 
+    measure of the two acute angles did not matter. In particular, each new triangle 
+    had a right angle and one of the original angles. Since the sum of the angles in 
+    any triangle is 180 degrees, the newly created angle will have the same measure 
+    as the remaining angle of the original triangle.
+  </p> 
+  <p>
+    Will this happen with other triangles?
+  </p>
+</subsection>
+<subsection xml:id="subsec-golden">
+  <title>golden</title>
+  <introduction>
+    <p>
+      <xref ref="fig-golden-tri"/> gives a p
+    </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+        
+      </p>
+    </statement>
+  </task>
+</subsection>
 </section>
