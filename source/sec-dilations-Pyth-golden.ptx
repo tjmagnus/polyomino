@@ -219,8 +219,8 @@
         </task>
     </exploration>
 </subsection>
-<subsection xml:id="subsec-A Special Kind of Triangle">
-  <title>A Special Kind of Triangle</title>
+<subsection xml:id="subsec-selfsim-Triangle">
+  <title>Self-similar Triangles</title>
   <p>
     The right triangle in <xref ref="explor-similar-Pyth"/> had the property 
     that the altitude drawn from the right angle to the hypotenuse split the 
@@ -234,20 +234,45 @@
   <p>
     Will this happen with other triangles?
   </p>
-</subsection>
-<subsection xml:id="subsec-golden">
-  <title>golden</title>
-  <introduction>
-    <p>
-      <xref ref="fig-golden-tri"/> gives a p
-    </p>
-  </introduction>
-  <task>
-    <statement>
+<exploration xml:id="explor-golden-triangle">
+  <title>A Special Triangle</title>
+    <introduction>
       <p>
-        
+        In <xref ref="fig-golden-tri"/>, an isosceles triangle with two 72-degree angles is 
+        provided. Use it to answer the following:
       </p>
-    </statement>
-  </task>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          What is the measure of the third angle?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Use the angle bisector tool to bisect angle <m>\angle CAB</m>. Let <m>D</m> be the point where this bisector 
+          intersects side <m>BC</m> and create line segment <m>\overline{AD}</m>. Use the show/hide tool to hide bisector
+          <m>\overrightarrow{AD}</m>. Segment <m>\overline{AD}</m> should still be visible. 
+          <ol>
+            <li>
+              <p>
+                Of the two smaller triangles created by bisecting <m>\angle CAB</m>, which (if any) are similar to 
+                <m>\Delta ABC</m>? Support your answer.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </task>
+    <figure xml:id="fig-golden-tri">
+      <caption>A Golden Triangle</caption>
+      <interactive xml:id="app-golden-tri"
+                        platform="geogebra">
+                        <slate surface="geogebra" material="qpfcdb5b"/>
+                      </interactive>
+    </figure>
+  </exploration>
 </subsection>
 </section>
