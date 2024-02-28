@@ -252,6 +252,14 @@
     <task>
       <statement>
         <p>
+          Compute <m>frac{AC}{AB}</m>, the ratio of the long side to the short
+          side.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
           Use the angle bisector tool to bisect angle <m>\angle CAB</m>. Let <m>D</m> be the point where this bisector 
           intersects side <m>BC</m> and create line segment <m>\overline{AD}</m>. Use the show/hide tool to hide bisector
           <m>\overrightarrow{AD}</m>. Segment <m>\overline{AD}</m> should still be visible. 
@@ -259,7 +267,38 @@
             <li>
               <p>
                 Of the two smaller triangles created by bisecting <m>\angle CAB</m>, which (if any) are similar to 
-                <m>\Delta ABC</m>? Support your answer.
+                <m>\Delta ABC</m>? Support your answer. 
+              </p>
+            </li>
+            <li>
+              <p>
+                Suggestion: As we continue to focus on this new smaller triangle, 
+                you may find it useful to use the create polygon 
+                tool to highlight this triangle.
+              </p>
+              <p>
+                Write down the three pairs of corresponding sides.
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the constant of proportionality, <m>k</m> for this similarity?
+                As you record this number, write down at least four digits after the 
+                decimal point. Adjust your calculator settings to show more digits if needed.
+              </p>
+            </li>
+            <li>
+              <p>
+                Note that the constant of proportionality depends on whether 
+                you chose to divide the shorter length by the longer or to 
+                divide the longer length by the shorter. Perform whichever 
+                computation you did not already do and record at least four digits
+                after the decimal point.
+              </p>
+            </li>
+            <li>
+              <p>
+                What do you notice about these two numbers?
               </p>
             </li>
           </ol>

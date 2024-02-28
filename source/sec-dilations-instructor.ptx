@@ -30,5 +30,22 @@ Add.
         </md>
       where <m>k</m> is the scale factor.
   </p>
+  <p>
+    The applet for <xref ref="explor-golden-triangle"/> is available as a full-size activity 
+    on GeoGebra <url href="https://www.geogebra.org/classic/qpfcdb5b"></url>.
+    You may copy this lesson, change settings, and assign to your students as
+    desired. Note that students will be working with the 
+    irrational number <m>\phi=\frac{1+\sqrt{5}}{2}</m> and 
+    <m>\phi-1=\frac{\sqrt{5}-1}{2}</m>. They should be prepared to use a calculator
+    or app that allows them to calculate more than a few digits of irrational 
+    numbers; the more the better! I usually refer them to Desmos Scientific
+    Calculator, <url href="https://www.desmos.com/scientific"></url>, a free 
+    web application. Unfortunately, there will always be some
+    error due to the rounding of the lengths in GeoGebra. I have set rounding
+    in the applet to 5 digits to reduce the number of digits students would 
+    have to type into their calculators. If you would like to increase the 
+    precision in Geogebra, use the triple line icon in the upper left to go to settings 
+    and then click on the gear icon.
+  </p>
   </subsection>
 </section>
