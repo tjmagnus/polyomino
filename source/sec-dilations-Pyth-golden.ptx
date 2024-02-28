@@ -252,17 +252,22 @@
     <task>
       <statement>
         <p>
-          Compute <m>frac{AC}{AB}</m>, the ratio of the long side to the short
-          side.
+          Compute <m>\frac{AC}{AB}</m>, the ratio of the long side to the short
+          side. Write the result with five significant digits.<fn>This means to 
+          include the five digits beginning with the leftmost nonzero digit. Be 
+          sure to write the decimal point as appropriate. 
+          </fn>.
         </p>
       </statement>
     </task>
     <task>
       <statement>
         <p>
-          Use the angle bisector tool to bisect angle <m>\angle CAB</m>. Let <m>D</m> be the point where this bisector 
-          intersects side <m>BC</m> and create line segment <m>\overline{AD}</m>. Use the show/hide tool to hide bisector
-          <m>\overrightarrow{AD}</m>. Segment <m>\overline{AD}</m> should still be visible. 
+          Use the angle bisector tool to bisect angle <m>\angle CAB</m>. 
+          Let <m>D</m> be the point where this bisector 
+          intersects side <m>BC</m> and create line segment <m>\overline{AD}</m>. 
+          Use the show/hide tool to hide bisector <m>\overrightarrow{AD}</m>. 
+          Segment <m>\overline{AD}</m> should still be visible. 
           <ol>
             <li>
               <p>
@@ -292,7 +297,7 @@
                 Note that the constant of proportionality depends on whether 
                 you chose to divide the shorter length by the longer or to 
                 divide the longer length by the shorter. Perform whichever 
-                computation you did not already do and record at least four digits
+                computation have not already done and record at least four digits
                 after the decimal point.
               </p>
             </li>
@@ -312,6 +317,71 @@
                         <slate surface="geogebra" material="qpfcdb5b"/>
                       </interactive>
     </figure>
+    <task>
+      <statement>
+        <p>
+          Now use the angle bisector tool to bisect angle <m>\angle ABD</m>
+          in <xref ref="fig-golden-tri"/>.
+          Let <m>E</m> be the point where this angle bisector intersects segment 
+          <m>\overline{AD}</m>. Draw segment <m>overline{BE}</m> and hide ray
+          <m>\overrightarrow{BE}</m>.
+          <ol>
+            <li>
+              <p>
+                Name another triangle in the sketch which is similar to <m>\Delta ABE</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Name two triangles in the sketch that are similar to <m>\Delta DEB</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </task>
+    <task>
+      <title>Reflective Questions and Extensions</title>
+      <statement>
+        <p>
+          Based on your work in this exploration, discuss the following:
+          <ol>
+            <li>
+              <p>
+                If you use the arrow tool to move vertex <m>A</m> or <m>B</m>,
+                the lengths of the sides of triangles will change, but the 
+                angle measures will not. Do the constants of proportionality 
+                change?
+              </p>
+            </li>
+            <li>
+              <p>
+                Suppose you continued this process, bisecting <m>\angle BDE</m>
+                to create triangle <m>\Delta DEF</m>, then bisecting 
+                <m>\angle DEF</m> to create <m>\Delta EFG</m>, and so forth.
+                What type of design would you get? What properties would it 
+                have?
+              </p>
+            </li>
+            <li>
+              <p>
+                The area tool is under the angle menu. What is the ratio of
+                the areas of similar triangles <m>\Delta ABC</m> and 
+                <m>\Delta BDA</m>? How is this number related to the ratio of 
+                the corresponding sides?
+              </p>
+              <aside>
+                <p>
+                  Use the create-polygon tool to create <m>\Delta BDA</m> before
+                  using the GeoGebra area tool. 
+                </p>
+              </aside>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </task>
+
   </exploration>
 </subsection>
 </section>
