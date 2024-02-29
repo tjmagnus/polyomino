@@ -269,13 +269,6 @@ window.MathJax = {
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Instructor’s Notes</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
-</ul>
-</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
@@ -308,8 +301,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What do we know? What do we wonder?</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-congruent-figs-orientation" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Isometry Between Congruent Figures</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-4" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.4</span> <span class="title">What have we learned?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-fixed-points" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Recognizing Isometries by Fixed Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-5" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.5</span> <span class="title">What have we learned?</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -350,6 +344,15 @@ window.MathJax = {
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-and-similarity.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Dilations and Similar Figures</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsubsec-dilations-similar" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Dilations and Similar Triangles</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-dilations-similarcongruent.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Similarity and Congruence</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html" class="internal"><span class="codenumber">5.4</span> <span class="title">The Pythagorean Theorem and the Golden Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.4.1</span> <span class="title">A Review of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Applications of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
+</ul>
 </li>
 </ul>
 </li>
@@ -395,79 +398,89 @@ window.MathJax = {
 <div class="para" id="subsec-Isom-mystery-review-3-2-2-1">Orientation is a good way of distinguishing between types of isometries, especially rotations and glide reflections.</div> <div class="para" id="subsec-Isom-mystery-review-3-2-2-2">In <a href="" class="xref" data-knowl="./knowl/xref/check-orient.html" title="Figure 4.5.1">Figure 4.5.1</a>, which triangle has the same orientation as <span class="process-math">\(\Delta ABC\text{?}\)</span>
 </div> <figure class="figure figure-like" id="check-orient"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/orient-check.svg" role="img" class="contained" alt="Triangles ABC, C’A’B’, and C1,B1,A1 are shown."></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.1<span class="period">.</span></span><span class="space"> </span>Orientation of Images of <span class="process-math">\(\Delta ABC\)</span></figcaption></figure><div class="solutions"><details id="subsec-Isom-mystery-review-3-2-3" class="answer solution-like born-hidden-knowl"><summary><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like"><div class="para" id="subsec-Isom-mystery-review-3-2-3-1">Triangle <span class="process-math">\(\Delta C'A'B' \)</span> has the same orientation as <span class="process-math">\(\Delta ABC\text{.}\)</span> Triangle <span class="process-math">\(\Delta C'_1 B'_1 A'_1\)</span> has the opposite orientation.</div></div></details></div></article><article class="task exercise-like" id="subsec-Isom-mystery-review-3-3"><h5 class="heading">
-<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Review of Reflections.</span>
+<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Fixed Point Review.</span>
 </h5>
-<div class="para logical" id="subsec-Isom-mystery-review-3-3-2-1">
-<div class="para">Use the GeoGebra interactive in <a href="" class="xref" data-knowl="./knowl/xref/fig-reflect-rev-mystery.html" title="Figure 4.5.2">Figure 4.5.2</a> as needed to answer the following:</div>
+<div class="para" id="subsec-Isom-mystery-review-3-3-2-1">Sometimes we can tell which points are fixed and use that to identify the type of isometry.</div> <div class="para logical" id="subsec-Isom-mystery-review-3-3-2-2">
+<div class="para">Of the types of isometries studied thus far,</div>
 <ol class="decimal">
-<li id="subsec-Isom-mystery-review-3-3-2-1-2-1"><div class="para logical" id="subsec-Isom-mystery-review-3-3-2-1-2-1-1">
-<div class="para">A reflection <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span> the orientation of the figure.</div>
-<ul class="circle">
-<li id="subsec-Isom-mystery-review-3-3-2-1-2-1-1-2-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-3-2-1-2-1-1-2-1">maintains</div></li>
-<li id="subsec-Isom-mystery-review-3-3-2-1-2-1-1-2-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-3-2-1-2-1-1-2-2">reverses</div></li>
-</ul>
-</div></li>
-<li id="subsec-Isom-mystery-review-3-3-2-1-2-2"><div class="para" id="subsec-Isom-mystery-review-3-3-2-1-2-2-1">How is the reflecting line related to the the segments connecting each point to its image? Consider both the location of intersection and the angle formed by the intersection.</div></li>
-<li id="subsec-Isom-mystery-review-3-3-2-1-2-3"><div class="para" id="subsec-Isom-mystery-review-3-3-2-1-2-3-1">Describe how you can create the reflecting line given an illustration of two congruent triangles.</div></li>
+<li id="subsec-Isom-mystery-review-3-3-2-2-1-1"><div class="para" id="subsec-Isom-mystery-review-3-3-2-2-1-1-1">which type has no fixed points?</div></li>
+<li id="subsec-Isom-mystery-review-3-3-2-2-1-2"><div class="para" id="subsec-Isom-mystery-review-3-3-2-2-1-2-1">which type has exactly one fixed point?</div></li>
+<li id="subsec-Isom-mystery-review-3-3-2-2-1-3"><div class="para" id="subsec-Isom-mystery-review-3-3-2-2-1-3-1">which type fixes all points that lie on a single line?</div></li>
 </ol>
-</div> <figure class="figure figure-like" id="fig-reflect-rev-mystery"><iframe id="mystery-rev-reflect-app" width="600" height="600" src="mystery-rev-reflect-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.2<span class="period">.</span></span><span class="space"> </span>An interactive Geogebra applet for analyzing a reflection across a single line.</figcaption></figure></article><article class="task exercise-like" id="subsec-Isom-mystery-review-3-4"><h5 class="heading">
-<span class="codenumber">(c)</span><span class="space"> </span><span class="title">Review of Translations.</span>
+</div></article><article class="task exercise-like" id="subsec-Isom-mystery-review-3-4"><h5 class="heading">
+<span class="codenumber">(c)</span><span class="space"> </span><span class="title">Review of Reflections.</span>
 </h5>
 <div class="para logical" id="subsec-Isom-mystery-review-3-4-2-1">
-<div class="para">Use the GeoGebra interactive in <a href="" class="xref" data-knowl="./knowl/xref/fig-translate-rev-mystery.html" title="Figure 4.5.3">Figure 4.5.3</a> as needed to answer the following questions about translations:</div>
+<div class="para">Use the GeoGebra interactive in <a href="" class="xref" data-knowl="./knowl/xref/fig-reflect-rev-mystery.html" title="Figure 4.5.2">Figure 4.5.2</a> as needed to answer the following:</div>
 <ol class="decimal">
 <li id="subsec-Isom-mystery-review-3-4-2-1-2-1"><div class="para logical" id="subsec-Isom-mystery-review-3-4-2-1-2-1-1">
-<div class="para">A translation <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span> the orientation of the figure.</div>
+<div class="para">A reflection <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span> the orientation of the figure.</div>
 <ul class="circle">
 <li id="subsec-Isom-mystery-review-3-4-2-1-2-1-1-2-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-4-2-1-2-1-1-2-1">maintains</div></li>
 <li id="subsec-Isom-mystery-review-3-4-2-1-2-1-1-2-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-4-2-1-2-1-1-2-2">reverses</div></li>
 </ul>
 </div></li>
-<li id="subsec-Isom-mystery-review-3-4-2-1-2-2"><div class="para" id="subsec-Isom-mystery-review-3-4-2-1-2-2-1">How is the translation vector related to the segment from a point to its image? Once again, address both length and direction in your response.</div></li>
-<li id="subsec-Isom-mystery-review-3-4-2-1-2-3"><div class="para" id="subsec-Isom-mystery-review-3-4-2-1-2-3-1">Describe how you can create the translation vector from an illustration of two congruent triangles <span class="process-math">\(\Delta ABC\)</span> and <span class="process-math">\(\Delta A'B'C'\text{.}\)</span>
-</div></li>
+<li id="subsec-Isom-mystery-review-3-4-2-1-2-2"><div class="para" id="subsec-Isom-mystery-review-3-4-2-1-2-2-1">How is the reflecting line related to the the segments connecting each point to its image? Consider both the location of intersection and the angle formed by the intersection.</div></li>
+<li id="subsec-Isom-mystery-review-3-4-2-1-2-3"><div class="para" id="subsec-Isom-mystery-review-3-4-2-1-2-3-1">Describe how you can create the reflecting line given an illustration of two congruent triangles.</div></li>
 </ol>
-</div> <figure class="figure figure-like" id="fig-translate-rev-mystery"><iframe id="mystery-rev-translate-app" width="600" height="600" src="mystery-rev-translate-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.3<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for analyzing a translation.</figcaption></figure></article><article class="task exercise-like" id="subsec-Isom-mystery-review-3-5"><h5 class="heading">
-<span class="codenumber">(d)</span><span class="space"> </span><span class="title">Review of Rotations.</span>
+</div> <figure class="figure figure-like" id="fig-reflect-rev-mystery"><iframe id="mystery-rev-reflect-app" width="600" height="600" src="mystery-rev-reflect-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.2<span class="period">.</span></span><span class="space"> </span>An interactive Geogebra applet for analyzing a reflection across a single line.</figcaption></figure></article><article class="task exercise-like" id="subsec-Isom-mystery-review-3-5"><h5 class="heading">
+<span class="codenumber">(d)</span><span class="space"> </span><span class="title">Review of Translations.</span>
 </h5>
 <div class="para logical" id="subsec-Isom-mystery-review-3-5-2-1">
-<div class="para">The GeoGebra interactive in <a href="" class="xref" data-knowl="./knowl/xref/fig-rotate-rev-mystery.html" title="Figure 4.5.4">Figure 4.5.4</a> shows the action of a 120-degree clockwise rotation of <span class="process-math">\(\Delta ABC\)</span> about point <span class="process-math">\(D\text{.}\)</span> Use this interactive as needed to answer the following questions about rotations:</div>
+<div class="para">Use the GeoGebra interactive in <a href="" class="xref" data-knowl="./knowl/xref/fig-translate-rev-mystery.html" title="Figure 4.5.3">Figure 4.5.3</a> as needed to answer the following questions about translations:</div>
 <ol class="decimal">
-<li id="subsec-Isom-mystery-review-3-5-2-1-4-1"><div class="para logical" id="subsec-Isom-mystery-review-3-5-2-1-4-1-1">
-<div class="para">A rotation <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span> the orientation of the figure.</div>
+<li id="subsec-Isom-mystery-review-3-5-2-1-2-1"><div class="para logical" id="subsec-Isom-mystery-review-3-5-2-1-2-1-1">
+<div class="para">A translation <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span> the orientation of the figure.</div>
 <ul class="circle">
-<li id="subsec-Isom-mystery-review-3-5-2-1-4-1-1-2-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-5-2-1-4-1-1-2-1">maintains</div></li>
-<li id="subsec-Isom-mystery-review-3-5-2-1-4-1-1-2-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-5-2-1-4-1-1-2-2">reverses</div></li>
+<li id="subsec-Isom-mystery-review-3-5-2-1-2-1-1-2-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-5-2-1-2-1-1-2-1">maintains</div></li>
+<li id="subsec-Isom-mystery-review-3-5-2-1-2-1-1-2-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-5-2-1-2-1-1-2-2">reverses</div></li>
 </ul>
 </div></li>
-<li id="subsec-Isom-mystery-review-3-5-2-1-4-2"><div class="para" id="subsec-Isom-mystery-review-3-5-2-1-4-2-1">Construct the segments <span class="process-math">\(AA'\text{,}\)</span> <span class="process-math">\(BB'\text{,}\)</span> and <span class="process-math">\(CC'\text{.}\)</span> Construct the midpoints of each of these three segments.  Then construct the perpendicular bisector of each of these segments.  Where do these three bisectors intersect?</div></li>
-<li id="subsec-Isom-mystery-review-3-5-2-1-4-3"><div class="para" id="subsec-Isom-mystery-review-3-5-2-1-4-3-1">What are the measures of angles <span class="process-math">\(\angle ADA'\text{,}\)</span> <span class="process-math">\(\angle BDB'\text{,}\)</span> and <span class="process-math">\(\angle CDC'\text{?}\)</span> How do these measures inform you that this is a 120-degree clockwise rotation?</div></li>
-<li id="subsec-Isom-mystery-review-3-5-2-1-4-4"><div class="para" id="subsec-Isom-mystery-review-3-5-2-1-4-4-1">If you were given a picture of a figure and what you think is its rotated image, what process would you use to determine the center of the rotation and its angle of rotation? Write this so that another student could follow your steps.</div></li>
+<li id="subsec-Isom-mystery-review-3-5-2-1-2-2"><div class="para" id="subsec-Isom-mystery-review-3-5-2-1-2-2-1">How is the translation vector related to the segment from a point to its image? Once again, address both length and direction in your response.</div></li>
+<li id="subsec-Isom-mystery-review-3-5-2-1-2-3"><div class="para" id="subsec-Isom-mystery-review-3-5-2-1-2-3-1">Describe how you can create the translation vector from an illustration of two congruent triangles <span class="process-math">\(\Delta ABC\)</span> and <span class="process-math">\(\Delta A'B'C'\text{.}\)</span>
+</div></li>
 </ol>
-</div> <figure class="figure figure-like" id="fig-rotate-rev-mystery"><iframe id="mystery-rev-rotate-app" width="600" height="600" src="mystery-rev-rotate-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.4<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for analyzing a 120-degree rotation.</figcaption></figure></article><article class="task exercise-like" id="subsec-Isom-mystery-review-3-6"><h5 class="heading">
-<span class="codenumber">(e)</span><span class="space"> </span><span class="title">Review of Glide Reflections.</span>
+</div> <figure class="figure figure-like" id="fig-translate-rev-mystery"><iframe id="mystery-rev-translate-app" width="600" height="600" src="mystery-rev-translate-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.3<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for analyzing a translation.</figcaption></figure></article><article class="task exercise-like" id="subsec-Isom-mystery-review-3-6"><h5 class="heading">
+<span class="codenumber">(e)</span><span class="space"> </span><span class="title">Review of Rotations.</span>
 </h5>
 <div class="para logical" id="subsec-Isom-mystery-review-3-6-2-1">
-<div class="para">A glide reflection is a two-step isometry.  We first translate by a vector and then we reflect across the line containing (or parallel to) that vector. The GeoGebra interactive <a href="" class="xref" data-knowl="./knowl/xref/fig-glideref-rev-mystery.html" title="Figure 4.5.5">Figure 4.5.5</a> shows the original triangle <span class="process-math">\(\Delta ABC\)</span> and its final image <span class="process-math">\(A''B''C''\)</span> after a reflection across line <span class="process-math">\(\overleftrightarrow{DE}\)</span> and translation by vector <span class="process-math">\(\overrightarrow{DE}\text{.}\)</span> Answer the following questions:</div>
+<div class="para">The GeoGebra interactive in <a href="" class="xref" data-knowl="./knowl/xref/fig-rotate-rev-mystery.html" title="Figure 4.5.4">Figure 4.5.4</a> shows the action of a 120-degree clockwise rotation of <span class="process-math">\(\Delta ABC\)</span> about point <span class="process-math">\(D\text{.}\)</span> Use this interactive as needed to answer the following questions about rotations:</div>
 <ol class="decimal">
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-1"><div class="para logical" id="subsec-Isom-mystery-review-3-6-2-1-6-1-1">
-<div class="para">A glide reflection <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span> the orientation of the figure.</div>
+<li id="subsec-Isom-mystery-review-3-6-2-1-4-1"><div class="para logical" id="subsec-Isom-mystery-review-3-6-2-1-4-1-1">
+<div class="para">A rotation <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span> the orientation of the figure.</div>
 <ul class="circle">
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-1-1-2-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-6-2-1-6-1-1-2-1">maintains</div></li>
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-1-1-2-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-6-2-1-6-1-1-2-2">reverses</div></li>
+<li id="subsec-Isom-mystery-review-3-6-2-1-4-1-1-2-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-6-2-1-4-1-1-2-1">maintains</div></li>
+<li id="subsec-Isom-mystery-review-3-6-2-1-4-1-1-2-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-6-2-1-4-1-1-2-2">reverses</div></li>
 </ul>
 </div></li>
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-2"><div class="para logical" id="subsec-Isom-mystery-review-3-6-2-1-6-2-1">
+<li id="subsec-Isom-mystery-review-3-6-2-1-4-2"><div class="para" id="subsec-Isom-mystery-review-3-6-2-1-4-2-1">Construct the segments <span class="process-math">\(AA'\text{,}\)</span> <span class="process-math">\(BB'\text{,}\)</span> and <span class="process-math">\(CC'\text{.}\)</span> Construct the midpoints of each of these three segments.  Then construct the perpendicular bisector of each of these segments.  Where do these three bisectors intersect?</div></li>
+<li id="subsec-Isom-mystery-review-3-6-2-1-4-3"><div class="para" id="subsec-Isom-mystery-review-3-6-2-1-4-3-1">What are the measures of angles <span class="process-math">\(\angle ADA'\text{,}\)</span> <span class="process-math">\(\angle BDB'\text{,}\)</span> and <span class="process-math">\(\angle CDC'\text{?}\)</span> How do these measures inform you that this is a 120-degree clockwise rotation?</div></li>
+<li id="subsec-Isom-mystery-review-3-6-2-1-4-4"><div class="para" id="subsec-Isom-mystery-review-3-6-2-1-4-4-1">If you were given a picture of a figure and what you think is its rotated image, what process would you use to determine the center of the rotation and its angle of rotation? Write this so that another student could follow your steps.</div></li>
+</ol>
+</div> <figure class="figure figure-like" id="fig-rotate-rev-mystery"><iframe id="mystery-rev-rotate-app" width="600" height="600" src="mystery-rev-rotate-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.4<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for analyzing a 120-degree rotation.</figcaption></figure></article><article class="task exercise-like" id="subsec-Isom-mystery-review-3-7"><h5 class="heading">
+<span class="codenumber">(f)</span><span class="space"> </span><span class="title">Review of Glide Reflections.</span>
+</h5>
+<div class="para logical" id="subsec-Isom-mystery-review-3-7-2-1">
+<div class="para">A glide reflection is a two-step isometry.  We first translate by a vector and then we reflect across the line containing (or parallel to) that vector. The GeoGebra interactive <a href="" class="xref" data-knowl="./knowl/xref/fig-glideref-rev-mystery.html" title="Figure 4.5.5">Figure 4.5.5</a> shows the original triangle <span class="process-math">\(\Delta ABC\)</span> and its final image <span class="process-math">\(A''B''C''\)</span> after a reflection across line <span class="process-math">\(\overleftrightarrow{DE}\)</span> and translation by vector <span class="process-math">\(\overrightarrow{DE}\text{.}\)</span> Answer the following questions:</div>
+<ol class="decimal">
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-1"><div class="para logical" id="subsec-Isom-mystery-review-3-7-2-1-6-1-1">
+<div class="para">A glide reflection <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span> the orientation of the figure.</div>
+<ul class="circle">
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-1-1-2-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-7-2-1-6-1-1-2-1">maintains</div></li>
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-1-1-2-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-7-2-1-6-1-1-2-2">reverses</div></li>
+</ul>
+</div></li>
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-2"><div class="para logical" id="subsec-Isom-mystery-review-3-7-2-1-6-2-1">
 <div class="para">The glide reflection image in <a href="" class="xref" data-knowl="./knowl/xref/fig-glideref-rev-mystery.html" title="Figure 4.5.5">Figure 4.5.5</a> was produced by reflecting the triangle across line <span class="process-math">\(\overleftrightarrow{DE}\)</span> and then translating by vector <span class="process-math">\(\overrightarrow{DE}\text{.}\)</span>  Do you get the same result if you translate by vector <span class="process-math">\(\overrightarrow{DE}\)</span> first and then reflect across line <span class="process-math">\(\overleftrightarrow{DE}\text{?}\)</span>
 </div>
 <ul class="circle">
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-2-1-6-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-6-2-1-6-2-1-6-1">yes</div></li>
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-2-1-6-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-6-2-1-6-2-1-6-2">no</div></li>
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-2-1-6-3"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-6-2-1-6-2-1-6-3">sometimes but not always</div></li>
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-2-1-6-1"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-7-2-1-6-2-1-6-1">yes</div></li>
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-2-1-6-2"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-7-2-1-6-2-1-6-2">no</div></li>
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-2-1-6-3"><div class="para" id="p-derived-subsec-Isom-mystery-review-3-7-2-1-6-2-1-6-3">sometimes but not always</div></li>
 </ul>
 </div></li>
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-3"><div class="para" id="subsec-Isom-mystery-review-3-6-2-1-6-3-1">On the sketch construct the midpoints of each of the segments from a vertex <span class="process-math">\(P\)</span> of <span class="process-math">\(\Delta ABC\)</span> to its final image <span class="process-math">\(P''\)</span> on <span class="process-math">\(\Delta A''B''C''\text{.}\)</span>  What information do these midpoints give you?</div></li>
-<li id="subsec-Isom-mystery-review-3-6-2-1-6-4"><div class="para" id="subsec-Isom-mystery-review-3-6-2-1-6-4-1">What strategy could you use to find the reflecting line and translation vector for a glide reflection if you only have the original figure and final image?</div></li>
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-3"><div class="para" id="subsec-Isom-mystery-review-3-7-2-1-6-3-1">On the sketch construct the midpoints of each of the segments from a vertex <span class="process-math">\(P\)</span> of <span class="process-math">\(\Delta ABC\)</span> to its final image <span class="process-math">\(P''\)</span> on <span class="process-math">\(\Delta A''B''C''\text{.}\)</span>  What information do these midpoints give you?</div></li>
+<li id="subsec-Isom-mystery-review-3-7-2-1-6-4"><div class="para" id="subsec-Isom-mystery-review-3-7-2-1-6-4-1">What strategy could you use to find the reflecting line and translation vector for a glide reflection if you only have the original figure and final image?</div></li>
 </ol>
 </div> <figure class="figure figure-like" id="fig-glideref-rev-mystery"><iframe id="mystery-rev-glideref-app" width="600" height="600" src="mystery-rev-glideref-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.5<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for analyzing a glide reflection.</figcaption></figure></article></article></section><section class="subsection" id="sec-isom-mystery-isometries-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.5.2</span><span class="space"> </span><span class="title">Solving the Mysteries</span>

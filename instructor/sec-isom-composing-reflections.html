@@ -328,8 +328,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What do we know? What do we wonder?</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-congruent-figs-orientation" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Isometry Between Congruent Figures</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-4" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.4</span> <span class="title">What have we learned?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-fixed-points" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Recognizing Isometries by Fixed Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-5" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.5</span> <span class="title">What have we learned?</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section active">
@@ -381,6 +382,23 @@ window.MathJax = {
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-and-similarity.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Dilations and Similar Figures</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsubsec-dilations-similar" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Dilations and Similar Triangles</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-dilations-similarcongruent.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Similarity and Congruence</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html" class="internal"><span class="codenumber">5.4</span> <span class="title">The Pythagorean Theorem and the Golden Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.4.1</span> <span class="title">A Review of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Applications of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-instructor.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-2" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-3" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-4" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Notes for Section 5.4</span></a></div></li>
+</ul>
 </li>
 </ul>
 </li>
@@ -550,7 +568,9 @@ P \overset{s}\rightarrow s(P)=P' \overset{t}\rightarrow t(P')=P''.
 </h4> <div class="para" id="def-isometry-2-1">An <dfn class="terminology">isometry</dfn> is a function taking points on the plane to points on the plane which sends collinear points to collinear points and preserves the distance between points.</div></article><div class="para" id="subsec-Four-Isometries-4">There are four types of isometries.  Through our explorations, we have seen that the orientation of a figure is reversed each time it is reflected. Thus, orientation is changed under an odd number of reflections and maintained (flipped back) under an even number of reflections. Hence, the composition of two reflections in succession must be either a translation (when the reflecting lines are parallel) or a rotation (when the reflecting lines intersect). When we reflect across three lines, not all of which are parallel, we get an isometry which reverses the orientation of figures but is not a reflection. Instead we obtain what is known as a glide reflection.</div>
 <div class="para" id="subsec-Four-Isometries-5">A <dfn class="terminology">glide reflection</dfn> is defined as a composition of a reflection across a line and a translation along a vector parallel to (or on) the reflecting line. In <a href="" class="xref" data-knowl="./knowl/xref/illustrated-glref.html" title="Figure 4.4.9">Figure 4.4.9</a>, note how the pentomino is first reflected across the line and then translated along vector <span class="process-math">\(\overrightarrow{GH}\text{.}\)</span>  Any of the parallel vectors, like <span class="process-math">\(\overrightarrow{A'A''}\)</span> or <span class="process-math">\(\overrightarrow{CC''}\text{,}\)</span> could be used as the translation vector, but the reflecting line here is <span class="process-math">\(\overleftrightarrow{GH}\text{,}\)</span> not <span class="process-math">\(\overleftrightarrow{CC''}\text{.}\)</span> </div>
 <figure class="figure figure-like" id="illustrated-glref"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/glrefpicture.svg" role="img" class="contained" alt="L-pentamino is reflected across line GH. Then its image is slid using vector GH. A and C are two vertices on the original."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.9<span class="period">.</span></span><span class="space"> </span>Glide reflection of a pentamino.</figcaption></figure></section></section></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.9<span class="period">.</span></span><span class="space"> </span>Glide reflection of a pentamino.</figcaption></figure><details id="subsec-Four-Isometries-7" class="exercise exercise-like born-hidden-knowl"><summary><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.10</span><span class="period">.</span><span class="space"> </span><span class="title">Reflective Question.</span>
+</h4></summary><article class="exercise exercise-like"><div class="para" id="subsec-Four-Isometries-7-2-1">Will a glide reflection have any fixed point(s)? How do you know?</div></article></details></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-isom-identifying-isometries.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-isom-mystery-isometries.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

@@ -269,13 +269,6 @@ window.MathJax = {
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Instructor’s Notes</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
-</ul>
-</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -308,8 +301,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What do we know? What do we wonder?</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-congruent-figs-orientation" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Isometry Between Congruent Figures</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-4" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.4</span> <span class="title">What have we learned?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-fixed-points" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Recognizing Isometries by Fixed Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-5" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.5</span> <span class="title">What have we learned?</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -351,6 +345,15 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-dilations-and-similarity.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Dilations and Similar Figures</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsubsec-dilations-similar" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Dilations and Similar Triangles</span></a></div></li></ul>
 </li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-dilations-similarcongruent.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Similarity and Congruence</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html" class="internal"><span class="codenumber">5.4</span> <span class="title">The Pythagorean Theorem and the Golden Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.4.1</span> <span class="title">A Review of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Applications of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter contains-active">
@@ -385,34 +388,34 @@ window.MathJax = {
 <div class="para" id="equality-properties-2">When solving equations, we frequently use the following properties of equality. Many of these properties are intuitively obvious. Some follow from the <a href="field-properties.html" class="internal" title="Subsection B.2: Field Properties of the Real Numbers">Field Properties for Real Numbers. B.2</a>
 </div>
 <article class="principle theorem-like" id="principle-addition-equality"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.18</span><span class="period">.</span><span class="space"> </span><span class="title">Addition Principle of Equality.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.16</span><span class="period">.</span><span class="space"> </span><span class="title">Addition Principle of Equality.</span>
 </h3>
-<div class="para" id="principle-addition-equality-2-1">If we add (or subtract) the same numerical expression from both sides of an equation, we get an equivalent<a class="xref" id="principle-addition-equality-2-1-1" href="" data-knowl="./knowl/fn/principle-addition-equality-2-1-1.html" title="Footnote B.3.1"><sup> 1 </sup></a> equation. In symbols, <span class="process-math">\(a=b\)</span> if and only if <span class="process-math">\(a+c=b+c\text{.}\)</span> Here, <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> may be numbers or algebraic expressions.</div></article><article class="principle theorem-like" id="principle-multiplication-equality"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.19</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplication Principle of Equality.</span>
+<div class="para" id="principle-addition-equality-2-1">If we add (or subtract) the same numerical expression from both sides of an equation, we get an equivalent<a class="xref" id="principle-addition-equality-2-1-1" href="" data-knowl="./knowl/fn/principle-addition-equality-2-1-1.html" title="Footnote B.3.2"><sup> 2 </sup></a> equation. In symbols, <span class="process-math">\(a=b\)</span> if and only if <span class="process-math">\(a+c=b+c\text{.}\)</span> Here, <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> may be numbers or algebraic expressions.</div></article><article class="principle theorem-like" id="principle-multiplication-equality"><h3 class="heading">
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.17</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplication Principle of Equality.</span>
 </h3>
 <div class="para" id="principle-multiplication-equality-2-1">If we multiply (or divide) both sides of an equation by the same nonzero numerical expression, we get an equivalent equation. In symbols, <span class="process-math">\(a=b\)</span> if and only if <span class="process-math">\(a\cdot c=b\cdot c\)</span> whenever <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> are numbers or algebraic expressions and <span class="process-math">\(c\neq 0\text{.}\)</span> Similarly, if <span class="process-math">\(c\neq 0\text{,}\)</span> then <span class="process-math">\(a=b\)</span> is equivalent to <span class="process-math">\(\frac{a}{c}=\frac{b}{c}\text{.}\)</span>
 </div></article><div class="para" id="equality-properties-5">The next principle allows us to switch the left and right sides of any equation.</div>
 <article class="principle theorem-like" id="principle-symmetry-equality"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.20</span><span class="period">.</span><span class="space"> </span><span class="title">Symmetry Property of Equality.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.18</span><span class="period">.</span><span class="space"> </span><span class="title">Symmetry Property of Equality.</span>
 </h3>
 <div class="para" id="principle-symmetry-equality-2-1">The statement <span class="process-math">\(a=b\)</span> is true if and only if the statement <span class="process-math">\(b=a\)</span> is true.</div></article><div class="para" id="equality-properties-7">In addition, if two expressions are both equal to a common expression, then they must be equal to each other.</div>
 <article class="principle theorem-like" id="principle-transtive-equality"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.21</span><span class="period">.</span><span class="space"> </span><span class="title">Transitive Property of Equality.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.19</span><span class="period">.</span><span class="space"> </span><span class="title">Transitive Property of Equality.</span>
 </h3>
 <div class="para" id="principle-transtive-equality-2-1">If <span class="process-math">\(a=b\)</span> and <span class="process-math">\(b=c\)</span> are true statements, then <span class="process-math">\(a=c\text{.}\)</span>
-</div></article><div class="para" id="equality-properties-9">In this course, we may use this transitivity to equate two different expressions that both give the length of a segment or the area of a figure.<a class="xref" id="equality-properties-9-1" href="" data-knowl="./knowl/fn/equality-properties-9-1.html" title="Footnote B.3.2"><sup> 2 </sup></a>
+</div></article><div class="para" id="equality-properties-9">In this course, we may use this transitivity to equate two different expressions that both give the length of a segment or the area of a figure.<a class="xref" id="equality-properties-9-1" href="" data-knowl="./knowl/fn/equality-properties-9-1.html" title="Footnote B.3.3"><sup> 3 </sup></a>
 </div>
 <div class="para" id="equality-properties-10">The remaining properties of equality focus on the special role of zero.</div>
 <article class="principle theorem-like" id="principle-multiply-by-zero"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.22</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplication by Zero.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.20</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplication by Zero.</span>
 </h3>
 <div class="para" id="principle-multiply-by-zero-2-1">For any numerical expression <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(a\cdot 0=0\text{.}\)</span>
 </div></article><article class="principle theorem-like" id="principle-zero-product"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.23</span><span class="period">.</span><span class="space"> </span><span class="title">Zero Product Property.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">B.3.21</span><span class="period">.</span><span class="space"> </span><span class="title">Zero Product Property.</span>
 </h3>
-<div class="para" id="principle-zero-product-2-1">If <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are any numerical expressions such that <span class="process-math">\(ab=0\text{,}\)</span> then at least one of the factors <span class="process-math">\(a\)</span> or <span class="process-math">\(b\)</span> must equal zero.</div></article><div class="para" id="equality-properties-13">When solving a polynomial equation, like <span class="process-math">\(x^3-5x^2=6x\text{,}\)</span> <a href="" class="xref" data-knowl="./knowl/xref/principle-zero-product.html" title="Principle B.3.23: Zero Product Property">Zero Product Property</a> is helpful.</div>
+<div class="para" id="principle-zero-product-2-1">If <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are any numerical expressions such that <span class="process-math">\(ab=0\text{,}\)</span> then at least one of the factors <span class="process-math">\(a\)</span> or <span class="process-math">\(b\)</span> must equal zero.</div></article><div class="para" id="equality-properties-13">When solving a polynomial equation, like <span class="process-math">\(x^3-5x^2=6x\text{,}\)</span> <a href="" class="xref" data-knowl="./knowl/xref/principle-zero-product.html" title="Principle B.3.21: Zero Product Property">Zero Product Property</a> is helpful.</div>
 <article class="example example-like" id="equality-properties-14"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">B.3.24</span><span class="period">.</span><span class="space"> </span><span class="title">Solving a Polynomial Equation Using Principles.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">B.3.22</span><span class="period">.</span><span class="space"> </span><span class="title">Solving a Polynomial Equation Using Principles.</span>
 </h3>
 <div class="para" id="equality-properties-14-2-1">Solve <span class="process-math">\(x^3-5x^2=6x\text{.}\)</span>
 </div>
@@ -438,13 +441,13 @@ x=0, x=6,\amp \text{ or} x=-1 \amp\amp \text{ (Zero Product Property)}
 x^3-5x^2=6x\text{,}
 \end{equation*}
 </div>
-<div class="para">we first use <a href="" class="xref" data-knowl="./knowl/xref/principle-addition-equality.html" title="Principle B.3.18: Addition Principle of Equality">Addition Principle of Equality</a> to subtract <span class="process-math">\(6x\)</span> from both sides of the equation so that the right side of the equation is 0. Thus,</div>
+<div class="para">we first use <a href="" class="xref" data-knowl="./knowl/xref/principle-addition-equality.html" title="Principle B.3.16: Addition Principle of Equality">Addition Principle of Equality</a> to subtract <span class="process-math">\(6x\)</span> from both sides of the equation so that the right side of the equation is 0. Thus,</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/principle-addition-equality.html ./knowl/xref/principle-distributive.html ./knowl/xref/principle-zero-product.html">
 \begin{equation*}
 x^3-5x^2-6x=0\text{.}
 \end{equation*}
 </div>
-<div class="para">By <a href="" class="xref" data-knowl="./knowl/xref/principle-distributive.html" title="Principle B.2.14: The Distributive Law">The Distributive Law</a>,</div>
+<div class="para">By <a href="" class="xref" data-knowl="./knowl/xref/principle-distributive.html" title="Principle B.2.12: The Distributive Law">The Distributive Law</a>,</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/principle-addition-equality.html ./knowl/xref/principle-distributive.html ./knowl/xref/principle-zero-product.html">
 \begin{equation*}
 x(x-6)(x+1)=(x^2-6x)(x+1)=x^3-6x^2+x^2-6x=x^3-5x^2-6x\text{.}
@@ -456,7 +459,7 @@ x(x-6)(x+1)=(x^2-6x)(x+1)=x^3-6x^2+x^2-6x=x^3-5x^2-6x\text{.}
 x(x-6)(x+1)=0\text{.}
 \end{equation*}
 </div>
-<div class="para">Therefore, <a href="" class="xref" data-knowl="./knowl/xref/principle-zero-product.html" title="Principle B.3.23: Zero Product Property">Zero Product Property</a> informs us that one of the following must be true: <span class="process-math">\(x=0\text{,}\)</span> <span class="process-math">\(x-6=0\text{,}\)</span> or <span class="process-math">\(x+1=0\text{.}\)</span> Solving each of these for <span class="process-math">\(x\)</span> gives the possible answers, <span class="process-math">\(x=0\text{,}\)</span> <span class="process-math">\(x=6\text{,}\)</span> and <span class="process-math">\(x=-1\text{.}\)</span> Substituting each of these into the original equation verifies that the solution consists of these three values, <span class="process-math">\(0\text{,}\)</span> <span class="process-math">\(6\text{,}\)</span> and <span class="process-math">\(-1\text{.}\)</span>
+<div class="para">Therefore, <a href="" class="xref" data-knowl="./knowl/xref/principle-zero-product.html" title="Principle B.3.21: Zero Product Property">Zero Product Property</a> informs us that one of the following must be true: <span class="process-math">\(x=0\text{,}\)</span> <span class="process-math">\(x-6=0\text{,}\)</span> or <span class="process-math">\(x+1=0\text{.}\)</span> Solving each of these for <span class="process-math">\(x\)</span> gives the possible answers, <span class="process-math">\(x=0\text{,}\)</span> <span class="process-math">\(x=6\text{,}\)</span> and <span class="process-math">\(x=-1\text{.}\)</span> Substituting each of these into the original equation verifies that the solution consists of these three values, <span class="process-math">\(0\text{,}\)</span> <span class="process-math">\(6\text{,}\)</span> and <span class="process-math">\(-1\text{.}\)</span>
 </div>
 </div> <div class="para" id="equality-properties-14-4-2">Click on answer to see the solution as a series of equations.</div>
 </div></details>
