@@ -6,7 +6,7 @@
     <title>What do we know? What do we wonder?</title>
     <!--<introduction>-->
         <p>
-                As we prepare to build on our knowledge of isometries, 
+                As we continue to build on our knowledge of isometries, 
                 it is wise to summarize what we know so far. 
                 We know that a transformation of a plane is a mapping or function 
                 that sends each point <m>P</m> on the
@@ -57,7 +57,7 @@
   <subsection xml:id="subsec-isom-congruent-figs-orientation">
     <title>Isometry Between Congruent Figures</title>
     <p>
-        We are now familiar with three types of isometries: reflections, 
+        We are familiar with three types of isometries: reflections, 
         translations, and rotations. Yet many questions remain: 
         Are there other types of isometries? 
         Are there transformations that are not isometries? If two figures are congruent, 
@@ -66,15 +66,7 @@
     </p>
     <p>
         Although we have not proved this fact, it is true that if we have two congruent figures,
-        there will be an isometry that maps one onto the other. In fact, this notion 
-        of congruence as being able to lay one figure on top of the other was how Euclid 
-        envisioned congruence. This intuitive definition of congruence preceded
-        the more technical measurement definitions for congruence taught in many 
-        middle and high school geometry classes. There has been a shift back to 
-        this transformational meaning of congruent in recent years. Perhaps, your 
-        teacher adopted this approach.
-    </p>
-    <p>
+        there will be an isometry that maps one onto the other. 
         Our goal in this section and next will be to identify the type of isometry 
         that takes one figure onto a congruent copy. Is it a reflection, a translation, 
         a rotation, or something else? Then having determined the type can we specify 
@@ -90,14 +82,14 @@
           <p>
             <ol>
               <li>
-                  <p>
-                    Imagine that <m>\Delta ABC</m> is a moveable cutout triangle with a pretty blue pattern on 
-                    the front face and gray cardboard on the back. We can think of the action of an isometry 
-                    as moving <m>\Delta ABC</m> so that it aligns perfectly with its image <m>\Delta A'B'C'</m>.   
-                    Which isometries--reflections, translations, and rotations--
-                    studied so far will keep <m>\Delta ABC</m> blue side up? Which will turn 
-                    <m>\Delta ABC</m> over so that it is cardboard side up? What property is this related to?
-                  </p>
+                <p>
+                  Imagine that <m>\Delta ABC</m> is a moveable cutout triangle with a beach scene on 
+                  the front face and gray cardboard on the back. We can think of the action of an isometry 
+                  as moving <m>\Delta ABC</m> so that it aligns perfectly with its image <m>\Delta A'B'C'</m>.   
+                  Which isometries--reflections, translations, and rotations--
+                  studied so far will keep <m>\Delta ABC</m> beach side up? Which will turn 
+                  <m>\Delta ABC</m> over so that it is cardboard side up? What property is this related to?
+                </p>
               </li>
               <li>
                 <p>
@@ -161,7 +153,7 @@
           itself. We call this transformation, the <term>identity transformation</term>.
           Under the action of the identity transformation, every point is a fixed point.
           Clearly, the identity function also preserves distance, angle measure, and 
-          orientation. It is an isometry that preserves orientation.
+          orientation since it leaves everything unchanged. 
           <idx><h>identity transformation</h></idx>
         </p>
       </conclusion>
@@ -169,10 +161,13 @@
     <subsection>
       <title>Defining Objects of Isometries</title>
         <p>
-          Now that we can determine whether the isometry mapping one 
+          Once we determine whether the isometry mapping one 
           figure onto a congruent image is a reflection, translation,
-          or rotation, we need to identify the defining object(s) of the 
-          isometry. <xref ref="table-def-obj-1"/> lists the defining 
+          or rotation, we need to specify which reflection, which 
+          translation, or which rotation it is. We do this by identifying 
+          the defining object(s) of the isometry. With a reflection, for example,
+          we should specify which line we are
+          reflecting across. <xref ref="table-def-obj-1"/> lists the defining 
           objects for the three isometries we have studied. 
         </p>
         <table xml:id="table-def-obj-1">
@@ -202,11 +197,13 @@
             </tabular>
         </table>
         <p>
-            How do we find the mirror? the vector? the center and angle for an isometry?
-            Although the defining objects will determine how the 
-            isometry acts on all points in the plane, we will focus on just a
+            How do we find the mirror for a reflection? the vector for a translation? 
+            the center and angle for an rotation?
+            Although the defining objects determine how the 
+            isometry acts on all points in the plane, we need just a
             few points <m>P</m> along with their images <m>P'</m> in order to find the defining 
-            objects. You will want to record your discoveries for later reference.
+            objects. As you work through <xref ref="expl-isom-finding-defining-objects"/>
+            make note of these methods and add them to your toolbox.
         </p>
         <exploration xml:id="expl-isom-finding-defining-objects">
           <title>
@@ -229,7 +226,7 @@
                       Refer to <xref ref="reversing-orientation-fig"/> which shows 
                       a reflection of <m>\Delta ABC</m> across line <m>m</m>, 
                       how is the reflecting line related to each segment connecting a 
-                      point in the triangle to its image? 
+                      vertex of the triangle to its image? 
                     </p>
                   </li>
                   <li>
@@ -242,7 +239,7 @@
                     </p>
                     <figure xml:id="tech-to-find-mirror">
                       <caption>
-                          An interactive Geogebra applet for finding the mirror of a reflection.
+                          An interactive GeoGebra applet for finding the mirror of a reflection.
                       </caption>
                     <interactive xml:id="app-find-mirror" platform="geogebra">
                         <slate surface="geogebra" material="yza8zwbr"/>
@@ -272,7 +269,7 @@
             <statement>
               <p>
                 In <xref ref="explor-isom-RAT-translation"/>, you were given a 
-                translation vector <m>\overrightarrow{EF}</m> which indicated the direction and 
+                translation vector <m>\overrightarrow{FG}</m> which indicated the direction and 
                 distance that each point should be moved, specifically three units
                 right and one unit down. In the activity <m>E</m> had the coordinates  
                 <m>(2,4)</m> and <m>F</m> had the coordinates <m>(5,3)</m>. We will  
@@ -281,16 +278,16 @@
                   <ol>
                     <li>
                       <p>
-                        If the point <m>E</m> had the coordinates <m>(0,0)</m>, what would 
-                        the coordinates of <m>F</m> be so that <m>\overrightarrow{EF}</m> would 
-                        represent three units right and one unit down?
+                        If the point <m>F</m> had the coordinates <m>(0,0)</m>, what would 
+                        the coordinates of <m>G</m> be so that <m>\overrightarrow{FG}</m> would 
+                        represent a move of three units right and one unit down?
                       </p>
                     </li>
                     <li>
                       <p>
-                        If the ending point <m>F</m> has the coordinates <m>(-2,2)</m>, 
-                        what would the coordinates of the starting point <m>E</m> 
-                        be so that <m>\overrightarrow{EF}</m> would 
+                        If the ending point <m>G</m> has the coordinates <m>(-2,2)</m>, 
+                        what would the coordinates of the starting point <m>F</m> 
+                        be so that <m>\overrightarrow{FG}</m> would 
                         represent three units right and one unit down?
                       </p>
                     </li>
@@ -326,7 +323,7 @@
             <statement>
               <p>
                 In <xref ref="fig-find-rotcenter-app-1"/>, an L-pentomino and its 
-                image are shown.
+                image under a rotation are shown.
                   <ol>
                     <li>
                       <p>
@@ -343,6 +340,15 @@
                     </li>
                   </ol>
                 </p>
+                <aside>
+                  <p>
+                    To measure an angle on GeoGebra, be sure to click the vertex of  
+                    the angle second. For example, <m>m\angle BAF</m> would be found 
+                    using the angle tool and clicking <m>B</m>, <m>A</m>, and <m>F</m>
+                    in that counterclockwise order. If you click the vertices in the 
+                    clockwise order, you will get <m>360-\angle BAF</m>.
+                  </p> 
+                </aside>
               <figure xml:id="fig-find-rotcenter-app-1">
                 <caption>
                     An interactive Geogebra applet for finding the center and 
@@ -353,15 +359,6 @@
             </interactive>
             </figure>
             </statement>
-            <hint>
-              <p>
-                To measure an angle on GeoGebra, be sure to click the vertex of  
-                the angle second. For example, <m>m\angle BAF</m> would be found 
-                using the angle tool and clicking <m>B</m>, <m>A</m>, and <m>F</m>
-                in that counterclockwise order. If you click the vertices in the 
-                clockwise order, you will get <m>360-\angle BAF</m>.
-              </p> 
-            </hint>
           </task>
           <task xml:id="task-center-and-angle-2">
             <title>Finding the Center and Angle of a Rotation, part 2</title>
@@ -391,15 +388,15 @@
                 </li>
                 <li>
                   <p>
-                    Provided GeoGebra tools will allow you to find perpendicular lines, 
+                    GeoGebra tools will allow you to find perpendicular lines, 
                     perpendicular bisectors, angle bisectors, circles, angle measures, 
                     and lengths. Any ideas of what we might try?
                   </p>
                 </li>
                 <li>
                   <p>
-                    Since we have sketch the segments <m>\overline{AA'}</m>, <m>\overline{BB'}</m>, 
-                    and <m>\overline{CC'}</m>, let's use the perpendicular bisector tool to find 
+                    Since we have sketched the segments <m>\overline{AA'}</m>, <m>\overline{BB'}</m>, 
+                    and <m>\overline{CC'}</m>, use the perpendicular bisector tool to find 
                     the perpendicular bisector of each segment. What do you notice? 
                   </p>
                 </li>
@@ -433,9 +430,11 @@
       </title>
       <p>
         In <xref ref="table-def-obj-1"/>, the definining objects for each transformation 
-        were given. We now add two new columns to this table. The third column, 
+        were given. We now add three new columns to this table. The third column, 
         titled <term>Orientation</term>, will have either <sq>changes</sq>
-        or <sq>maintains</sq> for its entries. The fourth column, <term>Properties</term>, is 
+        or <sq>maintains</sq> for its entries. The fourth column, <term>Fixed
+        </term> will identify point(s) fixed by the transformation, and the fifth column
+        <term>Properties</term>, is 
         where you should write some of the other properties that you discovered. Since all 
         isometries preserve distance and angle measure we will not put these in the table, 
         but instead focus on properties that distinguish the types of isometries. Finally,
@@ -455,6 +454,7 @@
             <cell>Isometry</cell>
             <cell><line>Defining</line><line>Object(s)</line></cell>
             <cell>Orientation</cell>
+            <cell>Fixed</cell>
             <cell>Properties</cell>
             <!--<cell><line>Locating</line><line> Object</line></cell>-->
           </row>
@@ -462,6 +462,7 @@
             <cell>Reflection</cell>
             <cell><line>Reflecting Line</line><line> (or mirror)</line></cell>
             <cell>Changes</cell>
+            <cell>On Mirror</cell>
             <cell>
               <line>Mirror is</line><line> perpendicular to</line>
               <line>and bisects each <m>\overline{PP'}</m></line>
@@ -477,12 +478,14 @@
                 <cell>Translation</cell>
                 <cell><line>Translation</line><line> Vector</line></cell>
                 <cell></cell>
+                <cell></cell>
                 <cell><line> </line><line> </line><line> </line><line> </line></cell>
                 <!--<cell><line> </line><line> </line><line> </line><line> </line></cell>-->
             </row>
             <row>
                 <cell>Rotation</cell>
                 <cell><line>Center and</line> <line>Angle</line></cell>
+                <cell></cell>
                 <cell></cell>
                 <cell>
                   <line>Perp. bisector</line>

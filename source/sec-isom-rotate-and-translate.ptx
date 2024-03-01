@@ -169,7 +169,7 @@
                 A collineation is called an <term>isomorphism</term> if it preserves 
                 distance between points. In other words, <m>t</m> is an isomorphism if
                 for every two points <m>P</m> and <m>Q</m>, 
-                <m>m(\overline{PQ})=m(\overline{P'Q'})</m>. Here <m>P'=t(P)</m> and 
+                <m>m(\overline{PQ})=m(\overline{P'Q'})</m> where <m>P'=t(P)</m> and 
                 <m>Q'=t(Q)</m>.
             </p>
         </statement>
