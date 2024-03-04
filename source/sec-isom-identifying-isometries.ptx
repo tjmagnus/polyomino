@@ -430,16 +430,14 @@
       </title>
       <p>
         In <xref ref="table-def-obj-1"/>, the definining objects for each transformation 
-        were given. We now add three new columns to this table. The third column, 
-        titled <term>Orientation</term>, will have either <sq>changes</sq>
-        or <sq>maintains</sq> for its entries. The fourth column, <term>Fixed
-        </term> will identify point(s) fixed by the transformation, and the fifth column
-        <term>Properties</term>, is 
-        where you should write some of the other properties that you discovered. Since all 
-        isometries preserve distance and angle measure we will not put these in the table, 
-        but instead focus on properties that distinguish the types of isometries. Finally,
-        the fifth column, <term>Locating Object(s)</term>, 
-        will contain instructions for finding each of the defining objects. 
+        were given. We now add new columns to this table. In the column, 
+        <term>Orientation</term>, write either <sq>changes</sq>
+        or <sq>maintains</sq> for the entries. The column, <term>Fixed Points
+        </term> is where you will identify the point(s), if any, that are fixed 
+        by the transformation, and in the column
+        <term>Properties of Object(s)</term>, is 
+        where you should write the properties that can assist you in locating the
+        defining object(s) for each type of transformation.  
       </p>
       <!--Is the next table premature?-->
       <table xml:id="table-def-obj-2">
@@ -448,45 +446,39 @@
           <col right="medium"/>
           <col right="minor"/>
           <col right="minor"/>
-          <!--<col right="minor"/>-->
+          <col right="minor"/>
           <col />
           <row header="yes" bottom="medium">
             <cell>Isometry</cell>
-            <cell><line>Defining</line><line>Object(s)</line></cell>
             <cell>Orientation</cell>
-            <cell>Fixed</cell>
-            <cell>Properties</cell>
+            <cell><line>Fixed</line><line>Points</line></cell>
+            <cell><line>Defining</line><line>Object(s)</line></cell>
+            <cell><line>Properties of</line><line>Def. Object(s)</line></cell>
             <!--<cell><line>Locating</line><line> Object</line></cell>-->
           </row>
           <row bottom="minor">
             <cell>Reflection</cell>
-            <cell><line>Reflecting Line</line><line> (or mirror)</line></cell>
             <cell>Changes</cell>
-            <cell>On Mirror</cell>
+            <cell><line>Points on</line><line>Mirror</line></cell>
+            <cell><line>Reflecting Line</line><line> (or mirror)</line></cell>
             <cell>
-              <line>Mirror is</line><line> perpendicular to</line>
-              <line>and bisects each <m>\overline{PP'}</m></line>
+              <line>Mirror is the</line><line> perpendicular</line>
+              <line>bisector of each <m>\overline{PP'}</m></line>
             </cell>
-            <!--<cell>
-              <line>Draw <m>AA'</m> and</line>
-              <line>construct its</line> 
-              <line>perpendicular</line>
-              <line>bisector</line>
-            </cell>-->
             </row>
             <row bottom="minor">
                 <cell>Translation</cell>
+                <cell></cell>
+                <cell></cell>
                 <cell><line>Translation</line><line> Vector</line></cell>
-                <cell></cell>
-                <cell></cell>
-                <cell><line> </line><line> </line><line> </line><line> </line></cell>
+                <cell><line> </line><line> </line><line> </line><line> </line><line> </line></cell>
                 <!--<cell><line> </line><line> </line><line> </line><line> </line></cell>-->
             </row>
             <row>
                 <cell>Rotation</cell>
+                <cell></cell>
+                <cell></cell>
                 <cell><line>Center and</line> <line>Angle</line></cell>
-                <cell></cell>
-                <cell></cell>
                 <cell>
                   <line>Perp. bisector</line>
                   <line>of each <m>\overline{PP'}</m></line>
@@ -502,17 +494,20 @@
         </tabular>
     </table>
     <exercise>
+      <title>Updating Your Toolbox</title>
       <statement>
         <p>
           Complete <xref ref="table-def-obj-2"/>
           by filling in the column for orientation and the row for translation. Compare 
           the last column in your table with the last item in each task of 
-          <xref ref="expl-isom-finding-defining-objects"/>. Feel free to rewrite each 
+          <xref ref="expl-isom-finding-defining-objects"/>. You are encouraged 
+          to rewrite each 
           entry in words that are meaningful to you before adding this to your toolbox.
-          We will use this in the next section.
+          You may find this table useful in the next section.
         </p>
       </statement>
     </exercise>
     </subsection>
 </section>
-<!--possible exercise on why perpendicular bisector is ideal-->
+<!--possible exercise on why parallelograms are formed by translations and 
+why the center is the intersection of the perpendicular bisectors-->

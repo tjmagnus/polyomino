@@ -31,16 +31,20 @@
       </notation>
       <statement>
         <p>
-          Two polygons are said to be <term>congruent</term> if they satisfy
+          Two polygons are <term>congruent</term> if they satisfy
           all of the following:
           <ul marker="disc">
             <li>
               <p>
                 The polygons have the same number of sides.
               </p>
+              </li>
+              <li>
               <p>
                 Corresponding sides have the same length.
               </p>
+              </li>
+              <li>
               <p>
                 Corresponding angles have the same measure.
               </p>
@@ -49,9 +53,9 @@
         </p>
         <p>
           As an example, consider a pair of convex quadrilaterals, <m>ABCD</m> and
-          <m>EFGH</m>. We would say <m>ABCD</m> is <term>congruent to</term>
-          <m>EFGH</m>, written <m>ABCD\cong EFGH</m> if all of the following
-          were true: <m>AB=EF</m>, <m>BC=FG</m>, <m>CD=GH</m>, <m>DA=HE</m>,
+          <m>EFGH</m>. We say <m>ABCD</m> is <term>congruent to</term>
+          <m>EFGH</m>, written <m>ABCD\cong EFGH</m>, if all of the following
+          are true: <m>AB=EF</m>, <m>BC=FG</m>, <m>CD=GH</m>, <m>DA=HE</m>,
           <m>m(\angle ABC)=m(\angle EFG)</m>, <m>m(\angle BCD)=m(\angle FGH)</m>,
           <m>m(\angle CDA)=m(\angle GHE)</m>, and <m>m(\angle DAB)=m(\angle HEF)</m>.
           Note how the labeling of the quadrilaterals' vertices identifies the pairs
@@ -67,7 +71,7 @@
       <title>Area of Congruent Polygons</title>
       <statement>
         <p>
-          If two polygons are congruent, then they have the same area.
+          If two polygons are congruent, then the polygons have the same area.
         </p>
       </statement>
     </principle>

@@ -15,7 +15,7 @@
       <me>
         1 \overset{x+3}{\rightarrow} 4  \overset{4x}{\rightarrow} 16
       </me>
-      In function notation, we may write <m>g(f(1))=g(1+3)=g(4)=4(4)=16</m> where we perform 
+      In function notation, we may write  <m>g(f(1))=g(1+3)=g(4)=4(4)=16</m> where we perform 
       the inner function first. We may also perform these operations on a generic value <m>x</m>:
       <me>g(f(x))=g(x+3)=4(x+3)=4x+12.</me> We note the importance of order. If we multiply by 4
       first and add 3 second, we get a different result:
@@ -64,7 +64,7 @@
           and then across line <m>h</m>  where <m>g</m> and <m>h</m> are parallel. 
           <ol>
             <li>
-              Use the <sq>reflect across line</sq> tool to reflect pentomino <m>ABCDEF</m>
+              Use the <sq>Reflect across Line</sq> tool to reflect pentomino <m>ABCDEF</m>
               across line <m>g</m> in <xref ref="app-reflect2parallels"/> to create pentomino 
               <m>A'B'C'D'E'F'</m>.
             </li>
@@ -86,16 +86,25 @@
       <task>
         <statement>
           <p>
-            Refer to the original pentomino <m>ABCDEF</m> and its image after reflecting across 
-            parallel lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2parallels"/>. 
+            Refer to the original pentomino <m>ABCDEF</m> and its final image after reflecting across 
+            the two parallel lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2parallels"/>. 
+          </p>
+          <p>
+            You may hide (right-click on object and then uncheck show object) 
+            the intermediate objects so that it is easier to focus on <m>ABCDEF</m>
+            and <m>A''B''C''D''E''F''</m>. Or you may instead color 
+            the initial and final objects (right-click on the interior of the pentomino).
+            Do not delete the intermediate construction as it will cause later 
+            constructions to also be deleted.
+
             <ol>
               <li>
                 What type of isometry takes <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Is it a 
                 reflection, a translation, a rotation, or something else?
               </li>
               <li>
-                Draw the segments <m>\overline{AA'}, \overline{BB'}, \ldots, \overline{FF'}</m> and 
-                measure the lengths <m>AA', BB', \ldots, FF'</m>. What do you notice?
+                Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots, \overline{FF''}</m> and 
+                measure the lengths <m>AA'', BB''', \ldots, FF''</m>. What do you notice?
               </li>
               <li>
                 <p>
@@ -112,14 +121,6 @@
             </ol>
           </p>
         </statement>
-        <hint>
-          <p>
-          You may choose to hide (use show/hide tool) the intermediate objects or color 
-          the initial and final objects (use right-click on the interior of the pentomino)
-          so that it is easier to focus on the first and final figures. Do not delete the 
-          intermediate construction as it will cause later constructions to also be deleted.
-          </p>
-        </hint>
       </task>
       <task>
         <statement>

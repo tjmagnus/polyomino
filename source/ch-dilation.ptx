@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-dilation" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Similarity and Congruence</title>
+    <title>Similarity</title>
     <xi:include href="sec-dilations-Cartesian.ptx"/>
     <xi:include href="sec-dilations-and-similarity.ptx"/>
-    <xi:include href="sec-dilations-similarcongruent.ptx"/>
+    <!--<xi:include href="sec-dilations-similarcongruent.ptx"/>-->
     <xi:include href="sec-dilations-Pyth-golden.ptx" />
     <!--<xi:include href="sec-dilations-scale-symm.ptx"/>-->
     <xi:include href="sec-dilations-instructor.ptx" />

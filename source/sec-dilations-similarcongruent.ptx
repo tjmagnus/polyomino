@@ -2,9 +2,115 @@
 
 <section xml:id="sec-dilations-similarcongruent" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Similarity and Congruence</title>
-<p>
-  UNDER CONSTRUCTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-</p>
+      <subsection xml:id="subsec-congruence">
+        <title>Congruent Triangles</title>
+        <p>
+          In <xref ref="def-congruent-polygon"/>, we defined two polygons to be 
+          congruent if corresponding angles and corresponding sides were congruent.
+          For a triangle, one would need to check three pairs of angles and three 
+          pairs of sides, a total of twelve measurements to verify congruence. For 
+          other polygons, even more measurements would be required. Intuitively,
+          we would like to think of two figures being congruent if there is an 
+          isometry that takes one to the other.
+        </p>
+        <p>
+          Most high school geometry courses devote a significant amount of time to 
+          triangle congruence criteria, including SAS (Side-Angle-Side), SSS (Side-Side-Side), and
+          ASA (Angle-Side-Angle). Each of these reduces the number of objects that 
+          need to be checked for congruence in half. We will assume the SAS Congruence 
+          Criterion as a Principle and add it to our toolbox.
+        </p>
+        <principle xml:id="principle-SAS">
+          <title>SAS Triangle Congruence</title>
+          <statement>
+            <p>
+              If two triangles have two pairs of congruent corresponding sides and
+              the corresponding angles between these sides are also congruent, then the triangles 
+              are congruent. In particular, if <m>\Delta ABC</m> and <m>\Delta DEF</m>
+              have <m>AB=DE</m> and <m>BC=EF</m> and <m>\angle ABC\cong\angle DEF</m>,
+              then <m>\Delta ABC\cong\Delta DEF</m>. 
+            </p>
+          </statement>
+        </principle>
+        <p>
+          A second congruence criterion, SSS, can be proved from SAS, but requires many steps 
+          that I have elected to move to optional exercises rather than making the proof 
+          required. We add this criterion to our set of tools as well.
+        </p>
+        <principle xml:id="principle-SSS">
+          <statement>
+            <p>
+              If two triangles have three pairs of congruent corresponding sides, then the triangles 
+              are congruent. In particular, if <m>\Delta ABC</m> and <m>\Delta DEF</m>
+              have <m>AB=DE</m>, <m>BC=EF</m>, and <m>AC=DF</m>,
+              then <m>\Delta ABC\cong\Delta DEF</m>.
+            </p>
+          </statement>
+        </principle>
+        <!--<p>
+          It is intuitively obvious that reflecting a point <m>A</m> across a 
+          line <m>m</m> will result in a point <m>A'</m> where <m>m</m> is the 
+          perpendicular bisector of <m>AA'</m>. It may be more surprising that
+          if <m>C</m> is any point on line <m>m</m> then <m>AC=A'C</m>. In other
+          words, every point on the reflecting line <m>m</m> is <term>equidistant</term>
+          from <m>A</m> and <m>A'</m>. We prove this in <xref ref="explor-perpbis"/>.
+        </p>
+        <figure xml:id="fig-perpbisthm">
+          <caption>Points on the Mirror are equidistant from <m>A</m> and <m>A'</m></caption>
+          <image source="perpbis-theorem">
+            <shortdescription>Points B and C on line m. A and A' are reflections 
+              of each other across line m. D is the intersection of line m and 
+              segment AA'. Ninety degree angle is marked at D. Quadrilateral
+              ABA'C is drawn in dashed lines.
+            </shortdescription>
+          </image>
+        </figure>
+        <exploration>
+          <title>Perpendicular Bisector</title>
+          <task>
+            <statement>
+              <p>
+                Consider <xref ref="fig-perpbisthm"/> which show the image of a point 
+                <m>A</m> reflected across line <m>m</m>. We assume that <m>m</m> is a 
+                perpendicular bisector of <m>/overline{AA'}</m>.
+                <ol>
+                  <li>
+                    <p>
+                      Do we know <m>AD=A'D</m>? Why?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Why is <m>\angle ADC\cong\angle A'DC</m>?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      What else do we need to know to show <m>\Delta ADC\cong\Delta A'DC</m>?
+                      Can we now use SAS to make this claim?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Why is <m>AC=A'C</m>?
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </statement>
+            <statement>
+              <p>
+                Was there anything special about point <m>C</m>? Is it also
+                true that <m>AB=A'B</m> using a similar argument? If we move 
+                <m>B</m> anywhere along <m>m</m> will the argument continue to 
+                hold?
+              </p>
+            </statement>
+          </task>
+        </exploration>
+      </subsection>
+
+
   <p>
     In this section, I plan to add information on the relationship between 
     congruency of figures and isometries. We will add SAS and SSS to our toolbox,
@@ -19,7 +125,7 @@
     Efforts will be made to use a transformational, exploratory approach to the 
     extent possible.
   </p>
-  <!--<p>
+  <p>
     This notion 
         of congruence as being able to lay one figure on top of the other was how Euclid 
         envisioned congruence. This intuitive definition of congruence preceded
