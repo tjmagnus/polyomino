@@ -64,6 +64,13 @@
       facilitate a left-to-right method. This may change in future versions. Let me 
       know what you think!
     </p>
+    <p>
+      In <xref ref="explor-refl-two-intersecting"/>, students should definitely be 
+      encouraged to hide <m>A'B'C'D'E'F'</m> as well as its vertices. The rotational 
+      angle is double the angle between the lines. Reversing the order in which 
+      points for the angle are selected may give measurements that make the doubling 
+      more obvious.
+    </p>
   </subsection>
   <subsection>
     <title>Notes for <xref ref="sec-isom-mystery-isometries"/></title>

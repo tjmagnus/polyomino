@@ -90,13 +90,16 @@
             the two parallel lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2parallels"/>. 
           </p>
           <p>
-            You may hide (right-click on object and then uncheck show object) 
+            For the remainder of this activity, we will only be interested in the 
+            original pentomino <m>ABCDEF</m> and the final image <m>A''B''C''D''E''F''</m>.
+            You may hide  
             the intermediate objects so that it is easier to focus on <m>ABCDEF</m>
-            and <m>A''B''C''D''E''F''</m>. Or you may instead color 
-            the initial and final objects (right-click on the interior of the pentomino).
-            Do not delete the intermediate construction as it will cause later 
-            constructions to also be deleted.
-
+            and <m>A''B''C''D''E''F''</m> by right-clicking on each object and then 
+            unchecking <sq>show object</sq>. Another option found by right-clicking is  
+            to change the color of the object.
+            Do not delete any intermediate construction as it will cause later 
+            constructions to also be deleted. If you delete accidentally, use the 
+            undo arrow on the right end of the toolbar to recover your work.
             <ol>
               <li>
                 What type of isometry takes <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Is it a 
@@ -104,12 +107,12 @@
               </li>
               <li>
                 Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots, \overline{FF''}</m> and 
-                measure the lengths <m>AA'', BB''', \ldots, FF''</m>. What do you notice?
+                measure the lengths <m>AA'', BB'', \ldots, FF''</m>. What do you notice?
               </li>
               <li>
                 <p>
-                  What do you notice about the angle between each segment, <m>\overline{AA'}, \overline{BB'}, 
-                    \ldots, \overline{FF'}</m>  and the original two lines <m>g</m> and <m>h</m>?
+                  What do you notice about the angle between each segment, <m>\overline{AA''}, \overline{BB''}, 
+                    \ldots, \overline{FF''}</m>  and the original two lines <m>g</m> and <m>h</m>?
                 </p>
               </li>
               <li>
@@ -121,6 +124,11 @@
             </ol>
           </p>
         </statement>
+        <hint>
+          <p>
+            For a smaller font, measure the segment, not the distance between points.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -190,8 +198,10 @@
           <task>
             <statement>
               <p>
-                Refer to the original pentomino <m>ABCDEF</m> and its image after reflecting across 
-                parallel lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2intersect"/>. 
+                Refer to the original pentomino <m>ABCDEF</m> and its image <m>A''B''C''D''E''F''</m> 
+                after reflecting across 
+                intersecting lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2intersect"/>. You may
+                want to hide the intermediate figure <m>A'B'C'D'E'F'</m>.
                 <ol>
                     <li>
                       What type of isometry takes <m>ABCDEF</m> to the final image 
@@ -201,7 +211,14 @@
                     <li>
                       <p>
                         Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots,
-                        \overline{FF''}</m>.  What do you notice?
+                        \overline{FF''}</m>.  What, if anything, do you notice?
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Create the perpendicular bisector of each segment <m>\overline{AA''}, 
+                          \overline{BB''}, \ldots, \overline{FF''}</m>. What do you notice about 
+                          the perpendicular bisectors?
                       </p>
                     </li>
                     <li>
@@ -216,14 +233,23 @@
                     </li>
                     <li>
                       <p>
-                        Measure the angles created by the intersecting lines. What do you notice?
+                        Create point <m>M</m> where the original two lines intersect. What 
+                        is the measure of <m>\angle A''MA</m>? <m>\angle B''MB</m>?
+                        <m>\angle C''MC</m>? <m>\angle D''MD</m>? <m>\angle E''ME</m>?
+                        <m>\angle F''MF</m>? What does this tell you about the transformation
+                        taking <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>?
                       </p>
                     </li>
                     <li>
                       <p>
-                        Let <m>M</m> be the point where the original two lines intersect. Measure the 
-                        lengths <m>AM</m>, <m>A''M</m>, <m>BM</m>, <m>B''M</m>, etc. What do you 
-                        notice?
+                        Measure the angles created by the original pair of intersecting lines 
+                        <m>g</m> and <m>h</m>. What do you notice?
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Measure the lengths <m>AM</m>, <m>A''M</m>, <m>BM</m>, <m>B''M</m>, 
+                        etc. What do you notice?
                       </p>
                     </li>
                 </ol>
@@ -315,16 +341,24 @@
           </figure>
         </statement>
       </task>
+      <hint>
+        <p>
+          Unlabeled points on lines <m>d</m>, <m>e</m>, and <m>f</m> allow the 
+          lines to be moved while staying parallel. Experiment to see whether
+          your claims continue to hold.
+        </p>
+      </hint>
       <task>
         <title>Reflecting across three intersecting lines</title>
         <statement>
           <p>
             Finally, we reflect the triangle across three lines, at least some 
-            of which intersect.  Use the <sq>Reflect about line</sq> tool to reflect 
+            of which intersect.  Use the <sq>Reflect about Line</sq> tool to reflect 
             <m>\Delta ABC</m> across <m>d</m>, then reflect its image <m>\Delta A'B'C'</m> 
             across line <m>e</m>, and finally reflect <m>\Delta A''B''C''</m> across 
-            <m>f</m>. After creating <m>\Delta A'''B'''C'''</m>, you may hide the two 
-            intermediate triangles <m>\Delta A'B'C'</m> and <m>\Delta A''B''C''</m>. 
+            <m>f</m>. After creating <m>\Delta A'''B'''C'''</m>, you should hide the two 
+            intermediate triangles <m>\Delta A'B'C'</m> and <m>\Delta A''B''C''</m>
+            and their vertices. 
             </p>
             <figure xml:id="app-reflect3intersect">
               <caption>
@@ -361,11 +395,16 @@
             </li>
             <li>
               <p>
-                Hide, but do not delete, lines <m>d</m>, <m>e</m>, and <m>f</m>. Sketch the 
-                line segments, <m>\overline{AA'''}</m>, <m>\overline{BB'''}</m>,
-                and <m>\overline{CC'''}</m>. Plot the midpoint of each of these segments.
+                Hide, but do not delete, lines <m>d</m>, <m>e</m>, and <m>f</m>. 
+                Plot the midpoint of each of the line segments, <m>\overline{AA'''}</m>, 
+                <m>\overline{BB'''}</m>, and <m>\overline{CC'''}</m>.
                 What do you notice about these midpoints?
               </p>
+              <aside>
+                <p>
+                  GeoGebra allows you to plot the midpoint without drawing the segments.
+                </p>
+              </aside>
             </li>
             <li>
               <p>
@@ -422,7 +461,7 @@
       orientation of a figure is reversed each time it is reflected. Thus,
       orientation is changed under an odd number of reflections and maintained 
       (flipped back) under an even number of reflections. Hence, the 
-      composition of two reflections in succession must be  
+      composition of two reflections in succession will be  
       either a translation (when the reflecting lines are parallel) or a 
       rotation (when the reflecting lines intersect). When we reflect 
       across three lines, not all of which are parallel, we get an isometry 
