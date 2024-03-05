@@ -323,7 +323,7 @@
           Now use the angle bisector tool to bisect angle <m>\angle ABD</m>
           in <xref ref="fig-golden-tri"/>.
           Let <m>E</m> be the point where this angle bisector intersects segment 
-          <m>\overline{AD}</m>. Draw segment <m>overline{BE}</m> and hide ray
+          <m>\overline{AD}</m>. Draw segment <m>\overline{BE}</m> and hide ray
           <m>\overrightarrow{BE}</m>.
           <ol>
             <li>

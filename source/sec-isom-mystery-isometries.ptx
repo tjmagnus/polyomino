@@ -124,7 +124,7 @@
                     </p>
                     <figure xml:id="fig-reflect-rev-mystery">
                         <caption>
-                          An interactive Geogebra applet for analyzing a reflection across 
+                          An interactive GeoGebra applet for analyzing a reflection across 
                           a single line.
                         </caption>
                         <interactive xml:id="mystery-rev-reflect-app"
@@ -187,7 +187,7 @@
                 <statement>
                     <p>
                         The GeoGebra interactive in <xref ref="fig-rotate-rev-mystery"/> shows the 
-                        action of a 120-degree clockwise rotation of <m>\Delta ABC</m> about point 
+                        action of a clockwise rotation of <m>\Delta ABC</m> about point 
                         <m>D</m>. Use this interactive
                         as needed to answer the following questions about rotations:
                         <ol>
@@ -207,17 +207,14 @@
                             </li>
                             <li>
                                 <p>
-                                    Construct the segments <m>AA'</m>, <m>BB'</m>, and <m>CC'</m>.  
-                                    Construct the midpoints of each of these three segments.  Then construct 
-                                    the perpendicular bisector of each of these segments.  Where do these 
-                                    three bisectors intersect?
+                                    Where do the perpendicular bisectors of the segments <m>\overline{AA'}</m>, 
+                                    <m>\overline{BB'}</m>, and <m>\overline{CC'}</m> intersect?
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     What are the measures of angles <m>\angle ADA'</m>, <m>\angle BDB'</m>, 
-                                    and <m>\angle CDC'</m>? How do these measures inform you that this is 
-                                    a 120-degree clockwise rotation?
+                                    and <m>\angle CDC'</m>? What does this tell you about the rotation?
                                 </p>
                             </li>
                             <li>
@@ -232,7 +229,7 @@
                     </p>
                     <figure xml:id="fig-rotate-rev-mystery">
                         <caption>
-                          An interactive GeoGebra applet for analyzing a 120-degree rotation.
+                          An interactive GeoGebra applet for analyzing a rotation.
                         </caption>
                         <interactive xml:id="mystery-rev-rotate-app"
                           platform="geogebra">
@@ -335,7 +332,25 @@
                                 <p>
                                     The isometry that takes the polygon in 
                                     <xref ref="fig-mystery-iso1" text="title"/> to 
-                                    its image is a <fillin characters="5"/>. 
+                                    its image <fillin characters="5"/> the orientation of the 
+                                    polygon.
+                                    <ul marker="circle">
+                                        <li>
+                                            <p>
+                                                maintains
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                reverses
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Mystery Isometry 1 is a <fillin characters="5"/>. 
                                     <ul marker="circle">
                                         <li>
                                             <p>
@@ -362,26 +377,8 @@
                             </li>
                             <li>
                                 <p>
-                                    Mystery Isometry 1 <fillin characters="5"/> the orientation of the 
-                                    polygon.
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                maintains
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                reverses
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The defining object for Mystery Isometry 1 is a <fillin characters="5"/>
-                                    and is labeled on my sketch as <fillin characters="5"/>.
+                                    The defining object for Mystery Isometry 1 is/are <fillin characters="5"/>
+                                    and labeled on my sketch as <fillin characters="5"/>.
                                 </p>
                             </li>
                         </ol>
@@ -406,7 +403,25 @@
                             <li>
                                 <p>
                                     The isometry that takes the polygon in <xref ref="fig-mystery-iso2" text="title"/> to 
-                                    its image is a <fillin characters="5"/>. 
+                                    its image <fillin characters="5"/> the orientation of the 
+                                    polygon.
+                                    <ul marker="circle">
+                                        <li>
+                                            <p>
+                                                maintains
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                reverses
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Mystery Isometry 2 is a <fillin characters="5"/>. 
                                     <ul marker="circle">
                                         <li>
                                             <p>
@@ -433,26 +448,8 @@
                             </li>
                             <li>
                                 <p>
-                                    Mystery Isometry 2 <fillin characters="5"/> the orientation of the 
-                                    polygon.
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                maintains
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                reverses
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The defining object for Mystery Isometry 2 is a <fillin characters="5"/>
-                                    and is labeled on my sketch as <fillin characters="5"/>.
+                                    The defining object for Mystery Isometry 2 is/are <fillin characters="5"/>
+                                    and labeled on my sketch as <fillin characters="5"/>.
                                 </p>
                             </li>
                         </ol>
@@ -477,7 +474,25 @@
                             <li>
                                 <p>
                                     The isometry that takes the polygon in <xref ref="fig-mystery-iso3" text="title"/> to 
-                                    its image is a <fillin characters="5"/>. 
+                                    its image <fillin characters="5"/> the orientation of the 
+                                    polygon.
+                                    <ul marker="circle">
+                                        <li>
+                                            <p>
+                                                maintains
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                reverses
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Mystery Isometry 3 is a <fillin characters="5"/>. 
                                     <ul marker="circle">
                                         <li>
                                             <p>
@@ -504,26 +519,8 @@
                             </li>
                             <li>
                                 <p>
-                                    Mystery Isometry 3 <fillin characters="5"/> the orientation of the 
-                                    polygon.
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                maintains
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                reverses
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The defining object(s) for Mystery Isometry 3 is a <fillin characters="5"/>
-                                    and is labeled on my sketch as <fillin characters="5"/>.
+                                    The defining object(s) for Mystery Isometry 3 is/are <fillin characters="5"/>
+                                    and labeled on my sketch as <fillin characters="5"/>.
                                 </p>
                             </li>
                         </ol>
@@ -548,7 +545,25 @@
                             <li>
                                 <p>
                                     The isometry that takes the polygon in <xref ref="fig-mystery-iso4" text="title"/> to 
-                                    its image is a <fillin characters="5"/>. 
+                                    its image <fillin characters="5"/> the orientation of the 
+                                    polygon.
+                                    <ul marker="circle">
+                                        <li>
+                                            <p>
+                                                maintains
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                reverses
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Mystery Isometry 4 is a <fillin characters="5"/>. 
                                     <ul marker="circle">
                                         <li>
                                             <p>
@@ -575,26 +590,8 @@
                             </li>
                             <li>
                                 <p>
-                                    Mystery Isometry 4 <fillin characters="5"/> the orientation of the 
-                                    polygon.
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                maintains
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                reverses
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The defining object(s) for Mystery Isometry 4 is a <fillin characters="5"/>
-                                    and is labeled on my sketch as <fillin characters="5"/>.
+                                    The defining object(s) for Mystery Isometry 4 is/are <fillin characters="5"/>
+                                    and labeled on my sketch as <fillin characters="5"/>.
                                 </p>
                             </li>
                         </ol>
