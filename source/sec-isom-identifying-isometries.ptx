@@ -351,7 +351,7 @@
                 </aside>
               <figure xml:id="fig-find-rotcenter-app-1">
                 <caption>
-                    An interactive Geogebra applet for finding the center and 
+                    An interactive GeoGebra applet for finding the center and 
                     angle of a rotation in <xref ref="task-center-and-angle-1"/>.
                 </caption>
             <interactive xml:id="find-center-easy" platform="geogebra">
@@ -370,7 +370,7 @@
               </p>
               <figure xml:id="fig-find-rotcenter-app-2">
                 <caption>
-                    An interactive Geogebra applet for finding the center and 
+                    An interactive GeoGebra applet for finding the center and 
                     angle of a rotation.
                 </caption>
             <interactive xml:id="find-center-unknown" platform="geogebra">

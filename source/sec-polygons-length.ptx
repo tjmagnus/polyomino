@@ -184,7 +184,7 @@
           </p>
           <figure xml:id="PythRTriCsq">
             <caption>
-                An interactive Geogebra applet for proving the Pythagorean Theorem.
+                An interactive GeoGebra applet for proving the Pythagorean Theorem.
             </caption>
         <interactive xml:id="pyththmgeoapp" platform="geogebra">
             <slate surface="geogebra" material="wpd66vrf"/>
@@ -235,7 +235,7 @@
           </image>-->
           <figure xml:id="PythRTriABsq">
             <caption>
-                An interactive Geogebra applet for proving the Pythagorean Theorem.
+                An interactive GeoGebra applet for proving the Pythagorean Theorem.
             </caption>
         <interactive xml:id="pythproofgeoapp" platform="geogebra">
             <slate surface="geogebra" material="hsbubxhz"/>
@@ -359,7 +359,7 @@
           </p>
           <figure xml:id="PythBlocks">
             <caption>
-                An interactive Geogebra applet for proving the Pythagorean Theorem.
+                An interactive GeoGebra applet for proving the Pythagorean Theorem.
             </caption>
         <interactive xml:id="stairsteppyththmapp" platform="geogebra">
             <slate surface="geogebra" material="xvnba5ja"/>
@@ -396,11 +396,11 @@
               Once again, our goal is to show <m>a^2+b^2=c^2</m>. Use the same five pieces to 
               create a pair of touching squares of area <m>a^2</m> and <m>b^2</m>. Some puzzle 
               pieces will cover parts of both squares. A second 
-              copy of the Geogebra applet is provided below for your use.
+              copy of the GeoGebra applet is provided below for your use.
             </p>
             <figure xml:id="PythBlocks2">
               <caption>
-                  An interactive Geogebra applet for proving the Pythagorean Theorem, repeated 
+                  An interactive GeoGebra applet for proving the Pythagorean Theorem, repeated 
                   from above.
               </caption>
           <interactive xml:id="stairsteppyththmappcopy" platform="geogebra">

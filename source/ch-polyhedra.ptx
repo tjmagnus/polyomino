@@ -68,7 +68,8 @@
         <answer>
             <p>
                 A cube and triangular prism are polyhedra. 
-                A cylinder and sphere have curved surfaces.
+                A cylinder and sphere are not polyhedra since they 
+                have curved surfaces.
             </p>
         </answer>
     </exercise>

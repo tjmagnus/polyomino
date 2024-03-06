@@ -107,7 +107,7 @@
                     </p>
                     <aside>
                         <p>
-                        The geogebra app <url href="www.geogebra.org/m/j4yqa9jd">
+                        The GeoGebra app <url href="www.geogebra.org/m/j4yqa9jd">
                             www.geogebra.org/m/j4yqa9jd</url>, authored by Heather Pierce, may also be  
                             used to draw lines on a virtual sphere.
                     </p>
@@ -324,7 +324,7 @@
                         </p>
                         <figure xml:id="geogebra-app-corres-angles">
                             <caption>
-                                An interactive Geogebra applet for Exploration on Alternate Interior Angles.
+                                An interactive GeoGebra applet for Exploration on Alternate Interior Angles.
                             </caption>
                         <interactive xml:id="correspanglesgeoapp" platform="geogebra">
                             <slate surface="geogebra" material="ts65chjj"/>
