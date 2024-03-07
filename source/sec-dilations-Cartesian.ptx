@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-dilations-Cartesian" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Transformations that Dilate</title>
+  <title>Transformations that Scale</title>
 
   <introduction>
     <p>
         In this section, we explore a type of transformation which changes the distance 
-        between points. We begin by exploring some examples on the Cartesian
-        <m>x,y</m>-plane. 
+        between points. Before introducing some examples on the Cartesian <m>x,y</m>-plane,
+        we review how the Pythagorean Theorem is used to compute distance between points. 
     </p>
     <!--<sidebyside widths="50% 45%">-->
         <p>
             To compute the length of a segment on a graph we use the Pythagorean 
             Theorem. In <xref ref="diag-seg-measure"/>, the coordinates of point <m>A</m> 
-            are <m>(6,6)</m> and of point <m>B</m> are <m>(9,2)</m>. We find
-            the horizontal distance between the two points by 
+            are <m>(6,6)</m> and of point <m>B</m> are <m>(9,2)</m>. We think of the segment 
+            <m>\overline{AB}</m> as the hypotenuse of a triangle with a right angle at
+            <m>C=(6,2)</m>. The length of the horizontal leg is found by
             subtracting the <m>x</m>-coordinates, <m>m(\overline{BC})=9-6 = 3</m>, 
             and the vertical distance by subtracting the <m>y</m>-coordinates, 
             <m>m(\overline{AC})=6-2 = 4</m>. Then since segment <m>\overline{AB}</m>
-            is the hypotenuse of the right triangle <m>\Delta EFG</m>, we can use 
+            is the hypotenuse of the right triangle <m>\Delta ABC</m>, we can use 
             the Pythagorean Theorem to find its length, namely 
-            <m>m(\overline{EAB})=\sqrt{4^2+3^2}=\sqrt{9+16}=\sqrt{25}=5</m>.
+            <m>m(\overline{AB})=\sqrt{4^2+3^2}=\sqrt{9+16}=\sqrt{25}=5</m>.
         </p>
         <figure xml:id="diag-seg-measure">
             <caption>Measuring distance on a graph</caption>
@@ -37,13 +38,12 @@
                 <title>Constructing a Dilated Quadrilateral</title>
                 <statement>
                     <p>
-                        Use the either a printed copy or the GeoGebra applet 
-                        of <xref ref="fig-scale-quad"/> to complete 
-                        the following:
+                        The following tasks refer to <xref ref="fig-scale-quad"/>:
                         <ol>
                             <li>
                                 <p>
-                                    Compute the lengths of the segment:
+                                    Compute the lengths of each segment using the Pythagorean
+                                    Theorem:
                                     <ol>
                                         <li>
                                             <m>\overline{AB}</m>
@@ -62,7 +62,8 @@
                             </li>
                             <li>
                                 <p>
-                                    Measure the angles:
+                                    Use either a protractor or GeoGebra tools to measure the 
+                                    angles:
                                     <ol>
                                         <li>
                                             <m>\angle ABC</m>
@@ -92,6 +93,7 @@
                             </li>
                         </ol>
                     </p>
+                    <!--Should I switch this back to an image?-->
                     <figure xml:id="fig-scale-quad">
                         <caption>GeoGebra app to scale a quadrilateral</caption>
                         <interactive xml:id="scale-quad-app"
@@ -253,6 +255,12 @@
                             <li>
                                 <p>
                                     Sketch or construct the dilation of triangle <m>\Delta EFG</m>
+                                    with center <m>H</m> and scale factor <m>3</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Sketch or construct the dilation of triangle <m>\Delta EFG</m>
                                     with center <m>H</m> and scale factor <m>\frac{3}{2}</m>.
                                 </p>
                             </li>
@@ -305,14 +313,14 @@
                     Compute each of the ratios:
                     <ol>
                         <li>
-                            <m>\frac{ED}{AB}</m>
+                            <m>\frac{DE}{AB}</m>
                         </li>
                         <li>
                             <m>\frac{EC}{BC}</m>
                         </li>
                         <li>
                             <m>\frac{CD}{CA}</m>
-                        </li>
+                        </li> 
                     </ol>
                     What do you notice?
                 </p>
@@ -367,7 +375,7 @@
                     if the two triangles have three pairs of congruent corresponding 
                     angles and the ratios of each of the three pairs of corresponding 
                     sides are equal; i.e., <m>\angle A\cong \angle D</m>, 
-                    <m>\angle B\cong \angle E</m>, <m>\angle C\cong \angle G</m>, and
+                    <m>\angle B\cong \angle E</m>, <m>\angle C\cong \angle F</m>, and
                     <m>\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}</m>.
                     Are the triangles in <xref ref="fig-nested-simtri"/> similar? Explain..
                 </p>
