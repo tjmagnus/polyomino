@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-polygons-area" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Why do the area formulas hold?</title>
+    <title>Exploring Area</title>
     <introduction>
         <p>
             In these activities we will determine the area formulas for three 
@@ -154,7 +154,7 @@
                     </p>
                 </aside>
                 <image source="obtuse-tri">
-                    <description>A scalene triangle.</description>
+                    <shortdescription>A scalene triangle.</shortdescription>
                 </image>
             </statement>
         </task>
@@ -679,8 +679,104 @@
             <exercise>
                 <statement>
                     <p>
-                        Under construction. Estimating area of a circle with polygons?
+                        A parallelogram <m>WXYZ</m> has sides of length 3 inches 
+                        and length 4 inches and rectangle <m>RSTU</m> also has sides 
+                        of length 3 inches and length 4 inches. Which has the larger 
+                        area? Use pictures and words to give a clear explanation.
                     </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        In <xref ref="fig-circle-squares"/>, two copies of a circle of 
+                        radius 5 are given. The circle on the left circumscribes square
+                        <m>BEFG</m>, meaning that the vertices <m>B</m>, <m>E</m>, <m>F</m>,
+                        and <m>G</m> lie on the circle. The circle on the right is inscribed 
+                        in square <m>HIJK</m>. Here the circle just touches the square at the 
+                        midpoint of each side.
+                        <ol>
+                            <li>
+                                <p>
+                                    Based on the picture, what should be true about the area of the circle relative
+                                    to the two squares?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Compute the area of square <m>BEFG</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Compute the area of square <m>HIJK</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Compute the area of the circle. 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Do these measurements agree with your expectation?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="fig-circle-squares">
+                        <caption>Square circumscribed by and inscribed in a circle of 
+                            radius 5.
+                        </caption>
+                        <image source="HW-circles-squares">
+                            <shortdescription>
+                                Square BEFG is circumscribed by a circle of
+                                radius 5. Square HIJK is inscribed in a circle of radius 5.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        <xref ref="fig-sq-oct-circle"/> shows a square and an octagon 
+                        circumscribed by a single circle of radius 4. On the left, an 
+                        eighth of the octagon is shown to illustrate its height of 
+                        <m>\frac{4}{\sqrt{2}}</m> or approximately <m>2.828</m>.
+                        <ol>
+                            <li>
+                                <p>
+                                    What do you expect to be true about the areas of 
+                                    the square, the octagon, and the circle? Why?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Compute the area of the square.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Compute the area of the octagon.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Compute the area of the circle.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="fig-sq-oct-circle">
+                        <caption>Square and Octagon circumscribed by a circle of radius 4</caption>
+                        <image source="HW-circle-octagon-square">
+                            <shortdescription>A square and octagon are circumscribed 
+                                by a circle of radius 4. An eighth slice of the octagon 
+                                has base 4 and height approximately 2.828.
+                            </shortdescription>
+                        </image>
+                    </figure>
                 </statement>
             </exercise>
        </subexercises>
@@ -692,9 +788,12 @@
                     Write a letter to a friend in which you explain how the area 
                     of a trapezoid is derived from previously known area formulas,
                     such as rectangles, parallelograms, and/or triangles.
-                    <!--add more details-->
+                    See <xref ref="subsec-letter"/> for suggestions on how to write 
+                    a clear explanation.
                 </p>
             </statement>
+        </exercise>
+        <exercise>
             <statement>
                 <p>
                     Research the history of the number <m>\pi</m>.
