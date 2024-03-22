@@ -458,10 +458,32 @@
             </task>
         </exploration>          
     </subsubsection>
-        <subsubsection xml:id="subsubsec-area-circle">
-            <title>The Area of a Circle</title>
-            <p>
-                Although a circle is not a polygon, we include the formula for its area here. In fact, 
+    <subsubsection xml:id="subsubsec-area-circle">
+        <title>The Area of a Circle</title>
+        <p>
+            Although a circle is not a polygon, we can use polygons to derive the formulas 
+            for the area and perimeter of a circle.
+        </p>
+        <definition xml:id="def-circle">
+                <title>Defining a Circle</title>
+                <idx><h>circle</h></idx>
+                <idx><h>radius</h></idx>
+                <idx><h>diameter</h></idx>
+                <idx><h>center</h><h>circle</h></idx>
+                <statement>
+                    <p>
+                        A <term>circle</term> is the set of all points that are the same 
+                        distance from a point called the <term>center</term> of the circle.
+                        The <term>radius (pl. radii)</term> refers both to any segment from the center 
+                        of the circle to a point on the circle and to the length common to 
+                        all radii. A segment that joins two points of the circle 
+                        and passes through the center is called a <term>diameter</term>. The 
+                        length of a diameter is also called the <term>diameter</term> and is twice 
+                        the length of the radius. 
+                    </p>
+                </statement>
+            </definition>
+            <p> 
                 Archimedes (287-212 BC) determined the area of a circle by looking at inscribed and 
                 circumscribed polygons. As the number of sides grew, the area of the polygons would 
                 approach the area of the circle, with the area of the inscribed polygons giving a lower 
@@ -502,26 +524,8 @@
                 polygons of increasing number of sides, can be used to find the circumference 
                 or distance around a circle. We give the resulting formula below.
             </p>
-            <definition xml:id="def-circle">
-                <title>Defining a Circle</title>
-                <idx><h>circle</h></idx>
-                <idx><h>radius</h></idx>
-                <idx><h>diameter</h></idx>
-                <idx><h>center</h><h>circle</h></idx>
-                <statement>
-                    <p>
-                        A <term>circle</term> is the set of all points that are the same 
-                        distance from a point called the <term>center</term> of the circle.
-                        The <term>radius (pl. radii)</term> refers both to any segment from the center 
-                        of the circle to a point on the circle and to the length common to 
-                        all radii. A segment that joins two points of the circle 
-                        and passes through the center is called a <term>diameter</term>. The 
-                        length of a diameter is also called the <term>diameter</term> and is twice 
-                        the length of the radius. 
-                    </p>
-                </statement>
-            </definition>
-            <p>The con</p>
+
+            <!--<p>The con</p>-->
             <definition xml:id="def-circle-measures">
                 <title>Measuring a circle</title>
                 <idx><h>circumference</h></idx>
@@ -532,9 +536,9 @@
                     <p>
                         The <term>area of a circle</term> is the interior space of 
                         a circle and is computed by the formula 
-                        <md>A=\pi r^2</md> where <m>r</m> is the radius of the circle. 
+                        <m>A=\pi r^2</m> where <m>r</m> is the radius of the circle. 
                         The <term>circumference</term> of a circle is the length of its 
-                        boundary and is given by <md>C=2\pi r</md>.
+                        boundary and is given by <m>C=2\pi r</m>.
                     </p>
                 </statement>
             </definition>
@@ -552,18 +556,121 @@
         <title>Exercises</title>
         <subexercises xml:id="SAR-polygons-area">
             <title>Skills and Recall</title>
-            <exercise>
+            <exercise xml:id="HW-compute-area">
                 <statement>
                     <p>
-                        Add some area problems.
+                        Compute the areas of the following figures. The 
+                        boundary of each figure is given by solid lines.
+                        Dashed segments are not part of the boundary, but 
+                        provide additional information that may be helpful.
+                        <ol>
+                            <li>
+                                <p>
+                                    Triangle <m>\Delta ABC</m> where <m>BC=11.1</m>.
+                                </p>
+                                <figure xml:id="figHWareaObTri">
+                                    <caption>Triangle <m>\Delta ABC</m></caption>
+                                    <image source="obtriarea">
+                                        <shortdescription>AB has length 5 centimeters and AC has 
+                                            length 8.8 centimeters. An altitude drawn from A to 
+                                            side BC has length 3.8 centimeters. Side BC has length
+                                            11.1 centimeters.
+                                        </shortdescription>
+                                    </image>
+                                </figure>
+                            </li>
+                            <li>
+                                <p>
+                                    Right Trapezoid <m>DEFG</m>.
+                                </p>
+                                <figure xml:id="fig-HW-trap-area">
+                                    <caption>Trapezoid <m>DEFG</m></caption>
+                                    <image source="HWtraparea">
+                                        <shortdescription>Trapezoid DEFG with 
+                                            right angles at D and E. DG has length 6.3 in,
+                                            GF has length 6.5 in, EF has length 11.6 in,
+                                            and the height DE has length 3.8 in.
+                                        </shortdescription>
+                                    </image>
+                                </figure>
+                            </li>
+                            <li>
+                                <p>
+                                    Parallelogram <m>HKLM</m>.
+                                </p>
+                                <figure xml:id="fig-HW-parallelogram-area">
+                                    <caption>Parallelogram <m>HKLM</m></caption>
+                                    <image source="HWparallelarea">
+                                        <shortdescription>
+                                            Parallelogram HKLM with HK=8.1 mm,
+                                            KL=4.8 mm, LM=8.1 mm, and HM=4.8 mm. An altitude 
+                                            drawn from vertex H hitting line MN on the outside
+                                            of the parallelogram has length 4 mm. The length
+                                            from the nearest vertex M to the foot of the 
+                                            altitude is 2.7 mm.
+                                        </shortdescription>
+                                    </image>
+                                </figure>
+                            </li>
+                        </ol>
                     </p>
                 </statement>
             </exercise>
             <exercise>
                 <statement>
                     <p>
-                        Add more area problems.
+                        Perimeter was defined in <xref ref="def-perimeter"/>.
+                        Determine the perimeter of each of the figures in 
+                        <xref ref="HW-compute-area"/>.
+                        <ol>
+                            <li>
+                                <p>
+                                    Triangle <m>\Delta ABC</m> in <xref ref="figHWareaObTri"/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Trapezoid <m>EFGH</m> in <xref ref="fig-HW-trap-area"/>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Parallelogram <m>HKLM</m> in <xref ref="fig-HW-parallelogram-area"/>
+                                </p>
+                            </li>
+                        </ol>
                     </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        Determine both the area and the perimeter of the following
+                        figure. Assume that each square of the grid has area 1 square
+                        centimeter.
+                        <ol>
+                            <li>
+                                <p>
+                                    Area
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Perimeter
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <figure xml:id="fig-area-perim-grid">
+                        <caption>A nonagon</caption>
+                        <image source="HWarea-grid">
+                            <shortdescription>
+                                The vertices of the nonagon in clockwise order are 
+                                (0,9), (3,9), (3,10), (6,10), (9,7), (6,4), (6,0),
+                                (3,0), and (0,4).
+                            </shortdescription>
+                        </image>
+                    </figure>
                 </statement>
             </exercise>
         </subexercises>
