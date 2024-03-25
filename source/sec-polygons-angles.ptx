@@ -40,7 +40,7 @@
                 <m>\overleftrightarrow{AB}</m>. 
             </p>
             <p>
-                A <term>line segment</term> is the part of a line described by two endpoints.
+                A <term>line segment</term> is the part of a line bounded by two endpoints.
                 Line segment <m>\overline{AB}</m> consists of <term>endpoints</term>
                 <m>A</m> and <m>B</m> and all points on line 
                 <m>\overleftrightarrow{AB}</m> which lie between <m>A</m> and <m>B</m>.
@@ -67,6 +67,13 @@
             point <m>B</m>. A ray extends infinitely in one direction, has a single 
             endpoint, and cannot be measured.
           </p>
+          <aside>
+            <p>
+                Note that <m>\overrightarrow{AB}</m> has many names. If <m>B'</m> is 
+                any point on <m>\overrightarrow{AB}</m> other than <m>A</m>, then 
+                <m>\overrightarrow{AB'}=\overrightarrow{AB}</m>.
+            </p>
+          </aside>
         </statement>
       </definition>
 
@@ -96,7 +103,7 @@
         then <m>\angle{DAC}</m> is the same angle 
         as <m>\angle{BAC}</m> and hence have the same measure. Thus it would make  
         no sense to use the linear distance between <m>B</m> and <m>C</m> for measuring 
-        <m>\angle{BAC}</m>. The sides of an angle are infinite and beyond what can 
+        <m>\angle{BAC}</m>. The sides of an angle are infinite and extend beyond what can 
         be drawn. 
     </p>
     <p> 
@@ -110,33 +117,26 @@
             full rotation about any point. The choice of 360 can be traced back 
             to the Babylonians who were studying planetory paths around 400 B.C. 
             and used a base 60 (instead of base 10) number system. One advantage 
-            of the number 360 is that it has a lot of factors, including 2, 3, 4, 5, 6, 8. 
+            of the number 360 is that it has a lot of factors, including 2, 3, 4, 5, 6, 8,
+            resulting in more pleasing numbers when we consider fractions of a circle. 
             <!--This will prove helpful in <xref ref="sec-polygons-regular"/>.--> 
         </p>
         <figure>
             <caption>Full rotation about point <m>A</m>.</caption>
             <image source="rotate360">
-                <description>
+                <shortdescription>
                     A circle centered around point A. An arrow has been added to the 
                     circle to indicate rotation in a counterclockwise direction.
-                </description>
+                </shortdescription>
             </image>
         </figure>
     </sidebyside>
-    <sidebyside widths="50% 50%" valign="top">
-        <!--How to crop this?-->
-        <figure>
-            <caption>180-degree rotation about point <m>A</m></caption>
-            <image source="180deg">
-                <description>Line containing C A and B from left to right. 
-                    Semicircular arc drawn with center A from point B to the 
-                    line on the opposite side of A.
-                </description>
-            </image>
-        </figure>
+    <!--<sidebyside widths="50% 50%" valign="top">
+        -->
         <p>
             Suppose point <m>A</m> lies between points <m>B</m> and <m>C</m> on 
-            line <m>\overleftrightarrow{BC}</m>. In this case, we say that rays 
+            line <m>\overleftrightarrow{BC}</m> as shown in 
+            <xref ref="fig-180deg"/>. In this case, we say that rays 
             <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m> are 
             <term>opposite rays</term><idx><h>opposite rays</h></idx>
             <idx><h>rays</h><h>opposite</h></idx>. Since <m>\frac{360}{2}=180</m>, 
@@ -144,16 +144,27 @@
             the ray <m>\overrightarrow{AB}</m> to the ray <m>\overrightarrow{AC}</m>
             on the opposite side of <m>A</m>.
         </p>
-    </sidebyside>
-    <sidebyside widths="50% 50%" valign="middle">
+        <figure xml:id="fig-180deg">
+            <caption>180-degree rotation about point <m>A</m></caption>
+            <image source="180deg">
+                <shortdescription>
+                    Line containing C A and B from left to right. 
+                    Semicircular arc drawn with center A from point B to the 
+                    line on the opposite side of A.
+                </shortdescription>
+            </image>
+        </figure>
+    <!--</sidebyside>
+    <sidebyside widths="50% 50%" valign="middle">-->
         <p>
             Continuing, we define the measurement of angles according to what 
             fraction of a full (or half) rotation they represent. Notice how the  
-            protractor divides the semicircular arc into 180 segments, eighteen of which are labeled 
-            with numerical values. These are multiples of ten, representing 
-            <m>\frac{1}{18}, \frac{2}{18}, \dots, \frac{18}{18}  </m>
-            of the half-rotation 180 degrees. To find the measure 
-            of <m>\angle{DAB}</m>, we  
+            protractor in <xref ref="protractor"/> divides the semicircular arc 
+            into 180 segments, eighteen of which are labeled 
+            with numerical values. These multiples of ten are fractions of the
+            half rotation 180 degrees, for example 
+            <m>\frac{1}{18}(180)=10, \frac{2}{18}(180)=20, \dots, \frac{18}{18}(180)=180</m>.
+            To find the measure of <m>\angle{DAB}</m>, we  
             place the center dot of the protractor over the vertex <m>A</m> of the 
             angle and lined up ray <m>\overrightarrow{AB}</m> with the mark for 0 
             degrees. The other side of the angle <m>\overrightarrow{AD}</m> passes  
@@ -162,15 +173,15 @@
         <figure xml:id="protractor">
             <caption>Using a protractor to measure angles.</caption>
         <image source="protractorexample">
-            <description>A protractor aligned with line containing C A B, centered 
+            <shortdescription>A protractor aligned with line containing C A B, centered 
                 at point A. Labels for every multiple of 10 degrees from zero degrees 
                 up through 180 degrees
                 are shown, both clockwise and counterclockwise. 
                 Ray AD passes through the indicator for 40 degrees.
-            </description>
+            </shortdescription>
         </image>
         </figure>   
-    </sidebyside>
+    <!--</sidebyside>-->
     <exploration>
         <title>Reading a Protractor</title>
         <task>
