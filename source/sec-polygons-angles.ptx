@@ -110,7 +110,7 @@
         Instead, we think of angle measurement in terms of rotational movement around the vertex, specifically 
         the amount of rotation needed to move one side of the angle on top of the other.
     </p>
-    <sidebyside widths="62% 28%" valign="middle">
+    <sidebyside widths="70% 30%" valign="middle">
         <p>
             To begin our study of angle measure, we will adopt the practice of 
             assuming that there are 360 degrees in a
@@ -377,9 +377,9 @@
 <subsection xml:id="subsec-polygons-angles-principle">
     <title>Additivity of Angles and Definitions Associated with Angles</title>
     <p>
-        In this section, you have likely been assuming the additivity of angle 
-        measure. Like the additivity of <xref ref="principle-areasums">area</xref> 
-        and <xref ref="principle-addlengths">length</xref>, this is intuitively obvious and 
+        Like the additivity of <xref ref="principle-areasums">area</xref> 
+        and <xref ref="principle-addlengths">length</xref>, the additivity of 
+        angle measure is intuitively obvious and 
         will prove useful. We state this as a principle and add it to our toolbox. 
         First, we must clarify what we mean by the interior of an 
         angle.
@@ -523,19 +523,141 @@
     <title>Exercises</title>
     <subexercises xml:id="SAR-polygons-angles">
         <title>Skills and Recall</title>
-        <exercise>
+        <exercise xml:id="HW-SAR-angles-linepoints">
+            <p>
+                Use <xref ref="fig-HWlineparts"/> to identify the following:
+                <ol>
+                    <li>
+                        <p>
+                            All labeled points that lie on segment <m>\overline{EF}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            All labeled points that lie on line <m>\overleftrightarrow{EF}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            All labeled points that lie on ray <m>\overrightarrow{FE}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Another name for ray <m>\overrightarrow{FE}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Two other names for angle <m>\angle{HEB}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The sum <m>\angle{HEB}+\angle{AEH}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A point in the interior of <m>\angle{CEJ}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Four pairs of congruent angles.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            All labeled points that lie on both <m>\overleftrightarrow{AB}</m> and 
+                            <m>\overleftrightarrow{CE}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            All labeled points that lie on both <m>\overrightarrow{GB}</m> and 
+                            <m>\overrightarrow{AB}</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <figure xml:id="fig-HWlineparts">
+                <caption>
+                    Sketch for <xref ref="HW-SAR-angles-linepoints"/> and 
+                    <xref ref="HW-SAR-linepart-type"/>.
+                </caption>
+                    <image source="im-HWlineparts">
+                        <shortdescription>Three lines intersect at a point E. The order of
+                            points on each line are as follows: A, E, B, and then G on line 1;
+                            C, H, E, F, and D on line 2; and I, E, and J on line 3. Going clockwise 
+                            around point E, we have A, C, I, B, F, and J.
+                        </shortdescription>
+                    </image>
+            </figure>
+        </exercise>
+        <exercise xml:id="HW-SAR-linepart-type">
+            <p>
+                Use <xref ref="fig-HWlineparts"/> to name the following. Answers may be lines,
+                line segments, rays, angles, single points, or the empty set.
+                <ol>
+                    <li>
+                        <p>
+                            The set of points on either <m>\overrightarrow{IE}</m> or <m>\overrightarrow{JE}</m>
+                            or both.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of points on either <m>\overrightarrow{EI}</m> or <m>\overrightarrow{EF}</m> 
+                            or both.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of points lying on both <m>\overrightarrow{GE}</m>
+                            and <m>\overrightarrow{BG}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of points lying on both <m>\overrightarrow{CH}</m>
+                            and <m>\overrightarrow{EF}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of points lying on both <m>\overrightarrow{CH}</m>
+                            and <m>\overrightarrow{BG}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The set of points lying on both <m>\overrightarrow{CH}</m> 
+                            and <m>\overrightarrow{JI}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </exercise>
+        <!--<exercise>
             <statement>
                 <p>
                     Use a protractor to measure the angles. You may need to print this  
                     picture to make accurate measurements. ADD PICTURE AND PROBLEMS.
                 </p>
             </statement>
-        </exercise>
+        </exercise>-->
         <exercise>
             <statement>
                 <p>
                     Determine the missing angles. ADD PICTURE AND PROBLEMS.
                 </p>
+                <figure xml:id="fig-SAR-missingangles">
+                    <caption></caption>
+                    <image source="HW-SAR-missingangles">
+                        <shortdescription>(for accessibility)</shortdescription>
+                    </image>
+                </figure>
             </statement>
         </exercise>
     </subexercises>
