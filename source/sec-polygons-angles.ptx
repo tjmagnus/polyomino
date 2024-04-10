@@ -555,7 +555,7 @@
                         </li>
                         <li>
                             <p>
-                                The sum <m>\angle{HEB}+\angle{AEH}</m>.
+                                The sum <m>m(\angle{HEB})+m(\angle{AEH})</m>.
                             </p>
                         </li>
                         <li>
@@ -657,13 +657,13 @@
                 <p>
                     In <xref ref="fig-SAR-missingangles"/>, 
                     <md>
-                        <mrow>m(\angle{BED})=\amp 89\degree</mrow>
-                        <mrow>m(\angle{CAD})=\amp 37\degree</mrow>
-                        <mrow>m(\angle{DCE})=\amp 67\degree</mrow>
-                        <mrow>m(\angle{EFC})=\amp 52\degree</mrow>
-                        <mrow>m(\angle{ECF})=\amp 89\degree</mrow>
+                        <mrow>m(\angle{BED})\amp = 89^\circ</mrow>
+                        <mrow>m(\angle{CAD})\amp = 37^\circ</mrow>
+                        <mrow>m(\angle{DCE})\amp = 67^\circ</mrow>
+                        <mrow>m(\angle{EFC})\amp = 52^\circ</mrow>
+                        <mrow>m(\angle{ECF})\amp = 89^\circ</mrow>
                     </md> 
-                    Determine the missing angles as directed. 
+                    Determine the measures of other angles as directed. 
                     <ol>
                         <li>
                             <m>\angle{ACD}</m>

@@ -30,8 +30,9 @@
                     For this activity and the one that follows, 
                     you will need a sphere, some rubber bands large enough to go around 
                     your sphere, a protractor, a marker, and a piece of thread. Possible <q>spheres</q> 
-                    include styrophone balls, oranges, rubber softballs, or spheres sold by math education 
-                    supply companies. Aim for a sphere around the size of a softball or larger. As an alternative, 
+                    include styrophone balls, oranges, rubber balls, or spheres sold by math education 
+                    supply companies. Aim for a sphere around the size of a softball or larger. A smooth 
+                    surface is best, but any small ball will suffice. As an alternative, 
                     you may use a globe with latitude and longitude lines marked. This latter option requires some 
                     string or ribbon instead of rubber bands and markers. 
                 </p>
@@ -156,7 +157,9 @@
                     <p>
                         What do you expect to be true about the sum of the interior triangles of your 
                         spherical triangle?  Plot three noncollinear points on your sphere and connect them 
-                        with spherical line segments (rubber bands).
+                        with spherical line segments (rubber bands). Make sure that the rubber bands are as 
+                        straight as possible, forming a great circle<fn>A great circle of a sphere has the 
+                        same center and diameter as the sphere.</fn>.
                     </p>
                 </statement>
             </task>
@@ -272,6 +275,15 @@
                         </description>
                     </image>
                  </figure>
+                 <aside>
+                    <p>
+                        Although it appears that the two lines meet on the right,
+                        that is only a result of displaying a three-dimensional image on 
+                        a two-dimensional surface. In reality, the top back line stays at 
+                        the level of the ceiling and the lower front line stays on the floor.
+                        They do not meet.
+                    </p>
+                 </aside>
 <exercise>
     <title>Check your Understanding</title>
     <statement>
