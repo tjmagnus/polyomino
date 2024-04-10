@@ -606,37 +606,37 @@
                     <ol>
                         <li>
                             <p>
-                                The set of points on either <m>\overrightarrow{IE}</m> or <m>\overrightarrow{JE}</m>
+                                The set of all points that lie on <m>\overrightarrow{IE}</m> or <m>\overrightarrow{JE}</m>
                                 or both.
                             </p>
                         </li>
                         <li>
                             <p>
-                                The set of points on either <m>\overrightarrow{EI}</m> or <m>\overrightarrow{EF}</m> 
+                                The set of all points that lie on <m>\overrightarrow{EI}</m> or <m>\overrightarrow{EF}</m> 
                                 or both.
                             </p>
                         </li>
                         <li>
                             <p>
-                                The set of points lying on both <m>\overrightarrow{GE}</m>
+                                The set of points that lie on both <m>\overrightarrow{GE}</m>
                                 and <m>\overrightarrow{BG}</m>.
                             </p>
                         </li>
                         <li>
                             <p>
-                                The set of points lying on both <m>\overrightarrow{CH}</m>
+                                The set of points that lie on both <m>\overrightarrow{CH}</m>
                                 and <m>\overrightarrow{EF}</m>.
                             </p>
                         </li>
                         <li>
                             <p>
-                                The set of points lying on both <m>\overrightarrow{CH}</m>
+                                The set of points that lie on both <m>\overrightarrow{CH}</m>
                                 and <m>\overrightarrow{BG}</m>.
                             </p>
                         </li>
                         <li>
                             <p>
-                                The set of points lying on both <m>\overrightarrow{CH}</m> 
+                                The set of points that lie on both <m>\overrightarrow{CH}</m> 
                                 and <m>\overrightarrow{JI}</m>
                             </p>
                         </li>
