@@ -524,120 +524,125 @@
     <subexercises xml:id="SAR-polygons-angles">
         <title>Skills and Recall</title>
         <exercise xml:id="HW-SAR-angles-linepoints">
-            <p>
-                Use <xref ref="fig-HWlineparts"/> to identify the following:
-                <ol>
-                    <li>
-                        <p>
-                            All labeled points that lie on segment <m>\overline{EF}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            All labeled points that lie on line <m>\overleftrightarrow{EF}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            All labeled points that lie on ray <m>\overrightarrow{FE}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Another name for ray <m>\overrightarrow{FE}</m>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Two other names for angle <m>\angle{HEB}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The sum <m>\angle{HEB}+\angle{AEH}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            A point in the interior of <m>\angle{CEJ}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Four pairs of congruent angles.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            All labeled points that lie on both <m>\overleftrightarrow{AB}</m> and 
-                            <m>\overleftrightarrow{CE}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            All labeled points that lie on both <m>\overrightarrow{GB}</m> and 
-                            <m>\overrightarrow{AB}</m>.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-            <figure xml:id="fig-HWlineparts">
-                <caption>
-                    Sketch for <xref ref="HW-SAR-angles-linepoints"/> and 
-                    <xref ref="HW-SAR-linepart-type"/>.
-                </caption>
-                    <image source="im-HWlineparts">
-                        <shortdescription>Three lines intersect at a point E. The order of
-                            points on each line are as follows: A, E, B, and then G on line 1;
-                            C, H, E, F, and D on line 2; and I, E, and J on line 3. Going clockwise 
-                            around point E, we have A, C, I, B, F, and J.
-                        </shortdescription>
-                    </image>
-            </figure>
+            <statement>
+                <p>
+                    Use <xref ref="fig-HWlineparts"/> to identify the following:
+                    <ol>
+                        <li>
+                            <p>
+                                All labeled points that lie on segment <m>\overline{EF}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                All labeled points that lie on line <m>\overleftrightarrow{EF}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                All labeled points that lie on ray <m>\overrightarrow{FE}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Another name for ray <m>\overrightarrow{FE}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Two other names for angle <m>\angle{HEB}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The sum <m>\angle{HEB}+\angle{AEH}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A point in the interior of <m>\angle{CEJ}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Four pairs of congruent angles.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                All labeled points that lie on both <m>\overleftrightarrow{AB}</m> and 
+                                <m>\overleftrightarrow{CE}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                All labeled points that lie on both <m>\overrightarrow{GB}</m> and 
+                                <m>\overrightarrow{AB}</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <figure xml:id="fig-HWlineparts">
+                    <caption>
+                        Sketch for <xref ref="HW-SAR-angles-linepoints"/> and 
+                        <xref ref="HW-SAR-linepart-type"/>.
+                    </caption>
+                        <image source="im-HWlineparts">
+                            <shortdescription>
+                                Three lines intersect at a point E. The order of
+                                points on each line are as follows: A, E, B, and then G on line 1;
+                                C, H, E, F, and D on line 2; and I, E, and J on line 3. Going clockwise 
+                                around point E, we have A, C, I, B, F, and J.
+                            </shortdescription>
+                        </image>
+                </figure>
+            </statement>
         </exercise>
         <exercise xml:id="HW-SAR-linepart-type">
-            <p>
-                Use <xref ref="fig-HWlineparts"/> to name the following. Answers may be lines,
-                line segments, rays, angles, single points, or the empty set.
-                <ol>
-                    <li>
-                        <p>
-                            The set of points on either <m>\overrightarrow{IE}</m> or <m>\overrightarrow{JE}</m>
-                            or both.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The set of points on either <m>\overrightarrow{EI}</m> or <m>\overrightarrow{EF}</m> 
-                            or both.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The set of points lying on both <m>\overrightarrow{GE}</m>
-                            and <m>\overrightarrow{BG}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The set of points lying on both <m>\overrightarrow{CH}</m>
-                            and <m>\overrightarrow{EF}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The set of points lying on both <m>\overrightarrow{CH}</m>
-                            and <m>\overrightarrow{BG}</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The set of points lying on both <m>\overrightarrow{CH}</m> 
-                            and <m>\overrightarrow{JI}</m>
-                        </p>
-                    </li>
-                </ol>
-            </p>
+            <statement>
+                <p>
+                    Use <xref ref="fig-HWlineparts"/> to name the following. Answers may be lines,
+                    line segments, rays, angles, single points, or the empty set.
+                    <ol>
+                        <li>
+                            <p>
+                                The set of points on either <m>\overrightarrow{IE}</m> or <m>\overrightarrow{JE}</m>
+                                or both.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The set of points on either <m>\overrightarrow{EI}</m> or <m>\overrightarrow{EF}</m> 
+                                or both.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The set of points lying on both <m>\overrightarrow{GE}</m>
+                                and <m>\overrightarrow{BG}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The set of points lying on both <m>\overrightarrow{CH}</m>
+                                and <m>\overrightarrow{EF}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The set of points lying on both <m>\overrightarrow{CH}</m>
+                                and <m>\overrightarrow{BG}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The set of points lying on both <m>\overrightarrow{CH}</m> 
+                                and <m>\overrightarrow{JI}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
         </exercise>
         <!--<exercise>
             <statement>
@@ -647,15 +652,77 @@
                 </p>
             </statement>
         </exercise>-->
-        <exercise>
+        <exercise xml:id="exer-SAR-missingangles">
             <statement>
                 <p>
-                    Determine the missing angles. ADD PICTURE AND PROBLEMS.
+                    In <xref ref="fig-SAR-missingangles"/>, 
+                    <md>
+                        <mrow>m(\angle{BED})=\amp 89\degree</mrow>
+                        <mrow>m(\angle{CAD})=\amp 37\degree</mrow>
+                        <mrow>m(\angle{DCE})=\amp 67\degree</mrow>
+                        <mrow>m(\angle{EFC})=\amp 52\degree</mrow>
+                        <mrow>m(\angle{ECF})=\amp 89\degree</mrow>
+                    </md> 
+                    Determine the missing angles as directed. 
+                    <ol>
+                        <li>
+                            <m>\angle{ACD}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <m>\angle{ADC}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <m>\angle{BCE}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <m>\angle{BCF}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <m>\angle{BFC}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <m>\angle{CBF}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <m>\angle{CEF}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <m>\angle{ACF}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            <m>\angle{CDE}</m>
+                        </li>
+                    </ol>
+                    <ol>
+                        <li>
+                            What do we know about <m>\angle{ABC}</m>
+                            and <m>\angle{BAC}</m>? Explain.
+                        </li>
+                    </ol>
                 </p>
                 <figure xml:id="fig-SAR-missingangles">
-                    <caption></caption>
+                    <caption>Sketch for <xref ref="exer-SAR-missingangles"/>.</caption>
                     <image source="HW-SAR-missingangles">
-                        <shortdescription>(for accessibility)</shortdescription>
+                        <shortdescription>
+                            Quadrilateral ABED. Diagonals AE and BD meet at point C.
+                            Point F lies on side BE.
+                        </shortdescription>
                     </image>
                 </figure>
             </statement>
