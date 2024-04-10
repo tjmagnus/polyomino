@@ -97,7 +97,7 @@
         </p>
         <figure xml:id="fig-identify-sim-parts">
           <caption>Illustration for <xref ref="exp-identify-sim-parts"/></caption>
-          <image source="illust-ident-sim-parts">
+          <image source="illust-ident-sim-parts.png">
             <shortdescription>Triangles FGH and IJK are similar. Angle 
               GFH has measure 110.34, angle IJK has measure 53.8. FH has length
               13, IK has length 7.8, and, JK has length 9.06. 

@@ -305,7 +305,7 @@
                       </p>
                       <figure xml:id="pic-translated-triangle">
                         <caption>Triangle <m>\Delta ABC</m> is translated to <m>\Delta A'B'C'</m></caption>
-                      <image source="translation"></image>
+                      <image source="translation.png"></image>
                       </figure>
                     </li>
                     <li>

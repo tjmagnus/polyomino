@@ -25,13 +25,13 @@
             <sidebyside widths="48% 48%">
                 <figure xml:id="fig-rt-prism">
                     <caption>Right Prism</caption>
-                <image source="rightprism">
+                <image source="rightprism.png">
                     <shortdescription>A rectangular box.</shortdescription>
                 </image>
                 </figure>
                 <figure xml:id="fig-skew-prism">
                     <caption>Oblique Prism</caption>
-                <image source="skewprism"></image>
+                <image source="skewprism.png"></image>
                 </figure>
             </sidebyside>
         </figure>
@@ -45,13 +45,13 @@
             <sidebyside widths="48% 48%">
                 <figure xml:id="fig-rt-cyl">
                     <caption>Right Cylinder</caption>
-                <image source="right-cylinder">
+                <image source="right-cylinder.png">
                     <shortdescription>A cylinder or can.</shortdescription>
                 </image>
                 </figure>
                 <figure xml:id="fig-skew-cyl">
                     <caption>Oblique Cylinder</caption>
-                <image source="skew-cylinder">
+                <image source="skew-cylinder.png">
                     <shortdescription>A can that is oblique.</shortdescription>
                 </image>
                 </figure>

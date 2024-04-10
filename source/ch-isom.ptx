@@ -22,7 +22,7 @@
       <sidebyside widths="40% 40%">
         <figure>
           <caption>Rotation of pentomino <m>ABCDEFGH</m></caption>
-          <image source="rotate-example">
+          <image source="rotate-example.png">
             <shortdescription>
               Pentomino ABCDEFGH is in black. A copy labeled A'B'C'D'E'F'G'H' 
               rotated 90 degrees counterclockwise about a 
@@ -32,7 +32,7 @@
         </figure>
         <figure xml:id="illus-nonisometry">
           <caption>Reflected dilation of pentomino <m>ABCDEFGH</m></caption>
-          <image source="reflect-dilate-example">
+          <image source="reflect-dilate-example.png">
             <shortdescription>
               Pentomino ABCDEFGH is shown in black. Pentomino A"B"C"D"E"F"G"H"
               is a larger copy of the original shown in blue. It has been reflected across a 

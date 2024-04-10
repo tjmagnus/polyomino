@@ -111,7 +111,7 @@
                     <caption>
                         Rectangular Pyramid for <xref ref="explor-rect-pyr"/>
                     </caption>
-                    <image source="PyramidNet434">
+                    <image source="PyramidNet434.png">
                         <shortdescription>
                             A net that can be folded to create a 
                             rectangular pyramid.
@@ -216,7 +216,7 @@
                     </p>
                     <figure xml:id="nets-three">
                         <caption>Nets for <xref ref="EC-why-third"/></caption>
-                        <image source="threePyramidNet434">
+                        <image source="threePyramidNet434.png">
                             <shortdescription>Nets for three rectangular pyramids; two have a 
                                 3 by 4-rectangular base and height 4. The other has a 
                                 4 by 4-square base and height 3.

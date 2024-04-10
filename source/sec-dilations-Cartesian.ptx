@@ -25,7 +25,7 @@
         </p>
         <figure xml:id="diag-seg-measure">
             <caption>Measuring distance on a graph</caption>
-            <image source="Pythmeasure">
+            <image source="Pythmeasure.png">
                 <shortdescription>Right triange ABC described above.</shortdescription>
             </image>
         </figure>

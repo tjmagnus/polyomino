@@ -481,7 +481,7 @@
     </p>
     <figure xml:id="illustrated-glref">
       <caption>Glide reflection of a pentamino.</caption>
-      <image source="glrefpicture">
+      <image source="glrefpicture.png">
           <shortdescription>
             L-pentamino is reflected across line GH. Then its image is slid 
             using vector GH. A and C are two vertices on the original.

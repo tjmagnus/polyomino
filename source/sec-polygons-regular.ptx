@@ -40,7 +40,7 @@
       </p>
       <figure>
         <caption>Nonregular Polygons</caption>
-        <image source="nonregularpolygons" width="90">
+        <image source="nonregularpolygons.png" width="90%">
           <description>
             <p>
             Rhombus ABCD with obtuse angles at B and D, 
@@ -135,7 +135,7 @@
         <sidebyside widths="65% 35%">
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
-            <image source="VertexAngRegPentagon">
+            <image source="VertexAngRegPentagon.png">
               <description>
                 A regular pentagon with vertices labeled A, B, C, D, and E. 
                 The interior angle at A has been split by 
@@ -443,7 +443,7 @@
     <sidebyside widths="70% 30%" valign="middle">
       <figure xml:id="tiling33434">
         <caption>A 3.3.4.3.4 vertex arrangement.</caption>
-        <image source="vertex33434" width="100%">
+        <image source="vertex33434.png" width="100%">
           <description>(for accessibility)</description>
         </image>
       </figure>
@@ -490,7 +490,7 @@
       </p>
       <figure xml:id="tetracontakaidigon">
         <caption>A tetracontakaidigon (42-gon).</caption>
-        <image width="50%" source="tetracontakaidigon">
+        <image width="50%" source="tetracontakaidigon.png">
           <description>(for accessibility)</description>
         </image>
       </figure>
@@ -606,7 +606,7 @@
             <figure xml:id="triangle366">
               <caption>Surrounding a regular triangle with regular triangles and 
                 regular hexagons.</caption>
-              <image source="whyno3366"></image>
+              <image source="whyno3366.png"></image>
             </figure>
             <p>
               Will the remaining side abut a triangle or a hexagon? Discuss  

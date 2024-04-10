@@ -40,7 +40,7 @@
             In this exploration, we will work with a geoboard that has four rows 
             and four columns of pins such as the one pictured below.
           </p>
-          <image source="4by4geoboard" width="50%">
+          <image source="4by4geoboard.png" width="50%">
             <description>
               A grid with 16 dots arranged in four rows and four columns.
             </description>
@@ -119,7 +119,7 @@
               </sidebyside>-->
           <interactive xml:id="interactive4x4geoboard" 
               iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
-              preview="" aspect="16:12"/>
+               aspect="16:12"/>
               <p>
                 <url href="https://mathigon.org/polypad/embed/OADtl0auGfB1A"> 
                   Interactive tool on Polypad by Mathigon 
@@ -160,7 +160,7 @@
           </p>
           <interactive xml:id="geoboardonpolypad"
           iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
-          preview="" aspect="16:12"/>
+           aspect="16:12"/>
           <p>
             <url href="https://mathigon.org/polypad/embed/OADtl0auGfB1A"> 
               Interactive tool on Polypad by Mathigon 

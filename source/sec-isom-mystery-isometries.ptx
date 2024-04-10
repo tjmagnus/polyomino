@@ -39,7 +39,7 @@
                     </p>
                     <figure xml:id="check-orient">
                         <caption>Orientation of Images of <m>\Delta ABC</m></caption>
-                        <image source="orient-check">
+                        <image source="orient-check.png">
                             <shortdescription>
                                 Triangles ABC, C'A'B', and
                                 C1,B1,A1 are shown.

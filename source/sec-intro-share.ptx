@@ -140,7 +140,7 @@
             <caption>
               A geometric pattern.
             </caption>-->
-            <image source="sumofoddnums">
+            <image source="sumofoddnums.png">
               <description>
                 First, a 1 by 1 square. Second, four 1 by 1 squares 
                 arranged to form a 2 by 2 square. Third, a 2 by 2 square with a 
@@ -223,7 +223,7 @@
               <caption>
                 An arbitrary step in the pattern.
               </caption>
-              <image source="nthsumofodds"></image>
+              <image source="nthsumofodds.png"></image>
             </figure>
           </sidebyside>
           
@@ -286,7 +286,7 @@
       </blockquote>
       <figure>
         <caption>Visualization of <m>(n+1)^2=n^2+2n+1</m></caption>
-        <image source="nthsumofodds" width="70%"></image>
+        <image source="nthsumofodds.png" width="70%"></image>
       </figure>
       <blockquote>
           <p>
@@ -347,7 +347,7 @@
           </p>
           <figure xml:id="fig-triangular-numbers1">
             <caption>A Sequence of Triangles</caption>
-            <image source="trinumbersequilateral">
+            <image source="trinumbersequilateral.png">
               <description>
                 T1 is a dot. The remaining figures look like equilateral
                 triangles. T2 contains a row of two dots and a dot above. T3 adds a 
@@ -462,7 +462,7 @@
           </table>
           <figure xml:id="right-isos-tri-5">
             <caption>Rearranging the fifth triangle of dots</caption>
-            <image source="trinumbersrightisosceles" width="80%">
+            <image source="trinumbersrightisosceles.png" width="80%">
               <description>Described in problem.</description>
             </image>
           </figure>
@@ -485,7 +485,7 @@
         </p>
         <figure xml:id="fig-tripfsqrt8">
           <caption>Right triangle of side length 2</caption>
-          <image source="sqrt-of-8" width="66%">
+          <image source="sqrt-of-8.png" width="66%">
             <description>
               Isosceles triangle ABC has side length 2. Segment FE joins 
               the midpoints of side AB and hypotenuse AC. Segment DE joins the 

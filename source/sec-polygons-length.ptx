@@ -36,7 +36,7 @@
     <p>
       Refer to the picture as you answer the following:
     </p>
-      <image source="righttriangleparts" width="%">
+      <image source="righttriangleparts.png">
         <shortdescription>(for accessibility)</shortdescription>
       </image>
   </introduction>
@@ -297,7 +297,7 @@
             This proof of the Pythagorean Theorem is attributed to James A. Garfield, 
             the twentieth President of the United States. Refer to the diagram below:
           </p>
-          <image source="Garfield">
+          <image source="Garfield.png">
             <shortdescription>
               Right triangle ABC with right angle at C. Point D is placed on ray 
               CA so that the length of AD equals the length of BC. Point E is placed on the same 

@@ -99,7 +99,7 @@
         </p>
         <interactive xml:id="Lfillsquare" 
         iframe="https://www.mathigon.org/polypad/embed/OqM1coKhvKsMuw" 
-        preview="magnus-ltetromino" aspect="16:12"/>
+        preview="magnus-ltetromino.png" aspect="16:12"/>
 <!--How to caption properly?-->
         <p>
           <url href="https://mathigon.org/polypad/embed/OqM1coKhvKsMuw"> 
@@ -145,7 +145,7 @@
           </image>-->
           <interactive xml:id="which-fill-square" 
           iframe="https://www.mathigon.org/polypad/embed/deIUjqp9tTSpaQ" 
-          preview="whichtetromino" aspect="16:12"/>
+          preview="whichtetromino.png" aspect="16:12"/>
 <!--How to caption properly?-->
           <p>
             <url href="https://mathigon.org/polypad/deIUjqp9tTSpaQ"> 
@@ -165,7 +165,7 @@
             Since a tetromino is formed by joining four unit squares, each 
             tetromino has an area of four square units, as illustrated here.
           </p>
-          <image source="area-tetromino" width="50%">
+          <image source="area-tetromino.png" width="50%">
             <shortdescription>
               The L-tetromino drawn as a joining of four square tiles.
             </shortdescription>
@@ -191,7 +191,7 @@
           </p>
           <interactive xml:id="app-buildpentominoes" 
           iframe="https://www.mathigon.org/polypad/embed/lejfSv8Xt8FxJA" 
-          preview="buildpentominoes" aspect="16:12"/>
+          preview="buildpentominoes.png" aspect="16:12"/>
           <p>
             <url href="https://mathigon.org/polypad/lejfSv8Xt8FxJA"> 
               Interactive tool on Polypad by Mathigon
@@ -249,7 +249,7 @@
           </p> 
           <interactive xml:id="app-pentominorectangles" 
           iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
-          preview="pentomino-rectangles" aspect="22:15"/>
+          preview="pentomino-rectangles.png" aspect="22:15"/>
         </hint>
       </task>
 
@@ -292,7 +292,7 @@
               The F and N pentominos are less obvious and are identified below.  
               Sketch and identify the others or refer to and label your earlier sketches.
             </p>
-            <image source="fnpentominos" width="60%">
+            <image source="fnpentominos.png" width="60%">
               <shortdescription>
                 The F-pentomino is three squares tall with an extra square attached to the 
                 middle of these three on one side and an extra square attached to the top 
@@ -309,7 +309,7 @@
               Observe how a larger copy of the L-pentomino tile can be created by filling 
               it with four different pentominoes:
             </p>
-        <image source="doublingl" width="40%">
+        <image source="doublingl.png" width="40%">
           <shortdescription>
             The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
             F-, and P-pentominoes.
@@ -347,7 +347,7 @@
         </p> 
         <interactive xml:id="pentominosetonPP"
         iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
-        preview="pentomino-rectangles" aspect="22:15"/>
+        preview="pentomino-rectangles.png" aspect="22:15"/>
       </hint>
       </task>
       <task>
@@ -552,7 +552,7 @@
             </p>
             <figure xml:id="builtrects">
               <caption>Shapes for <xref ref="SAR-intro-exp-areas"/></caption>
-              <image source="findareaeasy">
+              <image source="findareaeasy.png">
                 <shortdescription>
                   Shape 1 is a cross formed by two equal length intersecting bars. Each 
                   bar is 2 inches by 8 inches so that their intersection is a 2 by 2 square. 
@@ -616,7 +616,7 @@
             </p>
             <figure xml:id="exer-introbasicshape-area">
               <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
-              <image source="basicshapesareaproblem">
+              <image source="basicshapesareaproblem.png">
               <shortdescription>
                 The first two shapes are described in the problem. Trapezoid IJKL 
                 in the third problem consists of a right triangle OJI and rectangle  
@@ -735,7 +735,7 @@
             47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones.  We then can sketch 
             the product as shown.  
           </p>
-            <image source="hw2digit-areamodel" width="40%">
+            <image source="hw2digit-areamodel.png" width="40%">
               <shortdescription>
                 A rectangle labeled with sides 40+7 and 20+5 and split into 
                 subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
@@ -819,7 +819,7 @@
                     Note that solid lines are used to represent lengths of whole units 
                     and dashed lines represent fractional lengths
                   </p>
-                  <image source="hw-mixed-num-areamodel" width="40%">
+                  <image source="hw-mixed-num-areamodel.png" width="40%">
                     <shortdescription>
                       A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five 
                       fifths. The side of length 3 is split into two whole units and three thirds. 
@@ -848,7 +848,7 @@
             <p>
               The sketch below illustrates a product of polynomials.
             </p>
-            <image source="hw1-binomareamodel" width="40%">
+            <image source="hw1-binomareamodel.png" width="40%">
               <shortdescription>
                 A rectangle cut into four subrectangles. The left side is made up of a 
                 segment of length 7 plus a segment of length 
@@ -945,7 +945,7 @@
             </p>
             <figure xml:id="histogram-exercise">
               <caption>Frequency of sums of tetrahedral dice rolls</caption>
-            <image source="histogram">
+            <image source="histogram.png">
               <shortdescription>
                 A symmetric histogram graph is shown. The following rectangular bars appear on the 
                 graph, each with width 1 and base on the x-axis. Above the number 3 and 

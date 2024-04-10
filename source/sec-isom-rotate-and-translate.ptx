@@ -13,7 +13,7 @@
         </p>    
         <figure xml:id="reversing-orientation-fig">
             <caption>A reflection reverses orientation</caption>
-            <image source="orientation-reflection" width="90%">
+            <image source="orientation-reflection.png" width="90%">
                 <shortdescription>
                     Triangle ABC reflected across a line m to create 
                     triangle C'B'A'.
@@ -422,7 +422,7 @@
             </p>
             <figure xml:id="rotated-triangle">
                 <caption>A rotation of <m>\Delta ABC</m></caption>
-                <image source="rotation" width="90%">
+                <image source="rotation.png" width="90%">
                     <shortdescription>Triangle ABC is rotated around a point F to form triangle A'B'C'.</shortdescription>
                 </image>
             </figure>

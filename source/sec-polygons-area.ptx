@@ -153,7 +153,7 @@
                         not just the one you have. Variables allow us to generalize formulas.
                     </p>
                 </aside>
-                <image source="obtuse-tri">
+                <image source="obtuse-tri.png">
                     <shortdescription>A scalene triangle.</shortdescription>
                 </image>
             </statement>
@@ -255,7 +255,7 @@
                     use just triangles or just parallelograms. Briefly describe your 
                     construction or deconstruction.
                 </p>
-                <image source="trapezoid-arbitrary" width="90%">
+                <image source="trapezoid-arbitrary.png" width="90%">
                     <description>
                         An arbitrary trapezoid, not isosceles and not a right trapezoid.
                     </description>
@@ -373,7 +373,7 @@
         </p>
             <figure xml:id="curved-region">
                 <caption>A curved region on a grid of 1x1-unit squares</caption>
-                <image source="curvedshapearea" width="80%">
+                <image source="curvedshapearea.png" width="80%">
                     <description>a curved shape over a grid of squares</description>
                 </image>                
             </figure>
@@ -500,7 +500,7 @@
                     Inscribing and circumscribing a circle with squares, octagons,
                     and 16-gons.
                 </caption>
-                <image source="areacirclebypolygons" width="90%">
+                <image source="areacirclebypolygons.png" width="90%">
                     <shortdescription>Three pictures of the same circle. The first
                         has a square inside with vertices touching the circle and a 
                         square outside with the sides' midpoints touching the circle. 
@@ -570,7 +570,7 @@
                                 </p>
                                 <figure xml:id="figHWareaObTri">
                                     <caption>Triangle <m>\Delta ABC</m></caption>
-                                    <image source="obtriarea">
+                                    <image source="obtriarea.png">
                                         <shortdescription>AB has length 5 centimeters and AC has 
                                             length 8.8 centimeters. An altitude drawn from A to 
                                             side BC has length 3.8 centimeters. Side BC has length
@@ -585,7 +585,7 @@
                                 </p>
                                 <figure xml:id="fig-HW-trap-area">
                                     <caption>Trapezoid <m>DEFG</m></caption>
-                                    <image source="HWtraparea">
+                                    <image source="HWtraparea.png">
                                         <shortdescription>Trapezoid DEFG with 
                                             right angles at D and E. DG has length 6.3 in,
                                             GF has length 6.5 in, EF has length 11.6 in,
@@ -600,7 +600,7 @@
                                 </p>
                                 <figure xml:id="fig-HW-parallelogram-area">
                                     <caption>Parallelogram <m>HKLM</m></caption>
-                                    <image source="HWparallelarea">
+                                    <image source="HWparallelarea.png">
                                         <shortdescription>
                                             Parallelogram HKLM with HK=8.1 mm,
                                             KL=4.8 mm, LM=8.1 mm, and HM=4.8 mm. An altitude 
@@ -663,7 +663,7 @@
                     </p>
                     <figure xml:id="fig-area-perim-grid">
                         <caption>A nonagon</caption>
-                        <image source="HWarea-grid">
+                        <image source="HWarea-grid.png">
                             <shortdescription>
                                 The vertices of the nonagon in clockwise order are 
                                 (0,9), (3,9), (3,10), (6,10), (9,7), (6,4), (6,0),
@@ -728,7 +728,7 @@
                         <caption>Square circumscribed by and inscribed in a circle of 
                             radius 5.
                         </caption>
-                        <image source="HW-circles-squares">
+                        <image source="HW-circles-squares.png">
                             <shortdescription>
                                 Square BEFG is circumscribed by a circle of
                                 radius 5. Square HIJK is inscribed in a circle of radius 5.
@@ -770,7 +770,7 @@
                     </p>
                     <figure xml:id="fig-sq-oct-circle">
                         <caption>Square and Octagon circumscribed by a circle of radius 4</caption>
-                        <image source="HW-circle-octagon-square">
+                        <image source="HW-circle-octagon-square.png">
                             <shortdescription>A square and octagon are circumscribed 
                                 by a circle of radius 4. An eighth slice of the octagon 
                                 has base 4 and height approximately 2.828.

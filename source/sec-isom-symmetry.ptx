@@ -44,7 +44,7 @@
     <figure xml:id="fig-rosette1">
       <caption>Symmetric design created using <url href="eschersket.ch"></url>
       </caption>
-      <image source="escherrosette">
+      <image source="escherrosette.png">
         <shortdescription>
           An abstract design with four lines of symmetry and 
           90-degree rotational symmetry. A square or times symbol has similar 
@@ -446,7 +446,7 @@
               </p>
             <figure xml:id="fig-image-eqtrisymmgp">
               <caption>Home Position of Equilateral Triangle</caption>
-              <image source="eqtri-for-symmgp-image" width="60%">
+              <image source="eqtri-for-symmgp-image.png" width="60%">
                 <shortdescription>
                   An equilateral triangle. Vertex B on top and
                   vertex A lower left and vertex C lower right.

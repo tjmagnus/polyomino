@@ -123,7 +123,7 @@
         </p>
         <figure>
             <caption>Full rotation about point <m>A</m>.</caption>
-            <image source="rotate360">
+            <image source="rotate360.png">
                 <shortdescription>
                     A circle centered around point A. An arrow has been added to the 
                     circle to indicate rotation in a counterclockwise direction.
@@ -146,7 +146,7 @@
         </p>
         <figure xml:id="fig-180deg">
             <caption>180-degree rotation about point <m>A</m></caption>
-            <image source="180deg">
+            <image source="180deg.png">
                 <shortdescription>
                     Line containing C A and B from left to right. 
                     Semicircular arc drawn with center A from point B to the 
@@ -172,7 +172,7 @@
         </p>
         <figure xml:id="protractor">
             <caption>Using a protractor to measure angles.</caption>
-        <image source="protractorexample">
+        <image source="protractorexample.png">
             <shortdescription>A protractor aligned with line containing C A B, centered 
                 at point A. Labels for every multiple of 10 degrees from zero degrees 
                 up through 180 degrees
@@ -488,7 +488,7 @@
                 </p>
                 <figure xml:id="image-vert-angles">
                     <caption>Lines intersecting to form vertical angles</caption>
-                    <image source="verticalangles"> 
+                    <image source="verticalangles.png"> 
                         <description>
                             Two lines meet at point E. One line contains points A, E, and B in 
                             order and the other contains points C, E, and D in that order.
@@ -587,7 +587,7 @@
                         Sketch for <xref ref="HW-SAR-angles-linepoints"/> and 
                         <xref ref="HW-SAR-linepart-type"/>.
                     </caption>
-                        <image source="im-HWlineparts">
+                        <image source="im-HWlineparts.png">
                             <shortdescription>
                                 Three lines intersect at a point E. The order of
                                 points on each line are as follows: A, E, B, and then G on line 1;
@@ -718,7 +718,7 @@
                 </p>
                 <figure xml:id="fig-SAR-missingangles">
                     <caption>Sketch for <xref ref="exer-SAR-missingangles"/>.</caption>
-                    <image source="HW-SAR-missingangles">
+                    <image source="HW-SAR-missingangles.png">
                         <shortdescription>
                             Quadrilateral ABED. Diagonals AE and BD meet at point C.
                             Point F lies on side BE.

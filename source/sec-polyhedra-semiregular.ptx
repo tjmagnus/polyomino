@@ -68,7 +68,7 @@
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
                         <caption>Great Rhombicosidodecahedron</caption>
-                        <image source="Great_rhombicosidodecahedron1">
+                        <image source="Great_rhombicosidodecahedron1.png">
                             <shortdescription>
                                 The front side of a great 
                                 rhombicosidodecahedron. Five decagonal faces,
@@ -125,7 +125,7 @@
                         <caption>
                             The Icosidodecahedron
                         </caption>
-                        <image source="icosidodecahedron" width="30%">
+                        <image source="icosidodecahedron.png" width="30%">
                             <shortdescription>A picture of an icosidodecahedron</shortdescription>
                         </image>
                     </figure>
