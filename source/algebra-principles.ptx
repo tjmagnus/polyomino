@@ -106,7 +106,7 @@
                         <mrow>(x+3)^2-6x\amp =\amp 34</mrow>
                         <mrow>x^2+6x+9-6x\amp =\amp 34</mrow>
                         <mrow>x^2+9\amp =\amp 34</mrow>
-                        <mrow>-9\amp \amp -9</mrow>
+                        <!--<mrow>-9\amp \amp -9</mrow>-->
                         <mrow>x^2\amp=\amp 25</mrow>
                         <mrow> x \amp = \pm 5</mrow>
                     </md>
@@ -116,15 +116,54 @@
                 </p>
             </answer>
         </example>
-        <p>
-            A frequent error made by students is to write 
-            <me>
-                (x+3)^2-6x= 34=x^2+6x+9-6x = 34=x^2+9=34=x^2=25= x=\pm 5.
-            </me>
-            Why is this incorrect? Near the end of the line, we see 
-            <m>25=x=\pm 5</m>. This would imply that <m>25=\pm 5</m>, a statement 
-            that is clearly false.
-        </p>
+        <remark xml:id="remark-use-equals-sign">
+            <p>
+                As we share our solutions with others, it is important to use the 
+                equals sign appropriately. Check that the two expressions on either 
+                side of the symbol <m>=</m> are really equal to each other.
+            </p>
+            <p>
+                A frequent error made by students is to link steps of a computation 
+                with equals signs when the two expressions are not equal to each other. 
+                Typically, an operation has been performed in a step which did not exist
+                previously. For example, a student simplifying <m>(x+3)^2-6x</m> may write 
+                <md>
+                    <mrow>
+                        (x+3)^2-6x\amp = 34=x^2+6x+9-6x = 34
+                    </mrow>
+                    <mrow> \amp = x^2+9=34=x^2=25= x=\pm 5.</mrow>
+                </md>
+                Why is this incorrect? Near the end of the line, we see 
+                <m>25=x=\pm 5</m>. This would imply that <m>25=\pm 5</m>, a statement 
+                that is clearly false. It appears that the student has taken the 
+                square root of both sides of
+                <m>x^2=25</m> but that operation changes the value. 
+                While <m>x=\pm 5</m> is the solution of <m>x^2=25</m>, the expression
+                <m>x</m> is not equal to <m>25</m> so they should not be 
+                linked with an equals sign.
+            </p>         
+    </remark>
+    <exercise>
+        <title>Find the Error</title>
+        <statement>
+            <p>
+                The example in <xref ref="remark-use-equals-sign"/> also 
+                suggests that <m>34=25</m>. Identify where the value changes 
+                and why the equal sign is misleading.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                After the equation <m>x^2+9=34</m>, the number <m>9</m> is  
+                subtracted changing the value.
+            </p>
+        </answer>
+    </exercise>
+    <p>
+        Rather than linking steps with equal signs, you may write them as a 
+        list of equations as shown in the answer to <xref ref="example-solving"/>
+        or use words or arrows between steps.
+    </p>
     </subsection>
     <subsection xml:id="field-properties">
         <title>Field Properties of the Real Numbers</title>

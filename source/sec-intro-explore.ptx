@@ -534,6 +534,35 @@
 \newcounter{negnumofexer}-->
       <exercises xml:id="Exercises-intro-exp">
         <title>Exercises</title>
+        <subexercises xml:id="Toolbox-intro-exp">
+          <title>Building Our Toolbox</title>
+          <introduction>
+            <p>
+              Throughout the course, you will learn important principles, 
+              definitions, formulas, and geometry facts. Create your toolbox 
+              so that these tools will be easy to find and meaningful to you
+              when you need to refer to them or review material.
+              Gathering your tools in one section of your notebook would be ideal.
+            </p>
+          </introduction>
+          <exercise xml:id="exer-intro-expl-toolbox-defarea">
+            <statement>
+              <p>
+                In your own words and illustration(s), describe why the definition 
+                of area leads to the formula for the area of a rectangle at least in 
+                the case where the length and width are whole numbers.
+              </p>
+            </statement>
+          </exercise>
+          <exercise xml:id="exer-intro-expl-toolbox-addarea">
+            <statement>
+              <p>
+                What is meant by <xref ref="principle-areasums"> Additivity of Area
+                  </xref>? Give an example and describe in your own words. 
+              </p>
+            </statement>
+          </exercise>
+        </subexercises>  
         <subexercises xml:id="SAR-intro-exp">
         <title>Skills and Recall</title>
         <introduction>

@@ -1,99 +1,114 @@
 <section xml:id="sec-polygons-angles" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exploring Angle Measure </title>
-  <subsection xml:id="subsec-polygons-angles-degrees">
-    <title>How Can We Measure Angles</title>
+    <introduction>
     <p>
         Having looked at area as the measure of the interior space of a polygon, 
         we now turn our attention to measuring angles. What is an angle and how do 
-        we measure it? To fully grasp the definition of angle, we need to first   
-        understand the difference between lines, segments, and rays.
+        we measure it? 
     </p>
-    <definition xml:id="def-line-segment">
-        <idx><h>line</h></idx>
-        <idx><h>segment</h></idx>
-        <idx><h>line</h><h>segment</h></idx>
-        <idx><h>distance</h></idx>
-        <idx><h>length</h></idx>
-        <notation>
-            <usage><m>\overleftrightarrow{AB}</m></usage>
-          <description>line</description>
-        </notation>
-        <notation>
-            <usage><m>\overline{AB}</m></usage>
-          <description>line segment</description>
-        </notation>
-        <notation>
-            <usage><m>m(\overline{AB})</m></usage>
-          <description>length of segment</description>
-        </notation>
-        <notation>
-            <usage><m>AB</m></usage>
-          <description>length of segment</description>
-        </notation>
+    </introduction>
+    <subsection xml:id="subsec-polygons-angles-defs">
+        <title>Linear Objects</title>
+        <p>
+            To fully grasp the definition of angle, we need to first   
+            understand the difference between lines, segments, and rays.
+        </p>
+        <definition xml:id="def-line-segment">
+            <idx><h>line</h></idx>
+            <idx><h>segment</h></idx>
+            <idx><h>line</h><h>segment</h></idx>
+            <idx><h>distance</h></idx>
+            <idx><h>length</h></idx>
+            <notation>
+                <usage><m>\overleftrightarrow{AB}</m></usage>
+            <description>line</description>
+            </notation>
+            <notation>
+                <usage><m>\overline{AB}</m></usage>
+            <description>line segment</description>
+            </notation>
+            <notation>
+                <usage><m>m(\overline{AB})</m></usage>
+            <description>length of segment</description>
+            </notation>
+            <notation>
+                <usage><m>AB</m></usage>
+            <description>length of segment</description>
+            </notation>
+            <statement>
+                <p>
+                    A <term>line</term> is a one-dimensional figure that extends infinitely 
+                    in opposite directions. In Euclidean geometry, lines are straight, but we 
+                    will encounter a geometry in which they are curved. One important trait of 
+                    lines is that any pair of distinct points lie on exactly one line. For this 
+                    reason, we may denote the line through points <m>A</m> and <m>B</m> as 
+                    <m>\overleftrightarrow{AB}</m>. 
+                </p>
+                <p>
+                    A <term>line segment</term> is the part of a line bounded by two endpoints.
+                    Line segment <m>\overline{AB}</m> consists of <term>endpoints</term>
+                    <m>A</m> and <m>B</m> and all points on line 
+                    <m>\overleftrightarrow{AB}</m> which lie between <m>A</m> and <m>B</m>.
+                </p>
+                <p>
+                    Unlike a line, a line segment has finite length. We define the <term>length</term> of 
+                    <m>\overline{AB}</m> to be the distance from point <m>A</m> to point <m>B</m>. 
+                    We use the notation <m>m(\overline{AB})</m> or simply <m>AB</m> to denote the 
+                    length of <m>\overline{AB}</m>.
+                </p>
+            </statement>
+        </definition>
+        <p>
+            Whereas a line continues infinitely in two directions, a ray continues
+            infinitely in just one direction and has an 
+            endpoint.
+        </p>
+        <definition xml:id="def-ray">
+            <idx><h>ray</h></idx>
+            <notation>
+                <usage><m>\overrightarrow{AB}</m></usage>
+            <description>ray</description>
+            </notation>
+            <statement>
+            <p>
+                <term>Ray</term> <m>\overrightarrow{AB}</m>
+                consists of point <m>A</m>, point <m>B</m>, and all points on line 
+                <m>\overleftrightarrow{AB}</m> which are on the same side of <m>A</m> as 
+                point <m>B</m>. A ray extends infinitely in one direction, has a single 
+                endpoint, and cannot be measured.
+            </p>
+            <aside>
+                <p>
+                    Note that <m>\overrightarrow{AB}</m> has many names. If <m>B'</m> is 
+                    any point on <m>\overrightarrow{AB}</m> other than <m>A</m>, then 
+                    <m>\overrightarrow{AB'}=\overrightarrow{AB}</m>.
+                </p>
+            </aside>
+            </statement>
+        </definition>
+    </subsection>
+    <subsection xml:id="subsec-Def-and-Measuring-Angles">
+        <title>Defining and Measuring Angles</title>
+        <p>
+            We now define an angle and describe how to measure angles.
+        </p>
+        <definition xml:id="def-angles">
+        <idx><h>angle</h></idx>
+        <idx><h>vertex</h><h>angle</h></idx>
+        <idx><h>angle</h><h>vertex</h></idx>
+        <idx><h>angle</h><h>side</h></idx>
+        <idx><h>side</h><h>angle</h></idx>
         <statement>
             <p>
-                A <term>line</term> is a one-dimensional figure that extends infinitely 
-                in opposite directions. In Euclidean geometry, lines are straight, but we 
-                will encounter a geometry in which they are curved. One important trait of 
-                lines is that any pair of distinct points lie on exactly one line. For this 
-                reason, we may denote the line through points <m>A</m> and <m>B</m> as 
-                <m>\overleftrightarrow{AB}</m>. 
-            </p>
-            <p>
-                A <term>line segment</term> is the part of a line bounded by two endpoints.
-                Line segment <m>\overline{AB}</m> consists of <term>endpoints</term>
-                <m>A</m> and <m>B</m> and all points on line 
-                <m>\overleftrightarrow{AB}</m> which lie between <m>A</m> and <m>B</m>.
-            </p>
-            <p>
-                Unlike a line, a line segment has finite length. We define the <term>length</term> of 
-                <m>\overline{AB}</m> to be the distance from point <m>A</m> to point <m>B</m>. 
-                We use the notation <m>m(\overline{AB})</m> or simply <m>AB</m> to denote the 
-                length of <m>\overline{AB}</m>.
+                An <term>angle</term> is the union of two rays with a common endpoint.
+                In particular, <m>\angle BAC</m> consists of all points that lie on the 
+                rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>. The common 
+                endpoint <m>A</m> of the rays is called the <term>vertex</term> of the 
+                angle and the two rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>
+                are called the <term>sides</term> of the angle.
             </p>
         </statement>
     </definition>
-    <definition xml:id="def-ray">
-        <idx><h>ray</h></idx>
-        <notation>
-            <usage><m>\overrightarrow{AB}</m></usage>
-          <description>ray</description>
-        </notation>
-        <statement>
-          <p>
-            <term>Ray</term> <m>\overrightarrow{AB}</m>
-            consists of point <m>A</m>, point <m>B</m>, and all points on line 
-            <m>\overleftrightarrow{AB}</m> which are on the same side of <m>A</m> as 
-            point <m>B</m>. A ray extends infinitely in one direction, has a single 
-            endpoint, and cannot be measured.
-          </p>
-          <aside>
-            <p>
-                Note that <m>\overrightarrow{AB}</m> has many names. If <m>B'</m> is 
-                any point on <m>\overrightarrow{AB}</m> other than <m>A</m>, then 
-                <m>\overrightarrow{AB'}=\overrightarrow{AB}</m>.
-            </p>
-          </aside>
-        </statement>
-      </definition>
-
-      <definition xml:id="def-angles">
-    <idx><h>angle</h></idx>
-    <idx><h>vertex</h><h>angle</h></idx>
-    <idx><h>angle</h><h>vertex</h></idx>
-    <idx><h>angle</h><h>side</h></idx>
-    <idx><h>side</h><h>angle</h></idx>
-    <statement>
-        <p>
-            An <term>angle</term> is the union of two rays with a common endpoint.
-            In particular, <m>\angle BAC</m> consists of all points that lie on the 
-            rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>. The common 
-            endpoint <m>A</m> of the rays is called the <term>vertex</term> of the 
-            angle and the two rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>
-            are called the <term>sides</term> of the angle.
-        </p>
-    </statement>
-</definition>
     <p>
         To think of the measure of an angle as the space between the rays is  
         vague and misleading. The area between the rays is infinite. Note also  
@@ -276,18 +291,17 @@
   </subsection>
  <subsection xml:id="subsec-polygons-angles-triangle">
     <title>Angles of a Triangle</title>
-    <exploration>
+    <exploration xml:id="expl-angsum-triangle">
         <introduction>
             <p>
-                The GeoGebra app, 
-                <url href="https://www.geogebra.org/classic/bnayhujg">
-                Angles of a Triangle</url> is useful in completing this activity. You 
+                The GeoGebra app, <xref ref="geogebra-app-for-tri-sum-2"/> 
+                is useful in completing this activity. You 
                 may also perform this activity by carefully cutting out 
                 a scalene triangle and tracing it on a sheet of paper. 
             </p>
             <figure xml:id="geogebra-app-for-tri-sum-2">
                 <caption>
-                    An interactive GeoGebra applet for Triangle Sum Exploration.
+                    An interactive GeoGebra applet for <xref ref="expl-angsum-triangle"/>.
                 </caption>
             <interactive xml:id="geogebratrisum2" platform="geogebra">
                 <slate surface="geogebra" material="bnayhujg"/>
@@ -377,9 +391,9 @@
 <subsection xml:id="subsec-polygons-angles-principle">
     <title>Additivity of Angles and Definitions Associated with Angles</title>
     <p>
-        Like the additivity of <xref ref="principle-areasums">area</xref> 
-        and <xref ref="principle-addlengths">length</xref>, the additivity of 
-        angle measure is intuitively obvious and 
+        Like <xref ref="principle-areasums">additivity of area</xref> 
+        and <xref ref="principle-addlengths">additivity of length</xref>, the 
+        additivity of angle measure is intuitively obvious and 
         will prove useful. We state this as a principle and add it to our toolbox. 
         First, we must clarify what we mean by the interior of an 
         angle.
@@ -390,8 +404,11 @@
         <statement>
             <p>
             A point <m>D</m> is said to be in the <term>interior</term> of <m>\angle ABC</m>
-            if <m>D</m> lies between points <m>A</m> and <m>C</m> on line segment 
-            <m>\overline{AC}</m>.
+            if <m>D</m> and <m>A</m> lie on the same side of line <m>\overleftrightarrow{BC}</m>
+            and <m>D</m> and <m>C</m> lie on the same side of line  
+            <m>\overleftrightarrow{BA}</m>. Ray <m>\overrightarrow{BD}</m> lies
+            in the interior of <m>\angle ABC</m> if <m>D</m> lies in the interior of 
+            <m>\angle ABC</m>.
             </p>
         </statement>
     </definition>
@@ -516,7 +533,6 @@
             </p>
         </statement>
     </exercise>
-
 </subsection>
    
    <exercises xml:id="exercises-polygons-angles">
@@ -908,7 +924,7 @@
                 </p>
             </hint>
         </exercise>
-   </subexercises>
+        </subexercises>
    </exercises>
   
 </section>
