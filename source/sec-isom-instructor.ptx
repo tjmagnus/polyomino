@@ -55,7 +55,7 @@
     </p>
   </subsection>
   <subsection>
-    <title>Notes for <xref ref="sec-isom-composing-isometries"/></title>
+    <title>Notes for <xref ref="sec-isom-composing-reflections"/></title>
     <p>
       Note that students may be uncomfortable with the notation for compositions,
       especially the fact that <m>f\circ g(x)=f(g(x))</m>. Students are used to 

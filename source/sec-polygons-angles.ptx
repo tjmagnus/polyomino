@@ -489,10 +489,10 @@
                 <figure xml:id="image-vert-angles">
                     <caption>Lines intersecting to form vertical angles</caption>
                     <image source="verticalangles"> 
-                        <description>
+                        <shortdescription>
                             Two lines meet at point E. One line contains points A, E, and B in 
                             order and the other contains points C, E, and D in that order.
-                        </description>
+                        </shortdescription>
                     </image>
                 </figure>
             </sidebyside>   
@@ -597,6 +597,69 @@
                         </image>
                 </figure>
             </statement>
+            <answer>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Points E and F are the only labeled points 
+                                that lie on the segment <m>\overline{EF}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Points C, H, E, F, and D lie on line <m>\overleftrightarrow{EF}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Points C, H, E, and F lie on ray <m>\overrightarrow{FE}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Other names for <m>\overrightarrow{FE}</m> are <m>\overrightarrow{FH}</m>
+                                and <m>\overrightarrow{FC}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Other names for <m>\angle{HEB}</m> are <m>\angle{HEG}</m>, <m>\angle{CEB}</m>,
+                                and <m>\angle{CEG}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                180 degrees
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Point A lies in the interior of <m>\angle{CEJ}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Several right answers; correct if the angles are vertical angles and
+                                four pairs are given. One possibility: <m>\angle IEH</m> and <m>\angle FEJ</m>;
+                                <m>\angle IEB and \angle AEJ</m>; <m>\angle BEF</m> and <m>\angle HEA</m>;
+                                and <m>\angle IEA</m> and <m>\angle BEJ</m>. You may choose whether to allow 
+                                an angle (with multiple names) to be congruent to itself.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                E is the only point in common.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A, B, and G all lie on both rays.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </answer>
         </exercise>
         <exercise xml:id="HW-SAR-linepart-type">
             <statement>
@@ -643,6 +706,45 @@
                     </ol>
                 </p>
             </statement>
+            <answer>
+                <p>
+                   <ol>
+                        <li>
+                            <p>
+                                The line <m>\overleftrightarrow{IJ}</m>; also called
+                                <m>\overleftrightarrow{IE}</m> or <m>\overleftrightarrow{EJ}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\angle IEF</m>; also called <m>\angle IED</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Segment <m>\overline{BG}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Ray <m>\overrightarrow{EF}</m>; 
+                                point D may be used in place of F.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                No points lie on both <m>\overrightarrow{CH}</m>
+                                and <m>\overrightarrow{BG}</m>..
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Point E.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </answer>
         </exercise>
         <!--<exercise>
             <statement>
@@ -668,48 +770,30 @@
                         <li>
                             <m>\angle{ACD}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             <m>\angle{ADC}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             <m>\angle{BCE}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             <m>\angle{BCF}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             <m>\angle{BFC}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             <m>\angle{CBF}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             <m>\angle{CEF}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             <m>\angle{ACF}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             <m>\angle{CDE}</m>
                         </li>
-                    </ol>
-                    <ol>
                         <li>
                             What do we know about <m>\angle{ABC}</m>
                             and <m>\angle{BAC}</m>? Explain.
@@ -726,6 +810,43 @@
                     </image>
                 </figure>
             </statement>
+            <answer>
+                <p>
+                    <ol>
+                        <li>
+                            <m>m(\angle{ACD})=113^{\circ}</m>
+                        </li>
+                        <li>
+                            <m>m(\angle{ADC})=30^{\circ}</m>
+                        </li>
+                        <li>
+                            <m>m(\angle{BCE})=113^{\circ}</m>
+                        </li>
+                        <li>
+                            <m>m(\angle{BCF})=24^{\circ}</m>
+                        </li>
+                        <li>
+                            <m>m(\angle{BFC})=128^{\circ}</m>
+                        </li>
+                        <li>
+                            <m>m(\angle{CBF})=28^{\circ}</m>
+                        </li>
+                        <li>
+                            <m>m(\angle{CEF})=39^{\circ}</m>
+                        </li>
+                        <li>
+                            <m>m(\angle{ACF})=91^{\circ}</m>
+                        </li>
+                        <li>
+                            <m>m(\angle{CDE})=50^{\circ}</m>
+                        </li>
+                        <li>
+                            The sum <m>m(\angle{ABC})+m(\angle{BAC})=113^{\circ}</m>.
+                            Other answers are possible with adequate support.
+                        </li>
+                    </ol>
+                </p>
+            </answer>
         </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-polygons-angles">
@@ -741,7 +862,7 @@
         <exercise>
             <statement>
                 <p>
-                    Sketch a few convex quadrilaterals on paper or using the GeoGebra drawing 
+                    Sketch any convex quadrilateral on paper or using the GeoGebra drawing 
                     tool.
                 </p>
                     <figure xml:id="geogebra-app-for-quadangle-sum">
@@ -753,7 +874,7 @@
                     </interactive>
                     </figure>  
                     <p>
-                    Connect a pair of opposite vertices with a line segment, called a 
+                    Connect opposite vertices <m>B</m> and <m>D</m> with a line segment, called a 
                     <term>diagonal</term>, to divide the quadrilateral into two shapes. 
                     <ol>
                         <li>
@@ -770,7 +891,8 @@
                         </li>
                         <li>
                             <p>
-                                Experiment with other triangles or by moving vertex A in the applet.
+                                Experiment with other triangles or by moving vertex <m>A</m> in the applet.
+                                Does your claim still hold true?
                                 What happens to the angle measure when the quadrilateral is no longer convex?
                             </p>
                         </li>
