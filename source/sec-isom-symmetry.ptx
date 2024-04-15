@@ -839,6 +839,9 @@
             <p>
               4. No, these are not the same. 
             </p>
+            <p>
+              5. The table follows. 
+            </p>
               <table xml:id="composition-table-key">
                 <title>Composition Table Key</title>
                 <tabular halign="center" row-headers="yes">
@@ -965,6 +968,23 @@
               </ol>
             </p>
           </statement>
+          <answer>
+            <p>
+              1. <m>R_0</m> is the identity transformation.
+            </p>
+            <p>
+              2. <m>R_{240}</m> undoes <m>R_{120}</m>. Here, 
+              order does not matter.
+            </p>
+            <p>
+              3. <m>m_n</m> undoes itself. The number <m>-1</m> behaves
+              similarly in multiplication.
+            </p>
+            <p>
+              4. No, composition of symmetry transformations does not satisfy
+              the commutative property.
+            </p>
+          </answer>
         </task>
     </exploration>
     <!--<conclusion>

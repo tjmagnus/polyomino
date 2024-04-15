@@ -12,6 +12,46 @@
             and explore what lines look like in other geometries.
         </p>
     </introduction>
+    <exploration>
+        <title>Reflecting on Prior Understanding</title>
+        <task xml:id="parallel-task-describe-line">
+            <statement>
+                <p>
+                    In your own words, write three different endings to the statement, 
+                    <q>A line is ...</q>. Compare your responses to that of your classmates.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    There are no right or wrong answers!
+                </p>
+            </hint>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Complete the following sentences:
+                    <ol>
+                        <li>
+                            <p>The sum of the measures of the interior angles of any triangle is ...</p>
+                        </li>
+                        <li>
+                            <p>Two lines in the plane are parallel if ...</p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    This question is also designed to lead to discussion without 
+                    judgement. Students usually agree on 180 degrees for the sum
+                    of the measures of the angles in a triangle. They should give a 
+                    variety of ideas on what parallelism means. For a later question,
+                    we will use nonintersecting to define parallel lines.
+                </p>
+            </answer>
+        </task>
+    </exploration>
     <subsection>
         <title>Geometry on Another Surface</title>
         <p>
@@ -28,45 +68,23 @@
             <introduction>
                 <p>
                     For this activity and the one that follows, 
-                    you will need a sphere, some rubber bands large enough to go around 
+                    you will need a small sphere, some rubber bands large enough to go around 
                     your sphere, a protractor, a marker, and a piece of thread. Possible <q>spheres</q> 
                     include styrophone balls, oranges, rubber balls, or spheres sold by math education 
-                    supply companies. Aim for a sphere around the size of a softball or larger. A smooth 
+                    supply companies. Aim for a sphere around the size of a softball. A smooth 
                     surface is best, but any small ball will suffice. As an alternative, 
-                    you may use a globe with latitude and longitude lines marked. This latter option requires some 
-                    string or ribbon instead of rubber bands and markers. 
+                    you may use a ribbon with a globe where latitude and longitude lines are marked.  
                 </p>
             </introduction>
-            <task xml:id="parallel-task-describe-line">
-                <statement>
-                    <p>
-                        In your own words, write three different endings to the statement, 
-                        <q>A line is ...</q>. Compare your responses to that of your classmates.
-                    </p>
-                </statement>
-            </task>
             <task>
+                <title>Envisioning Lines on a Sphere</title>
                 <statement>
                     <p>
-                        Complete the following sentences:
-                        <ol>
-                            <li>
-                                <p>The sum of the measures of the interior angles of any triangle is ...</p>
-                            </li>
-                            <li>
-                                <p>Two lines in the plane are parallel if ...</p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        We don’t live on a plane; we live on a sphere.  
+                        We do not live on a plane; we live on a sphere.  
                         Let’s predict what the lines on a sphere, on our earth, might be.  
-                        The lines will lie on the surface of the sphere.  
-                        The lines will not pass through the sphere nor will they project out into space.  
+                        These lines will lie on the surface of the sphere.  
+                        They will not pass through the sphere nor will they 
+                        project out into space.  
                         What are some examples of things that might pose as “lines” on a sphere?  
                         Which of your descriptions in <xref ref="parallel-task-describe-line"/> 
                         do they satisfy? 
@@ -76,14 +94,14 @@
             <task>
                 <statement>
                     <p>
-                        You’ve probably heard the expression, 
+                        You have probably heard the expression, 
                        <q>The shortest distance between two points lies along a line.</q>  
                         We shall use this property of line segment to determine which linear 
                         features on a sphere act as lines and line segments.  
-                        Suppose you’re planning to fly from Chicago, Illinois 
+                        Suppose you have plans to fly from Chicago, Illinois 
                         (41.8781N, 87.6298W), to Rome, Italy (41.9028N,12.4964E).  
-                        There are many paths you could take, many of which might qualify as 
-                        lines under your suggestions above.  Which of these gives the shortest 
+                        There are many paths you could take; some might qualify as 
+                        lines under your suggestions above. Which path gives the shortest 
                         distance from Chicago to Rome?  If a globe is available, find Chicago 
                         and Rome and experiment with a string to find the path of least distance.
                         If you do not have a globe, mark the approximate locations of Chicago and Rome 
@@ -100,7 +118,7 @@
                             </li>
                             <li>
                                 <p>
-                                    Allow the “line” to extend “forever” beyond the two points.  
+                                    Allow this “line” to extend “forever” beyond the two points.  
                                     What figure does it form?  How is this figure related to the sphere itself?
                                 </p>
                             </li>
@@ -108,10 +126,10 @@
                     </p>
                     <aside>
                         <p>
-                        The GeoGebra app <url href="www.geogebra.org/m/j4yqa9jd">
+                            The GeoGebra app <url href="www.geogebra.org/m/j4yqa9jd">
                             www.geogebra.org/m/j4yqa9jd</url>, authored by Heather Pierce, may also be  
                             used to draw lines on a virtual sphere.
-                    </p>
+                        </p>
                     </aside>
                 </statement>
             </task>
@@ -133,22 +151,32 @@
             <task>
                 <statement>
                     <p>
-                        Which latitudes will be lines (great circles) on a sphere? 
+                        Which latitudes, if any, will be lines (great circles) 
+                        on a sphere? 
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Which longitudes will be lines on a sphere according to this definition?
+                        Which longitudes, if any, will be lines on a sphere 
+                        according to this definition?
                     </p>
                 </statement>
             </task>
             <task>
                 <statement>
                     <p>
-                        Choose any point not on the equator.  
-                        Can you construct a line through this point that is parallel to the equator?  Explain. 
+                        In <xref ref="sec-intro-apply"/>, we defined two lines to 
+                        be <xref ref="def-parallel" text="custom">parallel</xref> if 
+                        they lie in the same plane and do not intersect. Spherical 
+                        lines will be parallel if they lie on the sphere and do not 
+                        intersect.
+                    </p>
+                    <p>
+                        Choose any point on the sphere which is not on the equator.  
+                        Can you construct a spherical line through this point that does 
+                        intersect the equator?  Explain. 
                     </p>
                 </statement>
             </task>
@@ -195,8 +223,9 @@
             <task>
                 <statement>
                     <p>
-                        Repeat the last tasks two more times so that you have found the sum of the measures of the 
-                        angles for three different triangles. Record your measurements and sums. What do you notice? 
+                        Repeat the last tasks two more times so that you have computed 
+                        the sum of the measures of the angles for at least three different 
+                        triangles. Record your measurements and sums. What do you notice? 
                     </p>
                 </statement>
                 <hint>
