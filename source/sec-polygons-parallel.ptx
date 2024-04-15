@@ -12,6 +12,8 @@
             and explore what lines look like in other geometries.
         </p>
     </introduction>
+    <subsection xml:id="subsec-review-lines">
+        <title>What do we remember about lines on a plane?</title>
     <exploration>
         <title>Reflecting on Prior Understanding</title>
         <task xml:id="parallel-task-describe-line">
@@ -52,6 +54,7 @@
             </answer>
         </task>
     </exploration>
+</subsection>
     <subsection>
         <title>Geometry on Another Surface</title>
         <p>
