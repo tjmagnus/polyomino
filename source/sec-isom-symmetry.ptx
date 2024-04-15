@@ -416,6 +416,24 @@
                 </interactive>
                 </figure>
                 </statement>
+                <answer>
+                  <p>
+                    1. 120 degrees 
+                  </p>
+                  <p>
+                    2. rotating counterclockwise by 240 degrees
+                  </p>
+                  <p>
+                    3. Back to original position, 
+                  </p>
+                  <p>
+                    4. <m>r_0</m> does nothing while <m>r_360</m>
+                    performs a full rotation. The resulting image is the same.
+                  </p>
+                  <p>
+                      5. 240 degrees.
+                  </p>
+                </answer>
               </task>
               <task xml:id="record-trisymm-images">
                 <title>Images of Symmetries</title>
@@ -480,6 +498,23 @@
               need to refer to these arrangements in the next task.
             </p>
           </statement>
+          <answer>
+            <p>
+              1. <m>r_{120}</m>: <m>C</m> is on top; bottom left to right is <m>BA</m>.
+            </p>
+            <p>
+              2. <m>r_{240}</m>: <m>A</m> is on top; bottom left to right is <m>CB</m>.
+            </p>
+            <p>
+              3. <m>m_n</m>: <m>A</m> is on top; bottom left to right is <m>BC</m>.
+            </p>
+            <p>
+              4. <m>m_p</m>: <m>C</m> is on top; bottom left to right is <m>AB</m>.
+            </p>
+            <p>
+              5. <m>m_v</m>: <m>B</m> is on top; bottom left to right is <m>CA</m>.
+            </p>
+          </answer>
         </task>
         <task>
           <title>Setting the Stage</title>
@@ -548,6 +583,67 @@
               </tabular>
             </table>
           </statement>
+          <answer>
+            <table xml:id="key-multiply-table">
+              <title>Multiplication Table Key</title>
+              <tabular halign="center" row-headers="yes">
+                <col right="medium"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <col right="minor"/>
+                <row header="yes" bottom="medium">
+                  <cell><m>\times</m></cell>
+                  <cell> 1 </cell>
+                  <cell> 2 </cell>
+                  <cell> 3 </cell>
+                  <cell> 4 </cell>
+                  <cell> 5 </cell>
+                </row>
+                <row header="no" bottom="minor">
+                      <cell> 1 </cell>
+                      <cell> 1 </cell>
+                      <cell> 2 </cell>
+                      <cell> 3 </cell>
+                      <cell> 4 </cell>
+                      <cell> 5 </cell>
+                    </row>
+                <row header="no" bottom="minor">
+                  <cell> 2 </cell>
+                  <cell>2</cell>
+                  <cell>4</cell>
+                  <cell>6</cell>
+                  <cell>8</cell>
+                  <cell>10</cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell> 3 </cell>
+                  <cell>3</cell>
+                  <cell>6</cell>
+                  <cell>9</cell>
+                  <cell>12</cell>
+                  <cell>15</cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell> 4 </cell>
+                  <cell>4</cell>
+                  <cell>8</cell>
+                  <cell>12</cell>
+                  <cell>15</cell>
+                  <cell>18</cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell> 5 </cell>
+                  <cell>5</cell>
+                  <cell>10</cell>
+                  <cell>15</cell>
+                  <cell>20</cell>
+                  <cell>25</cell>
+                </row>
+              </tabular>
+            </table>
+          </answer>
         </task>
         <task>
           <statement>
@@ -561,13 +657,15 @@
               be sure to reset the triangle to home position before performing the first of 
               the two actions and then perform the second action without resetting the 
               triangle. Compare the final result to the vertex labels you recorded in 
-              <xref ref="record-trisymm-images"/>.
+              <xref ref="record-trisymm-images"/> and then use the symbol,
+              <m>r_0</m>, <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, <m>m_p</m>, or 
+              <m>m_v</m> that corresponds to the output of the composition.
               <ol>
                 <li>
                   <p>
                     The row and column headed by <m>r_0</m> have already been filled
                     in. Explain why this row and column is the same as the header row 
-                    and column. In particular, what is the action of <m>r_0</m> on 
+                    and header column. In particular, what is the action of <m>r_0</m> on 
                     the vertices of triangle <m>\Delta ABC</m>?
                   </p>
                 </li>
@@ -576,84 +674,76 @@
                     Determine the compositions of two rotations, namely <m>r_{120}\circ r_{120}</m>,
                     <m>r_{120}\circ r_{240}</m>, <m>r_{240}\circ r_{120}</m>, and <m>r_{240}\circ r_{240}</m>. 
                     Add these results, using the appropriate <m>r_x</m> or <m>m_x</m> shorthand 
-                    to the table in the appropriate locations.
+                    to the table in the appropriate locations.<fn>The column will be headed by 
+                    the first action performed and the row will be headed by the second action.</fn>
                   </p>
                 </li>
                 <li>
-                  <p xml:id="reflacrossn-then-rotate120">
-                    The nine cells in the upper left should now be filled. With <xref ref="GGappfortrisymm"/>
-                    starting with the 
-                    triangle in home position, perform <m>m_n</m> followed by <m>r_{120}</m> 
-                    to compute <m>r_{120}\circ m_n</m><fn>In <xref ref="def-composition"/>, we 
-                    defined <m>f\circ g(x)=f(g(x))</m> as in common practice in algebra</fn>. 
-                    Compare the final result with the images 
-                    you recorded in <xref ref="record-trisymm-images"/>.
+                  <p>
+                    The nine cells in the upper left should now be filled. Starting with the  
+                    triangle in home position<xref ref="GGappfortrisymm"/>, 
+                    perform <m>m_n</m> followed by <m>r_{120}</m>.<fn>This operation
+                    is the same as <m>r_{120}\circ m_n</m>, the composition of <m>r_{120}</m>
+                    and <m>m_n</m> since the composition of two functions 
+                    <m>f</m> and <m>g</m> is defined by mathematicians to be <m>f\circ g(x)=f(g(x))</m>.
+                    See <xref ref="def-composition"/>. For this activity, we will refer to the first 
+                    and second action throughout to maintain clarity.</fn>. 
+                    Record the symbol in <xref ref="record-trisymm-images"/> that corresponds to the
+                    resulting image in the cell in the <m>m_n</m>-column and the <m>r_{120}</m>-row.
                     </p>
                 </li>
                 <li>
-                  <p xml:id="rotate120-then-reflacrossn">
-                    Is <m>m_n\circ r_{120}</m> the same as <m>r_{120}\circ m_n</m>? To determine 
-                    this, start at the home position and then perform <m>r_{120}</m> first followed by 
-                    <m>m_n</m>. Compare these two results.
-                  </p>
                   <p>
-                    Because the order of the transformations matter, we need to agree on how to 
-                    place these expressions in the table. We shall agree to use the row heading as 
-                    the first symmetry action performed and use the column heading for the second 
-                    transformation. Write the symmetry you just found in the cell of the 
-                    <m>r_{120}</m>-row and <m>m_n</m>-column. Write the symmetry from 
-                    <xref ref="reflacrossn-then-rotate120"/> in the <m>m_n</m>-row and 
-                    <m>r_{120}</m>-column.<fn>This order was chosen because it 
-                      is more natural to fill in a row at a time and to have the row label be the 
-                      first transformation. The table may differ from ones found elsewhere that 
-                      adhere more closely to the order suggested by the composition functio.</fn>
+                    Is <m>m_n\circ r_{120}</m> the same as <m>r_{120}\circ m_n</m>? To determine 
+                    <m>m_n\circ r_{120}</m>, start at the home position and first perform <m>r_{120}</m> 
+                    followed by <m>m_n</m>. Write the symmetry you just found in the cell of the 
+                    <m>r_{120}</m>-column and <m>m_n</m>-row. Compare the two results.
                   </p>
                 </li>
                 <li>
                   <p>
-                    To complete the <m>r_{120}</m>-row, compute the two compositions:
+                    To complete the <m>r_{120}</m>-column, compute the two compositions:
                     <ol>
                       <li>
                         <p>
-                          <m>r_{120}\star m_p</m>, by first rotating the triangle in home position 
+                          <m>r_{120}\circ m_p</m>, by first rotating the triangle in home position 
                           120 degrees counterclockwise and then reflecting the resulting 
                           triangle across line <m>p</m>, and 
                         </p>
                       </li>
                       <li>
                         <p>
-                          <m>r_{120}\star m_v</m>, by first rotating the triangle in home position 
+                          <m>r_{120}\circ m_v</m>, by first rotating the triangle in home position 
                           120 degrees counterclockwise and then reflecting the resulting 
                           triangle across line <m>v</m>.
                         </p>
                       </li>
                     </ol>
-                    The <m>r_{120}</m>-row should now be completely filled. Each of the 
+                    The <m>r_{120}</m>-column should now be completely filled. Each of the 
                     symmetries, <m>r_0</m>, <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, 
-                    <m>m_p</m>, and <m>m_v</m> will appear exactly once in this row.
+                    <m>m_p</m>, and <m>m_v</m> will appear exactly once in this colunn.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Now complete the <m>r_{240}</m>-row, each time rotating counterclockwise 240 
+                    Now complete the <m>r_{240}</m>-column, each time rotating counterclockwise 240 
                     degrees before performing the symmetry corresponding 
-                    to the column heading. Be sure to 
-                    return to the home position before beginning each calculation.
+                    to the row heading. Be sure to 
+                    return to the home position before beginning each two-stage calculation.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Similarly, we will complete the <m>m_n</m>-row by reflecting the home triangle 
+                    Similarly, we will complete the <m>m_n</m>-column by reflecting the home triangle 
                     across the line <m>n</m> before performing the symmetry 
-                    corresponding to the column heading. Check again to make sure that no 
-                    symmetry appears twice in the 
-                    same row.
+                    corresponding to the row heading. Check again to make sure that no 
+                    symmetry appears twice in the same column.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Complete the last two rows where the first transformation is reflection 
-                    across the lines <m>p</m> and <m>v</m> respectively.
+                    Complete the last two columns where the first transformation is reflection 
+                    across the lines <m>p</m> and <m>v</m>, respectively.
                   </p>
                 </li>
               </ol>
@@ -669,7 +759,7 @@
                 <col right="minor"/>
                 <col right="minor"/>
                 <row header="yes" bottom="medium">
-                  <cell><m>\star</m></cell>
+                  <cell><m>\circ</m></cell>
                   <cell><m>r_0</m></cell>
                   <cell><m>r_{120}</m></cell>
                   <cell><m>r_{240}</m></cell>
@@ -734,6 +824,97 @@
               </tabular>
             </table>
           </statement>
+          <answer>
+            <p>
+              1. <m>r_0</m> does not affect the vertices of the triangle.
+            </p>
+            <p>
+              2. <m>r_{120}\circ r_{120}=r_{240}</m>; <m>r_{120}\circ r_{240}=r_0</m>;
+              <m>r_{240}\circ r_{120}=r_{0}</m>; <m>r_{240}\circ r_{240}=r_{120}</m>.
+            </p>
+            <p>
+              3. <m>m_n</m> followed by <m>r_120</m> results in <m>m_p</m>. In symbols,
+              <m>r_120\circ m_n=m_p</m>.
+            </p>
+            <p>
+              4. No, these are not the same. 
+            </p>
+              <table xml:id="composition-table-key">
+                <title>Composition Table Key</title>
+                <tabular halign="center" row-headers="yes">
+                  <col right="medium"/>
+                  <col right="minor"/>
+                  <col right="minor"/>
+                  <col right="minor"/>
+                  <col right="minor"/>
+                  <col right="minor"/>
+                  <col right="minor"/>
+                  <row header="yes" bottom="medium">
+                    <cell><m>\circ</m></cell>
+                    <cell><m>r_0</m></cell>
+                    <cell><m>r_{120}</m></cell>
+                    <cell><m>r_{240}</m></cell>
+                    <cell><m>m_n</m></cell>
+                    <cell><m>m_p</m></cell>
+                    <cell><m>m_v</m></cell>
+                  </row>
+                  <row header="no" bottom="minor">
+                    <cell><m>r_0</m></cell>
+                    <cell><m>r_0</m></cell>
+                    <cell><m>r_{120}</m></cell>
+                    <cell><m>r_{240}</m></cell>
+                    <cell><m>m_n</m></cell>
+                    <cell><m>m_p</m></cell>
+                    <cell><m>m_v</m></cell>
+                  </row>
+                  <row header="no" bottom="minor">
+                    <cell><m>r_{120}</m></cell>
+                    <cell><m>r_{120}</m></cell>
+                    <cell><m>r_{240}</m></cell>
+                    <cell><m>r_0</m></cell>
+                    <cell><m>m_p</m></cell>
+                    <cell><m>m_v</m></cell>
+                    <cell><m>m_n</m></cell>
+                  </row>
+                  <row header="no" bottom="minor">
+                    <cell><m>r_{240}</m></cell>
+                    <cell><m>r_{240}</m></cell>
+                    <cell><m>r_0</m></cell>
+                    <cell><m>r_{120}</m></cell>
+                    <cell><m>m_v</m></cell>
+                    <cell><m>m_n</m></cell>
+                    <cell><m>m_p</m></cell>
+                  </row>
+                  <row header="no" bottom="minor">
+                    <cell><m>m_n</m></cell>
+                    <cell><m>m_n</m></cell>
+                    <cell><m>m_v</m></cell>
+                    <cell><m>m_p</m></cell>
+                    <cell><m>r_0</m></cell>
+                    <cell><m>r_{240}</m></cell>
+                    <cell><m>r_{120}</m></cell>
+                  </row>
+                  <row header="no" bottom="minor">
+                    <cell><m>m_p</m></cell>
+                    <cell><m>m_p</m></cell>
+                    <cell><m>m_n</m></cell>
+                    <cell><m>m_v</m></cell>
+                    <cell><m>r_{120}</m></cell>
+                    <cell><m>r_0</m></cell>
+                    <cell><m>r_{240}</m></cell>
+                  </row>
+                  <row header="no" bottom="minor">
+                    <cell><m>m_v</m></cell>
+                    <cell><m>m_v</m></cell>
+                    <cell><m>m_p</m></cell>
+                    <cell><m>m_n</m></cell>
+                    <cell><m>r_{240}</m></cell>
+                    <cell><m>r_{120}</m></cell>
+                    <cell><m>r_0</m></cell>
+                  </row>
+                </tabular>
+              </table>
+          </answer>
         </task>
         <task>
           <title>Observations and Summary</title>
