@@ -127,7 +127,7 @@
                             </li>
                         </ol>
                     </p>
-                    <aside>
+                    <aside component="instructor">
                         <p>
                             The GeoGebra app <url href="www.geogebra.org/m/j4yqa9jd">
                             www.geogebra.org/m/j4yqa9jd</url>, authored by Heather Pierce, may also be  
@@ -135,6 +135,16 @@
                         </p>
                     </aside>
                 </statement>
+                <answer>
+                    <p>
+                        1. The line segment does not follow the latitude line. It bends toward 
+                        the north pole.
+                    </p>
+                    <p>
+                        2. The line extends to a circle around the sphere with the same radius 
+                        and center.
+                    </p>
+                </answer>
             </task>
         </exploration>
         <p>
@@ -288,6 +298,11 @@
                         </p>
                     </statement>
                  </principle>
+                 <figure xml:id="illus-playfair">
+                    <caption>Exactly one line through <m>P</m> parallel to line <m>m</m>.</caption>
+                    <image source="oneparallel">
+                    </image>
+                 </figure>
                  <p>
                     In order to be parallel, two lines must lie in the same plane. If you are reading this indoors, 
                     you probably have a wall in front of you and a wall somewhere to your right. The line where the 
@@ -295,6 +310,15 @@
                     the floor and the wall to your right. Still, we do not consider these two lines to be parallel because  
                     there is no plane containing both lines. Instead, we say that these are <term>skew lines</term>.
                  </p>
+                 <aside>
+                    <p>
+                        Although it appears that the two lines meet on the right,
+                        that is only a result of displaying a three-dimensional image on 
+                        a two-dimensional surface. In reality, the top back line stays at 
+                        the level of the ceiling and the lower front line stays on the floor.
+                        They do not meet.
+                    </p>
+                 </aside>
                  <figure xml:id="skewlines">
                     <caption>Illustrating skew lines as edges on a rectangular room.</caption>
                     <image source="skew" width="%">
@@ -307,15 +331,6 @@
                         </description>
                     </image>
                  </figure>
-                 <aside>
-                    <p>
-                        Although it appears that the two lines meet on the right,
-                        that is only a result of displaying a three-dimensional image on 
-                        a two-dimensional surface. In reality, the top back line stays at 
-                        the level of the ceiling and the lower front line stays on the floor.
-                        They do not meet.
-                    </p>
-                 </aside>
 <exercise>
     <title>Check your Understanding</title>
     <statement>
@@ -324,8 +339,8 @@
     <ol>
         <li>
             <p>
-                In the figure, it looks like <m>overleftrightarrow{BH}</m>
-                and <m>overleftrightarrow{EF}</m> should intersect. Explain 
+                In the figure, it looks like <m>\overleftrightarrow{BH}</m>
+                and <m>\overleftrightarrow{EF}</m> should intersect. Explain 
                 why they do not intersect when we think of the figure as a three-dimensional 
                 rectangular box or room.
             </p>
@@ -334,13 +349,13 @@
             <p>
                 Identify a second line (extension of an edge of the box in the picture) 
                 that would be considered to 
-                be skew to <m>overleftrightarrow{BH}</m>.
+                be skew to <m>\overleftrightarrow{BH}</m>.
             </p>
         </li>
         <li>
             <p>
                 How many lines suggested by edges of this box are parallel 
-                to <m>overleftrightarrow{BH}</m>? Name them.
+                to <m>\overleftrightarrow{BH}</m>? Name them.
             </p>
         </li>
     </ol>
@@ -351,7 +366,7 @@
                 We also observed that angle measures in spherical triangles did not behave in the way that Euclidean 
                 triangles do. This  
                 suggests that the measures of angles may be related to the parallel postulate. 
-                Indeed the two concepts are closely connected. In section <xref ref="subsec-polygons-angles-triangle"/>,
+                Indeed the two concepts are closely connected. In <xref ref="subsec-polygons-angles-triangle"/>,
                 we rotated a triangle 180 degrees about a midpoint of one of its 
                 sides and again around the midpoint of a second side and noticed that copies of the three angles
                 formed a line when placed side by side at a vertex. We now look at that exploration in the context of  
@@ -424,7 +439,7 @@
                                 </li>
                                 <li>
                                     <p>
-                                        In terms of triangle <m>\Delta ABC</m> and its copy <m>\Delta AC'B'</m>?
+                                        In terms of triangle <m>\Delta ABC</m> and its rotated copy <m>\Delta AC'B'</m>?
                                     </p>
                                 </li>
                             </ol>
@@ -433,24 +448,63 @@
                 </task>
             </exploration>
             <p>
-                When a line cuts across two other lines, we call it a <term>transversal</term> of the lines. When a transversal 
-                <m>\overleftrightarrow{BC}</m>
-                cuts across two parallel lines <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m> so that points 
-                <m>A</m> and <m>D</m> are on opposite sides of <m>\overleftrightarrow{BC}</m>, angles <m>\angle{ABC}</m> 
-                and <m>\angle DCB</m> are said to be <term>alternate interior angles</term>. 
-                
-                
+                When a line cuts across two other lines, we call it a <term>transversal</term> 
+                of the lines. In <xref ref="fig-transversal"/>, transversal 
+                <m>\overleftrightarrow{BC}</m> cuts across two parallel lines 
+                <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m>.
+                <idx><h>transversal</h></idx>
+            </p>
+            <figure xml:id="fig-transversal">
+                <caption>Transversal <m>\overleftrightarrow{BC}</m> cuts across parallel lines 
+                    <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m>.
+                </caption>
+                <image source="angles-transveral-parallel-lines">
+                    <shortdescription>
+                        From left to right, points A, B, and F lie on a line and points 
+                        G, C, and D lie on a line parallel to AB. The transversal contains 
+                        points H, C, B, and E read from bottom to top.
+                    </shortdescription>
+                </image>
+            </figure>
+            <definition xml:id="def-angles-by-transversal">
+                <idx><h>alternate interior angles</h></idx>
+                <idx><h>alternate exterior angles</h></idx>
+                <idx><h>corresponding angles</h></idx>
+                <statement>
+                    <p>
+                        When a transversal, such as <m>\overleftrightarrow{BC}</m> in 
+                        <xref ref="fig-transversal"/> cuts across lines 
+                        <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m> so that 
+                        <m>A</m> and <m>D</m> are on opposite sides of <m>\overleftrightarrow{BC}</m>, 
+                        angles <m>\angle{ABC}</m> and <m>\angle DCB</m> are said to be 
+                        <term>alternate interior angles</term>. 
+                    </p>
+                    <p>
+                        In <xref ref="fig-transversal"/>, we call <m>\angle{ABE}</m> and 
+                        <m>\angle{DCH}</m> <term>alternate exterior angles</term> since 
+                        points <m>E</m> and <m>H</m> lie on the transversal on opposite sides 
+                        of the two parallel lines and points <m>A</m> and <m>D</m> lie on 
+                        different parallel lines and on opposite sides of the transversal.
+                    </p>
+                    <p>
+                        Angles <m>ABC</m> and <m>GCH</m> are called <term>corresponding
+                        angles</term> because they lie in the same relative position; in
+                        this case to the left of the transversal and below a parallel line.
+                    </p>
+                </statement>
+            </definition>
+            <p>
                 We will not give a proof, the following two statements are equivalent to Playfair's Parallel  
                 Postulate. They hold in Euclidean geometry where Playfair's Parallel Postulate is assumed, but 
                 fail in non-Euclidean geometries like Spherical Geometry in <xref ref="parallel-explor-lines-sphere"/> and 
                 <xref ref="parallel-explor-spherical-triangles"/>.
             </p>
-                <principle xml:id="principle-corresponding-angles">
-                    <title>Corresponding Angles</title>
+                <principle xml:id="principle-alternate-interior-angles">
+                    <title>Alternate Interior Angles</title>
                     <statement>
                         <p>
                             Given two parallel lines <m>m</m> and <m>n</m> and a line <m>t</m> that 
-                            crosses <m>m</m> and <m>n</m>, corresponding angles have the same angle measure.
+                            crosses <m>m</m> and <m>n</m>, alternate interior angles have the same angle measure.
                         </p>
                     </statement>
                 </principle>
@@ -576,14 +630,57 @@
             <exercise>
                 <statement>
                     <p>
-                        Add some parallel problems.
+                        In <xref ref="def-angles-by-transversal"/>, a pair of alternate
+                        interior angles, a pair of alternate exterior angles, and a pair of 
+                        corresponding angles was identified for <xref ref="fig-transversal"/>.
+                        Use <xref ref="fig-transversal"/> to identify the following:
+                        <ol>
+                            <li>
+                                <p>
+                                    A second pair of alternate interior angles.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A second pair of alternate exterior angles.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Three more pairs of corresponding angles.
+                                </p>
+                            </li>
+                        </ol>
                     </p>
                 </statement>
             </exercise>
             <exercise>
                 <statement>
                     <p>
-                        Add more parallel problems.
+                        In <xref ref="principle-alternate-interior-angles"/>, we claim that
+                        alternate interior angles are congruent. 
+                        <ol>
+                            <li>
+                                <p>
+                                    Use this principle to argue that alternate exterior angles 
+                                    <m>\angle{ABE}</m> and <m>\angle{DCH}</m> must have the same 
+                                    angle measure.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Give a thorough argument that corresponding angles <m>ABC</m> 
+                                    and <m>GCH</m> must be congruent.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        Determine the measures of the angles: ADD MORE!!!!!!!!!!
                     </p>
                 </statement>
             </exercise>
