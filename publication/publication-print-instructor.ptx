@@ -16,8 +16,8 @@
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
     <!-- project). Some examples:                                            -->
-    <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
-    <exercise-divisional statement="yes" hint="yes" answer="no" solution="no"/>
+    <exercise-inline statement="yes" hint="yes" answer="yes" solution="yes" />
+    <exercise-divisional statement="yes" hint="yes" answer="yes" solution="yes"/>
     <!-- Style of fill-in-the-blanks: -->
     <fillin textstyle="underline" mathstyle="shade" />
     <!-- You can set a watermark: -->
@@ -33,8 +33,9 @@
     <!-- Set which marked elements are included in this version: -->
     <!-- See
     https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
-    <version include="student"/>
-    <version include="web"/>
+    <!-- <version include="videos labs"/> -->
+    <version include="instructor"/>
+    <version include="print"/>
     <version include=""/>
   </source>
 
@@ -62,7 +63,7 @@
   <!-- for printing; set @sides="two" if the printing woudl be two- -->
   <!-- sided.  @pageref="yes/no" controls whether page number are   -->
   <!-- included in cross-references                                 -->
-  <latex print="yes" sides="two" font-size="10" draft="no">
+  <latex print="no" sides="one" font-size="10" draft="no">
     <!-- Control text justification and bottom page behavior: -->
     <page right-alignment="flush" bottom-alignment="ragged" />
     <!-- Add content to \geometry{}: -->
@@ -84,7 +85,7 @@
       axiom="yes"
       proof="yes"
       definition="no"
-      example="no"
+      example="yes"
       example-solution="yes"
       project="no"
       task="no"
@@ -95,7 +96,7 @@
       table="no"
       listing="no"
       list="no"
-      exercise-inline="yes"
+      exercise-inline="no"
       exercise-divisional="no"
       exercise-worksheet="no"
       exercise-readingquestion="no"
@@ -115,15 +116,15 @@
     javascript, etc).  -->
     <calculator model="none" activecode="none" />
     <!-- Set the base URL of where the online version is hosted to have links in other formats -->
-    <!--<baseurl href="changetomywebsite.org"/>-->
+    <!-- <baseurl href="changetomywebsite.org"/> -->
     <!-- Control behavior of online WeBWorK, per type: -->
-    <!--webwork
+    <webwork
       inline="dynamic"
       divisional="static"
       reading="static"
       worksheet="static"
       project="dynamic"
-    />-->
+    />
     <!-- Magic IDs identify HTML pages to analytics services   -->
     <!-- Presence implies relevant Javascript will be added    -->
     <!-- StatCounter requires both values to be set            -->

@@ -140,7 +140,19 @@
             <caption>
               A geometric pattern.
             </caption>-->
-            <image source="sumofoddnums">
+            <image component="web" source="sumofoddnums.svg">
+              <description>
+                First, a 1 by 1 square. Second, four 1 by 1 squares 
+                arranged to form a 2 by 2 square. Third, a 2 by 2 square with a 
+                horizontal 1 by 2 rectangle added to the bottom and a vertical 
+                2 by 1 rectangle added to the right and a 1 unit square in the 
+                lower right corner filled in. Finally, a 3 by 3 square has a 
+                1 by 3 rectangle added to the bottom edge, a 3 by 1 rectangle  
+                added along the right edge, and a 1 unit square in the lower  
+                right corner.
+              </description>
+            </image>
+            <image component="print" source="sumofoddnums.png">
               <description>
                 First, a 1 by 1 square. Second, four 1 by 1 squares 
                 arranged to form a 2 by 2 square. Third, a 2 by 2 square with a 
@@ -223,7 +235,8 @@
               <caption>
                 An arbitrary step in the pattern.
               </caption>
-              <image source="nthsumofodds"></image>
+              <image component="web" source="nthsumofodds.svg"></image>
+              <image component="print" source="nthsumofodds.png"></image>
             </figure>
           </sidebyside>
           
@@ -286,7 +299,8 @@
       </blockquote>
       <figure>
         <caption>Visualization of <m>(n+1)^2=n^2+2n+1</m></caption>
-        <image source="nthsumofodds" width="70%"></image>
+        <image component="web" source="nthsumofodds.svg" width="70%"></image>
+        <image component="print" source="nthsumofodds.png" width="70%"></image>
       </figure>
       <blockquote>
           <p>

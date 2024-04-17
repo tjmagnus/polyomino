@@ -22,7 +22,14 @@
       <sidebyside widths="40% 40%">
         <figure>
           <caption>Rotation of pentomino <m>ABCDEFGH</m></caption>
-          <image source="rotate-example">
+          <image component="web" source="rotate-example.svg">
+            <shortdescription>
+              Pentomino ABCDEFGH is in black. A copy labeled A'B'C'D'E'F'G'H' 
+              rotated 90 degrees counterclockwise about a 
+              point outside the pentomino is shown in blue.
+            </shortdescription> 
+          </image>
+          <image component="print" source="rotate-example.png">
             <shortdescription>
               Pentomino ABCDEFGH is in black. A copy labeled A'B'C'D'E'F'G'H' 
               rotated 90 degrees counterclockwise about a 

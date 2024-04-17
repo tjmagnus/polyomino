@@ -34,8 +34,9 @@
     <!-- See
     https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
     <version include="student"/>
-    <version include="web"/>
+    <version include="print"/>
     <version include=""/>
+
   </source>
 
   <numbering>

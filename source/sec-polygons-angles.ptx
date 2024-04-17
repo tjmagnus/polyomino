@@ -138,7 +138,13 @@
         </p>
         <figure>
             <caption>Full rotation about point <m>A</m>.</caption>
-            <image source="rotate360">
+            <image component="web" source="rotate360.svg">
+                <shortdescription>
+                    A circle centered around point A. An arrow has been added to the 
+                    circle to indicate rotation in a counterclockwise direction.
+                </shortdescription>
+            </image>
+            <image component="print" source="rotate360.png">
                 <shortdescription>
                     A circle centered around point A. An arrow has been added to the 
                     circle to indicate rotation in a counterclockwise direction.
@@ -161,7 +167,14 @@
         </p>
         <figure xml:id="fig-180deg">
             <caption>180-degree rotation about point <m>A</m></caption>
-            <image source="180deg">
+            <image component="web" source="180deg.svg">
+                <shortdescription>
+                    Line containing C A and B from left to right. 
+                    Semicircular arc drawn with center A from point B to the 
+                    line on the opposite side of A.
+                </shortdescription>
+            </image>
+            <image component="print" source="180deg.png">
                 <shortdescription>
                     Line containing C A and B from left to right. 
                     Semicircular arc drawn with center A from point B to the 
@@ -188,6 +201,7 @@
         <figure xml:id="protractor">
             <caption>Using a protractor to measure angles.</caption>
         <image source="protractorexample">
+            <!--NEED To CREATE PDF or PNG-->
             <shortdescription>A protractor aligned with line containing C A B, centered 
                 at point A. Labels for every multiple of 10 degrees from zero degrees 
                 up through 180 degrees

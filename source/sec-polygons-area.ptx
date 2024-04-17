@@ -255,7 +255,12 @@
                     use just triangles or just parallelograms. Briefly describe your 
                     construction or deconstruction.
                 </p>
-                <image source="trapezoid-arbitrary" width="90%">
+                <image component="web" source="trapezoid-arbitrary.svg" width="90%">
+                    <description>
+                        An arbitrary trapezoid, not isosceles and not a right trapezoid.
+                    </description>
+                </image>
+                <image component="print" source="trapezoid-arbitrary.png" width="90%">
                     <description>
                         An arbitrary trapezoid, not isosceles and not a right trapezoid.
                     </description>
@@ -373,7 +378,10 @@
         </p>
             <figure xml:id="curved-region">
                 <caption>A curved region on a grid of 1x1-unit squares</caption>
-                <image source="curvedshapearea" width="80%">
+                <image component="web" source="curvedshapearea.svg" width="80%">
+                    <description>a curved shape over a grid of squares</description>
+                </image>
+                <image component="print" source="curvedshapearea.png" width="80%">
                     <description>a curved shape over a grid of squares</description>
                 </image>                
             </figure>
@@ -500,7 +508,17 @@
                     Inscribing and circumscribing a circle with squares, octagons,
                     and 16-gons.
                 </caption>
-                <image source="areacirclebypolygons" width="90%">
+                <image component="web" source="areacirclebypolygons.svg" width="90%">
+                    <shortdescription>Three pictures of the same circle. The first
+                        has a square inside with vertices touching the circle and a 
+                        square outside with the sides' midpoints touching the circle. 
+                        The second circle has an octagon with vertices on the circle and 
+                        a larger octagon with its sides' midpoints touching the circle. 
+                        The final picture has a pair of 16-gons that are 
+                        almost indistinguishable from the circle between them.
+                    </shortdescription>
+                </image>
+                <image component="print" source="areacirclebypolygons.png" width="90%">
                     <shortdescription>Three pictures of the same circle. The first
                         has a square inside with vertices touching the circle and a 
                         square outside with the sides' midpoints touching the circle. 

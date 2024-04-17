@@ -44,7 +44,14 @@
     <figure xml:id="fig-rosette1">
       <caption>Symmetric design created using <url href="eschersket.ch"></url>
       </caption>
-      <image source="escherrosette">
+      <image component="web" source="escherrosette.svg">
+        <shortdescription>
+          An abstract design with four lines of symmetry and 
+          90-degree rotational symmetry. A square or times symbol has similar 
+          symmetry.
+        </shortdescription>
+      </image>
+      <image component="print" source="escherrosette.png">
         <shortdescription>
           An abstract design with four lines of symmetry and 
           90-degree rotational symmetry. A square or times symbol has similar 

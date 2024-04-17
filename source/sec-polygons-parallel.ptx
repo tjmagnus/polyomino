@@ -449,16 +449,16 @@
             </exploration>
             <p>
                 When a line cuts across two other lines, we call it a <term>transversal</term> 
-                of the lines. In <xref ref="fig-transversal"/>, transversal 
+                of the lines. In <xref ref="fig-transversal"/>, <idx><h>transversal</h></idx>
+                transversal 
                 <m>\overleftrightarrow{BC}</m> cuts across two parallel lines 
                 <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m>.
-                <idx><h>transversal</h></idx>
             </p>
             <figure xml:id="fig-transversal">
                 <caption>Transversal <m>\overleftrightarrow{BC}</m> cuts across parallel lines 
                     <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m>.
                 </caption>
-                <image source="angles-transveral-parallel-lines">
+                <image source="angles-transversal-parallel-lines">
                     <shortdescription>
                         From left to right, points A, B, and F lie on a line and points 
                         G, C, and D lie on a line parallel to AB. The transversal contains 
@@ -680,7 +680,14 @@
             <exercise>
                 <statement>
                     <p>
-                        Determine the measures of the angles: ADD MORE!!!!!!!!!!
+                        Determine the measures of the angles: 
+                        <ol>
+                            <li>
+                                <p>
+                                    
+                                </p>
+                            </li>
+                        </ol>
                     </p>
                 </statement>
             </exercise>
