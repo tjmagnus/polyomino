@@ -663,32 +663,85 @@
                             <li>
                                 <p>
                                     Use this principle to argue that alternate exterior angles 
-                                    <m>\angle{ABE}</m> and <m>\angle{DCH}</m> must have the same 
-                                    angle measure.
+                                    <m>\angle{ABE}</m> and <m>\angle{DCH}</m> in 
+                                    <xref ref="fig=transversal"/> have the same angle measure.
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     Give a thorough argument that corresponding angles <m>ABC</m> 
-                                    and <m>GCH</m> must be congruent.
+                                    and <m>GCH</m> in <xref ref="fig=transversal"/>must be congruent.
                                 </p>
                             </li>
                         </ol>
                     </p>
                 </statement>
             </exercise>
-            <exercise>
+            <exercise xml:id="exer-transv-angle-measures">
                 <statement>
+                    <p>
+                        In <xref ref="fig-exer-transv-angle-measures"/>,
+                        parallel lines <m>\overleftrightarrow{AB}</m>
+                        and <m>\overleftrightarrow{CD}</m> are cut by 
+                        transversals <m>\overleftrightarrow{AC}</m>
+                        and <m>\overleftrightarrow{BD}</m>. The transversals 
+                        meet at point <m>E</m>. The measure of <m>\angle{BAC}</m>
+                        is 57 degrees and the measure of <m>\angle{EDK}</m> is 114
+                        degrees.
+                    </p>
                     <p>
                         Determine the measures of the angles: 
                         <ol>
                             <li>
                                 <p>
-                                    
+                                    <m>\angle{ACJ}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\angle{ACD}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\angle{DCE}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\angle{BDK}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\angle{DBA}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\angle{AEB}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\angle{ABG}</m>
                                 </p>
                             </li>
                         </ol>
                     </p>
+                    <figure xml:id="fig-exer-transv-angle-measures">
+                        <caption>
+                            Illustration for <xref ref="exer-transv-angle-measures"/>
+                        </caption>
+                        <image source="exer-transversal-angles">
+                            <shortdescription>
+                                Transversals AC and BD cut parallel lines AB and CD 
+                                and meet at point E. Order of points on each line:
+                                Left to right: H-A-B-I and J-C-D-K. Top to bottom:
+                                F-A-C-E and G-B-D-E. 
+                            </shortdescription>
+                        </image>
+                    </figure>
                 </statement>
             </exercise>
         </subexercises>
@@ -697,7 +750,25 @@
             <exercise>
                 <statement>
                     <p>
-                        Under construction.
+                        Suppose that lines <m>\ell</m> and <m>m</m> are not 
+                        parallel (so that they must meet at a point <m>C</m>) 
+                        and that line <m>\overleftrightarrow{AB}</m>
+                        cuts <m>\ell</m> and <m>m</m> at points <m>A</m>
+                        and <m>B</m>, respectively. Let <m>D</m> be a point 
+                        on line <m>\ell</m> on the opposite side of 
+                        <m>\overleftrightarrow{AB}</m>. Explain why 
+                        <m>m(\angle{DAB})\neq m(\angle{CBA}).</m>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        The illustration by artist M. C. Escher shown in 
+                        <xref ref="fig-escher-hypdisc"/> suggests another type 
+                        of non-Euclidean geometry. Here lines are of two types:
+                        diameters of the outer disc and semicircles 
+                        that meet the outer disc at a right angle.
                     </p>
                 </statement>
             </exercise>
