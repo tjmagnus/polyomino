@@ -33,9 +33,7 @@
     <!-- Set which marked elements are included in this version: -->
     <!-- See
     https://pretextbook.org/doc/guide/html/publication-file-source.html#publication-file-source-version -->
-    <version include="student"/>
-    <version include="web"/>
-    <version include=""/>
+    <version include="student web"/>
   </source>
 
   <numbering>
