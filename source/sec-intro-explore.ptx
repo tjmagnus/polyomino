@@ -99,7 +99,7 @@
         </p>
         <interactive xml:id="Lfillsquare" 
         iframe="https://www.mathigon.org/polypad/embed/OqM1coKhvKsMuw" 
-        preview="magnus-ltetromino" aspect="16:12"/>
+        preview="magnus-ltetromino.png" aspect="16:12"/>
 <!--How to caption properly?-->
         <p>
           <url href="https://mathigon.org/polypad/embed/OqM1coKhvKsMuw"> 
@@ -159,7 +159,7 @@
           </image>-->
           <interactive xml:id="which-fill-square" 
           iframe="https://www.mathigon.org/polypad/embed/deIUjqp9tTSpaQ" 
-          preview="whichtetromino" aspect="16:12"/>
+          preview="whichtetromino.png" aspect="16:12"/>
 <!--How to caption properly?-->
           <p>
             <url href="https://mathigon.org/polypad/deIUjqp9tTSpaQ"> 
@@ -210,7 +210,7 @@
           </p>
           <interactive xml:id="app-buildpentominoes" 
           iframe="https://www.mathigon.org/polypad/embed/lejfSv8Xt8FxJA" 
-          preview="buildpentominoes" aspect="16:12"/>
+          preview="buildpentominoes.png" aspect="16:12"/>
           <p>
             <url href="https://mathigon.org/polypad/lejfSv8Xt8FxJA"> 
               Interactive tool on Polypad by Mathigon
@@ -276,7 +276,7 @@
           </p> 
           <interactive xml:id="app-pentominorectangles" 
           iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
-          preview="pentomino-rectangles" aspect="22:15"/>
+          preview="pentomino-rectangles.png" aspect="22:15"/>
         </hint>
       </task>
 
@@ -389,7 +389,7 @@
         </p> 
         <interactive xml:id="pentominosetonPP"
         iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
-        preview="pentomino-rectangles" aspect="22:15"/>
+        preview="pentomino-rectangles.png" aspect="22:15"/>
       </hint>
       </task>
       <task>

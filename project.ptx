@@ -4,6 +4,6 @@
   <targets>
     <target name="web" format="html" publication="publication.ptx" deploy-dir="." />
     <target name="web-instructor" format="html" publication="publication-instructor.ptx" deploy-dir="./instructor" />
-    <target name="print" format="pdf" />
+    <target name="print" format="pdf" publication="publication-print.ptx"/>
   </targets>
 </project>

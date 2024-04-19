@@ -124,7 +124,7 @@
               </sidebyside>-->
           <interactive xml:id="interactive4x4geoboard" 
               iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
-              preview="" aspect="16:12"/>
+              aspect="16:12"/>
               <p>
                 <url href="https://mathigon.org/polypad/embed/OADtl0auGfB1A"> 
                   Interactive tool on Polypad by Mathigon 
@@ -165,7 +165,7 @@
           </p>
           <interactive xml:id="geoboardonpolypad"
           iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
-          preview="" aspect="16:12"/>
+           aspect="16:12"/>
           <p>
             <url href="https://mathigon.org/polypad/embed/OADtl0auGfB1A"> 
               Interactive tool on Polypad by Mathigon 
