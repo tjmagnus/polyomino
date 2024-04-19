@@ -28,6 +28,13 @@ jobs:
                   project-root: "."
                   output-dir: "."
 
+            - name: Build print target with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build print
+                  project-root: "."
+                  output-dir: "."
+
             - name: Bundle output/web as artifact
               uses: actions/upload-artifact@v4
               with:
