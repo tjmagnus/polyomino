@@ -68,7 +68,17 @@
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
                         <caption>Great Rhombicosidodecahedron</caption>
-                        <image source="Great_rhombicosidodecahedron1">
+                        <image component="web" source="Great_rhombicosidodecahedron1.svg">
+                            <shortdescription>
+                                The front side of a great 
+                                rhombicosidodecahedron. Five decagonal faces,
+                                eight hexagonal faces, and eight square faces are 
+                                clearly visible, but there is a hint of a square and 
+                                hexagon alonge the bottom edge.
+                                <!--Check this!-->
+                            </shortdescription>
+                        </image>
+                        <image component="print" source="Great_rhombicosidodecahedron1.png">
                             <shortdescription>
                                 The front side of a great 
                                 rhombicosidodecahedron. Five decagonal faces,
@@ -125,7 +135,10 @@
                         <caption>
                             The Icosidodecahedron
                         </caption>
-                        <image source="icosidodecahedron" width="30%">
+                        <image component="web" source="icosidodecahedron.svg" width="30%">
+                            <shortdescription>A picture of an icosidodecahedron</shortdescription>
+                        </image>
+                        <image component="print" source="icosidodecahedron.png" width="30%">
                             <shortdescription>A picture of an icosidodecahedron</shortdescription>
                         </image>
                     </figure>
