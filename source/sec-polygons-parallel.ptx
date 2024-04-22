@@ -300,8 +300,8 @@
                  </principle>
                  <figure xml:id="illus-playfair">
                     <caption>Exactly one line through <m>P</m> parallel to line <m>m</m>.</caption>
-                    <image source="oneparallel">
-                    </image>
+                    <image component="web" source="oneparallel.svg"/>
+                    <image component="print" source="oneparallel.png"/>
                  </figure>
                  <p>
                     In order to be parallel, two lines must lie in the same plane. If you are reading this indoors, 
