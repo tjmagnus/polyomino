@@ -781,7 +781,6 @@
   </p>
   </exercise>
 </subsection>
-
 <exercises xml:id="exercises-polygons-regular">
   <title>Exercises</title>
   <subexercises xml:id="SAR-polygons-regular">
@@ -791,6 +790,16 @@
               <p>
                   Sketch a picture of each of the following:
                   <ol>
+                    <li>
+                      <p>
+                        A concave octagon
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        A convex hexagon that is not regular
+                      </p>
+                    </li>
                     <li>
                       <p>
                         A rectangle that is a regular quadrilateral.
@@ -913,6 +922,37 @@
             </ol>
           </p>
         </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Answer the following questions about a 100-gon.
+            <ol>
+              <li>
+                <p>
+                  Diagonals drawn from a single vertex will divide a 100-gon into how 
+                  many triangles?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is the sum of the interior angles in a convex 100-gon?
+                </p>
+              </li>
+              <li>
+                <p>
+                  In a regular 100-gon, what is the measure of each interior angle?
+                </p>
+              </li>
+              <li>
+                <p>
+                  In a regular 100-gon, what is the measure of each central angle?
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        
       </exercise>
       <exercise>
         <statement>

@@ -764,10 +764,12 @@
             <exercise>
                 <statement>
                     <p>
-                        FIGURE OMITTED UNTIL I CAN ADDRESS POSSIBLE COPYRIGHT ISSUES.
-                        The illustration by artist M. C. Escher shown in 
-                        <xref ref="fig-escher-hypdisc"/> suggests another type 
-                        of non-Euclidean geometry. Here lines are of two types:
+                        <!--ADDRESS POSSIBLE COPYRIGHT ISSUES.-->
+                        The illustration, used by artist M. C. Escher as a basis for 
+                        his Circle Limit series of prints and shown in 
+                        <xref ref="fig-escher-hypdisc"/>, suggests another type 
+                        of non-Euclidean geometry, a disc model of hyperbolic geometry. 
+                        Here lines are of two types:
                         diameters of the outer disc and circular arcs 
                         that meet the outer disc at a right angle. Line 
                         <m>\overleftrightarrow{AB}</m> is the curved arc shown 
@@ -862,22 +864,29 @@
                             </li>
                         </ol>
                     </p>
-                <!--<figure xml:id="escherhypcircle1.png">
+                <figure xml:id="fig-escher-hypdisc">
                         <caption>
                             A circular pattern of triangles used by M. C. Escher to create
                             many of his "Circle Limit" prints. 
                         </caption>
-                    </figure>-->
+                        <image source="escherhypcircle1.png">
+                            <shortdescription>Poincare disc described in problem.</shortdescription>
+                        </image>
+                    </figure>
                 </statement>
             </exercise>
-
        </subexercises>
        <subexercises xml:id="writing-polygons-parallel">
         <title>Writing Prompts</title>
         <exercise>
             <statement>
                 <p>
-                    Writing about spherical and hyperbolic geometry.
+                    Write a letter to a friend in which you discuss some of the commonalities 
+                    and differences between Euclidean and spherical geometry that you learned 
+                    about in this section. As an optional 
+                    extension, you might explore some other differences including whether 
+                    spherical lines are infinite or finite and whether betweenness of points on 
+                    spherical lines are preserved.
                 </p>
             </statement>
         </exercise>
