@@ -334,6 +334,33 @@
       </statement>
     </task>
   </exploration>
+<p>
+  In <xref ref="explor-reg-tilings"/>, we determined the measure of a <term>vertex angle</term>
+  of a regular <m>n</m>-gon. We define this term and that of another important angle.
+</p>
+<definition xml:id="def-vertexangle-centralangle">
+  <idx><h>vertex angle</h></idx>
+  <idx><h>central angle</h></idx>
+  <idx><h>angle of polygon</h><h>vertex</h></idx>
+  <idx><h>angle of regular polygon</h><h>central</h></idx>
+  <idx><h>polygon</h><h>vertex angle</h></idx>
+  <idx><h>regular polygon</h><h>central angle</h></idx>
+  <idx><h>center</h><h>of regular polygon</h></idx>
+  <idx><h>regular polygon</h><h>center</h></idx>
+  <statement>
+    <p>
+      A <term>vertex angle</term> of a polygon is any angle which shares its vertex with 
+      a vertex of the polygon and where the sides of the angle lie along the two sides of the
+      polygon that meet at that vertex.
+    </p>
+    <p>
+      When a polygon is regular, we can also define its <term>center</term> to be the point 
+      which is equidistant from all vertices of the polygon. A <term>central angle</term> of 
+      a regular polygon has it vertex at the center of the polygon and its sides consist of 
+      a pair of rays emanating from the center to two adjacent vertices.
+    </p>
+  </statement>
+</definition>
 </subsection>
 <subsection xml:id="subsec-semiregular-tilings">
   <title>Semiregular Tilings</title>
@@ -783,6 +810,34 @@
 </subsection>
 <exercises xml:id="exercises-polygons-regular">
   <title>Exercises</title>
+  <subexercises xml:id="Toolbox-intro-exp">
+    <title>Building Our Toolbox</title>
+    <exercise>
+      <statement>
+        <p>
+          In your own words and pictures, describe the difference between a regular and a 
+          nonregular polygon.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <p>
+        Sketch a picture of a regular octagon and label a vertex angle and a central angle.
+        Write down the formulas for the measures of the vertex angle of a regular <m>n</m>-gon
+        and the central angle of a regular <m>n</m>-gon.
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        What do we mean by a <m>m.n.p</m>-vertex arrangement? 
+      </p>
+    </exercise>
+    <exercise>
+      <p>
+        What must be true about the angles of the polygons in a vertex arrangement?
+      </p>
+    </exercise>
+    </subexercises>
   <subexercises xml:id="SAR-polygons-regular">
       <title>Skills and Recall</title>
       <exercise>
@@ -952,22 +1007,85 @@
             </ol>
           </p>
         </statement>
-        
+      </exercise>
+      <exercise xml:id="exer-houseangle">
+        <statement>
+          <p>
+            In <xref ref="fig-houseangle"/>, <m>\angle{EAB}</m> and <m>\angle{ABC}</m> are 
+            right angles, <m>m(\angle{CDE})=99^\circ</m>, and <m>\angle{AED}\cong\angle{BCD}</m>.
+            Determine <m>m(\angle{AED})</m>.
+          </p>
+          <figure xml:id="fig-houseangle">
+            <caption>Pentagon for <xref ref="exer-houseangle"/></caption>
+            <image source="HW-houseangle"/>
+          </figure>
+        </statement>
       </exercise>
       <exercise>
         <statement>
           <p>
-            Explain why the following are not semiregular tilings:
+            Explain why each of the following are not semiregular tilings:
+            <ol>
+              <li>
+                <p>
+                  The design started in <xref ref="fig-HW3.3.6"/>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The design started in <xref ref="fig-HW-kitedartrhomb"/>
+                </p>
+              </li>
+            </ol>
           </p>
+          <sidebyside widths="30% 30% 30%">
+            <figure xml:id="fig-HW3.3.6">
+              <caption>Not semi-regular 1.</caption>
+              <image source="HW3.3.6.png">
+                <shortdescription>
+                Three rows where each has a regular hexagon then an hourglass pair of 
+                equilateral triangles.
+                The hexagons are directly above each other, sharing a side, and the 
+                bottow triangle of each row 
+                shares a side with the top triangle of the row below.
+              </shortdescription>
+              </image>
+            </figure>
+            <!--    <image component="print" source="HW3.3.6.png">
+                <shortdescription></shortdescription>
+                Three rows where each has a hexagon then an hourglass pair of triangles.
+                The hexagons are directly above each other, sharing a side, and the bottow triangle of one row 
+                shares a side with the top triangle of the row below.
+              </image>
+            </figure>-->
+            <figure xml:id="fig-HW-kitedartrhomb">
+              <caption>Not semi-regular 2.</caption>
+              <image source="kitedartrhombus.png">
+                <shortdescription>A design made by rhombi, darts, and kites.</shortdescription>
+              </image>
+            </figure>
+            <figure xml:id="fig-HW-skewhouse.png">
+              <caption>
+                Not semi-regular 3.
+              </caption>
+              <image source="hw-skew-house.png">
+                <shortdescription>
+                  A design with rows of squares and rows of alternating triangles.
+                  The vertices of the triangles meet the squares at the center of a side.
+                </shortdescription>
+              </image>
+            </figure>
+          </sidebyside>
         </statement>
       </exercise>
   </subexercises>
-  <subexercises xml:id="ExtConc-polygons-regular">
+  <!--<subexercises xml:id="ExtConc-polygons-regular">
       <title>Extending the Concepts</title>
       <exercise>
           <statement>
               <p>
-                  Under construction.
+                  Under construction. Alternative means of determining measure of vertex angle?
+                  Centroids and other definitions of center.
               </p>
           </statement>
       </exercise>
@@ -981,6 +1099,6 @@
           </p>
       </statement>
   </exercise>
-  </subexercises>
+  </subexercises>-->
  </exercises>
 </section>
