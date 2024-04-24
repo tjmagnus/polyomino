@@ -21,15 +21,22 @@ jobs:
             - name: Checkout source
               uses: actions/checkout@v4
 
-            - name: Build web target with PreTeXt
+            - name: Build web with PreTeXt
               uses: siefkenj/pretext-build-action@main
               with:
                   pretext-command: build web
                   project-root: "."
                   output-dir: "."
 
-            - name: Bundle output/web as artifact
+            - name: Build print with PreTeXt
+              uses: siefkenj/pretext-build-action@main
+              with:
+                  pretext-command: build print
+                  project-root: "."
+                  output-dir: "."
+
+            - name: Bundle output as artifact
               uses: actions/upload-artifact@v4
               with:
                   name: website
-                  path: output/web
+                  path: output
