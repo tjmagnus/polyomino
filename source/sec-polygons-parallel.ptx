@@ -321,7 +321,7 @@
                  </aside>
                  <figure xml:id="skewlines">
                     <caption>Illustrating skew lines as edges on a rectangular room.</caption>
-                    <image source="skew" width="%">
+                    <image source="skew">
                         <description>Rectangular box: front face has vertices 
                             A, B, C, and D
                             counterclockwise starting in lower left corner. On the 
