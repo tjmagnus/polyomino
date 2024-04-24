@@ -664,13 +664,13 @@
                                 <p>
                                     Use this principle to argue that alternate exterior angles 
                                     <m>\angle{ABE}</m> and <m>\angle{DCH}</m> in 
-                                    <xref ref="fig=transversal"/> have the same angle measure.
+                                    <xref ref="fig-transversal"/> have the same angle measure.
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     Give a thorough argument that corresponding angles <m>ABC</m> 
-                                    and <m>GCH</m> in <xref ref="fig=transversal"/>must be congruent.
+                                    and <m>GCH</m> in <xref ref="fig-transversal"/>must be congruent.
                                 </p>
                             </li>
                         </ol>
