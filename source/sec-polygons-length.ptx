@@ -36,7 +36,7 @@
     <p>
       Refer to the picture as you answer the following:
     </p>
-      <image source="righttriangleparts" width="%">
+      <image source="righttriangleparts">
         <shortdescription>(for accessibility)</shortdescription>
       </image>
   </introduction>
