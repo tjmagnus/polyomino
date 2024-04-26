@@ -91,7 +91,7 @@
           </p>
           <aside>
             <p>
-              To use the embedded interactive GeoBoard via the Polypad by Mathigon, 
+              To use the embedded interactive GeoBoard via the Polypad by Amplify, 
               <!--<url href="polypad.org/embed/OADtl0auGfB1A">
                 polypad.org/DLddLdVKLW461A</url>-->
               select the <sq>line</sq> tool near the bottom. Then click and drag from one dot to 
@@ -123,11 +123,11 @@
                 <p> What is the common area?</p>
               </sidebyside>-->
           <interactive xml:id="interactive4x4geoboard" 
-              iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
+              iframe="https://mathigon.org/polypad/embed/OADtl0auGfB1A" 
               aspect="16:12"/>
               <p>
                 <url href="https://mathigon.org/polypad/embed/OADtl0auGfB1A"> 
-                  Interactive tool on Polypad by Mathigon 
+                  Interactive tool on Polypad by Amplify 
                 </url>
               </p>
             </li>
@@ -164,11 +164,11 @@
             reference.
           </p>
           <interactive xml:id="geoboardonpolypad"
-          iframe="https://www.mathigon.org/polypad/embed/OADtl0auGfB1A" 
+          iframe="https://mathigon.org/polypad/embed/OADtl0auGfB1A" 
            aspect="16:12"/>
           <p>
             <url href="https://mathigon.org/polypad/embed/OADtl0auGfB1A"> 
-              Interactive tool on Polypad by Mathigon 
+              Interactive tool on Polypad by Amplify 
             </url>
           </p>
         </statement>

@@ -41,14 +41,12 @@
       <figure>
         <caption>Nonregular Polygons</caption>
         <image source="nonregularpolygons" width="90%">
-          <description>
-            <p>
+          <shortdescription>
             Rhombus ABCD with obtuse angles at B and D, 
             Rectangle EFGH with height 6 and width 10, and a 
             House-shaped pentagon with base length 4, wall height 
             4, and total height 6.
-            </p>
-          </description>
+          </shortdescription>
         </image>
       </figure>
     </statement>
@@ -92,7 +90,7 @@
       </p>
       <p>
         The web application <url href="https://mathigon.org/polypad#polygons">Polypad
-        by Mathigon</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
+        by Amplify</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
         These are the top six shapes in the Polygons and Shapes menu. Simply 
         drag the shape from the left into the whiteboard area. Rotate using the black dot 
         and move by clicking on the interior. For <m>n</m>-gons with <m>n>8</m>, use  
@@ -136,12 +134,12 @@
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
             <image source="VertexAngRegPentagon">
-              <description>
+              <shortdescription>
                 A regular pentagon with vertices labeled A, B, C, D, and E. 
                 The interior angle at A has been split by 
                 diagonals into angles 1, 2, and 3. Angle D has been split into angles 4 and 5.
                 Angle C has been split into angles 6 and 7.
-              </description>
+              </shortdescription>
             </image>
           </figure>
             <p>
@@ -471,7 +469,7 @@
       <figure xml:id="tiling33434">
         <caption>A 3.3.4.3.4 vertex arrangement.</caption>
         <image source="vertex33434" width="100%">
-          <description>(for accessibility)</description>
+          <shortdescription>A tiling with vertex arrangement 3.3.4.3.4</shortdescription>
         </image>
       </figure>
       <p>
@@ -518,7 +516,7 @@
       <figure xml:id="tetracontakaidigon">
         <caption>A tetracontakaidigon (42-gon).</caption>
         <image width="50%" source="tetracontakaidigon">
-          <description>(for accessibility)</description>
+          <shortdescription>A regular 42-sided polygon.</shortdescription>
         </image>
       </figure>
     </statement>
@@ -1028,7 +1026,7 @@
             <ol>
               <li>
                 <p>
-                  The design started in <xref ref="fig-HW3.3.6"/>.
+                  The design started in <xref ref="fig-HW336"/>.
                 </p>
               </li>
               <li>
@@ -1039,7 +1037,7 @@
             </ol>
           </p>
           <sidebyside widths="30% 30% 30%">
-            <figure xml:id="fig-HW3.3.6">
+            <figure xml:id="fig-HW336">
               <caption>Not semi-regular 1.</caption>
               <image source="HW3.3.6.png">
                 <shortdescription>
@@ -1064,7 +1062,7 @@
                 <shortdescription>A design made by rhombi, darts, and kites.</shortdescription>
               </image>
             </figure>
-            <figure xml:id="fig-HW-skewhouse.png">
+            <figure xml:id="fig-HW-skewhouse">
               <caption>
                 Not semi-regular 3.
               </caption>

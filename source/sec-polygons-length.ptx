@@ -447,13 +447,92 @@
 </subsection>
 <exercises xml:id="exercises-polygons-length">
   <title>Exercises</title>
+  <subexercises xml:id="Toolbox-polygons-length">
+    <title>Building Our Toolbox</title>
+    <exercise xml:id="polygons-length-BOT-Pyth">
+      <title>Pythagorean Theorem</title>
+      <statement>
+        <p>
+          Write down the formula for the Pythagorean theorem. Use an example 
+          and sketch as you explain when the theorem can be used, what the 
+          variables represent, and how to use the formula to solve a problem.
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="polygons-length-BOT-lengthadditivity">
+      <title>Principle of Additivity of Length</title>
+      <statement>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Use a picture to demonstrate why a segment formed by extending a 
+                segment of length <m>a</m> units by a segment of <m>b</m> more units 
+                produces a segment of length <m>a+b</m> units.
+              </p>
+            </li>
+            <li>
+              <p>
+                What happens when segments <m>\overline{AB}</m> of length 3 inches, 
+                <m>\overline{BC}</m> of length 5 inches, and <m>\overline{AC}</m> of 
+                length 6 inches are joined at the endpoints, <m>A</m>, <m>B</m>, and
+                <m>C</m>? Is this still a straight line?
+              </p>
+            </li>
+            <li>
+              <p>
+                Again let <m>\overline{AB}</m> have length 3 inches and 
+                <m>\overline{BC}</m> have length 5 inches. Can you create segment 
+                <m>\overline{AC}</m> with length 10 inches? Explain.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    </subexercises>
   <subexercises xml:id="SAR-polygons-length">
       <title>Skills and Recall</title>
-      <exercise>
+      <exercise xml:id="exer-SAR-Pyth">
           <statement>
               <p>
-                  Add some Pythagorean problems.
+                  Determine the following in <xref ref="fig-SAR-Pyth"/>:
+                  <ol>
+                    <li>
+                      <p>
+                        The length of <m>\overline{AC}</m>.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        The length of <m>\overline{DF}</m>.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        The length of <m>\overline{IJ}</m>. Note 
+                        <m>\overline{IJ}\cong\overline{HI}</m>.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        The perimeter of quadrilateral <m>GHIJ</m>.
+                      </p>
+                    </li>
+                  </ol>
               </p>
+              <figure xml:id="fig-SAR-Pyth">
+                <caption>Images for <xref ref="exer-SAR-Pyth"/></caption>
+                <image source="image-SAR-Pyth">
+                  <shortdescription>Right triangle ABC has legs of length 5 
+                    and 6. Right triangle DEF has hypotenus of 5.6 and leg
+                    DE of length 5. Quadrilateral GHIJ is formed by two triangles 
+                    that share diagonal HJ of length 6. HIJ is an isosceles right 
+                    triangle with legs x and hypotenuse 6. GHJ has a right angle 
+                    at H and a hypotenuse GJ of length 6.5.
+                  </shortdescription>
+                </image>
+              </figure>
           </statement>
       </exercise>
       <exercise>
