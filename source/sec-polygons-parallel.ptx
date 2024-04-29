@@ -129,8 +129,8 @@
                     </p>
                     <aside component="instructor">
                         <p>
-                            The GeoGebra app <url href="www.geogebra.org/m/j4yqa9jd">
-                            www.geogebra.org/m/j4yqa9jd</url>, authored by Heather Pierce, may also be  
+                            The GeoGebra app <url href="www.geogebra.org/m/j4yqa9jd"/>, 
+                            authored by Heather Pierce, may also be  
                             used to draw lines on a virtual sphere.
                         </p>
                     </aside>
@@ -236,7 +236,7 @@
             <task>
                 <statement>
                     <p>
-                        Repeat the last tasks two more times so that you have computed 
+                        Repeat the last task two more times so that you have computed 
                         the sum of the measures of the angles for at least three different 
                         triangles. Record your measurements and sums. What do you notice? 
                     </p>
@@ -270,6 +270,10 @@
                 </statement>
             </task> 
         </exploration>
+        <figure xml:id="video-spherical-angles" >
+            <caption>Measuring Angles on a Sphere</caption>
+            <video youtube="https://youtu.be/vPsdfYyIFIM"/>
+        </figure>
     </subsection>
     <subsection xml:id="subsec-understanding-parallel">
         <title>Understanding Parallel Lines</title>
@@ -322,13 +326,13 @@
                  <figure xml:id="skewlines">
                     <caption>Illustrating skew lines as edges on a rectangular room.</caption>
                     <image source="skew">
-                        <description>Rectangular box: front face has vertices 
+                        <shortdescription>Rectangular box: front face has vertices 
                             A, B, C, and D
                             counterclockwise starting in lower left corner. On the 
                             back face, the verices G, H, F, and E are counterclockwise 
                             starting in lower left, so that edges AG, BH, CF, and DE join 
                             the front and back faces.
-                        </description>
+                        </shortdescription>
                     </image>
                  </figure>
 <exercise>
