@@ -99,8 +99,17 @@
         You can then use the duplicated sheet icon on the flip/cut/... menu to make copies 
         of your <m>n</m>-gon.
       </p>
+      <figure xml:id="fig-polypad-tiling">
+        <caption>          
+          <url href="https://mathigon.org/polypad/2RtlO1JO7dpDA"> 
+            Interactive tool on Polypad by Amplify 
+          </url>
+        </caption>
+      <interactive xml:id="Lfillsquare" 
+      iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
+      preview="regular-polygons.png" aspect="16:12"/>
+      </figure>
     </introduction>
-    <!--add polypad or doenet app here-->
     <task>
       <statement>
         <p>
