@@ -9,13 +9,24 @@
             </title>
             Key College Publishing, New York NY 2002.
         </biblio>
-        <!--<biblio> adapted geoboard activity
+        <biblio type="raw" xml:id="bibODafferClemens"> 
+            <!--adapted geoboard activity-->
             O'Daffer, P.G. and S.R. Clemens,
             <title>
                 Geometry: An Investigative Approach
             </title>
             2nd ed., Pearson, 1992.
-        </biblio>-->
+        </biblio>
+        <biblio type="raw" xml:id="bibAMSCoxeter">
+             <!--Figure 7 from Coxeter's address to the Royal Society of Canada-->
+             Casselman, Bill,
+             <articletitle>How Did Escher Do It?</articletitle>
+             <journal>American Mathematical Society</journal>
+             <url href="https://www.ams.org/publicoutreach/feature-column/fcarc-circle-limit" />
+             <date>June 2010.</date>
+        </biblio>
+
+
             
             
 </references>
