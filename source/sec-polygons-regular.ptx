@@ -83,29 +83,31 @@
     <introduction>
       <p>  
         This activity may be completed using physical tiles or 
-        in an app. Be sure to save a record of your designs by 
+        in the interactive applet below. Be sure to save a record of your designs by 
         tracing, photography, or screenshots. Some of the computations  
-        will also be used later in this section. You are encourage to 
+        will also be used later in this section, so you are encourage to 
         keep an accessible record of your work for future reference.
       </p>
       <p>
         The web application <url href="https://mathigon.org/polypad#polygons">Polypad
         by Amplify</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
-        These are the top six shapes in the Polygons and Shapes menu. Simply 
-        drag the shape from the left into the whiteboard area. Rotate using the black dot 
-        and move by clicking on the interior. For <m>n</m>-gons with <m>n>8</m>, use  
-        the hexagon labeled "regular" in the bottom rom of shapes. After you have moved this  
-        figure into the whiteboard, use the dotted vertex to increase the number of sides.
-        You can then use the duplicated sheet icon on the flip/cut/... menu to make copies 
-        of your <m>n</m>-gon.
+        These are the top six shapes provided. Simply drag the shape from the 
+        left into the whiteboard area and it will make a new copy. Rotate the polygon 
+        using the dotted stem and move it by clicking on the interior and 
+        dragging. For <m>n</m>-gons with <m>n>8</m>, use  
+        the nonagon at the bottom. Pull on the dotted vertex to change the number 
+        of sides. With the new <m>n</m>-gon selected, you can now use the 
+        duplicated sheet icon on the flip/cut/... menu to make copies 
+        of your <m>n</m>-gon. Fullscreen, undo, redo, reset, and extract buttons 
+        are provided on the right.
       </p>
       <figure xml:id="fig-polypad-tiling">
         <caption>          
           <url href="https://mathigon.org/polypad/2RtlO1JO7dpDA"> 
-            Interactive tool on Polypad by Amplify 
+            Interactive tool for tiling on Polypad by Amplify.
           </url>
         </caption>
-      <interactive xml:id="Lfillsquare" 
+      <interactive xml:id="RegularTilingPolypad" 
       iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
       preview="regular-polygons.png" aspect="16:12"/>
       </figure>
@@ -116,7 +118,8 @@
           Select a single regular polygon, making copies of it as needed,
           and use it to construct a regular  
           tiling. Construct enough of the tiling to convince others that the 
-          tiling can continue to tile the plane with no gaps and overlaps. 
+          tiling can continue to tile the plane, upward and downward to the left 
+          and the right, with no gaps and overlaps. 
         </p>
       </statement>
     </task>
@@ -134,12 +137,13 @@
       <statement>
         <p>
           Perhaps you noticed that the vertex angle measure places a role in determining 
-          whether a regular polygon can be used to create a regular tiling. This task will  
-          lead you to determine the measure of the vertex angle of a regular pentagon. We 
+          whether a regular polygon can be used to create a regular tiling. The steps in 
+          this task will lead you to determine the measure of the vertex angle of a 
+          regular pentagon. We 
           will use this technique to find the measure of the vertex angles for other   
           regular n-gons.
         </p>
-        <sidebyside widths="65% 35%">
+        <sidebyside widths="65% 35%" valign="middle">
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
             <image source="VertexAngRegPentagon">
@@ -152,6 +156,7 @@
             </image>
           </figure>
             <p>
+              The following shorthand will be used to refer to the angles.
               <ul>
                 <li>
                   <m>\angle 1 = \angle EAD</m>
@@ -304,7 +309,8 @@
           <ol>
             <li>
               <p>
-                How many equilateral triangles can meet at a single point?
+                How many equilateral triangles can meet at a single point
+                without overlapping?
               </p>
             </li>
             <li>
@@ -363,7 +369,7 @@
     <p>
       When a polygon is regular, we can also define its <term>center</term> to be the point 
       which is equidistant from all vertices of the polygon. A <term>central angle</term> of 
-      a regular polygon has it vertex at the center of the polygon and its sides consist of 
+      a regular polygon has its vertex at the center of the polygon and its sides consist of 
       a pair of rays emanating from the center to two adjacent vertices.
     </p>
   </statement>
@@ -383,15 +389,16 @@
     <statement>
       <p>
         A <term>semiregular tiling</term> is a tiling consisting of two or 
-        more regular polygon with common side lengths with the additional 
-        requirement that the arrangement of polygons around each vertex is 
-        the same. 
+        more regular polygons with common side lengths with the additional 
+        requirement that the arrangement of polygonal faces around every 
+        vertex is the same. 
       </p>
       <p>
         We can denote the vertex arrangement by identifying the number 
         of sides in each polygon as we travel around a vertex. An example of  
-        this is 3.3.4.3.4 (triangle, triangle, square, triangle, square) 
-        <xref ref="tiling33434"/> which will be encountered in the next exploration. 
+        this is the 3.3.4.3.4-vertex arrangement, referring to triangle, 
+        triangle, square, triangle, square. This arrangement is shown in 
+        <xref ref="tiling33434"/> and will be discussed in the next exploration. 
       </p>
     </statement>
   </definition>
@@ -410,11 +417,11 @@
       meeting at and surrounding a single point?
     </p>
     </statement>
-    <answer>
+    <solution component="instructor">
       <p>
         The sum of the angle measures must be 360 degrees.
       </p>
-    </answer>
+    </solution>
   </task>
   <task xml:id="task-vertex-measure-regular-polygons-more">
     <statement>
@@ -474,44 +481,39 @@
   </task>
   <task xml:id="tile-w-3tri-2sq">
     <statement>
-    <sidebyside widths="70% 30%" valign="middle">
+      <p>
+        Refer to <xref ref="tiling33434"/> as you answer the following:
+        <ol>
+          <li>
+            <p>
+              Verify that the sum of the angles meeting at the vertex is  
+              360 degrees.
+            </p>
+          </li>
+          <li>
+            <p>
+              Extend the <m>3.3.4.3.4</m> design making sure that you always 
+              have one or two triangles between any two squares. Will this 
+              eventually fill the plane without gaps or overlaps? 
+            </p>
+          </li>
+          <li>
+            <p>
+              Note that <m>3.3.3.4.4</m> gives a different pattern. Show that it is  
+              possible to create a tiling 
+              using the vertex arrangement <m>3.3.3.4.4</m> by building outward from your 
+              initial vertex arrangement.
+            </p>
+          </li>
+        </ol>
+      </p>
       <figure xml:id="tiling33434">
-        <caption>A 3.3.4.3.4 vertex arrangement.</caption>
+        <caption>A 3.3.4.3.4 (triangle, triangle, square, triangle, square) 
+          vertex arrangement.</caption>
         <image source="vertex33434" width="100%">
           <shortdescription>A tiling with vertex arrangement 3.3.4.3.4</shortdescription>
         </image>
       </figure>
-      <p>
-        The vertex arrangement pictured is denoted <m>3.3.4.3.4</m> 
-        (triangle, triangle, square, triangle, square).
-      </p>
-      
-    </sidebyside>
-    <p>
-      <ol>
-        <li>
-          <p>
-            Verify that the sum of the angles meeting at the vertex is  
-            360 degrees.
-          </p>
-        </li>
-        <li>
-          <p>
-            Extend the <m>3.3.4.3.4</m> design making sure that you always 
-            have one or two triangles between any two squares. Will this 
-            eventually fill the plane without gaps or overlaps? 
-          </p>
-        </li>
-        <li>
-          <p>
-            Note that <m>3.3.3.4.4</m> gives a different pattern. Show that it is  
-            possible to create a tiling 
-            using the vertex arrangement <m>3.3.3.4.4</m> by building outward from your 
-            initial vertex arrangement.
-          </p>
-        </li>
-      </ol>
-    </p>
     </statement>
   </task>
   <task>
@@ -589,7 +591,7 @@
   </task>
 </exploration>
 <p>
-  This activity may have involved more of a struggle that some of the others. Perhaps you 
+  This activity may have involved more of a struggle than some of the others. Perhaps you 
   only found about half of the possibilities in <xref ref="srtiling-possible-vertex-arrangements"/>
   or you cannot yet see a pattern to help determine which vertex arrangements lead to a 
   semiregular tiling. That is perfectly normal. Write down the ideas that you do have and 
@@ -623,13 +625,14 @@
         <p>
           Use physical or virtual triangles and hexagons to 
           sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
-          sketch if available. <!--Add app?-->
+          sketch if available. The Polypad by Amplify applet in 
+          <xref ref="fig-polypad-tiling"/> may be used.
         <ol>
           <li>
             <p>
               Choose one of the two triangles at this vertex and attempt 
-              to surround it with triangles and/or hexagons while adhering 
-              to the 3.3.6.6 arrangement.
+              to surround it with triangles and/or hexagons while maintaining 
+              the 3.3.6.6 arrangement at each vertex.
             </p>
           </li>
           <li>
@@ -644,8 +647,8 @@
             </figure>
             <p>
               Will the remaining side abut a triangle or a hexagon? Discuss  
-              what happens in each case. A GeoGebra interactive of this figure is 
-              available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.
+              what happens in each case. <!--A GeoGebra interactive of this figure is 
+              available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
             </p>
           </li>
         </ol>
@@ -711,7 +714,7 @@
               <li>
                 <p>
                   Explain in words and pictures why <m>m.4.n.4</m> extends to a semiregular tiling,
-                  but <m>m.4.4.n</m> does not. Draw a sketch of <m>m.4.n.4</m> if  
+                  but <m>m.4.4.n</m> does not. Draw or record a sketch of <m>m.4.n.4</m> if  
                   you do not already have one. 
                 </p>
               </li>
