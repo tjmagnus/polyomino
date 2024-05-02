@@ -36,7 +36,7 @@
     <p>
       Refer to the picture as you answer the following:
     </p>
-      <image source="righttriangleparts">
+      <image source="righttriangleparts" width="85%">
         <shortdescription>(for accessibility)</shortdescription>
       </image>
   </introduction>
@@ -153,12 +153,12 @@
   <p>
     The Pythagorean Theorem is very useful, but it is also somewhat mysterious.
     Why does the formula work for all right triangles? Surprisingly, there are 
-    more than 350 recognized proofs of the Pythagorean. We will look at just a few. 
-    In the following exploration,
+    more than 350 recognized proofs of the Pythagorean Theorem. We will look at 
+    just a few. In the following exploration,
     you will rearrange polygons built from a right triangle,
     and use the rearrangements to explain why 
-    <m>a^2+b^2=c^2</m> in each case. You are encouraged to try all the proofs and to 
-    choose one to learn well enough to convince others.
+    <m>a^2+b^2=c^2</m> in each case. You are encouraged to try all the proofs in 
+    this section and to choose one to learn well enough to convince others.
   </p>
   <aside>
     <p>

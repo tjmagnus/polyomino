@@ -1091,82 +1091,142 @@
       </exercise>
   </subexercises>
   <subexercises xml:id="ExtConc-polygons-regular">
-      <title>Extending the Concepts</title>
-      <exercise xml:id="exer-ExtConc-pgreg-nonagon">
-          <statement>
-              <p>
-                In <xref ref="fig-nonagon-with-center"/>, a regular nonagon, its center <m>O</m>, 
-                and segments joining each vertex to the center are shown. Use it 
-                to answer the following: 
-                <ol>
-                  <li>
-                    <p>
-                      Explain why each central angle must measure 40 degrees.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Why type of triangle is <m>\Delta AOB</m> ? Why?
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      What is the measure of <m>\angle{ABO}</m> ? Why?
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      What is the measure of <m>\angle{ABC}</m> ? Explain
-                      based on the steps in this problem.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      What is the formula for the central angle of any regular
-                      <m>n</m>-gon?
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Explain how we can use the measure of a central angle to 
-                      justify that the vertex angle of a regular <m>n</m>-gon has  
-                      measure <m>180-\frac{360}{n}</m>.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Algebraically, show that the vertex angle of a regular <m>n</m>-gon has  
-                      measure <m>\frac{180(n-2)}{n}</m> using the step above.
-                    </p>
-                  </li>
-                </ol>
-              </p>
-            <figure xml:id="fig-nonagon-with-center">
-              <caption>Nonagon for <xref ref="exer-ExtConc-pgreg-nonagon"/>.</caption>
-              <image source="nonagon-w-center">
-              <shortdescription>Nonagon with center and spokes.</shortdescription>
-            </image>
-            </figure>  
-            </statement>
-          </exercise>
-          <!--<exercise> 
-            <statement>
-              <p>
-                  Under construction. Alternative means of determining measure of vertex angle?
-                  Centroids and other definitions of center.
-              </p>
+    <title>Extending the Concepts</title>
+    <exercise xml:id="exer-ExtConc-pgreg-nonagon">
+      <title>Another Way of Calculating the Vertex Angle of a Regular Polygon</title>
+        <statement>
+            <p>
+              In <xref ref="fig-nonagon-with-center"/>, a regular nonagon, its center <m>O</m>, 
+              and segments joining each vertex to the center are shown. Use it 
+              to answer the following: 
+              <ol>
+                <li>
+                  <p>
+                    Explain why each central angle must measure 40 degrees.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Why type of triangle is <m>\Delta AOB</m> ? Why?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    What is the measure of <m>\angle{ABO}</m> ? Why?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    What is the measure of <m>\angle{ABC}</m> ? Explain
+                    based on the steps in this problem.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    What is the formula for the central angle of any regular
+                    <m>n</m>-gon?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Explain how we can use the measure of a central angle to 
+                    justify that the vertex angle of a regular <m>n</m>-gon has  
+                    measure <m>180-\frac{360}{n}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Algebraically, show that the vertex angle of a regular <m>n</m>-gon has  
+                    measure <m>\frac{180(n-2)}{n}</m> using the steps above.
+                  </p>
+                </li>
+              </ol>
+            </p>
+          <figure xml:id="fig-nonagon-with-center">
+            <caption>Nonagon for <xref ref="exer-ExtConc-pgreg-nonagon"/>.</caption>
+            <image source="nonagon-w-center">
+            <shortdescription>Nonagon with center and spokes.</shortdescription>
+          </image>
+          </figure>  
           </statement>
-      </exercise>-->
- </subexercises>
- <subexercises xml:id="writing-polygons-regular">
-  <title>Writing Prompts</title>
-  <exercise>
+        </exercise>
+        <exercise> 
+          <title>Finding the Center of a Regular Polygon</title>
+          <statement>
+            <p>
+              In <xref ref="exer-ExtConc-pgreg-nonagon"/>, the center of the 
+              regular nonagon was provided. In this problem, we explore how to 
+              find the center of a regular <m>n</m>-gon.
+              <ol>
+                <li>
+                  <p>
+                    Give a definition for the center of a regular polygon in your 
+                    own words. 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    First give clear instructions on how one can find the center of 
+                    any regular <m>n</m>-gon where <m>n</m>
+                    is an even number. Explain your technique. You may use the
+                    decagon in <xref ref="fig-extConc-pgreg-findcenters"/> for exploration 
+                    and illustration. This 
+                    applet will also allow you to create other <m>n</m>-gons as needed.
+                    The <q>circle and radius tool</q> may be used to check your work, but not 
+                    for finding the center.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Refer to <xref ref="fig-nonagon-with-center"/>. Do lines connecting 
+                    vertices pass through the center? Give an alternate strategy for 
+                    drawing lines that will pass through the center of an <m>n</m>-gon 
+                    when <m>n</m> is odd. You may use the nonagon in the GeoGebra applet in 
+                    <xref ref="fig-extConc-pgreg-findcenters"/>. The <q>circle and radius 
+                    tool</q> may be used to check your work, but not 
+                    for finding the center.
+                  </p>
+                </li>
+              </ol>
+            </p>
+            <figure xml:id="fig-extConc-pgreg-findcenters">
+              <caption>GeoGebra interactive with Decagon and a Nonagon</caption>
+                <interactive xml:id="centerofregpolygonapp"
+                platform="geogebra">
+                <slate surface="geogebra" material="wh7ezz6p"/>
+                </interactive>
+            </figure>
+          </statement>
+      </exercise>
+      <!--Centers of Triangles?-->
+  </subexercises>
+  <subexercises xml:id="writing-polygons-regular">
+    <title>Writing Prompts</title>
+    <exercise>
       <statement>
-          <p>
-              Add paper?.
-          </p>
+        <p>
+          Write a letter to a friend describing one thing you found to be 
+          surprising or interesting in this section.
+        </p>
       </statement>
-  </exercise>
-  </subexercises>-->
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Write a letter to a friend in which you give a formula for the vertex 
+          angle of a regular <m>n</m>-gon and explain why it holds for all regular 
+          <m>n</m>-gons.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Write a letter to a friend in which you explain why there are exactly
+          three regular tilings.
+        </p>
+      </statement>
+    </exercise>
+  </subexercises>
  </exercises>
 </section>
