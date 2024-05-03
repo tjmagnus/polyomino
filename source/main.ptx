@@ -60,12 +60,17 @@
   </dedication>
 <!--
   <acknowledgement>
+
     <p permid="SqQ">
-      Discuss where my inspiration came from: UD Professors, books by 
+      Discuss where my inspiration came from: Mrs. Crystal Mills, UD Professors, 
+      Dr. John Faulkner, books by 
       O'Daffer and Clemens, Kinsey and Moore, Henri Picciotto, others.
+      My mom who inspired creativity encouraging me to play games, solve puzzles, 
+      and create art.
     </p>
 
-    <p permid="yxZ">
+    
+      <p permid="yxZ">
       Others who deserve mentioning. Annette Gorgoglione and other early 
       testers. NE-Commit.
     </p>
@@ -76,16 +81,21 @@
 
     <p permid="KMr">
       The book would only be available in this interactive online
-      format, thanks to the support and assistance from (name some?)
-      participants of the
-      <url href="https://groups.google.com/forum/#!forum/pretext-support" 
-      visual="groups.google.com/forum/#!forum/pretext-support">pretext-support 
-      group</url>, especially Steven Clontz.
+      format, thanks to the support and assistance from 
+      participants of the PROSE Consortium
+      <url href="https://prose.runestone.academy/" 
+      visual="prose.runestone.academy">pretext-support 
+      group</url>, especially Steven Clontz who spent many hours answering my
+      questions and troubleshooting my code, Rob Beezer who created the program 
+      and solved any issue that 
+      Steven and I could not, and Duane Nykamp and Virginia Mae who listened to 
+      my geometry interactive needs and developed DoeNET tools to meet them.
     </p>
 
     <p permid="qTA">
       Finally, a thank you to the numerous Rivier University students who have taken MA127 Geometrical 
-      Explorations over the years.
+      Explorations over the years. Sarah Frazier, Elisabeth Jacob, and Caitlyn 
+      St. Cyr gave the work a thorough reading and recommended suggestions.
     </p>
   </acknowledgement>-->
 
