@@ -179,25 +179,30 @@
         <title>First Pythagorean Puzzle</title>
         <statement>
           <p>
-            The four triangles on the right are congruent copies of <m>\Delta ABC</m>
-            and the square in the upper right has side length <m>c</m>.
+            In <xref ref="PythRTriCsq"/>, the four blue triangles on the right are 
+            congruent copies of the right triangle <m>\Delta ABC</m>. Check 
+            Puzzle_1 to reveal a second square. The side length of this new
+            orange square is <m>c</m>. To verify this, you can line up the 
+            side of the square with the hypotenuse of one of the triangles.
           </p>
           <figure xml:id="PythRTriCsq">
             <caption>
                 An interactive GeoGebra applet for proving the Pythagorean Theorem.
             </caption>
         <interactive xml:id="pyththmgeoapp" platform="geogebra">
-            <slate surface="geogebra" material="wpd66vrf"/>
+            <!--<slate surface="geogebra" material="wpd66vrf"/>-->
+            <slate surface="geogebra" material="usybhhyw"/>
         </interactive>
         </figure>
           <p>
             <ol>
               <li>
                 <p>
-                  Fill the square on the lower left using the four copies of the triangle  
-                  and the square on the right. Pieces can be moved by selecting the interior 
-                  and rotated by moving the visible point. Triangle <m>\Delta ABC</m> is 
-                  only shown for reference and will not be used. As always, there should be  
+                  Fill the square on the left using the four blue copies of the triangle  
+                  and the orange square on the right. Pieces can be moved by selecting 
+                  the interior and they can be rotated by moving the dotted vertex. 
+                  The red triangle labeled <m>\Delta ABC</m> is only shown for reference 
+                  and will not be used. As always, there should be  
                   no gaps nor overlaps. Preserve your work with a sketch or screenshot.
                 </p>
               </li>
@@ -211,7 +216,7 @@
                 <p>
                   Determine the area of each of the pieces used to fill the square frame 
                   using the variables <m>a</m>, <m>b</m>, and/or <m>c</m>. Write the sum 
-                  of these areas still using variables.
+                  of these areas in terms of these variables.
                 </p>
               </li>
             </ol>
@@ -222,10 +227,10 @@
         <title>Second Pythagorean Puzzle</title>
         <statement>
           <p>
-            The four triangles on the right are congruent copies of <m>\Delta ABC</m>
-            and the square in the upper right has side length <m>a</m>, the length of  
-            the shorter leg of the right triangle. The square below  
-            it has a side length <m>b</m> corresponding to the other leg.
+            For this puzzle, select Puzzle_2 in <xref ref="PythRTriABsq"/>.
+            The orange square should no longer be visible. Instead, a green square
+            with side length <m>a</m>, corresponding to the shorter leg of <m>\Delta ABC</m>. 
+            The purple square below it has a side length <m>b</m> corresponding to the other leg.
           </p>
           <!--<image source="PythRightTriABsquares">
             <description>Four congruent right triangles, two squares with side lengths, a 
@@ -238,7 +243,8 @@
                 An interactive GeoGebra applet for proving the Pythagorean Theorem.
             </caption>
         <interactive xml:id="pythproofgeoapp" platform="geogebra">
-            <slate surface="geogebra" material="hsbubxhz"/>
+            <!--<slate surface="geogebra" material="hsbubxhz"/>-->
+            <slate surface="geogebra" material="usybhhyw"/>
         </interactive>
         </figure>
           <p>
