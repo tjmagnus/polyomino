@@ -187,7 +187,7 @@
           </p>
           <figure xml:id="PythRTriCsq">
             <caption>
-                An interactive GeoGebra applet for proving the Pythagorean Theorem.
+                An interactive GeoGebra applet for <xref ref="tri4andcsq"/>.
             </caption>
         <interactive xml:id="pyththmgeoapp" platform="geogebra">
             <!--<slate surface="geogebra" material="wpd66vrf"/>-->
@@ -240,7 +240,7 @@
           </image>-->
           <figure xml:id="PythRTriABsq">
             <caption>
-                An interactive GeoGebra applet for proving the Pythagorean Theorem.
+                An interactive GeoGebra applet for <xref ref="tri4andsquaresAandB"/>.
             </caption>
         <interactive xml:id="pythproofgeoapp" platform="geogebra">
             <!--<slate surface="geogebra" material="hsbubxhz"/>-->
@@ -291,7 +291,14 @@
         </statement>
         <hint>
           <p>
-            Are the square frames the same size? Why does this allow us to set the two  
+            We could change the size and shape of the right triangle by moving any of the 
+            vertices <m>A</m>, <m>B</m>, or <m>C</m> in the red triangle.  Note that the sizes 
+            of the squares will also change according to the new lengths of the sides of the 
+            triangle. Will the length of each side of the black square frames still be expressed 
+            with the algebraic formula you indicated above? Can the new pieces be moved so 
+            that the new frame can be filled using the Puzzle 1 pieces and separately using the 
+            Puzzle 2 pieces? Give an algebraic argument for why the frame for Puzzle 1 and Puzzle
+            2 must be the same for any specified right triangle. Why does this allow us to set the two  
             sums of areas equal to each other?
           </p> 
         </hint>
@@ -323,7 +330,7 @@
                   the hypotenuses with the letter <m>c</m>. Label the smallest side  
                   of these triangles <m>a</m> and the other leg <m>b</m>. Note that 
                   the hypotenuse of the remaining right triangle is longer than <m>c</m>.
-                  Instead, call it <m>d</m>. 
+                  Instead, call its length <m>d</m> to distinguish between the two numbers. 
                 </p>
               </li>
               <li>
@@ -359,7 +366,8 @@
         <statement>
           <p>
             The final proof of the Pythagorean Theorem is primarily 
-            visual. Almost no algebra is required. The interactive again 
+            visual. Almost no algebra is required. The GeoGebra interactive in 
+            <xref ref="PythBlocks"/> 
             provides four copies of a right triangle and a smaller square of  
             unlabeled side length that can be moved and rotated. 
           </p>
@@ -448,7 +456,7 @@
     triangles. It is possible to create a triangle whose side lengths are 3, 5, and 6, but this triangle will  
     not have a right angle. In fact, the converse of the Pythagorean theorem states that if <m>a</m>, <m>b</m>,
     and <m>c</m> are sides of a triangle with <m>a^2+b^2=c^2</m>, then the triangle will have a right angle 
-    opposite the side with length <m>c</m>. We will not prove this converse OR DO I PUT IT AS AN EXERCISE. 
+    opposite the side with length <m>c</m>. <!--We will not prove this converse OR DO I PUT IT AS AN EXERCISE. -->
   </p>
 </subsection>
 <exercises xml:id="exercises-polygons-length">
@@ -552,9 +560,40 @@
   <subexercises xml:id="ExtConc-polygons-length">
       <title>Extending the Concepts</title>
       <exercise>
+        <title>Pythagorean Inequalities</title>
           <statement>
               <p>
-                Under construction.
+                Use <xref ref="fig-HWadjustableTri"/> to answer the following:
+                <ol>
+                  <li>
+                    <p>
+                      The measure of <m>\angle{BCA}</m> is given by the value of 
+                      slider <m>\alpha</m>. With this slider set to 90 degrees, move
+                      the other two sliders to change the lengths of <m>a=BC</m> and
+                      <m>b=AC</m>. The length of <m>c=AB</m> should also change.
+                    </p>
+                    <p>
+                      What do you notice about <m>a^2+b^2</m> and <m>c^2</m>?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Now change the value of <m>\alpha</m> so that <m>0\alpha \lt 90</m>.
+                      What do you notice about <m>a^2+b^2</m> and <m>c^2</m>? Is your 
+                      observation also true when you change <m>a</m> and <m>b</m>? Does your
+                      observation remain true when you change <m>\alpha</m> to another 
+                      acute angle?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Now let <m>\alpha</m> to have a value between 90 degrees and 180 
+                      degrees. How do <m>a^2+b^2</m> and <m>c^2</m> compare now? Experiment 
+                      with different obtuse angles and lengths to see whether your conjecture
+                      remains true.
+                    </p>
+                  </li>
+                </ol>
               </p>
               <p component="instructor">Prove converse of Pythagorean Theorem. Prove that the side opposite the right 
                 angle must be the longest side.--How hard is this?
