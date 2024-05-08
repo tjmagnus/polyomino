@@ -549,17 +549,10 @@
               </figure>
           </statement>
       </exercise>
-      <exercise>
-          <statement>
-              <p>
-                  Add more Pythagorean problems.
-              </p>
-          </statement>
-      </exercise>
   </subexercises>
   <subexercises xml:id="ExtConc-polygons-length">
       <title>Extending the Concepts</title>
-      <exercise>
+      <exercise xml:id="ExtConc-PythIneq">
         <title>Pythagorean Inequalities</title>
           <statement>
               <p>
@@ -587,7 +580,7 @@
                   </li>
                   <li>
                     <p>
-                      Now let <m>\alpha</m> to have a value between 90 degrees and 180 
+                      Now slide <m>\alpha</m> so that it has a value between 90 degrees and 180 
                       degrees. How do <m>a^2+b^2</m> and <m>c^2</m> compare now? Experiment 
                       with different obtuse angles and lengths to see whether your conjecture
                       remains true.
@@ -599,6 +592,102 @@
                 angle must be the longest side.--How hard is this?
               </p>
           </statement>
+          <figure xml:id="fig-HWadjustableTri">
+            <caption>GeoGebra Interactive for <xref ref="ExtConc-PythIneq"/></caption>
+            <interactive xml:id="Gg-HWadjustableTri" platform="geogebra">
+              <slate surface="geogebra" material="npyrwvps"/>
+          </interactive>
+          </figure>
+      </exercise>
+      <exercise>
+        <title>Generating Pythagorean Triples with Algebra</title>
+        <statement>
+          <p>
+            A Pythagorean Triple is a set of three positive integers <m>a</m>, <m>b</m>,
+            and <m>c</m> such that <m>a^2+b^2=c^2</m>. 
+              <ol>
+                <li>
+                  <p>
+                    Find <m>c</m> that forms a Pythagorean triple with the 
+                    numbers <m>a=45</m> and <m>b=200</m>. Show your work.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Find the number <m>a</m> that forms a Pythagorean triple with the 
+                    numbers <m>b=32</m> and <m>130</m>. Show your work.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Demonstrate by an example that it is not always possible to create 
+                    a Pythagorean triple from two given integers. In other words, name two 
+                    integers, <m>a</m> and <m>b</m>, such that <m>a^2+b^2</m> is not equal
+                    to a perfect square.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Choose two positive integers. Call the smaller one <m>j</m> and 
+                    the larger one <m>k</m>.
+                    <ol>
+                      <li>
+                        <p>
+                          Compute <m>2jk</m> and call it <m>a</m>.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Compute <m>k-j</m> and call it <m>b</m>.
+                        </p>
+                      </li> 
+                      <li>
+                        <p>
+                          Is there a third positive integer <m>c</m> such that
+                          <m>a</m>, <m>b</m>, and <m>c</m> form a Pythagorean triple?
+                          If so, what is <m>c</m>?
+                        </p>
+                      </li>
+                    </ol>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Use algebra to demonstrate that the sum of <m>(2jk)^2</m> and 
+                    <m>(k-j)^2</m> is always a perfect square when <m>j</m> and <m>k</m>
+                    are positive integers with <m>j\lt k</m>. What does this tell you 
+                    about Pythagorean triples?
+                  </p>
+                </li>
+              </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <title>Area of a Regular Hexagon</title>
+        <statement>
+          <p>
+            A regular hexagon with side length 6 units is pictured in 
+            <xref ref="fig-SAR-HexArea"/>. Determine the following:
+            <ol>
+              <li>
+                <p>
+                  The height of the hexagon.
+                </p>
+                <p>
+                  The area of the hexagon.
+                </p>
+              </li>
+            </ol>
+          </p>
+          <figure xml:id="fig-SAR-HexArea">
+            <caption>A regular hexagon with side length 6 units.</caption>
+            <image source="reghexsize6">
+              <shortdescription>(for accessibility)</shortdescription>
+            </image>
+          </figure>
+        </statement>
+        
       </exercise>
  </subexercises>
  <subexercises xml:id="writing-polygons-length">
@@ -606,13 +695,13 @@
   <exercise>
       <statement>
           <p>
-              
+              Write a letter to a friend using one of the puzzle proofs in this 
+              section to explain why the Pythagorean Theorem holds. 
+              <xref ref="principle-area-of-congruent-figs"/> or <xref ref="principle-areasums"/> 
+              should play an implicit or explicit role in your explanation.
           </p>
       </statement>
   </exercise>
   </subexercises>
  </exercises>
-<!--Exercise ideas:
-Routine Pythagorean problems. Prove converse of Pythagorean Theorem. Prove that the side opposite the right 
-angle must be the longest side. Letter to a friend. -->
 </section>
