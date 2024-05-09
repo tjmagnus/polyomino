@@ -243,8 +243,10 @@ window.MathJax = {
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-2" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -510,6 +512,8 @@ window.MathJax = {
 </div>
 <div class="indexitem">convex<span class="indexknowl">, <a href="sec-intro-apply.html#def-convexconcave" class="xref" data-knowl="./knowl/index/def-convexconcave.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.4">Definition</a></span>
 </div>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+</div>
 <div class="indexitem">corresponding</div>
 <div class="subindexitem">angles<span class="indexknowl">, <a href="ch-polygons.html#def-congruent-polygon" class="xref" data-knowl="./knowl/index/def-congruent-polygon.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.0.1">Definition</a> <a href="sec-dilations-and-similarity.html#def-similar" class="xref" data-knowl="./knowl/index/def-similar.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">Definition</a></span>
 </div>
@@ -534,7 +538,7 @@ window.MathJax = {
 </div>
 <div class="indexletter" id="indexletter-e">
 <div class="indexitem">edge</div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="ch-polyhedra.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.0.1">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
 </div>
 <div class="indexitem">equation<span class="indexknowl">, <a href="algebra-principles-3.html#def-equation" class="xref" data-knowl="./knowl/index/def-equation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition B.1.6">Definition</a></span>
 </div>
@@ -549,7 +553,7 @@ window.MathJax = {
 </div>
 </div>
 <div class="indexletter" id="indexletter-f">
-<div class="indexitem">face<span class="indexknowl">, <a href="ch-polyhedra.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.0.1">Definition</a></span>
+<div class="indexitem">face<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
 </div>
 <div class="indexitem">fixed point<span class="indexknowl">, <a href="sec-isom-identifying-isometries.html#subsec-fixed-points-2" class="xref" data-knowl="./knowl/index/subsec-fixed-points-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
 </div>
@@ -683,17 +687,19 @@ window.MathJax = {
 </div>
 <div class="subindexitem">vertex angle<span class="indexknowl">, <a href="sec-polygons-regular.html#def-vertexangle-centralangle" class="xref" data-knowl="./knowl/index/def-vertexangle-centralangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.8">Definition</a></span>
 </div>
-<div class="indexitem">polyhedron<span class="indexknowl">, <a href="ch-polyhedra.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.0.1">Definition</a></span>
+<div class="indexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
 </div>
-<div class="subindexitem">edge<span class="indexknowl">, <a href="ch-polyhedra.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.0.1">Definition</a></span>
+<div class="subindexitem">convex<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
 </div>
-<div class="subindexitem">face<span class="indexknowl">, <a href="ch-polyhedra.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.0.1">Definition</a></span>
+<div class="subindexitem">edge<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
 </div>
-<div class="subindexitem">regular<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/index/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+<div class="subindexitem">face<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+</div>
+<div class="subindexitem">regular<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/index/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.3">Definition</a></span>
 </div>
 <div class="subindexitem">semiregular<span class="indexknowl">, <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/index/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition</a></span>
 </div>
-<div class="subindexitem">vertex<span class="indexknowl">, <a href="ch-polyhedra.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.0.1">Definition</a></span>
+<div class="subindexitem">vertex<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
 </div>
 <div class="indexitem">polyomino</div>
 <div class="subindexitem">pentomino<span class="indexknowl">, <a href="sec-intro-explore.html#intro-explore-exp-pentrect" class="xref" data-knowl="./knowl/index/intro-explore-exp-pentrect.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 1.1.1: Tiling Rectangles with Polyominoes">Exploration</a></span>
@@ -761,7 +767,7 @@ window.MathJax = {
 <div class="indexitem">regular</div>
 <div class="subindexitem">polygon<span class="indexknowl">, <a href="sec-polygons-regular.html#sec-polygons-regular-3-3" class="xref" data-knowl="./knowl/index/sec-polygons-regular-3-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.1">Definition</a></span>
 </div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/index/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/index/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.3">Definition</a></span>
 </div>
 <div class="subindexitem">tiling<span class="indexknowl">, <a href="sec-polygons-regular.html#subsec-polygons-regular-tilings-3" class="xref" data-knowl="./knowl/index/subsec-polygons-regular-tilings-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.4">Definition</a></span>
 </div>
@@ -884,7 +890,7 @@ window.MathJax = {
 <div class="indexitem">vertex</div>
 <div class="subindexitem">angle<span class="indexknowl">, <a href="sec-polygons-angles.html#def-angles" class="xref" data-knowl="./knowl/index/def-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.2.3">Definition</a></span>
 </div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="ch-polyhedra.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.0.1">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
 </div>
 <div class="indexitem">vertex angle<span class="indexknowl">, <a href="sec-polygons-regular.html#def-vertexangle-centralangle" class="xref" data-knowl="./knowl/index/def-vertexangle-centralangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.8">Definition</a></span>
 </div>
