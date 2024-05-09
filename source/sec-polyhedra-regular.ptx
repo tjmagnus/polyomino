@@ -10,10 +10,16 @@
         <idx><h>polyhedron</h><h>face</h></idx>
         <idx><h>polyhedron</h><h>edge</h></idx>
         <idx><h>polyhedron</h><h>vertex</h></idx>
+        <idx><h>polyhedron</h><h>convex</h></idx>
+        <idx><h>convex</h><h>polyhedron</h></idx>
         <statement>
             <p>
                 A <term>polyhedron (plural: polyhedra)</term> is a 
-                three-dimensional closed figure in which all of the faces are polygons.  
+                three-dimensional closed figure in which all of the faces are polygons. 
+                Unless stated otherwise, we will assume that a polyhedron is convex so  
+                that it has no spikes, or dimples. Any line segment connecting two points 
+                on the surface of a convex polyhedron will only contain points on the surface or 
+                interior of the polyhedron.
             </p>
             <p>
                 Here, a <term>face</term> of a geometrical solid refers to a flat surface 
@@ -495,4 +501,99 @@
         you created and add these labels to the appropriate lines in your tables. 
     </p>
     </subsection>
+    <exercises xml:id="exercises-polyhedra-reg">
+        <title>Exercises</title>
+        <subexercises xml:id="Toolbox-polyhedra-reg">
+            <title>Building your Toolbox</title>
+            <exercise xml:id="HW-regpolyhedra-summary">
+                <statement>
+                    <p>
+                        Give a definition of regular polyhedra in your own words.
+                        Then, name and describe each of the five regular polyhedra.
+                        In particular, you should mention the shape of each face and 
+                        the number of faces meeting at each vertex.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        Identify by name and picture three examples of polyhedra that are not regular.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        What must be true about the sum of the angle measures at any vertex of 
+                        a convex polyhedron?
+                    </p>
+                </statement>
+            </exercise>
+        </subexercises>
+        <subexercises>
+            <title>Extending the Concepts</title>
+            <exercise>
+                <title>
+                    Counting Vertices and Edges
+                </title>
+                <statement>
+                    <p>
+                        It is easy to lose track when counting the vertices or 
+                        edges of a polyhedron with many faces. We can use mathematical 
+                        reasoning to compute these values for regular polyhedra.
+                        <ol>
+                            <li>
+                                <p>
+                                    Knowing that an octahedron consists of eight 
+                                    triangular faces, we can count <m>8\times 3=24</m>
+                                    vertices and <m>8\times 3=24</m> edges before octahedron 
+                                    is assembled. 
+                                    <ol>
+                                        <li>
+                                            <p>
+                                                Every edge gets glued to one edge of another triangle so 
+                                                the assembled octahedron will have half as many edges. How 
+                                                many edges does the octahedron have?
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                How many triangles meet at each vertex of an octahedron?
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Divide the total number, 24, of vertices of the triangles by 
+                                                the number of triangles that meet at each vertex of the octahedron.
+                                                This will give you the number of vertices in the assembled octahedron.
+                                            </p>
+                                        </li>
+                                    </ol>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Use a similar argument to compute the number of edges and vertices in an icosahedron.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Use a similar argument to compute the number of edges and vertices in a dodecahedron.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <title>Dual Polyhedra</title>
+                <statement>
+                    <p>
+                        ADD HERE
+                    </p>
+                </statement>
+            </exercise>
+        </subexercises>
+    </exercises>        
 </section>
