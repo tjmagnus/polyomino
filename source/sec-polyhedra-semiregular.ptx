@@ -59,16 +59,18 @@
         <exploration>
             <task>
                 <statement>
-                    <sidebyside widths="65% 30%">
                     <p>
                         One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron
-                        pictured in <xref ref="Great_rhombicosidodecahedron"/>.
-                        Check that each vertex has the arrangement 4.6.10. What is the sum of the 
-                        angles meeting at each vertex of the great rhombicosi dodecahedron?
+                        which is shown in <xref ref="Great_rhombicosidodecahedron"/>.
+                        Check that each visible vertex has the arrangement 4.6.10. 
+                    </p>
+                    <p>
+                        What is the sum of the measures of the angles meeting at 
+                        each vertex of the great rhombicosi dodecahedron?
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
                         <caption>Great Rhombicosidodecahedron</caption>
-                        <image component="web" source="Great_rhombicosidodecahedron1.svg">
+                        <image component="web" source="Great_rhombicosidodecahedron1.svg" width="40%">
                             <shortdescription>
                                 The front side of a great 
                                 rhombicosidodecahedron. Five decagonal faces,
@@ -78,7 +80,7 @@
                                 <!--Check this!-->
                             </shortdescription>
                         </image>
-                        <image component="print" source="Great_rhombicosidodecahedron1.png">
+                        <image component="print" source="Great_rhombicosidodecahedron1.png" width="40%">
                             <shortdescription>
                                 The front side of a great 
                                 rhombicosidodecahedron. Five decagonal faces,
@@ -89,7 +91,6 @@
                             </shortdescription>
                         </image>
                     </figure>
-                    </sidebyside>
                     <aside>
                         <p>
                             Illustration produced by Robert Webb's 
@@ -120,7 +121,7 @@
                             </li>
                             <li>
                                 <p>
-                                    How many decagons are needed to create an icosidodecahedron? 
+                                    How many pentagons are needed to create an icosidodecahedron? 
                                     Be sure to count the ones you cannot see as well.
                                 </p>
                             </li>
@@ -135,10 +136,10 @@
                         <caption>
                             The Icosidodecahedron
                         </caption>
-                        <image component="web" source="icosidodecahedron.svg" width="30%">
+                        <image component="web" source="icosidodecahedron.svg" width="40%">
                             <shortdescription>A picture of an icosidodecahedron</shortdescription>
                         </image>
-                        <image component="print" source="icosidodecahedron.png" width="30%">
+                        <image component="print" source="icosidodecahedron.png" width="40%">
                             <shortdescription>A picture of an icosidodecahedron</shortdescription>
                         </image>
                     </figure>
@@ -415,7 +416,7 @@
     <subsection>
         <title>Definitions</title>
         <p>
-            In this section we discovered two families of semiregular polygons, 
+            In this section we discovered two families of semiregular polygons: 
             prisms and antiprisms. We can also create prisms and antiprisms which  
             have faces are not regular. In particular, the sides of a prism need not be  
             squares, they could be rectangles or other parallelograms. The sides of an 

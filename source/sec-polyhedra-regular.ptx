@@ -1,5 +1,74 @@
 <section xml:id="sec-polyhedra-regular" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Regular Polyhedra</title>
+    <subsection xml:id="subsec-def-polyhedra">
+        <title>Defining a Polyhedron</title>
+    <definition xml:id="def-polyhedron">
+        <idx><h>polyhedron</h></idx>
+        <idx><h>face</h></idx>
+        <idx><h>edge</h><h>polyhedron</h></idx>
+        <idx><h>vertex</h><h>polyhedron</h></idx>
+        <idx><h>polyhedron</h><h>face</h></idx>
+        <idx><h>polyhedron</h><h>edge</h></idx>
+        <idx><h>polyhedron</h><h>vertex</h></idx>
+        <statement>
+            <p>
+                A <term>polyhedron (plural: polyhedra)</term> is a 
+                three-dimensional closed figure in which all of the faces are polygons.  
+            </p>
+            <p>
+                Here, a <term>face</term> of a geometrical solid refers to a flat surface 
+                that forms part of the boundary of the solid. The line segments where two 
+                faces meet are called <term>edges</term>, and the <sq>corners</sq> where  
+                edges meet are called the <term>vertices</term> of the polyhedron. The  
+                vertices of the polyhedron are also vertices of its polygonal faces. <!--Unless  
+                specified otherwise, we will be measuring the angles formed by a pair of edges  
+                which is the same as measuring the angle of a vertex of a polygonal face.-->
+            </p>
+            <p>
+                While it is not incorrect to call a face of a polyhedron a <sq>side</sq>,
+                one should be careful to distinguish between a face of the polyhedron and 
+                a side of a polygon (which is an edge of the polyhedron). Using the terms
+                <term>face</term> and <term>edge</term> will make our discussions about polyhedron 
+                clearer.
+            </p>
+        </statement>
+    </definition>
+
+    <exercise>
+        <statement>
+            <p>
+                Which of the following solids are polyhedra?
+                <ol>
+                    <li>
+                        <p>
+                            cylinder  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            cube
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            triangular prism 
+                        </p>
+                    </li>
+                    <li>
+                        sphere 
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <answer>
+            <p>
+                A cube and triangular prism are polyhedra. 
+                A cylinder and sphere are not polyhedra since they 
+                have curved surfaces.
+            </p>
+        </answer>
+    </exercise>
+    </subsection>
     <subsection>
         <title>Defining Regular Polyhedra</title>
         <p>
@@ -41,10 +110,11 @@
             Discovering Regular Polyhedra
         </title>
         <task>
+            <title>A nonregular polyhedron</title>
             <statement>
                 <p>
-                    Explain why a square pyramid is not a regular 
-                    polyhedron.
+                    Explain why a square pyramid, <xref ref="fig-SqPyramid"/>, 
+                    is not a regular polyhedron.
                 </p>
             </statement>
             <hint>
@@ -54,11 +124,13 @@
             </hint>
         </task>
         <task>
+            <title>Angle Measures at a Vertex</title>
             <statement>
                 <p>
                     <ol>
                         <li>
-                            In <xref ref="sec-polygons-regular"/>, 
+                            When we constructed tilings of the plane 
+                            in <xref ref="sec-polygons-regular"/>, 
                             we found the sum of the measures of the 
                             angles surrounding a vertex was always the same. 
                             What was that sum?
@@ -79,14 +151,24 @@
             </hint>
         </task>
         <task>
+            <title>Regular Polyhedra with Triangular Faces</title>
             <statement>
                 <p>
-                    For this task, you will need plastic or tagboard copies of congruent equilateral 
-                    triangles that can be put together. An online search for 
-                    <sq>isometric graph paper</sq> will give you a sheet of congruent triangles that could 
-                    be enlarged, printed on stiff paper, and cut. Equilateral triangles for building polyhedra may also be created 
-                    from straws and string. Side length of at least two inches is recommended.
-                </p>
+                    For this task, you will need copies of rigid congruent equilateral 
+                    triangles that can be put together. There are commercially 
+                    available shapes that can be snapped together, but you can also 
+                    create your own using tagboard or even straws and string. 
+                    </p>
+                    <aside>
+                        <p>
+                            An online search for <sq>isometric graph paper</sq> will give you 
+                            a sheet of congruent triangles that could be enlarged, printed on 
+                            stiff paper, and cut. Equilateral triangles for building polyhedra 
+                            may also be created from short straws and string. Perhaps, you have 
+                            other ideas? Popsicle sticks? An edge length of at least 2 centimeters 
+                            is recommended. 
+                        </p>
+                    </aside>
                 <p>
                     Which regular polyhedra can be formed using equilateral triangles? To answer this  
                     question, we will consider the possible number of triangles that could meet at each 
@@ -215,6 +297,7 @@
             </statement>
         </task>
         <task>
+            <title>A Nonregular Polyhedron made from Regular Triangles</title>
             <statement>
                 <p>
                     There is a polyhedron that can be constructed using a total 
@@ -224,6 +307,7 @@
             </statement>
         </task>
         <task>
+            <title>Other Regular Polyhedra</title>
             <statement>
                 <p>
                     We now explore whether we can form regular polyhedra using squares, 
@@ -245,6 +329,16 @@
                                             must meet at each vertex and then construct the polyhedron. 
                                             Carefully describe this polyhedron and/or save a picture.
                                         </p>
+                                        <aside>
+                                            <p>
+                                                If you are making your own squares, you will need to 
+                                                ensure that every angle of each square is 90 degrees. 
+                                                Models made from straws may lose that property without 
+                                                proper support. On the other hand, you may have examples 
+                                                of a regular polyhedron with square faces already so that
+                                                you do not need to build this.
+                                            </p>
+                                        </aside>
                                     </li>
                                     <li>
                                         <p>

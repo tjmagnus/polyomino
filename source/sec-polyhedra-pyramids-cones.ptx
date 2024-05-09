@@ -27,6 +27,12 @@
                 </p>
             </statement>
         </definition>
+        <figure xml:id="fig-SqPyramid">
+            <caption>A square pyramid</caption>
+            <image source="SqPyramid1.png">
+                <shortdescription>A pyramid with a square base.</shortdescription>
+            </image>
+        </figure>
     </subsection>
     <subsection xml:id="subsec-expl-Euler-pyramid">
         <title>Patterns with Pyramids</title>

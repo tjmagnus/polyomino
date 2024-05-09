@@ -683,11 +683,10 @@
           <figure xml:id="fig-SAR-HexArea">
             <caption>A regular hexagon with side length 6 units.</caption>
             <image source="reghexsize6">
-              <shortdescription>(for accessibility)</shortdescription>
+              <shortdescription>A regular hexagon with side length 6 units.</shortdescription>
             </image>
           </figure>
         </statement>
-        
       </exercise>
  </subexercises>
  <subexercises xml:id="writing-polygons-length">
