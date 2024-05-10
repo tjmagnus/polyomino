@@ -4,7 +4,8 @@
         <title>Defining Semiregular Polyhedra</title>
         <p>
             We now extend our collection of polyhedra by exploring what it means for 
-            a polyhedron to be semiregular and to construct some examples.
+            a polyhedron to be semiregular. Note the resemblance to the definition of 
+            semiregular tiling.
         </p>
         <definition xml:id="def-semiregplyhdron">
             <idx><h>semiregular</h><h>polyhedron</h></idx>
@@ -65,8 +66,8 @@
                         Check that each visible vertex has the arrangement 4.6.10. 
                     </p>
                     <p>
-                        What is the sum of the measures of the angles meeting at 
-                        each vertex of the great rhombicosi dodecahedron?
+                        Three polygons meet at each vertex of the great rhombicosi dodecahedron. 
+                        What is the sum of three angle measures at any one vertex?
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
                         <caption>Great Rhombicosidodecahedron</caption>
@@ -165,7 +166,7 @@
                     Choose one (or more) of the following vertex arrangements,
                     <m>3.6.6</m>, <m>4.6.6</m>, <m>3.4.4.4</m>, <m>3.4.3.4</m>,
                     <m>3.10.10</m>, or <m>5.6.6</m> and 
-                    construct the semisregular polyhedron that has that vertex 
+                    construct the semiregular polyhedron that has that vertex 
                     arrangement. If you are up for a challenge, you may choose 
                     <m>3.4.5.4</m>, <m>3.3.3.3.4</m>, or <m>3.3.3.3.5</m>.
                     <ol>
@@ -209,7 +210,7 @@
                                 <ol>
                                     <li>
                                         <p>
-                                            <m>3.4.4</m>
+                                            <m>3.4.4</m> (same as <m>4.4.3</m>)
                                         </p>
                                     </li>
                                     <li>
@@ -233,8 +234,10 @@
                         </li>
                         <li>
                             <p>
-                                The polyhedra you just are called <term>prisms</term>. Use your 
-                                constructions to complete <xref ref="table-prism"/>. 
+                                The polyhedra you just created are called <term>prisms</term>. Use your 
+                                constructions to complete <xref ref="table-prism"/>. The first row should
+                                list the number of faces, vertices, and edges in a semiregular solid with 
+                                a <m>3.4.4</m>-vertex arrangement.
                             </p>
                         </li>
                     </ol>
@@ -428,7 +431,7 @@
             <statement>
                 <p>
                     A <term>prism</term> is a polyhedron consisting of two congruent parallel  
-                    polygonal faces joined by sides that are parallelograms (often rectangles).
+                    polygonal faces joined by sides that are parallelograms, often rectangles. 
                 </p>
             </statement> 
         </definition>
@@ -445,14 +448,144 @@
         <p>
             The two parallel congruent polygonal faces are called the <term>bases</term> 
             of the prism or antiprism. The top base may be called the <term>summit</term>  
-            in which case the bottom would be called the <term>base</term>. Of course, we  
-            can sit a polyhedron on any of its faces. Sometimes the bases will be at the ends 
-            rather than at the top and bottom.
+            in which case the bottom would be called the <term>base</term>. We specify the 
+            type of prism or pyramid by shape of its base so that the 
+            prism with a <m>4.4.n</m>-vertex configuration is called an <term><m>n</m>
+            -gonal prism</term>. Of course, we  
+            can set a polyhedron on any of its faces. Sometimes the base(s) will be appear 
+            to be at the ends of the solid rather than at the top and bottom.
             <idx><h>base</h><h>prism</h></idx>
             <idx><h>summit</h><h>prism</h></idx>
             <idx><h>base</h><h>antiprism</h></idx>
             <idx><h>summit</h><h>antiprism</h></idx>
         </p>
+        <aside>
+            <p>
+                The summit of an antiprism will be a rotated copy of the base 
+                lying in a plane parallel to the base. A prism will not have this 
+                rotation.
+            </p>
+        </aside>
     </subsection>
-    <!--exercises on counting, Euler formula-->
+    <exercises xml:id="exercises-semireg-polyhedra">
+        <title>Exercises</title>
+        <subexercises>
+            <title>Building Our Toolbox</title>
+            <exercise>
+                <statement>
+                    <p>
+                        State the definition of semiregular polyhedron in 
+                        your own words.
+                        <ol>
+                            <li>
+                                <p>
+                                    Of the three criteria in <xref ref="def-semiregplyhdron"/>,
+                                    which one rules out a cube?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Of the three criteria in <xref ref="def-semiregplyhdron"/>,
+                                    which one explains why a <m>3\times 4\times 5</m> rectangular 
+                                    prism is not a semiregular polyhedron?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Could a pyramid with a square base be a semiregular 
+                                    polyhedron? Explain.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        You have calculated <m>F+V-E</m> for the five regular 
+                        polyhedra, several pyramids, and several prisms. What 
+                        do you notice? 
+                    </p>
+                    <aside>
+                        <p>
+                            This identity, which holds for all polyhedra, is called <term>Euler's Formula</term>
+                            after the mathematician Leonhard Euler (1707-1783) although Francesco 
+                            Maurolico stated the formula for regular polyhedra in 1537. Euler was 
+                            a prolific mathematician who worked in many different areas of mathematics. 
+                            In fact, if you search for Euler's formula, you will find other identities also 
+                            named for him, notably the complex number identity, 
+                            <m>e^{i\theta}=cos \theta +i sin \theta</m>, or its special case,
+                            <m>e^{i\pi}+1=0</m>.
+                        </p>
+                    </aside>
+                </statement>
+            </exercise>
+        </subexercises>
+        <subexercises> 
+            <title>Skills and Recall</title>
+            <exercise>
+                <statement>
+                    <p>
+                        An octadecagon is an 18-gon. 
+                        <ol>
+                            <li>
+                                <p>
+                                    How many vertices will an octadecagonal prism have?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How many faces will an octadecagonal prism have?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How many edges will an octadecagonal prism have?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How many vertices will an octadecagonal antiprism have?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How many faces will an octadecagonal antiprism have?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How many edges will an octadecagonal antiprism have?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        A pentagonal cupola is a polyhedron with 12 faces and 25 edges.
+                        Determine how many vertices a pentagonal cupola must have.
+                    </p>
+                </statement>
+            </exercise>
+        </subexercises>
+        <subexercises>
+            <title>Extending the Concepts</title>
+            <exercise>
+                <statement>
+                    <p>
+                        GENERALIZE TO ALL BIPYRAMIDS????
+                        A hexagonal bipyramid looks like two hexagonal pyramids glued 
+                        together at their bases to form a diamond-shaped solid. All of its faces 
+                        are triangular. At two of the vertices, there are six triangles meeting at a 
+                        single point, but where the pyramids are <q>glued together</q>, there 
+                        are four triangles meeting at each point. INCOMPLETE!!!!
+                    </p>
+                </statement>
+            </exercise>
+        </subexercises>
+    </exercises>
 </section>
