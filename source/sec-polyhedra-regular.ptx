@@ -78,12 +78,13 @@
     <subsection>
         <title>Defining Regular Polyhedra</title>
         <p>
-            In this section, we define the term <term>regular polyhedron</term> and 
-            identify all of the regular polyhedra that can be created. These special 
-            solids appear in ancient art 
-            work, were delineated by Greek mathematicians around 300 B.C., 
+            Just as with polygons and tilings, we describe some 
+            polyhedra as <term>regular polyhedra</term>. These special 
+            solids were identified by Greek mathematicians around 300 B.C.,
+            appear in ancient art work,  
             and are used to model chemical and biological structures today. 
-            We will find that only there are only a handful of regular polyhedra.
+            In this section, we will find that only there are only a handful 
+            of polyhedra that meet the criteria of being regular.
         </p>
         <definition xml:id="def-regpolyhedron">
             <idx><h>regular</h><h>polyhedron</h></idx>

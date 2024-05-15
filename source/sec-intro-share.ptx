@@ -298,9 +298,9 @@
       </p>
       </blockquote>
       <figure>
-        <caption>Visualization of <m>(n+1)^2=n^2+2n+1</m></caption>
-        <image component="web" source="nthsumofodds.svg" width="70%"></image>
-        <image component="print" source="nthsumofodds.png" width="70%"></image>
+        <caption>Visualizing <m>(n+1)^2=n^2+2n+1</m></caption>
+        <image component="web" source="nthsumofodds.svg" width="40%"></image>
+        <image component="print" source="nthsumofodds.png" width="40%"></image>
       </figure>
       <blockquote>
           <p>
