@@ -464,7 +464,7 @@
           areas of the smaller shapes. While this may seem like a simple idea, we will  
           see that it allows us to determine the area formulas of other geometric  
           shapes and to prove the Pythagorean Theorem. We can dissect <idx><h>dissect</h></idx> 
-          a shape into smaller shapes, rearrange them into another shape, and argue 
+          a shape into smaller shapes, rearrange the pieces into another shape, and argue 
           that the two regions have equal area because they both consist of the same 
           collection of smaller shapes.
         </p>
@@ -997,6 +997,11 @@
               </ol>
             </p>
           </statement>
+          <hint>
+            <p>
+              For part c, begin by drawing a unit square similar to part a.
+            </p>
+          </hint>
         </exercise>
         <exercise xml:id="ExtConc-intro-exp-areamodel-polynomials">
           <title>Modeling the Multiplication of Polynomials</title>
@@ -1051,6 +1056,13 @@
               </ol>
             </p>
           </statement>
+          <hint>
+            <p>
+              An algebraic expression involving the variable <m>x</m> may include numbers and operations 
+              like <m>+ , -, \cdot, \div</m> in addition to the variable <m>x</m>. For part a,
+              the algebraic expression is <m>7+x</m>.
+            </p>
+          </hint>
         </exercise>
         <exercise xml:id="ExtConc-intro-exp-probability">
           <title>Area in Probability</title>
@@ -1080,8 +1092,10 @@
                     The sketch below is a bar graph or histogram showing the 
                     frequency or number of ways that each of the sums from 3 to 12 can be 
                     rolled with three tetrahedral dice.  Note that the sums are 
-                    given on the horizontal axis 
-                    and the frequencies are on the vertical axis.
+                    given on the horizontal axis and the frequencies are on the 
+                    vertical axis. Note how the third vertical
+                    bar, centered above the number 5, has height 6 to illustrate the 
+                    fact that there are six ways of rolling a sum of 5.
                     <ol>
                       <li>
                         <p>
