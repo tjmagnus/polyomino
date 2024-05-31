@@ -12,7 +12,7 @@
       solve puzzles, make conjectures, discuss with classmates, make connections 
       between ideas, explain your solutions, and justify your reasoning.  You 
       should not expect to be shown how to do problems by the instructions. In 
-      fact, there may not be one, single right way to complete some of the 
+      fact, there may not be one single right way to complete some of the 
       problems but rather many acceptable ways of coming to a solution.  Your 
       teacher will encourage you to share these alternative approaches with the 
       class. 
@@ -21,9 +21,9 @@
       Perhaps this course would be easier for you if you were simply told 
       how to solve the problems, but the objective of this course is not 
       to learn facts and methods, but rather to develop your mathematical 
-      thinking and communication skills.  In this technological age, 
-      computers can do many of the algorithms and processes that used to 
-      be the core of mathematics education, but they have not replaced man’s 
+      thinking and communication skills.  In this age of technology, 
+      computers can do many of the algorithms and processes that were at one 
+      time the core of mathematics education. However, they have not replaced man’s 
       role of developing strategies to solve problems and recognizing when 
       mathematics can be applied to real world situations.  Developing these 
       reasoning skills will help you more in your future than simply being able 
@@ -35,9 +35,9 @@
       emphasis to the creative process that is mathematics.  
     </p>
     <p>
-      In <q>A Mathematician’s Lament</q> Paul Lockhart describes a nightmare 
+      In <q>A Mathematician’s Lament,</q> Paul Lockhart describes a nightmare 
       in which music was taught in the same way that mathematics is currently 
-      taught.<!--~\cite{lament}-->  He says, 
+      taught. He says, 
     </p>
       <blockquote>
         <p>
@@ -88,10 +88,12 @@
       <task>
         <statement>
           <p>
-            Fill the blue square with non-overlapping copies of the green L-shaped 
+            Just as a domino consists of two squares joined at an edge, a 
+            <term>tetromino</term> <idx><h>tetromino</h></idx> <idx><h>polyomino</h>
+            <h>tetromino</h></idx> is a flat figure created by joining four congruent 
+            squares along edges. Fill the blue square with non-overlapping copies of the green L-shaped 
             tetronimo. How many tetrominoes are required?
           </p>
-
           <p>
             To use the interactive tool, click and drag the L-shape to create a new 
             copy of the shape. Use the large dot, to rotate the copy. Arrange copies  
@@ -123,10 +125,7 @@
       <task>
         <statement>
           <p>
-            Just as a domino consists of two squares joined at an edge, a 
-            <term>tetromino</term> <idx><h>tetromino</h></idx> <idx><h>polyomino</h>
-            <h>tetromino</h></idx> is a flat figure created by joining four congruent 
-            squares along edges. Pictured below are the four other tetrominoes, 
+            Pictured below are the four other tetrominoes: 
             an I-shape, a Z-shape, a T-shape,
             and a small square. Like the L-shape, some of these can cover the 
             larger square without overlaps or gaps. Identify which tetrominoes 
@@ -163,12 +162,11 @@
 <!--How to caption properly?-->
           <p>
             <url href="https://mathigon.org/polypad/deIUjqp9tTSpaQ"> 
-              Interactive tool on Polypad by Amplify 
+              Interactive tool on Polypad by Amplify.
             </url>
           </p>
         </statement>
       </task>
-
       <task>
         <statement>
           <p>
@@ -201,7 +199,7 @@
             is pictured. Create new pentominoes by copying and moving the provided
             purple unit square.   
             Note that if two pentominoes are reflections or 
-            rotations of each other we consider them to be the same pentomino. Be sure 
+            rotations of each other, we consider them to be the same pentomino. Be sure 
             to save a copy of your sketch for future reference. 
           </p>
           <interactive xml:id="app-buildpentominoes" 
@@ -466,9 +464,9 @@
           areas of the smaller shapes. While this may seem like a simple idea, we will  
           see that it allows us to determine the area formulas of other geometric  
           shapes and to prove the Pythagorean Theorem. We can dissect <idx><h>dissect</h></idx> 
-          shape into smaller shapes, rearrange them into another shape, and argue 
-          that the two regions have the same area because they both consist of the same 
-          colllection of smaller shapes.
+          a shape into smaller shapes, rearrange them into another shape, and argue 
+          that the two regions have equal area because they both consist of the same 
+          collection of smaller shapes.
         </p>
         <principle xml:id="principle-areasums">
           <title>Additivity of Area</title>
@@ -496,6 +494,28 @@
           When we create a new rectangle with length <m>L=2\ell</m> and width <m>W=2w</m>, 
           the resulting area is <m>LW=(2\ell)(2w)=(2\cdot 2)(\ell w)=4\ell w</m> square units.
         </p>
+        <exercise>
+          <title>Check Your Understanding</title>
+          <statement>
+            <p>
+              Demonstrate algebraically why the area of a two-dimensional figure is multiplied 
+              by 9 when then lengths of the sides are tripled.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Use the example for getting four times the area by doubling the 
+              lengths as a guide.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              When <m>L=3/ell</m> and <m>W=3w</m>, the area is 
+              <m>LW=(3\ell)(3w)=(3\cdot 3)(\ell w)=9\ell w.
+              </m>
+            </p>
+          </answer>
+        </exercise>
       </subsection>
       <subsection xml:id="subsec-creative-expl">
         <title>Exploring to Learn</title>
@@ -630,6 +650,13 @@
               </image>
             </figure>
           </statement>
+          <hint>
+            <p>
+              Break each figure into shapes for which the area can be computed.
+              Then use <xref ref="principle-areasums"/> to find the total area of the
+              region.
+            </p>
+          </hint>
         </exercise>
         <exercise xml:id="SAR-intro-exp-otherarea">
           <statement>
@@ -693,10 +720,20 @@
             </image>
             </figure>
           </statement>
+          <hint>
+            <p>
+              <xref ref="principle-areasums"/> is used in each of these problems.
+              For (a), how many copies of <m>\Delta ACD</m> fill rectangle <m>ABCD</m>?
+              For (b), how can you create rectangle <m>MHGN</m> from cutting and 
+              rearranging pieces of parallelogram <m>EHGF</m>? In (c), how can you
+              build <m>IJKL</m> from the pieces.
+            </p>
+          </hint>
         </exercise>
         <exercise xml:id="SAR-intro-exp-numtriominoes">
           <statement>
             <p>
+              A triomino consists of three <m>1\times 1</m> squares joined at edges.
               How many distinct triominoes exist? Sketch them. Do not include any 
               triominoes that are reflections or rotations of ones you have already 
               sketched.
@@ -721,6 +758,11 @@
               using non-overlapping hexomino tiles.
             </p>
           </statement>
+          <hint>
+            <p>
+              What is the area of each hexomino? How does that affect the total area?
+            </p>
+          </hint>
         </exercise>
         <exercise>
           <statement>
@@ -729,6 +771,13 @@
               What must be true about the area of Jay's rectangle?
             </p>
           </statement>
+          <hint>
+            <p>
+              We do not know how many heptominoes Jay used, but we do know the area 
+              of each heptomino. Many rectangles could be built, but their areas will
+              always have what factor? 
+            </p>
+          </hint>
         </exercise>
         <exercise>
           <statement>
@@ -743,14 +792,19 @@
                 <li>
                   <p>
                     Show that if you are allowed to use copies of the same pentomino 
-                    (4-square) tile multiple times you can construct a rectangle of area  <m>5n</m>  
+                    tile multiple times you can construct a rectangle of area  <m>5n</m>  
                     for every whole number  <m>n</m>. 
-                    (Hint: Use the same tetromino <m>n</m> times.)
                   </p>
                 </li>
               </ol>
             </p>
           </statement>
+          <hint>
+            <p>
+              Use the same tetromino <m>n</m> times. What tetromino is already a 
+              rectangle?
+            </p>
+          </hint>
         </exercise>
         <exercise>
           <statement>
@@ -858,6 +912,12 @@
             </ol>
           </p>
           </statement>
+          <hint>
+            <p>
+              a. One of the subrectangles is a <m>5\times 40</m>-rectangle. What are 
+              the others? c. Consider sums of areas.
+            </p>
+          </hint>
         </exercise>
         <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
           <title>Multiplication of Multidigit Numbers</title>
@@ -869,15 +929,28 @@
               how this area model can be used to compute the product.
             </p>
           </statement>
+          <hint>
+            <p>
+              Use <xref ref="ExtConc-intro-exp-areamodel-twodigit"/> as an example.
+              You will need more subrectangles for this problem.
+            </p>
+          </hint>
         </exercise>
         <exercise xml:id="ExtConc-intro-exp-areamodel-fractions">
           <title>Modeling the Multiplication of Fractions and Mixed Numbers</title>
           <statement>
+            <figure xml:id="fig-unitsquare">
+              <caption>A unit square</caption>
+              <image source="unitSquareFraction.png">
+                <shortdescription>A square</shortdescription>
+              </image>
+            </figure>
             <p>
               <ol>
                 <li>
                   <p>
-                    Draw a square and assume each side has length of 1. Divide the height 
+                    Each side of the square, pictured in <xref ref="fig-unitsquare"/> 
+                    has a length of 1. Sketch line segments that divide the height 
                     equally into thirds and the width equally into fourths. 
                     How many subrectangles does this split the square into? 
                     What is the area of each subrectangle? 
@@ -886,13 +959,13 @@
                 </li>
                 <li>
                   <p>
-                    The sketch shows a model of  <m>2\frac{2}{3} \times 1 \frac{2}{5}</m>.  
+                    The sketch shows a model of <m>2\frac{2}{3} \times 1 \frac{2}{5}</m>.  
                     Compute the areas of each of the four shaded regions 
                     (blue, orange, pink, and green), and then compute the total. 
                     Note that solid lines are used to represent lengths of whole units 
                     and dashed lines represent fractional lengths
                   </p>
-                  <image component="web" source="hw-mixed-num-areamodel.svg" width="40%">
+                  <!--<image component="web" source="hw-mixed-num-areamodel.svg" width="40%">
                     <shortdescription>
                       A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five 
                       fifths. The side of length 3 is split into two whole units and three thirds. 
@@ -901,8 +974,8 @@
                       Four one-fifth by one rectangles are pink and there are four green one third by 
                       one-fifth rectangles forming a 2/3 by 2/5 rectangle.
                     </shortdescription>
-                  </image>
-                  <image component="print" source="hw-mixed-num-areamodel.png" width="40%">
+                  </image>-->
+                  <image source="hw-mixed-num-areamodel.png" width="40%">
                     <shortdescription>
                       A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five 
                       fifths. The side of length 3 is split into two whole units and three thirds. 
