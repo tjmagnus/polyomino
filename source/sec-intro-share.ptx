@@ -92,7 +92,10 @@
       Have you ever wondered how mathematics came into existence? A simple answer is 
       that people explored mathematical objects, like numbers or shapes, and noticed 
       patterns and consistencies. They then sought to convince themselves and others that 
-      these patterns were not just coincidences but would have to occur.
+      these patterns were not just coincidences but universal properties of the 
+      numberic or geometric structure. For example, they observed and then proved that 
+      whenever a triangle had two sides of equal length the angles opposite those sides 
+      would be congruent.
     </p>
     <p>
       How do we convince others? In mathematics, we start with basic assumptions like 
@@ -100,7 +103,7 @@
       and then use logic to demonstrate that our conjecture must follow. We also accept 
       the algebraic properties of the 
       real number system along with properties of equality and inequality, allowing us  
-      to simplify algebraic expressions and solving linear equalities and inequalities  
+      to simplify algebraic expressions and solve linear equalities and inequalities  
       using techniques learned in previous courses. 
       Once we prove a claim, it is no longer a conjecture and is now considered to be a theorem. We can then add the theorem to 
       our toolbox and use it to demonstrate new claims.
@@ -117,7 +120,8 @@
       --and use language appropriate for that audience.
     </p>
     <p>
-      How do we write mathematical explanations and establish new truths? We usually let our reader know  
+      How do we write mathematical explanations and establish new truths? 
+      We usually let our readers know  
       what we claim and plan to prove. In geometry, we often accompany our explanations with a sketch on which 
       we have labeled with the names of points and/or variables for lengths so that our reader can follow our 
       argument visually. We do not assign numerical values to lengths as we do not want to limit our claim to 
@@ -318,10 +322,10 @@
       Notice how the author Sid introduces the reader to what will be demonstrated, 
       uses a picture to help the reader visualize the explanation, and then explains  
       in words how the picture justifies the argument. In this example, Sid 
-      had to deal with the fact that we typically use the variable <m>x</m> in algebra 
+      has to deal with the fact that we typically use the variable <m>x</m> in algebra 
       to represent any real number but the variable <m>n</m>, representing whole numbers  
-      appeared in the sketch. Aunt Josephine was alerted to the fact that <m>n</m> would 
-      would be used in place of <m>x</m> and Sid consistantly used <m>n</m> in 
+      appeared in the sketch. Aunt Josephine is alerted to the fact that <m>n</m>  
+      would be used in place of <m>x</m> and Sid consistently uses <m>n</m> in 
       the logical argument. The author could have drawn a new sketch and relabeled it 
       with <m>x</m> in place of <m>n</m>, but chose not to do so. Since the author is  
       using the sketch from the activity, a citation reference should be included. In fact, 
@@ -533,20 +537,23 @@
         <title>Wonder in Mathematics</title>
         <statement>
           <p>
-            Watch the YouTube video <url href="www.youtube.com/watch?v=PXwStduNw14"/>. 
-            Then spend some time looking for, observing, and wondering about patterns 
-            and/or commonalities in nature, art, language, numbers, etc. Choose one 
-            example and write about what you have observed and wondered about. In what 
-            ways might considering this example or the world around us with this sense 
-            of mathematics (as Eddie Woo describes it) change us and our understanding.
+            After watching the TEDxSidney Talk, <q>Mathematics is the Sense you never
+              knew you had
+            </q> by high school mathematics teacher Eddie Woo, <xref ref="fig-Woo-TedTalk"/>,
+            spend some time looking for, observing, and wondering about patterns 
+            and/or similitudes. Possible examples may appear in nature, art, language, 
+            numbers, etc. Choose one 
+            example and write about what you have observed and wondered. Be sure to 
+            discuss how viewing this example and the greater world around us with 
+            this sense of maths<fn><sq>Mathematics</sq> is typically called <sq>maths</sq> throughout the United 
+              Kingdom and much of the world so it is appropriate for the speaker to use 
+            this term.</fn> (as Eddie Woo describes it) can change us and our 
+            understanding.
           </p>
-          <aside>
-          <p>
-            <sq>Mathematics</sq> is typically called <sq>maths</sq> throughout the United 
-            Kingdom and much of the world so it is appropriate for the speaker to use 
-            this term.
-            </p>
-          </aside>
+          <figure xml:id="fig-Woo-TedTalk">
+            <caption>TEDxSydney video on YouTube.</caption>
+            <video youtube="PXwStduNw14"/>
+          </figure>
         </statement>
       </exercise>
     </subexercises>

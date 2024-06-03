@@ -32,7 +32,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   Definitions are developed to give us helpful terminology and state the characteristics needed to 
   identify the object. We typically do not include every property of an object in the definition; 
   some properties can be proved from the initial definition. For example, we define a rectangle  
-  to be a quadraliteral with four right angles. The property that opposite sides of a rectangle  
+  to be a quadrilateral with four right angles. The property that opposite sides of a rectangle  
   are congruent is not included in the definition because it can be proved from the definition.
 </p>
 <p>
@@ -43,7 +43,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   mindful of the order in which theorems are introduced as you cannot use a theorem that comes later  
   in the textbook as an argument in a proof. On the other hand, this textbook is not as rigorous as 
   some geometry textbooks. In order to maintain the exploratory and intuitive nature of this book, the 
-  author will include some principles here that might appear as proved theorems in other texts. 
+  author will include some principles here that might appear as proven theorems in other texts. 
   At times, proofs may be included as exercises leaving the choice of rigor up to the course instructor. 
 </p>
 <!--Insert Circular Reasoning example as an exercise?-->
@@ -52,7 +52,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   <xref ref="def-area">area</xref> and two principles, 
   <xref ref="principle-arearect"/> and <xref ref="principle-areasums"/><!-- from 
   <xref ref="sec-intro-explore"/>-->. In other words, we can think about the area 
-  of a region as the number of <m>1\times1</m> blocks that fills the interior, 
+  of a region as the number of <m>1\times1</m> blocks that fill the interior, 
   we can use the area formula for a rectangle, and we know that
   the area of a region is equal to the sum of the area of its parts. 
   Hopefully, you will agree that length should also be additive; namely,
@@ -95,7 +95,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 </p>
 <p> 
   As we encounter and state new definitions, these too 
-  will be added to our tool box. As you work through the next exploration, you will 
+  will be added to our toolbox. As you work through the next exploration, you will 
   encounter terms like trapezoid and isosceles. Definitions for these and other terms are 
   provided at the end of this section in case you would like to refresh your memory. You can 
   also use the index or textbook's search tool to find definitions.
@@ -138,7 +138,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   <p> 
     To complete this exploration, you will need to move the seven tangram pieces 
     around. If you do not have a set of tangrams, you may print and cut out the 
-    shapes shown above. A tangram interactive is also availabe on Polypad by Amplify
+    shapes shown above. A tangram interactive is also available on Polypad by Amplify
     via the link
     <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">  
       Interactive Tangrams on Polypad by Amplify
@@ -183,7 +183,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 <task>
   <statement>
   <p> 
-    Still assuming that length of each side of the square is 1 unit,
+    Still assuming that the length of each side of the square is 1 unit,
     now find the lengths of the sides of the other tangram shapes. You may use the 
     Pythagorean Theorem, but it is possible to determine these lengths 
     without it!
@@ -263,7 +263,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 
 </exploration>
   <p>
-    In this exercise, we have practiced using our initial principles and 
+    In this exercise, we practiced using our initial principles and 
     identified some tools, namely the Pythagorean Theorem and the area formula 
     for a triangle, that will be developed later. We also noted that there are 
     multiple ways to solve a problem. Solutions do not need to use formulas and 
@@ -688,8 +688,9 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             <ol>
               <li>
                 <p>
-                  Label a side of triangle <m>\Delta ABC</m> as the base. Then draw 
-                  an label the altitude of the triangle corresponding to that base.
+                  Label a side of triangle <m>\Delta ABC</m> as the base. Then 
+                  draw and label the altitude of the triangle corresponding to 
+                  that base.
                 </p>
               </li>
               <li>
@@ -890,7 +891,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       <exercise>
         <statement>
           <p>
-            By the time students reaches college, they already have some geometry tools  
+            By the time students reach college, they already have some geometry tools  
             in their toolbox. What <sq>geometric tools</sq> do you bring to the course? 
             Of these tools, which do you feel comfortable using and which do you need to 
             learn more about? You may include tools that we have not yet covered in this  

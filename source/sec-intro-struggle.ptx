@@ -13,11 +13,11 @@
       </p>
       <p>
         Throughout our lives, we grow by challenging ourselves to move beyond our comfort zone. 
-        We learn to read and write, to play games and sports, to cook, make music, or create art. 
+        We learn to read and write, play games and sports, cook, make music, or create art. 
         Our brains are muscles that develop as we attempt new challenges. The 
         nature of mathematics involves struggling with a problem, trying different 
         strategies, taking breaks but persisting, and learning from failed attempts. In the explorations 
-        in this section, 
+        of this section, 
         you may find that some of the problems are easy, but others require looking at 
         the problem in new ways and trying different strategies. Accept the challenge, 
         try out different ideas, and don't worry about making mistakes. Allow these attempts to 
@@ -96,7 +96,7 @@
                 polypad.org/DLddLdVKLW461A</url>-->
               select the <sq>line</sq> tool near the bottom. Then click and drag from one dot to 
               another to create line segments. An easier to use GeoBoard is accessible from 
-              <url href="apps.mathlearningcenter.org/geoboard/">apps.mathlearningcenter.org/geoboard/
+              <url href="https://apps.mathlearningcenter.org/geoboard/?h78p720a">apps.mathlearningcenter.org/geoboard/
               </url>, but gives a 5x5 board instead of 4x4.
             </p>
           </aside>
@@ -205,10 +205,10 @@
         Once you understood 
         how to create and measure shapes on the geoboard, you probably found  
         triangles with areas of <m>\frac{1}{2}, 1, 
-        \frac{3}{2}, 2, 3</m>, and <m>\frac{9}{2},</m>. In fact, you might have found  
+        \frac{3}{2}, 2, 3</m>, and <m>\frac{9}{2}</m>. In fact, you might have found  
         multiple triangles with these areas. Yet the remaining areas may
         seem impossible. If you are still in this situation, think about why these  
-        same six areas keeping occurring. What do these triangles have in common?  
+        same six areas keep occurring. What do these triangles have in common?  
         What other types of triangles exist on the GeoBoard?
       </p>
       <p>
@@ -222,9 +222,9 @@
       <p>
         There are many lessons to be learned here that go beyond measuring area. 
         Mathematics is not about doing fast calculations with provided formulas or 
-        following steps. Instead, it requires persistance, creative thinking, and 
+        following steps. Instead, it requires persistence, creative thinking, and 
         exploring multiple strategies. Sometimes it is helpful to walk away from a problem for a 
-        little while and to look at it differently when you return to it. It helps to 
+        little while and to return to it with a different perspective. It helps to 
         share ideas with others even when you do not know where they will lead. 
       </p>
       <p>
@@ -236,14 +236,15 @@
       </p>
       <p>
         Each student brings their own individual strengths to 
-        the class. Some are great at remembering and applying formulas, some are 
-        great at drawing sketches, some recognize patterns, some build on others' 
-        ideas, some explain results and connections. In fact, you may find yourself  
+        the class. Some are great at remembering and applying formulas while others are 
+        great at drawing sketches. Some have a talent for recognizing patterns or building 
+        on others' ideas while other students are adept at explaining results and connections. 
+        In fact, you may find yourself  
         contributing in different ways on different activities. The important thing 
         is to believe in yourself and be open to trying new things. Unfortunately, 
         most people believe the myth that they can't do math. They spend too much energy
         comparing themselves to others. Math is not about being perfect or fast.
-        Instead it is about exploring, creating, experimenting, conjecturing, applying,
+        Instead, mathematics is about exploring, creating, experimenting, conjecturing, applying,
         and justifying.
       </p> 
       <p>
@@ -251,11 +252,11 @@
         alternative approaches or to pursue your ideas. This particular topic might 
         not have engaged you in the same way as it did others. Or maybe it was just 
         an off day. There will be more opportunities  
-        to overcome challenges throughout this book, and so long as you are open to 
+        to overcome challenges throughout this book. As long as you are open to 
         learning and exploring your own ideas, your mathematical ability 
         and confidence will grow. After all, the course has just 
         started, and you are just adapting to this book and its style, your 
-        instructor and your classmates. By the way, your brain may hurt a little as 
+        instructor, and your classmates. By the way, your brain may hurt a little as 
         you confront and conquer mathematical challenges. Like every other muscle in 
         your body, a little soreness means that you are growing in strength. Success  
         comes from overcoming the struggle, from remembering and building on your 
@@ -266,14 +267,14 @@
       <title>A Geometric Tool and an Algebraic Tool</title>
       <p> 
         As we have noticed in this section, not all segments are horizontal or 
-        vertical. To determine lengths of these slanted segments on a grid, the 
+        vertical. To determine the lengths of these slanted segments on a grid, the 
         <xref ref="thm-Pythagorean">Pythagorean Theorem</xref> will be helpful. 
         The Pythagorean Theorem allows us to find the lengths of the sides 
         of right triangles using the fact that <m>a^2+b^2=c^2</m> where <m>c</m>
         is the length of the hypotenuse and  <m>a</m>
-        and <m>b</m> are the lengths of the legs of the triangle. We will see study 
-        the Pythagorean 
-        Theorem and explore why it holds in <xref ref="sec-polygons-length"/>.
+        and <m>b</m> are the lengths of the legs of the triangle. A more in-depth
+        exploration of the Pythagorean 
+        Theorem will be pursued in <xref ref="sec-polygons-length"/>.
       </p>
       <p>
         Applying the Pythagorean Theorem requires facility with the algebraic operation
@@ -316,7 +317,7 @@
                 <m>\sqrt{0}</m>
               </li>
               <li>
-                <m>2\sqrt{2}</m>
+                <m>\sqrt{3}\cdot\sqrt{3}</m>
               </li>
               <li>
                 <m>\sqrt{2\cdot 2}</m>
@@ -324,6 +325,18 @@
             </ol>
           </p>
         </statement>
+        <hint>
+          <p>
+            One answer is not a real number.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            a. 7, b. 30, c. is not a real number, d. <m>\frac{4}{5}=0.8</m>,
+            e. <m>\sqrt{9}=3</m>, f. <m>5-4=1</m>, g. 12345678, h. 0,
+            i. 3, j. 2
+          </p>
+        </answer>
       </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-intro-struggle">
@@ -396,11 +409,14 @@
           Discuss the emotions that you experienced as you were working on this  
           activity. Did you encounter moments when you felt stuck? How long did 
           that last? What helped you persist through the process? Were you able to 
-          get unstuck without being told answers? How did that make you feel? Feel 
-          free to discuss other emotional stages of this activity. If this particular 
-          activity did not challenge you as much as one of the earlier ones, your 
-          instructor may give you permission to discuss one of those instead. Be  
-          sure to discuss the emotions associated with struggle and challenge.
+          get unstuck without being told answers? How did that make you feel? Discussion 
+          of other emotional stages of this activity is allowed provided that you 
+          focus on the emotions associated with the struggle and challenge of 
+          conquering a mathematical task. 
+        </p>
+        <p>
+          If this particular activity did not challenge you as much as an earlier one, then your 
+          instructor <em>may</em> give you permission to discuss one of those instead. 
         </p>
       </statement>
       </exercise>

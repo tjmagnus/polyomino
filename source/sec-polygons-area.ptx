@@ -19,7 +19,7 @@
         <title>Discovering an Area Formula for a Parallelogram</title>
         <introduction>
             <p>
-                Refer to the definition of parallogram <xref ref="def-parallelogram"/>
+                Refer to the definition of parallelogram <xref ref="def-parallelogram"/>
                 as needed to complete the following.
             </p>
         </introduction>
@@ -36,7 +36,7 @@
                         </li>
                         <li>
                             <p>
-                                A parallelogram with a least one acute angle 
+                                A parallelogram with at least one acute angle 
                                 and four congruent sides.
                             </p>
                         </li>
@@ -354,7 +354,7 @@
         </title>
         <p>
             Adding the formula <m>A=\frac{1}{2}(b_1+b_2)h</m> for the area of a 
-            trapezoid, we now have four area formulas in our tool box. One could 
+            trapezoid, we now have four area formulas in our toolbox. One could 
             continue to add more: kites, pentagons, hexagons, etc., but 
             the list would become unwieldly and unhelpful. 
             <idx><h>trapezoid</h><h>area</h></idx>
