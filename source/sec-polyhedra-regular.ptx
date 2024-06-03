@@ -17,25 +17,27 @@
                 A <term>polyhedron (plural: polyhedra)</term> is a 
                 three-dimensional closed figure in which all of the faces are polygons. 
                 Unless stated otherwise, we will assume that a polyhedron is convex so  
-                that it has no spikes, or dimples. Any line segment connecting two points 
+                that it has no valleys or depressions. Any line segment connecting two points 
                 on the surface of a convex polyhedron will only contain points on the surface or 
                 interior of the polyhedron.
             </p>
+            <!--Add pictures!-->
             <p>
                 Here, a <term>face</term> of a geometrical solid refers to a flat surface 
                 that forms part of the boundary of the solid. The line segments where two 
-                faces meet are called <term>edges</term>, and the <sq>corners</sq> where  
+                faces meet are called <term>edges</term>, and the points where  
                 edges meet are called the <term>vertices</term> of the polyhedron. The  
-                vertices of the polyhedron are also vertices of its polygonal faces. <!--Unless  
-                specified otherwise, we will be measuring the angles formed by a pair of edges  
-                which is the same as measuring the angle of a vertex of a polygonal face.-->
+                vertices of the polyhedron are also vertices of its polygonal faces. 
             </p>
             <p>
                 While it is not incorrect to call a face of a polyhedron a <sq>side</sq>,
                 one should be careful to distinguish between a face of the polyhedron and 
                 a side of a polygon (which is an edge of the polyhedron). Using the terms
-                <term>face</term> and <term>edge</term> will make our discussions about polyhedron 
+                <term>face</term> and <term>edge</term> will make our discussions about polyhedra 
                 clearer.
+            </p>
+            <p>
+                Similarly, 
             </p>
         </statement>
     </definition>
@@ -134,6 +136,13 @@
             <title>Angle Measures at a Vertex</title>
             <statement>
                 <p>
+                    Note that a polyhedron has more than one type of angle. 
+                    In this section, we will be considering angles whose rays are 
+                    adjacent edges of the polyhedron. Each of these angles is a vertex 
+                    angle of one of the faces of the polyhedron; hence, we may refer to them 
+                    as <term>face angles</term>.<fn>This is <em>not</em> the same as a dihedral angle, the angle which 
+                    is the space between two faces, nor is it the same as a polyhedral
+                    angle, an intersection of dihedral angles at a vertex.</fn>
                     <ol>
                         <li>
                             When we constructed tilings of the plane 
@@ -177,16 +186,16 @@
                         </p>
                     </aside>
                 <p>
-                    Which regular polyhedra can be formed using equilateral triangles? To answer this  
+                    Which regular polyhedra can be formed using <em>only</em> equilateral triangles? To answer this  
                     question, we will consider the possible number of triangles that could meet at each 
                     vertex and attempt to construct the polyhedron, making sure that we keep the vertex   
-                    arrangement consistent. A summary chart <xref ref="table-regpolyhedra-triangles"/> is 
-                    provided at the end of this task to organize your discoveries.
+                    arrangement consistent. Your answers to the questions will help you complete a summary 
+                    table <xref ref="table-regpolyhedra-triangles"/>.
                     <ol>
                         <li>
                             <p>
-                                What happens when you try to construct a polyhedron with only two triangles meeting at 
-                                a vertex? 
+                                What happens when you try to construct a polyhedron with only two triangles, and
+                                no other shapes, meeting at a vertex? 
                             </p>
                         </li>
                         <li>
@@ -257,7 +266,7 @@
                         <li>
                             <p>
                                 What is the largest number of triangles that can meet at a vertex to form a corner or point of a 
-                                polyhedron? What happens when you squeeze one more triangle in at the vertex?
+                                polyhedron? What happens when you squeeze one more triangle in at a vertex?
                             </p>
                         </li>
                         <li>
@@ -307,8 +316,9 @@
             <title>A Nonregular Polyhedron made from Regular Triangles</title>
             <statement>
                 <p>
-                    There is a polyhedron that can be constructed using a total 
-                    of six equilateral triangles. Build it and then explain why it 
+                    There is a polyhedron that can be constructed which has exactly six 
+                    faces, all being equilateral triangles. Build this polyhedron, 
+                    and then explain why it 
                     does not satisfy the definition of a regular polyhedron. 
                 </p>
             </statement>
@@ -333,8 +343,8 @@
                                         <p>
                                             Is it possible to create a regular polyhedron using 
                                             only squares? If so, determine the number of squares that 
-                                            must meet at each vertex and then construct the polyhedron. 
-                                            Carefully describe this polyhedron and/or save a picture.
+                                            must meet at each vertex. Then construct or describe the polyhedron. 
+                                            Record a picture.
                                         </p>
                                         <aside>
                                             <p>
@@ -349,10 +359,10 @@
                                     </li>
                                     <li>
                                         <p>
-                                            If the construction was possible, count the faces at each 
+                                            If the construction is possible, count the faces at each 
                                             vertex, the total number of faces, the total number of edges, 
-                                            and the total number of vertices. Record the information in the 
-                                            table below.
+                                            and the total number of vertices. Record the information in 
+                                            <xref ref="table-regpolyhedra-sq-pent"/> below.
                                         </p>
                                     </li>
                                     <li>
@@ -399,8 +409,8 @@
                                         <p>
                                             If the construction was possible, count the faces at each 
                                             vertex, the total number of faces, the total number of edges, 
-                                            and the total number of vertices. Record the information in the 
-                                            table below.
+                                            and the total number of vertices. Record the information in 
+                                            <xref ref="table-regpolyhedra-sq-pent"/> below.
                                         </p>
                                     </li>
                                     <li>
@@ -519,7 +529,8 @@
             <exercise>
                 <statement>
                     <p>
-                        Identify by name and picture three examples of polyhedra that are not regular.
+                        Identify by name and/or picture three examples of polyhedra that are not regular.
+                        Explain why each is not regular. 
                     </p>
                 </statement>
             </exercise>
