@@ -37,11 +37,18 @@
                 clearer.
             </p>
             <p>
-                Similarly, 
+                Note also that a polyhedron has more than one type of angle. 
+                In this section, we will be working with angles whose rays are 
+                adjacent edges of the polyhedron. Each of these angles is a vertex 
+                angle of one of the faces of the polyhedron; hence, we may refer to them 
+                as <term>face angles</term>.<fn>This is <em>not</em> the same as a <term>dihedral angle</term>,  
+                measuring the space between two faces<!--, nor is it the same as a <term>polyhedral
+                angle</term>.--></fn>
+                <idx><h>face angle</h></idx>
+                <idx><h>angle of polyhedron</h><h>face angle</h></idx>
             </p>
         </statement>
     </definition>
-
     <exercise>
         <statement>
             <p>
@@ -83,7 +90,7 @@
             Just as with polygons and tilings, we describe some 
             polyhedra as <term>regular polyhedra</term>. These special 
             solids were identified by Greek mathematicians around 300 B.C.,
-            appear in ancient art work,  
+            appear in ancient and modern art work,  
             and are used to model chemical and biological structures today. 
             In this section, we will find that only there are only a handful 
             of polyhedra that meet the criteria of being regular.
@@ -135,14 +142,7 @@
         <task>
             <title>Angle Measures at a Vertex</title>
             <statement>
-                <p>
-                    Note that a polyhedron has more than one type of angle. 
-                    In this section, we will be considering angles whose rays are 
-                    adjacent edges of the polyhedron. Each of these angles is a vertex 
-                    angle of one of the faces of the polyhedron; hence, we may refer to them 
-                    as <term>face angles</term>.<fn>This is <em>not</em> the same as a dihedral angle, the angle which 
-                    is the space between two faces, nor is it the same as a polyhedral
-                    angle, an intersection of dihedral angles at a vertex.</fn>
+                    <p>
                     <ol>
                         <li>
                             When we constructed tilings of the plane 
@@ -152,9 +152,9 @@
                             What was that sum?
                         </li>
                         <li>
-                            Why must the total degree of the angles surrounding a vertex be 
-                            less than that amount if 
-                            we are building a polyhedron?
+                            Why must the total degree of the face angles surrounding 
+                            a vertex be less than that amount if 
+                            we are building a polyhedron instead of a tiling?
                         </li>
                     </ol>
                 </p>
@@ -189,8 +189,8 @@
                     Which regular polyhedra can be formed using <em>only</em> equilateral triangles? To answer this  
                     question, we will consider the possible number of triangles that could meet at each 
                     vertex and attempt to construct the polyhedron, making sure that we keep the vertex   
-                    arrangement consistent. Your answers to the questions will help you complete a summary 
-                    table <xref ref="table-regpolyhedra-triangles"/>.
+                    arrangement consistent. Later you will be asked to enter the 
+                    answers to some of these questions into <xref ref="table-regpolyhedra-triangles"/>.
                     <ol>
                         <li>
                             <p>
@@ -505,12 +505,46 @@
         </task>
     </exploration>
     <p>
-        We have determined that there are exactly five regular polyhedra. They have been  
-        given the names, <term>tetrahedron</term> (four-faced), <term>hexahedron</term> 
+        We have determined that there are exactly five regular polyhedra. They have  
+        the names, <term>tetrahedron</term> (four-faced), <term>hexahedron</term> 
         (six-faced), <term>octahedron</term> (eight-faced), <term>dodecahedron</term> 
         (12-faced), and <term>icosahedron</term> (20-faced). Match these names to the polyhedra 
         you created and add these labels to the appropriate lines in your tables. 
     </p>
+    </subsection>
+    <subsection xml:id="subsec-polyhedra-reg-nets">
+        <title>Nets for Polyhedra</title>
+        <p>
+            While building your polyhedra, you may have wondered whether it was 
+            necessary to cut out and glue each polygon separately. <xref ref="fig-tetranet"/>
+            gives a triangle that can be cut out and folded along the interior lines 
+            to produce a regular tetrahedron. You may want to leave a little extra paper
+            along some of the external edges so that you have a surface for gluing them 
+            together. This pattern is called a net for the polyhedron. 
+        </p>
+        <definition xml:id="def-net">
+            <idx><h>net</h><h>polyhedron</h></idx>
+            <idx><h>polyhedral net</h></idx>
+            <statement>
+                <p>
+                    A <term>net</term>
+                    for a polyhedron is a single-piece pattern for the polyhedron that can be 
+                    folded and glued to form the solid. A net can be created by
+                    cutting the polyhedron along some of its edges and unfolding. 
+                    There are multiple nets for each polyhedron.
+                </p>
+            </statement>
+        </definition>
+        <figure xml:id="fig-tetranet">
+            <caption>A net for a regular tetrahedron</caption>
+            <image source="tetranet1">
+                <shortdescription>
+                    The midpoints of the sides of an equilateral triangle
+                    are joined by segments to divide the triangle into four congruent
+                    equilateral triangles.
+                </shortdescription>
+            </image>
+        </figure>
     </subsection>
     <exercises xml:id="exercises-polyhedra-reg">
         <title>Exercises</title>
@@ -540,6 +574,60 @@
                         What must be true about the sum of the angle measures at any vertex of 
                         a convex polyhedron?
                     </p>
+                </statement>
+            </exercise>
+        </subexercises>
+        <subexercises>
+            <title>Skills and Recall</title>
+            <exercise>
+                <title>Tetrahedral Nets</title>
+                <statement>
+                    <p>
+                      Two patterns are given in <xref ref="fig-tetranetHW"/>.
+                      Which, if any, will form a regular tetrahedron when 
+                      folded along the provided lines?  
+                    </p>
+                    <figure xml:id="fig-tetranetHW">
+                        <caption>Possible tetrahedral nets</caption>
+                        <image source="tetranet2">
+                            <shortdescription>
+                                Pattern a gives a string of four equilateral 
+                                triangles arranged in a line. The fold lines zigzag
+                                down the interior of the design. Pattern b gives four equilateral 
+                                triangles which share a common vertex.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                </statement>
+            </exercise>
+            <exercise>
+                <title>Nets for a Cube</title>
+                <statement>
+                    <p>
+                        Sketch a net for a cube and use it to construct a cube.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <title>Nets for Polyhedra?</title>
+                <statement>
+                    <p>
+                        Give an explanation for why each of the patterns in
+                        <xref ref="fig-notnetsHW"/> cannot be a net for a 
+                        regular polyhedron.
+                    </p>
+                    <figure xml:id="fig-notnetsHW">
+                        <caption>Not regular polyhedral nets</caption>
+                        <image source="notRegNet">
+                            <shortdescription>Pattern a has six squares. Four
+                                are in a row and there is one below the first 
+                                and the last. Pattern b has three squares and two 
+                                triangles. One square touches all the other shapes.
+                                Pattern c is a strip of six alternating regular 
+                                triangles.
+                            </shortdescription>
+                        </image>
+                    </figure>
                 </statement>
             </exercise>
         </subexercises>
