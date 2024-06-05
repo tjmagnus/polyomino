@@ -621,10 +621,12 @@
                         <image source="notRegNet">
                             <shortdescription>Pattern a has six squares. Four
                                 are in a row and there is one below the first 
-                                and the last. Pattern b has three squares and two 
-                                triangles. One square touches all the other shapes.
-                                Pattern c is a strip of six alternating regular 
-                                triangles.
+                                and the last. Pattern b has three squares in a
+                                row and two equilateral triangles, one each along the top edge
+                                of the center square and along the bottom edge of the center 
+                                square. Pattern c is a strip of six alternating regular 
+                                triangles. Pattern d has four 1.3x2 rectangles and 
+                                two 1.3x1.3 squares.
                             </shortdescription>
                         </image>
                     </figure>
