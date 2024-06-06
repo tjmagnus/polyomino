@@ -557,14 +557,6 @@
                     </p>
                 </statement>
             </exercise>
-            <exercise>
-                <title>Nets for </title>
-                <statement>
-                    <p>
-                        REVISE
-                    </p>
-                </statement>
-            </exercise>
         </subexercises>
         <subexercises>
             <title>Extending the Concepts</title>
@@ -580,7 +572,8 @@
                     <p>
                         An <m>n</m>-gonal tripyramid has two vertices where <m>n</m> triangles meet, 
                         but at each of the <m>n</m> vertices where the pyramids are <q>glued together</q>, there 
-                        are four triangles touching. 
+                        are four isosceles triangles touching. A net for a pentagonal dipyramid is 
+                        given in <xref ref="fig-pent-dipyramid"/>.
                     </p>
                     <p>
                         Determine the number of vertices, faces, and edges for each of the following 
@@ -608,8 +601,40 @@
                             </li>
                         </ol>
                     </p>
+                    <figure xml:id="fig-pent-dipyramid">
+                        <caption>Net for a pentagonal dipyramid</caption>
+                        <image source="pentdihedralnet">
+                            <shortdescription>
+                                A net for a pentagonal dipyramid
+                                consisting of ten isosceles triangles.
+                            </shortdescription>
+                        </image>
+                    </figure>
                 </statement>
             </exercise>
         </subexercises>
+        <subexercises>
+            <title>Writing Prompts</title>
+            <exercise>
+              <statement>
+                <p>
+                  Write a letter to a friend describing one thing you found to be 
+                  surprising or interesting in this section or 
+                  <xref ref="sec-polyhedra-regular"/>. What questions do you have that would 
+                  be interesting to explore?
+                </p>
+              </statement>
+            </exercise>
+            <exercise>
+              <statement>
+                <p>
+                  When three-dimensional objects are described verbally or illustrated 
+                  in a two-dimensional space, it can be difficult to visualize. Discuss 
+                  the challenges you have encountered with visualizing these solids and 
+                  the techniques you have used to overcome these challenges.  
+                </p>
+              </statement>
+            </exercise>
+          </subexercises>
     </exercises>
 </section>

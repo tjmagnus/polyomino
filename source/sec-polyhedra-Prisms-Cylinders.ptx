@@ -6,15 +6,15 @@
             We now explore the geometric solid known as a <term>prism</term> in 
             greater detail. As noted in <xref ref="def-prism"/>, a prism is a 
             box-like geometric solid with a pair of congruent and parallel polygonal  
-            faces, the base and the summit, joined by a band of parallelograms.
+            faces, called the base and the summit, joined by a band of parallelograms.
             The number of parallelograms connecting the bases will always equal 
-            the number of sides of a base.
+            the number of sides of each base.
         </p>
         <p>
             We are most familiar with <term>right prisms</term>, namely prisms 
             where the bases meet all the side faces at right angles; the side faces of a 
-            right prism are rectangles. An <term>oblique prism</term> is a prism with 
-            at least one side face is not a rectangle.  
+            right prism are rectangles. An <term>oblique prism</term>, on the other hand, 
+            will have parallelograms other than rectangles as its side faces.  
             <idx><h>right prism</h></idx>
             <idx><h>oblique prism</h></idx>
             <idx><h>prism</h><h>oblique</h></idx>
@@ -22,7 +22,7 @@
         </p>
         <figure xml:id="fig-rt-skew-prism">
             <caption>Right and Oblique Prisms</caption>
-            <sidebyside widths="48% 48%">
+            <sidebyside widths="50% 50%">
                 <figure xml:id="fig-rt-prism">
                     <caption>Right Prism</caption>
                 <image source="rightprism">
@@ -62,13 +62,13 @@
             <statement>
                 <p>
                     Besides the parallel circles, what other shape(s) is needed 
-                    to form the boundary of a cylinder? How many of these shapes are there?
+                    to form the surface of a right cylinder? How many of these shapes are there?
                 </p>
             </statement>
             <hint>
                 <p>
-                    Cut out pieces of paper to cover a cylindrical can. In addition to 
-                    the two circles, what else do you need?
+                    Cut two circles out of paper to cover a cylindrical can. What else do 
+                    you need to cover the exposed surface?
                 </p>
             </hint>
             <answer>
@@ -91,16 +91,15 @@
                     The <term>height</term> of a prism or cylinder is the distance between the 
                     parallel congruent bases and is measured along a line perpendicular to the 
                     bases. When a prism or cylinder is sitting on a side other than a
-                    base, the height will be measured laterally instead of vertically. In fact, 
-                    this text will use the word <term>stretch</term> in lieu of <sq>height</sq> where 
-                    confusion may occur. 
+                    base, the height will be measured laterally instead of vertically. In this 
+                    text, the word <term>stretch</term> will be used in lieu of <sq>height</sq> 
+                    to clarify which dimension is being discussed.  
                 </p>
                 <p>
-                    The height or stretch of a right prism is usually measured along an 
+                    The stretch (or height) of a right prism is usually measured along an 
                     edge of one of the rectangular sides, like <m>d</m> in <xref ref="fig-rt-prism"/>.
-                    The stretch of a skew prism, on the other hand, 
-                    will be less than the height of a side face as illustrated in 
-                    <xref ref="fig-skew-prism"/>.
+                    On the other hand, the stretch of a skew prism, such as the one illustrated in 
+                    <xref ref="fig-skew-prism"/>, will be less than the height of a side face.
                 </p>
             </statement>
         </definition>
@@ -158,8 +157,9 @@
                         the height as the number of layers. Not all measurements are whole 
                         numbers though. Instead we can think of <m>h</m> as the amount that 
                         we need to stretch that first layer to reach the summit of the prism.
-                        Suppose that our rectangular prism has the dimensions, <m>\ell=5</m>
-                        inches, <m>w=6</m> inches, and a stretch of <m>d=2.5</m> inches. Find the 
+                        Consider the rectangular prism in <xref ref="fig-prismwithhalfunits"/> 
+                        with base dimensions, <m>\ell=5</m>
+                        inches and <m>w=6</m> inches, and a stretch of <m>d=2.5</m> inches. Find the 
                         volume of the prism.
                     </p>
                     <aside>
@@ -169,6 +169,12 @@
                             can be paired to create full <m>1''\times 1''\times 1''</m>-cubes.
                         </p>
                     </aside>
+                    <figure xml:id="fig-prismwithhalfunits">
+                        <caption>A prism with dimensions 5x6x2.5.</caption>
+                        <image source="prism5x6x2.5.png">
+                            <shortdescription>A prism.</shortdescription>
+                        </image>
+                    </figure>
                 </statement>
             </task>
             <task>
