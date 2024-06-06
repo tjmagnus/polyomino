@@ -29,7 +29,7 @@
         </definition>
         <figure xml:id="fig-SqPyramid">
             <caption>A square pyramid</caption>
-            <image source="SqPyramid1.png">
+            <image source="SqPyramid1.png" width="60%">
                 <shortdescription>A pyramid with a square base.</shortdescription>
             </image>
         </figure>

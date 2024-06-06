@@ -29,9 +29,10 @@
                     </ul>
                 </p>
                 <p>
-                    The notation for a vertex arrangement of a polyhedron is the same as what we  
-                    used for tilings. A cube would be denoted 4.4.4 because there 
-                    are three squares meeting at any vertex of the cube. 
+                    The notation for a vertex arrangement of a regular or semi-regular 
+                    polyhedron is the same as what we used for tilings. 
+                    For example, the vertex arrangement for a cube would be 
+                    4.4.4 because there are three squares meeting at any vertex of the cube. 
                 </p>
             </statement>
         </definition>
@@ -70,7 +71,12 @@
                         What is the sum of three angle measures at any one vertex?
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
-                        <caption>Great Rhombicosidodecahedron</caption>
+                        <caption>Great Rhombicosidodecahedron<fn>Illustration produced by Robert Webb's 
+                            <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
+                            class="extiw" title="en:Stella (software)">Stella software</url>  
+                            accessible via <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
+                                http://www.software3d.com/Stella.php</url>. 
+                            </fn></caption>
                         <image component="web" source="Great_rhombicosidodecahedron1.svg" width="40%">
                             <shortdescription>
                                 The front side of a great 
@@ -92,21 +98,6 @@
                             </shortdescription>
                         </image>
                     </figure>
-                    <aside>
-                        <p>
-                            Illustration produced by Robert Webb's 
-                            <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
-                            class="extiw" title="en:Stella (software)">Stella software</url> 
-                            as the creator of this image along with a link to the website: 
-                            <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
-                                http://www.software3d.com/Stella.php</url>. 
-                            <!--A complimentary copy of any book or poster using images from the 
-                            Software would also be appreciated where feasible., -->
-                            Attribution, <url href="https://commons.wikimedia.org/w/index.php?curid=1695513">Link</url>
-                        <!--<url 
-                        href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Great_rhombicosidodecahedron.png"/>-->
-                        </p>
-                    </aside>
                 </statement>
             </task>
             <task>
@@ -135,7 +126,12 @@
                     </p>
                 <figure xml:id="icosidod-solid">
                         <caption>
-                            The Icosidodecahedron
+                            The Icosidodecahedron<fn>Illustration produced by Robert Webb's 
+                                <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
+                                class="extiw" title="en:Stella (software)">Stella software</url>  
+                                accessible via <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
+                                    http://www.software3d.com/Stella.php</url>. 
+                                </fn>
                         </caption>
                         <image component="web" source="icosidodecahedron.svg" width="40%">
                             <shortdescription>A picture of an icosidodecahedron</shortdescription>
@@ -144,21 +140,6 @@
                             <shortdescription>A picture of an icosidodecahedron</shortdescription>
                         </image>
                     </figure>
-            <aside>
-                <p>
-                    Illustration produced by Robert Webb's 
-                    <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
-                    class="extiw" title="en:Stella (software)">Stella software</url> 
-                    as the creator of this image along with a link to the website: 
-                    <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
-                        http://www.software3d.com/Stella.php</url>. 
-                    <!--A complimentary copy of any book or poster using images from the 
-                    Software would also be appreciated where feasible., -->
-                    Attribution, <url href="https://commons.wikimedia.org/w/index.php?curid=1695513">Link</url>
-                <!--<url 
-                href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Great_rhombicosidodecahedron.png"/>-->
-                </p>
-            </aside>
         </statement>
             </task>
             <task xml:id="Archimedean-construction-extension">
@@ -258,7 +239,7 @@
                         <row bottom="minor">
                             <cell>Triangle</cell>
                             <cell></cell>
-                            <cell></cell>
+                            <cell>6</cell>
                             <cell></cell>
                         </row>
                         <row bottom="minor">
@@ -353,54 +334,57 @@
                 </p>
                 <table xml:id="table-antiprism">
                     <title>Attributes of Antiprisms</title>
-                    <tabular>
-                        <row header="yes" bottom="minor">
+                    <tabular halign="center" row-headers="yes">
+                        <col right="medium"/>
+                        <col right="minor"/>
+                        <col right="minor"/>
+                        <row header="yes" bottom="medium">
                             <cell>Shape of base</cell>
                             <cell>Number of faces <m>F</m></cell>
                             <cell>Number of vertices <m>V</m></cell>
                             <cell>Number of edges <m>E</m></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Triangle</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell>6</cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Quadrilateral</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Pentagon</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Hexagon</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Heptagon (7)</cell>
                             <cell>16</cell>
                             <cell>14</cell>
                             <cell>28</cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell>Octagon</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
-                        <row>
+                        <row bottom="minor">
                             <cell><m>n</m>-gon</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
-                            <cell>?</cell>
+                            <cell></cell>
+                            <cell></cell>
+                            <cell></cell>
                         </row>
                     </tabular>
                 </table>
@@ -421,7 +405,7 @@
         <p>
             In this section we discovered two families of semiregular polygons: 
             prisms and antiprisms. We can also create prisms and antiprisms which  
-            have faces are not regular. In particular, the sides of a prism need not be  
+            have irregular faces. In particular, the sides of a prism need not be  
             squares, they could be rectangles or other parallelograms. The sides of an 
             antiprism do not need to be equilateral. Moreover, the bases of a prism or antiprism may 
             be any polygon whatsoever.
@@ -450,8 +434,8 @@
             of the prism or antiprism. The top base may be called the <term>summit</term>  
             in which case the bottom would be called the <term>base</term>. We specify the 
             type of prism or pyramid by shape of its base so that the 
-            prism with a <m>4.4.n</m>-vertex configuration is called an <term><m>n</m>
-            -gonal prism</term>. Of course, we  
+            prism with a <m>4.4.n</m>-vertex configuration is called an 
+            <term><m>n</m>-gonal prism</term>. Of course, we  
             can set a polyhedron on any of its faces. Sometimes the base(s) will be appear 
             to be at the ends of the solid rather than at the top and bottom.
             <idx><h>base</h><h>prism</h></idx>
@@ -509,11 +493,11 @@
                     </p>
                     <aside>
                         <p>
-                            This identity, which holds for all polyhedra, is called <term>Euler's Formula</term>
+                            This identity, which holds for all polyhedra, is called <term>Euler's Identity</term>
                             after the mathematician Leonhard Euler (1707-1783) although Francesco 
-                            Maurolico stated the formula for regular polyhedra in 1537. Euler was 
+                            Maurolico stated the equation for regular polyhedra in 1537. Euler was 
                             a prolific mathematician who worked in many different areas of mathematics. 
-                            In fact, if you search for Euler's formula, you will find other identities also 
+                            In fact, if you search for Euler's identity, you will find other identities also 
                             named for him, notably the complex number identity, 
                             <m>e^{i\theta}=cos \theta +i sin \theta</m>, or its special case,
                             <m>e^{i\pi}+1=0</m>.
@@ -525,6 +509,7 @@
         <subexercises> 
             <title>Skills and Recall</title>
             <exercise>
+                <title>Counting Vertices, Faces, and Edges</title>
                 <statement>
                     <p>
                         An octadecagon is an 18-gon. 
@@ -564,10 +549,19 @@
                 </statement>
             </exercise>
             <exercise>
+                <title>Applying Euler's Identity</title>
                 <statement>
                     <p>
-                        A pentagonal cupola is a polyhedron with 12 faces and 25 edges.
+                        A pentagonal cupola is a convex polyhedron with 12 faces and 25 edges.
                         Determine how many vertices a pentagonal cupola must have.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <title>Nets for </title>
+                <statement>
+                    <p>
+                        REVISE
                     </p>
                 </statement>
             </exercise>
@@ -575,14 +569,44 @@
         <subexercises>
             <title>Extending the Concepts</title>
             <exercise>
+                <title>Dipyramids</title>
                 <statement>
                     <p>
-                        GENERALIZE TO ALL BIPYRAMIDS????
-                        A hexagonal bipyramid looks like two hexagonal pyramids glued 
-                        together at their bases to form a diamond-shaped solid. All of its faces 
-                        are triangular. At two of the vertices, there are six triangles meeting at a 
-                        single point, but where the pyramids are <q>glued together</q>, there 
-                        are four triangles meeting at each point. INCOMPLETE!!!!
+                        The regular octahedron looks like two congruent square pyramids glued together. 
+                        Solids formed in this way are called <term>dipyramids</term>. Thus, the 
+                        regular octahedron is also called a square dipyramid. You should have built
+                        a triangular dipyramid in <xref ref="task-tridipyramid"/>.
+                    </p>
+                    <p>
+                        An <m>n</m>-gonal tripyramid has two vertices where <m>n</m> triangles meet, 
+                        but at each of the <m>n</m> vertices where the pyramids are <q>glued together</q>, there 
+                        are four triangles touching. 
+                    </p>
+                    <p>
+                        Determine the number of vertices, faces, and edges for each of the following 
+                        types of dipyramids. Do not count the bases of the pyramids as a face.
+                        <ol>
+                            <li>
+                                <p>
+                                    A triangular dipyramid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A pentagonal dipyramid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A hexagonal dipyramid
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    An <m>n</m>-gonal dipyramid
+                                </p>
+                            </li>
+                        </ol>
                     </p>
                 </statement>
             </exercise>

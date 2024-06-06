@@ -312,7 +312,7 @@
                     </table>
             </statement>
         </task>
-        <task>
+        <task xml:id="task-tridipyramid">
             <title>A Nonregular Polyhedron made from Regular Triangles</title>
             <statement>
                 <p>
