@@ -36,9 +36,9 @@
             </sidebyside>
         </figure>
         <p>
-            Although a cylinder is not a polyhedron since it has a circular 
-            base, we will see that there are some similarities between prisms and
-            cylinders. Both have parallel, congruent bases.
+            A cylinder is not a polyhedron since it has circular 
+            bases; however, there are some important similarities between prisms and
+            cylinders. Both have parallel, congruent bases.  
         </p>
         <figure xml:id="fig-rt-skew-cyl">
             <caption>Right and Oblique Cylinders</caption>
@@ -99,7 +99,9 @@
                     The stretch (or height) of a right prism is usually measured along an 
                     edge of one of the rectangular sides, like <m>d</m> in <xref ref="fig-rt-prism"/>.
                     On the other hand, the stretch of a skew prism, such as the one illustrated in 
-                    <xref ref="fig-skew-prism"/>, will be less than the height of a side face.
+                    <xref ref="fig-skew-prism"/>, will be less than the height of a side face. Similarly,
+                    the stretch of a cylinder is also measured at a right angle to the base as 
+                    indicated by <m>d</m> in <xref ref="fig-rt-skew-cyl"/>.
                 </p>
             </statement>
         </definition>
@@ -112,7 +114,7 @@
             you appreciate and remember how to find volume.
         </p>
         <exploration xml:id="exp-vol-intuitive">
-            <title>What is Volume</title>
+            <title>Understanding Volume</title>
             <task>
                 <statement>
                     <p>
@@ -182,13 +184,19 @@
                     <p>
                         This notion of stretching the bottom layer holds for all prisms and cylinders, 
                         not just rectangular ones. Suppose a cylinder has a circular base with area 
-                        9.4 square centimeters.
+                        9.4 square centimeters. If the cylinder is one centimeter tall, we will say that 
+                        the volume is <m>9.4\times 1=9.4</m> cubic centimeters.
                         <ol>
                             <li>
-                                If the cylinder is one centimeter tall, what is the volume of the cylinder? 
+                                If the cylinder is two centimeters tall, how should the volume
+                                compare to that of the one-centimeter-tall cylinder with
+                                the same base? What is the volume?
                             </li>
                             <li>
-                                If the cylinder is two centimeters tall, what is the volume?
+                                <p>
+                                    If the cylinder is three centimeters tall,
+                                    what is the volume?
+                                </p>
                             </li>
                             <li>
                                 If the cylinder is five centimeters tall, what is the volume?
@@ -207,15 +215,18 @@
         <p>
             Exploration <xref ref="exp-vol-intuitive" text="title"/> showed that the 
             the volume of a prism or cylinder was equal to the area of the base 
-            times the number of horizontal layers.  While you may be used to the 
-            formula <m>V=\ell wh</m>, this formula only works for rectangular prisms. 
-            Instead, note that this formula <m>V=(\ell w)d</m> is equivalent to the 
+            times the number of horizontal layers.  Although you may be familiar with the 
+            formula <m>V=\ell wh</m>, it is preferable to have a single formula that
+            allows us to compute the volume of all prisms, not just rectangular prisms. 
+            Note that the formula <m>V=(\ell w)d</m> is equivalent to the 
             formula <m>V=Ad</m> where <m>A=\ell w</m>  is the area of one base of 
-            a rectangular prism and <m>d</m> is the distance between the bases, 
+            a rectangular prism and <m>d</m> is the distance (or stretch) between the bases, 
             measured perpendicular to the bases.  This volume formula <m>V=Ad</m> 
-            will extend to ALL prisms and even cylinders!  Much less to memorize!
-            We only need to compute the area of the base and then multiply the area 
-            by the distance between the bases.
+            will extend to all prisms and even cylinders!  
+            Much less to memorize!
+            To find the volume of any prism or cylinder, whether right or oblique, 
+            we need only compute the area of the base and then multiply this area 
+            by the stretch between the bases.
         </p>
         <exploration>
             <title>Finding the Volume of Prisms and Cylinders</title>
@@ -227,7 +238,7 @@
                     </p>
                     <figure xml:id="triprism-vol">
                         <caption>Isosceles triangle right prism</caption>
-                        <image xml:id="vol-isos-tri-prism">
+                        <image source="vol-isos-tri-prism">
                             <shortdescription>
                                 Prism with isosceles triangle bases. Triangles 
                                 have base 12 feet and height 14 feet. Distance 
@@ -241,7 +252,8 @@
                 <statement>
                     <p>
                         Show all work as you compute the following measurements for the
-                        oblique cylinder in <xref ref="skewcyl-vol"/>. 
+                        oblique cylinder in <xref ref="skewcyl-vol"/>. Formulas for the area 
+                        and circumference of a circle are given in <xref ref="subsubsec-area-circle"/>.
                         <ol>
                             <li>
                                 <p>
@@ -262,7 +274,7 @@
                     </p>
                     <figure xml:id="skewcyl-vol">
                         <caption>Oblique cylinder</caption>
-                        <image xml:id="skew-cylinder-vol">
+                        <image source="skew-cylinder-vol">
                             <shortdescription>
                                An oblique cylinder with radius 4 mm and slant height 24
                                mm. A right triangle is also drawn with the slant of the cylinder 
@@ -275,10 +287,10 @@
                 </statement>
                 <hint>
                     <p>
-                        The answers to (a) and (b) involve irrational numbers, namely 
+                        The answers in (b) involve irrational numbers, namely 
                         a square root and <m>\pi</m>. Your answer to (c) will be 
                         more accurate if you use the actual square root and <m>\pi</m>, 
-                        not their estimates in your calculation of volume. If you 
+                        not their estimates, in your calculation of volume. If you 
                         do use estimates, include at least four digits after the decimal point 
                         when inputting the values into part (c).
                     </p>
@@ -338,7 +350,7 @@
                     </p>
                     <figure xml:id="fig-rtcyl-surf">
                         <caption>A right cylinder</caption>
-                        <image xml:id="right-cylinder-surfarea">
+                        <image source="right-cylinder-surfarea">
                             <shortdescription>Right cylinder with height 20 feet and diameter 
                                 10 ft.</shortdescription>
                         </image>

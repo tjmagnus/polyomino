@@ -279,7 +279,8 @@
       <p>
         Applying the Pythagorean Theorem requires facility with the algebraic operation
         of squaring and its inverse operation, the square root function. A review of how  
-        to work with squares and square roots is provided in <xref ref="subsec-algrev-sqroots"/>.
+        to work with squares and square roots is provided in 
+        <xref ref="subsec-algrev-sqroots" text="global"/> in the Backmatter.
       </p>
       
     </subsection>
