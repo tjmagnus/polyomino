@@ -43,4 +43,17 @@
             <url href="https://mathworld.wolfram.com/ArchimedeanSolid.html"></url>.
         </p>
     </subsection> 
+    <subsection>
+        <title>Notes for <xref ref="sec-polyhedra-Prisms-Cylinders"/></title>
+        <p>
+            Students find it helpful to have models of prisms and cylinders as 
+            the visualize these figures in the third dimension. The dimension 
+            height that typically appears in these volume formulas can be 
+            confusing when they encounter prisms that are laying on a side.
+            For <xref ref="surf-of-cylinder"/>, it can be helpful to bring enough 
+            toilet paper or paper towel rolls and a pair of scissors for each group.
+            Of course, you may choose to wait until students have discussed possible 
+            shapes of the surface before providing these.  
+        </p>
+    </subsection>
 </section>

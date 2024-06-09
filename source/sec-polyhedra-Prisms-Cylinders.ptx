@@ -311,7 +311,7 @@
             <task>
                 <statement>
                     <p>
-                        Create a formula for a cylinder with height <m>h</m> 
+                        Create a formula for the volume a cylinder with height <m>h</m> 
                         where the radius of each circular base is <m>r</m>. Your 
                         formula should contain the variables <m>h</m> and <m>r</m>.
                         Then check that your formula give the same result as you found in
@@ -345,8 +345,47 @@
                 <statement>
                     <p>
                         The right cylinder in <xref ref="fig-rtcyl-surf"/> has a height of 20 feet and a diameter of 
-                        10 ft. Determine the volume of each face and then compute the 
-                        surface area.
+                        10 ft. 
+                        <ol>
+                            <li>
+                                <p>
+                                    Determine the area of each circular base.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    With the circular ends removed, the cylinder 
+                                    looks like a tube, perhaps the cardboard center of a paper 
+                                    towel or toilet paper roll. If we cut this tube 
+                                    lengthwise<fn>Here, lengthwise means a long a line 
+                                    perpendicular to an edge.
+                                    </fn> and flatten it out, what shape do we get? 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    To determine the area of this flattened surface,
+                                    we will need to determine its dimensions. One of 
+                                    these dimensions will be the length of the once-circular
+                                    edge. What is the other dimension?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    To find the length of the once-circular edge, we note 
+                                    that this edge was the circumference of the circular base.
+                                    Determine this length. Then determine the area of the 
+                                    flattened surface.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Add the areas of the three surfaces of the cylinder, namely
+                                    the two circular bases and the flattened tube, to compute the 
+                                    surface area of the cylinder.
+                                </p>
+                            </li>
+                        </ol>
                     </p>
                     <figure xml:id="fig-rtcyl-surf">
                         <caption>A right cylinder</caption>
@@ -360,14 +399,160 @@
             <task>
                 <statement>
                     <p>
-                        Create a formula for a right cylinder with height <m>h</m> 
-                        where the radius of each circular base is <m>r</m>. Your 
+                        Create a general formula for a right cylinder with height <m>h</m> 
+                        where the radius of each circular base is given by the variable <m>r</m>. Your 
                         formula should contain the variables <m>h</m> and <m>r</m>.
                         Then check that your formula gives the same result as you found in
-                        <xref ref="surf-of-cylinder"/>.
+                        <xref ref="surf-of-cylinder"/> for the surface area of the cylinder in 
+                        <xref ref="fig-rtcyl-surf"/>.
                     </p>
                 </statement>
             </task>
         </exploration>
     </subsection>
+    <exercises xml:id="exercises-prismscylinders">
+        <title>Exercises</title>
+        <subexercises>
+            <title>Building Our Toolbox</title>
+            <p>
+                As you add these items to your toolbox, you are encouraged to 
+                write them in a form that is clear, thorough, and meaningful to you so that you can 
+                refer to them later.
+            </p>
+            <exercise>
+                <statement>
+                    <p>
+                        What is a prism? What is a cylinder? How are they similar?
+                        How do they differ?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        In your own words, describe what <term>volume</term> means. Then 
+                        explain how you find the volume of prisms and cylinders.
+                        You may include formula(s) and example(s). Make sure that 
+                        your response covers all types of prisms as well as cylinders.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise>
+                <statement>
+                    <p>
+                        In your own words, describe what <term>surface area</term> means. Then 
+                        explain how you find the surface area of prisms and cylinders.
+                        You may include formula(s) and example(s). Make sure that 
+                        your response covers all types of prisms as well as cylinders.
+                    </p>
+                </statement>
+            </exercise>
+        </subexercises>
+        <subexercises>
+            <title>Skills and Recall</title>
+            <exercise xml:id="SAR-vol-prisms-verbal">
+                <statement>
+                    <p>
+                        Determine the volumes of the following prisms and 
+                        cylinders:
+                        <ol>
+                            <li>
+                                <p>
+                                    A rectangular box with length 8 cm, width 3 cm,
+                                    and height 10 cm.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A triangular prism where the stretch is 6 inches
+                                    and each base is a 3-4-5 (inch) right triangle.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A cylinder with radius 15 inches and height 4 inches.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise xml:id="SAR-vol-prisms-visual">
+                <p>
+                    Determine the volumes of the prisms and cylinders sketched below.
+                    <ol>
+                        <li>
+                            <p>
+                                The cylinder in <xref ref="fig-SAR-vol-cyl"/>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The rectangular prism in <xref ref="fig-SAR-recprism"/>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The triangular prism in <xref ref="fig-SAR-triprism"/>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <sidebyside widths="33% 33% 33%">
+                    <figure xml:id="fig-SAR-vol-cyl">
+                        <caption>Cylinder for <xref ref="SAR-vol-prisms-visual"/></caption>
+                        <image source="cylinderSAR.png">
+                            <shortdescription>A cylinder with height 6 meters and
+                                radius 9 meters.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                    <figure xml:id="fig-SAR-recprism">
+                        <caption>Rectangular prism for <xref ref="SAR-vol-prisms-visual"/></caption>
+                        <image source="SAR-recprism.png">
+                            <shortdescription>A rectangular prism with height 11 inches, width 5 inches,
+                                and length 3 inches.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                    <figure xml:id="fig-SAR-triprism">
+                        <caption>Triangular prism for <xref ref="SAR-vol-prisms-visual"/></caption>
+                        <image source="SAR-triprism.png">
+                            <shortdescription>
+                                Triangular prism with stretch 17. Triangle has a base
+                                length of 4, slant lengths of square root 34 and square root 26, and 
+                                a height of 5.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </exercise>
+            <exercise>
+                <p>
+                    Determine the surface area for each shape in <xref ref="SAR-vol-prisms-verbal"/>.
+                </p>
+            </exercise>
+            <exercise>
+                <p>
+                    Determine the surface area for each shape in <xref ref="SAR-vol-prisms-visual"/>.
+                </p>
+            </exercise>
+        </subexercises>
+        <subexercises>
+            <title>Extending the Concepts</title>
+            <exercise>
+                <p>
+                    Add a problem or two with more challenging bases like a 
+                    trapezoidal prism or a pentagonal prism.
+                </p>
+            </exercise>
+            <exercise>
+                <p>
+                    Add a problem  where the circumference is known and the radius 
+                    needs to be found and used.
+                </p>
+            </exercise>
+        </subexercises>
+            
+    </exercises>
 </section>
