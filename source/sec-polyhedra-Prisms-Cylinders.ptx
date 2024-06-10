@@ -540,19 +540,124 @@
         </subexercises>
         <subexercises>
             <title>Extending the Concepts</title>
-            <exercise>
-                <p>
-                    Add a problem or two with more challenging bases like a 
-                    trapezoidal prism or a pentagonal prism.
-                </p>
+            <exercise xml:id="exer-ExtConc-pent-prism">
+                <title>Measuring a Pentagonal Prism</title>
+                <statement>
+                    <p>
+                        The face <m>ABCDE</m> of the right pentagonal prism in 
+                        <xref ref="fig-ExtConc-pent-prism.png"/> has right angles <m>\angle{EAB}</m>
+                        and <m>\angle{ABC}</m>. Segment <m>\overline{DF}</m> is an altitude for 
+                        the pentagon meeting <m>\overline{AB}</m> at point <m>F</m>. The lengths 
+                        of the sides of <m>ABCDE</m> are the same as those shown for the summit
+                        <m>KLMNO</m>, namely
+                        <ul>
+                            <li>
+                                <m>AB=10</m>
+                            </li>
+                            <li>
+                                <m>BC=AE=4</m>
+                            </li>
+                            <li>
+                                <m>CD=DE=\sqrt{41}\approx 6.4</m>
+                            </li>
+                        </ul>
+                        In addition, but not shown, <m>\overline{EC}</m> is a 
+                        perpendicular bisector of <m>\overline{FD}</m>. The distance 
+                        between the base and summit pentagon is <m>LB=10</m>.
+                        <ol>
+                            <li>
+                                <p>
+                                    Determine the volume of this pentagonal prism. 
+                                    Include your work and reasoning.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    On graph paper, sketch a net for this pentagonal 
+                                    prism.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Determine the surface area of the pentagonal prism.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        There will be a slight variation in answers depending on 
+                        whether you use <m>\sqrt{41}</m> or 6.4 in your work.
+                    </p>
+                </hint>
+                <figure xml:id="fig-ExtConc-pent-prism.png">
+                    <caption>Pentagonal prism for <xref ref="exer-ExtConc-pent-prism"/></caption>
+                    <!--https://www.geogebra.org/3d/p4r2vt43-->
+                    <image source="ExtConc-pent-prism.png">
+                        <shortdescription>Pentagonal prism as described in problem.</shortdescription>
+                    </image>
+                </figure>
             </exercise>
             <exercise>
-                <p>
-                    Add a problem  where the circumference is known and the radius 
-                    needs to be found and used.
-                </p>
+                <statement>
+                    <p>
+                        In <xref ref="fig-ExtConc-cylnet"/>, a cylinder can be formed by joining
+                        the edges <m>\overline{CG}</m> and <m>\overline{DF}</m> and then folding in 
+                        the two circles. The side <m>\overline{GF}</m> has length 
+                        <m>3.6\pi\approx 11.3</m> and side <m>\overline{DF}</m> has length 6.
+                        <ol>
+                            <li>
+                                <p>
+                                    How is the length of segment <m>\overline{GF}</m> related to the circle with 
+                                    center <m>J</m>?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Determine the area of the circle with center <m>J</m>.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Determine the surface area of the cylinder.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Determine the volume of the cylinder.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        Segment <m>\overline{GF}</m> should wrap around the circle.
+                        To what measurement of a circle does this correspond?
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        a. The length of side <m>FG</m> will equal the circumference
+                        or distance around the circle. Perimeter is also acceptable.
+                        b. To find the area of the circle, we divide <m>3.6\pi</m> or 11.3
+                        by <m>2\pi</m> to get the radius <m>1.8</m> (or 1.79845 using 11.3).
+                        Thus, the area of each circle will be <m>1.8^2\pi\approx 10.1788</m>.
+                        c. The surface area is <m>2(1.8^2\pi)+6\cdot 3.6\pi\approx 20.358+67.858=88.216</m>.  
+                    </p>
+                </answer>
             </exercise>
+            <figure xml:id="fig-ExtConc-cylnet">
+                <caption>A net for a cylinder</caption>
+                <image source="ExtConc-cylnet">
+                    <shortdescription>Rectangle CDFG with two congruent circles
+                        drawn just touching sides GF and CD; in other words the circles
+                        are tangent to the rectangle on opposite sides of the rectangle. 
+                    </shortdescription>
+                    <!--https://www.geogebra.org/geometry/nfh6xbea-->
+                </image>
+            </figure>
         </subexercises>
-            
     </exercises>
 </section>
