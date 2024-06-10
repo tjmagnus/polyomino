@@ -14,7 +14,7 @@
             <statement>
                 <p>
                     A <term>pyramid</term> is a polyhedron which may have any polygon as its 
-                    base but the all remaining faces are triangles that share a common 
+                    base but the all remaining faces are triangles that come together at a common 
                     vertex called the <term>apex</term>.  The <term>height</term> of the 
                     pyramid is measured from the apex to the plane containing the base 
                     along a line perpendicular to this plane.
@@ -101,8 +101,8 @@
     <subsection>
         <title>Measuring Pyramids</title>
         <p>
-            We shall compute measurements a specific example, the pyramid with height 4 and 
-            3 by 4 rectangular base. Then we can attempt to generalize some of our observations 
+            We shall compute measurements for a specific example, a pyramid with height 4 and 
+            a 3 by 4 rectangular base. Then we can generalize some of our observations 
             to other pyramids and cylinders.
         </p>
         <exploration xml:id="explor-rect-pyr">
@@ -125,23 +125,6 @@
                     </image>
                 </figure>
             </introduction>
-            <task xml:id="construct-rect-pyr">
-                <title>Constructing a pyramid from a net</title>
-                <statement>
-                    <p>
-                        Print a copy of this net, cut it out, and fold along the 
-                        dashed lines to see that this forms a rectangular pyramid.
-                        Stiffer paper such as cardstock is recommended.
-                        What do you notice about the corner at <m>C</m>?
-                    </p>
-                </statement>
-                <hint>
-                    <p>
-                        You will use this construction again near the end of this exploration. 
-                        Keep it in good condition!
-                    </p>
-                </hint>
-            </task>
             <task xml:id="lengths-rect-pyr">
                 <title>Finding Edge Lengths and Surface Area</title>
                 <statement>
@@ -158,10 +141,11 @@
                                 Determine <m>BF</m>.
                             </li>
                             <li>
-                                Explain why <m>DH=GD</m> and <m>EB=BF</m>.
+                                Explain without performing any calculations why <m>DH=GD</m> 
+                                and <m>EB=BF</m>.
                             </li>
                             <li>
-                                Determine <m>AE</m>
+                                Calculate <m>AE</m> and <m>AH</m>.
                             </li>
                             <li>
                                 Use your knowledge of rectangles and triangles and 
@@ -169,6 +153,17 @@
                                 determine the surface area of this rectangular pyramid.
                             </li>
                         </ol>
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="construct-rect-pyr">
+                <title>Constructing a pyramid from a net</title>
+                <statement>
+                    <p>
+                        Print a copy of this net, cut it out, and fold along the 
+                        dashed lines to see that this forms a rectangular pyramid.
+                        Stiffer paper such as cardstock is recommended.
+                        What do you notice about the corner at <m>C</m>?
                     </p>
                 </statement>
             </task>

@@ -8,6 +8,11 @@
         flat polygonal sides, like cubes and pyramids, are called polyhedra.
         Other solids, like cylinders and spheres have curved faces.
     </p>
+    <p>
+        To fully understand this chapter, you will need to construct some of 
+        these figures. Be prepared to print copies of patterns on paper or cardstock 
+        so that you can fold and tape the figures together as needed. 
+    </p>
     </introduction>
    <xi:include href="sec-polyhedra-regular.ptx"/>
    <xi:include href="sec-polyhedra-semiregular.ptx"/>

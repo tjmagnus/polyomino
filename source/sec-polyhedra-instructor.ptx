@@ -56,4 +56,16 @@
             shapes of the surface before providing these.  
         </p>
     </subsection>
+    <subsection>
+        <title>Notes for <xref ref="sec-polyhedra-pyramids-cones"/></title>
+        <p>
+            The triangular prism in <xref ref="construct-rect-pyr"/> is designed
+            so that three of them can be put together to create a rectangular 
+            prism with the same height, width, and length. The construction of 
+            a single pyramid out of paper
+            can be challenging for students and it is even more challenging to 
+            construct three of these triangles to form a rectangular prism.  
+        </p>
+    </subsection>
+    construct-rect-pyr
 </section>
