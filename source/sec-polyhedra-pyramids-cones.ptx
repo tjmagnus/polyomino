@@ -101,29 +101,62 @@
     <subsection>
         <title>Measuring Pyramids</title>
         <p>
-            We shall compute measurements for a specific example, a pyramid with height 4 and 
-            a 3 by 4 rectangular base. Then we can generalize some of our observations 
-            to other pyramids and cylinders.
+            In <xref ref="explor-rect-pyr"/>, we shall compute measurements for a 
+            specific example, a pyramid with a rectangular base and three perpendicular 
+            edges meeting at vertex <m>A</m>. If this exploration is done in class, your
+            instructor may choose to assign different pyramids to different groups. If 
+            this is the case, you will want to construct your pyramid very carefully so 
+            that your pyramid can be assembled with other groups' pyramids to form a new,
+            yet familiar, solid. Then we will be able to use this construction to compute
+            volume.
         </p>
         <exploration xml:id="explor-rect-pyr">
             <title>Exploring a Rectangular Pyramid</title>
             <introduction>
                 <p>
-                    Throughout this activity, we will explore the rectangular pyramid 
-                    that is created by folding the net in 
-                    <xref ref="fig-explor-rect-pyr"/>. 
+                    In this activity, we will explore the rectangular pyramid 
+                    that is created by folding one of the nets in 
+                    <xref ref="fig-explor-rect-pyr-345"/>, 
+                    <xref ref="fig-explor-rect-pyr-354"/>, or <xref ref="fig-explor-rect-pyr-453"/>. 
                 </p>
-                <figure xml:id="fig-explor-rect-pyr">
-                    <caption>
-                        Rectangular Pyramid for <xref ref="explor-rect-pyr"/>
-                    </caption>
-                    <image source="PyramidNet434">
-                        <shortdescription>
-                            A net that can be folded to create a 
-                            rectangular pyramid.
-                        </shortdescription>
-                    </image>
-                </figure>
+                <sidebyside widths="33% 33% 33%">
+                    <figure xml:id="fig-explor-rect-pyr-345">
+                        <caption>
+                            Pyramid Net 1
+                        </caption>
+                        <image source="PyramidNet345">
+                            <shortdescription>
+                                A net that can be folded to create a 
+                                rectangular pyramid with 3 by 4 rectangular base
+                                and height 5.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                    <figure xml:id="fig-explor-rect-pyr-354">
+                        <caption>
+                            Pyramid Net 2
+                        </caption>
+                        <image source="PyramidNet354">
+                            <shortdescription>
+                                A net that can be folded to create a 
+                                rectangular pyramid with 3 by 5 rectangular base
+                                and height 4.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                    <figure xml:id="fig-explor-rect-pyr-453">
+                        <caption>
+                            Pyramid Net 3
+                        </caption>
+                        <image source="PyramidNet453">
+                            <shortdescription>
+                                A net that can be folded to create a 
+                                rectangular pyramid with 4 by 5 rectangular base
+                                and height 3.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                </sidebyside>
             </introduction>
             <task xml:id="lengths-rect-pyr">
                 <title>Finding Edge Lengths and Surface Area</title>
@@ -174,7 +207,15 @@
             each face, then the surface area is simply the sum of the areas of the faces. 
         </p>
         <p>
-            How can we find the volume of a pyramid? It is a fact that the volume of a pyramid is
+            How can we find the volume of this pyramid? If you and your classmates were able to 
+            construct three identical copies of the pyramid, it is possible, though challenging, 
+            to put them together to form a rectangular prism. The three edges of the pyramid that meet at vertex <m>C</m> are 
+            perpendicular to each other and thus the three faces of the pyramid that meet at 
+            <m>C</m> will also be faces of the prism. Rectangle <m>ABCD</m> is a base not 
+            only for the pyramid, but also for the prism. The prism and the pyramid also 
+            share the same height, namely <m>CF=CG</m>.
+            
+            It is a fact that the volume of a pyramid is
             exactly one-third of the volume of the prism with the same stretch distance. Since we know that 
             the volume of a prism is <m>V=Ad</m>, the volume of a pyramid must be 
             <m>V=\frac{Ad}{3}</m> where <m>A</m> is the area of the base and <m>d</m> is the 
