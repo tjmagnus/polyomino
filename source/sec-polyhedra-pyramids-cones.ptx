@@ -157,31 +157,47 @@
                         </image>
                     </figure>
                 </sidebyside>
+                <!--Geogebra files online:
+                Three pyramids: https://www.geogebra.org/geometry/ppggtc9v
+                345 https://www.geogebra.org/m/cnykbsvc
+                354 https://www.geogebra.org/calculator/frgtrggq 
+                453 https://www.geogebra.org/m/pmuagcme -->
             </introduction>
             <task xml:id="lengths-rect-pyr">
                 <title>Finding Edge Lengths and Surface Area</title>
                 <statement>
                     <p>
-                        Here <m>ABCD</m> is a rectangle with <m>AD=4</m> and <m>CD=3</m>. 
-                        Angles <m>\angle DCG</m>, <m>\angle ADH</m>, <m>\angle ABE</m>,
-                        and <m>\angle BCF</m> are right angles and <m>CG=4</m>. Determine 
+                        Regardless of which Pyramid Net you are working wih, <m>ABCD</m> is a 
+                        rectangle: either <m>3\times 4</m> (<xref ref="fig-explor-rect-pyr-345">Pyramid Net 1</xref>),
+                        <m>3\times 5</m> (<xref ref="fig-explor-rect-pyr-354">Pyramid Net 2</xref>), or 
+                        <m>4\times 5</m> (<xref ref="fig-explor-rect-pyr-453">Pyramid Net 3</xref>).   
+                        Angles <m>\angle CAE</m>, <m>\angle BAF</m>, <m>\angle DCE'</m>,
+                        and <m>\angle DBF'</m> are right angles and the length of <m>AE</m> is provided. Determine 
                         the following:
                         <ol>
                             <li>
-                                Determine <m>GD</m>
+                                <p>
+                                    Identify the Pyramid Net, 1, 2, or 3, that corresponds to your work.
+                                </p>
+                            </li>
+                            <li>
+                                Determine <m>EC</m>.
+                            </li>
+                            <li>
+                                Determine <m>AF</m>.
                             </li>
                             <li>
                                 Determine <m>BF</m>.
                             </li>
                             <li>
-                                Explain without performing any calculations why <m>DH=GD</m> 
-                                and <m>EB=BF</m>.
+                                Explain without performing any calculations why <m>CE'=CE</m> 
+                                and <m>BF'=BF</m>.
                             </li>
                             <li>
-                                Calculate <m>AE</m> and <m>AH</m>.
+                                Calculate <m>DE'</m> and <m>DF'</m>.
                             </li>
                             <li>
-                                Use your knowledge of rectangles and triangles and 
+                                Use your knowledge of area of rectangles and triangles and 
                                 the definition of surface area to 
                                 determine the surface area of this rectangular pyramid.
                             </li>
@@ -193,25 +209,30 @@
                 <title>Constructing a pyramid from a net</title>
                 <statement>
                     <p>
-                        Print a copy of this net, cut it out, and fold along the 
+                        Print a copy of this net<fn>To print out copies of all 
+                            three nets, sized consistently, use 
+<url href="https://drive.google.com/file/d/1GvWkZHR1BYcQzO_0rUs516MUoLaJnwZ_/view?usp=sharing">
+    bit.ly/3PyramidNets.</url>.</fn>, cut your net out, and fold along the 
                         dashed lines to see that this forms a rectangular pyramid.
                         Stiffer paper such as cardstock is recommended.
-                        What do you notice about the corner at <m>C</m>?
+                        What do you notice about the corner at <m>A</m>?
                     </p>
                 </statement>
             </task>
         </exploration>
         <p>
             With both prisms and pyramids, formulas exist to compute the surface area of some of 
-            the common types, but these formulas are not necessary. If we can compute the areas of 
+            the common types, but these formulas are often not necessary<fn>The tough part of
+                computing surface area is determining missing lengths and altitudes. Some formulas 
+                will alleviate the need to perform these computations.</fn>. If we can compute the areas of 
             each face, then the surface area is simply the sum of the areas of the faces. 
         </p>
         <p>
-            How can we find the volume of this pyramid? If you and your classmates were able to 
-            construct three identical copies of the pyramid, it is possible, though challenging, 
-            to put them together to form a rectangular prism. The three edges of the pyramid that meet at vertex <m>C</m> are 
-            perpendicular to each other and thus the three faces of the pyramid that meet at 
-            <m>C</m> will also be faces of the prism. Rectangle <m>ABCD</m> is a base not 
+            How can we find the volume of the pyramid you constructed? If you and your classmates were able 
+            to construct all three pyramids, it is possible, though challenging, 
+            to put them together to form a rectangular prism. The three edges of the pyramid that meet at vertex <m>A</m> 
+            are perpendicular to each other and thus the three faces of the pyramid that meet at 
+            <m>A</m> will also be faces of the prism. Rectangle <m>ABCD</m> is a base not 
             only for the pyramid, but also for the prism. The prism and the pyramid also 
             share the same height, namely <m>CF=CG</m>.
             
@@ -223,6 +244,8 @@
             cone is <m>V=\frac{(\pi r^2)d}{3}</m> since the area of the circular base is 
             <m>A=\pi r^2</m>.
         </p>
+        <!--Geogebra Interactive to visualize the unfolding of a rectangular 
+        prism into three rectangular pyramids https://www.geogebra.org/material/edit/id/qjqyvzjn -->
     </subsection>
     <exercises xml:id="Exercises-polyhedra-pyr">
         <title>Exercises</title>
