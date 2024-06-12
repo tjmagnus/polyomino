@@ -788,40 +788,61 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <subexercises xml:id="ExtConc-intro-apply">
       <title>Extending the Concepts</title>
       <exercise xml:id="ExtConc-intro-apply-nameit">
-        <statement>
+        <introduction>
           <p>
             Answer the questions:
-            <ol>
-              <li>
-                Is it possible for a triangle to be equilateral but not equiangular?
-              </li>
-              <li>
-                Show by example that it is possible for a quadrilateral to be equilateral but 
-                not equiangular.
-              </li>
-              <li>
+          </p>
+        </introduction>>
+        <task>
+          <statement>
+            <p>
+              Is it possible for a triangle to be equilateral but not equiangular
+            </p>
+          </statement>
+          <answer>
+            <p>
+              No
+            </p>
+          </answer>
+        </task>  
+        <task>
+          <statement>
+            <p>
+              Show by example that it is possible for a quadrilateral to be equilateral but 
+              not equiangular.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Thread four straws of equal length in succession with a piece of string and bring the ends 
+              together to form a quadrilateral. Must the angles be equal?
+            </p>
+          </hint>
+          <answer>
+            <p>
+              A rhombus is equilateral but not necessarily equiangular.
+            </p>
+          </answer>
+          </task>
+        <task>
+          <statement>
+            <p>
                 Show by example that it is possible for a quadrilateral to be equiangular 
                 but not equilateral.
-              </li>
-            </ol> 
-          </p>
-        </statement>
-        <hint>
-          <p>
-            b. Thread four straws of equal length in succession with a piece of string and bring the ends 
-            together to form a quadrilateral. Must the angles be equal?
-          </p>
-          <p>
-            c. What must the common angle be? Is there a quadrilateral with angles this size 
-            which is not equilateral?
-          </p>
-        </hint>
-        <answer>
-          <p>
-            a. No, b. A rhombus is equilateral but not necessarily equiangular.
-            c. A rectangle is equiangular but not necessarily equilateral.
-          </p>
-        </answer>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              What must the common angle be? Is there a quadrilateral with angles this size 
+              which is not equilateral?
+            </p>
+          </hint>
+          <answer>
+            <p>
+              A rectangle is equiangular but not necessarily equilateral.
+            </p>
+          </answer>
+        </task>
       </exercise>
       <exercise>
         <statement>

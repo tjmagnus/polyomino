@@ -243,7 +243,8 @@
         <statement>
           <p>
             Use some of the pentominoes you created to 
-            build solid rectangles. 
+            build solid rectangles. The hint below gives 
+            access to an interactive tool.
             <ul>
               <li>
                 <p>
@@ -259,7 +260,6 @@
                 </p>
               </li>
             </ul>
-            The hint below gives access to an interactive tool.
           </p>
         </statement>
         <hint>
@@ -615,7 +615,7 @@
           <exercise xml:id="exer-intro-expl-toolbox-addarea">
             <statement>
               <p>
-                What is meant by <xref ref="principle-areasums"> Additivity of Area
+                What is meant by <xref ref="principle-areasums" text="custom"> Additivity of Area
                   </xref>? Give an example and describe in your own words. 
               </p>
             </statement>
@@ -659,55 +659,75 @@
           </hint>
         </exercise>
         <exercise xml:id="SAR-intro-exp-otherarea">
-          <statement>
+          <introduction>
             <p>
               Refer to <xref ref="exer-introbasicshape-area"/>
               as you answer the following:
-              <ol>
-                <li>
-                  <p>
+            </p>
+            </introduction>
+            <task>
+              <statement>
+                <p>
                     Find the area of rectangle <m>ABCD</m> with height 14 cm. and 
                     width 6cm. Then use your 
                     answer to find the area of right triangle <m>\Delta ACD</m>.
+                </p>
+              </statement>
+              <hint>
+                <p>
+                  <xref ref="principle-areasums"/> is used in each of these problems.
+                  How many copies of <m>\Delta ACD</m> fill rectangle <m>ABCD</m>?
+                </p>
+              </hint>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Find the area of rectangle <m>MHGN</m> with height <m>NG=6</m> cm.
+                    and width <m>HG=10</m> cm.
                   </p>
-                </li>
-                <li>
-                  <ol>
-                    <li>
-                      <p>
-                        Find the area of rectangle <m>MHGN</m> with height <m>NG=6</m> cm.
-                        and width <m>HG=10</m> cm.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        What is the area of parallelogram <m>EHGF</m>? How do 
-                        you know?
-                      </p>
-                    </li>
-                  </ol>
-                </li>
-                <li>
-                  <ol>
-                    <li>
-                      <p>
-                        Determine the area of rectangle <m>ILKO</m> with height <m>KL=6</m> cm.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Determine the area of right triangle <m>IJO</m>.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Determine the area of trapezoid <m>IJKL</m>.
-                      </p>
-                    </li>
-                  </ol>
-                </li>
-              </ol>
-            </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What is the area of parallelogram <m>EHGF</m>? How do 
+                    you know?
+                  </p>
+                </statement>
+                <hint>
+                  <p>
+                    How can you create rectangle <m>MHGN</m> from cutting and 
+                    rearranging pieces of parallelogram <m>EHGF</m>? 
+                  </p>
+                </hint>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Determine the area of rectangle <m>ILKO</m> with height <m>KL=6</m> cm.
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                      Determine the area of right triangle <m>IJO</m>.
+                  </p>
+                </statement>
+              </task>          
+              <task>
+                <statement>
+                  <p>
+                    Determine the area of trapezoid <m>IJKL</m>.
+                  </p>
+                </statement>
+                <hint>
+                  <p>
+                    How can you build <m>IJKL</m> from the pieces.
+                  </p>
+                </hint>
+              </task>
             <figure xml:id="exer-introbasicshape-area">
               <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
               <image source="basicshapesareaproblem">
@@ -718,17 +738,7 @@
                 same, namely 6 cm. The width of the rectangle is 10 cm.
               </shortdescription>
             </image>
-            </figure>
-          </statement>
-          <hint>
-            <p>
-              <xref ref="principle-areasums"/> is used in each of these problems.
-              For (a), how many copies of <m>\Delta ACD</m> fill rectangle <m>ABCD</m>?
-              For (b), how can you create rectangle <m>MHGN</m> from cutting and 
-              rearranging pieces of parallelogram <m>EHGF</m>? In (c), how can you
-              build <m>IJKL</m> from the pieces.
-            </p>
-          </hint>
+          </figure>
         </exercise>
         <exercise xml:id="SAR-intro-exp-numtriominoes">
           <statement>
@@ -849,46 +859,70 @@
         <!--exercises on patterns of polyominoes: "snake polyominoes?, branches?, etc."-->
         <exercise xml:id="ExtConc-intro-exp-areamodel-twodigit">
           <title>Area Model for Two-digit Numbers</title>
-          <statement>
-          <p>
-            Multiplication of two-digit numbers can be represented 
-            using the area model: for example, to multiply 47 by 25 we can represent 
-            47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones.  We then can sketch 
-            the product as shown.  
-          </p>
-            <image component="web" source="hw2digit-areamodel.svg" width="40%">
-              <shortdescription>
-                A rectangle labeled with sides 40+7 and 20+5 and split into 
-                subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
-              </shortdescription>
-            </image>
-            <image component="print" source="hw2digit-areamodel.png" width="40%">
-              <shortdescription>
-                A rectangle labeled with sides 40+7 and 20+5 and split into 
-                subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
-              </shortdescription>
-            </image>
+          <introduction>
             <p>
-            <ol>
-              <li>
+              Multiplication of two-digit numbers can be represented 
+              using the area model: for example, to multiply 47 by 25 we can represent 
+              47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones.  We then can sketch 
+              the product as shown in <xref ref="fig-hw2digit-rectangle"/>.  
+            </p>
+          </introduction>
+            <task>
+              <statement>
                 <p>
                   Determine the area of each of the four subrectangles pictured. Here, the squares 
                   on the grid are not <m>1\times 1</m> but defined by the notations on the sides.
                 </p>
-              </li>
-              <li>
+              </statement>
+              <hint>
+                <p>
+                  One of the subrectangles is a <m>5\times 40</m>-rectangle. What are 
+                  the others? 
+                </p>
+              </hint>
+            </task>
+            <task>
+              <statement>
                 <p>
                   Add the four areas of the subrectangles together to find the total area.
                 </p>
-              </li>
-              <li>
-                <sidebyside widths="60% 30%">
+              </statement>
+            </task>
+            <task>
+                <statement>
                 <p>
-                  The standard algorithm to multiply  <m>47 \times 25</m> is shown.   
+                  The standard algorithm to multiply  <m>47 \times 25</m> is shown
+                  in <xref ref="fig-twodigitalgorithm"/>.   
                   Identify what the 235 and 940 in the algorithm represent in the area 
                   model pictured at the beginning of this exercise.
                 </p>
-                
+                </statement>
+                <hint>
+                  <p>
+                    Consider sums of areas.
+                  </p>
+                </hint>
+              </task>
+                <figure xml:id="fig-hw2digit-areamodel">
+                  <caption>A rectangular model and algorithm for two-digit multiplication</caption>
+                <sidebyside widths="60% 30%">
+                  <figure xml:id="fig-hw2digit-rectangle">
+                    <caption>Rectangular Model</caption>
+                  <image component="web" source="hw2digit-areamodel.svg" width="40%">
+                    <shortdescription>
+                      A rectangle labeled with sides 40+7 and 20+5 and split into 
+                      subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
+                    </shortdescription>
+                  </image>
+                  <image component="print" source="hw2digit-areamodel.png" width="40%">
+                    <shortdescription>
+                      A rectangle labeled with sides 40+7 and 20+5 and split into 
+                      subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
+                    </shortdescription>
+                  </image>
+                </figure>
+                <figure xml:id="fig-twodigitalgorithm">
+                  <caption>Algorithm</caption>
                   <tabular halign="right">
                     <row header="no" bottom="none">
                       <cell>47</cell>
@@ -906,19 +940,12 @@
                       <cell>1175</cell>
                     </row>
                   </tabular>
-                
-              </sidebyside> <!--Fix alignment -->
-              </li>
-            </ol>
-          </p>
-          </statement>
-          <hint>
-            <p>
-              a. One of the subrectangles is a <m>5\times 40</m>-rectangle. What are 
-              the others? c. Consider sums of areas.
-            </p>
-          </hint>
-        </exercise>
+                </figure>
+                </sidebyside>
+                </figure>
+              
+            </exercise>
+              
         <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
           <title>Multiplication of Multidigit Numbers</title>
           <statement>
@@ -938,33 +965,40 @@
         </exercise>
         <exercise xml:id="ExtConc-intro-exp-areamodel-fractions">
           <title>Modeling the Multiplication of Fractions and Mixed Numbers</title>
-          <statement>
-            <figure xml:id="fig-unitsquare">
-              <caption>A unit square</caption>
-              <image source="unitSquareFraction.png">
-                <shortdescription>A square</shortdescription>
-              </image>
-            </figure>
+          <introduction>
             <p>
-              <ol>
-                <li>
-                  <p>
-                    Each side of the square, pictured in <xref ref="fig-unitsquare"/> 
-                    has a length of 1. Sketch line segments that divide the height 
-                    equally into thirds and the width equally into fourths. 
-                    How many subrectangles does this split the square into? 
-                    What is the area of each subrectangle? 
-                    What does this tell you about <m>\frac{1}{3} \times \frac{1}{4}</m>?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    The sketch shows a model of <m>2\frac{2}{3} \times 1 \frac{2}{5}</m>.  
-                    Compute the areas of each of the four shaded regions 
-                    (blue, orange, pink, and green), and then compute the total. 
-                    Note that solid lines are used to represent lengths of whole units 
-                    and dashed lines represent fractional lengths
-                  </p>
+              Each side of the square, pictured in <xref ref="fig-unitsquare"/> 
+              has a length of 1. 
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Sketch line segments that divide the height of the square
+                equally into thirds and the width equally into fourths. 
+                How many subrectangles does this split the square into? 
+                What is the area of each subrectangle? 
+                What does this tell you about 
+                <m>\frac{1}{3} \times \frac{1}{4}</m>?
+              </p>
+              <figure xml:id="fig-unitsquare">
+                <caption>A unit square</caption>
+                <image source="unitSquareFraction.png">
+                  <shortdescription>A square</shortdescription>
+                </image>
+              </figure>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                The sketch in <xref ref="ExtConc-mixednum-areamodel"/>
+                shows a model of <m>2\frac{2}{3} \times 1 \frac{2}{5}</m>.  
+                Compute the areas of each of the four shaded regions 
+                (blue, orange, pink, and green), and then compute the total. 
+                Note that solid lines are used to represent lengths of whole units 
+                and dashed lines represent fractional lengths
+              </p>
                   <!--<image component="web" source="hw-mixed-num-areamodel.svg" width="40%">
                     <shortdescription>
                       A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five 
@@ -975,6 +1009,8 @@
                       one-fifth rectangles forming a 2/3 by 2/5 rectangle.
                     </shortdescription>
                   </image>-->
+                  <figure xml:id="ExtConc-mixednum-areamodel">
+                    <caption>Area Model for <m>2 \frac{2}{3}\times 1\frac{2}{5}</m></caption>
                   <image source="hw-mixed-num-areamodel.png" width="40%">
                     <shortdescription>
                       A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five 
@@ -985,30 +1021,75 @@
                       one-fifth rectangles forming a 2/3 by 2/5 rectangle.
                     </shortdescription>
                   </image>
-                </li>
-                <li>
-                  <p>
-                    Draw an area model of  <m>\frac{2}{5} \times \frac{3}{4}</m> by dividing 
-                    the unit length into fifths and the unit width into fourths.
-                    Shade and compute the product.  Explain how you find the numerator 
-                    and denominator of the unsimplified fraction from the sketch.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </statement>
+                </figure>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Draw an area model of  <m>\frac{2}{5} \times \frac{3}{4}</m> by dividing 
+                  the unit length into fifths and the unit width into fourths.
+                  Shade and compute the product.  Explain how you find the numerator 
+                  and denominator of the unsimplified fraction from the sketch.
+                </p>
+              </statement>
           <hint>
             <p>
-              For part c, begin by drawing a unit square similar to part a.
+              Begin by drawing a unit square similar to <xref ref="fig-unitsquare"/>,
+              dividing the sides according to the denominators of the fractions.
             </p>
           </hint>
+          </task>
         </exercise>
         <exercise xml:id="ExtConc-intro-exp-areamodel-polynomials">
           <title>Modeling the Multiplication of Polynomials</title>
-          <statement>
+          <introduction>
             <p>
-              The sketch below illustrates a product of polynomials.
+              The sketch in <xref ref="fig-areamodel-polynomials"/> illustrates a 
+              product of polynomials.
             </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Write the height of the entire rectangle as an algebraic 
+                  expression involving the variable <m>x</m>.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                An algebraic expression involving the variable <m>x</m> may include numbers and operations 
+                like <m>+ , -, \cdot, \div</m> in addition to the variable <m>x</m>. For part a,
+                the algebraic expression is <m>7+x</m>.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                  Write the width of the entire rectangle as an algebraic expression 
+                  involving the variable <m>x</m>.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Algebraically compute the area of the entire rectangle as the product 
+                of your two algebraic expressions.  Show your work.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Find the area geometrically by finding the areas of the four subrectangles 
+                and adding the areas together.  Show your work.  Did you get the same result?
+              </p>
+            </statement>
+          </task>
+          <figure xml:id="fig-areamodel-polynomials">
+            <caption>An area model for the expression <m>(7 + x)(5 + 4x)</m>.</caption>
             <image component="web" source="hw1-binomareamodel.svg" width="40%">
               <shortdescription>
                 A rectangle cut into four subrectangles. The left side is made up of a 
@@ -1027,46 +1108,11 @@
                 of length 4x. A vertical line cuts the rectangle between these two segments.
               </shortdescription>
             </image>
-            <p>
-              <ol>
-                <li>
-                <p>
-                  Write the height of the entire rectangle as an algebraic 
-                  expression involving the variable <m>x</m>.
-                </p>
-                </li>
-                <li>
-                  <p>
-                    Write the width of the entire rectangle as an algebraic expression 
-                    involving the variable <m>x</m>.
-                  </p>
-                </li>  
-                <li>
-                  <p>
-                    Algebraically compute the area of the entire rectangle as the product 
-                    of your two algebraic expressions.  Show your work.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Find the area geometrically by finding the areas of the four subrectangles 
-                    and adding the areas together.  Show your work.  Did you get the same result?
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </statement>
-          <hint>
-            <p>
-              An algebraic expression involving the variable <m>x</m> may include numbers and operations 
-              like <m>+ , -, \cdot, \div</m> in addition to the variable <m>x</m>. For part a,
-              the algebraic expression is <m>7+x</m>.
-            </p>
-          </hint>
+          </figure>
         </exercise>
         <exercise xml:id="ExtConc-intro-exp-probability">
           <title>Area in Probability</title>
-          <statement>
+          <introduction>
             <sidebyside widths="70% 30%">
               <p>
                 A tetrahedral die is a triangular pyramid with four sides numbered 1 
@@ -1087,53 +1133,76 @@
                   </image>
                 </figure>
             </sidebyside>
+          </introduction>
+          <task>
+            <statement>
               <p>
-              <ol>
-                <li>
-                  <p>
-                    Determine all of the ways that a sum of 9 can occur.
-                  </p> 
-                </li>
-                <li>
-                  <p>
-                    List all of the ways that a sum of 6 can be rolled.
-                  </p>
-                </li> 
-                <li>
-                  <p>
-                    The sketch below is a bar graph or histogram showing the 
-                    frequency or number of ways that each of the sums from 3 to 12 can be 
-                    rolled with three tetrahedral dice.  Note that the sums are 
-                    given on the horizontal axis and the frequencies are on the 
-                    vertical axis. Note how the third vertical
-                    bar, centered above the number 5, has height 6 to illustrate the 
-                    fact that there are six ways of rolling a sum of 5.
-                    <ol>
-                      <li>
-                        <p>
-                          What is the total number of possible rolls?
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          What is the number of rolls resulting in 7?
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          The probability of an event is computed by dividing 
-                          the number of 
-                          different rolls meeting the criteria for that event by 
-                          the total number of different possible rolls. 
-                          What is the probability of rolling a 7 with three tetrahedral
-                          dice?
-                        </p>
-                      </li>
-                    </ol>
-                  </p>
-                </li>
-              </ol>
-            </p>
+                Determine all of the ways that a sum of 9 can occur.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                The rolls <m>(1,4,4)</m>, <m>(4,1,4)</m> and <m>(4,4,1)</m>
+                count as three separate rolls.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                List all of the ways that a sum of 6 can be rolled.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <introduction>
+              <p>
+                The sketch in <xref ref="histogram-exercise"/> is a bar graph 
+                or histogram showing the 
+                frequency or number of ways that each of the sums from 3 to 12 can be 
+                rolled with three tetrahedral dice.  Note that the sums are 
+                given on the horizontal axis and the frequencies are on the 
+                vertical axis. Note how the third vertical
+                bar, centered above the number 5, has height 6 to illustrate the 
+                fact that there are six ways of rolling a sum of 5.
+              </p>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  What is the total number of possible rolls?
+                </p>
+              </statement>
+              <hint>
+                <p>
+                  Consider the heights of the columns.
+                </p>
+              </hint>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the number of rolls resulting in 7?
+                </p>
+              </statement>
+              <hint>
+                <p>
+                  Consider the bar centered over the number 7.
+                </p>
+              </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                The probability of an event is computed by dividing 
+                the number of 
+                different rolls meeting the criteria for that event by 
+                the total number of different possible rolls. 
+                What is the probability of rolling a 7 with three tetrahedral
+                dice?
+              </p>
+            </statement>
+          </task>
             <figure xml:id="histogram-exercise">
               <caption>Frequency of sums of tetrahedral dice rolls</caption>
             <image source="histogram">
@@ -1147,7 +1216,7 @@
               </shortdescription>
             </image>
           </figure>
-          </statement>
+        </task>
         </exercise>
       </subexercises>
       <subexercises xml:id="Writing-intro-exp">
