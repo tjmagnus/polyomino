@@ -41,14 +41,14 @@
             and four columns of pins such as the one pictured below.
           </p>
           <image component="web" source="4by4geoboard.svg" width="50%">
-            <description>
+            <shortdescription>
               A grid with 16 dots arranged in four rows and four columns.
-            </description>
+            </shortdescription>
           </image>
           <image component="print" source="4by4geoboard.png" width="50%">
-            <description>
+            <shortdescription>
               A grid with 16 dots arranged in four rows and four columns.
-            </description>
+            </shortdescription>
           </image>
           <p>
           <ol>
@@ -184,7 +184,7 @@
           <p>
             Extension: If we use a 5x5-geoboard instead, what squares and what 
             triangles are possible? Compute the areas. A virtual 5x5-GeoBoard is
-            available at <url href="apps.mathlearningcenter.org/geoboard/">apps.mathlearningcenter.org/geoboard/
+            available at <url href="https://apps.mathlearningcenter.org/geoboard/">apps.mathlearningcenter.org/geoboard/
             </url>.
           </p>
         </statement>
