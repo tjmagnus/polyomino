@@ -114,12 +114,14 @@
             <title>Exploring a Rectangular Pyramid</title>
             <introduction>
                 <p>
-                    In this activity, we will explore the rectangular pyramid 
-                    that is created by folding one of the nets in 
+                    In this activity, you will explore the rectangular pyramid 
+                    that is created by folding only one of the nets in 
                     <xref ref="fig-explor-rect-pyr-345"/>, 
-                    <xref ref="fig-explor-rect-pyr-354"/>, or <xref ref="fig-explor-rect-pyr-453"/>. 
+                    <xref ref="fig-explor-rect-pyr-354"/>, or 
+                    <xref ref="fig-explor-rect-pyr-453"/>. 
                 </p>
-                <sidebyside widths="33% 33% 33%">
+                <sidebyside widths="33% 33% 33%" valign="bottom">
+                    <!--Resize so that these are consistent in size.-->
                     <figure xml:id="fig-explor-rect-pyr-345">
                         <caption>
                             Pyramid Net 1
@@ -165,7 +167,7 @@
             </introduction>
             <task xml:id="lengths-rect-pyr">
                 <title>Finding Edge Lengths and Surface Area</title>
-                <statement>
+                <introduction>
                     <p>
                         Regardless of which Pyramid Net you are working wih, <m>ABCD</m> is a 
                         rectangle: either <m>3\times 4</m> (<xref ref="fig-explor-rect-pyr-345">Pyramid Net 1</xref>),
@@ -173,37 +175,64 @@
                         <m>4\times 5</m> (<xref ref="fig-explor-rect-pyr-453">Pyramid Net 3</xref>).   
                         Angles <m>\angle CAE</m>, <m>\angle BAF</m>, <m>\angle DCE'</m>,
                         and <m>\angle DBF'</m> are right angles and the length of <m>AE</m> is provided. Determine 
-                        the following:
-                        <ol>
-                            <li>
-                                <p>
-                                    Identify the Pyramid Net, 1, 2, or 3, that corresponds to your work.
-                                </p>
-                            </li>
-                            <li>
-                                Determine <m>EC</m>.
-                            </li>
-                            <li>
-                                Determine <m>AF</m>.
-                            </li>
-                            <li>
-                                Determine <m>BF</m>.
-                            </li>
-                            <li>
-                                Explain without performing any calculations why <m>CE'=CE</m> 
-                                and <m>BF'=BF</m>.
-                            </li>
-                            <li>
-                                Calculate <m>DE'</m> and <m>DF'</m>.
-                            </li>
-                            <li>
-                                Use your knowledge of area of rectangles and triangles and 
-                                the definition of surface area to 
-                                determine the surface area of this rectangular pyramid.
-                            </li>
-                        </ol>
+                        the following: 
                     </p>
-                </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Identify the Pyramid Net, Net 1 <xref ref="fig-explor-rect-pyr-345"/>, 
+                            Net 2 <xref ref="fig-explor-rect-pyr-354"/>, or 
+                            Net 3 <xref ref="fig-explor-rect-pyr-453"/>, that will be the focus of 
+                            your work.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Determine <m>EC</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Determine <m>AF</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Determine <m>BF</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Explain without performing any calculations why <m>CE'=CE</m> 
+                            and <m>BF'=BF</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Calculate <m>DE'</m> and <m>DF'</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Use your knowledge of area of rectangles and triangles and 
+                            the definition of surface area to 
+                            determine the surface area of this rectangular pyramid.
+                        </p>
+                    </statement>
+                </task>
             </task>
             <task xml:id="construct-rect-pyr">
                 <title>Constructing a pyramid from a net</title>
@@ -220,32 +249,339 @@
                 </statement>
             </task>
         </exploration>
+        <subsubsection xml:id="subsubsec-pyramid-surfarea">
+            <title>Surface Area of Pyramids and Cones</title>
         <p>
             With both prisms and pyramids, formulas exist to compute the surface area of some of 
             the common types, but these formulas are often not necessary<fn>The tough part of
-                computing surface area is determining missing lengths and altitudes. Some formulas 
-                will alleviate the need to perform these computations.</fn>. If we can compute the areas of 
+            computing surface area is determining missing lengths and altitudes. Some formulas 
+            will alleviate the need to perform these computations.</fn> and use techniques 
+            beyond the scope of this course. If we can compute the areas of 
             each face, then the surface area is simply the sum of the areas of the faces. 
+            Working with nets can help us focus on measuring the surfaces.
         </p>
         <p>
-            How can we find the volume of the pyramid you constructed? If you and your classmates were able 
-            to construct all three pyramids, it is possible, though challenging, 
-            to put them together to form a rectangular prism. The three edges of the pyramid that meet at vertex <m>A</m> 
-            are perpendicular to each other and thus the three faces of the pyramid that meet at 
-            <m>A</m> will also be faces of the prism. Rectangle <m>ABCD</m> is a base not 
-            only for the pyramid, but also for the prism. The prism and the pyramid also 
-            share the same height, namely <m>CF=CG</m>.
-            
-            It is a fact that the volume of a pyramid is
-            exactly one-third of the volume of the prism with the same stretch distance. Since we know that 
-            the volume of a prism is <m>V=Ad</m>, the volume of a pyramid must be 
-            <m>V=\frac{Ad}{3}</m> where <m>A</m> is the area of the base and <m>d</m> is the 
-            stretch distance or height. In fact, this works for cones as well. The volume of a 
-            cone is <m>V=\frac{(\pi r^2)d}{3}</m> since the area of the circular base is 
-            <m>A=\pi r^2</m>.
+            A cone will consist of two surfaces, the circle that forms its base 
+            and a circular sector that forms the upper portion. The center of the circular 
+            sector corresponds to the apex of the cone and the radius corresponds to the 
+            slant height of the cone, measured from the apex to the edge of the base at 
+            an angle less than 90 degrees. To find the area of the sector, we note that 
+            this area will be <m>\frac{q}{360}</m> where <m>q</m> is the number of
+            degrees in the sector. Here, <m>q</m> may be any positive number less than
+            360.
         </p>
+        <p>
+            The cone, pictured in <xref ref="fig-cone-surface"/>, has a circular base 
+            with radius 3 and a vertical height of 6. Using the Pythagorean Theorem, 
+            we know that the slant height is <m>\sqrt{3^2+6^2}=\sqrt{45}\approx 6.71</m>.
+            The net for this cone consists of the radius-3 circular base and the shaded portion 
+            of the larger circle. The fact that the circumference of the base matches the 
+            curved edge of the sector enables us to find the central angle, approximately
+            <m>q=6.71</m>of the sector. 
+            The process of finding the angle and area of the sector is left to an exercise.
+        </p>
+        <figure xml:id="fig-cone-surface">
+            <caption>A cone and its net.</caption>
+            <image source="cone36-and-net">
+                <shortdescription>
+                  Cone with base radius 3, vertical height 6,
+                  and slant length 6.71. Two touching circles, one with radius 3.
+                  The other with radius 6.71 has shaded portion with central 
+                  angle 161.  
+                </shortdescription>
+            </image>
+        </figure>
+        </subsubsection>
+        <subsubsection xml:id="subsubsec-pyramid-volume">
+            <title>Volume of Pyramids and Cones</title>
+            <p>
+                We end this section by stating a fact that will allow us to
+                find the volume of many pyramids and cones. 
+            </p>
+            <fact xml:id="fact-vol-of-pyramid">
+                <title>Volume of a Pyramid and Cone</title>
+                <idx><h>volume</h><h>pyramid</h></idx>
+                <idx><h>volume</h><h>cone</h></idx>
+                <idx><h>cone</h><h>volume</h></idx>
+                <idx><h>pyramid</h><h>volume</h></idx>
+                <statement>
+                    <p>
+                        The volume of a pyramid is one-third the volume of a prism
+                        with the same base and height. 
+                        Thus, the volume of a pyramid is given by
+                        <me>
+                            V_{pyr}=\frac{A_{base}\cdot h}{3}
+                        </me>
+                        where <m>A_{base}</m> is the area of the base and <m>h</m>
+                        is the height measured along a vertical line segment from the apex
+                        to the base. 
+                    </p>
+                    <p>
+                        Similarly the volume of a cone is one third the volume of a cylinder 
+                        with the same base and height. Since the base of a cone or cylinder is 
+                        a circle with area, <m>A_{base}=\pi r^2</m>, the formula for the volume 
+                        of a cone can be written as
+                        <me>
+                            V_{cone}=\frac{\pi r^2 h}{3}
+                        </me>
+                        where <m>r</m> is the radius of the base and h is the vertical
+                        height when the cone is sitting on its base.
+                    </p>
+                </statement>
+            </fact>
+            <p>
+                This fact may be something you choose to 
+                accept and use without further justification, but in case you 
+                have doubts, the remainder of this section provides several 
+                different ways to visualize this surprising fact. As you have
+                already experienced, visualizing three-dimensional properties
+                can be challenging. Use the activities or videos, that work best
+                for you or is required by your instructor. 
+            </p>
+            <exploration xml:id="expl-volume-by-water">
+                <title>Visualizing Pyramid and Cone Volume with Water</title>
+                <introduction>
+                    <p>
+                        This is the simplest demonstration of the volume claim, 
+                        but to perform this task, a special set of containers 
+                        are needed. These are available through educational 
+                        material companies. This exploration can also be viewed
+                        in <xref ref="fig-water-volume-video"/>. 
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Typically, this set will contain two pyramids and prisms with 
+                            the same base and height and one cone and cylinder with 
+                            the same base and height. Fill the pyramid (or cone) with 
+                            water and then pour the water into the prism (or cylinder)
+                            that has the same base and height. Repeat until the prism
+                            (or cylinder) is filled. What do you notice?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Repeat the previous experiment with any other pyramid/prism 
+                            or cone/cylinder pairs you have available.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Does this prove that the formula works in all cases where
+                            a pyramid (or cone) has the same base and height as a prism 
+                            (or cylinder)? What are some nice properties that the paired
+                            solids you used have that other prisms and pyramid pairs 
+                            might not have? What are some other pyramid/prism pairs
+                            or cone/cylinder pairs that you would
+                            add to the set to make the argument more convincing?
+                        </p>
+                    </statement>
+                </task>
+                <figure xml:id="fig-water-volume-video">
+                    <caption>YouTube using water to compare volumes
+                        <fn>This video, compiled
+                        by Mr. Chauny, contains snips of three other videos as 
+                        noted in his credits.</fn>
+                    </caption>
+                    <video youtube="O2wenAIf0H8"/>
+                  </figure>
+            </exploration>
+            <exploration xml:id="expl-volume-recpyr-by-construction">
+                <title>
+                    Visualizing the Volume of a Rectangular Pyramid By 
+                    Construction from Nets
+                </title>
+                <introduction>
+                    <p>
+                        This demonstration of the volume formula for a pyramid
+                        uses the three nets created in <xref ref="construct-rect-pyr"/>.
+                        Because the nets are constructed using paper and tape, the 
+                        ability to complete and comprehend this demonstration may 
+                        depend on the quality of construction. It is essential that the 
+                        scale of the three pyramids is consistent. The document
+                        <url href="https://drive.google.com/file/d/1GvWkZHR1BYcQzO_0rUs516MUoLaJnwZ_/view?usp=sharing">
+                        bit.ly/3PyramidNets</url> displays all three nets with the 
+                        same scale.
+                        Printing on stiffer tagboard is recommended. 
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Cut out each net and carefully assemble each into a 
+                            pyramid with base <m>ABDC</m>. 
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Arrange the three pyramids so that the form a single 
+                            rectangular prism. The faces will be <m>3\times 4</m>-, 
+                            <m>3\times 5</m>-, and <m>4\times 5</m>-rectangles.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Compute the volume of the prism.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Compute the volume of the pyramid and give an
+                            explanation of how your work supports your computation.
+                        </p>
+                    </statement>
+                </task>
+            </exploration>
+            <exploration>
+                <title>
+                    Visualizing the Volume of a Rectangular Pyramid using a Geogebra
+                    Applet
+                </title>
+                <introduction>
+                    <p>
+                        In this demonstration of the relationship between the 
+                        volume formulas of prisms and pyramids, this GeoGebra applet,  
+                        created<fn>Golden, John, "Pyramids in Prism," GeoGebra Public 
+                        Resources, CC-BY-SA, 2015.
+                        Slightly edited to delete questions and adjust the graphical 
+                        views.</fn>
+                        by John Golden, demonstrates how  
+                        a <m>3\times 4\times 5</m>-rectangular prism into three 
+                        rectangular pyramids. In this activity, the shapes are the same as in
+                        <xref ref="expl-volume-recpyr-by-construction"/>, but the prism is 
+                        pulled apart rather than built. The applet allows us to change the 
+                        dimensions of the prism and pyramids to help us see that the formula holds
+                        for prisms of other dimensions as well. A device with a larger screen is  
+                        recommended.
+                    </p>
+                </introduction>
+                <task>
+                    <introduction>
+                        <p>
+                            Use the GeoGebra interactive <xref ref="applet-prism-pyramids"/>
+                            to complete the tasks. Note that right angles and other features 
+                            are often distorted when we view three-dimensional figures on paper 
+                            or computer screen.
+                        </p>
+                    </introduction>
+                    <task>
+                        <statement>
+                            <p>
+                               Verify that the blue rectangle shown on the left 
+                               has the same dimensions as the base of the prism
+                               on the right. Do this by checking the coordinates 
+                               on the graph.
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Drag point <m>B</m>, the lower right corner 
+                                            of the rectangle in the left picture.
+                                            What happens to the prism on the right?
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Drag point <m>C</m>, the upper left corner
+                                            of the rectangle in the left picture.
+                                            How does this affect the prism on the right?
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p> 
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Move the vertical slider on the far left to change 
+                                the value of <m>ht</m>. How does this affect the prism 
+                                on the right?
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <introduction>
+                            <p>
+                                Use the reset button (upper right corner of the left frame)
+                                to return the value of <m>ht</m> and the locations of <m>B</m>
+                                and <m>C</m> to their original setting.
+                            </p>
+                            <p>
+                                Slowly move the top slider to pull the prism apart into pyramids,
+                                observing the process in the right frame. 
+                            </p>
+                        </introduction>
+                        <task>
+                            <statement>
+                                <p>
+                                    When the slider is moved all the way to the right,
+                                    there should be three pyramids visible in the right
+                                    frame and three rectangles visible in the left frame.
+                                    <ol>
+                                        <li>
+                                            <p>
+                                                Verify that the three rectangles on the 
+                                                left correspond to the bases of the three 
+                                                pyramids on the right. You may need to adjust
+                                                your viewing window by zooming out or dragging.
+                                                You can also see the coordinates of the vertices 
+                                                by right-clicking on the point. <!--fix the rounding
+                                                errors and check that this works on a Mac-->HOW DOES THIS 
+                                                WORK ON A MAC?
+                                                <ol>
+                                                    <li>
+                                                        <p>
+                                                            What are the dimensions of the base of 
+                                                            the green prism, given by <m>BB''D''D</m>?
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <p>
+                                                            What are the dimensions of the base of the 
+                                                            red prism, given by <m>AA''B''B</m>?
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                            </p>
+                                        </li>
+
+                                    </ol> 
+                                </p>
+                            </statement>
+                        </task>
+                    </task>
+                </task>
+                <figure xml:id="applet-prism-pyramids">
+                    <caption>GeoGebra interactive to disassemble a prism
+                        into pyramids
+                    </caption>
+                    <interactive xml:id="unfolding-prism-app" platform="geogebra">
+                        <slate surface="geogebra" material="qjqyvzjn"/>
+                        </interactive>
+                </figure>
+            </exploration>
+        </subsubsection>
         <!--Geogebra Interactive to visualize the unfolding of a rectangular 
         prism into three rectangular pyramids https://www.geogebra.org/material/edit/id/qjqyvzjn -->
+        <conclusion>
+            <p>
+                These explorations show that, at least in a few cases, the 
+                volume of a pyramid or cone is one-third that of the corresponding 
+                prism or cylinder. A proof of this fact for all situations is beyond
+                the scope of this course.
+            </p>
+        </conclusion>
     </subsection>
     <exercises xml:id="Exercises-polyhedra-pyr">
         <title>Exercises</title>
@@ -306,6 +642,6 @@
                     </p>
                 </statement>
             </exercise>
-        </subexercises>
-    </exercises>
+            </subexercises>
+</exercises>
 </section>

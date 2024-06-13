@@ -253,7 +253,7 @@
                     <p>
                         Show all work as you compute the following measurements for the
                         oblique cylinder in <xref ref="skewcyl-vol"/>. Formulas for the area 
-                        and circumference of a circle are given in <xref ref="subsubsec-area-circle"/>.
+                        and circumference of a circle are given in <xref ref="def-circle-measures"/>.
                         <ol>
                             <li>
                                 <p>
@@ -665,11 +665,10 @@
                             </statement>
                             <answer>
                                 <p>
-                                    Volume is 
+                                    Volume is <m>\pi 1.8^2\cdot 6=19.44\pi\approx 61.07</m>
                                 </p>
                             </answer>
                         </task>
-                
             </exercise>
             <figure xml:id="fig-ExtConc-cylnet">
                 <caption>A net for a cylinder</caption>
