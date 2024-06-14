@@ -133,12 +133,17 @@
             <title>Exploring a Rectangular Pyramid</title>
             <introduction>
                 <p>
-                    In this activity, you will explore the rectangular pyramid 
+                    In this activity, you will study the rectangular pyramid 
                     that is created by folding only one of the nets in 
-                    <xref ref="fig-explor-rect-pyr-345"/>, 
-                    <xref ref="fig-explor-rect-pyr-354"/>, or 
-                    <xref ref="fig-explor-rect-pyr-453"/>. 
+                    <xref ref="fig-three-pyr-nets"/>. Check with your instructor 
+                    to see which net you should explore.
+                    <!--<xref ref="fig-explor-rect-pyr-345" text="custom">Pyramid Net 1</xref>, 
+                    <xref ref="fig-explor-rect-pyr-354" text="custom">Pyramid Net 2</xref>, or 
+                    <xref ref="fig-explor-rect-pyr-453" text="custom">Pyramid Net 3</xref>.--> 
                 </p>
+                <figure xml:id="fig-three-pyr-nets">
+                    <caption>Nets of three rectangular pyramids</caption>
+
                 <sidebyside widths="33% 33% 33%" valign="bottom">
                     <!--Resize so that these are consistent in size.-->
                     <figure xml:id="fig-explor-rect-pyr-345">
@@ -178,6 +183,7 @@
                         </image>
                     </figure>
                 </sidebyside>
+            </figure>
                 <!--Geogebra files online:
                 Three pyramids: https://www.geogebra.org/geometry/ppggtc9v
                 345 https://www.geogebra.org/m/cnykbsvc
@@ -189,28 +195,24 @@
                 <introduction>
                     <p>
                         Regardless of which Pyramid Net you are working wih, <m>ABCD</m> is a 
-                        rectangle: either <m>3\times 4</m> (<xref ref="fig-explor-rect-pyr-345">Pyramid Net 1</xref>),
-                        <m>3\times 5</m> (<xref ref="fig-explor-rect-pyr-354">Pyramid Net 2</xref>), or 
-                        <m>4\times 5</m> (<xref ref="fig-explor-rect-pyr-453">Pyramid Net 3</xref>).   
+                        rectangle. The pyramid formed by <xref ref="fig-explor-rect-pyr-345" text="custom">Pyramid Net 1</xref>,
+                        has a <m>3\times 4</m>-rectangular base, the one formed by 
+                        <xref ref="fig-explor-rect-pyr-354" text="custom">Pyramid Net 2</xref> 
+                        a <m>3\times 5</m>-rectangular base, and the one formed by 
+                        <xref ref="fig-explor-rect-pyr-453" text="custom">Pyramid Net 3</xref> has a
+                        <m>4\times 5</m>-rectangular base.   
                         Angles <m>\angle CAE</m>, <m>\angle BAF</m>, <m>\angle DCE'</m>,
-                        and <m>\angle DBF'</m> are right angles and the length of <m>AE</m> is provided. Determine 
-                        the following: 
+                        and <m>\angle DBF'</m> are right angles and the length of <m>AE</m> is the remaining
+                        value of 5, 4, or 3 as indicated on the sketch. Determine the following: 
                     </p>
                 </introduction>
                 <task>
                     <statement>
                         <p>
-                            Identify the Pyramid Net, Net 1 <xref ref="fig-explor-rect-pyr-345"/>, 
-                            Net 2 <xref ref="fig-explor-rect-pyr-354"/>, or 
-                            Net 3 <xref ref="fig-explor-rect-pyr-453"/>, that will be the focus of 
-                            your work.
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            Determine <m>EC</m>.
+                            For the record, state which Pyramid Net you will study: 
+                            <xref ref="fig-explor-rect-pyr-345" text="custom">Net 1</xref>, 
+                            <xref ref="fig-explor-rect-pyr-354" text="custom">Net 2</xref>, or 
+                            <xref ref="fig-explor-rect-pyr-453" text="custom">Net 3</xref>.
                         </p>
                     </statement>
                 </task>
@@ -224,17 +226,42 @@
                 <task>
                     <statement>
                         <p>
-                            Determine <m>BF</m>.
+                            Determine <m>EC</m>.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            The Pythagorean Theorem should be used. If your answer is 
+                            not a whole number (Net 1), leave the square root in your answer.
+                        </p>
+                    </hint>
                 </task>
                 <task>
                     <statement>
                         <p>
-                            Explain without performing any calculations why <m>CE'=CE</m> 
-                            and <m>BF'=BF</m>.
+                            Determine <m>BF</m>.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            If your answer is not a whole number, you should
+                            leave the square root in your answer. What happens 
+                            when you take the square of a square root?
+                        </p>
+                    </hint>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Explain without performing any calculations why <m>CE'</m> should
+                            equal <m>CE</m> and <m>BF'</m> should equal <m>BF</m>.
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            Remember that the net should fold into a pyramid.
+                        </p>
+                    </hint>
                 </task>
                 <task>
                     <statement>
@@ -242,6 +269,15 @@
                             Calculate <m>DE'</m> and <m>DF'</m>.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Compute these separately and check that they are equal.
+                        </p>
+                        <p>
+                            Leave the square root in your answer. What happens 
+                            when you take the square of a square root?
+                        </p>
+                    </hint>
                 </task>
                 <task>
                     <statement>
@@ -257,13 +293,13 @@
                 <title>Constructing a pyramid from a net</title>
                 <statement>
                     <p>
-                        Print a copy of this net<fn>To print out copies of all 
+                        Print a copy of your Pyramid Net<fn>To print out copies of all 
                             three nets, sized consistently, use 
 <url href="https://drive.google.com/file/d/1GvWkZHR1BYcQzO_0rUs516MUoLaJnwZ_/view?usp=sharing">
     bit.ly/3PyramidNets.</url>.</fn>, cut your net out, and fold along the 
                         dashed lines to see that this forms a rectangular pyramid.
                         Stiffer paper such as cardstock is recommended.
-                        What do you notice about the corner at <m>A</m>?
+                        What do you notice about the corner of your pyramid at <m>A</m>?
                     </p>
                 </statement>
             </task>
@@ -272,22 +308,28 @@
             <title>Surface Area of Pyramids and Cones</title>
         <p>
             With both prisms and pyramids, formulas exist to compute the surface area of some of 
-            the common types, but these formulas are often not necessary<fn>The tough part of
+            the common types, but these formulas are often not necessary.<fn>The tough part of
             computing surface area is determining missing lengths and altitudes. Some formulas 
-            will alleviate the need to perform these computations.</fn> and use techniques 
-            beyond the scope of this course. If we can compute the areas of 
+            will alleviate the need to perform these computations.</fn> Some of these formulas 
+            use techniques that are
+            beyond the scope of this course. However, if we can compute the area of 
             each face, then the surface area is simply the sum of the areas of the faces. 
             Working with nets can help us focus on measuring the surfaces.
         </p>
         <p>
-            A cone will consist of two surfaces, the circle that forms its base 
-            and a circular sector that forms the upper portion. The center of the circular 
-            sector corresponds to the apex of the cone and the radius corresponds to the 
-            slant height of the cone, measured from the apex to the edge of the base at 
-            an angle less than 90 degrees. To find the area of the sector, we note that 
-            this area will be <m>\frac{q}{360}</m> where <m>q</m> is the number of
-            degrees in the sector. Here, <m>q</m> may be any positive number less than
-            360.
+            As illustrated in <xref ref="fig-cone-surface"/>, the surface of a cone will 
+            consist of two parts, the circle that forms its base 
+            and a circular sector that forms the section connecting the apex to the base. 
+            In the net for the cone, the center of the circular sector corresponds to the 
+            apex of the cone and the radius of the sector corresponds to the 
+            slant height of the cone. This slant height is measured along a line segment 
+            from the apex to the edge of the base which meets the base at 
+            an angle less than 90 degrees.<!-- To find the area of the sector, we note that 
+            that <m>\frac{Area_{sector}}{Area_circle}=\frac{q}{360}</m>
+            where <m>q</m> is the number of degrees in the sector. Letting <m>R</m>
+            represent the radius of the sector, we can compute the area of the sector by
+            <m>Area_{sector}=\frac{q}{360}\pi R^2</m>.
+            <idx><h>sector of a circle</h><h>area</h></idx>-->
         </p>
         <p>
             The cone, pictured in <xref ref="fig-cone-surface"/>, has a circular base 
@@ -361,11 +403,12 @@
                 <title>Visualizing Pyramid and Cone Volume with Water</title>
                 <introduction>
                     <p>
-                        This is the simplest demonstration of the volume claim, 
+                    This is the simplest demonstration of the claim that the volume
+                    of a pyramid is one-third the volume of the corresponding prism, 
                         but to perform this task, a special set of containers 
                         are needed. These are available through educational 
                         material companies. This exploration can also be viewed
-                        in <xref ref="fig-water-volume-video"/>. 
+                        in the YouTube video in <xref ref="fig-water-volume-video"/>. 
                     </p>
                 </introduction>
                 <task>
@@ -574,7 +617,6 @@
                                                 </ol>
                                             </p>
                                         </li>
-
                                     </ol> 
                                 </p>
                             </statement>
@@ -625,7 +667,17 @@
         </subexercises>
         <subexercises xml:id="ExtConc-polyhed-pyramid">
             <title>Extending the Concepts</title>
-            <exercise xml:id="EC-why-third">
+            <exercise>
+                <title>Angle and Area of a Sector</title>
+                <task>
+                    <statement>
+                        <p>
+                            WORK ON THIS!
+                        </p>
+                    </statement>
+                </task>  
+            </exercise>
+            <!--<exercise xml:id="EC-why-third">
                 <title>Visualizing the Volume Formula for a Rectangular Pyramid</title>
                 <statement>
                     <p>
@@ -660,7 +712,7 @@
                         </ol>
                     </p>
                 </statement>
-            </exercise>
+            </exercise>-->
             </subexercises>
 </exercises>
 </section>
