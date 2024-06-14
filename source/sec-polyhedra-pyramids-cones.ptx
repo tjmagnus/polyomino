@@ -41,6 +41,8 @@
             <statement>
                 <p>
                     Use models and reasoning to complete <xref  ref="table-pyramid-FVE"/>.
+                    Pictures of a pentagonal pyramid and a hexagonal pyramid are provided in 
+                    <xref ref="fig-pentpyr-hexpyr"/>.
                 </p>
                 <table xml:id="table-pyramid-FVE">
                     <title>Counting Parts of a Pyramid</title>
@@ -89,6 +91,23 @@
                 </table>
             </statement>
         </task>
+        <figure xml:id="fig-pentpyr-hexpyr">
+            <caption>Examples of pyramids</caption>
+            <sidebyside widths="50% 50%" valign="bottom">
+                <figure xml:id="fig-pentpyr">
+                    <caption>Pentagonal pyramid</caption>
+                    <image source="pentagonal-pyr.png">
+                        <shortdescription>Pentagonal pyramid</shortdescription>
+                    </image>
+                </figure>
+                <figure xml:id="fig-hexpyr">
+                    <caption>Hexagonal pyramid</caption>
+                    <image source="hex.pyramid.png">
+                        <shortdescription>Hexagonal pyramid</shortdescription>
+                    </image>
+                </figure>
+            </sidebyside>
+        </figure>
         <task>
         <statement>
             <p>

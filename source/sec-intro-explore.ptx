@@ -489,7 +489,7 @@
         </p>
         <p>
           Finally, we observed that when the lengths of all sides of a two-dimensional 
-          figure are doubled (or tripled), the area of the figure is muliplied by 4 (or 9).
+          figure are doubled (or tripled), the area of the figure is multiplied by 4 (or 9).
           This is easy to observe in a rectangle with length <m>\ell</m> and width <m>w</m>. 
           When we create a new rectangle with length <m>L=2\ell</m> and width <m>W=2w</m>, 
           the resulting area is <m>LW=(2\ell)(2w)=(2\cdot 2)(\ell w)=4\ell w</m> square units.
@@ -669,7 +669,7 @@
               <statement>
                 <p>
                     Find the area of rectangle <m>ABCD</m> with height 14 cm. and 
-                    width 6cm. Then use your 
+                    width 6 cm. Then use your 
                     answer to find the area of right triangle <m>\Delta ACD</m>.
                 </p>
               </statement>
