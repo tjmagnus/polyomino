@@ -12,18 +12,29 @@
         <idx><h>polyhedron</h><h>vertex</h></idx>
         <idx><h>polyhedron</h><h>convex</h></idx>
         <idx><h>convex</h><h>polyhedron</h></idx>
+        <idx><h>concave</h><h>polyhedron</h></idx>
+        <idx><h>polyhedron</h><h>concave</h></idx>
         <statement>
             <p>
                 A <term>polyhedron (plural: polyhedra)</term> is a 
-                three-dimensional closed figure in which all of the faces are polygons. 
-                Unless stated otherwise, we will assume that a polyhedron is convex so  
+                three-dimensional closed figure in which all of the faces are polygons.
+                Both of the solids in <xref ref="fig-convex-concave-polyhedra"/> are 
+                polyhedra, but the one on the left is said to be <term>concave</term> since 
+                we can connect some vertices, like the far left and top vertex with straight 
+                segments that pass through the exterior (outside the surface) of the solid. 
+                As we work through this chapter, we will assume that a polyhedron is convex so  
                 that it has no valleys or depressions. Any line segment connecting two points 
                 on the surface of a convex polyhedron will only contain points on the surface or 
-                interior of the polyhedron.
+                interior of the polyhedron.  
             </p>
-            <!--Add pictures!-->
+            <figure xml:id="convex-concave-polyhedra">
+                <caption>A concave polyhedron and a convex polyhedron</caption>
+                <image source="concaveconvexaligned.png">
+                    <shortdescription>A concave polyhedron and a convex polyhedron</shortdescription>
+                </image>
+            </figure>
             <p>
-                Here, a <term>face</term> of a geometrical solid refers to a flat surface 
+                A <term>face</term> of a geometrical solid refers to a flat surface 
                 that forms part of the boundary of the solid. The line segments where two 
                 faces meet are called <term>edges</term>, and the points where  
                 edges meet are called the <term>vertices</term> of the polyhedron. The  

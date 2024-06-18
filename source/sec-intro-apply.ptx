@@ -509,10 +509,27 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           The <term>height</term> of the parallelogram is measured along an 
           <term>altitude</term>, namely a segment
           formed connecting a point on the side opposite the base
-          to a point on the base such that the altitude meets the base at a right angle.
+          to a point on the base such that the altitude meets the line forming 
+          the base at a right angle.
+        </p>
+        <p>
+          In <xref ref="fig-parallogram-def"/>, <m>ABCD</m> is a parallelogram 
+          since lines <m>\overleftrightarrow{AD}</m>
+          and <m>\overleftrightarrow{BC}</m> are parallel and lines
+          <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m> are 
+          parallel. Segment <m>\overline{DE}</m> is an altitude for <m>ABCD</m>.
+          The altitude may be drawn from any vertex to an opposite side 
+          and may lie in the interior or the exterior of the parallogram.
         </p>
       </statement>
     </definition>
+      <figure xml:id="fig-parallelogram-def">
+        <caption>Two pairs of parallel lines creating parallelogram <m>ABCD</m></caption>
+        <image source="parallelogram">
+          <shortdescription>Two pairs of parallel lines creating parallelogram</shortdescription>
+        </image>
+      </figure>
+      <!--https://www.geogebra.org/geometry/f7u8y9xg-->
     <definition xml:id="def-trapezoid">
       <idx><h>trapezoid</h></idx>
       <idx><h>quadrilateral</h><h>trapezoid</h></idx>
@@ -530,9 +547,22 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           The height of a trapezoid is the distance between the base and the 
           summit, measured along an altitude which is perpendicular to the base.
         </p>
+        <p>
+          In <xref ref="fig-trapezoid-def"/>, we see that base <m>\overline{BC}</m> 
+          and summit <m>\overline{AD}</m> lie on parallel lines 
+          <m>\overleftrightarrow{BC}</m> and <m>\overleftrightarrow{AD}</m>, 
+          respectively. Segments <m>\overline{AB}</m> and <m>\overline{DC}</m>
+          are legs while <m>\overline{AE}</m> is an altitude. Note that the altitude 
+          may lie in either the interior or the exterior of the trapezoid.
+        </p>
       </statement>
     </definition>
-
+<figure xml:id="fig-trapezoid-def">
+  <caption>Trapezoid <m>ABCD</m></caption>
+  <image source="trapezoid-def">
+    <shortdescription>Trapezoid ABCD with base BC and summit AD</shortdescription>
+  </image>
+</figure>
     <p>
       Triangles and other polygons may also be classified by whether some of their 
       sides have the same length.

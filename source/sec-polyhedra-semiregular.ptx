@@ -326,7 +326,7 @@
                         </li>
                         <li>
                             <p>
-                                The polyhedra you just are called <term>antiprisms</term>. Use your 
+                                The polyhedra you just created are called <term>antiprisms</term>. Use your 
                                 constructions to complete <xref ref="table-antiprism"/>. 
                             </p>
                         </li>
@@ -401,14 +401,15 @@
     </exploration>
     </subsection>
     <subsection>
-        <title>Definitions</title>
+        <title>Defining Prisms and Antiprisms</title>
         <p>
             In this section we discovered two families of semiregular polygons: 
             prisms and antiprisms. We can also create prisms and antiprisms which  
             have irregular faces. In particular, the sides of a prism need not be  
             squares, they could be rectangles or other parallelograms. The sides of an 
             antiprism do not need to be equilateral. Moreover, the bases of a prism or antiprism may 
-            be any polygon whatsoever.
+            be any polygon whatsoever. Some examples of prisms are shown in 
+            <xref ref="fig-some-prisms"/> and <xref ref="fig-rt-skew-prism"/>
         </p>
         <definition xml:id="def-prism">
             <idx>prism</idx>
@@ -419,6 +420,16 @@
                 </p>
             </statement> 
         </definition>
+        <figure xml:id="fig-some-prisms">
+            <caption>An assortment of right prisms</caption>
+            <image source="prisms.png">
+                <shortdescription>Prisms</shortdescription>
+            </image>
+        </figure>
+        <p>
+            In <xref ref="antiprism-task"/>, you built and analyzed some antiprisms, 
+            similar to the one on the right in <xref ref="fig-prism-antiprism"/>.
+        </p>
         <definition xml:id="def-antiprism">
             <idx>antiprism</idx>
             <statement>
@@ -429,6 +440,12 @@
                 </p>
             </statement>
         </definition>
+        <figure xml:id="fig-prism-antiprism">
+            <caption>A pentagonal prism and pentagonal antiprism</caption>
+            <image source="pentagonalprism-antiprism.png">
+                <shortdescription>pentagonal prism and antiprism</shortdescription>
+            </image>
+        </figure>
         <p>
             The two parallel congruent polygonal faces are called the <term>bases</term> 
             of the prism or antiprism. The top base may be called the <term>summit</term>  

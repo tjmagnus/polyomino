@@ -52,10 +52,10 @@
           </ul>
         </p>
         <p>
-          As an example, consider a pair of convex quadrilaterals, <m>ABCD</m> and
+          As an example, consider a pair of convex quadrilaterals <m>ABCD</m> and
           <m>EFGH</m>. We say <m>ABCD</m> is <term>congruent to</term>
-          <m>EFGH</m>, written <m>ABCD\cong EFGH</m>, if all of the following
-          are true: <m>AB=EF</m>, <m>BC=FG</m>, <m>CD=GH</m>, <m>DA=HE</m>,
+          <m>EFGH</m>, written <m>ABCD\cong EFGH</m>, if the following
+          are all true: <m>AB=EF</m>, <m>BC=FG</m>, <m>CD=GH</m>, <m>DA=HE</m>,
           <m>m(\angle ABC)=m(\angle EFG)</m>, <m>m(\angle BCD)=m(\angle FGH)</m>,
           <m>m(\angle CDA)=m(\angle GHE)</m>, and <m>m(\angle DAB)=m(\angle HEF)</m>.
           Note how the labeling of the quadrilaterals' vertices identifies the pairs
@@ -63,6 +63,16 @@
         </p>
       </statement>
     </definition>
+    <figure xml:id="fig-congruent-def">
+      <caption>Congruent quadrilaterals <m>ABCD</m> and <m>\cong EFGH</m></caption>
+      <image source="congruentquads">
+        <shortdescription>
+          Two congruent quadrilaterals with lengths and angle measures
+          shown.
+        </shortdescription>
+      </image>
+    </figure>
+    <!--https://www.geogebra.org/geometry/pk9rjawn-->
     <p>
       This leads us to another principle that we will accept as intuitively obvious:
     </p>
