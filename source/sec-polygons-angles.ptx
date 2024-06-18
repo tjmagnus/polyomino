@@ -889,6 +889,9 @@
     </subexercises>
     <subexercises xml:id="ExtConc-polygons-angles">
         <title>Extending the Concepts</title>
+        <!--Add exercise showing that if the altitude is perpendicular to the 
+        base, it will also be perpendicular to the summit. Can this be done with
+        triangle angle sum and angle addition?-->
         <exercise>
             <statement>
                 <p>

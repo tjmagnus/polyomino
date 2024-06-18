@@ -103,7 +103,7 @@
             <p>
                 You probably remember the angle formula for a triangle; in fact, you 
                 may have used it already in this course! But why is the area 
-                <m>A_{tri}=\frac{1}{2}bh</m>? This exploration will encourage you to 
+                <m>A_{triangle}=\frac{1}{2}bh</m>? This exploration will encourage you to 
                 answer that question. 
             </p>
         </introduction>
@@ -140,7 +140,7 @@
         <task>
             <statement>
                 <p>
-                    To demonstrate WHY the formula, <m>A(tri)=\frac{1}{2}bh</m>, 
+                    To demonstrate WHY the formula, <m>A_{triangle}=\frac{1}{2}bh</m>, 
                     gives the area for any triangle, construct a parallelogram 
                     based on the triangle shown below. How is the area of your 
                     parallelogram related to the area of the triangle? Explain.
@@ -221,6 +221,8 @@
             </p>
         </introduction>
         <task>
+            <!--CONSIDER REWRITING THIS AS A GEOGEBRA INTERACTIVE. THIS WILL ALSO 
+            BE A GOOD TIME TO ADD A GEOGEBRA VIDEO-->
             <statement>
                 <p>
                     Sketch example(s) of each of the following trapezoids:
@@ -303,22 +305,26 @@
                             </p>
                         </li>
                         <li>
-                            <p>
-                                (Skip if this doesn't apply to your (de)construction.) 
-                                If you created any triangles, rectangles, or parallelograms 
-                                which have, or might have, different base length or height, you will need 
-                                to give these lengths new, different labels. If you find that you need to create a lot 
+                            <p> 
+                                You may have created triangles, rectangles, or parallelograms 
+                                which have, or might have, different base length or height. Any 
+                                new length or height should be given a different label. If you find that you need to create a lot 
                                 of new labels, you might want to use a different construction or deconstruction
                                 to reduce the amount of algebra you will need to do later. 
                             </p>
+                            <p>
+                                If you did not create any new length or height, you may skip the 
+                                next item.
+                            </p>
                         </li>
                         <li>
-                            <p>
-                                (Skip if this doesn't apply to your (de)construction.) 
+                            <p> 
                                 Relate any new labels to the trapezoid's height, 
                                 base, and/or summit. For example, if you split the base into three segments, 
                                 labeled <m>x</m>, <m>y</m>, and <m>z</m>, you would write down the relationship 
-                                <m>x+y+z=b_2</m>. If you split the base into two segments, one of which is
+                                <m>x+y+z=b_2</m>.<fn>Is <m>y</m> equal to one of the original values? If so, 
+                                it is often useful to replace <m>y</m> by that variable.</fn> 
+                                If you split the base into two segments, one of which is
                                 congruent to the summit, you might write <m>x+b_1=b_2</m> or equivalently,
                                 <m>b_1=b_2-x</m>.
                             </p>
@@ -354,9 +360,9 @@
         </title>
         <p>
             Adding the formula <m>A=\frac{1}{2}(b_1+b_2)h</m> for the area of a 
-            trapezoid, we now have four area formulas in our toolbox. One could 
-            continue to add more: kites, pentagons, hexagons, etc., but 
-            the list would become unwieldly and unhelpful. 
+            trapezoid, we now have four area formulas in our toolbox. We could 
+            continue to derive the area of more shapes like kites, pentagons, 
+            hexagons, etc., but the list would become unwieldly and unhelpful. 
             <idx><h>trapezoid</h><h>area</h></idx>
             <idx><h>area</h><h>of a trapezoid</h></idx>
             Instead, we will  
@@ -480,20 +486,40 @@
                 <idx><h>center</h><h>circle</h></idx>
                 <statement>
                     <p>
-                        A <term>circle</term> is the set of all points that are the same 
-                        distance from a point called the <term>center</term> of the circle.
+                        A <term>circle</term> is the set of points<fn>Here, we consider only
+                        points on a single plane or flat surface.</fn> that are of equal 
+                        distance from a point called the <term>center</term> of the circle. This set 
+                        of equidistant points is sometimes referred to as the circumference of the circle to 
+                        distinguish it from the interior and exterior of the circle.
                         The <term>radius (pl. radii)</term> refers both to any segment from the center 
-                        of the circle to a point on the circle and to the length common to 
+                        of the circle to a point on its circumference. The term <term>radius</term>
+                        can also refer to the length common to 
                         all radii. A segment that joins two points of the circle 
                         and passes through the center is called a <term>diameter</term>. The 
                         length of a diameter is also called the <term>diameter</term> and is twice 
                         the length of the radius. 
                     </p>
+                    <p>
+                        The circle in <xref ref="fig-circle-def"/> has a center
+                        at point <m>A</m>. Radii include <m>\overline{AB}</m>,
+                        <m>\overline{AC}</m>, <m>\overline{AD}</m>, and
+                        <m>\overline{AF}</m>. One diameter is <m>\overline{BF}</m>.
+                        The distance from <m>A</m> to any point on the circumference 
+                        is 8.7, the radius of the circle.
+                    </p>
+                        <figure xml:id="fig-circle-def">
+                            <caption>Terms related to a circle</caption>
+                            <image source="image-circle-def">
+                                <shortdescription>A circle</shortdescription>
+                            </image>
+                        </figure>
+<!--https://www.geogebra.org/geometry/jda5xnsx-->
                 </statement>
             </definition>
             <p> 
                 Archimedes (287-212 BC) determined the area of a circle by looking at inscribed and 
-                circumscribed polygons. As the number of sides grew, the area of the polygons would 
+                circumscribed<fn>See <xref ref="fig-circle-squares"/> for an illustration of these terms.</fn> 
+                polygons. As the number of sides grew, the area of the polygons would 
                 approach the area of the circle, with the area of the inscribed polygons giving a lower 
                 estimate and the area of the circumscribed polygons giving an overestimate. The number  
                 <m>\pi</m> was not known at the time, but this method provides a means of calculating 
@@ -865,7 +891,7 @@
             <statement>
                 <p>
                     Write a letter to a friend in which you explain how the area 
-                    of a trapezoid is derived from previously known area formulas,
+                    of a trapezoid is derived from previously known area formulas
                     such as rectangles, parallelograms, and/or triangles.
                     See <xref ref="subsec-letter"/> for suggestions on how to write 
                     a clear explanation.
@@ -875,7 +901,7 @@
         <exercise>
             <statement>
                 <p>
-                    Research the history of the number <m>\pi</m> focussing on 
+                    Research the history of the number <m>\pi</m> focusing on 
                     a role that geometry played in its discovery or development.
                 </p>
             </statement>
