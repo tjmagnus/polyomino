@@ -489,7 +489,7 @@
                         </p>
                     </statement>
                 </task>
-                <task>
+                <task xml:id="expl-pyr-vol-prismcalculate">
                     <statement>
                         <p>
                             Compute the volume of the prism.
@@ -499,10 +499,73 @@
                 <task>
                     <statement>
                         <p>
-                            Compute the volume of the pyramid and give an
-                            explanation of how your work supports your computation.
+                            Each of the three pyramids has a different base. Determine
+                            the area of the base of the pyramid formed by folding
+                            <ol>
+                                <li>
+                                    <p>
+                                        Pyramid Net 1
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Pyramid Net 2
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Pyramid Net 3
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
                     </statement>
+                </task>
+                <task xml:id="expl-pyr-volume-calculations">
+                    <statement>
+                        <p>
+                            Use the formula <m>V_{pyramid}=\frac{A_{base}\cdot d}{3}</m>
+                            to compute the volume of the pyramid formed by
+                            <ol>
+                                <li>
+                                    <p>
+                                        Pyramid Net 1
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Pyramid Net 2
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Pyramid Net 3
+                                    </p>
+                                </li>
+                            </ol> 
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How does additivity of volume together with the computations 
+                            in <xref ref="expl-pyr-vol-prismcalculate"/> and 
+                            <xref ref="expl-pyr-volume-calculations"/> help to confirm
+                            the formula for the volume of pyramid for this 
+                            particular situation?
+                        </p> 
+                        <p>
+                            Bonus challenge: To what family of 
+                            pyramids can we generalize this argument
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            For the bonus, note that these pyramids had a particular
+                            shaped base and a special base angle. 
+                        </p>
+                    </hint>
                 </task>
             </exploration>
             <exploration>
