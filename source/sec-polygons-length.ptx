@@ -595,9 +595,10 @@
           <figure xml:id="fig-HWadjustableTri">
             <caption>GeoGebra Interactive for <xref ref="ExtConc-PythIneq"/></caption>
             <interactive xml:id="Gg-HWadjustableTri" platform="geogebra">
-              <slate surface="geogebra" material="npyrwvps"/>
+              <slate surface="geogebra" material="undtxn7h"/>
           </interactive>
           </figure>
+          <!--Link not working. Original material ="npyrwvps" or guf4he3"-->
       </exercise>
       <exercise>
         <title>Generating Pythagorean Triples with Algebra</title>
