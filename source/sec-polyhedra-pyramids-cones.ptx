@@ -293,12 +293,13 @@
                 <title>Constructing a pyramid from a net</title>
                 <statement>
                     <p>
-                        Print a copy of your Pyramid Net<fn>To print out copies of all 
+                        Print your Pyramid Net<fn>To print out copies of all 
                             three nets, sized consistently, use 
 <url href="https://drive.google.com/file/d/1GvWkZHR1BYcQzO_0rUs516MUoLaJnwZ_/view?usp=sharing">
-    bit.ly/3PyramidNets.</url>.</fn>, cut your net out, and fold along the 
+    bit.ly/3PyramidNets.</url>.</fn> on cardstock, cut your net out, and fold along the 
                         dashed lines to see that this forms a rectangular pyramid.
-                        Stiffer paper such as cardstock is recommended.
+                    </p>
+                    <p>
                         What do you notice about the corner of your pyramid at <m>A</m>?
                     </p>
                 </statement>
@@ -687,7 +688,8 @@
                     </task>
                 </task>
                 <figure xml:id="applet-prism-pyramids">
-                    <caption>GeoGebra interactive to disassemble a prism
+                    <caption>
+                        GeoGebra interactive to disassemble a prism
                         into pyramids
                     </caption>
                     <interactive xml:id="unfolding-prism-app" platform="geogebra">
@@ -712,33 +714,339 @@
         <subexercises xml:id="SAR-polyhedra-pyr">
         <title>Skills and Recall</title>
             <exercise xml:id="SAR-polypyr-vol">
-                <statement>
+                <introduction>
                     <p>
                         Determine the volumes of the following solids:
-                        <!--Add some! Descriptive or illustration-->
                     </p>
-                </statement>
+                </introduction>
+                    <task>
+                        <statement>
+                            <p>
+                                A pyramid with a <m>9\times 9</m>square base and
+                                a height of <m>4</m>.
+                            </p>
+                        </statement>
+                        <answer>
+                            <p>
+                               V=108 cubic units. 
+                            </p>
+                        </answer>
+                        <solution>
+                            <p>
+                                <m>V=\frac{81\cdot 4}{3}=\frac{324}{3}=108</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                A pyramid with a rectangular base with a length of 
+                                <m>3</m>, a width of <m>7</m>, and a height of <m>5</m>.
+                            </p>
+                        </statement>
+                        <answer>
+                            <p>
+                                35 cubic units
+                            </p>
+                        </answer>
+                        <solution>
+                            <p>
+                                <m>\frac{21\cdot 5}{3}=35</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                A cone with height 15 cm and radius 10 cm.
+                            </p>
+                        </statement>
+                        <answer>
+                            <p>
+                                <m>500\pi</m> cm^{2}
+                            </p>
+                        </answer>
+                        <solution>
+                            <p>
+                                <m>\frac{1}{3}(15\cdot \pi\cdot 10^2)=500\pi</m>
+                                cubic centimeters
+                            </p>
+                        </solution>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                A triangular pyramid with a distance of 10 cm from apex to base. 
+                                The base is an isosceles triangle with sides 13 cm, 13 cm, and 10 cm. 
+                                Since the base is isosceles, its altitude passes through the midpoint 
+                                of the 10 cm side. This 
+                                pyramid is sketched in <xref ref="fig-SAR-pyr-base-isos"/> and the lengths of 
+                                the sides of the base are given.
+                            </p>
+                        </statement>
+                        <figure xml:id="fig-SAR-pyr-base-isos">
+                            <caption>Isosceles pyramid with 10-13-13 base and height 10</caption>
+                            <image source="SAR-pyr-isos-base.png">
+                                <shortdescription>Triangular Pyramid with 10-13-13 base and height 10</shortdescription>
+                            </image>
+                        </figure>
+                        <!--https://www.geogebra.org/3d/q4wbjyug for pyramid and https://www.geogebra.org/3d/thjzxyn6
+                        for net
+                        -->
+                    </task>
             </exercise>
             <exercise xml:id="SAR-polypyr-SurfA">
-                <statement>
+                <introduction>
                     <p>
-                        Determine the surface area of the following solids:
-                        <!--Add some! Descriptive or illustration-->
+                        Determine the surface area of the solids:
                     </p>
-                </statement>
+                </introduction>
+                <task xml:id="SAR-prism-net-likepyr-Surface">
+                    <statement>
+                        <p>
+                            The prism with an isosceles triangle base and stretch distance 10 cm
+                            where the triangle has one side of length 10 cm and two of length 13 cm.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            480
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            <m>10^2+2\cdot(130+\frac{10\cdot 12}{2})</m>
+                        </p>
+                    </solution>
+                    <figure xml:id="fig-SAR-prism-net-likepyr-Surface">
+                        <caption>Net for isosceles triangle prism</caption>
+                        <image source="SAR-isos-prism-net-for-SA">
+                            <shortdescription>Net for a prism with 10-13-13 isosceles
+                                triangle base and stretch distance 10.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                    <!--https://www.geogebra.org/geometry/smmsydnu-->
+                </task>
+                <task xml:id="SAR-pyr-net-Surface">
+                    <statement>
+                        <p>
+                            The pyramid with net given in 
+                            <xref ref="fig-SAR-tripyr-net-for-SA"/>
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            275.58
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            <m>\frac{12\cdot 10}{2}+\frac{12.93\cdot 10}{2}+\frac{12\cdot 10}{2}
+                                +2\cdot \frac{11.61\cdot 13}{2}</m>
+                        </p>
+                    </solution>
+                    <figure xml:id="fig-SAR-tripyr-net-for-SA">
+                        <caption></caption>
+                        <image source="SAR-tripyr-net-for-SA">
+                            <shortdescription>Net for a pyramid with 10-13-13 isosceles
+                                triangle base and stretch distance 10</shortdescription>
+                        </image>
+                    </figure>
+                    <!--https://www.geogebra.org/geometry/c5stw8yz-->
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            The prism in <xref ref="SAR-prism-net-likepyr-Surface"/>
+                            and the pyramid in <xref ref="SAR-pyr-net-Surface"/> have 
+                            the same height and base. Divide the two surface areas. Does 
+                            there appear to be a nice relationship between the surface
+                            area of a pyramid and the surface area of the associated prism?
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            Make sure that your calculator is showing four or more digits 
+                            after the decimal point. Is the ratio you compute a nice number 
+                            or an ugly number? Is it familiar to you?
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            The ratio is 1.74178097104. There does not appear to be a nice 
+                            relationship between the two surface areas. 
+                        </p>      
+                        <p>
+                            In fact, the surface area due to the base(s)
+                            will be related by a factor of two since there are two bases in 
+                            a prism and one in a pyramid. However, the heights of the triangular sides 
+                            are not the same as the stretch distance <m>d</m> of the prism, but
+                            instead are <m>\sqrt{d^2+e^2}</m> where <m>e</m> is the distance from 
+                            the centroid of the base to the edge joining the base to the face.
+                        </p>
+                    </answer>
+                </task>
             </exercise>
         </subexercises>
         <subexercises xml:id="ExtConc-polyhed-pyramid">
             <title>Extending the Concepts</title>
             <exercise>
                 <title>Angle and Area of a Sector</title>
+                <introduction>
+                    <p>
+                        The questions in this exercise refer to the cone 
+                        in <xref ref="fig-cone-and-net-ExtConc"/> which has 
+                        a circular base with radius 8 inches and a slant height 
+                        of 17 inches.
+                    </p>
+                </introduction>
                 <task>
                     <statement>
                         <p>
-                            WORK ON THIS!
+                            Determine the area of the base of this cone.
                         </p>
                     </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Use the fact that the height of the cone is measured from 
+                            the apex along a segment perpendicular to the base to determine 
+                            the height of this cone.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Determine the volume of this cone.
+                        </p>
+                    </statement>
+                    <figure xml:id="fig-cone-and-net-ExtConc">
+                        <caption>A cone with radius 8 and slant height 17</caption>
+                        <image source="cone-and-net-ExtConc.png">
+                            <shortdescription>A cone with radius 8 and slant height 17</shortdescription>
+                        </image>
+                    </figure>
+                    <!--https://www.geogebra.org/3d/zhfqan2g-->
                 </task>  
+                <task>
+                    <statement>
+                        <p>
+                            Determine the circumference of the base.
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            The base is a circle with radius 8. What is the formula 
+                            for the circumference? Also, if you leave the constant
+                            <m>\pi</m> in your answer, it will simplify your 
+                            work in a later problem.
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            <m>16\pi</m>
+                        </p>
+                    </answer>
+                    <answer>
+                        <p>
+                            <m>2\pi\cdot 8=16\pi</m>
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <introduction>
+                        <p>
+                            A possible net for the cone is given in 
+                            <xref ref="ExtConc-net-for-cone"/>. The distance 
+                            from <m>B</m> to <m>B'</m> along the circular arc,
+                            known as the <term>arclength</term>, 
+                            should equal the distance around the 
+                            circumference of the base.    
+                        </p>
+                    </introduction>
+                    <task>
+                        <statement>
+                            <p>
+                                What is the total circumference of a 
+                                circle with radius 17 inches?
+                            </p>
+                        </statement>
+                        <hint>
+                            <p>
+                                Again, you are encouraged to leave the number 
+                                <m>\pi</m> in your answer.
+                            </p>
+                        </hint>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                What fraction of this circumference 
+                                should the arclength from <m>B</m> to 
+                                <m>B'</m> be?
+                            </p>
+                        </statement>
+                        <hint>
+                            <p>
+                                The number <m>\pi</m> should cancel, leaving 
+                                you with a fraction where the numerator and 
+                                denominator are whole numbers. Do they look 
+                                familiar?
+                            </p>
+                        </hint>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                What is the rotational angle of a full circle?
+                                Use this together with the fraction you just 
+                                computed to determine the measure of <m>\angle{BDB'}</m>.
+                            </p>
+                        </statement>
+                        <hint>
+                            <p>
+                                This figure only shows a rough approximation of 
+                                the location of <m>B'</m>. Do not use a protractor.
+                            </p>
+                        </hint>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Determine the area of the sector of circle <m>D</m> from 
+                                <m>B</m> to <m>B'</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Determine the surface area of the cone with radius 8 inches and
+                                slant height 17 inches.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                What did you learn by doing this exercise? Did 
+                                you observe anything that you think would make 
+                                a good conjecture for cones in general?
+                            </p>
+                        </statement>
+                    </task>
+                </task>
+                <figure xml:id="ExtConc-net-for-cone">
+                    <caption>Net for the cone with slant height 17 and radius 8</caption>
+                    <image source="net-for-cone-sh17-r8">
+                        <shortdescription>A circle with radius 8 and a sector of a circle
+                            with radius 17.
+                        </shortdescription>
+                    </image>
+                </figure>
             </exercise>
             <!--<exercise xml:id="EC-why-third">
                 <title>Visualizing the Volume Formula for a Rectangular Pyramid</title>
