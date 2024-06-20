@@ -101,13 +101,20 @@
         <statement>
             <p>
                 An <term>angle</term> is the union of two rays with a common endpoint.
-                In particular, <m>\angle BAC</m> consists of all points that lie on the 
+                In particular, <m>\angle BAC</m>, shown in <xref ref="fig-angle-def"/>, 
+                consists of all points that lie on the 
                 rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>. The common 
                 endpoint <m>A</m> of the rays is called the <term>vertex</term> of the 
                 angle and the two rays <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>
                 are called the <term>sides</term> of the angle.
             </p>
         </statement>
+        <figure xml:id="fig-angle-def">
+            <caption>Angle <m>\angle{BAC}</m></caption>
+            <image source="angleBAC">
+                <shortdescription>angle BAC</shortdescription>
+            </image>
+        </figure>
     </definition>
     <p>
         To think of the measure of an angle as the space between the rays is  
@@ -116,7 +123,7 @@
         do not play a role in defining or measuring the angle. If <m>D</m> is any other point 
         on ray <m>\overrightarrow{AB}</m> other than <m>A</m>,
         then <m>\angle{DAC}</m> is the same angle 
-        as <m>\angle{BAC}</m> and hence have the same measure. Thus it would make  
+        as <m>\angle{BAC}</m> and hence has the same measure. Thus it would make  
         no sense to use the linear distance between <m>B</m> and <m>C</m> for measuring 
         <m>\angle{BAC}</m>. The sides of an angle are infinite and extend beyond what can 
         be drawn. 
@@ -130,10 +137,11 @@
             To begin our study of angle measure, we will adopt the practice of 
             assuming that there are 360 degrees in a
             full rotation about any point. The choice of 360 can be traced back 
-            to the Babylonians who were studying planetory paths around 400 B.C. 
+            to the Babylonians who were studying planetary paths around 400 B.C. 
             and used a base 60 (instead of base 10) number system. One advantage 
-            of the number 360 is that it has a lot of factors, including 2, 3, 4, 5, 6, 8,
-            resulting in more pleasing numbers when we consider fractions of a circle. 
+            of the number 360 is that it has a lot of factors including 2, 3, 4, 
+            5, 6, and 8. This results in more pleasing numbers when we consider 
+            fractions of a circle. 
             <!--This will prove helpful in <xref ref="sec-polygons-regular"/>.--> 
         </p>
         <figure>
@@ -391,7 +399,7 @@
                         Make a claim about the sum of the interior angles of a triangle.
                     </p>
                     <p>
-                        Does your work for all triangles or just the one in the 
+                        Does your claim work for all triangles or just the one in the 
                         picture? To test this in the GeoGebra applet, select the arrow 
                         in the tool menu. Then click and drag one of the vertices in 
                         the original triangle to change the shape. Do your claims still  
@@ -434,6 +442,12 @@
             </p>
         </statement>
     </definition>
+    <figure xml:id="fig-additivity-angles">
+        <caption>Additivity of angle measure</caption>
+        <image source="angleadd">
+            <shortdescription>Angle BAC with interior ray AD</shortdescription>
+        </image>
+    </figure>
     <principle xml:id="principle-addangles">
         <title>Additivity of Angle Measure</title>
         <statement>
@@ -512,10 +526,11 @@
             <idx><h>vertical angle</h></idx>
             <statement>
             <p>
-                When a pair of lines intersect, each pair of opposite angles formed by the intersection 
-                are said to be a pair of <term>vertical angles</term>. Vertical angles share a common 
-                vertex, namely the point of intersection, and the sides of one angle will be the opposite rays 
-                of the sides of the other angle.
+                When a pair of lines intersect, two pairs of <term>vertical angles</term> 
+                are formed. The point where the lines intersect will be the vertex for each
+                angle in a vertical pair  
+                and the sides of one angle will be the opposite rays 
+                of the sides of the other angle in the pair.
             </p>
         </statement>
     </definition>
@@ -944,7 +959,7 @@
                 <p>
                     Different interpretations of angles in a concave quadrilateral 
                     can be made here. In your explanation, 
-                    you may need to specific whether you are looking only at interior angles or 
+                    you may need to specify whether you are looking only at interior angles or 
                     only considering angles less than 180 degrees.
                 </p>
             </hint>

@@ -5,12 +5,12 @@
     <introduction>
         <p>
             In this section, we will determine the area formulas for three 
-            shapes, a parallelogram, a triangle, and a trapezoid. Our goal 
+            shapes: a parallelogram, a triangle, and a trapezoid. Our goal 
             will be not only to use the formulas but more importantly to be  
             able to explain why they follow from the basic principles of area. In 
             particular, we will use the formula for the area of a rectangle,
-            <m>A=\ell\times w</m>, as our starting point and derive other 
-            area formulas from it. 
+            <m>A=\ell\times w</m>, as a starting point to derive additional 
+            area formulas. 
         </p>
     </introduction>
     <subsection>
@@ -101,7 +101,7 @@
         <title>Discovering the Area Formula for a Triangle</title>
         <introduction>
             <p>
-                You probably remember the angle formula for a triangle; in fact, you 
+                You probably remember the area formula for a triangle; in fact, you 
                 may have used it already in this course! But why is the area 
                 <m>A_{triangle}=\frac{1}{2}bh</m>? This exploration will encourage you to 
                 answer that question. 
@@ -362,15 +362,15 @@
             Adding the formula <m>A=\frac{1}{2}(b_1+b_2)h</m> for the area of a 
             trapezoid, we now have four area formulas in our toolbox. We could 
             continue to derive the area of more shapes like kites, pentagons, 
-            hexagons, etc., but the list would become unwieldly and unhelpful. 
+            hexagons, etc., but the list would become unwieldy and unhelpful. 
             <idx><h>trapezoid</h><h>area</h></idx>
             <idx><h>area</h><h>of a trapezoid</h></idx>
             Instead, we will  
-            simply break other polygonal shapes into triangles, parallelograms, 
-            and other shapes so that we can compute the area of these and add 
+            simply break other polygons into triangles, parallelograms, 
+            and other shapes so that we can compute their area. We can then add 
             (or subtract) the areas as appropriate. Measuring tools could 
             be used to estimate the dimensions needed to compute the area 
-            of physical spaces such as floorspace or a garden.
+            of physical space such as floorspace or a garden.
         </p>
         <subsubsection xml:id="subsec-irregular-area">
             <title>Estimating the Area of Curved Regions</title>
@@ -558,7 +558,7 @@
             <p>
                 There are two measurements associated with a circle. In addition to area 
                 which measures the interior space, we often wish to compute the length of 
-                the boundary around the circle. We call this boundary length, the <term>circumference</term>
+                the boundary around the circle. We call this boundary length the <term>circumference</term>
                 of the circle and can think of it as the length of string needed to wrap around 
                 the circle. Both area and circumference depend only on the length of the 
                 circle's <term>radius</term>. 
@@ -685,7 +685,7 @@
                             </li>
                             <li>
                                 <p>
-                                    Trapezoid <m>EFGH</m> in <xref ref="fig-HW-trap-area"/>
+                                    Trapezoid <m>DEFG</m> in <xref ref="fig-HW-trap-area"/>
                                 </p>
                             </li>
                             <li>
@@ -901,7 +901,7 @@
         <exercise>
             <statement>
                 <p>
-                    Research the history of the number <m>\pi</m> focusing on 
+                    Research the history of the number <m>\pi</m>, focusing on 
                     a role that geometry played in its discovery or development.
                 </p>
             </statement>
