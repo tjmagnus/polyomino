@@ -172,6 +172,7 @@
                 </shortdescription>
             </image>
         </figure>
+        <!--https://www.geogebra.org/3d/shwmkytr-->
         <exploration xml:id="parallel-explor-spherical-triangles">
             <title>Properties of Spherical Lines and Triangles</title>
             <!--<aside>
@@ -311,18 +312,21 @@
     <subsection xml:id="subsec-understanding-parallel">
         <title>Understanding Parallel Lines</title>
             <p> 
-                The two explorations, <xref ref="parallel-explor-lines-sphere"/> and 
-                <xref ref="parallel-explor-spherical-triangles"/> led to some observations that might 
-                have surprised you. One of 
-                the ways in which spherical geometry differs from Euclidean geometry is that no lines on 
+                Most likely, <xref ref="parallel-explor-lines-sphere"/> and 
+                <xref ref="parallel-explor-spherical-triangles"/> led to some 
+                observations that surprised you. One of the ways in which 
+                spherical geometry differs from Euclidean geometry is that no lines on 
                 the sphere are parallel. Of course, we could have defined <term>line</term> differently, but 
                 that would have led to a loss of other properties of lines, such as the existence and uniqueness 
-                of a line joining any pair of points. Hence, we need to be clear regarding the geometry we  
-                are working with. Except where specified, our study will be limited to Euclidean geometry 
-                where lines lie on planes, not spheres. In Euclidean geometry, parallel lines do exist; in 
-                fact, for each point and line not passing through that point, we can always draw exactly 
-                one line that is parallel to the given line and passes through the given point. We will 
-                accept this statement, known as Playfair's Parallel Postulate, as one of our principles. 
+                of a line joining any pair of points. Hence, we need to be clear 
+                regarding the geometry being studied.  
+                Except where specified, our work will be limited to Euclidean geometry 
+                where lines lie on planes, not spheres. In Euclidean geometry, 
+                parallel lines exist. In fact, for each point <m>P</m> and line <m>\ell</m> 
+                not passing through <m>P</m>>, we can draw exactly 
+                one line through <m>P</m> that is parallel to <m>\ell</m>>. We will 
+                accept this statement, known as Playfair's Parallel Postulate, 
+                as one of our principles. 
             </p>
 <!--                Ideas: Segments connecting parallel lines; shortest distance. 
                 Trapezoids and parallelograms. -->
@@ -330,8 +334,9 @@
                     <title>Playfair's Parallel Postulate</title>
                     <statement>
                         <p>
-                            Given a line <m>\ell</m> and a point <m>P</m> not on <m>\ell</m>, there is one 
-                            and only one line passing through <m>P</m> and parallel to <m>\ell</m>. 
+                            Given a line <m>\ell</m> and a point <m>P</m> not on 
+                            <m>\ell</m>, there is one and only one line that passes 
+                            through <m>P</m> and is parallel to <m>\ell</m>. 
                         </p>
                     </statement>
                  </principle>
@@ -401,12 +406,13 @@
 </exercise>
             <p>
                 We also observed that angle measures in spherical triangles did not behave in the way that Euclidean 
-                triangles do. This  
-                suggests that the measures of angles may be related to the parallel postulate. 
-                Indeed the two concepts are closely connected. In <xref ref="subsec-polygons-angles-triangle"/>,
+                triangles do. This suggests that the measures of angles may be 
+                related to the parallel postulate. Indeed the two concepts are closely 
+                connected. In <xref ref="subsec-polygons-angles-triangle"/>,
                 we rotated a triangle 180 degrees about a midpoint of one of its 
-                sides and again around the midpoint of a second side and noticed that copies of the three angles
-                formed a line when placed side by side at a vertex. We now look at that exploration in the context of  
+                sides and again around the midpoint of a second side. We then observed 
+                that the three angles formed a line when placed side by side at a 
+                vertex. We now look at that exploration in the context of  
                 parallelism.
             </p>
             <exploration>
@@ -503,6 +509,7 @@
                     </shortdescription>
                 </image>
             </figure>
+            <!--consider adding color to figure to highlight angle pairs-->
             <definition xml:id="def-angles-by-transversal">
                 <idx><h>alternate interior angles</h></idx>
                 <idx><h>alternate exterior angles</h></idx>
@@ -531,9 +538,11 @@
                 </statement>
             </definition>
             <p>
-                We will not give a proof, the following two statements are equivalent to Playfair's Parallel  
-                Postulate. They hold in Euclidean geometry where Playfair's Parallel Postulate is assumed, but 
-                fail in non-Euclidean geometries like Spherical Geometry in <xref ref="parallel-explor-lines-sphere"/> and 
+                Although we will not give a proof, the following two statements are 
+                equivalent to Playfair's Parallel Postulate. These principles hold in Euclidean 
+                geometry where Playfair's Parallel Postulate is assumed, but 
+                fail in non-Euclidean geometries like  the Spherical Geometry we studied in 
+                <xref ref="parallel-explor-lines-sphere"/> and 
                 <xref ref="parallel-explor-spherical-triangles"/>.
             </p>
                 <principle xml:id="principle-alternate-interior-angles">
@@ -799,7 +808,6 @@
                 </statement>
             </exercise>
             <exercise>
-                <statement>
                     <figure xml:id="fig-Coxeterdisc-basic">
                         <caption>
                             Image from Coxeter's 1957 Address to the Royal 
@@ -809,10 +817,11 @@
                             <shortdescription>Hyperbolic disc model</shortdescription>                            
                         </image>
                     </figure>
+                    <introduction>
                     <p>
-                        The illustration in <xref ref="fig-Coxeterdisc-basic"/>, explored by mathematician
+                        The illustration in <xref ref="fig-Coxeterdisc-basic"/> was explored by mathematician
                         H. S. M. Coxeter and used by artist M. C. Escher as a basis for 
-                        his Circle Limit series of prints, suggests another type 
+                        his Circle Limit series of prints. This illustration suggests another type 
                         of non-Euclidean geometry, a disc model of hyperbolic geometry. 
                         Here, lines are of two types: diameters of the outer disc and circular 
                         arcs that meet the outer disc at a right angle<fn>The tangents of these 
@@ -837,6 +846,7 @@
                         are vertices of a hexagon with center <m>C</m> with <m>A</m> and 
                         <m>B</m> being endpoints of a side of the hexagon.-->
                     </p>
+                    </introduction>
                         <aside>
                             <p>
                                 Distance is measured differently in this geometry. The curved
@@ -846,83 +856,89 @@
                                 by the edge of the disc.
                             </p>
                         </aside>
-                    <p>
-                        <ol>
-                            <li>
-                                <p>
-                                    To our Euclidean eyes, line segment <m>\overline{AB}</m> appears 
-                                    to do which of the following:
-                                    <ol>
-                                        <li>
-                                            <p>
-                                                be straight
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                bend in toward the center
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                bend away from the center
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    To our Euclidean eyes, line segment <m>\overline{CD}</m> appears 
-                                    to do which of the following:
-                                    <ol>
-                                        <li>
-                                            <p>
-                                                be straight
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                bend in toward the center
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                bend away from the center
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                Consider triangle <m>\Delta ABC</m>. Do you
-                                                think that the sum of the angle measures will 
-                                                be equal to 180 degrees, less than 180 degrees, 
-                                                or more than 180 degrees?
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                Recalling that two lines are said to be parallel,
-                                                sketch three different hyperbolic lines that 
-                                                are parallel to <m>\overleftrightarrow{AB}</m> and
-                                                pass through <m>D</m>? You may use points that have
-                                                not yet been labeled.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                As noted, not all lines are shown in the sketch. In fact, for any two 
-                                                points in the interior of the disc, either a diameter or arced line can 
-                                                be drawn. Do you think there are no lines, exactly one line, several
-                                                lines, or an infinite number of hyperbolic lines that 
-                                                pass through <m>C</m> and are parallel to <m>\overleftrightarrow{AB}</m>?
-                                                Support your answer by words and/or illustrations.
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
+                    <task>
+                        <statement>
+                            <p>
+                                To our Euclidean eyes, line segment <m>\overline{AB}</m> appears 
+                                to do which of the following:
+                                <ol>
+                                    <li>
+                                        <p>
+                                            be straight
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            bend in toward the center
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            bend away from the center
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                To our Euclidean eyes, line segment <m>\overline{CD}</m> appears 
+                                to do which of the following:
+                                <ol>
+                                    <li>
+                                        <p>
+                                            be straight
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            bend in toward the center
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            bend away from the center
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Consider triangle <m>\Delta ABC</m>. Do you
+                                think that the sum of the angle measures will 
+                                be equal to 180 degrees, less than 180 degrees, 
+                                or more than 180 degrees?
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Recalling that two lines are said to be parallel,
+                                sketch three different hyperbolic lines that 
+                                are parallel to <m>\overleftrightarrow{AB}</m> and
+                                pass through <m>D</m>? You may use points that have
+                                not yet been labeled.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                As noted, not all lines are shown in the sketch. In fact, for any two 
+                                points in the interior of the disc, either a diameter or arced line can 
+                                be drawn. Do you think there are no lines, exactly one line, several
+                                lines, or an infinite number of hyperbolic lines that 
+                                pass through <m>C</m> and are parallel to <m>\overleftrightarrow{AB}</m>?
+                                Support your answer by words and/or illustrations.
+                            </p>
+                        </statement>
+                    </task>
                 <figure xml:id="fig-escher-hypdisc">
                         <caption>
                             Coxeter's disc with points and lines added. Original image found in 
@@ -933,7 +949,6 @@
                             <shortdescription>Poincare disc described in problem.</shortdescription>
                         </image>
                     </figure>
-                </statement>
             </exercise>
        </subexercises>
        <subexercises xml:id="writing-polygons-parallel">
