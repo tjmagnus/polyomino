@@ -55,9 +55,9 @@
 <subsection xml:id="subsec-polygons-regular-tilings">
   <title>Regular Tilings</title>
   <p>
-    In the very first activity, we created a tiling of a square using tetrominoes. 
+    In <xref ref="intro-explore-exp-pentrect"/>, we created a tiling of a square using tetrominoes. 
     In this section, we will consider tilings of the plane. Since the plane continues  
-    infinitely, we will not be able to fully create a tiling, but we will be able to 
+    infinitely, we will not be able to create a complete tiling. However, we will be able to 
     build enough of the tiling to determine whether a tiling is possible.
   </p>
   <definition>
@@ -70,11 +70,11 @@
       <p>
         A <term>tiling</term> is a collection of closed polygons that cover a plane 
         (continuing infinitely in all directions) with no 
-        gaps and no overlaps. A <term>monohedral tiling</term> is tiling that 
-        uses only one shape, 
-        a <term>regular tiling</term> is a monohedral tiling using a single 
+        gaps and no overlaps. A <term>monohedral tiling</term> is a tiling 
+        that uses only one shaped tile while 
+        a <term>regular tiling</term> is a monohedral tiling that uses a single 
         regular polygon as its tile. In a regular tiling, each side of a polygon 
-        will line up perfectly with a side of an adjacent copy.
+        will line up perfectly with a side of an adjacent c.
       </p>
     </statement>
   </definition>
@@ -85,7 +85,7 @@
         This activity may be completed using physical tiles or 
         in the interactive applet below. Be sure to save a record of your designs by 
         tracing, photography, or screenshots. Some of the computations  
-        will also be used later in this section, so you are encourage to 
+        will also be used later in this section, so you are encouraged to 
         keep an accessible record of your work for future reference.
       </p>
       <p>
@@ -115,10 +115,10 @@
     <task>
       <statement>
         <p>
-          Select a single regular polygon, making copies of it as needed,
+          Select a single regular polygon, make copies of it as needed,
           and use it to construct a regular  
           tiling. Construct enough of the tiling to convince others that the 
-          tiling can continue to tile the plane, upward and downward to the left 
+          tiling can continue to tile the plane, upward and downward, to the left 
           and the right, with no gaps and overlaps. 
         </p>
       </statement>
@@ -128,7 +128,7 @@
         <p>
           Experiment with equilateral triangles, squares, regular pentagons, 
           regular hexagons, and other regular <m>n</m>-gons to determine which can 
-          be used to create a regular tiling and which do not. What do you think 
+          be used to create a regular tiling and which cannot. What do you think 
           will happen with regular polygons with more than eight sides? Why?
         </p>
       </statement>
@@ -136,12 +136,12 @@
     <task>
       <statement>
         <p>
-          Perhaps you noticed that the vertex angle measure places a role in determining 
+          Perhaps you noticed that the vertex angle measure plays a role in determining 
           whether a regular polygon can be used to create a regular tiling. The steps in 
           this task will lead you to determine the measure of the vertex angle of a 
           regular pentagon. We 
           will use this technique to find the measure of the vertex angles for other   
-          regular n-gons.
+          regular <m>n</m>-gons.
         </p>
         <sidebyside widths="65% 35%" valign="middle">
           <figure xml:id="regpentagon-into-tri">
@@ -226,9 +226,9 @@
         <p>
           Use your work from the previous task to complete the row for regular 
           pentagon in the table below. Repeat this procedure for squares, regular 
-          hexagons, regular octagons, and regular decagons, drawing diagonals from 
-          a single vertex to dissect the polygon into triangles, using the triangles  
-          to determine the total vertex angle measure, and then determining the 
+          hexagons, regular octagons, and regular decagons: First draw diagonals from 
+          a single vertex to dissect the polygon into triangles, next use the triangles  
+          to determine the total vertex angle measure, and then determine the 
           measure of each angle. In the final row, <m>n</m> is a variable representing 
           the number of sides and the answers will be algebraic expressions involving the 
           variable <m>n</m>.
@@ -349,7 +349,7 @@
   </exploration>
 <p>
   In <xref ref="explor-reg-tilings"/>, we determined the measure of a <term>vertex angle</term>
-  of a regular <m>n</m>-gon. We define this term and that of another important angle.
+  of a regular <m>n</m>-gon. We define this term and another important angle.
 </p>
 <definition xml:id="def-vertexangle-centralangle">
   <idx><h>vertex angle</h></idx>
@@ -362,9 +362,9 @@
   <idx><h>regular polygon</h><h>center</h></idx>
   <statement>
     <p>
-      A <term>vertex angle</term> of a polygon is any angle which shares its vertex with 
-      a vertex of the polygon and where the sides of the angle lie along the two sides of the
-      polygon that meet at that vertex.
+      A <term>vertex angle</term> of a polygon is any angle which shares its 
+      vertex with that of the polygon. The sides of a vertex angle lie along 
+      the two sides of the polygon, meeting at the vertex.
     </p>
     <p>
       When a polygon is regular, we can also define its <term>center</term> to be the point 
@@ -378,7 +378,7 @@
 <subsection xml:id="subsec-semiregular-tilings">
   <title>Semiregular Tilings</title>
   <p>
-    If we allow more than one regular polygon to be used in a tiling, we may 
+    If we allow more than one regular polygon to be used in a tiling, we 
     are able to create a wider variety of designs.
   </p>
   <definition xml:id="def-semireg-tiling">
@@ -549,7 +549,7 @@
           of writing <m>3.3.4.3.4</m> in <xref ref="tiling33434"/>. 
           We could begin at any polygon and list the polygons in order. To avoid these  
           repetitions, it is standard practice to begin with the polygon with the  
-          smallest number of sides and then to move to its neighbor with the smallest number 
+          smallest number of sides and then move to its neighbor with the smallest number 
           of sides, continuing around until all the polygons around the point have been named. 
           Similarly, we write <m>3.3.3.4.4</m> rather than <m>3.3.4.4.3</m> for the tiling where  
           the two squares are adjacent. 
@@ -568,7 +568,7 @@
   <task>
     <statement>
       <p>
-        Some of the vertex arrangements in the previous task will extend to create a semiregular titling, 
+        Some of the vertex arrangements in the previous task will extend to create a semiregular tiling, 
         but not all of them! Experiment by surrounding one vertex using the pattern and 
         then try to surround the neighboring vertices using the same arrangement. Which 
         seem to work and which fail? For the ones that fail, what seems to go wrong? 
@@ -811,7 +811,7 @@
     <exercise>
       <statement>
         <p>
-          What is the sum of the measures of the vertex angles for any (not-necessarily
+          What is the sum of the measures of the vertex angles for any (not necessarily
           regular) convex <m>n</m>-gon? For example, the measures of the angles of  
           any triangle add up to 180 degrees. What is the total for a convex quadrilateral,
           a convex pentagon, etc.?
@@ -917,7 +917,7 @@
       <exercise>
           <statement>
               <p>
-                  Demonstrate that each of the following exist by sketching an 
+                  Demonstrate that each of the following exists by sketching an 
                   example:
                   <ol>
                     <li>
@@ -937,7 +937,7 @@
       <exercise>
         <statement>
           <p>
-            Demonstrate that each of the following exist by sketching an 
+            Demonstrate that each of the following exists by sketching an 
             example:
             <ol>
               <li>
@@ -1047,6 +1047,11 @@
                   The design started in <xref ref="fig-HW-kitedartrhomb"/>
                 </p>
               </li>
+              <li>
+                <p>
+                  The design started in <xref ref="fig-HW-skewhouse"/>
+                </p>
+              </li>
             </ol>
           </p>
           <sidebyside widths="30% 30% 30%">
@@ -1093,7 +1098,7 @@
   <subexercises xml:id="ExtConc-polygons-regular">
     <title>Extending the Concepts</title>
     <exercise xml:id="exer-ExtConc-pgreg-nonagon">
-      <title>Another Way of Calculating the Vertex Angle of a Regular Polygon</title>
+      <title>Another Way to Calculate the Vertex Angle of a Regular Polygon</title>
         <statement>
             <p>
               In <xref ref="fig-nonagon-with-center"/>, a regular nonagon, its center <m>O</m>, 
@@ -1107,7 +1112,7 @@
                 </li>
                 <li>
                   <p>
-                    Why type of triangle is <m>\Delta AOB</m> ? Why?
+                    What type of triangle is <m>\Delta AOB</m> ? Why?
                   </p>
                 </li>
                 <li>

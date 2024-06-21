@@ -722,17 +722,7 @@
                     Determine the area of trapezoid <m>IJKL</m>.
                   </p>
                 </statement>
-                <figure xml:id="exer-introbasicshape-area">
-                  <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
-                  <image source="basicshapesareaproblem">
-                  <shortdescription>
-                    The first two shapes are described in the problem. Trapezoid IJKL 
-                    in the third problem consists of a right triangle OJI and rectangle  
-                    ILKO with a common side IO. The height and width of the triangle is the 
-                    same, namely 6 cm. The width of the rectangle is 10 cm.
-                  </shortdescription>
-                </image>
-              </figure>
+                
                 <hint>
                   <p>
                     How can you build <m>IJKL</m> from the pieces.
@@ -742,6 +732,17 @@
               </task>
             
         </exercise>
+        <figure xml:id="exer-introbasicshape-area">
+          <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
+          <image source="basicshapesareaproblem">
+          <shortdescription>
+            The first two shapes are described in the problem. Trapezoid IJKL 
+            in the third problem consists of a right triangle OJI and rectangle  
+            ILKO with a common side IO. The height and width of the triangle is the 
+            same, namely 6 cm. The width of the rectangle is 10 cm.
+          </shortdescription>
+        </image>
+      </figure>
         <exercise xml:id="SAR-intro-exp-numtriominoes">
           <statement>
             <p>
