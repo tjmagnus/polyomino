@@ -268,6 +268,13 @@
                     </description>
                 </image>
             </statement>
+            <figure xml:id="fig-trapezoid-area-formula">
+                <caption>GeoGebra interactive for finding the area of a trapezoid</caption>
+                <interactive xml:id="GGapp-trap-area-form"
+                platform="geogebra">
+                <slate surface="geogebra" material="sn4a5dpm"/>
+              </interactive> 
+            </figure>
         </task>
         <task>
             <statement>
