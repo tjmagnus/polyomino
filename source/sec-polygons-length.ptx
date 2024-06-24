@@ -571,7 +571,7 @@
                   </li>
                   <li>
                     <p>
-                      Now change the value of <m>\alpha</m> so that <m>0\alpha \lt 90</m>.
+                      Now change the value of <m>\alpha</m> so that <m>0\lt \alpha \lt 90</m>.
                       What do you notice about <m>a^2+b^2</m> and <m>c^2</m>? Is your 
                       observation also true when you change <m>a</m> and <m>b</m>? Does your
                       observation remain true when you change <m>\alpha</m> to another 
@@ -592,14 +592,15 @@
                 angle must be the longest side.--How hard is this?
               </p>
           </statement>
-          <figure xml:id="fig-HWadjustableTri">
-            <caption>GeoGebra Interactive for <xref ref="ExtConc-PythIneq"/></caption>
-            <interactive xml:id="Gg-HWadjustableTri" platform="geogebra">
-              <slate surface="geogebra" material="undtxn7h"/>
-          </interactive>
-          </figure>
-          <!--Link not working. Original material ="npyrwvps" or guf4he3"-->
+
       </exercise>
+      <figure xml:id="fig-HWadjustableTri">
+        <caption>GeoGebra Interactive for <xref ref="ExtConc-PythIneq"/></caption>
+        <interactive xml:id="Gg-HWadjustableTri" platform="geogebra">
+          <slate surface="geogebra" material="nuv7c2az"/>
+      </interactive>
+      </figure>
+      <!--Link not working. Original material ="npyrwvps" or guf4he3"-->
       <exercise>
         <title>Generating Pythagorean Triples with Algebra</title>
         <statement>
