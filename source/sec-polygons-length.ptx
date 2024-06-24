@@ -554,53 +554,67 @@
       <title>Extending the Concepts</title>
       <exercise xml:id="ExtConc-PythIneq">
         <title>Pythagorean Inequalities</title>
-          <statement>
+          <introduction>
+            <p>
+              Use <xref ref="fig-HWadjustableTri"/> to answer the following:
+            </p>
+
+          <figure xml:id="fig-HWadjustableTri">
+            <caption>GeoGebra Interactive for <xref ref="ExtConc-PythIneq"/></caption>
+            <interactive xml:id="Gg-HWadjustableTri" platform="geogebra">
+              <slate surface="geogebra" material="nuv7c2az"/>
+          </interactive>
+          </figure>
+          <!--Link not working. Original material ="nuv7c2az"(preferred) or "npyrwvps" or guf4he3" 
+          or "f9mkmb5b"
+          Classroom "qzmrgqce"-->
+        </introduction>
+          <task>
+            <statement>
               <p>
-                Use <xref ref="fig-HWadjustableTri"/> to answer the following:
-                <ol>
-                  <li>
-                    <p>
-                      The measure of <m>\angle{BCA}</m> is given by the value of 
-                      slider <m>\alpha</m>. With this slider set to 90 degrees, move
-                      the other two sliders to change the lengths of <m>a=BC</m> and
-                      <m>b=AC</m>. The length of <m>c=AB</m> should also change.
-                    </p>
-                    <p>
-                      What do you notice about <m>a^2+b^2</m> and <m>c^2</m>?
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Now change the value of <m>\alpha</m> so that <m>0\lt \alpha \lt 90</m>.
-                      What do you notice about <m>a^2+b^2</m> and <m>c^2</m>? Is your 
-                      observation also true when you change <m>a</m> and <m>b</m>? Does your
-                      observation remain true when you change <m>\alpha</m> to another 
-                      acute angle?
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Now slide <m>\alpha</m> so that it has a value between 90 degrees and 180 
+                The measure of <m>\angle{BCA}</m> is given by the value of 
+                slider <m>\alpha</m>. With this slider set to 90 degrees, move
+                the other two sliders to change the lengths of <m>a=BC</m> and
+                <m>b=AC</m>. The length of <m>c=AB</m> should also change.
+              </p>
+              <p>
+                What do you notice about <m>a^2+b^2</m> and <m>c^2</m>?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Now change the value of <m>\alpha</m> so that <m>0\lt \alpha \lt 90</m>.
+                What do you notice about <m>a^2+b^2</m> and <m>c^2</m>? Is your 
+                observation also true when you change <m>a</m> and <m>b</m>? Does your
+                observation remain true when you change <m>\alpha</m> to another 
+                acute angle?
+              </p>
+            </statement>
+            
+          </task>
+          <task>
+            <statement>
+              <p>
+                Now slide <m>\alpha</m> so that it has a value between 90 degrees and 180 
                       degrees. How do <m>a^2+b^2</m> and <m>c^2</m> compare now? Experiment 
                       with different obtuse angles and lengths to see whether your conjecture
                       remains true.
-                    </p>
-                  </li>
-                </ol>
               </p>
-              <p component="instructor">Prove converse of Pythagorean Theorem. Prove that the side opposite the right 
-                angle must be the longest side.--How hard is this?
-              </p>
-          </statement>
+            </statement>
+          </task>
+             <!--<figure xml:id="fig-HWadjustableTri">
+                <caption>GeoGebra Interactive for <xref ref="ExtConc-PythIneq"/></caption>
+                <interactive xml:id="Gg-HWadjustableTri" platform="geogebra">
+                  <slate surface="geogebra" material="nuv7c2az"/>
+              </interactive>
+              </figure>-->
+              <!--Link not working. Original material ="nuv7c2az"(preferred) or "npyrwvps" or guf4he3" 
+              or "f9mkmb5b"
+              Classroom "qzmrgqce"-->
 
       </exercise>
-      <figure xml:id="fig-HWadjustableTri">
-        <caption>GeoGebra Interactive for <xref ref="ExtConc-PythIneq"/></caption>
-        <interactive xml:id="Gg-HWadjustableTri" platform="geogebra">
-          <slate surface="geogebra" material="nuv7c2az"/>
-      </interactive>
-      </figure>
-      <!--Link not working. Original material ="npyrwvps" or guf4he3"-->
       <exercise>
         <title>Generating Pythagorean Triples with Algebra</title>
         <statement>
