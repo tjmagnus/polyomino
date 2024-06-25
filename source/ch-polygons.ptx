@@ -99,8 +99,9 @@
   <xi:include href="sec-polygons-regular.ptx"/>
   <xi:include href="sec-polygons-length.ptx"/>
   <!--<xi:include href="sec-polygons-taxicab.ptx"/>
-  <xi:include href="sec-polygons-summary.ptx"/>
-  <xi:include href="sec-polygons-writing.ptx"/>-->
+  <xi:include href="sec-polygons-nonregular-tilings"/>
+  <xi:include href="sec-polygons-other"/>
+  -->
   <xi:include href="sec-polygons-references.ptx"/>
   <xi:include href="sec-polygons-instructor.ptx"/>
 </chapter>
