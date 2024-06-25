@@ -43,7 +43,7 @@
   <exercise>
     <statement>
       <p>
-        Which lower case letter represents the hypotenuse in the triangle above?
+        Which lowercase letter represents the hypotenuse in the triangle above?
       </p>
     </statement>
     <answer>
@@ -162,7 +162,7 @@
   </p>
   <aside>
     <p>
-      The book, The Pythagorean Proposition, by Elisha S. Loomis, (NCTM:1968) 
+      The book, <em>The Pythagorean Proposition</em>, by Elisha S. Loomis, (NCTM:1968) 
       contains 367 proofs of the Pythagorean Theorem. 
       <!--also he published a nonproof in 1901.--> 
     </p>
@@ -203,7 +203,7 @@
                   the interior and they can be rotated by moving the dotted vertex. 
                   The red triangle labeled <m>\Delta ABC</m> is only shown for reference 
                   and will not be used. As always, there should be  
-                  no gaps nor overlaps. Preserve your work with a sketch or screenshot.
+                  no gaps or overlaps. Preserve your work with a sketch or screenshot.
                 </p>
               </li>
               <li>
@@ -426,7 +426,7 @@
             <p>
               How do you know that the two squares in your diagram are actually 
               squares and that their side lengths are <m>a</m> and <m>b</m>, respectively? 
-              Base your arguement on the lengths of the triangle sides.
+              Base your argument on the lengths of the triangle sides.
             </p>
           </li>
           <li>
@@ -454,7 +454,7 @@
   <p>
     On the other hand, we need to be careful that we do not try to apply this theorem to non-right 
     triangles. It is possible to create a triangle whose side lengths are 3, 5, and 6, but this triangle will  
-    not have a right angle. In fact, the converse of the Pythagorean theorem states that if <m>a</m>, <m>b</m>,
+    not have a right angle. In fact, the converse of the Pythagorean Theorem states that if <m>a</m>, <m>b</m>,
     and <m>c</m> are sides of a triangle with <m>a^2+b^2=c^2</m>, then the triangle will have a right angle 
     opposite the side with length <m>c</m>. <!--We will not prove this converse OR DO I PUT IT AS AN EXERCISE. -->
   </p>
@@ -467,7 +467,7 @@
       <title>Pythagorean Theorem</title>
       <statement>
         <p>
-          Write down the formula for the Pythagorean theorem. Use an example 
+          Write down the formula for the Pythagorean Theorem. Use an example 
           and sketch as you explain when the theorem can be used, what the 
           variables represent, and how to use the formula to solve a problem.
         </p>
@@ -556,16 +556,16 @@
         <title>Pythagorean Inequalities</title>
           <introduction>
             <p>
-              Use <xref ref="fig-HWadjustableTri"/> to answer the following:
+              Use <xref ref="fig-HWadjustableTri"/> to answer the questions that
+              follow:
             </p>
-
           <figure xml:id="fig-HWadjustableTri">
             <caption>GeoGebra Interactive for <xref ref="ExtConc-PythIneq"/></caption>
             <interactive xml:id="Gg-HWadjustableTri" platform="geogebra">
               <slate surface="geogebra" material="nuv7c2az"/>
           </interactive>
           </figure>
-          <!--Link not working. Original material ="nuv7c2az"(preferred) or "npyrwvps" or guf4he3" 
+          <!--Link finally works. Original material ="nuv7c2az"(preferred) or "npyrwvps" or guf4he3" 
           or "f9mkmb5b"
           Classroom "qzmrgqce"-->
         </introduction>
@@ -619,7 +619,7 @@
         <title>Generating Pythagorean Triples with Algebra</title>
         <statement>
           <p>
-            A Pythagorean Triple is a set of three positive integers <m>a</m>, <m>b</m>,
+            A Pythagorean triple is a set of three positive integers <m>a</m>, <m>b</m>,
             and <m>c</m> such that <m>a^2+b^2=c^2</m>. 
               <ol>
                 <li>
@@ -631,7 +631,7 @@
                 <li>
                   <p>
                     Find the number <m>a</m> that forms a Pythagorean triple with the 
-                    numbers <m>b=32</m> and <m>130</m>. Show your work.
+                    numbers <m>b=32</m> and <m>c=130</m>. Show your work.
                   </p>
                 </li>
                 <li>
