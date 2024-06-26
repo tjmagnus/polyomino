@@ -210,14 +210,16 @@
         </tabular>
     </table>
         <p>
-        You may use these three formulas in the next exploration as needed.
+        In the next exploration, you will use these three formulas as needed to 
+        derive and justify the formula for the area of a 
+        <xref ref="def-trapezoid" text="custom">trapezoid</xref>.
         </p>
     <exploration xml:id="Exp-area-trapezoid">
         <title>The Area Formula for a Trapezoid</title>
         <introduction>
             <p>
-            We now turn to the <xref ref="def-trapezoid">trapezoid</xref>. Once
-            again, we look at some examples before exploring the formula for area.  
+                Once again, we look at some examples before discovering the formula 
+                for area.  
             </p>
             <p>
                 This activity may be done using pencil, paper, scissors, and tape.
@@ -231,161 +233,222 @@
                 <caption>GeoGebra Interactive for <xref ref="Exp-area-trapezoid"/></caption>
                 <interactive xml:id="Gg-trapezoid-area" platform="geogebra">
                   <slate surface="geogebra" material="sn4a5dpm"/>
-              </interactive>
-              </figure>
+                </interactive>
+            </figure>
         </introduction>
-
         <task>
             <!--CONSIDER REWRITING THIS AS A GEOGEBRA INTERACTIVE. THIS WILL ALSO 
             BE A GOOD TIME TO ADD A GEOGEBRA VIDEO
             YouTube video: https://youtu.be/R_cFFMaPGWw-->
-            <statement>
+            <introduction>
                 <p>
                     Sketch example(s) of each of the following trapezoids:
-                    <ol>
-                        <li>
-                            <p>
-                                An isosceles trapezoid.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                A trapezoid with one right angle.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                A trapezoid with one acute base angle and one obtuse 
-                                base angle.
-                            </p>
-                        </li>
-                    </ol>
                 </p>
-            </statement>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        An isosceles trapezoid.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A trapezoid with one right angle.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A trapezoid with one acute base angle and one obtuse 
+                        base angle.
+                    </p>
+                </statement>
+            </task>
         </task>
         <task>
-            <statement>
+            <introduction>
                 <p>
-                    Use dissection (cutting), duplication, and/or rearrangement to 
-                    construct or deconstruct the trapezoid below into one or more 
-                    rectangles, parallelograms, and/or triangles. If you found one 
-                    method, challenge yourself to do this a second way. Perhaps, you can 
-                    use just triangles or just parallelograms. Briefly describe your 
-                    construction or deconstruction.
+                    Be creative as you look for ways to apply our knowledge of 
+                    the area of parallelograms and triangles to find the area of 
+                    a trapezoid. There are many good strategies for this problem.
+                    Challenge yourself (or your group) to find a method that is  
+                    different than the methods used by others in your class. Instructions
+                    follow:
                 </p>
-                <image component="web" source="trapezoid-arbitrary.svg" width="90%">
-                    <description>
-                        An arbitrary trapezoid, not isosceles and not a right trapezoid.
-                    </description>
-                </image>
-                <image component="print" source="trapezoid-arbitrary.png" width="90%">
-                    <description>
-                        An arbitrary trapezoid, not isosceles and not a right trapezoid.
-                    </description>
-                </image>
-            </statement>
-           <!-- <figure xml:id="fig-trapezoid-area-formula">
-                <caption>GeoGebra interactive for finding the area of a trapezoid</caption>
-                <interactive xml:id="GGapp-trap-area-form"
-                platform="geogebra">
-                <slate surface="geogebra" material="sn4a5dpm"/>
-              </interactive> 
-            </figure>
-            <aside>
-                <figure xml:id="video-intro-GeoGebra-trap">
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Use dissection (cutting), duplication, and/or rearrangement to 
+                        construct or deconstruct a trapezoid into one or more 
+                        parallelograms and/or triangles. You may print and use the 
+                        trapezoid in <xref ref="fig-trapezoid-arbitrary"/>, draw your own, or use 
+                        the <xref ref="fig-trapezoid-GeoG" text="custom">GeoGebra interactive</xref>.
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        You may use rectangles since they are parallelograms; however, this 
+                        exploration can also be done without rectangles.
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        How would you find the area of each rectangle, parallelogram, or triangle
+                        in your dissection (or construction)? Could you compute these areas if the 
+                        only values you know are <m>h</m>, <m>b_1</m> and <m>b_2</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If you find the areas difficult to compute, experiment to find other 
+                        ways of dissecting the trapezoid into parallelograms and/or triangles 
+                        or constructing one of these shapes from duplicating the trapezoid. There 
+                        are lots of ways to do this and the most obvious dissection is one of the 
+                        more challenging to use in the next step.
+                    </p>
+                </statement>
+            </task>   
+            <task>
+                <statement>
+                    <p>
+                        Briefly describe your construction or deconstruction and how you would find
+                        the area of the parts (or whole<fn>In the case where you built a larger 
+                        figure from the initial trapezoid.</fn>).
+                    </p>
+                </statement>
+            </task>
+                <figure xml:id="fig-trapezoid-arbitrary">
                     <caption>
-                        Introduction to GeoGebra video<fn>In addition
-                        to GeoGebra and YouTube, the author used 
-                        Canvas Studio to produce this video.</fn> 
-                        on YouTube.</caption>
-                    <video youtube="R_cFFMaPGWw"/>
-                  </figure>
-            </aside>-->
+                        An arbitrary trapezoid that may be used in <xref ref="Exp-area-trapezoid"/>.
+                        Note how this trapezoid is not isosceles and does not have a right angle.
+                    </caption>
+                    <image component="web" source="trapezoid-arbitrary.svg" width="90%">
+                        <description>
+                            An arbitrary trapezoid, not isosceles and not a right trapezoid.
+                        </description>
+                    </image>
+                    <image component="print" source="trapezoid-arbitrary.png" width="90%">
+                        <description>
+                            An arbitrary trapezoid, not isosceles and not a right trapezoid.
+                        </description>
+                    </image>
+                </figure>
+            
         </task>
         <task>
-            <statement>
+            <introduction>
                 <p>
                     How does your (de)construction demonstrate that the area formula for 
                     a trapezoid is <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m>? The steps that 
-                    follow will assist you in forming a convincing argument.
-                    <ol>
-                        <li>
-                            <p>
-                                Choose one of the constructions or deconstructions you created 
-                                in the previous task. Label the height of the trapezoid with the 
-                                variable <m>h</m>. The summit and base of the trapezoid are typically 
-                                labeled <m>b_1</m> and <m>b_2</m>, but you are free to name them 
-                                <m>a</m> and <m>b</m> if you would like to avoid subscripts. Once you select 
-                                your labels, you will use them consistently for the remainder of this 
-                                activity. In my discussion, I will use <m>b_1</m> and <m>b_2</m> to represent 
-                                the summit and base.
-                            </p>
-                            <aside>
-                                <p>
-                                    You could even name the summit <m>s</m> or <m>Elizabeth</m> if 
-                                    you desire.
-                                    On the other hand, <m>Elizabeth</m> is a bit long to use in diagrams 
-                                    and formulas so single letters are usually chosen.
-                                </p>
-                            </aside>
-                        </li>
-                        <li>
-                            <p>
-                                Now identify any parts of your other shapes that must have the same 
-                                length as your trapezoid's height, base, or summit because of the way 
-                                they were constructed. Label them with the appropriate variable to 
-                                indicate this equality. Be careful!  
-                            </p>
-                        </li>
-                        <li>
-                            <p> 
-                                You may have created triangles, rectangles, or parallelograms 
-                                which have, or might have, different base length or height. Any 
-                                new length or height should be given a different label. If you find that you need to create a lot 
-                                of new labels, you might want to use a different construction or deconstruction
-                                to reduce the amount of algebra you will need to do later. 
-                            </p>
-                            <p>
-                                If you did not create any new length or height, you may skip the 
-                                next item.
-                            </p>
-                        </li>
-                        <li>
-                            <p> 
-                                Relate any new labels to the trapezoid's height, 
-                                base, and/or summit. For example, if you split the base into three segments, 
-                                labeled <m>x</m>, <m>y</m>, and <m>z</m>, you would write down the relationship 
-                                <m>x+y+z=b_2</m>.<fn>Is <m>y</m> equal to one of the original values? If so, 
-                                it is often useful to replace <m>y</m> by that variable.</fn> 
-                                If you split the base into two segments, one of which is
-                                congruent to the summit, you might write <m>x+b_1=b_2</m> or equivalently,
-                                <m>b_1=b_2-x</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Compute the areas of any rectangles, parallelograms, or triangles in your 
-                                construction/deconstruction, leaving variables in your expressions for each 
-                                area. Be careful to use the variables assigned in your sketch which 
-                                may be different than the variables in the standard formulas. For example, if you
-                                created an upside-down triangle, its base may be the summit of the trapezoid, and 
-                                so we would use the label <m>b_1</m> (or <m>a</m>) instead of <m>b</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Write a draft of how your (de)construction shows that the area of any 
-                                trapezoid must be <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m> where <m>b_1</m>
-                                is the length of the summit, <m>b_2</m> is the length of the base, and 
-                                <m>h</m> is the height. You may be asked to write this explanation more 
-                                formally outside of class.
-                            </p>
-                        </li>
-                    </ol>
+                    follow will assist you in forming a convincing argument. You may have
+                    already completed some of this work in the above task.
                 </p>
-            </statement>
-        </task>
-    </exploration>
+            </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Choose one of the constructions or deconstructions you created 
+                            in the previous task. Label the height of the trapezoid with the 
+                            variable <m>h</m>. The summit and base of the trapezoid are typically 
+                            labeled <m>b_1</m> and <m>b_2</m>, and these are the labels that I will
+                            use in these instructions, but you are free to assign them other labels
+                            if you would like to avoid subscripts. Once you select 
+                            your labels for the height, base, and summit, you should use them 
+                            consistently for the remainder of this activity. In fact, these labels will 
+                            only be used for lengths known to be equal to the height, base, and summit
+                            of the original trapezoid.
+                        </p>
+                        <aside>
+                            <p>
+                                You might call the summit <m>a</m> and the base <m>b</m>.
+                                Others may use <m>b</m> and <m>b'</m>. You could even name 
+                                the summit <m>s</m> or <m>Elizabeth</m> if you 
+                                desire. On the other hand, <m>Elizabeth</m> is a 
+                                bit long to use in diagrams 
+                                and formulas so single letters are usually chosen.
+                            </p>
+                        </aside>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Now identify any parts of your other shapes that must have the same 
+                            length as your trapezoid's height, base, or summit because of the way 
+                            they were constructed. Label them with the appropriate variable to 
+                            indicate this equality. Be careful!  
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            You may use the fact that opposite sides of a parallelogram
+                            are congruent. A justification of this fact using rotations
+                            is explored in <xref ref="ExtConc-oppsides-parallelogram"/>.
+                        </p>
+                    </hint>
+                </task>
+                <task>
+                    <statement>
+                        <p> 
+                            You may have created triangles, rectangles, or parallelograms 
+                            which have, or might have, different base length or height. Any 
+                            new length or height should be given a different label. If you find that you need to create a lot 
+                            of new labels, you might want to use a different construction or deconstruction
+                            to reduce the amount of algebra you will need to do later. 
+                        </p>
+                        <p>
+                            If you did not create any new lengths or heights, you may skip the 
+                            next item.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p> 
+                            Relate any new labels to the trapezoid's height, 
+                            base, and/or summit. For example, if you split the base into three segments, 
+                            labeled <m>x</m>, <m>y</m>, and <m>z</m>, you would write down the relationship 
+                            <m>x+y+z=b_2</m>.<fn>Is <m>y</m> equal to one of the original values? If so, 
+                            it is often useful to replace <m>y</m> by that variable.</fn> 
+                            If you split the base into two segments, one of which is
+                            congruent to the summit, you might write <m>x+b_1=b_2</m> or equivalently,
+                            <m>b_1=b_2-x</m>.
+                        </p>
+                    </statement>
+                </task> 
+                <task>
+                    <statement>
+                        <p>
+                            Compute the areas of any rectangles, parallelograms, or triangles in your 
+                            construction/deconstruction, leaving variables in your expressions for each 
+                            area. Be careful to use the variables assigned in your sketch which 
+                            may be different than the variables in the standard formulas. For example, if you
+                            created an upside-down triangle, its base may be the summit of the trapezoid, and 
+                            so we would use the label <m>b_1</m> (or <m>a</m>) instead of <m>b</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Write a draft of how your (de)construction shows that the area of any 
+                            trapezoid must be <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m> where <m>b_1</m>
+                            is the length of the summit, <m>b_2</m> is the length of the base, and 
+                            <m>h</m> is the height. You may be asked to write this explanation more 
+                            formally outside of class.
+                        </p>
+                    </statement>
+                </task>
+            </task>
+        </exploration>
     </subsection>
     <subsection>
         <title>
@@ -425,7 +488,6 @@
                 </image>                
             </figure>
         <exploration>
-            <!--keep in section or move to exercise?-->
             <title>Estimating Area of a Curved Region</title>
             <task>
                 <statement>
@@ -804,6 +866,52 @@
         </subexercises>
         <subexercises xml:id="ExtConc-polygons-area">
             <title>Extending the Concepts</title>
+            <exercise xml:id="oppsides-of-parallelogram">
+                <title>Opposite Sides of a Parallelogram</title>
+                <introduction>
+                    <p>
+                        Parallelogram <m>ABCD</m> is drawn in 
+                        <xref ref="ExtConc-oppsides-parallelogram"/>. In 
+                        addition, diagonal <m>\overline{DB}</m> is drawn to 
+                        form triangle <m>\Delta BCD</m>. Point <m>E</m>
+                        is the midpoint of <m>\overline{DB}</m>.
+                    </p>
+                    <figure xml:id="ExtConc-oppsides-parallelogram">.
+                        <caption>An interactive parallelogram.</caption>
+                        <interactive xml:id="Gg-parallelogram-oppsides" platform="geogebra">
+                            <slate surface="geogebra" material="afm9sfjx"/>
+                        </interactive>
+                    </figure> 
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Use the Rotate Around Point tool to rotate 
+                            <m>\Delta BCD</m> 180 degrees around <m>E</m>.
+                            Where does the image of <m>\Delta BCD</m> land under 
+                            this rotation?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Use this rotation to argue that <m>AD=BC</m>
+                            and <m>CD=AB</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Drag point <m>A</m>, <m>B</m> or <m>C</m> to change the 
+                            shape of the parallelogram. Does the result still hold? 
+                            Make a general claim about the opposite sides of a 
+                            parallelogram.
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
             <exercise>
                 <statement>
                     <p>
