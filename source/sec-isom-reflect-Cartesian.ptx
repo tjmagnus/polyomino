@@ -8,8 +8,8 @@
     Each reflection is defined by a 
     mirror line and the reflection takes each point to its reflected image. If we were to fold the plane across
     the mirror line, the points and their images would fall on top of each other.
-    The exploration <xref ref="expl-reflect-pentomino-coordplane"/> may be done
-    by hand or by using the provided applet. 
+    <xref ref="expl-reflect-pentomino-coordplane"/> may be done
+    by hand or by using the provided Geogebra interactive. 
 </p>
 </introduction>
 <subsection>
@@ -23,13 +23,13 @@
         <p>
             In <xref ref="fig-reflectP"/>, use the coordinate grid to reflect
             pentomino <m>ABCDEF</m> across line <m>\overleftrightarrow{GH}</m> 
-            by plotting the image of each vertex using the Point tool. Right-click 
-            on each new point to rename it so that <m>A'</m> is the image of <m>A</m>,
-            <m>B'</m> is the image of <m>B</m>,
-            and so forth. Connect the vertices using the Polygon tool.
+            by plotting the image of each vertex using the Point tool. If you 
+            reflect the points in alphabetical order, the image of <m>A</m> will
+            be <m>I</m>, the image of <m>B</m> will be <m>J</m>, and so on. 
+            Connect the vertices using the Polygon tool to form <m>IJKLMN</m>.
         </p>
         <p>
-            In what ways are the reflected image <m>A'B'C'D'E'F'</m> and the original 
+            In what ways are the reflected image <m>IJKLMN</m> and the original 
             figure <m>ABCDEF</m> the same?  
             In what ways are they different?  
         </p>
@@ -67,14 +67,15 @@
                 <ol>
                     <li>
                       <p>
-                        Where does <m>\overline{BB'}</m> intersect 
+                        Where does <m>\overline{BJ}</m> intersect 
                         <m>\overleftrightarrow{GH}</m>? How is this point related to segment
-                        <m>\overline{BB'}</m>?
+                        <m>\overline{BJ}</m>?
                       </p>
                     </li>
                     <li>
                         <p>
-                            What type of angle is formed by the intersection of <m>\overleftrightarrow{BB'}</m> 
+                            What type of angle is formed by the intersection of 
+                            <m>\overleftrightarrow{BJ}</m> 
                             and <m>\overleftrightarrow{GH}</m>?
                         </p>
                     </li>
@@ -83,7 +84,7 @@
                             Using the 1 cm graph paper as a guide, what is the
                             shortest distance from point <m>B</m> to line 
                             <m>\overleftrightarrow{GH}</m>? What is the distance 
-                            from <m>B</m> to <m>B'</m>?
+                            from <m>B</m> to <m>J</m>?
                         </p>
                     </li>
                     <li>
@@ -98,14 +99,15 @@
                             <p>
                                 The letter <m>P</m> is being used as a variable that can represent 
                                 any point on the plane, including <m>A</m>, <m>B</m>, and so forth. 
-                                When <m>P=A</m>, <m>P'=A'</m>.
-                                When <m>P=C</m>, <m>P'=C'</m>. This allows us to discuss properties that 
+                                For example, when <m>P=A</m>, <m>P'=I</m>.
+                                When <m>P=B</m>, <m>P'=J</m>. This allows us to discuss properties that 
                                 hold for all points in a single statement.
                             </p>
                         </aside>
                     </li>
                     <li>
-                        What happens if you reflect point <m>G</m> across line <m>\overleftrightarrow{GH}</m>?  
+                        What happens if you reflect point <m>G</m> across line 
+                        <m>\overleftrightarrow{GH}</m>?  
                         Is that true for any point on <m>\overleftrightarrow{GH}</m>?
                     </li>
                 </ol>  
@@ -115,7 +117,8 @@
     <task xml:id="disc-prop-reflect-findline">
         <statement>
             <p>
-                Pentomino  <m>ABCDEFGHIJ</m> and its reflection <m>A'B'C'D'E'F'G'H'I'J'</m> 
+                Pentomino  <m>ABCDEFGHIJ</m> and its reflection 
+                <m>A'B'C'D'E'F'G'H'I'J'</m> 
                 are shown below.  
                 Use what you discovered in <xref ref="disc-prop-reflection-perp-bis"/> 
                 to sketch the reflecting line. Describe your technique.
