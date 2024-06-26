@@ -163,6 +163,7 @@
     </introduction>
     <task xml:id="ref-acrossx">
         <statement>
+            <!--COME BACK TO THIS. WILL GEOGEBRA ALLOW RENAMING?-->
             <p>
                 Plot the images  <m>A'</m>, <m>B'</m>, 
                 <m>C'</m>, and <m>D'</m> of the points  <m>A</m>,  <m>B</m>,  <m>C</m>,  
