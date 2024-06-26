@@ -212,14 +212,29 @@
         <p>
         You may use these three formulas in the next exploration as needed.
         </p>
-    <exploration>
+    <exploration xml:id="Exp-area-trapezoid">
         <title>The Area Formula for a Trapezoid</title>
         <introduction>
             <p>
             We now turn to the <xref ref="def-trapezoid">trapezoid</xref>. Once
             again, we look at some examples before exploring the formula for area.  
             </p>
+            <p>
+                This activity may be done using pencil, paper, scissors, and tape.
+                A GeoGebra interactive, <xref ref="fig-trapezoid-GeoG"/>, has been 
+                provided for those wishing to use it for generating ideas, experimenting,
+                or producing sketches. A 10-minute video, <xref ref="video-intro-GeoGebra-trap"/>,
+                at the end of this section introduces students to some of the GeoGebra 
+                tools.
+            </p>
+            <figure xml:id="fig-trapezoid-GeoG">
+                <caption>GeoGebra Interactive for <xref ref="Exp-area-trapezoid"/></caption>
+                <interactive xml:id="Gg-trapezoid-area" platform="geogebra">
+                  <slate surface="geogebra" material="sn4a5dpm"/>
+              </interactive>
+              </figure>
         </introduction>
+
         <task>
             <!--CONSIDER REWRITING THIS AS A GEOGEBRA INTERACTIVE. THIS WILL ALSO 
             BE A GOOD TIME TO ADD A GEOGEBRA VIDEO
@@ -269,13 +284,23 @@
                     </description>
                 </image>
             </statement>
-            <figure xml:id="fig-trapezoid-area-formula">
+           <!-- <figure xml:id="fig-trapezoid-area-formula">
                 <caption>GeoGebra interactive for finding the area of a trapezoid</caption>
                 <interactive xml:id="GGapp-trap-area-form"
                 platform="geogebra">
                 <slate surface="geogebra" material="sn4a5dpm"/>
               </interactive> 
             </figure>
+            <aside>
+                <figure xml:id="video-intro-GeoGebra-trap">
+                    <caption>
+                        Introduction to GeoGebra video<fn>In addition
+                        to GeoGebra and YouTube, the author used 
+                        Canvas Studio to produce this video.</fn> 
+                        on YouTube.</caption>
+                    <video youtube="R_cFFMaPGWw"/>
+                  </figure>
+            </aside>-->
         </task>
         <task>
             <statement>
@@ -595,6 +620,18 @@
                 </statement>
             </definition>
         </subsubsection>
+        <p>
+            The following video demonstrates how to use some of the tools
+            in GeoGebra interactives.
+        </p>
+            <figure xml:id="video-intro-GeoGebra-trap">
+                <caption>
+                    Introduction to GeoGebra video<fn>In addition
+                    to GeoGebra and YouTube, the author used 
+                    Canvas Studio to produce this video.</fn> 
+                    on YouTube.</caption>
+                <video youtube="R_cFFMaPGWw"/>
+              </figure>
     </subsection>
 <!--    <subsection xml:id="subsec-polygons-area-logicalarguments">
         <title>Writing Convincing Arguments</title>
