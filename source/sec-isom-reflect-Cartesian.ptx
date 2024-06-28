@@ -268,7 +268,8 @@
                     a point using the Input box on the bottom of the applet.
                     Type <q><m>A'=(4,10)</m></q> and GeoGebra will plot the 
                     point <m>(4,10)</m> and label it <m>A'</m>. Of course, that is  
-                    not the correct image for <m>A'</m>!
+                    not the correct image for <m>A'</m>! You might not be able
+                    to color code the quadrilaterals.
                 </p>
             </aside>
         </statement>
