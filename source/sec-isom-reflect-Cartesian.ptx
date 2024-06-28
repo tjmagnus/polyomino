@@ -2,178 +2,236 @@
 
 <section xml:id="sec-isom-reflect-Cartesian" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>An Introduction to Reflections</title>
-<introduction>
-<p>
+  <subsection xml:id="subsec-defining-reflection">
+    <title>Defining a Reflection</title>
+    <p>
     A <term>reflection</term> is the first transformation we will explore. 
-    Each reflection is defined by a 
-    mirror line and the reflection takes each point to its reflected image. If we were to fold the plane across
-    the mirror line, the points and their images would fall on top of each other.
-</p>
-<p>
-    As you begin this section, it can be advantageous to use paper and colored pencils, 
-    printing out 
-    <!--<xref ref="fig-reflectP"/>, <xref ref="fig-findline"/>, and
-    <xref ref="fig-refl-across-both-axes"/>--> 
-    <xref ref="fig-reflect-paperP"/> or carefully copying it onto 
-    graph paper. Tactile tools will encourage us to use previous experience 
-    and develop spacial skills, giving us a broader understanding of reflections
-    and the Cartesian coordinate system. 
-    In addition, working on paper allows us to check our work by folding.
-</p>
-<p>
-    We will use GeoGebra tools for finding reflections in 
-    <xref ref="sec-composing-reflections"/>. Although a GeoGebra interactive 
-    is available for both <xref ref="draw-reflection"/> in the current 
-    section are designed to mimic tasks you would do with paper and pencils
-    and do not exploit the power of GeoGebra. In fact, in the interactive 
-    version reflection tools have been turned off.
-</p>
-
-</introduction>
-<subsection>
-    <title>Exploring Reflections</title>
-<exploration xml:id="expl-reflect-pentomino-coordplane">
-    <title>
-        Reflections in the Cartesian Coordinate Plane
-    </title>
-    <task xml:id="drawreflection">
-    <statement>
-        <p>
-            In <xref ref="fig-reflect-paperP"/>, use the coordinate grid 
-            to reflect pentomino <m>ABCDEF</m> across line 
-            <m>\overleftrightarrow{GH}</m>, plotting the image of each vertex.
-            Give the reflected image of <m>A</m> the label <m>A'</m>, the reflected 
-            image of <m>B</m> the label <m>B'</m>.  
-            Connect the vertices to form hexagon <m>A'B'C'D'E'F'</m>.
-        </p>
-        <aside>
-            <p>
-                The interactive <xref ref="fig-GGreflectP"/>, provided at the end 
-                of the section and accessible using the link, attempts to mimic the 
-                use of pencil and paper use the Plot Point tool. Plotting reflected points
-                in alphabetical order will assign the label <m>I</m> to the reflected 
-                image of <m>A</m>, the label <m>J</m> to the image of <m>B</m>, etc.
-                You may be able to rename these images to <m>A'</m>, <m>B'</m>, etc.,
-                or you may want to note that in the discussion that follows, <m>A'=I</m>,
-                <m>B'=J</m>, <m>C'=K</m>, <m>D'=L</m>, <m>E'=M</m>, and <m>F'=N</m>.
-            </p>
-        </aside>
-        <!--FIX THIS AFTER I TRY TO REVISE THE GEOGEBRA APP!!!!!!!!!!-->
-        <p>
-            In what ways are the reflected image <m>A'B'C'D'E'F'</m> and the original 
-            figure <m>ABCDEF</m> the same?  
-            In what ways are they different?  
-        </p>
-        <figure xml:id="fig-reflect-paper">
-            <caption>A pentomino to reflect across <m>\overline{GH}</m></caption>
-            <image source="reflectP">
-            <shortdescription>
-                On graph paper, line GH passes through the points G(0,0) and H(4,4).
-                A backwards P-pentomino is formed using the following sequence of points:
-                A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.
-            </shortdescription>
-        </image>
-        </figure>
-        <!--<figure xml:id="fig-GGreflectP">
-            <caption>
-                GeoGebra applet for reflecting across line <m>\overleftrightarrow{GH}</m>.
-            </caption>
-                <interactive xml:id="GGapp-reflectP"
-                platform="geogebra">
-                <slate surface="geogebra" material="undyswsx"/>
-              </interactive>
-        </figure>-->
-    </statement>
-    <answer>
-        <p>
-            If you are using paper, you can check your answer by folding 
-            across line <m>\overleftrightarrow{GH}</m>. Otherwise, imagine
-            what would happen if you were to fold across this line.
-            Do your figures line up?
-        </p>
-    </answer>
-    </task>
-    <task xml:id="disc-prop-reflection-perp-bis">
+    </p>
+    <definition xml:id="def-reflection">
+        <idx><h>reflection</h></idx>
+        <idx><h>image</h><h>reflection</h></idx>
+        <idx><h>reflecting line</h></idx>
+        <idx><h>mirror</h></idx>
+        <idx><h>preimage</h><h>reflection</h></idx>
         <statement>
             <p>
-                Refer to your sketch in <xref ref="fig-reflectP"/> as you answer 
-                the following:
-                <ol>
-                    <li>
-                      <p>
-                        Where does <m>\overline{BJ}</m> intersect 
+                A <term>reflection</term> is a transformation of a plane which is specified by a 
+                line <m>\ell</m>, called its <term>mirror</term> or <term>reflecting 
+                line</term>. Each point <m>P</m> not on the mirror is mapped by the 
+                reflection to a point <m>P'</m> on the opposite side 
+                of <m>\ell</m>>. The location of each <m>P'</m> is determined by the fact 
+                that <m>P'</m> would fall directly on the corresponding <m>P</m> when we 
+                fold the plane along the mirror line <m>\ell</m>. We call <m>P'</m> the 
+                <term>image</term> of <m>P</m> and call <m>P</m> the <term>preimage</term> of 
+                <m>P'</m>. 
+            </p>
+        </statement>
+    </definition>
+    <example xml:id="reflect-example">
+        <p>
+            In <xref ref="fig-reflect-example"/>, the reflection across line <m>\ell</m>
+            maps points <m>A</m>, <m>B</m>, and <m>C</m> to images <m>A'</m>, <m>B'</m>, 
+            and <m>C'</m>, respectively. 
+        </p>
+        <figure xml:id="fig-reflect-example">
+            <caption></caption>
+            <image source="reflect-across-linel">
+                <shortdescription>Reflection of triangle ABC across line l</shortdescription>
+            </image>
+        </figure>
+        <!--https://www.geogebra.org/geometry/basjz3bn-->
+    </example>
+    <p>
+        Additional properties of reflections will be discovered through exploration.
+    </p>
+</subsection>
+<subsection xml:id="subsec-expl-ref-coordplane">
+    <title>Exploring Reflections by Sketching</title>
+    <p>
+        As we begin our study of reflections, it is advantageous to use paper and colored 
+        pencils. Using these tactile tools will help us develop spacial skills, 
+        give us a broader understanding of reflections,
+        and recognize relationships between geometry and algebra. 
+        In addition, working on paper allows us to check our work by folding.
+    </p>
+    <note>
+        <p>
+            In future sections, we will use GeoGebra tools for 
+            finding reflections. Although GeoGebra interactives are provided at the 
+            end of the current section and accessible by links in the margin notes, these 
+            GeoGebra applets are designed to mimic tasks you would normally do with 
+            paper and pencils. They do not exploit the power of GeoGebra and require 
+            additional steps to rename and recolor objects. In fact, the reflection 
+            tool in this section's applets 
+            has been turned off. You are encouraged to use paper and pencils or 
+            your device's drawing tools instead of the applets.
+        </p>
+    </note>
+    <exploration xml:id="expl-reflect-pentomino-coordplane">
+        <title>
+            Reflections on Graph Paper
+        </title>
+        <task xml:id="drawreflection">
+            <introduction>
+                <p>
+                    Print out the image in <xref ref="fig-reflect-paperP"/> or 
+                    carefully copy it onto graph paper. 
+                </p>
+                <figure xml:id="fig-reflect-paperP">
+                    <caption>A pentomino to reflect across <m>\overline{GH}</m></caption>
+                    <image source="reflectP">
+                    <shortdescription>
+                        On graph paper, line GH passes through the points G(0,0) and H(4,4).
+                        A backwards P-pentomino is formed using the following sequence of points:
+                        A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.
+                    </shortdescription>
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        On your copy of <xref ref="fig-reflect-paperP"/>, use the coordinate 
+                        grid to reflect each vertex of pentomino <m>ABCDEF</m> across line 
+                        <m>\overleftrightarrow{GH}</m>.
+                        Give the reflected image of <m>A</m> the label <m>A'</m>, the reflected 
+                        image of <m>B</m> the label <m>B'</m>, etc.  
+                        Connect the points you drew to form pentomino <m>A'B'C'D'E'F'</m>.
+                    </p>
+                    <aside>
+                        <p>
+                            The interactive <xref ref="fig-GGreflectP"/>, provided at the end 
+                            of the section and accessible using the link, may be used instead
+                            of the recommended pencil and paper. Use the Plot Point tool to draw the image of
+                            each point. Plotting reflected points
+                            in alphabetical order will assign the label <m>I</m> to the reflected 
+                            image of <m>A</m>, the label <m>J</m> to the image of <m>B</m>, etc.
+                            You may be able to rename these images to <m>A'</m>, <m>B'</m>, etc.,
+                            or you may want to note that in the discussion that follows, <m>A'=I</m>,
+                            <m>B'=J</m>, <m>C'=K</m>, <m>D'=L</m>, <m>E'=M</m>, and <m>F'=N</m>.
+                        </p>
+                    </aside>
+                </statement>
+                <hint>
+                    <p>
+                        If you are using paper, you can check your answer by folding 
+                        across line <m>\overleftrightarrow{GH}</m>. Otherwise, imagine
+                        what would happen if you were to fold across this line.
+                        Do your figures line up?
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In what ways are the reflected image <m>A'B'C'D'E'F'</m> and the original 
+                        figure <m>ABCDEF</m> the same?  
+                        In what ways are they different?  
+                    </p>
+                </statement>
+            </task>
+            <task xml:id="disc-prop-reflection-perp-bis">
+                <statement>
+                    <p>
+                        Where does <m>\overline{BB'}</m> intersect 
                         <m>\overleftrightarrow{GH}</m>? How is this point related to segment
-                        <m>\overline{BJ}</m>?
-                      </p>
-                    </li>
-                    <li>
-                        <p>
-                            What type of angle is formed by the intersection of 
-                            <m>\overleftrightarrow{BJ}</m> 
-                            and <m>\overleftrightarrow{GH}</m>?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Using the 1 cm graph paper as a guide, what is the
-                            shortest distance from point <m>B</m> to line 
-                            <m>\overleftrightarrow{GH}</m>? What is the distance 
-                            from <m>B</m> to <m>J</m>?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            What happens to the other points in the reflection? Suppose <m>P</m> is 
-                            any point in the plane and let <m>P'</m>  be its image created by 
-                            reflecting it across any line in the plane.  What do you expect to be 
-                            true about the relationship between the segment 
-                            <m>\overline{PP'}</m> and the reflecting line?
-                        </p>
-                        <aside>
-                            <p>
-                                The letter <m>P</m> is being used as a variable that can represent 
-                                any point on the plane, including <m>A</m>, <m>B</m>, and so forth. 
-                                For example, when <m>P=A</m>, <m>P'=I</m>.
-                                When <m>P=B</m>, <m>P'=J</m>. This allows us to discuss properties that 
-                                hold for all points in a single statement.
-                            </p>
-                        </aside>
-                    </li>
-                    <li>
+                        <m>\overline{BB'}</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What type of angle is formed by the intersection of 
+                        <m>\overleftrightarrow{BB'}</m> 
+                        and <m>\overleftrightarrow{GH}</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Using the 1 cm graph paper as a guide, what is the
+                        shortest distance from point <m>B</m> to line 
+                        <m>\overleftrightarrow{GH}</m>? What is the distance 
+                        from <m>B</m> to <m>B'</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What happens to the other points in the reflection? Suppose <m>P</m> is 
+                        any point in the plane and let <m>P'</m>  be its image created by 
+                        reflecting it across any line in the plane.  What do you expect to be 
+                        true about the relationship between the segment 
+                        <m>\overline{PP'}</m> and the reflecting line?
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        The letter <m>P</m> is being used as a variable that can represent 
+                        any point on the plane, including <m>A</m>, <m>B</m>, and so forth. 
+                        For example, when <m>P=A</m>, <m>P'=A'</m>.
+                        When <m>P=B</m>, <m>P'=B'</m>. This allows us to discuss properties that 
+                        hold for all points in a single statement.
+                    </p>
+                </hint>
+            </task>            
+            <task>
+                <statement>
+                    <p>
                         What happens if you reflect point <m>G</m> across line 
                         <m>\overleftrightarrow{GH}</m>?  
-                        Is that true for any point on <m>\overleftrightarrow{GH}</m>?
-                    </li>
-                </ol>  
-            </p>
-        </statement>
-    </task>
-    <task xml:id="disc-prop-reflect-findline">
-        <statement>
-            <p>
-                Pentomino  <m>ABCDEFGHIJ</m> and its reflection 
-                <m>A'B'C'D'E'F'G'H'I'J'</m> 
-                are shown below.  
-                Use what you discovered in <xref ref="disc-prop-reflection-perp-bis"/> 
-                to sketch the reflecting line. Describe your technique.
-            </p>
-            <!--<image source="intro-reflect-findline"></image>-->
-            <figure xml:id="fig-findline">
-                <caption>GeoGebra applet with reflected pentominos</caption>
-                <interactive xml:id="GGapp-findline"
-                platform="geogebra">
-                <slate surface="geogebra" material="dfyarx94"/>
-              </interactive>
-            </figure>
-        </statement>
-    </task>
+                        Is your claim true for any point on <m>\overleftrightarrow{GH}</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Revise the definition of reflection in <xref ref="def-reflection"/>
+                        to include the action on points that lie on the mirror. Add this
+                        definition to your toolbox in words and pictures that are 
+                        meaningful to you.
+                    </p>
+                </statement>
+            </task>
+        </task>
+        <task xml:id="disc-prop-reflect-findline">
+            <statement>
+                <p>
+                    Pentomino  <m>ABCDEFGHIJ</m> and its reflection 
+                    <m>A'B'C'D'E'F'G'H'I'J'</m> are shown in 
+                    <xref ref="fig-findline"/>. Use what you discovered in 
+                    <xref ref="disc-prop-reflection-perp-bis"/> 
+                    to sketch the reflecting line. Describe your technique.
+                </p>
+                <!--<image source="intro-reflect-findline"></image>-->
+                <figure xml:id="fig-findline">
+                    <caption>GeoGebra applet with reflected pentominos</caption>
+                    <interactive xml:id="GGapp-findline"
+                    platform="geogebra">
+                    <slate surface="geogebra" material="dfyarx94"/>
+                </interactive>
+                </figure>
+            </statement>
+        </task>
 </exploration>
+</subsection>
+<subsection xml:id="subsec-Reflections-and-Coordinate-Geometry">
+    <title>Reflections and Coordinates</title>
+    <p>
+        In the next exploration, we observe how we can use the coordinates 
+        of a point <m>P</m> to determine the coordinates of its image <m>P'</m>
+        under a reflection across the <m>x</m>- or <m>y</m>-coordinate axes.
+    </p>
 <exploration xml:id="expl-reflect-across-xyaxes">
     <title>Reflecting Across the Coordinate Axes</title>
     <introduction>
         <p>
             Every point on the Cartesian plane can be identified by its coordinates
-            <m>(x,y)</m>   where  <m>x</m>  and   <m>y</m>  represent the location of  
+            <m>(x,y)</m>  where  <m>x</m>  and   <m>y</m>  represent the location of  
             the point as being <m>x</m>
             units to the right and <m>y</m> units above the origin.  Use a copy of the 
             graph below to complete the following tasks. You will need to be able to 
@@ -202,6 +260,17 @@
                 <m>A'B'C'D'</m> and color it red.
                 What effect does reflecting across the <m>x</m>-axis have on coordinates?
             </p>
+            <aside>
+                <p>
+                    If you choose to do this activity online using the GeoGebra 
+                    applet in
+                    <xref ref="fig-Ggversion-4pt-reflect"/>, you may enter 
+                    a point using the Input box on the bottom of the applet.
+                    Type <q><m>A'=(4,10)</m></q> and GeoGebra will plot the 
+                    point <m>(4,10)</m> and label it <m>A'</m>. Of course, that is  
+                    not the correct image for <m>A'</m>!
+                </p>
+            </aside>
         </statement>
     </task>
     <task xml:id="ref-acrossy">
@@ -355,3 +424,13 @@
 </section>
 
       
+           
+            <!--<figure xml:id="fig-GGreflectP">
+                <caption>
+                    GeoGebra applet for reflecting across line <m>\overleftrightarrow{GH}</m>.
+                </caption>
+                    <interactive xml:id="GGapp-reflectP"
+                    platform="geogebra">
+                    <slate surface="geogebra" material="undyswsx"/>
+                </interactive>
+            </figure>-->

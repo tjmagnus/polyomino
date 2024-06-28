@@ -457,6 +457,12 @@
             </p>
           </statement>
         </principle>
+        <!--<axiom xml:id="formula-area-rectangle">
+          <title>Area of a Rectangle</title>
+          <statement>
+            <m>A=\ell \times w</m>.
+          </statement>
+        </axiom>-->
         <p>
           Another observation is that if you can fill a closed region with smaller 
           shapes so that none of the smaller shapes overlap and no part of the region 
@@ -664,7 +670,18 @@
               Refer to <xref ref="exer-introbasicshape-area"/>
               as you answer the following:
             </p>
-            </introduction>
+            <figure xml:id="exer-introbasicshape-area">
+              <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
+              <image source="basicshapesareaproblem">
+                <shortdescription>
+                  The first two shapes are described in the problem. Trapezoid IJKL 
+                  in the third problem consists of a right triangle OJI and rectangle  
+                  ILKO with a common side IO. The height and width of the triangle is the 
+                  same, namely 6 cm. The width of the rectangle is 10 cm.
+                </shortdescription>
+              </image>
+            </figure>
+          </introduction>
             <task>
               <statement>
                 <p>
@@ -732,17 +749,6 @@
               </task>
             
         </exercise>
-        <figure xml:id="exer-introbasicshape-area">
-          <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
-          <image source="basicshapesareaproblem">
-          <shortdescription>
-            The first two shapes are described in the problem. Trapezoid IJKL 
-            in the third problem consists of a right triangle OJI and rectangle  
-            ILKO with a common side IO. The height and width of the triangle is the 
-            same, namely 6 cm. The width of the rectangle is 10 cm.
-          </shortdescription>
-        </image>
-      </figure>
         <exercise xml:id="SAR-intro-exp-numtriominoes">
           <statement>
             <p>

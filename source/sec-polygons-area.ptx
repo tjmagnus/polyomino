@@ -331,14 +331,14 @@
                         Note how this trapezoid is not isosceles and does not have a right angle.
                     </caption>
                     <image component="web" source="trapezoid-arbitrary.svg" width="90%">
-                        <description>
+                        <shortdescription>
                             An arbitrary trapezoid, not isosceles and not a right trapezoid.
-                        </description>
+                        </shortdescription>
                     </image>
                     <image component="print" source="trapezoid-arbitrary.png" width="90%">
-                        <description>
+                        <shortdescription>
                             An arbitrary trapezoid, not isosceles and not a right trapezoid.
-                        </description>
+                        </shortdescription>
                     </image>
                 </figure>
             
@@ -481,10 +481,10 @@
             <figure xml:id="curved-region">
                 <caption>A curved region on a grid of 1x1-unit squares</caption>
                 <image component="web" source="curvedshapearea.svg" width="80%">
-                    <description>a curved shape over a grid of squares</description>
+                    <shortdescription>a curved shape over a grid of squares</shortdescription>
                 </image>
                 <image component="print" source="curvedshapearea.png" width="80%">
-                    <description>a curved shape over a grid of squares</description>
+                    <shortdescription>a curved shape over a grid of squares</shortdescription>
                 </image>                
             </figure>
         <exploration>
@@ -876,7 +876,7 @@
                         form triangle <m>\Delta BCD</m>. Point <m>E</m>
                         is the midpoint of <m>\overline{DB}</m>.
                     </p>
-                    <figure xml:id="ExtConc-oppsides-parallelogram">.
+                    <figure xml:id="ExtConc-oppsides-parallelogram">
                         <caption>An interactive parallelogram.</caption>
                         <interactive xml:id="Gg-parallelogram-oppsides" platform="geogebra">
                             <slate surface="geogebra" material="afm9sfjx"/>
