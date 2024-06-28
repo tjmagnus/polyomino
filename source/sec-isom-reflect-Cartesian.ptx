@@ -8,9 +8,27 @@
     Each reflection is defined by a 
     mirror line and the reflection takes each point to its reflected image. If we were to fold the plane across
     the mirror line, the points and their images would fall on top of each other.
-    <xref ref="expl-reflect-pentomino-coordplane"/> may be done
-    by hand or by using the provided Geogebra interactive. 
 </p>
+<p>
+    As you begin this section, it can be advantageous to use paper and colored pencils, 
+    printing out 
+    <!--<xref ref="fig-reflectP"/>, <xref ref="fig-findline"/>, and
+    <xref ref="fig-refl-across-both-axes"/>--> 
+    <xref ref="fig-reflect-paperP"/> or carefully copying it onto 
+    graph paper. Tactile tools will encourage us to use previous experience 
+    and develop spacial skills, giving us a broader understanding of reflections
+    and the Cartesian coordinate system. 
+    In addition, working on paper allows us to check our work by folding.
+</p>
+<p>
+    We will use GeoGebra tools for finding reflections in 
+    <xref ref="sec-composing-reflections"/>. Although a GeoGebra interactive 
+    is available for both <xref ref="draw-reflection"/> in the current 
+    section are designed to mimic tasks you would do with paper and pencils
+    and do not exploit the power of GeoGebra. In fact, in the interactive 
+    version reflection tools have been turned off.
+</p>
+
 </introduction>
 <subsection>
     <title>Exploring Reflections</title>
@@ -21,26 +39,42 @@
     <task xml:id="drawreflection">
     <statement>
         <p>
-            In <xref ref="fig-reflectP"/>, use the coordinate grid to reflect
-            pentomino <m>ABCDEF</m> across line <m>\overleftrightarrow{GH}</m> 
-            by plotting the image of each vertex using the Point tool. If you 
-            reflect the points in alphabetical order, the image of <m>A</m> will
-            be <m>I</m>, the image of <m>B</m> will be <m>J</m>, and so on. 
-            Connect the vertices using the Polygon tool to form <m>IJKLMN</m>.
+            In <xref ref="fig-reflect-paperP"/>, use the coordinate grid 
+            to reflect pentomino <m>ABCDEF</m> across line 
+            <m>\overleftrightarrow{GH}</m>, plotting the image of each vertex.
+            Give the reflected image of <m>A</m> the label <m>A'</m>, the reflected 
+            image of <m>B</m> the label <m>B'</m>.  
+            Connect the vertices to form hexagon <m>A'B'C'D'E'F'</m>.
         </p>
+        <aside>
+            <p>
+                The interactive <xref ref="fig-GGreflectP"/>, provided at the end 
+                of the section and accessible using the link, attempts to mimic the 
+                use of pencil and paper use the Plot Point tool. Plotting reflected points
+                in alphabetical order will assign the label <m>I</m> to the reflected 
+                image of <m>A</m>, the label <m>J</m> to the image of <m>B</m>, etc.
+                You may be able to rename these images to <m>A'</m>, <m>B'</m>, etc.,
+                or you may want to note that in the discussion that follows, <m>A'=I</m>,
+                <m>B'=J</m>, <m>C'=K</m>, <m>D'=L</m>, <m>E'=M</m>, and <m>F'=N</m>.
+            </p>
+        </aside>
+        <!--FIX THIS AFTER I TRY TO REVISE THE GEOGEBRA APP!!!!!!!!!!-->
         <p>
-            In what ways are the reflected image <m>IJKLMN</m> and the original 
+            In what ways are the reflected image <m>A'B'C'D'E'F'</m> and the original 
             figure <m>ABCDEF</m> the same?  
             In what ways are they different?  
         </p>
-        <!--<image source="reflectP">
+        <figure xml:id="fig-reflect-paper">
+            <caption>A pentomino to reflect across <m>\overline{GH}</m></caption>
+            <image source="reflectP">
             <shortdescription>
                 On graph paper, line GH passes through the points G(0,0) and H(4,4).
                 A backwards P-pentomino is formed using the following sequence of points:
                 A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.
             </shortdescription>
-        </image>-->
-        <figure xml:id="fig-reflectP">
+        </image>
+        </figure>
+        <!--<figure xml:id="fig-GGreflectP">
             <caption>
                 GeoGebra applet for reflecting across line <m>\overleftrightarrow{GH}</m>.
             </caption>
@@ -48,7 +82,7 @@
                 platform="geogebra">
                 <slate surface="geogebra" material="undyswsx"/>
               </interactive>
-        </figure>
+        </figure>-->
     </statement>
     <answer>
         <p>
@@ -145,20 +179,16 @@
             graph below to complete the following tasks. You will need to be able to 
             draw in four colors as described.
         </p>
-        <figure>
+        <figure xml:id="fig-refl-across-both-axes">
             <caption>
                 Four Points on Coordinate Grid for <xref ref="expl-reflect-across-xyaxes"/>
             </caption>    
-            <!--<image source="FourpointsOnCoordAxes">
+            <image source="FourpointsOnCoordAxes">
                 <shortdescription>
                     A coordinate grid showing the x-axis and y-axis and points
                     A=(2,5), B=(-1,3), C=(0,-4), and D=(6,-3).
                 </shortdescription>
-            </image>-->
-            <interactive xml:id="GGapp-4pt-reflected-graph"
-                platform="geogebra">
-                <slate surface="geogebra" material="eggzvesr"/>
-              </interactive>    
+            </image>    
         </figure>
     </introduction>
     <task xml:id="ref-acrossx">
@@ -288,6 +318,39 @@
         consideration to reflections across other lines, we will drop the coordinate grid and use  
         technology.
     </p>
+</subsection>
+<subsection xml:id="subsec-interactives-ref-Cartesian">
+    <title>Optional Geogebra Interactives</title>
+    <p>
+        The GeoGebra interactive <xref ref="fig-GGreflectP"/>
+        may be used instead of 
+        <xref ref="fig-reflect-paperP"/> in 
+        <xref ref="expl-reflect-pentomino-coordplane"/>. 
+        Since the paper version of these activities is recommended, 
+        the interactive version has been placed here at 
+        the end of the section.
+    </p>
+    <figure xml:id="fig-GGreflectP">
+        <caption>
+            GeoGebra applet for reflecting across line <m>\overleftrightarrow{GH}</m>.
+        </caption>
+            <interactive xml:id="GGapp-reflectP"
+            platform="geogebra">
+            <slate surface="geogebra" material="undyswsx"/>
+          </interactive>
+    </figure>
+    <p>
+        Similarly, the Geogebra interactive
+        <xref ref="fig-Ggversion-4pt-reflect"/> may be 
+        used in the place of <xref ref="fig-refl-across-both-axes"/>.
+    </p>
+    <figure xml:id="fig-Ggversion-4pt-reflect">
+        <caption>GeoGebra interactive for reflecting across axes</caption>
+        <interactive xml:id="GGapp-4pt-reflected-graph"
+                platform="geogebra">
+                <slate surface="geogebra" material="eggzvesr"/>
+        </interactive>  
+    </figure>
 </subsection>
 </section>
 
