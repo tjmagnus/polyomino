@@ -2,10 +2,24 @@
 
 <section xml:id="sec-isom-rotate-and-translate" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Orientation-Maintaining Isometries</title>
+  <introduction>
+    <p>
+        Have you ever held a written message up to a mirror? You probably noticed 
+        that the direction of the words were reversed, making them more difficult 
+        to read. Even turning your head slightly did not correct this. In this 
+        section, we will look more carefully at this property, called orientation-reversing 
+        and learn about other isometries that do not reverse orientation of 
+        figures. We will also learn about properties that all isometries share.
+    </p>
+    <image source="reflected-math" width="50%">
+        <shortdescription>The word math reflected across a line.</shortdescription>
+    </image>
+  </introduction>
   <subsection xml:id="subsec-isom-RAT-definingOP">
     <title>What do we mean by orientation-maintaining?</title>
         <p>
-            The picture shows a triangle <m>\Delta ABC</m> reflected across a line <m>\ell</m>. Although the 
+            The picture in <xref ref="reversing-orientation-fig"/> shows a 
+            triangle <m>\Delta ABC</m> reflected across a line <m>\ell</m>. Although the 
             letters <m>A</m>, <m>B</m>, and <m>C</m> are in alphabetical order when read clockwise from the 
             original figure, the letters in the reflected image <m>\Delta A'B'C'</m> are in the reverse order. 
             When this happens, we say that the transformation <term>reverses orientation</term>. Any reflection
@@ -76,6 +90,7 @@
         <caption>Action of a Reflection</caption>
         <image source="collineation-reflection"/>
     </figure>
+    <!--ja6ezhsr-->
     <definition xml:id="def-collineation">
         <statement>
             <p>
