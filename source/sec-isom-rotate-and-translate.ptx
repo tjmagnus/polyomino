@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-isom-rotate-and-translate" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Orientation-Maintaining Isometries</title>
+  <title>Orientation-Maintaining Transformations</title>
   <introduction>
     <p>
         Have you ever held a written message up to a mirror? You probably noticed 
         that the direction of the words were reversed, making them more difficult 
         to read. Even turning your head slightly did not correct this. In this 
         section, we will look more carefully at this property, called orientation-reversing 
-        and learn about other isometries that do not reverse orientation of 
-        figures. We will also learn about properties that all isometries share.
+        and learn about other transformations that do not reverse orientation of 
+        figures. We will also explore isometries and learn about properties that 
+        all isometries share.
     </p>
     <image source="reflected-math" width="50%">
         <shortdescription>The word math reflected across a line.</shortdescription>
@@ -94,14 +95,27 @@
     <definition xml:id="def-collineation">
         <statement>
             <p>
-                A transformation that preserves 
-                linearity, that takes collinear points to collinear points, 
-                is called a <term>collineation</term>. 
+                A transformation that <term>preserves linearity</term>, 
+                that takes collinear points to points that also lie 
+                on a common line, is called a <term>collineation</term>. 
                 <idx><h>preserves</h><h>linearity</h></idx>
                 <idx><h>collineation</h></idx>
             </p>
         </statement>
     </definition>
+    <note>
+        <p>
+            The words <term>collinear</term> and <term>collineation</term>
+            share the same root but describe different mathematical objects. 
+            A <term>collinear</term> describes a set of points 
+            as lying on a single line. A <term>collineation</term>, 
+            on the other hand, is a transformation or mapping that has the 
+            property that when three or more points lie on a line their
+            images will be points that lie on a common 
+            line. The line containing the images may be a different line or the 
+            same line as the one containing the original points.
+        </p>
+    </note>
     <p>
         <xref ref="explor-props-preserved-refl"/> directs our attention to 
         some qualities preserved by a reflection. As you encounter other collineations
@@ -110,54 +124,68 @@
     <exploration xml:id="explor-props-preserved-refl">
         <title>Properties Preserved by a Reflection</title>
         <task>
-            <statement>
+            <introduction>
                 <p>
-                    Give examples in <xref ref="fig-illustrate-collineation"/>
-                    that illustrate each of the following properties preserved by the 
-                    reflection. In some cases, there may be more than one answer.
-                    <ol>
-                        <li>
-                            <p>
-                                A point in the interior of a polygon maps to a point in the 
-                                interior of the image of the polygon.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                A point in the exterior of a polygon maps to a point in the 
-                                exterior of the image of the polygon.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                If a point is between two other points on a line, then its 
-                                image will also lie between the images of those two points.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Points on the right side of the mirror will reflect to a point on the 
-                                left side of the mirror.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Distance between points is preserved.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Angle measure is preserved.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The image of a point maps reflects back to the original point. 
-                            </p>
-                        </li>
-                    </ol>
+                    In <xref ref="fig-illustrate-collineation"/>, the reflected image 
+                    of each illustrated point is identified by adding a <sq>prime</sq>
+                    or apostrophe. Give examples that demonstrate each of the following 
+                    properties preserved by the reflection. In some cases, there may 
+                    be more than one answer. 
                 </p>
-            </statement>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        A point in the interior of a polygon maps to a point in the 
+                        interior of the image of the polygon.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A point in the exterior of a polygon maps to a point in the 
+                        exterior of the image of the polygon.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If a point lies between two other points on a line, then its 
+                        image will also lie between the images of those two points.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Points on the right side of the mirror will reflect to a point on the 
+                        left side of the mirror.
+                    </p>
+                </statement>
+            </task>        
+            <task>
+                <statement>
+                    <p>
+                        Distance between points is preserved.
+                    </p>
+                </statement>
+            </task> 
+            <task>
+                <statement>
+                    <p>
+                            Angle measure is preserved.
+                    </p>
+                </statement>
+            </task>      
+            <task>
+                <statement>
+                    <p>
+                        The image of a point maps reflects back to the original point. 
+                    </p>
+                </statement>
+            </task>
         </task>
         <task>
             <statement>
@@ -182,11 +210,17 @@
         <statement>
             <p>
                 A collineation is called an <term>isomorphism</term> if it preserves 
-                distance between points. In other words, <m>t</m> is an isomorphism if
-                for every two points <m>P</m> and <m>Q</m>, 
+                distance between points. In other words, collineation <m>t</m> is an 
+                isomorphism if for every two points <m>P</m> and <m>Q</m>, 
                 <m>m(\overline{PQ})=m(\overline{P'Q'})</m> where <m>P'=t(P)</m> and 
                 <m>Q'=t(Q)</m>.
             </p>
+            <aside>
+                <p>
+                    Here, <m>t</m> refers to a transformation, a function mapping 
+                    points. 
+                </p>
+            </aside>
         </statement>
     </definition>
     <p>
@@ -220,10 +254,13 @@
         <p>
             This exploration may also be done on paper using a print copy of  
             <xref ref="app-translate-wcoords"/> instead of the application.
+            The GeoGebra tool for creating translations has been turned off.
+            Instead, you should use the grid or coordinates to determine the 
+            locations of the translated points.
         </p>
     </introduction>
     <task>
-        <statement>
+        <introduction>
             <p>
                 <xref ref="app-translate-wcoords"/> gives a picture of quadrilateral <m>ABCD</m> a vector 
                 <m>\overrightarrow{EF}</m> on a coordinate grid. Vector <m>\overrightarrow{EF}</m> goes from <m>(2,4)</m>
@@ -237,31 +274,32 @@
                 <slate surface="geogebra" material="dqxsdp2b"/>
                 </interactive>
             </figure>
-            <p>
-                <ol>
-                    <li>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Use the point tool to locate and mark the image <m>A'</m> created by moving 
+                    point <m>A</m> the distance and direction indicated 
+                    by vector <m>\overrightarrow{FG}</m>. What are the coordinates of <m>A'</m>?
+                </p>
+                    <aside>
                         <p>
-                            Use the point tool to locate and mark the image <m>A'</m> created by moving point <m>A</m>
-                            by vector <m>\overrightarrow{FG}</m>. What are the coordinates of <m>A'</m>?
+                            GeoGebra will assign a new name, perhaps <m>H</m>, to the 
+                            point you create. If you would like to rename it, right click 
+                            on the point and select rename.
                         </p>
-                        <aside>
-                            <p>
-                                GeoGebra will assign a new name, perhaps <m>H</m>, to the 
-                                point you create. If you would like to rename it, right click 
-                                on the point and select rename.
-                            </p>
-                        </aside>
-                    </li>
-                    <li>
-                        <p>
-                            Create <m>B'</m>, <m>C'</m>, and <m>D'</m> in a similar 
-                            fashion, recording their coordinates. Then use the polygon tool 
-                            to draw quadrilateral <m>A'B'C'D'</m>.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-        </statement>
+                    </aside>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Create <m>B'</m>, <m>C'</m>, and <m>D'</m> in a similar 
+                    fashion, recording their coordinates. Then use the polygon tool 
+                    to draw quadrilateral <m>A'B'C'D'</m>.
+                </p>
+            </statement>
+        </task>
     </task>
     <task>
         <statement>
@@ -292,34 +330,37 @@
         </statement>
     </task>
     <task>
-        <statement>
+        <introduction>
             <p>
                 Sketch the segments <m>\overline{AA'}</m>, <m>\overline{BB'}</m>,
                 <m>\overline{CC'}</m>, and <m>\overline{DD'}</m>. 
-                <ol>
-                    <li>
-                        <p>
-                            What do you notice about the lengths of these 
-                            segments?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            What appears to be true about the lines <m>\overleftrightarrow{AA'}</m>, 
-                            <m>\overleftrightarrow{BB'}</m>,
-                            <m>\overleftrightarrow{CC'}</m>, and 
-                            <m>\overleftrightarrow{DD'}</m>? 
-                        </p>
-                    </li>
-                </ol>    
             </p>
-        </statement>
-        <hint>
-            <p>
-                Since lines have infinite length, you should be looking for a property other
-                than length.
-            </p>
-        </hint>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    What do you notice about the lengths of these 
+                    segments?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Now consider what happens if we extend these segments into 
+                    lines. What appears to be true about the lines <m>\overleftrightarrow{AA'}</m>, 
+                    <m>\overleftrightarrow{BB'}</m>,
+                    <m>\overleftrightarrow{CC'}</m>, and 
+                    <m>\overleftrightarrow{DD'}</m>? 
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Since lines have infinite length, you should be looking for a property other
+                    than length.
+                </p>
+            </hint>
+        </task> 
     </task>
     <task>
         <statement>
@@ -335,69 +376,84 @@
             Can the same be said of quadrilaterals <m>ADD'A'</m>,
             <m>CDD'C'</m>, and <m>BCC'B'</m>? 
         </p>
-    </task>
-    <task>
-        <statement>
+        <aside>
             <p>
-                An isometry affects all points in the plane, not just those pictured. Draw three new points:
-                point <m>H</m> lying on side <m>\overline{BC}</m>, point <m>I</m> lying in the exterior of 
-                quadrilateral <m>ABCD</m>, and point <m>J</m> lying in the interior of <m>ABCD</m>.
-                <ol>
-                    <li>
-                        <p>
-                            Sketch point <m>H'</m>, the image of <m>H</m> under the transformation that takes
-                            <m>ABCD</m> to <m>A'B'C'D'</m>. How is the location of <m>H'</m> related 
-                            to <m>A'B'C'D'</m>?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Sketch point <m>I'</m>, the image of <m>I</m> under the transformation that takes
-                            <m>ABCD</m> to <m>A'B'C'D'</m>. How is the location of <m>I'</m> related 
-                            to <m>A'B'C'D'</m>?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Sketch point <m>J'</m> the image of <m>J</m> under the transformation that takes
-                            <m>ABCD</m> to <m>A'B'C'D'</m>. How is the location of <m>J'</m> related 
-                            to <m>A'B'C'D'</m>?
-                        </p>
-                    </li>
-                </ol>
+                The hide/show tool in Geogebra has a blue dot and a white dot 
+                in its icon. It can be found in the second to last menu. Clicking 
+                on the interior of quadrilateral <m>A'B'C'D'</m> with the show/hide
+                tool selected will hide the quadrilateral. Click on any other tool 
+                to complete the hiding process. Use the back arrow or the show/hide 
+                tool to bring the quadrilateral back into view.
             </p>
-        </statement>
+        </aside>
+    </task>
+    <task>
+        <introduction>
+            <p>
+                An isometry affects all points in the plane, not just those pictured. 
+                Draw three new points:
+                point <m>H</m> lying on side <m>\overline{BC}</m>, 
+                point <m>I</m> lying in the exterior of quadrilateral <m>ABCD</m>, 
+                and point <m>J</m> lying in the interior of <m>ABCD</m>.   
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Sketch point <m>H'</m>, the image of <m>H</m> under the transformation that takes
+                    <m>ABCD</m> to <m>A'B'C'D'</m>. How is the location of <m>H'</m> related 
+                    to <m>A'B'C'D'</m>?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Sketch point <m>I'</m>, the image of <m>I</m> under the transformation that takes
+                    <m>ABCD</m> to <m>A'B'C'D'</m>. How is the location of <m>I'</m> related 
+                    to <m>A'B'C'D'</m>?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Sketch point <m>J'</m> the image of <m>J</m> under the transformation that takes
+                    <m>ABCD</m> to <m>A'B'C'D'</m>. How is the location of <m>J'</m> related 
+                    to <m>A'B'C'D'</m>?
+                </p>
+            </statement>
+        </task>
     </task>
     <task>
         <statement>
             <p>
-                We call the isometry in <xref ref="app-translate-wcoords"/> 
-                a <term>translation</term>. Describe in your 
-                own words how a translation acts on points in the plane.
+                Based on the translation you explored in 
+                <xref ref="app-translate-wcoords"/>, describe in your own words 
+                how a translation acts on points, line segments,
+                lines, and polygons in the plane. What properties will it have?
             </p>
         </statement>
     </task>
     </exploration>
-    
     <subsubsection xml:id="subsec-isom-RAT-props-translation">
         <title>Properties of Translations</title>
     <p>
-        In <xref ref="explor-isom-RAT-translation"/>, we observed many of the properties of a 
-        transformation called a <term>translation</term>. <idx><h>translation</h></idx>
+        In <xref ref="explor-isom-RAT-translation"/>, we observed many properties of a 
+        transformation called a <term>translation</term>.
         Each translation is uniquely defined by a <term>translation vector</term><fn>A <term>vector</term>
         is simply a directed line segment between two points.</fn> which indicates 
-        the direction and distance that every point is moved by the translation. The choice of the translation
-        vector, on the other hand, is not unique. Any vector of the same length which points in the same 
+        the direction and distance that every point is moved by the translation. The choice of 
+        vector for a given tranlation is not unique. Any vector of the same length which points in the same 
         direction may serve as the vector for the translation. In <xref ref="app-translate-wcoords"/>, 
         the vector <m>\overrightarrow{BB'}</m> is a translation vector for the 
         given translation; however, <m>\overrightarrow{AA'}</m>, <m>\overrightarrow{CC'}</m>,
         <m>\overrightarrow{DD'}</m>, or even your <m>\overrightarrow{MM'}</m> 
         would describe the same translation. Any of these vectors
-        may be chosen as the translation vector for this translation. 
+        point down 1 unit and to the right 3 units. 
         You probably noticed that these vectors were parallel 
         and had the same length.
     </p>
-
     </subsubsection>
   </subsection>
   <subsection xml:id="subsec-isom-RAT-rotation">
@@ -406,7 +462,7 @@
         <p>
             The third transformation we will consider is a <term>rotation</term>. Like a translation, 
             a rotation maintains the orientation of the vertices.  As the name suggests, a rotation 
-            spins the points of a plane around a single fixed point.
+            turns the points of a plane around a single fixed point.
         </p>
         <definition xml:id="def-rotation">
             <idx><h>rotation</h></idx>
@@ -441,6 +497,7 @@
                     <shortdescription>Triangle ABC is rotated around a point F to form triangle A'B'C'.</shortdescription>
                 </image>
             </figure>
+            <!--qv3f7pvc-->
         </introduction>
         <task>
             <statement>
@@ -458,8 +515,24 @@
                     Is it on either triangle, in the interior of either triangle, or in the exterior of both 
                     triangles?  How do you know that the point you identified as the center meets the criteria 
                     in the definition of <xref ref="def-rotation" text="custom">center of rotation</xref>?
+                    Is the center of rotation related to <m>\overline{AA'}</m>, <m>\overline{BB'}</m>,
+                    and <m>\overline{CC'}</m>?
                 </p>
             </statement>
+            <answer>
+                <p>
+                    In this example, the center is exterior to the two given 
+                    triangles. We will explore examples where the center is on 
+                    the polygon or in the interior of the polygon later.
+                </p>
+                <p>
+                    The center lies at the intersection of the perpendicular 
+                    bisectors of the segments <m>\overline{PP'}</m>. At this 
+                    point in the course, it is enough for students to recognize 
+                    that the center does not lie at the intersection of the 
+                    segments themselves. (In fact, there is no common intersection.)
+                </p>
+            </answer>
         </task>
         <task>
             <statement>
@@ -467,6 +540,13 @@
                     Is the rotation distance-preserving? How do you know?
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Here, your argument can be observational and based on this 
+                    one example. Hopefully, you wonder whether it will always 
+                    be the case and why this happens!
+                </p>
+            </hint>
         </task>
         <task>
             <statement>
@@ -501,7 +581,8 @@
         <task>
             <statement>
                 <p>
-                    What is the degree measure of the rotational angle of this rotation? 
+                    What is the degree measure of the rotational angle of 
+                    this rotation taking <m>\Delta ABC</m> to <m>\Delta A'B'C'</m>? 
                     Is it a clockwise or counterclockwise rotation?
                 </p>
             </statement>
@@ -511,9 +592,11 @@
         <title>Properties of Rotations</title>
     <p>
         A rotation is specified by two pieces of information, namely its center and the angle of rotation.  
-        The center is the one point which does not move. Each other point <m>P</m> is moved to a new
-        point <m>P'</m>. The distance between the center and each point does not change under the rotation, 
-        but the direction from the center to each point is changed according to the rotation angle.
+        The center is the one point which does not move. Each point <m>P</m>,
+        except for the center, is moved to a new point <m>P'</m>. The distance 
+        between the center and each point does not change under the rotation, 
+        but the direction from the center to each point is changed as dictated 
+        by the rotation angle.
     </p>
     <p>
         The angle of rotation is given by the angle <m>\angle PQP'</m> where <m>Q</m> is 
