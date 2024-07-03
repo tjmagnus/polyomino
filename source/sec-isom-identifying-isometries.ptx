@@ -60,7 +60,9 @@
         We are familiar with three types of isometries: reflections, 
         translations, and rotations. Yet many questions remain: 
         Are there other types of isometries? 
-        Are there transformations that are not isometries? If two figures are congruent, 
+        Are there transformations that are not isometries? We have seen that 
+        the image of a polygon under an isometry is congruent to the original 
+        polygon. But what about the converse? If two figures are congruent, 
         is there always an isometry mapping one to the other? If so, how do we 
         determine what type of isometry it is? 
     </p>
@@ -71,51 +73,66 @@
         that takes one figure onto a congruent copy. Is it a reflection, a translation, 
         a rotation, or something else? Then having determined the type can we specify 
         the exact action that performs the movement. A good place to start is to 
-        identify whether the isometry maintains orientation.
+        identify whether the isometry maintains orientation. 
     </p>
-    <exercise>
+    <exploration xml:id="chkpt-orient-distinguish">
       <title>
         Distinguishing Between Types of Isometries by Orientation
       </title>
       <task>
-        <statement>
+        <introduction>
           <p>
-            <ol>
-              <li>
-                <p>
-                  Imagine that <m>\Delta ABC</m> is a moveable cutout triangle with a beach scene on 
-                  the front face and gray cardboard on the back. We can think of the action of an isometry 
-                  as moving <m>\Delta ABC</m> so that it aligns perfectly with its image <m>\Delta A'B'C'</m>.   
-                  Which isometries--reflections, translations, and rotations--
-                  studied so far will keep <m>\Delta ABC</m> beach side up? Which will turn 
-                  <m>\Delta ABC</m> over so that it is cardboard side up? What property is this related to?
-                </p>
-              </li>
-              <li>
-                <p>
-                  How might you tell the difference between a translation and a rotation? Assume that you are 
-                  given a picture of two congruent triangles <m>\Delta ABC</m> and <m>\Delta A'B'C'</m> where the
-                  orientation is the same. How do you know whether a translation takes <m>\Delta ABC</m> to 
-                  <m>\Delta A'B'C'</m>? How do you know whether the isometry is a rotation? Could it be both? or 
-                  neither?
-                </p>
-              </li>
-            </ol>
+            Consider the following and be prepared to share your thoughts.
           </p>
-        </statement>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Imagine that <m>\Delta ABC</m> is a triangular puzzle piece with a beach 
+                scene on the front and gray cardboard on the back. We can think of the 
+                action of an isometry as moving <m>\Delta ABC</m> so that it aligns 
+                perfectly with its image <m>\Delta A'B'C'</m>. Which isometries--reflections, 
+                translations, and rotations--studied so far will keep <m>\Delta ABC</m> 
+                beach side up? Which will turn <m>\Delta ABC</m> over so that it is 
+                cardboard side up? What property is this related to?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Translations and rotations both preserve orientation. How might you tell the 
+                difference between a translation and a rotation? Assume that you are 
+                given a picture of two congruent triangles <m>\Delta ABC</m> and <m>\Delta A'B'C'</m> 
+                where the orientation is the same. How do you know whether a translation 
+                takes <m>\Delta ABC</m> to <m>\Delta A'B'C'</m>? How do you know whether 
+                the isometry is a rotation? Could it be both? or neither?
+              </p>
+            </statement>
+          </task>
       </task>
-    </exercise>
+    </exploration>
     </subsection>
     <subsection xml:id="subsec-fixed-points">
       <title>Recognizing Isometries by Fixed Points</title>
       <p>
         Another way to distinguish between isometries is to note which points,
         if any, are unmoved by the isometry. Such a point is called a <term>fixed 
-        point</term> of the isometry. If <m>P</m> is a fixed point of isometry <m>f</m>,
-        then <m>f(P)=P</m>. Following our convention of calling the image of point 
-        <m>P</m> by the symbol <m>P'</m>, <m>P</m> is a fixed point if <m>P'=P</m>.
-        <idx><h>fixed point</h></idx>
+        point</term> of the isometry. Fixed points may occur when the transformation 
+        is not an isometry as well, so we will state the definition more generally.
       </p>
+      <definition xml:id="def-">
+        <statement>
+          <p>
+            If <m>f</m> is any transformation, then <m>P</m> is said to be a
+            <term>fixed point</term> of transformation <m>f</m>, if 
+            <m>f(P)=P</m>. Following our convention of denoting the image of 
+            point <m>P</m> with the symbol <m>P'</m>, <m>P</m> is a fixed point 
+            if <m>P'=P</m>.
+          <idx><h>fixed point</h></idx>
+          </p>
+        </statement>
+      </definition>
       <exploration>
         <title>Determining the Fixed Points of an Isometry</title>
         <task>

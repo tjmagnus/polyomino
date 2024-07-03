@@ -4,12 +4,6 @@
         <title>Defining a Polyhedron</title>
     <definition xml:id="def-polyhedron">
         <idx><h>polyhedron</h></idx>
-        <idx><h>face</h></idx>
-        <idx><h>edge</h><h>polyhedron</h></idx>
-        <idx><h>vertex</h><h>polyhedron</h></idx>
-        <idx><h>polyhedron</h><h>face</h></idx>
-        <idx><h>polyhedron</h><h>edge</h></idx>
-        <idx><h>polyhedron</h><h>vertex</h></idx>
         <idx><h>polyhedron</h><h>convex</h></idx>
         <idx><h>convex</h><h>polyhedron</h></idx>
         <idx><h>concave</h><h>polyhedron</h></idx>
@@ -27,12 +21,22 @@
                 on the surface of a convex polyhedron will only contain points on the surface or 
                 interior of the polyhedron.  
             </p>
-            <figure xml:id="convex-concave-polyhedra">
-                <caption>A concave polyhedron and a convex polyhedron</caption>
-                <image source="concaveconvexaligned.png">
-                    <shortdescription>A concave polyhedron and a convex polyhedron</shortdescription>
-                </image>
-            </figure>
+        </statement>
+    </definition>
+    <figure xml:id="fig-convex-concave-polyhedra">
+        <caption>A concave polyhedron and a convex polyhedron</caption>
+        <image source="concaveconvexaligned.png">
+            <shortdescription>A concave polyhedron and a convex polyhedron</shortdescription>
+        </image>
+    </figure>
+    <definition xml:id="def-FEV-polyhedron">
+        <idx><h>face</h></idx>
+        <idx><h>edge</h><h>polyhedron</h></idx>
+        <idx><h>vertex</h><h>polyhedron</h></idx>
+        <idx><h>polyhedron</h><h>face</h></idx>
+        <idx><h>polyhedron</h><h>edge</h></idx>
+        <idx><h>polyhedron</h><h>vertex</h></idx>
+        <statement>
             <p>
                 A <term>face</term> of a geometrical solid refers to a flat surface 
                 that forms part of the boundary of the solid. The line segments where two 
@@ -40,23 +44,29 @@
                 edges meet are called the <term>vertices</term> of the polyhedron. The  
                 vertices of the polyhedron are also vertices of its polygonal faces. 
             </p>
-            <p>
-                While it is not incorrect to call a face of a polyhedron a <sq>side</sq>,
-                one should be careful to distinguish between a face of the polyhedron and 
-                a side of a polygon (which is an edge of the polyhedron). Using the terms
-                <term>face</term> and <term>edge</term> will make our discussions about polyhedra 
-                clearer.
-            </p>
+        </statement>
+    </definition>
+    <p>
+        While it is not incorrect to call a face of a polyhedron a <sq>side</sq>,
+        one should be careful to distinguish between a face of the polyhedron and 
+        a side of a polygon (which is an edge of the polyhedron). Using the terms
+        <term>face</term> and <term>edge</term> will make our discussions about polyhedra 
+        clearer.
+    </p>
+    <definition xml:id="def-face-angle">
+        <idx><h>face angle</h></idx>
+        <idx><h>angle of polyhedron</h><h>face angle</h></idx>
+        <idx><h>polyhedron</h><h>face angle</h></idx>
+        <idx><h>angle</h><h>polyhedron</h></idx>
+        <statement>
             <p>
                 Note also that a polyhedron has more than one type of angle. 
                 In this section, we will be working with angles whose rays are 
                 adjacent edges of the polyhedron. Each of these angles is a vertex 
                 angle of one of the faces of the polyhedron; hence, we may refer to them 
-                as <term>face angles</term>.<fn>This is <em>not</em> the same as a <term>dihedral angle</term>,  
-                measuring the space between two faces<!--, nor is it the same as a <term>polyhedral
-                angle</term>.--></fn>
-                <idx><h>face angle</h></idx>
-                <idx><h>angle of polyhedron</h><h>face angle</h></idx>
+                as <term>face angles</term>.<fn>This is <em>not</em> the same as a 
+                <term>dihedral angle</term>, measuring the space between two faces.
+                <!--, nor is it the same as a <term>polyhedral angle</term>.--></fn>
             </p>
         </statement>
     </definition>
