@@ -391,4 +391,47 @@
     </figure>
     
 </subsection>
+<exercises xml:id="exer-dilations-cartesian">
+    <title>Exercises</title>
+    <subexercises xml:id="Toolbox-dilations-cartesian">
+      <title>Building Our Toolbox</title>
+      <exercise>
+        <statement>
+          <p>
+            add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="SAR-dilations-cartesian">
+      <title>Skills and Recall</title>
+      <exercise>
+        <statement>
+          <p>
+            Add some.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-dilations-cartesian">
+      <title>Extending the Concepts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-dilations-cartesian">
+      <title>Writing Prompts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+  </exercises>
 </section>

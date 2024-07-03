@@ -383,4 +383,47 @@
     </task>
   </exploration>
 </subsection>
+<exercises xml:id="exer-dilations-Pyth">
+  <title>Exercises</title>
+  <subexercises xml:id="Toolbox-dilations-Pyth">
+    <title>Building Our Toolbox</title>
+    <exercise>
+      <statement>
+        <p>
+          add
+        </p>
+      </statement>
+    </exercise>
+  </subexercises>
+  <subexercises xml:id="SAR-dilations-Pyth">
+    <title>Skills and Recall</title>
+    <exercise>
+      <statement>
+        <p>
+          Add some.
+        </p>
+      </statement>
+    </exercise>
+  </subexercises>
+  <subexercises xml:id="ExtConc-dilations-Pyth">
+    <title>Extending the Concepts</title>
+    <exercise>
+      <statement>
+        <p>
+          Add
+        </p>
+      </statement>
+    </exercise>
+  </subexercises>
+  <subexercises xml:id="Writing-dilations-Pyth">
+    <title>Writing Prompts</title>
+    <exercise>
+      <statement>
+        <p>
+          Add
+        </p>
+      </statement>
+    </exercise>
+  </subexercises>
+</exercises>
 </section>

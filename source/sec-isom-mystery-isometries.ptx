@@ -610,6 +610,49 @@
             </task>
         </exploration>
     </subsection> 
+    <exercises xml:id="exer-isom-mystery">
+        <title>Exercises</title>
+        <subexercises xml:id="Toolbox-isom-mystery">
+          <title>Building Our Toolbox</title>
+          <exercise>
+            <statement>
+              <p>
+                add
+              </p>
+            </statement>
+          </exercise>
+        </subexercises>
+        <subexercises xml:id="SAR-isom-mystery">
+          <title>Skills and Recall</title>
+          <exercise>
+            <statement>
+              <p>
+                Add some.
+              </p>
+            </statement>
+          </exercise>
+        </subexercises>
+        <subexercises xml:id="ExtConc-isom-mystery">
+          <title>Extending the Concepts</title>
+          <exercise>
+            <statement>
+              <p>
+                Add
+              </p>
+            </statement>
+          </exercise>
+        </subexercises>
+        <subexercises xml:id="Writing-isom-mystery">
+          <title>Writing Prompts</title>
+          <exercise>
+            <statement>
+              <p>
+                Add
+              </p>
+            </statement>
+          </exercise>
+        </subexercises>
+      </exercises>
 </section>
     
     

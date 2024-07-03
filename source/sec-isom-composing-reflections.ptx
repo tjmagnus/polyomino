@@ -497,4 +497,47 @@
       </statement>
     </exercise>
   </subsection>
+  <exercises xml:id="exer-isom-comp">
+    <title>Exercises</title>
+    <subexercises xml:id="Toolbox-isom-comp">
+      <title>Building Our Toolbox</title>
+      <exercise>
+        <statement>
+          <p>
+            add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="SAR-isom-comp">
+      <title>Skills and Recall</title>
+      <exercise>
+        <statement>
+          <p>
+            Add some.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-isom-comp">
+      <title>Extending the Concepts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-isom-comp">
+      <title>Writing Prompts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+  </exercises>
 </section>

@@ -665,9 +665,52 @@
         </p>
       </statement>
     </exercise>
-    </subsection>
-    <!--Add a subsection on using folding and then ruler/compass to create perpendicular 
+  </subsection>
+    <!--Add a subsection (Extended Concepts?) on using folding and then ruler/compass to create perpendicular 
     bisectors. Historical perspective.-->
+  <exercises xml:id="Exercises-isom-ident">
+    <title>Exercises</title>
+    <subexercises xml:id="Toolbox-isom-ident">
+      <title>Building Our Toolbox</title>
+      <exercise>
+        <statement>
+          <p>
+            add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="SAR-isom-ident">
+      <title>Skills and Recall</title>
+      <exercise>
+        <statement>
+          <p>
+            Add some.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-isom-ident">
+      <title>Extending the Concepts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-isom-ident">
+      <title>Writing Prompts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+  </exercises>
 </section>
 <!--possible exercise on why parallelograms are formed by translations and 
 why the center is the intersection of the perpendicular bisectors-->

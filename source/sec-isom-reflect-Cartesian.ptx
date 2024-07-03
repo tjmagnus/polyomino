@@ -422,6 +422,49 @@
         </interactive>  
     </figure>
 </subsection>
+<exercises xml:id="exer-isom-reflect">
+    <title>Exercises</title>
+    <subexercises xml:id="Toolbox-isom-reflect">
+      <title>Building Our Toolbox</title>
+      <exercise>
+        <statement>
+          <p>
+            add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="SAR-isom-reflect">
+      <title>Skills and Recall</title>
+      <exercise>
+        <statement>
+          <p>
+            Add some.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-isom-reflect">
+      <title>Extending the Concepts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-isom-reflect">
+      <title>Writing Prompts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+  </exercises>
 </section>
 
       

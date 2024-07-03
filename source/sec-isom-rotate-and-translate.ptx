@@ -458,7 +458,7 @@
   </subsection>
   <subsection xml:id="subsec-isom-RAT-rotation">
     <title>Rotations</title>
-    <introduction xml:id="intro-def-rotation">
+    <!--<introduction xml:id="intro-def-rotation">-->
         <p>
             The third transformation we will consider is a <term>rotation</term>. Like a translation, 
             a rotation maintains the orientation of the vertices.  As the name suggests, a rotation 
@@ -483,7 +483,7 @@
             is not specified, we will assume that it spins in the counter-clockwise direction. To indicate
             a clockwise rotation, the angle may be given as a negative number.
         </p>
-    </introduction>
+    <!--</introduction>-->
     <exploration xml:id="expl-rotation">
         <title>Exploring a Rotation</title>
         <introduction>
@@ -619,6 +619,49 @@
     </exercise>
     </subsubsection>
   </subsection>
+  <exercises xml:id="exer-isom-RAT">
+    <title>Exercises</title>
+    <subexercises xml:id="Toolbox-isom-RAT">
+      <title>Building Our Toolbox</title>
+      <exercise>
+        <statement>
+          <p>
+            add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="SAR-isom-RAT">
+      <title>Skills and Recall</title>
+      <exercise>
+        <statement>
+          <p>
+            Add some.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="ExtConc-isom-RAT">
+      <title>Extending the Concepts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-isom-RAT">
+      <title>Writing Prompts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+  </exercises>
   <!--Exercise ideas: rotations where the center is on or in the triangle.
 Drawing the image of a translation. Drawing the image of a rotation.-->
 </section>

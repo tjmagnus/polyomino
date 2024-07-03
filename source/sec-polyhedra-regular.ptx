@@ -2,6 +2,9 @@
     <title>Regular Polyhedra</title>
     <subsection xml:id="subsec-def-polyhedra">
         <title>Defining a Polyhedron</title>
+            <p>
+                Some geometrical solids have polygonal faces.  
+            </p>
     <definition xml:id="def-polyhedron">
         <idx><h>polyhedron</h></idx>
         <idx><h>polyhedron</h><h>convex</h></idx>
@@ -25,7 +28,7 @@
     </definition>
     <figure xml:id="fig-convex-concave-polyhedra">
         <caption>A concave polyhedron and a convex polyhedron</caption>
-        <image source="concaveconvexaligned.png">
+        <image source="concaveconvexaligned.jpg">
             <shortdescription>A concave polyhedron and a convex polyhedron</shortdescription>
         </image>
     </figure>

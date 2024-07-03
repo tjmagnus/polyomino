@@ -929,42 +929,14 @@
                 </answer>
             </exercise>
             <exercise>
-                <statement>
+                <introduction>
                     <p>
                         In <xref ref="fig-circle-squares"/>, two copies of a circle of 
                         radius 5 are given. The circle on the left circumscribes square
                         <m>BEFG</m>, meaning that the vertices <m>B</m>, <m>E</m>, <m>F</m>,
                         and <m>G</m> lie on the circle. The circle on the right is inscribed 
                         in square <m>HIJK</m>. Here the circle just touches the square at the 
-                        midpoint of each side.
-                        <ol>
-                            <li>
-                                <p>
-                                    Based on the picture, what should be true about the area of the circle relative
-                                    to the two squares?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Compute the area of square <m>BEFG</m>.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Compute the area of square <m>HIJK</m>.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Compute the area of the circle. 
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Do these measurements agree with your expectation?
-                                </p>
-                            </li>
-                        </ol>
+                        midpoint of each side. 
                     </p>
                     <figure xml:id="fig-circle-squares">
                         <caption>Square circumscribed by and inscribed in a circle of 
@@ -977,46 +949,72 @@
                             </shortdescription>
                         </image>
                     </figure>
-                </statement>
-                <answer>
-                    <p>
-                        (a) The area of the circle should be between the areas of the two squares.
-                        (b) Area of BEFG is 50 sq units.
-                        (c) Area of HIJK is 100 sq units.
-                        (d) Are of the circle is <m>25\pi\approx 78.54</m>.
-                    </p>
-                </answer>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Based on the picture, what should be true about the area of the circle relative
+                            to the two squares?
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            The area of the circle should be between the 
+                            areas of the two squares.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Compute the area of square <m>BEFG</m>.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                           Area of BEFG is 50 sq units.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Compute the area of square <m>HIJK</m>.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            Area of HIJK is 100 sq units.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Compute the area of the circle. 
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            Area of the circle is <m>25\pi\approx 78.54</m>.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Do these measurements agree with your expectation?
+                        </p>
+                    </statement>
+                </task>
             </exercise>
             <exercise>
-                <statement>
+                <introduction>
                     <p>
                         <xref ref="fig-sq-oct-circle"/> shows a square and an octagon 
                         circumscribed by a single circle of radius 4. On the left, an 
                         eighth of the octagon is shown to illustrate its height of 
                         <m>\frac{4}{\sqrt{2}}</m> or approximately <m>2.828</m>.
-                        <ol>
-                            <li>
-                                <p>
-                                    What do you expect to be true about the areas of 
-                                    the square, the octagon, and the circle? Why?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Compute the area of the square.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Compute the area of the octagon.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Compute the area of the circle.
-                                </p>
-                            </li>
-                        </ol>
                     </p>
                     <figure xml:id="fig-sq-oct-circle">
                         <caption>Square and Octagon circumscribed by a circle of radius 4</caption>
@@ -1027,15 +1025,56 @@
                             </shortdescription>
                         </image>
                     </figure>
-                </statement>
-                <answer>
-                    <p>
-                        (a) area(square) &lt; area(circle) &lt; area (octagon),
-                        (b) area(square) = 32, 
-                        (c) <m>area(octagon)=8\cdot \frac{1}{2}\cdot 4\cdot 2\sqrt{2}=32\sqrt{2}\approx 45.25</m>, 
-                        (d) <m>area(circle)=16\pi\approx 50.2</m>.
-                    </p>
-                </answer>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            What do you expect to be true about the areas of 
+                            the square, the octagon, and the circle? Why?
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            area(square) &lt; area(circle) &lt; area (octagon),
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Compute the area of the square.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            area(square) = 32
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Compute the area of the octagon.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p> 
+                            <m>area(octagon)=8\cdot \frac{1}{2}\cdot 4\cdot 2\sqrt{2}=32\sqrt{2}\approx 45.25</m>
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Compute the area of the circle.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            <m>area(circle)=16\pi\approx 50.2</m>.
+                        </p>
+                    </answer>
+                </task>
             </exercise>
        </subexercises>
        <subexercises xml:id="writing-polygons-area">
@@ -1061,5 +1100,4 @@
         </exercise>
         </subexercises>
        </exercises>
-      
 </section>
