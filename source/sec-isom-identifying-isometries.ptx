@@ -121,7 +121,7 @@
         point</term> of the isometry. Fixed points may occur when the transformation 
         is not an isometry as well, so we will state the definition more generally.
       </p>
-      <definition xml:id="def-">
+      <definition xml:id="def-fixedpt">
         <statement>
           <p>
             If <m>f</m> is any transformation, then <m>P</m> is said to be a
@@ -135,7 +135,15 @@
       </definition>
       <exploration>
         <title>Determining the Fixed Points of an Isometry</title>
-        <task>
+        <introduction>
+          <p>
+            Figures for <xref ref="task-fixedpt-refl"/> and 
+            <xref ref="task-fixedpt-rotate"/> are in 
+            <xref ref="sec-isom-rotate-and-translate"/>. Click 
+            on the hyperlinks to open them in this page.
+          </p>
+        </introduction>
+        <task xml:id="task-fixedpt-refl">
           <statement>
             <p>
               In <xref ref="fig-illustrate-collineation"/>, which point(s) are not 
@@ -144,7 +152,7 @@
             </p>
           </statement>
         </task>
-        <task>
+        <task xml:id="task-fixedpt-rotate">
           <statement>
             <p>
               In <xref ref="rotated-triangle"/>, which point(s) are not moved by the 
@@ -156,14 +164,22 @@
         <task>
           <statement>
             <p>
-              In <xref ref="app-translate-wcoords"/>, which point(s) are not moved by the 
+              In <xref ref="fig-fixedpt-transl"/>, which point(s) are not moved by the 
               translation by vector <m>\overrightarrow{FG}</m>? Are there any
               unlabeled points that are fixed by this translation? Explain.
             </p>
+            <figure xml:id="fig-fixedpt-transl">
+              <caption>Translation by vector <m>\overrightarrow{FG}</m></caption>
+              <image source="fixedpt-transl">
+                <shortdescription>
+                  Concave pentagon ABCDE is translated to the 
+                  left and slightly down by vector FG.
+                </shortdescription>
+              </image>
+            </figure>
           </statement>
         </task>
       </exploration>
-      <conclusion>
         <p>
           Like the function <m>f(x)=x</m> you may have encountered in another
           course, there is a transformation of the plane that maps every point to 
@@ -173,7 +189,98 @@
           orientation since it leaves everything unchanged. 
           <idx><h>identity transformation</h></idx>
         </p>
-      </conclusion>
+        <exercise>
+          <task>
+            <introduction>
+              <p>
+                For each of the following, answer 
+                <ol>
+                  <li>
+                    <p>
+                      reflection
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      rotation
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      translation, or
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      none of the above. 
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </introduction>
+            <task>
+              <statement>
+                <!--<matches>
+                  <match order="4">
+                    <premise></premise>
+                    <response></response>
+                  </match>
+                  
+                </matches>-->
+                <p>
+                  An isomorphism with exactly one fixed point might be a ___.
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  rotation
+                </p>
+              </answer>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  An isomorphism with exactly two fixed points might be a ___.
+                </p>
+              </statement>
+              <hint>
+                <p>
+                  By exactly two, we mean that there are two and only two.
+                </p>
+              </hint>
+              <answer>
+                <p>
+                  None of the above.
+                </p>
+              </answer>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  An isomorphism with an infinite number of fixed points might be
+                  a ___.
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  reflection
+                </p>
+              </answer>
+              </task>
+              <task>
+              <statement>
+                <p>
+                  An isomorphism with no fixed points might be a ___.
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  translation
+                </p>
+              </answer>
+            </task>
+          </task>
+        </exercise>
     </subsection>
     <subsection>
       <title>Defining Objects of Isometries</title>
@@ -183,8 +290,9 @@
           or rotation, we need to specify which reflection, which 
           translation, or which rotation it is. We do this by identifying 
           the defining object(s) of the isometry. With a reflection, for example,
-          we should specify which line we are
-          reflecting across. <xref ref="table-def-obj-1"/> lists the defining 
+          we specify which line we are reflecting across. This line is unique;
+          no other line will give the same reflection. 
+          <xref ref="table-def-obj-1"/> lists the defining 
           objects for the three isometries we have studied. 
         </p>
         <table xml:id="table-def-obj-1">
@@ -215,10 +323,9 @@
         </table>
         <p>
             How do we find the mirror for a reflection? the vector for a translation? 
-            the center and angle for an rotation?
-            Although the defining objects determine how the 
-            isometry acts on all points in the plane, we need just a
-            few points <m>P</m> along with their images <m>P'</m> in order to find the defining 
+            the center and angle for an rotation? Although the defining objects 
+            determine how the isometry acts on all points in the plane, we need just 
+            a few points along with their images to find the defining 
             objects. As you work through <xref ref="expl-isom-finding-defining-objects"/>
             make note of these methods and add them to your toolbox.
         </p>
@@ -229,57 +336,67 @@
           <introduction>
             <p>
               For each isometry, we will observe some properties of the isometry 
-              and defining object(s) and then use these properties to locate 
+              and defining object(s) and then use these properties to determine 
               the defining object(s).
             </p>
           </introduction>
           <task xml:id="task-mirror">
             <title>Finding the Mirror of a Reflection</title>
-            <statement>
+            <introduction>
               <p>
-                <ol>
-                  <li>
-                    <p>
-                      Refer to <xref ref="reversing-orientation-fig"/> which shows 
-                      a reflection of <m>\Delta ABC</m> across line <m>m</m>, 
-                      how is the reflecting line related to each segment connecting a 
-                      vertex of the triangle to its image? 
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Click on the tools available in the top menu of the following 
-                      interactive. Then sketch the reflecting line for the isometry that 
-                      takes <m>\Delta ABC</m> to <m>\Delta A'B'C'</m> using the tools you 
-                      think would enable you to determine the exact reflecting line. Do not use  
-                      guess and check.
-                    </p>
-                    <figure xml:id="tech-to-find-mirror">
-                      <caption>
-                          An interactive GeoGebra applet for finding the mirror of a reflection.
-                      </caption>
-                    <interactive xml:id="app-find-mirror" platform="geogebra">
-                        <slate surface="geogebra" material="yza8zwbr"/>
-                    </interactive>
-                    </figure>
-                  </li>
-                  <li>
-                    <p>
-                    Use the <sq>Reflect About Line</sq> tool in the above app to check that 
-                    reflecting <m>\Delta ABC</m> across the line you created results in 
-                    a triangle that aligns perfectly with <m>\Delta A'B'C'</m>.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                    Write down instructions of how you can create the reflecting line given 
-                    a triangle <m>\Delta ABC</m> and its reflected image <m>\Delta A'B'C'</m>.
-                    The instructions should be detailed enough that others can follow them.
-                    </p>
-                  </li>
-                </ol>
+                Refer to <xref ref="reversing-orientation-fig"/> which shows 
+                a reflection of <m>\Delta ABC</m> across a hidden line <m>m</m>.
               </p>
-            </statement>
+              <figure xml:id="tech-to-find-mirror">
+                <caption>
+                    An interactive GeoGebra applet for finding the mirror of a reflection.
+                </caption>
+              <interactive xml:id="app-find-mirror" platform="geogebra">
+                  <slate surface="geogebra" material="yza8zwbr"/>
+              </interactive>
+              </figure>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                    How should the reflecting line <m>m</m> be related to each 
+                    segment <m>\overline{PP'}</m> connecting a vertex of the triangle 
+                    to its image?
+                </p>
+              </statement>
+            </task> 
+            <task>
+              <statement>
+                <p>
+                  Explore the tools available in the first seven menus of the  
+                  interactive in <xref ref="tech-to-find-mirror"/>. Then use some of 
+                  these tools to sketch the reflecting line 
+                  for the isometry that takes <m>\Delta ABC</m> to <m>\Delta A'B'C'</m>. 
+                  Do not use guess and check and do not use the <sq>Reflect About Line</sq> 
+                  tool! Instead choose GeoGebra tools from the other menus that will 
+                  construct the exact line. If you move any of the vertices <m>A</m>,
+                  <m>B</m>, or <m>C</m>, the reflecting line should move accordingly.
+                </p>
+              </statement>
+            </task> 
+            <task>
+              <statement>
+                <p>
+                  Use the <sq>Reflect About Line</sq> tool in the above app to check that 
+                  reflecting <m>\Delta ABC</m> across the line you created results in 
+                  a triangle that aligns perfectly with <m>\Delta A'B'C'</m>.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Write down instructions of how you can create the reflecting line given 
+                  any triangle <m>\Delta ABC</m> and its reflected image <m>\Delta A'B'C'</m>.
+                  The instructions should be detailed enough that others can follow them.
+                </p>
+              </statement>
+            </task>
           </task>
           <task xml:id="task-vector">
             <title>Finding the Vector for a Translation</title>
