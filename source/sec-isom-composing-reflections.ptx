@@ -5,7 +5,7 @@
 <subsection>
     <title>Compositions</title>
     <p>
-      Each of the transformations we have studied so far, reflections, translations, and rotations, 
+      Each of the transformations we have studied so far (reflections, translations, and rotations)
       performs an action on the points of the plane. In fact, a transformation is a <term>function</term>
       where the inputs and outputs are geometric objects instead of numbers. In algebra, you learned 
       about the <q>add three</q> function, written <m>f(x)=x+3</m>, and the <q>multiply by four
@@ -37,12 +37,20 @@
       <p>
         A <term>composition</term> of two transformations is a sequence of two transformations, 
         <m>s</m> and <m>t</m>, performed 
-        in succession. To find the image of a point <m>P</m> under the composition, <m>s</m> 
-        followed by <m>t</m>, written <m>t(s(P))</m>, one first finds the image <m>P'</m>
-        of <m>P</m> under the action of <m>s</m> and then finds the image <m>P''</m> of  
+        in succession. To find the image of a point <m>P</m> under the composition, 
+        <m>t(s(P))</m>, first find the image <m>P'</m>
+        of <m>P</m> under the action of <m>s</m>. Then find the image <m>P''</m> of  
         <m>P'</m> under <m>t</m>.
+      </p>
+      <p>
+        The process of performing the two processing in succession can be written
+        </p>
         <me>
-          P \overset{s}\rightarrow s(P)=P' \overset{t}\rightarrow t(P')=P''.
+          P \overset{s}\rightarrow s(P) \overset{t}\rightarrow t(s(P))
+        </me>
+        or more simply as
+        <me>
+          P \overset{s}\rightarrow P' \overset{t}\rightarrow P''.
         </me>
         Note that in the composition <m>P \rightarrow s(t(P))</m>, we perform the inside function 
         <m>t</m> before the outer function <m>s</m>.
@@ -58,78 +66,97 @@
     <exploration xml:id="explor-refl-two-parallels">
       <title>Reflecting across Parallel Lines</title>
       <task>
-      <statement>
-        <p>
-          First we explore what happens when you reflect an object first across line <m>g</m>
-          and then across line <m>h</m>  where <m>g</m> and <m>h</m> are parallel. 
-          <ol>
-            <li>
+        <introduction>
+          <p>
+            First we explore what happens when you reflect an object first across line <m>g</m>
+            and then across line <m>h</m>  where <m>g</m> and <m>h</m> are parallel.
+          </p>
+          <figure xml:id="app-reflect2parallels">
+            <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
+            <interactive xml:id="ref2paralinesapp"
+            platform="geogebra">
+            <slate surface="geogebra" material="vswhjpfa"/>
+            </interactive>
+          </figure>
+        </introduction>
+        <task>
+          <statement>
+            <p>
               Use the <sq>Reflect across Line</sq> tool to reflect pentomino <m>ABCDEF</m>
               across line <m>g</m> in <xref ref="app-reflect2parallels"/> to create pentomino 
               <m>A'B'C'D'E'F'</m>.
-            </li>
-            <li>
+            </p>
+          </statement>
+          <hint>
+            <p>  
+              To use the <sq>Reflect about Line</sq> tool, select the icon that shows 
+              two dots across a diagonal line from each other. Click the interior of 
+              the original figure and then click the mirror line.
+            </p>
+          </hint>
+        </task>
+        <task>
+          <statement>
+            <p>
               Then reflect the new pentomino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
-              pentomino <m>A''B''C''D''E''F''</m>. 
-            </li>
-          </ol>
-        </p>
-        <figure xml:id="app-reflect2parallels">
-          <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
-          <interactive xml:id="ref2paralinesapp"
-          platform="geogebra">
-          <slate surface="geogebra" material="vswhjpfa"/>
-          </interactive>
-      </figure>
-      </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
-            Refer to the original pentomino <m>ABCDEF</m> and its final image after reflecting across 
-            the two parallel lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2parallels"/>. 
-          </p>
-          <p>
-            For the remainder of this activity, we will only be interested in the 
-            original pentomino <m>ABCDEF</m> and the final image <m>A''B''C''D''E''F''</m>.
-            You may hide  
-            the intermediate objects so that it is easier to focus on <m>ABCDEF</m>
-            and <m>A''B''C''D''E''F''</m> by right-clicking on each object and then 
-            unchecking <sq>show object</sq>. Another option found by right-clicking is  
-            to change the color of the object.
-            Do not delete any intermediate construction as it will cause later 
-            constructions to also be deleted. If you delete accidentally, use the 
-            undo arrow on the right end of the toolbar to recover your work.
-            <ol>
-              <li>
+              pentomino <m>A''B''C''D''E''F''</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <introduction>
+            <p>
+              To help you focus on <m>ABCDEF</m> and <m>A''B''C''D''E''F''</m>,
+              hide the intermediate figure <m>A'B'C'D'E'F'</m> by selecting 
+              show/hide (blue dot and white dot) from the rightmost menu. Click 
+              on the interior of the pentomino so that it appears lighter and 
+              then click on any other tool on the menu to make it invisible. You
+              may choose to hide the vertices of this pentamino as well. 
+            </p>
+            <p>
+              Do not delete any intermediate construction as it will cause later 
+              constructions to also be deleted. If you delete accidentally, use the 
+              undo arrow on the right end of the toolbar to recover your work.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
                 What type of isometry takes <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Is it a 
                 reflection, a translation, a rotation, or something else?
-              </li>
-              <li>
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
                 Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots, \overline{FF''}</m> and 
                 measure the lengths <m>AA'', BB'', \ldots, FF''</m>. What do you notice?
-              </li>
-              <li>
-                <p>
-                  What do you notice about the angle between each segment, <m>\overline{AA''}, \overline{BB''}, 
-                    \ldots, \overline{FF''}</m>  and the original two lines <m>g</m> and <m>h</m>?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Measure the distance between the original pair of reflecting lines <m>g</m> and <m>h</m>. 
-                  Be sure to use a segment perpendicular to both lines to measure along. What do you notice?
-                </p>
-              </li>
-            </ol>
-          </p>
-        </statement>
-        <hint>
-          <p>
-            For a smaller font, measure the segment, not the distance between points.
-          </p>
-        </hint>
-      </task>
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What do you notice about the angle between each segment, <m>\overline{AA''}, \overline{BB''}, 
+                  \ldots, \overline{FF''}</m>  and the original two lines <m>g</m> and <m>h</m>?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Measure the distance between the original pair of reflecting lines <m>g</m> and <m>h</m>. 
+                Be sure to use a segment perpendicular to both lines to measure along. What do you notice?
+              </p>
+            </statement>
+            <hint>
+              <p>
+                For a smaller font, measure the segment, not the distance between points.
+              </p>
+            </hint>
+          </task>
+        </task>
       <task>
         <statement>
           <p>
@@ -138,9 +165,15 @@
             translation has a vector, and a rotation has a center 
             and angle.  Identify and draw in the specific line, vector, or center and angle for this 
             transformation.  How does this object relate to the parallel reflecting lines <m>g</m> and <m>h</m>?  
-            Verify your answer using the transformation tools in geogebra. 
+            Verify your answer using the appropriate transformation tool (Reflect across Line, Translate 
+            by Vector, or Rotate around Point) in geogebra. 
           </p>
         </statement>
+        <hint>
+          <p>
+            These transformation tools appear in the same menu in this applet.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -157,7 +190,7 @@
             platform="geogebra">
             <slate surface="geogebra" material="vswhjpfa"/>
             </interactive>
-        </figure>
+          </figure>
         </statement>
       </task>
     </exploration>
