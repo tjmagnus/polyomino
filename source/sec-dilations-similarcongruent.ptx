@@ -47,6 +47,139 @@
             </p>
           </statement>
         </principle>
+        <subsection xml:id="subsec-isom-ident-perpbis-find">
+          <title>Constructing Perpendicular Bisectors</title>
+          <p>
+            To find the mirror of a reflection or the center of a rotation, we 
+            needed to create perpendicular bisectors of segments. While GeoGebra 
+            does this when we are working with line segments online, how was this 
+            done prior to technology? How can we find perpendicular bisectors for 
+            lines on paper?
+          </p>
+          <p>
+            Actually, it is not difficult to find a perpendicular bisector when the 
+            segment is drawn on a sheet of paper. We simply fold the paper so that 
+            the two endpoints line up. The fold line will then be the perpendicular
+            bisector of the segment. Of course, we may need to darken the endpoints or 
+            hold the paper up to light in order to create the correct fold.
+          </p>
+          <exercise>
+            <statement>
+              <p>
+                Draw a segment on a sheet of paper and check that this process works!
+                Are the angles right angles? Does the fold pass through the midpoint of 
+                the segment?
+              </p>
+            </statement>
+          </exercise>
+          <p>
+            But geometry has been around longer than paper! How would the early geometers
+            create perpendicular bisectors without folding their tablets? They would use 
+            a compass and straight edge to construct geometrical objects. This geometrical 
+            compass allowed them to create circles and the straight edge was for connecting 
+            points with lines or segments. These tools had no markings on them; the compass
+            enabled lengths to be copied so that measurements were not needed.
+          </p>
+          <!--Add picture of compass and straight edge.-->
+          <p>
+            In <xref ref="expl-compass-perpbis"/>, we will use handheld and digital 
+            compasses and straight edges to construct the perpendicular bisector of 
+            a segment.
+          </p>
+          <exploration xml:id="expl-compass-perpbis">
+            <title>Constructing a Perpendicular Bisector</title>
+            <task>
+              <title>Using Ancient Tools</title>
+              <introduction>
+                <p>
+                  For this task, you will need a sheet of paper, a 
+                  pencil, a compass, and a straight edge tool. The paper
+                  may be in a notebook or in a pad.
+                </p>
+                <aside>
+                  <p>
+                    The instructions that follow assume that you are using a 
+                    compass with a pointed arm and a pencil arm. If you are using
+                    a flat compass, you will use your finger to hold the rotational 
+                    center (pivot) in place and use the slider to align and hold 
+                    the pencil.
+                  </p>
+                </aside>
+              </introduction>
+              <task>
+                <statement>
+                  <p>
+                    On the sheet of paper, draw two points about a fist's 
+                    distance apart and about a third of the way down the sheet. 
+                    Label the points as <m>A</m> and <m>B</m>. Use your straight 
+                    edge to draw segment <m>\overline{AB}</m>.  
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    To find the perpendicular bisector of <m>\overline{AB}</m>,
+                    we hold the pointed arm (pivot) of the compass firmly on 
+                    point <m>A</m> and adjust the compass so that the pencil is on 
+                    point <m>B</m>. Rotate the compass to draw a circle with center
+                    <m>A</m> that passes through point <m>B</m>. 
+                  </p>
+                  <aside>
+                    <p>
+                      Your circle may extend beyond the sheet of paper. That is  
+                      okay so long as you have drawn enough of the circle both above 
+                      and below where you anticipate the midpoint of the segment to be.
+                    </p>
+                  </aside>
+                </statement>
+                <hint>
+                  <p>
+                    Putting a piece of cardboard or additional sheets of paper
+                    underneath the sheet of paper will help hold the pivot in place
+                    as you rotate. Hold the pivot securely and let the pencil rotate
+                    lightly. You can even rotate the paper instead of the compass.
+                  </p>
+                </hint>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Move the pivot to <m>B</m> and hold it down securely. Check that
+                    the pencil is at point <m>A</m>. Then rotate to draw part of the 
+                    center of the circle with center <m>B</m> that passes through <m>A</m>.
+                    In particular, you should draw where this circle intersects the 
+                    first circle, both above and below the segment. If you did not draw 
+                    enough of the first circle, you should redraw it so that the
+                    intersections are visible.
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Call the intersections of the two circles you drew
+                    <m>C</m> and <m>D</m>. 
+                    Draw line <m>\overleftrightarrow{CD}</m>. Does it look like the 
+                    perpendicular bisector of <m>\overline{AB}</m>? If not, you 
+                    should redo the above tasks more carefully.
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What type of triangle is <m>\Delta ABC</m>?
+                    How do your circles ensure that <m>\Delta ABC</m> will be 
+                    this type of triangle?
+                  </p>
+                </statement>
+              </task>
+              
+            </task>
+            
+          </exploration>
+          </subsection>
         <!--<p>
           It is intuitively obvious that reflecting a point <m>A</m> across a 
           line <m>m</m> will result in a point <m>A'</m> where <m>m</m> is the 

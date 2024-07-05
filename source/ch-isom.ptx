@@ -5,7 +5,7 @@
     <introduction>
       <p>
         Are you aware that animated movies and computer graphics use a lot of mathematics
-        and geometry? The images are moved by moving key points to new locations on the screen and 
+        and geometry? The images are moved by moving key points to new locations on 
         the screen. The process of moving each point in the Euclidean plane to a new, possibly the same, point
         is called a <term>transformation</term>. 
         <idx><h>transformation</h></idx>
@@ -20,7 +20,7 @@
         the pentomino <m>ABCDEFGH</m>. 
       </p>
       <sidebyside widths="40% 40%">
-        <figure>
+        <figure xml:id="fig-rotated-pentomino">
           <caption>Rotation of pentomino <m>ABCDEFGH</m></caption>
           <image component="web" source="rotate-example.svg">
             <shortdescription>

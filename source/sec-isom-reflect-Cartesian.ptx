@@ -19,7 +19,7 @@
                 line <m>\ell</m>, called its <term>mirror</term> or <term>reflecting 
                 line</term>. Each point <m>P</m> not on the mirror is mapped by the 
                 reflection to a point <m>P'</m> on the opposite side 
-                of <m>\ell</m>>. The location of each <m>P'</m> is determined by the fact 
+                of <m>\ell</m>. The location of each <m>P'</m> is determined by the fact 
                 that <m>P'</m> would fall directly on the corresponding <m>P</m> when we 
                 fold the plane along the mirror line <m>\ell</m>. We call <m>P'</m> the 
                 <term>image</term> of <m>P</m> and call <m>P</m> the <term>preimage</term> of 
@@ -207,33 +207,41 @@
                     <xref ref="disc-prop-reflection-perp-bis"/> 
                     to sketch the reflecting line. Describe your technique.
                 </p>
-                <!--<image source="intro-reflect-findline"></image>-->
-                <figure xml:id="fig-findline">
-                    <caption>GeoGebra applet with reflected pentominos</caption>
-                    <interactive xml:id="GGapp-findline"
-                    platform="geogebra">
-                    <slate surface="geogebra" material="dfyarx94"/>
-                </interactive>
-                </figure>
             </statement>
+            <hint>
+                <p>
+                    What properties should the reflecting line have? 
+                    Browse the GeoGebra tools to find tool(s) that will
+                    draw this line.
+                </p>
+            </hint>
+            <!--<image source="intro-reflect-findline"></image>-->
+            <figure xml:id="fig-findline">
+                <caption>GeoGebra applet with reflected pentominos</caption>
+                <interactive xml:id="GGapp-findline"
+                platform="geogebra">
+                <slate surface="geogebra" material="dfyarx94"/>
+            </interactive>
+            </figure>
         </task>
 </exploration>
 </subsection>
 <subsection xml:id="subsec-Reflections-and-Coordinate-Geometry">
     <title>Reflections and Coordinates</title>
     <p>
+        Every point on the Cartesian plane can be identified by its coordinates
+        <m>(x,y)</m>. The coordinates <m>x</m> and <m>y</m> represent the 
+        location of the point as being <m>x</m>
+        units to the right and <m>y</m> units above the origin.
         In the next exploration, we observe how we can use the coordinates 
         of a point <m>P</m> to determine the coordinates of its image <m>P'</m>
-        under a reflection across the <m>x</m>- or <m>y</m>-coordinate axes.
+        under a reflection across the <m>x</m>- or <m>y</m>-coordinate axes.  
     </p>
 <exploration xml:id="expl-reflect-across-xyaxes">
     <title>Reflecting Across the Coordinate Axes</title>
     <introduction>
         <p>
-            Every point on the Cartesian plane can be identified by its coordinates
-            <m>(x,y)</m>  where  <m>x</m>  and   <m>y</m>  represent the location of  
-            the point as being <m>x</m>
-            units to the right and <m>y</m> units above the origin.  Use a copy of the 
+            Use a copy of the 
             graph below to complete the following tasks. You will need to be able to 
             draw in four colors as described.
         </p>
@@ -333,7 +341,7 @@
 </subsection>
 <subsection>
     <title>
-        Key Ideas regarding Reflections
+        Key Ideas Regarding Reflections
     </title>
     <p>
         In this section, we have drawn reflections by hand using a coordinate grid 
@@ -353,8 +361,9 @@
                 plane which maps each point <m>P</m> in the plane by flipping it over
                 line <m>\ell</m>. The reflecting line <m>\ell</m> is called the <term>mirror</term>
                 or <term>axis</term>. The <term>image</term> of a point <m>P</m> under a 
-                reflection (or any other transformation) is the point <m>P'</m> that the 
-                transformation sends <m>P</m> to; in this case, the reflection of point <m>P</m>.  
+                reflection (or any other transformation) is the point <m>P'</m> to which the 
+                transformation sends <m>P</m>. In this case of a reflection, <m>P'</m>
+                is the reflection of point <m>P</m>.  
             </p>
         </statement>
     </definition>
@@ -390,7 +399,7 @@
     </p>
 </subsection>
 <subsection xml:id="subsec-interactives-ref-Cartesian">
-    <title>Optional Geogebra Interactives</title>
+    <title>Optional GeoGebra Interactives</title>
     <p>
         The GeoGebra interactive <xref ref="fig-GGreflectP"/>
         may be used instead of 

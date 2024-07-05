@@ -8,18 +8,18 @@
         <p>
                 As we continue to build on our knowledge of isometries, 
                 it is wise to summarize what we know so far. 
-                We know that a transformation of a plane is a mapping or function 
-                that sends each point <m>P</m> on the
+                We know that a transformation of a plane is a mapping or function
+                on points. A transformation sends each point <m>P</m> on the
                 plane to a unique point <m>P'</m> called its image under the 
-                transformation. Some transformations are 
-                <term>collineations</term>, meaning that if a set of 
-                points all lie on the same line, then their images will also lie on 
+                transformation. Some transformations are <term>collineations</term>,
+                meaning that if a set of points all lie on the same line, then their images will also lie on 
                 a single line. 
                 We have observed that some collineations preserve shape and angle 
                 measure and that some collineations 
                 that preserve angle measure will also preserve distance. 
-                The transformations that preserve all of these, 
-                collinearity, angle measure, and distance, are called <term>isometries</term>.
+                The transformations that preserve all of these properties 
+                (collinearity, angle measure, and distance) are called 
+                <term>isometries</term>.
             </p>
    <!-- </introduction>-->
     <exploration>
@@ -32,9 +32,8 @@
           <ol>
             <li>
               <p>
-                Write down three things you know about transformations,
-                especially the three isometries we have looked at, namely 
-                reflections, translations, and rotations.
+                Write down three things you know about transformations. In particular,
+                what do you know about reflections, translations, and rotations?
               </p>
             </li>
             <li>
@@ -71,8 +70,8 @@
         there will be an isometry that maps one onto the other. 
         Our goal in this section and next will be to identify the type of isometry 
         that takes one figure onto a congruent copy. Is it a reflection, a translation, 
-        a rotation, or something else? Then having determined the type can we specify 
-        the exact action that performs the movement. A good place to start is to 
+        a rotation, or something else? Then having determined the type, can we specify 
+        the exact action that performs the movement? A good place to start is to 
         identify whether the isometry maintains orientation. 
     </p>
     <exploration xml:id="chkpt-orient-distinguish">
@@ -94,7 +93,7 @@
                 perfectly with its image <m>\Delta A'B'C'</m>. Which isometries--reflections, 
                 translations, and rotations--studied so far will keep <m>\Delta ABC</m> 
                 beach side up? Which will turn <m>\Delta ABC</m> over so that it is 
-                cardboard side up? What property is this related to?
+                cardboard side up? What property does this represent?
               </p>
             </statement>
           </task>
@@ -106,7 +105,7 @@
                 given a picture of two congruent triangles <m>\Delta ABC</m> and <m>\Delta A'B'C'</m> 
                 where the orientation is the same. How do you know whether a translation 
                 takes <m>\Delta ABC</m> to <m>\Delta A'B'C'</m>? How do you know whether 
-                the isometry is a rotation? Could it be both? or neither?
+                the isometry is a rotation? Could it be both? Or could it be neither?
               </p>
             </statement>
           </task>
@@ -285,9 +284,9 @@
     <subsection>
       <title>Defining Objects of Isometries</title>
         <p>
-          Once we determine whether the isometry mapping one 
+          First we determine whether the isometry mapping one 
           figure onto a congruent image is a reflection, translation,
-          or rotation, we need to specify which reflection, which 
+          or rotation. We then need to specify which reflection, which 
           translation, or which rotation it is. We do this by identifying 
           the defining object(s) of the isometry. With a reflection, for example,
           we specify which line we are reflecting across. This line is unique;
@@ -322,7 +321,7 @@
             </tabular>
         </table>
         <p>
-            How do we find the mirror for a reflection? the vector for a translation? 
+            How do we find the mirror for a reflection, the vector for a translation, or
             the center and angle for an rotation? Although the defining objects 
             determine how the isometry acts on all points in the plane, we need just 
             a few points along with their images to find the defining 
@@ -364,8 +363,14 @@
                     to its image?
                 </p>
               </statement>
+              <hint>
+                <p>
+                  Does <m>m</m> intersect <m>\overline{PP'}</m>? If so, where and what 
+                  angle is formed?
+                </p>
+              </hint>
             </task> 
-            <task>
+            <task xml:id="task-draw-mirror-Gg">
               <statement>
                 <p>
                   Explore the tools available in the first seven menus of the  
@@ -378,15 +383,32 @@
                   <m>B</m>, or <m>C</m>, the reflecting line should move accordingly.
                 </p>
               </statement>
+              <hint>
+                <p>
+                  The tools across the top of this interactive are select, intersect,
+                  draw segment, draw line, draw perpendicular (draw parallel is also under this
+                  tab), draw perpendicular bisector, reflect across line, write text,
+                  and move graphics (zoom in, zoom out, and hide labels are also under this
+                  tab).
+                </p>
+              </hint>
             </task> 
             <task>
               <statement>
                 <p>
-                  Use the <sq>Reflect About Line</sq> tool in the above app to check that 
+                  Use the <sq>Reflect about Line</sq> tool in the above app to check that 
                   reflecting <m>\Delta ABC</m> across the line you created results in 
                   a triangle that aligns perfectly with <m>\Delta A'B'C'</m>.
                 </p>
               </statement>
+              <aside>
+                <p>
+                  To use the <sq>Reflect about Line</sq> tool, select the icon that shows 
+                  two dots across a diagonal line from each other. Click the interior of 
+                  the original figure <m>\Delta ABC</m> and then click the mirror line
+                  <m>m</m> that you created in <xref ref="task-draw-mirror-Gg"/>.
+                </p>
+              </aside>
             </task>
             <task>
               <statement>
@@ -566,16 +588,29 @@
             <task>
               <statement>
                 <p>
-                  Finally, use the Rotate around Point tool to check your work.
+                  Finally, use the <sq>Rotate around Point</sq> tool to check your work.
                 </p>
               </statement>
+              <hint>
+                <p>
+                  The <sq>Rotate around Point</sq> tool has the icon showing the
+                  sweep of an angle and three points but no sides. I have placed in on the 
+                  main ribbon, but it is usually found in the same menu as the <sq>Reflect
+                  across Line</sq> tool. After selecting the <sq>Rotate around Point</sq> tool,
+                  click on the interior of the figure to be rotated and the point that is the 
+                  center. You will be prompted to enter an angle measure.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
                 <p>
                   Write instructions to yourself and others on how to find the center and 
-                  angle of a rotation when you are given a picture of a figure and its 
-                  rotated image and they do not share a vertex.
+                  angle of a rotation. Base your instructions on the assumption that a 
+                  picture of a figure and its rotated image is provided. Be sure that your 
+                  argument addresses the situation in Make your argument 
+                  general by including the possibility that no vertex of the figure is 
+                  mapped to itself.
                 </p>
               </statement>
             </task>
@@ -588,13 +623,12 @@
       </title>
       <p>
         In <xref ref="table-def-obj-1"/>, the definining objects for each transformation 
-        were given. We now add new columns to this table. In the column, 
-        <term>Orientation</term>, write either <sq>changes</sq>
-        or <sq>maintains</sq> for the entries. The column, <term>Fixed Points
-        </term> is where you will identify the point(s), if any, that are fixed 
-        by the transformation, and in the column
-        <term>Properties of Object(s)</term>, is 
-        where you should write the properties that can assist you in locating the
+        were given. We now add new columns to this table. In the column 
+        <term>Orientation</term>, write either <sq>reverses</sq>
+        or <sq>maintains</sq> for the entries. The column <term>Fixed Points
+        </term>, is where you will identify the point(s), if any, that are fixed 
+        by the transformation. In the column <term>Properties of Object(s)</term>,
+        you should write the properties that can assist in locating the
         defining object(s) for each type of transformation.  
       </p>
       <!--Is the next table premature?-->
@@ -666,7 +700,143 @@
       </statement>
     </exercise>
   </subsection>
-    <!--Add a subsection (Extended Concepts?) on using folding and then ruler/compass to create perpendicular 
+  <!--Moved to sec-dilations-similarcongruent. May instead create section
+  isom-intro-construct-congruence.
+  <subsection xml:id="subsec-isom-ident-perpbis-find">
+    <title>Constructing Perpendicular Bisectors</title>
+    <p>
+      To find the mirror of a reflection or the center of a rotation, we 
+      needed to create perpendicular bisectors of segments. While GeoGebra 
+      does this when we are working with line segments online, how was this 
+      done prior to technology? How can we find perpendicular bisectors for 
+      lines on paper?
+    </p>
+    <p>
+      Actually, it is not difficult to find a perpendicular bisector when the 
+      segment is drawn on a sheet of paper. We simply fold the paper so that 
+      the two endpoints line up. The fold line will then be the perpendicular
+      bisector of the segment. Of course, we may need to darken the endpoints or 
+      hold the paper up to light in order to create the correct fold.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Draw a segment on a sheet of paper and check that this process works!
+          Are the angles right angles? Does the fold pass through the midpoint of 
+          the segment?
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      But geometry has been around longer than paper! How would the early geometers
+      create perpendicular bisectors without folding their tablets? They would use 
+      a compass and straight edge to construct geometrical objects. This geometrical 
+      compass allowed them to create circles and the straight edge was for connecting 
+      points with lines or segments. These tools had no markings on them; the compass
+      enabled lengths to be copied so that measurements were not needed.
+    </p>
+    Add picture of compass and straight edge.
+    <p>
+      In <xref ref="expl-compass-perpbis"/>, we will use handheld and digital 
+      compasses and straight edges to construct the perpendicular bisector of 
+      a segment.
+    </p>
+    <exploration xml:id="expl-compass-perpbis">
+      <title>Constructing a Perpendicular Bisector</title>
+      <task>
+        <title>Using Ancient Tools</title>
+        <introduction>
+          <p>
+            For this task, you will need a sheet of paper, a 
+            pencil, a compass, and a straight edge tool. The paper
+            may be in a notebook or in a pad.
+          </p>
+          <aside>
+            <p>
+              The instructions that follow assume that you are using a 
+              compass with a pointed arm and a pencil arm. If you are using
+              a flat compass, you will use your finger to hold the rotational 
+              center (pivot) in place and use the slider to align and hold 
+              the pencil.
+            </p>
+          </aside>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              On the sheet of paper, draw two points about a fist's 
+              distance apart and about a third of the way down the sheet. 
+              Label the points as <m>A</m> and <m>B</m>. Use your straight 
+              edge to draw segment <m>\overline{AB}</m>.  
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              To find the perpendicular bisector of <m>\overline{AB}</m>,
+              we hold the pointed arm (pivot) of the compass firmly on 
+              point <m>A</m> and adjust the compass so that the pencil is on 
+              point <m>B</m>. Rotate the compass to draw a circle with center
+              <m>A</m> that passes through point <m>B</m>. 
+            </p>
+            <aside>
+              <p>
+                Your circle may extend beyond the sheet of paper. That is  
+                okay so long as you have drawn enough of the circle both above 
+                and below where you anticipate the midpoint of the segment to be.
+              </p>
+            </aside>
+          </statement>
+          <hint>
+            <p>
+              Putting a piece of cardboard or additional sheets of paper
+              underneath the sheet of paper will help hold the pivot in place
+              as you rotate. Hold the pivot securely and let the pencil rotate
+              lightly. You can even rotate the paper instead of the compass.
+            </p>
+          </hint>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Move the pivot to <m>B</m> and hold it down securely. Check that
+              the pencil is at point <m>A</m>. Then rotate to draw part of the 
+              center of the circle with center <m>B</m> that passes through <m>A</m>.
+              In particular, you should draw where this circle intersects the 
+              first circle, both above and below the segment. If you did not draw 
+              enough of the first circle, you should redraw it so that the
+              intersections are visible.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Call the intersections of the two circles you drew
+              <m>C</m> and <m>D</m>. 
+              Draw line <m>\overleftrightarrow{CD}</m>. Does it look like the 
+              perpendicular bisector of <m>\overline{AB}</m>? If not, you 
+              should redo the above tasks more carefully.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What type of triangle is <m>\Delta ABC</m>?
+              How do your circles ensure that <m>\Delta ABC</m> will be 
+              this type of triangle?
+            </p>
+          </statement>
+        </task>
+        
+      </task>
+      
+    </exploration>
+    
+  </subsection>
+    Add a subsection (Extended Concepts?) on using folding and then ruler/compass to create perpendicular 
     bisectors. Historical perspective.-->
   <exercises xml:id="Exercises-isom-ident">
     <title>Exercises</title>

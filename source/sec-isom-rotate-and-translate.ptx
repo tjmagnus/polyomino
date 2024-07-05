@@ -44,10 +44,10 @@
         </p>
         <aside>
             <p>
-                Many textbooks use <term>orientation-reversing</term> and <term>
-                orientation-preserving</term>. Because of similarity in the words,
-                reversing and preserving, I have chosen to use the term 
-                orientation-maintaining instead of orientation-preserving.
+                Many textbooks use the term <term> orientation-preserving</term>
+                instead of orientation-maintaining. Because of the oral similarity in 
+                the words, reversing and preserving, I have chosen to use the term 
+                orientation-maintaining instead of orientation-preserving in this textbook.
             </p>
         </aside>
         <definition xml:id="def-orientation">
@@ -60,10 +60,8 @@
             <statement>
                 <p>
                     A geometrical transformation is said to <term>maintain orientation</term> if  
-                    when it acts on any polygon the order of the vertices of the 
-                    resulting image, read in clockwise order, are the same as that of  
-                    the original figure. Another term for orientation-maintaining is 
-                    <term>orientation-preserving</term>.
+                    the order of the vertices of any image when read clockwise 
+                    are the same as that of the original figure. 
                 </p>
                 <p>
                     On the other hand, if the resulting images have the vertices in 
@@ -72,12 +70,44 @@
                 </p>
             </statement>
         </definition>
+        <exercise>
+            <introduction>
+                <p>
+                    Determine whether orientation is maintained or reversed in 
+                    each illustrated transformation:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The rotation in <xref ref="fig-transform-pent-examples"/>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Maintained.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The reflected dilation in <xref ref="illus-nonisometry"/>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Reversed.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
   </subsection>
   <subsection xml:id="subsec-isom-RAT-collinearity">
     <title>Collinearities and Isomorphisms</title>
     <p>
         We observed that although reflections reverse orientation, they <term>preserve</term>
-        distance, angle measure, and shape; any object and its image under a 
+        distance, angle measure, and shape. Any object and its image under a 
         reflection are congruent. In <xref ref="fig-illustrate-collineation"/>, 
         we see the action of the reflection across line <m>\overleftrightarrow{HI}</m>
         not just on triangle <m>\Delta ABC</m>, but on other points on the plane.
@@ -480,7 +510,7 @@
         </definition>
         <p>
             Note that we also need to specify the direction of the spin. If the direction of a rotation
-            is not specified, we will assume that it spins in the counter-clockwise direction. To indicate
+            is not specified, we will assume that it spins in the counterclockwise direction. To indicate
             a clockwise rotation, the angle may be given as a negative number.
         </p>
     <!--</introduction>-->
@@ -594,8 +624,8 @@
         A rotation is specified by two pieces of information, namely its center and the angle of rotation.  
         The center is the one point which does not move. Each point <m>P</m>,
         except for the center, is moved to a new point <m>P'</m>. The distance 
-        between the center and each point does not change under the rotation, 
-        but the direction from the center to each point is changed as dictated 
+        between the center and each point does not change under the rotation. 
+        However, the direction from the center to each point is changed as dictated 
         by the rotation angle.
     </p>
     <p>
@@ -604,8 +634,8 @@
         A positive rotation moves each point <m>P</m> to its image <m>P’</m> in the 
         counterclockwise direction. On the other hand, a rotational angle with 
         negative degree measure would move the image 
-        clockwise around the center. Rotational angles may be greater than 180 degrees or negative; 
-        in fact, any number of degrees is allowed!
+        clockwise around the center. Rotational angles may be greater than 180 degrees or negative. 
+        In fact, any number of degrees is allowed!
     </p>
     <exercise>
         <title>Check your understanding</title>
