@@ -44,14 +44,17 @@
       </p>
       <p>
         The process of performing the two processing in succession can be written
-        </p>
-        <me>
+      </p>
+      <me>
           P \overset{s}\rightarrow s(P) \overset{t}\rightarrow t(s(P))
-        </me>
+      </me>
+      <p>
         or more simply as
-        <me>
+      </p>
+      <me>
           P \overset{s}\rightarrow P' \overset{t}\rightarrow P''.
-        </me>
+      </me>
+      <p>
         Note that in the composition <m>P \rightarrow s(t(P))</m>, we perform the inside function 
         <m>t</m> before the outer function <m>s</m>.
       </p>
@@ -157,41 +160,42 @@
             </hint>
           </task>
         </task>
-      <task>
-        <statement>
-          <p>
-            Each type of isometry has a special object or two that helps to determine it precisely.  
-            As shown in <xref ref="table-def-obj-2"/>, a reflection has a reflecting line, a 
-            translation has a vector, and a rotation has a center 
-            and angle.  Identify and draw in the specific line, vector, or center and angle for this 
-            transformation.  How does this object relate to the parallel reflecting lines <m>g</m> and <m>h</m>?  
-            Verify your answer using the appropriate transformation tool (Reflect across Line, Translate 
-            by Vector, or Rotate around Point) in geogebra. 
-          </p>
-        </statement>
-        <hint>
-          <p>
-            These transformation tools appear in the same menu in this applet.
-          </p>
-        </hint>
-      </task>
-      <task>
-        <statement>
-          <p>
-            A second copy of the GeoGebra app for reflecting across parallel lines is provided 
-            in <xref ref="app-reflect2parallels-again"/>. This time reflect <m>ABCDEF</m> first 
-            across line <m>h</m> and then reflect the result across line <m>g</m>. How does the 
-            result compare to what happened when we reflected across g before h? Where is 
-            <m>A''B''C''D''E''F''</m>? Have any of the distances or angles changed?
-          </p>
-          <figure xml:id="app-reflect2parallels-again">
-            <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
-            <interactive xml:id="ref2paralinesapp2"
-            platform="geogebra">
-            <slate surface="geogebra" material="vswhjpfa"/>
-            </interactive>
-          </figure>
-        </statement>
+        <task>
+          <statement>
+            <p>
+              Each type of isometry has a special object or two that helps to determine it precisely.  
+              As shown in <xref ref="table-def-obj-2"/>, a reflection has a reflecting line, a 
+              translation has a vector, and a rotation has a center 
+              and angle.  Identify and draw in the specific line, vector, or center and angle for this 
+              transformation.  How does this object relate to the parallel reflecting lines <m>g</m> and <m>h</m>?  
+              Verify your answer using the appropriate transformation tool (Reflect across Line, Translate 
+              by Vector, or Rotate around Point) in geogebra. 
+            </p>
+          </statement>
+          <hint>
+            <p>
+              These transformation tools appear in the same menu in this applet.
+            </p>
+          </hint>
+        </task>
+        <task>
+          <statement>
+            <p>
+              A second copy of the GeoGebra app for reflecting across parallel lines is provided 
+              in <xref ref="app-reflect2parallels-again"/>. This time reflect <m>ABCDEF</m> first 
+              across line <m>h</m> and then reflect the result across line <m>g</m>. How does the 
+              result compare to what happened when we reflected across g before h? Where is 
+              <m>A''B''C''D''E''F''</m>? Have any of the distances or angles changed?
+            </p>
+            <figure xml:id="app-reflect2parallels-again">
+              <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
+              <interactive xml:id="ref2paralinesapp2"
+              platform="geogebra">
+              <slate surface="geogebra" material="vswhjpfa"/>
+              </interactive>
+            </figure>
+          </statement>
+        </task>
       </task>
     </exploration>
     <p>
@@ -200,24 +204,13 @@
     </p>
     <exploration xml:id="explor-refl-two-intersecting">
       <title>
-        Reflecting across intersecting lines
+        Reflecting Across Intersecting Lines
       </title>
           <task>
-            <statement>
+            <introduction>
               <p>
                 Now we explore what happens when you reflect an object first across line <m>g</m>
                 and then across line <m>h</m>  where <m>g</m> and <m>h</m> intersect. 
-                <ol>
-                  <li>
-                    Use the <sq>reflect across line</sq> tool to reflect pentomino <m>ABCDEF</m>
-                    across line <m>g</m> in <xref ref="app-reflect2intersect"/> to create pentomino 
-                    <m>A'B'C'D'E'F'</m>.
-                  </li>
-                  <li>
-                    Then reflect the new pentomino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
-                    pentomino <m>A''B''C''D''E''F''</m>. 
-                  </li>
-                </ol>
               </p>
               <figure xml:id="app-reflect2intersect">
                 <caption>An interactive Geogebra applet for reflecting across intersecting lines.</caption>
@@ -226,68 +219,99 @@
                   <slate surface="geogebra" material="sNvnFAjC"/>
                 </interactive>
               </figure>
-            </statement>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  Use the <sq>reflect across line</sq> tool to reflect pentomino <m>ABCDEF</m>
+                  across line <m>g</m> in <xref ref="app-reflect2intersect"/> to create pentomino 
+                  <m>A'B'C'D'E'F'</m>.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Then reflect the new pentomino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
+                  pentomino <m>A''B''C''D''E''F''</m>.
+                </p>
+              </statement>
+            </task>
           </task>
           <task>
-            <statement>
+            <introduction>
               <p>
                 Refer to the original pentomino <m>ABCDEF</m> and its image <m>A''B''C''D''E''F''</m> 
                 after reflecting across 
                 intersecting lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2intersect"/>. You may
                 want to hide the intermediate figure <m>A'B'C'D'E'F'</m>.
-                <ol>
-                    <li>
-                      What type of isometry takes <m>ABCDEF</m> to the final image 
-                      <m>A''B''C''D''E''F''</m>? Is it a 
-                      reflection, a translation, a rotation, or something else?
-                    </li>
-                    <li>
-                      <p>
-                        Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots,
-                        \overline{FF''}</m>.  What, if anything, do you notice?
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Create the perpendicular bisector of each segment <m>\overline{AA''}, 
-                          \overline{BB''}, \ldots, \overline{FF''}</m>. What do you notice about 
-                          the perpendicular bisectors?
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Each type of translation has a special object or two that helps 
-                        to determine it precisely. Identify and draw in the specific line, 
-                        vector, or center and angle for this transformation, referring to 
-                        <xref ref="table-def-obj-2"/> as needed.  
-                        How does the object(s) relate to the intersecting reflecting lines  
-                        <m>g</m> and <m>h</m>?  
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Create point <m>M</m> where the original two lines intersect. What 
-                        is the measure of <m>\angle A''MA</m>? <m>\angle B''MB</m>?
-                        <m>\angle C''MC</m>? <m>\angle D''MD</m>? <m>\angle E''ME</m>?
-                        <m>\angle F''MF</m>? What does this tell you about the transformation
-                        taking <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>?
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Measure the angles created by the original pair of intersecting lines 
-                        <m>g</m> and <m>h</m>. What do you notice?
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Measure the lengths <m>AM</m>, <m>A''M</m>, <m>BM</m>, <m>B''M</m>, 
-                        etc. What do you notice?
-                      </p>
-                    </li>
-                </ol>
               </p>
-            </statement>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  What type of isometry takes <m>ABCDEF</m> to the final image 
+                  <m>A''B''C''D''E''F''</m>? Is it a reflection, a translation, 
+                  a rotation, or something else?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots,
+                  \overline{FF''}</m>.  What, if anything, do you notice?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Create the perpendicular bisector of each segment <m>\overline{AA''}, 
+                  \overline{BB''}, \ldots, \overline{FF''}</m>. What do you notice about 
+                  the perpendicular bisectors?
+                </p>
+              </statement>
+            </task>          
+            <task>
+              <statement>
+                <p>
+                  Each type of translation has a special object or two that helps 
+                  to determine it precisely. Identify and draw in the specific line, 
+                  vector, or center and angle for this transformation, referring to 
+                  <xref ref="table-def-obj-2"/> as needed.  
+                  How does the object(s) relate to the intersecting reflecting lines  
+                  <m>g</m> and <m>h</m>?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Create point <m>M</m> where the original two lines intersect. What 
+                  is the measure of <m>\angle A''MA</m>? <m>\angle B''MB</m>?
+                  <m>\angle C''MC</m>? <m>\angle D''MD</m>? <m>\angle E''ME</m>?
+                  <m>\angle F''MF</m>? What does this tell you about the transformation
+                  taking <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Measure the angles created by the original pair of intersecting lines 
+                  <m>g</m> and <m>h</m>. What do you notice?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Measure the lengths <m>AM</m>, <m>A''M</m>, <m>BM</m>, <m>B''M</m>, 
+                  etc. What do you notice?
+                </p>
+              </statement>
+            </task>
           </task>
           <task>
             <statement>
@@ -298,7 +322,6 @@
                 result compare to what happened when we reflected across g before h? Where is 
                 <m>A''B''C''D''E''F''</m>? Have any of the lengths or angles changed?
               </p>
-
             <figure xml:id="app-reflect2intersect-again">
               <caption>An interactive Geogebra applet for reflecting across intersecting 
                 lines.</caption>
