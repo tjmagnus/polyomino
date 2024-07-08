@@ -24,7 +24,7 @@
                         </li>
                         <li>
                             The arrangement of polygons at every vertex of the
-                            polyhedron are the same.
+                            polyhedron is the same.
                         </li>
                     </ul>
                 </p>
@@ -67,7 +67,7 @@
                         Check that each visible vertex has the arrangement 4.6.10. 
                     </p>
                     <p>
-                        Three polygons meet at each vertex of the great rhombicosi dodecahedron. 
+                        Three polygons meet at each vertex of the great rhombicosidodecahedron. 
                         What is the sum of three angle measures at any one vertex?
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
@@ -453,7 +453,7 @@
             type of prism or pyramid by shape of its base so that the 
             prism with a <m>4.4.n</m>-vertex configuration is called an 
             <term><m>n</m>-gonal prism</term>. Of course, we  
-            can set a polyhedron on any of its faces. Sometimes the base(s) will be appear 
+            can set a polyhedron on any of its faces. Sometimes the base(s) will appear 
             to be at the ends of the solid rather than at the top and bottom.
             <idx><h>base</h><h>prism</h></idx>
             <idx><h>summit</h><h>prism</h></idx>
@@ -473,54 +473,63 @@
         <subexercises>
             <title>Building Our Toolbox</title>
             <exercise>
-                <statement>
+                <title>Understanding the Definition of Semiregular Polyhedron</title>
+                <introduction>
                     <p>
                         State the definition of semiregular polyhedron in 
                         your own words.
-                        <ol>
-                            <li>
-                                <p>
-                                    Of the three criteria in <xref ref="def-semiregplyhdron"/>,
-                                    which one rules out a cube?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Of the three criteria in <xref ref="def-semiregplyhdron"/>,
-                                    which one explains why a <m>3\times 4\times 5</m> rectangular 
-                                    prism is not a semiregular polyhedron?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Could a pyramid with a square base be a semiregular 
-                                    polyhedron? Explain.
-                                </p>
-                            </li>
-                        </ol>
                     </p>
-                </statement>
+                </introduction>>
+                <task>
+                    <statement>
+                        <p>
+                            Of the three criteria in <xref ref="def-semiregplyhdron"/>,
+                            which one rules out a cube?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Of the three criteria in <xref ref="def-semiregplyhdron"/>,
+                            which one explains why a <m>3\times 4\times 5</m> rectangular 
+                            prism (box) is not a semiregular polyhedron?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Could a pyramid with a square base be a semiregular 
+                            polyhedron? Explain.
+                        </p>
+                    </statement>
+                </task>
             </exercise>
             <exercise>
-                <statement>
-                    <p>
-                        You have calculated <m>F+V-E</m> for the five regular 
-                        polyhedra, several pyramids, and several prisms. What 
-                        do you notice? 
-                    </p>
-                    <aside>
+                <title>Observing Euler's Identity</title>
+                <task>
+                    <statement>
                         <p>
-                            This identity, which holds for all polyhedra, is called <term>Euler's Identity</term>
-                            after the mathematician Leonhard Euler (1707-1783) although Francesco 
-                            Maurolico stated the equation for regular polyhedra in 1537. Euler was 
-                            a prolific mathematician who worked in many different areas of mathematics. 
-                            In fact, if you search for Euler's identity, you will find other identities also 
-                            named for him, notably the complex number identity, 
-                            <m>e^{i\theta}=cos \theta +i sin \theta</m>, or its special case,
-                            <m>e^{i\pi}+1=0</m>.
+                            You have calculated <m>F+V-E</m> for the five regular 
+                            polyhedra, several pyramids, and several prisms. What 
+                            do you notice? 
                         </p>
-                    </aside>
-                </statement>
+                        <aside>
+                            <p>
+                                This identity, which holds for all polyhedra, is called <term>Euler's Identity</term>
+                                after the mathematician Leonhard Euler (1707-1783) although Francesco 
+                                Maurolico stated the equation for regular polyhedra in 1537. Euler was 
+                                a prolific mathematician who worked in many different areas of mathematics. 
+                                In fact, if you search for Euler's identity, you will find other identities also 
+                                named for him, notably the complex number identity, 
+                                <m>e^{i\theta}=cos \theta +i sin \theta</m>, or its special case,
+                                <m>e^{i\pi}+1=0</m>.
+                            </p>
+                            <idx><h>Euler's Identity for Polyhedra</h></idx>
+                        </aside>
+                    </statement>
+                </task>
             </exercise>
         </subexercises>
         <subexercises> 
@@ -646,7 +655,7 @@
               <statement>
                 <p>
                   When three-dimensional objects are described verbally or illustrated 
-                  in a two-dimensional space, it can be difficult to visualize. Discuss 
+                  in a two-dimensional space, they can be difficult to visualize. Discuss 
                   the challenges you have encountered with visualizing these solids and 
                   the techniques you have used to overcome these challenges.  
                 </p>

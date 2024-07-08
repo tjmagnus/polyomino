@@ -193,6 +193,12 @@
               </interactive>
             </figure>
           </statement>
+          <hint>
+            <p>
+              The <sq>Show image</sq> checkbox reveals the image of the first composition,
+              not this one.
+            </p>
+          </hint>
         </task>
       </task>
     </exploration>
@@ -233,6 +239,9 @@
                   Then reflect the new pentomino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
                   pentomino <m>A''B''C''D''E''F''</m>.
                 </p>
+                <p>
+                  Now check the <sq>Show image</sq> box to check your work.
+                </p>
               </statement>
             </task>
           </task>
@@ -240,9 +249,11 @@
             <introduction>
               <p>
                 Refer to the original pentomino <m>ABCDEF</m> and its image <m>A''B''C''D''E''F''</m> 
-                after reflecting across 
-                intersecting lines <m>g</m> and <m>h</m> in <xref ref="app-reflect2intersect"/>. You may
-                want to hide the intermediate figure <m>A'B'C'D'E'F'</m>.
+                created by reflecting across 
+                intersecting lines <m>g</m> and <m>h</m> in 
+                <xref ref="app-reflect2intersect"/>. You may
+                choose to hide <m>A'B'C'D'E'F'</m> after saving a screenshot of your 
+                work. Use the reset button and <sq>Show image</sq> checkbox.
               </p>
             </introduction>
             <task>
@@ -286,10 +297,10 @@
             <task>
               <statement>
                 <p>
-                  Create point <m>M</m> where the original two lines intersect. What 
-                  is the measure of <m>\angle A''MA</m>? <m>\angle B''MB</m>?
-                  <m>\angle C''MC</m>? <m>\angle D''MD</m>? <m>\angle E''ME</m>?
-                  <m>\angle F''MF</m>? What does this tell you about the transformation
+                  Create point <m>P</m> where the original two lines intersect. What 
+                  is the measure of <m>\angle A''PA</m>? <m>\angle B''PB</m>?
+                  <m>\angle C''PC</m>? <m>\angle D''PD</m>? <m>\angle E''PE</m>?
+                  <m>\angle F''PF</m>? What does this tell you about the transformation
                   taking <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>?
                 </p>
               </statement>
@@ -305,7 +316,7 @@
             <task>
               <statement>
                 <p>
-                  Measure the lengths <m>AM</m>, <m>A''M</m>, <m>BM</m>, <m>B''M</m>, 
+                  Measure the lengths <m>AP</m>, <m>A''P</m>, <m>BP</m>, <m>B''P</m>, 
                   etc. What do you notice?
                 </p>
               </statement>
@@ -329,6 +340,12 @@
               </interactive>
             </figure>
           </statement>
+          <hint>
+            <p>
+              The <sq>Show image</sq> checkbox reveals the image of the first composition,
+              not this one.
+            </p>
+          </hint>
         </task>
     </exploration>
     <p>

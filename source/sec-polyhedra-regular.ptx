@@ -114,9 +114,9 @@
             Just as with polygons and tilings, we describe some 
             polyhedra as <term>regular polyhedra</term>. These special 
             solids were identified by Greek mathematicians around 300 B.C.,
-            appear in ancient and modern art work,  
+            appear in ancient and modern artwork,  
             and are used to model chemical and biological structures today. 
-            In this section, we will find that only there are only a handful 
+            In this section, we will find that there are only a handful 
             of polyhedra that meet the criteria of being regular.
         </p>
         <definition xml:id="def-regpolyhedron">
@@ -284,7 +284,7 @@
                             <p>
                                 Is it possible to create a regular polyhedron with exactly five 
                                 triangles meeting at each vertex? If so, build it, record your work,
-                                count the faces, edges, and vertices.  
+                                and count the faces, edges, and vertices.  
                             </p>
                         </li>
                         <li>
@@ -459,7 +459,7 @@
                                     </li>
                                     <li>
                                         <p>
-                                            Why will surrounding a vertex with three hexagons 
+                                            Why would surrounding a vertex with three hexagons 
                                             not result in a possible corner for a polyhedron? 
                                         </p>
                                     </li>
@@ -493,7 +493,7 @@
                         <tabular halign="center">
                             <row header="yes" bottom="minor">
                           <cell>Shape of Face</cell>
-                          <cell>Number meeting at each vertex</cell>
+                          <cell>Number of faces at each vertex</cell>
                           <cell>Total number of faces</cell>
                           <cell>Total number of edges</cell>
                           <cell>Total number of vertices</cell>
@@ -609,7 +609,7 @@
                     <p>
                       Two patterns are given in <xref ref="fig-tetranetHW"/>.
                       Which, if any, will form a regular tetrahedron when 
-                      folded along the provided lines?  
+                      folded along the interior lines?  
                     </p>
                     <figure xml:id="fig-tetranetHW">
                         <caption>Possible tetrahedral nets</caption>
@@ -663,54 +663,45 @@
                 <title>
                     Counting Vertices and Edges
                 </title>
-                <statement>
+                <introduction>
                     <p>
                         It is easy to lose track when counting the vertices or 
                         edges of a polyhedron with many faces. We can use mathematical 
                         reasoning to compute these values for regular polyhedra.
-                        <ol>
-                            <li>
-                                <p>
-                                    Knowing that an octahedron consists of eight 
-                                    triangular faces, we can count <m>8\times 3=24</m>
-                                    vertices and <m>8\times 3=24</m> edges before octahedron 
-                                    is assembled. 
-                                    <ol>
-                                        <li>
-                                            <p>
-                                                Every edge gets glued to one edge of another triangle so 
-                                                the assembled octahedron will have half as many edges. How 
-                                                many edges does the octahedron have?
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                How many triangles meet at each vertex of an octahedron?
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                Divide the total number, 24, of vertices of the triangles by 
-                                                the number of triangles that meet at each vertex of the octahedron.
-                                                This will give you the number of vertices in the assembled octahedron.
-                                            </p>
-                                        </li>
-                                    </ol>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Use a similar argument to compute the number of edges and vertices in an icosahedron.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Use a similar argument to compute the number of edges and vertices in a dodecahedron.
-                                </p>
-                            </li>
-                        </ol>
                     </p>
-                </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Every edge gets glued to one edge of another triangle so 
+                            the assembled octahedron will have half as many edges. How 
+                            many edges does the octahedron have?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How many triangles meet at each vertex of an octahedron?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Divide the total number of vertices of the triangles, 24, by 
+                            the number of triangles that meet at each vertex of the octahedron.
+                            This will give you the number of vertices in the assembled octahedron.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Use a similar argument to compute the number of edges and vertices in an icosahedron.
+                        </p>
+                    </statement>
+                </task>
             </exercise>
             <!--<exercise>
                 <title>Dual Polyhedra</title>
