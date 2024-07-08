@@ -38,7 +38,7 @@
 
         <copyright>
           <year>2020<ndash />2023</year>
-          <holder>Teresa Magnus</holder>
+          <holder>Teresa D. Magnus</holder>
           <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
             International License. To view a copy of this license, visit <url
               href="http://creativecommons.org/licenses/by-sa/4.0/"
@@ -103,9 +103,30 @@
     <preface xml:id="preface" permid="xOf">
       <!--
     <p permid="BsF">
-      This text aims to 
+      This textbook is designed to engage prospective 
+      elementary and early childhood teachers with exploratory 
+      actives that lead them to a deeper understanding of 
+      the geometry that they will be teaching. At the same time, the textbook is 
+      written in a style that does not limit its use to 
+      education majors. Students in Business, Psychology, and
+      Liberal Arts programs have taken the course and connected 
+      their learning to their chosen majors.
     </p>
-
+    <p>
+      The concepts of area, polygons, geometrical solids, and transformations
+      are explored in depth and serve as the foundation for 
+      further study. Instead of a formulaic approach to proof-writing,
+      students are asked to write explanatory letters to a friend and 
+      guided to incorporating illustrations in their explanations.
+    </p>
+      <p>
+      The textbook includes a mix of interactive activities and 
+      open-ended explorations. Many of these are embedded 
+      GeoGebra and PolyPad applets, most created by the author.
+      Other activities are tactile, using manipulatives, geometrical
+      tools, and inexpensive office supplies. Often an option of 
+      completing tasks either digitally or tactilely is provided. 
+      </p>
     <p permid="NGX">
       The topics covered 
     </p>
