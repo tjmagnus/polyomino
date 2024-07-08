@@ -104,22 +104,19 @@
               Then reflect the new pentomino <m>A'B'C'D'E'F'</m> across line <m>h</m> to form 
               pentomino <m>A''B''C''D''E''F''</m>.
             </p>
+            <p>
+              Finally, check the box that says <sq>Show image</sq>. Does this 
+              line up with your final image? Save a screen shot that shows
+              the intermediate step.
+            </p>
           </statement>
         </task>
         <task>
           <introduction>
             <p>
               To help you focus on <m>ABCDEF</m> and <m>A''B''C''D''E''F''</m>,
-              hide the intermediate figure <m>A'B'C'D'E'F'</m> by selecting 
-              show/hide (blue dot and white dot) from the rightmost menu. Click 
-              on the interior of the pentomino so that it appears lighter and 
-              then click on any other tool on the menu to make it invisible. You
-              may choose to hide the vertices of this pentamino as well. 
-            </p>
-            <p>
-              Do not delete any intermediate construction as it will cause later 
-              constructions to also be deleted. If you delete accidentally, use the 
-              undo arrow on the right end of the toolbar to recover your work.
+              click on the reset button to hide your work. Then check the 
+              <sq>Show image</sq> box to reveal the image of the composition. 
             </p>
           </introduction>
           <task>
@@ -149,8 +146,9 @@
           <task>
             <statement>
               <p>
-                Measure the distance between the original pair of reflecting lines <m>g</m> and <m>h</m>. 
-                Be sure to use a segment perpendicular to both lines to measure along. What do you notice?
+                Measure the distance between the original pair of reflecting lines <m>g</m> 
+                and <m>h</m>. To do this, reveal segment <m>\overline{TU}</m> using the checkbox. 
+                Then use the <sq>Distance or length</sq>tool to measure <m>\overline{TU}</m>.
               </p>
             </statement>
             <hint>
