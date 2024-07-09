@@ -14,7 +14,7 @@
             <statement>
                 <p>
                     A <term>pyramid</term> is a polyhedron which may have any polygon as its 
-                    base but the all remaining faces are triangles that come together at a common 
+                    base. All remaining faces are triangles that come together at a common 
                     vertex called the <term>apex</term>.  The <term>height</term> of the 
                     pyramid is measured from the apex to the plane containing the base 
                     along a line perpendicular to this plane.
@@ -22,9 +22,18 @@
                 <p>
                     We name each pyramid according to its base. Thus, a triangular pyramid has 
                     a triangular base, a square pyramid has a square base, and so forth. Also, the 
-                    apex of the pyramid need not be directly above the center of the base; in fact, 
-                    the apex may not be directly above any part of the pyramid.
+                    apex of the pyramid does not have to be directly above the center of the base. 
+                    In fact, the apex may not be directly above any part of the pyramid as shown 
+                    in <xref ref="fig-skew-pyramid"/>.
                 </p>
+                <figure xml:id="fig-skew-pyramid">
+                    <caption>A skew pyramid</caption>
+                    <image source="skewpyr.png">
+                        <shortdescription>
+                            A square pyramid with apex off to the side.
+                        </shortdescription>
+                    </image>
+                </figure>
             </statement>
         </definition>
         <figure xml:id="fig-SqPyramid">
@@ -194,7 +203,7 @@
                 <title>Finding Edge Lengths and Surface Area</title>
                 <introduction>
                     <p>
-                        Regardless of which Pyramid Net you are working wih, <m>ABCD</m> is a 
+                        Regardless of which Pyramid Net you are working with, <m>ABCD</m> is a 
                         rectangle. The pyramid formed by <xref ref="fig-explor-rect-pyr-345" text="custom">Pyramid Net 1</xref>,
                         has a <m>3\times 4</m>-rectangular base, the one formed by 
                         <xref ref="fig-explor-rect-pyr-354" text="custom">Pyramid Net 2</xref> 
