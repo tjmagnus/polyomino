@@ -75,7 +75,7 @@
             and then across line <m>h</m>  where <m>g</m> and <m>h</m> are parallel.
           </p>
           <figure xml:id="app-reflect2parallels">
-            <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
+            <caption>An interactive GeoGebra applet for reflecting across parallel lines.</caption>
             <interactive xml:id="ref2paralinesapp"
             platform="geogebra">
             <slate surface="geogebra" material="vswhjpfa"/>
@@ -186,7 +186,7 @@
               <m>A''B''C''D''E''F''</m>? Have any of the distances or angles changed?
             </p>
             <figure xml:id="app-reflect2parallels-again">
-              <caption>An interactive Geogebra applet for reflecting across parallel lines.</caption>
+              <caption>An interactive GeoGebra applet for reflecting across parallel lines.</caption>
               <interactive xml:id="ref2paralinesapp2"
               platform="geogebra">
               <slate surface="geogebra" material="vswhjpfa"/>
@@ -217,7 +217,7 @@
                 and then across line <m>h</m>  where <m>g</m> and <m>h</m> intersect. 
               </p>
               <figure xml:id="app-reflect2intersect">
-                <caption>An interactive Geogebra applet for reflecting across intersecting lines.</caption>
+                <caption>An interactive GeoGebra applet for reflecting across intersecting lines.</caption>
                 <interactive xml:id="ref2intersectinglinesapp"
                   platform="geogebra">
                   <slate surface="geogebra" material="sNvnFAjC"/>
@@ -332,7 +332,7 @@
                 <m>A''B''C''D''E''F''</m>? Have any of the lengths or angles changed?
               </p>
             <figure xml:id="app-reflect2intersect-again">
-              <caption>An interactive Geogebra applet for reflecting across intersecting 
+              <caption>An interactive GeoGebra applet for reflecting across intersecting 
                 lines.</caption>
               <interactive xml:id="ref2intersectinglinesapp2"
                 platform="geogebra">
@@ -551,7 +551,7 @@
         <idx>glide reflection</idx>
     </p>
     <figure xml:id="illustrated-glref">
-      <caption>Glide reflection of a pentamino.</caption>
+      <caption>Glide reflection of a pentomino.</caption>
       <image source="glrefpicture">
           <shortdescription>
             L-pentamino is reflected across line GH. Then its image is slid 

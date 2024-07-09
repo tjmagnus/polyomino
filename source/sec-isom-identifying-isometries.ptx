@@ -622,7 +622,7 @@
         What have we learned?
       </title>
       <p>
-        In <xref ref="table-def-obj-1"/>, the definining objects for each transformation 
+        In <xref ref="table-def-obj-1"/>, the defining objects for each transformation 
         were given. We now add new columns to this table. In the column 
         <term>Orientation</term>, write either <sq>reverses</sq>
         or <sq>maintains</sq> for the entries. The column <term>Fixed Points

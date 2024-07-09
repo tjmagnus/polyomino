@@ -361,7 +361,7 @@
             <task xml:id="surf-of-cylinder">
                 <statement>
                     <p>
-                        The right cylinder in <xref ref="fig-rtcyl-surf"/> has a height of 20 feet and a diameter of 
+                        The right cylinder in <xref ref="fig-rtcyl-surf"/> has a height of 20 ft. and a diameter of 
                         10 ft. 
                         <ol>
                             <li>
@@ -520,7 +520,7 @@
                 </p>
                 <sidebyside widths="33% 33% 33%">
                     <figure xml:id="fig-SAR-vol-cyl">
-                        <caption>Cylinder for <xref ref="SAR-vol-prisms-visual"/></caption>
+                        <caption>Cylinder<!-- for <xref ref="SAR-vol-prisms-visual"/>--></caption>
                         <image source="cylinderSAR.png">
                             <shortdescription>A cylinder with height 6 meters and
                                 radius 9 meters.
@@ -528,7 +528,7 @@
                         </image>
                     </figure>
                     <figure xml:id="fig-SAR-recprism">
-                        <caption>Rectangular prism for <xref ref="SAR-vol-prisms-visual"/></caption>
+                        <caption>Rectangular prism<!-- for <xref ref="SAR-vol-prisms-visual"/>--></caption>
                         <image source="SAR-recprism.png">
                             <shortdescription>A rectangular prism with height 11 inches, width 5 inches,
                                 and length 3 inches.
@@ -536,7 +536,7 @@
                         </image>
                     </figure>
                     <figure xml:id="fig-SAR-triprism">
-                        <caption>Triangular prism for <xref ref="SAR-vol-prisms-visual"/></caption>
+                        <caption>Triangular prism<!-- for <xref ref="SAR-vol-prisms-visual"/>--></caption>
                         <image source="SAR-triprism.png">
                             <shortdescription>
                                 Triangular prism with stretch 17. Triangle has a base

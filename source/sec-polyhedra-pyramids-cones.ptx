@@ -184,7 +184,7 @@
                     </figure>
                 </sidebyside>
             </figure>
-                <!--Geogebra files online:
+                <!--GeoGebra files online:
                 Three pyramids: https://www.geogebra.org/geometry/ppggtc9v
                 345 https://www.geogebra.org/m/cnykbsvc
                 354 https://www.geogebra.org/calculator/frgtrggq 
@@ -571,7 +571,7 @@
             </exploration>
             <exploration>
                 <title>
-                    Visualizing the Volume of a Rectangular Pyramid using a Geogebra
+                    Visualizing the Volume of a Rectangular Pyramid using a GeoGebra
                     Applet
                 </title>
                 <introduction>
@@ -698,7 +698,7 @@
                 </figure>
             </exploration>
         </subsubsection>
-        <!--Geogebra Interactive to visualize the unfolding of a rectangular 
+        <!--GeoGebra Interactive to visualize the unfolding of a rectangular 
         prism into three rectangular pyramids https://www.geogebra.org/material/edit/id/qjqyvzjn -->
         <conclusion>
             <p>

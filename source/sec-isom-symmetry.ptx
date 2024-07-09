@@ -224,7 +224,7 @@
             </p>
           </aside>
           <figure xml:id="fig-regpoly-symm">
-            <caption>Geogebra applet with regular polygons</caption>
+            <caption>GeoGebra applet with regular polygons</caption>
             <interactive xml:id="Geo-regpoly-symm" platform="geogebra">
               <slate surface="geogebra" material="dcp64gdt"/>
             </interactive>

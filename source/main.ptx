@@ -33,22 +33,29 @@
           <name>
             <c> https://tjmagnus.github.io/polyomino/</c>
           </name>
-          <address> https://tjmagnus.github.io/polyomino/</address>
+          <!--For footnote if different from above 
+          <address> https://tjmagnus.github.io/polyomino/</address>-->
         </website>
 
         <copyright>
           <year>2020<ndash />2023</year>
           <holder>Teresa D. Magnus</holder>
-          <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
-            International License. To view a copy of this license, visit <url
-              href="http://creativecommons.org/licenses/by-sa/4.0/"
-              visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>. This work 
-            contains illustrations and interactives created on <url href="https://geogebra.org">Geogebra</url>
-            and <url href="https://mathigon.org/polypad">Amplify</url> and cannot be used commercially without 
-            their consent. At the time of this publication, acceptable use policies for these 
-            platforms may be found at 
-            <url href="https://www.geogebra.org/license">GeoGebra License</url>
-            and <url href="https://amplify.com/acceptable-use-policy">Amplify Acceptable Use Policy</url>.
+          <shortlicense> 
+            <p>This work is licensed under the 
+            <url href="http://creativecommons.org/licenses/by-sa/4.0/"
+              visual="creativecommons.org/licenses/by-sa/4.0">Creative Commons 
+              Attribution-ShareAlike 4.0 International License</url>. 
+            </p>
+            <p>
+              Illustrations and linked interactives were created on 
+              <url href="https://geogebra.org">GeoGebra</url> and 
+              <url href="https://mathigon.org/polypad">Amplify</url> and cannot be used commercially without 
+              their consent. At the time of this publication, acceptable use policies for these 
+              platforms may be found at 
+              <url href="https://www.geogebra.org/license">GeoGebra License</url>
+              and <url href="https://amplify.com/acceptable-use-policy">Amplify Acceptable Use Policy</url>.
+            </p>
+            
           </shortlicense>
         </copyright>
       </colophon>
