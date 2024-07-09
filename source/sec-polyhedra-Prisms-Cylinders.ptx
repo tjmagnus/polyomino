@@ -347,6 +347,15 @@
             To compute surface area, we simply compute the area of each face 
             and add the areas together. <idx><h>surface area</h></idx>
         </p>
+        <definition xml:id="def-surf-area">
+            <idx><h>surface area</h></idx>
+            <statement>
+                <p>
+                    The <term>surface area</term> of a geometrical solid is the sum of the 
+                    areas of the surfaces that bound the solid.
+                </p>
+            </statement>
+        </definition>
         <exploration>
             <title>Finding the Surface Area of Prisms and Cylinders</title>
             <task>
