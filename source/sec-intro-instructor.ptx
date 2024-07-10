@@ -65,13 +65,13 @@
         </p>
         <p>
             This activity also plays an important role in preparing students for much 
-            of the work to come. We will build upon the definition of area and two 
-            basic principles about area, 
-            <xref ref="principle-arearect"/> and 
-            <xref ref="principle-areasums"/> as we compute areas of other shapes and as we 
-            prove the Pythagorean Theorem. We will also introduce additivity of 
-            length, angle measure, and volume. These intuitive concepts have many 
-            applications and connections.
+            of the work to come. We will build upon the <xref ref="def-area" text="custom">
+            definition of area</xref>, the <xref ref="formula-area-rectangle" text="custom">
+            area formula of a rectangle</xref>, and  
+            <xref ref="principle-areasums" text="custom">Additivity of Area</xref> 
+            as we compute areas of other shapes and prove the Pythagorean Theorem. 
+            We will also introduce additivity of length, angle measure, and volume. 
+            These intuitive concepts have many applications and connections.
             As part of the post-exploration discussion, you may want 
             to remind the students about how area is simply the number 
             of unit squares that fill the interior. It can be noted how 

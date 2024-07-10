@@ -6,7 +6,7 @@
     <macros>
       \newcommand{\R}{\mathbb R}
     </macros>
-    <!--<rename element="axiom">Formula</rename>-->
+    <rename element="axiom">Formula</rename>
   </docinfo>
 
   <book xml:id="Poly-cubed-geom-explor">
@@ -246,13 +246,11 @@
       <!--<solutions inline="hint answer">
         <title> Select hints and answers </title>
       </solutions>-->
-
+      <xi:include href="algebra-principles.ptx" />
       <appendix xml:id="list-of-principles">
       <title>List of Principles</title>
       <list-of elements="principle" divisions="section" empty="no" />
   </appendix>
-
-    <xi:include href="algebra-principles.ptx" />
 
   <appendix>
     <title>List of Symbols</title>
@@ -260,7 +258,7 @@
   </appendix>
   <appendix xml:id="appendix-list-formulas">
     <title>List of Formulas</title>
-    <list-of elements="fact" divisions="chapter" empty="yes"/>
+    <list-of elements="axiom"/>
   </appendix>
       <index>
         <title>Index</title>

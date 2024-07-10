@@ -5,8 +5,7 @@
   <introduction>
     <p>
         In <xref ref="sec-intro-explore"/>, we introduced two basic 
-        principles about area, 
-        <xref ref="principle-arearect"/> and 
+        assumptions about area, <xref ref="formula-area-rectangle"/> and 
         <xref ref="principle-areasums"/>. In <xref ref="sec-intro-apply"/>, we 
         added another principle  <xref ref="principle-addlengths"/> as well as 
         a long list of common vocabulary terms. 

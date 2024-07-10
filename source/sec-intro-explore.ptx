@@ -448,7 +448,7 @@
           pentomino is five square units. We also recalled the area formula for 
           a rectangle.
         </p>
-        <principle xml:id="principle-arearect">
+        <!--<principle xml:id="principle-arearect">
           <title>Area of a Rectangle</title>
           <statement>
             <p>
@@ -456,13 +456,16 @@
               symbols, <m>A=\ell \times w</m>.
             </p>
           </statement>
-        </principle>
-        <!--<axiom xml:id="formula-area-rectangle">
+        </principle>-->
+        <axiom xml:id="formula-area-rectangle">
           <title>Area of a Rectangle</title>
           <statement>
-            <m>A=\ell \times w</m>.
+            <p>
+              The area <m>A</m> of a rectangle is the product of its length <m>\ell</m>
+              and its width <m>w</m>; in symbols, <m>A=\ell \times w</m>.
+            </p>
           </statement>
-        </axiom>-->
+        </axiom>
         <p>
           Another observation is that if you can fill a closed region with smaller 
           shapes so that none of the smaller shapes overlap and no part of the region 
