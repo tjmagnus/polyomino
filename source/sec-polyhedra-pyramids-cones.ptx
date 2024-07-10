@@ -405,11 +405,9 @@
                 We end this section by stating a fact that will allow us to
                 find the volume of many pyramids and cones. 
             </p>
-            <fact xml:id="fact-vol-of-pyramid">
-                <title>Volume of a Pyramid and Cone</title>
+            <axiom xml:id="formula-vol-of-pyramid">
+                <title>Volume of a Pyramid</title>
                 <idx><h>volume</h><h>pyramid</h></idx>
-                <idx><h>volume</h><h>cone</h></idx>
-                <idx><h>cone</h><h>volume</h></idx>
                 <idx><h>pyramid</h><h>volume</h></idx>
                 <statement>
                     <p>
@@ -423,6 +421,13 @@
                         is the height measured along a vertical line segment from the apex
                         to the base. 
                     </p>
+                </statement>
+            </axiom>
+            <axiom xml:id="formula-vol-of-cone">
+                <title>Volume of a Cone</title>
+                <idx><h>volume</h><h>cone</h></idx>
+                <idx><h>cone</h><h>volume</h></idx>
+                <statement>
                     <p>
                         Similarly, the volume of a cone is one-third the volume of a cylinder 
                         with the same base and height. Since the base of a cone or cylinder is 
@@ -435,7 +440,7 @@
                         height when the cone is sitting on its base.
                     </p>
                 </statement>
-            </fact>
+            </axiom>
             <p>
                 This fact may be something you choose to 
                 accept and use without further justification. In case you 
