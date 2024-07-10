@@ -704,6 +704,11 @@
                             and labeled on my sketch as <fillin characters="5"/>.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            See <xref ref="table-def-obj-4"/>.
+                        </p>
+                    </hint>
                 </task>
             </task>
             <task>
@@ -782,6 +787,11 @@
                             and labeled on my sketch as <fillin characters="5"/>.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            See <xref ref="table-def-obj-4"/>.
+                        </p>
+                    </hint>
                 </task>
             </task>
         </exploration>
