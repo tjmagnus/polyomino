@@ -114,7 +114,7 @@
         <task>
           <introduction>
             <p>
-              To help you focus on <m>ABCDEF</m> and <m>A''B''C''D''E''F''</m>,
+              To help you focus on <m>ABCDEF</m> and <m>A_2B_2C_2D_2E_2F_2</m>,
               click on the reset button to hide your work. Then check the 
               <sq>Show image</sq> box to reveal the image of the composition. 
             </p>
@@ -122,7 +122,7 @@
           <task>
             <statement>
               <p>
-                What type of isometry takes <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>? Is it a 
+                What type of isometry takes <m>ABCDEF</m> to <m>A_2B_2C_2D_2E_2F_2</m>? Is it a 
                 reflection, a translation, a rotation, or something else?
               </p>
             </statement>
@@ -130,16 +130,17 @@
           <task>
             <statement>
               <p>
-                Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots, \overline{FF''}</m> and 
-                measure the lengths <m>AA'', BB'', \ldots, FF''</m>. What do you notice?
+                Draw the segments <m>\overline{AA_2}, \overline{BB_2}, \ldots, \overline{FF_2}</m> and 
+                measure the lengths <m>AA_2, BB_2, \ldots, FF_2</m>. What do you notice?
               </p>
             </statement>
           </task>
           <task>
             <statement>
               <p>
-                What do you notice about the angle between each segment, <m>\overline{AA''}, \overline{BB''}, 
-                  \ldots, \overline{FF''}</m>  and the original two lines <m>g</m> and <m>h</m>?
+                What do you notice about the angle between each segment, 
+                <m>\overline{AA_2}, \overline{BB_2}, \ldots, \overline{FF_2}</m>
+                and the original two lines <m>g</m> and <m>h</m>?
               </p>
             </statement>
           </task>
@@ -252,7 +253,8 @@
                 created by reflecting across 
                 intersecting lines <m>g</m> and <m>h</m> in 
                 <xref ref="app-reflect2intersect"/>. You may
-                choose to hide <m>A'B'C'D'E'F'</m> after saving a screenshot of your 
+                choose to hide <m>A'B'C'D'E'F'</m> (and the duplicated 
+                <m>A''B''C''D''E''F''</m>) after saving a screenshot of your 
                 work. Use the reset button and <sq>Show image</sq> checkbox.
               </p>
             </introduction>
@@ -260,7 +262,7 @@
               <statement>
                 <p>
                   What type of isometry takes <m>ABCDEF</m> to the final image 
-                  <m>A''B''C''D''E''F''</m>? Is it a reflection, a translation, 
+                  <m>A_2 B_2C_2 D_2 E_2 F_2</m>? Is it a reflection, a translation, 
                   a rotation, or something else?
                 </p>
               </statement>
@@ -268,16 +270,16 @@
             <task>
               <statement>
                 <p>
-                  Draw the segments <m>\overline{AA''}, \overline{BB''}, \ldots,
-                  \overline{FF''}</m>.  What, if anything, do you notice?
+                  Draw the segments <m>\overline{AA_2}, \overline{BB_2}, \ldots,
+                  \overline{FF_2}</m>.  What, if anything, do you notice?
                 </p>
               </statement>
             </task>
             <task>
               <statement>
                 <p>
-                  Create the perpendicular bisector of each segment <m>\overline{AA''}, 
-                  \overline{BB''}, \ldots, \overline{FF''}</m>. What do you notice about 
+                  Create the perpendicular bisector of each segment <m>\overline{AA_2}, 
+                  \overline{BB_2}, \ldots, \overline{FF_2}</m>. What do you notice about 
                   the perpendicular bisectors?
                 </p>
               </statement>
@@ -298,10 +300,10 @@
               <statement>
                 <p>
                   Create point <m>P</m> where the original two lines intersect. What 
-                  is the measure of <m>\angle A''PA</m>? <m>\angle B''PB</m>?
-                  <m>\angle C''PC</m>? <m>\angle D''PD</m>? <m>\angle E''PE</m>?
-                  <m>\angle F''PF</m>? What does this tell you about the transformation
-                  taking <m>ABCDEF</m> to <m>A''B''C''D''E''F''</m>?
+                  is the measure of <m>\angle A_2 PA</m>? <m>\angle B_2 PB</m>?
+                  <m>\angle C_2 PC</m>? <m>\angle D_2 PD</m>? <m>\angle E_2PE</m>?
+                  <m>\angle F_2PF</m>? What does this tell you about the transformation
+                  taking <m>ABCDEF</m> to <m>A_2B_2C_2D_2E_2F_2</m>?
                 </p>
               </statement>
             </task>
@@ -316,7 +318,7 @@
             <task>
               <statement>
                 <p>
-                  Measure the lengths <m>AP</m>, <m>A''P</m>, <m>BP</m>, <m>B''P</m>, 
+                  Measure the lengths <m>AP</m>, <m>A_2P</m>, <m>BP</m>, <m>B_2P</m>, 
                   etc. What do you notice?
                 </p>
               </statement>
@@ -359,48 +361,34 @@
         <title>
           Orientation
         </title>
-        <statement>
+        <introduction>
           <p>
-            Recall that a reflection across a single line reverses the orientation.  
-            <ol>
-              <li>
-                <p>
-                  What happens to the orientation when you reflect an object across two 
-                  lines in succession?
-                </p>
-              </li>
-              <li>
-                <p>
-                  If you were to reflect the object across a third line, what would you expect 
-                  to happen to the orientation?
-                </p>
-              </li>
-            </ol> 
+            Recall that a reflection across a single line reverses the orientation.
           </p>
-        </statement>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              What happens to the orientation when you reflect an object across two 
+              lines in succession?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              If you were to reflect the object across a third line, what would you expect 
+              to happen to the orientation?
+            </p>
+          </statement>
+        </task>
       </task>
       <task>
         <title>Reflecting across three parallel lines</title>
-        <statement>
+        <introduction>
           <p>
             Reflect the triangle in <xref ref="app-reflect3parallel"/> across lines 
             <m>d</m>, <m>e</m>, and <m>f</m> in succession.
-            <ol>
-              <li>
-                <p>
-                  What type of single transformation (reflection, translation, rotation, 
-                  or something else) takes the original triangle to the final image?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Each type of translation has a special object or two that helps to 
-                  determine it precisely. Identify and draw in the specific line, vector,
-                  or center and angle for this transformation. How, if at all, is this 
-                  object related to the three lines <m>d</m>, <m>e</m>, and <m>f</m>?
-                </p>
-              </li>
-            </ol>
           </p>
           <figure xml:id="app-reflect3parallel">
             <caption>An interactive GeoGebra applet for reflecting across three parallel 
@@ -410,26 +398,50 @@
               <slate surface="geogebra" material="UuMVxjHc"/>
             </interactive>
           </figure>
-        </statement>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              What type of single transformation (reflection, translation, rotation, 
+              or something else) takes the original triangle to the final image?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Each type of translation has a special object or two that helps to 
+              determine it precisely. Identify and draw in the specific line, vector,
+              or center and angle for this transformation. How, if at all, is this 
+              object related to the three lines <m>d</m>, <m>e</m>, and <m>f</m>?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              As of this writing, the author has not found a relationship between
+              this defining object and the three lines. If you discover one, please
+              let her know. You may be recognized in a future edition!
+            </p>
+            <p>
+              Unlabeled points on lines <m>d</m>, <m>e</m>, and <m>f</m> allow the 
+              lines to be moved while staying parallel. Experiment to see whether
+              your claims continue to hold. You can also experiment with reflecting 
+              across the three lines in a different order; however, the <sq>Show 
+              image</sq> will not work.
+            </p>
+          </hint>
+        </task> 
       </task>
-      <hint>
-        <p>
-          Unlabeled points on lines <m>d</m>, <m>e</m>, and <m>f</m> allow the 
-          lines to be moved while staying parallel. Experiment to see whether
-          your claims continue to hold.
-        </p>
-      </hint>
       <task>
         <title>Reflecting across three intersecting lines</title>
-        <statement>
+        <introduction>
           <p>
             Finally, we reflect the triangle across three lines, at least some 
             of which intersect.  Use the <sq>Reflect about Line</sq> tool to reflect 
             <m>\Delta ABC</m> across <m>d</m>, then reflect its image <m>\Delta A'B'C'</m> 
             across line <m>e</m>, and finally reflect <m>\Delta A''B''C''</m> across 
-            <m>f</m>. After creating <m>\Delta A'''B'''C'''</m>, you should hide the two 
-            intermediate triangles <m>\Delta A'B'C'</m> and <m>\Delta A''B''C''</m>
-            and their vertices. 
+            <m>f</m>. After creating <m>\Delta A'''B'''C'''</m>, check the result 
+            using the checkbox <sq>Show image</sq>. Record your work. 
             </p>
             <figure xml:id="app-reflect3intersect">
               <caption>
@@ -441,57 +453,78 @@
                 <slate surface="geogebra" material="cZVa8nZz"/>
               </interactive>
             </figure>
+        </introduction>
+        <task>
+          <introduction>
             <p>
-          <ol>
-            <li>
+              You may reset your work to focus on the initial triangle <m>\Delta ABC</m>
+              and final image <m>\Delta A'_1 B'_1 C'_1</m>.
+            </p>
+          </introduction>
+          <task>
+            <statement>
               <p>
                 Is the orientation of the figure the same or changed under the single
-                transformation that takes <m>\Delta ABC</m> to <m>\Delta A'''B'''C'''</m>?
+                transformation that takes <m>\Delta ABC</m> to <m>\Delta A'_1 B'_1 C'_1</m>?
               </p>
-            </li>
-            <li>
+            </statement>
+          </task>
+          <task>
+            <statement>
               <p>
                 Explain how you know that this transformation is not a reflection.
               </p>
-            </li>
-            <li>
+            </statement>
+          </task>
+          <task>
+            <statement>
               <p>
                 Explain how you know that this transformation is not a translation.
               </p>
-            </li>
-            <li>
+            </statement>
+          </task>
+          <task>
+            <statement>
               <p>
                 Explain how you know that this transformation is not a rotation.
               </p>
-            </li>
-            <li>
+            </statement>
+          </task>
+          <task>
+            <statement>
               <p>
-                Hide, but do not delete, lines <m>d</m>, <m>e</m>, and <m>f</m>. 
-                Plot the midpoint of each of the line segments, <m>\overline{AA'''}</m>, 
-                <m>\overline{BB'''}</m>, and <m>\overline{CC'''}</m>.
+                Hide lines <m>d</m>, <m>e</m>, and <m>f</m> by unchecking the <sq>Show
+                mirrors</sq> box. Plot the midpoint of each of the line segments, 
+                <m>\overline{AA'_1}</m>, <m>\overline{BB'_1}</m>, and <m>\overline{CC'_1}</m>.
                 What do you notice about these midpoints?
               </p>
-              <aside>
-                <p>
-                  GeoGebra allows you to plot the midpoint without drawing the segments.
-                </p>
-              </aside>
-            </li>
-            <li>
+            </statement>
+            <hint>
               <p>
-                Draw the line that passes through the midpoints of <m>\overline{AA'''}</m>
-                and <m>\overline{BB'''}</m>. Then reflect <m>\Delta ABC</m> across this line.
-                What do you notice about the relationship between this new triangle 
-                <m>\Delta A_1'B_1'C_1'</m> and <m>\Delta A'''B'''C'''</m>?
+                GeoGebra allows you to plot the midpoint without drawing the segments.
               </p>
-            </li>
-            <li>
-              Describe a two-transformation process that takes <m>\Delta ABC</m> to 
-              <m>\Delta A'''B'''C'''</m>.
-            </li>
-          </ol>
-          </p>
-        </statement>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Draw the line that passes through the midpoints of 
+                <m>\overline{AA'_1}</m> and <m>\overline{BB'_1}</m>. 
+                Then reflect <m>\Delta ABC</m> across this line.
+                What do you notice about the relationship between this new triangle 
+                <m>\Delta A'B'C'</m> and <m>\Delta A'_1 B'_1 C'_1</m>?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Describe a two-transformation process that takes <m>\Delta ABC</m> to 
+                <m>\Delta A'_1 B'_1 C'_1</m>.
+              </p>
+            </statement>
+          </task>
+        </task>
       </task>
       <!--Move to exercise?<task>
         <title>Two Parallel, One Intersects</title>
