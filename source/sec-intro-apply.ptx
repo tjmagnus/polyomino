@@ -48,24 +48,24 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 </p>
 <!--Insert Circular Reasoning example as an exercise?-->
 <p> 
-  Our course toolbox currently contains the definition of 
-  <xref ref="def-area">area</xref> and two principles, 
-  <xref ref="principle-arearect"/> and <xref ref="principle-areasums"/><!-- from 
-  <xref ref="sec-intro-explore"/>-->. In other words, we can think about the area 
+  Our course toolbox currently contains the <xref ref="def-area">definition of 
+  area</xref>, the <xref ref="formula-area-rectangle">area formula for a rectangle</xref>,
+  and <xref ref="principle-areasums">Additivity of Area Principle</xref>. 
+  In other words, we can think about the area 
   of a region as the number of <m>1\times1</m> blocks that fill the interior, 
   we can use the area formula for a rectangle, and we know that
-  the area of a region is equal to the sum of the area of its parts. 
+  the area of a region is equal to the sum of the areas of its parts. 
   Hopefully, you will agree that length should also be additive; namely,
   that if we extend a segment of length <m>n</m> by a segment of length 
   <m>m</m>, the resulting segment has length <m>n+m</m>. We restate this 
   below:
 </p>
-<aside>
+<!--<aside>
 <p>
   To view the statements of the earlier principles, 
   click on each corresponding link. .
 </p>
-</aside>
+</aside>-->
 <principle xml:id="principle-addlengths">
   <title>Additivity of Length</title>
 <statement>
@@ -77,7 +77,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 </statement>
 </principle>
 <p>
-  Since we are most interested in discovering facts and formulas that will hold 
+  Since we are interested in discovering facts and formulas that will hold 
   for a whole class of geometric shapes, we will often use variables to represent 
   numerical quantities such as length, area, and angle measure. We include in 
   our toolbox the <xref ref="field-properties">algebraic rules and procedures 

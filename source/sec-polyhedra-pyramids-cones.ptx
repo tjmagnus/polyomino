@@ -423,24 +423,27 @@
                     </p>
                 </statement>
             </axiom>
-            <axiom xml:id="formula-vol-of-cone">
-                <title>Volume of a Cone</title>
-                <idx><h>volume</h><h>cone</h></idx>
-                <idx><h>cone</h><h>volume</h></idx>
-                <statement>
-                    <p>
-                        Similarly, the volume of a cone is one-third the volume of a cylinder 
-                        with the same base and height. Since the base of a cone or cylinder is 
-                        a circle with area, <m>A_{base}=\pi r^2</m>, the formula for the volume 
-                        of a cone can be written as
-                        <me>
-                            V_{cone}=\frac{\pi r^2 h}{3}
-                        </me>
-                        where <m>r</m> is the radius of the base and h is the vertical
-                        height when the cone is sitting on its base.
-                    </p>
-                </statement>
-            </axiom>
+        <p>
+            A cone has a similar relationship with a cylinder.
+        </p>
+        <axiom xml:id="formula-vol-of-cone">
+            <title>Volume of a Cone</title>
+            <idx><h>volume</h><h>cone</h></idx>
+            <idx><h>cone</h><h>volume</h></idx>
+            <statement>
+                <p>
+                    The volume of a cone is one-third the volume of a cylinder 
+                    with the same base and height. Since the base of a cone or cylinder is 
+                    a circle with area, <m>A_{base}=\pi r^2</m>, the formula for the volume 
+                    of a cone can be written as
+                    <me>
+                        V_{cone}=\frac{\pi r^2 h}{3}
+                    </me>
+                    where <m>r</m> is the radius of the base and h is the vertical
+                    height when the cone is sitting on its base.
+                </p>
+            </statement>
+        </axiom>
             <p>
                 This fact may be something you choose to 
                 accept and use without further justification. In case you 

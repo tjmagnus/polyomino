@@ -19,18 +19,24 @@
                 preserves the measures of lines and angles.  The original object and its 
                 image under an isometry are always congruent to each other.  It turns out 
                 if we are given any two congruent figures in the plane there is an isometry 
-                that maps one of the figures onto the other.  At the end of this section, 
-                you will be given a pair of congruent figures and then will determine the 
-                associated isometry using the properties you identified in the early part of 
-                the lab.
+                that maps one of the figures onto the other.  
             </p>
-        <exploration>
+            <p> 
+                In the exploration that follows, you will be given a pair of 
+                congruent figures for which you will determine the associated 
+                isometry that takes one figure to the other. You will need to 
+                use your recently-acquired knowledge about the four types of isometries. 
+                To prepare for the challenging detective work that lies ahead, open 
+                and complete <xref ref="checkpt-review-4isoms"/>. 
+            </p>
+        <exercise xml:id="checkpt-review-4isoms">
             <title>Isometry Review and Tools</title>
             <task>
                 <title>Orientation Review</title>
                 <statement>
                     <p>
-                        Orientation is a good way of distinguishing between types of 
+                        <xref ref="def-orientation" text="custom">Orientation</xref> is a 
+                        good way of distinguishing between types of 
                         isometries, especially rotations and glide reflections.
                     </p>
                     <p>
@@ -47,6 +53,11 @@
                         </image>
                     </figure>
                 </statement>
+                <hint>
+                    <p>
+                        Orientation was defined in <xref ref="def-orientation"/>.
+                    </p>
+                </hint>
                 <answer>
                     <p>
                         Triangle <m>\Delta C'A'B' </m> has the same orientation as 
@@ -57,70 +68,61 @@
             </task>
             <task>
                 <title>Fixed Point Review</title>
-                <statement>
+                <introduction>
                     <p>
-                        Sometimes we can tell which points are fixed and use that 
+                        Sometimes we can tell which points on the plane are 
+                        fixed by the isometry and use this information 
                         to identify the type of isometry.
                     </p>
                     <p> 
-                        Of the types of isometries studied thus far, 
-                        <ol>
-                            <li>
-                                <p>
-                                    which type has no fixed points?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    which type has exactly one fixed point?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    which type fixes all points that lie on a 
-                                    single line?
-                                </p>
-                            </li>
-                        </ol>
+                        Of the types of isometries (reflections, rotations, translations,
+                        and glide reflections): 
                     </p>
-                </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Which type has no fixed points?
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            Translations and glide reflections.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Which type has exactly one fixed point? 
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            Rotations.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Which type fixes all points that lie on a 
+                            single line?
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            Reflections.
+                        </p>
+                    </answer>
+                </task>
             </task>
             <task>
                 <title>Review of Reflections</title>
-                <statement>
+                <introduction>
                     <p>
                         Use the GeoGebra interactive in <xref ref="fig-reflect-rev-mystery"/> 
                         as needed to answer the following:
-                        <ol>
-                            <li>
-                                <p>
-                                    A reflection <fillin characters="5"/> the orientation 
-                                    of the figure.
-                                    <ul marker="circle">
-                                        <li>
-                                            maintains
-                                        </li>
-                                        <li>
-                                            reverses
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    How is the reflecting line related to the 
-                                    the segments connecting each point to its 
-                                    image? Consider both the location of 
-                                    intersection and the angle formed by the intersection.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Describe how you can create the reflecting line 
-                                    given an illustration of two congruent triangles.
-                                </p>
-                            </li>
-                        </ol>
                     </p>
                     <figure xml:id="fig-reflect-rev-mystery">
                         <caption>
@@ -131,45 +133,67 @@
                           platform="geogebra">
                           <slate surface="geogebra" material="vwhkwn3q"/>
                         </interactive>
-                      </figure>
-                </statement>
+                    </figure>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            A reflection <fillin characters="5"/> the orientation 
+                            of the figure.
+                            <ul marker="circle">
+                                <li>
+                                    maintains
+                                </li>
+                                <li>
+                                    reverses
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            Reverses
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How is the reflecting line related to the 
+                            the segments connecting each point to its 
+                            image? Consider both the location of 
+                            intersection and the angle formed by the intersection.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            The reflecting line is the perpendicular bisector of each
+                            <m>\overline{PP'}</m>
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Describe how you can create the reflecting line 
+                            given an illustration of two congruent triangles.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Construct <m>\overline{PP'}</m> for a vertex <m>P</m> on one
+                            triangle and its corresponding vertex <m>P'</m> on the other.
+                            Draw the perpendicular bisector of <m>\overline{PP'}</m>.
+                        </p>
+                    </solution>
+                </task>
             </task>
             <task>
                 <title>Review of Translations</title>
-                <statement>
+                <introduction>
                     <p>
                         Use the GeoGebra interactive in <xref ref="fig-translate-rev-mystery"/> 
                         as needed to answer the following questions about translations:
-                        <ol>
-                            <li>
-                                <p>
-                                    A translation <fillin characters="5"/> the orientation 
-                                    of the figure.
-                                    <ul marker="circle">
-                                        <li>
-                                            maintains
-                                        </li>
-                                        <li>
-                                            reverses
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    How is the translation vector related to the 
-                                    segment from a point to its image? Once again,
-                                    address both length and direction in your response.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Describe how you can create the translation vector from 
-                                    an illustration of two congruent triangles <m>\Delta ABC</m>
-                                    and <m>\Delta A'B'C'</m>.
-                                </p>
-                            </li>
-                        </ol>
                     </p>
                     <figure xml:id="fig-translate-rev-mystery">
                         <caption>
@@ -179,53 +203,67 @@
                           platform="geogebra">
                           <slate surface="geogebra" material="t2nuw95c"/>
                         </interactive>
-                      </figure>
-                </statement>
+                    </figure>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            A translation <fillin characters="5"/> the orientation 
+                            of the figure.
+                            <ul marker="circle">
+                                <li>
+                                    maintains
+                                </li>
+                                <li>
+                                    reverses
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            maintains
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How is the translation vector related to the 
+                            segment from a point to its image? Once again,
+                            address both length and direction in your response.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            The translation vector is parallel to and
+                            congruent to each <m>\overline{PP'}</m>.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Describe how you can create the translation vector from 
+                            an illustration of two congruent triangles <m>\Delta ABC</m>
+                            and <m>\Delta A'B'C'</m>.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            One choice for the translation vector is <m>\overrightarrow{AA'}</m>.
+                        </p>
+                    </solution>
+                </task>
             </task>
             <task>
                 <title>Review of Rotations</title>
-                <statement>
+                <introduction>
                     <p>
                         The GeoGebra interactive in <xref ref="fig-rotate-rev-mystery"/> shows the 
                         action of a clockwise rotation of <m>\Delta ABC</m> about point 
-                        <m>D</m>. Use this interactive
-                        as needed to answer the following questions about rotations:
-                        <ol>
-                            <li>
-                                <p>
-                                    A rotation <fillin characters="5"/> the orientation 
-                                    of the figure.
-                                    <ul marker="circle">
-                                        <li>
-                                            maintains
-                                        </li>
-                                        <li>
-                                            reverses
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Where do the perpendicular bisectors of the segments <m>\overline{AA'}</m>, 
-                                    <m>\overline{BB'}</m>, and <m>\overline{CC'}</m> intersect?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    What are the measures of angles <m>\angle ADA'</m>, <m>\angle BDB'</m>, 
-                                    and <m>\angle CDC'</m>? What does this tell you about the rotation?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    If you were given a picture of a figure and what you think is its rotated 
-                                    image, what process would you use to determine the center of the rotation 
-                                    and its angle of rotation? Write this so that another student could follow 
-                                    your steps.
-                                </p>
-                            </li>
-                        </ol>
+                        <m>D</m>. Use this interactive as needed to answer the 
+                        following questions about rotations:  
                     </p>
                     <figure xml:id="fig-rotate-rev-mystery">
                         <caption>
@@ -236,68 +274,85 @@
                           <slate surface="geogebra" material="hpzcqf59"/>
                         </interactive>
                       </figure>
-                </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            A rotation <fillin characters="5"/> the orientation 
+                            of the figure.
+                            <ul marker="circle">
+                                <li>
+                                    maintains
+                                </li>
+                                <li>
+                                    reverses
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            maintains
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Where do the perpendicular bisectors of the segments <m>\overline{AA'}</m>, 
+                            <m>\overline{BB'}</m>, and <m>\overline{CC'}</m> intersect?
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            At the center of the rotation
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            What are the measures of angles <m>\angle ADA'</m>, <m>\angle BDB'</m>, 
+                            and <m>\angle CDC'</m>? What does this tell you about the rotation?
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            The measures of these angles are equal and correspond 
+                            to the angle of the rotation.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            If you were given a picture of a figure and what you think is its rotated 
+                            image, what process would you use to determine the center of the rotation 
+                            and its angle of rotation? Write this so that another student could follow 
+                            your steps.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            First find the center of rotation by constructing the 
+                            perpendicular bisectors of <m>\overline{AA'}</m> and
+                            <m>\overline{BB'}</m> and labeling their intersection 
+                            <m>P</m>. Then measure <m>\angle A'PA</m> to get the angle 
+                            of rotation.
+                        </p>
+                    </solution>
+                </task>
             </task>
             <task>
                 <title>Review of Glide Reflections</title>
-                <statement>
+                <introduction>
                     <p>
-                        A glide reflection is a two-step isometry.  We first translate by a vector and 
-                        then we reflect across the line containing (or parallel to) that vector.  
+                        A glide reflection is a two-step isometry.  We first reflect across a line and then 
+                        translate the result by a vector lying on (or parallel to) that line.  
                         The GeoGebra interactive <xref ref="fig-glideref-rev-mystery"/> shows the original triangle 
-                        <m>\Delta ABC</m> and its final image <m>A''B''C''</m> after a reflection across line <m>\overleftrightarrow{DE}</m>
-                        and translation by vector <m>\overrightarrow{DE}</m>. Answer the following questions:
-                        <ol>
-                            <li>
-                                <p>
-                                    A glide reflection <fillin characters="5"/> the orientation 
-                                    of the figure.
-                                    <ul marker="circle">
-                                        <li>
-                                            maintains
-                                        </li>
-                                        <li>
-                                            reverses
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    The glide reflection image in <xref ref="fig-glideref-rev-mystery"/> 
-                                    was produced by reflecting the triangle across line <m>\overleftrightarrow{DE}</m>
-                                    and then translating by vector <m>\overrightarrow{DE}</m>.  Do you get the 
-                                    same result if you translate by vector <m>\overrightarrow{DE}</m> first and then 
-                                    reflect across line <m>\overleftrightarrow{DE}</m>?
-                                    <ul marker="circle">
-                                        <li>
-                                            yes
-                                        </li>
-                                        <li>
-                                            no
-                                        </li>
-                                        <li>
-                                            sometimes but not always
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    On the sketch construct the midpoints of each of the segments 
-                                    from a vertex <m>P</m> of <m>\Delta ABC</m> to its final image <m>P''</m>
-                                    on <m>\Delta A''B''C''</m>.  What information do these midpoints 
-                                    give you?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    What strategy could you use to find the reflecting line and 
-                                    translation vector for a glide reflection if you only have 
-                                    the original figure and final image?
-                                </p>
-                            </li>
-                        </ol>
+                        <m>\Delta ABC</m> and its final image <m>A''B''C''</m> after a reflection 
+                        across line <m>\overleftrightarrow{DE}</m> and translation by vector 
+                        <m>\overrightarrow{DE}</m>. Answer the following questions:
                     </p>
                     <figure xml:id="fig-glideref-rev-mystery">
                         <caption>
@@ -308,9 +363,93 @@
                           <slate surface="geogebra" material="fyn8nzqe"/>
                         </interactive>
                       </figure>
-                </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            A glide reflection <fillin characters="5"/> the orientation 
+                            of the figure.
+                            <ul marker="circle">
+                                <li>
+                                    maintains
+                                </li>
+                                <li>
+                                    reverses
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            reverses
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            The glide reflection image in <xref ref="fig-glideref-rev-mystery"/> 
+                            was produced by reflecting triangle <m>\Delta ABC</m>
+                            across line <m>\overleftrightarrow{DE}</m> to get <m>\Delta A'B'C'</m>
+                            and then translating <m>\Delta A'B'C'</m> by vector <m>\overrightarrow{DE}</m>
+                            to get image <m>\Delta A''B''C''</m>.  Do you get the 
+                            same result if you translate by vector <m>\overrightarrow{DE}</m> first and then 
+                            reflect across line <m>\overleftrightarrow{DE}</m>?
+                            <ul marker="circle">
+                                <li>
+                                    yes
+                                </li>
+                                <li>
+                                    no
+                                </li>
+                                <li>
+                                    sometimes but not always
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            yes
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            On the sketch construct the midpoints of each of the 
+                            segments <m>\overline{PP'}</m> from a vertex <m>P</m> 
+                            of <m>\Delta ABC</m> to its final image <m>P''</m>
+                            on <m>\Delta A''B''C''</m>.  What information do these midpoints 
+                            give you?
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            The reflecting line will pass through these midpoints.
+                        </p>
+                    </answer>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            What strategy could you use to find the reflecting line and 
+                            translation vector for a glide reflection if you only have 
+                            the original figure and final image?
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Find the midpoints of <m>\overline{AA'}</m>,
+                            <m>\overline{BB'}</m>, and <m>\overline{CC'}</m> and
+                            draw the line that passes through these points. Reflect
+                            <m>\Delta ABC</m> across this line to create <m>\Delta A_1B_1C_1</m>.
+                            One translation vector is <m>\overrightarrow{A_1A'}</m>.
+                        </p>
+                    </solution>
+                </task>
             </task>
-        </exploration>
+        </exercise>
     </subsection>   
     <subsection>
         <title>Solving the Mysteries</title>
@@ -319,70 +458,18 @@
             congruent figures. In each of the tasks, you will determine the type of isometry that maps the 
             original figure to its image and then to sketch the defining objects (the reflecting 
             line, translation vector, and/or center). In the case of a rotation, also determine the
-            angle of rotation and whether it is clockwise or counterclockwise. 
+            angle of rotation and whether the rotation is clockwise or counterclockwise. 
         </p>
         <exploration>
             <title>Mystery Isometries</title>
             <task>
                 <title>Mystery Isometry 1</title>
-                <statement>
+                <introduction>
                     <p>
-                        <ol>
-                            <li>
-                                <p>
-                                    The isometry that takes the polygon in 
-                                    <xref ref="fig-mystery-iso1" text="title"/> to 
-                                    its image <fillin characters="5"/> the orientation of the 
-                                    polygon.
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                maintains
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                reverses
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Mystery Isometry 1 is a <fillin characters="5"/>. 
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                reflection
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                translation
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                rotation
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                glide reflection
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p> 
-                            </li>
-                            <li>
-                                <p>
-                                    The defining object for Mystery Isometry 1 is/are <fillin characters="5"/>
-                                    and labeled on my sketch as <fillin characters="5"/>.
-                                </p>
-                            </li>
-                        </ol>
-                        </p>
+                        Consider the isometry that takes the polygon in 
+                        <xref ref="fig-mystery-iso1" text="title"/> to 
+                        its image.
+                    </p>
                     <figure xml:id="fig-mystery-iso1">
                         <title>Mystery Isomorphism 1</title>
                         <caption>
@@ -393,67 +480,78 @@
                           <slate surface="geogebra" material="HmCaXcwF"/>
                         </interactive>
                       </figure>
-                </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Mystery Isometry 1 <fillin characters="5"/> the
+                            orientation of the polygon.
+                            <ul marker="circle">
+                                <li>
+                                    <p>
+                                        maintains
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        reverses
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Mystery Isometry 1 is a <fillin characters="5"/>. 
+                            <ul marker="circle">
+                                <li>
+                                    <p>
+                                        reflection
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        translation
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        rotation
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        glide reflection
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            The defining object for Mystery Isometry 1 is/are <fillin characters="5"/>
+                            and labeled on my sketch as <fillin characters="5"/>.
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            See <xref ref="table-def-obj-4"/>.
+                        </p>
+                    </hint>
+                </task>               
             </task>
             <task>
                 <title>Mystery Isometry 2</title>
-                <statement>
+                <introduction>
                     <p>
-                        <ol>
-                            <li>
-                                <p>
-                                    The isometry that takes the polygon in <xref ref="fig-mystery-iso2" text="title"/> to 
-                                    its image <fillin characters="5"/> the orientation of the 
-                                    polygon.
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                maintains
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                reverses
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Mystery Isometry 2 is a <fillin characters="5"/>. 
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                reflection
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                translation
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                rotation
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                glide reflection
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p> 
-                            </li>
-                            <li>
-                                <p>
-                                    The defining object for Mystery Isometry 2 is/are <fillin characters="5"/>
-                                    and labeled on my sketch as <fillin characters="5"/>.
-                                </p>
-                            </li>
-                        </ol>
-                        </p>
+                        Consider the isometry that takes the polygon in 
+                        <xref ref="fig-mystery-iso2" text="title"/> to 
+                        its image.
+                    </p>
                     <figure xml:id="fig-mystery-iso2">
                         <title>Mystery Isomorphism 2</title>
                         <caption>
@@ -463,68 +561,81 @@
                           platform="geogebra">
                           <slate surface="geogebra" material="j4heqhxg"/>
                         </interactive>
-                      </figure>
-                </statement>
+                    </figure>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            The isometry that takes the polygon in 
+                            <xref ref="fig-mystery-iso2" text="title"/> to 
+                            its image <fillin characters="5"/> the orientation of the 
+                            polygon.
+                            <ul marker="circle">
+                                <li>
+                                    <p>
+                                        maintains
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        reverses
+                                    </p>
+                                </li>
+                            </ul> 
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Mystery Isometry 2 is a <fillin characters="5"/>. 
+                            <ul marker="circle">
+                                <li>
+                                    <p>
+                                        reflection
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        translation
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        rotation
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        glide reflection
+                                    </p>
+                                </li>
+                            </ul>
+                        </p> 
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            The defining object for Mystery Isometry 2 is/are <fillin characters="5"/>
+                            and labeled on my sketch as <fillin characters="5"/>.
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            See <xref ref="table-def-obj-4"/>.
+                        </p>
+                    </hint>
+                </task>
             </task>
             <task>
                 <title>Mystery Isometry 3</title>
-                <statement>
+                <introduction>
                     <p>
-                        <ol>
-                            <li>
-                                <p>
-                                    The isometry that takes the polygon in <xref ref="fig-mystery-iso3" text="title"/> to 
-                                    its image <fillin characters="5"/> the orientation of the 
-                                    polygon.
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                maintains
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                reverses
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Mystery Isometry 3 is a <fillin characters="5"/>. 
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                reflection
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                translation
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                rotation
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                glide reflection
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p> 
-                            </li>
-                            <li>
-                                <p>
-                                    The defining object(s) for Mystery Isometry 3 is/are <fillin characters="5"/>
-                                    and labeled on my sketch as <fillin characters="5"/>.
-                                </p>
-                            </li>
-                        </ol>
-                        </p>
+                        Consider the isometry that takes the polygon in 
+                        <xref ref="fig-mystery-iso3" text="title"/> to 
+                        its image.
+                    </p>
                     <figure xml:id="fig-mystery-iso3">
                         <title>Mystery Isomorphism 3</title>
                         <caption>
@@ -534,68 +645,75 @@
                           platform="geogebra">
                           <slate surface="geogebra" material="qfuh22bg"/>
                         </interactive>
-                      </figure>
-                </statement>
+                    </figure>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            The isometry that takes the polygon in <xref ref="fig-mystery-iso3" text="title"/> to 
+                            its image <fillin characters="5"/> the orientation of the 
+                            polygon.
+                            <ul marker="circle">
+                                <li>
+                                    <p>
+                                        maintains
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        reverses
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Mystery Isometry 3 is a <fillin characters="5"/>. 
+                            <ul marker="circle">
+                                <li>
+                                    <p>
+                                        reflection
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        translation
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        rotation
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        glide reflection
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            The defining object(s) for Mystery Isometry 3 is/are <fillin characters="5"/>
+                            and labeled on my sketch as <fillin characters="5"/>.
+                        </p>
+                    </statement>
+                </task>
             </task>
             <task>
                 <title>Mystery Isometry 4</title>
-                <statement>
+                <introduction>
                     <p>
-                        <ol>
-                            <li>
-                                <p>
-                                    The isometry that takes the polygon in <xref ref="fig-mystery-iso4" text="title"/> to 
-                                    its image <fillin characters="5"/> the orientation of the 
-                                    polygon.
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                maintains
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                reverses
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Mystery Isometry 4 is a <fillin characters="5"/>. 
-                                    <ul marker="circle">
-                                        <li>
-                                            <p>
-                                                reflection
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                translation
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                rotation
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                glide reflection
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </p> 
-                            </li>
-                            <li>
-                                <p>
-                                    The defining object(s) for Mystery Isometry 4 is/are <fillin characters="5"/>
-                                    and labeled on my sketch as <fillin characters="5"/>.
-                                </p>
-                            </li>
-                        </ol>
-                        </p>
+                        Consider the isometry that takes the polygon in 
+                        <xref ref="fig-mystery-iso3" text="title"/> to 
+                        its image.
+                    </p>
                     <figure xml:id="fig-mystery-iso4">
                         <title>Mystery Isomorphism 4</title>
                         <caption>
@@ -606,7 +724,65 @@
                           <slate surface="geogebra" material="bps7pkp6"/>
                         </interactive>
                     </figure>
-                </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            The isometry that takes the polygon in <xref ref="fig-mystery-iso4" text="title"/> to 
+                            its image <fillin characters="5"/> the orientation of the 
+                            polygon.
+                            <ul marker="circle">
+                                <li>
+                                    <p>
+                                        maintains
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        reverses
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Mystery Isometry 4 is a <fillin characters="5"/>. 
+                            <ul marker="circle">
+                                <li>
+                                    <p>
+                                        reflection
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        translation
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        rotation
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        glide reflection
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            The defining object(s) for Mystery Isometry 4 is/are <fillin characters="5"/>
+                            and labeled on my sketch as <fillin characters="5"/>.
+                        </p>
+                    </statement>
+                </task>
             </task>
         </exploration>
     </subsection> 

@@ -572,17 +572,21 @@
       which reverses the orientation of figures but is not a reflection.  
       Instead we obtain what is known as a glide reflection. 
     </p>
-    <p> 
-        A <term>glide reflection</term> is defined as a composition of a reflection across 
-        a line and a translation along a vector parallel to (or on) the 
-        reflecting line. In <xref ref="illustrated-glref"/>, note how the pentomino is first 
-        reflected across the line and then translated along vector 
-        <m>\overrightarrow{GH}</m>.  Any of the parallel vectors, like 
-        <m>\overrightarrow{A'A''}</m> or <m>\overrightarrow{CC''}</m>, 
-        could be used as the translation vector, but the reflecting line here 
-        is <m>\overleftrightarrow{GH}</m>, not <m>\overleftrightarrow{CC''}</m>.  
-        <idx>glide reflection</idx>
-    </p>
+    <definition xml:id="def-glide-ref">
+      <statement>
+        <p> 
+          A <term>glide reflection</term> is defined as a composition of a reflection across 
+          a line and a translation along a vector parallel to (or on) the 
+          reflecting line. In <xref ref="illustrated-glref"/>, note how the pentomino is first 
+          reflected across the line and then translated along vector 
+          <m>\overrightarrow{GH}</m>.  Any of the parallel vectors, like 
+          <m>\overrightarrow{A'A''}</m> or <m>\overrightarrow{CC''}</m>, 
+          could be used as the translation vector, but the reflecting line here 
+          is <m>\overleftrightarrow{GH}</m>, not <m>\overleftrightarrow{CC''}</m>.  
+          <idx>glide reflection</idx>
+      </p>
+      </statement>
+    </definition>
     <figure xml:id="illustrated-glref">
       <caption>Glide reflection of a pentomino.</caption>
       <image source="glrefpicture">
@@ -600,6 +604,41 @@
         </p>
       </statement>
     </exercise>
+    <p>
+      We now update <xref ref="table-def-obj-1"/> to include glide reflections.
+    </p>
+    <table xml:id="table-def-obj-4">
+      <title>Defining Objects for Three Isometries</title>
+      <tabular halign="center">
+        <col right="medium"/>
+        <col right="minor"/>
+        <col right="minor"/>
+        <col right="minor"/>
+        <col />
+          <row header="yes" bottom="minor">
+        <cell>Isometry</cell>
+        <cell>Defining Objects</cell>
+          </row>
+          <row header="no">
+              <cell>Reflection</cell>
+              <cell>Reflecting Line (or mirror)</cell>
+          </row>
+          <row>
+              <cell>Translation</cell>
+              <cell>Translation Vector</cell>
+          </row>
+          <row>
+              <cell>Rotation</cell>
+              <cell>Center and Rotational Angle</cell>
+          </row>
+          <row>
+            <cell>Glide Reflection</cell>
+            <cell>Mirror and Translation Vector<fn>The
+              translation vector will either lie on the mirror
+              or be parallel to the mirror.</fn></cell>
+          </row>
+      </tabular>
+  </table>
   </subsection>
   <exercises xml:id="exer-isom-comp">
     <title>Exercises</title>
@@ -608,8 +647,73 @@
       <exercise>
         <statement>
           <p>
-            add
-          </p>
+            Add the information about glide reflections to complete  
+            <xref ref="table-def-obj-3"/>. You should have already filled in 
+            the other rows in <xref ref="table-def-obj-2"/>.
+            </p>
+            <table xml:id="table-def-obj-3">
+                <title>Defining Objects for Four Isometries</title>
+                <tabular halign="center" row-headers="yes">
+                  <col right="medium"/>
+                  <col right="minor"/>
+                  <col right="minor"/>
+                  <col right="minor"/>
+                  <col />
+                  <row header="yes" bottom="medium">
+                    <cell>Isometry</cell>
+                    <cell>Orientation</cell>
+                    <cell><line>Fixed</line><line>Points</line></cell>
+                    <cell><line>Defining</line><line>Object(s)</line></cell>
+                    <cell><line>Properties of</line><line>Def. Object(s)</line></cell>
+                    <!--<cell><line>Locating</line><line> Object</line></cell>-->
+                  </row>
+                  <row bottom="minor">
+                    <cell>Reflection</cell>
+                    <cell>Reverses</cell>
+                    <cell><line>Points on</line><line>Mirror</line></cell>
+                    <cell><line>Reflecting Line</line><line> (or mirror)</line></cell>
+                    <cell>
+                      <line>Mirror is the</line><line> perpendicular</line>
+                      <line>bisector of each <m>\overline{PP'}</m></line>
+                    </cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Translation</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell><line>Translation</line><line> Vector</line></cell>
+                        <cell><line> </line><line> </line><line> </line><line> </line><line> </line></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell>Rotation</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell><line>Center and</line> <line>Angle</line></cell>
+                        <cell>
+                          <line>Perp. bisector</line>
+                          <line>of each <m>\overline{PP'}</m></line>
+                          <line>passes through </line>
+                          <line>center</line>
+                        </cell>
+                        <!--<cell>
+                          <line>Intersect perp.</line><line> bisectors to</line> 
+                          <line>find center <m>Q</m>.</line><line>Then measure</line>
+                          <line>angle <m>\angle AQA'.</m></line>
+                        </cell>-->
+                    </row>
+                    <row>
+                      <cell><line>Glide</line><line>Reflection</line></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell><line>Mirror and</line> <line>Vector</line></cell>
+                      <cell>
+                        <line>Midpoint of</line>
+                        <line>each <m>\overline{PP'}</m> lies</line>
+                        <line>on mirror </line>
+                      </cell>
+                  </row>
+                </tabular>
+            </table>
         </statement>
       </exercise>
     </subexercises>
