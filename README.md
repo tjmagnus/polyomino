@@ -1,4 +1,4 @@
-# Polyominoes, Polygons, and Polyhedra: Discovering Geometry through Explorations
+# Polyominoes, Polygons, and Polyhedra: Discovering Geometry through Exploration
 
 Currently under construction, Polyominos, Polygons, and Polyhedra is a geometry online opensource textbook for students not majoring in mathematics, 
 including Elementary Education majors. The textbook encourages learning through activities, both hands-on and virtual. Mathematics instructors who are 
