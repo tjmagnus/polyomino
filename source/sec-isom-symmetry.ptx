@@ -4,10 +4,10 @@
   <title>Symmetry</title>
   <introduction>
     <p>
-      Snowflakes, product logos, rose windows, mandalas: these are just a few examples of 
+      Snowflakes, product logos, rose windows, and mandalas: these are just a few examples of 
       symmetry in our world. While the applications to art and architecture may 
       be most obvious, scientists observe symmetry as they study the structure 
-      and behavior of chemicals, plantlife, and reflected objects. 
+      and behavior of chemicals, bacterium, plants, and animals. 
     </p>
   </introduction>
   <subsection>
@@ -75,8 +75,10 @@
         A design is said to have <term>rotational symmetry</term> if there is a 
         rotation about a point with a positive angle of less than 360 degrees that 
         maps the design onto itself. The image of the design will look identical to the original
-        even in location and angle. The number of positions that the figure can be 
-        rotated to and still look the same is called the <term>order of symmetry</term>. 
+        in shape, location, and angle <fn>Designs may have color symmetry in which 
+        identical colors are required. Sometimes we focus only on symmetry of form 
+        and allow differences in color.</fn>. The number of positions to which the figure can be 
+        rotated and still look the same is called the <term>order of symmetry</term>. 
         In calculating the order of symmetry, we count a full 360-degree turn, but not a 0-degree
         rotation. If the order of symmetry of a figure is <m>k</m>, we say that the 
         figure has <term><m>k</m>-fold symmetry.</term>
@@ -85,95 +87,132 @@
   </definition>
   <exercise>
     <title>Check your understanding</title>
-    <statement>
+    <introduction>
       <p>
-        <ol>
-          <li>
-            <p>
-              Where is the center of the rotation for the design in 
-              <xref ref="fig-rosette1"/>? How is it related to the lines of 
-              symmetry?
-            </p>
-          </li>
-          <li>
-            <p>
-              What is the smallest positive angle of symmetry for the design 
-              in <xref ref="fig-rosette1"/>? 
-            </p>
-          </li>
-          <li>
-            <p>
-              The design in <xref ref="fig-rosette1"/> has <m>k</m>-fold 
-              symmetry for what value of <m>k</m>? Explain.
-            </p>
-          </li>
-        </ol>
+        Refer to the design in <xref ref="fig-rosette1"/> as you answer 
+        the following:
       </p>
-    </statement>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          Where is the center of the rotation for the design in 
+          <xref ref="fig-rosette1"/>? How is it related to the lines of 
+          symmetry?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          What is the smallest positive angle of symmetry for the design? 
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          The design has <m>k</m>-fold symmetry for what value of <m>k</m>? 
+          Explain.
+        </p>
+      </statement>
+    </task>
   </exercise>
   </subsection>
   <subsection>
-    <title>Exploring Symmetry</title>
-  <exploration>
-    <title>Symmetries of Polygons and Polyominos</title>
-    <introduction>
-      <p>
-        What types of symmetry do regular polygons have? Do all polygons and 
-        polyominos have these symmetries?
-      </p>
-    </introduction>
+    <title>Exploring Symmetry of Polygons</title>
+    <exploration>
+      <title>Symmetry of Triangles</title>
+      <introduction>
+        <p>
+          In this exploration we will consider the following questions: 
+          What types of symmetry do triangles have? How does the shape of the
+          triangle affect its symmetry?
+        </p>
+        <figure xml:id="fig-simple-symmtri">
+          <caption>An Equilateral Triangle</caption>
+          <interactive xml:id="simple-symmtri-app" platform="geogebra">
+          <slate surface="geogebra" material="bpwdrdwa"/>
+          </interactive>
+        </figure>
+      </introduction>
       <task>
         <title>Symmetries of an Equilateral Triangle</title>
-        <statement>
+        <introduction>
           <p>
             <xref ref="fig-simple-symmtri"/> gives a picture of an equilateral 
-            triangle. 
-            <ol>
-              <li>
-                <p>
-                  Draw a line of symmetry for this triangle. Then use the 
-                  reflect across line tool to verify that your line works.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Does the equilateral triangle have any other lines of symmetry? 
-                  If so, draw all lines of symmetry. Use the reflect across line 
-                  tool to check your work as needed.
-                </p>
-              </li>
-              <li>
-                <p>
-                  An equilateral triangle also has rotational symmetry. Identify 
-                  the center of rotational symmetry, drawing it if it doesn't 
-                  already exist.
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the smallest positive angle of rotational symmetry for 
-                  this triangle? If you rotate in a counterclockwise direction, 
-                  where does vertex <m>A</m> move to under this rotation?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What other angles of symmetry are possible? What do you notice?
-                </p>
-              </li>
-            </ol>
+            triangle.
           </p>
-          <figure xml:id="fig-simple-symmtri">
-            <caption>An Equilateral Triangle</caption>
-            <interactive xml:id="simple-symmtri-app" platform="geogebra">
-            <slate surface="geogebra" material="bpwdrdwa"/>
-            </interactive>
-          </figure>
-        </statement>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Draw a line of symmetry for this triangle. Then use the 
+              reflect across line tool to verify that your line works.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Browse the tool menus of the GeoGebra applet. Tools for midpoint,
+              perpendicular line/bisector, and angle bisector are provided.
+            </p>
+          </hint>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does the equilateral triangle have any other lines of symmetry? 
+              If so, draw all lines of symmetry. Use the reflect across line 
+              tool to check your work as needed.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              An equilateral triangle also has rotational symmetry. Identify 
+              the center of rotational symmetry, drawing it if it does not 
+              already exist.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              GeoGebra will only recognize a point at intersection if you 
+              construct it. Use the point tool or intersection tool.
+            </p>
+          </hint>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What is the smallest positive angle of rotational symmetry for 
+              this triangle? If you rotate in a counterclockwise direction, 
+              where does vertex <m>A</m> move to under this rotation?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Selecting the points in the reverse order will give you the 
+              measure of the other angle formed by the rays.
+            </p>
+          </hint>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What other angles of symmetry are possible? What do you notice?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Rotational angle measures may be greater than 180 degrees.
+            </p>
+          </hint>
+        </task>
       </task>
       <task>
         <title>Symmetries of Other Triangles</title>
-        <statement>
+        <introduction>
           <p>
             <xref ref="fig-isos-and-scalene-symm"/> shows a picture of an 
             isosceles triangle and a scalene triangle.
@@ -184,124 +223,140 @@
               <slate surface="geogebra" material="rrjz4aj3"/>
               </interactive>
           </figure>
-          <p>
-            <ol>
-              <li>
-                <p>
-                  Does an isosceles (nonequilateral) triangle have reflective symmetry? 
-                  If so, draw the line(s) of symmetry for the isosceles triangle 
-                  in <xref ref="fig-isos-and-scalene-symm"/>. If not, explain.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Does an isosceles (nonequilateral) triangle have rotational symmetry? 
-                  If so, give the center and angle of symmetry for the isosceles triangle 
-                  in <xref ref="fig-isos-and-scalene-symm"/>. If not, explain.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Does a scalene triangle have either reflective or rotational symmetry? 
-                  Justify your answer.
-                </p>
-              </li>
-            </ol>
-          </p>
-        </statement>
-      </task>
-      <task>
-        <title>Symmetries of Regular Polygons</title>
-        <statement>
-          <p>
-            <xref ref="fig-regpoly-symm"/> shows pictures of a regular 
-            quadrilateral, a regular pentagon, and a regular hexagon. 
-          </p>
-          <aside>
+        </introduction>
+        <task>
+          <statement>
             <p>
-              In this activity, you may want to simplify your drawings by showing segments
-              instead of lines.
+              Does an isosceles (nonequilateral) triangle have reflective symmetry? 
+              If so, draw the line(s) of symmetry for the isosceles triangle 
+              in <xref ref="fig-isos-and-scalene-symm"/>. If not, explain.
             </p>
-          </aside>
-          <figure xml:id="fig-regpoly-symm">
-            <caption>GeoGebra applet with regular polygons</caption>
-            <interactive xml:id="Geo-regpoly-symm" platform="geogebra">
-              <slate surface="geogebra" material="dcp64gdt"/>
-            </interactive>
-          </figure>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does an isosceles (nonequilateral) triangle have rotational symmetry? 
+              If so, give the center and angle of symmetry for the isosceles triangle 
+              in <xref ref="fig-isos-and-scalene-symm"/>. If not, explain.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does a scalene triangle have either reflective or rotational symmetry? 
+              Justify your answer.
+            </p>
+          </statement>
+        </task>
+      </task>
+    </exploration>
+    <p>
+      We observed that the symmetry of a triangle depends on the number of 
+      congruent sides it has. An equilateral triangle has both rotational and 
+      mirror symmetry, an isosceles triangle has only mirror symmetry, and a 
+      scalene triangle has neither type of symmetry. In the next exploration,
+      we look at the symmetries of regular <m>n</m>-gons.
+    </p>
+    <exploration>
+      <title>Symmetries of Regular Polygons</title>
+      <introduction>
+        <p>
+          <xref ref="fig-regpoly-symm"/> shows pictures of a regular 
+          quadrilateral, a regular pentagon, and a regular hexagon. 
+        </p>
+        <aside>
           <p>
-            <ol>
-              <li>
-                How many lines of symmetry does a square have? Draw the lines
-                of symmetry for the square in <xref ref="fig-regpoly-symm"/>.
-              </li>
-              <li>
-                How many lines of symmetry does a regular pentagon have? Draw the lines
-                of symmetry for the pentagon in <xref ref="fig-regpoly-symm"/>.
-              </li>
-              <li>
-                How many lines of symmetry does a regular hexagon have? Draw the lines
-                of symmetry for the hexagon in <xref ref="fig-regpoly-symm"/>.
-              </li>
-              <li>
-                How many lines of symmetry will a regular <m>n</m>-gon have? Does it matter 
-                whether <m>n</m> is odd or even? Explain your reasoning.
-              </li>
-              <li>
-                List all the positive angles of rotation up to and including 360 degrees
-                for a square. What is the order of symmetry for a square?
-              </li>
-              <li>
-                List all the positive angles of rotation up to and including 360 degrees
-                for a regular pentagon. What is the order of symmetry for a regular pentagon?
-              </li>
-              <li>
-                List all the positive angles of rotation up to and including 360 degrees
-                for a regular hexagon. What is the order of symmetry for a 
-                regular hexagon?
-              </li>
-              <li>
-                What is the order of symmetry for a regular <m>n</m>-gon?
-              </li>
-              <li>
-                What is the smallest positive angle of rotational symmetry for a regular
-                <m>n</m>-gon?
-              </li>
-              <li>
-                <p>
-                  How is the smallest positive angle of rotation related to the 
-                  order of symmetry?
-                </p>
-              </li>
-            </ol>
+            In this activity, you may want to simplify your drawings by showing segments
+            instead of lines. The <sq>Show/Hide Object</sq> tool is in the last menu.
+          </p>
+        </aside>
+        <figure xml:id="fig-regpoly-symm">
+          <caption>GeoGebra applet with regular polygons</caption>
+          <interactive xml:id="Geo-regpoly-symm" platform="geogebra">
+            <slate surface="geogebra" material="dcp64gdt"/>
+          </interactive>
+        </figure>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            How many lines of symmetry does a square have? Draw the lines
+            of symmetry for the square in <xref ref="fig-regpoly-symm"/>.
           </p>
         </statement>
       </task>
       <task>
-        <title>Symmetry of non-regular quadrilaterals</title>
         <statement>
           <p>
-            <ol>
-              <li>
-                Sketch a quadrilateral that has exactly two lines of 
-                symmetry. Does your quadrilateral also have rotational symmetry? 
-                If it does, locate the center and state the lowest positive degree 
-                angle of rotation.
-              </li>
-              <li>
-                Sketch a quadrilateral that has no lines of symmetry and no rotational 
-                symmetry. Explain why your example satisfies these conditions.
-              </li>
-              <li>
-                Sketch a quadrilateral that has 2-fold rotational symmetry but no mirror 
-                symmetry. What is the smallest positive degree angle of rotation. Explain 
-                why your example satisfies these conditions.
-              </li>
-              <li>
-                Sketch a quadrilateral that has a line of symmetry but no rotational 
-                symmetry. Explain why your example satisfies these conditions.
-              </li>
-            </ol>
+            How many lines of symmetry does a regular pentagon have? Draw the lines
+              of symmetry for the pentagon in <xref ref="fig-regpoly-symm"/>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            How many lines of symmetry does a regular hexagon have? Draw the lines
+              of symmetry for the hexagon in <xref ref="fig-regpoly-symm"/>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            How many lines of symmetry will a regular <m>n</m>-gon have? Does it matter 
+            whether <m>n</m> is odd or even? Explain your reasoning.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            List all the positive angles of rotation up to and including 360 degrees
+            for a square. What is the order of symmetry for a square?
+          </p>
+        </statement>
+      </task>  
+      <task>
+        <statement>
+          <p>
+            List all the positive angles of rotation up to and including 360 degrees
+            for a regular pentagon. What is the order of symmetry for a 
+            regular pentagon?
+          </p>
+        </statement>
+      </task>  
+      <task>
+        <statement>
+          <p>
+            List all the positive angles of rotation up to and including 360 degrees
+            for a regular hexagon. What is the order of symmetry for a 
+            regular hexagon?
+          </p>
+        </statement>
+      </task> 
+      <task>
+        <statement>
+          <p>
+            What is the order of symmetry for a regular <m>n</m>-gon? 
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What is the smallest positive angle of rotational symmetry for a regular
+            <m>n</m>-gon? 
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            For a regular polygon, how is the smallest positive angle of 
+            rotation related to the order of symmetry?
           </p>
         </statement>
       </task>
@@ -315,6 +370,57 @@
           </p>
         </statement>
       </task>
+    </exploration>
+    <exploration> 
+      <title>Symmetry of non-regular quadrilaterals</title>
+        <introduction>
+          <p>
+            The following tasks may be done on paper or using the 
+            blank GeoGebra canvas provided in 
+            <xref ref="fig-blankGG-polysymm"/>. 
+          </p>
+        </introduction>
+      <task>
+        <statement>
+          <p>
+            Sketch a quadrilateral that has exactly two lines of 
+            symmetry. Does your quadrilateral also have rotational symmetry? 
+            If it does, locate the center and state the lowest positive degree 
+            angle of rotation.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Sketch a quadrilateral that has no lines of symmetry and no rotational 
+            symmetry. Explain why your example satisfies these conditions.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Sketch a quadrilateral that has 2-fold rotational symmetry but no mirror 
+              symmetry. What is the smallest positive degree angle of rotation. Explain 
+              why your example satisfies these conditions.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Sketch a quadrilateral that has a line of symmetry but no rotational 
+              symmetry. Explain why your example satisfies these conditions.
+          </p>
+        </statement>
+      </task>
+      <figure xml:id="fig-blankGG-polysymm">
+        <caption>A blank GeoGebra palette.</caption>
+        <interactive xml:id="Geo-blank" platform="geogebra">
+          <slate surface="geogebra" material="ghhcytzj"/>
+        </interactive>
+      </figure>
     </exploration>
   </subsection>
   <subsection xml:id="subsec-symm-transformations">
@@ -337,15 +443,16 @@
       </statement>
     </definition>
     <p>
-        In <xref ref="sec-isom-composing-reflections"/>, we saw that when we performed 
-        a sequence of reflections in succession, the composition was the same as an 
-        isometry, either another reflection, a translation, a rotation, or a glide 
-        reflection depending on the number of reflections and whether the reflecting 
+        In <xref ref="sec-isom-composing-reflections"/>, we saw that when we 
+        performed a sequence of reflections in succession, the composition was 
+        the same as a single isometry, either another reflection, a 
+        translation, a rotation, or a glide reflection. The type of isometry 
+        depended on the number of reflections and whether the reflecting 
         lines were parallel. With a finite design such as the one in 
-        <xref ref="fig-rosette1"/>, note that any lines of symmetry must intersect 
-        and their point of intersection will be in the center of the figure. If the 
-        figure also has rotational symmetry, the center of the rotation will also at 
-        this central point.
+        <xref ref="fig-rosette1"/>, note that any lines of symmetry must 
+        intersect and their point of intersection will be in the center of the 
+        figure. If the figure also has rotational symmetry, then the center of the 
+        rotation will be at this central point.
     </p>
     <exercise>
       <title>Reflective Questions</title>
@@ -366,109 +473,125 @@
         <title>Symmetries of an Equilateral Triangle</title>
         <introduction>
           <p>
-            Throughout this exploration, you may use the GeoGebra applet, 
+            Throughout this exploration, you may use the GeoGebra applet 
             <xref ref="GGappfortrisymm"/> as needed. For a tactile exploration, 
             label and cut out an equilateral triangle that you can flip and rotate.
           </p>
         </introduction>
         <task>
           <title>Rotations of an Equilateral Triangle</title>
+          <introduction>
+            <p>
+              As previously discovered, an equilateral triangle has 3-fold
+                  symmetry.
+            </p>
+            <figure xml:id="GGappfortrisymm">
+              <caption>GeoGebra applet for exploring the symmetries of an 
+                equilateral triangle
+              </caption>
+              <interactive xml:id="symmtri-app"
+            platform="geogebra">
+            <slate surface="geogebra" material="srjypnmr"/>
+            </interactive>
+            </figure>
+          </introduction>
+          <task>
             <statement>
-                <p>
-                    As previously discovered, an equilateral triangle has 3-fold
-                    symmetry. 
-                    <ol>
-                      <li>
-                        <p>
-                          What is the smallest positive degree angle of symmetry?
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          Suppose we use the label <m>r_{120}</m> to represent a counterclockwise 
-                          rotation by a 120-degree angle about the center of this triangle. 
-                          What is the effect of performing <m>r_{120}</m> twice 
-                          in succession? Is it the same as a reflection or rotation? Specify 
-                          the reflecting line (if it is a reflection) or rotation angle (if 
-                          it is a rotation) of the composed transformation 
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          What happens if you  rotate the original
-                          triangle using <m>r_{120}</m> three times in succession?
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          A 0-degree rotation can be represented by <m>r_0</m>. Describe in your own 
-                          words what happens when you apply <m>r_0</m>. How does it compare to <m>r_{360}</m>?
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          A clockwise 120-degree rotation is the same as a counterclockwise rotation 
-                          of what degree?
-                        </p>
-                      </li>
-                    </ol>
-                </p>
-                <figure xml:id="GGappfortrisymm">
-                  <caption>GeoGebra applet for exploring the symmetries of an 
-                    equilateral triangle
-                  </caption>
-                  <interactive xml:id="symmtri-app"
-                platform="geogebra">
-                <slate surface="geogebra" material="srjypnmr"/>
-                </interactive>
-                </figure>
-                </statement>
-                <answer>
-                  <p>
-                    1. 120 degrees 
-                  </p>
-                  <p>
-                    2. rotating counterclockwise by 240 degrees
-                  </p>
-                  <p>
-                    3. Back to original position, 
-                  </p>
-                  <p>
-                    4. <m>r_0</m> does nothing while <m>r_360</m>
-                    performs a full rotation. The resulting image is the same.
-                  </p>
-                  <p>
-                      5. 240 degrees.
-                  </p>
-                </answer>
-              </task>
-              <task xml:id="record-trisymm-images">
-                <title>Images of Symmetries</title>
-                <statement>
-                <p>
-                  As we record the result of performing symmetries on the triangle 
-                  in <xref ref="GGappfortrisymm"/>, we will use the notation <m>r_0</m>, <m>r_{120}</m>,
-                  <m>r_{240}</m> to represent counterclockwise rotations of 
-                  0 degrees, 120 degrees, and 240 degrees about the center 
-                  of the triangle.
-                </p>
-                <p>
-                  We will also use the notation <m>m_n</m>, <m>m_p</m>, 
-                  and <m>m_v</m> to denote the reflections across line <m>n</m>
-                  with negative slope, line <m>p</m> with positive slope, and
-                  the vertical line <m>v</m>, respectively.
-                </p>
-                <p>
-                  Because these are symmetries, the actions will always result in 
-                  the same equilateral triangle. What changes is the locations of 
-                  vertices <m>A</m>, <m>B</m>, and <m>C</m>.
-                  Note that the image of the triangle after performing <m>r_0</m> 
-                  is the same as <xref ref="fig-image-eqtrisymmgp"/>. We call this 
-                  the Home Position. When using the GeoGebra applet 
-                  <xref ref="GGappfortrisymm"/>, we can click on the icon in the 
-                  upper right that looks like a circle with clockwise-oriented 
-                  arrows to return to the Home Position. 
+              <p>
+                What is the smallest positive degree angle of symmetry?
               </p>
+            </statement>
+            <answer>
+              <p>
+                120 degrees 
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Suppose we use the label <m>r_{120}</m> to represent a counterclockwise 
+                rotation by a 120-degree angle about the center of this triangle. 
+                What is the effect of performing <m>r_{120}</m> twice 
+                in succession? Is it the same as a reflection or rotation? Specify 
+                the reflecting line (if it is a reflection) or rotation angle (if 
+                it is a rotation) of the composed transformation 
+              </p>
+            </statement>
+            <answer>
+              <p>
+                rotating counterclockwise by 240 degrees
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What happens if you  rotate the original
+                triangle using <m>r_{120}</m> three times in succession?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                The triangle returns to original position, 
+              </p>
+            </answer>
+          </task>
+          <task> 
+            <statement>
+              <p>
+                A 0-degree rotation can be represented by <m>r_0</m>. Describe in your own 
+                words what happens when you apply <m>r_0</m>. How does it compare to <m>r_{360}</m>?
+              </p>
+            </statement>           
+            <answer>
+              <p>
+                Nothing happens. The triangle remains in its original position which 
+                is the same position as when it is rotated 360 degrees.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A clockwise 120-degree rotation is the same as a counterclockwise rotation 
+                of what degree?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                240 degrees
+              </p>
+            </answer>
+          </task>
+        </task>
+        <task xml:id="record-trisymm-images">
+          <title>Images of Symmetries</title>
+            <introduction>
+              <p>
+                As we record the result of performing symmetries on the triangle 
+                in <xref ref="GGappfortrisymm"/>, we will use the notation <m>r_0</m>, <m>r_{120}</m>,
+                <m>r_{240}</m> to represent counterclockwise rotations of 
+                0 degrees, 120 degrees, and 240 degrees about the center 
+                of the triangle.
+              </p>
+              <p>
+                We will also use the notation <m>m_n</m>, <m>m_p</m>, 
+                and <m>m_v</m> to denote the reflections across line <m>n</m>
+                with negative slope, line <m>p</m> with positive slope, and
+                the vertical line <m>v</m>, respectively.
+              </p>
+              <p>
+                Because these are symmetries, the actions will always result in 
+                the same equilateral triangle. What changes is the locations of 
+                vertices <m>A</m>, <m>B</m>, and <m>C</m>.
+                Note that the image of the triangle after performing <m>r_0</m> 
+                is the same as <xref ref="fig-image-eqtrisymmgp"/>. We call this 
+                the Home Position. When using the GeoGebra applet 
+                <xref ref="GGappfortrisymm"/>, we can click on the icon in the 
+                upper right that looks like a circle with clockwise-oriented 
+                arrows to return to the Home Position. 
+            </p>
             <figure xml:id="fig-image-eqtrisymmgp">
               <caption>Home Position of Equilateral Triangle</caption>
               <image source="eqtri-for-symmgp-image" width="60%">
@@ -479,49 +602,86 @@
               </image>
             </figure>
             <p>
-                  Being sure to start in the home position each time, record 
-                  where the vertices <m>A</m>, <m>B</m>, and <m>C</m> land after 
-                  each of the following symmetry transformations:
-              <ol>
-                <li>
-                  <m>r_{120}</m>
-                </li>
-                <li>
-                  <m>r_{240}</m>
-                </li>
-                <li>
-                  <m>m_n</m>
-                </li>
-                <li>
-                  <m>m_p</m>
-                </li>
-                <li>
-                  <m>m_v</m>
-                </li>
-              </ol>
-              Note that each of these five transformations should result in 
-              a different arrangement of the vertices, <m>A</m>, <m>B</m>, and
-              <m>C</m>, none of which will be the same as <m>r_0</m>. You will
-              need to refer to these arrangements in the next task.
+              Being sure to start in the home position each time, draw and 
+              save a sketch that shows where the vertices <m>A</m>, <m>B</m>, 
+              and <m>C</m> land after each of the following symmetry 
+              transformations. You will need to refer to these sketches 
+              in tasks that follow.
             </p>
-          </statement>
-          <answer>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                <m>r_{120}</m>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                  <m>r_{120}</m>: <m>C</m> is on top; bottom left to right is 
+                  <m>BA</m>.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                <m>r_{240}</m>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                <m>r_{240}</m>: <m>A</m> is on top; bottom left to right 
+                is <m>CB</m>.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                <m>m_n</m>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                <m>m_n</m>: <m>A</m> is on top; bottom left to right is 
+                <m>BC</m>.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                <m>m_p</m>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                <m>m_p</m>: <m>C</m> is on top; bottom left to right is 
+                <m>AB</m>.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                <m>m_v</m>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                <m>m_v</m>: <m>B</m> is on top; bottom left to right is 
+                <m>CA</m>.
+              </p>
+            </hint>
+          </task>
+          <conclusion>
             <p>
-              1. <m>r_{120}</m>: <m>C</m> is on top; bottom left to right is <m>BA</m>.
+              It is not an accident that each of these five transformations 
+              results in a different arrangement of the vertices, <m>A</m>, 
+              <m>B</m>, and <m>C</m>, none of which will be the same as 
+              <m>r_0</m>. 
             </p>
-            <p>
-              2. <m>r_{240}</m>: <m>A</m> is on top; bottom left to right is <m>CB</m>.
-            </p>
-            <p>
-              3. <m>m_n</m>: <m>A</m> is on top; bottom left to right is <m>BC</m>.
-            </p>
-            <p>
-              4. <m>m_p</m>: <m>C</m> is on top; bottom left to right is <m>AB</m>.
-            </p>
-            <p>
-              5. <m>m_v</m>: <m>B</m> is on top; bottom left to right is <m>CA</m>.
-            </p>
-          </answer>
+          </conclusion>
         </task>
         <task>
           <title>Setting the Stage</title>
@@ -609,13 +769,13 @@
                   <cell> 5 </cell>
                 </row>
                 <row header="no" bottom="minor">
-                      <cell> 1 </cell>
-                      <cell> 1 </cell>
-                      <cell> 2 </cell>
-                      <cell> 3 </cell>
-                      <cell> 4 </cell>
-                      <cell> 5 </cell>
-                    </row>
+                  <cell> 1 </cell>
+                  <cell> 1 </cell>
+                  <cell> 2 </cell>
+                  <cell> 3 </cell>
+                  <cell> 4 </cell>
+                  <cell> 5 </cell>
+                </row>
                 <row header="no" bottom="minor">
                   <cell> 2 </cell>
                   <cell>2</cell>
@@ -653,12 +813,12 @@
           </answer>
         </task>
         <task>
-          <statement>
+          <introduction>
             <p>
               Like the multiplication table above, we can create a table for the 
               composition of symmetry isomorphisms on an equilateral triangle using the
-              following steps as a guide. Each entry you add to the table should 
-              always be one of the six symmetries of the triangle; namely,
+              following steps as a guide. Each entry you add to <xref ref="composition-table"/> 
+              will always be one of the six symmetries of the triangle; namely,
               <m>r_0</m>, <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, <m>m_p</m>, or 
               <m>m_v</m>. When you use <xref ref="GGappfortrisymm"/> to compute compositions,
               be sure to reset the triangle to home position before performing the first of 
@@ -667,93 +827,6 @@
               <xref ref="record-trisymm-images"/> and then use the symbol,
               <m>r_0</m>, <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, <m>m_p</m>, or 
               <m>m_v</m> that corresponds to the output of the composition.
-              <ol>
-                <li>
-                  <p>
-                    The row and column headed by <m>r_0</m> have already been filled
-                    in. Explain why this row and column is the same as the header row 
-                    and header column. In particular, what is the action of <m>r_0</m> on 
-                    the vertices of triangle <m>\Delta ABC</m>?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Determine the compositions of two rotations, namely <m>r_{120}\circ r_{120}</m>,
-                    <m>r_{120}\circ r_{240}</m>, <m>r_{240}\circ r_{120}</m>, and <m>r_{240}\circ r_{240}</m>. 
-                    Add these results, using the appropriate <m>r_x</m> or <m>m_x</m> shorthand 
-                    to the table in the appropriate locations.<fn>The column will be headed by 
-                    the first action performed and the row will be headed by the second action.</fn>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    The nine cells in the upper left should now be filled. Starting with the  
-                    triangle in home position<xref ref="GGappfortrisymm"/>, 
-                    perform <m>m_n</m> followed by <m>r_{120}</m>.<fn>This operation
-                    is the same as <m>r_{120}\circ m_n</m>, the composition of <m>r_{120}</m>
-                    and <m>m_n</m> since the composition of two functions 
-                    <m>f</m> and <m>g</m> is defined by mathematicians to be <m>f\circ g(x)=f(g(x))</m>.
-                    See <xref ref="def-composition"/>. For this activity, we will refer to the first 
-                    and second action throughout to maintain clarity.</fn>. 
-                    Record the symbol in <xref ref="record-trisymm-images"/> that corresponds to the
-                    resulting image in the cell in the <m>m_n</m>-column and the <m>r_{120}</m>-row.
-                    </p>
-                </li>
-                <li>
-                  <p>
-                    Is <m>m_n\circ r_{120}</m> the same as <m>r_{120}\circ m_n</m>? To determine 
-                    <m>m_n\circ r_{120}</m>, start at the home position and first perform <m>r_{120}</m> 
-                    followed by <m>m_n</m>. Write the symmetry you just found in the cell of the 
-                    <m>r_{120}</m>-column and <m>m_n</m>-row. Compare the two results.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    To complete the <m>r_{120}</m>-column, compute the two compositions:
-                    <ol>
-                      <li>
-                        <p>
-                          <m>r_{120}\circ m_p</m>, by first rotating the triangle in home position 
-                          120 degrees counterclockwise and then reflecting the resulting 
-                          triangle across line <m>p</m>, and 
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          <m>r_{120}\circ m_v</m>, by first rotating the triangle in home position 
-                          120 degrees counterclockwise and then reflecting the resulting 
-                          triangle across line <m>v</m>.
-                        </p>
-                      </li>
-                    </ol>
-                    The <m>r_{120}</m>-column should now be completely filled. Each of the 
-                    symmetries, <m>r_0</m>, <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, 
-                    <m>m_p</m>, and <m>m_v</m> will appear exactly once in this colunn.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Now complete the <m>r_{240}</m>-column, each time rotating counterclockwise 240 
-                    degrees before performing the symmetry corresponding 
-                    to the row heading. Be sure to 
-                    return to the home position before beginning each two-stage calculation.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Similarly, we will complete the <m>m_n</m>-column by reflecting the home triangle 
-                    across the line <m>n</m> before performing the symmetry 
-                    corresponding to the row heading. Check again to make sure that no 
-                    symmetry appears twice in the same column.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Complete the last two columns where the first transformation is reflection 
-                    across the lines <m>p</m> and <m>v</m>, respectively.
-                  </p>
-                </li>
-              </ol>
             </p>
             <table xml:id="composition-table">
               <title>Composition Table</title>
@@ -830,101 +903,240 @@
                 </row>
               </tabular>
             </table>
-          </statement>
-          <answer>
-            <p>
-              1. <m>r_0</m> does not affect the vertices of the triangle.
-            </p>
-            <p>
-              2. <m>r_{120}\circ r_{120}=r_{240}</m>; <m>r_{120}\circ r_{240}=r_0</m>;
-              <m>r_{240}\circ r_{120}=r_{0}</m>; <m>r_{240}\circ r_{240}=r_{120}</m>.
-            </p>
-            <p>
-              3. <m>m_n</m> followed by <m>r_120</m> results in <m>m_p</m>. In symbols,
-              <m>r_120\circ m_n=m_p</m>.
-            </p>
-            <p>
-              4. No, these are not the same. 
-            </p>
-            <p>
-              5. The table follows. 
-            </p>
-              <table xml:id="composition-table-key">
-                <title>Composition Table Key</title>
-                <tabular halign="center" row-headers="yes">
-                  <col right="medium"/>
-                  <col right="minor"/>
-                  <col right="minor"/>
-                  <col right="minor"/>
-                  <col right="minor"/>
-                  <col right="minor"/>
-                  <col right="minor"/>
-                  <row header="yes" bottom="medium">
-                    <cell><m>\circ</m></cell>
-                    <cell><m>r_0</m></cell>
-                    <cell><m>r_{120}</m></cell>
-                    <cell><m>r_{240}</m></cell>
-                    <cell><m>m_n</m></cell>
-                    <cell><m>m_p</m></cell>
-                    <cell><m>m_v</m></cell>
-                  </row>
-                  <row header="no" bottom="minor">
-                    <cell><m>r_0</m></cell>
-                    <cell><m>r_0</m></cell>
-                    <cell><m>r_{120}</m></cell>
-                    <cell><m>r_{240}</m></cell>
-                    <cell><m>m_n</m></cell>
-                    <cell><m>m_p</m></cell>
-                    <cell><m>m_v</m></cell>
-                  </row>
-                  <row header="no" bottom="minor">
-                    <cell><m>r_{120}</m></cell>
-                    <cell><m>r_{120}</m></cell>
-                    <cell><m>r_{240}</m></cell>
-                    <cell><m>r_0</m></cell>
-                    <cell><m>m_p</m></cell>
-                    <cell><m>m_v</m></cell>
-                    <cell><m>m_n</m></cell>
-                  </row>
-                  <row header="no" bottom="minor">
-                    <cell><m>r_{240}</m></cell>
-                    <cell><m>r_{240}</m></cell>
-                    <cell><m>r_0</m></cell>
-                    <cell><m>r_{120}</m></cell>
-                    <cell><m>m_v</m></cell>
-                    <cell><m>m_n</m></cell>
-                    <cell><m>m_p</m></cell>
-                  </row>
-                  <row header="no" bottom="minor">
-                    <cell><m>m_n</m></cell>
-                    <cell><m>m_n</m></cell>
-                    <cell><m>m_v</m></cell>
-                    <cell><m>m_p</m></cell>
-                    <cell><m>r_0</m></cell>
-                    <cell><m>r_{240}</m></cell>
-                    <cell><m>r_{120}</m></cell>
-                  </row>
-                  <row header="no" bottom="minor">
-                    <cell><m>m_p</m></cell>
-                    <cell><m>m_p</m></cell>
-                    <cell><m>m_n</m></cell>
-                    <cell><m>m_v</m></cell>
-                    <cell><m>r_{120}</m></cell>
-                    <cell><m>r_0</m></cell>
-                    <cell><m>r_{240}</m></cell>
-                  </row>
-                  <row header="no" bottom="minor">
-                    <cell><m>m_v</m></cell>
-                    <cell><m>m_v</m></cell>
-                    <cell><m>m_p</m></cell>
-                    <cell><m>m_n</m></cell>
-                    <cell><m>r_{240}</m></cell>
-                    <cell><m>r_{120}</m></cell>
-                    <cell><m>r_0</m></cell>
-                  </row>
-                </tabular>
-              </table>
-          </answer>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                The row and column headed by <m>r_0</m> have already been filled
+                in. Explain why this row and column is the same as the header row 
+                and header column. In particular, what is the action of <m>r_0</m> on 
+                the vertices of triangle <m>\Delta ABC</m>?
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Do you notice the similarity between the action of <m>r_0</m> here 
+                and the way the number 1 acts in multiplication?
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Determine the compositions of two rotations, namely <m>r_{120}\circ r_{120}</m>,
+                <m>r_{120}\circ r_{240}</m>, <m>r_{240}\circ r_{120}</m>, and <m>r_{240}\circ r_{240}</m>. 
+                Enter these results into the table, using the appropriate <m>r_x</m> or 
+                <m>m_x</m> shorthand in the appropriate locations.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                  The column will be headed by the first action performed and 
+                  the row will be headed by the second action. As an example,
+                  the result of <m>r_{240}</m> (rotating by 240 degrees) followed 
+                  by <m>r_{120}</m> (rotating by 120 degrees) would be entered
+                  into the cell below 240 and to the right of 120.
+              </p>
+            </hint>
+            <answer>
+              <p>
+                  <m>r_{120}\circ r_{120}=r_{240}</m>; <m>r_{120}\circ r_{240}=r_0</m>;
+                  <m>r_{240}\circ r_{120}=r_{0}</m>; <m>r_{240}\circ r_{240}=r_{120}</m>.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                The nine cells in the upper left should now be filled. Starting with the  
+                triangle in the home position of <xref ref="GGappfortrisymm"/>, 
+                perform <m>m_n</m> followed by <m>r_{120}</m>.<fn>This operation
+                is the same as <m>r_{120}\circ m_n</m>, the composition of <m>r_{120}</m>
+                and <m>m_n</m> since the composition of two functions 
+                <m>f</m> and <m>g</m> is defined by mathematicians to be <m>f\circ g(x)=f(g(x))</m>.
+                See <xref ref="def-composition"/>. For this activity, we will refer to the first 
+                and second action throughout to maintain clarity.</fn>. 
+                Record the symbol in <xref ref="record-trisymm-images"/> that corresponds to the
+                resulting image in the cell in the <m>m_n</m>-column and the <m>r_{120}</m>-row.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                <m>m_n</m> followed by <m>r_120</m> results in <m>m_p</m>. In symbols,
+                <m>r_120\circ m_n=m_p</m>.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Is <m>m_n\circ r_{120}</m> the same as <m>r_{120}\circ m_n</m>? To determine 
+                <m>m_n\circ r_{120}</m>, start at the home position and first perform <m>r_{120}</m> 
+                followed by <m>m_n</m>. Write the symmetry you just found in the cell of the 
+                <m>r_{120}</m>-column and <m>m_n</m>-row. Compare the two results.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                The result depends on the order in which you perform the 
+                isometries!
+              </p>
+            </hint>
+            <answer>
+              <p>
+                <m>r_120</m> followed by <m>m_n</m> results in <m>m_v</m>. 
+                In symbols, <m>m_n\circ r_120=m_v</m>.
+              </p>
+            </answer>
+          </task> 
+          <task>
+            <introduction>
+              <p>
+                To complete the <m>r_{120}</m>-column, compute the two 
+                compositions:
+              </p>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  <m>r_{120}\circ m_p</m>, by first rotating the triangle in home position 
+                  120 degrees counterclockwise and then reflecting the resulting 
+                  triangle across line <m>p</m>, and 
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  <m>r_{120}\circ m_v</m>, by first rotating the triangle in home position 
+                  120 degrees counterclockwise and then reflecting the resulting 
+                  triangle across line <m>v</m>.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  The <m>r_{120}</m>-column should now be completely filled. Each of the 
+                  symmetries, <m>r_0</m>, <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, 
+                  <m>m_p</m>, and <m>m_v</m> will appear exactly once in this colunn.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  The <m>r_{120}</m>-column should now be completely filled. Each of the 
+                  symmetries, <m>r_0</m>, <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, 
+                  <m>m_p</m>, and <m>m_v</m> will appear exactly once in this colunn.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Similarly, we will complete the <m>m_n</m>-column by reflecting the home triangle 
+                  across the line <m>n</m> before performing the symmetry 
+                  corresponding to the row heading. Check again to make sure that no 
+                  symmetry appears twice in the same column.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Complete the last two columns where the first transformation is reflection 
+                  across the lines <m>p</m> and <m>v</m>, respectively.
+                </p>
+              </statement>
+              <hint>
+                <p>
+                  Ignoring the headers, each of the six isometries should 
+                  appear exactly once in each row and each column.
+                </p>
+              </hint>
+              <answer>
+                <p>
+                  The table follows. 
+                </p>
+                  <table xml:id="composition-table-key">
+                    <title>Composition Table Key</title>
+                    <tabular halign="center" row-headers="yes">
+                      <col right="medium"/>
+                      <col right="minor"/>
+                      <col right="minor"/>
+                      <col right="minor"/>
+                      <col right="minor"/>
+                      <col right="minor"/>
+                      <col right="minor"/>
+                      <row header="yes" bottom="medium">
+                        <cell><m>\circ</m></cell>
+                        <cell><m>r_0</m></cell>
+                        <cell><m>r_{120}</m></cell>
+                        <cell><m>r_{240}</m></cell>
+                        <cell><m>m_n</m></cell>
+                        <cell><m>m_p</m></cell>
+                        <cell><m>m_v</m></cell>
+                      </row>
+                      <row header="no" bottom="minor">
+                        <cell><m>r_0</m></cell>
+                        <cell><m>r_0</m></cell>
+                        <cell><m>r_{120}</m></cell>
+                        <cell><m>r_{240}</m></cell>
+                        <cell><m>m_n</m></cell>
+                        <cell><m>m_p</m></cell>
+                        <cell><m>m_v</m></cell>
+                      </row>
+                      <row header="no" bottom="minor">
+                        <cell><m>r_{120}</m></cell>
+                        <cell><m>r_{120}</m></cell>
+                        <cell><m>r_{240}</m></cell>
+                        <cell><m>r_0</m></cell>
+                        <cell><m>m_p</m></cell>
+                        <cell><m>m_v</m></cell>
+                        <cell><m>m_n</m></cell>
+                      </row>
+                      <row header="no" bottom="minor">
+                        <cell><m>r_{240}</m></cell>
+                        <cell><m>r_{240}</m></cell>
+                        <cell><m>r_0</m></cell>
+                        <cell><m>r_{120}</m></cell>
+                        <cell><m>m_v</m></cell>
+                        <cell><m>m_n</m></cell>
+                        <cell><m>m_p</m></cell>
+                      </row>
+                      <row header="no" bottom="minor">
+                        <cell><m>m_n</m></cell>
+                        <cell><m>m_n</m></cell>
+                        <cell><m>m_v</m></cell>
+                        <cell><m>m_p</m></cell>
+                        <cell><m>r_0</m></cell>
+                        <cell><m>r_{240}</m></cell>
+                        <cell><m>r_{120}</m></cell>
+                      </row>
+                      <row header="no" bottom="minor">
+                        <cell><m>m_p</m></cell>
+                        <cell><m>m_p</m></cell>
+                        <cell><m>m_n</m></cell>
+                        <cell><m>m_v</m></cell>
+                        <cell><m>r_{120}</m></cell>
+                        <cell><m>r_0</m></cell>
+                        <cell><m>r_{240}</m></cell>
+                      </row>
+                      <row header="no" bottom="minor">
+                        <cell><m>m_v</m></cell>
+                        <cell><m>m_v</m></cell>
+                        <cell><m>m_p</m></cell>
+                        <cell><m>m_n</m></cell>
+                        <cell><m>r_{240}</m></cell>
+                        <cell><m>r_{120}</m></cell>
+                        <cell><m>r_0</m></cell>
+                      </row>
+                    </tabular>
+                  </table>
+              </answer>
+            </task>
+          </task>
         </task>
         <task>
           <title>Observations and Summary</title>

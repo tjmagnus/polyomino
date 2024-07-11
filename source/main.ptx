@@ -12,9 +12,10 @@
   <book xml:id="Poly-cubed-geom-explor">
     <title component="student">Polyominoes, Polygons, and Polyhedra</title>
     <title component="instructor">Instructor's Version of Polyominoes, Polygons, and Polyhedra</title>
-      <subtitle>Discovering Geometry through Explorations</subtitle>
+      <subtitle>Discovering Geometry through Exploration</subtitle>
 <!--Possible cover art created using https://eschersket.ch 
-  image source="eschersketch-cover"-->
+  image source="eschersketch-cover" or use iris picture or create a design with 
+  pattern blocks or other tiles-->
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
@@ -38,7 +39,7 @@
         </website>
 
         <copyright>
-          <year>2020<ndash />2023</year>
+          <year>2023<ndash />2024</year>
           <holder>Teresa D. Magnus</holder>
           <shortlicense> 
             <p>This work is licensed under the 
@@ -77,10 +78,10 @@
     </p>
 
     
-      <p permid="yxZ">
-      Others who deserve mentioning. Annette Gorgoglione and other early 
+    <  <p permid="yxZ">
+      Others who deserve mentioning. Early 
       testers. NE-Commit.
-    </p>
+    </p>>
 
     <p permid="eFi">
       Others?
@@ -100,9 +101,12 @@
     </p>
 
     <p permid="qTA">
-      Finally, a thank you to the numerous Rivier University students who have taken MA127 Geometrical 
-      Explorations over the years. Sarah Frazier, Elisabeth Jacob, and Caitlyn 
-      St. Cyr gave the work a thorough reading and recommended suggestions.
+      Finally, a thank you to the numerous Rivier University students who have taken 
+      MA127 Geometrical Explorations over the years. Watching you work as teams, struggle, 
+      ask questions, grow, and celebrate success has helped me revise these activities 
+      and translate them into book form. I especially want to thank my student editors,
+      Sarah Frazier, Elisabeth Jacob, and Caitlyn St. Cyr gave the work a thorough reading 
+      and provided valuable recommendations.
     </p>
   </acknowledgement>-->
 
