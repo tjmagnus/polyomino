@@ -574,7 +574,7 @@
                 <statement>
                     <p>
                         The face <m>ABCDE</m> of the right pentagonal prism in 
-                        <xref ref="fig-ExtConc-pent-prism.png"/> has right angles <m>\angle{EAB}</m>
+                        <xref ref="fig-ExtConc-pent-prism"/> has right angles <m>\angle{EAB}</m>
                         and <m>\angle{ABC}</m>. Segment <m>\overline{DF}</m> is an altitude for 
                         the pentagon meeting <m>\overline{AB}</m> at point <m>F</m>. The lengths 
                         of the sides of <m>ABCDE</m> are the same as those shown for the summit
@@ -620,7 +620,7 @@
                         whether you use <m>\sqrt{41}</m> or 6.4 in your work.
                     </p>
                 </hint>
-                <figure xml:id="fig-ExtConc-pent-prism.png">
+                <figure xml:id="fig-ExtConc-pent-prism">
                     <caption>Pentagonal prism for <xref ref="exer-ExtConc-pent-prism"/></caption>
                     <!--https://www.geogebra.org/3d/p4r2vt43-->
                     <image source="ExtConc-pent-prism.png">
