@@ -121,28 +121,49 @@
   </subsection>
   <subsection>
     <title>Exploring Symmetry of Polygons</title>
-    <exploration>
+    <introduction>
+      <p>
+        In this section, we will focus on the symmetry of polygons and observe
+        why regular polygons have greater symmetry than nonregular ones. Once 
+        again, we look for consistant patterns that might generalize. 
+      </p>
+      <p>
+        We begin our exploration with triangles: As you complete the activities
+        in <xref ref="explor-symm-triangletype"/>, consider the following questions:
+        What types of symmetry do triangles have? How does the shape of a
+        triangle affect its symmetry? 
+      </p>
+      <aside>
+        <p>
+          <xref ref="explor-symm-triangletype"/> and 
+          <xref ref="explor-symm-regpoly"/> may be completed using the provided
+          GeoGebra applets or on paper. Note that folding is an effective tool 
+          for constructing and verifying lines of symmetry. A protractor and 
+          straight edge are also helpful in performing these task.
+        </p>
+      </aside>
+      </introduction>
+    <exploration xml:id="explor-symm-triangletype">
       <title>Symmetry of Triangles</title>
       <introduction>
         <p>
-          In this exploration we will consider the following questions: 
-          What types of symmetry do triangles have? How does the shape of the
-          triangle affect its symmetry?
+          An equilateral triangle is a regular triangle. We explore its
+          symmetry before looking at other triangles.
         </p>
-        <figure xml:id="fig-simple-symmtri">
-          <caption>An Equilateral Triangle</caption>
-          <interactive xml:id="simple-symmtri-app" platform="geogebra">
-          <slate surface="geogebra" material="bpwdrdwa"/>
-          </interactive>
-        </figure>
       </introduction>
       <task>
-        <title>Symmetries of an Equilateral Triangle</title>
+        <title>Symmetry of an Equilateral Triangle</title>
         <introduction>
           <p>
-            <xref ref="fig-simple-symmtri"/> gives a picture of an equilateral 
-            triangle.
+            The GeoGebra applet <xref ref="fig-simple-symmtri"/> provides an 
+            equilateral triangle along with some construction tools.
           </p>
+          <figure xml:id="fig-simple-symmtri" height="350">
+            <caption>An Equilateral Triangle</caption>
+            <interactive xml:id="simple-symmtri-app" platform="geogebra">
+            <slate surface="geogebra" material="bpwdrdwa"/>
+            </interactive>
+          </figure>
         </introduction>
         <task>
           <statement>
@@ -253,14 +274,16 @@
       </task>
     </exploration>
     <p>
-      We observed that the symmetry of a triangle depends on the number of 
-      congruent sides it has. An equilateral triangle has both rotational and 
-      mirror symmetry, an isosceles triangle has only mirror symmetry, and a 
-      scalene triangle has neither type of symmetry. In the next exploration,
-      we look at the symmetries of regular <m>n</m>-gons.
+      Perhaps you noticed that the symmetry of a triangle depends on the number of 
+      congruent sides it has. Since reflections and rotations preserve 
+      angle measure and length, each side and angle must map to a congruent
+      object of the same type. Thus, an equilateral triangle has both 
+      rotational and mirror symmetry, an isosceles triangle has only mirror 
+      symmetry, and a scalene triangle has neither type of symmetry. In the 
+      next exploration, we look at the symmetry of regular <m>n</m>-gons.
     </p>
-    <exploration>
-      <title>Symmetries of Regular Polygons</title>
+    <exploration xml:id="explor-symm-regpoly">
+      <title>Symmetry of Regular Polygons</title>
       <introduction>
         <p>
           <xref ref="fig-regpoly-symm"/> shows pictures of a regular 
@@ -280,85 +303,91 @@
         </figure>
       </introduction>
       <task>
-        <statement>
-          <p>
-            How many lines of symmetry does a square have? Draw the lines
-            of symmetry for the square in <xref ref="fig-regpoly-symm"/>.
-          </p>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
-            How many lines of symmetry does a regular pentagon have? Draw the lines
+        <title>Mirror Symmetry of Regular Polygons</title>
+        <task>
+          <statement>
+            <p>
+              How many lines of symmetry does a square have? Draw the lines
+              of symmetry for the square in <xref ref="fig-regpoly-symm"/>.
+            </p>
+          </statement>
+        </task> 
+        <task>
+          <statement>
+            <p>
+              How many lines of symmetry does a regular pentagon have? Draw the lines
               of symmetry for the pentagon in <xref ref="fig-regpoly-symm"/>.
-          </p>
-        </statement>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              How many lines of symmetry does a regular hexagon have? Draw the lines
+                of symmetry for the hexagon in <xref ref="fig-regpoly-symm"/>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              How many lines of symmetry will a regular <m>n</m>-gon have? Does it matter 
+              whether <m>n</m> is odd or even? Explain your reasoning.
+            </p>
+          </statement>
+        </task>
       </task>
       <task>
-        <statement>
-          <p>
-            How many lines of symmetry does a regular hexagon have? Draw the lines
-              of symmetry for the hexagon in <xref ref="fig-regpoly-symm"/>.
-          </p>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
-            How many lines of symmetry will a regular <m>n</m>-gon have? Does it matter 
-            whether <m>n</m> is odd or even? Explain your reasoning.
-          </p>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
-            List all the positive angles of rotation up to and including 360 degrees
-            for a square. What is the order of symmetry for a square?
-          </p>
-        </statement>
-      </task>  
-      <task>
-        <statement>
-          <p>
-            List all the positive angles of rotation up to and including 360 degrees
-            for a regular pentagon. What is the order of symmetry for a 
-            regular pentagon?
-          </p>
-        </statement>
-      </task>  
-      <task>
-        <statement>
-          <p>
-            List all the positive angles of rotation up to and including 360 degrees
-            for a regular hexagon. What is the order of symmetry for a 
-            regular hexagon?
-          </p>
-        </statement>
-      </task> 
-      <task>
-        <statement>
-          <p>
-            What is the order of symmetry for a regular <m>n</m>-gon? 
-          </p>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
-            What is the smallest positive angle of rotational symmetry for a regular
-            <m>n</m>-gon? 
-          </p>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
-            For a regular polygon, how is the smallest positive angle of 
-            rotation related to the order of symmetry?
-          </p>
-        </statement>
+        <title>Rotational Symmetry of Regular Polygons</title>
+        <task>
+          <statement>
+            <p>
+              List all the positive angles of rotation up to and including 360 degrees
+              for a square. What is the order of symmetry for a square?
+            </p>
+          </statement>
+        </task>  
+        <task>
+          <statement>
+            <p>
+              List all the positive angles of rotation up to and including 360 degrees
+              for a regular pentagon. What is the order of symmetry for a 
+              regular pentagon?
+            </p>
+          </statement>
+        </task>  
+        <task>
+          <statement>
+            <p>
+              List all the positive angles of rotation up to and including 360 degrees
+              for a regular hexagon. What is the order of symmetry for a 
+              regular hexagon?
+            </p>
+          </statement>
+        </task> 
+        <task>
+          <statement>
+            <p>
+              What is the order of symmetry for a regular <m>n</m>-gon? 
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What is the smallest positive angle of rotational symmetry for a regular
+              <m>n</m>-gon? 
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              For a regular polygon, how is the smallest positive angle of 
+              rotation related to the order of symmetry?
+            </p>
+          </statement>
+        </task>
       </task>
       <task>
         <title>Notice and Wonder</title>
@@ -366,11 +395,15 @@
           <p>
             What did you notice about the lines of symmetry and centers of rotation 
             as you were completing this activity? What do you wonder about symmetry of 
-            finite designs? What questions remain?
+            finite designs? What questions remain? What conjectures can you make?
           </p>
         </statement>
       </task>
     </exploration>
+    <p>
+      As with triangles, we can find quadrilaterals (and other <m>n</m>-gons) that 
+      possess less symmetry.
+    </p>
     <exploration> 
       <title>Symmetry of non-regular quadrilaterals</title>
         <introduction>
@@ -411,7 +444,7 @@
         <statement>
           <p>
             Sketch a quadrilateral that has a line of symmetry but no rotational 
-              symmetry. Explain why your example satisfies these conditions.
+            symmetry. Explain why your example satisfies these conditions.
           </p>
         </statement>
       </task>
@@ -467,7 +500,7 @@
     </exercise>
     <p>
       We now focus on the symmetries of a single equilateral triangle, investigating 
-      what happens when we compose symmetry transformations.
+      what happens to the labeled vertices when we compose symmetry transformations.
     </p>
     <exploration xml:id="explor-sym-equitri">
         <title>Symmetries of an Equilateral Triangle</title>
@@ -581,6 +614,14 @@
                 with negative slope, line <m>p</m> with positive slope, and
                 the vertical line <m>v</m>, respectively.
               </p>
+              <aside>
+                <p>
+                  One hint to recognizing the difference is that the plural 
+                  form, <term>symmetries</term>, will usually refer to 
+                  symmetry transformations. When discussing the property of 
+                  symmetry, the author will use the singular form.
+                </p>
+              </aside>
               <p>
                 Because these are symmetries, the actions will always result in 
                 the same equilateral triangle. What changes is the locations of 
@@ -688,7 +729,8 @@
           <statement>
             <p>
               To prepare for the final task, we will remind ourselves of what a multiplication 
-              table is. Complete <xref ref="multiply-table"/>.
+              table is. Complete <xref ref="multiply-table"/> using your knowledge of
+              whole number multiplication.
             </p>
             <table xml:id="multiply-table">
               <title>Multiplication Table</title>
@@ -1140,77 +1182,100 @@
         </task>
         <task>
           <title>Observations and Summary</title>
-          <statement>
+          <introduction>
             <p>
               Refer to your completed version of <xref ref="composition-table"/>,
               as you answer the following:
-              <ol>
-                <li>
-                  <p>
-                    Of the six symmetry transformations, <m>r_0</m>, 
-                    <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, <m>m_p</m>, and 
-                    <m>m_v</m>, which transformation behaves like the number 1 
-                    does in multiplication?  We call this transformation the 
-                    <term>identity transformation</term>.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Which transformation <q>undoes</q> <m>R_{120}</m>? In other 
-                    words, which transformation can you perform after <m>R_{120}</m> 
-                    so that this two-step action gives the same result as the identity 
-                    transformation? Does the order of these two transformations matter?
-                  </p>
-                  <p>
-                    Algebra connection: How is this relationship like composing the <sq>multiply
-                    by five</sq> function <m>f(x)=5x</m> and the <sq>divide by 5</sq>
-                    function <m>g(y)=\frac{y}{5}</m> ?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Which transformation <q>undoes</q> <m>m_n</m> ? Does <m>m_n</m> undo that transformation?
-                  </p>
-                  <p>
-                    Algebra connection: Is there a real number <m>k</m> such that 
-                    the multiplication by <m>k</m> function, <m>h(x)=kx</m>, undoes itself?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Algebra connection: The operation multiplication on the set of real 
-                    numbers satisfies the commutative property, <m>a\cdot b=b\cdot a</m> for 
-                    all real numbers, <m>a</m> and <m>b</m>. Does composition of symmetry transformations 
-                    satisfy the commutative property? Support your answer.
-                  </p>
-                </li>
-              </ol>
             </p>
-          </statement>
-          <answer>
-            <p>
-              1. <m>R_0</m> is the identity transformation.
-            </p>
-            <p>
-              2. <m>R_{240}</m> undoes <m>R_{120}</m>. Here, 
-              order does not matter.
-            </p>
-            <p>
-              3. <m>m_n</m> undoes itself. The number <m>-1</m> behaves
-              similarly in multiplication.
-            </p>
-            <p>
-              4. No, composition of symmetry transformations does not satisfy
-              the commutative property.
-            </p>
-          </answer>
+          </introduction>
+                <task>
+                  <statement>
+                    <p>
+                      Of the six symmetry transformations, <m>r_0</m>, 
+                      <m>r_{120}</m>, <m>r_{240}</m>, <m>m_n</m>, <m>m_p</m>, and 
+                      <m>m_v</m>, which transformation behaves like the number 1 
+                      does in multiplication?  We call this transformation the 
+                      <term>identity transformation</term>.
+                    </p>
+                    <aside>
+                      <p>
+                        The number 1 is called the <term>multiplicative identity</term>.
+                      </p>
+                    </aside>
+                  </statement>
+                  <answer>
+                    <p>
+                      <m>R_0</m> is the identity transformation.
+                    </p>
+                  </answer>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Which transformation <q>undoes</q> <m>R_{120}</m>? In other 
+                      words, which transformation can you perform after <m>R_{120}</m> 
+                      so that this two-step action gives the same result as the identity 
+                      transformation? Does the order of these two transformations matter?
+                    </p>
+                    <p>
+                      Algebra connection: How is this relationship like composing the <sq>multiply
+                      by five</sq> function <m>f(x)=5x</m> and the <sq>divide by 5</sq>
+                      function <m>g(y)=\frac{y}{5}</m> ?
+                    </p>
+                    <aside>
+                      <p>
+                        We call multiplying by 5 and dividing by five <term>inverse operations</term>.
+                        The numbers <m>\frac{1}{5}</m> and <m>5</m> are said to be 
+                        <term>multiplicative inverses</term> of each other since their product is 
+                        the multiplicative identity 1.
+                      </p>
+                    </aside>
+                  </statement>
+                  <answer>
+                    <p>
+                      <m>R_{240}</m> undoes <m>R_{120}</m>. Here, 
+                      order does not matter.
+                    </p>
+                  </answer>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Which transformation <q>undoes</q> <m>m_n</m> ? Does <m>m_n</m> undo that transformation?
+                    </p>
+                    <p>
+                      Algebra connection: Is there a real number <m>k</m> such that 
+                      the multiplication by <m>k</m> function, <m>h(x)=kx</m>, undoes itself?
+                    </p>
+                  </statement>
+                  <answer>
+                    <p>
+                      Each reflection, like <m>m_n</m>, undoes itself. The 
+                      number <m>-1</m> behaves similarly in multiplication.
+                      The identities, <m>r_0</m> in this symmetry group and
+                      <m>1</m> in the real numbers, also have this property.
+                    </p>
+                  </answer>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Algebra connection: The operation multiplication on the set of real 
+                      numbers satisfies the commutative property, <m>a\cdot b=b\cdot a</m> for 
+                      all real numbers, <m>a</m> and <m>b</m>. Does composition of symmetry transformations 
+                      satisfy the commutative property? Support your answer.
+                    </p>
+                  </statement>
+                  <answer>
+                    <p>
+                      No, composition of symmetry transformations does not satisfy
+                      the commutative property.
+                    </p>
+                  </answer>
+                </task>
+          
         </task>
     </exploration>
-    <!--<conclusion>
-      <p>
-        Add something about commutativity, identity, and inverse properties. 
-      </p>
-    </conclusion>-->
   </subsection>
   <exercises xml:id="exer-isom-symm">
     <title>Exercises</title>
@@ -1229,7 +1294,8 @@
       <exercise>
         <statement>
           <p>
-            Add some.
+            Add some. Identify symmetry of polyominos or letters.
+            Pentagon with reflective but no rotational symmetry.
           </p>
         </statement>
       </exercise>
@@ -1239,7 +1305,8 @@
       <exercise>
         <statement>
           <p>
-            Add
+            Add exploring connections between <m>n</m>-fold symmetry and number 
+            of reflecting lines.
           </p>
         </statement>
       </exercise>
