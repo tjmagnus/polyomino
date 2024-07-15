@@ -14,7 +14,14 @@
         <title>Distance on the Cartesian Plane</title>
         <p>
             To compute the length of a segment on a graph we use the Pythagorean 
-            Theorem. In <xref ref="diag-seg-measure"/>, the coordinates of point <m>A</m> 
+            Theorem, noting that it is easy to compute distances along horizontal 
+            or vertical lines on a graph. To measure the distance between two points 
+            that not on a horizontal or vertical line, we construct a right triangle 
+            whose hypotenuse is the segment connecting the points. One leg of 
+            this triangle will be horizontal, the other vertical.
+        </p>
+        <p>
+            In <xref ref="diag-seg-measure"/>, the coordinates of point <m>A</m> 
             are <m>(6,6)</m> and of point <m>B</m> are <m>(9,2)</m>. We think of the segment 
             <m>\overline{AB}</m> as the hypotenuse of a triangle with a right angle at
             <m>C=(6,2)</m>. The length of the horizontal leg is found by
@@ -35,6 +42,10 @@
     </subsection>    
     <subsection xml:id="subsec-scaling-Cartesian">
         <title>Dilating Figures on a Cartesian <m>xy</m>-Plane</title>
+        <p>
+            To introduce the dilation transformation, we begin by plotting the 
+            image of a figure and observing properties. 
+        </p>
         <exploration xml:id="explor-magnify-quad">
             <title>Constructing a Dilated Quadrilateral</title>
             <introduction>
@@ -165,13 +176,18 @@
                             quadrilateral <m>ABCD</m>.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            This task is intentionally vague and open-ended.
+                        </p>
+                    </hint>
                 </task>
                 <task>
                     <statement>
                         <p>
                             Measure the new angles <m>\angle A'B'C'</m>,
                             <m>\angle B'C'D'</m>, <m>\angle C'D'A'</m>,
-                            and <m>D'A'B'</m>. How do they compare to the 
+                            and <m>\angle D'A'B'</m>. How do they compare to the 
                             original four angles?
                         </p>
                     </statement>
@@ -236,9 +252,12 @@
             In <xref ref="task-dilate-quad-graph"/>, you constructed the 
             <term>image</term> of quadrilateral <m>ABCD</m> under a geometric 
             transformation that doubled the sides of the figure. We call this type 
-            of transformation a <term>dilation</term>.   
+            of transformation a <term>dilation</term>. <xref ref="chkpt-notice-dilation"/>
+            encourages you to reflect on the key ideas that appeared in 
+            <xref ref="explor-magnify-quad"/>. These properties will be useful as we   
+            work through this chapter.   
         </p>
-        <exercise>
+        <exercise xml:id="chkpt-notice-dilation">
             <title>Did you notice?</title>
             <introduction>
                 <p>
@@ -328,7 +347,7 @@
                 <p>
                     A <term>dilation</term> with <term>center</term> <m>Q</m> 
                     and <term>scale factor</term> <m>k</m> is a geometrical 
-                    transformation that maps each point <m>P</m> to the unique point 
+                    transformation that maps each point <m>P</m> to a unique point 
                     <m>P'</m> satisfying the following:
                     <ul>
                         <li>
@@ -345,6 +364,10 @@
                     Point <m>P'</m> is
                     called the <term>image</term> of <m>P</m> under the dilation. 
                 </p>
+                <p>
+                    Although the word dilation suggests enlarging, a dilation may instead 
+                    scale down as seen in <xref ref="chkpttask-scale-half"/>.
+                </p>
             </statement>
         </definition>
         <p>
@@ -353,10 +376,7 @@
             <m>Q</m>. Notice how <m>A'</m> lies on <m>\overleftrightarrow{QA}</m>
             and <m>1.75(QA)=1.75(9)=15.75=QA'</m>.
         </p>
-        <p>
-            Although the word dilation suggests enlarging, a dilation may instead 
-            scale down as seen in <xref ref="chkpttask-scale-half"/>.
-        </p>
+
         <exercise>
             <title>Applying the Definition of Dilation</title>
             <introduction>
@@ -674,6 +694,11 @@
                     <xref ref="def-congruent-polygon" text="custom">congruent</xref>? Explain.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    No.
+                </p>
+            </answer>
         </task>
         <task xml:id="task-explor-nested-simtri-defsimilar">
             <statement>
@@ -681,6 +706,11 @@
                     Are the triangles in <xref ref="fig-nested-simtri"/> similar? Explain.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    Yes.
+                </p>
+            </answer>
         </task>
     </exploration>
 </subsection>

@@ -61,6 +61,14 @@
     <task>
         <statement>
             <p>
+                What happens when the slider is moved to a number between 0 and 
+                1?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
                 What happens when the slider is moved to <m>s=-\frac{1}{2}</m> ?
                 <m>s=-1</m> ? <m>s=-2</m> ? Describe the effect of a negative 
                 scale factor on a dilation.
@@ -73,8 +81,8 @@
                 Construct the four lines, <m>\overleftrightarrow{EA}</m>,
                 <m>\overleftrightarrow{EB}</m>, <m>\overleftrightarrow{EC}</m>,
                 and <m>\overleftrightarrow{EA}</m>. What do you notice about 
-                these lines and the image <m>A'B'C'D'</m> ? Is this also true 
-                when you move the slider to other values, like <m>s=3</m>?
+                these lines and the image <m>A'B'C'D'</m> ? Is this true regardless 
+                of the value of <m>s</m>?
             </p>
         </statement>
     </task>
@@ -90,6 +98,12 @@
                 of the vertices of <m>ABCD</m>. Does your conjecture still hold?
             </p>
         </statement>
+        <aside>
+            <p>
+                For smaller fonts, measure segments instead of the distance between 
+                points. The <sq>Segment</sq> tool is provided.
+            </p>
+        </aside>
     </task>
     <task>
         <statement>
@@ -102,6 +116,12 @@
                 <m>C'D'</m> and <m>D'A'</m> of the dilated quadrilateral. 
             </p>
         </statement>
+        <hint>
+            <p>
+                Some measurements may be approximated by rounding. This could 
+                lead to small discrepancies in values.
+            </p>
+        </hint>
     </task>
     <task>
         <statement>
@@ -111,6 +131,13 @@
                 the area of a figure is affected by the scale factor.
             </p>
         </statement>
+        <answer>
+            <p>
+                The area of the image will be <m>s^2</m> times the area of the 
+                original figure where <m>s</m> is the scale factor for the 
+                dilation.
+            </p>
+        </answer>
     </task>
   </exploration>
   </subsection>
@@ -120,9 +147,9 @@
         Our work in <xref ref="sec-dilations-Cartesian"/> and 
         <xref ref="explore-sliding-scale"/> suggests that the image of a 
         polygonal figure under a dilation will have the same shape as the 
-        original and that the ratios, <m>\frac{P'Q'}{PQ}</m>, of the lengths of 
-        the image's sides to their corresponding lengths in the original will
-        be preserved. 
+        original figure. In addition the ratio of the lengths of the 
+        image's sides to their corresponding lengths in the original, 
+        <m>\(\frac{P'Q'}{PQ}\)</m>, will be preserved. 
         <!--PROOF IN EXERCISES OR IN A LATER SECTION?-->  
     </p>
   <definition xml:id="def-proportionality">
@@ -138,107 +165,145 @@
     </statement>
 </definition>
 <p>
-    In  <xref ref="fig-nested-simtri"/>, we see that 
+    In <xref ref="fig-nested-simtri"/>, we see that 
     <m>\Delta ABC\sim\Delta DEC</m> with constant of proportionality
-    <m>k=\frac{1}{3}</m>, and in <xref ref="fig-vary-scale-factor"/>,
-    <m>A'B'C'D'\sim ABCD</m> with <m>k=|s|</m>, the absolute value of 
-    the scale factor of the dilation. 
+    <m>k=\frac{1}{3}</m>. Also, <m>A'B'C'D'\sim ABCD</m> in 
+    <xref ref="fig-vary-scale-factor"/> has  <m>k=|s|</m>, the absolute 
+    value of the variable scale factor of the dilation. 
 </p>
 <exercise>
-    <title>Check your understanding</title>
-    <statement>
+    <title>Understanding Proportionality, Congruence, and Similarity</title>
+    <introduction>
         <p>
-            <ol>
-                <li>
-                    <p>
-                        Why are absolute values necessary when we say that the constant of 
-                        proportionality <m>k=|s|</m>, the absolute value of the 
-                        scale factor <m>s</m>?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Will a pair of congruent figures also be similar?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Will a pair of similar triangles also be congruent?
-                    </p>
-                </li>
-            </ol>
+            The following questions encourage you to make connections
+            between the concepts of scale factor, proportion, congruence,
+            and similarity:
         </p>
-    </statement>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Why are absolute values necessary when we say that the constant of 
+                proportionality <m>k=|s|</m>, the absolute value of the 
+                scale factor <m>s</m>?
+            </p>
+        </statement>
+        <hint>
+            <p>
+                Lengths can never be negative.
+            </p>
+        </hint>
+        <answer>
+            <p>
+                A scale factor can be any real number. The constant of 
+                proportionality is a ratio of lengths and must be nonnegative 
+                since lengths can never be negative.
+            </p>
+        </answer>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Will a pair of congruent figures also be similar?
+            </p>
+        </statement>
+        <answer>
+            <p>
+                Yes, you can consider congruent figures to be similar with 
+                a constant of proportionality, <m>k=1</m>. Some
+                people may insist that size must change in which case we would 
+                not consider congruent figures to also be similar. It depends on 
+                the definition being used.
+            </p>
+        </answer>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Will a pair of similar triangles also be congruent?
+            </p>
+        </statement>
+        <answer>
+            <p>
+                Similar triangles will be congruent <em>only</em> when they are 
+                the same size; i.e., when <m>k=1</m>. Most pairs of similar triangles
+                are not congruent.
+            </p>
+        </answer>
+    </task>
 </exercise>
 <exploration>
     <title>Mystery Dilations</title>
     <task xml:id="task-mystery-dilation-quads">
-        <statement>
+        <title>Mystery Dilation 1</title>
+        <introduction>
             <p>
                 Quadrilaterals <m>ABCD</m> and <m>A'B'C'D'</m> are given in 
-                <xref ref="fig-mystery-dilation-quads"/>. Virtual tools for measuring angles
-                and line segments are provided.
-                <ol>
-                    <li>
-                        <p>
-                            Are the two quadrilaterals similar? Be sure to 
-                            check all criteria in the definition of similar.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Determine the constant of proportionality if it exists.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Is there a dilation taking <m>ABCD</m> to <m>A'B'C'D'</m>?
-                            If so, locate the center <m>F</m> and state the scale factor.
-                        </p>
-                    </li>
-                </ol>
+                <xref ref="fig-mystery-dilation-quads"/>. Virtual tools for 
+                measuring angles and line segments are provided.
             </p>
             <figure xml:id="fig-mystery-dilation-quads">
                 <caption>GeoGebra applet for 
-                    <xref ref="task-mystery-dilation-quads"/> 
+                    <xref ref="task-mystery-dilation-quads" text="title"/>. 
                 </caption>
                 <interactive xml:id="GGapp-mystery-dilation-quads"
                     platform="geogebra">
                     <slate surface="geogebra" material="arvgecw7"/>
                 </interactive>
             </figure>
-        </statement>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Are the two quadrilaterals similar? Be sure to 
+                    check all criteria in the definition of 
+                    <xref ref="def-similar-triangles" 
+                    text="custom">similar</xref>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Determine the <xref ref="def-proportionality" 
+                    text="custom">constant of proportionality</xref> if it exists.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Is there a dilation taking <m>ABCD</m> to <m>A'B'C'D'</m>?
+                    If so, locate the center <m>F</m> and state the scale factor.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    What lines must <m>F</m> lie on?
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Yes, the dilation exists. Its center lies on the intersection
+                    of <m>\overleftrightarrow{AA'}</m>, <m>\overleftrightarrow{BB'}</m>,
+                    etc.
+                </p>
+            </answer>
+        </task> 
     </task>
     <task xml:id="task-mystery-dilation-pentomino">
-        <statement>
+        <title>Mystery Dilation 2</title>
+        <introduction>
             <p>
                 Pentominos <m>ABCDEFGH</m> and <m>A''B''C''D''E''F''G''H''</m> are given 
                 in the GeoGebra applet, 
                 <xref ref="fig-mystery-dilation-pentomino"/>. Virtual tools for measuring angles
-                and line segments are provided.
-                <ol>
-                    <li>
-                        <p>
-                            Are the two pentominos similar? Be sure to 
-                            check all criteria in the definition of similar.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Determine the constant of proportionality if it exists.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Is there a dilation taking <m>ABCDEFGH</m> to <m>A''B''C''D''E''F''G''H''</m>?
-                            If so, locate the center <m>Q</m> and state the scale factor.
-                        </p>
-                    </li>
-                </ol>
+                and line segments are provided. 
             </p>
             <figure xml:id="fig-mystery-dilation-pentomino">
                 <caption>GeoGebra applet for 
                     <xref ref="task-mystery-dilation-pentomino"/> 
+                    Mystery Dilation 2.
                 </caption>
                 <interactive
                     xml:id="GGapp-mystery-dilation-pentomino"
@@ -246,38 +311,42 @@
                     <slate surface="geogebra" material="wde8jtdg"/>
                 </interactive>
             </figure>
-        </statement>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Are the two pentominos similar? Be sure to 
+                    check all criteria in the definition of similar.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Determine the constant of proportionality if it exists.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Is there a dilation taking <m>ABCDEFGH</m> to <m>A''B''C''D''E''F''G''H''</m>?
+                    If so, locate the center <m>Q</m> and state the scale factor.
+                </p>
+            </statement>
+        </task>
     </task>
     <task xml:id="task-mystery-dilation-concave">
-        <statement>
+        <introduction>
             <p>
                 Concave quadrilaterals <m>ABCD</m> and <m>A'B'C'D'</m> are given 
                 in the GeoGebra applet, 
                 <xref ref="fig-mystery-dilation-concave"/>. 
-                <ol>
-                    <li>
-                        <p>
-                            Are the two quadrilaterals similar? Be sure to 
-                            check all criteria in the definition of similar.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Determine the constant of proportionality if it exists.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Is there a dilation taking <m>ABCD</m> to <m>A'B'C'D'</m>?
-                            If so, locate the center <m>G</m> and state the scale factor 
-                            for the dilation.
-                        </p>
-                    </li>
-                </ol>
             </p>
             <figure xml:id="fig-mystery-dilation-concave">
                 <caption>GeoGebra applet for 
                     <xref ref="task-mystery-dilation-concave"/> 
+                    Mystery Dilation 3.
                 </caption>
                 <interactive
                     xml:id="GGapp-mystery-dilation-concave"
@@ -285,7 +354,31 @@
                     <slate surface="geogebra" material="qsdffzft"/>
                 </interactive>
             </figure>
-        </statement>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Are the two quadrilaterals similar? Be sure to 
+                    check all criteria in the definition of similar.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Determine the constant of proportionality if it exists.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Is there a dilation taking <m>ABCD</m> to <m>A'B'C'D'</m>?
+                    If so, locate the center <m>G</m> and state the scale factor 
+                    for the dilation.
+                </p>
+            </statement>
+        </task>
     </task>
     <task>
         <statement>
@@ -306,7 +399,7 @@
     <task>
         <statement>
             <p>
-                Based on your exploration, which of the following are true?
+                Based on your explorations, which of the following are true?
                 <ol>
                     <li>
                         <p>
