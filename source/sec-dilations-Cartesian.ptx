@@ -358,6 +358,7 @@
             scale down as seen in <xref ref="chkpttask-scale-half"/>.
         </p>
         <exercise>
+            <title>Applying the Definition of Dilation</title>
             <introduction>
                 <p>
                     Use <xref ref="fig-dilate-quad-sevenfourths"/> to answer 
@@ -474,7 +475,8 @@
                 <introduction>
                     <p>
                         Use the GeoGebra applet <xref ref="fig-GGapp-new-center"/>
-                        or a paper copy to complete the following:
+                        or a paper copy to complete the following. You will need 
+                        to plot each point individually.
                     </p>
                     <figure xml:id="fig-GGapp-new-center">
                         <caption>GeoGebra applet for dilating triangle <m>\Delta EFG</m></caption>
@@ -491,6 +493,22 @@
                             with center <m>H</m> and scale factor <m>3</m>.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            You can avoid using the Pythagorean Theorem by 
+                            thinking of sides and diagonals of blocks on the 
+                            grid as units; for example <m>HF</m> is equal to 
+                            the diagonal of a <m>2\times 4</m>-rectangle 
+                            so <m>HF'</m> should be equal to three of these 
+                            diagonals.
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            The coordinates are as follows: <m>E'(12,4)</m>,
+                            <m>F'(0,-8)</m>, and <m>G'(0,-2)</m>
+                        </p>
+                    </answer>
                 </task>
                 <task>
                     <statement>
@@ -513,6 +531,12 @@
 </subsection>
 <subsection xml:id="subsec-dilate-similartri-example">
     <title>Dilation and Proportion</title>
+    <p>
+        Sometimes a vertex of a figure is mapped to itself by a 
+        dilation. In <xref ref="explor-nested-simtri"/>, we will
+        consider this situation. In addition, we will build upon
+        the connections between dilations and similar figures.
+    </p>
     <exploration xml:id="explor-nested-simtri">
         <title>Recognizing a Dilation</title>
         <introduction>
