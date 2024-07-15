@@ -464,7 +464,7 @@
         </figure>
         <!--https://www.geogebra.org/geometry/jj76aryp-->
         <exploration>
-            <title>A Dilation not centered at the Origin</title>
+            <title>A Dilation Not Centered at the Origin</title>
             <introduction>
                 <p>
                     The center of a dilation does not have to be the origin,
@@ -506,7 +506,7 @@
                     <answer>
                         <p>
                             The coordinates are as follows: <m>E'(12,4)</m>,
-                            <m>F'(0,-8)</m>, and <m>G'(0,-2)</m>
+                            <m>F'(0,-8)</m>, and <m>G'(0,-2)</m>.
                         </p>
                     </answer>
                 </task>
@@ -517,6 +517,12 @@
                             with center <m>H</m> and scale factor <m>\frac{3}{2}</m>.
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            The coordinates are as follows: <m>E'(3,4)</m>,
+                            <m>F'(-3,-2)</m>, and <m>G'(-3,1)</m>.
+                        </p>
+                    </answer>
                 </task>
                 <task>
                     <statement>
@@ -525,20 +531,68 @@
                                 with center <m>H</m> and scale factor <m>\frac{1}{2}</m>.                            
                         </p>
                     </statement>
+                    <answer>
+                        <p>
+                            The coordinates are as follows: <m>E'(-3,4)</m>,
+                            <m>F'(-5,2)</m>, and <m>G'(-5,3)</m>.
+                        </p>
+                    </answer>
                 </task>    
             </task>
         </exploration>
 </subsection>
 <subsection xml:id="subsec-dilate-similartri-example">
-    <title>Dilation and Proportion</title>
+    <title>Similar Triangles and Dilations</title>
     <p>
-        Sometimes a vertex of a figure is mapped to itself by a 
-        dilation. In <xref ref="explor-nested-simtri"/>, we will
-        consider this situation. In addition, we will build upon
-        the connections between dilations and similar figures.
+        We have observed that a dilation maps each figure onto a figure that
+        has the same shape as the original, but the size is not preserved.
+        When two figures have the same shape we say that the figures are 
+        <term>similar</term>. Corresponding angles will be congruent and lengths of 
+        corresponding sides will be proportional. We give a formal definition 
+        for <term>similar triangles</term> but note that this definition can easily be 
+        generalized for polygons with more than three sides.
+    </p>
+    <definition xml:id="def-similar-triangles">
+        <statement>
+            <idx><h>similar</h></idx>
+            <idx><h>triangles</h><h>similar</h></idx>
+            <p>
+                Two triangles <m>\Delta ABC</m> and <m>\Delta DEF</m> are 
+                said to be <xref ref="def-similar" text="custom">similar</xref> triangles
+                if the following hold:
+                <ul> 
+                    <li>
+                        <m>\Delta ABC</m> and <m>\Delta DEF</m> have three pairs 
+                        of congruent corresponding angles 
+                        <me>\angle A\cong\angle D, \angle B\cong \angle E, 
+                        \angle C\cong \angle F</me>
+                    </li>
+                    <li>
+                        and the ratios of the three pairs of corresponding 
+                        sides are equal 
+                        <me>\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}</me>.  
+                    </li>
+                </ul>
+            </p>
+            <p>
+               We use the symbol <m>\sim</m> to denote similar figures. Thus,
+               <m>\Delta ABC\sim\Delta DEF</m> means that <m>\Delta ABC</m> and 
+               <m>\Delta DEF</m> are similar triangles.
+                <notation>
+                    <usage><m>\sim</m></usage>
+                    <description>similar</description>
+                </notation>
+            </p>
+        </statement>
+    </definition>
+    <p>
+        In <xref ref="explor-nested-simtri"/>, we consider a situation in 
+        which a vertex of a figure is mapped to itself by a dilation. As you
+        complete this activity, look for relationships between similarity  
+        and dilation.
     </p>
     <exploration xml:id="explor-nested-simtri">
-        <title>Recognizing a Dilation</title>
+        <title>Properties of a Dilation</title>
         <introduction>
             <p>
                 In <xref ref="fig-nested-simtri"/>, a dilation takes 
@@ -554,7 +608,7 @@
         <task>
             <statement>
                 <p>
-                    What is the center of the dilation?
+                    What is the center of the dilation? How do you know?
                 </p>
             </statement>
         </task>
@@ -615,33 +669,20 @@
         <task>
             <statement>
                 <p>
-                    Recall that two triangles <m>\Delta ABC</m> and <m>\Delta DEF</m> 
-                    are said to be congruent if the two triangles have three pairs of 
-                    congruent corresponding angles, namely <m>\angle ABC\cong \angle DEF</m>,
-                    <m>\angle BCA\cong \angle EFD</m>, and <m>\angle CAB\cong \angle FDE</m>, 
-                    and three pairs of congruent corresponding sides, namely <m>AB=DE</m>,
-                    <m>BC=EF</m>, and <m>CA=FD</m>. Are triangles <m>\Delta ABC</m> and 
-                    <m>\Delta DEC</m> in <xref ref="fig-nested-simtri"/> congruent? Explain.
+                    In <xref ref="fig-nested-simtri"/>, are triangles <m>\Delta ABC</m> and 
+                    <m>\Delta DEC</m> 
+                    <xref ref="def-congruent-polygon" text="custom">congruent</xref>? Explain.
                 </p>
             </statement>
         </task>
         <task xml:id="task-explor-nested-simtri-defsimilar">
             <statement>
                 <p>
-                    Two triangles <m>\Delta ABC</m> and <m>\Delta DEF</m> are 
-                    said to be <xref ref="def-similar" text="custom">similar</xref> triangles
-                    if the two triangles have three pairs of congruent corresponding 
-                    angles and the ratios of each of the three pairs of corresponding 
-                    sides are equal; i.e., <m>\angle A\cong \angle D</m>, 
-                    <m>\angle B\cong \angle E</m>, <m>\angle C\cong \angle F</m>, and
-                    <m>\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}</m>.
-                    Are the triangles in <xref ref="fig-nested-simtri"/> similar? Explain..
+                    Are the triangles in <xref ref="fig-nested-simtri"/> similar? Explain.
                 </p>
             </statement>
         </task>
     </exploration>
-    
-    
 </subsection>
 <exercises xml:id="exer-dilations-cartesian">
     <title>Exercises</title>
