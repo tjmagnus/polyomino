@@ -426,6 +426,14 @@
                 </ol>
             </p>
         </statement>
+        <answer>
+            <p>
+                b. If there is a dilation taking one polygon to another, then 
+                the polygons are similar. We saw in <xref ref="task-mystery-dilation-concave"/>
+                an example of two similar polygons for which there is no dilation mapping 
+                one onto the other. A composition of a dilation and an isometry was required.
+            </p>
+        </answer>
     </task>
 </exploration>
 </subsection>
@@ -434,20 +442,82 @@
     <subexercises xml:id="Toolbox-dilations-DAS">
       <title>Building Our Toolbox</title>
       <exercise>
-        <statement>
-          <p>
-            add
-          </p>
-        </statement>
+        <introduction>
+            <p>
+                In your own words, write out definitions for each of the following.
+                Add pictures as you find helpful.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Dilation
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Scale Factor of a dilation
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Center of a dilation
+                </p>
+            </statement>
+        </task>
       </exercise>
     </subexercises>
     <subexercises xml:id="SAR-dilations-DAS">
       <title>Skills and Recall</title>
       <exercise>
+        <introduction>
+            <p>
+                Determine the distance between the following pairs of points.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>(-5,1)</m> and <m>(5,4)</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>(-4,0)</m> and <m>(8,9)</m>.
+                </p>
+            </statement>
+        </task>
+      </exercise>
+      <exercise>
+        <introduction>
+            <p>
+                Use <xref ref="fig-SAR-dilation-wLengths"/> to determine the 
+                following:
+            </p>
+            <figure xml:id="SAR-dilation-wLengths">
+                <caption></caption>
+                <!--Add image here!!!!!!!!!!!!!!-->
+            </figure>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Lengths given on picture. Determine scale factor and other lengths.
+                </p>
+            </statement>
+        </task>
+      </exercise>
+      <exercise>
         <statement>
-          <p>
-            Add some.
-          </p>
+            <p>
+                Coordinates given, center given, find image.
+            </p>
         </statement>
       </exercise>
     </subexercises>
