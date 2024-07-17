@@ -497,18 +497,63 @@
       <exercise>
         <introduction>
             <p>
-                Use <xref ref="fig-SAR-dilation-wLengths"/> to determine the 
-                following:
+                In <xref ref="fig-SAR-dilation-wLengths"/>, <m>\Delta A'B'C'</m>
+                is the image of <m>\Delta ABC</m> under a dilation with center <m>D</m>.
+                Given that <m>AD=4.42</m>, <m>A'D=1.77</m>, <m>BD=5.11</m>, and 
+                <m>C'D=2.05</m>, determine the following:
             </p>
-            <figure xml:id="SAR-dilation-wLengths">
+            <!--https://www.geogebra.org/classic/rjes6g2c Lengths may change!-->
+            <figure xml:id="fig-SAR-dilation-wLengths">
                 <caption></caption>
-                <!--Add image here!!!!!!!!!!!!!!-->
+                <image source="SAR-dilation-wLengths">
+                    <shortdescription>
+                        Point D is in the interior of triangle 
+                        A'B'C' which is inside triangle ABC.
+                    </shortdescription>
+                </image>
             </figure>
         </introduction>
         <task>
             <statement>
                 <p>
-                    Lengths given on picture. Determine scale factor and other lengths.
+                    The scale factor for the dilation taking <m>\Delta ABC</m> to  
+                    <m>\Delta A'B'C'</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The scale factor for the dilation taking <m>\Delta A'B'C'</m> to  
+                    <m>\Delta ABC</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Length <m>DB'</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Length <m>CD</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Length <m>AA'</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Length <m>BB'</m>.
                 </p>
             </statement>
         </task>
