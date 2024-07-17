@@ -719,21 +719,121 @@
     <subexercises xml:id="Toolbox-dilations-cartesian">
       <title>Building Our Toolbox</title>
       <exercise>
-        <statement>
-          <p>
-            add
-          </p>
-        </statement>
+        <introduction>
+            <p>
+                In your own words, write out definitions for each of the following.
+                Add pictures as you find helpful.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Dilation
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Scale Factor of a dilation
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Center of a dilation
+                </p>
+            </statement>
+        </task>
       </exercise>
     </subexercises>
-    <subexercises xml:id="SAR-dilations-cartesian">
+    <subexercises xml:id="SAR-dilations-Cartesian">
       <title>Skills and Recall</title>
       <exercise>
-        <statement>
-          <p>
-            Add some.
-          </p>
-        </statement>
+        <introduction>
+            <p>
+                Determine the distance between the following pairs of points.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>(-5,1)</m> and <m>(5,4)</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>(-4,0)</m> and <m>(8,9)</m>.
+                </p>
+            </statement>
+        </task>
+      </exercise>
+      <exercise>
+        <introduction>
+            <p>
+                In <xref ref="fig-SAR-dilation-wLengths"/>, <m>\Delta A'B'C'</m>
+                is the image of <m>\Delta ABC</m> under a dilation with center <m>D</m>.
+                Given that <m>AD=4.42</m>, <m>A'D=1.77</m>, <m>BD=5.11</m>, and 
+                <m>C'D=2.05</m>, determine the following:
+            </p>
+            <!--https://www.geogebra.org/classic/rjes6g2c Lengths may change!-->
+            <figure xml:id="fig-SAR-dilation-wLengths">
+                <caption></caption>
+                <image source="SAR-dilation-wLengths">
+                    <shortdescription>
+                        Point D is in the interior of triangle 
+                        A'B'C' which is inside triangle ABC.
+                    </shortdescription>
+                </image>
+            </figure>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    The scale factor for the dilation taking <m>\Delta ABC</m> to  
+                    <m>\Delta A'B'C'</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The scale factor for the dilation taking <m>\Delta A'B'C'</m> to  
+                    <m>\Delta ABC</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Length <m>DB'</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Length <m>CD</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Length <m>AA'</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Length <m>BB'</m>.
+                </p>
+            </statement>
+        </task>
       </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-dilations-cartesian">

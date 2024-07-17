@@ -2,45 +2,23 @@
 
 <section xml:id="sec-dilations-Pyth-golden" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Pythagorean Theorem and the Golden Triangle</title>
-
+  <introduction>
+    <p>
+      In this section, we will see how similar right triangles can be used to  
+      derive yet another proof of the Pythagorean Theorem. We also will learn 
+      about self-similarity and the Golden Triangle. First, we review the key 
+      concepts of dilations and similarity already explored in this chapter.
+    </p>
+  </introduction>
   <subsection xml:id="subsec-dil-Pyth-golden-review">
     <title>A Review of Similarity</title>
   <exploration>
     <task xml:id="task-sim-right-triangles">
-      <statement>
+      <introduction>
         <p>
           <xref ref="fig-sim-right-triangles"/> gives a triangle <m>\Delta ABC</m>
-          and its image <m>\Delta A'B'C'</m>. Use it to complete the following.
-          <ol>
-            <li>
-              <p>
-                Determine the center <m>O</m> of the dilation.
-              </p>
-            </li>
-            <li>
-              <p>
-                Determine <m>\frac{OA'}{OA}</m>, <m>\frac{OB'}{OB}</m>, and 
-                <m>\frac{OC'}{OC}</m>. What does this tell you about the dilation? 
-              </p>
-            </li>
-            <li>
-              <p>
-                Is it true that <m>\frac{OA'}{AA'}=\frac{OB'}{BB'}=\frac{OC'}{CC'}</m> ?
-                Are these equal to the scale factor?
-              </p>
-            </li>
-            <li>
-              <p>
-                Is it true that <m>\frac{A'B'}{AB}=\frac{B'C'}{BC}=\frac{A'C'}{AC}</m> ?
-                Are these equal to the scale factor?
-              </p>
-            </li>
-            <li>
-              <p>
-                Which pairs of angles must be congruent?
-              </p>
-            </li>
-          </ol>
+          and its image <m>\Delta A'B'C'</m>. Use either the GeoGebra applet or 
+          the coordinate system to complete the following.
         </p>
         <figure xml:id="fig-sim-right-triangles">
           <caption>GeoGebra applet for <xref ref="task-sim-right-triangles"/></caption>
@@ -49,51 +27,97 @@
           <slate surface="geogebra" material="xevrjywj"/>
         </interactive>
         </figure>
-      </statement>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Determine the center <m>O</m> of the dilation that takes <m>\Delta ABC</m>
+            to <m>\Delta A'B'C'</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            What lines must <m>O</m> lie on?
+          </p>
+        </hint>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Determine <m>\frac{OA'}{OA}</m>, <m>\frac{OB'}{OB}</m>, and 
+            <m>\frac{OC'}{OC}</m>. What do these ratios tell you about the dilation? 
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Besides the center, what else defines a dilation?
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>\frac{OA'}{OA}=\frac{OB'}{OB}=\frac{OC'}{OC}=3</m>, 
+            the scale factor.
+          </p>
+        </answer>
+      </task>  
+      <task>
+        <statement>
+          <p>
+            Is it true that <m>\frac{OA'}{AA'}=\frac{OB'}{BB'}=\frac{OC'}{CC'}</m> ?
+            Are these equal to the scale factor?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\frac{OA'}{AA'}=\frac{OB'}{BB'}=\frac{OC'}{CC'}=\frac{3}{2}</m>, not 
+            the scale factor.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Is it true that <m>\frac{A'B'}{AB}=\frac{B'C'}{BC}=\frac{A'C'}{AC}</m> ?
+            Are these equal to the scale factor?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Yes, these ratios all equal 3.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Which pairs of angles must be congruent?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            There are three pairs in the original sketch of the two triangles. If 
+            you want an added challenge you can find more pairs using your center as 
+            a side point.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>\angle ABC\cong\angle A'B'C'</m>; <m>\angle BCA\cong\angle B'C'A'</m>;
+            <m>\angle CAB\cong\angle C'A'B'</m>. 
+            Bonus: Also, <m>\angle FAC\cong\angle F'A'C'\cong\angle CAB\cong\angle C'A'B'</m>;
+            <m>\angle FCA\cong\angle F'C'A'</m> 
+
+          </p>
+        </answer>
+      </task>
     </task>
     <task xml:id="exp-identify-sim-parts">
-      <statement>
+      <introduction>
         <p>
-          In <xref ref="fig-identify-sim-parts"/>, triangle <m>\Delta FGH</m> is
-          similar to triangle <m>\Delta IJK</m>. Determine the following:
-          <ol>
-            <li>
-              <p>
-                <m>m\angle FGH</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>m\angle FHG</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>m\angle JIK</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>m\angle KIJ</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                The scale factor of the dilation that takes <m>\Delta FGH</m>
-                to <m>\Delta IJK</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>GH</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                <m>IJ</m>
-              </p>
-            </li>
-          </ol>
+          In <xref ref="fig-identify-sim-parts"/>,  
+          <m>\Delta FGH\sim\Delta IJK</m><fn>The triangles are similar</fn>. 
+          Also, <m>FG=4.4, FH=13, IK=7.8, JK=9.06, m\angle GFH=110.34\deg</m>
+          and <m>m\angle IJK=53.8\deg</m>Determine the following:
         </p>
         <figure xml:id="fig-identify-sim-parts">
           <caption>Illustration for <xref ref="exp-identify-sim-parts"/></caption>
@@ -104,148 +128,218 @@
             </shortdescription>
           </image>
         </figure>
-      </statement>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m>m\angle FGH</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>m\angle FHG</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>m\angle JIK</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>m\angle KIJ</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            The scale factor of the dilation that takes <m>\Delta FGH</m>
+            to <m>\Delta IJK</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>GH</m>
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>IJ</m>
+          </p>
+        </statement>
+      </task> 
     </task>
   </exploration>
 </subsection>
 <subsection xml:id="subsec-similar-applications">
     <title>Applications of Similarity</title>
     <p>
-        We now apply our knowledge of similarity to two topics: the Pythagorean 
-        Theorem and Golden Triangles.
+        We now apply our knowledge of similarity to two topics: another
+        proof of the Pythagorean Theorem and a triangle known as the Golden Triangle.
     </p>
     <exploration xml:id="explor-similar-Pyth">
         <title>A Proof of the Pythagorean Theorem</title>
         <introduction>
             <p>
-                Use <xref ref="fig-right-tri-nest"/> for this exploration:
+                Use <xref ref="fig-right-tri-nest"/> for this exploration.
             </p>
+            <figure xml:id="fig-right-tri-nest">
+              <caption>GeoGebra applet of a Right Triangle</caption>
+              <interactive xml:id="app-right-tri-nest"
+                  platform="geogebra">
+                  <slate surface="geogebra" material="fcsfhfzh"/>
+              </interactive>
+          </figure>
         </introduction>
         <task xml:id="task-nested-rt-tri">
-            <title>Triangles within a triangle</title>
-            <statement>
+            <title>Right Triangles within a Right Triangle</title>
+            <introduction>
                 <p>
-                    <ol>
-                        <li>
-                            <p>
-                                Measure angles <m>\angle ABC</m>, <m>\angle BCA</m>,
-                                and <m>\angle CAB</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Draw a line segment from point <m>C</m> meeting side <m>\overline{AB}</m> 
-                                perpendicularly at a point <m>D</m>.
-                                How many triangles are now in the sketch? Name them.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                To what other angle(s) is <m>\angle CDA</m> congruent?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                To what other angle(s) is <m>\angle ACD</m> congruent?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Explain how you know triangle <m>\Delta ACD</m> is similar
-                                to <m>\Delta ABC</m>. What is the constant of proportionality?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                What other triangle is similar to triangle <m>\Delta ABC</m>?
-                                Be sure to write the letters in the order of corresponding
-                                vertices.
-                            </p>
-                        </li>
-                    </ol>
+                  Complete the following:
                 </p>
-                <figure xml:id="fig-right-tri-nest">
-                    <caption>GeoGebra applet of a Right Triangle</caption>
-                    <interactive xml:id="app-right-tri-nest"
-                        platform="geogebra">
-                        <slate surface="geogebra" material="fcsfhfzh"/>
-                    </interactive>
-                </figure>
-            </statement>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  Measure angles <m>\angle ABC</m>, <m>\angle BCA</m>,
+                  and <m>\angle CAB</m>.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Draw a line segment from point <m>C</m> meeting side <m>\overline{AB}</m> 
+                  perpendicularly at a point <m>D</m>.
+                  How many triangles are now in the sketch? Name them.
+              </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  To what other angle(s) is <m>\angle CDA</m> congruent?
+              </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Explain how you know triangle <m>\Delta ACD</m> is similar
+                  to <m>\Delta ABC</m>. What is the constant of proportionality?
+              </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What other triangle is similar to triangle <m>\Delta ABC</m>?
+                  Be sure to write the letters in the order of corresponding
+                  vertices.
+              </p>
+              </statement>
+            </task>
         </task>
         <task xml:id="task-Pyth-pf-sim">
             <title>A Similar Triangle Proof of the Pythagorean Theorem</title>
-            <statement>
+            <introduction>
+              <p>
+                We continue to use <xref ref="fig-right-tri-nest"/> and the constructions 
+                from above in this task.
+            </p>
+            </introduction>
+            <task>
+              <statement>
                 <p>
-                    We continue to use <xref ref="fig-right-tri-nest"/> in this task.
-                    <ol>
-                        <li>
-                            <p>
-                                Explain why <m>\frac{AC}{AB}=\frac{AD}{AC}</m> and
-                                <m>\frac{BC}{AB}=\frac{BD}{BC}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Since <m>\frac{AC}{AB}=\frac{AD}{AC}</m>, we see 
-                                <m>AC\cdot AC=AB\cdot AD</m>. Why?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Use the equation<m>\frac{BC}{AB}=\frac{BD}{BC}</m>,
-                                to complete the equation <m>BC\cdot BC=</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                So that the Pythagorean Theorem will be more obvious,
-                                we will assign each length a single letter; namely,
-                                <m>a=BC</m>, <m>b=AC</m>, and <m>c=/AB</m>. What is 
-                                <m>AD+DB</m> using these lower-case letter(s)?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Equating <m>a^2+b^2</m> with <m>BC\cdot BC+AC\cdot AC</m>,
-                                substitute the righthand expressions from the equations in
-                                the first two parts of this task. Then add the expressions.
-                                Do you get <m>c^2</m>? Show all work.
-                            </p>
-                        </li>
-                    </ol>
+                  Explain why <m>\frac{AC}{AB}=\frac{AD}{AC}</m> and
+                  <m>\frac{BC}{AB}=\frac{BD}{BC}</m>.
                 </p>
-            </statement>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Since <m>\frac{AC}{AB}=\frac{AD}{AC}</m>, we see 
+                  <m>AC\cdot AC=AB\cdot AD</m>. Why?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Use the equation<m>\frac{BC}{AB}=\frac{BD}{BC}</m>,
+                  to complete the equation <m>BC\cdot BC=</m>.
+              </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  So that the Pythagorean Theorem will be more obvious,
+                  we will assign each length a single letter; namely,
+                  <m>a=BC</m>, <m>b=AC</m>, and <m>c=/AB</m>. What is 
+                  <m>AD+DB</m> using these lower-case letter(s)?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Equating <m>a^2+b^2</m> with <m>BC\cdot BC+AC\cdot AC</m>,
+                  substitute the righthand expressions from the equations in
+                  the first two parts of this task. Then add the expressions.
+                  Do you get <m>c^2</m>? Show all work.
+              </p>
+              </statement>
+            </task>
         </task>
     </exploration>
 </subsection>
 <subsection xml:id="subsec-selfsim-Triangle">
-  <title>Self-similar Triangles</title>
+  <title>Self-Similar Triangles</title>
   <p>
-    The right triangle in <xref ref="explor-similar-Pyth"/> had the property 
-    that the altitude drawn from the right angle to the hypotenuse split the 
-    triangle into two smaller triangles, both of which were similar to the 
+    The right triangle in <xref ref="explor-similar-Pyth"/> has the property 
+    that the altitude drawn from the right angle to the hypotenuse splits the 
+    triangle into two smaller triangles. Both of these triangles are similar to the 
     original triangle. This property is true for all right triangles since the 
     measure of the two acute angles did not matter. In particular, each new triangle 
-    had a right angle and one of the original angles. Since the sum of the angles in 
-    any triangle is 180 degrees, the newly created angle will have the same measure 
+    has a right angle and one of the original angles. Since the sum of the angles in 
+    any triangle is 180 degrees, the newly created angle has the same measure 
     as the remaining angle of the original triangle.
   </p> 
   <p>
-    Will this happen with other triangles?
+    Will this happen with other triangles? We explore this question in the next 
+    activity.
   </p>
 <exploration xml:id="explor-golden-triangle">
   <title>A Special Triangle</title>
     <introduction>
       <p>
         In <xref ref="fig-golden-tri"/>, an isosceles triangle with two 72-degree angles is 
-        provided. Use it to answer the following:
+        provided. Use the GeoGebra applet to answer the following:
       </p>
+      <figure xml:id="fig-golden-tri">
+        <caption>A Golden Triangle</caption>
+        <interactive xml:id="app-golden-tri" platform="geogebra">
+          <slate surface="geogebra" material="qpfcdb5b"/>
+        </interactive>
+      </figure>
     </introduction>
     <task>
       <statement>
         <p>
-          What is the measure of the third angle?
+          What is the measure of the third angle <m>\angle ACB</m>?
         </p>
       </statement>
     </task>
@@ -253,133 +347,135 @@
       <statement>
         <p>
           Compute <m>\frac{AC}{AB}</m>, the ratio of the long side to the short
-          side. Write the result with five significant digits.<fn>This means to 
-          include the five digits beginning with the leftmost nonzero digit. Be 
-          sure to write the decimal point as appropriate. 
-          </fn>.
+          side. As you record this number, write down at least four 
+          digits after the decimal point. Adjust your calculator settings 
+          to show more digits if fewer than five digits are visible.
         </p>
       </statement>
     </task>
     <task>
-      <statement>
+      <introduction>
         <p>
           Use the angle bisector tool to bisect angle <m>\angle CAB</m>. 
           Let <m>D</m> be the point where this bisector 
           intersects side <m>BC</m> and create line segment <m>\overline{AD}</m>. 
           Use the show/hide tool to hide bisector <m>\overrightarrow{AD}</m>. 
           Segment <m>\overline{AD}</m> should still be visible. 
-          <ol>
-            <li>
-              <p>
-                Of the two smaller triangles created by bisecting <m>\angle CAB</m>, which (if any) are similar to 
-                <m>\Delta ABC</m>? Support your answer. 
-              </p>
-            </li>
-            <li>
-              <p>
-                Suggestion: As we continue to focus on this new smaller triangle, 
-                you may find it useful to use the create polygon 
-                tool to highlight this triangle.
-              </p>
-              <p>
-                Write down the three pairs of corresponding sides.
-              </p>
-            </li>
-            <li>
-              <p>
-                What is the constant of proportionality, <m>k</m> for this similarity?
-                As you record this number, write down at least four digits after the 
-                decimal point. Adjust your calculator settings to show more digits if needed.
-              </p>
-            </li>
-            <li>
-              <p>
-                Note that the constant of proportionality depends on whether 
-                you chose to divide the shorter length by the longer or to 
-                divide the longer length by the shorter. Perform whichever 
-                computation have not already done and record at least four digits
-                after the decimal point.
-              </p>
-            </li>
-            <li>
-              <p>
-                What do you notice about these two numbers?
-              </p>
-            </li>
-          </ol>
         </p>
-      </statement>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Bisecting <m>\angle CAB</m> splits <m>\Delta ABC</m> into two 
+            triangles. Use GeoGebra's Polygon tool to highlight the subtriangle
+            that is similar to <m>\Delta ABC</m>.Support your answer. 
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            List the three pairs of corresponding sides.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What is the constant of proportionality, <m>k</m> for this 
+            similarity? As you record this number, write down at least four 
+            digits after the decimal point. 
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Note that the constant of proportionality depends on whether 
+            you chose to divide the shorter length by the longer or to 
+            divide the longer length by the shorter. Perform whichever 
+            computation have not already done and record at least four digits
+            after the decimal point.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What do you notice about these two numbers?
+          </p>
+        </statement>
+      </task>
     </task>
-    <figure xml:id="fig-golden-tri">
-      <caption>A Golden Triangle</caption>
-      <interactive xml:id="app-golden-tri"
-                        platform="geogebra">
-                        <slate surface="geogebra" material="qpfcdb5b"/>
-                      </interactive>
-    </figure>
     <task>
-      <statement>
+      <introduction>
         <p>
           Now use the angle bisector tool to bisect angle <m>\angle ABD</m>
           in <xref ref="fig-golden-tri"/>.
           Let <m>E</m> be the point where this angle bisector intersects segment 
           <m>\overline{AD}</m>. Draw segment <m>\overline{BE}</m> and hide ray
           <m>\overrightarrow{BE}</m>.
-          <ol>
-            <li>
-              <p>
-                Name another triangle in the sketch which is similar to <m>\Delta ABE</m>.
-              </p>
-            </li>
-            <li>
-              <p>
-                Name two triangles in the sketch that are similar to <m>\Delta DEB</m>.
-              </p>
-            </li>
-          </ol>
         </p>
-      </statement>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Identify another triangle in the sketch which is similar to <m>\Delta ABE</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Identify two triangles in the sketch that are similar to <m>\Delta DEB</m>.
+          </p>
+        </statement>
+      </task>
     </task>
     <task>
       <title>Reflective Questions and Extensions</title>
-      <statement>
+      <introduction>
         <p>
           Based on your work in this exploration, discuss the following:
-          <ol>
-            <li>
-              <p>
-                If you use the arrow tool to move vertex <m>A</m> or <m>B</m>,
-                the lengths of the sides of triangles will change, but the 
-                angle measures will not. Do the constants of proportionality 
-                change?
-              </p>
-            </li>
-            <li>
-              <p>
-                Suppose you continued this process, bisecting <m>\angle BDE</m>
-                to create triangle <m>\Delta DEF</m>, then bisecting 
-                <m>\angle DEF</m> to create <m>\Delta EFG</m>, and so forth.
-                What type of design would you get? What properties would it 
-                have?
-              </p>
-            </li>
-            <li>
-              <p>
-                The area tool is under the angle menu. What is the ratio of
-                the areas of similar triangles <m>\Delta ABC</m> and 
-                <m>\Delta BDA</m>? How is this number related to the ratio of 
-                the corresponding sides?
-              </p>
-              <aside>
-                <p>
-                  Use the create-polygon tool to create <m>\Delta BDA</m> before
-                  using the GeoGebra area tool. 
-                </p>
-              </aside>
-            </li>
-          </ol>
         </p>
-      </statement>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            If you use the arrow tool to move vertex <m>A</m> or <m>B</m>,
+            the lengths of the sides of triangles will change, but the 
+            angle measures will not. Do the constants of proportionality 
+            change?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Suppose you continued this process, bisecting <m>\angle BDE</m>
+            to create triangle <m>\Delta DEF</m>, then bisecting 
+            <m>\angle DEF</m> to create <m>\Delta EFG</m>, and so forth.
+            What type of design would you get? What properties would it 
+            have?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            The area tool is under the angle menu. What is the ratio of
+            the areas of similar triangles <m>\Delta ABC</m> and 
+            <m>\Delta BDA</m>? How is this number related to the ratio of 
+            the corresponding sides?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Use the <sq>Polygon</sq> tool to create <m>\Delta BDA</m> before
+            using the GeoGebra <sq>Area</sq> tool. 
+          </p>
+        </hint>
+      </task>
     </task>
   </exploration>
 </subsection>
