@@ -106,7 +106,6 @@
             <m>\angle CAB\cong\angle C'A'B'</m>. 
             Bonus: Also, <m>\angle FAC\cong\angle F'A'C'\cong\angle CAB\cong\angle C'A'B'</m>;
             <m>\angle FCA\cong\angle F'C'A'</m> 
-
           </p>
         </answer>
       </task>
@@ -288,7 +287,7 @@
                 <p>
                   So that the Pythagorean Theorem will be more obvious,
                   we will assign each length a single letter; namely,
-                  <m>a=BC</m>, <m>b=AC</m>, and <m>c=/AB</m>. What is 
+                  <m>a=BC</m>, <m>b=AC</m>, and <m>c=AB</m>. What is 
                   <m>AD+DB</m> using these lower-case letter(s)?
                 </p>
               </statement>
@@ -352,6 +351,14 @@
           to show more digits if fewer than five digits are visible.
         </p>
       </statement>
+      <hint>
+        <p>
+          The Desmos Scientific Calculator at 
+          <url href="https://desmos.com/scientific">desmos.com</url> may be 
+          used to perform these calculations. If you enter your computation, the 
+          application will give you a new calculation line so you can compare results.
+        </p>
+      </hint>
     </task>
     <task>
       <introduction>
@@ -368,7 +375,7 @@
           <p>
             Bisecting <m>\angle CAB</m> splits <m>\Delta ABC</m> into two 
             triangles. Use GeoGebra's Polygon tool to highlight the subtriangle
-            that is similar to <m>\Delta ABC</m>.Support your answer. 
+            that is similar to <m>\Delta ABC</m>.  
           </p>
         </statement>
       </task>
@@ -383,8 +390,8 @@
         <statement>
           <p>
             What is the constant of proportionality, <m>k</m> for this 
-            similarity? As you record this number, write down at least four 
-            digits after the decimal point. 
+            similarity? As you record this number, write 
+            down at least four digits after the decimal point. 
           </p>
         </statement>
       </task>
@@ -405,6 +412,13 @@
             What do you notice about these two numbers?
           </p>
         </statement>
+        <hint>
+          <p>
+            There is some slight unavoidable error in the numbers due to GeoGebra
+            measurements and estimation. Five significant digits seems 
+            to work here.
+          </p>
+        </hint>
       </task>
     </task>
     <task>
@@ -474,7 +488,18 @@
             Use the <sq>Polygon</sq> tool to create <m>\Delta BDA</m> before
             using the GeoGebra <sq>Area</sq> tool. 
           </p>
+          <p>
+            Also, review <xref ref="sec-polyhedra-dimension"/>.
+          </p>
         </hint>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Use a calculator to estimate the number <m>\frac{1+\sqrt{5}}{2}</m>.
+            What do you notice?
+          </p>
+        </statement>
       </task>
     </task>
   </exploration>
@@ -506,7 +531,8 @@
     <exercise>
       <statement>
         <p>
-          Add
+          Add an algebraic exploration into the number 
+          <m>\frac{1+\sqrt{5}}{2}</m>, its reciprocal, and its square.
         </p>
       </statement>
     </exercise>
@@ -516,7 +542,17 @@
     <exercise>
       <statement>
         <p>
-          Add
+          Write a letter to a friend in which you use nested similar right
+          triangles, such as in <xref ref="explor-similar-Pyth"/> to prove 
+          the Pythagorean Theorem.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Learn about the Golden Rectangle and the Golden Mean. How are these 
+          related to the Golden Triangle?
         </p>
       </statement>
     </exercise>

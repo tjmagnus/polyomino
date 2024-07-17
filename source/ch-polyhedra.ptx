@@ -20,6 +20,7 @@
 rectangular prism that a polycube can fill without gaps.-->
    <xi:include href="sec-polyhedra-Prisms-Cylinders.ptx"/>
    <xi:include href="sec-polyhedra-pyramids-cones.ptx"/>
+   <xi:include href="sec-polyhedra-dimension.ptx"/>
    <!--<xi:include href="sec-polyhedra-proportions.ptx"-->
    <!--<xi:include href="sec-polyhedra-cross-sections.ptx"-->
     <xi:include href="sec-polyhedra-instructor.ptx"/>
