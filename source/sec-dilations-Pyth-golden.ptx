@@ -489,7 +489,7 @@
             using the GeoGebra <sq>Area</sq> tool. 
           </p>
           <p>
-            Also, review <xref ref="sec-polyhedra-dimension"/>.
+            Also, review <xref ref="sec-polyhedra-dimension"/> for one relationship.
           </p>
         </hint>
       </task>
@@ -503,10 +503,128 @@
       </task>
     </task>
   </exploration>
+  <conclusion>
+    <p>
+      The isosceles triangle <m>\Delta ABC</m> explored in <xref ref="explor-golden-triangle"/> 
+      is known as a Golden Triangle. When we create a smaller, but similar, triangle
+      by bisecting a base angle, the constant of proportionality equals the ratio 
+      of the long side to the short side (base) of the original triangle. We can
+      repeat this process of bisecting the base angle of our new triangle to form
+      even smaller similar triangles indefinitely. At every stage of the process,
+      the ratio of the long side to the base will remain 
+      <m>\frac{1+\sqrt{5}}{2}\approx 1.618033989</m> and equal to the constant of 
+      proportionality for the pair of similar triangles. This number is known as the 
+      Golden Ratio and is an irrational number <fn>An irrational number cannot be 
+      written as the ratio of integers. The decimal expansion of an irrational number 
+      is infinite and does not become an infinitely repeating block of digits.
+      </fn>.
+      </p>
+      <!--To map ABC onto ABD, we first dilate <m>\Delta ABC</m> with center <m>B</m>
+      and scale factor <m>\frac{1}{\phi}=0.5(\sqrt{5}-1)</m>. We the reflect this 
+      image across the bisector of <m>\angle{ABC}</m>.-->
+  </conclusion>
+</subsection>
+<subsection xml:id="subsec-Connection-Regular-Pentagon">
+  <title>A Connection to a Regular Pentagon</title>
+  <introduction>
+    <p>
+      We explored regular polygons in <xref ref="sec-polygons-regular"/>. 
+    </p>
+  </introduction>
+  <exploration>
+    <introduction>
+      <p>
+        The polygon <m>ABCDE</m> in <xref ref="fig-reg-pentagon-GT"/> is a regular
+        pentagon.
+      </p>
+      <figure xml:id="fig-reg-pentagon-GT">
+        <caption>A Triangle in a Regular Pentagon</caption>
+        <image source="reg-pentagon-GT">
+          <shortdescription>Regular pentagon ABCDE</shortdescription>
+        </image>
+      </figure>
+    </introduction>
+    <task>
+      <statement>
+        <p>
+          In <xref ref="sec-polygons-regular"/>, we learned that each vertex 
+          angle of a regular <m>n</m>-gon measures <m>\frac{180(n-2)}{n}</m> degrees.
+          Assume that <m>ABCDE</m> is a regular pentagon and determine the 
+          measure of <m>\angle EAB</m>.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Draw segment <m>\overline{AD}</m>. What type of triangle is <m>\Delta EAD</m>?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Compute <m>m\angle{EAD}</m>. How did you determine this?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Determine <m>m\angle{DAB}</m> showing all work.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Construct <m>\overline{BD}</m>. What is the measure of <m>\angle CDE</m>?
+          How do you know?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          Describe triangle <m>\Delta DAB</m> as specifically as possible. Why does
+          this exploration belong in this section?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <introduction>
+        <p>
+          Now extend lines <m>\overleftrightarrow{ED}</m> and <m>\overleftrightarrow{BC}</m> 
+          so that they meet at a point <m>F</m>. Similarly, let <m>G</m> be the point 
+          where <m>\overleftrightarrow{DC}</m> meets <m>\overleftrightarrow{AB}</m>,
+          let <m>H</m> be the point where <m>\overleftrightarrow{CB}</m> and 
+          <m>\overleftrightarrow{EA}</m> intersect, let <m>I</m> be the intersection of 
+          <m>\overleftrightarrow{BA}</m> and <m>\overleftrightarrow{DE}</m>, and
+          let <m>J</m> be the intersection of <m>\overleftrightarrow{AE}</m> and
+          <m>\overleftrightarrow{CD}</m>. 
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Describe the shape of the decagon <m>DFCGBHAIEJ</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What type of triangle is <m>\Delta DFC</m>? How is it related to 
+            <m>\Delta ADB</m>?
+          </p>
+        </statement>
+      </task>
+    </task>
+  </exploration>
 </subsection>
 <exercises xml:id="exer-dilations-Pyth">
   <title>Exercises</title>
-  <subexercises xml:id="Toolbox-dilations-Pyth">
+  <!--<subexercises xml:id="Toolbox-dilations-Pyth">
     <title>Building Our Toolbox</title>
     <exercise>
       <statement>
@@ -515,26 +633,142 @@
         </p>
       </statement>
     </exercise>
-  </subexercises>
+  </subexercises>-->
   <subexercises xml:id="SAR-dilations-Pyth">
     <title>Skills and Recall</title>
     <exercise>
-      <statement>
+      <introduction>
         <p>
-          Add some.
+          In <xref ref="fig-midpt-triangle"/>, <m>D</m>, <m>E</m>, and <m>F</m>
+          are the midpoints of <m>\overline{AB}</m>, <m>\overline{BC}</m>, and
+          <m>\overline{AC}</m>, respectively. Also, <m>AB=8</m>, <m>BC=14</m>,
+          and <m>AC=10</m>. Angles <m>\angle ABC</m>, <m>\angle ADF</m>, and 
+          <m>\angle FEC</m> have measure 42 degrees; whereas, <m>m\angle ACB=30\deg</m>
+          and <m>m\angle DEF=108\deg</m>. Answer the following:
         </p>
-      </statement>
+          <figure xml:id="fig-midpt-triangle">
+            <caption></caption>
+            <image source="midpt-triangle">
+              <shortdescription>Triangle ABC with midpoints DEF as described</shortdescription>
+            </image>
+          </figure>
+        </introduction>
+      <task>
+        <statement>
+          <p>
+            Determine <m>m\angle DEB</m> and <m>m\angle BAC</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Determine <m>m\angle EFC</m>, <m>m\angle BDE</m>, and <m>m\angle BAC</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Determine <m>m\angle FDE</m> and <m>m\angle AFD</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Determine <m>m\angle EFD</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Identify four triangles that are similar to <m>\Delta ABC</m>. Be 
+            sure to list the vertices in order.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+                Determine the length of <m>\overline{AF}</m>. Support your answer.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Determine the length of <m>\overline{DF}</m>. Support your answer.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            There is a dilation taking <m>\Delta ABC</m> to <m>\Delta FEC</m>.
+            What is the center and scale factor of this dilation?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+           There is an isometry taking <m>\Delta DEB</m> to <m>\Delta FCE</m>.
+           What type of isometry? Identify its defining object(s). 
+          </p>
+        </statement>
+        <hint>
+          <p>
+            See <xref ref="table-def-obj-4"/>.
+          </p>
+        </hint>
+      </task>
+      <task>
+        <statement>
+          <p>
+            There is an isometry taking <m>\Delta ADF</m> to <m>\Delta EFD</m>.
+            What type of isometry? Identify its defining object(s). 
+          </p>
+        </statement>
+        <hint>
+          <p>
+            See <xref ref="table-def-obj-4"/>. You may want to check orientation 
+            as well.
+          </p>
+        </hint>
+      </task>
     </exercise>
   </subexercises>
   <subexercises xml:id="ExtConc-dilations-Pyth">
     <title>Extending the Concepts</title>
     <exercise>
+      <title>Calculating the Golden Ratio</title>
+      <introduction>
+        <p>
+          The ratio <m>\frac{1+\sqrt{5}}/2</m> that was the constant of 
+          proportionality in <xref ref="explor-golden-triangle"/> is known as 
+          the Golden Ratio.
+        </p>
+      </introduction>
+      
       <statement>
         <p>
           Add an algebraic exploration into the number 
           <m>\frac{1+\sqrt{5}}{2}</m>, its reciprocal, and its square.
         </p>
       </statement>
+    </exercise>
+    <exercise>
+      <title>Surprising Facts about the Golden Ratio</title>
+      <introduction>
+        <p>
+          The ratio <m>\frac{1+\sqrt{5}}/2</m> that was the constant of 
+          proportionality in <xref ref="explor-golden-triangle"/> is known as 
+          the Golden Ratio.
+        </p>
+      </introduction>
+      
     </exercise>
   </subexercises>
   <subexercises xml:id="Writing-dilations-Pyth">
