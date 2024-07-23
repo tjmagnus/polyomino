@@ -2,6 +2,108 @@
 
 <section xml:id="sec-polyhedra-dimension" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Measuring in Different Dimensions</title>
+  <introduction>
+    <p>
+      As we complete our section on three-dimensional solids, let us take a closer 
+      look at the relationships between measurements of one-, two-, and three-dimensional
+      objects.
+    </p>
+    </introduction>
+    <subsection xml:id="subsec-polyhedra-dimension-interior-exterior">
+      <title>Measuring Interior and Exterior Space</title>
+      <p>
+        Linear objects, like lines and segments, are one-dimensional. We measure 
+        the lengths of segments. Linear objects have only length, not width.
+      </p>
+      <p>
+        Two-dimensional objects include polygons, circles, and other figures that 
+        lie in a plane. We can measure both the area and the perimeter of closed 
+        finite two-dimensional objects. While the area of a planar figure requires 
+        two dimensions, length and width, perimeter is actually a one-dimensional 
+        measurement. Perimeter measures the boundary of the figure and one method 
+        of finding the perimeter is to straighten out the boundary and lie it along 
+        a ruler.
+      </p>
+      <p>
+        We can find both the volume and the surface area of polyhedra and other 
+        three-dimensional solids. Volume measures the space inside whereas surface 
+        area measures the boundary. For three-dimensional figures, the boundary 
+        consists of surfaces. We can unfold the three-dimensional solid into its 
+        two-dimensional net. 
+      </p>
+      <p>
+        For both two-dimensional figures and three-dimensional solids, we have two 
+        types of measurements. One measures the space in the interior of the object 
+        and the other measures the boundary of the object. In both cases, the boundary 
+        consists of parts which live in a smaller dimension. One-dimensional objects 
+        only have length which could be considered to be the linear space between
+        endpoints, but points have no length or breadth and so it does not make sense 
+        to measure the <sq>boundary</sq> of a line segment.
+      </p>
+    </subsection>
+    <subsection xml:id="subsec-polyhedral-dimesion-growth">
+      <title>Growth in Different Dimensions</title>
+      <p>
+        How does the change in the length in one or more directions affect the 
+        size of a figure's interior and boundary? We will see that in some cases 
+        we see nice relationships while in other cases the relationship may be 
+        less obvious if it even exists.
+      </p>
+      <exploration>
+        <title>Studing Growth</title>
+        <task xml:id="task-polyhedral-dim-rectangle-area-perimeter">
+          <introduction>
+            <p>
+              For each of the following rectangles compute the perimeter 
+              and the area:
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 3 and width 5.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 4 and width 7.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 2 and width 10
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length <m>\ell</m> and width <m>w</m>.
+              </p>
+            </statement>
+          </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              For each rectangle in <xref ref="task-polyhedral-dim-rectangle-area-perimeter"/>,
+              add 5 to the length. Then compute the perimeter and area of the enlarged
+              rectangle.
+            </p>
+          </statement>
+        </task>
+      </exploration>
+    </subsection>
+    <subsection xml:id="subsec-polyhedral-dimension-fractal">
+      <title>Measuring Fractals</title>
+      <p>
+        Add more.
+      </p>
+  </subsection>
   <p>
     Add a section where we look at the effect that changing side lengths have on 
     the area of objects. Also explore scale models.

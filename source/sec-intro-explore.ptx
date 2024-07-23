@@ -878,6 +878,43 @@
               47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones.  We then can sketch 
               the product as shown in <xref ref="fig-hw2digit-rectangle"/>.  
             </p>
+            <sidebyside widths="60% 30%">
+              <figure xml:id="fig-hw2digit-rectangle">
+                <caption>Rectangular Model</caption>
+              <image component="web" source="hw2digit-areamodel.svg" width="40%">
+                <shortdescription>
+                  A rectangle labeled with sides 40+7 and 20+5 and split into 
+                  subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
+                </shortdescription>
+              </image>
+              <image component="print" source="hw2digit-areamodel.png" width="40%">
+                <shortdescription>
+                  A rectangle labeled with sides 40+7 and 20+5 and split into 
+                  subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
+                </shortdescription>
+              </image>
+            </figure>
+            <table xml:id="fig-twodigitalgorithm">
+              <caption>Algorithm</caption>
+              <tabular halign="right">
+                <row header="no" bottom="none">
+                  <cell>47</cell>
+                </row>
+                <row header="no" bottom="medium">
+                  <cell><m>\times</m> 25</cell>
+                </row>
+                <row header="no" bottom="none">
+                  <cell>235</cell>
+                </row>
+                <row header="no" bottom="minor">
+                  <cell>+ 940</cell>
+                </row>
+                <row header="no" bottom="none">
+                  <cell>1175</cell>
+                </row>
+              </tabular>
+            </table>
+            </sidebyside>
           </introduction>
             <task>
               <statement>
@@ -915,47 +952,10 @@
                   </p>
                 </hint>
               </task>
-                <figure xml:id="fig-hw2digit-areamodel">
-                  <caption>A rectangular model and algorithm for two-digit multiplication</caption>
-                <sidebyside widths="60% 30%">
-                  <figure xml:id="fig-hw2digit-rectangle">
-                    <caption>Rectangular Model</caption>
-                  <image component="web" source="hw2digit-areamodel.svg" width="40%">
-                    <shortdescription>
-                      A rectangle labeled with sides 40+7 and 20+5 and split into 
-                      subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
-                    </shortdescription>
-                  </image>
-                  <image component="print" source="hw2digit-areamodel.png" width="40%">
-                    <shortdescription>
-                      A rectangle labeled with sides 40+7 and 20+5 and split into 
-                      subrectangles 40 by 20, 40 by 5, 7 by 20, and 7 by 5.
-                    </shortdescription>
-                  </image>
-                </figure>
-                <table xml:id="fig-twodigitalgorithm">
-                  <caption>Algorithm</caption>
-                  <tabular halign="right">
-                    <row header="no" bottom="none">
-                      <cell>47</cell>
-                    </row>
-                    <row header="no" bottom="medium">
-                      <cell><m>\times</m> 25</cell>
-                    </row>
-                    <row header="no" bottom="none">
-                      <cell>235</cell>
-                    </row>
-                    <row header="no" bottom="minor">
-                      <cell>+ 940</cell>
-                    </row>
-                    <row header="no" bottom="none">
-                      <cell>1175</cell>
-                    </row>
-                  </tabular>
-                </table>
-                </sidebyside>
-                </figure>
-              
+                <!--<figure xml:id="fig-hw2digit-areamodel">
+                  <caption>A rectangular model and algorithm for two-digit multiplication</caption>-->
+                
+                <!--</figure>-->
             </exercise>
               
         <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
