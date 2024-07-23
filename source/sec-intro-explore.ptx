@@ -933,7 +933,7 @@
                     </shortdescription>
                   </image>
                 </figure>
-                <figure xml:id="fig-twodigitalgorithm">
+                <table xml:id="fig-twodigitalgorithm">
                   <caption>Algorithm</caption>
                   <tabular halign="right">
                     <row header="no" bottom="none">
@@ -952,7 +952,7 @@
                       <cell>1175</cell>
                     </row>
                   </tabular>
-                </figure>
+                </table>
                 </sidebyside>
                 </figure>
               

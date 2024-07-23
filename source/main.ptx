@@ -62,14 +62,14 @@
       </colophon>
       
          <dedication>
-    <p permid="mjH">
+    <p>
       For John and Paul
     </p>
   </dedication>
 <!--
   <acknowledgement>
 
-    <p permid="SqQ">
+    <p>
       Discuss where my inspiration came from: Mrs. Crystal Mills, UD Professors, 
       Dr. John Faulkner, books by 
       O'Daffer and Clemens, Kinsey and Moore, Henri Picciotto, others.
@@ -78,16 +78,16 @@
     </p>
 
     
-    <  <p permid="yxZ">
+    <  <p>
       Others who deserve mentioning. Early 
       testers. NE-Commit.
     </p>>
 
-    <p permid="eFi">
+    <p>
       Others?
     </p>
 
-    <p permid="KMr">
+    <p>
       The book would only be available in this interactive online
       format, thanks to the support and assistance from 
       participants of the PROSE Consortium
@@ -100,7 +100,7 @@
       my geometry interactive needs and developed DoeNET tools to meet them.
     </p>
 
-    <p permid="qTA">
+    <p>
       Finally, a thank you to the numerous Rivier University students who have taken 
       MA127 Geometrical Explorations over the years. Watching you work as teams, struggle, 
       ask questions, grow, and celebrate success has helped me revise these activities 
@@ -111,7 +111,7 @@
   </acknowledgement>-->
 
   
-    <preface xml:id="preface" permid="xOf">
+    <preface xml:id="preface">
       <!--
       <p>
         This book is designed to engage students in the art and excitement of doing mathematics:
@@ -167,7 +167,7 @@
       <p>
         The material in this textbook is accessible
       </p>
-    <p permid="BsF">
+    <p>
       This textbook is designed to engage prospective 
       elementary and early childhood teachers with exploratory 
       actives that lead them to a deeper understanding of 
@@ -192,19 +192,19 @@
       tools, and inexpensive office supplies. Often an option of 
       completing tasks either digitally or tactilely is provided. 
       </p>
-    <p permid="NGX">
+    <p>
       The topics covered 
     </p>
 
-    <p permid="tOg">
+    <p>
       Considerations for planning
     </p>
 
-    <p permid="ZVp">
+    <p>
       Okay to edit? 
     </p>-->
       
-      <p permid="kuu">
+      <p>
         My hope is to continue improving the book, releasing a new edition each spring 
         in time for fall adoptions.  These new editions will incorporate additions and 
         corrections suggested by instructors and students who use the text the previous 
@@ -219,9 +219,9 @@
   </attribution>
   </preface>
 
-  <preface permid="dVo">
+  <preface>
     <title>How to use this book</title>
-    <p permid="Gcy">
+    <p>
       The author is writing this textbook during a 2023-2024 sabbatical. Updates and 
       additions will be deployed every week or two to 
       <url href=" https://tjmagnus.github.io/polyomino/"/>. Suggestions on how to improve
@@ -232,9 +232,9 @@
       <url href="tmagnus@rivier.edu">tmagnus@rivier.edu</url> with your name, contact information, 
       and the link to a webpage verifying your role as instructor.  
     </p>
-    <paragraphs permid="qjG">
+    <paragraphs>
       <title>Exploration activities</title>
-      <p permid="QBD">
+      <p>
         Explorations are an essential part of this course. Students, often in groups, make  
         sense of the mathematics and take ownership of the content by discovering relationships 
         through hands-on activities. I am happy to share the classroom worksheets  
@@ -245,24 +245,24 @@
       </p>
     </paragraphs>
 <!--
-    <paragraphs permid="WqP">
+    <paragraphs>
       <title>Examples</title>
-      <p permid="wIM">
+      <p>
         Say something about examples or some other feature as appropriate.
       </p>
     </paragraphs>
 
-    <paragraphs permid="CxY">
+    <paragraphs>
       <title>Exercises</title>
-      <p permid="cPV">
+      <p>
         Add something here about how students should approach exercises. 
       </p>
       
     </paragraphs>-->
     
-    <paragraphs permid="iFh">
+    <paragraphs>
       <title>Interactive Online Version</title>
-      <p permid="pen">
+      <p>
         For those of you reading this in a PDF or in print, I encourage you to also check out 
         the interactive online version, which makes navigating the book a little easier.  
         Additionally, many of the activities are implemented as GeoGebra or Polypad applets, 
@@ -276,12 +276,11 @@
           QR code below with your smart phone-->.
       </p>
       <!--
-      <sidebyside width="25%" permid="OMq">
+      <sidebyside width="25%">
           <image source="images/qrcode.png"/>
       </sidebyside>-->
     </paragraphs>
   </preface>
-  
   
     </frontmatter>
 
