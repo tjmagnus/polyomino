@@ -104,8 +104,12 @@
         Add more.
       </p>
   </subsection>
-  <p>
-    Add a section where we look at the effect that changing side lengths have on 
-    the area of objects. Also explore scale models.
-  </p>
+  <subsection xml:id="subsec-">
+    <title></title>
+    <p>
+      Add a section where we look at the effect that changing side lengths have on 
+      the area of objects. Also explore scale models.
+    </p>
+  </subsection>
+  
   </section>

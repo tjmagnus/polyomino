@@ -878,7 +878,7 @@
               47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones.  We then can sketch 
               the product as shown in <xref ref="fig-hw2digit-rectangle"/>.  
             </p>
-            <sidebyside widths="60% 30%">
+            <sidebyside widths="60% 30%" valign="bottom">
               <figure xml:id="fig-hw2digit-rectangle">
                 <caption>Rectangular Model</caption>
               <image component="web" source="hw2digit-areamodel.svg" width="40%">
@@ -914,50 +914,49 @@
                 </row>
               </tabular>
             </table>
-            </sidebyside>
-          </introduction>
-            <task>
-              <statement>
-                <p>
-                  Determine the area of each of the four subrectangles pictured. Here, the squares 
-                  on the grid are not <m>1\times 1</m> but defined by the notations on the sides.
-                </p>
-              </statement>
-              <hint>
-                <p>
-                  One of the subrectangles is a <m>5\times 40</m>-rectangle. What are 
-                  the others? 
-                </p>
-              </hint>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  Add the four areas of the subrectangles together to find the total area.
-                </p>
-              </statement>
-            </task>
-            <task>
-                <statement>
-                <p>
-                  The standard algorithm to multiply  <m>47 \times 25</m> is shown
-                  in <xref ref="fig-twodigitalgorithm"/>.   
-                  Identify what the 235 and 940 in the algorithm represent in the area 
-                  model pictured at the beginning of this exercise.
-                </p>
-                </statement>
-                <hint>
-                  <p>
-                    Consider sums of areas.
-                  </p>
-                </hint>
-              </task>
+          </sidebyside>
+        </introduction>
+          <task>
+            <statement>
+              <p>
+                Determine the area of each of the four subrectangles pictured. Here, the squares 
+                on the grid are not <m>1\times 1</m> but defined by the notations on the sides.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                One of the subrectangles is a <m>5\times 40</m>-rectangle. What are 
+                the others? 
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Add the four areas of the subrectangles together to find the total area.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                The standard algorithm to multiply  <m>47 \times 25</m> is shown
+                in <xref ref="fig-twodigitalgorithm"/>.   
+                Identify what the 235 and 940 in the algorithm represent in the area 
+                model pictured at the beginning of this exercise.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Consider sums of areas.
+              </p>
+            </hint>
+          </task>
                 <!--<figure xml:id="fig-hw2digit-areamodel">
                   <caption>A rectangular model and algorithm for two-digit multiplication</caption>-->
                 
                 <!--</figure>-->
-            </exercise>
-              
+        </exercise>
         <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
           <title>Multiplication of Multidigit Numbers</title>
           <statement>

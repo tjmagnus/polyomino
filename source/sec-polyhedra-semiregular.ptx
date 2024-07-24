@@ -57,18 +57,15 @@
         </exercise>
     </subsection>
     <subsection xml:id="subsec-polyhedra-semiregular-examples">
-        <title>Some Examples of Semiregular Polyhedra</title>
+        <title>Examples of Semi-regular Polyhedra</title>
         <exploration>
             <task>
-                <statement>
+                <title>The Great Rhombicosidodecahedron</title>
+                <introduction>
                     <p>
                         One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron
                         which is shown in <xref ref="Great_rhombicosidodecahedron"/>.
                         Check that each visible vertex has the arrangement 4.6.10. 
-                    </p>
-                    <p>
-                        Three polygons meet at each vertex of the great rhombicosidodecahedron. 
-                        What is the sum of three angle measures at any one vertex?
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
                         <caption>Great Rhombicosidodecahedron<fn>Illustration produced by Robert Webb's 
@@ -84,7 +81,6 @@
                                 eight hexagonal faces, and eight square faces are 
                                 clearly visible, but there is a hint of a square and 
                                 hexagon alonge the bottom edge.
-                                <!--Check this!-->
                             </shortdescription>
                         </image>
                         <image component="print" source="Great_rhombicosidodecahedron1.png" width="40%">
@@ -94,37 +90,27 @@
                                 eight hexagonal faces, and eight square faces are 
                                 clearly visible, but there is a hint of a square and 
                                 hexagon alonge the bottom edge.
-                                <!--Check this!-->
                             </shortdescription>
                         </image>
                     </figure>
-                </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Three polygons meet at each vertex of the great rhombicosidodecahedron. 
+                            What is the sum of three angle measures at any one vertex?
+                        </p>
+                    </statement>
+                </task>
             </task>
             <task>
-                <statement>
+                <title>The Icosidodecahedron</title>
+                <introduction>
                     <p>
                         Another Archimedean solid is the icosidodecahedron 
                         <xref ref="icosidod-solid"/>.
-                        <ol>
-                            <li>
-                                <p>
-                                    What is the vertex arrangement of the icosidodecahedron?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    How many pentagons are needed to create an icosidodecahedron? 
-                                    Be sure to count the ones you cannot see as well.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    How many triangles are needed to create an icosidodecahedron?
-                                </p>
-                            </li>
-                        </ol>
                     </p>
-                <figure xml:id="icosidod-solid">
+                    <figure xml:id="icosidod-solid">
                         <caption>
                             The Icosidodecahedron<fn>Illustration produced by Robert Webb's 
                                 <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
@@ -140,34 +126,78 @@
                             <shortdescription>A picture of an icosidodecahedron</shortdescription>
                         </image>
                     </figure>
-        </statement>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            What is the vertex arrangement of the icosidodecahedron?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How many pentagons are needed to create an icosidodecahedron? 
+                            Be sure to count the ones you cannot see as well.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How many triangles are needed to create an icosidodecahedron?
+                        </p>
+                    </statement>
+                </task>
             </task>
             <task xml:id="Archimedean-construction-extension">
-                <p>
-                    Choose one (or more) of the following vertex arrangements,
-                    <m>3.6.6</m>, <m>4.6.6</m>, <m>3.4.4.4</m>, <m>3.4.3.4</m>,
-                    <m>3.10.10</m>, or <m>5.6.6</m> and 
-                    construct the semiregular polyhedron that has that vertex 
-                    arrangement. If you are up for a challenge, you may choose 
-                    <m>3.4.5.4</m>, <m>3.3.3.3.4</m>, or <m>3.3.3.3.5</m>.
-                    <ol>
-                        <li>
-                            <p>
-                                How many faces of each type does your semiregular polyhedron have?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                What is the total number of vertices? 
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                What is the total number of edges?
-                            </p>
-                        </li>
-                    </ol>
-                </p>
+                <title>Other Semi-regular Polyhedra</title>
+                <introduction>
+                    <p>
+                        Choose one of the following vertex arrangements,
+                        <m>3.6.6</m>, <m>4.6.6</m>, <m>3.4.4.4</m>, <m>3.4.3.4</m>,
+                        <m>3.10.10</m>, or <m>5.6.6</m>. 
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Construct the semiregular polyhedron that has that 
+                            has your chosen vertex arrangement.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How many faces of each type does your semiregular polyhedron have?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            What is the total number of vertices? 
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            What is the total number of edges?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            As a bonus, repeat this task for other vertex
+                            arrangements. If you are up for a challenge, you may 
+                            choose <m>3.4.5.4</m>, <m>3.3.3.3.4</m>, or 
+                            <m>3.3.3.3.5</m>.
+                        </p>
+                    </statement>
+                </task>
             </task>
         </exploration>
     </subsection>
@@ -180,215 +210,221 @@
             <title>
                 Semiregular Polyhedra with Vertex Arrangement <m>4.4.n</m>
             </title>
-            <statement>
+            <introduction>
                 <p>
-                    <ol>
-                        <li>
-                            <p>
-                                Build the following semiregular polyhedron which has the 
-                                following vertex arrangements. You will need these solids to answer the remainder 
-                                of the questions in this task.
-                                <ol>
-                                    <li>
-                                        <p>
-                                            <m>3.4.4</m> (same as <m>4.4.3</m>)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>4.4.5</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>4.4.6</m>
-                                        </p>
-                                    </li>
-                                </ol>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Without building <m>4.4.8</m> describe 
-                                clearly what it would look like.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The polyhedra you just created are called <term>prisms</term>. Use your 
-                                constructions to complete <xref ref="table-prism"/>. The first row should
-                                list the number of faces, vertices, and edges in a semiregular solid with 
-                                a <m>3.4.4</m>-vertex arrangement.
-                            </p>
-                        </li>
-                    </ol>
+                    Build the following semiregular polyhedron which has the 
+                    following vertex arrangements. You will need these solids to answer the remainder 
+                    of the questions in this task.
                 </p>
-                <table xml:id="table-prism">
-                    <title>Attributes of Prisms</title>
-                    <tabular halign="center" row-headers="yes">
-                        <col right="medium"/>
-                        <col right="minor"/>
-                        <col right="minor"/>
-                        <col />
-                        <row header="yes" bottom="medium">
-                            <cell>Shape of base</cell>
-                            <cell>Number of faces <m>F</m></cell>
-                            <cell>Number of vertices <m>V</m></cell>
-                            <cell>Number of edges <m>E</m></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Triangle</cell>
-                            <cell></cell>
-                            <cell>6</cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Quadrilateral</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Pentagon</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Hexagon</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Heptagon (7)</cell>
-                            <cell>9</cell>
-                            <cell>14</cell>
-                            <cell>21</cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Octagon</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                        <row>
-                            <cell><m>n</m>-gon</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                    </tabular>
-                </table>
-            </statement>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>3.4.4</m> (same as <m>4.4.3</m>)
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>4.4.5</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>4.4.6</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Without building <m>4.4.8</m> describe 
+                        clearly what it would look like.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The polyhedra you just created are called <term>prisms</term>. Use your 
+                        constructions to complete <xref ref="table-prism"/>. The first row should
+                        list the number of faces, vertices, and edges in a semiregular solid with 
+                        a <m>3.4.4</m>-vertex arrangement.
+                    </p>
+                    <table xml:id="table-prism">
+                        <title>Attributes of Prisms</title>
+                        <tabular halign="center" row-headers="yes">
+                            <col right="medium"/>
+                            <col right="minor"/>
+                            <col right="minor"/>
+                            <col />
+                            <row header="yes" bottom="medium">
+                                <cell>Shape of base</cell>
+                                <cell>Number of faces <m>F</m></cell>
+                                <cell>Number of vertices <m>V</m></cell>
+                                <cell>Number of edges <m>E</m></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Triangle</cell>
+                                <cell></cell>
+                                <cell>6</cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Quadrilateral</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Pentagon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Hexagon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Heptagon (7)</cell>
+                                <cell>9</cell>
+                                <cell>14</cell>
+                                <cell>21</cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Octagon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>n</m>-gon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
         </task>
         <task xml:id="antiprism-task">
             <title>
                 Semiregular Polyhedra with Vertex Arrangement <m>3.3.3.n</m>
             </title>
-            <statement>
+            <introduction>
                 <p>
-                    <ol>
-                        <li>
-                            <p>
-                                Build the following semiregular polyhedron which has the 
-                                following vertex arrangements. You will need these solids to answer the remainder 
-                                of the questions in this task.
-                                <ol>
-                                    <li>
-                                        <p>
-                                            <m>3.3.3.3</m> (a regular polyhedron)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>3.3.3.4</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>3.3.3.5</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>3.3.3.6</m>
-                                        </p>
-                                    </li>
-                                </ol>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Without building <m>3.3.3.8</m> describe 
-                                clearly what it would look like.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The polyhedra you just created are called <term>antiprisms</term>. Use your 
-                                constructions to complete <xref ref="table-antiprism"/>. 
-                            </p>
-                        </li>
-                    </ol>
+                    Build the following semiregular polyhedron which has the 
+                    following vertex arrangements. You will need these solids to answer the remainder 
+                    of the questions in this task. 
                 </p>
-                <table xml:id="table-antiprism">
-                    <title>Attributes of Antiprisms</title>
-                    <tabular halign="center" row-headers="yes">
-                        <col right="medium"/>
-                        <col right="minor"/>
-                        <col right="minor"/>
-                        <row header="yes" bottom="medium">
-                            <cell>Shape of base</cell>
-                            <cell>Number of faces <m>F</m></cell>
-                            <cell>Number of vertices <m>V</m></cell>
-                            <cell>Number of edges <m>E</m></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Triangle</cell>
-                            <cell></cell>
-                            <cell>6</cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Quadrilateral</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Pentagon</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Hexagon</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Heptagon (7)</cell>
-                            <cell>16</cell>
-                            <cell>14</cell>
-                            <cell>28</cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell>Octagon</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                        <row bottom="minor">
-                            <cell><m>n</m>-gon</cell>
-                            <cell></cell>
-                            <cell></cell>
-                            <cell></cell>
-                        </row>
-                    </tabular>
-                </table>
-            </statement>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>3.3.3.3</m> (a regular polyhedron)
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>3.3.3.4</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>3.3.3.5</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>3.3.3.6</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Without building <m>3.3.3.8</m> describe 
+                        clearly what it would look like.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The polyhedra you just created are called <term>antiprisms</term>. Use your 
+                        constructions to complete <xref ref="table-antiprism"/>. 
+                    </p>
+                    <table xml:id="table-antiprism">
+                        <title>Attributes of Antiprisms</title>
+                        <tabular halign="center" row-headers="yes">
+                            <col right="medium"/>
+                            <col right="minor"/>
+                            <col right="minor"/>
+                            <row header="yes" bottom="medium">
+                                <cell>Shape of base</cell>
+                                <cell>Number of faces <m>F</m></cell>
+                                <cell>Number of vertices <m>V</m></cell>
+                                <cell>Number of edges <m>E</m></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Triangle</cell>
+                                <cell></cell>
+                                <cell>6</cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Quadrilateral</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Pentagon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Hexagon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Heptagon (7)</cell>
+                                <cell>16</cell>
+                                <cell>14</cell>
+                                <cell>28</cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell>Octagon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row bottom="minor">
+                                <cell><m>n</m>-gon</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </statement>
+            </task>
         </task>
         <task>
             <statement>
@@ -479,7 +515,7 @@
                         State the definition of semiregular polyhedron in 
                         your own words.
                     </p>
-                </introduction>>
+                </introduction>
                 <task>
                     <statement>
                         <p>

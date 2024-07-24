@@ -9,7 +9,8 @@
     <rename element="axiom">Formula</rename>
   </docinfo>
 
-  <!--<covers front="RENAMEexternal/images/front.pdf" back="RENAMEexternal/images/back.pdf"/>
+  <!--
+  <covers front="RENAMEexternal/images/front.pdf" back="RENAMEexternal/images/back.pdf"/>
   Possible cover art created using https://eschersket.ch 
   image source="eschersketch-cover" or use iris picture or create a design with 
   pattern blocks or other tiles-->
