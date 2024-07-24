@@ -9,13 +9,15 @@
     <rename element="axiom">Formula</rename>
   </docinfo>
 
+  <!--<covers front="RENAMEexternal/images/front.pdf" back="RENAMEexternal/images/back.pdf"/>
+  Possible cover art created using https://eschersket.ch 
+  image source="eschersketch-cover" or use iris picture or create a design with 
+  pattern blocks or other tiles-->
   <book xml:id="Poly-cubed-geom-explor">
     <title component="student">Polyominoes, Polygons, and Polyhedra</title>
     <title component="instructor">Instructor's Version of Polyominoes, Polygons, and Polyhedra</title>
       <subtitle>Discovering Geometry through Exploration</subtitle>
-<!--Possible cover art created using https://eschersket.ch 
-  image source="eschersketch-cover" or use iris picture or create a design with 
-  pattern blocks or other tiles-->
+
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
