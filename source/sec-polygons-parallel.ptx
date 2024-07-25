@@ -55,7 +55,7 @@
         </task>
     </exploration>
 </subsection>
-    <subsection>
+    <subsection xml:id="subsec-polygons-parallel-sphere">
         <title>Geometry on Another Surface</title>
         <p>
             In school, we typically consider lines to lie on a flat surface called a 
@@ -323,8 +323,8 @@
                 Except where specified, our work will be limited to Euclidean geometry 
                 where lines lie on planes, not spheres. In Euclidean geometry, 
                 parallel lines exist. In fact, for each point <m>P</m> and line <m>\ell</m> 
-                not passing through <m>P</m>>, we can draw exactly 
-                one line through <m>P</m> that is parallel to <m>\ell</m>>. We will 
+                not passing through <m>P</m>, we can draw exactly 
+                one line through <m>P</m> that is parallel to <m>\ell</m>. We will 
                 accept this statement, known as Playfair's Parallel Postulate, 
                 as one of our principles. 
             </p>
@@ -807,7 +807,8 @@
                     </p>
                 </statement>
             </exercise>
-            <exercise>
+            <exercise xml:id="ExtConc-polygons-parallel-Coxeterdisc">
+                <title>The Hyperbolic Disk Model</title>
                 <figure xml:id="fig-Coxeterdisc-basic">
                     <caption>
                         Image from Coxeter's 1957 Address to the Royal 
@@ -825,8 +826,8 @@
                     of non-Euclidean geometry, a disc model of hyperbolic geometry. 
                     Here, lines are of two types: diameters of the outer disc and circular 
                     arcs that meet the outer disc at a right angle<fn>The tangents of these 
-                        circles and the tangent of the outer disc at the point of intersection
-                        are perpendicular.
+                    circles and the tangent of the outer disc at the point of intersection
+                    are perpendicular.
                     </fn>. 
                 </p>
                 <p>

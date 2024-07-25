@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-polyhedra" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Polyhedra</title>
+    <title>Exploring Polyhedra</title>
   <introduction>
     <p>
-        In this chapter, we will explore three-dimensional solids. Solids with 
-        flat polygonal sides, like cubes and pyramids, are called polyhedra.
-        Other solids, like cylinders and spheres have curved faces.
+        Most of the geometry we have studied thus far has been on a flat surface
+        called a plane. While planar geometry is easier to draw, it is not the world 
+        we live in. All physical objects, including boxes, rooms, chairs, pets, and
+        humans, have length, width, and height.
     </p>
     <p>
-        To fully understand this chapter, you will need to construct some of 
-        these figures. Be prepared to print copies of patterns on paper or cardstock 
-        so that you can fold and tape the figures together as needed. 
+        The sculptor creates art in a three-dimensional world while the painter
+        projects an image of the three-dimensional world onto a flat, two-dimensional 
+        canvas. Similarly, images in this section have been projected from 
+        three-dimensional space to the two-dimensional computer screen or book. 
+        This projection may distort shapes and angles.
+        Constructing objects or finding examples in your surroundings may 
+        be helpful as you seek to understand the geometry of our world.
     </p>
-    </introduction>
+    <p>
+        Who needs to study three-dimensional geometry? The architect designing 
+        a building, the animator bringing characters to life on the screen, 
+        the doctor analyzing the size and shape of a tumor, the home gardener 
+        ordering soil and mulch, the astronomer studying our universe, pilots and 
+        air traffic controllers navigating our skies, and retailers and wholesalers 
+        managing supply are just a few examples.
+    </p>
+  </introduction>
    <xi:include href="sec-polyhedra-regular.ptx"/>
    <xi:include href="sec-polyhedra-semiregular.ptx"/>
    <!--<xi:include href="sec-polyhedra-polycubes.ptx" Maybe explore smallest

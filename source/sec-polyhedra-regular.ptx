@@ -1,9 +1,101 @@
 <section xml:id="sec-polyhedra-regular" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Regular Polyhedra</title>
+    <subsection xml:id="subsec-polyhedra-reg-3DSolids">
+        <title>Two-Dimensional and Three-Dimensional Objects</title>
+        <p>
+            Polygons and circles lie in a plane. Figures that lie in a plane and have a 
+            height and length are said to be two-dimensional objects. We can measure
+            the area of closed two-dimensional figures. When we limit our geometrical study to objects that
+            lie in one common plane, we are studying two-dimensional geometry. We often 
+            use an <m>xy</m>-coordinate system to represent points on a plane. The 
+            <m>x</m>-axis represents one direction (across) while the <m>y</m>-axis
+            represents a second direction (up or down). Objects within the plane also
+            include lines (one-dimensional objects) and points (zero-dimensional
+            objects). In fact, the real number line or <m>x</m>-axis is one of may 
+            one-dimenstional lines in the <m>xy-plane</m>.
+            When we define parallel and perpendicular lines, we assume that 
+            these one-dimensional lines are lying in a common two-dimensional 
+            plane.
+        </p>
+            <aside>
+                <p>
+                    Skew lines only exist in three-dimensional (or higher)
+                    geometry. During our brief glance at spherical geometry in 
+                    <xref ref="subsec-polygons-parallel-sphere"/>
+                    and hyperbolic geometry in 
+                    <xref ref="ExtConc-polygons-parallel-Coxeterdisc"/>,
+                    we limited our work to objects on a specified surface. Each 
+                    of these surfaces, the sphere or the disk, is analogous to 
+                    a plane and hence considered two-dimensional in its non-Euclidean
+                    geometry.
+                </p>
+                <p>
+                    One can study the sphere as a three-dimensional object in 
+                    Euclidean geometry. In addition, one can extend the Hyperbolic 
+                    Disk Model to three dimensions.
+                </p>
+            </aside>
+        <exercise>
+            <title>Check Your Understanding of Two-Dimensional Objects</title>
+            <task>
+                <statement>
+                    <p>
+                        Lines, segments, and rays live in the plane, but they are 
+                        considered to be one-dimensional objects. Why?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Answers may vary. Linear objects have only dimension length, 
+                        not width or depth. We cannot measure the area of a linear object.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Points are considered to be zero-dimensional objects. Why?  
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Points have no length, width, or breadth.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A circle is considered to be a two-dimensional object, but 
+                        we typically use one attribute, namely radius, when describing 
+                        its size. Does a circle have a height and width? If so, how 
+                        are the height and width of a circle related to its radius?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Both the height and width of a circle are equal to the 
+                        diameter; that is, twice the length of the radius. We can 
+                        measure the area of a circle.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+        <p>
+            In this section, we will explore three-dimensional solids. Solids with 
+            flat polygonal sides, like cubes and pyramids, are called polyhedra.
+            Other solids, like cylinders and spheres have curved faces.
+        </p>
+        <p>
+            To fully understand this chapter, you will need to construct some of 
+            these figures. Be prepared to print copies of patterns on paper or cardstock 
+            so that you can fold and tape the figures together as needed. 
+        </p>
+    </subsection>
     <subsection xml:id="subsec-def-polyhedra">
         <title>Defining a Polyhedron</title>
             <p>
-                Some geometrical solids have polygonal faces.  
+                Some three-dimensional solids have polygonal faces.  
             </p>
     <definition xml:id="def-polyhedron">
         <idx><h>polyhedron</h></idx>

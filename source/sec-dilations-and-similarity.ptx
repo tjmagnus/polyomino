@@ -150,7 +150,8 @@
         original figure. In addition the ratio of the lengths of the 
         image's sides to their corresponding lengths in the original, 
         <m>\frac{P'Q'}{PQ}</m>, will be preserved. 
-        <!--PROOF IN EXERCISES OR IN A LATER SECTION?-->  
+        <!--PROOF IN EXERCISES OR IN A LATER SECTION? Also, review for 
+        consistency.-->  
     </p>
   <definition xml:id="def-proportionality">
     <idx><h>proportional</h><h>sides</h></idx>
