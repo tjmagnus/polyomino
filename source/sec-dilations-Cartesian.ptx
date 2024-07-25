@@ -578,7 +578,7 @@
             <idx><h>triangles</h><h>similar</h></idx>
             <p>
                 Two triangles <m>\Delta ABC</m> and <m>\Delta DEF</m> are 
-                said to be <xref ref="def-similar" text="custom">similar</xref> triangles
+                said to be <term>similar</term> triangles
                 if the following hold:
                 <ul> 
                     <li>

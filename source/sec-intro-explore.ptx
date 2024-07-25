@@ -895,7 +895,7 @@
               </image>
             </figure>
             <table xml:id="fig-twodigitalgorithm">
-              <caption>Algorithm</caption>
+              <title>Algorithm</title>
               <tabular halign="right">
                 <row header="no" bottom="none">
                   <cell>47</cell>

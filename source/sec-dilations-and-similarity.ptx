@@ -149,7 +149,7 @@
         polygonal figure under a dilation will have the same shape as the 
         original figure. In addition the ratio of the lengths of the 
         image's sides to their corresponding lengths in the original, 
-        <m>\(\frac{P'Q'}{PQ}\)</m>, will be preserved. 
+        <m>\frac{P'Q'}{PQ}</m>, will be preserved. 
         <!--PROOF IN EXERCISES OR IN A LATER SECTION?-->  
     </p>
   <definition xml:id="def-proportionality">

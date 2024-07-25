@@ -645,7 +645,7 @@
                     </p>
                 </introduction>
                 <task>
-                    <introduction>
+                    <introduction component="web">
                         <p>
                             Use the GeoGebra interactive <xref ref="applet-prism-pyramids"/>
                             to complete the tasks. Note that right angles and other features 
@@ -664,31 +664,40 @@
                                 </interactive>
                         </figure>
                     </introduction>
+                    <introduction component="print">
+                        <p>
+                            Use the GeoGebra interactive at 
+                            <url href="https://www.geogebra.org/m/qjqyvzjn"></url>
+                            to complete the tasks. 
+                        </p>
+                    </introduction>
                     <task>
-                        <statement>
+                        <introduction>
                             <p>
                                Verify that the blue rectangle shown on the left 
                                has the same dimensions as the base of the prism
                                on the right. Do this by checking the coordinates 
                                on the graph.
-                                <ol>
-                                    <li>
-                                        <p>
-                                            Drag point <m>B</m>, the lower right corner 
-                                            of the rectangle in the left picture.
-                                            What happens to the prism on the right?
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            Drag point <m>C</m>, the upper left corner
-                                            of the rectangle in the left picture.
-                                            How does this affect the prism on the right?
-                                        </p>
-                                    </li>
-                                </ol>
-                            </p> 
-                        </statement>
+                            </p>
+                        </introduction>
+                        <task>
+                            <statement>
+                                <p>
+                                    Drag point <m>B</m>, the lower right corner 
+                                    of the rectangle in the left picture.
+                                    What happens to the prism on the right?
+                                </p>
+                            </statement>
+                        </task>
+                        <task>
+                            <statement>
+                                <p>
+                                    Drag point <m>C</m>, the upper left corner
+                                    of the rectangle in the left picture.
+                                    How does this affect the prism on the right?
+                                </p>
+                            </statement>
+                        </task>
                     </task>
                     <task>
                         <statement>
@@ -708,49 +717,39 @@
                             </p>
                             <p>
                                 Slowly move the top slider to pull the prism apart into pyramids,
-                                observing the process in the right frame. 
+                                observing the process in the right frame. When the slider 
+                                is moved all the way to the right,
+                                there should be three pyramids visible in the right
+                                frame and three rectangles visible in the left frame.
+                            </p>
+                            <p>
+                                Verify that the three rectangles on the 
+                                left correspond to the bases of the three 
+                                pyramids on the right. You may need to adjust
+                                your viewing window by zooming out or dragging.
+                                You can also see the coordinates of the vertices 
+                                by right-clicking on the point. <!--fix the rounding
+                                errors and check that this works on a Mac-->
                             </p>
                         </introduction>
                         <task>
                             <statement>
                                 <p>
-                                    When the slider is moved all the way to the right,
-                                    there should be three pyramids visible in the right
-                                    frame and three rectangles visible in the left frame.
-                                    <ol>
-                                        <li>
-                                            <p>
-                                                Verify that the three rectangles on the 
-                                                left correspond to the bases of the three 
-                                                pyramids on the right. You may need to adjust
-                                                your viewing window by zooming out or dragging.
-                                                You can also see the coordinates of the vertices 
-                                                by right-clicking on the point. <!--fix the rounding
-                                                errors and check that this works on a Mac-->HOW DOES THIS 
-                                                WORK ON A MAC?
-                                                <ol>
-                                                    <li>
-                                                        <p>
-                                                            What are the dimensions of the base of 
-                                                            the green prism, given by <m>BB''D''D</m>?
-                                                        </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>
-                                                            What are the dimensions of the base of the 
-                                                            red prism, given by <m>AA''B''B</m>?
-                                                        </p>
-                                                    </li>
-                                                </ol>
-                                            </p>
-                                        </li>
-                                    </ol> 
+                                    What are the dimensions of the base of 
+                                    the green prism, given by <m>BB''D''D</m>?
+                                </p>
+                            </statement>            
+                        </task>
+                        <task>
+                            <statement>
+                                <p>
+                                    What are the dimensions of the base of the 
+                                    red prism, given by <m>AA''B''B</m>?
                                 </p>
                             </statement>
-                        </task>
+                        </task> 
                     </task>
                 </task>
-                
             </exploration>
         </subsubsection>
         <!--GeoGebra Interactive to visualize the unfolding of a rectangular 

@@ -64,16 +64,22 @@
                 <introduction>
                     <p>
                         One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron
-                        which is shown in <xref ref="Great_rhombicosidodecahedron"/>.
+                        which is shown in 
+                        <xref ref="Great_rhombicosidodecahedron"/><fn>Illustration produced by Robert Webb's 
+                        <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
+                        class="extiw" title="en:Stella (software)">Stella software</url>  
+                        accessible via <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
+                            http://www.software3d.com/Stella.php</url>. 
+                        </fn>.
                         Check that each visible vertex has the arrangement 4.6.10. 
                     </p>
                     <figure xml:id="Great_rhombicosidodecahedron">
-                        <caption>Great Rhombicosidodecahedron<fn>Illustration produced by Robert Webb's 
+                        <caption>Great Rhombicosidodecahedron<!--<fn>Illustration produced by Robert Webb's 
                             <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
                             class="extiw" title="en:Stella (software)">Stella software</url>  
                             accessible via <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
                                 http://www.software3d.com/Stella.php</url>. 
-                            </fn></caption>
+                            </fn>--></caption>
                         <image component="web" source="Great_rhombicosidodecahedron1.svg" width="40%">
                             <shortdescription>
                                 The front side of a great 
@@ -108,16 +114,21 @@
                 <introduction>
                     <p>
                         Another Archimedean solid is the icosidodecahedron 
-                        <xref ref="icosidod-solid"/>.
+                        <xref ref="icosidod-solid"/><fn>Illustration produced by Robert Webb's 
+                            <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
+                            class="extiw" title="en:Stella (software)">Stella software</url>  
+                            accessible via <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
+                                http://www.software3d.com/Stella.php</url>. 
+                            </fn>.
                     </p>
                     <figure xml:id="icosidod-solid">
                         <caption>
-                            The Icosidodecahedron<fn>Illustration produced by Robert Webb's 
+                            The Icosidodecahedron<!--<fn>Illustration produced by Robert Webb's 
                                 <url href="https://en.wikipedia.org/wiki/Stella_(software)" 
                                 class="extiw" title="en:Stella (software)">Stella software</url>  
                                 accessible via <url rel="nofollow" class="external free" href="http://www.software3d.com/Stella.php">
                                     http://www.software3d.com/Stella.php</url>. 
-                                </fn>
+                                </fn>-->
                         </caption>
                         <image component="web" source="icosidodecahedron.svg" width="40%">
                             <shortdescription>A picture of an icosidodecahedron</shortdescription>
@@ -373,6 +384,7 @@
                             <col right="medium"/>
                             <col right="minor"/>
                             <col right="minor"/>
+                            <col/>
                             <row header="yes" bottom="medium">
                                 <cell>Shape of base</cell>
                                 <cell>Number of faces <m>F</m></cell>
