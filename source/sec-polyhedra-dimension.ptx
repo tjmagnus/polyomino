@@ -25,19 +25,21 @@
         a ruler.
       </p>
       <p>
-        We can find both the volume and the surface area of polyhedra and other 
-        three-dimensional solids. Volume measures the space inside whereas surface 
+        With polyhedra and other three-dimensional solids, we can compute both 
+        volume and surface area. Volume measures the space inside whereas surface 
         area measures the boundary. For three-dimensional figures, the boundary 
         consists of surfaces. We can unfold the three-dimensional solid into its 
-        two-dimensional net. 
+        two-dimensional net to compute and total the area of the surfaces. 
       </p>
       <p>
         For both two-dimensional figures and three-dimensional solids, we have two 
-        types of measurements. One measures the space in the interior of the object 
-        and the other measures the boundary of the object. In both cases, the boundary 
-        consists of parts which live in a smaller dimension. One-dimensional objects 
-        only have length which could be considered to be the linear space between
-        endpoints, but points have no length or breadth and so it does not make sense 
+        types of measurements. One type describes the space in the interior 
+        of the object and the other computes the size of the object's boundary. 
+        In both cases, the boundary of an object can be deconstructed and viewed 
+        in a smaller dimension. Line segments, on the other hand, 
+        have only one dimension, length. We can think of length as the linear space 
+        between endpoints. Individual points have no length or breadth and cannot 
+        be measured. Similarly, it does not make sense 
         to measure the <sq>boundary</sq> of a line segment.
       </p>
     </subsection>
