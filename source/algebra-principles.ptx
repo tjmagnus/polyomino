@@ -222,9 +222,9 @@
     </principle>
     <p>
         The Distributive Law, together with the other field properties, allows 
-        us to multiply polynomials.
+        us to multiply polynomialsexamp-mult-poly.
     </p>
-    <example xml:id="examp-mult-poly">
+    <example xml:id="">
         <title>Multiplying a Polynomial</title>
         <statement>
             <p>
