@@ -115,7 +115,6 @@
 
   
     <preface xml:id="preface">
-      <!--
       <p>
         This book is designed to engage students in the art and excitement of doing mathematics:
         of being curious, exploring possibilities, observing patterns, making 
@@ -123,16 +122,24 @@
         important part of my own mathematical journey and continues to be an essential 
         part of the field of mathematics. 
       </p>
-      <p>
-        I believe that all students can do mathematics if given the opportunity. 
+      <p> 
         Creative problem solving should not be limited to honors or upper-level 
-        courses as all students benefit from it. Problems can and should be chosen
+        courses; given the opportunity all students can grow and thrive through 
+        mathematical exploration. Problems can and should be chosen
         to be accessible yet intriguing. I visited kindergarten classes where 
         students were enthusiastic about patterns and numbers, eagerly wanting to 
         share their thoughts and try new things. As a university professor, I wanted 
         to know more about why this enthusiasm and confidence dissipates by the 
-        time they reach my classes. I also made it my mission to share the joy of 
-        mathematical exploration with my students, especially those considering a 
+        time they reach my classes. For most students, mathematics becomes a set of rules
+        to follow, a collection of techniques to master, and a jumble of examples to mimick.
+        Despite the fact that some of our most treasured mathematical results took 
+        years<mdash>even centuries</mdash> to be established, our society has emphasized speed
+        and completion over contemplation. Most students (and adults) spend very little time 
+        thinking about problems and instead rely on other resources to provide information and 
+        demonstrate methods. They search for examples to mimic instead of creating personal 
+        strategies. Without the opportunity to think and explore, there is no excitement and 
+        sense of accomplishment. As a teacher and author, my mission is to share the joy of 
+        mathematical exploration with students, especially those considering a 
         career in education. 
       </p>
       <p>
@@ -141,52 +148,46 @@
         great ways to encourage teamwork, creativity, and reasoning, but a mathematics 
         course needs to have purpose and cohesion as well. In developing my course, I 
         challenged myself to choose, sequence, and tailor activities so that 
-        students would develop and build upon foundational knowledge. I responded to 
-        students' questions and discoveries, led discussions to emphasize key ideas, 
-        and investigated misconceptions. 
-        As I write this textbook, I have to anticipate how others might use the book 
+        students would develop and build upon foundational knowledge. As students work   
+        on activities in my class, I respond to their questions, celebrate their discoveries, 
+        address misconceptions, and probe deeper into interesting ideas. As a class, we 
+        discuss the key concepts that arise from the activities.
+        As I write this textbook, I find that I need to anticipate how others might use the book 
         and include more detail than I need in my own classroom. Some activities 
-        have more scaffolding to ensure that essential material is uncovered and I 
-        have added introductory and summary reading to focus and support learning.
-        I hope that this detail and structure still allows for differing strategies,
+        have more scaffolding to ensure that essential material is uncovered and 
+        introductory and summary reading has been added to focus and support learning.
+        I hope that this additional detail and structure still allows for differing strategies,
         rich discussion, and the thrill of discovery. 
       </p>
       <p>
-        Geometry is one of the original liberal arts,  
-      </p>
-      I am also mindful of 
-        our state's cerfication expectations for educators. 
-      <p>
-        While concepts and skills are important, the overemphasis on rote memorization,
-        demonstration of techniques, skills practice, and easily-scored problems has 
-        removed the joy in mathematics education. Despite the fact that some of the 
-        most treasured mathematical results took years<mdash>even centuries</mdash> to 
-        be established, our society has emphasized speed or contemplation. Most 
-        students (and adults) have lost confidence in their ability to do mathematics. 
-        They spend very little time thinking about problems and instead rely on their 
-        teachers to provide information and demonstrate methods. They search for examples
-        to mimic instead of creating strategies.
+        Geometry is over 2500 years old, but continues to grow as a field of study. We see 
+        geometry, touch geometry, and create with geometry. There is geometry in the physical 
+        world around us, the universe beyond us, and in our imagination. Geometry invites us
+        not only to explore, but to question, conjecture, and justify. It is a natural place
+        to build logic and reasoning. In this textbook, my approach to logic is invitational,
+        not rigid. Students are asked to explain their reasoning to a friend, sometimes in 
+        writing. They are asked to be clear and thorough, but there is no set format required.
+        The goal is not to become mathematical proof writers, but to solidify their own 
+        understanding and to share it with others. The ability to write with detail and clarity 
+        benefits all students whether they aim to become teachers, lawyers, business professionals, 
+        or scientists. 
       </p>
       <p>
-        The material in this textbook is accessible
+        The framework of this book is designed to meet most of our state's cerfication 
+        requirements for elementary and early childhood educators, using exploratory 
+        activities to lead them to a deeper understanding of 
+        the geometry that they will be teaching. Despite the fact that 
+        students have been taught most of the formulas and facts before arriving at college, 
+        I have found that most students do not fully understand them. Approaching the 
+        material from an exploratory perspective with an emphasis on answering the question 
+        <sq>why</sq> gives a fresh new look at familiar material. Before redesigning my
+        course, I dreaded teaching the topic measurement as it seemed so dry and repetitive. Now
+        area of a rectangle forms the foundation upon which much of this book is based. 
+        In particular, dissection and construction of polygons are used to observe and 
+        justify results like the Pythagorean Theorem. The list of formulas is kept short and
+        intuitive, especially with volume and surface area. Instead, students are encouraged
+        to use the definitions to compute these quantities. 
       </p>
-    <p>
-      This textbook is designed to engage prospective 
-      elementary and early childhood teachers with exploratory 
-      actives that lead them to a deeper understanding of 
-      the geometry that they will be teaching. At the same time, the textbook is 
-      written in a style that does not limit its use to 
-      education majors. Students in Business, Psychology, and
-      Liberal Arts programs have taken the course and connected 
-      their learning to their chosen majors.
-    </p>
-    <p>
-      The concepts of area, polygons, geometrical solids, and transformations
-      are explored in depth and serve as the foundation for 
-      further study. Instead of a formulaic approach to proof-writing,
-      students are asked to write explanatory letters to a friend and 
-      guided to incorporating illustrations in their explanations.
-    </p>
       <p>
       The textbook includes a mix of interactive activities and 
       open-ended explorations. Many of these are embedded 
@@ -195,18 +196,7 @@
       tools, and inexpensive office supplies. Often an option of 
       completing tasks either digitally or tactilely is provided. 
       </p>
-    <p>
-      The topics covered 
-    </p>
 
-    <p>
-      Considerations for planning
-    </p>
-
-    <p>
-      Okay to edit? 
-    </p>-->
-      
       <p>
         My hope is to continue improving the book, releasing a new edition each spring 
         in time for fall adoptions.  These new editions will incorporate additions and 
@@ -215,7 +205,6 @@
         Thus I encourage you to send along any corrections, suggestions, and comments 
         as you have them.
       </p>
-    <!--</paragraphs>-->
     <attribution>
     <line>Teresa D. Magnus, Ph.D.</line>
     <line>Rivier University, 2024</line>
