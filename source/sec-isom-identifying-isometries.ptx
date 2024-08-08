@@ -343,16 +343,16 @@
             <title>Finding the Mirror of a Reflection</title>
             <introduction>
               <p>
-                Refer to <xref ref="reversing-orientation-fig"/> which shows 
+                Refer to <xref ref="tech-to-find-mirror"/> which shows 
                 a reflection of <m>\Delta ABC</m> across a hidden line <m>m</m>.
               </p>
               <figure xml:id="tech-to-find-mirror">
                 <caption>
                     An interactive GeoGebra applet for finding the mirror of a reflection.
                 </caption>
-              <interactive xml:id="app-find-mirror" platform="geogebra">
-                  <slate surface="geogebra" material="yza8zwbr"/>
-              </interactive>
+                <interactive xml:id="app-find-mirror" platform="geogebra">
+                    <slate surface="geogebra" material="yza8zwbr"/>
+                </interactive>
               </figure>
             </introduction>
             <task>

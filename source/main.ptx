@@ -75,28 +75,46 @@
   <acknowledgement>
 
     <p>
-      I am grateful to Rivier University for granting me sabbatical
-      time to develop this book. The initial design and many of the activities for this textbook
-      were createed during my sabbatical in Spring 2016 and the book
+      I am grateful for the sabbatical time Rivier University provided so that I
+      could produce this book. The initial design and many of the activities for this textbook
+      were createed during my Spring 2016 sabbatical, and the book
       was written during my year-long sabbatical in 2023-2024. In addition, 
-      I appreciate the 2024 Rivier Summer Faculty Research Grant, that enabled
-      me to recruit three students to review the book. Student interns Sarah Frazier, 
-      Elisabeth Jacob, and Caitlyn St. Cyr provided valuable feedback and error correction.
+      I appreciate the 2024 Rivier Summer Faculty Research Grant that enabled
+      me to recruit three Rivier University student interns to review the book. Student interns 
+      Sarah Frazier, Elisabeth Jacob, and Caitlyn St. Cyr provided valuable feedback and error 
+      correction as well as suggesting where addition explanations or hints might be helpful. 
       I would also like to thank all my MA127 Geometrical Explorations 
-      students over the years for 
-
-      Discuss where my inspiration came from: Mrs. Crystal Mills, UD Professors, 
-      Dr. John Faulkner, books by 
-      O'Daffer and Clemens, Kinsey and Moore, Henri Picciotto, others.
-      My mom who inspired creativity encouraging me to play games, solve puzzles, 
-      and create art.
+      students over the years. Their successes, struggles, and questions guided the evolution
+      of the content. 
     </p>
-
+    <p>
+      I thank the PROSE/PreTeXt community who made this format possible. Not only was the code
+      available for use, they welcomed me as a new user, encouraged my project, and made
+      offered technical support. Steven Clontz and Oscar
+      Levin were expecially helpful in helping me identify errors in my code, suggesting ways to
+      yield desired outcomes, and explored possible ideas for new structures. 
+      They took time out of their own busy schedules and made me feel 
+      welcome at their online office hours.
+    </p>
+    <p>
+      My own love of mathematics was sparked by people who encouraged me to explore. My parents,
+      Paul and Patricia Deltz, provided a loving home filled with crafts, games, and puzzles. 
+      We were encouraged to play, experiment, and learn from our mistakes. Teacher Crystal Mills 
+      allowed me to investigate Billiard Ball Geometry after I had demonstrated facility with 
+      seventh-grade mathematics. At the University of Dallas, professors Andrew Berner and Charles Coppin
+      engaged us in inquiry-based lessons. Their inspiration led me to continue my studies and 
+      shaped my own philosophy of teaching. John Faulkner at the University of Virginia advised
+      me in my doctoral work.  
+    </p>
+    <p>
+      Naturally, this book has been influenced by my previous use of textbooks and my interactions
+      with other mathematicians. <
+    </p>
+    <p>
+      Last but not least, I appreciate the encouragement I've received from my family, especially
+      my husband John and son Paul. Paul also helped me 
+    </p>
     
-    <  <p>
-      Others who deserve mentioning. Early 
-      testers. NE-Commit.
-    </p>>
 
     <p>
       Others?

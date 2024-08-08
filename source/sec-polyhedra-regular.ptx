@@ -400,19 +400,19 @@
                     <table xml:id="table-regpolyhedra-triangles">
                         <title>Regular Polyhedra with Triangular Faces</title>
                         <tabular halign="center">
-                            <row header="yes" bottom="minor">
+                            <row header="yes" bottom="medium">
                           <cell>Number of faces at each vertex</cell>
                           <cell>Total number of faces</cell>
                           <cell>Total number of edges</cell>
                           <cell>Total number of vertices</cell>
                             </row>
-                            <row>
+                            <row bottom="minor">
                                 <cell>3</cell>
                                 <cell></cell>
                                 <cell></cell>
                                 <cell></cell>
                             </row>
-                            <row>
+                            <row bottom="minor">
                                 <cell>4</cell>
                                 <cell></cell>
                                 <cell></cell>
@@ -583,14 +583,14 @@
                     <table xml:id="table-regpolyhedra-sq-pent">
                         <title>Regular Polyhedra with Square or Pentagonal Faces</title>
                         <tabular halign="center">
-                            <row header="yes" bottom="minor">
+                            <row header="yes" bottom="medium">
                           <cell>Shape of Face</cell>
                           <cell>Number of faces at each vertex</cell>
                           <cell>Total number of faces</cell>
                           <cell>Total number of edges</cell>
                           <cell>Total number of vertices</cell>
                             </row>
-                            <row>
+                            <row bottom="minor">
                                 <cell>square</cell>
                                 <cell></cell>
                                 <cell></cell>
