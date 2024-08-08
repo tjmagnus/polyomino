@@ -88,6 +88,311 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-intro-explore-3-3-3-1-3-1 { counter-set: sec-intro-explore-3-3-3-1-3-1 0; }
+#sec-intro-explore-3-3-3-1-3-1 > li::marker { content: ""counter(sec-intro-explore-3-3-3-1-3-1,decimal)"."; }
+#sec-intro-explore-3-3-3-1-3-1 > li { counter-increment: sec-intro-explore-3-3-3-1-3-1; }
+#sec-intro-explore-3-3-4-1-1-1 { counter-set: sec-intro-explore-3-3-4-1-1-1 0; }
+#sec-intro-explore-3-3-4-1-1-1 > li::marker { content: ""counter(sec-intro-explore-3-3-4-1-1-1,decimal)"."; }
+#sec-intro-explore-3-3-4-1-1-1 > li { counter-increment: sec-intro-explore-3-3-4-1-1-1; }
+#SAR-intro-exp-8-1-1-1 { counter-set: SAR-intro-exp-8-1-1-1 0; }
+#SAR-intro-exp-8-1-1-1 > li::marker { content: "("counter(SAR-intro-exp-8-1-1-1,lower-alpha)")"; }
+#SAR-intro-exp-8-1-1-1 > li { counter-increment: SAR-intro-exp-8-1-1-1; }
+#SAR-intro-exp-areamodel-2-1-2 { counter-set: SAR-intro-exp-areamodel-2-1-2 0; }
+#SAR-intro-exp-areamodel-2-1-2 > li::marker { content: "("counter(SAR-intro-exp-areamodel-2-1-2,lower-alpha)")"; }
+#SAR-intro-exp-areamodel-2-1-2 > li { counter-increment: SAR-intro-exp-areamodel-2-1-2; }
+#intro-apply-explore-tangram-3-1-1-1 { counter-set: intro-apply-explore-tangram-3-1-1-1 0; }
+#intro-apply-explore-tangram-3-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-3-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-3-1-1-1 > li { counter-increment: intro-apply-explore-tangram-3-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-5-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-5-1-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1-7-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li::marker { content: "("counter(intro-apply-explore-tangram-5-1-1-1-7-1-1,lower-alpha)")"; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1-7-1-1; }
+#SAR-intro-apply-3-1-1-1 { counter-set: SAR-intro-apply-3-1-1-1 0; }
+#SAR-intro-apply-3-1-1-1 > li::marker { content: "("counter(SAR-intro-apply-3-1-1-1,lower-alpha)")"; }
+#SAR-intro-apply-3-1-1-1 > li { counter-increment: SAR-intro-apply-3-1-1-1; }
+#label-altitude-etc-1-1-5 { counter-set: label-altitude-etc-1-1-5 0; }
+#label-altitude-etc-1-1-5 > li::marker { content: "("counter(label-altitude-etc-1-1-5,lower-alpha)")"; }
+#label-altitude-etc-1-1-5 > li { counter-increment: label-altitude-etc-1-1-5; }
+#SAR-intro-apply-Tangramareas-1-1-2 { counter-set: SAR-intro-apply-Tangramareas-1-1-2 0; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li::marker { content: "("counter(SAR-intro-apply-Tangramareas-1-1-2,lower-alpha)")"; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li { counter-increment: SAR-intro-apply-Tangramareas-1-1-2; }
+#ExtConc-intro-apply-4-1-1-1 { counter-set: ExtConc-intro-apply-4-1-1-1 0; }
+#ExtConc-intro-apply-4-1-1-1 > li::marker { content: "("counter(ExtConc-intro-apply-4-1-1-1,lower-alpha)")"; }
+#ExtConc-intro-apply-4-1-1-1 > li { counter-increment: ExtConc-intro-apply-4-1-1-1; }
+#sum-odds-1-1-1-1 { counter-set: sum-odds-1-1-1-1 0; }
+#sum-odds-1-1-1-1 > li::marker { content: ""counter(sum-odds-1-1-1-1,decimal)"."; }
+#sum-odds-1-1-1-1 > li { counter-increment: sum-odds-1-1-1-1; }
+#sum-odds-2-1-1-1 { counter-set: sum-odds-2-1-1-1 0; }
+#sum-odds-2-1-1-1 > li::marker { content: ""counter(sum-odds-2-1-1-1,decimal)"."; }
+#sum-odds-2-1-1-1 > li { counter-increment: sum-odds-2-1-1-1; }
+#subsec-explainconjectures-7-2-1-3 { counter-set: subsec-explainconjectures-7-2-1-3 0; }
+#subsec-explainconjectures-7-2-1-3 > li::marker { content: ""counter(subsec-explainconjectures-7-2-1-3,decimal)"."; }
+#subsec-explainconjectures-7-2-1-3 > li { counter-increment: subsec-explainconjectures-7-2-1-3; }
+#subsec-explainconjectures-7-3-1-1-2 { counter-set: subsec-explainconjectures-7-3-1-1-2 0; }
+#subsec-explainconjectures-7-3-1-1-2 > li::marker { content: ""counter(subsec-explainconjectures-7-3-1-1-2,decimal)"."; }
+#subsec-explainconjectures-7-3-1-1-2 > li { counter-increment: subsec-explainconjectures-7-3-1-1-2; }
+#subsec-explainconjectures-7-4-1-2-2 { counter-set: subsec-explainconjectures-7-4-1-2-2 0; }
+#subsec-explainconjectures-7-4-1-2-2 > li::marker { content: ""counter(subsec-explainconjectures-7-4-1-2-2,decimal)"."; }
+#subsec-explainconjectures-7-4-1-2-2 > li { counter-increment: subsec-explainconjectures-7-4-1-2-2; }
+#exer-tri-numbers-2-3-1 { counter-set: exer-tri-numbers-2-3-1 0; }
+#exer-tri-numbers-2-3-1 > li::marker { content: "("counter(exer-tri-numbers-2-3-1,lower-alpha)")"; }
+#exer-tri-numbers-2-3-1 > li { counter-increment: exer-tri-numbers-2-3-1; }
+#exer-tri-numbers-2-3-1-4-1-5 { counter-set: exer-tri-numbers-2-3-1-4-1-5 0; }
+#exer-tri-numbers-2-3-1-4-1-5 > li::marker { content: ""counter(exer-tri-numbers-2-3-1-4-1-5,lower-roman)"."; }
+#exer-tri-numbers-2-3-1-4-1-5 > li { counter-increment: exer-tri-numbers-2-3-1-4-1-5; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-3-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-3-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-3-1-3-1; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-4-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-4-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-4-1-3-1; }
+#SAR-intro-struggle-squarert-1-1-1 { counter-set: SAR-intro-struggle-squarert-1-1-1 0; }
+#SAR-intro-struggle-squarert-1-1-1 > li::marker { content: "("counter(SAR-intro-struggle-squarert-1-1-1,lower-alpha)")"; }
+#SAR-intro-struggle-squarert-1-1-1 > li { counter-increment: SAR-intro-struggle-squarert-1-1-1; }
+#ExtConc-intro-struggle-2-2-1-2 { counter-set: ExtConc-intro-struggle-2-2-1-2 0; }
+#ExtConc-intro-struggle-2-2-1-2 > li::marker { content: "("counter(ExtConc-intro-struggle-2-2-1-2,lower-alpha)")"; }
+#ExtConc-intro-struggle-2-2-1-2 > li { counter-increment: ExtConc-intro-struggle-2-2-1-2; }
+#parallelogramtypes-1-1-1 { counter-set: parallelogramtypes-1-1-1 0; }
+#parallelogramtypes-1-1-1 > li::marker { content: ""counter(parallelogramtypes-1-1-1,decimal)"."; }
+#parallelogramtypes-1-1-1 > li { counter-increment: parallelogramtypes-1-1-1; }
+#subsec-area-tri-2-3-1-1-1 { counter-set: subsec-area-tri-2-3-1-1-1 0; }
+#subsec-area-tri-2-3-1-1-1 > li::marker { content: ""counter(subsec-area-tri-2-3-1-1-1,decimal)"."; }
+#subsec-area-tri-2-3-1-1-1 > li { counter-increment: subsec-area-tri-2-3-1-1-1; }
+#subsec-irregular-area-4-5-1-1-1 { counter-set: subsec-irregular-area-4-5-1-1-1 0; }
+#subsec-irregular-area-4-5-1-1-1 > li::marker { content: ""counter(subsec-irregular-area-4-5-1-1-1,decimal)"."; }
+#subsec-irregular-area-4-5-1-1-1 > li { counter-increment: subsec-irregular-area-4-5-1-1-1; }
+#HW-compute-area-1-1-1 { counter-set: HW-compute-area-1-1-1 0; }
+#HW-compute-area-1-1-1 > li::marker { content: "("counter(HW-compute-area-1-1-1,lower-alpha)")"; }
+#HW-compute-area-1-1-1 > li { counter-increment: HW-compute-area-1-1-1; }
+#SAR-polygons-area-3-1-1-3 { counter-set: SAR-polygons-area-3-1-1-3 0; }
+#SAR-polygons-area-3-1-1-3 > li::marker { content: "("counter(SAR-polygons-area-3-1-1-3,lower-alpha)")"; }
+#SAR-polygons-area-3-1-1-3 > li { counter-increment: SAR-polygons-area-3-1-1-3; }
+#SAR-polygons-area-4-1-1-1 { counter-set: SAR-polygons-area-4-1-1-1 0; }
+#SAR-polygons-area-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-area-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-area-4-1-1-1 > li { counter-increment: SAR-polygons-area-4-1-1-1; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-2-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-2-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-2-1-1; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-3-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-3-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-3-1-1; }
+#expl-angsum-triangle-3-1-1-4 { counter-set: expl-angsum-triangle-3-1-1-4 0; }
+#expl-angsum-triangle-3-1-1-4 > li::marker { content: ""counter(expl-angsum-triangle-3-1-1-4,decimal)"."; }
+#expl-angsum-triangle-3-1-1-4 > li { counter-increment: expl-angsum-triangle-3-1-1-4; }
+#HW-SAR-angles-linepoints-1-1-2 { counter-set: HW-SAR-angles-linepoints-1-1-2 0; }
+#HW-SAR-angles-linepoints-1-1-2 > li::marker { content: "("counter(HW-SAR-angles-linepoints-1-1-2,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-1-1-2 > li { counter-increment: HW-SAR-angles-linepoints-1-1-2; }
+#HW-SAR-angles-linepoints-2-1-1 { counter-set: HW-SAR-angles-linepoints-2-1-1 0; }
+#HW-SAR-angles-linepoints-2-1-1 > li::marker { content: "("counter(HW-SAR-angles-linepoints-2-1-1,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-2-1-1 > li { counter-increment: HW-SAR-angles-linepoints-2-1-1; }
+#HW-SAR-linepart-type-1-1-2 { counter-set: HW-SAR-linepart-type-1-1-2 0; }
+#HW-SAR-linepart-type-1-1-2 > li::marker { content: "("counter(HW-SAR-linepart-type-1-1-2,lower-alpha)")"; }
+#HW-SAR-linepart-type-1-1-2 > li { counter-increment: HW-SAR-linepart-type-1-1-2; }
+#HW-SAR-linepart-type-2-1-1 { counter-set: HW-SAR-linepart-type-2-1-1 0; }
+#HW-SAR-linepart-type-2-1-1 > li::marker { content: "("counter(HW-SAR-linepart-type-2-1-1,lower-alpha)")"; }
+#HW-SAR-linepart-type-2-1-1 > li { counter-increment: HW-SAR-linepart-type-2-1-1; }
+#exer-SAR-missingangles-1-1-3 { counter-set: exer-SAR-missingangles-1-1-3 0; }
+#exer-SAR-missingangles-1-1-3 > li::marker { content: "("counter(exer-SAR-missingangles-1-1-3,lower-alpha)")"; }
+#exer-SAR-missingangles-1-1-3 > li { counter-increment: exer-SAR-missingangles-1-1-3; }
+#exer-SAR-missingangles-2-1-1 { counter-set: exer-SAR-missingangles-2-1-1 0; }
+#exer-SAR-missingangles-2-1-1 > li::marker { content: "("counter(exer-SAR-missingangles-2-1-1,lower-alpha)")"; }
+#exer-SAR-missingangles-2-1-1 > li { counter-increment: exer-SAR-missingangles-2-1-1; }
+#ExtConc-polygons-angles-3-1-3-4 { counter-set: ExtConc-polygons-angles-3-1-3-4 0; }
+#ExtConc-polygons-angles-3-1-3-4 > li::marker { content: "("counter(ExtConc-polygons-angles-3-1-3-4,lower-alpha)")"; }
+#ExtConc-polygons-angles-3-1-3-4 > li { counter-increment: ExtConc-polygons-angles-3-1-3-4; }
+#subsec-review-lines-2-3-1-1-1 { counter-set: subsec-review-lines-2-3-1-1-1 0; }
+#subsec-review-lines-2-3-1-1-1 > li::marker { content: ""counter(subsec-review-lines-2-3-1-1-1,decimal)"."; }
+#subsec-review-lines-2-3-1-1-1 > li { counter-increment: subsec-review-lines-2-3-1-1-1; }
+#parallel-explor-lines-sphere-4-1-1-2 { counter-set: parallel-explor-lines-sphere-4-1-1-2 0; }
+#parallel-explor-lines-sphere-4-1-1-2 > li::marker { content: ""counter(parallel-explor-lines-sphere-4-1-1-2,decimal)"."; }
+#parallel-explor-lines-sphere-4-1-1-2 > li { counter-increment: parallel-explor-lines-sphere-4-1-1-2; }
+#parallel-explor-spherical-triangles-6-1-2-1 { counter-set: parallel-explor-spherical-triangles-6-1-2-1 0; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li::marker { content: ""counter(parallel-explor-spherical-triangles-6-1-2-1,decimal)"."; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li { counter-increment: parallel-explor-spherical-triangles-6-1-2-1; }
+#subsec-understanding-parallel-8-2-1-2 { counter-set: subsec-understanding-parallel-8-2-1-2 0; }
+#subsec-understanding-parallel-8-2-1-2 > li::marker { content: ""counter(subsec-understanding-parallel-8-2-1-2,decimal)"."; }
+#subsec-understanding-parallel-8-2-1-2 > li { counter-increment: subsec-understanding-parallel-8-2-1-2; }
+#subsec-understanding-parallel-10-2-1-3-1 { counter-set: subsec-understanding-parallel-10-2-1-3-1 0; }
+#subsec-understanding-parallel-10-2-1-3-1 > li::marker { content: ""counter(subsec-understanding-parallel-10-2-1-3-1,decimal)"."; }
+#subsec-understanding-parallel-10-2-1-3-1 > li { counter-increment: subsec-understanding-parallel-10-2-1-3-1; }
+#subsec-understanding-parallel-10-3-1-1-3 { counter-set: subsec-understanding-parallel-10-3-1-1-3 0; }
+#subsec-understanding-parallel-10-3-1-1-3 > li::marker { content: ""counter(subsec-understanding-parallel-10-3-1-1-3,decimal)"."; }
+#subsec-understanding-parallel-10-3-1-1-3 > li { counter-increment: subsec-understanding-parallel-10-3-1-1-3; }
+#SAR-polygons-parallel-2-1-1-4 { counter-set: SAR-polygons-parallel-2-1-1-4 0; }
+#SAR-polygons-parallel-2-1-1-4 > li::marker { content: "("counter(SAR-polygons-parallel-2-1-1-4,lower-alpha)")"; }
+#SAR-polygons-parallel-2-1-1-4 > li { counter-increment: SAR-polygons-parallel-2-1-1-4; }
+#SAR-polygons-parallel-3-1-1-2 { counter-set: SAR-polygons-parallel-3-1-1-2 0; }
+#SAR-polygons-parallel-3-1-1-2 > li::marker { content: "("counter(SAR-polygons-parallel-3-1-1-2,lower-alpha)")"; }
+#SAR-polygons-parallel-3-1-1-2 > li { counter-increment: SAR-polygons-parallel-3-1-1-2; }
+#exer-transv-angle-measures-1-2-1 { counter-set: exer-transv-angle-measures-1-2-1 0; }
+#exer-transv-angle-measures-1-2-1 > li::marker { content: "("counter(exer-transv-angle-measures-1-2-1,lower-alpha)")"; }
+#exer-transv-angle-measures-1-2-1 > li { counter-increment: exer-transv-angle-measures-1-2-1; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2; }
+#explor-reg-tilings-5-1-3-1 { counter-set: explor-reg-tilings-5-1-3-1 0; }
+#explor-reg-tilings-5-1-3-1 > li::marker { content: ""counter(explor-reg-tilings-5-1-3-1,decimal)"."; }
+#explor-reg-tilings-5-1-3-1 > li { counter-increment: explor-reg-tilings-5-1-3-1; }
+#explor-reg-tilings-7-1-1-1 { counter-set: explor-reg-tilings-7-1-1-1 0; }
+#explor-reg-tilings-7-1-1-1 > li::marker { content: ""counter(explor-reg-tilings-7-1-1-1,decimal)"."; }
+#explor-reg-tilings-7-1-1-1 > li { counter-increment: explor-reg-tilings-7-1-1-1; }
+#task-vertex-measure-regular-polygons-more-1-1-3 { counter-set: task-vertex-measure-regular-polygons-more-1-1-3 0; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li::marker { content: ""counter(task-vertex-measure-regular-polygons-more-1-1-3,decimal)"."; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li { counter-increment: task-vertex-measure-regular-polygons-more-1-1-3; }
+#tile-w-3tri-2sq-1-1-2 { counter-set: tile-w-3tri-2sq-1-1-2 0; }
+#tile-w-3tri-2sq-1-1-2 > li::marker { content: ""counter(tile-w-3tri-2sq-1-1-2,decimal)"."; }
+#tile-w-3tri-2sq-1-1-2 > li { counter-increment: tile-w-3tri-2sq-1-1-2; }
+#subsec-semireg-rules-4-2-1-1-2 { counter-set: subsec-semireg-rules-4-2-1-1-2 0; }
+#subsec-semireg-rules-4-2-1-1-2 > li::marker { content: ""counter(subsec-semireg-rules-4-2-1-1-2,decimal)"."; }
+#subsec-semireg-rules-4-2-1-1-2 > li { counter-increment: subsec-semireg-rules-4-2-1-1-2; }
+#subsec-semireg-rules-4-3-1-1-1 { counter-set: subsec-semireg-rules-4-3-1-1-1 0; }
+#subsec-semireg-rules-4-3-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-3-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-3-1-1-1 > li { counter-increment: subsec-semireg-rules-4-3-1-1-1; }
+#subsec-semireg-rules-4-4-1-1-1 { counter-set: subsec-semireg-rules-4-4-1-1-1 0; }
+#subsec-semireg-rules-4-4-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-4-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-4-1-1-1 > li { counter-increment: subsec-semireg-rules-4-4-1-1-1; }
+#SAR-polygons-regular-2-1-1-1 { counter-set: SAR-polygons-regular-2-1-1-1 0; }
+#SAR-polygons-regular-2-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-2-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-2-1-1-1 > li { counter-increment: SAR-polygons-regular-2-1-1-1; }
+#SAR-polygons-regular-3-1-1-1 { counter-set: SAR-polygons-regular-3-1-1-1 0; }
+#SAR-polygons-regular-3-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-3-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-3-1-1-1 > li { counter-increment: SAR-polygons-regular-3-1-1-1; }
+#SAR-polygons-regular-4-1-1-1 { counter-set: SAR-polygons-regular-4-1-1-1 0; }
+#SAR-polygons-regular-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-4-1-1-1 > li { counter-increment: SAR-polygons-regular-4-1-1-1; }
+#SAR-polygons-regular-5-1-1-1 { counter-set: SAR-polygons-regular-5-1-1-1 0; }
+#SAR-polygons-regular-5-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-5-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-5-1-1-1 > li { counter-increment: SAR-polygons-regular-5-1-1-1; }
+#SAR-polygons-regular-6-1-1-1 { counter-set: SAR-polygons-regular-6-1-1-1 0; }
+#SAR-polygons-regular-6-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-6-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-6-1-1-1 > li { counter-increment: SAR-polygons-regular-6-1-1-1; }
+#SAR-polygons-regular-7-1-1-1 { counter-set: SAR-polygons-regular-7-1-1-1 0; }
+#SAR-polygons-regular-7-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-7-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-7-1-1-1 > li { counter-increment: SAR-polygons-regular-7-1-1-1; }
+#SAR-polygons-regular-9-1-1-1 { counter-set: SAR-polygons-regular-9-1-1-1 0; }
+#SAR-polygons-regular-9-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-9-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-9-1-1-1 > li { counter-increment: SAR-polygons-regular-9-1-1-1; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 { counter-set: exer-ExtConc-pgreg-nonagon-2-1-3 0; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li::marker { content: "("counter(exer-ExtConc-pgreg-nonagon-2-1-3,lower-alpha)")"; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li { counter-increment: exer-ExtConc-pgreg-nonagon-2-1-3; }
+#ExtConc-polygons-regular-3-2-1-3 { counter-set: ExtConc-polygons-regular-3-2-1-3 0; }
+#ExtConc-polygons-regular-3-2-1-3 > li::marker { content: "("counter(ExtConc-polygons-regular-3-2-1-3,lower-alpha)")"; }
+#ExtConc-polygons-regular-3-2-1-3 > li { counter-increment: ExtConc-polygons-regular-3-2-1-3; }
+#tri4andcsq-2-3-1 { counter-set: tri4andcsq-2-3-1 0; }
+#tri4andcsq-2-3-1 > li::marker { content: ""counter(tri4andcsq-2-3-1,decimal)"."; }
+#tri4andcsq-2-3-1 > li { counter-increment: tri4andcsq-2-3-1; }
+#tri4andsquaresAandB-2-3-1 { counter-set: tri4andsquaresAandB-2-3-1 0; }
+#tri4andsquaresAandB-2-3-1 > li::marker { content: ""counter(tri4andsquaresAandB-2-3-1,decimal)"."; }
+#tri4andsquaresAandB-2-3-1 > li { counter-increment: tri4andsquaresAandB-2-3-1; }
+#GarfieldTask-2-3-1 { counter-set: GarfieldTask-2-3-1 0; }
+#GarfieldTask-2-3-1 > li::marker { content: ""counter(GarfieldTask-2-3-1,decimal)"."; }
+#GarfieldTask-2-3-1 > li { counter-increment: GarfieldTask-2-3-1; }
+#sqtostairs-Pyth-task-1-3-1 { counter-set: sqtostairs-Pyth-task-1-3-1 0; }
+#sqtostairs-Pyth-task-1-3-1 > li::marker { content: ""counter(sqtostairs-Pyth-task-1-3-1,decimal)"."; }
+#sqtostairs-Pyth-task-1-3-1 > li { counter-increment: sqtostairs-Pyth-task-1-3-1; }
+#polygons-length-BOT-lengthadditivity-2-1-1 { counter-set: polygons-length-BOT-lengthadditivity-2-1-1 0; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li::marker { content: "("counter(polygons-length-BOT-lengthadditivity-2-1-1,lower-alpha)")"; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li { counter-increment: polygons-length-BOT-lengthadditivity-2-1-1; }
+#exer-SAR-Pyth-1-1-2 { counter-set: exer-SAR-Pyth-1-1-2 0; }
+#exer-SAR-Pyth-1-1-2 > li::marker { content: "("counter(exer-SAR-Pyth-1-1-2,lower-alpha)")"; }
+#exer-SAR-Pyth-1-1-2 > li { counter-increment: exer-SAR-Pyth-1-1-2; }
+#ExtConc-polygons-length-3-2-1-5 { counter-set: ExtConc-polygons-length-3-2-1-5 0; }
+#ExtConc-polygons-length-3-2-1-5 > li::marker { content: "("counter(ExtConc-polygons-length-3-2-1-5,lower-alpha)")"; }
+#ExtConc-polygons-length-3-2-1-5 > li { counter-increment: ExtConc-polygons-length-3-2-1-5; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 { counter-set: ExtConc-polygons-length-3-2-1-5-4-1-3 0; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li::marker { content: ""counter(ExtConc-polygons-length-3-2-1-5-4-1-3,lower-roman)"."; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li { counter-increment: ExtConc-polygons-length-3-2-1-5-4-1-3; }
+#ExtConc-polygons-length-4-2-1-2 { counter-set: ExtConc-polygons-length-4-2-1-2 0; }
+#ExtConc-polygons-length-4-2-1-2 > li::marker { content: "("counter(ExtConc-polygons-length-4-2-1-2,lower-alpha)")"; }
+#ExtConc-polygons-length-4-2-1-2 > li { counter-increment: ExtConc-polygons-length-4-2-1-2; }
+#subsec-def-polyhedra-8-1-1-1 { counter-set: subsec-def-polyhedra-8-1-1-1 0; }
+#subsec-def-polyhedra-8-1-1-1 > li::marker { content: ""counter(subsec-def-polyhedra-8-1-1-1,decimal)"."; }
+#subsec-def-polyhedra-8-1-1-1 > li { counter-increment: subsec-def-polyhedra-8-1-1-1; }
+#sec-polyhedra-regular-5-2-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-3-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-4-2-3-3,decimal)"."; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-6-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-1-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1; }
+#exercises-semireg-polyhedra-3-2-2-1-1 { counter-set: exercises-semireg-polyhedra-3-2-2-1-1 0; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-3-2-2-1-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li { counter-increment: exercises-semireg-polyhedra-3-2-2-1-1; }
+#exercises-semireg-polyhedra-4-2-2-3-1 { counter-set: exercises-semireg-polyhedra-4-2-2-3-1 0; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-4-2-2-3-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li { counter-increment: exercises-semireg-polyhedra-4-2-2-3-1; }
+#exp-vol-intuitive-2-1-1-2 { counter-set: exp-vol-intuitive-2-1-1-2 0; }
+#exp-vol-intuitive-2-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-2-1-1-2,decimal)"."; }
+#exp-vol-intuitive-2-1-1-2 > li { counter-increment: exp-vol-intuitive-2-1-1-2; }
+#exp-vol-intuitive-5-1-1-2 { counter-set: exp-vol-intuitive-5-1-1-2 0; }
+#exp-vol-intuitive-5-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-5-1-1-2,decimal)"."; }
+#exp-vol-intuitive-5-1-1-2 > li { counter-increment: exp-vol-intuitive-5-1-1-2; }
+#surf-of-cylinder-1-1-2 { counter-set: surf-of-cylinder-1-1-2 0; }
+#surf-of-cylinder-1-1-2 > li::marker { content: ""counter(surf-of-cylinder-1-1-2,decimal)"."; }
+#surf-of-cylinder-1-1-2 > li { counter-increment: surf-of-cylinder-1-1-2; }
+#SAR-vol-prisms-verbal-1-1-1 { counter-set: SAR-vol-prisms-verbal-1-1-1 0; }
+#SAR-vol-prisms-verbal-1-1-1 > li::marker { content: "("counter(SAR-vol-prisms-verbal-1-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-verbal-1-1-1 > li { counter-increment: SAR-vol-prisms-verbal-1-1-1; }
+#SAR-vol-prisms-visual-1-1 { counter-set: SAR-vol-prisms-visual-1-1 0; }
+#SAR-vol-prisms-visual-1-1 > li::marker { content: "("counter(SAR-vol-prisms-visual-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-visual-1-1 > li { counter-increment: SAR-vol-prisms-visual-1-1; }
+#exer-ExtConc-pent-prism-2-1-14 { counter-set: exer-ExtConc-pent-prism-2-1-14 0; }
+#exer-ExtConc-pent-prism-2-1-14 > li::marker { content: "("counter(exer-ExtConc-pent-prism-2-1-14,lower-alpha)")"; }
+#exer-ExtConc-pent-prism-2-1-14 > li { counter-increment: exer-ExtConc-pent-prism-2-1-14; }
+#expl-volume-recpyr-by-construction-6-1-1-1 { counter-set: expl-volume-recpyr-by-construction-6-1-1-1 0; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li::marker { content: ""counter(expl-volume-recpyr-by-construction-6-1-1-1,decimal)"."; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li { counter-increment: expl-volume-recpyr-by-construction-6-1-1-1; }
+#expl-pyr-volume-calculations-1-1-2 { counter-set: expl-pyr-volume-calculations-1-1-2 0; }
+#expl-pyr-volume-calculations-1-1-2 > li::marker { content: ""counter(expl-pyr-volume-calculations-1-1-2,decimal)"."; }
+#expl-pyr-volume-calculations-1-1-2 > li { counter-increment: expl-pyr-volume-calculations-1-1-2; }
+#expl-rotation-6-1-1-3 { counter-set: expl-rotation-6-1-1-3 0; }
+#expl-rotation-6-1-1-3 > li::marker { content: ""counter(expl-rotation-6-1-1-3,decimal)"."; }
+#expl-rotation-6-1-1-3 > li { counter-increment: expl-rotation-6-1-1-3; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 { counter-set: sec-isom-identifying-isometries-2-3-2-1-1-1 0; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li::marker { content: ""counter(sec-isom-identifying-isometries-2-3-2-1-1-1,decimal)"."; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li { counter-increment: sec-isom-identifying-isometries-2-3-2-1-1-1; }
+#subsec-fixed-points-6-1-1-1-1 { counter-set: subsec-fixed-points-6-1-1-1-1 0; }
+#subsec-fixed-points-6-1-1-1-1 > li::marker { content: ""counter(subsec-fixed-points-6-1-1-1-1,decimal)"."; }
+#subsec-fixed-points-6-1-1-1-1 > li { counter-increment: subsec-fixed-points-6-1-1-1-1; }
+#explor-nested-simtri-5-1-1-1 { counter-set: explor-nested-simtri-5-1-1-1 0; }
+#explor-nested-simtri-5-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-5-1-1-1,decimal)"."; }
+#explor-nested-simtri-5-1-1-1 > li { counter-increment: explor-nested-simtri-5-1-1-1; }
+#explor-nested-simtri-6-1-1-1 { counter-set: explor-nested-simtri-6-1-1-1 0; }
+#explor-nested-simtri-6-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-6-1-1-1,decimal)"."; }
+#explor-nested-simtri-6-1-1-1 > li { counter-increment: explor-nested-simtri-6-1-1-1; }
+#subsubsec-dilations-similar-6-7-1-1-1 { counter-set: subsubsec-dilations-similar-6-7-1-1-1 0; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li::marker { content: ""counter(subsubsec-dilations-similar-6-7-1-1-1,decimal)"."; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li { counter-increment: subsubsec-dilations-similar-6-7-1-1-1; }
+#subsec-Functions-2-3-2-1-2 { counter-set: subsec-Functions-2-3-2-1-2 0; }
+#subsec-Functions-2-3-2-1-2 > li::marker { content: ""counter(subsec-Functions-2-3-2-1-2,decimal)"."; }
+#subsec-Functions-2-3-2-1-2 > li { counter-increment: subsec-Functions-2-3-2-1-2; }
+#example-algrev-sq-sqrt-2-1-1 { counter-set: example-algrev-sq-sqrt-2-1-1 0; }
+#example-algrev-sq-sqrt-2-1-1 > li::marker { content: ""counter(example-algrev-sq-sqrt-2-1-1,decimal)"."; }
+#example-algrev-sq-sqrt-2-1-1 > li { counter-increment: example-algrev-sq-sqrt-2-1-1; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -120,8 +425,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">How to use this book</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -200,7 +506,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#sec-polygons-parallel-4" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -235,23 +541,24 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Polyhedra</span></a></div>
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining a Polyhedron</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Nets for Polyhedra</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Some Examples of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
@@ -281,10 +588,19 @@ window.MathJax = {
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interior Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Growth in Different Dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimension-fractal" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Measuring Fractals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-" class="internal"><span class="codenumber">3.5.4</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
@@ -352,7 +668,7 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Similarity</span></a></div>
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
@@ -377,8 +693,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -413,107 +730,121 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-polyhedra-regular"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">3.1</span><span class="space"> </span><span class="title">Regular Polyhedra</span>
 </h2>
-<section class="subsection" id="subsec-def-polyhedra"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="space"> </span><span class="title">Defining a Polyhedron</span>
+<section class="subsection" id="subsec-polyhedra-reg-3DSolids"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="space"> </span><span class="title">Two-Dimensional and Three-Dimensional Objects</span>
 </h3>
-<div class="para" id="subsec-def-polyhedra-2">Some geometrical solids have polygonal faces.</div>
+<div class="para" id="subsec-polyhedra-reg-3DSolids-2">Polygons and circles lie in a plane. Figures that lie in a plane and have a height and length are said to be two-dimensional objects. We can measure the area of closed two-dimensional figures. When we limit our geometrical study to objects that lie in one common plane, we are studying two-dimensional geometry. We often use an <span class="process-math">\(xy\)</span>-coordinate system to represent points on a plane. The <span class="process-math">\(x\)</span>-axis represents one direction (across) while the <span class="process-math">\(y\)</span>-axis represents a second direction (up or down). Objects within the plane also include lines (one-dimensional objects) and points (zero-dimensional objects). In fact, the real number line or <span class="process-math">\(x\)</span>-axis is one of may one-dimenstional lines in the <span class="process-math">\(xy-plane\text{.}\)</span> When we define parallel and perpendicular lines, we assume that these one-dimensional lines are lying in a common two-dimensional plane.</div>
+<aside class="aside aside-like" id="subsec-polyhedra-reg-3DSolids-3"><div class="para" id="subsec-polyhedra-reg-3DSolids-3-1">Skew lines only exist in three-dimensional (or higher) geometry. During our brief glance at spherical geometry in <a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal" title="Subsection 2.3.2: Geometry on Another Surface">Subsection 2.3.2</a> and hyperbolic geometry in <a href="sec-polygons-parallel.html#ExtConc-polygons-parallel-Coxeterdisc" class="xref" data-knowl="./knowl/xref/ExtConc-polygons-parallel-Coxeterdisc.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.3.4.5: The Hyperbolic Disk Model">Exercise 2.3.4.5</a>, we limited our work to objects on a specified surface. Each of these surfaces, the sphere or the disk, is analogous to a plane and hence considered two-dimensional in its non-Euclidean geometry.</div>
+<div class="para" id="subsec-polyhedra-reg-3DSolids-3-2">One can study the sphere as a three-dimensional object in Euclidean geometry. In addition, one can extend the Hyperbolic Disk Model to three dimensions.</div></aside><details id="subsec-polyhedra-reg-3DSolids-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Check Your Understanding of Two-Dimensional Objects.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><article class="task exercise-like" id="subsec-polyhedra-reg-3DSolids-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="subsec-polyhedra-reg-3DSolids-4-2-1-1">Lines, segments, and rays live in the plane, but they are considered to be one-dimensional objects. Why?</div>
+<div class="solutions"><details id="subsec-polyhedra-reg-3DSolids-4-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedra-reg-3DSolids-4-2-2-1">Answers may vary. Linear objects have only dimension length, not width or depth. We cannot measure the area of a linear object.</div></div></details></div></article><article class="task exercise-like" id="subsec-polyhedra-reg-3DSolids-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="subsec-polyhedra-reg-3DSolids-4-3-1-1">Points are considered to be zero-dimensional objects. Why?</div>
+<div class="solutions"><details id="subsec-polyhedra-reg-3DSolids-4-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedra-reg-3DSolids-4-3-2-1">Points have no length, width, or breadth.</div></div></details></div></article><article class="task exercise-like" id="subsec-polyhedra-reg-3DSolids-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="subsec-polyhedra-reg-3DSolids-4-4-1-1">A circle is considered to be a two-dimensional object, but we typically use one attribute, namely radius, when describing its size. Does a circle have a height and width? If so, how are the height and width of a circle related to its radius?</div>
+<div class="solutions"><details id="subsec-polyhedra-reg-3DSolids-4-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedra-reg-3DSolids-4-4-2-1">Both the height and width of a circle are equal to the diameter; that is, twice the length of the radius. We can measure the area of a circle.</div></div></details></div></article></article></details><div class="para" id="subsec-polyhedra-reg-3DSolids-5">In this section, we will explore three-dimensional solids. Solids with flat polygonal sides, like cubes and pyramids, are called polyhedra. Other solids, like cylinders and spheres have curved faces.</div>
+<div class="para" id="subsec-polyhedra-reg-3DSolids-6">To fully understand this chapter, you will need to construct some of these figures. Be prepared to print copies of patterns on paper or cardstock so that you can fold and tape the figures together as needed.</div></section><section class="subsection" id="subsec-def-polyhedra"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">Defining a Polyhedron</span>
+</h3>
+<div class="para" id="subsec-def-polyhedra-2">Some three-dimensional solids have polygonal faces.</div>
 <article class="definition definition-like" id="def-polyhedron"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
-</h4> <div class="para" id="def-polyhedron-6-1">A <dfn class="terminology">polyhedron (plural: polyhedra)</dfn> is a three-dimensional closed figure in which all of the faces are polygons. Both of the solids in <a href="sec-polyhedra-regular.html#fig-convex-concave-polyhedra" class="xref" data-knowl="./knowl/xref/fig-convex-concave-polyhedra.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.2">Figure 3.1.2</a> are polyhedra, but the one on the left is said to be <dfn class="terminology">concave</dfn> since we can connect some vertices, like the far left and top vertex with straight segments that pass through the exterior (outside the surface) of the solid. As we work through this chapter, we will assume that a polyhedron is convex so that it has no valleys or depressions. Any line segment connecting two points on the surface of a convex polyhedron will only contain points on the surface or interior of the polyhedron.</div></article><figure class="figure figure-like" id="fig-convex-concave-polyhedra"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/concaveconvexaligned.jpg" class="contained" alt="A concave polyhedron and a convex polyhedron"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.2<span class="period">.</span></span><span class="space"> </span>A concave polyhedron and a convex polyhedron</figcaption></figure><article class="definition definition-like" id="def-FEV-polyhedron"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
+</h4> <div class="para" id="def-polyhedron-6-1">A <dfn class="terminology">polyhedron (plural: polyhedra)</dfn> is a three-dimensional closed figure in which all of the faces are polygons. Both of the solids in <a href="sec-polyhedra-regular.html#fig-convex-concave-polyhedra" class="xref" data-knowl="./knowl/xref/fig-convex-concave-polyhedra.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.3">Figure 3.1.3</a> are polyhedra, but the one on the left is said to be <dfn class="terminology">concave</dfn> since we can connect some vertices, like the far left and top vertex with straight segments that pass through the exterior (outside the surface) of the solid. As we work through this chapter, we will assume that a polyhedron is convex so that it has no valleys or depressions. Any line segment connecting two points on the surface of a convex polyhedron will only contain points on the surface or interior of the polyhedron.</div></article><figure class="figure figure-like" id="fig-convex-concave-polyhedra"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/concaveconvexaligned.jpg" class="contained" alt="A concave polyhedron and a convex polyhedron"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.3<span class="period">.</span></span><span class="space"> </span>A concave polyhedron and a convex polyhedron</figcaption></figure><article class="definition definition-like" id="def-FEV-polyhedron"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
 </h4> <div class="para" id="def-FEV-polyhedron-7-1">A <dfn class="terminology">face</dfn> of a geometrical solid refers to a flat surface that forms part of the boundary of the solid. The line segments where two faces meet are called <dfn class="terminology">edges</dfn>, and the points where edges meet are called the <dfn class="terminology">vertices</dfn> of the polyhedron. The vertices of the polyhedron are also vertices of its polygonal faces.</div></article><div class="para" id="subsec-def-polyhedra-6">While it is not incorrect to call a face of a polyhedron a ‘side’, one should be careful to distinguish between a face of the polyhedron and a side of a polygon (which is an edge of the polyhedron). Using the terms <dfn class="terminology">face</dfn> and <dfn class="terminology">edge</dfn> will make our discussions about polyhedra clearer.</div>
 <article class="definition definition-like" id="def-face-angle"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
 </h4> <div class="para" id="def-face-angle-5-1">Note also that a polyhedron has more than one type of angle. In this section, we will be working with angles whose rays are adjacent edges of the polyhedron. Each of these angles is a vertex angle of one of the faces of the polyhedron; hence, we may refer to them as <dfn class="terminology">face angles</dfn>.<details class="ptx-footnote" aria-live="polite" id="def-face-angle-5-1-2"><summary class="ptx-footnote__number" title="Footnote 3.1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="def-face-angle-5-1-2">This is <em class="emphasis">not</em> the same as a <dfn class="terminology">dihedral angle</dfn>, measuring the space between two faces.</div></details>
 </div></article><details id="subsec-def-polyhedra-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
 </h4></summary><article class="exercise exercise-like knowl__content"><div class="para logical" id="subsec-def-polyhedra-8-1-1">
 <div class="para">Which of the following solids are polyhedra?</div>
-<ol class="decimal">
+<ol class="decimal" id="subsec-def-polyhedra-8-1-1-1">
 <li id="subsec-def-polyhedra-8-1-1-1-1"><div class="para" id="subsec-def-polyhedra-8-1-1-1-1-1">cylinder</div></li>
 <li id="subsec-def-polyhedra-8-1-1-1-2"><div class="para" id="subsec-def-polyhedra-8-1-1-1-2-1">cube</div></li>
 <li id="subsec-def-polyhedra-8-1-1-1-3"><div class="para" id="subsec-def-polyhedra-8-1-1-1-3-1">triangular prism</div></li>
 <li id="subsec-def-polyhedra-8-1-1-1-4"><div class="para" id="p-derived-subsec-def-polyhedra-8-1-1-1-4">sphere</div></li>
 </ol>
 </div>
-<div class="solutions"><details id="subsec-def-polyhedra-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-def-polyhedra-8-2-1">A cube and triangular prism are polyhedra. A cylinder and sphere are not polyhedra since they have curved surfaces.</div></div></details></div></article></details></section><section class="subsection" id="sec-polyhedra-regular-3"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="space"> </span><span class="title">Defining Regular Polyhedra</span>
+<div class="solutions"><details id="subsec-def-polyhedra-8-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-def-polyhedra-8-2-1">A cube and triangular prism are polyhedra. A cylinder and sphere are not polyhedra since they have curved surfaces.</div></div></details></div></article></details></section><section class="subsection" id="sec-polyhedra-regular-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">Defining Regular Polyhedra</span>
 </h3>
-<div class="para" id="sec-polyhedra-regular-3-2">Just as with polygons and tilings, we describe some polyhedra as <dfn class="terminology">regular polyhedra</dfn>. These special solids were identified by Greek mathematicians around 300 B.C., appear in ancient and modern artwork, and are used to model chemical and biological structures today. In this section, we will find that there are only a handful of polyhedra that meet the criteria of being regular.</div>
+<div class="para" id="sec-polyhedra-regular-4-2">Just as with polygons and tilings, we describe some polyhedra as <dfn class="terminology">regular polyhedra</dfn>. These special solids were identified by Greek mathematicians around 300 B.C., appear in ancient and modern artwork, and are used to model chemical and biological structures today. In this section, we will find that there are only a handful of polyhedra that meet the criteria of being regular.</div>
 <article class="definition definition-like" id="def-regpolyhedron"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
 </h4> <div class="para logical" id="def-regpolyhedron-3-1">
 <div class="para">A polyhedron is said to be <dfn class="terminology">regular</dfn> if it satisfies these two conditions:</div>
-<ul class="disc">
+<ul class="disc" id="def-regpolyhedron-3-1-2">
 <li id="def-regpolyhedron-3-1-2-1"><div class="para" id="def-regpolyhedron-3-1-2-1-1">The faces are congruent regular polygons and</div></li>
 <li id="def-regpolyhedron-3-1-2-2"><div class="para" id="def-regpolyhedron-3-1-2-2-1">At every vertex, the number of polygons meeting is the same.</div></li>
 </ul>
-</div></article></section><section class="subsection" id="sec-polyhedra-regular-4"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.3</span><span class="space"> </span><span class="title">What Regular Polyhedra Exist</span>
+</div></article></section><section class="subsection" id="sec-polyhedra-regular-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="space"> </span><span class="title">What Regular Polyhedra Exist</span>
 </h3>
-<article class="exploration project-like" id="sec-polyhedra-regular-4-2"><h4 class="heading">
+<article class="exploration project-like" id="sec-polyhedra-regular-5-2"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Discovering Regular Polyhedra.</span>
 </h4>
-<article class="task exercise-like" id="sec-polyhedra-regular-4-2-2"><h5 class="heading">
+<article class="task exercise-like" id="sec-polyhedra-regular-5-2-2"><h5 class="heading">
 <span class="codenumber">(a)</span><span class="space"> </span><span class="title">A nonregular polyhedron.</span>
 </h5>
-<div class="para" id="sec-polyhedra-regular-4-2-2-2-1">Explain why a square pyramid, <a href="sec-polyhedra-pyramids-cones.html#fig-SqPyramid" class="xref" data-knowl="./knowl/xref/fig-SqPyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.2">Figure 3.4.2</a>, is not a regular polyhedron.</div>
-<div class="solutions"><details id="sec-polyhedra-regular-4-2-2-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polyhedra-regular-4-2-2-3-1">Reread the definition for <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/xref/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.6">Definition 3.1.6</a> regular polyhedron.</div></div></details></div></article><article class="task exercise-like" id="sec-polyhedra-regular-4-2-3"><h5 class="heading">
+<div class="para" id="sec-polyhedra-regular-5-2-2-2-1">Explain why a square pyramid, <a href="sec-polyhedra-pyramids-cones.html#fig-SqPyramid" class="xref" data-knowl="./knowl/xref/fig-SqPyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.2">Figure 3.4.2</a>, is not a regular polyhedron.</div>
+<div class="solutions"><details id="sec-polyhedra-regular-5-2-2-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polyhedra-regular-5-2-2-3-1">Reread the definition for <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/xref/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.7">Definition 3.1.7</a> regular polyhedron.</div></div></details></div></article><article class="task exercise-like" id="sec-polyhedra-regular-5-2-3"><h5 class="heading">
 <span class="codenumber">(b)</span><span class="space"> </span><span class="title">Angle Measures at a Vertex.</span>
 </h5>
-<div class="para logical" id="sec-polyhedra-regular-4-2-3-2-1"><ol class="decimal">
-<li id="sec-polyhedra-regular-4-2-3-2-1-1-1"><div class="para" id="p-derived-sec-polyhedra-regular-4-2-3-2-1-1-1">When we constructed tilings of the plane in <a href="sec-polygons-regular.html" class="internal" title="Section 2.4: Exploring Regular Polygons">Section 2.4</a>, we found the sum of the measures of the angles surrounding a vertex was always the same. What was that sum?</div></li>
-<li id="sec-polyhedra-regular-4-2-3-2-1-1-2"><div class="para" id="p-derived-sec-polyhedra-regular-4-2-3-2-1-1-2">Why must the total degree of the face angles surrounding a vertex be less than that amount if we are building a polyhedron instead of a tiling?</div></li>
+<div class="para logical" id="sec-polyhedra-regular-5-2-3-2-1"><ol class="decimal" id="sec-polyhedra-regular-5-2-3-2-1-1">
+<li id="sec-polyhedra-regular-5-2-3-2-1-1-1"><div class="para" id="p-derived-sec-polyhedra-regular-5-2-3-2-1-1-1">When we constructed tilings of the plane in <a href="sec-polygons-regular.html" class="internal" title="Section 2.4: Exploring Regular Polygons">Section 2.4</a>, we found the sum of the measures of the angles surrounding a vertex was always the same. What was that sum?</div></li>
+<li id="sec-polyhedra-regular-5-2-3-2-1-1-2"><div class="para" id="p-derived-sec-polyhedra-regular-5-2-3-2-1-1-2">Why must the total degree of the face angles surrounding a vertex be less than that amount if we are building a polyhedron instead of a tiling?</div></li>
 </ol></div>
-<div class="solutions"><details id="sec-polyhedra-regular-4-2-3-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polyhedra-regular-4-2-3-3-1">Look at some polyhedra or attempt to build some. Unless it has curved walls, your classroom is probably a polyhedra.</div></div></details></div></article><article class="task exercise-like" id="sec-polyhedra-regular-4-2-4"><h5 class="heading">
+<div class="solutions"><details id="sec-polyhedra-regular-5-2-3-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polyhedra-regular-5-2-3-3-1">Look at some polyhedra or attempt to build some. Unless it has curved walls, your classroom is probably a polyhedra.</div></div></details></div></article><article class="task exercise-like" id="sec-polyhedra-regular-5-2-4"><h5 class="heading">
 <span class="codenumber">(c)</span><span class="space"> </span><span class="title">Regular Polyhedra with Triangular Faces.</span>
 </h5>
-<div class="para" id="sec-polyhedra-regular-4-2-4-2-1">For this task, you will need copies of rigid congruent equilateral triangles that can be put together. There are commercially available shapes that can be snapped together, but you can also create your own using tagboard or even straws and string.</div> <aside class="aside aside-like" id="sec-polyhedra-regular-4-2-4-2-2"><div class="para" id="sec-polyhedra-regular-4-2-4-2-2-1">An online search for ‘isometric graph paper’ will give you a sheet of congruent triangles that could be enlarged, printed on stiff paper, and cut. Equilateral triangles for building polyhedra may also be created from short straws and string. Perhaps, you have other ideas? Popsicle sticks? An edge length of at least 2 centimeters is recommended.</div></aside> <div class="para logical" id="sec-polyhedra-regular-4-2-4-2-3">
-<div class="para">Which regular polyhedra can be formed using <em class="emphasis">only</em> equilateral triangles? To answer this question, we will consider the possible number of triangles that could meet at each vertex and attempt to construct the polyhedron, making sure that we keep the vertex arrangement consistent. Later you will be asked to enter the answers to some of these questions into <a href="sec-polyhedra-regular.html#table-regpolyhedra-triangles" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.7: Regular Polyhedra with Triangular Faces">Table 3.1.7</a>.</div>
-<ol class="decimal">
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-1"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-1-1">What happens when you try to construct a polyhedron with only two triangles, and no other shapes, meeting at a vertex?</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-2"><div class="para logical" id="sec-polyhedra-regular-4-2-4-2-3-3-2-1">
+<div class="para" id="sec-polyhedra-regular-5-2-4-2-1">For this task, you will need copies of rigid congruent equilateral triangles that can be put together. There are commercially available shapes that can be snapped together, but you can also create your own using tagboard or even straws and string.</div> <aside class="aside aside-like" id="sec-polyhedra-regular-5-2-4-2-2"><div class="para" id="sec-polyhedra-regular-5-2-4-2-2-1">An online search for ‘isometric graph paper’ will give you a sheet of congruent triangles that could be enlarged, printed on stiff paper, and cut. Equilateral triangles for building polyhedra may also be created from short straws and string. Perhaps, you have other ideas? Popsicle sticks? An edge length of at least 2 centimeters is recommended.</div></aside> <div class="para logical" id="sec-polyhedra-regular-5-2-4-2-3">
+<div class="para">Which regular polyhedra can be formed using <em class="emphasis">only</em> equilateral triangles? To answer this question, we will consider the possible number of triangles that could meet at each vertex and attempt to construct the polyhedron, making sure that we keep the vertex arrangement consistent. Later you will be asked to enter the answers to some of these questions into <a href="sec-polyhedra-regular.html#table-regpolyhedra-triangles" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.8: Regular Polyhedra with Triangular Faces">Table 3.1.8</a>.</div>
+<ol class="decimal" id="sec-polyhedra-regular-5-2-4-2-3-3">
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-1"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-1-1">What happens when you try to construct a polyhedron with only two triangles, and no other shapes, meeting at a vertex?</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-2"><div class="para logical" id="sec-polyhedra-regular-5-2-4-2-3-3-2-1">
 <div class="para">It is possible to create a regular polyhedron with exactly three triangles meeting at every vertex.</div>
-<ol class="lower-alpha">
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-2-1-1-1"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-2-1-1-1-1">Build this polygon and describe its shape or save a picture of it.</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-2-1-1-2"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-2-1-1-2-1">How many triangular faces does this polyhedron have?</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-2-1-1-3"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-2-1-1-3-1">How many edges does this polyhedron have?</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-2-1-1-4"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-2-1-1-4-1">How many vertices does this polyhedron have?</div></li>
+<ol class="lower-alpha" id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1">
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1-1"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1-1-1">Build this polygon and describe its shape or save a picture of it.</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1-2"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1-2-1">How many triangular faces does this polyhedron have?</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1-3"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1-3-1">How many edges does this polyhedron have?</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1-4"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-2-1-1-4-1">How many vertices does this polyhedron have?</div></li>
 </ol>
 </div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-3"><div class="para logical" id="sec-polyhedra-regular-4-2-4-2-3-3-3-1">
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-3"><div class="para logical" id="sec-polyhedra-regular-5-2-4-2-3-3-3-1">
 <div class="para">It is also possible to create a polyhedron with exactly four triangles meeting at every vertex.</div>
-<ol class="lower-alpha">
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-3-1-1-1"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-3-1-1-1-1">Build this polygon and describe its shape or save a picture of it. Check every vertex of the polyhedron to make sure there are exactly four triangles meeting.</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-3-1-1-2"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-3-1-1-2-1">How many triangular faces does this polyhedron have?</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-3-1-1-3"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-3-1-1-3-1">How many edges does this polyhedron have?</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-3-1-1-4"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-3-1-1-4-1">How many vertices does this polyhedron have?</div></li>
+<ol class="lower-alpha" id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1">
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1-1"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1-1-1">Build this polygon and describe its shape or save a picture of it. Check every vertex of the polyhedron to make sure there are exactly four triangles meeting.</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1-2"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1-2-1">How many triangular faces does this polyhedron have?</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1-3"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1-3-1">How many edges does this polyhedron have?</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1-4"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-3-1-1-4-1">How many vertices does this polyhedron have?</div></li>
 </ol>
 </div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-4"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-4-1">Is it possible to create a regular polyhedron with exactly five triangles meeting at each vertex? If so, build it, record your work, and count the faces, edges, and vertices.</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-5"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-5-1">What is the largest number of triangles that can meet at a vertex to form a corner or point of a polyhedron? What happens when you squeeze one more triangle in at a vertex?</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-6"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-6-1">Optional Extension: What happens when you squeeze yet another triangle in at each ‘vertex’?</div></li>
-<li id="sec-polyhedra-regular-4-2-4-2-3-3-7"><div class="para" id="sec-polyhedra-regular-4-2-4-2-3-3-7-1">Use your answers above to complete the following table:</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-4"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-4-1">Is it possible to create a regular polyhedron with exactly five triangles meeting at each vertex? If so, build it, record your work, and count the faces, edges, and vertices.</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-5"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-5-1">What is the largest number of triangles that can meet at a vertex to form a corner or point of a polyhedron? What happens when you squeeze one more triangle in at a vertex?</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-6"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-6-1">Optional Extension: What happens when you squeeze yet another triangle in at each ‘vertex’?</div></li>
+<li id="sec-polyhedra-regular-5-2-4-2-3-3-7"><div class="para" id="sec-polyhedra-regular-5-2-4-2-3-3-7-1">Use your answers above to complete the following table:</div></li>
 </ol>
-</div> <figure class="table table-like" id="table-regpolyhedra-triangles"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.7<span class="period">.</span></span><span class="space"> </span>Regular Polyhedra with Triangular Faces</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</div> <figure class="table table-like" id="table-regpolyhedra-triangles"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.8<span class="period">.</span></span><span class="space"> </span>Regular Polyhedra with Triangular Faces</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
-<th scope="col" class="c m b1 r0 l0 t0 lines">Number of faces at each vertex</th>
-<th scope="col" class="c m b1 r0 l0 t0 lines">Total number of faces</th>
-<th scope="col" class="c m b1 r0 l0 t0 lines">Total number of edges</th>
-<th scope="col" class="c m b1 r0 l0 t0 lines">Total number of vertices</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Number of faces at each vertex</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Total number of faces</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Total number of edges</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Total number of vertices</th>
 </tr>
 <tr>
-<td class="c m b0 r0 l0 t0 lines">3</td>
-<td class="c m b0 r0 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines">3</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
 </tr>
 <tr>
-<td class="c m b0 r0 l0 t0 lines">4</td>
-<td class="c m b0 r0 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines">4</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
 </tr>
 <tr>
 <td class="c m b0 r0 l0 t0 lines">5</td>
@@ -524,62 +855,62 @@ window.MathJax = {
 </table></div></figure></article><article class="task exercise-like" id="task-tridipyramid"><h5 class="heading">
 <span class="codenumber">(d)</span><span class="space"> </span><span class="title">A Nonregular Polyhedron made from Regular Triangles.</span>
 </h5>
-<div class="para" id="task-tridipyramid-2-1">There is a polyhedron that can be constructed which has exactly six faces, all being equilateral triangles. Build this polyhedron, and then explain why it does not satisfy the definition of a regular polyhedron.</div></article><article class="task exercise-like" id="sec-polyhedra-regular-4-2-6"><h5 class="heading">
+<div class="para" id="task-tridipyramid-2-1">There is a polyhedron that can be constructed which has exactly six faces, all being equilateral triangles. Build this polyhedron, and then explain why it does not satisfy the definition of a regular polyhedron.</div></article><article class="task exercise-like" id="sec-polyhedra-regular-5-2-6"><h5 class="heading">
 <span class="codenumber">(e)</span><span class="space"> </span><span class="title">Other Regular Polyhedra.</span>
 </h5>
-<div class="para logical" id="sec-polyhedra-regular-4-2-6-2-1">
+<div class="para logical" id="sec-polyhedra-regular-5-2-6-2-1">
 <div class="para">We now explore whether we can form regular polyhedra using squares, regular pentagons, or other regular polygons.</div>
-<ol class="decimal">
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-1"><div class="para logical" id="sec-polyhedra-regular-4-2-6-2-1-1-1-1">
+<ol class="decimal" id="sec-polyhedra-regular-5-2-6-2-1-1">
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-1"><div class="para logical" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1">
 <div class="para">Regular polyhedra with square faces:</div>
-<ol class="lower-alpha">
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-1"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-1-1">Each angle of a square has what degree measure?</div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-2">
-<div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-2-1">Is it possible to create a regular polyhedron using only squares? If so, determine the number of squares that must meet at each vertex. Then construct or describe the polyhedron. Record a picture.</div>
-<aside class="aside aside-like" id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-2-2"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-2-2-1">If you are making your own squares, you will need to ensure that every angle of each square is 90 degrees. Models made from straws may lose that property without proper support. On the other hand, you may have examples of a regular polyhedron with square faces already so that you do not need to build this.</div></aside>
+<ol class="lower-alpha" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1">
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-1"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-1-1">Each angle of a square has what degree measure?</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-2">
+<div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-2-1">Is it possible to create a regular polyhedron using only squares? If so, determine the number of squares that must meet at each vertex. Then construct or describe the polyhedron. Record a picture.</div>
+<aside class="aside aside-like" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-2-2"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-2-2-1">If you are making your own squares, you will need to ensure that every angle of each square is 90 degrees. Models made from straws may lose that property without proper support. On the other hand, you may have examples of a regular polyhedron with square faces already so that you do not need to build this.</div></aside>
 </li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-3"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-3-1">If the construction is possible, count the faces at each vertex, the total number of faces, the total number of edges, and the total number of vertices. Record the information in <a href="sec-polyhedra-regular.html#table-regpolyhedra-sq-pent" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-sq-pent.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.8: Regular Polyhedra with Square or Pentagonal Faces">Table 3.1.8</a> below.</div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-4"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-4-1">Would it be possible to create a regular polyhedron with fewer squares meeting at each vertex? Why or why not?</div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-5"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-1-1-1-5-1">Would it be possible to create a regular polyhedron with more squares meeting at each vertex? Why or why not?</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-3"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-3-1">If the construction is possible, count the faces at each vertex, the total number of faces, the total number of edges, and the total number of vertices. Record the information in <a href="sec-polyhedra-regular.html#table-regpolyhedra-sq-pent" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-sq-pent.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.9: Regular Polyhedra with Square or Pentagonal Faces">Table 3.1.9</a> below.</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-4"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-4-1">Would it be possible to create a regular polyhedron with fewer squares meeting at each vertex? Why or why not?</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-5"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-1-1-1-5-1">Would it be possible to create a regular polyhedron with more squares meeting at each vertex? Why or why not?</div></li>
 </ol>
 </div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-2"><div class="para logical" id="sec-polyhedra-regular-4-2-6-2-1-1-2-1">
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-2"><div class="para logical" id="sec-polyhedra-regular-5-2-6-2-1-1-2-1">
 <div class="para">Regular polyhedra with pentagonal faces:</div>
-<ol class="lower-alpha">
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-1"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-1-1">What is the measure of a vertex angle of a regular pentagon?</div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-2">
-<div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-2-1">Is it possible to create a regular polyhedron using only pentagons? If so, determine the number of regular pentagons that must meet at each vertex and then construct the polyhedron. Carefully describe this polyhedron and/or save a picture.</div>
-<aside class="aside aside-like" id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-2-2"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-2-2-1">Search for “regular pentagon template” to find a sheet of congruent regular pentagons that you can resize, print on sturdy paper, and cut.</div></aside>
+<ol class="lower-alpha" id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1">
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-1"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-1-1">What is the measure of a vertex angle of a regular pentagon?</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-2">
+<div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-2-1">Is it possible to create a regular polyhedron using only pentagons? If so, determine the number of regular pentagons that must meet at each vertex and then construct the polyhedron. Carefully describe this polyhedron and/or save a picture.</div>
+<aside class="aside aside-like" id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-2-2"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-2-2-1">Search for “regular pentagon template” to find a sheet of congruent regular pentagons that you can resize, print on sturdy paper, and cut.</div></aside>
 </li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-3"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-3-1">If the construction was possible, count the faces at each vertex, the total number of faces, the total number of edges, and the total number of vertices. Record the information in <a href="sec-polyhedra-regular.html#table-regpolyhedra-sq-pent" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-sq-pent.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.8: Regular Polyhedra with Square or Pentagonal Faces">Table 3.1.8</a> below.</div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-4"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-2-1-1-4-1">Is this the only possible regular polyhedron using pentagons? Explain.</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-3"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-3-1">If the construction was possible, count the faces at each vertex, the total number of faces, the total number of edges, and the total number of vertices. Record the information in <a href="sec-polyhedra-regular.html#table-regpolyhedra-sq-pent" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-sq-pent.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.9: Regular Polyhedra with Square or Pentagonal Faces">Table 3.1.9</a> below.</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-4"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-2-1-1-4-1">Is this the only possible regular polyhedron using pentagons? Explain.</div></li>
 </ol>
 </div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-3"><div class="para logical" id="sec-polyhedra-regular-4-2-6-2-1-1-3-1">
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-3"><div class="para logical" id="sec-polyhedra-regular-5-2-6-2-1-1-3-1">
 <div class="para">In search of regular polyhedra whose faces have more than five sides:</div>
-<ol class="lower-alpha">
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-3-1-1-1"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-3-1-1-1-1">What is the measure of each vertex angle in a regular hexagon?</div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-3-1-1-2"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-3-1-1-2-1">Why would surrounding a vertex with three hexagons not result in a possible corner for a polyhedron?</div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-3-1-1-3"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-3-1-1-3-1">If a regular polygon has more than six sides, then the measure of each of its vertex angles must be between what two numbers?</div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-3-1-1-4"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-3-1-1-4-1">Write a thorough and convincing argument as to why any regular polyhedron must be bounded by equilateral triangles, squares, or regular pentagons. Conclude that there are exactly five types of regular polyhedra.</div></li>
+<ol class="lower-alpha" id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1">
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1-1"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1-1-1">What is the measure of each vertex angle in a regular hexagon?</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1-2"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1-2-1">Why would surrounding a vertex with three hexagons not result in a possible corner for a polyhedron?</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1-3"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1-3-1">If a regular polygon has more than six sides, then the measure of each of its vertex angles must be between what two numbers?</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1-4"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-3-1-1-4-1">Write a thorough and convincing argument as to why any regular polyhedron must be bounded by equilateral triangles, squares, or regular pentagons. Conclude that there are exactly five types of regular polyhedra.</div></li>
 </ol>
 </div></li>
-<li id="sec-polyhedra-regular-4-2-6-2-1-1-4"><div class="para" id="sec-polyhedra-regular-4-2-6-2-1-1-4-1">Use your answers above to complete the following table:</div></li>
+<li id="sec-polyhedra-regular-5-2-6-2-1-1-4"><div class="para" id="sec-polyhedra-regular-5-2-6-2-1-1-4-1">Use your answers above to complete the following table:</div></li>
 </ol>
-</div> <figure class="table table-like" id="table-regpolyhedra-sq-pent"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.8<span class="period">.</span></span><span class="space"> </span>Regular Polyhedra with Square or Pentagonal Faces</figcaption><div class="tabular-box natural-width"><table class="tabular">
+</div> <figure class="table table-like" id="table-regpolyhedra-sq-pent"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.1.9<span class="period">.</span></span><span class="space"> </span>Regular Polyhedra with Square or Pentagonal Faces</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
-<th scope="col" class="c m b1 r0 l0 t0 lines">Shape of Face</th>
-<th scope="col" class="c m b1 r0 l0 t0 lines">Number of faces at each vertex</th>
-<th scope="col" class="c m b1 r0 l0 t0 lines">Total number of faces</th>
-<th scope="col" class="c m b1 r0 l0 t0 lines">Total number of edges</th>
-<th scope="col" class="c m b1 r0 l0 t0 lines">Total number of vertices</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Shape of Face</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Number of faces at each vertex</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Total number of faces</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Total number of edges</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Total number of vertices</th>
 </tr>
 <tr>
-<td class="c m b0 r0 l0 t0 lines">square</td>
-<td class="c m b0 r0 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines">square</td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
 </tr>
 <tr>
 <td class="c m b0 r0 l0 t0 lines">pentagon</td>
@@ -588,16 +919,16 @@ window.MathJax = {
 <td class="c m b0 r0 l0 t0 lines"></td>
 <td class="c m b0 r0 l0 t0 lines"></td>
 </tr>
-</table></div></figure></article><article class="task exercise-like" id="sec-polyhedra-regular-4-2-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="sec-polyhedra-regular-4-2-7-1-1">Look at the tables <a href="sec-polyhedra-regular.html#table-regpolyhedra-triangles" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.7: Regular Polyhedra with Triangular Faces">Table 3.1.7</a> and <a href="sec-polyhedra-regular.html#table-regpolyhedra-sq-pent" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-sq-pent.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.8: Regular Polyhedra with Square or Pentagonal Faces">Table 3.1.8</a>. Let <span class="process-math">\(F\)</span> be the total number of faces, <span class="process-math">\(E\)</span> be the total number of edges, and <span class="process-math">\(V\)</span> be the total number of vertices. What do you notice about <span class="process-math">\(F + V – E\)</span> ?</div></article></article><div class="para" id="sec-polyhedra-regular-4-3">We have determined that there are exactly five regular polyhedra. They have the names, <dfn class="terminology">tetrahedron</dfn> (four-faced), <dfn class="terminology">hexahedron</dfn> (six-faced), <dfn class="terminology">octahedron</dfn> (eight-faced), <dfn class="terminology">dodecahedron</dfn> (12-faced), and <dfn class="terminology">icosahedron</dfn> (20-faced). Match these names to the polyhedra you created and add these labels to the appropriate lines in your tables.</div></section><section class="subsection" id="subsec-polyhedra-reg-nets"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="space"> </span><span class="title">Nets for Polyhedra</span>
+</table></div></figure></article><article class="task exercise-like" id="sec-polyhedra-regular-5-2-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="sec-polyhedra-regular-5-2-7-1-1">Look at the tables <a href="sec-polyhedra-regular.html#table-regpolyhedra-triangles" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.8: Regular Polyhedra with Triangular Faces">Table 3.1.8</a> and <a href="sec-polyhedra-regular.html#table-regpolyhedra-sq-pent" class="xref" data-knowl="./knowl/xref/table-regpolyhedra-sq-pent.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.1.9: Regular Polyhedra with Square or Pentagonal Faces">Table 3.1.9</a>. Let <span class="process-math">\(F\)</span> be the total number of faces, <span class="process-math">\(E\)</span> be the total number of edges, and <span class="process-math">\(V\)</span> be the total number of vertices. What do you notice about <span class="process-math">\(F + V – E\)</span> ?</div></article></article><div class="para" id="sec-polyhedra-regular-5-3">We have determined that there are exactly five regular polyhedra. They have the names, <dfn class="terminology">tetrahedron</dfn> (four-faced), <dfn class="terminology">hexahedron</dfn> (six-faced), <dfn class="terminology">octahedron</dfn> (eight-faced), <dfn class="terminology">dodecahedron</dfn> (12-faced), and <dfn class="terminology">icosahedron</dfn> (20-faced). Match these names to the polyhedra you created and add these labels to the appropriate lines in your tables.</div></section><section class="subsection" id="subsec-polyhedra-reg-nets"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="space"> </span><span class="title">Nets for Polyhedra</span>
 </h3>
-<div class="para" id="subsec-polyhedra-reg-nets-2">While building your polyhedra, you may have wondered whether it was necessary to cut out and glue each polygon separately. <a href="sec-polyhedra-regular.html#fig-tetranet" class="xref" data-knowl="./knowl/xref/fig-tetranet.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.10">Figure 3.1.10</a> gives a triangle that can be cut out and folded along the interior lines to produce a regular tetrahedron. You may want to leave a little extra paper along some of the external edges so that you have a surface for gluing them together. This pattern is called a net for the polyhedron.</div>
+<div class="para" id="subsec-polyhedra-reg-nets-2">While building your polyhedra, you may have wondered whether it was necessary to cut out and glue each polygon separately. <a href="sec-polyhedra-regular.html#fig-tetranet" class="xref" data-knowl="./knowl/xref/fig-tetranet.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.11">Figure 3.1.11</a> gives a triangle that can be cut out and folded along the interior lines to produce a regular tetrahedron. You may want to leave a little extra paper along some of the external edges so that you have a surface for gluing them together. This pattern is called a net for the polyhedron.</div>
 <article class="definition definition-like" id="def-net"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span>
 </h4> <div class="para" id="def-net-3-1">A <dfn class="terminology">net</dfn> for a polyhedron is a single-piece pattern for the polyhedron that can be folded and glued to form the solid. A net can be created by cutting the polyhedron along some of its edges and unfolding. There are multiple nets for each polyhedron.</div></article><figure class="figure figure-like" id="fig-tetranet"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/tetranet1.svg" role="img" class="contained" alt="The midpoints of the sides of an equilateral triangle are joined by segments to divide the triangle into four congruent equilateral triangles."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.10<span class="period">.</span></span><span class="space"> </span>A net for a regular tetrahedron</figcaption></figure></section><section class="exercises" id="exercises-polyhedra-reg"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="space"> </span><span class="title">Exercises</span>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.11<span class="period">.</span></span><span class="space"> </span>A net for a regular tetrahedron</figcaption></figure></section><section class="exercises" id="exercises-polyhedra-reg"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="subexercises" id="Toolbox-polyhedra-reg"><h4 class="heading"><span class="title">Building your Toolbox</span></h4>
 <article class="exercise exercise-like" id="HW-regpolyhedra-summary"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
@@ -607,15 +938,15 @@ window.MathJax = {
 <article class="exercise exercise-like" id="exercises-polyhedra-reg-3-2"><h5 class="heading">
 <span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Tetrahedral Nets.</span>
 </h5>
-<div class="para" id="exercises-polyhedra-reg-3-2-2-1">Two patterns are given in <a href="sec-polyhedra-regular.html#fig-tetranetHW" class="xref" data-knowl="./knowl/xref/fig-tetranetHW.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.11">Figure 3.1.11</a>. Which, if any, will form a regular tetrahedron when folded along the interior lines?</div> <figure class="figure figure-like" id="fig-tetranetHW"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/tetranet2.svg" role="img" class="contained" alt="Pattern a gives a string of four equilateral triangles arranged in a line. The fold lines zigzag down the interior of the design. Pattern b gives four equilateral triangles which share a common vertex."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.11<span class="period">.</span></span><span class="space"> </span>Possible tetrahedral nets</figcaption></figure></article><article class="exercise exercise-like" id="exercises-polyhedra-reg-3-3"><h5 class="heading">
+<div class="para" id="exercises-polyhedra-reg-3-2-2-1">Two patterns are given in <a href="sec-polyhedra-regular.html#fig-tetranetHW" class="xref" data-knowl="./knowl/xref/fig-tetranetHW.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.12">Figure 3.1.12</a>. Which, if any, will form a regular tetrahedron when folded along the interior lines?</div> <figure class="figure figure-like" id="fig-tetranetHW"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/tetranet2.svg" role="img" class="contained" alt="Pattern a gives a string of four equilateral triangles arranged in a line. The fold lines zigzag down the interior of the design. Pattern b gives four equilateral triangles which share a common vertex."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.12<span class="period">.</span></span><span class="space"> </span>Possible tetrahedral nets</figcaption></figure></article><article class="exercise exercise-like" id="exercises-polyhedra-reg-3-3"><h5 class="heading">
 <span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Nets for a Cube.</span>
 </h5>
 <div class="para" id="exercises-polyhedra-reg-3-3-2-1">Sketch a net for a cube and use it to construct a cube.</div></article><article class="exercise exercise-like" id="exercises-polyhedra-reg-3-4"><h5 class="heading">
 <span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Nets for Polyhedra?</span>
 </h5>
-<div class="para" id="exercises-polyhedra-reg-3-4-2-1">Give an explanation for why each of the patterns in <a href="sec-polyhedra-regular.html#fig-notnetsHW" class="xref" data-knowl="./knowl/xref/fig-notnetsHW.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.12">Figure 3.1.12</a> cannot be a net for a regular polyhedron.</div> <figure class="figure figure-like" id="fig-notnetsHW"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/notRegNet.svg" role="img" class="contained" alt="Pattern a has six squares. Four are in a row and there is one below the first and the last. Pattern b has three squares in a row and two equilateral triangles, one each along the top edge of the center square and along the bottom edge of the center square. Pattern c is a strip of six alternating regular triangles. Pattern d has four 1.3x2 rectangles and two 1.3x1.3 squares."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.12<span class="period">.</span></span><span class="space"> </span>Not regular polyhedral nets</figcaption></figure></article></article><article class="subexercises" id="exercises-polyhedra-reg-4"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
+<div class="para" id="exercises-polyhedra-reg-3-4-2-1">Give an explanation for why each of the patterns in <a href="sec-polyhedra-regular.html#fig-notnetsHW" class="xref" data-knowl="./knowl/xref/fig-notnetsHW.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.1.13">Figure 3.1.13</a> cannot be a net for a regular polyhedron.</div> <figure class="figure figure-like" id="fig-notnetsHW"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/notRegNet.svg" role="img" class="contained" alt="Pattern a has six squares. Four are in a row and there is one below the first and the last. Pattern b has three squares in a row and two equilateral triangles, one each along the top edge of the center square and along the bottom edge of the center square. Pattern c is a strip of six alternating regular triangles. Pattern d has four 1.3x2 rectangles and two 1.3x1.3 squares."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.13<span class="period">.</span></span><span class="space"> </span>Not regular polyhedral nets</figcaption></figure></article></article><article class="subexercises" id="exercises-polyhedra-reg-4"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
 <article class="exercise exercise-like" id="exercises-polyhedra-reg-4-2"><h5 class="heading">
 <span class="codenumber">7<span class="period">.</span></span><span class="space"> </span><span class="title">Counting Vertices and Edges.</span>
 </h5>

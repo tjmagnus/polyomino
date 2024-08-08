@@ -88,6 +88,311 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-intro-explore-3-3-3-1-3-1 { counter-set: sec-intro-explore-3-3-3-1-3-1 0; }
+#sec-intro-explore-3-3-3-1-3-1 > li::marker { content: ""counter(sec-intro-explore-3-3-3-1-3-1,decimal)"."; }
+#sec-intro-explore-3-3-3-1-3-1 > li { counter-increment: sec-intro-explore-3-3-3-1-3-1; }
+#sec-intro-explore-3-3-4-1-1-1 { counter-set: sec-intro-explore-3-3-4-1-1-1 0; }
+#sec-intro-explore-3-3-4-1-1-1 > li::marker { content: ""counter(sec-intro-explore-3-3-4-1-1-1,decimal)"."; }
+#sec-intro-explore-3-3-4-1-1-1 > li { counter-increment: sec-intro-explore-3-3-4-1-1-1; }
+#SAR-intro-exp-8-1-1-1 { counter-set: SAR-intro-exp-8-1-1-1 0; }
+#SAR-intro-exp-8-1-1-1 > li::marker { content: "("counter(SAR-intro-exp-8-1-1-1,lower-alpha)")"; }
+#SAR-intro-exp-8-1-1-1 > li { counter-increment: SAR-intro-exp-8-1-1-1; }
+#SAR-intro-exp-areamodel-2-1-2 { counter-set: SAR-intro-exp-areamodel-2-1-2 0; }
+#SAR-intro-exp-areamodel-2-1-2 > li::marker { content: "("counter(SAR-intro-exp-areamodel-2-1-2,lower-alpha)")"; }
+#SAR-intro-exp-areamodel-2-1-2 > li { counter-increment: SAR-intro-exp-areamodel-2-1-2; }
+#intro-apply-explore-tangram-3-1-1-1 { counter-set: intro-apply-explore-tangram-3-1-1-1 0; }
+#intro-apply-explore-tangram-3-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-3-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-3-1-1-1 > li { counter-increment: intro-apply-explore-tangram-3-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-5-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-5-1-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1-7-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li::marker { content: "("counter(intro-apply-explore-tangram-5-1-1-1-7-1-1,lower-alpha)")"; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1-7-1-1; }
+#SAR-intro-apply-3-1-1-1 { counter-set: SAR-intro-apply-3-1-1-1 0; }
+#SAR-intro-apply-3-1-1-1 > li::marker { content: "("counter(SAR-intro-apply-3-1-1-1,lower-alpha)")"; }
+#SAR-intro-apply-3-1-1-1 > li { counter-increment: SAR-intro-apply-3-1-1-1; }
+#label-altitude-etc-1-1-5 { counter-set: label-altitude-etc-1-1-5 0; }
+#label-altitude-etc-1-1-5 > li::marker { content: "("counter(label-altitude-etc-1-1-5,lower-alpha)")"; }
+#label-altitude-etc-1-1-5 > li { counter-increment: label-altitude-etc-1-1-5; }
+#SAR-intro-apply-Tangramareas-1-1-2 { counter-set: SAR-intro-apply-Tangramareas-1-1-2 0; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li::marker { content: "("counter(SAR-intro-apply-Tangramareas-1-1-2,lower-alpha)")"; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li { counter-increment: SAR-intro-apply-Tangramareas-1-1-2; }
+#ExtConc-intro-apply-4-1-1-1 { counter-set: ExtConc-intro-apply-4-1-1-1 0; }
+#ExtConc-intro-apply-4-1-1-1 > li::marker { content: "("counter(ExtConc-intro-apply-4-1-1-1,lower-alpha)")"; }
+#ExtConc-intro-apply-4-1-1-1 > li { counter-increment: ExtConc-intro-apply-4-1-1-1; }
+#sum-odds-1-1-1-1 { counter-set: sum-odds-1-1-1-1 0; }
+#sum-odds-1-1-1-1 > li::marker { content: ""counter(sum-odds-1-1-1-1,decimal)"."; }
+#sum-odds-1-1-1-1 > li { counter-increment: sum-odds-1-1-1-1; }
+#sum-odds-2-1-1-1 { counter-set: sum-odds-2-1-1-1 0; }
+#sum-odds-2-1-1-1 > li::marker { content: ""counter(sum-odds-2-1-1-1,decimal)"."; }
+#sum-odds-2-1-1-1 > li { counter-increment: sum-odds-2-1-1-1; }
+#subsec-explainconjectures-7-2-1-3 { counter-set: subsec-explainconjectures-7-2-1-3 0; }
+#subsec-explainconjectures-7-2-1-3 > li::marker { content: ""counter(subsec-explainconjectures-7-2-1-3,decimal)"."; }
+#subsec-explainconjectures-7-2-1-3 > li { counter-increment: subsec-explainconjectures-7-2-1-3; }
+#subsec-explainconjectures-7-3-1-1-2 { counter-set: subsec-explainconjectures-7-3-1-1-2 0; }
+#subsec-explainconjectures-7-3-1-1-2 > li::marker { content: ""counter(subsec-explainconjectures-7-3-1-1-2,decimal)"."; }
+#subsec-explainconjectures-7-3-1-1-2 > li { counter-increment: subsec-explainconjectures-7-3-1-1-2; }
+#subsec-explainconjectures-7-4-1-2-2 { counter-set: subsec-explainconjectures-7-4-1-2-2 0; }
+#subsec-explainconjectures-7-4-1-2-2 > li::marker { content: ""counter(subsec-explainconjectures-7-4-1-2-2,decimal)"."; }
+#subsec-explainconjectures-7-4-1-2-2 > li { counter-increment: subsec-explainconjectures-7-4-1-2-2; }
+#exer-tri-numbers-2-3-1 { counter-set: exer-tri-numbers-2-3-1 0; }
+#exer-tri-numbers-2-3-1 > li::marker { content: "("counter(exer-tri-numbers-2-3-1,lower-alpha)")"; }
+#exer-tri-numbers-2-3-1 > li { counter-increment: exer-tri-numbers-2-3-1; }
+#exer-tri-numbers-2-3-1-4-1-5 { counter-set: exer-tri-numbers-2-3-1-4-1-5 0; }
+#exer-tri-numbers-2-3-1-4-1-5 > li::marker { content: ""counter(exer-tri-numbers-2-3-1-4-1-5,lower-roman)"."; }
+#exer-tri-numbers-2-3-1-4-1-5 > li { counter-increment: exer-tri-numbers-2-3-1-4-1-5; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-3-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-3-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-3-1-3-1; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-4-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-4-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-4-1-3-1; }
+#SAR-intro-struggle-squarert-1-1-1 { counter-set: SAR-intro-struggle-squarert-1-1-1 0; }
+#SAR-intro-struggle-squarert-1-1-1 > li::marker { content: "("counter(SAR-intro-struggle-squarert-1-1-1,lower-alpha)")"; }
+#SAR-intro-struggle-squarert-1-1-1 > li { counter-increment: SAR-intro-struggle-squarert-1-1-1; }
+#ExtConc-intro-struggle-2-2-1-2 { counter-set: ExtConc-intro-struggle-2-2-1-2 0; }
+#ExtConc-intro-struggle-2-2-1-2 > li::marker { content: "("counter(ExtConc-intro-struggle-2-2-1-2,lower-alpha)")"; }
+#ExtConc-intro-struggle-2-2-1-2 > li { counter-increment: ExtConc-intro-struggle-2-2-1-2; }
+#parallelogramtypes-1-1-1 { counter-set: parallelogramtypes-1-1-1 0; }
+#parallelogramtypes-1-1-1 > li::marker { content: ""counter(parallelogramtypes-1-1-1,decimal)"."; }
+#parallelogramtypes-1-1-1 > li { counter-increment: parallelogramtypes-1-1-1; }
+#subsec-area-tri-2-3-1-1-1 { counter-set: subsec-area-tri-2-3-1-1-1 0; }
+#subsec-area-tri-2-3-1-1-1 > li::marker { content: ""counter(subsec-area-tri-2-3-1-1-1,decimal)"."; }
+#subsec-area-tri-2-3-1-1-1 > li { counter-increment: subsec-area-tri-2-3-1-1-1; }
+#subsec-irregular-area-4-5-1-1-1 { counter-set: subsec-irregular-area-4-5-1-1-1 0; }
+#subsec-irregular-area-4-5-1-1-1 > li::marker { content: ""counter(subsec-irregular-area-4-5-1-1-1,decimal)"."; }
+#subsec-irregular-area-4-5-1-1-1 > li { counter-increment: subsec-irregular-area-4-5-1-1-1; }
+#HW-compute-area-1-1-1 { counter-set: HW-compute-area-1-1-1 0; }
+#HW-compute-area-1-1-1 > li::marker { content: "("counter(HW-compute-area-1-1-1,lower-alpha)")"; }
+#HW-compute-area-1-1-1 > li { counter-increment: HW-compute-area-1-1-1; }
+#SAR-polygons-area-3-1-1-3 { counter-set: SAR-polygons-area-3-1-1-3 0; }
+#SAR-polygons-area-3-1-1-3 > li::marker { content: "("counter(SAR-polygons-area-3-1-1-3,lower-alpha)")"; }
+#SAR-polygons-area-3-1-1-3 > li { counter-increment: SAR-polygons-area-3-1-1-3; }
+#SAR-polygons-area-4-1-1-1 { counter-set: SAR-polygons-area-4-1-1-1 0; }
+#SAR-polygons-area-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-area-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-area-4-1-1-1 > li { counter-increment: SAR-polygons-area-4-1-1-1; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-2-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-2-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-2-1-1; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-3-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-3-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-3-1-1; }
+#expl-angsum-triangle-3-1-1-4 { counter-set: expl-angsum-triangle-3-1-1-4 0; }
+#expl-angsum-triangle-3-1-1-4 > li::marker { content: ""counter(expl-angsum-triangle-3-1-1-4,decimal)"."; }
+#expl-angsum-triangle-3-1-1-4 > li { counter-increment: expl-angsum-triangle-3-1-1-4; }
+#HW-SAR-angles-linepoints-1-1-2 { counter-set: HW-SAR-angles-linepoints-1-1-2 0; }
+#HW-SAR-angles-linepoints-1-1-2 > li::marker { content: "("counter(HW-SAR-angles-linepoints-1-1-2,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-1-1-2 > li { counter-increment: HW-SAR-angles-linepoints-1-1-2; }
+#HW-SAR-angles-linepoints-2-1-1 { counter-set: HW-SAR-angles-linepoints-2-1-1 0; }
+#HW-SAR-angles-linepoints-2-1-1 > li::marker { content: "("counter(HW-SAR-angles-linepoints-2-1-1,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-2-1-1 > li { counter-increment: HW-SAR-angles-linepoints-2-1-1; }
+#HW-SAR-linepart-type-1-1-2 { counter-set: HW-SAR-linepart-type-1-1-2 0; }
+#HW-SAR-linepart-type-1-1-2 > li::marker { content: "("counter(HW-SAR-linepart-type-1-1-2,lower-alpha)")"; }
+#HW-SAR-linepart-type-1-1-2 > li { counter-increment: HW-SAR-linepart-type-1-1-2; }
+#HW-SAR-linepart-type-2-1-1 { counter-set: HW-SAR-linepart-type-2-1-1 0; }
+#HW-SAR-linepart-type-2-1-1 > li::marker { content: "("counter(HW-SAR-linepart-type-2-1-1,lower-alpha)")"; }
+#HW-SAR-linepart-type-2-1-1 > li { counter-increment: HW-SAR-linepart-type-2-1-1; }
+#exer-SAR-missingangles-1-1-3 { counter-set: exer-SAR-missingangles-1-1-3 0; }
+#exer-SAR-missingangles-1-1-3 > li::marker { content: "("counter(exer-SAR-missingangles-1-1-3,lower-alpha)")"; }
+#exer-SAR-missingangles-1-1-3 > li { counter-increment: exer-SAR-missingangles-1-1-3; }
+#exer-SAR-missingangles-2-1-1 { counter-set: exer-SAR-missingangles-2-1-1 0; }
+#exer-SAR-missingangles-2-1-1 > li::marker { content: "("counter(exer-SAR-missingangles-2-1-1,lower-alpha)")"; }
+#exer-SAR-missingangles-2-1-1 > li { counter-increment: exer-SAR-missingangles-2-1-1; }
+#ExtConc-polygons-angles-3-1-3-4 { counter-set: ExtConc-polygons-angles-3-1-3-4 0; }
+#ExtConc-polygons-angles-3-1-3-4 > li::marker { content: "("counter(ExtConc-polygons-angles-3-1-3-4,lower-alpha)")"; }
+#ExtConc-polygons-angles-3-1-3-4 > li { counter-increment: ExtConc-polygons-angles-3-1-3-4; }
+#subsec-review-lines-2-3-1-1-1 { counter-set: subsec-review-lines-2-3-1-1-1 0; }
+#subsec-review-lines-2-3-1-1-1 > li::marker { content: ""counter(subsec-review-lines-2-3-1-1-1,decimal)"."; }
+#subsec-review-lines-2-3-1-1-1 > li { counter-increment: subsec-review-lines-2-3-1-1-1; }
+#parallel-explor-lines-sphere-4-1-1-2 { counter-set: parallel-explor-lines-sphere-4-1-1-2 0; }
+#parallel-explor-lines-sphere-4-1-1-2 > li::marker { content: ""counter(parallel-explor-lines-sphere-4-1-1-2,decimal)"."; }
+#parallel-explor-lines-sphere-4-1-1-2 > li { counter-increment: parallel-explor-lines-sphere-4-1-1-2; }
+#parallel-explor-spherical-triangles-6-1-2-1 { counter-set: parallel-explor-spherical-triangles-6-1-2-1 0; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li::marker { content: ""counter(parallel-explor-spherical-triangles-6-1-2-1,decimal)"."; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li { counter-increment: parallel-explor-spherical-triangles-6-1-2-1; }
+#subsec-understanding-parallel-8-2-1-2 { counter-set: subsec-understanding-parallel-8-2-1-2 0; }
+#subsec-understanding-parallel-8-2-1-2 > li::marker { content: ""counter(subsec-understanding-parallel-8-2-1-2,decimal)"."; }
+#subsec-understanding-parallel-8-2-1-2 > li { counter-increment: subsec-understanding-parallel-8-2-1-2; }
+#subsec-understanding-parallel-10-2-1-3-1 { counter-set: subsec-understanding-parallel-10-2-1-3-1 0; }
+#subsec-understanding-parallel-10-2-1-3-1 > li::marker { content: ""counter(subsec-understanding-parallel-10-2-1-3-1,decimal)"."; }
+#subsec-understanding-parallel-10-2-1-3-1 > li { counter-increment: subsec-understanding-parallel-10-2-1-3-1; }
+#subsec-understanding-parallel-10-3-1-1-3 { counter-set: subsec-understanding-parallel-10-3-1-1-3 0; }
+#subsec-understanding-parallel-10-3-1-1-3 > li::marker { content: ""counter(subsec-understanding-parallel-10-3-1-1-3,decimal)"."; }
+#subsec-understanding-parallel-10-3-1-1-3 > li { counter-increment: subsec-understanding-parallel-10-3-1-1-3; }
+#SAR-polygons-parallel-2-1-1-4 { counter-set: SAR-polygons-parallel-2-1-1-4 0; }
+#SAR-polygons-parallel-2-1-1-4 > li::marker { content: "("counter(SAR-polygons-parallel-2-1-1-4,lower-alpha)")"; }
+#SAR-polygons-parallel-2-1-1-4 > li { counter-increment: SAR-polygons-parallel-2-1-1-4; }
+#SAR-polygons-parallel-3-1-1-2 { counter-set: SAR-polygons-parallel-3-1-1-2 0; }
+#SAR-polygons-parallel-3-1-1-2 > li::marker { content: "("counter(SAR-polygons-parallel-3-1-1-2,lower-alpha)")"; }
+#SAR-polygons-parallel-3-1-1-2 > li { counter-increment: SAR-polygons-parallel-3-1-1-2; }
+#exer-transv-angle-measures-1-2-1 { counter-set: exer-transv-angle-measures-1-2-1 0; }
+#exer-transv-angle-measures-1-2-1 > li::marker { content: "("counter(exer-transv-angle-measures-1-2-1,lower-alpha)")"; }
+#exer-transv-angle-measures-1-2-1 > li { counter-increment: exer-transv-angle-measures-1-2-1; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2; }
+#explor-reg-tilings-5-1-3-1 { counter-set: explor-reg-tilings-5-1-3-1 0; }
+#explor-reg-tilings-5-1-3-1 > li::marker { content: ""counter(explor-reg-tilings-5-1-3-1,decimal)"."; }
+#explor-reg-tilings-5-1-3-1 > li { counter-increment: explor-reg-tilings-5-1-3-1; }
+#explor-reg-tilings-7-1-1-1 { counter-set: explor-reg-tilings-7-1-1-1 0; }
+#explor-reg-tilings-7-1-1-1 > li::marker { content: ""counter(explor-reg-tilings-7-1-1-1,decimal)"."; }
+#explor-reg-tilings-7-1-1-1 > li { counter-increment: explor-reg-tilings-7-1-1-1; }
+#task-vertex-measure-regular-polygons-more-1-1-3 { counter-set: task-vertex-measure-regular-polygons-more-1-1-3 0; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li::marker { content: ""counter(task-vertex-measure-regular-polygons-more-1-1-3,decimal)"."; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li { counter-increment: task-vertex-measure-regular-polygons-more-1-1-3; }
+#tile-w-3tri-2sq-1-1-2 { counter-set: tile-w-3tri-2sq-1-1-2 0; }
+#tile-w-3tri-2sq-1-1-2 > li::marker { content: ""counter(tile-w-3tri-2sq-1-1-2,decimal)"."; }
+#tile-w-3tri-2sq-1-1-2 > li { counter-increment: tile-w-3tri-2sq-1-1-2; }
+#subsec-semireg-rules-4-2-1-1-2 { counter-set: subsec-semireg-rules-4-2-1-1-2 0; }
+#subsec-semireg-rules-4-2-1-1-2 > li::marker { content: ""counter(subsec-semireg-rules-4-2-1-1-2,decimal)"."; }
+#subsec-semireg-rules-4-2-1-1-2 > li { counter-increment: subsec-semireg-rules-4-2-1-1-2; }
+#subsec-semireg-rules-4-3-1-1-1 { counter-set: subsec-semireg-rules-4-3-1-1-1 0; }
+#subsec-semireg-rules-4-3-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-3-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-3-1-1-1 > li { counter-increment: subsec-semireg-rules-4-3-1-1-1; }
+#subsec-semireg-rules-4-4-1-1-1 { counter-set: subsec-semireg-rules-4-4-1-1-1 0; }
+#subsec-semireg-rules-4-4-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-4-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-4-1-1-1 > li { counter-increment: subsec-semireg-rules-4-4-1-1-1; }
+#SAR-polygons-regular-2-1-1-1 { counter-set: SAR-polygons-regular-2-1-1-1 0; }
+#SAR-polygons-regular-2-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-2-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-2-1-1-1 > li { counter-increment: SAR-polygons-regular-2-1-1-1; }
+#SAR-polygons-regular-3-1-1-1 { counter-set: SAR-polygons-regular-3-1-1-1 0; }
+#SAR-polygons-regular-3-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-3-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-3-1-1-1 > li { counter-increment: SAR-polygons-regular-3-1-1-1; }
+#SAR-polygons-regular-4-1-1-1 { counter-set: SAR-polygons-regular-4-1-1-1 0; }
+#SAR-polygons-regular-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-4-1-1-1 > li { counter-increment: SAR-polygons-regular-4-1-1-1; }
+#SAR-polygons-regular-5-1-1-1 { counter-set: SAR-polygons-regular-5-1-1-1 0; }
+#SAR-polygons-regular-5-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-5-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-5-1-1-1 > li { counter-increment: SAR-polygons-regular-5-1-1-1; }
+#SAR-polygons-regular-6-1-1-1 { counter-set: SAR-polygons-regular-6-1-1-1 0; }
+#SAR-polygons-regular-6-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-6-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-6-1-1-1 > li { counter-increment: SAR-polygons-regular-6-1-1-1; }
+#SAR-polygons-regular-7-1-1-1 { counter-set: SAR-polygons-regular-7-1-1-1 0; }
+#SAR-polygons-regular-7-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-7-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-7-1-1-1 > li { counter-increment: SAR-polygons-regular-7-1-1-1; }
+#SAR-polygons-regular-9-1-1-1 { counter-set: SAR-polygons-regular-9-1-1-1 0; }
+#SAR-polygons-regular-9-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-9-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-9-1-1-1 > li { counter-increment: SAR-polygons-regular-9-1-1-1; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 { counter-set: exer-ExtConc-pgreg-nonagon-2-1-3 0; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li::marker { content: "("counter(exer-ExtConc-pgreg-nonagon-2-1-3,lower-alpha)")"; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li { counter-increment: exer-ExtConc-pgreg-nonagon-2-1-3; }
+#ExtConc-polygons-regular-3-2-1-3 { counter-set: ExtConc-polygons-regular-3-2-1-3 0; }
+#ExtConc-polygons-regular-3-2-1-3 > li::marker { content: "("counter(ExtConc-polygons-regular-3-2-1-3,lower-alpha)")"; }
+#ExtConc-polygons-regular-3-2-1-3 > li { counter-increment: ExtConc-polygons-regular-3-2-1-3; }
+#tri4andcsq-2-3-1 { counter-set: tri4andcsq-2-3-1 0; }
+#tri4andcsq-2-3-1 > li::marker { content: ""counter(tri4andcsq-2-3-1,decimal)"."; }
+#tri4andcsq-2-3-1 > li { counter-increment: tri4andcsq-2-3-1; }
+#tri4andsquaresAandB-2-3-1 { counter-set: tri4andsquaresAandB-2-3-1 0; }
+#tri4andsquaresAandB-2-3-1 > li::marker { content: ""counter(tri4andsquaresAandB-2-3-1,decimal)"."; }
+#tri4andsquaresAandB-2-3-1 > li { counter-increment: tri4andsquaresAandB-2-3-1; }
+#GarfieldTask-2-3-1 { counter-set: GarfieldTask-2-3-1 0; }
+#GarfieldTask-2-3-1 > li::marker { content: ""counter(GarfieldTask-2-3-1,decimal)"."; }
+#GarfieldTask-2-3-1 > li { counter-increment: GarfieldTask-2-3-1; }
+#sqtostairs-Pyth-task-1-3-1 { counter-set: sqtostairs-Pyth-task-1-3-1 0; }
+#sqtostairs-Pyth-task-1-3-1 > li::marker { content: ""counter(sqtostairs-Pyth-task-1-3-1,decimal)"."; }
+#sqtostairs-Pyth-task-1-3-1 > li { counter-increment: sqtostairs-Pyth-task-1-3-1; }
+#polygons-length-BOT-lengthadditivity-2-1-1 { counter-set: polygons-length-BOT-lengthadditivity-2-1-1 0; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li::marker { content: "("counter(polygons-length-BOT-lengthadditivity-2-1-1,lower-alpha)")"; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li { counter-increment: polygons-length-BOT-lengthadditivity-2-1-1; }
+#exer-SAR-Pyth-1-1-2 { counter-set: exer-SAR-Pyth-1-1-2 0; }
+#exer-SAR-Pyth-1-1-2 > li::marker { content: "("counter(exer-SAR-Pyth-1-1-2,lower-alpha)")"; }
+#exer-SAR-Pyth-1-1-2 > li { counter-increment: exer-SAR-Pyth-1-1-2; }
+#ExtConc-polygons-length-3-2-1-5 { counter-set: ExtConc-polygons-length-3-2-1-5 0; }
+#ExtConc-polygons-length-3-2-1-5 > li::marker { content: "("counter(ExtConc-polygons-length-3-2-1-5,lower-alpha)")"; }
+#ExtConc-polygons-length-3-2-1-5 > li { counter-increment: ExtConc-polygons-length-3-2-1-5; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 { counter-set: ExtConc-polygons-length-3-2-1-5-4-1-3 0; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li::marker { content: ""counter(ExtConc-polygons-length-3-2-1-5-4-1-3,lower-roman)"."; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li { counter-increment: ExtConc-polygons-length-3-2-1-5-4-1-3; }
+#ExtConc-polygons-length-4-2-1-2 { counter-set: ExtConc-polygons-length-4-2-1-2 0; }
+#ExtConc-polygons-length-4-2-1-2 > li::marker { content: "("counter(ExtConc-polygons-length-4-2-1-2,lower-alpha)")"; }
+#ExtConc-polygons-length-4-2-1-2 > li { counter-increment: ExtConc-polygons-length-4-2-1-2; }
+#subsec-def-polyhedra-8-1-1-1 { counter-set: subsec-def-polyhedra-8-1-1-1 0; }
+#subsec-def-polyhedra-8-1-1-1 > li::marker { content: ""counter(subsec-def-polyhedra-8-1-1-1,decimal)"."; }
+#subsec-def-polyhedra-8-1-1-1 > li { counter-increment: subsec-def-polyhedra-8-1-1-1; }
+#sec-polyhedra-regular-5-2-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-3-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-4-2-3-3,decimal)"."; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-6-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-1-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1; }
+#exercises-semireg-polyhedra-3-2-2-1-1 { counter-set: exercises-semireg-polyhedra-3-2-2-1-1 0; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-3-2-2-1-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li { counter-increment: exercises-semireg-polyhedra-3-2-2-1-1; }
+#exercises-semireg-polyhedra-4-2-2-3-1 { counter-set: exercises-semireg-polyhedra-4-2-2-3-1 0; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-4-2-2-3-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li { counter-increment: exercises-semireg-polyhedra-4-2-2-3-1; }
+#exp-vol-intuitive-2-1-1-2 { counter-set: exp-vol-intuitive-2-1-1-2 0; }
+#exp-vol-intuitive-2-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-2-1-1-2,decimal)"."; }
+#exp-vol-intuitive-2-1-1-2 > li { counter-increment: exp-vol-intuitive-2-1-1-2; }
+#exp-vol-intuitive-5-1-1-2 { counter-set: exp-vol-intuitive-5-1-1-2 0; }
+#exp-vol-intuitive-5-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-5-1-1-2,decimal)"."; }
+#exp-vol-intuitive-5-1-1-2 > li { counter-increment: exp-vol-intuitive-5-1-1-2; }
+#surf-of-cylinder-1-1-2 { counter-set: surf-of-cylinder-1-1-2 0; }
+#surf-of-cylinder-1-1-2 > li::marker { content: ""counter(surf-of-cylinder-1-1-2,decimal)"."; }
+#surf-of-cylinder-1-1-2 > li { counter-increment: surf-of-cylinder-1-1-2; }
+#SAR-vol-prisms-verbal-1-1-1 { counter-set: SAR-vol-prisms-verbal-1-1-1 0; }
+#SAR-vol-prisms-verbal-1-1-1 > li::marker { content: "("counter(SAR-vol-prisms-verbal-1-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-verbal-1-1-1 > li { counter-increment: SAR-vol-prisms-verbal-1-1-1; }
+#SAR-vol-prisms-visual-1-1 { counter-set: SAR-vol-prisms-visual-1-1 0; }
+#SAR-vol-prisms-visual-1-1 > li::marker { content: "("counter(SAR-vol-prisms-visual-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-visual-1-1 > li { counter-increment: SAR-vol-prisms-visual-1-1; }
+#exer-ExtConc-pent-prism-2-1-14 { counter-set: exer-ExtConc-pent-prism-2-1-14 0; }
+#exer-ExtConc-pent-prism-2-1-14 > li::marker { content: "("counter(exer-ExtConc-pent-prism-2-1-14,lower-alpha)")"; }
+#exer-ExtConc-pent-prism-2-1-14 > li { counter-increment: exer-ExtConc-pent-prism-2-1-14; }
+#expl-volume-recpyr-by-construction-6-1-1-1 { counter-set: expl-volume-recpyr-by-construction-6-1-1-1 0; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li::marker { content: ""counter(expl-volume-recpyr-by-construction-6-1-1-1,decimal)"."; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li { counter-increment: expl-volume-recpyr-by-construction-6-1-1-1; }
+#expl-pyr-volume-calculations-1-1-2 { counter-set: expl-pyr-volume-calculations-1-1-2 0; }
+#expl-pyr-volume-calculations-1-1-2 > li::marker { content: ""counter(expl-pyr-volume-calculations-1-1-2,decimal)"."; }
+#expl-pyr-volume-calculations-1-1-2 > li { counter-increment: expl-pyr-volume-calculations-1-1-2; }
+#expl-rotation-6-1-1-3 { counter-set: expl-rotation-6-1-1-3 0; }
+#expl-rotation-6-1-1-3 > li::marker { content: ""counter(expl-rotation-6-1-1-3,decimal)"."; }
+#expl-rotation-6-1-1-3 > li { counter-increment: expl-rotation-6-1-1-3; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 { counter-set: sec-isom-identifying-isometries-2-3-2-1-1-1 0; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li::marker { content: ""counter(sec-isom-identifying-isometries-2-3-2-1-1-1,decimal)"."; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li { counter-increment: sec-isom-identifying-isometries-2-3-2-1-1-1; }
+#subsec-fixed-points-6-1-1-1-1 { counter-set: subsec-fixed-points-6-1-1-1-1 0; }
+#subsec-fixed-points-6-1-1-1-1 > li::marker { content: ""counter(subsec-fixed-points-6-1-1-1-1,decimal)"."; }
+#subsec-fixed-points-6-1-1-1-1 > li { counter-increment: subsec-fixed-points-6-1-1-1-1; }
+#explor-nested-simtri-5-1-1-1 { counter-set: explor-nested-simtri-5-1-1-1 0; }
+#explor-nested-simtri-5-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-5-1-1-1,decimal)"."; }
+#explor-nested-simtri-5-1-1-1 > li { counter-increment: explor-nested-simtri-5-1-1-1; }
+#explor-nested-simtri-6-1-1-1 { counter-set: explor-nested-simtri-6-1-1-1 0; }
+#explor-nested-simtri-6-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-6-1-1-1,decimal)"."; }
+#explor-nested-simtri-6-1-1-1 > li { counter-increment: explor-nested-simtri-6-1-1-1; }
+#subsubsec-dilations-similar-6-7-1-1-1 { counter-set: subsubsec-dilations-similar-6-7-1-1-1 0; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li::marker { content: ""counter(subsubsec-dilations-similar-6-7-1-1-1,decimal)"."; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li { counter-increment: subsubsec-dilations-similar-6-7-1-1-1; }
+#subsec-Functions-2-3-2-1-2 { counter-set: subsec-Functions-2-3-2-1-2 0; }
+#subsec-Functions-2-3-2-1-2 > li::marker { content: ""counter(subsec-Functions-2-3-2-1-2,decimal)"."; }
+#subsec-Functions-2-3-2-1-2 > li { counter-increment: subsec-Functions-2-3-2-1-2; }
+#example-algrev-sq-sqrt-2-1-1 { counter-set: example-algrev-sq-sqrt-2-1-1 0; }
+#example-algrev-sq-sqrt-2-1-1 > li::marker { content: ""counter(example-algrev-sq-sqrt-2-1-1,decimal)"."; }
+#example-algrev-sq-sqrt-2-1-1 > li { counter-increment: example-algrev-sq-sqrt-2-1-1; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -120,8 +425,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">How to use this book</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -200,7 +506,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#sec-polygons-parallel-4" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -235,23 +541,24 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Polyhedra</span></a></div>
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining a Polyhedron</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Nets for Polyhedra</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Some Examples of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
@@ -281,10 +588,19 @@ window.MathJax = {
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interior Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Growth in Different Dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimension-fractal" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Measuring Fractals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-" class="internal"><span class="codenumber">3.5.4</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
@@ -352,7 +668,7 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Similarity</span></a></div>
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
@@ -377,8 +693,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -415,11 +732,11 @@ window.MathJax = {
 </h2>
 <section class="introduction" id="subsec-Functions-2"><div class="para" id="subsec-Functions-2-1">Operations, such as addition, subtraction, and multiplication, give us a way of combining numbers and expressions. It is worth the time to read the symbols that tell us what operation is being used.</div> <div class="para" id="subsec-Functions-2-2">Functions typically involve operations, but they play a different role. A function is a rule that allows us to assign an output for each allowable input. In algebra, functions are often given by an algebraic expression where we can replace the variable by the input and compute the value of the corresponding output. We also use letters, like <span class="process-math">\(f\)</span> or <span class="process-math">\(g\text{,}\)</span> to name our function. The symbol <span class="process-math">\(f(x)\)</span> stands for the output when function <span class="process-math">\(f\)</span> is performed on <span class="process-math">\(x\)</span> and the symbol <span class="process-math">\(f(5)\)</span> stands for the output when function <span class="process-math">\(f\)</span> is performed on <span class="process-math">\(5\text{.}\)</span> When graphing functions, we think of each output of the function as being <span class="process-math">\(y\)</span> and graph the pairs <span class="process-math">\((x,f(x))\text{.}\)</span>
 </div> <article class="example example-like" id="subsec-Functions-2-3"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.25</span><span class="period">.</span><span class="space"> </span><span class="title">A Function from Algebra.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.27</span><span class="period">.</span><span class="space"> </span><span class="title">A Function from Algebra.</span>
 </h3>
 <div class="para logical" id="subsec-Functions-2-3-2-1">
 <div class="para">Let <span class="process-math">\(f(x)=5x^2-4x+1\text{.}\)</span> Compute the following:</div>
-<ol class="decimal">
+<ol class="decimal" id="subsec-Functions-2-3-2-1-2">
 <li id="subsec-Functions-2-3-2-1-2-1"><div class="para" id="p-derived-subsec-Functions-2-3-2-1-2-1"><span class="process-math">\(\displaystyle f(0)\)</span></div></li>
 <li id="subsec-Functions-2-3-2-1-2-2"><div class="para" id="p-derived-subsec-Functions-2-3-2-1-2-2"><span class="process-math">\(\displaystyle f(2)\)</span></div></li>
 <li id="subsec-Functions-2-3-2-1-2-3"><div class="para" id="p-derived-subsec-Functions-2-3-2-1-2-3"><span class="process-math">\(\displaystyle f(t+3)\)</span></div></li>
@@ -428,21 +745,21 @@ window.MathJax = {
 <div class="solutions"><details id="subsec-Functions-2-3-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="subsec-Functions-2-3-3-1">a) <span class="process-math">\(f(0)=0+0+1=1\text{,}\)</span> b) <span class="process-math">\(f(2)=5(2^2)-4(2)+1=20-8+1=13\text{,}\)</span> c) <span class="process-math">\(f(t+3)=5(t+3)^2-4(t+3)+1\)</span> which can be simplified to <span class="process-math">\(f(t+3)=5(t^2+6t+9)-4t-12+1=5t^2+30t+45-4t-11=
 5t^2+26t+34\text{.}\)</span>
 </div></div></details></div></article> <div class="para" id="subsec-Functions-2-4">Functions do not have to have algebraic formulas; for example, we could define a function that assigns the number 0 to all even numbers and 1 to all odd numbers. In this example, <span class="process-math">\(f(23)=1\text{,}\)</span> <span class="process-math">\(f(-4)=0\text{,}\)</span> and <span class="process-math">\(f(18)=0\text{.}\)</span> In geometry, we will be looking at transformations, which are functions that map points to points. Sometimes, we can write geometric functions algebraically like <span class="process-math">\(f((x,y))=(-x,3y)\)</span> but that goes beyond the scope of this course.</div> <div class="para" id="subsec-Functions-2-5">Having seen some examples, we now give the definition of function.</div> <article class="definition definition-like" id="def-function"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">A.4.26</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">A.4.28</span><span class="period">.</span>
 </h3> <div class="para" id="def-function-2-1">A <dfn class="terminology">function</dfn> is a mapping that assigns to each input exactly one output.</div></article> <div class="para" id="subsec-Functions-2-7">As noted above the inputs and outputs be numbers or other objects such as points or even lines. What distinguishes a function from other mappings is that each input has <em class="emphasis">exactly one output</em>. Although it is possible for several inputs to have the same output, say <span class="process-math">\(f(0)=0,f(2)=0,f(4)=0\text{,}\)</span> it is not possible for <span class="process-math">\(f(0)=0\)</span> and <span class="process-math">\(f(0)=5\text{.}\)</span> Under the action of a function, each input uniquely determines its output.</div></section><section class="subsubsection" id="subsec-algrev-sqroots"><h3 class="heading hide-type">
 <span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">A.4.1</span><span class="space"> </span><span class="title">Working with squares and square roots</span>
 </h3>
 <div class="para" id="subsec-algrev-sqroots-2">Two functions of interest to us in geometry are the squaring function <span class="process-math">\(f(x)=x^2\)</span> and the square root function <span class="process-math">\(g(x)=\sqrt(x)\text{.}\)</span>
 </div>
 <article class="definition definition-like" id="def-sqrt"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">A.4.27</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">A.4.29</span><span class="period">.</span>
 </h4> <div class="para" id="def-sqrt-3-1">The <dfn class="terminology">square</dfn> of a number <span class="process-math">\(x\)</span> is the number <span class="process-math">\(x^2=x\cdot x\text{.}\)</span> Note that the number <span class="process-math">\(x\)</span> may be negative, positive, or 0, but the square, <span class="process-math">\(x^2\)</span> is always greater than or equal to 0.</div> <div class="para" id="def-sqrt-3-2">The <dfn class="terminology">square root</dfn> of a number <span class="process-math">\(x\)</span> is the nonnegative number <span class="process-math">\(r\)</span> such that <span class="process-math">\(r^2=x\text{.}\)</span> We use the notation <span class="process-math">\(\sqrt{x}\)</span> to represent the square root of <span class="process-math">\(x\text{.}\)</span>
 </div></article><article class="example example-like" id="example-algrev-sq-sqrt"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.28</span><span class="period">.</span><span class="space"> </span><span class="title">Computing Squares and Square Roots.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.30</span><span class="period">.</span><span class="space"> </span><span class="title">Computing Squares and Square Roots.</span>
 </h4>
 <div class="para logical" id="example-algrev-sq-sqrt-2-1">
 <div class="para">Compute the following using the definitions of square and square root. A calculator should not be necessary.</div>
-<ol class="decimal">
+<ol class="decimal" id="example-algrev-sq-sqrt-2-1-1">
 <li id="example-algrev-sq-sqrt-2-1-1-1"><div class="para" id="p-derived-example-algrev-sq-sqrt-2-1-1-1"><span class="process-math">\(\displaystyle 5^2\)</span></div></li>
 <li id="example-algrev-sq-sqrt-2-1-1-2"><div class="para" id="p-derived-example-algrev-sq-sqrt-2-1-1-2"><span class="process-math">\(\displaystyle \sqrt{400}\)</span></div></li>
 <li id="example-algrev-sq-sqrt-2-1-1-3"><div class="para" id="p-derived-example-algrev-sq-sqrt-2-1-1-3"><span class="process-math">\(\displaystyle (\sqrt{400})^2\)</span></div></li>
@@ -450,22 +767,22 @@ window.MathJax = {
 </ol>
 </div>
 <div class="solutions"><details id="example-algrev-sq-sqrt-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="example-algrev-sq-sqrt-3-1">a) <span class="process-math">\(25\text{,}\)</span> b) <span class="process-math">\(20\text{,}\)</span> c) <span class="process-math">\(400\text{,}\)</span> d) <span class="process-math">\(5\)</span>
-</div></div></details></div></article><div class="para" id="subsec-algrev-sqroots-5">In <a href="subsec-Functions.html#example-algrev-sq-sqrt" class="xref" data-knowl="./knowl/xref/example-algrev-sq-sqrt.html" data-reveal-label="Reveal" data-close-label="Close" title="Example A.4.28: Computing Squares and Square Roots">Example A.4.28</a>, we observe how the actions of squaring and taking the square root undo each other. The square of <span class="process-math">\(5\)</span> is <span class="process-math">\(25\)</span> and the square root of <span class="process-math">\(25\)</span> is <span class="process-math">\(5\text{.}\)</span> Similarly, the square root of <span class="process-math">\(400\)</span> is <span class="process-math">\(20\)</span> and the square of <span class="process-math">\(20\)</span> is <span class="process-math">\(400\text{.}\)</span> Thus, when we perform a square and a square root in succession, the two actions cancel each other out. For this reason, the squaring function and the square root function are said to be <dfn class="terminology">inverse operations</dfn> on the set of nonnegative numbers<details class="ptx-footnote" aria-live="polite" id="subsec-algrev-sqroots-5-11"><summary class="ptx-footnote__number" title="Footnote A.4.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="subsec-algrev-sqroots-5-11">A number <span class="process-math">\(x\)</span> is said to be <dfn class="terminology">nonnegative</dfn> if <span class="process-math">\(x\ge 0\text{.}\)</span>
+</div></div></details></div></article><div class="para" id="subsec-algrev-sqroots-5">In <a href="subsec-Functions.html#example-algrev-sq-sqrt" class="xref" data-knowl="./knowl/xref/example-algrev-sq-sqrt.html" data-reveal-label="Reveal" data-close-label="Close" title="Example A.4.30: Computing Squares and Square Roots">Example A.4.30</a>, we observe how the actions of squaring and taking the square root undo each other. The square of <span class="process-math">\(5\)</span> is <span class="process-math">\(25\)</span> and the square root of <span class="process-math">\(25\)</span> is <span class="process-math">\(5\text{.}\)</span> Similarly, the square root of <span class="process-math">\(400\)</span> is <span class="process-math">\(20\)</span> and the square of <span class="process-math">\(20\)</span> is <span class="process-math">\(400\text{.}\)</span> Thus, when we perform a square and a square root in succession, the two actions cancel each other out. For this reason, the squaring function and the square root function are said to be <dfn class="terminology">inverse operations</dfn> on the set of nonnegative numbers<details class="ptx-footnote" aria-live="polite" id="subsec-algrev-sqroots-5-11"><summary class="ptx-footnote__number" title="Footnote A.4.6"><sup> 6 </sup></summary><div class="ptx-footnote__contents" id="subsec-algrev-sqroots-5-11">A number <span class="process-math">\(x\)</span> is said to be <dfn class="terminology">nonnegative</dfn> if <span class="process-math">\(x\ge 0\text{.}\)</span>
 </div></details>. Since geometric measurements are nonnegative, we may use the square root function to undo the squaring function and vice versa. Thus, whenever you would like to undo the squaring function in an equation such as in the above example, we will take the square root of both sides.</div>
 <article class="principle theorem-like" id="principle-invpropofsqrt"><h4 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.4.29</span><span class="period">.</span><span class="space"> </span><span class="title">Inverse Property of Squares and Square Roots.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.4.31</span><span class="period">.</span><span class="space"> </span><span class="title">Inverse Property of Squares and Square Roots.</span>
 </h4>
 <div class="para" id="principle-invpropofsqrt-2-1">Let <span class="process-math">\(x\)</span> be a nonnegative real number. Then <span class="process-math">\(\sqrt{x^2}=x\)</span> and <span class="process-math">\((\sqrt{x})^2=x\text{.}\)</span>
 </div></article><div class="para" id="subsec-algrev-sqroots-7">Using the <a href="sec-polygons-length.html#thm-Pythagorean" class="xref" data-knowl="./knowl/xref/thm-Pythagorean.html" data-reveal-label="Reveal" data-close-label="Close" title="Theorem 2.5.2: Pythagorean Theorem">Pythagorean Theorem 2.5.2</a> to find lengths will require squaring and taking square roots of numbers. The equation <span class="process-math">\(a^2+b^2=c^2\)</span>in the Pythagorean Theorem can be written equivalently as <span class="process-math">\(\sqrt{a^2 + b^2}=\sqrt{c^2}\)</span> or <span class="process-math">\(\sqrt{a^2 + b^2}=c\text{.}\)</span> Note the use of the inverse action: <span class="process-math">\(\sqrt{c^2}=c\text{.}\)</span> In fact, the squaring function also undoes the square root function: <span class="process-math">\((\sqrt{c})^2=\sqrt{c}\times\sqrt{c}=c\text{.}\)</span> This is what we mean by a pair of inverse functions; applying them one right after the other (in either order) cancels their action. On the other hand, we need to be careful in applying an inverse operation. The square root of <span class="process-math">\(a^2+b^2\)</span> is not equal to <span class="process-math">\(a+b\)</span> because the square of <span class="process-math">\(a+b\)</span> is not <span class="process-math">\(a^2+b^2\text{.}\)</span> Instead, the square of <span class="process-math">\(a+b\)</span> is <span class="process-math">\((a+b)^2=a^2+2ab+b^2\)</span> so that <span class="process-math">\(\sqrt{a^2+2ab+b^2}=\sqrt{(a+b)^2}=a+b\text{.}\)</span>
 </div>
 <article class="example example-like" id="examp-algrev-triangleleg"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.30</span><span class="period">.</span><span class="space"> </span><span class="title">Finding the Length of a Leg of a Right Triangle.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.32</span><span class="period">.</span><span class="space"> </span><span class="title">Finding the Length of a Leg of a Right Triangle.</span>
 </h4>
 <div class="para" id="examp-algrev-triangleleg-2-1">The length of the hypotenuse is 16 inches and the length of one leg is 10 inches. Determine the length of the other leg.</div>
 <div class="solutions"><details id="examp-algrev-triangleleg-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="examp-algrev-triangleleg-3-1">By the Pythagorean Theorem, we know <span class="process-math">\(10^2+b^2=16^2\)</span> or <span class="process-math">\(100+b^2=256\text{.}\)</span> Subtracting <span class="process-math">\(100\)</span> from both sides of the equation, we get <span class="process-math">\(b^2=156\text{.}\)</span> Taking the square root of both sides of the equation, we see <span class="process-math">\(b=\sqrt{156}\approx 12.49.\)</span>
 </div></div></details></div></article><div class="para" id="subsec-algrev-sqroots-9">Our examples demonstrate that <span class="process-math">\(\sqrt{x+y}\neq\sqrt{x}+\sqrt{y}\text{,}\)</span> but what if the operation is multiplication or division? In this situation, the expression can be simplified.</div>
 <article class="principle theorem-like" id="principle-exp-rt-product"><h4 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.4.31</span><span class="period">.</span><span class="space"> </span><span class="title">Exponents and Roots of Products and Quotients.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.4.33</span><span class="period">.</span><span class="space"> </span><span class="title">Exponents and Roots of Products and Quotients.</span>
 </h4>
 <div class="para" id="principle-exp-rt-product-2-1">Let <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> be nonnegative real numbers. Then <span class="process-math">\((xy)^2=x^2\cdot y^2\)</span> and <span class="process-math">\(\sqrt{xy}=\sqrt{x}\sqrt{y}.\)</span> If <span class="process-math">\(y&gt;0\text{,}\)</span> then <span class="process-math">\((\frac{x}{y})^2=\frac{x^2}{y^2}\)</span> and <span class="process-math">\(\sqrt{\frac{x}{y}}=\frac{\sqrt{x}}{\sqrt{y}}\text{.}\)</span>
 </div> <div class="para" id="principle-exp-rt-product-2-2">Moreover, if <span class="process-math">\(n\)</span> is any nonnegative integer, we can say that <span class="process-math">\((xy)^n=x^n\cdot y^n\)</span> and <span class="process-math">\(\sqrt[n]{xy}=\sqrt[n]{x}\sqrt[n]{y}\text{.}\)</span> Also <span class="process-math">\((\frac{x}{y})^n=\frac{x^n}{y^n}\)</span> and <span class="process-math">\(\sqrt[n]{\frac{x}{y}}=\frac{\sqrt[n]{x}}{\sqrt[n]{y}}\)</span> when <span class="process-math">\(y&gt;0\text{.}\)</span>
@@ -473,29 +790,29 @@ window.MathJax = {
 <span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">A.4.2</span><span class="space"> </span><span class="title">Other Pairs of Inverse Functions</span>
 </h3>
 <div class="para" id="subsec-Functions-4-2">The square and square root functions are not the only pair of functions that ‘undo’ each other. Some pairs that you may be more familiar with include adding <span class="process-math">\(4\)</span> and subtracting <span class="process-math">\(4\)</span> and the two function, dividing by <span class="process-math">\(10\)</span> and multiplying by <span class="process-math">\(10\text{.}\)</span> Note how the two functions in each pair undo each other and recall how you have used them to solve equations.</div>
-<div class="para" id="subsec-Functions-4-3">Extending the equality principles, <a href="equality-properties.html#principle-addition-equality" class="xref" data-knowl="./knowl/xref/principle-addition-equality.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle A.3.18: Addition Principle of Equality">Addition Principle of Equality</a> and <a href="equality-properties.html#principle-multiplication-equality" class="xref" data-knowl="./knowl/xref/principle-multiplication-equality.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle A.3.19: Multiplication Principle of Equality">Multiplication Principle of Equality</a>, we often use the method of performing the same operation to both sides of an equation. Typically, the chosen operation is the inverse of an operation that appears in the equation.</div>
+<div class="para" id="subsec-Functions-4-3">Extending the equality principles, <a href="equality-properties.html#principle-addition-equality" class="xref" data-knowl="./knowl/xref/principle-addition-equality.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle A.3.20: Addition Principle of Equality">Addition Principle of Equality</a> and <a href="equality-properties.html#principle-multiplication-equality" class="xref" data-knowl="./knowl/xref/principle-multiplication-equality.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle A.3.21: Multiplication Principle of Equality">Multiplication Principle of Equality</a>, we often use the method of performing the same operation to both sides of an equation. Typically, the chosen operation is the inverse of an operation that appears in the equation.</div>
 <div class="para" id="subsec-Functions-4-4">When working in three dimensional geometry, we will need to compute the cube of a number <span class="process-math">\(s\)</span> which we can write as <span class="process-math">\(s^3\)</span> or <span class="process-math">\(s\times s\times s\text{.}\)</span> The cubing function and cube root function are also inverses of each other.</div>
 <article class="example example-like" id="example-inverse-solve-equation"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.32</span><span class="period">.</span><span class="space"> </span><span class="title">Using Inverses to Solve an Equation.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.34</span><span class="period">.</span><span class="space"> </span><span class="title">Using Inverses to Solve an Equation.</span>
 </h4>
 <div class="para" id="example-inverse-solve-equation-2-1">Solve the equation <span class="process-math">\(5x^3-4=316\text{.}\)</span>
 </div>
 <div class="solutions"><details id="example-inverse-solve-equation-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="example-inverse-solve-equation-3-1">Adding <span class="process-math">\(4\)</span> to both sides of <span class="process-math">\(5x^3-4=316\)</span> gives us <span class="process-math">\(5x^3=320\text{.}\)</span> Next we divide the expressions on both sides by <span class="process-math">\(5\text{,}\)</span> resulting in <span class="process-math">\(x^3=64\text{.}\)</span> Finally, we take the cube root of both sides, leaving us with <span class="process-math">\(x=4\text{.}\)</span> Checking our answer, we verify that <span class="process-math">\(5(4^3)-4=5(64)-4=320-4=316\)</span> as desired.</div></div></details></div></article></section><section class="subsubsection" id="subsec-Functions-5"><h3 class="heading hide-type">
 <span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">A.4.3</span><span class="space"> </span><span class="title">Order of Operations</span>
 </h3>
-<div class="para" id="subsec-Functions-5-2">In <a href="subsec-Functions.html#example-inverse-solve-equation" class="xref" data-knowl="./knowl/xref/example-inverse-solve-equation.html" data-reveal-label="Reveal" data-close-label="Close" title="Example A.4.32: Using Inverses to Solve an Equation">Example A.4.32</a>, you may have wondered whether it was better to add four first or divide by five. Would it even make a difference?</div>
-<div class="para" id="subsec-Functions-5-3">Because of the way that operations are built on each other<details class="ptx-footnote" aria-live="polite" id="subsec-Functions-5-3-1"><summary class="ptx-footnote__number" title="Footnote A.4.5"><sup> 5 </sup></summary><div class="ptx-footnote__contents" id="subsec-Functions-5-3-1">Multiplication is repeated addition, and exponentiation is repeated multiplication.</div></details>, the order of performing algebraic operations is prescribed. When performing computations, we perform exponentiation before multiplication and division and we perform multiplication and division before addition and subtraction. We also perform computations from left to right. Parentheses or other grouping symbols, such as a fraction bar<details class="ptx-footnote" aria-live="polite" id="subsec-Functions-5-3-2"><summary class="ptx-footnote__number" title="Footnote A.4.6"><sup> 6 </sup></summary><div class="ptx-footnote__contents" id="subsec-Functions-5-3-2">We can also use placement and size of type, like <span class="process-math">\(5^{1+3}\)</span> or <span class="process-math">\(5x\text{.}\)</span>
+<div class="para" id="subsec-Functions-5-2">In <a href="subsec-Functions.html#example-inverse-solve-equation" class="xref" data-knowl="./knowl/xref/example-inverse-solve-equation.html" data-reveal-label="Reveal" data-close-label="Close" title="Example A.4.34: Using Inverses to Solve an Equation">Example A.4.34</a>, you may have wondered whether it was better to add four first or divide by five. Would it even make a difference?</div>
+<div class="para" id="subsec-Functions-5-3">Because of the way that operations are built on each other<details class="ptx-footnote" aria-live="polite" id="subsec-Functions-5-3-1"><summary class="ptx-footnote__number" title="Footnote A.4.7"><sup> 7 </sup></summary><div class="ptx-footnote__contents" id="subsec-Functions-5-3-1">Multiplication is repeated addition, and exponentiation is repeated multiplication.</div></details>, the order of performing algebraic operations is prescribed. When performing computations, we perform exponentiation before multiplication and division and we perform multiplication and division before addition and subtraction. We also perform computations from left to right. Parentheses or other grouping symbols, such as a fraction bar<details class="ptx-footnote" aria-live="polite" id="subsec-Functions-5-3-2"><summary class="ptx-footnote__number" title="Footnote A.4.8"><sup> 8 </sup></summary><div class="ptx-footnote__contents" id="subsec-Functions-5-3-2">We can also use placement and size of type, like <span class="process-math">\(5^{1+3}\)</span> or <span class="process-math">\(5x\text{.}\)</span>
 </div></details>, are used when we want to treat a numerical expression as a single quantity. Thus, we start with the innermost parentheses and work our way out.</div>
 <div class="para" id="subsec-Functions-5-4">When there are variables in an expression, we may not be able to perform operations in the standard order. Without a specified value, we cannot add a number like <span class="process-math">\(5\)</span> to an expression like <span class="process-math">\(x\text{.}\)</span> Instead, we use the distributive law and concept of like terms to simplify our expression.</div>
-<div class="para" id="subsec-Functions-5-5">As equations become more complex, there is no specific order in which to perform inverse operations. If one or both sides can be simplified, that is often a good first or intermediate step. Undoing operations is typically done in the reverse order, just as we need to unpeel layers of clothing in the evening, each item being removed in the opposite order in which it was put on. Our goal in a linear equation is to get down to a single appearance of the variable and to isolate that variable, as in <span class="process-math">\(x=\text{.}\)</span> In polynomial equations, we usually aim to manipulate the expression until all variables and nonzero numbers are on one side of the equation so that we can factor the expression and apply <a href="equality-properties.html#principle-zero-product" class="xref" data-knowl="./knowl/xref/principle-zero-product.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle A.3.23: Zero Product Property">Zero Product Property</a> to find all solutions.</div>
+<div class="para" id="subsec-Functions-5-5">As equations become more complex, there is no specific order in which to perform inverse operations. If one or both sides can be simplified, that is often a good first or intermediate step. Undoing operations is typically done in the reverse order, just as we need to unpeel layers of clothing in the evening, each item being removed in the opposite order in which it was put on. Our goal in a linear equation is to get down to a single appearance of the variable and to isolate that variable, as in <span class="process-math">\(x=\text{.}\)</span> In polynomial equations, we usually aim to manipulate the expression until all variables and nonzero numbers are on one side of the equation so that we can factor the expression and apply <a href="equality-properties.html#principle-zero-product" class="xref" data-knowl="./knowl/xref/principle-zero-product.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle A.3.25: Zero Product Property">Zero Product Property</a> to find all solutions.</div>
 <article class="example example-like" id="subsec-Functions-5-6"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.33</span><span class="period">.</span><span class="space"> </span><span class="title">Solving Equations with Order of Operations.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.4.35</span><span class="period">.</span><span class="space"> </span><span class="title">Solving Equations with Order of Operations.</span>
 </h4>
 <div class="para" id="subsec-Functions-5-6-2-1">Solve the equation, <span class="process-math">\(5(x-3)+8=58\text{.}\)</span>
 </div>
 <div class="solutions"><details id="subsec-Functions-5-6-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para" id="subsec-Functions-5-6-3-1">We will demonstrate several methods. To emphasize how order of operations are reversed when undoing operations, we note that adding 8 would be last in a computation. Thus our first step is to subtract 8 (or add <span class="process-math">\(-8\)</span>) to both sides of our equation, resulting in <span class="process-math">\(5(x-3)=50\text{.}\)</span> Next we, divide both sides by <span class="process-math">\(5\text{,}\)</span> leaving <span class="process-math">\(x-3=10\text{.}\)</span> Finally, we add <span class="process-math">\(3\)</span> to get <span class="process-math">\(x=13\text{.}\)</span>
-</div> <div class="para" id="subsec-Functions-5-6-3-2">Note that if we start by dividing by 5, <a href="field-properties.html#principle-distributive" class="xref" data-knowl="./knowl/xref/principle-distributive.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle A.2.14: The Distributive Law">Principle A.2.14</a> tells us that we must also divide 8 by 5. The resulting equation, <span class="process-math">\(x-3+\frac{8}{5}=\frac{58}{5}\)</span> or <span class="process-math">\(x-3+1.6=11.6\text{,}\)</span> is correct but more difficult to solve.</div> <div class="para" id="subsec-Functions-5-6-3-3">Finally, we could solve this equation by first simplifying the left side. Our expression <span class="process-math">\(5(x-3)+8=5x-15+8=5x-7.\)</span> Replacing the original left side by this simplified version gives <span class="process-math">\(5x-7=58\text{.}\)</span> Adding <span class="process-math">\(7\)</span> to both sides gives <span class="process-math">\(5x=65\)</span> and dividing by 5 gives <span class="process-math">\(x=13\text{.}\)</span>
+</div> <div class="para" id="subsec-Functions-5-6-3-2">Note that if we start by dividing by 5, <a href="field-properties.html#principle-distributive" class="xref" data-knowl="./knowl/xref/principle-distributive.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle A.2.16: The Distributive Law">Principle A.2.16</a> tells us that we must also divide 8 by 5. The resulting equation, <span class="process-math">\(x-3+\frac{8}{5}=\frac{58}{5}\)</span> or <span class="process-math">\(x-3+1.6=11.6\text{,}\)</span> is correct but more difficult to solve.</div> <div class="para" id="subsec-Functions-5-6-3-3">Finally, we could solve this equation by first simplifying the left side. Our expression <span class="process-math">\(5(x-3)+8=5x-15+8=5x-7.\)</span> Replacing the original left side by this simplified version gives <span class="process-math">\(5x-7=58\text{.}\)</span> Adding <span class="process-math">\(7\)</span> to both sides gives <span class="process-math">\(5x=65\)</span> and dividing by 5 gives <span class="process-math">\(x=13\text{.}\)</span>
 </div>
 </div></details></div></article></section></section></div>
 <div class="ptx-content-footer">

@@ -88,6 +88,311 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-intro-explore-3-3-3-1-3-1 { counter-set: sec-intro-explore-3-3-3-1-3-1 0; }
+#sec-intro-explore-3-3-3-1-3-1 > li::marker { content: ""counter(sec-intro-explore-3-3-3-1-3-1,decimal)"."; }
+#sec-intro-explore-3-3-3-1-3-1 > li { counter-increment: sec-intro-explore-3-3-3-1-3-1; }
+#sec-intro-explore-3-3-4-1-1-1 { counter-set: sec-intro-explore-3-3-4-1-1-1 0; }
+#sec-intro-explore-3-3-4-1-1-1 > li::marker { content: ""counter(sec-intro-explore-3-3-4-1-1-1,decimal)"."; }
+#sec-intro-explore-3-3-4-1-1-1 > li { counter-increment: sec-intro-explore-3-3-4-1-1-1; }
+#SAR-intro-exp-8-1-1-1 { counter-set: SAR-intro-exp-8-1-1-1 0; }
+#SAR-intro-exp-8-1-1-1 > li::marker { content: "("counter(SAR-intro-exp-8-1-1-1,lower-alpha)")"; }
+#SAR-intro-exp-8-1-1-1 > li { counter-increment: SAR-intro-exp-8-1-1-1; }
+#SAR-intro-exp-areamodel-2-1-2 { counter-set: SAR-intro-exp-areamodel-2-1-2 0; }
+#SAR-intro-exp-areamodel-2-1-2 > li::marker { content: "("counter(SAR-intro-exp-areamodel-2-1-2,lower-alpha)")"; }
+#SAR-intro-exp-areamodel-2-1-2 > li { counter-increment: SAR-intro-exp-areamodel-2-1-2; }
+#intro-apply-explore-tangram-3-1-1-1 { counter-set: intro-apply-explore-tangram-3-1-1-1 0; }
+#intro-apply-explore-tangram-3-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-3-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-3-1-1-1 > li { counter-increment: intro-apply-explore-tangram-3-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-5-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-5-1-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1-7-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li::marker { content: "("counter(intro-apply-explore-tangram-5-1-1-1-7-1-1,lower-alpha)")"; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1-7-1-1; }
+#SAR-intro-apply-3-1-1-1 { counter-set: SAR-intro-apply-3-1-1-1 0; }
+#SAR-intro-apply-3-1-1-1 > li::marker { content: "("counter(SAR-intro-apply-3-1-1-1,lower-alpha)")"; }
+#SAR-intro-apply-3-1-1-1 > li { counter-increment: SAR-intro-apply-3-1-1-1; }
+#label-altitude-etc-1-1-5 { counter-set: label-altitude-etc-1-1-5 0; }
+#label-altitude-etc-1-1-5 > li::marker { content: "("counter(label-altitude-etc-1-1-5,lower-alpha)")"; }
+#label-altitude-etc-1-1-5 > li { counter-increment: label-altitude-etc-1-1-5; }
+#SAR-intro-apply-Tangramareas-1-1-2 { counter-set: SAR-intro-apply-Tangramareas-1-1-2 0; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li::marker { content: "("counter(SAR-intro-apply-Tangramareas-1-1-2,lower-alpha)")"; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li { counter-increment: SAR-intro-apply-Tangramareas-1-1-2; }
+#ExtConc-intro-apply-4-1-1-1 { counter-set: ExtConc-intro-apply-4-1-1-1 0; }
+#ExtConc-intro-apply-4-1-1-1 > li::marker { content: "("counter(ExtConc-intro-apply-4-1-1-1,lower-alpha)")"; }
+#ExtConc-intro-apply-4-1-1-1 > li { counter-increment: ExtConc-intro-apply-4-1-1-1; }
+#sum-odds-1-1-1-1 { counter-set: sum-odds-1-1-1-1 0; }
+#sum-odds-1-1-1-1 > li::marker { content: ""counter(sum-odds-1-1-1-1,decimal)"."; }
+#sum-odds-1-1-1-1 > li { counter-increment: sum-odds-1-1-1-1; }
+#sum-odds-2-1-1-1 { counter-set: sum-odds-2-1-1-1 0; }
+#sum-odds-2-1-1-1 > li::marker { content: ""counter(sum-odds-2-1-1-1,decimal)"."; }
+#sum-odds-2-1-1-1 > li { counter-increment: sum-odds-2-1-1-1; }
+#subsec-explainconjectures-7-2-1-3 { counter-set: subsec-explainconjectures-7-2-1-3 0; }
+#subsec-explainconjectures-7-2-1-3 > li::marker { content: ""counter(subsec-explainconjectures-7-2-1-3,decimal)"."; }
+#subsec-explainconjectures-7-2-1-3 > li { counter-increment: subsec-explainconjectures-7-2-1-3; }
+#subsec-explainconjectures-7-3-1-1-2 { counter-set: subsec-explainconjectures-7-3-1-1-2 0; }
+#subsec-explainconjectures-7-3-1-1-2 > li::marker { content: ""counter(subsec-explainconjectures-7-3-1-1-2,decimal)"."; }
+#subsec-explainconjectures-7-3-1-1-2 > li { counter-increment: subsec-explainconjectures-7-3-1-1-2; }
+#subsec-explainconjectures-7-4-1-2-2 { counter-set: subsec-explainconjectures-7-4-1-2-2 0; }
+#subsec-explainconjectures-7-4-1-2-2 > li::marker { content: ""counter(subsec-explainconjectures-7-4-1-2-2,decimal)"."; }
+#subsec-explainconjectures-7-4-1-2-2 > li { counter-increment: subsec-explainconjectures-7-4-1-2-2; }
+#exer-tri-numbers-2-3-1 { counter-set: exer-tri-numbers-2-3-1 0; }
+#exer-tri-numbers-2-3-1 > li::marker { content: "("counter(exer-tri-numbers-2-3-1,lower-alpha)")"; }
+#exer-tri-numbers-2-3-1 > li { counter-increment: exer-tri-numbers-2-3-1; }
+#exer-tri-numbers-2-3-1-4-1-5 { counter-set: exer-tri-numbers-2-3-1-4-1-5 0; }
+#exer-tri-numbers-2-3-1-4-1-5 > li::marker { content: ""counter(exer-tri-numbers-2-3-1-4-1-5,lower-roman)"."; }
+#exer-tri-numbers-2-3-1-4-1-5 > li { counter-increment: exer-tri-numbers-2-3-1-4-1-5; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-3-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-3-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-3-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-3-1-3-1; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-4-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-4-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-4-1-3-1; }
+#SAR-intro-struggle-squarert-1-1-1 { counter-set: SAR-intro-struggle-squarert-1-1-1 0; }
+#SAR-intro-struggle-squarert-1-1-1 > li::marker { content: "("counter(SAR-intro-struggle-squarert-1-1-1,lower-alpha)")"; }
+#SAR-intro-struggle-squarert-1-1-1 > li { counter-increment: SAR-intro-struggle-squarert-1-1-1; }
+#ExtConc-intro-struggle-2-2-1-2 { counter-set: ExtConc-intro-struggle-2-2-1-2 0; }
+#ExtConc-intro-struggle-2-2-1-2 > li::marker { content: "("counter(ExtConc-intro-struggle-2-2-1-2,lower-alpha)")"; }
+#ExtConc-intro-struggle-2-2-1-2 > li { counter-increment: ExtConc-intro-struggle-2-2-1-2; }
+#parallelogramtypes-1-1-1 { counter-set: parallelogramtypes-1-1-1 0; }
+#parallelogramtypes-1-1-1 > li::marker { content: ""counter(parallelogramtypes-1-1-1,decimal)"."; }
+#parallelogramtypes-1-1-1 > li { counter-increment: parallelogramtypes-1-1-1; }
+#subsec-area-tri-2-3-1-1-1 { counter-set: subsec-area-tri-2-3-1-1-1 0; }
+#subsec-area-tri-2-3-1-1-1 > li::marker { content: ""counter(subsec-area-tri-2-3-1-1-1,decimal)"."; }
+#subsec-area-tri-2-3-1-1-1 > li { counter-increment: subsec-area-tri-2-3-1-1-1; }
+#subsec-irregular-area-4-5-1-1-1 { counter-set: subsec-irregular-area-4-5-1-1-1 0; }
+#subsec-irregular-area-4-5-1-1-1 > li::marker { content: ""counter(subsec-irregular-area-4-5-1-1-1,decimal)"."; }
+#subsec-irregular-area-4-5-1-1-1 > li { counter-increment: subsec-irregular-area-4-5-1-1-1; }
+#HW-compute-area-1-1-1 { counter-set: HW-compute-area-1-1-1 0; }
+#HW-compute-area-1-1-1 > li::marker { content: "("counter(HW-compute-area-1-1-1,lower-alpha)")"; }
+#HW-compute-area-1-1-1 > li { counter-increment: HW-compute-area-1-1-1; }
+#SAR-polygons-area-3-1-1-3 { counter-set: SAR-polygons-area-3-1-1-3 0; }
+#SAR-polygons-area-3-1-1-3 > li::marker { content: "("counter(SAR-polygons-area-3-1-1-3,lower-alpha)")"; }
+#SAR-polygons-area-3-1-1-3 > li { counter-increment: SAR-polygons-area-3-1-1-3; }
+#SAR-polygons-area-4-1-1-1 { counter-set: SAR-polygons-area-4-1-1-1 0; }
+#SAR-polygons-area-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-area-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-area-4-1-1-1 > li { counter-increment: SAR-polygons-area-4-1-1-1; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-2-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-2-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-2-1-1; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-3-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-3-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-3-1-1; }
+#expl-angsum-triangle-3-1-1-4 { counter-set: expl-angsum-triangle-3-1-1-4 0; }
+#expl-angsum-triangle-3-1-1-4 > li::marker { content: ""counter(expl-angsum-triangle-3-1-1-4,decimal)"."; }
+#expl-angsum-triangle-3-1-1-4 > li { counter-increment: expl-angsum-triangle-3-1-1-4; }
+#HW-SAR-angles-linepoints-1-1-2 { counter-set: HW-SAR-angles-linepoints-1-1-2 0; }
+#HW-SAR-angles-linepoints-1-1-2 > li::marker { content: "("counter(HW-SAR-angles-linepoints-1-1-2,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-1-1-2 > li { counter-increment: HW-SAR-angles-linepoints-1-1-2; }
+#HW-SAR-angles-linepoints-2-1-1 { counter-set: HW-SAR-angles-linepoints-2-1-1 0; }
+#HW-SAR-angles-linepoints-2-1-1 > li::marker { content: "("counter(HW-SAR-angles-linepoints-2-1-1,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-2-1-1 > li { counter-increment: HW-SAR-angles-linepoints-2-1-1; }
+#HW-SAR-linepart-type-1-1-2 { counter-set: HW-SAR-linepart-type-1-1-2 0; }
+#HW-SAR-linepart-type-1-1-2 > li::marker { content: "("counter(HW-SAR-linepart-type-1-1-2,lower-alpha)")"; }
+#HW-SAR-linepart-type-1-1-2 > li { counter-increment: HW-SAR-linepart-type-1-1-2; }
+#HW-SAR-linepart-type-2-1-1 { counter-set: HW-SAR-linepart-type-2-1-1 0; }
+#HW-SAR-linepart-type-2-1-1 > li::marker { content: "("counter(HW-SAR-linepart-type-2-1-1,lower-alpha)")"; }
+#HW-SAR-linepart-type-2-1-1 > li { counter-increment: HW-SAR-linepart-type-2-1-1; }
+#exer-SAR-missingangles-1-1-3 { counter-set: exer-SAR-missingangles-1-1-3 0; }
+#exer-SAR-missingangles-1-1-3 > li::marker { content: "("counter(exer-SAR-missingangles-1-1-3,lower-alpha)")"; }
+#exer-SAR-missingangles-1-1-3 > li { counter-increment: exer-SAR-missingangles-1-1-3; }
+#exer-SAR-missingangles-2-1-1 { counter-set: exer-SAR-missingangles-2-1-1 0; }
+#exer-SAR-missingangles-2-1-1 > li::marker { content: "("counter(exer-SAR-missingangles-2-1-1,lower-alpha)")"; }
+#exer-SAR-missingangles-2-1-1 > li { counter-increment: exer-SAR-missingangles-2-1-1; }
+#ExtConc-polygons-angles-3-1-3-4 { counter-set: ExtConc-polygons-angles-3-1-3-4 0; }
+#ExtConc-polygons-angles-3-1-3-4 > li::marker { content: "("counter(ExtConc-polygons-angles-3-1-3-4,lower-alpha)")"; }
+#ExtConc-polygons-angles-3-1-3-4 > li { counter-increment: ExtConc-polygons-angles-3-1-3-4; }
+#subsec-review-lines-2-3-1-1-1 { counter-set: subsec-review-lines-2-3-1-1-1 0; }
+#subsec-review-lines-2-3-1-1-1 > li::marker { content: ""counter(subsec-review-lines-2-3-1-1-1,decimal)"."; }
+#subsec-review-lines-2-3-1-1-1 > li { counter-increment: subsec-review-lines-2-3-1-1-1; }
+#parallel-explor-lines-sphere-4-1-1-2 { counter-set: parallel-explor-lines-sphere-4-1-1-2 0; }
+#parallel-explor-lines-sphere-4-1-1-2 > li::marker { content: ""counter(parallel-explor-lines-sphere-4-1-1-2,decimal)"."; }
+#parallel-explor-lines-sphere-4-1-1-2 > li { counter-increment: parallel-explor-lines-sphere-4-1-1-2; }
+#parallel-explor-spherical-triangles-6-1-2-1 { counter-set: parallel-explor-spherical-triangles-6-1-2-1 0; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li::marker { content: ""counter(parallel-explor-spherical-triangles-6-1-2-1,decimal)"."; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li { counter-increment: parallel-explor-spherical-triangles-6-1-2-1; }
+#subsec-understanding-parallel-8-2-1-2 { counter-set: subsec-understanding-parallel-8-2-1-2 0; }
+#subsec-understanding-parallel-8-2-1-2 > li::marker { content: ""counter(subsec-understanding-parallel-8-2-1-2,decimal)"."; }
+#subsec-understanding-parallel-8-2-1-2 > li { counter-increment: subsec-understanding-parallel-8-2-1-2; }
+#subsec-understanding-parallel-10-2-1-3-1 { counter-set: subsec-understanding-parallel-10-2-1-3-1 0; }
+#subsec-understanding-parallel-10-2-1-3-1 > li::marker { content: ""counter(subsec-understanding-parallel-10-2-1-3-1,decimal)"."; }
+#subsec-understanding-parallel-10-2-1-3-1 > li { counter-increment: subsec-understanding-parallel-10-2-1-3-1; }
+#subsec-understanding-parallel-10-3-1-1-3 { counter-set: subsec-understanding-parallel-10-3-1-1-3 0; }
+#subsec-understanding-parallel-10-3-1-1-3 > li::marker { content: ""counter(subsec-understanding-parallel-10-3-1-1-3,decimal)"."; }
+#subsec-understanding-parallel-10-3-1-1-3 > li { counter-increment: subsec-understanding-parallel-10-3-1-1-3; }
+#SAR-polygons-parallel-2-1-1-4 { counter-set: SAR-polygons-parallel-2-1-1-4 0; }
+#SAR-polygons-parallel-2-1-1-4 > li::marker { content: "("counter(SAR-polygons-parallel-2-1-1-4,lower-alpha)")"; }
+#SAR-polygons-parallel-2-1-1-4 > li { counter-increment: SAR-polygons-parallel-2-1-1-4; }
+#SAR-polygons-parallel-3-1-1-2 { counter-set: SAR-polygons-parallel-3-1-1-2 0; }
+#SAR-polygons-parallel-3-1-1-2 > li::marker { content: "("counter(SAR-polygons-parallel-3-1-1-2,lower-alpha)")"; }
+#SAR-polygons-parallel-3-1-1-2 > li { counter-increment: SAR-polygons-parallel-3-1-1-2; }
+#exer-transv-angle-measures-1-2-1 { counter-set: exer-transv-angle-measures-1-2-1 0; }
+#exer-transv-angle-measures-1-2-1 > li::marker { content: "("counter(exer-transv-angle-measures-1-2-1,lower-alpha)")"; }
+#exer-transv-angle-measures-1-2-1 > li { counter-increment: exer-transv-angle-measures-1-2-1; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2; }
+#explor-reg-tilings-5-1-3-1 { counter-set: explor-reg-tilings-5-1-3-1 0; }
+#explor-reg-tilings-5-1-3-1 > li::marker { content: ""counter(explor-reg-tilings-5-1-3-1,decimal)"."; }
+#explor-reg-tilings-5-1-3-1 > li { counter-increment: explor-reg-tilings-5-1-3-1; }
+#explor-reg-tilings-7-1-1-1 { counter-set: explor-reg-tilings-7-1-1-1 0; }
+#explor-reg-tilings-7-1-1-1 > li::marker { content: ""counter(explor-reg-tilings-7-1-1-1,decimal)"."; }
+#explor-reg-tilings-7-1-1-1 > li { counter-increment: explor-reg-tilings-7-1-1-1; }
+#task-vertex-measure-regular-polygons-more-1-1-3 { counter-set: task-vertex-measure-regular-polygons-more-1-1-3 0; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li::marker { content: ""counter(task-vertex-measure-regular-polygons-more-1-1-3,decimal)"."; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li { counter-increment: task-vertex-measure-regular-polygons-more-1-1-3; }
+#tile-w-3tri-2sq-1-1-2 { counter-set: tile-w-3tri-2sq-1-1-2 0; }
+#tile-w-3tri-2sq-1-1-2 > li::marker { content: ""counter(tile-w-3tri-2sq-1-1-2,decimal)"."; }
+#tile-w-3tri-2sq-1-1-2 > li { counter-increment: tile-w-3tri-2sq-1-1-2; }
+#subsec-semireg-rules-4-2-1-1-2 { counter-set: subsec-semireg-rules-4-2-1-1-2 0; }
+#subsec-semireg-rules-4-2-1-1-2 > li::marker { content: ""counter(subsec-semireg-rules-4-2-1-1-2,decimal)"."; }
+#subsec-semireg-rules-4-2-1-1-2 > li { counter-increment: subsec-semireg-rules-4-2-1-1-2; }
+#subsec-semireg-rules-4-3-1-1-1 { counter-set: subsec-semireg-rules-4-3-1-1-1 0; }
+#subsec-semireg-rules-4-3-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-3-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-3-1-1-1 > li { counter-increment: subsec-semireg-rules-4-3-1-1-1; }
+#subsec-semireg-rules-4-4-1-1-1 { counter-set: subsec-semireg-rules-4-4-1-1-1 0; }
+#subsec-semireg-rules-4-4-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-4-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-4-1-1-1 > li { counter-increment: subsec-semireg-rules-4-4-1-1-1; }
+#SAR-polygons-regular-2-1-1-1 { counter-set: SAR-polygons-regular-2-1-1-1 0; }
+#SAR-polygons-regular-2-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-2-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-2-1-1-1 > li { counter-increment: SAR-polygons-regular-2-1-1-1; }
+#SAR-polygons-regular-3-1-1-1 { counter-set: SAR-polygons-regular-3-1-1-1 0; }
+#SAR-polygons-regular-3-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-3-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-3-1-1-1 > li { counter-increment: SAR-polygons-regular-3-1-1-1; }
+#SAR-polygons-regular-4-1-1-1 { counter-set: SAR-polygons-regular-4-1-1-1 0; }
+#SAR-polygons-regular-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-4-1-1-1 > li { counter-increment: SAR-polygons-regular-4-1-1-1; }
+#SAR-polygons-regular-5-1-1-1 { counter-set: SAR-polygons-regular-5-1-1-1 0; }
+#SAR-polygons-regular-5-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-5-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-5-1-1-1 > li { counter-increment: SAR-polygons-regular-5-1-1-1; }
+#SAR-polygons-regular-6-1-1-1 { counter-set: SAR-polygons-regular-6-1-1-1 0; }
+#SAR-polygons-regular-6-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-6-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-6-1-1-1 > li { counter-increment: SAR-polygons-regular-6-1-1-1; }
+#SAR-polygons-regular-7-1-1-1 { counter-set: SAR-polygons-regular-7-1-1-1 0; }
+#SAR-polygons-regular-7-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-7-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-7-1-1-1 > li { counter-increment: SAR-polygons-regular-7-1-1-1; }
+#SAR-polygons-regular-9-1-1-1 { counter-set: SAR-polygons-regular-9-1-1-1 0; }
+#SAR-polygons-regular-9-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-9-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-9-1-1-1 > li { counter-increment: SAR-polygons-regular-9-1-1-1; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 { counter-set: exer-ExtConc-pgreg-nonagon-2-1-3 0; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li::marker { content: "("counter(exer-ExtConc-pgreg-nonagon-2-1-3,lower-alpha)")"; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li { counter-increment: exer-ExtConc-pgreg-nonagon-2-1-3; }
+#ExtConc-polygons-regular-3-2-1-3 { counter-set: ExtConc-polygons-regular-3-2-1-3 0; }
+#ExtConc-polygons-regular-3-2-1-3 > li::marker { content: "("counter(ExtConc-polygons-regular-3-2-1-3,lower-alpha)")"; }
+#ExtConc-polygons-regular-3-2-1-3 > li { counter-increment: ExtConc-polygons-regular-3-2-1-3; }
+#tri4andcsq-2-3-1 { counter-set: tri4andcsq-2-3-1 0; }
+#tri4andcsq-2-3-1 > li::marker { content: ""counter(tri4andcsq-2-3-1,decimal)"."; }
+#tri4andcsq-2-3-1 > li { counter-increment: tri4andcsq-2-3-1; }
+#tri4andsquaresAandB-2-3-1 { counter-set: tri4andsquaresAandB-2-3-1 0; }
+#tri4andsquaresAandB-2-3-1 > li::marker { content: ""counter(tri4andsquaresAandB-2-3-1,decimal)"."; }
+#tri4andsquaresAandB-2-3-1 > li { counter-increment: tri4andsquaresAandB-2-3-1; }
+#GarfieldTask-2-3-1 { counter-set: GarfieldTask-2-3-1 0; }
+#GarfieldTask-2-3-1 > li::marker { content: ""counter(GarfieldTask-2-3-1,decimal)"."; }
+#GarfieldTask-2-3-1 > li { counter-increment: GarfieldTask-2-3-1; }
+#sqtostairs-Pyth-task-1-3-1 { counter-set: sqtostairs-Pyth-task-1-3-1 0; }
+#sqtostairs-Pyth-task-1-3-1 > li::marker { content: ""counter(sqtostairs-Pyth-task-1-3-1,decimal)"."; }
+#sqtostairs-Pyth-task-1-3-1 > li { counter-increment: sqtostairs-Pyth-task-1-3-1; }
+#polygons-length-BOT-lengthadditivity-2-1-1 { counter-set: polygons-length-BOT-lengthadditivity-2-1-1 0; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li::marker { content: "("counter(polygons-length-BOT-lengthadditivity-2-1-1,lower-alpha)")"; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li { counter-increment: polygons-length-BOT-lengthadditivity-2-1-1; }
+#exer-SAR-Pyth-1-1-2 { counter-set: exer-SAR-Pyth-1-1-2 0; }
+#exer-SAR-Pyth-1-1-2 > li::marker { content: "("counter(exer-SAR-Pyth-1-1-2,lower-alpha)")"; }
+#exer-SAR-Pyth-1-1-2 > li { counter-increment: exer-SAR-Pyth-1-1-2; }
+#ExtConc-polygons-length-3-2-1-5 { counter-set: ExtConc-polygons-length-3-2-1-5 0; }
+#ExtConc-polygons-length-3-2-1-5 > li::marker { content: "("counter(ExtConc-polygons-length-3-2-1-5,lower-alpha)")"; }
+#ExtConc-polygons-length-3-2-1-5 > li { counter-increment: ExtConc-polygons-length-3-2-1-5; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 { counter-set: ExtConc-polygons-length-3-2-1-5-4-1-3 0; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li::marker { content: ""counter(ExtConc-polygons-length-3-2-1-5-4-1-3,lower-roman)"."; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li { counter-increment: ExtConc-polygons-length-3-2-1-5-4-1-3; }
+#ExtConc-polygons-length-4-2-1-2 { counter-set: ExtConc-polygons-length-4-2-1-2 0; }
+#ExtConc-polygons-length-4-2-1-2 > li::marker { content: "("counter(ExtConc-polygons-length-4-2-1-2,lower-alpha)")"; }
+#ExtConc-polygons-length-4-2-1-2 > li { counter-increment: ExtConc-polygons-length-4-2-1-2; }
+#subsec-def-polyhedra-8-1-1-1 { counter-set: subsec-def-polyhedra-8-1-1-1 0; }
+#subsec-def-polyhedra-8-1-1-1 > li::marker { content: ""counter(subsec-def-polyhedra-8-1-1-1,decimal)"."; }
+#subsec-def-polyhedra-8-1-1-1 > li { counter-increment: subsec-def-polyhedra-8-1-1-1; }
+#sec-polyhedra-regular-5-2-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-3-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-4-2-3-3,decimal)"."; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-6-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-1-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1; }
+#exercises-semireg-polyhedra-3-2-2-1-1 { counter-set: exercises-semireg-polyhedra-3-2-2-1-1 0; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-3-2-2-1-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li { counter-increment: exercises-semireg-polyhedra-3-2-2-1-1; }
+#exercises-semireg-polyhedra-4-2-2-3-1 { counter-set: exercises-semireg-polyhedra-4-2-2-3-1 0; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-4-2-2-3-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li { counter-increment: exercises-semireg-polyhedra-4-2-2-3-1; }
+#exp-vol-intuitive-2-1-1-2 { counter-set: exp-vol-intuitive-2-1-1-2 0; }
+#exp-vol-intuitive-2-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-2-1-1-2,decimal)"."; }
+#exp-vol-intuitive-2-1-1-2 > li { counter-increment: exp-vol-intuitive-2-1-1-2; }
+#exp-vol-intuitive-5-1-1-2 { counter-set: exp-vol-intuitive-5-1-1-2 0; }
+#exp-vol-intuitive-5-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-5-1-1-2,decimal)"."; }
+#exp-vol-intuitive-5-1-1-2 > li { counter-increment: exp-vol-intuitive-5-1-1-2; }
+#surf-of-cylinder-1-1-2 { counter-set: surf-of-cylinder-1-1-2 0; }
+#surf-of-cylinder-1-1-2 > li::marker { content: ""counter(surf-of-cylinder-1-1-2,decimal)"."; }
+#surf-of-cylinder-1-1-2 > li { counter-increment: surf-of-cylinder-1-1-2; }
+#SAR-vol-prisms-verbal-1-1-1 { counter-set: SAR-vol-prisms-verbal-1-1-1 0; }
+#SAR-vol-prisms-verbal-1-1-1 > li::marker { content: "("counter(SAR-vol-prisms-verbal-1-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-verbal-1-1-1 > li { counter-increment: SAR-vol-prisms-verbal-1-1-1; }
+#SAR-vol-prisms-visual-1-1 { counter-set: SAR-vol-prisms-visual-1-1 0; }
+#SAR-vol-prisms-visual-1-1 > li::marker { content: "("counter(SAR-vol-prisms-visual-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-visual-1-1 > li { counter-increment: SAR-vol-prisms-visual-1-1; }
+#exer-ExtConc-pent-prism-2-1-14 { counter-set: exer-ExtConc-pent-prism-2-1-14 0; }
+#exer-ExtConc-pent-prism-2-1-14 > li::marker { content: "("counter(exer-ExtConc-pent-prism-2-1-14,lower-alpha)")"; }
+#exer-ExtConc-pent-prism-2-1-14 > li { counter-increment: exer-ExtConc-pent-prism-2-1-14; }
+#expl-volume-recpyr-by-construction-6-1-1-1 { counter-set: expl-volume-recpyr-by-construction-6-1-1-1 0; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li::marker { content: ""counter(expl-volume-recpyr-by-construction-6-1-1-1,decimal)"."; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li { counter-increment: expl-volume-recpyr-by-construction-6-1-1-1; }
+#expl-pyr-volume-calculations-1-1-2 { counter-set: expl-pyr-volume-calculations-1-1-2 0; }
+#expl-pyr-volume-calculations-1-1-2 > li::marker { content: ""counter(expl-pyr-volume-calculations-1-1-2,decimal)"."; }
+#expl-pyr-volume-calculations-1-1-2 > li { counter-increment: expl-pyr-volume-calculations-1-1-2; }
+#expl-rotation-6-1-1-3 { counter-set: expl-rotation-6-1-1-3 0; }
+#expl-rotation-6-1-1-3 > li::marker { content: ""counter(expl-rotation-6-1-1-3,decimal)"."; }
+#expl-rotation-6-1-1-3 > li { counter-increment: expl-rotation-6-1-1-3; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 { counter-set: sec-isom-identifying-isometries-2-3-2-1-1-1 0; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li::marker { content: ""counter(sec-isom-identifying-isometries-2-3-2-1-1-1,decimal)"."; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li { counter-increment: sec-isom-identifying-isometries-2-3-2-1-1-1; }
+#subsec-fixed-points-6-1-1-1-1 { counter-set: subsec-fixed-points-6-1-1-1-1 0; }
+#subsec-fixed-points-6-1-1-1-1 > li::marker { content: ""counter(subsec-fixed-points-6-1-1-1-1,decimal)"."; }
+#subsec-fixed-points-6-1-1-1-1 > li { counter-increment: subsec-fixed-points-6-1-1-1-1; }
+#explor-nested-simtri-5-1-1-1 { counter-set: explor-nested-simtri-5-1-1-1 0; }
+#explor-nested-simtri-5-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-5-1-1-1,decimal)"."; }
+#explor-nested-simtri-5-1-1-1 > li { counter-increment: explor-nested-simtri-5-1-1-1; }
+#explor-nested-simtri-6-1-1-1 { counter-set: explor-nested-simtri-6-1-1-1 0; }
+#explor-nested-simtri-6-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-6-1-1-1,decimal)"."; }
+#explor-nested-simtri-6-1-1-1 > li { counter-increment: explor-nested-simtri-6-1-1-1; }
+#subsubsec-dilations-similar-6-7-1-1-1 { counter-set: subsubsec-dilations-similar-6-7-1-1-1 0; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li::marker { content: ""counter(subsubsec-dilations-similar-6-7-1-1-1,decimal)"."; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li { counter-increment: subsubsec-dilations-similar-6-7-1-1-1; }
+#subsec-Functions-2-3-2-1-2 { counter-set: subsec-Functions-2-3-2-1-2 0; }
+#subsec-Functions-2-3-2-1-2 > li::marker { content: ""counter(subsec-Functions-2-3-2-1-2,decimal)"."; }
+#subsec-Functions-2-3-2-1-2 > li { counter-increment: subsec-Functions-2-3-2-1-2; }
+#example-algrev-sq-sqrt-2-1-1 { counter-set: example-algrev-sq-sqrt-2-1-1 0; }
+#example-algrev-sq-sqrt-2-1-1 > li::marker { content: ""counter(example-algrev-sq-sqrt-2-1-1,decimal)"."; }
+#example-algrev-sq-sqrt-2-1-1 > li { counter-increment: example-algrev-sq-sqrt-2-1-1; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -120,8 +425,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">How to use this book</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -200,7 +506,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#sec-polygons-parallel-4" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -235,23 +541,24 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Polyhedra</span></a></div>
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining a Polyhedron</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Nets for Polyhedra</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Some Examples of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
@@ -281,10 +588,19 @@ window.MathJax = {
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interior Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Growth in Different Dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimension-fractal" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Measuring Fractals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-" class="internal"><span class="codenumber">3.5.4</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
@@ -352,7 +668,7 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Similarity</span></a></div>
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
@@ -377,8 +693,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -421,7 +738,7 @@ window.MathJax = {
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="period">.</span>
 </h4> <div class="para logical" id="def-semiregplyhdron-4-1">
 <div class="para">A polyhedron is <dfn class="terminology">semiregular</dfn> if it satisfies the following conditions:</div>
-<ul class="disc">
+<ul class="disc" id="def-semiregplyhdron-4-1-2">
 <li id="def-semiregplyhdron-4-1-2-1"><div class="para" id="p-derived-def-semiregplyhdron-4-1-2-1">Every face is a regular polygon.</div></li>
 <li id="def-semiregplyhdron-4-1-2-2"><div class="para" id="p-derived-def-semiregplyhdron-4-1-2-2">At least two polygonal faces have a different number of sides.</div></li>
 <li id="def-semiregplyhdron-4-1-2-3"><div class="para" id="p-derived-def-semiregplyhdron-4-1-2-3">The arrangement of polygons at every vertex of the polyhedron is the same.</div></li>
@@ -433,32 +750,41 @@ window.MathJax = {
 <details id="sec-polyhedra-semiregular-2-4-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polyhedra-semiregular-2-4-3-1">Does the number 3 correspond to the shape of the face or the number of faces that meet? <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/xref/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition 3.2.1</a>
 </div></div></details><details id="sec-polyhedra-semiregular-2-4-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-polyhedra-semiregular-2-4-4-1">The icosahedron because five triangles meet at each vertex.</div></div></details>
 </div></article></details></section><section class="subsection" id="subsec-polyhedra-semiregular-examples"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="space"> </span><span class="title">Some Examples of Semiregular Polyhedra</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="space"> </span><span class="title">Examples of Semi-regular Polyhedra</span>
 </h3>
 <article class="exploration project-like" id="subsec-polyhedra-semiregular-examples-2"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="period">.</span>
 </h4>
-<article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para" id="subsec-polyhedra-semiregular-examples-2-1-1-1">One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron which is shown in <a href="sec-polyhedra-semiregular.html#Great_rhombicosidodecahedron" class="xref" data-knowl="./knowl/xref/Great_rhombicosidodecahedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.3">Figure 3.2.3</a>. Check that each visible vertex has the arrangement 4.6.10.</div> <div class="para" id="subsec-polyhedra-semiregular-examples-2-1-1-2">Three polygons meet at each vertex of the great rhombicosidodecahedron. What is the sum of three angle measures at any one vertex?</div> <figure class="figure figure-like" id="Great_rhombicosidodecahedron"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/Great_rhombicosidodecahedron1.svg" class="contained" alt="The front side of a great rhombicosidodecahedron. Five decagonal faces, eight hexagonal faces, and eight square faces are clearly visible, but there is a hint of a square and hexagon alonge the bottom edge. "></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.3<span class="period">.</span></span><span class="space"> </span>Great Rhombicosidodecahedron<details class="ptx-footnote" aria-live="polite" id="Great_rhombicosidodecahedron-1-1"><summary class="ptx-footnote__number" title="Footnote 3.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="Great_rhombicosidodecahedron-1-1">Illustration produced by Robert Webb’s <a class="external" href="https://en.wikipedia.org/wiki/Stella_(software)" target="_blank">Stella software</a> accessible via <a class="external" href="http://www.software3d.com/Stella.php" target="_blank">http://www.software3d.com/Stella.php</a>.</div></details></figcaption></figure></article><article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para logical" id="subsec-polyhedra-semiregular-examples-2-2-1-1">
-<div class="para">Another Archimedean solid is the icosidodecahedron <a href="sec-polyhedra-semiregular.html#icosidod-solid" class="xref" data-knowl="./knowl/xref/icosidod-solid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.4">Figure 3.2.4</a>.</div>
-<ol class="decimal">
-<li id="subsec-polyhedra-semiregular-examples-2-2-1-1-2-1"><div class="para" id="subsec-polyhedra-semiregular-examples-2-2-1-1-2-1-1">What is the vertex arrangement of the icosidodecahedron?</div></li>
-<li id="subsec-polyhedra-semiregular-examples-2-2-1-1-2-2"><div class="para" id="subsec-polyhedra-semiregular-examples-2-2-1-1-2-2-1">How many pentagons are needed to create an icosidodecahedron? Be sure to count the ones you cannot see as well.</div></li>
-<li id="subsec-polyhedra-semiregular-examples-2-2-1-1-2-3"><div class="para" id="subsec-polyhedra-semiregular-examples-2-2-1-1-2-3-1">How many triangles are needed to create an icosidodecahedron?</div></li>
-</ol>
-</div> <figure class="figure figure-like" id="icosidod-solid"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/icosidodecahedron.svg" class="contained" alt="A picture of an icosidodecahedron"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.4<span class="period">.</span></span><span class="space"> </span>The Icosidodecahedron<details class="ptx-footnote" aria-live="polite" id="icosidod-solid-1-1"><summary class="ptx-footnote__number" title="Footnote 3.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="icosidod-solid-1-1">Illustration produced by Robert Webb’s <a class="external" href="https://en.wikipedia.org/wiki/Stella_(software)" target="_blank">Stella software</a> accessible via <a class="external" href="http://www.software3d.com/Stella.php" target="_blank">http://www.software3d.com/Stella.php</a>.</div></details></figcaption></figure></article><article class="task exercise-like" id="Archimedean-construction-extension"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para logical" id="Archimedean-construction-extension-1">
-<div class="para">Choose one (or more) of the following vertex arrangements, <span class="process-math">\(3.6.6\text{,}\)</span> <span class="process-math">\(4.6.6\text{,}\)</span> <span class="process-math">\(3.4.4.4\text{,}\)</span> <span class="process-math">\(3.4.3.4\text{,}\)</span> <span class="process-math">\(3.10.10\text{,}\)</span> or <span class="process-math">\(5.6.6\)</span> and construct the semiregular polyhedron that has that vertex arrangement. If you are up for a challenge, you may choose <span class="process-math">\(3.4.5.4\text{,}\)</span> <span class="process-math">\(3.3.3.3.4\text{,}\)</span> or <span class="process-math">\(3.3.3.3.5\text{.}\)</span>
+<article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-1"><h5 class="heading">
+<span class="codenumber">(a)</span><span class="space"> </span><span class="title">The Great Rhombicosidodecahedron.</span>
+</h5>
+<div class="introduction" id="subsec-polyhedra-semiregular-examples-2-1-2">
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-1-2-1">One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron which is shown in <a href="sec-polyhedra-semiregular.html#Great_rhombicosidodecahedron" class="xref" data-knowl="./knowl/xref/Great_rhombicosidodecahedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.3">Figure 3.2.3</a><details class="ptx-footnote" aria-live="polite" id="subsec-polyhedra-semiregular-examples-2-1-2-1-2"><summary class="ptx-footnote__number" title="Footnote 3.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="subsec-polyhedra-semiregular-examples-2-1-2-1-2">Illustration produced by Robert Webb’s <a class="external" href="https://en.wikipedia.org/wiki/Stella_(software)" target="_blank">Stella software</a> accessible via <a class="external" href="http://www.software3d.com/Stella.php" target="_blank">http://www.software3d.com/Stella.php</a>.</div></details>. Check that each visible vertex has the arrangement 4.6.10.</div> <figure class="figure figure-like" id="Great_rhombicosidodecahedron"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/Great_rhombicosidodecahedron1.svg" class="contained" alt="The front side of a great rhombicosidodecahedron. Five decagonal faces, eight hexagonal faces, and eight square faces are clearly visible, but there is a hint of a square and hexagon alonge the bottom edge."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.3<span class="period">.</span></span><span class="space"> </span>Great Rhombicosidodecahedron</figcaption></figure>
 </div>
-<ol class="decimal">
-<li id="Archimedean-construction-extension-1-10-1"><div class="para" id="Archimedean-construction-extension-1-10-1-1">How many faces of each type does your semiregular polyhedron have?</div></li>
-<li id="Archimedean-construction-extension-1-10-2"><div class="para" id="Archimedean-construction-extension-1-10-2-1">What is the total number of vertices?</div></li>
-<li id="Archimedean-construction-extension-1-10-3"><div class="para" id="Archimedean-construction-extension-1-10-3-1">What is the total number of edges?</div></li>
-</ol>
-</div></article></article></section><section class="subsection" id="sec-polyhedra-semiregular-4"><h3 class="heading hide-type">
+<article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-1-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-1-3-1-1">Three polygons meet at each vertex of the great rhombicosidodecahedron. What is the sum of three angle measures at any one vertex?</div></article></article><article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space"> </span><span class="title">The Icosidodecahedron.</span>
+</h5>
+<div class="introduction" id="subsec-polyhedra-semiregular-examples-2-2-2">
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-2-1">Another Archimedean solid is the icosidodecahedron <a href="sec-polyhedra-semiregular.html#icosidod-solid" class="xref" data-knowl="./knowl/xref/icosidod-solid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.4">Figure 3.2.4</a><details class="ptx-footnote" aria-live="polite" id="subsec-polyhedra-semiregular-examples-2-2-2-1-2"><summary class="ptx-footnote__number" title="Footnote 3.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="subsec-polyhedra-semiregular-examples-2-2-2-1-2">Illustration produced by Robert Webb’s <a class="external" href="https://en.wikipedia.org/wiki/Stella_(software)" target="_blank">Stella software</a> accessible via <a class="external" href="http://www.software3d.com/Stella.php" target="_blank">http://www.software3d.com/Stella.php</a>.</div></details>.</div> <figure class="figure figure-like" id="icosidod-solid"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/icosidodecahedron.svg" class="contained" alt="A picture of an icosidodecahedron"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.4<span class="period">.</span></span><span class="space"> </span>The Icosidodecahedron</figcaption></figure>
+</div>
+<article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-3-1-1">What is the vertex arrangement of the icosidodecahedron?</div></article><article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-4-1-1">How many pentagons are needed to create an icosidodecahedron? Be sure to count the ones you cannot see as well.</div></article><article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-5-1-1">How many triangles are needed to create an icosidodecahedron?</div></article></article><article class="task exercise-like" id="Archimedean-construction-extension"><h5 class="heading">
+<span class="codenumber">(c)</span><span class="space"> </span><span class="title">Other Semi-regular Polyhedra.</span>
+</h5>
+<div class="introduction" id="Archimedean-construction-extension-2"><div class="para" id="Archimedean-construction-extension-2-1">Choose one of the following vertex arrangements, <span class="process-math">\(3.6.6\text{,}\)</span> <span class="process-math">\(4.6.6\text{,}\)</span> <span class="process-math">\(3.4.4.4\text{,}\)</span> <span class="process-math">\(3.4.3.4\text{,}\)</span> <span class="process-math">\(3.10.10\text{,}\)</span> or <span class="process-math">\(5.6.6\text{.}\)</span>
+</div></div>
+<article class="task exercise-like" id="Archimedean-construction-extension-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="Archimedean-construction-extension-3-1-1">Construct the semiregular polyhedron that has that has your chosen vertex arrangement.</div></article><article class="task exercise-like" id="Archimedean-construction-extension-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="Archimedean-construction-extension-4-1-1">How many faces of each type does your semiregular polyhedron have?</div></article><article class="task exercise-like" id="Archimedean-construction-extension-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="Archimedean-construction-extension-5-1-1">What is the total number of vertices?</div></article><article class="task exercise-like" id="Archimedean-construction-extension-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="Archimedean-construction-extension-6-1-1">What is the total number of edges?</div></article><article class="task exercise-like" id="Archimedean-construction-extension-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="Archimedean-construction-extension-7-1-1">As a bonus, repeat this task for other vertex arrangements. If you are up for a challenge, you may choose <span class="process-math">\(3.4.5.4\text{,}\)</span> <span class="process-math">\(3.3.3.3.4\text{,}\)</span> or <span class="process-math">\(3.3.3.3.5\text{.}\)</span>
+</div></article></article></article></section><section class="subsection" id="sec-polyhedra-semiregular-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="space"> </span><span class="title">Families of Semiregular Polyhedra</span>
 </h3>
 <article class="exploration project-like" id="sec-polyhedra-semiregular-4-2"><h4 class="heading">
@@ -467,19 +793,14 @@ window.MathJax = {
 <article class="task exercise-like" id="semiregprism-task"><h5 class="heading">
 <span class="codenumber">(a)</span><span class="space"> </span><span class="title">Semiregular Polyhedra with Vertex Arrangement <span class="process-math">\(4.4.n\)</span>.</span>
 </h5>
-<div class="para logical" id="semiregprism-task-2-1"><ol class="decimal">
-<li id="semiregprism-task-2-1-1-1"><div class="para logical" id="semiregprism-task-2-1-1-1-1">
-<div class="para">Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.</div>
-<ol class="lower-alpha">
-<li id="semiregprism-task-2-1-1-1-1-1-1"><div class="para" id="semiregprism-task-2-1-1-1-1-1-1-1">
-<span class="process-math">\(3.4.4\)</span> (same as <span class="process-math">\(4.4.3\)</span>)</div></li>
-<li id="semiregprism-task-2-1-1-1-1-1-2"><div class="para" id="semiregprism-task-2-1-1-1-1-1-2-1"><span class="process-math">\(\displaystyle 4.4.5\)</span></div></li>
-<li id="semiregprism-task-2-1-1-1-1-1-3"><div class="para" id="semiregprism-task-2-1-1-1-1-1-3-1"><span class="process-math">\(\displaystyle 4.4.6\)</span></div></li>
-</ol>
-</div></li>
-<li id="semiregprism-task-2-1-1-2"><div class="para" id="semiregprism-task-2-1-1-2-1">Without building <span class="process-math">\(4.4.8\)</span> describe clearly what it would look like.</div></li>
-<li id="semiregprism-task-2-1-1-3"><div class="para" id="semiregprism-task-2-1-1-3-1">The polyhedra you just created are called <dfn class="terminology">prisms</dfn>. Use your constructions to complete <a href="sec-polyhedra-semiregular.html#table-prism" class="xref" data-knowl="./knowl/xref/table-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.5: Attributes of Prisms">Table 3.2.5</a>. The first row should list the number of faces, vertices, and edges in a semiregular solid with a <span class="process-math">\(3.4.4\)</span>-vertex arrangement.</div></li>
-</ol></div> <figure class="table table-like" id="table-prism"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.5<span class="period">.</span></span><span class="space"> </span>Attributes of Prisms</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="introduction" id="semiregprism-task-2"><div class="para" id="semiregprism-task-2-1">Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.</div></div>
+<article class="task exercise-like" id="semiregprism-task-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="semiregprism-task-3-1-1">
+<span class="process-math">\(3.4.4\)</span> (same as <span class="process-math">\(4.4.3\)</span>)</div></article><article class="task exercise-like" id="semiregprism-task-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="semiregprism-task-4-1-1"><span class="process-math">\(4.4.5\)</span></div></article><article class="task exercise-like" id="semiregprism-task-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="semiregprism-task-5-1-1"><span class="process-math">\(4.4.6\)</span></div></article><article class="task exercise-like" id="semiregprism-task-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="semiregprism-task-6-1-1">Without building <span class="process-math">\(4.4.8\)</span> describe clearly what it would look like.</div></article><article class="task exercise-like" id="semiregprism-task-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="semiregprism-task-7-1-1">The polyhedra you just created are called <dfn class="terminology">prisms</dfn>. Use your constructions to complete <a href="sec-polyhedra-semiregular.html#table-prism" class="xref" data-knowl="./knowl/xref/table-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.5: Attributes of Prisms">Table 3.2.5</a>. The first row should list the number of faces, vertices, and edges in a semiregular solid with a <span class="process-math">\(3.4.4\)</span>-vertex arrangement.</div> <figure class="table table-like" id="table-prism"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.5<span class="period">.</span></span><span class="space"> </span>Attributes of Prisms</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b2 r2 l0 t0 lines">Shape of base</th>
 <th scope="col" class="c m b2 r1 l0 t0 lines">Number of faces <span class="process-math">\(F\)</span>
@@ -532,23 +853,18 @@ window.MathJax = {
 <td class="c m b0 r1 l0 t0 lines"></td>
 <td class="c m b0 r0 l0 t0 lines"></td>
 </tr>
-</table></div></figure></article><article class="task exercise-like" id="antiprism-task"><h5 class="heading">
+</table></div></figure></article></article><article class="task exercise-like" id="antiprism-task"><h5 class="heading">
 <span class="codenumber">(b)</span><span class="space"> </span><span class="title">Semiregular Polyhedra with Vertex Arrangement <span class="process-math">\(3.3.3.n\)</span>.</span>
 </h5>
-<div class="para logical" id="antiprism-task-2-1"><ol class="decimal">
-<li id="antiprism-task-2-1-1-1"><div class="para logical" id="antiprism-task-2-1-1-1-1">
-<div class="para">Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.</div>
-<ol class="lower-alpha">
-<li id="antiprism-task-2-1-1-1-1-1-1"><div class="para" id="antiprism-task-2-1-1-1-1-1-1-1">
-<span class="process-math">\(3.3.3.3\)</span> (a regular polyhedron)</div></li>
-<li id="antiprism-task-2-1-1-1-1-1-2"><div class="para" id="antiprism-task-2-1-1-1-1-1-2-1"><span class="process-math">\(\displaystyle 3.3.3.4\)</span></div></li>
-<li id="antiprism-task-2-1-1-1-1-1-3"><div class="para" id="antiprism-task-2-1-1-1-1-1-3-1"><span class="process-math">\(\displaystyle 3.3.3.5\)</span></div></li>
-<li id="antiprism-task-2-1-1-1-1-1-4"><div class="para" id="antiprism-task-2-1-1-1-1-1-4-1"><span class="process-math">\(\displaystyle 3.3.3.6\)</span></div></li>
-</ol>
-</div></li>
-<li id="antiprism-task-2-1-1-2"><div class="para" id="antiprism-task-2-1-1-2-1">Without building <span class="process-math">\(3.3.3.8\)</span> describe clearly what it would look like.</div></li>
-<li id="antiprism-task-2-1-1-3"><div class="para" id="antiprism-task-2-1-1-3-1">The polyhedra you just created are called <dfn class="terminology">antiprisms</dfn>. Use your constructions to complete <a href="sec-polyhedra-semiregular.html#table-antiprism" class="xref" data-knowl="./knowl/xref/table-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.6: Attributes of Antiprisms">Table 3.2.6</a>.</div></li>
-</ol></div> <figure class="table table-like" id="table-antiprism"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.6<span class="period">.</span></span><span class="space"> </span>Attributes of Antiprisms</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<div class="introduction" id="antiprism-task-2"><div class="para" id="antiprism-task-2-1">Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.</div></div>
+<article class="task exercise-like" id="antiprism-task-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="antiprism-task-3-1-1">
+<span class="process-math">\(3.3.3.3\)</span> (a regular polyhedron)</div></article><article class="task exercise-like" id="antiprism-task-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="antiprism-task-4-1-1"><span class="process-math">\(3.3.3.4\)</span></div></article><article class="task exercise-like" id="antiprism-task-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="antiprism-task-5-1-1"><span class="process-math">\(3.3.3.5\)</span></div></article><article class="task exercise-like" id="antiprism-task-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="antiprism-task-6-1-1"><span class="process-math">\(3.3.3.6\)</span></div></article><article class="task exercise-like" id="antiprism-task-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="antiprism-task-7-1-1">Without building <span class="process-math">\(3.3.3.8\)</span> describe clearly what it would look like.</div></article><article class="task exercise-like" id="antiprism-task-8"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
+<div class="para" id="antiprism-task-8-1-1">The polyhedra you just created are called <dfn class="terminology">antiprisms</dfn>. Use your constructions to complete <a href="sec-polyhedra-semiregular.html#table-antiprism" class="xref" data-knowl="./knowl/xref/table-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.6: Attributes of Antiprisms">Table 3.2.6</a>.</div> <figure class="table table-like" id="table-antiprism"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.6<span class="period">.</span></span><span class="space"> </span>Attributes of Antiprisms</figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b2 r2 l0 t0 lines">Shape of base</th>
 <th scope="col" class="c m b2 r1 l0 t0 lines">Number of faces <span class="process-math">\(F\)</span>
@@ -601,7 +917,7 @@ window.MathJax = {
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r0 l0 t0 lines"></td>
 </tr>
-</table></div></figure></article><article class="task exercise-like" id="sec-polyhedra-semiregular-4-2-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+</table></div></figure></article></article><article class="task exercise-like" id="sec-polyhedra-semiregular-4-2-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="sec-polyhedra-semiregular-4-2-3-1-1">Compute <span class="process-math">\(F+V-E\)</span> for each row in <a href="sec-polyhedra-semiregular.html#table-prism" class="xref" data-knowl="./knowl/xref/table-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.5: Attributes of Prisms">Table 3.2.5</a> and each row of <a href="sec-polyhedra-semiregular.html#table-antiprism" class="xref" data-knowl="./knowl/xref/table-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.6: Attributes of Antiprisms">Table 3.2.6</a>. What do you notice?</div></article></article></section><section class="subsection" id="sec-polyhedra-semiregular-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="space"> </span><span class="title">Defining Prisms and Antiprisms</span>
 </h3>
@@ -637,7 +953,7 @@ window.MathJax = {
 </h5>
 <div class="para logical" id="exercises-semireg-polyhedra-3-2-2-1">
 <div class="para">An octadecagon is an 18-gon.</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="exercises-semireg-polyhedra-3-2-2-1-1">
 <li id="exercises-semireg-polyhedra-3-2-2-1-1-1"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-1-1">How many vertices will an octadecagonal prism have?</div></li>
 <li id="exercises-semireg-polyhedra-3-2-2-1-1-2"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-2-1">How many faces will an octadecagonal prism have?</div></li>
 <li id="exercises-semireg-polyhedra-3-2-2-1-1-3"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-3-1">How many edges will an octadecagonal prism have?</div></li>
@@ -654,7 +970,7 @@ window.MathJax = {
 </h5>
 <div class="para" id="exercises-semireg-polyhedra-4-2-2-1">The regular octahedron looks like two congruent square pyramids glued together. Solids formed in this way are called <dfn class="terminology">dipyramids</dfn>. Thus, the regular octahedron is also called a square dipyramid. You should have built a triangular dipyramid in <a href="sec-polyhedra-regular.html#task-tridipyramid" class="xref" data-knowl="./knowl/xref/task-tridipyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.1.1.d: A Nonregular Polyhedron made from Regular Triangles">Task 3.1.1.d</a>.</div> <div class="para" id="exercises-semireg-polyhedra-4-2-2-2">An <span class="process-math">\(n\)</span>-gonal tripyramid has two vertices where <span class="process-math">\(n\)</span> triangles meet, but at each of the <span class="process-math">\(n\)</span> vertices where the pyramids are “glued together”, there are four isosceles triangles touching. A net for a pentagonal dipyramid is given in <a href="sec-polyhedra-semiregular.html#fig-pent-dipyramid" class="xref" data-knowl="./knowl/xref/fig-pent-dipyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.11">Figure 3.2.11</a>.</div> <div class="para logical" id="exercises-semireg-polyhedra-4-2-2-3">
 <div class="para">Determine the number of vertices, faces, and edges for each of the following types of dipyramids. Do not count the bases of the pyramids as a face.</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="exercises-semireg-polyhedra-4-2-2-3-1">
 <li id="exercises-semireg-polyhedra-4-2-2-3-1-1"><div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-1-1">A triangular dipyramid</div></li>
 <li id="exercises-semireg-polyhedra-4-2-2-3-1-2"><div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-2-1">A pentagonal dipyramid</div></li>
 <li id="exercises-semireg-polyhedra-4-2-2-3-1-3"><div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-3-1">A hexagonal dipyramid</div></li>
