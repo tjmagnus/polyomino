@@ -71,77 +71,56 @@
       For John and Paul
     </p>
   </dedication>
-<!--
-  <acknowledgement>
 
+  <acknowledgement>
     <p>
       I am grateful for the sabbatical time Rivier University provided so that I
       could produce this book. The initial design and many of the activities for this textbook
-      were createed during my Spring 2016 sabbatical, and the book
+      were created during my Spring 2016 sabbatical, and the book
       was written during my year-long sabbatical in 2023-2024. In addition, 
       I appreciate the 2024 Rivier Summer Faculty Research Grant that enabled
-      me to recruit three Rivier University student interns to review the book. Student interns 
-      Sarah Frazier, Elisabeth Jacob, and Caitlyn St. Cyr provided valuable feedback and error 
-      correction as well as suggesting where addition explanations or hints might be helpful. 
+      me to recruit three Rivier University student interns to review the book. The constructive
+      feedback I received from these student interns 
+      Sarah Frazier, Elisabeth Jacob, and Caitlyn St. Cyr exceeded my expectations. In addition,
+      to identifying errors and dead links, they suggested rephrasings of sentences and identified
+      where additional explanations, hints, or activities might be helpful. 
       I would also like to thank all my MA127 Geometrical Explorations 
-      students over the years. Their successes, struggles, and questions guided the evolution
-      of the content. 
-    </p>
+      students over the years. Watching their teamwork, struggles, questioning, growth, and 
+      success has helped me revise these activities and transform them into a coherent text.  
+    </p>    
     <p>
       I thank the PROSE/PreTeXt community who made this format possible. Not only was the code
-      available for use, they welcomed me as a new user, encouraged my project, and made
+      available for use, they welcomed me as a new user, encouraged my project, and
       offered technical support. Steven Clontz and Oscar
       Levin were expecially helpful in helping me identify errors in my code, suggesting ways to
-      yield desired outcomes, and explored possible ideas for new structures. 
-      They took time out of their own busy schedules and made me feel 
-      welcome at their online office hours.
+      yield desired outcomes, and exploring possible ideas for new structures. 
+      They, and other community members, took time out of their own busy schedules and made me feel 
+      welcome at their online office hours. I would also like to thank Rob Beezer and the other
+      developers for creating and refining the PreTeXt markup language. Otherwise, this book 
+      would not have been possible in this online format.
     </p>
     <p>
       My own love of mathematics was sparked by people who encouraged me to explore. My parents,
       Paul and Patricia Deltz, provided a loving home filled with crafts, games, and puzzles. 
-      We were encouraged to play, experiment, and learn from our mistakes. Teacher Crystal Mills 
+      We were encouraged to play, experiment, and learn from our mistakes. Saint Thomas More School
+      (Houston) teacher Crystal Mills 
       allowed me to investigate Billiard Ball Geometry after I had demonstrated facility with 
       seventh-grade mathematics. At the University of Dallas, professors Andrew Berner and Charles Coppin
       engaged us in inquiry-based lessons. Their inspiration led me to continue my studies and 
-      shaped my own philosophy of teaching. John Faulkner at the University of Virginia advised
-      me in my doctoral work.  
+      shaped my own philosophy of teaching. <!--John Faulkner at the University of Virginia advised
+      me in my doctoral work. --> 
     </p>
-    <p>
+    <!--<p>
       Naturally, this book has been influenced by my previous use of textbooks and my interactions
-      with other mathematicians. <
-    </p>
-    <p>
-      Last but not least, I appreciate the encouragement I've received from my family, especially
-      my husband John and son Paul. Paul also helped me 
-    </p>
-    
+      with other mathematicians.
+    </p>-->
 
     <p>
-      Others?
+      Last but not least, I appreciate the love, support, and encouragement I've received from my family, especially
+      my husband John and my son Paul. Paul also helped me as I struggled to use GitHub tools
+      for the first time. It was a humbling and rewarding experience to learn from him. 
     </p>
-
-    <p>
-      The book would only be available in this interactive online
-      format, thanks to the support and assistance from 
-      participants of the PROSE Consortium
-      <url href="https://prose.runestone.academy/" 
-      visual="prose.runestone.academy">pretext-support 
-      group</url>, especially Steven Clontz who spent many hours answering my
-      questions and troubleshooting my code, Rob Beezer who created the program 
-      and solved any issue that 
-      Steven and I could not, and Duane Nykamp and Virginia Mae who listened to 
-      my geometry interactive needs and developed DoeNET tools to meet them.
-    </p>
-
-    <p>
-      Finally, a thank you to the numerous Rivier University students who have taken 
-      MA127 Geometrical Explorations over the years. Watching you work as teams, struggle, 
-      ask questions, grow, and celebrate success has helped me revise these activities 
-      and translate them into book form. I especially want to thank my student editors,
-      Sarah Frazier, Elisabeth Jacob, and Caitlyn St. Cyr gave the work a thorough reading 
-      and provided valuable recommendations.
-    </p>
-  </acknowledgement>-->
+  </acknowledgement>
 
   
     <preface xml:id="preface">
