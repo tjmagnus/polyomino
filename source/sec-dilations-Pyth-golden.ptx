@@ -12,7 +12,7 @@
   </introduction>
   <subsection xml:id="subsec-dil-Pyth-golden-review">
     <title>A Review of Similarity</title>
-  <exploration>
+  <exploration xml:id="explore-scalefactor-proportion">
     <task xml:id="task-sim-right-triangles">
       <introduction>
         <p>
