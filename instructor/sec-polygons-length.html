@@ -88,11 +88,316 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-intro-explore-3-3-4-1-2-1 { counter-set: sec-intro-explore-3-3-4-1-2-1 0; }
+#sec-intro-explore-3-3-4-1-2-1 > li::marker { content: ""counter(sec-intro-explore-3-3-4-1-2-1,decimal)"."; }
+#sec-intro-explore-3-3-4-1-2-1 > li { counter-increment: sec-intro-explore-3-3-4-1-2-1; }
+#sec-intro-explore-3-3-5-1-1-1 { counter-set: sec-intro-explore-3-3-5-1-1-1 0; }
+#sec-intro-explore-3-3-5-1-1-1 > li::marker { content: ""counter(sec-intro-explore-3-3-5-1-1-1,decimal)"."; }
+#sec-intro-explore-3-3-5-1-1-1 > li { counter-increment: sec-intro-explore-3-3-5-1-1-1; }
+#SAR-intro-exp-8-1-1-1 { counter-set: SAR-intro-exp-8-1-1-1 0; }
+#SAR-intro-exp-8-1-1-1 > li::marker { content: "("counter(SAR-intro-exp-8-1-1-1,lower-alpha)")"; }
+#SAR-intro-exp-8-1-1-1 > li { counter-increment: SAR-intro-exp-8-1-1-1; }
+#SAR-intro-exp-areamodel-2-1-2 { counter-set: SAR-intro-exp-areamodel-2-1-2 0; }
+#SAR-intro-exp-areamodel-2-1-2 > li::marker { content: "("counter(SAR-intro-exp-areamodel-2-1-2,lower-alpha)")"; }
+#SAR-intro-exp-areamodel-2-1-2 > li { counter-increment: SAR-intro-exp-areamodel-2-1-2; }
+#intro-apply-explore-tangram-3-1-1-1 { counter-set: intro-apply-explore-tangram-3-1-1-1 0; }
+#intro-apply-explore-tangram-3-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-3-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-3-1-1-1 > li { counter-increment: intro-apply-explore-tangram-3-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-5-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-5-1-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1-7-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li::marker { content: "("counter(intro-apply-explore-tangram-5-1-1-1-7-1-1,lower-alpha)")"; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1-7-1-1; }
+#SAR-intro-apply-3-1-1-1 { counter-set: SAR-intro-apply-3-1-1-1 0; }
+#SAR-intro-apply-3-1-1-1 > li::marker { content: "("counter(SAR-intro-apply-3-1-1-1,lower-alpha)")"; }
+#SAR-intro-apply-3-1-1-1 > li { counter-increment: SAR-intro-apply-3-1-1-1; }
+#label-altitude-etc-1-1-5 { counter-set: label-altitude-etc-1-1-5 0; }
+#label-altitude-etc-1-1-5 > li::marker { content: "("counter(label-altitude-etc-1-1-5,lower-alpha)")"; }
+#label-altitude-etc-1-1-5 > li { counter-increment: label-altitude-etc-1-1-5; }
+#SAR-intro-apply-Tangramareas-1-1-2 { counter-set: SAR-intro-apply-Tangramareas-1-1-2 0; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li::marker { content: "("counter(SAR-intro-apply-Tangramareas-1-1-2,lower-alpha)")"; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li { counter-increment: SAR-intro-apply-Tangramareas-1-1-2; }
+#ExtConc-intro-apply-4-1-1-1 { counter-set: ExtConc-intro-apply-4-1-1-1 0; }
+#ExtConc-intro-apply-4-1-1-1 > li::marker { content: "("counter(ExtConc-intro-apply-4-1-1-1,lower-alpha)")"; }
+#ExtConc-intro-apply-4-1-1-1 > li { counter-increment: ExtConc-intro-apply-4-1-1-1; }
+#sum-odds-1-1-1-1 { counter-set: sum-odds-1-1-1-1 0; }
+#sum-odds-1-1-1-1 > li::marker { content: ""counter(sum-odds-1-1-1-1,decimal)"."; }
+#sum-odds-1-1-1-1 > li { counter-increment: sum-odds-1-1-1-1; }
+#sum-odds-2-1-1-1 { counter-set: sum-odds-2-1-1-1 0; }
+#sum-odds-2-1-1-1 > li::marker { content: ""counter(sum-odds-2-1-1-1,decimal)"."; }
+#sum-odds-2-1-1-1 > li { counter-increment: sum-odds-2-1-1-1; }
+#subsec-explainconjectures-7-2-1-3 { counter-set: subsec-explainconjectures-7-2-1-3 0; }
+#subsec-explainconjectures-7-2-1-3 > li::marker { content: ""counter(subsec-explainconjectures-7-2-1-3,decimal)"."; }
+#subsec-explainconjectures-7-2-1-3 > li { counter-increment: subsec-explainconjectures-7-2-1-3; }
+#subsec-explainconjectures-7-3-1-1-2 { counter-set: subsec-explainconjectures-7-3-1-1-2 0; }
+#subsec-explainconjectures-7-3-1-1-2 > li::marker { content: ""counter(subsec-explainconjectures-7-3-1-1-2,decimal)"."; }
+#subsec-explainconjectures-7-3-1-1-2 > li { counter-increment: subsec-explainconjectures-7-3-1-1-2; }
+#subsec-explainconjectures-7-4-1-2-2 { counter-set: subsec-explainconjectures-7-4-1-2-2 0; }
+#subsec-explainconjectures-7-4-1-2-2 > li::marker { content: ""counter(subsec-explainconjectures-7-4-1-2-2,decimal)"."; }
+#subsec-explainconjectures-7-4-1-2-2 > li { counter-increment: subsec-explainconjectures-7-4-1-2-2; }
+#exer-tri-numbers-2-3-1 { counter-set: exer-tri-numbers-2-3-1 0; }
+#exer-tri-numbers-2-3-1 > li::marker { content: "("counter(exer-tri-numbers-2-3-1,lower-alpha)")"; }
+#exer-tri-numbers-2-3-1 > li { counter-increment: exer-tri-numbers-2-3-1; }
+#exer-tri-numbers-2-3-1-4-1-5 { counter-set: exer-tri-numbers-2-3-1-4-1-5 0; }
+#exer-tri-numbers-2-3-1-4-1-5 > li::marker { content: ""counter(exer-tri-numbers-2-3-1-4-1-5,lower-roman)"."; }
+#exer-tri-numbers-2-3-1-4-1-5 > li { counter-increment: exer-tri-numbers-2-3-1-4-1-5; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 { counter-set: intro-struggle-exp-geoboardsq-3-1-2-1 0; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-3-1-2-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 > li { counter-increment: intro-struggle-exp-geoboardsq-3-1-2-1; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-4-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-4-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-4-1-3-1; }
+#SAR-intro-struggle-squarert-1-1-1 { counter-set: SAR-intro-struggle-squarert-1-1-1 0; }
+#SAR-intro-struggle-squarert-1-1-1 > li::marker { content: "("counter(SAR-intro-struggle-squarert-1-1-1,lower-alpha)")"; }
+#SAR-intro-struggle-squarert-1-1-1 > li { counter-increment: SAR-intro-struggle-squarert-1-1-1; }
+#ExtConc-intro-struggle-2-2-1-2 { counter-set: ExtConc-intro-struggle-2-2-1-2 0; }
+#ExtConc-intro-struggle-2-2-1-2 > li::marker { content: "("counter(ExtConc-intro-struggle-2-2-1-2,lower-alpha)")"; }
+#ExtConc-intro-struggle-2-2-1-2 > li { counter-increment: ExtConc-intro-struggle-2-2-1-2; }
+#parallelogramtypes-1-1-1 { counter-set: parallelogramtypes-1-1-1 0; }
+#parallelogramtypes-1-1-1 > li::marker { content: ""counter(parallelogramtypes-1-1-1,decimal)"."; }
+#parallelogramtypes-1-1-1 > li { counter-increment: parallelogramtypes-1-1-1; }
+#subsec-area-tri-2-3-1-1-1 { counter-set: subsec-area-tri-2-3-1-1-1 0; }
+#subsec-area-tri-2-3-1-1-1 > li::marker { content: ""counter(subsec-area-tri-2-3-1-1-1,decimal)"."; }
+#subsec-area-tri-2-3-1-1-1 > li { counter-increment: subsec-area-tri-2-3-1-1-1; }
+#subsec-irregular-area-4-5-1-1-1 { counter-set: subsec-irregular-area-4-5-1-1-1 0; }
+#subsec-irregular-area-4-5-1-1-1 > li::marker { content: ""counter(subsec-irregular-area-4-5-1-1-1,decimal)"."; }
+#subsec-irregular-area-4-5-1-1-1 > li { counter-increment: subsec-irregular-area-4-5-1-1-1; }
+#HW-compute-area-1-1-1 { counter-set: HW-compute-area-1-1-1 0; }
+#HW-compute-area-1-1-1 > li::marker { content: "("counter(HW-compute-area-1-1-1,lower-alpha)")"; }
+#HW-compute-area-1-1-1 > li { counter-increment: HW-compute-area-1-1-1; }
+#SAR-polygons-area-3-1-1-3 { counter-set: SAR-polygons-area-3-1-1-3 0; }
+#SAR-polygons-area-3-1-1-3 > li::marker { content: "("counter(SAR-polygons-area-3-1-1-3,lower-alpha)")"; }
+#SAR-polygons-area-3-1-1-3 > li { counter-increment: SAR-polygons-area-3-1-1-3; }
+#SAR-polygons-area-4-1-1-1 { counter-set: SAR-polygons-area-4-1-1-1 0; }
+#SAR-polygons-area-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-area-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-area-4-1-1-1 > li { counter-increment: SAR-polygons-area-4-1-1-1; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-2-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-2-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-2-1-1; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-3-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-3-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-3-1-1; }
+#expl-angsum-triangle-3-1-1-4 { counter-set: expl-angsum-triangle-3-1-1-4 0; }
+#expl-angsum-triangle-3-1-1-4 > li::marker { content: ""counter(expl-angsum-triangle-3-1-1-4,decimal)"."; }
+#expl-angsum-triangle-3-1-1-4 > li { counter-increment: expl-angsum-triangle-3-1-1-4; }
+#HW-SAR-angles-linepoints-1-1-2 { counter-set: HW-SAR-angles-linepoints-1-1-2 0; }
+#HW-SAR-angles-linepoints-1-1-2 > li::marker { content: "("counter(HW-SAR-angles-linepoints-1-1-2,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-1-1-2 > li { counter-increment: HW-SAR-angles-linepoints-1-1-2; }
+#HW-SAR-angles-linepoints-2-1-1 { counter-set: HW-SAR-angles-linepoints-2-1-1 0; }
+#HW-SAR-angles-linepoints-2-1-1 > li::marker { content: "("counter(HW-SAR-angles-linepoints-2-1-1,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-2-1-1 > li { counter-increment: HW-SAR-angles-linepoints-2-1-1; }
+#HW-SAR-linepart-type-1-1-2 { counter-set: HW-SAR-linepart-type-1-1-2 0; }
+#HW-SAR-linepart-type-1-1-2 > li::marker { content: "("counter(HW-SAR-linepart-type-1-1-2,lower-alpha)")"; }
+#HW-SAR-linepart-type-1-1-2 > li { counter-increment: HW-SAR-linepart-type-1-1-2; }
+#HW-SAR-linepart-type-2-1-1 { counter-set: HW-SAR-linepart-type-2-1-1 0; }
+#HW-SAR-linepart-type-2-1-1 > li::marker { content: "("counter(HW-SAR-linepart-type-2-1-1,lower-alpha)")"; }
+#HW-SAR-linepart-type-2-1-1 > li { counter-increment: HW-SAR-linepart-type-2-1-1; }
+#exer-SAR-missingangles-1-1-3 { counter-set: exer-SAR-missingangles-1-1-3 0; }
+#exer-SAR-missingangles-1-1-3 > li::marker { content: "("counter(exer-SAR-missingangles-1-1-3,lower-alpha)")"; }
+#exer-SAR-missingangles-1-1-3 > li { counter-increment: exer-SAR-missingangles-1-1-3; }
+#exer-SAR-missingangles-2-1-1 { counter-set: exer-SAR-missingangles-2-1-1 0; }
+#exer-SAR-missingangles-2-1-1 > li::marker { content: "("counter(exer-SAR-missingangles-2-1-1,lower-alpha)")"; }
+#exer-SAR-missingangles-2-1-1 > li { counter-increment: exer-SAR-missingangles-2-1-1; }
+#ExtConc-polygons-angles-3-1-3-4 { counter-set: ExtConc-polygons-angles-3-1-3-4 0; }
+#ExtConc-polygons-angles-3-1-3-4 > li::marker { content: "("counter(ExtConc-polygons-angles-3-1-3-4,lower-alpha)")"; }
+#ExtConc-polygons-angles-3-1-3-4 > li { counter-increment: ExtConc-polygons-angles-3-1-3-4; }
+#subsec-review-lines-2-3-1-1-1 { counter-set: subsec-review-lines-2-3-1-1-1 0; }
+#subsec-review-lines-2-3-1-1-1 > li::marker { content: ""counter(subsec-review-lines-2-3-1-1-1,decimal)"."; }
+#subsec-review-lines-2-3-1-1-1 > li { counter-increment: subsec-review-lines-2-3-1-1-1; }
+#parallel-explor-lines-sphere-4-1-1-2 { counter-set: parallel-explor-lines-sphere-4-1-1-2 0; }
+#parallel-explor-lines-sphere-4-1-1-2 > li::marker { content: ""counter(parallel-explor-lines-sphere-4-1-1-2,decimal)"."; }
+#parallel-explor-lines-sphere-4-1-1-2 > li { counter-increment: parallel-explor-lines-sphere-4-1-1-2; }
+#parallel-explor-spherical-triangles-6-1-2-1 { counter-set: parallel-explor-spherical-triangles-6-1-2-1 0; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li::marker { content: ""counter(parallel-explor-spherical-triangles-6-1-2-1,decimal)"."; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li { counter-increment: parallel-explor-spherical-triangles-6-1-2-1; }
+#subsec-understanding-parallel-8-2-1-2 { counter-set: subsec-understanding-parallel-8-2-1-2 0; }
+#subsec-understanding-parallel-8-2-1-2 > li::marker { content: ""counter(subsec-understanding-parallel-8-2-1-2,decimal)"."; }
+#subsec-understanding-parallel-8-2-1-2 > li { counter-increment: subsec-understanding-parallel-8-2-1-2; }
+#subsec-understanding-parallel-10-2-1-3-1 { counter-set: subsec-understanding-parallel-10-2-1-3-1 0; }
+#subsec-understanding-parallel-10-2-1-3-1 > li::marker { content: ""counter(subsec-understanding-parallel-10-2-1-3-1,decimal)"."; }
+#subsec-understanding-parallel-10-2-1-3-1 > li { counter-increment: subsec-understanding-parallel-10-2-1-3-1; }
+#subsec-understanding-parallel-10-3-1-1-3 { counter-set: subsec-understanding-parallel-10-3-1-1-3 0; }
+#subsec-understanding-parallel-10-3-1-1-3 > li::marker { content: ""counter(subsec-understanding-parallel-10-3-1-1-3,decimal)"."; }
+#subsec-understanding-parallel-10-3-1-1-3 > li { counter-increment: subsec-understanding-parallel-10-3-1-1-3; }
+#SAR-polygons-parallel-2-1-1-4 { counter-set: SAR-polygons-parallel-2-1-1-4 0; }
+#SAR-polygons-parallel-2-1-1-4 > li::marker { content: "("counter(SAR-polygons-parallel-2-1-1-4,lower-alpha)")"; }
+#SAR-polygons-parallel-2-1-1-4 > li { counter-increment: SAR-polygons-parallel-2-1-1-4; }
+#SAR-polygons-parallel-3-1-1-2 { counter-set: SAR-polygons-parallel-3-1-1-2 0; }
+#SAR-polygons-parallel-3-1-1-2 > li::marker { content: "("counter(SAR-polygons-parallel-3-1-1-2,lower-alpha)")"; }
+#SAR-polygons-parallel-3-1-1-2 > li { counter-increment: SAR-polygons-parallel-3-1-1-2; }
+#exer-transv-angle-measures-1-2-1 { counter-set: exer-transv-angle-measures-1-2-1 0; }
+#exer-transv-angle-measures-1-2-1 > li::marker { content: "("counter(exer-transv-angle-measures-1-2-1,lower-alpha)")"; }
+#exer-transv-angle-measures-1-2-1 > li { counter-increment: exer-transv-angle-measures-1-2-1; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2; }
+#explor-reg-tilings-5-1-3-1 { counter-set: explor-reg-tilings-5-1-3-1 0; }
+#explor-reg-tilings-5-1-3-1 > li::marker { content: ""counter(explor-reg-tilings-5-1-3-1,decimal)"."; }
+#explor-reg-tilings-5-1-3-1 > li { counter-increment: explor-reg-tilings-5-1-3-1; }
+#explor-reg-tilings-7-1-1-1 { counter-set: explor-reg-tilings-7-1-1-1 0; }
+#explor-reg-tilings-7-1-1-1 > li::marker { content: ""counter(explor-reg-tilings-7-1-1-1,decimal)"."; }
+#explor-reg-tilings-7-1-1-1 > li { counter-increment: explor-reg-tilings-7-1-1-1; }
+#task-vertex-measure-regular-polygons-more-1-1-3 { counter-set: task-vertex-measure-regular-polygons-more-1-1-3 0; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li::marker { content: ""counter(task-vertex-measure-regular-polygons-more-1-1-3,decimal)"."; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li { counter-increment: task-vertex-measure-regular-polygons-more-1-1-3; }
+#tile-w-3tri-2sq-1-1-2 { counter-set: tile-w-3tri-2sq-1-1-2 0; }
+#tile-w-3tri-2sq-1-1-2 > li::marker { content: ""counter(tile-w-3tri-2sq-1-1-2,decimal)"."; }
+#tile-w-3tri-2sq-1-1-2 > li { counter-increment: tile-w-3tri-2sq-1-1-2; }
+#subsec-semireg-rules-4-2-1-1-2 { counter-set: subsec-semireg-rules-4-2-1-1-2 0; }
+#subsec-semireg-rules-4-2-1-1-2 > li::marker { content: ""counter(subsec-semireg-rules-4-2-1-1-2,decimal)"."; }
+#subsec-semireg-rules-4-2-1-1-2 > li { counter-increment: subsec-semireg-rules-4-2-1-1-2; }
+#subsec-semireg-rules-4-3-1-1-1 { counter-set: subsec-semireg-rules-4-3-1-1-1 0; }
+#subsec-semireg-rules-4-3-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-3-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-3-1-1-1 > li { counter-increment: subsec-semireg-rules-4-3-1-1-1; }
+#subsec-semireg-rules-4-4-1-1-1 { counter-set: subsec-semireg-rules-4-4-1-1-1 0; }
+#subsec-semireg-rules-4-4-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-4-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-4-1-1-1 > li { counter-increment: subsec-semireg-rules-4-4-1-1-1; }
+#SAR-polygons-regular-2-1-1-1 { counter-set: SAR-polygons-regular-2-1-1-1 0; }
+#SAR-polygons-regular-2-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-2-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-2-1-1-1 > li { counter-increment: SAR-polygons-regular-2-1-1-1; }
+#SAR-polygons-regular-3-1-1-1 { counter-set: SAR-polygons-regular-3-1-1-1 0; }
+#SAR-polygons-regular-3-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-3-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-3-1-1-1 > li { counter-increment: SAR-polygons-regular-3-1-1-1; }
+#SAR-polygons-regular-4-1-1-1 { counter-set: SAR-polygons-regular-4-1-1-1 0; }
+#SAR-polygons-regular-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-4-1-1-1 > li { counter-increment: SAR-polygons-regular-4-1-1-1; }
+#SAR-polygons-regular-5-1-1-1 { counter-set: SAR-polygons-regular-5-1-1-1 0; }
+#SAR-polygons-regular-5-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-5-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-5-1-1-1 > li { counter-increment: SAR-polygons-regular-5-1-1-1; }
+#SAR-polygons-regular-6-1-1-1 { counter-set: SAR-polygons-regular-6-1-1-1 0; }
+#SAR-polygons-regular-6-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-6-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-6-1-1-1 > li { counter-increment: SAR-polygons-regular-6-1-1-1; }
+#SAR-polygons-regular-7-1-1-1 { counter-set: SAR-polygons-regular-7-1-1-1 0; }
+#SAR-polygons-regular-7-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-7-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-7-1-1-1 > li { counter-increment: SAR-polygons-regular-7-1-1-1; }
+#SAR-polygons-regular-9-1-1-1 { counter-set: SAR-polygons-regular-9-1-1-1 0; }
+#SAR-polygons-regular-9-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-9-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-9-1-1-1 > li { counter-increment: SAR-polygons-regular-9-1-1-1; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 { counter-set: exer-ExtConc-pgreg-nonagon-2-1-3 0; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li::marker { content: "("counter(exer-ExtConc-pgreg-nonagon-2-1-3,lower-alpha)")"; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li { counter-increment: exer-ExtConc-pgreg-nonagon-2-1-3; }
+#ExtConc-polygons-regular-3-2-1-3 { counter-set: ExtConc-polygons-regular-3-2-1-3 0; }
+#ExtConc-polygons-regular-3-2-1-3 > li::marker { content: "("counter(ExtConc-polygons-regular-3-2-1-3,lower-alpha)")"; }
+#ExtConc-polygons-regular-3-2-1-3 > li { counter-increment: ExtConc-polygons-regular-3-2-1-3; }
+#tri4andcsq-2-3-1 { counter-set: tri4andcsq-2-3-1 0; }
+#tri4andcsq-2-3-1 > li::marker { content: ""counter(tri4andcsq-2-3-1,decimal)"."; }
+#tri4andcsq-2-3-1 > li { counter-increment: tri4andcsq-2-3-1; }
+#tri4andsquaresAandB-2-3-1 { counter-set: tri4andsquaresAandB-2-3-1 0; }
+#tri4andsquaresAandB-2-3-1 > li::marker { content: ""counter(tri4andsquaresAandB-2-3-1,decimal)"."; }
+#tri4andsquaresAandB-2-3-1 > li { counter-increment: tri4andsquaresAandB-2-3-1; }
+#GarfieldTask-2-3-1 { counter-set: GarfieldTask-2-3-1 0; }
+#GarfieldTask-2-3-1 > li::marker { content: ""counter(GarfieldTask-2-3-1,decimal)"."; }
+#GarfieldTask-2-3-1 > li { counter-increment: GarfieldTask-2-3-1; }
+#sqtostairs-Pyth-task-1-3-1 { counter-set: sqtostairs-Pyth-task-1-3-1 0; }
+#sqtostairs-Pyth-task-1-3-1 > li::marker { content: ""counter(sqtostairs-Pyth-task-1-3-1,decimal)"."; }
+#sqtostairs-Pyth-task-1-3-1 > li { counter-increment: sqtostairs-Pyth-task-1-3-1; }
+#polygons-length-BOT-lengthadditivity-2-1-1 { counter-set: polygons-length-BOT-lengthadditivity-2-1-1 0; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li::marker { content: "("counter(polygons-length-BOT-lengthadditivity-2-1-1,lower-alpha)")"; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li { counter-increment: polygons-length-BOT-lengthadditivity-2-1-1; }
+#exer-SAR-Pyth-1-1-2 { counter-set: exer-SAR-Pyth-1-1-2 0; }
+#exer-SAR-Pyth-1-1-2 > li::marker { content: "("counter(exer-SAR-Pyth-1-1-2,lower-alpha)")"; }
+#exer-SAR-Pyth-1-1-2 > li { counter-increment: exer-SAR-Pyth-1-1-2; }
+#ExtConc-polygons-length-3-2-1-5 { counter-set: ExtConc-polygons-length-3-2-1-5 0; }
+#ExtConc-polygons-length-3-2-1-5 > li::marker { content: "("counter(ExtConc-polygons-length-3-2-1-5,lower-alpha)")"; }
+#ExtConc-polygons-length-3-2-1-5 > li { counter-increment: ExtConc-polygons-length-3-2-1-5; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 { counter-set: ExtConc-polygons-length-3-2-1-5-4-1-3 0; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li::marker { content: ""counter(ExtConc-polygons-length-3-2-1-5-4-1-3,lower-roman)"."; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li { counter-increment: ExtConc-polygons-length-3-2-1-5-4-1-3; }
+#ExtConc-polygons-length-4-2-1-2 { counter-set: ExtConc-polygons-length-4-2-1-2 0; }
+#ExtConc-polygons-length-4-2-1-2 > li::marker { content: "("counter(ExtConc-polygons-length-4-2-1-2,lower-alpha)")"; }
+#ExtConc-polygons-length-4-2-1-2 > li { counter-increment: ExtConc-polygons-length-4-2-1-2; }
+#subsec-def-polyhedra-8-1-1-1 { counter-set: subsec-def-polyhedra-8-1-1-1 0; }
+#subsec-def-polyhedra-8-1-1-1 > li::marker { content: ""counter(subsec-def-polyhedra-8-1-1-1,decimal)"."; }
+#subsec-def-polyhedra-8-1-1-1 > li { counter-increment: subsec-def-polyhedra-8-1-1-1; }
+#sec-polyhedra-regular-5-2-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-3-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-4-2-3-3,decimal)"."; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-6-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-1-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1; }
+#exercises-semireg-polyhedra-3-2-2-1-1 { counter-set: exercises-semireg-polyhedra-3-2-2-1-1 0; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-3-2-2-1-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li { counter-increment: exercises-semireg-polyhedra-3-2-2-1-1; }
+#exercises-semireg-polyhedra-4-2-2-3-1 { counter-set: exercises-semireg-polyhedra-4-2-2-3-1 0; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-4-2-2-3-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li { counter-increment: exercises-semireg-polyhedra-4-2-2-3-1; }
+#exp-vol-intuitive-2-1-1-2 { counter-set: exp-vol-intuitive-2-1-1-2 0; }
+#exp-vol-intuitive-2-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-2-1-1-2,decimal)"."; }
+#exp-vol-intuitive-2-1-1-2 > li { counter-increment: exp-vol-intuitive-2-1-1-2; }
+#exp-vol-intuitive-5-1-1-2 { counter-set: exp-vol-intuitive-5-1-1-2 0; }
+#exp-vol-intuitive-5-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-5-1-1-2,decimal)"."; }
+#exp-vol-intuitive-5-1-1-2 > li { counter-increment: exp-vol-intuitive-5-1-1-2; }
+#surf-of-cylinder-1-1-2 { counter-set: surf-of-cylinder-1-1-2 0; }
+#surf-of-cylinder-1-1-2 > li::marker { content: ""counter(surf-of-cylinder-1-1-2,decimal)"."; }
+#surf-of-cylinder-1-1-2 > li { counter-increment: surf-of-cylinder-1-1-2; }
+#SAR-vol-prisms-verbal-1-1-1 { counter-set: SAR-vol-prisms-verbal-1-1-1 0; }
+#SAR-vol-prisms-verbal-1-1-1 > li::marker { content: "("counter(SAR-vol-prisms-verbal-1-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-verbal-1-1-1 > li { counter-increment: SAR-vol-prisms-verbal-1-1-1; }
+#SAR-vol-prisms-visual-1-1 { counter-set: SAR-vol-prisms-visual-1-1 0; }
+#SAR-vol-prisms-visual-1-1 > li::marker { content: "("counter(SAR-vol-prisms-visual-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-visual-1-1 > li { counter-increment: SAR-vol-prisms-visual-1-1; }
+#exer-ExtConc-pent-prism-2-1-14 { counter-set: exer-ExtConc-pent-prism-2-1-14 0; }
+#exer-ExtConc-pent-prism-2-1-14 > li::marker { content: "("counter(exer-ExtConc-pent-prism-2-1-14,lower-alpha)")"; }
+#exer-ExtConc-pent-prism-2-1-14 > li { counter-increment: exer-ExtConc-pent-prism-2-1-14; }
+#expl-volume-recpyr-by-construction-6-1-1-1 { counter-set: expl-volume-recpyr-by-construction-6-1-1-1 0; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li::marker { content: ""counter(expl-volume-recpyr-by-construction-6-1-1-1,decimal)"."; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li { counter-increment: expl-volume-recpyr-by-construction-6-1-1-1; }
+#expl-pyr-volume-calculations-1-1-2 { counter-set: expl-pyr-volume-calculations-1-1-2 0; }
+#expl-pyr-volume-calculations-1-1-2 > li::marker { content: ""counter(expl-pyr-volume-calculations-1-1-2,decimal)"."; }
+#expl-pyr-volume-calculations-1-1-2 > li { counter-increment: expl-pyr-volume-calculations-1-1-2; }
+#expl-rotation-6-1-1-3 { counter-set: expl-rotation-6-1-1-3 0; }
+#expl-rotation-6-1-1-3 > li::marker { content: ""counter(expl-rotation-6-1-1-3,decimal)"."; }
+#expl-rotation-6-1-1-3 > li { counter-increment: expl-rotation-6-1-1-3; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 { counter-set: sec-isom-identifying-isometries-2-3-2-1-1-1 0; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li::marker { content: ""counter(sec-isom-identifying-isometries-2-3-2-1-1-1,decimal)"."; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li { counter-increment: sec-isom-identifying-isometries-2-3-2-1-1-1; }
+#subsec-fixed-points-6-1-1-1-1 { counter-set: subsec-fixed-points-6-1-1-1-1 0; }
+#subsec-fixed-points-6-1-1-1-1 > li::marker { content: ""counter(subsec-fixed-points-6-1-1-1-1,decimal)"."; }
+#subsec-fixed-points-6-1-1-1-1 > li { counter-increment: subsec-fixed-points-6-1-1-1-1; }
+#explor-nested-simtri-5-1-1-1 { counter-set: explor-nested-simtri-5-1-1-1 0; }
+#explor-nested-simtri-5-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-5-1-1-1,decimal)"."; }
+#explor-nested-simtri-5-1-1-1 > li { counter-increment: explor-nested-simtri-5-1-1-1; }
+#explor-nested-simtri-6-1-1-1 { counter-set: explor-nested-simtri-6-1-1-1 0; }
+#explor-nested-simtri-6-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-6-1-1-1,decimal)"."; }
+#explor-nested-simtri-6-1-1-1 > li { counter-increment: explor-nested-simtri-6-1-1-1; }
+#subsubsec-dilations-similar-6-7-1-1-1 { counter-set: subsubsec-dilations-similar-6-7-1-1-1 0; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li::marker { content: ""counter(subsubsec-dilations-similar-6-7-1-1-1,decimal)"."; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li { counter-increment: subsubsec-dilations-similar-6-7-1-1-1; }
+#subsec-Functions-2-3-2-1-2 { counter-set: subsec-Functions-2-3-2-1-2 0; }
+#subsec-Functions-2-3-2-1-2 > li::marker { content: ""counter(subsec-Functions-2-3-2-1-2,decimal)"."; }
+#subsec-Functions-2-3-2-1-2 > li { counter-increment: subsec-Functions-2-3-2-1-2; }
+#example-algrev-sq-sqrt-2-1-1 { counter-set: example-algrev-sq-sqrt-2-1-1 0; }
+#example-algrev-sq-sqrt-2-1-1 > li::marker { content: ""counter(example-algrev-sq-sqrt-2-1-1,decimal)"."; }
+#example-algrev-sq-sqrt-2-1-1 > li { counter-increment: example-algrev-sq-sqrt-2-1-1; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Explorations</span></a></h1>
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
 <p class="byline">Teresa D. Magnus</p>
 </div>
 </div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
@@ -120,8 +425,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">How to use this book</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -210,7 +516,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#sec-polygons-parallel-4" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -255,23 +561,24 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Polyhedra</span></a></div>
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining a Polyhedron</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Nets for Polyhedra</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Some Examples of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
@@ -302,18 +609,27 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Instructor’s Notes</span></a></div>
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interior Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Growth in Different Dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimension-fractal" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Measuring Fractals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-" class="internal"><span class="codenumber">3.5.4</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Instructor’s Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
@@ -373,7 +689,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-isom-symmetry.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Symmetry</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-3" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Two Types of Symmetry</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry of Polygons</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#subsec-symm-transformations" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Symmetry Transformations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-symmetry.html#exer-isom-symm" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -392,15 +708,16 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Similarity</span></a></div>
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(x,y\)</span>-Graph</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Defining Dilation</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Dilation and Proportion</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-distance-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Distance on the Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(xy\)</span>-Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Defining Dilation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Similar Triangles and Dilations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -416,16 +733,17 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-isom-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
+<div class="toc-title-box"><a href="sec-dilation-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -507,7 +825,7 @@ window.MathJax = {
 <article class="task exercise-like" id="tri4andcsq"><h5 class="heading">
 <span class="codenumber">(a)</span><span class="space"> </span><span class="title">First Pythagorean Puzzle.</span>
 </h5>
-<div class="para" id="tri4andcsq-2-1">In <a href="sec-polygons-length.html#PythRTriCsq" class="xref" data-knowl="./knowl/xref/PythRTriCsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.3">Figure 2.5.3</a>, the four blue triangles on the right are congruent copies of the right triangle <span class="process-math">\(\Delta ABC\text{.}\)</span> Check Puzzle_1 to reveal a second square. The side length of this new orange square is <span class="process-math">\(c\text{.}\)</span> To verify this, you can line up the side of the square with the hypotenuse of one of the triangles.</div> <figure class="figure figure-like" id="PythRTriCsq"><iframe id="pyththmgeoapp" width="600" height="600" src="pyththmgeoapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.3<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for <a href="sec-polygons-length.html#tri4andcsq" class="xref" data-knowl="./knowl/xref/tri4andcsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 2.5.1.a: First Pythagorean Puzzle">Task 2.5.1.a</a>.</figcaption></figure> <div class="para logical" id="tri4andcsq-2-3"><ol class="decimal">
+<div class="para" id="tri4andcsq-2-1">In <a href="sec-polygons-length.html#PythRTriCsq" class="xref" data-knowl="./knowl/xref/PythRTriCsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.3">Figure 2.5.3</a>, the four blue triangles on the right are congruent copies of the right triangle <span class="process-math">\(\Delta ABC\text{.}\)</span> Check Puzzle_1 to reveal a second square. The side length of this new orange square is <span class="process-math">\(c\text{.}\)</span> To verify this, you can line up the side of the square with the hypotenuse of one of the triangles.</div> <figure class="figure figure-like" id="PythRTriCsq"><iframe id="pyththmgeoapp" width="600" height="600" src="pyththmgeoapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.3<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for <a href="sec-polygons-length.html#tri4andcsq" class="xref" data-knowl="./knowl/xref/tri4andcsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 2.5.1.a: First Pythagorean Puzzle">Task 2.5.1.a</a>.</figcaption></figure> <div class="para logical" id="tri4andcsq-2-3"><ol class="decimal" id="tri4andcsq-2-3-1">
 <li id="tri4andcsq-2-3-1-1"><div class="para" id="tri4andcsq-2-3-1-1-1">Fill the square on the left using the four blue copies of the triangle and the orange square on the right. Pieces can be moved by selecting the interior and they can be rotated by moving the dotted vertex. The red triangle labeled <span class="process-math">\(\Delta ABC\)</span> is only shown for reference and will not be used. As always, there should be no gaps or overlaps. Preserve your work with a sketch or screenshot.</div></li>
 <li id="tri4andcsq-2-3-1-2"><div class="para" id="tri4andcsq-2-3-1-2-1">What is the length of a side of the square that you filled? Give your answer in terms of lengths <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and/or <span class="process-math">\(c\text{.}\)</span>
 </div></li>
@@ -515,7 +833,7 @@ window.MathJax = {
 </ol></div></article><article class="task exercise-like" id="tri4andsquaresAandB"><h5 class="heading">
 <span class="codenumber">(b)</span><span class="space"> </span><span class="title">Second Pythagorean Puzzle.</span>
 </h5>
-<div class="para" id="tri4andsquaresAandB-2-1">For this puzzle, select Puzzle_2 in <a href="sec-polygons-length.html#PythRTriABsq" class="xref" data-knowl="./knowl/xref/PythRTriABsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.4">Figure 2.5.4</a>. The orange square should no longer be visible. Instead, a green square with side length <span class="process-math">\(a\text{,}\)</span> corresponding to the shorter leg of <span class="process-math">\(\Delta ABC\text{.}\)</span> The purple square below it has a side length <span class="process-math">\(b\)</span> corresponding to the other leg.</div>  <figure class="figure figure-like" id="PythRTriABsq"><iframe id="pythproofgeoapp" width="600" height="600" src="pythproofgeoapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.4<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for <a href="sec-polygons-length.html#tri4andsquaresAandB" class="xref" data-knowl="./knowl/xref/tri4andsquaresAandB.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 2.5.1.b: Second Pythagorean Puzzle">Task 2.5.1.b</a>.</figcaption></figure> <div class="para logical" id="tri4andsquaresAandB-2-3"><ol class="decimal">
+<div class="para" id="tri4andsquaresAandB-2-1">For this puzzle, select Puzzle_2 in <a href="sec-polygons-length.html#PythRTriABsq" class="xref" data-knowl="./knowl/xref/PythRTriABsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.4">Figure 2.5.4</a>. The orange square should no longer be visible. Instead, a green square with side length <span class="process-math">\(a\text{,}\)</span> corresponding to the shorter leg of <span class="process-math">\(\Delta ABC\text{.}\)</span> The purple square below it has a side length <span class="process-math">\(b\)</span> corresponding to the other leg.</div>  <figure class="figure figure-like" id="PythRTriABsq"><iframe id="pythproofgeoapp" width="600" height="600" src="pythproofgeoapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.4<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for <a href="sec-polygons-length.html#tri4andsquaresAandB" class="xref" data-knowl="./knowl/xref/tri4andsquaresAandB.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 2.5.1.b: Second Pythagorean Puzzle">Task 2.5.1.b</a>.</figcaption></figure> <div class="para logical" id="tri4andsquaresAandB-2-3"><ol class="decimal" id="tri4andsquaresAandB-2-3-1">
 <li id="tri4andsquaresAandB-2-3-1-1"><div class="para" id="tri4andsquaresAandB-2-3-1-1-1">Fill the square frame on the lower left with the four congruent right triangles and the squares with lengths <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> respectively. Preserve your work with a sketch or screenshot.</div></li>
 <li id="tri4andsquaresAandB-2-3-1-2"><div class="para" id="tri4andsquaresAandB-2-3-1-2-1">What is the length of a side of the square that you filled? Give your answer in terms of lengths <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and/or <span class="process-math">\(c\text{.}\)</span>
 </div></li>
@@ -527,14 +845,14 @@ window.MathJax = {
 </div> <aside class="aside aside-like" id="sec-polygons-length-5-4-5-2-2"><div class="para" id="sec-polygons-length-5-4-5-2-2-1">An alternative is to use just the first puzzle and more algebra to prove the Pythagorean Theorem. This is acceptable, but Education majors may appreciate that the method of using both puzzles together can be used to convince third graders.</div></aside><div class="solutions"><details id="sec-polygons-length-5-4-5-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polygons-length-5-4-5-3-1">We could change the size and shape of the right triangle by moving any of the vertices <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> or <span class="process-math">\(C\)</span> in the red triangle.  Note that the sizes of the squares will also change according to the new lengths of the sides of the triangle. Will the length of each side of the black square frames still be expressed with the algebraic formula you indicated above? Can the new pieces be moved so that the new frame can be filled using the Puzzle 1 pieces and separately using the Puzzle 2 pieces? Give an algebraic argument for why the frame for Puzzle 1 and Puzzle 2 must be the same for any specified right triangle. Why does this allow us to set the two sums of areas equal to each other?</div></div></details></div></article><article class="task exercise-like" id="GarfieldTask"><h5 class="heading">
 <span class="codenumber">(d)</span><span class="space"> </span><span class="title">A Presidential Proof.</span>
 </h5>
-<div class="para" id="GarfieldTask-2-1">This proof of the Pythagorean Theorem is attributed to James A. Garfield, the twentieth President of the United States. Refer to the diagram below:</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/Garfield.svg" role="img" class="contained" alt="Right triangle ABC with right angle at C. Point D is placed on ray CA so that the length of AD equals the length of BC. Point E is placed on the same side of CD as B so that line DE is perpendicular to AD and segment DE is the same length as AC. Points E and B are joined by a segment. This creates two congruent right triangles ABC and EAD and an isoceles right triangle BAE. The outer boundary is a trapezoid BCDE since BC and DE are parallel."></div> <div class="para logical" id="GarfieldTask-2-3"><ol class="decimal">
+<div class="para" id="GarfieldTask-2-1">This proof of the Pythagorean Theorem is attributed to James A. Garfield, the twentieth President of the United States. Refer to the diagram below:</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/Garfield.svg" role="img" class="contained" alt="Right triangle ABC with right angle at C. Point D is placed on ray CA so that the length of AD equals the length of BC. Point E is placed on the same side of CD as B so that line DE is perpendicular to AD and segment DE is the same length as AC. Points E and B are joined by a segment. This creates two congruent right triangles ABC and EAD and an isoceles right triangle BAE. The outer boundary is a trapezoid BCDE since BC and DE are parallel."></div> <div class="para logical" id="GarfieldTask-2-3"><ol class="decimal" id="GarfieldTask-2-3-1">
 <li id="GarfieldTask-2-3-1-1"><div class="para" id="GarfieldTask-2-3-1-1-1">The diagram above consists of two congruent right triangles and one isosceles right triangle arranged to form a trapezoid. Label the hypotenuses with the letter <span class="process-math">\(c\text{.}\)</span> Label the smallest side of these triangles <span class="process-math">\(a\)</span> and the other leg <span class="process-math">\(b\text{.}\)</span> Note that the hypotenuse of the remaining right triangle is longer than <span class="process-math">\(c\text{.}\)</span> Instead, call its length <span class="process-math">\(d\)</span> to distinguish between the two numbers.</div></li>
 <li id="GarfieldTask-2-3-1-2"><div class="para" id="GarfieldTask-2-3-1-2-1">Identify the two parallel bases for the trapezoid. Determine the height of this trapezoid in terms of the labels you put on the diagram.</div></li>
 <li id="GarfieldTask-2-3-1-3"><div class="para" id="GarfieldTask-2-3-1-3-1">Compute the area of the trapezoid using the trapezoid formula leaving your answer in terms of the variables you used to label the diagram.</div></li>
 <li id="GarfieldTask-2-3-1-4"><div class="para" id="GarfieldTask-2-3-1-4-1">Similarly, compute the areas of each of the three triangular pieces and add them together.</div></li>
 <li id="GarfieldTask-2-3-1-5"><div class="para" id="GarfieldTask-2-3-1-5-1">How does this prove the Pythagorean Theorem?</div></li>
 </ol></div></article><article class="task exercise-like" id="sqtostairs-Pyth-task"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="sqtostairs-Pyth-task-1-1">The final proof of the Pythagorean Theorem is primarily visual. Almost no algebra is required. The GeoGebra interactive in <a href="sec-polygons-length.html#PythBlocks" class="xref" data-knowl="./knowl/xref/PythBlocks.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.5">Figure 2.5.5</a> provides four copies of a right triangle and a smaller square of unlabeled side length that can be moved and rotated.</div> <figure class="figure figure-like" id="PythBlocks"><iframe id="stairsteppyththmapp" width="600" height="600" src="stairsteppyththmapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.5<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for proving the Pythagorean Theorem.</figcaption></figure> <div class="para logical" id="sqtostairs-Pyth-task-1-3"><ol class="decimal">
+<div class="para" id="sqtostairs-Pyth-task-1-1">The final proof of the Pythagorean Theorem is primarily visual. Almost no algebra is required. The GeoGebra interactive in <a href="sec-polygons-length.html#PythBlocks" class="xref" data-knowl="./knowl/xref/PythBlocks.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.5">Figure 2.5.5</a> provides four copies of a right triangle and a smaller square of unlabeled side length that can be moved and rotated.</div> <figure class="figure figure-like" id="PythBlocks"><iframe id="stairsteppyththmapp" width="600" height="600" src="stairsteppyththmapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.5<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for proving the Pythagorean Theorem.</figcaption></figure> <div class="para logical" id="sqtostairs-Pyth-task-1-3"><ol class="decimal" id="sqtostairs-Pyth-task-1-3-1">
 <li id="sqtostairs-Pyth-task-1-3-1-1"><div class="para" id="sqtostairs-Pyth-task-1-3-1-1-1">Rearrange the four congruent triangle copies and the small square to form a square. Verify that your shape is definitely a square. Do not use <span class="process-math">\(\Delta ABC\text{.}\)</span> Drag the centers of shapes to move them and use the labeled corners to rotate. Save a copy of your work.</div></li>
 <li id="sqtostairs-Pyth-task-1-3-1-2"><div class="para" id="sqtostairs-Pyth-task-1-3-1-2-1">What is the length of a side of this square?</div></li>
 <li id="sqtostairs-Pyth-task-1-3-1-3"><div class="para" id="sqtostairs-Pyth-task-1-3-1-3-1">What is the area of the square you created?</div></li>
@@ -560,7 +878,7 @@ window.MathJax = {
 <div class="para" id="polygons-length-BOT-Pyth-2-1">Write down the formula for the Pythagorean Theorem. Use an example and sketch as you explain when the theorem can be used, what the variables represent, and how to use the formula to solve a problem.</div></article><article class="exercise exercise-like" id="polygons-length-BOT-lengthadditivity"><h5 class="heading">
 <span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Principle of Additivity of Length.</span>
 </h5>
-<div class="para logical" id="polygons-length-BOT-lengthadditivity-2-1"><ol class="lower-alpha">
+<div class="para logical" id="polygons-length-BOT-lengthadditivity-2-1"><ol class="lower-alpha" id="polygons-length-BOT-lengthadditivity-2-1-1">
 <li id="polygons-length-BOT-lengthadditivity-2-1-1-1"><div class="para" id="polygons-length-BOT-lengthadditivity-2-1-1-1-1">Use a picture to demonstrate why a segment formed by extending a segment of length <span class="process-math">\(a\)</span> units by a segment of <span class="process-math">\(b\)</span> more units produces a segment of length <span class="process-math">\(a+b\)</span> units.</div></li>
 <li id="polygons-length-BOT-lengthadditivity-2-1-1-2"><div class="para" id="polygons-length-BOT-lengthadditivity-2-1-1-2-1">What happens when segments <span class="process-math">\(\overline{AB}\)</span> of length 3 inches, <span class="process-math">\(\overline{BC}\)</span> of length 5 inches, and <span class="process-math">\(\overline{AC}\)</span> of length 6 inches are joined at the endpoints, <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\text{?}\)</span> Is this still a straight line?</div></li>
 <li id="polygons-length-BOT-lengthadditivity-2-1-1-3"><div class="para" id="polygons-length-BOT-lengthadditivity-2-1-1-3-1">Again let <span class="process-math">\(\overline{AB}\)</span> have length 3 inches and <span class="process-math">\(\overline{BC}\)</span> have length 5 inches. Can you create segment <span class="process-math">\(\overline{AC}\)</span> with length 10 inches? Explain.</div></li>
@@ -568,7 +886,7 @@ window.MathJax = {
 <article class="exercise exercise-like" id="exer-SAR-Pyth"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
 <div class="para logical" id="exer-SAR-Pyth-1-1">
 <div class="para">Determine the following in <a href="sec-polygons-length.html#fig-SAR-Pyth" class="xref" data-knowl="./knowl/xref/fig-SAR-Pyth.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.7">Figure 2.5.7</a>:</div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="exer-SAR-Pyth-1-1-2">
 <li id="exer-SAR-Pyth-1-1-2-1"><div class="para" id="exer-SAR-Pyth-1-1-2-1-1">The length of <span class="process-math">\(\overline{AC}\text{.}\)</span>
 </div></li>
 <li id="exer-SAR-Pyth-1-1-2-2"><div class="para" id="exer-SAR-Pyth-1-1-2-2-1">The length of <span class="process-math">\(\overline{DF}\text{.}\)</span>
@@ -595,14 +913,14 @@ window.MathJax = {
 <div class="para logical" id="ExtConc-polygons-length-3-2-1">
 <div class="para">A Pythagorean triple is a set of three positive integers <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> such that <span class="process-math">\(a^2+b^2=c^2\text{.}\)</span>
 </div>
-<ol class="lower-alpha">
+<ol class="lower-alpha" id="ExtConc-polygons-length-3-2-1-5">
 <li id="ExtConc-polygons-length-3-2-1-5-1"><div class="para" id="ExtConc-polygons-length-3-2-1-5-1-1">Find <span class="process-math">\(c\)</span> that forms a Pythagorean triple with the numbers <span class="process-math">\(a=45\)</span> and <span class="process-math">\(b=200\text{.}\)</span> Show your work.</div></li>
 <li id="ExtConc-polygons-length-3-2-1-5-2"><div class="para" id="ExtConc-polygons-length-3-2-1-5-2-1">Find the number <span class="process-math">\(a\)</span> that forms a Pythagorean triple with the numbers <span class="process-math">\(b=32\)</span> and <span class="process-math">\(c=130\text{.}\)</span> Show your work.</div></li>
 <li id="ExtConc-polygons-length-3-2-1-5-3"><div class="para" id="ExtConc-polygons-length-3-2-1-5-3-1">Demonstrate by an example that it is not always possible to create a Pythagorean triple from two given integers. In other words, name two integers, <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> such that <span class="process-math">\(a^2+b^2\)</span> is not equal to a perfect square.</div></li>
 <li id="ExtConc-polygons-length-3-2-1-5-4"><div class="para logical" id="ExtConc-polygons-length-3-2-1-5-4-1">
 <div class="para">Choose two positive integers. Call the smaller one <span class="process-math">\(j\)</span> and the larger one <span class="process-math">\(k\text{.}\)</span>
 </div>
-<ol class="lower-roman">
+<ol class="lower-roman" id="ExtConc-polygons-length-3-2-1-5-4-1-3">
 <li id="ExtConc-polygons-length-3-2-1-5-4-1-3-1"><div class="para" id="ExtConc-polygons-length-3-2-1-5-4-1-3-1-1">Compute <span class="process-math">\(2jk\)</span> and call it <span class="process-math">\(a\text{.}\)</span>
 </div></li>
 <li id="ExtConc-polygons-length-3-2-1-5-4-1-3-2"><div class="para" id="ExtConc-polygons-length-3-2-1-5-4-1-3-2-1">Compute <span class="process-math">\(k-j\)</span> and call it <span class="process-math">\(b\text{.}\)</span>
@@ -618,7 +936,7 @@ window.MathJax = {
 </h5>
 <div class="para logical" id="ExtConc-polygons-length-4-2-1">
 <div class="para">A regular hexagon with side length 6 units is pictured in <a href="sec-polygons-length.html#fig-SAR-HexArea" class="xref" data-knowl="./knowl/xref/fig-SAR-HexArea.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.9">Figure 2.5.9</a>. Determine the following:</div>
-<ol class="lower-alpha"><li id="ExtConc-polygons-length-4-2-1-2-1">
+<ol class="lower-alpha" id="ExtConc-polygons-length-4-2-1-2"><li id="ExtConc-polygons-length-4-2-1-2-1">
 <div class="para" id="ExtConc-polygons-length-4-2-1-2-1-1">The height of the hexagon.</div>
 <div class="para" id="ExtConc-polygons-length-4-2-1-2-1-2">The area of the hexagon.</div>
 </li></ol>

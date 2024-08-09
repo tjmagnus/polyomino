@@ -88,11 +88,316 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-intro-explore-3-3-4-1-2-1 { counter-set: sec-intro-explore-3-3-4-1-2-1 0; }
+#sec-intro-explore-3-3-4-1-2-1 > li::marker { content: ""counter(sec-intro-explore-3-3-4-1-2-1,decimal)"."; }
+#sec-intro-explore-3-3-4-1-2-1 > li { counter-increment: sec-intro-explore-3-3-4-1-2-1; }
+#sec-intro-explore-3-3-5-1-1-1 { counter-set: sec-intro-explore-3-3-5-1-1-1 0; }
+#sec-intro-explore-3-3-5-1-1-1 > li::marker { content: ""counter(sec-intro-explore-3-3-5-1-1-1,decimal)"."; }
+#sec-intro-explore-3-3-5-1-1-1 > li { counter-increment: sec-intro-explore-3-3-5-1-1-1; }
+#SAR-intro-exp-8-1-1-1 { counter-set: SAR-intro-exp-8-1-1-1 0; }
+#SAR-intro-exp-8-1-1-1 > li::marker { content: "("counter(SAR-intro-exp-8-1-1-1,lower-alpha)")"; }
+#SAR-intro-exp-8-1-1-1 > li { counter-increment: SAR-intro-exp-8-1-1-1; }
+#SAR-intro-exp-areamodel-2-1-2 { counter-set: SAR-intro-exp-areamodel-2-1-2 0; }
+#SAR-intro-exp-areamodel-2-1-2 > li::marker { content: "("counter(SAR-intro-exp-areamodel-2-1-2,lower-alpha)")"; }
+#SAR-intro-exp-areamodel-2-1-2 > li { counter-increment: SAR-intro-exp-areamodel-2-1-2; }
+#intro-apply-explore-tangram-3-1-1-1 { counter-set: intro-apply-explore-tangram-3-1-1-1 0; }
+#intro-apply-explore-tangram-3-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-3-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-3-1-1-1 > li { counter-increment: intro-apply-explore-tangram-3-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-5-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-5-1-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1-7-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li::marker { content: "("counter(intro-apply-explore-tangram-5-1-1-1-7-1-1,lower-alpha)")"; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1-7-1-1; }
+#SAR-intro-apply-3-1-1-1 { counter-set: SAR-intro-apply-3-1-1-1 0; }
+#SAR-intro-apply-3-1-1-1 > li::marker { content: "("counter(SAR-intro-apply-3-1-1-1,lower-alpha)")"; }
+#SAR-intro-apply-3-1-1-1 > li { counter-increment: SAR-intro-apply-3-1-1-1; }
+#label-altitude-etc-1-1-5 { counter-set: label-altitude-etc-1-1-5 0; }
+#label-altitude-etc-1-1-5 > li::marker { content: "("counter(label-altitude-etc-1-1-5,lower-alpha)")"; }
+#label-altitude-etc-1-1-5 > li { counter-increment: label-altitude-etc-1-1-5; }
+#SAR-intro-apply-Tangramareas-1-1-2 { counter-set: SAR-intro-apply-Tangramareas-1-1-2 0; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li::marker { content: "("counter(SAR-intro-apply-Tangramareas-1-1-2,lower-alpha)")"; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li { counter-increment: SAR-intro-apply-Tangramareas-1-1-2; }
+#ExtConc-intro-apply-4-1-1-1 { counter-set: ExtConc-intro-apply-4-1-1-1 0; }
+#ExtConc-intro-apply-4-1-1-1 > li::marker { content: "("counter(ExtConc-intro-apply-4-1-1-1,lower-alpha)")"; }
+#ExtConc-intro-apply-4-1-1-1 > li { counter-increment: ExtConc-intro-apply-4-1-1-1; }
+#sum-odds-1-1-1-1 { counter-set: sum-odds-1-1-1-1 0; }
+#sum-odds-1-1-1-1 > li::marker { content: ""counter(sum-odds-1-1-1-1,decimal)"."; }
+#sum-odds-1-1-1-1 > li { counter-increment: sum-odds-1-1-1-1; }
+#sum-odds-2-1-1-1 { counter-set: sum-odds-2-1-1-1 0; }
+#sum-odds-2-1-1-1 > li::marker { content: ""counter(sum-odds-2-1-1-1,decimal)"."; }
+#sum-odds-2-1-1-1 > li { counter-increment: sum-odds-2-1-1-1; }
+#subsec-explainconjectures-7-2-1-3 { counter-set: subsec-explainconjectures-7-2-1-3 0; }
+#subsec-explainconjectures-7-2-1-3 > li::marker { content: ""counter(subsec-explainconjectures-7-2-1-3,decimal)"."; }
+#subsec-explainconjectures-7-2-1-3 > li { counter-increment: subsec-explainconjectures-7-2-1-3; }
+#subsec-explainconjectures-7-3-1-1-2 { counter-set: subsec-explainconjectures-7-3-1-1-2 0; }
+#subsec-explainconjectures-7-3-1-1-2 > li::marker { content: ""counter(subsec-explainconjectures-7-3-1-1-2,decimal)"."; }
+#subsec-explainconjectures-7-3-1-1-2 > li { counter-increment: subsec-explainconjectures-7-3-1-1-2; }
+#subsec-explainconjectures-7-4-1-2-2 { counter-set: subsec-explainconjectures-7-4-1-2-2 0; }
+#subsec-explainconjectures-7-4-1-2-2 > li::marker { content: ""counter(subsec-explainconjectures-7-4-1-2-2,decimal)"."; }
+#subsec-explainconjectures-7-4-1-2-2 > li { counter-increment: subsec-explainconjectures-7-4-1-2-2; }
+#exer-tri-numbers-2-3-1 { counter-set: exer-tri-numbers-2-3-1 0; }
+#exer-tri-numbers-2-3-1 > li::marker { content: "("counter(exer-tri-numbers-2-3-1,lower-alpha)")"; }
+#exer-tri-numbers-2-3-1 > li { counter-increment: exer-tri-numbers-2-3-1; }
+#exer-tri-numbers-2-3-1-4-1-5 { counter-set: exer-tri-numbers-2-3-1-4-1-5 0; }
+#exer-tri-numbers-2-3-1-4-1-5 > li::marker { content: ""counter(exer-tri-numbers-2-3-1-4-1-5,lower-roman)"."; }
+#exer-tri-numbers-2-3-1-4-1-5 > li { counter-increment: exer-tri-numbers-2-3-1-4-1-5; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 { counter-set: intro-struggle-exp-geoboardsq-3-1-2-1 0; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-3-1-2-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 > li { counter-increment: intro-struggle-exp-geoboardsq-3-1-2-1; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-4-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-4-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-4-1-3-1; }
+#SAR-intro-struggle-squarert-1-1-1 { counter-set: SAR-intro-struggle-squarert-1-1-1 0; }
+#SAR-intro-struggle-squarert-1-1-1 > li::marker { content: "("counter(SAR-intro-struggle-squarert-1-1-1,lower-alpha)")"; }
+#SAR-intro-struggle-squarert-1-1-1 > li { counter-increment: SAR-intro-struggle-squarert-1-1-1; }
+#ExtConc-intro-struggle-2-2-1-2 { counter-set: ExtConc-intro-struggle-2-2-1-2 0; }
+#ExtConc-intro-struggle-2-2-1-2 > li::marker { content: "("counter(ExtConc-intro-struggle-2-2-1-2,lower-alpha)")"; }
+#ExtConc-intro-struggle-2-2-1-2 > li { counter-increment: ExtConc-intro-struggle-2-2-1-2; }
+#parallelogramtypes-1-1-1 { counter-set: parallelogramtypes-1-1-1 0; }
+#parallelogramtypes-1-1-1 > li::marker { content: ""counter(parallelogramtypes-1-1-1,decimal)"."; }
+#parallelogramtypes-1-1-1 > li { counter-increment: parallelogramtypes-1-1-1; }
+#subsec-area-tri-2-3-1-1-1 { counter-set: subsec-area-tri-2-3-1-1-1 0; }
+#subsec-area-tri-2-3-1-1-1 > li::marker { content: ""counter(subsec-area-tri-2-3-1-1-1,decimal)"."; }
+#subsec-area-tri-2-3-1-1-1 > li { counter-increment: subsec-area-tri-2-3-1-1-1; }
+#subsec-irregular-area-4-5-1-1-1 { counter-set: subsec-irregular-area-4-5-1-1-1 0; }
+#subsec-irregular-area-4-5-1-1-1 > li::marker { content: ""counter(subsec-irregular-area-4-5-1-1-1,decimal)"."; }
+#subsec-irregular-area-4-5-1-1-1 > li { counter-increment: subsec-irregular-area-4-5-1-1-1; }
+#HW-compute-area-1-1-1 { counter-set: HW-compute-area-1-1-1 0; }
+#HW-compute-area-1-1-1 > li::marker { content: "("counter(HW-compute-area-1-1-1,lower-alpha)")"; }
+#HW-compute-area-1-1-1 > li { counter-increment: HW-compute-area-1-1-1; }
+#SAR-polygons-area-3-1-1-3 { counter-set: SAR-polygons-area-3-1-1-3 0; }
+#SAR-polygons-area-3-1-1-3 > li::marker { content: "("counter(SAR-polygons-area-3-1-1-3,lower-alpha)")"; }
+#SAR-polygons-area-3-1-1-3 > li { counter-increment: SAR-polygons-area-3-1-1-3; }
+#SAR-polygons-area-4-1-1-1 { counter-set: SAR-polygons-area-4-1-1-1 0; }
+#SAR-polygons-area-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-area-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-area-4-1-1-1 > li { counter-increment: SAR-polygons-area-4-1-1-1; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-2-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-2-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-2-1-1; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-3-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-3-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-3-1-1; }
+#expl-angsum-triangle-3-1-1-4 { counter-set: expl-angsum-triangle-3-1-1-4 0; }
+#expl-angsum-triangle-3-1-1-4 > li::marker { content: ""counter(expl-angsum-triangle-3-1-1-4,decimal)"."; }
+#expl-angsum-triangle-3-1-1-4 > li { counter-increment: expl-angsum-triangle-3-1-1-4; }
+#HW-SAR-angles-linepoints-1-1-2 { counter-set: HW-SAR-angles-linepoints-1-1-2 0; }
+#HW-SAR-angles-linepoints-1-1-2 > li::marker { content: "("counter(HW-SAR-angles-linepoints-1-1-2,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-1-1-2 > li { counter-increment: HW-SAR-angles-linepoints-1-1-2; }
+#HW-SAR-angles-linepoints-2-1-1 { counter-set: HW-SAR-angles-linepoints-2-1-1 0; }
+#HW-SAR-angles-linepoints-2-1-1 > li::marker { content: "("counter(HW-SAR-angles-linepoints-2-1-1,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-2-1-1 > li { counter-increment: HW-SAR-angles-linepoints-2-1-1; }
+#HW-SAR-linepart-type-1-1-2 { counter-set: HW-SAR-linepart-type-1-1-2 0; }
+#HW-SAR-linepart-type-1-1-2 > li::marker { content: "("counter(HW-SAR-linepart-type-1-1-2,lower-alpha)")"; }
+#HW-SAR-linepart-type-1-1-2 > li { counter-increment: HW-SAR-linepart-type-1-1-2; }
+#HW-SAR-linepart-type-2-1-1 { counter-set: HW-SAR-linepart-type-2-1-1 0; }
+#HW-SAR-linepart-type-2-1-1 > li::marker { content: "("counter(HW-SAR-linepart-type-2-1-1,lower-alpha)")"; }
+#HW-SAR-linepart-type-2-1-1 > li { counter-increment: HW-SAR-linepart-type-2-1-1; }
+#exer-SAR-missingangles-1-1-3 { counter-set: exer-SAR-missingangles-1-1-3 0; }
+#exer-SAR-missingangles-1-1-3 > li::marker { content: "("counter(exer-SAR-missingangles-1-1-3,lower-alpha)")"; }
+#exer-SAR-missingangles-1-1-3 > li { counter-increment: exer-SAR-missingangles-1-1-3; }
+#exer-SAR-missingangles-2-1-1 { counter-set: exer-SAR-missingangles-2-1-1 0; }
+#exer-SAR-missingangles-2-1-1 > li::marker { content: "("counter(exer-SAR-missingangles-2-1-1,lower-alpha)")"; }
+#exer-SAR-missingangles-2-1-1 > li { counter-increment: exer-SAR-missingangles-2-1-1; }
+#ExtConc-polygons-angles-3-1-3-4 { counter-set: ExtConc-polygons-angles-3-1-3-4 0; }
+#ExtConc-polygons-angles-3-1-3-4 > li::marker { content: "("counter(ExtConc-polygons-angles-3-1-3-4,lower-alpha)")"; }
+#ExtConc-polygons-angles-3-1-3-4 > li { counter-increment: ExtConc-polygons-angles-3-1-3-4; }
+#subsec-review-lines-2-3-1-1-1 { counter-set: subsec-review-lines-2-3-1-1-1 0; }
+#subsec-review-lines-2-3-1-1-1 > li::marker { content: ""counter(subsec-review-lines-2-3-1-1-1,decimal)"."; }
+#subsec-review-lines-2-3-1-1-1 > li { counter-increment: subsec-review-lines-2-3-1-1-1; }
+#parallel-explor-lines-sphere-4-1-1-2 { counter-set: parallel-explor-lines-sphere-4-1-1-2 0; }
+#parallel-explor-lines-sphere-4-1-1-2 > li::marker { content: ""counter(parallel-explor-lines-sphere-4-1-1-2,decimal)"."; }
+#parallel-explor-lines-sphere-4-1-1-2 > li { counter-increment: parallel-explor-lines-sphere-4-1-1-2; }
+#parallel-explor-spherical-triangles-6-1-2-1 { counter-set: parallel-explor-spherical-triangles-6-1-2-1 0; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li::marker { content: ""counter(parallel-explor-spherical-triangles-6-1-2-1,decimal)"."; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li { counter-increment: parallel-explor-spherical-triangles-6-1-2-1; }
+#subsec-understanding-parallel-8-2-1-2 { counter-set: subsec-understanding-parallel-8-2-1-2 0; }
+#subsec-understanding-parallel-8-2-1-2 > li::marker { content: ""counter(subsec-understanding-parallel-8-2-1-2,decimal)"."; }
+#subsec-understanding-parallel-8-2-1-2 > li { counter-increment: subsec-understanding-parallel-8-2-1-2; }
+#subsec-understanding-parallel-10-2-1-3-1 { counter-set: subsec-understanding-parallel-10-2-1-3-1 0; }
+#subsec-understanding-parallel-10-2-1-3-1 > li::marker { content: ""counter(subsec-understanding-parallel-10-2-1-3-1,decimal)"."; }
+#subsec-understanding-parallel-10-2-1-3-1 > li { counter-increment: subsec-understanding-parallel-10-2-1-3-1; }
+#subsec-understanding-parallel-10-3-1-1-3 { counter-set: subsec-understanding-parallel-10-3-1-1-3 0; }
+#subsec-understanding-parallel-10-3-1-1-3 > li::marker { content: ""counter(subsec-understanding-parallel-10-3-1-1-3,decimal)"."; }
+#subsec-understanding-parallel-10-3-1-1-3 > li { counter-increment: subsec-understanding-parallel-10-3-1-1-3; }
+#SAR-polygons-parallel-2-1-1-4 { counter-set: SAR-polygons-parallel-2-1-1-4 0; }
+#SAR-polygons-parallel-2-1-1-4 > li::marker { content: "("counter(SAR-polygons-parallel-2-1-1-4,lower-alpha)")"; }
+#SAR-polygons-parallel-2-1-1-4 > li { counter-increment: SAR-polygons-parallel-2-1-1-4; }
+#SAR-polygons-parallel-3-1-1-2 { counter-set: SAR-polygons-parallel-3-1-1-2 0; }
+#SAR-polygons-parallel-3-1-1-2 > li::marker { content: "("counter(SAR-polygons-parallel-3-1-1-2,lower-alpha)")"; }
+#SAR-polygons-parallel-3-1-1-2 > li { counter-increment: SAR-polygons-parallel-3-1-1-2; }
+#exer-transv-angle-measures-1-2-1 { counter-set: exer-transv-angle-measures-1-2-1 0; }
+#exer-transv-angle-measures-1-2-1 > li::marker { content: "("counter(exer-transv-angle-measures-1-2-1,lower-alpha)")"; }
+#exer-transv-angle-measures-1-2-1 > li { counter-increment: exer-transv-angle-measures-1-2-1; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2; }
+#explor-reg-tilings-5-1-3-1 { counter-set: explor-reg-tilings-5-1-3-1 0; }
+#explor-reg-tilings-5-1-3-1 > li::marker { content: ""counter(explor-reg-tilings-5-1-3-1,decimal)"."; }
+#explor-reg-tilings-5-1-3-1 > li { counter-increment: explor-reg-tilings-5-1-3-1; }
+#explor-reg-tilings-7-1-1-1 { counter-set: explor-reg-tilings-7-1-1-1 0; }
+#explor-reg-tilings-7-1-1-1 > li::marker { content: ""counter(explor-reg-tilings-7-1-1-1,decimal)"."; }
+#explor-reg-tilings-7-1-1-1 > li { counter-increment: explor-reg-tilings-7-1-1-1; }
+#task-vertex-measure-regular-polygons-more-1-1-3 { counter-set: task-vertex-measure-regular-polygons-more-1-1-3 0; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li::marker { content: ""counter(task-vertex-measure-regular-polygons-more-1-1-3,decimal)"."; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li { counter-increment: task-vertex-measure-regular-polygons-more-1-1-3; }
+#tile-w-3tri-2sq-1-1-2 { counter-set: tile-w-3tri-2sq-1-1-2 0; }
+#tile-w-3tri-2sq-1-1-2 > li::marker { content: ""counter(tile-w-3tri-2sq-1-1-2,decimal)"."; }
+#tile-w-3tri-2sq-1-1-2 > li { counter-increment: tile-w-3tri-2sq-1-1-2; }
+#subsec-semireg-rules-4-2-1-1-2 { counter-set: subsec-semireg-rules-4-2-1-1-2 0; }
+#subsec-semireg-rules-4-2-1-1-2 > li::marker { content: ""counter(subsec-semireg-rules-4-2-1-1-2,decimal)"."; }
+#subsec-semireg-rules-4-2-1-1-2 > li { counter-increment: subsec-semireg-rules-4-2-1-1-2; }
+#subsec-semireg-rules-4-3-1-1-1 { counter-set: subsec-semireg-rules-4-3-1-1-1 0; }
+#subsec-semireg-rules-4-3-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-3-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-3-1-1-1 > li { counter-increment: subsec-semireg-rules-4-3-1-1-1; }
+#subsec-semireg-rules-4-4-1-1-1 { counter-set: subsec-semireg-rules-4-4-1-1-1 0; }
+#subsec-semireg-rules-4-4-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-4-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-4-1-1-1 > li { counter-increment: subsec-semireg-rules-4-4-1-1-1; }
+#SAR-polygons-regular-2-1-1-1 { counter-set: SAR-polygons-regular-2-1-1-1 0; }
+#SAR-polygons-regular-2-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-2-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-2-1-1-1 > li { counter-increment: SAR-polygons-regular-2-1-1-1; }
+#SAR-polygons-regular-3-1-1-1 { counter-set: SAR-polygons-regular-3-1-1-1 0; }
+#SAR-polygons-regular-3-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-3-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-3-1-1-1 > li { counter-increment: SAR-polygons-regular-3-1-1-1; }
+#SAR-polygons-regular-4-1-1-1 { counter-set: SAR-polygons-regular-4-1-1-1 0; }
+#SAR-polygons-regular-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-4-1-1-1 > li { counter-increment: SAR-polygons-regular-4-1-1-1; }
+#SAR-polygons-regular-5-1-1-1 { counter-set: SAR-polygons-regular-5-1-1-1 0; }
+#SAR-polygons-regular-5-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-5-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-5-1-1-1 > li { counter-increment: SAR-polygons-regular-5-1-1-1; }
+#SAR-polygons-regular-6-1-1-1 { counter-set: SAR-polygons-regular-6-1-1-1 0; }
+#SAR-polygons-regular-6-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-6-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-6-1-1-1 > li { counter-increment: SAR-polygons-regular-6-1-1-1; }
+#SAR-polygons-regular-7-1-1-1 { counter-set: SAR-polygons-regular-7-1-1-1 0; }
+#SAR-polygons-regular-7-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-7-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-7-1-1-1 > li { counter-increment: SAR-polygons-regular-7-1-1-1; }
+#SAR-polygons-regular-9-1-1-1 { counter-set: SAR-polygons-regular-9-1-1-1 0; }
+#SAR-polygons-regular-9-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-9-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-9-1-1-1 > li { counter-increment: SAR-polygons-regular-9-1-1-1; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 { counter-set: exer-ExtConc-pgreg-nonagon-2-1-3 0; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li::marker { content: "("counter(exer-ExtConc-pgreg-nonagon-2-1-3,lower-alpha)")"; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li { counter-increment: exer-ExtConc-pgreg-nonagon-2-1-3; }
+#ExtConc-polygons-regular-3-2-1-3 { counter-set: ExtConc-polygons-regular-3-2-1-3 0; }
+#ExtConc-polygons-regular-3-2-1-3 > li::marker { content: "("counter(ExtConc-polygons-regular-3-2-1-3,lower-alpha)")"; }
+#ExtConc-polygons-regular-3-2-1-3 > li { counter-increment: ExtConc-polygons-regular-3-2-1-3; }
+#tri4andcsq-2-3-1 { counter-set: tri4andcsq-2-3-1 0; }
+#tri4andcsq-2-3-1 > li::marker { content: ""counter(tri4andcsq-2-3-1,decimal)"."; }
+#tri4andcsq-2-3-1 > li { counter-increment: tri4andcsq-2-3-1; }
+#tri4andsquaresAandB-2-3-1 { counter-set: tri4andsquaresAandB-2-3-1 0; }
+#tri4andsquaresAandB-2-3-1 > li::marker { content: ""counter(tri4andsquaresAandB-2-3-1,decimal)"."; }
+#tri4andsquaresAandB-2-3-1 > li { counter-increment: tri4andsquaresAandB-2-3-1; }
+#GarfieldTask-2-3-1 { counter-set: GarfieldTask-2-3-1 0; }
+#GarfieldTask-2-3-1 > li::marker { content: ""counter(GarfieldTask-2-3-1,decimal)"."; }
+#GarfieldTask-2-3-1 > li { counter-increment: GarfieldTask-2-3-1; }
+#sqtostairs-Pyth-task-1-3-1 { counter-set: sqtostairs-Pyth-task-1-3-1 0; }
+#sqtostairs-Pyth-task-1-3-1 > li::marker { content: ""counter(sqtostairs-Pyth-task-1-3-1,decimal)"."; }
+#sqtostairs-Pyth-task-1-3-1 > li { counter-increment: sqtostairs-Pyth-task-1-3-1; }
+#polygons-length-BOT-lengthadditivity-2-1-1 { counter-set: polygons-length-BOT-lengthadditivity-2-1-1 0; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li::marker { content: "("counter(polygons-length-BOT-lengthadditivity-2-1-1,lower-alpha)")"; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li { counter-increment: polygons-length-BOT-lengthadditivity-2-1-1; }
+#exer-SAR-Pyth-1-1-2 { counter-set: exer-SAR-Pyth-1-1-2 0; }
+#exer-SAR-Pyth-1-1-2 > li::marker { content: "("counter(exer-SAR-Pyth-1-1-2,lower-alpha)")"; }
+#exer-SAR-Pyth-1-1-2 > li { counter-increment: exer-SAR-Pyth-1-1-2; }
+#ExtConc-polygons-length-3-2-1-5 { counter-set: ExtConc-polygons-length-3-2-1-5 0; }
+#ExtConc-polygons-length-3-2-1-5 > li::marker { content: "("counter(ExtConc-polygons-length-3-2-1-5,lower-alpha)")"; }
+#ExtConc-polygons-length-3-2-1-5 > li { counter-increment: ExtConc-polygons-length-3-2-1-5; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 { counter-set: ExtConc-polygons-length-3-2-1-5-4-1-3 0; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li::marker { content: ""counter(ExtConc-polygons-length-3-2-1-5-4-1-3,lower-roman)"."; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li { counter-increment: ExtConc-polygons-length-3-2-1-5-4-1-3; }
+#ExtConc-polygons-length-4-2-1-2 { counter-set: ExtConc-polygons-length-4-2-1-2 0; }
+#ExtConc-polygons-length-4-2-1-2 > li::marker { content: "("counter(ExtConc-polygons-length-4-2-1-2,lower-alpha)")"; }
+#ExtConc-polygons-length-4-2-1-2 > li { counter-increment: ExtConc-polygons-length-4-2-1-2; }
+#subsec-def-polyhedra-8-1-1-1 { counter-set: subsec-def-polyhedra-8-1-1-1 0; }
+#subsec-def-polyhedra-8-1-1-1 > li::marker { content: ""counter(subsec-def-polyhedra-8-1-1-1,decimal)"."; }
+#subsec-def-polyhedra-8-1-1-1 > li { counter-increment: subsec-def-polyhedra-8-1-1-1; }
+#sec-polyhedra-regular-5-2-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-3-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-4-2-3-3,decimal)"."; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-6-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-1-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1; }
+#exercises-semireg-polyhedra-3-2-2-1-1 { counter-set: exercises-semireg-polyhedra-3-2-2-1-1 0; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-3-2-2-1-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li { counter-increment: exercises-semireg-polyhedra-3-2-2-1-1; }
+#exercises-semireg-polyhedra-4-2-2-3-1 { counter-set: exercises-semireg-polyhedra-4-2-2-3-1 0; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-4-2-2-3-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li { counter-increment: exercises-semireg-polyhedra-4-2-2-3-1; }
+#exp-vol-intuitive-2-1-1-2 { counter-set: exp-vol-intuitive-2-1-1-2 0; }
+#exp-vol-intuitive-2-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-2-1-1-2,decimal)"."; }
+#exp-vol-intuitive-2-1-1-2 > li { counter-increment: exp-vol-intuitive-2-1-1-2; }
+#exp-vol-intuitive-5-1-1-2 { counter-set: exp-vol-intuitive-5-1-1-2 0; }
+#exp-vol-intuitive-5-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-5-1-1-2,decimal)"."; }
+#exp-vol-intuitive-5-1-1-2 > li { counter-increment: exp-vol-intuitive-5-1-1-2; }
+#surf-of-cylinder-1-1-2 { counter-set: surf-of-cylinder-1-1-2 0; }
+#surf-of-cylinder-1-1-2 > li::marker { content: ""counter(surf-of-cylinder-1-1-2,decimal)"."; }
+#surf-of-cylinder-1-1-2 > li { counter-increment: surf-of-cylinder-1-1-2; }
+#SAR-vol-prisms-verbal-1-1-1 { counter-set: SAR-vol-prisms-verbal-1-1-1 0; }
+#SAR-vol-prisms-verbal-1-1-1 > li::marker { content: "("counter(SAR-vol-prisms-verbal-1-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-verbal-1-1-1 > li { counter-increment: SAR-vol-prisms-verbal-1-1-1; }
+#SAR-vol-prisms-visual-1-1 { counter-set: SAR-vol-prisms-visual-1-1 0; }
+#SAR-vol-prisms-visual-1-1 > li::marker { content: "("counter(SAR-vol-prisms-visual-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-visual-1-1 > li { counter-increment: SAR-vol-prisms-visual-1-1; }
+#exer-ExtConc-pent-prism-2-1-14 { counter-set: exer-ExtConc-pent-prism-2-1-14 0; }
+#exer-ExtConc-pent-prism-2-1-14 > li::marker { content: "("counter(exer-ExtConc-pent-prism-2-1-14,lower-alpha)")"; }
+#exer-ExtConc-pent-prism-2-1-14 > li { counter-increment: exer-ExtConc-pent-prism-2-1-14; }
+#expl-volume-recpyr-by-construction-6-1-1-1 { counter-set: expl-volume-recpyr-by-construction-6-1-1-1 0; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li::marker { content: ""counter(expl-volume-recpyr-by-construction-6-1-1-1,decimal)"."; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li { counter-increment: expl-volume-recpyr-by-construction-6-1-1-1; }
+#expl-pyr-volume-calculations-1-1-2 { counter-set: expl-pyr-volume-calculations-1-1-2 0; }
+#expl-pyr-volume-calculations-1-1-2 > li::marker { content: ""counter(expl-pyr-volume-calculations-1-1-2,decimal)"."; }
+#expl-pyr-volume-calculations-1-1-2 > li { counter-increment: expl-pyr-volume-calculations-1-1-2; }
+#expl-rotation-6-1-1-3 { counter-set: expl-rotation-6-1-1-3 0; }
+#expl-rotation-6-1-1-3 > li::marker { content: ""counter(expl-rotation-6-1-1-3,decimal)"."; }
+#expl-rotation-6-1-1-3 > li { counter-increment: expl-rotation-6-1-1-3; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 { counter-set: sec-isom-identifying-isometries-2-3-2-1-1-1 0; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li::marker { content: ""counter(sec-isom-identifying-isometries-2-3-2-1-1-1,decimal)"."; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li { counter-increment: sec-isom-identifying-isometries-2-3-2-1-1-1; }
+#subsec-fixed-points-6-1-1-1-1 { counter-set: subsec-fixed-points-6-1-1-1-1 0; }
+#subsec-fixed-points-6-1-1-1-1 > li::marker { content: ""counter(subsec-fixed-points-6-1-1-1-1,decimal)"."; }
+#subsec-fixed-points-6-1-1-1-1 > li { counter-increment: subsec-fixed-points-6-1-1-1-1; }
+#explor-nested-simtri-5-1-1-1 { counter-set: explor-nested-simtri-5-1-1-1 0; }
+#explor-nested-simtri-5-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-5-1-1-1,decimal)"."; }
+#explor-nested-simtri-5-1-1-1 > li { counter-increment: explor-nested-simtri-5-1-1-1; }
+#explor-nested-simtri-6-1-1-1 { counter-set: explor-nested-simtri-6-1-1-1 0; }
+#explor-nested-simtri-6-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-6-1-1-1,decimal)"."; }
+#explor-nested-simtri-6-1-1-1 > li { counter-increment: explor-nested-simtri-6-1-1-1; }
+#subsubsec-dilations-similar-6-7-1-1-1 { counter-set: subsubsec-dilations-similar-6-7-1-1-1 0; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li::marker { content: ""counter(subsubsec-dilations-similar-6-7-1-1-1,decimal)"."; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li { counter-increment: subsubsec-dilations-similar-6-7-1-1-1; }
+#subsec-Functions-2-3-2-1-2 { counter-set: subsec-Functions-2-3-2-1-2 0; }
+#subsec-Functions-2-3-2-1-2 > li::marker { content: ""counter(subsec-Functions-2-3-2-1-2,decimal)"."; }
+#subsec-Functions-2-3-2-1-2 > li { counter-increment: subsec-Functions-2-3-2-1-2; }
+#example-algrev-sq-sqrt-2-1-1 { counter-set: example-algrev-sq-sqrt-2-1-1 0; }
+#example-algrev-sq-sqrt-2-1-1 > li::marker { content: ""counter(example-algrev-sq-sqrt-2-1-1,decimal)"."; }
+#example-algrev-sq-sqrt-2-1-1 > li { counter-increment: example-algrev-sq-sqrt-2-1-1; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Explorations</span></a></h1>
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
 <p class="byline">Teresa D. Magnus</p>
 </div>
 </div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="indexnav">
@@ -123,8 +428,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">How to use this book</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -213,7 +519,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#sec-polygons-parallel-4" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -258,23 +564,24 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Polyhedra</span></a></div>
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining a Polyhedron</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Nets for Polyhedra</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Some Examples of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
@@ -305,18 +612,27 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Instructor’s Notes</span></a></div>
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interior Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Growth in Different Dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimension-fractal" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Measuring Fractals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-" class="internal"><span class="codenumber">3.5.4</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Instructor’s Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
@@ -376,7 +692,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-isom-symmetry.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Symmetry</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-3" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Two Types of Symmetry</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry of Polygons</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#subsec-symm-transformations" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Symmetry Transformations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-symmetry.html#exer-isom-symm" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -395,15 +711,16 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Similarity</span></a></div>
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(x,y\)</span>-Graph</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Defining Dilation</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Dilation and Proportion</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-distance-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Distance on the Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(xy\)</span>-Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Defining Dilation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Similar Triangles and Dilations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -419,16 +736,17 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-isom-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
+<div class="toc-title-box"><a href="sec-dilation-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -492,7 +810,7 @@ window.MathJax = {
 </div>
 <div class="subindexitem">of rotation<span class="indexknowl">, <a href="sec-isom-rotate-and-translate.html#def-rotation" class="xref" data-knowl="./knowl/index/def-rotation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.2.10">Definition</a></span>
 </div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-face-angle" class="xref" data-knowl="./knowl/index/def-face-angle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-face-angle" class="xref" data-knowl="./knowl/index/def-face-angle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.5">Definition</a></span>
 </div>
 <div class="subindexitem">right<span class="indexknowl">, <a href="sec-intro-apply.html#def-typesofangles" class="xref" data-knowl="./knowl/index/def-typesofangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.9">Definition</a></span>
 </div>
@@ -508,7 +826,7 @@ window.MathJax = {
 <div class="subindexitem">vertex<span class="indexknowl">, <a href="sec-polygons-regular.html#def-vertexangle-centralangle" class="xref" data-knowl="./knowl/index/def-vertexangle-centralangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.8">Definition</a></span>
 </div>
 <div class="indexitem">angle of polyhedron</div>
-<div class="subindexitem">face angle<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-face-angle" class="xref" data-knowl="./knowl/index/def-face-angle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
+<div class="subindexitem">face angle<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-face-angle" class="xref" data-knowl="./knowl/index/def-face-angle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.5">Definition</a></span>
 </div>
 <div class="indexitem">angle of regular polygon</div>
 <div class="subindexitem">central<span class="indexknowl">, <a href="sec-polygons-regular.html#def-vertexangle-centralangle" class="xref" data-knowl="./knowl/index/def-vertexangle-centralangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.8">Definition</a></span>
@@ -576,10 +894,10 @@ window.MathJax = {
 </div>
 <div class="indexitem">concave<span class="indexknowl">, <a href="sec-intro-apply.html#def-convexconcave" class="xref" data-knowl="./knowl/index/def-convexconcave.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.4">Definition</a></span>
 </div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.2">Definition</a></span>
 </div>
 <div class="indexitem">cone</div>
-<div class="subindexitem">volume<span class="indexknowl">, <a href="sec-polyhedra-pyramids-cones.html#formula-vol-of-cone" class="xref" data-knowl="./knowl/index/formula-vol-of-cone.html" data-reveal-label="Reveal" data-close-label="Close" title="Formula 3.4.11: Volume of a Cone">Formula</a></span>
+<div class="subindexitem">volume<span class="indexknowl">, <a href="sec-polyhedra-pyramids-cones.html#formula-vol-of-cone" class="xref" data-knowl="./knowl/index/formula-vol-of-cone.html" data-reveal-label="Reveal" data-close-label="Close" title="Formula 3.4.10: Volume of a Cone">Formula</a></span>
 </div>
 <div class="indexitem">congruent</div>
 <div class="subindexitem">angles<span class="indexknowl">, <a href="sec-polygons-angles.html#subsec-Def-and-Measuring-Angles-14" class="xref" data-knowl="./knowl/index/subsec-Def-and-Measuring-Angles-14.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.2.9">Definition</a></span>
@@ -588,16 +906,16 @@ window.MathJax = {
 </div>
 <div class="indexitem">congruent sides<span class="indexknowl">, <a href="sec-intro-apply.html#intro-apply-subsec-definingpolygons-24" class="xref" data-knowl="./knowl/index/intro-apply-subsec-definingpolygons-24.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
 </div>
-<div class="indexitem">constant of porportionality<span class="indexknowl">, <a href="sec-dilations-and-similarity.html#def-similar" class="xref" data-knowl="./knowl/index/def-similar.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">Definition</a></span>
+<div class="indexitem">constant of porportionality<span class="indexknowl">, <a href="sec-dilations-and-similarity.html#def-proportionality" class="xref" data-knowl="./knowl/index/def-proportionality.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">Definition</a></span>
 </div>
 <div class="indexitem">convex<span class="indexknowl">, <a href="sec-intro-apply.html#def-convexconcave" class="xref" data-knowl="./knowl/index/def-convexconcave.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.4">Definition</a></span>
 </div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.2">Definition</a></span>
 </div>
 <div class="indexitem">corresponding</div>
-<div class="subindexitem">angles<span class="indexknowl">, <a href="ch-polygons.html#def-congruent-polygon" class="xref" data-knowl="./knowl/index/def-congruent-polygon.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.0.1">Definition</a> <a href="sec-dilations-and-similarity.html#def-similar" class="xref" data-knowl="./knowl/index/def-similar.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">Definition</a></span>
+<div class="subindexitem">angles<span class="indexknowl">, <a href="ch-polygons.html#def-congruent-polygon" class="xref" data-knowl="./knowl/index/def-congruent-polygon.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.0.1">Definition</a></span>
 </div>
-<div class="subindexitem">sides<span class="indexknowl">, <a href="ch-polygons.html#def-congruent-polygon" class="xref" data-knowl="./knowl/index/def-congruent-polygon.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.0.1">Definition</a> <a href="sec-dilations-and-similarity.html#def-similar" class="xref" data-knowl="./knowl/index/def-similar.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">Definition</a></span>
+<div class="subindexitem">sides<span class="indexknowl">, <a href="ch-polygons.html#def-congruent-polygon" class="xref" data-knowl="./knowl/index/def-congruent-polygon.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.0.1">Definition</a></span>
 </div>
 <div class="indexitem">corresponding angles<span class="indexknowl">, <a href="sec-polygons-parallel.html#def-angles-by-transversal" class="xref" data-knowl="./knowl/index/def-angles-by-transversal.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.3.9">Definition</a></span>
 </div>
@@ -618,7 +936,7 @@ window.MathJax = {
 </div>
 <div class="indexletter" id="indexletter-e">
 <div class="indexitem">edge</div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.3">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
 </div>
 <div class="indexitem">equation<span class="indexknowl">, <a href="algebra-principles-3.html#def-equation" class="xref" data-knowl="./knowl/index/def-equation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition A.1.2">Definition</a></span>
 </div>
@@ -635,16 +953,16 @@ window.MathJax = {
 </div>
 </div>
 <div class="indexletter" id="indexletter-f">
-<div class="indexitem">face<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.3">Definition</a></span>
+<div class="indexitem">face<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
 </div>
-<div class="indexitem">face angle<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-face-angle" class="xref" data-knowl="./knowl/index/def-face-angle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
+<div class="indexitem">face angle<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-face-angle" class="xref" data-knowl="./knowl/index/def-face-angle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.5">Definition</a></span>
 </div>
 <div class="indexitem">fixed point<span class="indexknowl">, <a href="sec-isom-identifying-isometries.html#def-fixedpt" class="xref" data-knowl="./knowl/index/def-fixedpt.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.3.1">Definition</a></span>
 </div>
 <div class="indexitem">function<span class="indexknowl">, <a href="subsec-Functions.html#def-function" class="xref" data-knowl="./knowl/index/def-function.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition A.4.22">Definition</a></span>
 </div>
 </div>
-<div class="indexletter" id="indexletter-g"><div class="indexitem">glide reflection<span class="indexknowl">, <a href="sec-isom-composing-reflections.html#subsec-Four-Isometries-5" class="xref" data-knowl="./knowl/index/subsec-Four-Isometries-5.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
+<div class="indexletter" id="indexletter-g"><div class="indexitem">glide reflection<span class="indexknowl">, <a href="sec-isom-composing-reflections.html#def-glide-ref" class="xref" data-knowl="./knowl/index/def-glide-ref.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.4.9">Definition</a></span>
 </div></div>
 <div class="indexletter" id="indexletter-h">
 <div class="indexitem">height</div>
@@ -714,7 +1032,7 @@ window.MathJax = {
 <div class="indexitem">n-gon<span class="indexknowl">, <a href="sec-intro-apply.html#def-ngon" class="xref" data-knowl="./knowl/index/def-ngon.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.8">Definition</a> <a href="sec-intro-apply.html#def-ngon" class="xref" data-knowl="./knowl/index/def-ngon.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.8">Definition</a></span>
 </div>
 <div class="indexitem">net</div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-net" class="xref" data-knowl="./knowl/index/def-net.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.9">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-net" class="xref" data-knowl="./knowl/index/def-net.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.10">Definition</a></span>
 </div>
 <div class="indexitem">numerical expression<span class="indexknowl">, <a href="algebra-principles-3.html#def-expression" class="xref" data-knowl="./knowl/index/def-expression.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition A.1.1">Definition</a></span>
 </div>
@@ -776,25 +1094,25 @@ window.MathJax = {
 </div>
 <div class="subindexitem">vertex angle<span class="indexknowl">, <a href="sec-polygons-regular.html#def-vertexangle-centralangle" class="xref" data-knowl="./knowl/index/def-vertexangle-centralangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.8">Definition</a></span>
 </div>
-<div class="indexitem">polyhedral net<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-net" class="xref" data-knowl="./knowl/index/def-net.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.9">Definition</a></span>
+<div class="indexitem">polyhedral net<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-net" class="xref" data-knowl="./knowl/index/def-net.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.10">Definition</a></span>
 </div>
-<div class="indexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+<div class="indexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.2">Definition</a></span>
 </div>
-<div class="subindexitem">concave<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+<div class="subindexitem">concave<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.2">Definition</a></span>
 </div>
-<div class="subindexitem">convex<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.1">Definition</a></span>
+<div class="subindexitem">convex<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-polyhedron" class="xref" data-knowl="./knowl/index/def-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.2">Definition</a></span>
 </div>
-<div class="subindexitem">edge<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.3">Definition</a></span>
+<div class="subindexitem">edge<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
 </div>
-<div class="subindexitem">face<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.3">Definition</a></span>
+<div class="subindexitem">face<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
 </div>
-<div class="subindexitem">face angle<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-face-angle" class="xref" data-knowl="./knowl/index/def-face-angle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
+<div class="subindexitem">face angle<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-face-angle" class="xref" data-knowl="./knowl/index/def-face-angle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.5">Definition</a></span>
 </div>
-<div class="subindexitem">regular<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/index/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.6">Definition</a></span>
+<div class="subindexitem">regular<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/index/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.7">Definition</a></span>
 </div>
 <div class="subindexitem">semiregular<span class="indexknowl">, <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/index/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition</a></span>
 </div>
-<div class="subindexitem">vertex<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.3">Definition</a></span>
+<div class="subindexitem">vertex<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
 </div>
 <div class="indexitem">polyomino</div>
 <div class="subindexitem">pentomino<span class="indexknowl">, <a href="sec-intro-explore.html#intro-explore-exp-pentrect" class="xref" data-knowl="./knowl/index/intro-explore-exp-pentrect.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 1.1.1: Tiling Rectangles with Polyominoes">Exploration</a></span>
@@ -823,7 +1141,7 @@ window.MathJax = {
 <div class="subindexitem">right<span class="indexknowl">, <a href="sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2-3" class="xref" data-knowl="./knowl/index/sec-polyhedra-Prisms-Cylinders-2-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
 </div>
 <div class="indexitem">proportional</div>
-<div class="subindexitem">sides<span class="indexknowl">, <a href="sec-dilations-and-similarity.html#def-similar" class="xref" data-knowl="./knowl/index/def-similar.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">Definition</a></span>
+<div class="subindexitem">sides<span class="indexknowl">, <a href="sec-dilations-and-similarity.html#def-proportionality" class="xref" data-knowl="./knowl/index/def-proportionality.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">Definition</a></span>
 </div>
 <div class="indexitem">pyramid<span class="indexknowl">, <a href="sec-polyhedra-pyramids-cones.html#def-pyramid" class="xref" data-knowl="./knowl/index/def-pyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.4.1: Pyramid">Definition</a></span>
 </div>
@@ -867,7 +1185,7 @@ window.MathJax = {
 <div class="indexitem">regular</div>
 <div class="subindexitem">polygon<span class="indexknowl">, <a href="sec-polygons-regular.html#sec-polygons-regular-3-3" class="xref" data-knowl="./knowl/index/sec-polygons-regular-3-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.1">Definition</a></span>
 </div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/index/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.6">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-regpolyhedron" class="xref" data-knowl="./knowl/index/def-regpolyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.7">Definition</a></span>
 </div>
 <div class="subindexitem">tiling<span class="indexknowl">, <a href="sec-polygons-regular.html#subsec-polygons-regular-tilings-3" class="xref" data-knowl="./knowl/index/subsec-polygons-regular-tilings-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.4">Definition</a></span>
 </div>
@@ -909,7 +1227,7 @@ window.MathJax = {
 <div class="indexitem">side</div>
 <div class="subindexitem">angle<span class="indexknowl">, <a href="sec-polygons-angles.html#def-angles" class="xref" data-knowl="./knowl/index/def-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.2.3">Definition</a></span>
 </div>
-<div class="indexitem">similar<span class="indexknowl">, <a href="sec-dilations-and-similarity.html#def-similar" class="xref" data-knowl="./knowl/index/def-similar.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">Definition</a></span>
+<div class="indexitem">similar<span class="indexknowl">, <a href="sec-dilations-Cartesian.html#def-similar-triangles" class="xref" data-knowl="./knowl/index/def-similar-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.1.8">Definition</a></span>
 </div>
 <div class="indexitem">similarity<span class="indexknowl">, <a href="sec-dilations-Cartesian.html#def-dilation" class="xref" data-knowl="./knowl/index/def-dilation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.1.4">Definition</a></span>
 </div>
@@ -931,7 +1249,7 @@ window.MathJax = {
 </div>
 <div class="subindexitem">reflectional<span class="indexknowl">, <a href="sec-isom-symmetry.html#def-reflectional-sym" class="xref" data-knowl="./knowl/index/def-reflectional-sym.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.6.1">Definition</a></span>
 </div>
-<div class="indexitem">symmetry transformation<span class="indexknowl">, <a href="sec-isom-symmetry.html#def-symm-transformation" class="xref" data-knowl="./knowl/index/def-symm-transformation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.6.9">Definition</a></span>
+<div class="indexitem">symmetry transformation<span class="indexknowl">, <a href="sec-isom-symmetry.html#def-symm-transformation" class="xref" data-knowl="./knowl/index/def-symm-transformation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.6.10">Definition</a></span>
 </div>
 </div>
 <div class="indexletter" id="indexletter-t">
@@ -949,7 +1267,7 @@ window.MathJax = {
 </div>
 <div class="subindexitem">rigid<span class="indexknowl">, <a href="ch-isom.html#ch-isom-2-4" class="xref" data-knowl="./knowl/index/ch-isom-2-4.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
 </div>
-<div class="subindexitem">symmetry<span class="indexknowl">, <a href="sec-isom-symmetry.html#def-symm-transformation" class="xref" data-knowl="./knowl/index/def-symm-transformation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.6.9">Definition</a></span>
+<div class="subindexitem">symmetry<span class="indexknowl">, <a href="sec-isom-symmetry.html#def-symm-transformation" class="xref" data-knowl="./knowl/index/def-symm-transformation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.6.10">Definition</a></span>
 </div>
 <div class="indexitem">translation<span class="indexknowl">, <a href="sec-isom-rotate-and-translate.html#def-translation" class="xref" data-knowl="./knowl/index/def-translation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.2.8">Definition</a></span>
 </div>
@@ -983,6 +1301,9 @@ window.MathJax = {
 </div>
 <div class="subindexitem">scalene<span class="indexknowl">, <a href="sec-intro-apply.html#def-scalene" class="xref" data-knowl="./knowl/index/def-scalene.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.21">Definition</a></span>
 </div>
+<div class="indexitem">triangles</div>
+<div class="subindexitem">similar<span class="indexknowl">, <a href="sec-dilations-Cartesian.html#def-similar-triangles" class="xref" data-knowl="./knowl/index/def-similar-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.1.8">Definition</a></span>
+</div>
 </div>
 <div class="indexletter" id="indexletter-v">
 <div class="indexitem">vector<span class="indexknowl">, <a href="sec-isom-rotate-and-translate.html#def-translation" class="xref" data-knowl="./knowl/index/def-translation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.2.8">Definition</a></span>
@@ -990,7 +1311,7 @@ window.MathJax = {
 <div class="indexitem">vertex</div>
 <div class="subindexitem">angle<span class="indexknowl">, <a href="sec-polygons-angles.html#def-angles" class="xref" data-knowl="./knowl/index/def-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.2.3">Definition</a></span>
 </div>
-<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.3">Definition</a></span>
+<div class="subindexitem">polyhedron<span class="indexknowl">, <a href="sec-polyhedra-regular.html#def-FEV-polyhedron" class="xref" data-knowl="./knowl/index/def-FEV-polyhedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.1.4">Definition</a></span>
 </div>
 <div class="indexitem">vertex angle<span class="indexknowl">, <a href="sec-polygons-regular.html#def-vertexangle-centralangle" class="xref" data-knowl="./knowl/index/def-vertexangle-centralangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.4.8">Definition</a></span>
 </div>
@@ -1002,7 +1323,7 @@ window.MathJax = {
 <div class="indexitem">vertical angle<span class="indexknowl">, <a href="sec-polygons-angles.html#def-vertical-angles" class="xref" data-knowl="./knowl/index/def-vertical-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.2.14">Definition</a></span>
 </div>
 <div class="indexitem">volume</div>
-<div class="subindexitem">cone<span class="indexknowl">, <a href="sec-polyhedra-pyramids-cones.html#formula-vol-of-cone" class="xref" data-knowl="./knowl/index/formula-vol-of-cone.html" data-reveal-label="Reveal" data-close-label="Close" title="Formula 3.4.11: Volume of a Cone">Formula</a></span>
+<div class="subindexitem">cone<span class="indexknowl">, <a href="sec-polyhedra-pyramids-cones.html#formula-vol-of-cone" class="xref" data-knowl="./knowl/index/formula-vol-of-cone.html" data-reveal-label="Reveal" data-close-label="Close" title="Formula 3.4.10: Volume of a Cone">Formula</a></span>
 </div>
 <div class="subindexitem">pyramid<span class="indexknowl">, <a href="sec-polyhedra-pyramids-cones.html#formula-vol-of-pyramid" class="xref" data-knowl="./knowl/index/formula-vol-of-pyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Formula 3.4.9: Volume of a Pyramid">Formula</a></span>
 </div>

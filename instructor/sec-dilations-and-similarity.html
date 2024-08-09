@@ -88,11 +88,316 @@ window.MathJax = {
 <link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#sec-intro-explore-3-3-4-1-2-1 { counter-set: sec-intro-explore-3-3-4-1-2-1 0; }
+#sec-intro-explore-3-3-4-1-2-1 > li::marker { content: ""counter(sec-intro-explore-3-3-4-1-2-1,decimal)"."; }
+#sec-intro-explore-3-3-4-1-2-1 > li { counter-increment: sec-intro-explore-3-3-4-1-2-1; }
+#sec-intro-explore-3-3-5-1-1-1 { counter-set: sec-intro-explore-3-3-5-1-1-1 0; }
+#sec-intro-explore-3-3-5-1-1-1 > li::marker { content: ""counter(sec-intro-explore-3-3-5-1-1-1,decimal)"."; }
+#sec-intro-explore-3-3-5-1-1-1 > li { counter-increment: sec-intro-explore-3-3-5-1-1-1; }
+#SAR-intro-exp-8-1-1-1 { counter-set: SAR-intro-exp-8-1-1-1 0; }
+#SAR-intro-exp-8-1-1-1 > li::marker { content: "("counter(SAR-intro-exp-8-1-1-1,lower-alpha)")"; }
+#SAR-intro-exp-8-1-1-1 > li { counter-increment: SAR-intro-exp-8-1-1-1; }
+#SAR-intro-exp-areamodel-2-1-2 { counter-set: SAR-intro-exp-areamodel-2-1-2 0; }
+#SAR-intro-exp-areamodel-2-1-2 > li::marker { content: "("counter(SAR-intro-exp-areamodel-2-1-2,lower-alpha)")"; }
+#SAR-intro-exp-areamodel-2-1-2 > li { counter-increment: SAR-intro-exp-areamodel-2-1-2; }
+#intro-apply-explore-tangram-3-1-1-1 { counter-set: intro-apply-explore-tangram-3-1-1-1 0; }
+#intro-apply-explore-tangram-3-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-3-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-3-1-1-1 > li { counter-increment: intro-apply-explore-tangram-3-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-5-1-1-1,decimal)"."; }
+#intro-apply-explore-tangram-5-1-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1-7-1-1 0; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li::marker { content: "("counter(intro-apply-explore-tangram-5-1-1-1-7-1-1,lower-alpha)")"; }
+#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1-7-1-1; }
+#SAR-intro-apply-3-1-1-1 { counter-set: SAR-intro-apply-3-1-1-1 0; }
+#SAR-intro-apply-3-1-1-1 > li::marker { content: "("counter(SAR-intro-apply-3-1-1-1,lower-alpha)")"; }
+#SAR-intro-apply-3-1-1-1 > li { counter-increment: SAR-intro-apply-3-1-1-1; }
+#label-altitude-etc-1-1-5 { counter-set: label-altitude-etc-1-1-5 0; }
+#label-altitude-etc-1-1-5 > li::marker { content: "("counter(label-altitude-etc-1-1-5,lower-alpha)")"; }
+#label-altitude-etc-1-1-5 > li { counter-increment: label-altitude-etc-1-1-5; }
+#SAR-intro-apply-Tangramareas-1-1-2 { counter-set: SAR-intro-apply-Tangramareas-1-1-2 0; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li::marker { content: "("counter(SAR-intro-apply-Tangramareas-1-1-2,lower-alpha)")"; }
+#SAR-intro-apply-Tangramareas-1-1-2 > li { counter-increment: SAR-intro-apply-Tangramareas-1-1-2; }
+#ExtConc-intro-apply-4-1-1-1 { counter-set: ExtConc-intro-apply-4-1-1-1 0; }
+#ExtConc-intro-apply-4-1-1-1 > li::marker { content: "("counter(ExtConc-intro-apply-4-1-1-1,lower-alpha)")"; }
+#ExtConc-intro-apply-4-1-1-1 > li { counter-increment: ExtConc-intro-apply-4-1-1-1; }
+#sum-odds-1-1-1-1 { counter-set: sum-odds-1-1-1-1 0; }
+#sum-odds-1-1-1-1 > li::marker { content: ""counter(sum-odds-1-1-1-1,decimal)"."; }
+#sum-odds-1-1-1-1 > li { counter-increment: sum-odds-1-1-1-1; }
+#sum-odds-2-1-1-1 { counter-set: sum-odds-2-1-1-1 0; }
+#sum-odds-2-1-1-1 > li::marker { content: ""counter(sum-odds-2-1-1-1,decimal)"."; }
+#sum-odds-2-1-1-1 > li { counter-increment: sum-odds-2-1-1-1; }
+#subsec-explainconjectures-7-2-1-3 { counter-set: subsec-explainconjectures-7-2-1-3 0; }
+#subsec-explainconjectures-7-2-1-3 > li::marker { content: ""counter(subsec-explainconjectures-7-2-1-3,decimal)"."; }
+#subsec-explainconjectures-7-2-1-3 > li { counter-increment: subsec-explainconjectures-7-2-1-3; }
+#subsec-explainconjectures-7-3-1-1-2 { counter-set: subsec-explainconjectures-7-3-1-1-2 0; }
+#subsec-explainconjectures-7-3-1-1-2 > li::marker { content: ""counter(subsec-explainconjectures-7-3-1-1-2,decimal)"."; }
+#subsec-explainconjectures-7-3-1-1-2 > li { counter-increment: subsec-explainconjectures-7-3-1-1-2; }
+#subsec-explainconjectures-7-4-1-2-2 { counter-set: subsec-explainconjectures-7-4-1-2-2 0; }
+#subsec-explainconjectures-7-4-1-2-2 > li::marker { content: ""counter(subsec-explainconjectures-7-4-1-2-2,decimal)"."; }
+#subsec-explainconjectures-7-4-1-2-2 > li { counter-increment: subsec-explainconjectures-7-4-1-2-2; }
+#exer-tri-numbers-2-3-1 { counter-set: exer-tri-numbers-2-3-1 0; }
+#exer-tri-numbers-2-3-1 > li::marker { content: "("counter(exer-tri-numbers-2-3-1,lower-alpha)")"; }
+#exer-tri-numbers-2-3-1 > li { counter-increment: exer-tri-numbers-2-3-1; }
+#exer-tri-numbers-2-3-1-4-1-5 { counter-set: exer-tri-numbers-2-3-1-4-1-5 0; }
+#exer-tri-numbers-2-3-1-4-1-5 > li::marker { content: ""counter(exer-tri-numbers-2-3-1-4-1-5,lower-roman)"."; }
+#exer-tri-numbers-2-3-1-4-1-5 > li { counter-increment: exer-tri-numbers-2-3-1-4-1-5; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 { counter-set: intro-struggle-exp-geoboardsq-3-1-2-1 0; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-3-1-2-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-3-1-2-1 > li { counter-increment: intro-struggle-exp-geoboardsq-3-1-2-1; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-4-1-3-1 0; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-4-1-3-1,decimal)"."; }
+#intro-struggle-exp-geoboardsq-4-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-4-1-3-1; }
+#SAR-intro-struggle-squarert-1-1-1 { counter-set: SAR-intro-struggle-squarert-1-1-1 0; }
+#SAR-intro-struggle-squarert-1-1-1 > li::marker { content: "("counter(SAR-intro-struggle-squarert-1-1-1,lower-alpha)")"; }
+#SAR-intro-struggle-squarert-1-1-1 > li { counter-increment: SAR-intro-struggle-squarert-1-1-1; }
+#ExtConc-intro-struggle-2-2-1-2 { counter-set: ExtConc-intro-struggle-2-2-1-2 0; }
+#ExtConc-intro-struggle-2-2-1-2 > li::marker { content: "("counter(ExtConc-intro-struggle-2-2-1-2,lower-alpha)")"; }
+#ExtConc-intro-struggle-2-2-1-2 > li { counter-increment: ExtConc-intro-struggle-2-2-1-2; }
+#parallelogramtypes-1-1-1 { counter-set: parallelogramtypes-1-1-1 0; }
+#parallelogramtypes-1-1-1 > li::marker { content: ""counter(parallelogramtypes-1-1-1,decimal)"."; }
+#parallelogramtypes-1-1-1 > li { counter-increment: parallelogramtypes-1-1-1; }
+#subsec-area-tri-2-3-1-1-1 { counter-set: subsec-area-tri-2-3-1-1-1 0; }
+#subsec-area-tri-2-3-1-1-1 > li::marker { content: ""counter(subsec-area-tri-2-3-1-1-1,decimal)"."; }
+#subsec-area-tri-2-3-1-1-1 > li { counter-increment: subsec-area-tri-2-3-1-1-1; }
+#subsec-irregular-area-4-5-1-1-1 { counter-set: subsec-irregular-area-4-5-1-1-1 0; }
+#subsec-irregular-area-4-5-1-1-1 > li::marker { content: ""counter(subsec-irregular-area-4-5-1-1-1,decimal)"."; }
+#subsec-irregular-area-4-5-1-1-1 > li { counter-increment: subsec-irregular-area-4-5-1-1-1; }
+#HW-compute-area-1-1-1 { counter-set: HW-compute-area-1-1-1 0; }
+#HW-compute-area-1-1-1 > li::marker { content: "("counter(HW-compute-area-1-1-1,lower-alpha)")"; }
+#HW-compute-area-1-1-1 > li { counter-increment: HW-compute-area-1-1-1; }
+#SAR-polygons-area-3-1-1-3 { counter-set: SAR-polygons-area-3-1-1-3 0; }
+#SAR-polygons-area-3-1-1-3 > li::marker { content: "("counter(SAR-polygons-area-3-1-1-3,lower-alpha)")"; }
+#SAR-polygons-area-3-1-1-3 > li { counter-increment: SAR-polygons-area-3-1-1-3; }
+#SAR-polygons-area-4-1-1-1 { counter-set: SAR-polygons-area-4-1-1-1 0; }
+#SAR-polygons-area-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-area-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-area-4-1-1-1 > li { counter-increment: SAR-polygons-area-4-1-1-1; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-2-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-2-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-2-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-2-1-1; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-3-1-1 0; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-3-1-1,decimal)"."; }
+#subsec-Def-and-Measuring-Angles-11-3-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-3-1-1; }
+#expl-angsum-triangle-3-1-1-4 { counter-set: expl-angsum-triangle-3-1-1-4 0; }
+#expl-angsum-triangle-3-1-1-4 > li::marker { content: ""counter(expl-angsum-triangle-3-1-1-4,decimal)"."; }
+#expl-angsum-triangle-3-1-1-4 > li { counter-increment: expl-angsum-triangle-3-1-1-4; }
+#HW-SAR-angles-linepoints-1-1-2 { counter-set: HW-SAR-angles-linepoints-1-1-2 0; }
+#HW-SAR-angles-linepoints-1-1-2 > li::marker { content: "("counter(HW-SAR-angles-linepoints-1-1-2,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-1-1-2 > li { counter-increment: HW-SAR-angles-linepoints-1-1-2; }
+#HW-SAR-angles-linepoints-2-1-1 { counter-set: HW-SAR-angles-linepoints-2-1-1 0; }
+#HW-SAR-angles-linepoints-2-1-1 > li::marker { content: "("counter(HW-SAR-angles-linepoints-2-1-1,lower-alpha)")"; }
+#HW-SAR-angles-linepoints-2-1-1 > li { counter-increment: HW-SAR-angles-linepoints-2-1-1; }
+#HW-SAR-linepart-type-1-1-2 { counter-set: HW-SAR-linepart-type-1-1-2 0; }
+#HW-SAR-linepart-type-1-1-2 > li::marker { content: "("counter(HW-SAR-linepart-type-1-1-2,lower-alpha)")"; }
+#HW-SAR-linepart-type-1-1-2 > li { counter-increment: HW-SAR-linepart-type-1-1-2; }
+#HW-SAR-linepart-type-2-1-1 { counter-set: HW-SAR-linepart-type-2-1-1 0; }
+#HW-SAR-linepart-type-2-1-1 > li::marker { content: "("counter(HW-SAR-linepart-type-2-1-1,lower-alpha)")"; }
+#HW-SAR-linepart-type-2-1-1 > li { counter-increment: HW-SAR-linepart-type-2-1-1; }
+#exer-SAR-missingangles-1-1-3 { counter-set: exer-SAR-missingangles-1-1-3 0; }
+#exer-SAR-missingangles-1-1-3 > li::marker { content: "("counter(exer-SAR-missingangles-1-1-3,lower-alpha)")"; }
+#exer-SAR-missingangles-1-1-3 > li { counter-increment: exer-SAR-missingangles-1-1-3; }
+#exer-SAR-missingangles-2-1-1 { counter-set: exer-SAR-missingangles-2-1-1 0; }
+#exer-SAR-missingangles-2-1-1 > li::marker { content: "("counter(exer-SAR-missingangles-2-1-1,lower-alpha)")"; }
+#exer-SAR-missingangles-2-1-1 > li { counter-increment: exer-SAR-missingangles-2-1-1; }
+#ExtConc-polygons-angles-3-1-3-4 { counter-set: ExtConc-polygons-angles-3-1-3-4 0; }
+#ExtConc-polygons-angles-3-1-3-4 > li::marker { content: "("counter(ExtConc-polygons-angles-3-1-3-4,lower-alpha)")"; }
+#ExtConc-polygons-angles-3-1-3-4 > li { counter-increment: ExtConc-polygons-angles-3-1-3-4; }
+#subsec-review-lines-2-3-1-1-1 { counter-set: subsec-review-lines-2-3-1-1-1 0; }
+#subsec-review-lines-2-3-1-1-1 > li::marker { content: ""counter(subsec-review-lines-2-3-1-1-1,decimal)"."; }
+#subsec-review-lines-2-3-1-1-1 > li { counter-increment: subsec-review-lines-2-3-1-1-1; }
+#parallel-explor-lines-sphere-4-1-1-2 { counter-set: parallel-explor-lines-sphere-4-1-1-2 0; }
+#parallel-explor-lines-sphere-4-1-1-2 > li::marker { content: ""counter(parallel-explor-lines-sphere-4-1-1-2,decimal)"."; }
+#parallel-explor-lines-sphere-4-1-1-2 > li { counter-increment: parallel-explor-lines-sphere-4-1-1-2; }
+#parallel-explor-spherical-triangles-6-1-2-1 { counter-set: parallel-explor-spherical-triangles-6-1-2-1 0; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li::marker { content: ""counter(parallel-explor-spherical-triangles-6-1-2-1,decimal)"."; }
+#parallel-explor-spherical-triangles-6-1-2-1 > li { counter-increment: parallel-explor-spherical-triangles-6-1-2-1; }
+#subsec-understanding-parallel-8-2-1-2 { counter-set: subsec-understanding-parallel-8-2-1-2 0; }
+#subsec-understanding-parallel-8-2-1-2 > li::marker { content: ""counter(subsec-understanding-parallel-8-2-1-2,decimal)"."; }
+#subsec-understanding-parallel-8-2-1-2 > li { counter-increment: subsec-understanding-parallel-8-2-1-2; }
+#subsec-understanding-parallel-10-2-1-3-1 { counter-set: subsec-understanding-parallel-10-2-1-3-1 0; }
+#subsec-understanding-parallel-10-2-1-3-1 > li::marker { content: ""counter(subsec-understanding-parallel-10-2-1-3-1,decimal)"."; }
+#subsec-understanding-parallel-10-2-1-3-1 > li { counter-increment: subsec-understanding-parallel-10-2-1-3-1; }
+#subsec-understanding-parallel-10-3-1-1-3 { counter-set: subsec-understanding-parallel-10-3-1-1-3 0; }
+#subsec-understanding-parallel-10-3-1-1-3 > li::marker { content: ""counter(subsec-understanding-parallel-10-3-1-1-3,decimal)"."; }
+#subsec-understanding-parallel-10-3-1-1-3 > li { counter-increment: subsec-understanding-parallel-10-3-1-1-3; }
+#SAR-polygons-parallel-2-1-1-4 { counter-set: SAR-polygons-parallel-2-1-1-4 0; }
+#SAR-polygons-parallel-2-1-1-4 > li::marker { content: "("counter(SAR-polygons-parallel-2-1-1-4,lower-alpha)")"; }
+#SAR-polygons-parallel-2-1-1-4 > li { counter-increment: SAR-polygons-parallel-2-1-1-4; }
+#SAR-polygons-parallel-3-1-1-2 { counter-set: SAR-polygons-parallel-3-1-1-2 0; }
+#SAR-polygons-parallel-3-1-1-2 > li::marker { content: "("counter(SAR-polygons-parallel-3-1-1-2,lower-alpha)")"; }
+#SAR-polygons-parallel-3-1-1-2 > li { counter-increment: SAR-polygons-parallel-3-1-1-2; }
+#exer-transv-angle-measures-1-2-1 { counter-set: exer-transv-angle-measures-1-2-1 0; }
+#exer-transv-angle-measures-1-2-1 > li::marker { content: "("counter(exer-transv-angle-measures-1-2-1,lower-alpha)")"; }
+#exer-transv-angle-measures-1-2-1 > li { counter-increment: exer-transv-angle-measures-1-2-1; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 0; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2,lower-alpha)")"; }
+#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2; }
+#explor-reg-tilings-5-1-3-1 { counter-set: explor-reg-tilings-5-1-3-1 0; }
+#explor-reg-tilings-5-1-3-1 > li::marker { content: ""counter(explor-reg-tilings-5-1-3-1,decimal)"."; }
+#explor-reg-tilings-5-1-3-1 > li { counter-increment: explor-reg-tilings-5-1-3-1; }
+#explor-reg-tilings-7-1-1-1 { counter-set: explor-reg-tilings-7-1-1-1 0; }
+#explor-reg-tilings-7-1-1-1 > li::marker { content: ""counter(explor-reg-tilings-7-1-1-1,decimal)"."; }
+#explor-reg-tilings-7-1-1-1 > li { counter-increment: explor-reg-tilings-7-1-1-1; }
+#task-vertex-measure-regular-polygons-more-1-1-3 { counter-set: task-vertex-measure-regular-polygons-more-1-1-3 0; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li::marker { content: ""counter(task-vertex-measure-regular-polygons-more-1-1-3,decimal)"."; }
+#task-vertex-measure-regular-polygons-more-1-1-3 > li { counter-increment: task-vertex-measure-regular-polygons-more-1-1-3; }
+#tile-w-3tri-2sq-1-1-2 { counter-set: tile-w-3tri-2sq-1-1-2 0; }
+#tile-w-3tri-2sq-1-1-2 > li::marker { content: ""counter(tile-w-3tri-2sq-1-1-2,decimal)"."; }
+#tile-w-3tri-2sq-1-1-2 > li { counter-increment: tile-w-3tri-2sq-1-1-2; }
+#subsec-semireg-rules-4-2-1-1-2 { counter-set: subsec-semireg-rules-4-2-1-1-2 0; }
+#subsec-semireg-rules-4-2-1-1-2 > li::marker { content: ""counter(subsec-semireg-rules-4-2-1-1-2,decimal)"."; }
+#subsec-semireg-rules-4-2-1-1-2 > li { counter-increment: subsec-semireg-rules-4-2-1-1-2; }
+#subsec-semireg-rules-4-3-1-1-1 { counter-set: subsec-semireg-rules-4-3-1-1-1 0; }
+#subsec-semireg-rules-4-3-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-3-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-3-1-1-1 > li { counter-increment: subsec-semireg-rules-4-3-1-1-1; }
+#subsec-semireg-rules-4-4-1-1-1 { counter-set: subsec-semireg-rules-4-4-1-1-1 0; }
+#subsec-semireg-rules-4-4-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-4-1-1-1,decimal)"."; }
+#subsec-semireg-rules-4-4-1-1-1 > li { counter-increment: subsec-semireg-rules-4-4-1-1-1; }
+#SAR-polygons-regular-2-1-1-1 { counter-set: SAR-polygons-regular-2-1-1-1 0; }
+#SAR-polygons-regular-2-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-2-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-2-1-1-1 > li { counter-increment: SAR-polygons-regular-2-1-1-1; }
+#SAR-polygons-regular-3-1-1-1 { counter-set: SAR-polygons-regular-3-1-1-1 0; }
+#SAR-polygons-regular-3-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-3-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-3-1-1-1 > li { counter-increment: SAR-polygons-regular-3-1-1-1; }
+#SAR-polygons-regular-4-1-1-1 { counter-set: SAR-polygons-regular-4-1-1-1 0; }
+#SAR-polygons-regular-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-4-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-4-1-1-1 > li { counter-increment: SAR-polygons-regular-4-1-1-1; }
+#SAR-polygons-regular-5-1-1-1 { counter-set: SAR-polygons-regular-5-1-1-1 0; }
+#SAR-polygons-regular-5-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-5-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-5-1-1-1 > li { counter-increment: SAR-polygons-regular-5-1-1-1; }
+#SAR-polygons-regular-6-1-1-1 { counter-set: SAR-polygons-regular-6-1-1-1 0; }
+#SAR-polygons-regular-6-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-6-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-6-1-1-1 > li { counter-increment: SAR-polygons-regular-6-1-1-1; }
+#SAR-polygons-regular-7-1-1-1 { counter-set: SAR-polygons-regular-7-1-1-1 0; }
+#SAR-polygons-regular-7-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-7-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-7-1-1-1 > li { counter-increment: SAR-polygons-regular-7-1-1-1; }
+#SAR-polygons-regular-9-1-1-1 { counter-set: SAR-polygons-regular-9-1-1-1 0; }
+#SAR-polygons-regular-9-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-9-1-1-1,lower-alpha)")"; }
+#SAR-polygons-regular-9-1-1-1 > li { counter-increment: SAR-polygons-regular-9-1-1-1; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 { counter-set: exer-ExtConc-pgreg-nonagon-2-1-3 0; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li::marker { content: "("counter(exer-ExtConc-pgreg-nonagon-2-1-3,lower-alpha)")"; }
+#exer-ExtConc-pgreg-nonagon-2-1-3 > li { counter-increment: exer-ExtConc-pgreg-nonagon-2-1-3; }
+#ExtConc-polygons-regular-3-2-1-3 { counter-set: ExtConc-polygons-regular-3-2-1-3 0; }
+#ExtConc-polygons-regular-3-2-1-3 > li::marker { content: "("counter(ExtConc-polygons-regular-3-2-1-3,lower-alpha)")"; }
+#ExtConc-polygons-regular-3-2-1-3 > li { counter-increment: ExtConc-polygons-regular-3-2-1-3; }
+#tri4andcsq-2-3-1 { counter-set: tri4andcsq-2-3-1 0; }
+#tri4andcsq-2-3-1 > li::marker { content: ""counter(tri4andcsq-2-3-1,decimal)"."; }
+#tri4andcsq-2-3-1 > li { counter-increment: tri4andcsq-2-3-1; }
+#tri4andsquaresAandB-2-3-1 { counter-set: tri4andsquaresAandB-2-3-1 0; }
+#tri4andsquaresAandB-2-3-1 > li::marker { content: ""counter(tri4andsquaresAandB-2-3-1,decimal)"."; }
+#tri4andsquaresAandB-2-3-1 > li { counter-increment: tri4andsquaresAandB-2-3-1; }
+#GarfieldTask-2-3-1 { counter-set: GarfieldTask-2-3-1 0; }
+#GarfieldTask-2-3-1 > li::marker { content: ""counter(GarfieldTask-2-3-1,decimal)"."; }
+#GarfieldTask-2-3-1 > li { counter-increment: GarfieldTask-2-3-1; }
+#sqtostairs-Pyth-task-1-3-1 { counter-set: sqtostairs-Pyth-task-1-3-1 0; }
+#sqtostairs-Pyth-task-1-3-1 > li::marker { content: ""counter(sqtostairs-Pyth-task-1-3-1,decimal)"."; }
+#sqtostairs-Pyth-task-1-3-1 > li { counter-increment: sqtostairs-Pyth-task-1-3-1; }
+#polygons-length-BOT-lengthadditivity-2-1-1 { counter-set: polygons-length-BOT-lengthadditivity-2-1-1 0; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li::marker { content: "("counter(polygons-length-BOT-lengthadditivity-2-1-1,lower-alpha)")"; }
+#polygons-length-BOT-lengthadditivity-2-1-1 > li { counter-increment: polygons-length-BOT-lengthadditivity-2-1-1; }
+#exer-SAR-Pyth-1-1-2 { counter-set: exer-SAR-Pyth-1-1-2 0; }
+#exer-SAR-Pyth-1-1-2 > li::marker { content: "("counter(exer-SAR-Pyth-1-1-2,lower-alpha)")"; }
+#exer-SAR-Pyth-1-1-2 > li { counter-increment: exer-SAR-Pyth-1-1-2; }
+#ExtConc-polygons-length-3-2-1-5 { counter-set: ExtConc-polygons-length-3-2-1-5 0; }
+#ExtConc-polygons-length-3-2-1-5 > li::marker { content: "("counter(ExtConc-polygons-length-3-2-1-5,lower-alpha)")"; }
+#ExtConc-polygons-length-3-2-1-5 > li { counter-increment: ExtConc-polygons-length-3-2-1-5; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 { counter-set: ExtConc-polygons-length-3-2-1-5-4-1-3 0; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li::marker { content: ""counter(ExtConc-polygons-length-3-2-1-5-4-1-3,lower-roman)"."; }
+#ExtConc-polygons-length-3-2-1-5-4-1-3 > li { counter-increment: ExtConc-polygons-length-3-2-1-5-4-1-3; }
+#ExtConc-polygons-length-4-2-1-2 { counter-set: ExtConc-polygons-length-4-2-1-2 0; }
+#ExtConc-polygons-length-4-2-1-2 > li::marker { content: "("counter(ExtConc-polygons-length-4-2-1-2,lower-alpha)")"; }
+#ExtConc-polygons-length-4-2-1-2 > li { counter-increment: ExtConc-polygons-length-4-2-1-2; }
+#subsec-def-polyhedra-8-1-1-1 { counter-set: subsec-def-polyhedra-8-1-1-1 0; }
+#subsec-def-polyhedra-8-1-1-1 > li::marker { content: ""counter(subsec-def-polyhedra-8-1-1-1,decimal)"."; }
+#subsec-def-polyhedra-8-1-1-1 > li { counter-increment: subsec-def-polyhedra-8-1-1-1; }
+#sec-polyhedra-regular-5-2-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-3-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-4-2-3-3,decimal)"."; }
+#sec-polyhedra-regular-5-2-4-2-3-3 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 0; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-6-2-1-1,decimal)"."; }
+#sec-polyhedra-regular-5-2-6-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-1-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-2-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 0; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-3-1-1,lower-alpha)")"; }
+#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1; }
+#exercises-semireg-polyhedra-3-2-2-1-1 { counter-set: exercises-semireg-polyhedra-3-2-2-1-1 0; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-3-2-2-1-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-3-2-2-1-1 > li { counter-increment: exercises-semireg-polyhedra-3-2-2-1-1; }
+#exercises-semireg-polyhedra-4-2-2-3-1 { counter-set: exercises-semireg-polyhedra-4-2-2-3-1 0; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-4-2-2-3-1,lower-alpha)")"; }
+#exercises-semireg-polyhedra-4-2-2-3-1 > li { counter-increment: exercises-semireg-polyhedra-4-2-2-3-1; }
+#exp-vol-intuitive-2-1-1-2 { counter-set: exp-vol-intuitive-2-1-1-2 0; }
+#exp-vol-intuitive-2-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-2-1-1-2,decimal)"."; }
+#exp-vol-intuitive-2-1-1-2 > li { counter-increment: exp-vol-intuitive-2-1-1-2; }
+#exp-vol-intuitive-5-1-1-2 { counter-set: exp-vol-intuitive-5-1-1-2 0; }
+#exp-vol-intuitive-5-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-5-1-1-2,decimal)"."; }
+#exp-vol-intuitive-5-1-1-2 > li { counter-increment: exp-vol-intuitive-5-1-1-2; }
+#surf-of-cylinder-1-1-2 { counter-set: surf-of-cylinder-1-1-2 0; }
+#surf-of-cylinder-1-1-2 > li::marker { content: ""counter(surf-of-cylinder-1-1-2,decimal)"."; }
+#surf-of-cylinder-1-1-2 > li { counter-increment: surf-of-cylinder-1-1-2; }
+#SAR-vol-prisms-verbal-1-1-1 { counter-set: SAR-vol-prisms-verbal-1-1-1 0; }
+#SAR-vol-prisms-verbal-1-1-1 > li::marker { content: "("counter(SAR-vol-prisms-verbal-1-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-verbal-1-1-1 > li { counter-increment: SAR-vol-prisms-verbal-1-1-1; }
+#SAR-vol-prisms-visual-1-1 { counter-set: SAR-vol-prisms-visual-1-1 0; }
+#SAR-vol-prisms-visual-1-1 > li::marker { content: "("counter(SAR-vol-prisms-visual-1-1,lower-alpha)")"; }
+#SAR-vol-prisms-visual-1-1 > li { counter-increment: SAR-vol-prisms-visual-1-1; }
+#exer-ExtConc-pent-prism-2-1-14 { counter-set: exer-ExtConc-pent-prism-2-1-14 0; }
+#exer-ExtConc-pent-prism-2-1-14 > li::marker { content: "("counter(exer-ExtConc-pent-prism-2-1-14,lower-alpha)")"; }
+#exer-ExtConc-pent-prism-2-1-14 > li { counter-increment: exer-ExtConc-pent-prism-2-1-14; }
+#expl-volume-recpyr-by-construction-6-1-1-1 { counter-set: expl-volume-recpyr-by-construction-6-1-1-1 0; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li::marker { content: ""counter(expl-volume-recpyr-by-construction-6-1-1-1,decimal)"."; }
+#expl-volume-recpyr-by-construction-6-1-1-1 > li { counter-increment: expl-volume-recpyr-by-construction-6-1-1-1; }
+#expl-pyr-volume-calculations-1-1-2 { counter-set: expl-pyr-volume-calculations-1-1-2 0; }
+#expl-pyr-volume-calculations-1-1-2 > li::marker { content: ""counter(expl-pyr-volume-calculations-1-1-2,decimal)"."; }
+#expl-pyr-volume-calculations-1-1-2 > li { counter-increment: expl-pyr-volume-calculations-1-1-2; }
+#expl-rotation-6-1-1-3 { counter-set: expl-rotation-6-1-1-3 0; }
+#expl-rotation-6-1-1-3 > li::marker { content: ""counter(expl-rotation-6-1-1-3,decimal)"."; }
+#expl-rotation-6-1-1-3 > li { counter-increment: expl-rotation-6-1-1-3; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 { counter-set: sec-isom-identifying-isometries-2-3-2-1-1-1 0; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li::marker { content: ""counter(sec-isom-identifying-isometries-2-3-2-1-1-1,decimal)"."; }
+#sec-isom-identifying-isometries-2-3-2-1-1-1 > li { counter-increment: sec-isom-identifying-isometries-2-3-2-1-1-1; }
+#subsec-fixed-points-6-1-1-1-1 { counter-set: subsec-fixed-points-6-1-1-1-1 0; }
+#subsec-fixed-points-6-1-1-1-1 > li::marker { content: ""counter(subsec-fixed-points-6-1-1-1-1,decimal)"."; }
+#subsec-fixed-points-6-1-1-1-1 > li { counter-increment: subsec-fixed-points-6-1-1-1-1; }
+#explor-nested-simtri-5-1-1-1 { counter-set: explor-nested-simtri-5-1-1-1 0; }
+#explor-nested-simtri-5-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-5-1-1-1,decimal)"."; }
+#explor-nested-simtri-5-1-1-1 > li { counter-increment: explor-nested-simtri-5-1-1-1; }
+#explor-nested-simtri-6-1-1-1 { counter-set: explor-nested-simtri-6-1-1-1 0; }
+#explor-nested-simtri-6-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-6-1-1-1,decimal)"."; }
+#explor-nested-simtri-6-1-1-1 > li { counter-increment: explor-nested-simtri-6-1-1-1; }
+#subsubsec-dilations-similar-6-7-1-1-1 { counter-set: subsubsec-dilations-similar-6-7-1-1-1 0; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li::marker { content: ""counter(subsubsec-dilations-similar-6-7-1-1-1,decimal)"."; }
+#subsubsec-dilations-similar-6-7-1-1-1 > li { counter-increment: subsubsec-dilations-similar-6-7-1-1-1; }
+#subsec-Functions-2-3-2-1-2 { counter-set: subsec-Functions-2-3-2-1-2 0; }
+#subsec-Functions-2-3-2-1-2 > li::marker { content: ""counter(subsec-Functions-2-3-2-1-2,decimal)"."; }
+#subsec-Functions-2-3-2-1-2 > li { counter-increment: subsec-Functions-2-3-2-1-2; }
+#example-algrev-sq-sqrt-2-1-1 { counter-set: example-algrev-sq-sqrt-2-1-1 0; }
+#example-algrev-sq-sqrt-2-1-1 > li::marker { content: ""counter(example-algrev-sq-sqrt-2-1-1,decimal)"."; }
+#example-algrev-sq-sqrt-2-1-1 > li { counter-increment: example-algrev-sq-sqrt-2-1-1; }
+</style>
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
 <a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Explorations</span></a></h1>
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
 <p class="byline">Teresa D. Magnus</p>
 </div>
 </div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
@@ -120,8 +425,9 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">How to use this book</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -210,7 +516,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#sec-polygons-parallel-4" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -255,23 +561,24 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Polyhedra</span></a></div>
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Defining a Polyhedron</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-3" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Nets for Polyhedra</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Some Examples of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
@@ -302,18 +609,27 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Instructor’s Notes</span></a></div>
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interior Space</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Growth in Different Dimensions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimension-fractal" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Measuring Fractals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-" class="internal"><span class="codenumber">3.5.4</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Instructor’s Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Transformations</span></a></div>
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
@@ -373,7 +689,7 @@ window.MathJax = {
 <div class="toc-title-box"><a href="sec-isom-symmetry.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Symmetry</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-3" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Two Types of Symmetry</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry of Polygons</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#subsec-symm-transformations" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Symmetry Transformations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-symmetry.html#exer-isom-symm" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
@@ -392,15 +708,16 @@ window.MathJax = {
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Similarity</span></a></div>
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(x,y\)</span>-Graph</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Defining Dilation</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Dilation and Proportion</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-distance-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Distance on the Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(xy\)</span>-Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Defining Dilation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Similar Triangles and Dilations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section active">
@@ -416,16 +733,17 @@ window.MathJax = {
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-similar Triangles</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-isom-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
+<div class="toc-title-box"><a href="sec-dilation-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -472,71 +790,85 @@ window.MathJax = {
 </div> <figure class="figure figure-like" id="fig-vary-scale-factor"><iframe id="slide-scale-app" width="600" height="600" src="slide-scale-app-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.1<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#explore-sliding-scale" class="xref" data-knowl="./knowl/xref/explore-sliding-scale.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.2.1: Role of the Scale Factor">Exploration 5.2.1</a></figcaption></figure></article><article class="task exercise-like" id="explore-sliding-scale-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="explore-sliding-scale-4-1-1">What happens when the scale factor <span class="process-math">\(s=1\text{?}\)</span> Why?</div></article><article class="task exercise-like" id="explore-sliding-scale-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="explore-sliding-scale-5-1-1">What happens when the slider is moved to <span class="process-math">\(s=0\text{?}\)</span> Why do you think that happens?</div></article><article class="task exercise-like" id="explore-sliding-scale-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="explore-sliding-scale-6-1-1">What happens when the slider is moved to <span class="process-math">\(s=-\frac{1}{2}\)</span> ? <span class="process-math">\(s=-1\)</span> ? <span class="process-math">\(s=-2\)</span> ? Describe the effect of a negative scale factor on a dilation.</div></article><article class="task exercise-like" id="explore-sliding-scale-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="explore-sliding-scale-7-1-1">Construct the four lines, <span class="process-math">\(\overleftrightarrow{EA}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{EB}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{EC}\text{,}\)</span> and <span class="process-math">\(\overleftrightarrow{EA}\text{.}\)</span> What do you notice about these lines and the image <span class="process-math">\(A'B'C'D'\)</span> ? Is this also true when you move the slider to other values, like <span class="process-math">\(s=3\text{?}\)</span>
-</div></article><article class="task exercise-like" id="explore-sliding-scale-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para" id="explore-sliding-scale-8-1-1">Use the reset tool (circle with arrows in upper right) to move the slider back to <span class="process-math">\(s=3\)</span> and delete the lines. Use GeoGebra tools to measure the lengths <span class="process-math">\(EA\)</span> and <span class="process-math">\(EA'\text{,}\)</span> <span class="process-math">\(EB\)</span> and <span class="process-math">\(EB'\text{,}\)</span> <span class="process-math">\(EC\)</span> and <span class="process-math">\(EC'\text{,}\)</span> and <span class="process-math">\(ED\)</span> and <span class="process-math">\(ED'\text{.}\)</span> What do you notice about these pairs of measurements? Experiment with moving center <span class="process-math">\(E\)</span> or some of the vertices of <span class="process-math">\(ABCD\text{.}\)</span> Does your conjecture still hold?</div></article><article class="task exercise-like" id="explore-sliding-scale-9"><h5 class="heading"><span class="codenumber">(g)</span></h5>
-<div class="para" id="explore-sliding-scale-9-1-1">Use the reset tool again to move the slider back to <span class="process-math">\(s=3\)</span> and delete the measurements. Use the GeoGebra tools to measure the four sides of the original quadrilateral, <span class="process-math">\(AB\text{,}\)</span> <span class="process-math">\(BC\text{,}\)</span> <span class="process-math">\(CD\text{,}\)</span> and <span class="process-math">\(DA\text{.}\)</span> Compare these to the measures of the four sides, <span class="process-math">\(A'B'\text{,}\)</span> <span class="process-math">\(B'C'\text{,}\)</span> <span class="process-math">\(C'D'\)</span> and <span class="process-math">\(D'A'\)</span> of the dilated quadrilateral.</div></article><article class="task exercise-like" id="explore-sliding-scale-10"><h5 class="heading"><span class="codenumber">(h)</span></h5>
-<div class="para" id="explore-sliding-scale-10-1-1">Measure the area of quadrilateral <span class="process-math">\(ABCD\)</span> and its image <span class="process-math">\(A'B'C'D'\text{.}\)</span> Move the slider as helpful to determine how the area of a figure is affected by the scale factor.</div></article></article></section><section class="subsection" id="subsubsec-dilations-similar"><h3 class="heading hide-type">
+<div class="para" id="explore-sliding-scale-6-1-1">What happens when the slider is moved to a number between 0 and 1?</div></article><article class="task exercise-like" id="explore-sliding-scale-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="explore-sliding-scale-7-1-1">What happens when the slider is moved to <span class="process-math">\(s=-\frac{1}{2}\)</span> ? <span class="process-math">\(s=-1\)</span> ? <span class="process-math">\(s=-2\)</span> ? Describe the effect of a negative scale factor on a dilation.</div></article><article class="task exercise-like" id="explore-sliding-scale-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="explore-sliding-scale-8-1-1">Construct the four lines, <span class="process-math">\(\overleftrightarrow{EA}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{EB}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{EC}\text{,}\)</span> and <span class="process-math">\(\overleftrightarrow{EA}\text{.}\)</span> What do you notice about these lines and the image <span class="process-math">\(A'B'C'D'\)</span> ? Is this true regardless of the value of <span class="process-math">\(s\text{?}\)</span>
+</div></article><article class="task exercise-like" id="explore-sliding-scale-9"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="explore-sliding-scale-9-1-1">Use the reset tool (circle with arrows in upper right) to move the slider back to <span class="process-math">\(s=3\)</span> and delete the lines. Use GeoGebra tools to measure the lengths <span class="process-math">\(EA\)</span> and <span class="process-math">\(EA'\text{,}\)</span> <span class="process-math">\(EB\)</span> and <span class="process-math">\(EB'\text{,}\)</span> <span class="process-math">\(EC\)</span> and <span class="process-math">\(EC'\text{,}\)</span> and <span class="process-math">\(ED\)</span> and <span class="process-math">\(ED'\text{.}\)</span> What do you notice about these pairs of measurements? Experiment with moving center <span class="process-math">\(E\)</span> or some of the vertices of <span class="process-math">\(ABCD\text{.}\)</span> Does your conjecture still hold?</div></article><article class="task exercise-like" id="explore-sliding-scale-10"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<div class="para" id="explore-sliding-scale-10-1-1">Use the reset tool again to move the slider back to <span class="process-math">\(s=3\)</span> and delete the measurements. Use the GeoGebra tools to measure the four sides of the original quadrilateral, <span class="process-math">\(AB\text{,}\)</span> <span class="process-math">\(BC\text{,}\)</span> <span class="process-math">\(CD\text{,}\)</span> and <span class="process-math">\(DA\text{.}\)</span> Compare these to the measures of the four sides, <span class="process-math">\(A'B'\text{,}\)</span> <span class="process-math">\(B'C'\text{,}\)</span> <span class="process-math">\(C'D'\)</span> and <span class="process-math">\(D'A'\)</span> of the dilated quadrilateral.</div>
+<div class="solutions"><details id="explore-sliding-scale-10-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="explore-sliding-scale-10-2-1">Some measurements may be approximated by rounding. This could lead to small discrepancies in values.</div></div></details></div></article><article class="task exercise-like" id="explore-sliding-scale-11"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="explore-sliding-scale-11-1-1">Measure the area of quadrilateral <span class="process-math">\(ABCD\)</span> and its image <span class="process-math">\(A'B'C'D'\text{.}\)</span> Move the slider as helpful to determine how the area of a figure is affected by the scale factor.</div>
+<div class="solutions"><details id="explore-sliding-scale-11-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="explore-sliding-scale-11-2-1">The area of the image will be <span class="process-math">\(s^2\)</span> times the area of the original figure where <span class="process-math">\(s\)</span> is the scale factor for the dilation.</div></div></details></div></article></article></section><section class="subsection" id="subsubsec-dilations-similar"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="space"> </span><span class="title">Dilations and Similar Triangles</span>
 </h3>
-<div class="para" id="subsubsec-dilations-similar-2">Our work in <a href="sec-dilations-Cartesian.html" class="internal" title="Section 5.1: Transformations that Scale">Section 5.1</a> and <a href="sec-dilations-and-similarity.html#explore-sliding-scale" class="xref" data-knowl="./knowl/xref/explore-sliding-scale.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.2.1: Role of the Scale Factor">Exploration 5.2.1</a> suggests that the image of a polygonal figure under a dilation will have the same shape as the original and that the ratios, <span class="process-math">\(\frac{P'Q'}{PQ}\text{,}\)</span> of the lengths of the image’s sides to their corresponding lengths in the original will be preserved. </div>
-<article class="definition definition-like" id="def-similar"><h4 class="heading">
+<div class="para" id="subsubsec-dilations-similar-2">Our work in <a href="sec-dilations-Cartesian.html" class="internal" title="Section 5.1: Transformations that Scale">Section 5.1</a> and <a href="sec-dilations-and-similarity.html#explore-sliding-scale" class="xref" data-knowl="./knowl/xref/explore-sliding-scale.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.2.1: Role of the Scale Factor">Exploration 5.2.1</a> suggests that the image of a polygonal figure under a dilation will have the same shape as the original figure. In addition the ratio of the lengths of the image’s sides to their corresponding lengths in the original, <span class="process-math">\(\frac{P'Q'}{PQ}\text{,}\)</span> will be preserved. </div>
+<article class="definition definition-like" id="def-proportionality"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="period">.</span>
-</h4> <div class="para" id="def-similar-7-1">Two polygons are said to be <dfn class="terminology">similar</dfn> if corresponding pairs of angles are congruent and ratios of corresponding sides are equal. We use the symbol <span class="process-math">\(\sim\)</span> to denote similar triangles. This common ratio, <span class="process-math">\(k\text{,}\)</span> such that <span class="process-math">\(k=\frac{P'Q'}{PQ}\)</span> for all sides <span class="process-math">\(PQ\)</span> is called the <dfn class="terminology">constant of proportionality</dfn>. In  <a href="sec-dilations-Cartesian.html#fig-nested-simtri" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.6">Figure 5.1.6</a>, we see that <span class="process-math">\(\Delta ABC\sim\Delta DEC\)</span> with constant of proportionality <span class="process-math">\(k=\frac{1}{3}\text{,}\)</span> and in <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.1">Figure 5.2.1</a>, <span class="process-math">\(A'B'C'D'\sim ABCD\)</span> with <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the scale factor of the dilation.</div></article><article class="exercise exercise-like" id="subsubsec-dilations-similar-4"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Check your understanding.</span>
+</h4> <div class="para" id="def-proportionality-3-1">When two figures are similar, the ratio of corresponding sides is constant. This common ratio, <span class="process-math">\(k\text{,}\)</span> such that <span class="process-math">\(k=\frac{P'Q'}{PQ}\)</span> for all sides <span class="process-math">\(PQ\)</span> is called the <dfn class="terminology">constant of proportionality</dfn>.</div></article><div class="para" id="subsubsec-dilations-similar-4">In <a href="sec-dilations-Cartesian.html#fig-nested-simtri" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.9">Figure 5.1.9</a>, we see that <span class="process-math">\(\Delta ABC\sim\Delta DEC\)</span> with constant of proportionality <span class="process-math">\(k=\frac{1}{3}\text{.}\)</span> Also, <span class="process-math">\(A'B'C'D'\sim ABCD\)</span> in <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.1">Figure 5.2.1</a> has  <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the variable scale factor of the dilation.</div>
+<article class="exercise exercise-like" id="subsubsec-dilations-similar-5"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Understanding Proportionality, Congruence, and Similarity.</span>
 </h4>
-<div class="para logical" id="subsubsec-dilations-similar-4-2-1"><ol class="decimal">
-<li id="subsubsec-dilations-similar-4-2-1-1-1"><div class="para" id="subsubsec-dilations-similar-4-2-1-1-1-1">Why are absolute values necessary when we say that the constant of proportionality <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the scale factor <span class="process-math">\(s\text{?}\)</span>
-</div></li>
-<li id="subsubsec-dilations-similar-4-2-1-1-2"><div class="para" id="subsubsec-dilations-similar-4-2-1-1-2-1">Will a pair of congruent figures also be similar?</div></li>
-<li id="subsubsec-dilations-similar-4-2-1-1-3"><div class="para" id="subsubsec-dilations-similar-4-2-1-1-3-1">Will a pair of similar triangles also be congruent?</div></li>
-</ol></div></article><article class="exploration project-like" id="subsubsec-dilations-similar-5"><h4 class="heading">
+<div class="introduction" id="subsubsec-dilations-similar-5-2"><div class="para" id="subsubsec-dilations-similar-5-2-1">The following questions encourage you to make connections between the concepts of scale factor, proportion, congruence, and similarity:</div></div>
+<article class="task exercise-like" id="subsubsec-dilations-similar-5-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="subsubsec-dilations-similar-5-3-1-1">Why are absolute values necessary when we say that the constant of proportionality <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the scale factor <span class="process-math">\(s\text{?}\)</span>
+</div>
+<div class="solutions">
+<details id="subsubsec-dilations-similar-5-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subsubsec-dilations-similar-5-3-2-1">Lengths can never be negative.</div></div></details><details id="subsubsec-dilations-similar-5-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsubsec-dilations-similar-5-3-3-1">A scale factor can be any real number. The constant of proportionality is a ratio of lengths and must be nonnegative since lengths can never be negative.</div></div></details>
+</div></article><article class="task exercise-like" id="subsubsec-dilations-similar-5-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="subsubsec-dilations-similar-5-4-1-1">Will a pair of congruent figures also be similar?</div>
+<div class="solutions"><details id="subsubsec-dilations-similar-5-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsubsec-dilations-similar-5-4-2-1">Yes, you can consider congruent figures to be similar with a constant of proportionality, <span class="process-math">\(k=1\text{.}\)</span> Some people may insist that size must change in which case we would not consider congruent figures to also be similar. It depends on the definition being used.</div></div></details></div></article><article class="task exercise-like" id="subsubsec-dilations-similar-5-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="subsubsec-dilations-similar-5-5-1-1">Will a pair of similar triangles also be congruent?</div>
+<div class="solutions"><details id="subsubsec-dilations-similar-5-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsubsec-dilations-similar-5-5-2-1">Similar triangles will be congruent <em class="emphasis">only</em> when they are the same size; i.e., when <span class="process-math">\(k=1\text{.}\)</span> Most pairs of similar triangles are not congruent.</div></div></details></div></article></article><article class="exploration project-like" id="subsubsec-dilations-similar-6"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Mystery Dilations.</span>
 </h4>
-<article class="task exercise-like" id="task-mystery-dilation-quads"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="para logical" id="task-mystery-dilation-quads-1-1">
-<div class="para">Quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> are given in <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-quads" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-quads.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.4">Figure 5.2.4</a>. Virtual tools for measuring angles and line segments are provided.</div>
-<ol class="decimal">
-<li id="task-mystery-dilation-quads-1-1-4-1"><div class="para" id="task-mystery-dilation-quads-1-1-4-1-1">Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.</div></li>
-<li id="task-mystery-dilation-quads-1-1-4-2"><div class="para" id="task-mystery-dilation-quads-1-1-4-2-1">Determine the constant of proportionality if it exists.</div></li>
-<li id="task-mystery-dilation-quads-1-1-4-3"><div class="para" id="task-mystery-dilation-quads-1-1-4-3-1">Is there a dilation taking <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{?}\)</span> If so, locate the center <span class="process-math">\(F\)</span> and state the scale factor.</div></li>
+<article class="task exercise-like" id="task-mystery-dilation-quads"><h5 class="heading">
+<span class="codenumber">(a)</span><span class="space"> </span><span class="title">Mystery Dilation 1.</span>
+</h5>
+<div class="introduction" id="task-mystery-dilation-quads-2">
+<div class="para" id="task-mystery-dilation-quads-2-1">Quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> are given in <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-quads" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-quads.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.4">Figure 5.2.4</a>. Virtual tools for measuring angles and line segments are provided.</div> <figure class="figure figure-like" id="fig-mystery-dilation-quads"><iframe id="GGapp-mystery-dilation-quads" width="600" height="600" src="GGapp-mystery-dilation-quads-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.4<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-quads" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-quads.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.a: Mystery Dilation 1">Mystery Dilation 1</a>.</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-mystery-dilation-quads-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="task-mystery-dilation-quads-3-1-1">Are the two quadrilaterals similar? Be sure to check all criteria in the definition of <a href="sec-dilations-Cartesian.html#def-similar-triangles" class="xref" data-knowl="./knowl/xref/def-similar-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.1.8">similar</a>.</div></article><article class="task exercise-like" id="task-mystery-dilation-quads-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="task-mystery-dilation-quads-4-1-1">Determine the <a href="sec-dilations-and-similarity.html#def-proportionality" class="xref" data-knowl="./knowl/xref/def-proportionality.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">constant of proportionality</a> if it exists.</div></article><article class="task exercise-like" id="task-mystery-dilation-quads-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="task-mystery-dilation-quads-5-1-1">Is there a dilation taking <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{?}\)</span> If so, locate the center <span class="process-math">\(F\)</span> and state the scale factor.</div>
+<div class="solutions">
+<details id="task-mystery-dilation-quads-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="task-mystery-dilation-quads-5-2-1">What lines must <span class="process-math">\(F\)</span> lie on?</div></div></details><details id="task-mystery-dilation-quads-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-mystery-dilation-quads-5-3-1">Yes, the dilation exists. Its center lies on the intersection of <span class="process-math">\(\overleftrightarrow{AA'}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{BB'}\text{,}\)</span> etc.</div></div></details>
+</div></article></article><article class="task exercise-like" id="task-mystery-dilation-pentomino"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Mystery Dilation 2.</span>
+</h5>
+<div class="introduction" id="task-mystery-dilation-pentomino-2">
+<div class="para" id="task-mystery-dilation-pentomino-2-1">Pentominos <span class="process-math">\(ABCDEFGH\)</span> and <span class="process-math">\(A''B''C''D''E''F''G''H''\)</span> are given in the GeoGebra applet, <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-pentomino" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-pentomino.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.5">Figure 5.2.5</a>. Virtual tools for measuring angles and line segments are provided.</div> <figure class="figure figure-like" id="fig-mystery-dilation-pentomino"><iframe id="GGapp-mystery-dilation-pentomino" width="600" height="600" src="GGapp-mystery-dilation-pentomino-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.5<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-pentomino" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-pentomino.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.b: Mystery Dilation 2">Task 5.2.2.b</a> Mystery Dilation 2.</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-mystery-dilation-pentomino-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="task-mystery-dilation-pentomino-3-1-1">Are the two pentominos similar? Be sure to check all criteria in the definition of similar.</div></article><article class="task exercise-like" id="task-mystery-dilation-pentomino-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="task-mystery-dilation-pentomino-4-1-1">Determine the constant of proportionality if it exists.</div></article><article class="task exercise-like" id="task-mystery-dilation-pentomino-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="task-mystery-dilation-pentomino-5-1-1">Is there a dilation taking <span class="process-math">\(ABCDEFGH\)</span> to <span class="process-math">\(A''B''C''D''E''F''G''H''\text{?}\)</span> If so, locate the center <span class="process-math">\(Q\)</span> and state the scale factor.</div></article></article><article class="task exercise-like" id="task-mystery-dilation-concave"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="introduction" id="task-mystery-dilation-concave-1">
+<div class="para" id="task-mystery-dilation-concave-1-1">Concave quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> are given in the GeoGebra applet, <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.6">Figure 5.2.6</a>.</div> <figure class="figure figure-like" id="fig-mystery-dilation-concave"><iframe id="GGapp-mystery-dilation-concave" width="600" height="600" src="GGapp-mystery-dilation-concave-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.6<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.c">Task 5.2.2.c</a> Mystery Dilation 3.</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-mystery-dilation-concave-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="task-mystery-dilation-concave-2-1-1">Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.</div></article><article class="task exercise-like" id="task-mystery-dilation-concave-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="task-mystery-dilation-concave-3-1-1">Determine the constant of proportionality if it exists.</div></article><article class="task exercise-like" id="task-mystery-dilation-concave-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="task-mystery-dilation-concave-4-1-1">Is there a dilation taking <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{?}\)</span> If so, locate the center <span class="process-math">\(G\)</span> and state the scale factor for the dilation.</div></article></article><article class="task exercise-like" id="subsubsec-dilations-similar-6-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="subsubsec-dilations-similar-6-5-1-1">Describe the technique you used to determine whether two figures were similar. How did you find the constant of proportionality?</div></article><article class="task exercise-like" id="subsubsec-dilations-similar-6-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="subsubsec-dilations-similar-6-6-1-1">Describe the technique you used to determine whether there was a dilation that took a figure to another figure. How did you find the center of the dilation?</div></article><article class="task exercise-like" id="subsubsec-dilations-similar-6-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para logical" id="subsubsec-dilations-similar-6-7-1-1">
+<div class="para">Based on your explorations, which of the following are true?</div>
+<ol class="decimal" id="subsubsec-dilations-similar-6-7-1-1-1">
+<li id="subsubsec-dilations-similar-6-7-1-1-1-1"><div class="para" id="subsubsec-dilations-similar-6-7-1-1-1-1-1">If two polygons are similar there is a dilation taking one polygon to the other.</div></li>
+<li id="subsubsec-dilations-similar-6-7-1-1-1-2"><div class="para" id="subsubsec-dilations-similar-6-7-1-1-1-2-1">If there is a dilation taking one polygon to another, then the polygons are similar.</div></li>
+<li id="subsubsec-dilations-similar-6-7-1-1-1-3"><div class="para" id="subsubsec-dilations-similar-6-7-1-1-1-3-1">Both statements are true.</div></li>
+<li id="subsubsec-dilations-similar-6-7-1-1-1-4"><div class="para" id="subsubsec-dilations-similar-6-7-1-1-1-4-1">Neither statement is true.</div></li>
 </ol>
-</div> <figure class="figure figure-like" id="fig-mystery-dilation-quads"><iframe id="GGapp-mystery-dilation-quads" width="600" height="600" src="GGapp-mystery-dilation-quads-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.4<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-quads" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-quads.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.a">Task 5.2.2.a</a></figcaption></figure></article><article class="task exercise-like" id="task-mystery-dilation-pentomino"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="para logical" id="task-mystery-dilation-pentomino-1-1">
-<div class="para">Pentominos <span class="process-math">\(ABCDEFGH\)</span> and <span class="process-math">\(A''B''C''D''E''F''G''H''\)</span> are given in the GeoGebra applet, <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-pentomino" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-pentomino.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.5">Figure 5.2.5</a>. Virtual tools for measuring angles and line segments are provided.</div>
-<ol class="decimal">
-<li id="task-mystery-dilation-pentomino-1-1-4-1"><div class="para" id="task-mystery-dilation-pentomino-1-1-4-1-1">Are the two pentominos similar? Be sure to check all criteria in the definition of similar.</div></li>
-<li id="task-mystery-dilation-pentomino-1-1-4-2"><div class="para" id="task-mystery-dilation-pentomino-1-1-4-2-1">Determine the constant of proportionality if it exists.</div></li>
-<li id="task-mystery-dilation-pentomino-1-1-4-3"><div class="para" id="task-mystery-dilation-pentomino-1-1-4-3-1">Is there a dilation taking <span class="process-math">\(ABCDEFGH\)</span> to <span class="process-math">\(A''B''C''D''E''F''G''H''\text{?}\)</span> If so, locate the center <span class="process-math">\(Q\)</span> and state the scale factor.</div></li>
-</ol>
-</div> <figure class="figure figure-like" id="fig-mystery-dilation-pentomino"><iframe id="GGapp-mystery-dilation-pentomino" width="600" height="600" src="GGapp-mystery-dilation-pentomino-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.5<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-pentomino" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-pentomino.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.b">Task 5.2.2.b</a></figcaption></figure></article><article class="task exercise-like" id="task-mystery-dilation-concave"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para logical" id="task-mystery-dilation-concave-1-1">
-<div class="para">Concave quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> are given in the GeoGebra applet, <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.6">Figure 5.2.6</a>.</div>
-<ol class="decimal">
-<li id="task-mystery-dilation-concave-1-1-4-1"><div class="para" id="task-mystery-dilation-concave-1-1-4-1-1">Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.</div></li>
-<li id="task-mystery-dilation-concave-1-1-4-2"><div class="para" id="task-mystery-dilation-concave-1-1-4-2-1">Determine the constant of proportionality if it exists.</div></li>
-<li id="task-mystery-dilation-concave-1-1-4-3"><div class="para" id="task-mystery-dilation-concave-1-1-4-3-1">Is there a dilation taking <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{?}\)</span> If so, locate the center <span class="process-math">\(G\)</span> and state the scale factor for the dilation.</div></li>
-</ol>
-</div> <figure class="figure figure-like" id="fig-mystery-dilation-concave"><iframe id="GGapp-mystery-dilation-concave" width="600" height="600" src="GGapp-mystery-dilation-concave-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.2.6<span class="period">.</span></span><span class="space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.c">Task 5.2.2.c</a></figcaption></figure></article><article class="task exercise-like" id="subsubsec-dilations-similar-5-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
-<div class="para" id="subsubsec-dilations-similar-5-5-1-1">Describe the technique you used to determine whether two figures were similar. How did you find the constant of proportionality?</div></article><article class="task exercise-like" id="subsubsec-dilations-similar-5-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
-<div class="para" id="subsubsec-dilations-similar-5-6-1-1">Describe the technique you used to determine whether there was a dilation that took a figure to another figure. How did you find the center of the dilation?</div></article><article class="task exercise-like" id="subsubsec-dilations-similar-5-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
-<div class="para logical" id="subsubsec-dilations-similar-5-7-1-1">
-<div class="para">Based on your exploration, which of the following are true?</div>
-<ol class="decimal">
-<li id="subsubsec-dilations-similar-5-7-1-1-1-1"><div class="para" id="subsubsec-dilations-similar-5-7-1-1-1-1-1">If two polygons are similar there is a dilation taking one polygon to the other.</div></li>
-<li id="subsubsec-dilations-similar-5-7-1-1-1-2"><div class="para" id="subsubsec-dilations-similar-5-7-1-1-1-2-1">If there is a dilation taking one polygon to another, then the polygons are similar.</div></li>
-<li id="subsubsec-dilations-similar-5-7-1-1-1-3"><div class="para" id="subsubsec-dilations-similar-5-7-1-1-1-3-1">Both statements are true.</div></li>
-<li id="subsubsec-dilations-similar-5-7-1-1-1-4"><div class="para" id="subsubsec-dilations-similar-5-7-1-1-1-4-1">Neither statement is true.</div></li>
-</ol>
-</div></article></article></section><section class="exercises" id="exer-dilations-DAS"><h3 class="heading hide-type">
+</div>
+<div class="solutions"><details id="subsubsec-dilations-similar-6-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsubsec-dilations-similar-6-7-2-1">b. If there is a dilation taking one polygon to another, then the polygons are similar. We saw in <a href="sec-dilations-and-similarity.html#task-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.c">Task 5.2.2.c</a> examples of pairs of similar polygons for which there is no dilation mapping one onto the other. A composition of a dilation and an isometry was required.</div></div></details></div></article></article></section><section class="exercises" id="exer-dilations-DAS"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="subexercises" id="Toolbox-dilations-DAS"><h4 class="heading"><span class="title">Building Our Toolbox</span></h4>
 <article class="exercise exercise-like" id="Toolbox-dilations-DAS-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
-<div class="para" id="Toolbox-dilations-DAS-2-1-1">add</div></article></article><article class="subexercises" id="SAR-dilations-DAS"><h4 class="heading"><span class="title">Skills and Recall</span></h4>
+<div class="para" id="Toolbox-dilations-DAS-2-1">Add</div></article></article><article class="subexercises" id="SAR-dilations-DAS"><h4 class="heading"><span class="title">Skills and Recall</span></h4>
 <article class="exercise exercise-like" id="SAR-dilations-DAS-2"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
-<div class="para" id="SAR-dilations-DAS-2-1-1">Add some.</div></article></article><article class="subexercises" id="ExtConc-dilations-DAS"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
+<div class="para" id="SAR-dilations-DAS-2-1-1">Coordinates given, center given, find image.</div></article></article><article class="subexercises" id="ExtConc-dilations-DAS"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
 <article class="exercise exercise-like" id="ExtConc-dilations-DAS-2"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
 <div class="para" id="ExtConc-dilations-DAS-2-1-1">Add</div></article></article><article class="subexercises" id="Writing-dilations-DAS"><h4 class="heading"><span class="title">Writing Prompts</span></h4>
 <article class="exercise exercise-like" id="Writing-dilations-DAS-2"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
