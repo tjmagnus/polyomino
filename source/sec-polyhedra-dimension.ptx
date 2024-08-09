@@ -70,8 +70,9 @@
         size of a figure's interior? 
       </p>
       <exploration>
-        <title>Growth and Area</title>
+        <title>Growth in Two-Dimensional Figures</title>
         <task xml:id="task-polyhedral-dim-rectangle-area">
+          <title>Growth and Area</title>
           <introduction>
             <p>
               For each of the following rectangles compute the area: 
@@ -190,22 +191,23 @@
               </p>
             </statement>
           </task>
-          <task>
-            <statement>
-              <p>
-                Suppose you know the area of a triangle is 52 and then you multiple the
-                base by 5. What will the area of the resulting triangle be?
-              </p>
-            </statement>
-          </task>
-          <task>
-            <statement>
-              <p>
-                Suppose you know that the area of a trapezoid is 100 and then you multiply the 
-                height of the trapezoid by 1.2. What is the area of the resulting trapezoid?
-              </p>
-            </statement>
-          </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Suppose you know the area of a triangle is 52 and then you multiple the
+              base by 5. What will the area of the resulting triangle be?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Suppose you know that the area of a trapezoid is 100 and then you multiply the 
+              height of the trapezoid by 1.2. What is the area of the resulting trapezoid?
+            </p>
+          </statement>
+        </task>
         <task xml:id="subtask-polyhedral-dim-rectangle-multiply-both">
           <introduction>
             <p>
@@ -275,7 +277,9 @@
                 What is the area of the resulting triangle? Why?
               </p>
             </statement>
-            <m>468</m>
+            <answer>
+              <m>468</m>
+            </answer>  
           </task>
           <task>
             <statement>
@@ -307,6 +311,234 @@
               two-dimensional figures both vertically and horizontally. 
             </p>
           </statement>
+        </task>
+        <task>
+          <title>Growth in Perimeter</title>
+          <introduction>
+            <p>
+              We can also measure the perimeter of two-dimensional figures. In this task,
+              we will explore whether multiplying the length and/or height of a figure by 
+              a fixed number has a predictable effect on the perimeter of the figure.
+            </p>
+          </introduction>
+          <task>
+            <introduction>
+              <p>
+                Determine the perimeter of each rectangle in 
+                <xref ref="task-polyhedral-dim-rectangle-area"/>.
+              </p>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  A rectangle with length 3 inches and width 5 inches.
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  Area 16 inches.
+                </p>
+              </answer>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  A rectangle with length 4 cm. and width 7 cm.
+                </p>
+              </statement>
+              <answer>
+                <p>
+                   Perimeter 22 cm.
+                </p>
+              </answer>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  A rectangle with length 2 ft and width 10 ft.
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  Perimeter 24 feet.
+                </p>
+              </answer>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  A rectangle with length <m>\ell</m> units and width <m>w</m> units.
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  <m>Perimeter=2\ell + 2w</m> units
+                </p>
+              </answer>
+            </task>
+          </task>
+          <task>
+          <introduction>
+            <p>
+              For each rectangle in <xref ref="task-polyhedral-dim-rectangle-area"/>,
+              multiply the length by 3 and keep the width unchanged. Then compute the 
+              perimeter 
+              of the enlarged rectangle.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 3 inches and width 5 inches.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Perimeter 28 inches.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 4 cm and width 7 cm.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Perimeter 38 cm.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 2 ft and width 10 ft.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Perimeter 32 ft.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length <m>\ell</m> units and width <m>w</m> units.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <m>6\ell + 2w</m> square units
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Describe how multiplying the length of a rectangle by a number <m>k</m>
+                affects the perimeter of the rectangle.
+              </p>
+            </statement>
+          </task>
+        </task>
+        <task xml:id="subtask-polyhedral-dim-rectangle-peri-multiply-both">
+          <introduction>
+            <p>
+              For each rectangle in <xref ref="task-polyhedral-dim-rectangle-area"/>,
+              multiply both the length and width by 4. Then compute the perimeter 
+              of the enlarged
+              rectangle.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 3 inches and width 5 inches.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Use the original rectangles, not the ones where length has been multiplied by
+                3.
+              </p>
+            </hint>
+            <answer>
+              <p>
+                Perimeter 64 inches.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 4 cm and width 7 cm.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Perimeter 88 cm.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length 2 ft and width 10 ft.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Perimeter 96 ft.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rectangle with length <m>\ell</m> units and width <m>w</m> units.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <m>4(2\ell +2w)</m> units
+              </p>
+            </answer>
+          </task>
+          <!--<task>
+            <statement>
+              <p>
+                Suppose a triangle has area 52 and you multiply both the height and the base by 5.
+                What is the area of the resulting triangle? Why?
+              </p>
+            </statement>
+            <answer>
+              <m>468</m>
+            </answer>  
+          </task>
+          <task>
+            <statement>
+              <p>
+                Suppose a trapezoid has area 100 m^2 and you then multiply the height and both bases by
+                1.2. What is the area of the resulting trapezoid?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                144 m^2
+              </p>
+            </answer>
+          </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Suppose a circle has area <m>64\pi</m> square units. If you multiply the
+              radius by 5, what is the area of the resulting circle? Explain.
+            </p>
+          </statement>
+        </task> -->   
         </task>
         <!--<task>
           <introduction>
@@ -374,22 +606,8 @@
           </answer>-->
         </task>
       </exploration>
-      <p>
-        We can also measure the perimeter of two-dimensional figures. Does multiplying 
-        either height, width, or both of a figure have a predictable effect on the perimeter?
-      </p>
-      <exploration>
-        <title>Growth in Perimeter</title>
-        <task>
-          <statement>
-            <p>
-              Add.
-            </p>
-          </statement>
-        </task>
-        
-        
-      </exploration>
+      
+     
     </subsection>
     <!--<subsection xml:id="subsec-polyhedra-dimension-fractal">
       <title>Measuring Fractals</title>
