@@ -278,7 +278,9 @@
               </p>
             </statement>
             <answer>
+              <p>
               <m>468</m>
+              </p>
             </answer>  
           </task>
           <task>
@@ -506,22 +508,25 @@
               </p>
             </answer>
           </task>
-          <!--<task>
+          <task>
             <statement>
               <p>
-                Suppose a triangle has area 52 and you multiply both the height and the base by 5.
-                What is the area of the resulting triangle? Why?
+                Suppose a rectangle has perimeter 52 and you multiply both the height and the base by 5.
+                What is the perimeter of the resulting rectangle? Why?
               </p>
             </statement>
             <answer>
-              <m>468</m>
+              <p>
+              <m>208</m>
+              </p>
             </answer>  
           </task>
           <task>
             <statement>
               <p>
-                Suppose a trapezoid has area 100 m^2 and you then multiply the height and both bases by
-                1.2. What is the area of the resulting trapezoid?
+                Suppose a triangle has perimeter 20. If we multiply the height and 
+                base of a triangle by 3, must the perimeter 
+                equal 60? Support your answer using examples.
               </p>
             </statement>
             <answer>
@@ -530,80 +535,29 @@
               </p>
             </answer>
           </task>
+          
         </task>
         <task>
           <statement>
             <p>
-              Suppose a circle has area <m>64\pi</m> square units. If you multiply the
-              radius by 5, what is the area of the resulting circle? Explain.
+              Suppose a circle has perimeter <m>64\pi</m> units. If you multiply the
+              radius by 5, what is the circumference of the resulting circle? The 
+              GeoGebra applet will allow you to explore different shaped triangles.
             </p>
+            <figure xml:id="per20growTri">
+              <caption>A GeoGebra applet to see growth in the perimeter of a triangle.</caption>
+              <interactive xml:id="mult-by-3-peri-tri"
+                  platform="geogebra">
+                  <slate surface="geogebra" material="tshzsfwn"/>
+                </interactive>
+            </figure>
           </statement>
-        </task> -->   
-        </task>
-        <!--<task>
-          <introduction>
-            <p>
-              For each rectangle in <xref ref="task-polyhedral-dim-rectangle-area-perimeter"/>,
-              add 5 to both the length and the width. Then compute the perimeter and area of the 
-              enlarged rectangle.
-            </p>
-          </introduction>
-          <task>
-            <statement>
-              <p>
-                A rectangle with length 3 and width 5.
-              </p>
-            </statement>
-            <hint>
-              <p>
-                You already added 5 to the length in </xref ref="subtask-polyhedral-dim-rectangle-addlength"/>.
-                Just add 5 to the width of your most recent work.
-              </p>
-            </hint>
-            <answer>
-              <p>
-                Perimeter 36. Area 80
-              </p>
-            </answer>
-            <solution>
-              <p>
-                <m>perimeter=2(3+5)+2(5+5)=16+20=36</m>; <m>area=(3+5)(5+5)=80</m>
-              </p>
-            </solution>
-          </task>
-          <task>
-            <statement>
-              <p>
-                A rectangle with length 4 and width 7.
-              </p>
-            </statement>
-          </task>
-          <task>
-            <statement>
-              <p>
-                A rectangle with length 2 and width 10
-              </p>
-            </statement>
-          </task>
-          <task>
-            <statement>
-              <p>
-                A rectangle with length <m>\ell</m> and width <m>w</m>.
-              </p>
-            </statement>
-            <hint>
-              <p>
-                See <xref ref="examp-mult-poly"/> for an example of how to multiply two polynomials.
-                The example has a binomial and a trinomial whereas this problem involves two binomials.
-                A review of <xref ref="algebra-principles"/> may be helpful. 
-              </p>
-            </hint>
-          </task>
           <answer>
             <p>
-              
+              <m>320</m> units
             </p>
-          </answer>-->
+          </answer>
+        </task>  
         </task>
       </exploration>
       
