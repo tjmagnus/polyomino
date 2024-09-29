@@ -601,6 +601,18 @@
           </task> 
         </task>
       </exploration>
+      <exploration>
+        <title>Growth in Three-Dimensional Solids</title>
+        <task>
+          <statement>
+            <p>
+              Compute the area of a rectangular prism with width 2 inches,
+              length 5 inches, and depth 7 inches.
+            </p>
+          </statement>
+        </task>
+        
+      </exploration>
       
      
     </subsection>
