@@ -435,7 +435,7 @@
             <answer>
                 <p>
                     b. If there is a dilation taking one polygon to another, then 
-                    the polygons are similar. We saw in <xref ref="task-mystery-pentomino"/> and 
+                    the polygons are similar. We saw in <xref ref="task-mystery-dilation-pentomino"/> and 
                     <xref ref="task-mystery-dilation-concave"/>
                     examples of pairs of similar polygons for which there is no dilation mapping 
                     one onto the other. A composition of a dilation and an isometry was required.
