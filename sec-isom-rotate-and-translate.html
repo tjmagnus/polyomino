@@ -5,7 +5,7 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Orientation-Maintaining Transformations</title>
@@ -69,25 +69,46 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.6.3';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.1dbf799015a9933a.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.253ff4af1e53e55f.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.541c9106f2c605b9.css">
 <style>
 #sec-intro-explore-3-3-3-1-3-1 { counter-set: sec-intro-explore-3-3-3-1-3-1 0; }
 #sec-intro-explore-3-3-3-1-3-1 > li::marker { content: ""counter(sec-intro-explore-3-3-3-1-3-1,decimal)"."; }
@@ -400,7 +421,8 @@ window.MathJax = {
 <h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
 <p class="byline">Teresa D. Magnus</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -411,7 +433,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-isom-reflect-Cartesian.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-isom.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-isom-identifying-isometries.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-isom-reflect-Cartesian.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-isom.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-isom-identifying-isometries.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -419,15 +442,15 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
-<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-7.html" class="internal"><span class="title">How to use this book</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -611,9 +634,9 @@ window.MathJax = {
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#exer-isom-reflect" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Orientation-Maintaining Transformations</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list active">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP" class="internal"><span class="codenumber">4.2.1</span> <span class="title">What do we mean by orientation-maintaining?</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Collinearities and Isomorphisms</span></a></div></li>
 <li class="toc-item toc-subsection">
@@ -728,7 +751,8 @@ window.MathJax = {
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-isom-rotate-and-translate"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">4.2</span><span class="space"> </span><span class="title">Orientation-Maintaining Transformations</span>
 </h2>
-<section class="introduction" id="sec-isom-rotate-and-translate-2"><div class="para" id="sec-isom-rotate-and-translate-2-1">Have you ever held a written message up to a mirror? You probably noticed that the direction of the words were reversed, making them more difficult to read. Even turning your head slightly did not correct this. In this section, we will look more carefully at this property, called orientation-reversing and learn about other transformations that do not reverse orientation of figures. We will also explore isometries and learn about properties that all isometries share.</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/reflected-math.svg" role="img" class="contained" alt="The word math reflected across a line."></div></section><section class="subsection" id="subsec-isom-RAT-definingOP"><h3 class="heading hide-type">
+<section class="introduction" id="sec-isom-rotate-and-translate-2"><div class="para" id="sec-isom-rotate-and-translate-2-1">Have you ever held a written message up to a mirror? You probably noticed that the direction of the words were reversed, making them more difficult to read. Even turning your head slightly did not correct this. In this section, we will look more carefully at this property, called orientation-reversing and learn about other transformations that do not reverse orientation of figures. We will also explore isometries and learn about properties that all isometries share.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/reflected-math.svg" role="img" class="contained" alt="The word math reflected across a line."></div></section><section class="subsection" id="subsec-isom-RAT-definingOP"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.1</span><span class="space"> </span><span class="title">What do we mean by orientation-maintaining?</span>
 </h3>
 <div class="para" id="subsec-isom-RAT-definingOP-2">The picture in <a href="sec-isom-rotate-and-translate.html#reversing-orientation-fig" class="xref" data-knowl="./knowl/xref/reversing-orientation-fig.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.1">Figure 4.2.1</a> shows a triangle <span class="process-math">\(\Delta ABC\)</span> reflected across a line <span class="process-math">\(\ell\text{.}\)</span> Although the letters <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\)</span> are in alphabetical order when read clockwise from the original figure, the letters in the reflected image <span class="process-math">\(\Delta A'B'C'\)</span> are in the reverse order. When this happens, we say that the transformation <dfn class="terminology">reverses orientation</dfn>. Any reflection will be an <dfn class="terminology">orientation-reversing</dfn> transformation.</div>
@@ -736,7 +760,8 @@ window.MathJax = {
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.1<span class="period">.</span></span><span class="space"> </span>A reflection reverses orientation</figcaption></figure><div class="para" id="subsec-isom-RAT-definingOP-4">Not all transformations change orientation. In this section, you will encounter two types of <dfn class="terminology">orientation-maintaining</dfn> transformations, namely rotations and translations. When an orientation-maintaining transformation is performed, the order in which the vertices are read is unchanged.</div>
 <aside class="aside aside-like" id="subsec-isom-RAT-definingOP-5"><div class="para" id="subsec-isom-RAT-definingOP-5-1">Many textbooks use the term <dfn class="terminology">orientation-preserving</dfn> instead of orientation-maintaining. Because of the oral similarity in the words, reversing and preserving, I have chosen to use the term orientation-maintaining instead of orientation-preserving in this textbook.</div></aside><article class="definition definition-like" id="def-orientation"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="period">.</span>
-</h4> <div class="para" id="def-orientation-7-1">A geometrical transformation is said to <dfn class="terminology">maintain orientation</dfn> if the order of the vertices of any image when read clockwise are the same as that of the original figure.</div> <div class="para" id="def-orientation-7-2">On the other hand, if the resulting images have the vertices in the reverse order, we say that the transformation <dfn class="terminology">reverses orientation</dfn>.</div></article><details id="subsec-isom-RAT-definingOP-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+</h4>
+<div class="para" id="def-orientation-7-1">A geometrical transformation is said to <dfn class="terminology">maintain orientation</dfn> if the order of the vertices of any image when read clockwise are the same as that of the original figure.</div> <div class="para" id="def-orientation-7-2">On the other hand, if the resulting images have the vertices in the reverse order, we say that the transformation <dfn class="terminology">reverses orientation</dfn>.</div></article><details id="subsec-isom-RAT-definingOP-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="period">.</span>
 </h4></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="subsec-isom-RAT-definingOP-7-1"><div class="para" id="subsec-isom-RAT-definingOP-7-1-1">Determine whether orientation is maintained or reversed in each illustrated transformation:</div></div>
 <article class="task exercise-like" id="subsec-isom-RAT-definingOP-7-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
@@ -772,21 +797,24 @@ window.MathJax = {
 <div class="para" id="explor-props-preserved-refl-3-1-1">Let <span class="process-math">\(K\)</span> be the point where lines <span class="process-math">\(\overleftrightarrow{CD}\)</span> and <span class="process-math">\(\overleftrightarrow{HI}\)</span> intersect. Where must <span class="process-math">\(K'\text{,}\)</span> the image of <span class="process-math">\(K\)</span> be located? Why?</div></article></article><div class="para" id="subsec-isom-RAT-collinearity-8">The transformation in <a href="ch-isom.html#illus-nonisometry" class="xref" data-knowl="./knowl/xref/illus-nonisometry.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.0.2">Figure 4.0.2</a> is a collineation, but it does not preserve distance. For the remainder of <a href="ch-isom.html" class="internal" title="Chapter 4: Exploring Transformations">Chapter 4</a> we will focus on distance-preserving collineations. Collineations that do not preserve distance will be the focus of <a href="ch-dilation.html" class="internal" title="Chapter 5: Exploring Similarity">Chapter 5</a>.</div>
 <article class="definition definition-like" id="def-isom"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.7</span><span class="period">.</span>
-</h4> <div class="para" id="def-isom-4-1">A collineation is called an <dfn class="terminology">isomorphism</dfn> if it preserves distance between points. In other words, collineation <span class="process-math">\(t\)</span> is an isomorphism if for every two points <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\text{,}\)</span> <span class="process-math">\(m(\overline{PQ})=m(\overline{P'Q'})\)</span> where <span class="process-math">\(P'=t(P)\)</span> and <span class="process-math">\(Q'=t(Q)\text{.}\)</span>
+</h4>
+<div class="para" id="def-isom-4-1">A collineation is called an <dfn class="terminology">isomorphism</dfn> if it preserves distance between points. In other words, collineation <span class="process-math">\(t\)</span> is an isomorphism if for every two points <span class="process-math">\(P\)</span> and <span class="process-math">\(Q\text{,}\)</span> <span class="process-math">\(m(\overline{PQ})=m(\overline{P'Q'})\)</span> where <span class="process-math">\(P'=t(P)\)</span> and <span class="process-math">\(Q'=t(Q)\text{.}\)</span>
 </div> <aside class="aside aside-like" id="def-isom-4-2"><div class="para" id="def-isom-4-2-1">Here, <span class="process-math">\(t\)</span> refers to a transformation, a function mapping points.</div></aside></article><div class="para" id="subsec-isom-RAT-collinearity-10">Reflections are just one example of an isomorphism. We shall see that translations and rotations also preserve linearity and distance.</div></section><section class="subsection" id="subsec-Translations"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="space"> </span><span class="title">Translations</span>
 </h3>
 <div class="para" id="subsec-Translations-2">The first orientation-maintaining transformation is called a <dfn class="terminology">translation</dfn> or <dfn class="terminology">slide</dfn>.</div>
 <article class="definition definition-like" id="def-translation"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.8</span><span class="period">.</span>
-</h4> <div class="para" id="def-translation-4-1">A <dfn class="terminology">translation</dfn> is an transformation that slides every point on the plane a fixed distance in a specified direction. The direction and distance are often given in the form of a directed line segment called the <dfn class="terminology">translation vector</dfn>.</div></article><article class="exploration project-like" id="explor-isom-RAT-translation"><h4 class="heading">
+</h4>
+<div class="para" id="def-translation-4-1">A <dfn class="terminology">translation</dfn> is an transformation that slides every point on the plane a fixed distance in a specified direction. The direction and distance are often given in the form of a directed line segment called the <dfn class="terminology">translation vector</dfn>.</div></article><article class="exploration project-like" id="explor-isom-RAT-translation"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Translating on a Coordinate Plane.</span>
 </h4>
 <div class="introduction" id="explor-isom-RAT-translation-2"><div class="para" id="explor-isom-RAT-translation-2-1">This exploration may also be done on paper using a print copy of <a href="sec-isom-rotate-and-translate.html#app-translate-wcoords" class="xref" data-knowl="./knowl/xref/app-translate-wcoords.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.9">Figure 4.2.9</a> instead of the application. The GeoGebra tool for creating translations has been turned off. Instead, you should use the grid or coordinates to determine the locations of the translated points.</div></div>
 <article class="task exercise-like" id="explor-isom-RAT-translation-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="introduction" id="explor-isom-RAT-translation-3-1">
 <div class="para" id="explor-isom-RAT-translation-3-1-1">
-<a href="sec-isom-rotate-and-translate.html#app-translate-wcoords" class="xref" data-knowl="./knowl/xref/app-translate-wcoords.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.9">Figure 4.2.9</a> gives a picture of quadrilateral <span class="process-math">\(ABCD\)</span> a vector <span class="process-math">\(\overrightarrow{EF}\)</span> on a coordinate grid. Vector <span class="process-math">\(\overrightarrow{EF}\)</span> goes from <span class="process-math">\((2,4)\)</span> to <span class="process-math">\((5,3)\)</span> suggesting that this translation moves points three units to the right and one unit down.</div> <figure class="figure figure-like" id="app-translate-wcoords"><iframe id="coordtranslationapp" width="600" height="600" src="coordtranslationapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.9<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for translating by a coordinate vector.</figcaption></figure>
+<a href="sec-isom-rotate-and-translate.html#app-translate-wcoords" class="xref" data-knowl="./knowl/xref/app-translate-wcoords.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.9">Figure 4.2.9</a> gives a picture of quadrilateral <span class="process-math">\(ABCD\)</span> a vector <span class="process-math">\(\overrightarrow{EF}\)</span> on a coordinate grid. Vector <span class="process-math">\(\overrightarrow{EF}\)</span> goes from <span class="process-math">\((2,4)\)</span> to <span class="process-math">\((5,3)\)</span> suggesting that this translation moves points three units to the right and one unit down.</div>
+<figure class="figure figure-like" id="app-translate-wcoords"><iframe id="coordtranslationapp" width="600" height="600" src="coordtranslationapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.9<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for translating by a coordinate vector.</figcaption></figure>
 </div>
 <article class="task exercise-like" id="explor-isom-RAT-translation-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
 <div class="para" id="explor-isom-RAT-translation-3-2-1-1">Use the point tool to locate and mark the image <span class="process-math">\(A'\)</span> created by moving point <span class="process-math">\(A\)</span> the distance and direction indicated by vector <span class="process-math">\(\overrightarrow{FG}\text{.}\)</span> What are the coordinates of <span class="process-math">\(A'\text{?}\)</span>
@@ -826,14 +854,17 @@ window.MathJax = {
 <div class="para" id="subsec-isom-RAT-rotation-2">The third transformation we will consider is a <dfn class="terminology">rotation</dfn>. Like a translation, a rotation maintains the orientation of the vertices.  As the name suggests, a rotation turns the points of a plane around a single fixed point.</div>
 <article class="definition definition-like" id="def-rotation"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.2.10</span><span class="period">.</span>
-</h4> <div class="para" id="def-rotation-4-1">A <dfn class="terminology">rotation</dfn> is a transformation of points on a plane that has a single point, called the <dfn class="terminology">center</dfn> of the rotation, which is not moved by the rotation. All other points are rotated around the center a specific number of degrees. This specified number of degrees is referred to as the <dfn class="terminology">angle of rotation</dfn>.</div></article><div class="para" id="subsec-isom-RAT-rotation-4">Note that we also need to specify the direction of the spin. If the direction of a rotation is not specified, we will assume that it spins in the counterclockwise direction. To indicate a clockwise rotation, the angle may be given as a negative number.</div>
+</h4>
+<div class="para" id="def-rotation-4-1">A <dfn class="terminology">rotation</dfn> is a transformation of points on a plane that has a single point, called the <dfn class="terminology">center</dfn> of the rotation, which is not moved by the rotation. All other points are rotated around the center a specific number of degrees. This specified number of degrees is referred to as the <dfn class="terminology">angle of rotation</dfn>.</div></article><div class="para" id="subsec-isom-RAT-rotation-4">Note that we also need to specify the direction of the spin. If the direction of a rotation is not specified, we will assume that it spins in the counterclockwise direction. To indicate a clockwise rotation, the angle may be given as a negative number.</div>
 <article class="exploration project-like" id="expl-rotation"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Exploring a Rotation.</span>
 </h4>
 <div class="introduction" id="expl-rotation-2">
 <div class="para" id="expl-rotation-2-1">
-<a href="sec-isom-rotate-and-translate.html#rotated-triangle" class="xref" data-knowl="./knowl/xref/rotated-triangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.11">Figure 4.2.11</a> shows an example of the action of a translation on triangle <span class="process-math">\(\Delta ABC\text{.}\)</span> Use this figure to answer the following:</div> <figure class="figure figure-like" id="rotated-triangle"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/rotation.svg" role="img" class="contained" alt="Triangle ABC is rotated around a point F to form triangle A’B’C’."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.11<span class="period">.</span></span><span class="space"> </span>A rotation of <span class="process-math">\(\Delta ABC\)</span></figcaption></figure> </div>
+<a href="sec-isom-rotate-and-translate.html#rotated-triangle" class="xref" data-knowl="./knowl/xref/rotated-triangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.11">Figure 4.2.11</a> shows an example of the action of a translation on triangle <span class="process-math">\(\Delta ABC\text{.}\)</span> Use this figure to answer the following:</div>
+<figure class="figure figure-like" id="rotated-triangle"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/rotation.svg" role="img" class="contained" alt="Triangle ABC is rotated around a point F to form triangle A’B’C’."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.2.11<span class="period">.</span></span><span class="space"> </span>A rotation of <span class="process-math">\(\Delta ABC\)</span></figcaption></figure>
+</div>
 <article class="task exercise-like" id="expl-rotation-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="expl-rotation-3-1-1">List the vertices of the original triangle <span class="process-math">\(\Delta ABC\)</span> clockwise order starting with <span class="process-math">\(A\text{.}\)</span> List the vertices of the image <span class="process-math">\(\Delta A'B'C'\)</span> in clockwise order starting with <span class="process-math">\(A’\text{.}\)</span> Does the rotation maintain the orientation of the triangle?</div></article><article class="task exercise-like" id="expl-rotation-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="expl-rotation-4-1-1">What point in <a href="sec-isom-rotate-and-translate.html#rotated-triangle" class="xref" data-knowl="./knowl/xref/rotated-triangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.11">Figure 4.2.11</a> is the center of this particular rotation? Is it on either triangle, in the interior of either triangle, or in the exterior of both triangles?  How do you know that the point you identified as the center meets the criteria in the definition of <a href="sec-isom-rotate-and-translate.html#def-rotation" class="xref" data-knowl="./knowl/xref/def-rotation.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 4.2.10">center of rotation</a>? Is the center of rotation related to <span class="process-math">\(\overline{AA'}\text{,}\)</span> <span class="process-math">\(\overline{BB'}\text{,}\)</span> and <span class="process-math">\(\overline{CC'}\text{?}\)</span>
@@ -882,7 +913,7 @@ m\angle{C'FB'} \amp =26
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
 </div>
 </body>
 </html>
