@@ -141,6 +141,11 @@
                 A rectangle with length 3 inches and width 5 inches.
               </p>
             </statement>
+            <hint>
+              <p>
+                The length is 9 and the width is still 5.
+              </p>
+            </hint>
             <answer>
               <p>
                 Area 45 square inches.
@@ -153,6 +158,11 @@
                 A rectangle with length 4 cm and width 7 cm.
               </p>
             </statement>
+            <hint>
+              <p>
+                Multiply the length 4 by 3. Keep width 7.
+              </p>
+            </hint>
             <answer>
               <p>
                 Area  84 cm^2.
@@ -177,6 +187,11 @@
                 A rectangle with length <m>\ell</m> units and width <m>w</m> units.
               </p>
             </statement>
+            <hint>
+              <p>
+                Once again we multiple <m>\ell</m> by 3 and keep <m>w</m>.
+              </p>
+            </hint>
             <answer>
               <p>
                 <m>3(\ell w)</m> square units
@@ -195,7 +210,7 @@
         <task>
           <statement>
             <p>
-              Suppose you know the area of a triangle is 52 and then you multiple the
+              Suppose you know the area of a triangle is 52 and then you multiply the
               base by 5. What will the area of the resulting triangle be?
             </p>
           </statement>
@@ -207,6 +222,16 @@
               height of the trapezoid by 1.2. What is the area of the resulting trapezoid?
             </p>
           </statement>
+          <hint>
+            <p>
+              The height is unchanged. Only the area is multiplied by 1.2.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              120 square units
+            </p>
+          </answer>
         </task>
         <task xml:id="subtask-polyhedral-dim-rectangle-multiply-both">
           <introduction>
@@ -224,8 +249,8 @@
             </statement>
             <hint>
               <p>
-                Use the original rectangles, not the ones where length has been multiplied by
-                3.
+                The new length will be <m>4\cdot 3=12</m> inches and the new height is
+                <m>4\cdot 5=20</m> inches. 
               </p>
             </hint>
             <answer>
@@ -240,9 +265,14 @@
                 A rectangle with length 4 cm and width 7 cm.
               </p>
             </statement>
+            <hint>
+              <p>
+                Again multiply both the length and the width by 4.
+              </p>
+            </hint>
             <answer>
               <p>
-                Area  448 cm^2.
+                Area <m> 16\cdot 28=448 cm^2</m>.
               </p>
             </answer>
           </task>
@@ -266,7 +296,7 @@
             </statement>
             <answer>
               <p>
-                <m>16(\ell w)</m> square units
+                <m>16(\ell w)</m> square units or <m>4^2(\ell w)</m> square units.
               </p>
             </answer>
           </task>
@@ -279,7 +309,7 @@
             </statement>
             <answer>
               <p>
-              <m>468</m>
+              Multiply the area by <m>5^2</m> to get <m>1300</m>.
               </p>
             </answer>  
           </task>
