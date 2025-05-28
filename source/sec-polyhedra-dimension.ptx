@@ -14,19 +14,20 @@
       <p>
         Linear objects, like lines and segments, are one-dimensional. The only finite 
         one-dimensional object is a line segment which is bounded by two endpoints. Length
-        is the measurement of the interior space of a line segment. The length is also the 
+        can be thought of as the measurement of the interior space of a line segment, namely the 
         distance between the endpoints. In a linear space, all objects lie on a single line.
         we move only forward and backward along that line. There is no height or width.
       </p>
       <p>
         Two-dimensional geometry is the study of objects lying in a plane. Two-dimensional
-        objects include polygons, circles, and other figures. A closed two-dimenional figure 
+        objects include polygons, circles, and other figures that can be drawn on a flat surface. 
+A closed two-dimenional figure 
         will be bounded by linear and/or curved segments that separate the interior of the 
         figure from the rest of the plane, which we refer to as the exterior of the figure. 
         The measure of the interior of a figure is called its area and involves both length
         and width. This second dimension, width, is measured in a direction perpendicular to  
         that of length. A plane will also include objects of smaller dimension, such as 
-        one-dimensional lines and zero-dimensional points. We cannot measure area of these 
+        one-dimensional lines and zero-dimensional points. We cannot measure the area of these 
         smaller dimensional objects.
       </p>
       <p>
