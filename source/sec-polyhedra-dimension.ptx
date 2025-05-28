@@ -215,8 +215,11 @@ A closed two-dimenional figure
               base by 5. What will the area of the resulting triangle be?
             </p>
           </statement>
-<answer>
-</p>
+          <answer>
+            <p>
+              <m>25\cdot 52=1300</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -375,6 +378,7 @@ A closed two-dimenional figure
                   The perimeter is the length of the boundary of a figure. For a rectangle, add the top, right, bottom, and 
                   left side lengths.
                 </p>
+              </hint>
               <answer>
                 <p>
                   The perimeter is <m>3+5+3+5=16</m> inches.
