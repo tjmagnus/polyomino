@@ -323,7 +323,7 @@ A closed two-dimenional figure
           <task>
             <statement>
               <p>
-                Suppose a trapezoid has area 100 m^2 and you then multiply the height and both bases by
+                Suppose a trapezoid has area 100 square meters and you then multiply the height and both bases by
                 1.2. What is the area of the resulting trapezoid?
               </p>
             </statement>
@@ -582,7 +582,7 @@ A closed two-dimenional figure
             </statement>
             <answer>
               <p>
-                144 m^2
+                <m>144 m^2</m>
               </p>
             </answer>
           </task>
@@ -629,31 +629,189 @@ A closed two-dimenional figure
                 </p>
               </statement>
             </task>
-            <task>
-              <statement>
-                <p>
-                  Perimeter is the measure of the boundary of a two-dimensional figure. 
-                  Refer to your work in this section of the exploration as you explain 
-                  how perimeter is affected by stretching two-dimensional figures both 
-                  vertically and horizontally by the same amount. Can we make the same claim
-                  if we stretch vertically by one factor and horizontally by another factor? 
-                </p>
-              </statement>
-            </task>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Perimeter is the measure of the boundary of a two-dimensional figure. 
+                Refer to your work in this section of the exploration as you explain 
+                how perimeter is affected by stretching two-dimensional figures both 
+                vertically and horizontally by the same amount. Can we make the same claim
+                if we stretch vertically by one factor and horizontally by another factor? 
+              </p>
+            </statement>
           </task> 
         </task>
       </exploration>
       <exploration>
         <title>Growth in Three-Dimensional Solids</title>
         <task>
-          <statement>
+          <introduction>
             <p>
-              Compute the volume of a rectangular prism with width 2 inches,
+              Suppose a rectangular prism has width 2 inches,
               length 5 inches, and depth 7 inches.
             </p>
-          </statement>
+          </introduction>
+          <task>
+            <statement>
+            <p>
+              Compute its volume.
+            </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What happens to the volume if just the width
+                is multiplied by 3?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What happens to the volume of the prism if the width 
+                and the length are both multiplied by 3?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What happens to the volume if all three dimensions,
+                width, length, and depth, are multiplied by 3?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                In a sentence or two, describe how multiplying one or more dimensions by
+                a constant affects the volume of a rectangular prism. 
+              </p>
+            </statement>
+          </task>
         </task>
-        
+        <task>
+          <introduction>
+            <p>
+              In this task we explore a connection between volume of 
+              prisms and cylinders and the depth of the solid.
+            </p>
+          </introduction>
+          <task>
+            <introduction>
+              <p>
+                The base of a prism is a square with side length 7 inches.
+              </p>
+            </introduction>
+            <task>
+              <statement>
+              <p>
+                What is the volume of the prism if the depth is 1 inch?
+              </p>
+            </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the volume of the prism if the depth is 3 inches?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the volume of the prism if the depth is <m>d</m> inches?
+                </p>
+              </statement>
+            </task>
+          </task>
+          <task>
+            <introduction>
+              <p>
+                The base of a prism is a circle with radius 5 inches.
+              </p>
+            </introduction>
+            <task>
+              <statement>
+              <p>
+                What is the volume of the prism if the depth is 1 inch?
+              </p>
+            </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the volume of the prism if the depth is 4 inches?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the volume of the prism if the depth is <m>d</m> inches?
+                </p>
+              </statement>
+            </task>
+          </task>
+          <task>
+            <introduction>
+              <p>
+                The base of a prism is a triangle with base 4 inches and height 9 inches.
+              </p>
+            </introduction>
+            <task>
+              <statement>
+              <p>
+                What is the volume of the prism if the depth is 1 inch?
+              </p>
+            </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the volume of the prism if the depth is 3 inches?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the volume of the prism if the depth is <m>d</m> inches?
+                </p>
+              </statement>
+            </task>
+            <task>
+            <introduction>
+              <p>
+                A prism has a base with area 56 square inches.
+              </p>
+            </introduction>
+            <task>
+              <statement>
+              <p>
+                What is the volume of the prism if the depth is 1 inch?
+              </p>
+            </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the volume of the prism if the depth is 3 inches?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the volume of the prism if the depth is <m>d</m> inches?
+                </p>
+              </statement>
+            </task>
+          </task>
+          </task>
+        </task>
       </exploration>
       
      
