@@ -20,18 +20,16 @@
       <subtitle>Discovering Geometry through Exploration</subtitle>
 
     <frontmatter xml:id="frontmatter">
-      <titlepage>
+      <bibinfo>
         <author>
           <personname>Teresa D. Magnus</personname>
           <department>Department of Mathematics and Computer Science</department>
           <institution>Rivier University</institution>
         </author>
+
         <date>
           <today />
         </date>
-      </titlepage>
-
-      <colophon>
 
         <website>
           <name>
@@ -64,7 +62,28 @@
             </p>
           </shortlicense>
         </copyright>
+
+      </bibinfo>
+
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+
+      <colophon xml:id="front-colophon">
+        <colophon-items/>
       </colophon>
+
+        <biography>
+          <title>
+            About Teresa Magnus
+          </title>
+          <p>
+            Teresa "Terri" Magnus has taught mathematics at small private universities for 
+            over three decades. She believes in active learning through problem-solving.
+            Outside the classroom, Terri enjoys hiking in the White Mountains and playing games
+            with family and friends.
+          </p>
+          </biography>
       
          <dedication>
     <p>
