@@ -659,6 +659,21 @@
             Determine <m>m\angle DEB</m> and <m>m\angle BAC</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            Look at the angles meeting at <m>E</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            30 degrees
+          </p>
+        </answer>
+        <solution>
+          <p>
+            <m>180-(108+42)=180-150=30</m>
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
@@ -751,24 +766,24 @@
           the Golden Ratio.
         </p>
       </introduction>
-      
-      <statement>
-        <p>
-          Add an algebraic exploration into the number 
-          <m>\frac{1+\sqrt{5}}{2}</m>, its reciprocal, and its square.
-        </p>
-      </statement>
+      <task>
+        <statement>
+          <p>
+            Add an algebraic exploration into the number 
+            <m>\frac{1+\sqrt{5}}{2}</m>, its reciprocal, and its square.
+          </p>
+        </statement>
+      </task>
     </exercise>
     <exercise>
       <title>Surprising Facts about the Golden Ratio</title>
       <introduction>
         <p>
-          The ratio <m>\frac{1+\sqrt{5}}/2</m> that was the constant of 
+          The ratio <m>\frac{1+\sqrt{5}}{2}</m> that was the constant of 
           proportionality in <xref ref="explor-golden-triangle"/> is known as 
           the Golden Ratio.
         </p>
       </introduction>
-      
     </exercise>
   </subexercises>
   <subexercises xml:id="Writing-dilations-Pyth">

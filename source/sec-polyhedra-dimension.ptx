@@ -4,39 +4,62 @@
   <title>Measuring in Different Dimensions</title>
   <introduction>
     <p>
-      As we complete our section on three-dimensional solids, let us take a closer 
-      look at the relationships between measurements of one-, two-, and three-dimensional
-      objects.
+      Length, area, volume, and surface area have practical applications. A landowner may be 
+      interested about the area of the space available for planting and building. If a  
+      fence is desired, a different computation is required. Similarly, the 
+      amount of water needed to fill a pool and the quantity of waterproofing needed to protect 
+      the floor and walls of the pool require different geometrical formulas. 
     </p>
     </introduction>
     <subsection xml:id="subsec-polyhedra-dimension-interior">
-      <title>Measuring Interior Space</title>
+      <title>Measuring Interiors</title>
       <p>
-        Linear objects, like lines and segments, are one-dimensional. The only finite 
-        one-dimensional object is a line segment which is bounded by two endpoints. Length
-        is the measurement of the interior space of a line segment. The length is also the 
-        distance between the endpoints. In a linear space, all objects lie on a single line.
+        What does it mean to measure the interior of a geometric object? It depends on the 
+        object and the context. A line segment is a finite 
+        one-dimensional object bounded by two endpoints. Length
+        can be thought of as the measure of the interior space of a line segment, namely the 
+        distance between the endpoints. In a one-dimensional space, all objects lie on a single line.
         we move only forward and backward along that line. There is no height or width.
       </p>
       <p>
         Two-dimensional geometry is the study of objects lying in a plane. Two-dimensional
-        objects include polygons, circles, and other figures. A closed two-dimenional figure 
+        objects include polygons, circles, and other figures that can be drawn on a flat surface. 
+        A closed two-dimensional figure 
         will be bounded by linear and/or curved segments that separate the interior of the 
         figure from the rest of the plane, which we refer to as the exterior of the figure. 
-        The measure of the interior of a figure is called its area and involves both length
-        and width. This second dimension, width, is measured in a direction perpendicular to  
-        that of length. A plane will also include objects of smaller dimension, such as 
-        one-dimensional lines and zero-dimensional points. We cannot measure area of these 
-        smaller dimensional objects.
+        The measure of the interior of a two-dimensional figure is called its area and involves 
+        both length and width. Of course, the boundary of the planar figure can also be measured, 
+        but the boundary consists of one-dimensional objects; namely, line segments and curves. 
       </p>
       <p>
         In three-dimensional geometry, we have length, width, and a third direction called 
-        depth (or height). The geometrical solids studied in this section including prisms,
-        cylinders, cones, pyramids, and polyhedra are examples of three-dimensional solids. 
-        Each three-dimensional solid is bounded by surfaces which may include polygons, circles, 
-        and other two-dimensional objects. The measurement of the interior space of a 
+        depth (or height). The geometrical solids studied in <xref ref="ch-polyhedra"/>, including prisms,
+        cylinders, cones, pyramids, and polyhedra, are examples of three-dimensional solids. 
+        The measurement of the interior space of a 
         geometrical solid is called volume.
+        Each three-dimensional solid is bounded by surfaces which may include polygons, circles, 
+        and other two-dimensional objects. Since these surfaces are two-dimensional, we use 
+        area to describe the size of the boundary. The total of the area of these bounding 
+        surfaces is given the appropriate name, surface area. 
       </p>
+      <exercise label="polyhedra-dim-checkpoint-match-measures">
+        <statement>
+          <p>
+            Match the correct type of measurement to each scenario.
+          </p>
+        </statement>
+        <matching>
+            <premise ref="icevol">The amount of ice that can fit in a cooler.</premise>
+            <premise ref="floorarea">The amount of vinyl needed to cover a floor.</premise>
+            <premise ref="boxsurfarea">The amount of wood needed to make a box.</premise>
+            <premise ref="wirelength">The amount of wire to form a boundary of a polygon. </premise>
+            <response xml:id="floorarea">area</response>
+            <response xml:id="boxsurfarea">surface area</response>
+            <response xml:id="icevol">volume</response>
+            <response xml:id="wirelength">perimeter</response>
+        </matching>
+
+      </exercise>
         <!--both the area and the perimeter of closed 
         finite two-dimensional objects. While the area of a planar figure requires 
         two dimensions, length and width, perimeter is actually a one-dimensional 
@@ -64,13 +87,13 @@
         </p>-->
     </subsection>
     <subsection xml:id="subsec-polyhedral-dimesion-growth">
-      <title>Growth in Different Dimensions</title>
+      <title>Exploring Growth in Two-Dimensional Figures</title>
       <p>
         How does the change in the length in one or more directions affect the 
-        size of a figure's interior? 
+        area of a figure's interior? How does it affect the size of its boundary. 
       </p>
       <exploration>
-        <title>Growth in Two-Dimensional Figures</title>
+        <title>Growth in Area</title>
         <task xml:id="task-polyhedral-dim-rectangle-area">
           <title>Growth and Area</title>
           <introduction>
@@ -141,6 +164,11 @@
                 A rectangle with length 3 inches and width 5 inches.
               </p>
             </statement>
+            <hint>
+              <p>
+                The length is 9 and the width is still 5.
+              </p>
+            </hint>
             <answer>
               <p>
                 Area 45 square inches.
@@ -153,6 +181,11 @@
                 A rectangle with length 4 cm and width 7 cm.
               </p>
             </statement>
+            <hint>
+              <p>
+                Multiply the length 4 by 3. Keep width 7.
+              </p>
+            </hint>
             <answer>
               <p>
                 Area  84 cm^2.
@@ -177,6 +210,11 @@
                 A rectangle with length <m>\ell</m> units and width <m>w</m> units.
               </p>
             </statement>
+            <hint>
+              <p>
+                Once again we multiple <m>\ell</m> by 3 and keep <m>w</m>.
+              </p>
+            </hint>
             <answer>
               <p>
                 <m>3(\ell w)</m> square units
@@ -195,10 +233,15 @@
         <task>
           <statement>
             <p>
-              Suppose you know the area of a triangle is 52 and then you multiple the
+              Suppose you know the area of a triangle is 52 and then you multiply the
               base by 5. What will the area of the resulting triangle be?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>25\cdot 52=1300</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -207,13 +250,24 @@
               height of the trapezoid by 1.2. What is the area of the resulting trapezoid?
             </p>
           </statement>
+          <hint>
+            <p>
+              The height is unchanged. Only the area is multiplied by 1.2.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              120 square units
+            </p>
+          </answer>
         </task>
         <task xml:id="subtask-polyhedral-dim-rectangle-multiply-both">
           <introduction>
             <p>
+              Next we will explore what happens when we multiply both length and width (or base and height) by the same number.
               For each rectangle in <xref ref="task-polyhedral-dim-rectangle-area"/>,
               multiply both the length and width by 4. Then compute the area of the enlarged
-              rectangle.
+              rectangle. Then compare the resulting areas to those computed in <xref ref="task-polyhedral-dim-rectangle-area"/>..
             </p>
           </introduction>
           <task>
@@ -224,8 +278,8 @@
             </statement>
             <hint>
               <p>
-                Use the original rectangles, not the ones where length has been multiplied by
-                3.
+                The new length will be <m>4\cdot 3=12</m> inches and the new height is
+                <m>4\cdot 5=20</m> inches. 
               </p>
             </hint>
             <answer>
@@ -240,9 +294,14 @@
                 A rectangle with length 4 cm and width 7 cm.
               </p>
             </statement>
+            <hint>
+              <p>
+                Again multiply both the length and the width by 4.
+              </p>
+            </hint>
             <answer>
               <p>
-                Area  448 cm^2.
+                Area <m> 16\cdot 28=448 cm^2</m>.
               </p>
             </answer>
           </task>
@@ -266,7 +325,7 @@
             </statement>
             <answer>
               <p>
-                <m>16(\ell w)</m> square units
+                <m>16(\ell w)</m> square units or <m>4^2(\ell w)</m> square units.
               </p>
             </answer>
           </task>
@@ -279,14 +338,14 @@
             </statement>
             <answer>
               <p>
-              <m>468</m>
+              Multiply the area by <m>5^2</m> to get <m>1300</m>.
               </p>
             </answer>  
           </task>
           <task>
             <statement>
               <p>
-                Suppose a trapezoid has area 100 m^2 and you then multiply the height and both bases by
+                Suppose a trapezoid has area 100 square meters and you then multiply the height and both bases by
                 1.2. What is the area of the resulting trapezoid?
               </p>
             </statement>
@@ -314,78 +373,21 @@
             </p>
           </statement>
         </task>
+      </exploration>
+      <exploration>
+        <title>Growth in Perimeter</title>
+        <introduction>
+          <p>
+            We can also measure the perimeter of two-dimensional figures. In this task,
+            we will explore whether multiplying the length and/or height of a figure by 
+            a fixed number has a predictable effect on the perimeter of the figure.
+          </p>
+        </introduction>
         <task>
-          <title>Growth in Perimeter</title>
           <introduction>
             <p>
-              We can also measure the perimeter of two-dimensional figures. In this task,
-              we will explore whether multiplying the length and/or height of a figure by 
-              a fixed number has a predictable effect on the perimeter of the figure.
-            </p>
-          </introduction>
-          <task>
-            <introduction>
-              <p>
-                Determine the perimeter of each rectangle in 
-                <xref ref="task-polyhedral-dim-rectangle-area"/>.
-              </p>
-            </introduction>
-            <task>
-              <statement>
-                <p>
-                  A rectangle with length 3 inches and width 5 inches.
-                </p>
-              </statement>
-              <answer>
-                <p>
-                  Area 16 inches.
-                </p>
-              </answer>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  A rectangle with length 4 cm. and width 7 cm.
-                </p>
-              </statement>
-              <answer>
-                <p>
-                   Perimeter 22 cm.
-                </p>
-              </answer>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  A rectangle with length 2 ft and width 10 ft.
-                </p>
-              </statement>
-              <answer>
-                <p>
-                  Perimeter 24 feet.
-                </p>
-              </answer>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  A rectangle with length <m>\ell</m> units and width <m>w</m> units.
-                </p>
-              </statement>
-              <answer>
-                <p>
-                  <m>Perimeter=2\ell + 2w</m> units
-                </p>
-              </answer>
-            </task>
-          </task>
-          <task>
-          <introduction>
-            <p>
-              For each rectangle in <xref ref="task-polyhedral-dim-rectangle-area"/>,
-              multiply the length by 3 and keep the width unchanged. Then compute the 
-              perimeter 
-              of the enlarged rectangle.
+              Determine the perimeter of each rectangle in 
+              <xref ref="task-polyhedral-dim-rectangle-area"/>.
             </p>
           </introduction>
           <task>
@@ -394,21 +396,27 @@
                 A rectangle with length 3 inches and width 5 inches.
               </p>
             </statement>
+            <hint>
+              <p>
+                The perimeter is the length of the boundary of a figure. For a rectangle, add the top, right, bottom, and 
+                left side lengths.
+              </p>
+            </hint>
             <answer>
               <p>
-                Perimeter 28 inches.
+                The perimeter is <m>3+5+3+5=16</m> inches.
               </p>
             </answer>
           </task>
           <task>
             <statement>
               <p>
-                A rectangle with length 4 cm and width 7 cm.
+                A rectangle with length 4 cm. and width 7 cm.
               </p>
             </statement>
             <answer>
               <p>
-                Perimeter 38 cm.
+                  Perimeter 22 cm.
               </p>
             </answer>
           </task>
@@ -420,7 +428,7 @@
             </statement>
             <answer>
               <p>
-                Perimeter 32 ft.
+                Perimeter 24 feet.
               </p>
             </answer>
           </task>
@@ -432,19 +440,77 @@
             </statement>
             <answer>
               <p>
-                <m>6\ell + 2w</m> square units
+                <m>Perimeter=2\ell + 2w</m> units
               </p>
             </answer>
           </task>
-          <task>
-            <statement>
-              <p>
-                Describe how multiplying the length of a rectangle by a number <m>k</m>
-                affects the perimeter of the rectangle.
-              </p>
-            </statement>
-          </task>
         </task>
+        <!-- <task>
+        <introduction>
+          <p>
+            For each rectangle in <xref ref="task-polyhedral-dim-rectangle-area"/>,
+            multiply the length by 3 and keep the width unchanged. Then compute the 
+            perimeter 
+            of the enlarged rectangle.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              A rectangle with length 3 inches and width 5 inches.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Perimeter 28 inches.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              A rectangle with length 4 cm and width 7 cm.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Perimeter 38 cm.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              A rectangle with length 2 ft and width 10 ft.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Perimeter 32 ft.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              A rectangle with length <m>\ell</m> units and width <m>w</m> units.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>6\ell + 2w</m> square units
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Describe how multiplying the length of a rectangle by a number <m>k</m>
+              affects the perimeter of the rectangle.
+            </p>
+          </statement>
+        </task>
+      </task>-->
         <task xml:id="subtask-polyhedral-dim-rectangle-peri-multiply-both">
           <introduction>
             <p>
@@ -508,113 +574,280 @@
               </p>
             </answer>
           </task>
-          <task>
-            <statement>
-              <p>
-                Suppose a rectangle has perimeter 52 and you multiply both the height and the base by 5.
-                What is the perimeter of the resulting rectangle? Why?
-              </p>
-            </statement>
-            <answer>
-              <p>
-              <m>208</m>
-              </p>
-            </answer>  
-          </task>
-          <task>
-            <statement>
-              <p>
-                Suppose a triangle has perimeter 20. If we multiply the height and 
-                base of a triangle by 3, must the perimeter 
-                equal 60? Support your answer using examples.
-              </p>
-            </statement>
-            <answer>
-              <p>
-                144 m^2
-              </p>
-            </answer>
-          </task>
-          
         </task>
+        <task>
+          <statement>
+            <p>
+              Suppose a rectangle has perimeter 52 and you multiply both the height and the base by 5.
+              What is the perimeter of the resulting rectangle? Why?
+            </p>
+          </statement>
+          <answer>
+            <p>
+            <m>208</m>
+            </p>
+          </answer>  
+        </task>
+        <task>
+          <statement>
+            <p>
+              Suppose a triangle has perimeter 20. If we multiply the height and 
+              base of a triangle by 3, must the perimeter 
+              equal 60? Support your answer using examples. The following
+              GeoGebra applet will allow you to explore different shaped triangles.
+            </p>
+            <figure xml:id="per20growTri">
+              <caption>A GeoGebra applet to see growth in the perimeter of a triangle.</caption>
+              <interactive xml:id="mult-by-3-peri-tri"
+                  platform="geogebra">
+                  <slate surface="geogebra" material="tshzsfwn"/>
+                </interactive>
+            </figure>
+          </statement>
+          <answer>
+            <p>
+              <m>144 m^2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <introduction>
+            <p>
+              Suppose a circle has radius 7.
+            </p>
+          </introduction>
           <task>
             <statement>
               <p>
-                Suppose a circle has perimeter <m>64\pi</m> units. If you multiply the
-                radius by 5, what is the circumference of the resulting circle? The 
-                GeoGebra applet will allow you to explore different shaped triangles.
+                What is the circumference of this 
+                circle? 
               </p>
-              <figure xml:id="per20growTri">
-                <caption>A GeoGebra applet to see growth in the perimeter of a triangle.</caption>
-                <interactive xml:id="mult-by-3-peri-tri"
-                    platform="geogebra">
-                    <slate surface="geogebra" material="tshzsfwn"/>
-                  </interactive>
-              </figure>
             </statement>
-            <answer>
+          </task>
+          <task>
+            <statement>
               <p>
-                <m>320</m> units
+                Now multiply the radius by 2 to get 14. What is the 
+                circumference of the larger circle?
               </p>
-            </answer>
-          </task> 
+            </statement>
+          </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Suppose a circle has perimeter <m>64\pi</m> units. If you multiply the
+              radius by 5, what is the circumference of the resulting circle? 
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>320</m> units
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does circumference behave like perimeter or area? Explain.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Perimeter is the measure of the boundary of a two-dimensional figure. 
+              Refer to your work in this section of the exploration as you explain 
+              how perimeter is affected by stretching two-dimensional figures both 
+              vertically and horizontally by the same amount. Can we make the same claim
+              if we stretch vertically by one factor and horizontally by another factor? 
+            </p>
+          </statement>
+        </task> 
+      </exploration>
+      <p>
+        Before we look at three dimensional figures, we observe that area and perimeter grow 
+        in different ways. SAY MORE HERE! PERHAPS A CHECKPOINT.
+      </p>
+      <exploration>
+        <title>Growth in Three-Dimensional Solids</title>
+        <task>
+          <introduction>
+            <p>
+              Suppose a rectangular prism has width 2 inches,
+              length 5 inches, and depth 7 inches.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Compute the volume of the prism.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What happens to the volume if just the width
+                is multiplied by 3?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What happens to the volume of the prism if the width 
+                and the length are both multiplied by 3 but the depth remains the same?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What happens to the volume if all three dimensions,
+                width, length, and depth, are multiplied by 3?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                In a sentence or two, describe how multiplying one or more dimensions by
+                a constant affects the volume of a rectangular prism. 
+              </p>
+            </statement>
+          </task>
+        </task>
+        <task>
+          <introduction>
+            <p>
+              In this task we explore a connection between volume of 
+              prisms and cylinders and the depth of the solid.
+            </p>
+          </introduction>
           <task>
             <introduction>
               <p>
-                Suppose a circle has radius 7.
+                The base of a prism is a square with side length 7 inches.
+              </p>
+            </introduction>
+              <task>
+                <statement>
+                <p>
+                  What is the volume of the prism if the depth is 1 inch?
+                </p>
+              </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What is the volume of the prism if the depth is 3 inches?
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What is the volume of the prism if the depth is <m>d</m> inches?
+                  </p>
+                </statement>
+              </task>
+            </task>
+            <task>
+              <introduction>
+                <p>
+                  The base of a prism is a circle with radius 5 inches.
+                </p>
+              </introduction>
+              <task>
+                <statement>
+                <p>
+                  What is the volume of the prism if the depth is 1 inch?
+                </p>
+              </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What is the volume of the prism if the depth is 4 inches?
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What is the volume of the prism if the depth is <m>d</m> inches?
+                  </p>
+                </statement>
+              </task>
+            </task>
+            <task>
+              <introduction>
+                <p>
+                  The base of a prism is a triangle with base 4 inches and height 9 inches.
+                </p>
+              </introduction>
+              <task>
+                <statement>
+                <p>
+                  What is the volume of the prism if the depth is 1 inch?
+                </p>
+              </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What is the volume of the prism if the depth is 3 inches?
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What is the volume of the prism if the depth is <m>d</m> inches?
+                  </p>
+                </statement>
+              </task>
+            </task>
+            <task>
+            <introduction>
+              <p>
+                A prism has a base with area 56 square inches.
               </p>
             </introduction>
             <task>
               <statement>
+              <p>
+                What is the volume of the prism if the depth is 1 inch?
+              </p>
+            </statement>
+            </task>
+            <task>
+              <statement>
                 <p>
-                  What is the circumference of this 
-                  circle? 
+                  What is the volume of the prism if the depth is 3 inches?
                 </p>
               </statement>
             </task>
             <task>
               <statement>
                 <p>
-                  Now multiply the radius by 2 to get 14. What is the 
-                  circumference of the larger circle?
+                  What is the volume of the prism if the depth is <m>d</m> inches?
                 </p>
               </statement>
             </task>
-            <task>
-              <statement>
-                <p>
-                  Does circumference behave like perimeter or area? Explain.
-                </p>
-              </statement>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  Perimeter is the measure of the boundary of a two-dimensional figure. 
-                  Refer to your work in this section of the exploration as you explain 
-                  how perimeter is effected by stretching two-dimensional figures both 
-                  vertically and horizontally by the same amount. Can we make the same claim
-                  if we stretch vertically by one factor and horizontally by another factor? 
-                </p>
-              </statement>
-            </task>
-          </task> 
+          </task>
+          <task>
+            <statement>
+              <p>
+                Explain how the volume of a prism or cylinder is related to the 
+                volume of a solid with the same base but depth 1 unit. Describe how 
+                this agrees with the volume formulas for prisms and cylinders.
+              </p>
+            </statement>
+          </task>
         </task>
       </exploration>
-      <exploration>
-        <title>Growth in Three-Dimensional Solids</title>
-        <task>
-          <statement>
-            <p>
-              Compute the area of a rectangular prism with width 2 inches,
-              length 5 inches, and depth 7 inches.
-            </p>
-          </statement>
-        </task>
-        
-      </exploration>
-      
-     
     </subsection>
     <!--<subsection xml:id="subsec-polyhedra-dimension-fractal">
       <title>Measuring Fractals</title>
