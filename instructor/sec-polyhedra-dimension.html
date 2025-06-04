@@ -5,15 +5,25 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US" dir="ltr">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Measuring in Different Dimensions</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Instructor’s Version of Polyominoes, Polygons, and Polyhedra">
-<meta property="book:author" content="Teresa D. Magnus">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -69,338 +79,51 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
-<style>
-#sec-intro-explore-3-3-4-1-2-1 { counter-set: sec-intro-explore-3-3-4-1-2-1 0; }
-#sec-intro-explore-3-3-4-1-2-1 > li::marker { content: ""counter(sec-intro-explore-3-3-4-1-2-1,decimal)"."; }
-#sec-intro-explore-3-3-4-1-2-1 > li { counter-increment: sec-intro-explore-3-3-4-1-2-1; }
-#sec-intro-explore-3-3-5-1-1-1 { counter-set: sec-intro-explore-3-3-5-1-1-1 0; }
-#sec-intro-explore-3-3-5-1-1-1 > li::marker { content: ""counter(sec-intro-explore-3-3-5-1-1-1,decimal)"."; }
-#sec-intro-explore-3-3-5-1-1-1 > li { counter-increment: sec-intro-explore-3-3-5-1-1-1; }
-#SAR-intro-exp-8-1-1-1 { counter-set: SAR-intro-exp-8-1-1-1 0; }
-#SAR-intro-exp-8-1-1-1 > li::marker { content: "("counter(SAR-intro-exp-8-1-1-1,lower-alpha)")"; }
-#SAR-intro-exp-8-1-1-1 > li { counter-increment: SAR-intro-exp-8-1-1-1; }
-#SAR-intro-exp-areamodel-2-1-2 { counter-set: SAR-intro-exp-areamodel-2-1-2 0; }
-#SAR-intro-exp-areamodel-2-1-2 > li::marker { content: "("counter(SAR-intro-exp-areamodel-2-1-2,lower-alpha)")"; }
-#SAR-intro-exp-areamodel-2-1-2 > li { counter-increment: SAR-intro-exp-areamodel-2-1-2; }
-#intro-apply-explore-tangram-3-1-1-1 { counter-set: intro-apply-explore-tangram-3-1-1-1 0; }
-#intro-apply-explore-tangram-3-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-3-1-1-1,decimal)"."; }
-#intro-apply-explore-tangram-3-1-1-1 > li { counter-increment: intro-apply-explore-tangram-3-1-1-1; }
-#intro-apply-explore-tangram-5-1-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1 0; }
-#intro-apply-explore-tangram-5-1-1-1 > li::marker { content: ""counter(intro-apply-explore-tangram-5-1-1-1,decimal)"."; }
-#intro-apply-explore-tangram-5-1-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1; }
-#intro-apply-explore-tangram-5-1-1-1-7-1-1 { counter-set: intro-apply-explore-tangram-5-1-1-1-7-1-1 0; }
-#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li::marker { content: "("counter(intro-apply-explore-tangram-5-1-1-1-7-1-1,lower-alpha)")"; }
-#intro-apply-explore-tangram-5-1-1-1-7-1-1 > li { counter-increment: intro-apply-explore-tangram-5-1-1-1-7-1-1; }
-#SAR-intro-apply-3-1-1-1 { counter-set: SAR-intro-apply-3-1-1-1 0; }
-#SAR-intro-apply-3-1-1-1 > li::marker { content: "("counter(SAR-intro-apply-3-1-1-1,lower-alpha)")"; }
-#SAR-intro-apply-3-1-1-1 > li { counter-increment: SAR-intro-apply-3-1-1-1; }
-#label-altitude-etc-1-1-5 { counter-set: label-altitude-etc-1-1-5 0; }
-#label-altitude-etc-1-1-5 > li::marker { content: "("counter(label-altitude-etc-1-1-5,lower-alpha)")"; }
-#label-altitude-etc-1-1-5 > li { counter-increment: label-altitude-etc-1-1-5; }
-#SAR-intro-apply-Tangramareas-1-1-2 { counter-set: SAR-intro-apply-Tangramareas-1-1-2 0; }
-#SAR-intro-apply-Tangramareas-1-1-2 > li::marker { content: "("counter(SAR-intro-apply-Tangramareas-1-1-2,lower-alpha)")"; }
-#SAR-intro-apply-Tangramareas-1-1-2 > li { counter-increment: SAR-intro-apply-Tangramareas-1-1-2; }
-#ExtConc-intro-apply-4-1-1-1 { counter-set: ExtConc-intro-apply-4-1-1-1 0; }
-#ExtConc-intro-apply-4-1-1-1 > li::marker { content: "("counter(ExtConc-intro-apply-4-1-1-1,lower-alpha)")"; }
-#ExtConc-intro-apply-4-1-1-1 > li { counter-increment: ExtConc-intro-apply-4-1-1-1; }
-#sum-odds-1-1-1-1 { counter-set: sum-odds-1-1-1-1 0; }
-#sum-odds-1-1-1-1 > li::marker { content: ""counter(sum-odds-1-1-1-1,decimal)"."; }
-#sum-odds-1-1-1-1 > li { counter-increment: sum-odds-1-1-1-1; }
-#sum-odds-2-1-1-1 { counter-set: sum-odds-2-1-1-1 0; }
-#sum-odds-2-1-1-1 > li::marker { content: ""counter(sum-odds-2-1-1-1,decimal)"."; }
-#sum-odds-2-1-1-1 > li { counter-increment: sum-odds-2-1-1-1; }
-#subsec-explainconjectures-7-2-1-3 { counter-set: subsec-explainconjectures-7-2-1-3 0; }
-#subsec-explainconjectures-7-2-1-3 > li::marker { content: ""counter(subsec-explainconjectures-7-2-1-3,decimal)"."; }
-#subsec-explainconjectures-7-2-1-3 > li { counter-increment: subsec-explainconjectures-7-2-1-3; }
-#subsec-explainconjectures-7-3-1-1-2 { counter-set: subsec-explainconjectures-7-3-1-1-2 0; }
-#subsec-explainconjectures-7-3-1-1-2 > li::marker { content: ""counter(subsec-explainconjectures-7-3-1-1-2,decimal)"."; }
-#subsec-explainconjectures-7-3-1-1-2 > li { counter-increment: subsec-explainconjectures-7-3-1-1-2; }
-#subsec-explainconjectures-7-4-1-2-2 { counter-set: subsec-explainconjectures-7-4-1-2-2 0; }
-#subsec-explainconjectures-7-4-1-2-2 > li::marker { content: ""counter(subsec-explainconjectures-7-4-1-2-2,decimal)"."; }
-#subsec-explainconjectures-7-4-1-2-2 > li { counter-increment: subsec-explainconjectures-7-4-1-2-2; }
-#exer-tri-numbers-2-3-1 { counter-set: exer-tri-numbers-2-3-1 0; }
-#exer-tri-numbers-2-3-1 > li::marker { content: "("counter(exer-tri-numbers-2-3-1,lower-alpha)")"; }
-#exer-tri-numbers-2-3-1 > li { counter-increment: exer-tri-numbers-2-3-1; }
-#exer-tri-numbers-2-3-1-4-1-5 { counter-set: exer-tri-numbers-2-3-1-4-1-5 0; }
-#exer-tri-numbers-2-3-1-4-1-5 > li::marker { content: ""counter(exer-tri-numbers-2-3-1-4-1-5,lower-roman)"."; }
-#exer-tri-numbers-2-3-1-4-1-5 > li { counter-increment: exer-tri-numbers-2-3-1-4-1-5; }
-#intro-struggle-exp-geoboardsq-3-1-2-1 { counter-set: intro-struggle-exp-geoboardsq-3-1-2-1 0; }
-#intro-struggle-exp-geoboardsq-3-1-2-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-3-1-2-1,decimal)"."; }
-#intro-struggle-exp-geoboardsq-3-1-2-1 > li { counter-increment: intro-struggle-exp-geoboardsq-3-1-2-1; }
-#intro-struggle-exp-geoboardsq-4-1-3-1 { counter-set: intro-struggle-exp-geoboardsq-4-1-3-1 0; }
-#intro-struggle-exp-geoboardsq-4-1-3-1 > li::marker { content: ""counter(intro-struggle-exp-geoboardsq-4-1-3-1,decimal)"."; }
-#intro-struggle-exp-geoboardsq-4-1-3-1 > li { counter-increment: intro-struggle-exp-geoboardsq-4-1-3-1; }
-#SAR-intro-struggle-squarert-1-1-1 { counter-set: SAR-intro-struggle-squarert-1-1-1 0; }
-#SAR-intro-struggle-squarert-1-1-1 > li::marker { content: "("counter(SAR-intro-struggle-squarert-1-1-1,lower-alpha)")"; }
-#SAR-intro-struggle-squarert-1-1-1 > li { counter-increment: SAR-intro-struggle-squarert-1-1-1; }
-#ExtConc-intro-struggle-2-2-1-2 { counter-set: ExtConc-intro-struggle-2-2-1-2 0; }
-#ExtConc-intro-struggle-2-2-1-2 > li::marker { content: "("counter(ExtConc-intro-struggle-2-2-1-2,lower-alpha)")"; }
-#ExtConc-intro-struggle-2-2-1-2 > li { counter-increment: ExtConc-intro-struggle-2-2-1-2; }
-#parallelogramtypes-1-1-1 { counter-set: parallelogramtypes-1-1-1 0; }
-#parallelogramtypes-1-1-1 > li::marker { content: ""counter(parallelogramtypes-1-1-1,decimal)"."; }
-#parallelogramtypes-1-1-1 > li { counter-increment: parallelogramtypes-1-1-1; }
-#subsec-area-tri-2-3-1-1-1 { counter-set: subsec-area-tri-2-3-1-1-1 0; }
-#subsec-area-tri-2-3-1-1-1 > li::marker { content: ""counter(subsec-area-tri-2-3-1-1-1,decimal)"."; }
-#subsec-area-tri-2-3-1-1-1 > li { counter-increment: subsec-area-tri-2-3-1-1-1; }
-#subsec-irregular-area-4-5-1-1-1 { counter-set: subsec-irregular-area-4-5-1-1-1 0; }
-#subsec-irregular-area-4-5-1-1-1 > li::marker { content: ""counter(subsec-irregular-area-4-5-1-1-1,decimal)"."; }
-#subsec-irregular-area-4-5-1-1-1 > li { counter-increment: subsec-irregular-area-4-5-1-1-1; }
-#HW-compute-area-1-1-1 { counter-set: HW-compute-area-1-1-1 0; }
-#HW-compute-area-1-1-1 > li::marker { content: "("counter(HW-compute-area-1-1-1,lower-alpha)")"; }
-#HW-compute-area-1-1-1 > li { counter-increment: HW-compute-area-1-1-1; }
-#SAR-polygons-area-3-1-1-3 { counter-set: SAR-polygons-area-3-1-1-3 0; }
-#SAR-polygons-area-3-1-1-3 > li::marker { content: "("counter(SAR-polygons-area-3-1-1-3,lower-alpha)")"; }
-#SAR-polygons-area-3-1-1-3 > li { counter-increment: SAR-polygons-area-3-1-1-3; }
-#SAR-polygons-area-4-1-1-1 { counter-set: SAR-polygons-area-4-1-1-1 0; }
-#SAR-polygons-area-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-area-4-1-1-1,lower-alpha)")"; }
-#SAR-polygons-area-4-1-1-1 > li { counter-increment: SAR-polygons-area-4-1-1-1; }
-#subsec-Def-and-Measuring-Angles-11-2-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-2-1-1 0; }
-#subsec-Def-and-Measuring-Angles-11-2-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-2-1-1,decimal)"."; }
-#subsec-Def-and-Measuring-Angles-11-2-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-2-1-1; }
-#subsec-Def-and-Measuring-Angles-11-3-1-1 { counter-set: subsec-Def-and-Measuring-Angles-11-3-1-1 0; }
-#subsec-Def-and-Measuring-Angles-11-3-1-1 > li::marker { content: ""counter(subsec-Def-and-Measuring-Angles-11-3-1-1,decimal)"."; }
-#subsec-Def-and-Measuring-Angles-11-3-1-1 > li { counter-increment: subsec-Def-and-Measuring-Angles-11-3-1-1; }
-#expl-angsum-triangle-3-1-1-4 { counter-set: expl-angsum-triangle-3-1-1-4 0; }
-#expl-angsum-triangle-3-1-1-4 > li::marker { content: ""counter(expl-angsum-triangle-3-1-1-4,decimal)"."; }
-#expl-angsum-triangle-3-1-1-4 > li { counter-increment: expl-angsum-triangle-3-1-1-4; }
-#HW-SAR-angles-linepoints-1-1-2 { counter-set: HW-SAR-angles-linepoints-1-1-2 0; }
-#HW-SAR-angles-linepoints-1-1-2 > li::marker { content: "("counter(HW-SAR-angles-linepoints-1-1-2,lower-alpha)")"; }
-#HW-SAR-angles-linepoints-1-1-2 > li { counter-increment: HW-SAR-angles-linepoints-1-1-2; }
-#HW-SAR-angles-linepoints-2-1-1 { counter-set: HW-SAR-angles-linepoints-2-1-1 0; }
-#HW-SAR-angles-linepoints-2-1-1 > li::marker { content: "("counter(HW-SAR-angles-linepoints-2-1-1,lower-alpha)")"; }
-#HW-SAR-angles-linepoints-2-1-1 > li { counter-increment: HW-SAR-angles-linepoints-2-1-1; }
-#HW-SAR-linepart-type-1-1-2 { counter-set: HW-SAR-linepart-type-1-1-2 0; }
-#HW-SAR-linepart-type-1-1-2 > li::marker { content: "("counter(HW-SAR-linepart-type-1-1-2,lower-alpha)")"; }
-#HW-SAR-linepart-type-1-1-2 > li { counter-increment: HW-SAR-linepart-type-1-1-2; }
-#HW-SAR-linepart-type-2-1-1 { counter-set: HW-SAR-linepart-type-2-1-1 0; }
-#HW-SAR-linepart-type-2-1-1 > li::marker { content: "("counter(HW-SAR-linepart-type-2-1-1,lower-alpha)")"; }
-#HW-SAR-linepart-type-2-1-1 > li { counter-increment: HW-SAR-linepart-type-2-1-1; }
-#exer-SAR-missingangles-1-1-3 { counter-set: exer-SAR-missingangles-1-1-3 0; }
-#exer-SAR-missingangles-1-1-3 > li::marker { content: "("counter(exer-SAR-missingangles-1-1-3,lower-alpha)")"; }
-#exer-SAR-missingangles-1-1-3 > li { counter-increment: exer-SAR-missingangles-1-1-3; }
-#exer-SAR-missingangles-2-1-1 { counter-set: exer-SAR-missingangles-2-1-1 0; }
-#exer-SAR-missingangles-2-1-1 > li::marker { content: "("counter(exer-SAR-missingangles-2-1-1,lower-alpha)")"; }
-#exer-SAR-missingangles-2-1-1 > li { counter-increment: exer-SAR-missingangles-2-1-1; }
-#ExtConc-polygons-angles-3-1-3-4 { counter-set: ExtConc-polygons-angles-3-1-3-4 0; }
-#ExtConc-polygons-angles-3-1-3-4 > li::marker { content: "("counter(ExtConc-polygons-angles-3-1-3-4,lower-alpha)")"; }
-#ExtConc-polygons-angles-3-1-3-4 > li { counter-increment: ExtConc-polygons-angles-3-1-3-4; }
-#subsec-review-lines-2-3-1-1-1 { counter-set: subsec-review-lines-2-3-1-1-1 0; }
-#subsec-review-lines-2-3-1-1-1 > li::marker { content: ""counter(subsec-review-lines-2-3-1-1-1,decimal)"."; }
-#subsec-review-lines-2-3-1-1-1 > li { counter-increment: subsec-review-lines-2-3-1-1-1; }
-#parallel-explor-lines-sphere-4-1-1-2 { counter-set: parallel-explor-lines-sphere-4-1-1-2 0; }
-#parallel-explor-lines-sphere-4-1-1-2 > li::marker { content: ""counter(parallel-explor-lines-sphere-4-1-1-2,decimal)"."; }
-#parallel-explor-lines-sphere-4-1-1-2 > li { counter-increment: parallel-explor-lines-sphere-4-1-1-2; }
-#parallel-explor-spherical-triangles-6-1-2-1 { counter-set: parallel-explor-spherical-triangles-6-1-2-1 0; }
-#parallel-explor-spherical-triangles-6-1-2-1 > li::marker { content: ""counter(parallel-explor-spherical-triangles-6-1-2-1,decimal)"."; }
-#parallel-explor-spherical-triangles-6-1-2-1 > li { counter-increment: parallel-explor-spherical-triangles-6-1-2-1; }
-#subsec-understanding-parallel-8-2-1-2 { counter-set: subsec-understanding-parallel-8-2-1-2 0; }
-#subsec-understanding-parallel-8-2-1-2 > li::marker { content: ""counter(subsec-understanding-parallel-8-2-1-2,decimal)"."; }
-#subsec-understanding-parallel-8-2-1-2 > li { counter-increment: subsec-understanding-parallel-8-2-1-2; }
-#subsec-understanding-parallel-10-2-1-3-1 { counter-set: subsec-understanding-parallel-10-2-1-3-1 0; }
-#subsec-understanding-parallel-10-2-1-3-1 > li::marker { content: ""counter(subsec-understanding-parallel-10-2-1-3-1,decimal)"."; }
-#subsec-understanding-parallel-10-2-1-3-1 > li { counter-increment: subsec-understanding-parallel-10-2-1-3-1; }
-#subsec-understanding-parallel-10-3-1-1-3 { counter-set: subsec-understanding-parallel-10-3-1-1-3 0; }
-#subsec-understanding-parallel-10-3-1-1-3 > li::marker { content: ""counter(subsec-understanding-parallel-10-3-1-1-3,decimal)"."; }
-#subsec-understanding-parallel-10-3-1-1-3 > li { counter-increment: subsec-understanding-parallel-10-3-1-1-3; }
-#SAR-polygons-parallel-2-1-1-4 { counter-set: SAR-polygons-parallel-2-1-1-4 0; }
-#SAR-polygons-parallel-2-1-1-4 > li::marker { content: "("counter(SAR-polygons-parallel-2-1-1-4,lower-alpha)")"; }
-#SAR-polygons-parallel-2-1-1-4 > li { counter-increment: SAR-polygons-parallel-2-1-1-4; }
-#SAR-polygons-parallel-3-1-1-2 { counter-set: SAR-polygons-parallel-3-1-1-2 0; }
-#SAR-polygons-parallel-3-1-1-2 > li::marker { content: "("counter(SAR-polygons-parallel-3-1-1-2,lower-alpha)")"; }
-#SAR-polygons-parallel-3-1-1-2 > li { counter-increment: SAR-polygons-parallel-3-1-1-2; }
-#exer-transv-angle-measures-1-2-1 { counter-set: exer-transv-angle-measures-1-2-1 0; }
-#exer-transv-angle-measures-1-2-1 > li::marker { content: "("counter(exer-transv-angle-measures-1-2-1,lower-alpha)")"; }
-#exer-transv-angle-measures-1-2-1 > li { counter-increment: exer-transv-angle-measures-1-2-1; }
-#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 0; }
-#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2,lower-alpha)")"; }
-#ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-5-1-1-2; }
-#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 { counter-set: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 0; }
-#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li::marker { content: "("counter(ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2,lower-alpha)")"; }
-#ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2 > li { counter-increment: ExtConc-polygons-parallel-Coxeterdisc-6-1-1-2; }
-#explor-reg-tilings-5-1-3-1 { counter-set: explor-reg-tilings-5-1-3-1 0; }
-#explor-reg-tilings-5-1-3-1 > li::marker { content: ""counter(explor-reg-tilings-5-1-3-1,decimal)"."; }
-#explor-reg-tilings-5-1-3-1 > li { counter-increment: explor-reg-tilings-5-1-3-1; }
-#explor-reg-tilings-7-1-1-1 { counter-set: explor-reg-tilings-7-1-1-1 0; }
-#explor-reg-tilings-7-1-1-1 > li::marker { content: ""counter(explor-reg-tilings-7-1-1-1,decimal)"."; }
-#explor-reg-tilings-7-1-1-1 > li { counter-increment: explor-reg-tilings-7-1-1-1; }
-#task-vertex-measure-regular-polygons-more-1-1-3 { counter-set: task-vertex-measure-regular-polygons-more-1-1-3 0; }
-#task-vertex-measure-regular-polygons-more-1-1-3 > li::marker { content: ""counter(task-vertex-measure-regular-polygons-more-1-1-3,decimal)"."; }
-#task-vertex-measure-regular-polygons-more-1-1-3 > li { counter-increment: task-vertex-measure-regular-polygons-more-1-1-3; }
-#tile-w-3tri-2sq-1-1-2 { counter-set: tile-w-3tri-2sq-1-1-2 0; }
-#tile-w-3tri-2sq-1-1-2 > li::marker { content: ""counter(tile-w-3tri-2sq-1-1-2,decimal)"."; }
-#tile-w-3tri-2sq-1-1-2 > li { counter-increment: tile-w-3tri-2sq-1-1-2; }
-#subsec-semireg-rules-4-2-1-1-2 { counter-set: subsec-semireg-rules-4-2-1-1-2 0; }
-#subsec-semireg-rules-4-2-1-1-2 > li::marker { content: ""counter(subsec-semireg-rules-4-2-1-1-2,decimal)"."; }
-#subsec-semireg-rules-4-2-1-1-2 > li { counter-increment: subsec-semireg-rules-4-2-1-1-2; }
-#subsec-semireg-rules-4-3-1-1-1 { counter-set: subsec-semireg-rules-4-3-1-1-1 0; }
-#subsec-semireg-rules-4-3-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-3-1-1-1,decimal)"."; }
-#subsec-semireg-rules-4-3-1-1-1 > li { counter-increment: subsec-semireg-rules-4-3-1-1-1; }
-#subsec-semireg-rules-4-4-1-1-1 { counter-set: subsec-semireg-rules-4-4-1-1-1 0; }
-#subsec-semireg-rules-4-4-1-1-1 > li::marker { content: ""counter(subsec-semireg-rules-4-4-1-1-1,decimal)"."; }
-#subsec-semireg-rules-4-4-1-1-1 > li { counter-increment: subsec-semireg-rules-4-4-1-1-1; }
-#SAR-polygons-regular-2-1-1-1 { counter-set: SAR-polygons-regular-2-1-1-1 0; }
-#SAR-polygons-regular-2-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-2-1-1-1,lower-alpha)")"; }
-#SAR-polygons-regular-2-1-1-1 > li { counter-increment: SAR-polygons-regular-2-1-1-1; }
-#SAR-polygons-regular-3-1-1-1 { counter-set: SAR-polygons-regular-3-1-1-1 0; }
-#SAR-polygons-regular-3-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-3-1-1-1,lower-alpha)")"; }
-#SAR-polygons-regular-3-1-1-1 > li { counter-increment: SAR-polygons-regular-3-1-1-1; }
-#SAR-polygons-regular-4-1-1-1 { counter-set: SAR-polygons-regular-4-1-1-1 0; }
-#SAR-polygons-regular-4-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-4-1-1-1,lower-alpha)")"; }
-#SAR-polygons-regular-4-1-1-1 > li { counter-increment: SAR-polygons-regular-4-1-1-1; }
-#SAR-polygons-regular-5-1-1-1 { counter-set: SAR-polygons-regular-5-1-1-1 0; }
-#SAR-polygons-regular-5-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-5-1-1-1,lower-alpha)")"; }
-#SAR-polygons-regular-5-1-1-1 > li { counter-increment: SAR-polygons-regular-5-1-1-1; }
-#SAR-polygons-regular-6-1-1-1 { counter-set: SAR-polygons-regular-6-1-1-1 0; }
-#SAR-polygons-regular-6-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-6-1-1-1,lower-alpha)")"; }
-#SAR-polygons-regular-6-1-1-1 > li { counter-increment: SAR-polygons-regular-6-1-1-1; }
-#SAR-polygons-regular-7-1-1-1 { counter-set: SAR-polygons-regular-7-1-1-1 0; }
-#SAR-polygons-regular-7-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-7-1-1-1,lower-alpha)")"; }
-#SAR-polygons-regular-7-1-1-1 > li { counter-increment: SAR-polygons-regular-7-1-1-1; }
-#SAR-polygons-regular-9-1-1-1 { counter-set: SAR-polygons-regular-9-1-1-1 0; }
-#SAR-polygons-regular-9-1-1-1 > li::marker { content: "("counter(SAR-polygons-regular-9-1-1-1,lower-alpha)")"; }
-#SAR-polygons-regular-9-1-1-1 > li { counter-increment: SAR-polygons-regular-9-1-1-1; }
-#exer-ExtConc-pgreg-nonagon-2-1-3 { counter-set: exer-ExtConc-pgreg-nonagon-2-1-3 0; }
-#exer-ExtConc-pgreg-nonagon-2-1-3 > li::marker { content: "("counter(exer-ExtConc-pgreg-nonagon-2-1-3,lower-alpha)")"; }
-#exer-ExtConc-pgreg-nonagon-2-1-3 > li { counter-increment: exer-ExtConc-pgreg-nonagon-2-1-3; }
-#ExtConc-polygons-regular-3-2-1-3 { counter-set: ExtConc-polygons-regular-3-2-1-3 0; }
-#ExtConc-polygons-regular-3-2-1-3 > li::marker { content: "("counter(ExtConc-polygons-regular-3-2-1-3,lower-alpha)")"; }
-#ExtConc-polygons-regular-3-2-1-3 > li { counter-increment: ExtConc-polygons-regular-3-2-1-3; }
-#tri4andcsq-2-3-1 { counter-set: tri4andcsq-2-3-1 0; }
-#tri4andcsq-2-3-1 > li::marker { content: ""counter(tri4andcsq-2-3-1,decimal)"."; }
-#tri4andcsq-2-3-1 > li { counter-increment: tri4andcsq-2-3-1; }
-#tri4andsquaresAandB-2-3-1 { counter-set: tri4andsquaresAandB-2-3-1 0; }
-#tri4andsquaresAandB-2-3-1 > li::marker { content: ""counter(tri4andsquaresAandB-2-3-1,decimal)"."; }
-#tri4andsquaresAandB-2-3-1 > li { counter-increment: tri4andsquaresAandB-2-3-1; }
-#GarfieldTask-2-3-1 { counter-set: GarfieldTask-2-3-1 0; }
-#GarfieldTask-2-3-1 > li::marker { content: ""counter(GarfieldTask-2-3-1,decimal)"."; }
-#GarfieldTask-2-3-1 > li { counter-increment: GarfieldTask-2-3-1; }
-#sqtostairs-Pyth-task-1-3-1 { counter-set: sqtostairs-Pyth-task-1-3-1 0; }
-#sqtostairs-Pyth-task-1-3-1 > li::marker { content: ""counter(sqtostairs-Pyth-task-1-3-1,decimal)"."; }
-#sqtostairs-Pyth-task-1-3-1 > li { counter-increment: sqtostairs-Pyth-task-1-3-1; }
-#polygons-length-BOT-lengthadditivity-2-1-1 { counter-set: polygons-length-BOT-lengthadditivity-2-1-1 0; }
-#polygons-length-BOT-lengthadditivity-2-1-1 > li::marker { content: "("counter(polygons-length-BOT-lengthadditivity-2-1-1,lower-alpha)")"; }
-#polygons-length-BOT-lengthadditivity-2-1-1 > li { counter-increment: polygons-length-BOT-lengthadditivity-2-1-1; }
-#exer-SAR-Pyth-1-1-2 { counter-set: exer-SAR-Pyth-1-1-2 0; }
-#exer-SAR-Pyth-1-1-2 > li::marker { content: "("counter(exer-SAR-Pyth-1-1-2,lower-alpha)")"; }
-#exer-SAR-Pyth-1-1-2 > li { counter-increment: exer-SAR-Pyth-1-1-2; }
-#ExtConc-polygons-length-3-2-1-5 { counter-set: ExtConc-polygons-length-3-2-1-5 0; }
-#ExtConc-polygons-length-3-2-1-5 > li::marker { content: "("counter(ExtConc-polygons-length-3-2-1-5,lower-alpha)")"; }
-#ExtConc-polygons-length-3-2-1-5 > li { counter-increment: ExtConc-polygons-length-3-2-1-5; }
-#ExtConc-polygons-length-3-2-1-5-4-1-3 { counter-set: ExtConc-polygons-length-3-2-1-5-4-1-3 0; }
-#ExtConc-polygons-length-3-2-1-5-4-1-3 > li::marker { content: ""counter(ExtConc-polygons-length-3-2-1-5-4-1-3,lower-roman)"."; }
-#ExtConc-polygons-length-3-2-1-5-4-1-3 > li { counter-increment: ExtConc-polygons-length-3-2-1-5-4-1-3; }
-#ExtConc-polygons-length-4-2-1-2 { counter-set: ExtConc-polygons-length-4-2-1-2 0; }
-#ExtConc-polygons-length-4-2-1-2 > li::marker { content: "("counter(ExtConc-polygons-length-4-2-1-2,lower-alpha)")"; }
-#ExtConc-polygons-length-4-2-1-2 > li { counter-increment: ExtConc-polygons-length-4-2-1-2; }
-#subsec-def-polyhedra-8-1-1-1 { counter-set: subsec-def-polyhedra-8-1-1-1 0; }
-#subsec-def-polyhedra-8-1-1-1 > li::marker { content: ""counter(subsec-def-polyhedra-8-1-1-1,decimal)"."; }
-#subsec-def-polyhedra-8-1-1-1 > li { counter-increment: subsec-def-polyhedra-8-1-1-1; }
-#sec-polyhedra-regular-5-2-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-3-2-1-1 0; }
-#sec-polyhedra-regular-5-2-3-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-3-2-1-1,decimal)"."; }
-#sec-polyhedra-regular-5-2-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-3-2-1-1; }
-#sec-polyhedra-regular-5-2-4-2-3-3 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3 0; }
-#sec-polyhedra-regular-5-2-4-2-3-3 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-4-2-3-3,decimal)"."; }
-#sec-polyhedra-regular-5-2-4-2-3-3 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3; }
-#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 0; }
-#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-2-1-1,lower-alpha)")"; }
-#sec-polyhedra-regular-5-2-4-2-3-3-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-2-1-1; }
-#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 { counter-set: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 0; }
-#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-4-2-3-3-3-1-1,lower-alpha)")"; }
-#sec-polyhedra-regular-5-2-4-2-3-3-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-4-2-3-3-3-1-1; }
-#sec-polyhedra-regular-5-2-6-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1 0; }
-#sec-polyhedra-regular-5-2-6-2-1-1 > li::marker { content: ""counter(sec-polyhedra-regular-5-2-6-2-1-1,decimal)"."; }
-#sec-polyhedra-regular-5-2-6-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1; }
-#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 0; }
-#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-1-1-1,lower-alpha)")"; }
-#sec-polyhedra-regular-5-2-6-2-1-1-1-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-1-1-1; }
-#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 0; }
-#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-2-1-1,lower-alpha)")"; }
-#sec-polyhedra-regular-5-2-6-2-1-1-2-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-2-1-1; }
-#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 { counter-set: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 0; }
-#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li::marker { content: "("counter(sec-polyhedra-regular-5-2-6-2-1-1-3-1-1,lower-alpha)")"; }
-#sec-polyhedra-regular-5-2-6-2-1-1-3-1-1 > li { counter-increment: sec-polyhedra-regular-5-2-6-2-1-1-3-1-1; }
-#exercises-semireg-polyhedra-3-2-2-1-1 { counter-set: exercises-semireg-polyhedra-3-2-2-1-1 0; }
-#exercises-semireg-polyhedra-3-2-2-1-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-3-2-2-1-1,lower-alpha)")"; }
-#exercises-semireg-polyhedra-3-2-2-1-1 > li { counter-increment: exercises-semireg-polyhedra-3-2-2-1-1; }
-#exercises-semireg-polyhedra-4-2-2-3-1 { counter-set: exercises-semireg-polyhedra-4-2-2-3-1 0; }
-#exercises-semireg-polyhedra-4-2-2-3-1 > li::marker { content: "("counter(exercises-semireg-polyhedra-4-2-2-3-1,lower-alpha)")"; }
-#exercises-semireg-polyhedra-4-2-2-3-1 > li { counter-increment: exercises-semireg-polyhedra-4-2-2-3-1; }
-#exp-vol-intuitive-2-1-1-2 { counter-set: exp-vol-intuitive-2-1-1-2 0; }
-#exp-vol-intuitive-2-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-2-1-1-2,decimal)"."; }
-#exp-vol-intuitive-2-1-1-2 > li { counter-increment: exp-vol-intuitive-2-1-1-2; }
-#exp-vol-intuitive-5-1-1-2 { counter-set: exp-vol-intuitive-5-1-1-2 0; }
-#exp-vol-intuitive-5-1-1-2 > li::marker { content: ""counter(exp-vol-intuitive-5-1-1-2,decimal)"."; }
-#exp-vol-intuitive-5-1-1-2 > li { counter-increment: exp-vol-intuitive-5-1-1-2; }
-#surf-of-cylinder-1-1-2 { counter-set: surf-of-cylinder-1-1-2 0; }
-#surf-of-cylinder-1-1-2 > li::marker { content: ""counter(surf-of-cylinder-1-1-2,decimal)"."; }
-#surf-of-cylinder-1-1-2 > li { counter-increment: surf-of-cylinder-1-1-2; }
-#SAR-vol-prisms-verbal-1-1-1 { counter-set: SAR-vol-prisms-verbal-1-1-1 0; }
-#SAR-vol-prisms-verbal-1-1-1 > li::marker { content: "("counter(SAR-vol-prisms-verbal-1-1-1,lower-alpha)")"; }
-#SAR-vol-prisms-verbal-1-1-1 > li { counter-increment: SAR-vol-prisms-verbal-1-1-1; }
-#SAR-vol-prisms-visual-1-1 { counter-set: SAR-vol-prisms-visual-1-1 0; }
-#SAR-vol-prisms-visual-1-1 > li::marker { content: "("counter(SAR-vol-prisms-visual-1-1,lower-alpha)")"; }
-#SAR-vol-prisms-visual-1-1 > li { counter-increment: SAR-vol-prisms-visual-1-1; }
-#exer-ExtConc-pent-prism-2-1-14 { counter-set: exer-ExtConc-pent-prism-2-1-14 0; }
-#exer-ExtConc-pent-prism-2-1-14 > li::marker { content: "("counter(exer-ExtConc-pent-prism-2-1-14,lower-alpha)")"; }
-#exer-ExtConc-pent-prism-2-1-14 > li { counter-increment: exer-ExtConc-pent-prism-2-1-14; }
-#expl-volume-recpyr-by-construction-6-1-1-1 { counter-set: expl-volume-recpyr-by-construction-6-1-1-1 0; }
-#expl-volume-recpyr-by-construction-6-1-1-1 > li::marker { content: ""counter(expl-volume-recpyr-by-construction-6-1-1-1,decimal)"."; }
-#expl-volume-recpyr-by-construction-6-1-1-1 > li { counter-increment: expl-volume-recpyr-by-construction-6-1-1-1; }
-#expl-pyr-volume-calculations-1-1-2 { counter-set: expl-pyr-volume-calculations-1-1-2 0; }
-#expl-pyr-volume-calculations-1-1-2 > li::marker { content: ""counter(expl-pyr-volume-calculations-1-1-2,decimal)"."; }
-#expl-pyr-volume-calculations-1-1-2 > li { counter-increment: expl-pyr-volume-calculations-1-1-2; }
-#expl-rotation-6-1-1-3 { counter-set: expl-rotation-6-1-1-3 0; }
-#expl-rotation-6-1-1-3 > li::marker { content: ""counter(expl-rotation-6-1-1-3,decimal)"."; }
-#expl-rotation-6-1-1-3 > li { counter-increment: expl-rotation-6-1-1-3; }
-#sec-isom-identifying-isometries-2-3-2-1-1-1 { counter-set: sec-isom-identifying-isometries-2-3-2-1-1-1 0; }
-#sec-isom-identifying-isometries-2-3-2-1-1-1 > li::marker { content: ""counter(sec-isom-identifying-isometries-2-3-2-1-1-1,decimal)"."; }
-#sec-isom-identifying-isometries-2-3-2-1-1-1 > li { counter-increment: sec-isom-identifying-isometries-2-3-2-1-1-1; }
-#subsec-fixed-points-6-1-1-1-1 { counter-set: subsec-fixed-points-6-1-1-1-1 0; }
-#subsec-fixed-points-6-1-1-1-1 > li::marker { content: ""counter(subsec-fixed-points-6-1-1-1-1,decimal)"."; }
-#subsec-fixed-points-6-1-1-1-1 > li { counter-increment: subsec-fixed-points-6-1-1-1-1; }
-#explor-nested-simtri-5-1-1-1 { counter-set: explor-nested-simtri-5-1-1-1 0; }
-#explor-nested-simtri-5-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-5-1-1-1,decimal)"."; }
-#explor-nested-simtri-5-1-1-1 > li { counter-increment: explor-nested-simtri-5-1-1-1; }
-#explor-nested-simtri-6-1-1-1 { counter-set: explor-nested-simtri-6-1-1-1 0; }
-#explor-nested-simtri-6-1-1-1 > li::marker { content: ""counter(explor-nested-simtri-6-1-1-1,decimal)"."; }
-#explor-nested-simtri-6-1-1-1 > li { counter-increment: explor-nested-simtri-6-1-1-1; }
-#subsubsec-dilations-similar-6-7-1-1-1 { counter-set: subsubsec-dilations-similar-6-7-1-1-1 0; }
-#subsubsec-dilations-similar-6-7-1-1-1 > li::marker { content: ""counter(subsubsec-dilations-similar-6-7-1-1-1,decimal)"."; }
-#subsubsec-dilations-similar-6-7-1-1-1 > li { counter-increment: subsubsec-dilations-similar-6-7-1-1-1; }
-#subsec-Functions-2-3-2-1-2 { counter-set: subsec-Functions-2-3-2-1-2 0; }
-#subsec-Functions-2-3-2-1-2 > li::marker { content: ""counter(subsec-Functions-2-3-2-1-2,decimal)"."; }
-#subsec-Functions-2-3-2-1-2 > li { counter-increment: subsec-Functions-2-3-2-1-2; }
-#example-algrev-sq-sqrt-2-1-1 { counter-set: example-algrev-sq-sqrt-2-1-1 0; }
-#example-algrev-sq-sqrt-2-1-1 > li::marker { content: ""counter(example-algrev-sq-sqrt-2-1-1,decimal)"."; }
-#example-algrev-sq-sqrt-2-1-1 > li { counter-increment: example-algrev-sq-sqrt-2-1-1; }
-</style>
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Instructor’s Version of Polyominoes, Polygons, and Polyhedra">
+<meta property="book:author" content="Teresa D. Magnus">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.7.3';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
-<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
-<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra:</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
 <p class="byline">Teresa D. Magnus</p>
-</div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -411,7 +134,8 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-polyhedra-pyramids-cones.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-polyhedra.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-polyhedra-instructor.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-polyhedra-pyramids-cones.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-polyhedra.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-polyhedra-instructor.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -419,15 +143,15 @@ window.MathJax = {
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
-<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Dedication</span></a></div></li>
-<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
 <li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
-<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-7.html" class="internal"><span class="title">How to use this book</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -608,13 +332,11 @@ window.MathJax = {
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section active">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list active">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interior Space</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Growth in Different Dimensions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimension-fractal" class="internal"><span class="codenumber">3.5.3</span> <span class="title">Measuring Fractals</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-" class="internal"><span class="codenumber">3.5.4</span> <span class="title"></span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -781,50 +503,157 @@ window.MathJax = {
 <section class="introduction" id="sec-polyhedra-dimension-2"><div class="para" id="sec-polyhedra-dimension-2-1">As we complete our section on three-dimensional solids, let us take a closer look at the relationships between measurements of one-, two-, and three-dimensional objects.</div></section><section class="subsection" id="subsec-polyhedra-dimension-interior"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.5.1</span><span class="space"> </span><span class="title">Measuring Interior Space</span>
 </h3>
-<div class="para" id="subsec-polyhedra-dimension-interior-2">Linear objects, like lines and segments, are one-dimensional. The only finite one-dimensional object is a line segment which is bounded by two endpoints. Length is the measurement of the interior space of a line segment. The length is also the distance between the endpoints. In a linear space, all objects lie on a single line. we move only forward and backward along that line. There is no height or width.</div>
-<div class="para" id="subsec-polyhedra-dimension-interior-3">Two-dimensional geometry is the study of objects lying in a plane. Two-dimensional objects include polygons, circles, and other figures. A closed two-dimenional figure will be bounded by linear and/or curved segments that separate the interior of the figure from the rest of the plane, which we refer to as the exterior of the figure. The measure of the interior of a figure is called its area and involves both length and width. This second dimension, width, is measured in a direction perpendicular to that of length. A plane will also include objects of smaller dimension, such as one-dimensional lines and zero-dimensional points. We cannot measure area of these smaller dimensional objects.</div>
+<div class="para" id="subsec-polyhedra-dimension-interior-2">Linear objects, like lines and segments, are one-dimensional. The only finite one-dimensional object is a line segment which is bounded by two endpoints. Length can be thought of as the measurement of the interior space of a line segment, namely the distance between the endpoints. In a linear space, all objects lie on a single line. we move only forward and backward along that line. There is no height or width.</div>
+<div class="para" id="subsec-polyhedra-dimension-interior-3">Two-dimensional geometry is the study of objects lying in a plane. Two-dimensional objects include polygons, circles, and other figures that can be drawn on a flat surface. A closed two-dimenional figure will be bounded by linear and/or curved segments that separate the interior of the figure from the rest of the plane, which we refer to as the exterior of the figure. The measure of the interior of a figure is called its area and involves both length and width. This second dimension, width, is measured in a direction perpendicular to that of length. A plane will also include objects of smaller dimension, such as one-dimensional lines and zero-dimensional points. We cannot measure the area of these smaller dimensional objects.</div>
 <div class="para" id="subsec-polyhedra-dimension-interior-4">In three-dimensional geometry, we have length, width, and a third direction called depth (or height). The geometrical solids studied in this section including prisms, cylinders, cones, pyramids, and polyhedra are examples of three-dimensional solids. Each three-dimensional solid is bounded by surfaces which may include polygons, circles, and other two-dimensional objects. The measurement of the interior space of a geometrical solid is called volume.</div></section><section class="subsection" id="subsec-polyhedral-dimesion-growth"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.5.2</span><span class="space"> </span><span class="title">Growth in Different Dimensions</span>
 </h3>
 <div class="para" id="subsec-polyhedral-dimesion-growth-2">How does the change in the length in one or more directions affect the size of a figure’s interior?</div>
 <article class="exploration project-like" id="subsec-polyhedral-dimesion-growth-3"><h4 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Studing Growth.</span>
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Growth in Two-Dimensional Figures.</span>
 </h4>
-<article class="task exercise-like" id="task-polyhedral-dim-rectangle-area"><h5 class="heading"><span class="codenumber">(a)</span></h5>
-<div class="introduction" id="task-polyhedral-dim-rectangle-area-1"><div class="para" id="task-polyhedral-dim-rectangle-area-1-1">For each of the following rectangles compute the area:</div></div>
-<article class="task exercise-like" id="task-polyhedral-dim-rectangle-area-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="task-polyhedral-dim-rectangle-area-2-1-1">A rectangle with length 3 inches and width 5 inches.</div>
-<div class="solutions"><details id="task-polyhedral-dim-rectangle-area-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-polyhedral-dim-rectangle-area-2-2-1">Area 15 square inches.</div></div></details></div></article><article class="task exercise-like" id="task-polyhedral-dim-rectangle-area-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="task-polyhedral-dim-rectangle-area-3-1-1">A rectangle with length 4 cm. and width 7 cm.</div>
-<div class="solutions"><details id="task-polyhedral-dim-rectangle-area-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-polyhedral-dim-rectangle-area-3-2-1">Area 28 cm^2.</div></div></details></div></article><article class="task exercise-like" id="task-polyhedral-dim-rectangle-area-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="task-polyhedral-dim-rectangle-area-4-1-1">A rectangle with length 2 ft and width 10 ft.</div>
-<div class="solutions"><details id="task-polyhedral-dim-rectangle-area-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-polyhedral-dim-rectangle-area-4-2-1">Area 20 square feet.</div></div></details></div></article><article class="task exercise-like" id="task-polyhedral-dim-rectangle-area-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
-<div class="para" id="task-polyhedral-dim-rectangle-area-5-1-1">A rectangle with length <span class="process-math">\(\ell\)</span> units and width <span class="process-math">\(w\)</span> units.</div>
-<div class="solutions"><details id="task-polyhedral-dim-rectangle-area-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-polyhedral-dim-rectangle-area-5-2-1">
+<article class="task exercise-like" id="task-polyhedral-dim-rectangle-area"><h5 class="heading">
+<span class="codenumber">(a)</span><span class="space"> </span><span class="title">Growth and Area.</span>
+</h5>
+<div class="introduction" id="task-polyhedral-dim-rectangle-area-2"><div class="para" id="task-polyhedral-dim-rectangle-area-2-1">For each of the following rectangles compute the area:</div></div>
+<article class="task exercise-like" id="task-polyhedral-dim-rectangle-area-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="task-polyhedral-dim-rectangle-area-3-1-1">A rectangle with length 3 inches and width 5 inches.</div>
+<div class="solutions"><details id="task-polyhedral-dim-rectangle-area-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-polyhedral-dim-rectangle-area-3-2-1">Area 15 square inches.</div></div></details></div></article><article class="task exercise-like" id="task-polyhedral-dim-rectangle-area-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="task-polyhedral-dim-rectangle-area-4-1-1">A rectangle with length 4 cm. and width 7 cm.</div>
+<div class="solutions"><details id="task-polyhedral-dim-rectangle-area-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-polyhedral-dim-rectangle-area-4-2-1">Area 28 cm^2.</div></div></details></div></article><article class="task exercise-like" id="task-polyhedral-dim-rectangle-area-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="task-polyhedral-dim-rectangle-area-5-1-1">A rectangle with length 2 ft and width 10 ft.</div>
+<div class="solutions"><details id="task-polyhedral-dim-rectangle-area-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-polyhedral-dim-rectangle-area-5-2-1">Area 20 square feet.</div></div></details></div></article><article class="task exercise-like" id="task-polyhedral-dim-rectangle-area-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="task-polyhedral-dim-rectangle-area-6-1-1">A rectangle with length <span class="process-math">\(\ell\)</span> units and width <span class="process-math">\(w\)</span> units.</div>
+<div class="solutions"><details id="task-polyhedral-dim-rectangle-area-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="task-polyhedral-dim-rectangle-area-6-2-1">
 <span class="process-math">\(Area=\ell w\)</span> square units</div></div></details></div></article></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length"><h5 class="heading"><span class="codenumber">(b)</span></h5>
-<div class="introduction" id="subtask-polyhedral-dim-rectangle-multiply-length-1"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-1-1">For each rectangle in <a href="sec-polyhedra-dimension.html#task-polyhedral-dim-rectangle-area" class="xref" data-knowl="./knowl/xref/task-polyhedral-dim-rectangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.5.1.a">Task 3.5.1.a</a>, multiply both the length and width by 4. Then compute the area of the enlarged rectangle.</div></div>
+<div class="introduction" id="subtask-polyhedral-dim-rectangle-multiply-length-1"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-1-1">For each rectangle in <a href="sec-polyhedra-dimension.html#task-polyhedral-dim-rectangle-area" class="xref" data-knowl="./knowl/xref/task-polyhedral-dim-rectangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.5.1.a: Growth and Area">Task 3.5.1.a</a>, multiply the length by 3 and keep the width unchanged. Then compute the area of the enlarged rectangle.</div></div>
 <article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
 <div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-2-1-1">A rectangle with length 3 inches and width 5 inches.</div>
-<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-length-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-2-2-1">Area 240 square inches.</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="solutions">
+<details id="subtask-polyhedral-dim-rectangle-multiply-length-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-2-2-1">The length is 9 and the width is still 5.</div></div></details><details id="subtask-polyhedral-dim-rectangle-multiply-length-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-2-3-1">Area 45 square inches.</div></div></details>
+</div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
 <div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-3-1-1">A rectangle with length 4 cm and width 7 cm.</div>
-<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-length-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-3-2-1">Area  448 cm^2.</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="solutions">
+<details id="subtask-polyhedral-dim-rectangle-multiply-length-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-3-2-1">Multiply the length 4 by 3. Keep width 7.</div></div></details><details id="subtask-polyhedral-dim-rectangle-multiply-length-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-3-3-1">Area  84 cm^2.</div></div></details>
+</div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
 <div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-4-1-1">A rectangle with length 2 ft and width 10 ft.</div>
-<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-length-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-4-2-1">Area 320 sq ft.</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-length-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-4-2-1">Area 60 sq ft.</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
 <div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-5-1-1">A rectangle with length <span class="process-math">\(\ell\)</span> units and width <span class="process-math">\(w\)</span> units.</div>
-<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-length-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-5-2-1">
-<span class="process-math">\(16(\ell w)\)</span> square units</div></div></details></div></article></article></article></section><section class="subsection" id="subsec-polyhedral-dimension-fractal"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.5.3</span><span class="space"> </span><span class="title">Measuring Fractals</span>
-</h3>
-<div class="para" id="subsec-polyhedral-dimension-fractal-2">Add more.</div></section><section class="subsection" id="subsec-"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.5.4</span><span class="space"> </span><span class="title"></span>
-</h3>
-<div class="para" id="subsec--2">Also explore scale models.</div></section></section></div>
-<div class="ptx-content-footer">
+<div class="solutions">
+<details id="subtask-polyhedral-dim-rectangle-multiply-length-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-5-2-1">Once again we multiple <span class="process-math">\(\ell\)</span> by 3 and keep <span class="process-math">\(w\text{.}\)</span>
+</div></div></details><details id="subtask-polyhedral-dim-rectangle-multiply-length-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-5-3-1">
+<span class="process-math">\(3(\ell w)\)</span> square units</div></div></details>
+</div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-length-6"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-multiply-length-6-1-1">Describe how multiplying the length of a rectangle by a number <span class="process-math">\(k\)</span> affects the area of the rectangle.</div></article></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-4-1-1">Suppose you know the area of a triangle is 52 and then you multiply the base by 5. What will the area of the resulting triangle be?</div>
+<div class="solutions"><details id="subsec-polyhedral-dimesion-growth-3-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-4-2-1"><span class="process-math">\(25\cdot 52=1300\)</span></div></div></details></div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-5-1-1">Suppose you know that the area of a trapezoid is 100 and then you multiply the height of the trapezoid by 1.2. What is the area of the resulting trapezoid?</div>
+<div class="solutions">
+<details id="subsec-polyhedral-dimesion-growth-3-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-5-2-1">The height is unchanged. Only the area is multiplied by 1.2.</div></div></details><details id="subsec-polyhedral-dimesion-growth-3-5-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-5-3-1">120 square units</div></div></details>
+</div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-both"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="introduction" id="subtask-polyhedral-dim-rectangle-multiply-both-1"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-1-1">Next we will explore what happens when we multiply both length and width (or base and height) by the same number. For each rectangle in <a href="sec-polyhedra-dimension.html#task-polyhedral-dim-rectangle-area" class="xref" data-knowl="./knowl/xref/task-polyhedral-dim-rectangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.5.1.a: Growth and Area">Task 3.5.1.a</a>, multiply both the length and width by 4. Then compute the area of the enlarged rectangle. Then compare the resulting areas to those computed in <a href="sec-polyhedra-dimension.html#task-polyhedral-dim-rectangle-area" class="xref" data-knowl="./knowl/xref/task-polyhedral-dim-rectangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.5.1.a: Growth and Area">Task 3.5.1.a</a>..</div></div>
+<article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-both-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-2-1-1">A rectangle with length 3 inches and width 5 inches.</div>
+<div class="solutions">
+<details id="subtask-polyhedral-dim-rectangle-multiply-both-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-2-2-1">The new length will be <span class="process-math">\(4\cdot 3=12\)</span> inches and the new height is <span class="process-math">\(4\cdot 5=20\)</span> inches.</div></div></details><details id="subtask-polyhedral-dim-rectangle-multiply-both-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-2-3-1">Area 240 square inches.</div></div></details>
+</div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-both-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-3-1-1">A rectangle with length 4 cm and width 7 cm.</div>
+<div class="solutions">
+<details id="subtask-polyhedral-dim-rectangle-multiply-both-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-3-2-1">Again multiply both the length and the width by 4.</div></div></details><details id="subtask-polyhedral-dim-rectangle-multiply-both-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-3-3-1">Area <span class="process-math">\(16\cdot 28=448 cm^2\text{.}\)</span>
+</div></div></details>
+</div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-both-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-4-1-1">A rectangle with length 2 ft and width 10 ft.</div>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-both-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-4-2-1">Area 320 sq ft.</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-both-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-5-1-1">A rectangle with length <span class="process-math">\(\ell\)</span> units and width <span class="process-math">\(w\)</span> units.</div>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-both-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-5-2-1">
+<span class="process-math">\(16(\ell w)\)</span> square units or <span class="process-math">\(4^2(\ell w)\)</span> square units.</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-both-6"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-6-1-1">Suppose a triangle has area 52 and you multiply both the height and the base by 5. What is the area of the resulting triangle? Why?</div>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-both-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-6-2-1">Multiply the area by <span class="process-math">\(5^2\)</span> to get <span class="process-math">\(1300\text{.}\)</span>
+</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-multiply-both-7"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-7-1-1">Suppose a trapezoid has area 100 square meters and you then multiply the height and both bases by 1.2. What is the area of the resulting trapezoid?</div>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-multiply-both-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-multiply-both-7-2-1">144 m^2</div></div></details></div></article></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-7-1-1">Suppose a circle has area <span class="process-math">\(64\pi\)</span> square units. If you multiply the radius by 5, what is the area of the resulting circle? Explain.</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-8"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-8-1-1">Area is the measure of the interior of a two-dimensional figure. Refer to your work in this exploration as you explain how area is effected by stretching two-dimensional figures both vertically and horizontally.</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9"><h5 class="heading">
+<span class="codenumber">(h)</span><span class="space"> </span><span class="title">Growth in Perimeter.</span>
+</h5>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-3-9-2"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-2-1">We can also measure the perimeter of two-dimensional figures. In this task, we will explore whether multiplying the length and/or height of a figure by a fixed number has a predictable effect on the perimeter of the figure.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-3-9-3-1"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-1-1">Determine the perimeter of each rectangle in <a href="sec-polyhedra-dimension.html#task-polyhedral-dim-rectangle-area" class="xref" data-knowl="./knowl/xref/task-polyhedral-dim-rectangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.5.1.a: Growth and Area">Task 3.5.1.a</a>.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-3-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-2-1-1">A rectangle with length 3 inches and width 5 inches.</div>
+<div class="solutions">
+<details id="subsec-polyhedral-dimesion-growth-3-9-3-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-2-2-1">The perimeter is the length of the boundary of a figure. For a rectangle, add the top, right, bottom, and left side lengths.</div></div></details><details id="subsec-polyhedral-dimesion-growth-3-9-3-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-2-3-1">The perimeter is <span class="process-math">\(3+5+3+5=16\)</span> inches.</div></div></details>
+</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-3-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-3-1-1">A rectangle with length 4 cm. and width 7 cm.</div>
+<div class="solutions"><details id="subsec-polyhedral-dimesion-growth-3-9-3-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-3-2-1">Perimeter 22 cm.</div></div></details></div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-3-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-4-1-1">A rectangle with length 2 ft and width 10 ft.</div>
+<div class="solutions"><details id="subsec-polyhedral-dimesion-growth-3-9-3-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-4-2-1">Perimeter 24 feet.</div></div></details></div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-3-5"><h6 class="heading"><span class="codenumber">(D)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-5-1-1">A rectangle with length <span class="process-math">\(\ell\)</span> units and width <span class="process-math">\(w\)</span> units.</div>
+<div class="solutions"><details id="subsec-polyhedral-dimesion-growth-3-9-3-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-3-5-2-1">
+<span class="process-math">\(Perimeter=2\ell + 2w\)</span> units</div></div></details></div></article></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-peri-multiply-both"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="introduction" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-1"><div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-1-1">For each rectangle in <a href="sec-polyhedra-dimension.html#task-polyhedral-dim-rectangle-area" class="xref" data-knowl="./knowl/xref/task-polyhedral-dim-rectangle-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.5.1.a: Growth and Area">Task 3.5.1.a</a>, multiply both the length and width by 4. Then compute the perimeter of the enlarged rectangle.</div></div>
+<article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-2-1-1">A rectangle with length 3 inches and width 5 inches.</div>
+<div class="solutions">
+<details id="subtask-polyhedral-dim-rectangle-peri-multiply-both-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-2-2-1">Use the original rectangles, not the ones where length has been multiplied by 3.</div></div></details><details id="subtask-polyhedral-dim-rectangle-peri-multiply-both-2-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-2-3-1">Perimeter 64 inches.</div></div></details>
+</div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-3-1-1">A rectangle with length 4 cm and width 7 cm.</div>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-peri-multiply-both-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-3-2-1">Perimeter 88 cm.</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-4-1-1">A rectangle with length 2 ft and width 10 ft.</div>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-peri-multiply-both-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-4-2-1">Perimeter 96 ft.</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-5"><h6 class="heading"><span class="codenumber">(D)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-5-1-1">A rectangle with length <span class="process-math">\(\ell\)</span> units and width <span class="process-math">\(w\)</span> units.</div>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-peri-multiply-both-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-5-2-1">
+<span class="process-math">\(4(2\ell +2w)\)</span> units</div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-6"><h6 class="heading"><span class="codenumber">(E)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-6-1-1">Suppose a rectangle has perimeter 52 and you multiply both the height and the base by 5. What is the perimeter of the resulting rectangle? Why?</div>
+<div class="solutions"><details id="subtask-polyhedral-dim-rectangle-peri-multiply-both-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-6-2-1"><span class="process-math">\(208\)</span></div></div></details></div></article><article class="task exercise-like" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-7"><h6 class="heading"><span class="codenumber">(F)</span></h6>
+<div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-7-1-1">Suppose a triangle has perimeter 20. If we multiply the height and base of a triangle by 3, must the perimeter equal 60? Support your answer using examples. The following GeoGebra applet will allow you to explore different shaped triangles.</div> <figure class="figure figure-like" id="per20growTri"><iframe id="mult-by-3-peri-tri" width="600" height="600" src="mult-by-3-peri-tri-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.5.1<span class="period">.</span></span><span class="space"> </span>A GeoGebra applet to see growth in the perimeter of a triangle.</figcaption></figure><div class="solutions"><details id="subtask-polyhedral-dim-rectangle-peri-multiply-both-7-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subtask-polyhedral-dim-rectangle-peri-multiply-both-7-2-1"><span class="process-math">\(144 m^2\)</span></div></div></details></div></article></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-5-1-1">Suppose a circle has perimeter <span class="process-math">\(64\pi\)</span> units. If you multiply the radius by 5, what is the circumference of the resulting circle?</div>
+<div class="solutions"><details id="subsec-polyhedral-dimesion-growth-3-9-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-5-2-1">
+<span class="process-math">\(320\)</span> units</div></div></details></div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-3-9-6-1"><div class="para" id="subsec-polyhedral-dimesion-growth-3-9-6-1-1">Suppose a circle has radius 7.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-6-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-6-2-1-1">What is the circumference of this circle?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-6-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-6-3-1-1">Now multiply the radius by 2 to get 14. What is the circumference of the larger circle?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-6-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-6-4-1-1">Does circumference behave like perimeter or area? Explain.</div></article></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-3-9-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-3-9-7-1-1">Perimeter is the measure of the boundary of a two-dimensional figure. Refer to your work in this section of the exploration as you explain how perimeter is affected by stretching two-dimensional figures both vertically and horizontally by the same amount. Can we make the same claim if we stretch vertically by one factor and horizontally by another factor?</div></article></article></article><article class="exploration project-like" id="subsec-polyhedral-dimesion-growth-4"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">Growth in Three-Dimensional Solids.</span>
+</h4>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-4-2-1"><div class="para" id="subsec-polyhedral-dimesion-growth-4-2-1-1">Suppose a rectangular prism has width 2 inches, length 5 inches, and depth 7 inches.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-2-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-2-2-1-1">Compute its volume.</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-2-3-1-1">What happens to the volume if just the width is multiplied by 3?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-2-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-2-4-1-1">What happens to the volume of the prism if the width and the length are both multiplied by 3?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-2-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-2-5-1-1">What happens to the volume if all three dimensions, width, length, and depth, are multiplied by 3?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-2-6"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-2-6-1-1">In a sentence or two, describe how multiplying one or more dimensions by a constant affects the volume of a rectangular prism.</div></article></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-4-3-1"><div class="para" id="subsec-polyhedral-dimesion-growth-4-3-1-1">In this task we explore a connection between volume of prisms and cylinders and the depth of the solid.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-4-3-2-1"><div class="para" id="subsec-polyhedral-dimesion-growth-4-3-2-1-1">The base of a prism is a square with side length 7 inches.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-2-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-2-2-1-1">What is the volume of the prism if the depth is 1 inch?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-2-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-2-3-1-1">What is the volume of the prism if the depth is 3 inches?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-2-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-2-4-1-1">What is the volume of the prism if the depth is <span class="process-math">\(d\)</span> inches?</div></article></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-4-3-3-1"><div class="para" id="subsec-polyhedral-dimesion-growth-4-3-3-1-1">The base of a prism is a circle with radius 5 inches.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-3-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-3-2-1-1">What is the volume of the prism if the depth is 1 inch?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-3-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-3-3-1-1">What is the volume of the prism if the depth is 4 inches?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-3-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-3-4-1-1">What is the volume of the prism if the depth is <span class="process-math">\(d\)</span> inches?</div></article></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-4-3-4-1"><div class="para" id="subsec-polyhedral-dimesion-growth-4-3-4-1-1">The base of a prism is a triangle with base 4 inches and height 9 inches.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-4-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-4-2-1-1">What is the volume of the prism if the depth is 1 inch?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-4-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-4-3-1-1">What is the volume of the prism if the depth is 3 inches?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-4-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-4-4-1-1">What is the volume of the prism if the depth is <span class="process-math">\(d\)</span> inches?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-4-5"><h6 class="heading"><span class="codenumber">(D)</span></h6>
+<div class="introduction" id="subsec-polyhedral-dimesion-growth-4-3-4-5-1"><div class="para" id="subsec-polyhedral-dimesion-growth-4-3-4-5-1-1">A prism has a base with area 56 square inches.</div></div>
+<article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-4-5-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-4-5-2-1-1">What is the volume of the prism if the depth is 1 inch?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-4-5-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-4-5-3-1-1">What is the volume of the prism if the depth is 3 inches?</div></article><article class="task exercise-like" id="subsec-polyhedral-dimesion-growth-4-3-4-5-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="subsec-polyhedral-dimesion-growth-4-3-4-5-4-1-1">What is the volume of the prism if the depth is <span class="process-math">\(d\)</span> inches?</div></article></article></article></article></article></section></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-polyhedra-pyramids-cones.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-polyhedra-instructor.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>
