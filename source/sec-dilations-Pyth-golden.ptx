@@ -661,11 +661,13 @@
         </statement>
         <hint>
           <p>
-            <m>m\angle DEB</m>: Angles along a straight line sum to 180 deg. Both the measure of <m>\angle FEC</m>
-            and <m>\angle DEF</m> are given. Use this to find <m>\angle DEB</m>.
+            <m>m\angle DEB</m>: When three angles form a straight line, they always add up to 180 deg. 
+            The measures of <m>\angle FEC</m> and <m>\angle DEF</m> are given. Use these two angles to find <m>m\angle DEB</m>.
           </p>
           <p>
-            <m>m\angle BAC</m>: The sum of interior angles of a triangle is 180 deg. Use this fact to determine <m>m\angle BAC</m>.
+            <m>m\angle BAC</m>: The interior angles of any triangle add up to 180 deg. 
+            In <m>\Delta ABC</m>, the measures of <m>\angle ABC</m> and <m>\angle ACB</m> are given. Use these two angles
+            to find <m>\angle BAC</m>.
           </p>
         </hint>
         <answer>
@@ -676,18 +678,21 @@
         </answer>
         <solution>
           <p>Solution for <m>m\angle DEB</m>:</p>
-          <p>Angles <m>\angle DEB</m>, <m>\angle DEF</m>, <m>\angle FEC</m> form a straight line (180 deg total).</p>
-          <p>Given <m>m\angle DEF</m> = 108 deg and <m>m\angle FEC</m> = 42 deg, their sum is 150 deg.</p>
+          <p>Angles <m>\angle DEB</m>, <m>\angle DEF</m>, <m>\angle FEC</m> form a straight line.</p>
+          <p>The sum of these three angles is 180 deg.</p>
+          <p>Given: <m>m\angle DEF</m> = 108 deg and <m>m\angle FEC</m> = 42 deg</p>
+          <p>Add the known angles: 108 deg + 42 deg = 150 deg.</p>
           <p>To find <m>m\angle DEB</m>, subtract 150 deg from 180 deg.</p>
           <p>180 - 150 = 30 deg.</p>
-          <p>Therefore, <m>m\angle DEB</m> = 30 deg.</p>
+          <p>Result: <m>m\angle DEB</m> = 30 deg.</p>
 
           <p>Solution for <m>m\angle BAC</m>:</p>
-          <p>The sum of interior angles of a triangle is 180 deg.</p>
-          <p>In <m>\Delta ABC</m>, <m>m\angle ABC</m> = 42 deg and <m>m\angle ACB</m> = 30 deg, totaling 72 deg.</p>
+          <p>The sum of interior angles of <m>\Delta ABC</m> is 180 deg.</p>
+          <p>Given: <m>m\angle ABC</m> = 42 deg and <m>m\angle ACB</m> = 30 deg</p>
+          <p>Add the known angles: 42 deg + 30 deg = 72 deg.</p>
           <p>To find <m>m\angle BAC</m>, subtract 72 deg from 180 deg.</p>
           <p>180 - 72 = 108 deg.</p>
-          <p>Therefore, <m>m\angle BAC</m> = 108 deg.</p>
+          <p>Result: <m>m\angle BAC</m> = 108 deg.</p>
         </solution>
       </task>
       <task>
@@ -698,9 +703,9 @@
         </statement>
         <hint>
           <p>
-            To find <m>m\angle EFC</m> and <m>m\angle BDE</m>, use triangle similarity. Identify how these angles 
-            correspond to those in <m>\Delta ABC</m>?
-            *** Note that <m>m\angle BAC</m> was determined in the previous problem. ***
+            In the previous problem, it was determined that <m>m\angle BAC</m> = 108 deg.
+            Use triangle similarity to find <m>m\angle EFC</m> and <m>m\angle BDE</m>. Hint - Both <m>\angle EFC</m> and
+            <m>\angle BDE</m> correspond to <m>m\angle BAC</m>.
           </p>
         </hint>
         <answer>
@@ -713,11 +718,12 @@
         <solution>
           <p>Solution:</p>
           <p>From the previous problem, <m>m\angle BAC</m> = 108 deg.</p>
-          <p>Since <m>\triangle EFC</m> ~ <m>\triangle BAC</m>, corresponding angles are equal:</p>
-          <p><m>\angle EFC</m> = <m>\angle BAC</m> = 108 deg.</p>
-          <p>Similarly, since <m>\triangle BDE</m> ~ <m>\triangle BAC</m>,</p>
-          <p><m>\angle BDE</m> = <m>\angle BAC</m> = 108 deg.</p>
-          <p>The measure of all three angles is 108 deg.</p>
+          <p>Triangle <m>\Delta EFC</m> is similar to triangle <m>\Delta BAC</m>.</p>
+          <p>Similar triangles have equal corresponding angles</p>
+          <p>The <m>\angle EFC</m> corresponds to <m>\angle BAC</m>, so <m>m\angle EFC</m> = 108 deg.</p>
+          <p>Triangle <m>\Delta BDE</m> is also similar to triangle <m>\Delta BAC</m>.</p>
+          <p>Therefore, <m>\angle BDE</m> corresponds to <m>\angle BAC</m>, so <m>m\angle BDE</m> = 108 deg.</p>
+          <p>All three angles (<m>\angle EFC</m>, <m>\angle BDE</m>, and <m>\angle BAC</m>) measure 108 deg.</p>
         </solution>
       </task>
       <task>
