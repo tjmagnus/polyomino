@@ -666,7 +666,7 @@
           </p>
           <p>
             <m>m\angle BAC</m>: The interior angles of any triangle add up to 180 deg. 
-            In <m>\Delta ABC</m>, the measures of <m>\angle ABC</m> and <m>\angle ACB</m> are given. Use these two angles
+            For <m>\Delta ABC</m>, the measures of <m>\angle ABC</m> and <m>\angle ACB</m> are given. Use these two angles
             to find <m>\angle BAC</m>.
           </p>
         </hint>
@@ -720,7 +720,7 @@
           <p>From the previous problem, <m>m\angle BAC</m> = 108 deg.</p>
           <p>Triangle <m>\Delta EFC</m> is similar to triangle <m>\Delta BAC</m>.</p>
           <p>Similar triangles have equal corresponding angles</p>
-          <p>The <m>\angle EFC</m> corresponds to <m>\angle BAC</m>, so <m>m\angle EFC</m> = 108 deg.</p>
+          <p><m>\angle EFC</m> corresponds to <m>\angle BAC</m>, so <m>m\angle EFC</m> = 108 deg.</p>
           <p>Triangle <m>\Delta BDE</m> is also similar to triangle <m>\Delta BAC</m>.</p>
           <p>Therefore, <m>\angle BDE</m> corresponds to <m>\angle BAC</m>, so <m>m\angle BDE</m> = 108 deg.</p>
           <p>All three angles (<m>\angle EFC</m>, <m>\angle BDE</m>, and <m>\angle BAC</m>) measure 108 deg.</p>
