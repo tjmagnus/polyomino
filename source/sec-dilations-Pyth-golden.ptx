@@ -659,6 +659,16 @@
             Determine <m>m\angle DEB</m> and <m>m\angle BAC</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            <m>m\angle DEB</m>: Recall that a straight line has a measure of 180 deg. Both the measure of angle <m>\angle FEC</m>
+            and angle <m>\angle DEF</m> are given. How can this information be used to find the measure of angle <m>\angle DEB</m>?
+          </p>
+          <p>
+            <m>m\angle BAC</m>: Recall that the sum of interior angles of a triangle is 180 deg. How can this be used to find the
+            measure of angle <m>\angle BAC</m>?
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
