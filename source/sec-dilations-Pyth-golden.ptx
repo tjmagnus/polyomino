@@ -669,6 +669,27 @@
             measure of angle <m>\angle BAC</m>?
           </p>
         </hint>
+        <answer>
+          <p>
+            <m>m\angle DEB</m> = 30 degrees.
+            <m>m\angle BAC</m> = 180 degrees.
+          </p>
+        </answer>
+        <solution>
+          <p>Solution for <m>m\angle DEB</m>:</p>
+          <p>Angles <m>\angle DEB</m>, <m>\angle DEF</m>, <m>\angle FEC</m> form a straight line (180 deg total). <br/>
+          <m>m\angle DEF</m> = 108 deg and <m>m\angle FEC</m> = 42 deg, so their sum is 150 deg. <br/>
+          To find angle <m>\angle DEB</m>, subtract 150 deg from 180 deg. <br/>
+          180 - 150 = 30 deg. <br/>
+          Therefore, the measure of angle <m>\angle DEB</m> is 30 deg.</p>
+
+          <p>Solution for <m>m\angle BAC</m>:</p>
+          <p>The sum of interior angles of a triangle is 180 deg. <br/>
+          In triangle BAC, <m>m\angle ABC</m> = 42 deg and <m>m\angle ACB</m> = 30 deg, so their sum is 72 deg. <br/>
+          To find <m>\angle BAC</m>, subtract 72 deg from 180 degree. <br/>
+          180 - 72 = 108 deg. <br/>
+          Therefore, the measure of angle <m>\angle BAC</m> is 108 deg.</p>
+        </solution>
       </task>
       <task>
         <statement>
