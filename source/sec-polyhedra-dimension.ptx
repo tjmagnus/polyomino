@@ -4,40 +4,62 @@
   <title>Measuring in Different Dimensions</title>
   <introduction>
     <p>
-      As we complete our section on three-dimensional solids, let us take a closer 
-      look at the relationships between measurements of one-, two-, and three-dimensional
-      objects.
+      Length, area, volume, and surface area have practical applications. A landowner may be 
+      interested about the area of the space available for planting and building. If a  
+      fence is desired, a different computation is required. Similarly, the 
+      amount of water needed to fill a pool and the quantity of waterproofing needed to protect 
+      the floor and walls of the pool require different geometrical formulas. 
     </p>
     </introduction>
     <subsection xml:id="subsec-polyhedra-dimension-interior">
-      <title>Measuring Interior Space</title>
+      <title>Measuring Interiors</title>
       <p>
-        Linear objects, like lines and segments, are one-dimensional. The only finite 
-        one-dimensional object is a line segment which is bounded by two endpoints. Length
-        can be thought of as the measurement of the interior space of a line segment, namely the 
-        distance between the endpoints. In a linear space, all objects lie on a single line.
+        What does it mean to measure the interior of a geometric object? It depends on the 
+        object and the context. A line segment is a finite 
+        one-dimensional object bounded by two endpoints. Length
+        can be thought of as the measure of the interior space of a line segment, namely the 
+        distance between the endpoints. In a one-dimensional space, all objects lie on a single line.
         we move only forward and backward along that line. There is no height or width.
       </p>
       <p>
         Two-dimensional geometry is the study of objects lying in a plane. Two-dimensional
         objects include polygons, circles, and other figures that can be drawn on a flat surface. 
-        A closed two-dimenional figure 
+        A closed two-dimensional figure 
         will be bounded by linear and/or curved segments that separate the interior of the 
         figure from the rest of the plane, which we refer to as the exterior of the figure. 
-        The measure of the interior of a figure is called its area and involves both length
-        and width. This second dimension, width, is measured in a direction perpendicular to  
-        that of length. A plane will also include objects of smaller dimension, such as 
-        one-dimensional lines and zero-dimensional points. We cannot measure the area of these 
-        smaller dimensional objects.
+        The measure of the interior of a two-dimensional figure is called its area and involves 
+        both length and width. Of course, the boundary of the planar figure can also be measured, 
+        but the boundary consists of one-dimensional objects; namely, line segments and curves. 
       </p>
       <p>
         In three-dimensional geometry, we have length, width, and a third direction called 
-        depth (or height). The geometrical solids studied in this section including prisms,
-        cylinders, cones, pyramids, and polyhedra are examples of three-dimensional solids. 
-        Each three-dimensional solid is bounded by surfaces which may include polygons, circles, 
-        and other two-dimensional objects. The measurement of the interior space of a 
+        depth (or height). The geometrical solids studied in <xref ref="ch-polyhedra"/>, including prisms,
+        cylinders, cones, pyramids, and polyhedra, are examples of three-dimensional solids. 
+        The measurement of the interior space of a 
         geometrical solid is called volume.
+        Each three-dimensional solid is bounded by surfaces which may include polygons, circles, 
+        and other two-dimensional objects. Since these surfaces are two-dimensional, we use 
+        area to describe the size of the boundary. The total of the area of these bounding 
+        surfaces is given the appropriate name, surface area. 
       </p>
+      <exercise label="polyhedra-dim-checkpoint-match-measures">
+        <statement>
+          <p>
+            Match the correct type of measurement to each scenario.
+          </p>
+        </statement>
+        <matching>
+            <premise ref="icevol">The amount of ice that can fit in a cooler.</premise>
+            <premise ref="floorarea">The amount of vinyl needed to cover a floor.</premise>
+            <premise ref="boxsurfarea">The amount of wood needed to make a box.</premise>
+            <premise ref="wirelength">The amount of wire to form a boundary of a polygon. </premise>
+            <response xml:id="floorarea">area</response>
+            <response xml:id="boxsurfarea">surface area</response>
+            <response xml:id="icevol">volume</response>
+            <response xml:id="wirelength">perimeter</response>
+        </matching>
+
+      </exercise>
         <!--both the area and the perimeter of closed 
         finite two-dimensional objects. While the area of a planar figure requires 
         two dimensions, length and width, perimeter is actually a one-dimensional 
