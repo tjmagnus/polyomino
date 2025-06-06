@@ -980,6 +980,19 @@
             as well.
           </p>
         </hint>
+        <answer>
+          <p>
+            Type of Isometry: Rotation
+            Defining Object(s): Center and Rotational Angle
+          </p>
+        </answer>
+        <solution>
+          <p>Solution:</p>
+          <p>• This a rotation with exactly one fixed point, the midpoint of <m>\overline{DF}</m>.</p>
+          <p>• Rotating <m>\Delta ADF</m> 180 about this point aligns it exactly with <m>\Delta EFD</m>.</p>
+          <p>• Therefore, this type of isometry is a rotation (with a center and rotational angle).</p>
+          <p>• RESULT: Rotation (with center and rotational angle)</p>
+        </solution>
       </task>
     </exercise>
   </subexercises>
