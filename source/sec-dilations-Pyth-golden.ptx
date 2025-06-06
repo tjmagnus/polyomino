@@ -788,7 +788,7 @@
           <p>• It is also given that <m>m\angle DEF</m> = 108 degrees.</p>
           <p>• Using the Triangle Angle Sum Theorem (the interior angles in any triangle add up to 180 degrees), the measure
                of the third angle, <m>\angle EFD</m>, can be calculated:
-                    • <m>m\angle EFD</m> = 180 - (108 + 30) = 42 degrees.
+                  • <m>m\angle EFD</m> = 180 - (108 + 30) = 42 degrees.
           </p>
           <p>• RESULT: <m>m\angle EFD</m> = 42 degrees.</p>
         </solution>
@@ -850,6 +850,28 @@
             Determine the length of <m>\overline{AF}</m>. Support your answer.
           </p>
         </statement>
+        <hint>
+          <p>
+            Use the definition of a midpoint. What does a midpoint do to a line segment?
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The length of <m>\overline{AF}</m> is 5.
+          </p>
+        </answer>
+        <solution>
+          <p>Solution:</p>
+          <p>• Point F is the midpoint of side <m>\overline{AC}</m>.</p>
+          <p>• By definition, a midpoint splits a line segment exactly in half.</p>
+          <p>• This means that the length of <m>\overline{AF}</m> is half the total length of <m>\overline{AC}</m>.</p>
+          <p>• Given that <m>\overline{AC}</m> = 10:</p>
+          <p>     • <m>\overline{AF}</m> = <m>\frac{1}{2} \cdot \overline{AC}</m></p>
+          <p>     • <m>\overline{AF}</m> = <m>\frac{1}{2} \cdot 10</m></p>
+          <p>     • <m>\overline{AF}</m> = 5</p>
+          <p>• Therefore, <m>\overline{AF}</m> = 5</p>
+          <p>• RESULT: The length of <m>\overline{AF}</m> is 5.</p> 
+        </solution>
       </task>
       <task>
         <statement>
