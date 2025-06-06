@@ -678,9 +678,9 @@
         </answer>
         <solution>
           <p>Solution for <m>m\angle DEB</m>:</p>
-          <p>• Angles <m>\angle DEB</m>, <m>\angle DEF</m>, <m>\angle FEC</m> form a straight line.</p>
+          <p>• Angles <m>\angle DEB</m>, <m>\angle DEF</m>, and <m>\angle FEC</m> form a straight line.</p>
           <p>• The sum of these three angles is 180 degrees.</p>
-          <p>• Given: <m>m\angle DEF</m> = 108 degrees and <m>m\angle FEC</m> = 42 degrees</p>
+          <p>• Given: <m>m\angle DEF</m> = 108 degrees and <m>m\angle FEC</m> = 42 degrees.</p>
           <p>• Add the known angles: 108 degrees + 42 degrees = 150 degrees.</p>
           <p>• To find <m>m\angle DEB</m>, subtract 150 degrees from 180 degrees.</p>
           <p>• 180 - 150 = 30 degrees.</p>
@@ -688,7 +688,7 @@
 
           <p>Solution for <m>m\angle BAC</m>:</p>
           <p>• The sum of interior angles of <m>\Delta ABC</m> is 180 degrees.</p>
-          <p>• Given: <m>m\angle ABC</m> = 42 degrees and <m>m\angle ACB</m> = 30 degrees</p>
+          <p>• Given: <m>m\angle ABC</m> = 42 degrees and <m>m\angle ACB</m> = 30 degrees.</p>
           <p>• Add the known angles: 42 degrees + 30 degrees = 72 degrees.</p>
           <p>• To find <m>m\angle BAC</m>, subtract 72 degrees from 180 degrees.</p>
           <p>• 180 - 72 = 108 degrees.</p>
@@ -735,7 +735,7 @@
         <hint>
           <p>
             Use angle similarity and match corresponding angles. Which angle in the larger triangle <m>\Delta ABC</m>
-            corresponds with with <m>\angle FDE</m>? What about <m>\angle AFD</m>? Use those relationships to find missing measures.
+            corresponds with with <m>\angle FDE</m>? What about <m>\angle AFD</m>? Use these relationships to find missing measures.
           </p>
         </hint>
         <answer>
@@ -754,14 +754,14 @@
           <p>• The middle triangle is <m>\Delta DEF</m>. It is a mini-copy of <m>\Delta ABC</m>.</p>
           <p>• When discussing corresponding angles, their similarity can be written as: <m>\Delta ABC</m> ~ <m>\Delta EFD</m>.</p>
           <p>• Based on <m>\Delta ABC</m> ~ <m>\Delta EFD</m>...<m>\angle D</m> matches <m>\angle C</m></p>
-          <p>• Since <m>m\angle C</m> = 30 degrees, then <m>m\angle D</m> = 30 degrees. Therefore, <m>\angle FDE</m> = 30 degrees.</p>
+          <p>• Since <m>m\angle C</m> = 30 degrees, then <m>m\angle D</m> = 30 degrees. Therefore, <m>m\angle FDE</m> = 30 degrees.</p>
           <p>• RESULT: <m>m\angle FDE</m> = 30 degrees.</p>
 
           <p>Solution for <m>m\angle AFD</m>:</p>
           <p>• <m>\Delta ADF</m> is the top corner triangle. It is also a mini-copy of <m>\Delta ABC</m>.</p>
           <p>• When discussing corresponding angles, their similarity can be written as: <m>\Delta ABC</m> ~ <m>\Delta ADF</m>.</p>
           <p>• Based on <m>\Delta ABC</m> ~ <m>\Delta ADF</m>...<m>\angle F</m> matches <m>\angle C</m></p>
-          <p>• Since <m>m\angle C</m> = 30 degrees, then <m>m\angle F</m> = 30 degrees. Therefore <m>\angle AFD</m> = 30 degrees.</p>
+          <p>• Since <m>m\angle C</m> = 30 degrees, then <m>m\angle F</m> = 30 degrees. Therefore <m>m\angle AFD</m> = 30 degrees.</p>
           <p>• RESULT: <m>m\angle AFD</m> = 30 degrees.</p>
         </solution>
       </task>
@@ -836,12 +836,11 @@
 
           <p>The Bottom-Right Corner Triangle (<m>\Delta FEC</m>):</p>
           <p>• <m>\angle F</m> in <m>\Delta FEC</m> matches <m>\angle A</m> in <m>\Delta ABC</m>. Both are 108 degrees.</p>
-          <p>• <m>\angle E</m> in <m>\Delta FEC</m> matches <m>\angle C</m> in <m>\Delta ABC</m>. Both are 42 degrees.</p>
+          <p>• <m>\angle E</m> in <m>\Delta FEC</m> matches <m>\angle B</m> in <m>\Delta ABC</m>. Both are 42 degrees.</p>
           <p>• <m>\angle C</m> is shared by both <m>\Delta FEC</m> and <m>\Delta ABC</m>. It is the same in both triangles at 30 degrees.</p>
           <p>• Therefore, <m>\Delta ABC</m> ~ <m>\Delta FEC</m></p>
-          <p>
-            RESULT: <m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>, and <m>\Delta FEC</m> are all similar to <m>\Delta ABC</m>.
-          </p>
+          
+          <p>RESULT: <m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>, and <m>\Delta FEC</m> are all similar to <m>\Delta ABC</m>.</p>
         </solution>
       </task>
       <task>
@@ -913,7 +912,7 @@
         </statement>
         <hint>
           <p>
-            For center of this dilation, find the vertex that is shared by both <m>\Delta ABC</m> and <m>\Delta FEC</m>.
+            For the center of this dilation, find the vertex that is shared by both <m>\Delta ABC</m> and <m>\Delta FEC</m>.
             For scale factor, consider how the sides of <m>\Delta FEC</m> are smaller because F and E are midpoints.
           </p>
         </hint>
@@ -929,6 +928,7 @@
           <p>• Point C is the only vertex common to both <m>\Delta ABC</m> and <m>\Delta FEC</m>.</p>
           <p>• This shared point acts as the reference for the dilation.</p>
           <p>• Therefore, Point C is the center of this dilation.</p>
+          <p>• RESULT: Point C.</p>
 
           <p>Solution for Scale Factor:</p>
           <p>• The scale factor is the ratio of a side length in the new triangle (<m>\Delta FEC</m>) to the matching side length in the original triangle (<m>\Delta ABC</m>).</p>
@@ -936,9 +936,7 @@
           <p>• This means that <m>\overline{FC}</m> (in <m>\Delta FEC</m>) is half the length of <m>\overline{AC}</m> (in <m>\Delta ABC</m>).</p>
           <p>• The ratio of their lengths is <m>\frac{1}{2}</m>.</p>
           <p>• Therefore, the scale factor is <m>\frac{1}{2}</m>.</p>
-          <p>
-            RESULT: The center of this dilation is point C and the scale factor is <m>\frac{1}{2}</m>.
-          </p>
+          <p>• RESULT: Scale factor = <m>\frac{1}{2}</m>.</p>
         </solution>
       </task>
       <task>
@@ -989,7 +987,7 @@
         <solution>
           <p>Solution:</p>
           <p>• This a rotation with exactly one fixed point, the midpoint of <m>\overline{DF}</m>.</p>
-          <p>• Rotating <m>\Delta ADF</m> 180 about this point aligns it exactly with <m>\Delta EFD</m>.</p>
+          <p>• Rotating <m>\Delta ADF</m> 180 degrees about this point aligns it exactly with <m>\Delta EFD</m>.</p>
           <p>• Therefore, this type of isometry is a rotation.</p>
           <p>• RESULT: Rotation (with center and rotational angle)</p>
         </solution>
