@@ -925,17 +925,17 @@
         </answer>
         <solution>
           <p>Solution for Center of Dilation:</p>
-          <p>The center of a dilation is the fixed point from which scaling occurs.</p>
-          <p>Point C is the only vertex common to both <m>\Delta ABC</m> and <m>\Delta FEC</m>.</p>
-          <p>This shared point acts as the reference for the dilation.</p>
-          <p>Therefore, Point C is the center of this dilation.</p>
+          <p>• The center of a dilation is the fixed point from which scaling occurs.</p>
+          <p>• Point C is the only vertex common to both <m>\Delta ABC</m> and <m>\Delta FEC</m>.</p>
+          <p>• This shared point acts as the reference for the dilation.</p>
+          <p>• Therefore, Point C is the center of this dilation.</p>
 
           <p>Solution for Scale Factor:</p>
-          <p>The scale factor is the ratio of a side length in the new triangle (<m>\Delta FEC</m>) to the matching side length in the original triangle (<m>\Delta ABC</m>).</p>
-          <p>Point F is the midpoint of of side <m>\overline{AC}</m></p>
-          <p>This means that <m>\overline{FC}</m> (in <m>\Delta FEC</m>) is half the length of <m>\overline{AC}</m> (in <m>\Delta ABC</m>).</p>
-          <p>The ratio of their lengths is <m>\frac{1}{2}</m>.</p>
-          <p>Therefore, the scale factor is <m>\frac{1}{2}</m>.</p>
+          <p>• The scale factor is the ratio of a side length in the new triangle (<m>\Delta FEC</m>) to the matching side length in the original triangle (<m>\Delta ABC</m>).</p>
+          <p>• Point F is the midpoint of of side <m>\overline{AC}</m></p>
+          <p>• This means that <m>\overline{FC}</m> (in <m>\Delta FEC</m>) is half the length of <m>\overline{AC}</m> (in <m>\Delta ABC</m>).</p>
+          <p>• The ratio of their lengths is <m>\frac{1}{2}</m>.</p>
+          <p>• Therefore, the scale factor is <m>\frac{1}{2}</m>.</p>
           <p>
             RESULT: The center of this dilation is point C and the scale factor is <m>\frac{1}{2}</m>.
           </p>
@@ -953,6 +953,19 @@
             See <xref ref="table-def-obj-4"/>.
           </p>
         </hint>
+        <answer>
+          <p>
+            Type of Isometry: Rotation
+            Defining Object(s): Center and Rotational Angle
+          </p>
+        </answer>
+        <solution>
+          <p>Solution:</p>
+          <p>• This is a rotation with exactly one fixed point, E.</p>
+          <p>• Rotating <m>\Delta DEB</m> 180 degrees around point E aligns it exactly with <m>\Delta FCE</m>.</p>
+          <p>• Therefore, this type of isometry is a rotation (with a center and rotational angle).</p>
+          <p>• RESULT: Rotation (with center and rotational angle)</p>
+        </solution>
       </task>
       <task>
         <statement>
