@@ -717,7 +717,7 @@
         </answer>
         <solution>
           <p>Solution:</p>
-          <p>• From the previous problem, <m>m\angle BAC</m> = 108 degrees.</p>
+          <p>• From the previous problem (problem a), <m>m\angle BAC</m> = 108 degrees.</p>
           <p>• Triangle <m>\Delta EFC</m> is similar to triangle <m>\Delta BAC</m>.</p>
           <p>• Similar triangles have equal corresponding angles</p>
           <p>• <m>\angle EFC</m> corresponds to <m>\angle BAC</m>, so <m>m\angle EFC</m> = 108 degrees.</p>
@@ -771,6 +771,27 @@
             Determine <m>m\angle EFD</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            The interior angles of any triangle always add up to 180 degrees (Triangle Angle Sum Theorem). For <m>Delta FDE</m>,
+            <m>m/angle FDE</m> and <m>m/angle DEF</m> are already known. Use these two angles measures to find <m>m\angle EFD</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>m\angle EFD</m> = 42 degrees
+          </p>
+        </answer>
+        <solution>
+          <p>Solution:</p>
+          <p>• From the previous problem (problem c), it is known that <m>m\angle FDE</m> = 30 degrees.</p>
+          <p>• It is also given that <m>m\angle DEF</m> = 108 degrees.</p>
+          <p>• Using the Triangle Angle Sum Theorem (the interior angles in any triangle add up to 180 degrees), the measure
+               of the third angle, <m>\angle EFD</m>, can be calculated:
+                    • <m>m\angle EFD</m> = 180 - (108 + 30) = 42 degrees.
+          </p>
+          <p>• RESULT: <m>m\angle EFD</m> = 42 degrees.</p>
+        </solution>
       </task>
       <task>
         <statement>
