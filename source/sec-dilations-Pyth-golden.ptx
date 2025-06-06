@@ -955,16 +955,16 @@
         </hint>
         <answer>
           <p>
-            Type of Isometry: Rotation
-            Defining Object(s): Center and Rotational Angle
+            Type of Isometry: Translation
+            Defining Object(s): Translation Vector
           </p>
         </answer>
         <solution>
           <p>Solution:</p>
-          <p>• This is a rotation with exactly one fixed point, E.</p>
-          <p>• Rotating <m>\Delta DEB</m> 180 degrees around point E aligns it exactly with <m>\Delta FCE</m>.</p>
-          <p>• Therefore, this type of isometry is a rotation (with a center and rotational angle).</p>
-          <p>• RESULT: Rotation (with center and rotational angle)</p>
+          <p>• This is a translation, meaning <m>\Delta DEB</m> simply slides without rotating or flipping.</p>
+          <p>• Every point in <m>\Delta DEB</m> moves the same distance and in the same direction to align exactly with <m>\Delta FCE</m>.</p>
+          <p>• Therefore, this type of isometry is a translation.</p>
+          <p>• RESULT: translation (with translation vector)</p>
         </solution>
       </task>
       <task>
@@ -990,7 +990,7 @@
           <p>Solution:</p>
           <p>• This a rotation with exactly one fixed point, the midpoint of <m>\overline{DF}</m>.</p>
           <p>• Rotating <m>\Delta ADF</m> 180 about this point aligns it exactly with <m>\Delta EFD</m>.</p>
-          <p>• Therefore, this type of isometry is a rotation (with a center and rotational angle).</p>
+          <p>• Therefore, this type of isometry is a rotation.</p>
           <p>• RESULT: Rotation (with center and rotational angle)</p>
         </solution>
       </task>
