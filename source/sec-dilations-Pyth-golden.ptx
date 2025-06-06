@@ -879,6 +879,30 @@
             Determine the length of <m>\overline{DF}</m>. Support your answer.
           </p>
         </statement>
+        <hint>
+          <p>
+            Line segment <m>\overline{DF}</m> connects points D and F. Since both are midpoints, the Midsegment Theorem applies.
+            This theorem helps find the length of a line segment that connects two midpoints of a triangle.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The length of <m>\overline{DF}</m> is 7.
+          </p>
+        </answer>
+        <solution>
+          <p>Solution:</p>
+          <p>• Points D and F are identified as the midpoints of sides <m>\overline{AB}</m> and <m>\overline{AC}</m>, respectively.</p>
+          <p>• The Midsegment Theorem states that a line linking the midpoints of two sides of a triangle has a specific property.</p>
+          <p>• This line is always half the length of the triangle's third side, which in this case is <m>\overline{BC}</m>.</p>
+          <p>• Given that <m>\overline{BC}</m> = 14...</p>
+          <p>• According to the Midsegement Theorem:</p>
+          <p>     • <m>\overline{DF}</m> = <m>\frac{1}{2} \cdot \overline{BC}</m></p>
+          <p>     • <m>\overline{DF}</m> = <m>\frac{1}{2} \cdot 14</m></p>
+          <p>     • <m>\overline{DF}</m> = 7</p>
+          <p>• Therefore, <m>\overline{DF}</m> = 7</p>
+          <p>• RESULT: The length of <m>\overline{DF}</m> is 7.</p>
+        </solution>
       </task>
       <task>
         <statement>
