@@ -896,7 +896,7 @@
           <p>• The Midsegment Theorem states that a line linking the midpoints of two sides of a triangle has a specific property.</p>
           <p>• This line is always half the length of the triangle's third side, which in this case is <m>\overline{BC}</m>.</p>
           <p>• Given that <m>\overline{BC}</m> = 14...</p>
-          <p>• According to the Midsegement Theorem:</p>
+          <p>• According to the Midsegment Theorem:</p>
           <p>     • <m>\overline{DF}</m> = <m>\frac{1}{2} \cdot \overline{BC}</m></p>
           <p>     • <m>\overline{DF}</m> = <m>\frac{1}{2} \cdot 14</m></p>
           <p>     • <m>\overline{DF}</m> = 7</p>
@@ -911,6 +911,35 @@
             What is the center and scale factor of this dilation?
           </p>
         </statement>
+        <hint>
+          <p>
+            For center of this dilation, find the vertex that is shared by both <m>\Delta ABC</m> and <m>\Delta FEC</m>.
+            For scale factor, consider how the sides of <m>\Delta FEC</m> are smaller because F and E are midpoints.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            Center of Dilation: Point C
+            Scale Factor: <m>\frac{1}{2}</m>
+          </p>
+        </answer>
+        <solution>
+          <p>Solution for Center of Dilation:</p>
+          <p>The center of a dilation is the fixed point from which scaling occurs.</p>
+          <p>Point C is the only vertex common to both <m>\Delta ABC</m> and <m>\Delta FEC</m>.</p>
+          <p>This shared point acts as the reference for the dilation.</p>
+          <p>Therefore, Point C is the center of this dilation.</p>
+
+          <p>Solution for Scale Factor:</p>
+          <p>The scale factor is the ratio of a side length in the new triangle (<m>\Delta FEC</m>) to the matching side length in the original triangle (<m>\Delta ABC</m>).</p>
+          <p>Point F is the midpoint of of side <m>\overline{AC}</m></p>
+          <p>This means that <m>\overline{FC}</m> (in <m>\Delta FEC</m>) is half the length of <m>\overline{AC}</m> (in <m>\Delta ABC</m>).</p>
+          <p>The ratio of their lengths is <m>\frac{1}{2}</m>.</p>
+          <p>Therefore, the scale factor is <m>\frac{1}{2}</m>.</p>
+          <p>
+            RESULT: The center of this dilation is point C and the scale factor is <m>\frac{1}{2}</m>.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
