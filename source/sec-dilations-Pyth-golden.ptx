@@ -661,11 +661,11 @@
         </statement>
         <hint>
           <p>
-            <m>m\angle DEB</m>: When three angles form a straight line, they always add up to 180 degrees. 
+            Hint for <m>m\angle DEB</m>: When three angles form a straight line, they always add up to 180 degrees. 
             The measures of <m>\angle FEC</m> and <m>\angle DEF</m> are given. Use these two angles to find <m>m\angle DEB</m>.
           </p>
           <p>
-            <m>m\angle BAC</m>: The interior angles of any triangle add up to 180 degrees. 
+            Hint for <m>m\angle BAC</m>: The interior angles of any triangle add up to 180 degrees. 
             For <m>\Delta ABC</m>, the measures of <m>\angle ABC</m> and <m>\angle ACB</m> are given. Use these two angles
             to find <m>\angle BAC</m>.
           </p>
