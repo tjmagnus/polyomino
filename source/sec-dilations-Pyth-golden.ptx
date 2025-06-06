@@ -734,8 +734,8 @@
         </statement>
         <hint>
           <p>
-            Use angle similarity and match corresponding angles. Which angle in the larger triangle <m>Delta ABC</m>
-            corresponds with with <m>angle FDE</m>? What about <m>angle AFD</m>? Use those relationships to find missing measures.
+            Use angle similarity and match corresponding angles. Which angle in the larger triangle <m>\Delta ABC</m>
+            corresponds with with <m>\angle FDE</m>? What about <m>\angle AFD</m>? Use those relationships to find missing measures.
           </p>
         </hint>
         <answer>
@@ -746,22 +746,22 @@
         </answer>
         <solution>
           <p>
-            For triangle <m>Delta ABC</m>, D, E, and F are the midpoints of its sides (D on AB, E on BC, F on AC).
-            Connecting these points creates smaller triangles that are similar to <m>Delta ABC</m>. Since these smaller triangles
-            are similar to <m>Delta ABC</m>, this means their angles are identical to <m>Delta ABC</m>.
+            For triangle <m>\Delta ABC</m>, D, E, and F are the midpoints of its sides (D on AB, E on BC, F on AC).
+            Connecting these points creates smaller triangles that are similar to <m>\Delta ABC</m>. Since these smaller triangles
+            are similar to <m>\Delta ABC</m>, this means their angles are identical to <m>\Delta ABC</m>.
           </p>
           <p>Solution for <m>m\angle FDE</m>:</p>
-          <p>• The middle triangle is <m>Delta DEF</m>. It is a mini-copy of <m>Delta ABC</m>.</p>
-          <p>• When discussing corresponding angles, their similarity can be written as: <m>Delta ABC</m> ~ <m>Delta EFD</m>.</p>
-          <p>• Based on <m>Delta ABC</m> ~ <m>Delta EFD</m>...<m>angle D</m> matches <m>angle C</m></p>
-          <p>• Since <m>m/angle C</m> = 30 degrees, then <m>m/angle D</m> = 30 degrees. Therefore, <m>angle FDE</m> = 30 degrees.</p>
+          <p>• The middle triangle is <m>\Delta DEF</m>. It is a mini-copy of <m>\Delta ABC</m>.</p>
+          <p>• When discussing corresponding angles, their similarity can be written as: <m>\Delta ABC</m> ~ <m>\Delta EFD</m>.</p>
+          <p>• Based on <m>\Delta ABC</m> ~ <m>\Delta EFD</m>...<m>\angle D</m> matches <m>\angle C</m></p>
+          <p>• Since <m>m\angle C</m> = 30 degrees, then <m>m\angle D</m> = 30 degrees. Therefore, <m>\angle FDE</m> = 30 degrees.</p>
           <p>• RESULT: <m>m\angle FDE</m> = 30 degrees.</p>
 
           <p>Solution for <m>m\angle AFD</m>:</p>
-          <p>• <m>Delta ADF</m> is the top corner triangle. It is also a mini-copy of <m>Delta ABC</m>.</p>
-          <p>• When discussing corresponding angles, their similarity can be written as: <m>Delta ABC</m> ~ <m>Delta ADF</m>.</p>
-          <p>• Based on <m>Delta ABC</m> ~ <m>Delta ADF</m>...<m>angle F</m> matches <m>angle C</m></p>
-          <p>• Since <m>m/angle C</m> = 30 degrees, then <m>m/angle F</m> = 30 degrees. Therefore <m>angle AFD</m> = 30 degrees.</p>
+          <p>• <m>\Delta ADF</m> is the top corner triangle. It is also a mini-copy of <m>\Delta ABC</m>.</p>
+          <p>• When discussing corresponding angles, their similarity can be written as: <m>\Delta ABC</m> ~ <m>\Delta ADF</m>.</p>
+          <p>• Based on <m>\Delta ABC</m> ~ <m>\Delta ADF</m>...<m>\angle F</m> matches <m>\angle C</m></p>
+          <p>• Since <m>m\angle C</m> = 30 degrees, then <m>m\angle F</m> = 30 degrees. Therefore <m>\angle AFD</m> = 30 degrees.</p>
           <p>• RESULT: <m>m\angle AFD</m> = 30 degrees.</p>
         </solution>
       </task>
@@ -773,8 +773,8 @@
         </statement>
         <hint>
           <p>
-            The interior angles of any triangle always add up to 180 degrees (Triangle Angle Sum Theorem). For <m>Delta FDE</m>,
-            <m>m/angle FDE</m> and <m>m/angle DEF</m> are already known. Use these two angles measures to find <m>m\angle EFD</m>.
+            The interior angles of any triangle always add up to 180 degrees (Triangle Angle Sum Theorem). For <m>\Delta FDE</m>,
+            <m>m\angle FDE</m> and <m>m\angle DEF</m> are already known. Use these two angles measures to find <m>m\angle EFD</m>.
           </p>
         </hint>
         <answer>
@@ -800,11 +800,54 @@
             sure to list the vertices in order.
           </p>
         </statement>
+        <hint>
+          <p>
+            Use the Midpoint Theorem to identify four triangles formed by connecting midpoints. These triangles are all
+            similar to the original triangle, <m>\Delta ABC</m>. 
+          </p>
+        </hint>
+        <answer>
+          <p>Four triangles similar to <m>\Delta ABC</m> include:</p> 
+          <p>• <m>\Delta EFD</m></p>
+          <p>• <m>\Delta ADF</m></p>
+          <p>• <m>\Delta DBE</m></p> 
+          <p>• <m>\Delta FEC</m></p>
+        </answer>
+        <solution>
+          <p>
+            When midpoints D (on side <m>\overline{AB}</m>), E (on side <m>\overline{BC}</m>), and F (on side <m>\overline{AC}</m>)
+            are connected, they form four smaller triangles. All four triangles are similar to the original triangle, 
+            <m>\Delta ABC</m>.
+          </p>
+          <p>Medial Triangle (<m>\Delta EFD</m>):</p>
+          <p>• This is the central triangle. By the Midpoint Theorem, it is similar to the original triangle, <m>m\Delta ABC</m>.</p>
+          
+          <p>The Top Corner Triangle (<m>\Delta ADF</m>):</p>
+          <p>• <m>\angle A</m> is shared by both <m>\Delta ADF</m> and <m>\Delta ABC</m>. It is the same in both triangles at 108 degrees.</p>
+          <p>• <m>\angle D</m> in <m>\Delta ADF</m> matches <m>\angle B</m> in <m>\Delta ABC</m>. Both are 42 degrees.</p>
+          <p>• <m>\angle F</m> in <m>\Delta ADF</m> matches <m>\angle C</m> in <m>\Delta ABC</m>. Both are 30 degrees.</p>
+          <p>• Therefore, <m>\Delta ABC</m> ~ <m>\Delta ADF</m></p>
+
+          <p>The Bottom-Left Corner Triangle (<m>\Delta DBE</m>):</p>
+          <p>• <m>\angle D</m> in <m>\Delta DBE</m> matches <m>\angle A</m> in <m>\Delta ABC</m>. Both are 108 degrees.</p>
+          <p>• <m>\angle B</m> is shared by both <m>\Delta DBE</m> and <m>\Delta ABC</m>. It is the same in both triangles at 42 degrees.</p>
+          <p>• <m>\angle E</m> in <m>\Delta DBE</m> matches <m>\angle C</m> in <m>\Delta ABC</m>. Both are 30 degrees.</p>
+          <p>• Therefore, <m>\Delta ABC</m> ~ <m>\Delta DBE</m></p>
+
+          <p>The Bottom-Right Corner Triangle (<m>\Delta FEC</m>):</p>
+          <p>• <m>\angle F</m> in <m>\Delta FEC</m> matches <m>\angle A</m> in <m>\Delta ABC</m>. Both are 108 degrees.</p>
+          <p>• <m>\angle E</m> in <m>\Delta FEC</m> matches <m>\angle C</m> in <m>\Delta ABC</m>. Both are 42 degrees.</p>
+          <p>• <m>\angle C</m> is shared by both <m>\Delta FEC</m> and <m>\Delta ABC</m>. It is the same in both triangles at 30 degrees.</p>
+          <p>• Therefore, <m>\Delta ABC</m> ~ <m>\Delta FEC</m></p>
+          <p>
+            RESULT: <m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>, and <m>\Delta FEC</m> are all similar to <m>\Delta ABC</m>.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
           <p>
-                Determine the length of <m>\overline{AF}</m>. Support your answer.
+            Determine the length of <m>\overline{AF}</m>. Support your answer.
           </p>
         </statement>
       </task>
