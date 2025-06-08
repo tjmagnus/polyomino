@@ -713,6 +713,69 @@
                     </ol>
                 </p>
             </answer>
+            <solution>
+                <p>
+                    Explanation for Problem 1 (Parts a-j):
+                    <ol>
+                        <li>
+                            <p>ANSWER: Points E and F</p>
+                            <p>EXPLANATION: Points E and F are the only labeled points along segment <m>\overline{EF}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: Points C, H, E, F, and D</p>
+                            <p>EXPLANATION: In geometry, a line extends infinitely in both directions. All five points lie 
+                               along the line <m>\overleftrightarrow{EF}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: Points C, H, E, and F</p>
+                            <p>EXPLANATION: Ray <m>\overrightarrow{FE}</m> starts at point F and extends through points E, H, and C,
+                               all in the same direction.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>\overrightarrow{FH}</m> and <m>\overrightarrow{FC}</m></p>
+                            <p>EXPLANATION: Ray <m>\overrightarrow{FE}</m> can also be written as <m>\overrightarrow{FH}</m> or
+                               <m>\overrightarrow{FC}</m>. All three names refer to an identical ray because they start at point F and extend
+                               in the same direction.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>\angle{HEG}</m>, <m>\angle{CEB}</m>, and <m>\angle{CEG}</m></p>
+                            <p>EXPLANATION: <m>\angle{HEB}</m> can also be written as <m>\angle{HEG}</m>, <m>\angle{CEB}</m>, or <m>\angle{CEG}</m>.
+                               All four names refer to the same angle at vertex E, using different points along its rays.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: 180 degrees</p>
+                            <p>EXPLANATION: <m>\angle{HEB}</m> and <m>\angle{AEH}</m> form a straight line, so they are 
+                               supplementary angles. Supplementary angles always add up to 180 degrees.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: Point A</p>
+                            <p>EXPLANATION: Point A is located within the interior of <m>\angle{CEJ}</m>. 
+                               It lies between the two rays that form <m>\angle{CEJ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: There are several correct answers to this problem.
+                               One possible set of congruent angle pairs is: <m>\angle IEH</m> and <m>\angle FEJ</m>;
+                               <m>\angle IEB and \angle AEJ</m>; <m>\angle BEF</m> and <m>\angle HEA</m>;
+                               and <m>\angle IEA</m> and <m>\angle BEJ</m>.</p>
+                            <p>EXPLANATION:  Each of the four angle pairs listed above are vertical angles. 
+                               meaning they are congruent.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: Point E</p>
+                            <p>EXPLANATION: Point E lies on both <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CE}</m>.
+                               These two lines intersect at point E, making it their common point.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: Points A, B, and G</p>
+                            <p>EXPLANATION: Points A, B, and G lie on both <m>\overrightarrow{GB}</m> and <m>\overrightarrow{AB}</m>.
+                               <m>\overrightarrow{GB}</m> starts at point G and continues infinitely through point B toward
+                               point A. <m>\overrightarrow{AB}</m> starts at point A and continues infinitely through point B
+                               toward point G.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </exercise>
         <exercise xml:id="HW-SAR-linepart-type">
             <statement>
