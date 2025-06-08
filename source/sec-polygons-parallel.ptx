@@ -680,24 +680,25 @@
                         interior angles, a pair of alternate exterior angles, and a pair of 
                         corresponding angles was identified for <xref ref="fig-transversal"/>.
                         Use <xref ref="fig-transversal"/> to identify the following:
-                        <ol>
-                            <li>
-                                <p>
-                                    A second pair of alternate interior angles.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    A second pair of alternate exterior angles.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Three more pairs of corresponding angles.
-                                </p>
-                            </li>
-                        </ol>
                     </p>
+                    <tasks> 
+                    <!-- Add solutions to these tasks?-->
+                        <task>
+                            <statement>
+                                <p>A second pair of alternate interior angles.</p>
+                            </statement>
+                        </task>
+                        <task>
+                            <statement>
+                                <p>A second pair of alternate exterior angles.</p>
+                            </statement>
+                        </task>
+                        <task>
+                            <statement>
+                                <p>Three more pairs of corresponding angles.</p>
+                            </statement>
+                        </task>
+                    </tasks>
                 </statement>
             </exercise>
             <exercise>
@@ -705,22 +706,26 @@
                     <p>
                         In <xref ref="principle-alternate-interior-angles"/>, we claim that
                         alternate interior angles are congruent. 
-                        <ol>
-                            <li>
-                                <p>
-                                    Use this principle to argue that alternate exterior angles 
-                                    <m>\angle{ABE}</m> and <m>\angle{DCH}</m> in 
-                                    <xref ref="fig-transversal"/> have the same angle measure.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Give a thorough argument that corresponding angles <m>ABC</m> 
-                                    and <m>GCH</m> in <xref ref="fig-transversal"/>must be congruent.
-                                </p>
-                            </li>
-                        </ol>
                     </p>
+                        <tasks>
+                            <task>
+                                <statement>
+                                    <p>
+                                        Use this principle to argue that alternate exterior angles 
+                                        <m>\angle{ABE}</m> and <m>\angle{DCH}</m> in 
+                                        <xref ref="fig-transversal"/> have the same angle measure.
+                                    </p>
+                                </statement>
+                            </task>
+                            <task>
+                                <statement>
+                                    <p>
+                                        Give a thorough argument that corresponding angles <m>ABC</m> 
+                                        and <m>GCH</m> in <xref ref="fig-transversal"/>must be congruent.
+                                    </p>
+                                </statement>
+                            </task>
+                        </tasks>
                 </statement>
             </exercise>
             <exercise xml:id="exer-transv-angle-measures">
@@ -735,46 +740,30 @@
                         is 57 degrees and the measure of <m>\angle{EDK}</m> is 114
                         degrees.
                     </p>
-                    <p>
-                        Determine the measures of the angles: 
-                        <ol>
-                            <li>
-                                <p>
-                                    <m>\angle{ACJ}</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>\angle{ACD}</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>\angle{DCE}</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>\angle{BDK}</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>\angle{DBA}</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>\angle{AEB}</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>\angle{ABG}</m>
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
+                    <p>Determine the measures of the angles:</p>
+                        <tasks>
+                            <task>
+                                <p><m>\angle{ACJ}</m></p>
+                            </task>
+                            <task>
+                                <p><m>\angle{ACD}</m></p>
+                            </task>
+                            <task>
+                                <p><m>\angle{DCE}</m></p>
+                            </task>
+                            <task>
+                                <p><m>\angle{BDK}</m></p>
+                            </task>
+                            <task>
+                                <p><m>\angle{DBA}</m></p>
+                            </task>
+                            <task>
+                                <p><m>\angle{AEB}</m></p>
+                            </task>
+                            <task>
+                                <p><m>\angle{ABG}</m></p>
+                            </task>
+                        </tasks>
                     <figure xml:id="fig-exer-transv-angle-measures">
                         <caption>
                             Illustration for <xref ref="exer-transv-angle-measures"/>
@@ -800,7 +789,14 @@
                         parallel (so that they must meet at a point <m>C</m>) 
                         and that line <m>\overleftrightarrow{AB}</m>
                         cuts <m>\ell</m> and <m>m</m> at points <m>A</m>
-                        and <m>B</m>, respectively. Let <m>D</m> be a point 
+                        and <m>B</m>, respectively. 
+                    </p>
+                    <p> 
+                        <!--
+                        Not sure how I feel about how this looks on the web version.
+                        Is there a better way to break up this exercise?
+                        -->
+                        Let <m>D</m> be a point 
                         on line <m>\ell</m> on the opposite side of 
                         <m>\overleftrightarrow{AB}</m>. Explain why 
                         <m>m(\angle{DAB})\neq m(\angle{CBA}).</m>
@@ -862,50 +858,50 @@
                         <p>
                             To our Euclidean eyes, line segment <m>\overline{AB}</m> appears 
                             to do which of the following:
-                            <ol>
-                                <li>
-                                    <p>
-                                        be straight
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        bend in toward the center
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        bend away from the center
-                                    </p>
-                                </li>
-                            </ol>
                         </p>
                     </statement>
+                    <choices>
+                        <choice>
+                            <statement>
+                                <p>be straight</p>
+                            </statement>
+                        </choice>
+                        <choice correct="yes">
+                            <statement>
+                                <p>bend in toward the center</p>
+                            </statement>
+                        </choice>
+                        <choice>
+                            <statement>
+                                <p>bend away from the center</p>
+                            </statement>
+                        </choice>
+                    </choices>
                 </task>
                 <task>
                     <statement>
                         <p>
                             To our Euclidean eyes, line segment <m>\overline{CD}</m> appears 
                             to do which of the following:
-                            <ol>
-                                <li>
-                                    <p>
-                                        be straight
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        bend in toward the center
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        bend away from the center
-                                    </p>
-                                </li>
-                            </ol>
                         </p>
                     </statement>
+                    <choices>
+                        <choice correct="yes">
+                            <statement>
+                                <p>be straight</p>
+                            </statement>
+                        </choice>
+                        <choice>
+                            <statement>
+                                <p>bend in toward the center</p>
+                            </statement>
+                        </choice>
+                        <choice>
+                            <statement>
+                                <p>bend away from the center</p>
+                            </statement>
+                        </choice>
+                    </choices>                    
                 </task>
                 <task>
                     <statement>
@@ -923,7 +919,7 @@
                             Recalling that two lines are said to be parallel,
                             sketch three different hyperbolic lines that 
                             are parallel to <m>\overleftrightarrow{AB}</m> and
-                            pass through <m>D</m>? You may use points that have
+                            pass through <m>D</m>. You may use points that have
                             not yet been labeled.
                         </p>
                     </statement>
@@ -939,6 +935,7 @@
                             Support your answer by words and/or illustrations.
                         </p>
                     </statement>
+                    <response /> <!-- Runestone -->
                 </task>
                 <figure xml:id="fig-escher-hypdisc">
                     <caption>
@@ -965,6 +962,7 @@
                     spherical lines are preserved.
                 </p>
             </statement>
+            <response />
         </exercise>
         </subexercises>
        </exercises>
