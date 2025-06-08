@@ -1008,6 +1008,81 @@
                     </ol>
                 </p>
             </answer>
+            <solution>
+                <p>
+                    Explanation for Problem 3 (Parts a-j):
+                    <ol>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{ACD})=113^{\circ}</m></p>
+                            <p>EXPLANATION: Angles <m>\angle{ACD}</m> and <m>\angle{DCE}</m> form a straight line, making them
+                               supplementary angles that add up to <m>180^{\circ}</m> Given that <m>m(\angle{DCE})=67^{\circ}</m>,
+                               <m>\angle{ACD}</m> is determined by subtracting <m>67^{\circ}</m> from <m>180^{\circ}</m>:
+                               <m>180^{\circ}-67^{\circ}=113^{\circ}</m>. Therefore, <m>m(\angle{ACD})=113^{\circ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{ADC})=30^{\circ}</m></p>
+                            <p>EXPLANATION: To find <m>\angle{ACD}</m>, use the Angle Sum Theorem, which states that a triangles
+                               interior angles add up to <m>180^{\circ}</m>. Given that <m>m(\angle{CAD})=37^{\circ}</m> and
+                               <m>m(\angle{ACD})=113^{\circ}</m> (from the previous problem), simply subtract these values from <m>180^{\circ}</m>:
+                               <m>180^{\circ}-(37^{\circ}+113^{\circ})=180^{\circ}-150^{\circ}=30^{\circ}</m>.
+                               Therefore, <m>m(\angle{ADC})=30^{\circ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{BCE})=113^{\circ}</m></p>
+                            <p>EXPLANATION: Angle <m>\angle{BCE}</m> is vertical to <m>\angle{ACD}</m>. According to the Vertical Angles Theorem,
+                            vertical angles are always congruent and equal in measure. Since <m>m(\angle{ACD})=113^{\circ}</m>, then
+                            <m>m(\angle{BCE})=113^{\circ}</m>.</p>
+
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{BCF})=24^{\circ}</m></p>
+                            <p>EXPLANATION: Angles <m>\angle{ACB}</m>, <m>\angle{BCF}</m>, and <m>\angle{ECF}</m> form a straight line 
+                               and add up to <m>180^{\circ}</m> Given that <m>m(\angle{ACB})=67^{\circ}</m> and <m>m(\angle{ECF})=89^{\circ}</m>, 
+                               simply subtract these values from <m>180^{\circ}</m>: <m>180^{\circ}-(67^{\circ}+89^{\circ})=180^{\circ}-156^{\circ}=24^{\circ}</m>.
+                               Therefore, <m>m(\angle{BCF})=24^{\circ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{BFC})=128^{\circ}</m></p>
+                            <p>EXPLANATION: Angles <m>\angle{BFC}</m> and <m>\angle{EFC}</m> form a straight line, making them
+                               supplementary angles that add up to <m>180^{\circ}</m> Given that <m>m(\angle{EFC})=52^{\circ}</m>,
+                               <m>\angle{BFC}</m> is determined by subtracting <m>52^{\circ}</m> from <m>180^{\circ}</m>:
+                               <m>180^{\circ}-52^{\circ}=128^{\circ}</m>. Therefore, <m>m(\angle{BFC})=128^{\circ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{CBF})=28^{\circ}</m></p>
+                            <p>EXPLANATION: To find <m>\angle{CBF}</m>, use the Angle Sum Theorem, which states that a triangles
+                               interior angles add up to <m>180^{\circ}</m>. Given that <m>m(\angle{BCF})=24^{\circ}</m> and
+                               <m>m(\angle{BFC})=128^{\circ}</m> (from the previous problem), simply subtract these values from <m>180^{\circ}</m>:
+                               <m>180^{\circ}-(24^{\circ}+113^{\circ})=128^{\circ}-152^{\circ}=28^{\circ}</m>.
+                               Therefore, <m>m(\angle{CBF})=28^{\circ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{CEF})=39^{\circ}</m></p>
+                            <p>EXPLANATION: To find <m>\angle{CEF}</m>, use the Angle Sum Theorem, which states that a triangles
+                               interior angles add up to <m>180^{\circ}</m>. Given that <m>m(\angle{ECF})=89^{\circ}</m> and
+                               <m>m(\angle{EFC})=52^{\circ}</m>, simply subtract these values from <m>180^{\circ}</m>:
+                               <m>180^{\circ}-(89^{\circ}+52^{\circ})=128^{\circ}-141^{\circ}=39^{\circ}</m>.
+                               Therefore, <m>m(\angle{CEF})=39^{\circ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{ACF})=91^{\circ}</m></p>
+                            <p>EXPLANATION:  Angle <m>\angle{ACB}</m> is <m>67^{\circ}</m> because its vertical angle also measures
+                            <m>67^{\circ}</m>. Angle <m>\angle{BCF}</m> is <m>24^{\circ}</m>. To find <m>\angle{ACF}</m>, combine the
+                            measures of <m>\angle{ACB}</m> and <m>\angle{BCF}</m>: <m>67^{\circ}+24^{\circ}=91^{\circ}</m>.
+                            Therefore, <m>m(\angle{ACF})=91^{\circ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>m(\angle{CDE})=50^{\circ}</m></p>
+                            <p>EXPLANATION:</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: The sum <m>m(\angle{ABC})+m(\angle{BAC})=113^{\circ}</m>.
+                               Other answers are possible with adequate support.</p>
+                            <p>EXPLANATION:</p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-polygons-angles">
