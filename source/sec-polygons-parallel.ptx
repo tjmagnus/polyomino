@@ -743,25 +743,95 @@
                     <p>Determine the measures of the angles:</p>
                         <tasks>
                             <task>
-                                <p><m>\angle{ACJ}</m></p>
+                                <statement>
+                                    <p><m>\angle{ACJ} = </m> <fillin answer="57" mode="number" width="3" /></p> 
+                                </statement>
+                                <evaluation>
+                                    <evaluate>
+                                        <test correct="yes">
+                                            <numcmp use-answer="yes" op="eq">57</numcmp>
+                                            <feedback>Correct.</feedback>
+                                        </test>
+                                    </evaluate>
+                                </evaluation>
                             </task>
                             <task>
-                                <p><m>\angle{ACD}</m></p>
+                                <statement>
+                                    <p><m>\angle{ACD} = </m> <fillin answer="123" mode="number" width="3" /></p>
+                                </statement>
+                                <evaluation>
+                                    <evaluate>
+                                        <test correct="yes">
+                                            <numcmp use-answer="yes" op="eq">123</numcmp>
+                                            <feedback>Correct.</feedback>
+                                        </test>
+                                    </evaluate>
+                                </evaluation>
                             </task>
                             <task>
-                                <p><m>\angle{DCE}</m></p>
+                                <statement>
+                                    <p><m>\angle{DCE} = </m> <fillin characters="3" answer="57" mode="number" width="3" /></p>
+                                </statement>
+                                <evaluation>
+                                    <evaluate>
+                                        <test correct="yes">
+                                            <numcmp use-answer="yes" op="eq">57</numcmp>
+                                            <feedback>Correct.</feedback>
+                                        </test>
+                                    </evaluate>
+                                </evaluation>
                             </task>
                             <task>
-                                <p><m>\angle{BDK}</m></p>
+                                <statement>
+                                    <p><m>\angle{BDK} = </m> <fillin characters="3" answer="66" width="3" /></p>
+                                </statement>
+                                <evaluation>
+                                    <evaluate>
+                                        <test correct="yes">
+                                            <numcmp use-answer="yes" op="eq">66</numcmp>
+                                            <feedback>Correct.</feedback>
+                                        </test>
+                                    </evaluate>
+                                </evaluation>                                
                             </task>
                             <task>
-                                <p><m>\angle{DBA}</m></p>
+                                <statement>
+                                    <p><m>\angle{DBA} = </m> <fillin characters="3" answer="66" width="3" /></p>
+                                </statement>
+                                <evaluation>
+                                    <evaluate>
+                                        <test correct="yes">
+                                            <numcmp use-answer="yes" op="eq">66</numcmp>
+                                            <feedback>Correct.</feedback>
+                                        </test>
+                                    </evaluate>
+                                </evaluation>
                             </task>
                             <task>
-                                <p><m>\angle{AEB}</m></p>
+                                <statement>
+                                    <p><m>\angle{AEB} = </m> <fillin characters="3" answer="57" width="3" /></p>
+                                </statement>
+                                <evaluation>
+                                    <evaluate>
+                                        <test correct="yes">
+                                            <numcmp use-answer="yes" op="eq">57</numcmp>
+                                            <feedback>Correct.</feedback>
+                                        </test>
+                                    </evaluate>
+                                </evaluation>
                             </task>
                             <task>
-                                <p><m>\angle{ABG}</m></p>
+                                <statement>
+                                    <p><m>\angle{ABG} = </m> <fillin characters="3" answer="114" width="3" /></p>
+                                </statement>
+                                <evaluation>
+                                    <evaluate>
+                                        <test correct="yes">
+                                            <numcmp use-answer="yes" op="eq">114</numcmp>
+                                            <feedback>Correct.</feedback>
+                                        </test>
+                                    </evaluate>
+                                </evaluation>
                             </task>
                         </tasks>
                     <figure xml:id="fig-exer-transv-angle-measures">
