@@ -861,6 +861,51 @@
                     </ol>
                 </p>
             </answer>
+            <solution>
+                <p>
+                    Explanation for Problem 2 (Parts a-f):
+                    <ol>
+                        <li>
+                            <p>ANSWER: Line <m>\overleftrightarrow{IJ}</m> (can also be called <m>\overleftrightarrow{IE}</m> 
+                            or <m>\overleftrightarrow{EJ}</m>).</p>
+                            <p>EXPLANATION: Line <m>\overleftrightarrow{IJ}</m> lies on rays <m>\overrightarrow{IE}</m> and
+                            <m>\overrightarrow{JE}</m>. Ray <m>\overrightarrow{IE}</m> starts at point I and continues
+                            infinitely through points E and J, spanning the line <m>\overleftrightarrow{IJ}</m>.
+                            Ray <m>\overrightarrow{JE}</m> starts at point J and continue infinitely through points E and
+                            I, also spanning the line <m>\overleftrightarrow{IJ}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>\angle IEF</m> (can also be called <m>\angle IED</m>)</p>
+                            <p>EXPLANATION: <m>\overrightarrow{IE}</m> and <m>\overrightarrow{JE}</m> share
+                            a common point at vertex E. These two rays intersect to form the angle <m>\angle IEF</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: Segment <m>\overline{BG}</m></p>
+                            <p>EXPLANATION: Segment <m>\overline{BG}</m> lies on rays <m>\overrightarrow{GE}</m> and
+                            <m>\overrightarrow{BG}</m>. Ray <m>\overrightarrow{GE}</m> starts at point G and extends infinitely
+                            through points B, E, and A. Ray <m>\overrightarrow{BG}</m> starts at point B and extends infinitely through point G.
+                            Because both rays travel through points B and G, they share a common line segment <m>\overline{BG}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: <m>\overrightarrow{EF}</m></p>
+                            <p>EXPLANATION: Ray <m>\overrightarrow{EF}</m> lies on both <m>\overrightarrow{CH}</m> and
+                            <m>\overrightarrow{EF}</m>. <m>\overrightarrow{CH}</m> starts at point C and extends infinitely
+                            through points H, E, F, and D. <m>\overrightarrow{EF}</m> starts at point E and extends infinitely through points
+                            F and D. Since both rays travel through points E and F, they share a common ray <m>\overrightarrow{EF}</m>.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: No points</p>
+                            <p>EXPLANATION: Rays <m>\overrightarrow{CH}</m> and <m>\overrightarrow{BG}</m> do not intersect. 
+                            Therefore, they do not share any common points.</p>
+                        </li>
+                        <li>
+                            <p>ANSWER: Point E</p>
+                            <p>EXPLANATION: Both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{JI}</m> pass through point E.
+                            This makes point E their shared point of intersection.</p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
         </exercise>
         <!--<exercise>
             <statement>
