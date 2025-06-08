@@ -48,17 +48,29 @@
             Match the correct type of measurement to each scenario.
           </p>
         </statement>
-        <matching>
-            <premise ref="icevol">The amount of ice that can fit in a cooler.</premise>
-            <premise ref="floorarea">The amount of vinyl needed to cover a floor.</premise>
-            <premise ref="boxsurfarea">The amount of wood needed to make a box.</premise>
-            <premise ref="wirelength">The amount of wire to form a boundary of a polygon. </premise>
-            <response xml:id="floorarea">area</response>
-            <response xml:id="boxsurfarea">surface area</response>
-            <response xml:id="icevol">volume</response>
-            <response xml:id="wirelength">perimeter</response>
-        </matching>
-
+        <feedback>
+          <p>
+            Reread the above paragraphs.
+          </p>
+        </feedback>
+        <cardsort>
+          <match order="4">
+            <premise>The amount of ice that can fit in a cooler.</premise>
+            <response>volume</response>
+          </match>
+          <match order="1">
+            <premise>The amount of vinyl to cover a floor.</premise>
+            <response>area</response>
+          </match>
+          <match order="3">
+            <premise>The amount of wood to build a box.</premise>
+            <response>surface area</response>
+          </match>
+          <match order="2">
+            <premise>The amount of wire to form a polygon's boundary.</premise>
+            <response>perSimeter</response>
+          </match>
+        </cardsort>
       </exercise>
         <!--both the area and the perimeter of closed 
         finite two-dimensional objects. While the area of a planar figure requires 
@@ -90,7 +102,7 @@
       <title>Exploring Growth in Two-Dimensional Figures</title>
       <p>
         How does the change in the length in one or more directions affect the 
-        area of a figure's interior? How does it affect the size of its boundary. 
+        area of a figure's interior? How does it affect the size of its boundary? 
       </p>
       <exploration>
         <title>Growth in Area</title>
