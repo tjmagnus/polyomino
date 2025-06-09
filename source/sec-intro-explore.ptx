@@ -70,8 +70,7 @@
     </subsection>
     <subsection>
       <title>First Exploration</title>
-    <exploration xml:id="intro-explore-exp-pentrect">
-      
+    <exploration label="intro-explore-exp-pentrectl" xml:id="intro-explore-exp-pentrect">
       <title>Tiling Rectangles with Polyominoes</title>
       <introduction>
         <p>
@@ -84,8 +83,7 @@
           greatly to your learning. Have fun!
         </p>
       </introduction>
-    
-      <task>
+      <task label="intro-explore-exptask-LpentFillSquare-l" xml:id="intro-explore-exptask-LpentFillSquare">
         <statement>
           <p>
             Just as a domino consists of two squares joined at an edge, a 
@@ -98,7 +96,7 @@
             To use the interactive tool, click and drag the L-shape to create a new 
             copy of the shape. Use the large dot, to rotate the copy. Arrange copies  
             to cover the blue square. This may also be done on paper. 
-        </p>
+          </p>
         <interactive xml:id="Lfillsquare" 
         iframe="https://www.mathigon.org/polypad/embed/OqM1coKhvKsMuw" 
         preview="magnus-ltetromino.png" aspect="16:12"/>
@@ -122,7 +120,7 @@
         </image>-->
         </statement>
       </task>
-      <task>
+      <task label="intro-explore-exptask-IZTpentFillSquare-l" xml:id="intro-explore-exptask-IZTpentFillSquare">
         <statement>
           <p>
             Pictured below are the four other tetrominoes: 
@@ -167,7 +165,7 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task label="intro-explore-exptask-areaPentFilledSquare-l" xml:id="intro-explore-exptask-areaPentFilledSquare">
         <statement>
           <p>
             Since a tetromino is formed by joining four unit squares, each 
@@ -189,7 +187,7 @@
         </statement>
       </task>
     
-      <task xml:id="create-pentominoes">
+      <task label="intro-explore-exptask-create-pentominoes-l" xml:id="intro-explore-exptask-create-pentominoes">
         <statement>
           <p>
             Similarly, we define a <term>pentomino</term> <idx><h>pentomino</h></idx>
@@ -239,7 +237,7 @@
           </p>
         </answer>
       </task>
-      <task xml:id="hiddenapp-pentominofilling">
+      <task label="intro-explore-exptask-hiddenapp-pentominofilling-l" xml:id="intro-explore-exptask-hiddenapp-pentominofilling">
         <statement>
           <p>
             Use some of the pentominoes you created to 
@@ -274,7 +272,7 @@
         </hint>
       </task>
 
-      <task>
+      <task label="intro-explore-exptask-unfillableRectangles-l" xml:id="intro-explore-exptask-unfillableRectangles">
         <statement>
           <p> 
             Are there any rectangles that cannot be filled using 
@@ -282,7 +280,8 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task label="intro-explore-exptask-wonderExp1-l" 
+        xml:id="intro-explore-exptask-wonderExp1">
         <statement>
           <p>
             As you participated in this exploration, what did you 
@@ -296,7 +295,7 @@
         </hint>
       </task>
     </exploration>
-    <exploration>
+    <exploration label="intro-explore-exp-MoreExpPentominoes-l" xml:id="intro-explore-exp-MoreExpPentominoes">
       <title>More Explorations with Pentominoes</title>
         <introduction component="instructor">
           <p>
@@ -305,7 +304,7 @@
             or omitted.
           </p>
         </introduction>
-        <task>
+        <task label="intro-explore-exptask-LabelPentominoes-l" xml:id="intro-explore-exptask-LabelPentominoes">
           <statement>
             <p>
               To simplify our discussion, we can call each pentomino by the letter it 
@@ -333,66 +332,69 @@
             </image>
           </statement>
         </task>
-        <task> 
-          <statement>
+        <task label="intro-explore-exptask-GrowPentominoes-l" xml:id="intro-explore-exptask-GrowPentominoes"> 
+          <introduction>
             <p>
               Observe how a larger copy of the L-pentomino tile can be created by filling 
               it with four different pentominoes:
             </p>
-        <image component="web" source="doublingl.svg" width="40%">
-          <shortdescription>
-            The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
-            F-, and P-pentominoes.
-          </shortdescription>
-        </image>
-        <image component="print" source="doublingl.png" width="40%">
-          <shortdescription>
-            The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
-            F-, and P-pentominoes.
-          </shortdescription>
-        </image>
-        <p>
-        <ol>
-          <li>
+            <image component="web" source="doublingl.svg" width="40%">
+              <shortdescription>
+                The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
+                F-, and P-pentominoes.
+              </shortdescription>
+            </image>
+            <image component="print" source="doublingl.png" width="40%">
+              <shortdescription>
+                The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
+                F-, and P-pentominoes.
+              </shortdescription>
+            </image>
+        </introduction>
+        <task label="intro-explore-exptask-growsidesLtile-l" xml:id="intro-explore-exptask-growsidesLtile">
+          <statement>
             <p>
               How are the height and width of the new larger L-tile related to the 
               height and width of the basic L-tile?
             </p>
-          </li>
-          <li>
+          </statement>
+        </task>
+        <task label="intro-explore-exptask-growAreaLtile-l" xml:id="intro-explore-exptask-growAreaLtile">
+          <statement>
             <p>
-              How is the area of the new larger L-tile related to the area of the 
-              basic L-tile?
-            </p>
-          </li>
-          <li>
-            <p>
-              Choose another pentomino from among F, I, P, T, U, W, y, and Z, 
-              and demonstrate how it can be created using four distinct polyominoes.
-              Note that this cannot be done with X or V.
-            </p>
-          </li>
-        </ol>
-      </p>
-      </statement>
-      <hint>
-        <p> Use the interactive Polypad activity below or access a fullscreen 
-          version at Polypad by Amplify using the link  
-          <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">Pentomino Set
-          </url>.
-        </p> 
-        <interactive xml:id="pentominosetonPP"
-        iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
-        preview="pentomino-rectangles.png" aspect="22:15"/>
-      </hint>
-      </task>
-      <task>
+            How is the area of the new larger L-tile related to the area of the 
+            basic L-tile?
+            </p>  
+          </statement>
+        </task>
+          <task label="intro-explore-exptask-growyourtile-l" xml:id="intro-explore-exptask-growyourtile">
+            <statement>
+              <p>
+                Choose another pentomino from among F, I, P, T, U, W, y, and Z, 
+                and demonstrate how it can be created using four distinct polyominoes.
+                Note that this cannot be done with X or V.
+              </p>
+            </statement>
+            <hint>
+              <p> Use the interactive Polypad activity below or access a fullscreen 
+                version at Polypad by Amplify using the link  
+                <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">Pentomino Set
+                </url>.
+              </p> 
+              <interactive xml:id="pentominosetonPP"
+              iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
+              preview="pentomino-rectangles.png" aspect="22:15"/>
+            </hint>
+          </task>
+        </task>
+      <task label="intro-explore-exptask-tripleVtile-l" xml:id="intro-explore-exptask-tripleVtile">
         <statement>
           <p>
             On the other hand, it is possible to create a copy of the V tile that is 
             three times the height 
             and width of the basic V tile by filling it with nine distinct pentominoes.
             <ol>
+<!-- Keep list format here. These are not separate tasks.-->
               <li>
                 <p>
                   Show how this can be done.
@@ -412,7 +414,8 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task label="intro-explore-exptask-grwthsummary-l" 
+      xml:id="intro-explore-exptask-grwthsummary">
         <statement>
           <p>
             What happens to the area of a figure when its height and width of are doubled?  tripled?  
@@ -488,7 +491,7 @@
           </statement>
         </principle> 
         <p>
-          We applied these two principles in <xref ref="hiddenapp-pentominofilling"/>
+          We applied these two principles in <xref ref="intro-explore-exptask-hiddenapp-pentominofilling"/>
           where we attempted to construct rectangles using pentominoes. Since pentominoes 
           have an area of five square units, we could only construct rectangles with areas 
           divisible by 5, namely 5, 15, 20, 25, 30, 35, 40, 45, 50, 55, and 60. 
@@ -503,7 +506,7 @@
           When we create a new rectangle with length <m>L=2\ell</m> and width <m>W=2w</m>, 
           the resulting area is <m>LW=(2\ell)(2w)=(2\cdot 2)(\ell w)=4\ell w</m> square units.
         </p>
-        <exercise>
+        <exercise label="intro-explore-check-tripleareanine-l" xml:id="intro-explore-check-tripleareanine">
           <title>Check Your Understanding</title>
           <statement>
             <p>
@@ -612,7 +615,7 @@
               Gathering your tools in one section of your notebook would be ideal.
             </p>
           </introduction>
-          <exercise xml:id="exer-intro-expl-toolbox-defarea">
+          <exercise label="intro-expl-toolbox-defarea" xml:id="intro-expl-toolbox-defarea">
             <statement>
               <p>
                 In your own words and illustration(s), describe why the definition 
@@ -620,14 +623,16 @@
                 the case where the length and width are whole numbers.
               </p>
             </statement>
+            <response />
           </exercise>
-          <exercise xml:id="exer-intro-expl-toolbox-addarea">
+          <exercise label="intro-expl-toolbox-addarea-l" xml:id="intro-expl-toolbox-addarea">
             <statement>
               <p>
                 What is meant by <xref ref="principle-areasums" text="custom"> Additivity of Area
                   </xref>? Give an example and describe in your own words. 
               </p>
             </statement>
+            <response />
           </exercise>
         </subexercises>  
         <subexercises xml:id="SAR-intro-exp">
@@ -641,8 +646,8 @@
             appear in education licensure exams.
           </p>
         </introduction>
-        <exercise xml:id="SAR-intro-exp-areas">
-          <statement>
+        <exercise label="intro-exp-SAR-areas-l" xml:id="SAR-intro-exp-areas">
+          <introduction>
             <p>
               Determine the area of each shape in <xref ref="builtrects"/>.
             </p>
@@ -658,14 +663,54 @@
                 </shortdescription>
               </image>
             </figure>
-          </statement>
-          <hint>
-            <p>
-              Break each figure into shapes for which the area can be computed.
-              Then use <xref ref="principle-areasums"/> to find the total area of the
-              region.
-            </p>
-          </hint>
+          </introduction>
+          <task >
+            <statement>
+              <p>
+                Shape 1
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Break each figure into shapes for which the area can be computed.
+                Then use <xref ref="principle-areasums"/> to find the total area of the
+                region. Or think of the figure as residing in a large measurable frame
+                and subtract as appropriate.
+              </p>
+            </hint>
+            <answer>
+              <p>
+                28 square inches
+              </p>
+            </answer>
+            <solution>
+              <p>
+                Several solutions are possible. One is to note that the
+                center is a 2 by 2 square and the four extensions are 2 by 3 
+                rectangles for a total of <m>2\cdot 2+4(2\cdot 3)=28</m> square inches.
+              </p>
+            </solution>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Shape 2
+              </p>
+            </statement>
+            <answer>
+              <p>
+                30
+              </p>
+            </answer>
+            <solution>
+              <p>
+                Several methods are possible. Perhaps, you noticed that the figure 
+                sits in a 7 by 8 rectangle and removed the lower 5 by 5 rectangle and 
+                a 1 by 1 rectangle to get <m>56-25-1=30</m> square inches. This problem 
+                can also be solved by adding three rectangles' areas together.
+              </p>
+            </solution>
+          </task>
         </exercise>
         <exercise xml:id="SAR-intro-exp-otherarea">
           <introduction>
