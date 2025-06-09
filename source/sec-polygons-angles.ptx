@@ -869,39 +869,39 @@
                             <p>ANSWER: Line <m>\overleftrightarrow{IJ}</m> (can also be called <m>\overleftrightarrow{IE}</m> 
                             or <m>\overleftrightarrow{EJ}</m>).</p>
                             <p>EXPLANATION: Line <m>\overleftrightarrow{IJ}</m> lies on rays <m>\overrightarrow{IE}</m> and
-                            <m>\overrightarrow{JE}</m>. Ray <m>\overrightarrow{IE}</m> starts at point I and continues
-                            infinitely through points E and J, spanning the line <m>\overleftrightarrow{IJ}</m>.
-                            Ray <m>\overrightarrow{JE}</m> starts at point J and continue infinitely through points E and
-                            I, also spanning the line <m>\overleftrightarrow{IJ}</m>.</p>
+                               <m>\overrightarrow{JE}</m>. Ray <m>\overrightarrow{IE}</m> starts at point I and continues
+                               infinitely through points E and J, spanning the line <m>\overleftrightarrow{IJ}</m>.
+                               Ray <m>\overrightarrow{JE}</m> starts at point J and continue infinitely through points E and
+                               I, also spanning the line <m>\overleftrightarrow{IJ}</m>.</p>
                         </li>
                         <li>
                             <p>ANSWER: <m>\angle IEF</m> (can also be called <m>\angle IED</m>)</p>
                             <p>EXPLANATION: <m>\overrightarrow{IE}</m> and <m>\overrightarrow{JE}</m> share
-                            a common point at vertex E. These two rays intersect to form the angle <m>\angle IEF</m>.</p>
+                               a common point at vertex E. These two rays intersect to form the angle <m>\angle IEF</m>.</p>
                         </li>
                         <li>
                             <p>ANSWER: Segment <m>\overline{BG}</m></p>
                             <p>EXPLANATION: Segment <m>\overline{BG}</m> lies on rays <m>\overrightarrow{GE}</m> and
-                            <m>\overrightarrow{BG}</m>. Ray <m>\overrightarrow{GE}</m> starts at point G and extends infinitely
-                            through points B, E, and A. Ray <m>\overrightarrow{BG}</m> starts at point B and extends infinitely through point G.
-                            Because both rays travel through points B and G, they share a common line segment <m>\overline{BG}</m>.</p>
+                               <m>\overrightarrow{BG}</m>. Ray <m>\overrightarrow{GE}</m> starts at point G and extends infinitely
+                               through points B, E, and A. Ray <m>\overrightarrow{BG}</m> starts at point B and extends infinitely through point G.
+                               Because both rays travel through points B and G, they share a common line segment <m>\overline{BG}</m>.</p>
                         </li>
                         <li>
                             <p>ANSWER: <m>\overrightarrow{EF}</m></p>
                             <p>EXPLANATION: Ray <m>\overrightarrow{EF}</m> lies on both <m>\overrightarrow{CH}</m> and
-                            <m>\overrightarrow{EF}</m>. <m>\overrightarrow{CH}</m> starts at point C and extends infinitely
-                            through points H, E, F, and D. <m>\overrightarrow{EF}</m> starts at point E and extends infinitely through points
-                            F and D. Since both rays travel through points E and F, they share a common ray <m>\overrightarrow{EF}</m>.</p>
+                               <m>\overrightarrow{EF}</m>. <m>\overrightarrow{CH}</m> starts at point C and extends infinitely
+                               through points H, E, F, and D. <m>\overrightarrow{EF}</m> starts at point E and extends infinitely through points
+                               F and D. Since both rays travel through points E and F, they share a common ray <m>\overrightarrow{EF}</m>.</p>
                         </li>
                         <li>
                             <p>ANSWER: No points</p>
                             <p>EXPLANATION: Rays <m>\overrightarrow{CH}</m> and <m>\overrightarrow{BG}</m> do not intersect. 
-                            Therefore, they do not share any common points.</p>
+                               Therefore, they do not share any common points.</p>
                         </li>
                         <li>
                             <p>ANSWER: Point E</p>
                             <p>EXPLANATION: Both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{JI}</m> pass through point E.
-                            This makes point E their shared point of intersection.</p>
+                               This makes point E their shared point of intersection.</p>
                         </li>
                     </ol>
                 </p>
@@ -1030,9 +1030,8 @@
                         <li>
                             <p>ANSWER: <m>m(\angle{BCE})=113^{\circ}</m></p>
                             <p>EXPLANATION: Angle <m>\angle{BCE}</m> is vertical to <m>\angle{ACD}</m>. According to the Vertical Angles Theorem,
-                            vertical angles are always congruent and equal in measure. Since <m>m(\angle{ACD})=113^{\circ}</m>, then
-                            <m>m(\angle{BCE})=113^{\circ}</m>.</p>
-
+                               vertical angles are always congruent and equal in measure. Since <m>m(\angle{ACD})=113^{\circ}</m>, then
+                               <m>m(\angle{BCE})=113^{\circ}</m>.</p>
                         </li>
                         <li>
                             <p>ANSWER: <m>m(\angle{BCF})=24^{\circ}</m></p>
@@ -1067,18 +1066,24 @@
                         <li>
                             <p>ANSWER: <m>m(\angle{ACF})=91^{\circ}</m></p>
                             <p>EXPLANATION:  Angle <m>\angle{ACB}</m> is <m>67^{\circ}</m> because its vertical angle also measures
-                            <m>67^{\circ}</m>. Angle <m>\angle{BCF}</m> is <m>24^{\circ}</m>. To find <m>\angle{ACF}</m>, combine the
-                            measures of <m>\angle{ACB}</m> and <m>\angle{BCF}</m>: <m>67^{\circ}+24^{\circ}=91^{\circ}</m>.
-                            Therefore, <m>m(\angle{ACF})=91^{\circ}</m>.</p>
+                               <m>67^{\circ}</m>. Angle <m>\angle{BCF}</m> is <m>24^{\circ}</m>. To find <m>\angle{ACF}</m>, combine the
+                               angle measures of <m>\angle{ACB}</m> and <m>\angle{BCF}</m>: <m>67^{\circ}+24^{\circ}=91^{\circ}</m>.
+                               Therefore, <m>m(\angle{ACF})=91^{\circ}</m>.</p>
                         </li>
                         <li>
                             <p>ANSWER: <m>m(\angle{CDE})=50^{\circ}</m></p>
-                            <p>EXPLANATION:</p>
+                            <p>EXPLANATION: In a previous problem, it was determined that <m>m(\angle{CEF})=39^{\circ}</m>.
+                               To find <m>\angle{CDE}</m>, subtract the given <m>39^{\circ}</m> from <m>89^{\circ}</m>:
+                               <m>89^{\circ}-39^{\circ}=50^{\circ}</m>. Therefore, <m>m(\angle{CDE})=91^{\circ}</m>.</p>
+                               
                         </li>
                         <li>
-                            <p>ANSWER: The sum <m>m(\angle{ABC})+m(\angle{BAC})=113^{\circ}</m>.
-                               Other answers are possible with adequate support.</p>
-                            <p>EXPLANATION:</p>
+                            <p>ANSWER: The sum of <m>m(\angle{ABC})+m(\angle{BAC})=113^{\circ}</m></p>
+                            <p>EXPLANATION: The Angle Sum Theorem states that a triangle's interior angles always sum to
+                               <m>180^{\circ}</m>. Angle <m>m(\angle{ACB})=67^{\circ}</m> because it is vertical to
+                               <m>\angle{DCE}</m> and vertical angles are equal in measure. With <m>m(\angle{ACB})=67^{\circ}</m>,
+                               the remaining two angles, <m>\angle{ABC}</m> and <m>\angle{BAC}</m>, must sum to 
+                               <m>180^{\circ}-67^{\circ}=113^{\circ}</m>.</p>
                         </li>
                     </ol>
                 </p>
