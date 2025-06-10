@@ -708,7 +708,7 @@
         </answer>
         <solution>
           <p>
-            when D, E, and F are midpoints on the sides of <m>\Delta ABC</m>, the smaller triangles like <m>\Delta DEF</m>
+            When D, E, and F are midpoints on the sides of <m>\Delta ABC</m>, the smaller triangles like <m>\Delta DEF</m>
             and <m>\Delta ADF</m> are similar to <m>\Delta ABC</m>. This means their corresponding angles are equal. So
             <m>\angle FDE</m> and <m>\angle AFD</m> both correspond to <m>m\angle C</m>. Since <m>m\angle C</m> is 30 degrees,
             both <m>m\angle FDE</m> and <m>m\angle AFD</m> are also 30 degrees.
