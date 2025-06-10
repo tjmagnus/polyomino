@@ -712,14 +712,17 @@
             </solution>
           </task>
         </exercise>
-        <exercise xml:id="SAR-intro-exp-otherarea">
+        <exercise label="intro-exp-SAR-standardpolygonarea-l" xml:id="SAR-intro-exp-standardpolygonarea">
+<!--Consider splitting this problem up into three focusing on the triangle, parallelogram, 
+and trapezoid separately. Use PreFigure to create three separate figures. Will this allow 
+for random problem generation?-->          
           <introduction>
             <p>
-              Refer to <xref ref="exer-introbasicshape-area"/>
+              Refer to <xref ref="fig-exer-introbasicshape-area"/>
               as you answer the following:
             </p>
-            <figure xml:id="exer-introbasicshape-area">
-              <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
+            <figure xml:id="fig-exer-introbasicshape-area">
+              <caption>Shapes for <xref ref="SAR-intro-exp-standardpolygonarea"/></caption>
               <image source="basicshapesareaproblem">
                 <shortdescription>
                   The first two shapes are described in the problem. Trapezoid IJKL 
@@ -730,11 +733,11 @@
               </image>
             </figure>
           </introduction>
-            <task>
+            <task label="intro-exp-SAR-stdpolyarea-recttotri-l" xml:id="intro-exp-SAR-stdpolyarea-recttotri">
               <statement>
                 <p>
                     Find the area of rectangle <m>ABCD</m> with height 14 cm. and 
-                    width 6 cm. Then use your 
+                    width 6 cm given in <xref ref="fig-exer-introbasicshape-area"/>. Then use your 
                     answer to find the area of right triangle <m>\Delta ACD</m>.
                 </p>
               </statement>
@@ -745,59 +748,85 @@
                 </p>
               </hint>
               </task>
-              <task>
-                <statement>
+              <task label="intro-exp-SAR-stdpolyarea-recttoparallelogram-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-recttoparallelogram">
+                <introduction>
                   <p>
-                    Find the area of rectangle <m>MHGN</m> with height <m>NG=6</m> cm.
-                    and width <m>HG=10</m> cm.
+                    In <xref ref="fig-exer-introbasicshape-area"/>, parallelogram has base 10 cm
+                    and height 6 cm, points <m>M</m> and <m>N</m> lie on <m>\overleftrightarrow{EF}</m>
+                    with <m>\angle{HMF}</m> and <m>\angle{GNF}</m> being right angles. 
                   </p>
-                </statement>
-              </task>
-              <task>
-                <statement>
+                </introduction>
+                  <task label="intro-exp-SAR-stdpolyarea-recttoparallelogram-rect-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-recttoparallelogram-rect">
+                    <statement>
+                      <p>
+                        Find the area of rectangle <m>MHGN</m> with height <m>NG=6</m> cm.
+                        and width <m>HG=10</m> cm.
+                      </p>
+                    </statement>
+                  </task>
+                  <task label="intro-exp-SAR-stdpolyarea-recttoparallelogram-pllgrm-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-recttoparallelogram-pillgrm">
+                    <statement>
+                      <p>
+                        What is the area of parallelogram <m>EHGF</m> in <xref ref="fig-exer-introbasicshape-area"/>? How do 
+                        you know?
+                      </p>
+                    </statement>
+                    <response/>
+                    <hint>
+                      <p>
+                        How can you create rectangle <m>MHGN</m> from cutting and 
+                        rearranging pieces of parallelogram <m>EHGF</m>? 
+                      </p>
+                    </hint>
+                  </task>
+                </task>
+              <task label="intro-exp-SAR-stdpolyarea-trapPieces-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-trapPieces">
+                <introduction>
                   <p>
-                    What is the area of parallelogram <m>EHGF</m>? How do 
-                    you know?
+                    In <xref ref="fig-exer-introbasicshape-area"/>, trapezoid <m>ILKJ</m> has bases 
+                    <m>\overline{JK}</m> and <m>\overline{IL}</m> of lengths 16 cm and 10 cm, respectively.
+                    The trapezoid also has right angles at <m>L</m> and <m>K</m>. An altitude is drawn from
+                    <m>I</m> meeting <m>\overline{JK}</m> at a point <m>O</m> such that <m>m(\overline{JO})=6</m> 
+                    cm and <m>m(\overline{IL})=10</m> cm.
                   </p>
-                </statement>
-                <hint>
-                  <p>
-                    How can you create rectangle <m>MHGN</m> from cutting and 
-                    rearranging pieces of parallelogram <m>EHGF</m>? 
-                  </p>
-                </hint>
-              </task>
-              <task>
-                <statement>
-                  <p>
-                    Determine the area of rectangle <m>ILKO</m> with height <m>KL=6</m> cm.
-                  </p>
-                </statement>
-              </task>
-              <task>
-                <statement>
-                  <p>
-                      Determine the area of right triangle <m>IJO</m>.
-                  </p>
-                </statement>
-              </task>          
-              <task>
-                <statement>
-                  <p>
-                    Determine the area of trapezoid <m>IJKL</m>.
-                  </p>
-                </statement>
-                
-                <hint>
-                  <p>
-                    How can you build <m>IJKL</m> from the pieces.
-                  </p>
-                </hint>
-
+                </introduction>
+                <task label="intro-exp-SAR-stdpolyarea-trapPieces-rect-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-trapPieces-rect">
+                  <statement>
+                    <p>
+                      Determine the area of rectangle <m>ILKO</m> with height <m>KL=6</m> cm.
+                    </p>
+                  </statement>
+                </task>
+                <task label="intro-exp-SAR-stdpolyarea-trapPieces-tri-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-trapPieces-tri">
+                  <statement>
+                    <p>
+                        Determine the area of right triangle <m>IJO</m>.
+                    </p>
+                  </statement>
+                </task>          
+                <task label="intro-exp-SAR-stdpolyarea-trapPieces-trap-l" 
+                xml:id="intro-exp-SAR-stdpolyarea-trapPieces-trap">
+                  <statement>
+                    <p>
+                      Determine the area of trapezoid <m>IJKL</m>.
+                    </p>
+                  </statement>
+                  <hint>
+                    <p>
+                      How can you build <m>IJKL</m> from the pieces.
+                    </p>
+                  </hint>
+                </task>
               </task>
             
         </exercise>
-        <exercise xml:id="SAR-intro-exp-numtriominoes">
+        <exercise label="SAR-intro-exp-numtriominoes-l" xml:id="SAR-intro-exp-numtriominoes">
           <statement>
             <p>
               A triomino consists of three <m>1\times 1</m> squares joined at edges.
@@ -817,7 +846,7 @@
             </p>
           </answer>
         </exercise>
-        <exercise xml:id="SAR-intro-exp-hexomino">
+        <exercise label="SAR-intro-exp-hexomino" xml:id="SAR-intro-exp-hexomino">
           <statement>
             <p>
               A hexomino is constructed from six <m>1 \times 1</m> squares. 
@@ -831,7 +860,7 @@
             </p>
           </hint>
         </exercise>
-        <exercise>
+        <exercise label="SAR-intro-exp-heptominoarea-l" xml:id="SAR-intro-exp-heptominoarea">
           <statement>
             <p>
               Jay constructs a solid rectangle using heptomino (seven-square) tiles. 
@@ -846,34 +875,35 @@
             </p>
           </hint>
         </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <ol>
-                <li>
-                  <p>
-                    Show that it is possible to construct a rectangle of area 10 
-                    using pentominoes if you are allowed to reuse the same tile.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Show that if you are allowed to use copies of the same pentomino 
+        <exercise label="SAR-intro-exp-areaRectRepeatedPentom-l" 
+          xml:id="SAR-intro-exp-areaRectRepeatedPentom">
+          <task label="SAR-intro-exp-areaRect10Pentom-l" 
+            xml:id="SAR-intro-exp-areaRect10Pentom">
+            <statement>
+              <p>
+                Show that it is possible to construct a rectangle of area 10 
+                using pentominoes if you are allowed to reuse the same tile.
+              </p>
+            </statement>
+          </task>
+          <task label="SAR-intro-exp-areaRect5nPentom-l" 
+            xml:id="SAR-intro-exp-area5nPentom">
+            <statement>
+              <p>
+                Show that if you are allowed to use copies of the same pentomino 
                     tile multiple times you can construct a rectangle of area  <m>5n</m>  
                     for every whole number  <m>n</m>. 
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </statement>
-          <hint>
-            <p>
-              Use the same tetromino <m>n</m> times. What tetromino is already a 
-              rectangle?
-            </p>
-          </hint>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Use the same tetromino <m>n</m> times. What tetromino is already a 
+                rectangle?
+              </p>
+            </hint>
+          </task>
         </exercise>
-        <exercise>
+        <exercise label="SAR-intro-exp-rectsfromtetrominoes-l" xml:id="SAR-intro-exp-rectsfromtetrominoes">
           <statement>
             <p>
               Sketch all the different rectangles with no gaps or overlaps 
@@ -886,29 +916,32 @@
             </p>
           </statement>
         </exercise>
-        <exercise xml:id="SAR-intro-exp-areamodel">
+        <exercise xml:id="SAR-intro-exp-SAR-areamodel">
           <title>The Area Model for Multiplication</title>
+          <introduction>
+            <p> 
+              This problem illustrates the Area Model for Multiplication, an 
+              effective way of helping elementary school students visualize the operation 
+              of multiplication. <idx><h>area model for multiplication</h></idx>
+            </p>
+          </introduction>
+          <task label="SAR-intro-exp-SAR-areamodel-3x5rect-l" xml:id="SAR-intro-exp-SAR-areamodel-3x5rect">
             <statement>
-              <p> 
-                This problem illustrates the Area Model for Multiplication, an 
-                effective way of helping elementary school students visualize the operation 
-                of multiplication. <idx><h>area model for multiplication</h></idx>
-                <ol>
-                  <li>
-                    <p>
-                      On graph paper sketch a <m>3 \times 5</m> rectangle.  Show the fifteen 
-                      squares that make up the area.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Note that 12 can be factored as <m>1 \times 12</m>, <m>2 \times 6</m>, 
-                      or <m>3 \times 4</m>.  Sketch area models for each of these products.
-                    </p>
-                  </li>
-                </ol>
+              <p>
+                On graph paper sketch a <m>3 \times 5</m> rectangle.  Show the fifteen 
+                squares that make up the area.
               </p>
             </statement>
+          </task>
+          <task label="SAR-intro-exp-SAR-areamodel-area12rects-l" 
+            xml:id="SAR-intro-exp-SAR-areamodel-area12rects">
+            <statement>
+              <p>
+                  Note that 12 can be factored as <m>1 \times 12</m>, <m>2 \times 6</m>, 
+                  or <m>3 \times 4</m>.  Sketch area models for each of these products.
+              </p>
+            </statement>
+          </task>
         </exercise>
       </subexercises>
       <subexercises xml:id="ExtConc-intro-exp">
@@ -961,7 +994,8 @@
             </table>
           </sidebyside>
         </introduction>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-twodigit-4subrects-l" 
+          xml:id="ExtConc-intro-exp-areamodel-twodigit-4subrects">
             <statement>
               <p>
                 Determine the area of each of the four subrectangles pictured. Here, the squares 
@@ -975,14 +1009,16 @@
               </p>
             </hint>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-twodigit-sum-l" 
+          xml:id="ExtConc-intro-exp-areamodel-twodigit-sum">
             <statement>
               <p>
                 Add the four areas of the subrectangles together to find the total area.
               </p>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-twodigit-algorithm-l" 
+            xml:id="ExtConc-intro-exp-areamodel-twodigit-algorithm">
             <statement>
               <p>
                 The standard algorithm to multiply  <m>47 \times 25</m> is shown
@@ -1002,7 +1038,8 @@
                 
                 <!--</figure>-->
         </exercise>
-        <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
+        <exercise label="ExtConc-intro-exp-areamodel-multidigit-l" 
+          xml:id="ExtConc-intro-exp-areamodel-multidigit">
           <title>Multiplication of Multidigit Numbers</title>
           <statement>
             <p>
@@ -1019,7 +1056,8 @@
             </p>
           </hint>
         </exercise>
-        <exercise xml:id="ExtConc-intro-exp-areamodel-fractions">
+        <exercise label="ExtConc-intro-exp-areamodel-fractions-l" 
+          xml:id="ExtConc-intro-exp-areamodel-fractions">
           <title>Modeling the Multiplication of Fractions and Mixed Numbers</title>
           <introduction>
             <p>
@@ -1027,7 +1065,8 @@
               has a length of 1. 
             </p>
           </introduction>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-fractionalpts-l" 
+            xml:id="ExtConc-intro-exp-areamodel-fractionalpts">
             <statement>
               <p>
                 Sketch line segments that divide the height of the square
@@ -1045,7 +1084,7 @@
               </figure>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-mixnumcompute-l" xml:id="ExtConc-intro-exp-areamodel-mixnumcompute">
             <statement>
               <p>
                 The sketch in <xref ref="ExtConc-mixednum-areamodel"/>
@@ -1079,25 +1118,27 @@
                   </image>
                 </figure>
               </statement>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  Draw an area model of  <m>\frac{2}{5} \times \frac{3}{4}</m> by dividing 
-                  the unit length into fifths and the unit width into fourths.
-                  Shade and compute the product.  Explain how you find the numerator 
-                  and denominator of the unsimplified fraction from the sketch.
-                </p>
-              </statement>
-          <hint>
-            <p>
-              Begin by drawing a unit square similar to <xref ref="fig-unitsquare"/>,
-              dividing the sides according to the denominators of the fractions.
-            </p>
-          </hint>
+          </task>
+          <task label="ExtConc-intro-exp-areamodel-fraction-usemodel-l" 
+            xml:id="ExtConc-intro-exp-areamodel-fraction-usemodel-l">
+            <statement>
+              <p>
+                Draw an area model of  <m>\frac{2}{5} \times \frac{3}{4}</m> by dividing 
+                the unit length into fifths and the unit width into fourths.
+                Shade and compute the product.  Explain how you find the numerator 
+                and denominator of the unsimplified fraction from the sketch.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Begin by drawing a unit square similar to <xref ref="fig-unitsquare"/>,
+                dividing the sides according to the denominators of the fractions.
+              </p>
+            </hint>
           </task>
         </exercise>
-        <exercise xml:id="ExtConc-intro-exp-areamodel-polynomials">
+        <exercise label="ExtConc-intro-exp-areamodel-polynomials-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials">
           <title>Modeling the Multiplication of Polynomials</title>
           <introduction>
             <p>
@@ -1105,7 +1146,8 @@
               product of polynomials.
             </p>
           </introduction>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-polynomials-xheight-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials-xheight">
             <statement>
               <p>
                 Write the height of the entire rectangle as an algebraic 
@@ -1120,7 +1162,8 @@
               </p>
             </hint>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-polynomials-xwidth-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials-xwidth">
             <statement>
               <p>
                   Write the width of the entire rectangle as an algebraic expression 
@@ -1128,7 +1171,8 @@
               </p>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-polynomials-xareaalg-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials-xareaalg">
             <statement>
               <p>
                 Algebraically compute the area of the entire rectangle as the product 
@@ -1136,7 +1180,8 @@
               </p>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-polynomials-xareageo-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials-xareageo">
             <statement>
               <p>
                 Find the area geometrically by finding the areas of the four subrectangles 
@@ -1166,7 +1211,7 @@
             </image>
           </figure>
         </exercise>
-        <exercise xml:id="ExtConc-intro-exp-probability">
+        <exercise label="ExtConc-intro-exp-probability-l" xml:id="ExtConc-intro-exp-probability">
           <title>Area in Probability</title>
           <introduction>
             <sidebyside widths="70% 30%">
@@ -1190,7 +1235,7 @@
                 </figure>
             </sidebyside>
           </introduction>
-          <task>
+          <task label="ExtConc-intro-exp-probability-ways9-l" xml:id="ExtConc-intro-exp-probability-ways9">
             <statement>
               <p>
                 Determine all of the ways that a sum of 9 can occur.
@@ -1203,14 +1248,15 @@
               </p>
             </hint>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-probability-ways6-l" xml:id="ExtConc-intro-exp-probability-ways6">
             <statement>
               <p>
                 List all of the ways that a sum of 6 can be rolled.
               </p>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-probability-histogram-l" 
+            xml:id="ExtConc-intro-exp-probability-histogram">
             <introduction>
               <p>
                 The sketch in <xref ref="histogram-exercise"/> is a bar graph 
@@ -1223,7 +1269,8 @@
                 fact that there are six ways of rolling a sum of 5.
               </p>
             </introduction>
-            <task>
+            <task label="ExtConc-intro-exp-probability-histogramtotal-l"
+              xml:id="ExtConc-intro-exp-probability-histogramtotal">
               <statement>
                 <p>
                   What is the total number of possible rolls?
@@ -1235,7 +1282,8 @@
                 </p>
               </hint>
             </task>
-            <task>
+            <task label="ExtConc-intro-exp-probability-histogram7-l" 
+              xml:id="ExtConc-intro-exp-probability-histogram7">
               <statement>
                 <p>
                   What is the number of rolls resulting in 7?
@@ -1247,7 +1295,7 @@
                 </p>
               </hint>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-probability-probof7-l" xml:id="ExtConc-intro-exp-probability-probof7">
             <statement>
               <p>
                 The probability of an event is computed by dividing 
@@ -1277,7 +1325,7 @@
       </subexercises>
       <subexercises xml:id="Writing-intro-exp">
         <title>Writing Prompt</title>
-        <exercise xml:id="Writing-intro-exp-autobiography">
+        <exercise label="Writing-intro-exp-autobiography-l" xml:id="Writing-intro-exp-autobiography">
           <title>Mathematical Autobiography</title>
           <p>
             Write an essay (2 to 4 pages) in which you discuss the experiences 
