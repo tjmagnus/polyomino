@@ -659,6 +659,21 @@
             Determine <m>m\angle DEB</m> and <m>m\angle BAC</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            Look at the angles meeting at <m>E</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            30 degrees
+          </p>
+        </answer>
+        <solution>
+          <p>
+            <m>180-(108+42)=180-150=30</m>
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
