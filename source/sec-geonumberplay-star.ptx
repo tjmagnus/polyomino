@@ -5,11 +5,12 @@
 
   <introduction>
     <p>
-    In <xref ref="ch-polygons"/>, we explored properties of <xref ref="def-convexconcave">convex</xref> 
-    polygons. In this section, we will create regular <xref ref="def-convexconcave">concave</xref> 
-    polygons, called star polygons. In addition to studying the geometrical properties of star 
-    polygons, we will observe how the relationship between a pair of numbers determines the 
-    shape of the star polygon associated with the number pair.
+    In <xref ref="ch-polygons"/>, we explored properties of <xref ref="def-convexconcave"
+    text="custom">convex</xref> 
+    polygons. In this section, we will create regular <xref ref="def-convexconcave"text="custom">
+    concave</xref> polygons, called star polygons. In addition to studying the geometrical 
+    properties of star polygons, we will observe how the relationship between a pair of 
+    numbers determines the shape of the star polygon associated with the number pair.
     </p>  
     </introduction>
     <subsection xml:id="subsec-geonumberplay-star-defs">
