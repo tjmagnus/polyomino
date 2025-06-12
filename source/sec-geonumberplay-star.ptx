@@ -15,5 +15,43 @@
     </introduction>
     <subsection xml:id="subsec-geonumberplay-star-defs">
       <title>What is a Star Polygon?</title>
+      <!-- <diagram width="300" height="300" margins="5">
+  <definition>
+    alignments=['n','nw','sw','se','ne']
+  </definition>
+  <definition>f(t)=(-sin(2*pi*t/5),cos(2*pi*t/5))</definition>
+  <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
+    <circle at="unit-circle" center="(0,0)" radius="1" stroke="blue"/>
+    <repeat parameter="k=0..4">
+      <point at="point" p="f(k)" alignment="alignments[k]">
+        <m>${5-k}</m>
+      </point>
+    </repeat>
+  </coordinates>
+
+  <annotations>
+    <annotation id="figure" text="Five equally spaced points around a circle">
+      <annotation id="unit-circle" text="The unit circle" circular="true">
+        <annotation id="point-k=0"
+		    text="Point 5"
+		    speech="point five"/>
+        <annotation id="point-k=1"
+		    text="Point 1"
+		    speech="point one"/>
+        <annotation id="point-k=2"
+		    text="Point 2"
+		    speech="point two"/>
+        <annotation id="point-k=3"
+		    text="Point 3"
+		    speech="point three"/>
+        <annotation id="point-k=4"
+		    text="Point 4"
+		    speech="point four"/>
+      </annotation>
+    </annotation>
+  </annotations>
+  
+</diagram>
+    -->
     </subsection>
 </section>  
