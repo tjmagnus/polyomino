@@ -17,7 +17,7 @@
       <title>What is a Star Polygon?</title>
        
       <image>
-        <prefigure label="fivedot" xmlns="https://prefigure.org">
+        <prefigure xmlns="https://prefigure.org" label="fivedot">
       <diagram width="300" height="300" margins="5">
   <definition>
     alignments=['n','nw','sw','se','ne']
