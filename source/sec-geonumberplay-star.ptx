@@ -130,8 +130,8 @@
         </sidebyside>
       </figure>
       <p>
-        The notation <m>\{_{2}^{5}\}</m> signifies that we are creating the star polygon 
-        with 5 points where every second point is connected. To create <m>\{_{1}^{5}\}</m>, 
+        The notation <m>\{_{2}^{5}\}</m> signifies that the star polygon 
+        has 5 points where every second point is connected. To create <m>\{_{1}^{5}\}</m>, 
         we sketch a continuous path that connects each of the five points in 
         <xref ref="fig-5dotsoncircle"/> to the first point from it (its neighbor). The 
         resulting figure does not look like a star but rather the convex regular pentagon 
@@ -186,5 +186,26 @@
           </prefigure>
         </image>
       </figure>
+      <exercise>
+        <statement>
+          <p>
+            Construct the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
+            do you notice about them?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Going to the third point in clockwise direction is the same as going to the 
+            second point in the counterclockwise direction.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The <m>\{_{3}^{5}\}</m>-star polygon is identical to the <m>\{_{2}^{5}\}</m>-star polygon.
+            The <m>\{_{4}^{5}\}</m>-star polygon, like the <m>\{_{1}^{5}\}</m>-star polygon, is a
+            regular pentagon.
+          </p>
+        </answer>
+      </exercise>
     </subsection>
 </section>  
