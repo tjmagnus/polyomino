@@ -577,7 +577,345 @@
     <subexercises xml:id="SAR-polygons-angles">
         <title>Skills and Recall</title>
         <exercise xml:id="HW-SAR-angles-linepoints">
-            <statement>
+            <introduction>
+                <p>
+                    Use <xref ref="fig-HWlineparts"/> to identify the following:
+                </p>
+                    <figure xml:id="fig-HWlineparts">
+                    <caption>
+                        Sketch for <xref ref="HW-SAR-angles-linepoints"/> and 
+                        <xref ref="HW-SAR-linepart-type"/>.
+                    </caption>
+                        <image source="im-HWlineparts">
+                            <shortdescription>
+                                Three lines intersect at a point E. The order of
+                                points on each line are as follows: A, E, B, and then G on line 1;
+                                C, H, E, F, and D on line 2; and I, E, and J on line 3. Going clockwise 
+                                around point E, we have A, C, I, B, F, and J.
+                            </shortdescription>
+                        </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on segment <m>\overline{EF}</m>.  
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Points E and F are the only labeled points 
+                        that lie on the segment <m>\overline{EF}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Points E and F are the only labeled points along segment <m>\overline{EF}</m>
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on line <m>\overleftrightarrow{EF}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Points C, H, E, F, and D lie on line <m>\overleftrightarrow{EF}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        In geometry, a line extends infinitely in both directions. All five points lie 
+                        along the line <m>\overleftrightarrow{EF}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on ray <m>\overrightarrow{FE}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Points C, H, E, and F lie on ray <m>\overrightarrow{FE}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Ray <m>\overrightarrow{FE}</m> starts at point F and extends through points E, H, and C,
+                        all in the same direction.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Another name for ray <m>\overrightarrow{FE}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Other names for <m>\overrightarrow{FE}</m> are <m>\overrightarrow{FH}</m>
+                        and <m>\overrightarrow{FC}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Ray <m>\overrightarrow{FE}</m> can also be written as <m>\overrightarrow{FH}</m> or
+                        <m>\overrightarrow{FC}</m>. All three names refer to an identical ray because they start at point F and extend
+                        in the same direction.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Two other names for angle <m>\angle{HEB}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Other names for <m>\angle{HEB}</m> are <m>\angle{HEG}</m>, <m>\angle{CEB}</m>,
+                        and <m>\angle{CEG}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        <m>\angle{HEB}</m> can also be written as <m>\angle{HEG}</m>, <m>\angle{CEB}</m>, or <m>\angle{CEG}</m>.
+                        All four names refer to the same angle at vertex E, using different points along its rays.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The sum <m>m(\angle{HEB})+m(\angle{AEH})</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        180 degrees
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        <m>\angle{HEB}</m> and <m>\angle{AEH}</m> form a straight line, so they are 
+                        supplementary angles. Supplementary angles always add up to 180 degrees.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A point in the interior of <m>\angle{CEJ}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Point A lies in the interior of <m>\angle{CEJ}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Point A is located within the interior of <m>\angle{CEJ}</m>. 
+                        It lies between the two rays that form <m>\angle{CEJ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Four pairs of congruent angles.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Several right answers; correct if the angles are vertical angles and
+                        four pairs are given. One possibility: <m>\angle IEH</m> and <m>\angle FEJ</m>;
+                        <m>\angle IEB and \angle AEJ</m>; <m>\angle BEF</m> and <m>\angle HEA</m>;
+                        and <m>\angle IEA</m> and <m>\angle BEJ</m>. You may choose whether to allow 
+                        an angle (with multiple names) to be congruent to itself.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Each of the four angle pairs listed above are vertical angles, meaning they are congruent.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on both <m>\overleftrightarrow{AB}</m> and 
+                        <m>\overleftrightarrow{CE}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        E is the only point in common.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Point E lies on both <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CE}</m>.
+                        These two lines intersect at point E, making it their common point.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on both <m>\overrightarrow{GB}</m> and 
+                        <m>\overrightarrow{AB}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        A, B, and G all lie on both rays.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Points A, B, and G lie on both <m>\overrightarrow{GB}</m> and <m>\overrightarrow{AB}</m>.
+                        <m>\overrightarrow{GB}</m> starts at point G and continues infinitely through point B toward
+                        point A. <m>\overrightarrow{AB}</m> starts at point A and continues infinitely through point B
+                        toward point G.
+                    </p>
+                </solution>
+            </task>
+        </exercise>
+        <exercise xml:id="HW-SAR-linepart-type">
+            <introduction>
+                <p>
+                    Use <xref ref="fig-HWlineparts"/> to name the following. Answers may be lines,
+                    line segments, rays, angles, single points, or the empty set.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The set of all points that lie on <m>\overrightarrow{IE}</m> or <m>\overrightarrow{JE}</m>
+                        or both.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        The line <m>\overleftrightarrow{IJ}</m>; also called
+                        <m>\overleftrightarrow{IE}</m> or <m>\overleftrightarrow{EJ}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Line <m>\overleftrightarrow{IJ}</m> lies on rays <m>\overrightarrow{IE}</m> and
+                        <m>\overrightarrow{JE}</m>. Ray <m>\overrightarrow{IE}</m> starts at point I and continues
+                        infinitely through points E and J, spanning the line <m>\overleftrightarrow{IJ}</m>.
+                        Ray <m>\overrightarrow{JE}</m> starts at point J and continue infinitely through points E and
+                        I, also spanning the line <m>\overleftrightarrow{IJ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of all points that lie on <m>\overrightarrow{EI}</m> or <m>\overrightarrow{EF}</m> 
+                        or both.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\angle IEF</m>; also called <m>\angle IED</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        <m>\overrightarrow{IE}</m> and <m>\overrightarrow{JE}</m> share
+                        a common point at vertex E. These two rays intersect to form the angle <m>\angle IEF</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of points that lie on both <m>\overrightarrow{GE}</m> and <m>\overrightarrow{BG}</m>. 
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Segment <m>\overline{BG}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Segment <m>\overline{BG}</m> lies on rays <m>\overrightarrow{GE}</m> and
+                        <m>\overrightarrow{BG}</m>. Ray <m>\overrightarrow{GE}</m> starts at point G and extends infinitely
+                        through points B, E, and A. Ray <m>\overrightarrow{BG}</m> starts at point B and extends infinitely through point G.
+                        Because both rays travel through points B and G, they share a common line segment <m>\overline{BG}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of points that lie on both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{EF}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Ray <m>\overrightarrow{EF}</m>; point D may be used in place of F.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Ray <m>\overrightarrow{EF}</m> lies on both <m>\overrightarrow{CH}</m> and
+                        <m>\overrightarrow{EF}</m>. <m>\overrightarrow{CH}</m> starts at point C and extends infinitely
+                        through points H, E, F, and D. <m>\overrightarrow{EF}</m> starts at point E and extends infinitely through points
+                        F and D. Since both rays travel through points E and F, they share a common ray <m>\overrightarrow{EF}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of points that lie on both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{BG}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        No points lie on both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{BG}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Rays <m>\overrightarrow{CH}</m> and <m>\overrightarrow{BG}</m> do not intersect. 
+                        Therefore, they do not share any common points.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of points that lie on both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{JI}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Point E.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{JI}</m> pass through point E.
+                        This makes point E their shared point of intersection.
+                    </p>
+                </solution>
+            </task>
+
+            
+            
+            <!--<p><statement>
                 <p>
                     Use <xref ref="fig-HWlineparts"/> to identify the following:
                     <ol>
