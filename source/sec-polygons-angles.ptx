@@ -576,238 +576,344 @@
     <subexercises xml:id="SAR-polygons-angles">
         <title>Skills and Recall</title>
         <exercise xml:id="HW-SAR-angles-linepoints">
-            <statement>
+            <introduction>
                 <p>
                     Use <xref ref="fig-HWlineparts"/> to identify the following:
-                    <ol>
-                        <li>
-                            <p>
-                                All labeled points that lie on segment <m>\overline{EF}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                All labeled points that lie on line <m>\overleftrightarrow{EF}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                All labeled points that lie on ray <m>\overrightarrow{FE}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Another name for ray <m>\overrightarrow{FE}</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Two other names for angle <m>\angle{HEB}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The sum <m>m(\angle{HEB})+m(\angle{AEH})</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                A point in the interior of <m>\angle{CEJ}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Four pairs of congruent angles.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                All labeled points that lie on both <m>\overleftrightarrow{AB}</m> and 
-                                <m>\overleftrightarrow{CE}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                All labeled points that lie on both <m>\overrightarrow{GB}</m> and 
-                                <m>\overrightarrow{AB}</m>.
-                            </p>
-                        </li>
-                    </ol>
                 </p>
                 <figure xml:id="fig-HWlineparts">
-                    <caption>
-                        Sketch for <xref ref="HW-SAR-angles-linepoints"/> and 
-                        <xref ref="HW-SAR-linepart-type"/>.
-                    </caption>
-                        <image source="im-HWlineparts">
-                            <shortdescription>
-                                Three lines intersect at a point E. The order of
-                                points on each line are as follows: A, E, B, and then G on line 1;
-                                C, H, E, F, and D on line 2; and I, E, and J on line 3. Going clockwise 
-                                around point E, we have A, C, I, B, F, and J.
-                            </shortdescription>
-                        </image>
-                </figure>
-            </statement>
-            <answer>
-                <p>
-                    <ol>
-                        <li>
-                            <p>
-                                Points E and F are the only labeled points 
-                                that lie on the segment <m>\overline{EF}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Points C, H, E, F, and D lie on line <m>\overleftrightarrow{EF}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Points C, H, E, and F lie on ray <m>\overrightarrow{FE}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Other names for <m>\overrightarrow{FE}</m> are <m>\overrightarrow{FH}</m>
-                                and <m>\overrightarrow{FC}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Other names for <m>\angle{HEB}</m> are <m>\angle{HEG}</m>, <m>\angle{CEB}</m>,
-                                and <m>\angle{CEG}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                180 degrees
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Point A lies in the interior of <m>\angle{CEJ}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Several right answers; correct if the angles are vertical angles and
-                                four pairs are given. One possibility: <m>\angle IEH</m> and <m>\angle FEJ</m>;
-                                <m>\angle IEB and \angle AEJ</m>; <m>\angle BEF</m> and <m>\angle HEA</m>;
-                                and <m>\angle IEA</m> and <m>\angle BEJ</m>. You may choose whether to allow 
-                                an angle (with multiple names) to be congruent to itself.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                E is the only point in common.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                A, B, and G all lie on both rays.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </answer>
+                <caption>
+                    Sketch for <xref ref="HW-SAR-angles-linepoints"/> and 
+                    <xref ref="HW-SAR-linepart-type"/>.
+                </caption>
+                <image source="im-HWlineparts">
+                    <shortdescription>
+                            Three lines intersect at a point E. The order of
+                            points on each line are as follows: A, E, B, and then G on line 1;
+                            C, H, E, F, and D on line 2; and I, E, and J on line 3. Going clockwise 
+                            around point E, we have A, C, I, B, F, and J.
+                    </shortdescription>
+                </image>
+            </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on segment <m>\overline{EF}</m>.  
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Points E and F are the only labeled points 
+                        that lie on the segment <m>\overline{EF}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Points E and F are the only labeled points along segment <m>\overline{EF}</m>
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on line <m>\overleftrightarrow{EF}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Points C, H, E, F, and D lie on line <m>\overleftrightarrow{EF}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        In geometry, a line extends infinitely in both directions. All five points lie 
+                        along the line <m>\overleftrightarrow{EF}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on ray <m>\overrightarrow{FE}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Points C, H, E, and F lie on ray <m>\overrightarrow{FE}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Ray <m>\overrightarrow{FE}</m> starts at point F and extends through points E, H, and C,
+                        all in the same direction.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Another name for ray <m>\overrightarrow{FE}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Other names for <m>\overrightarrow{FE}</m> are <m>\overrightarrow{FH}</m>
+                        and <m>\overrightarrow{FC}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Ray <m>\overrightarrow{FE}</m> can also be written as <m>\overrightarrow{FH}</m> or
+                        <m>\overrightarrow{FC}</m>. All three names refer to an identical ray because they start at point F and extend
+                        in the same direction.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Two other names for angle <m>\angle{HEB}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Other names for <m>\angle{HEB}</m> are <m>\angle{HEG}</m>, <m>\angle{CEB}</m>,
+                        and <m>\angle{CEG}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        <m>\angle{HEB}</m> can also be written as <m>\angle{HEG}</m>, <m>\angle{CEB}</m>, or <m>\angle{CEG}</m>.
+                        All four names refer to the same angle at vertex E, using different points along its rays.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The sum <m>m(\angle{HEB})+m(\angle{AEH})</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        180 degrees
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        <m>\angle{HEB}</m> and <m>\angle{AEH}</m> form a straight line, so they are 
+                        supplementary angles. Supplementary angles always add up to 180 degrees.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A point in the interior of <m>\angle{CEJ}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Point A lies in the interior of <m>\angle{CEJ}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Point A is located within the interior of <m>\angle{CEJ}</m>. 
+                        It lies between the two rays that form <m>\angle{CEJ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Four pairs of congruent angles.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Several right answers; correct if the angles are vertical angles and
+                        four pairs are given. One possibility: <m>\angle IEH</m> and <m>\angle FEJ</m>;
+                        <m>\angle IEB and \angle AEJ</m>; <m>\angle BEF</m> and <m>\angle HEA</m>;
+                        and <m>\angle IEA</m> and <m>\angle BEJ</m>. You may choose whether to allow 
+                        an angle (with multiple names) to be congruent to itself.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Each of the four angle pairs listed above are vertical angles, meaning they are congruent.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on both <m>\overleftrightarrow{AB}</m> and 
+                        <m>\overleftrightarrow{CE}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        E is the only point in common.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Point E lies on both <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CE}</m>.
+                        These two lines intersect at point E, making it their common point.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        All labeled points that lie on both <m>\overrightarrow{GB}</m> and 
+                        <m>\overrightarrow{AB}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        A, B, and G all lie on both rays.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Points A, B, and G lie on both <m>\overrightarrow{GB}</m> and <m>\overrightarrow{AB}</m>.
+                        <m>\overrightarrow{GB}</m> starts at point G and continues infinitely through point B toward
+                        point A. <m>\overrightarrow{AB}</m> starts at point A and continues infinitely through point B
+                        toward point G.
+                    </p>
+                </solution>
+            </task>
         </exercise>
         <exercise xml:id="HW-SAR-linepart-type">
-            <statement>
+            <introduction>
                 <p>
                     Use <xref ref="fig-HWlineparts"/> to name the following. Answers may be lines,
                     line segments, rays, angles, single points, or the empty set.
-                    <ol>
-                        <li>
-                            <p>
-                                The set of all points that lie on <m>\overrightarrow{IE}</m> or <m>\overrightarrow{JE}</m>
-                                or both.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The set of all points that lie on <m>\overrightarrow{EI}</m> or <m>\overrightarrow{EF}</m> 
-                                or both.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The set of points that lie on both <m>\overrightarrow{GE}</m>
-                                and <m>\overrightarrow{BG}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The set of points that lie on both <m>\overrightarrow{CH}</m>
-                                and <m>\overrightarrow{EF}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The set of points that lie on both <m>\overrightarrow{CH}</m>
-                                and <m>\overrightarrow{BG}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The set of points that lie on both <m>\overrightarrow{CH}</m> 
-                                and <m>\overrightarrow{JI}</m>
-                            </p>
-                        </li>
-                    </ol>
                 </p>
-            </statement>
-            <answer>
-                <p>
-                   <ol>
-                        <li>
-                            <p>
-                                The line <m>\overleftrightarrow{IJ}</m>; also called
-                                <m>\overleftrightarrow{IE}</m> or <m>\overleftrightarrow{EJ}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>\angle IEF</m>; also called <m>\angle IED</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Segment <m>\overline{BG}</m>.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Ray <m>\overrightarrow{EF}</m>; 
-                                point D may be used in place of F.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                No points lie on both <m>\overrightarrow{CH}</m>
-                                and <m>\overrightarrow{BG}</m>..
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Point E.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </answer>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        The set of all points that lie on <m>\overrightarrow{IE}</m> or <m>\overrightarrow{JE}</m>
+                        or both.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        The line <m>\overleftrightarrow{IJ}</m>; also called
+                        <m>\overleftrightarrow{IE}</m> or <m>\overleftrightarrow{EJ}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Line <m>\overleftrightarrow{IJ}</m> lies on rays <m>\overrightarrow{IE}</m> and
+                        <m>\overrightarrow{JE}</m>. Ray <m>\overrightarrow{IE}</m> starts at point I and continues
+                        infinitely through points E and J, spanning the line <m>\overleftrightarrow{IJ}</m>.
+                        Ray <m>\overrightarrow{JE}</m> starts at point J and continue infinitely through points E and
+                        I, also spanning the line <m>\overleftrightarrow{IJ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of all points that lie on <m>\overrightarrow{EI}</m> or <m>\overrightarrow{EF}</m> 
+                        or both.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\angle IEF</m>; also called <m>\angle IED</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        <m>\overrightarrow{IE}</m> and <m>\overrightarrow{JE}</m> share
+                        a common point at vertex E. These two rays intersect to form the angle <m>\angle IEF</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of points that lie on both <m>\overrightarrow{GE}</m> and <m>\overrightarrow{BG}</m>. 
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Segment <m>\overline{BG}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Segment <m>\overline{BG}</m> lies on rays <m>\overrightarrow{GE}</m> and
+                        <m>\overrightarrow{BG}</m>. Ray <m>\overrightarrow{GE}</m> starts at point G and extends infinitely
+                        through points B, E, and A. Ray <m>\overrightarrow{BG}</m> starts at point B and extends infinitely through point G.
+                        Because both rays travel through points B and G, they share a common line segment <m>\overline{BG}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of points that lie on both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{EF}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Ray <m>\overrightarrow{EF}</m>; point D may be used in place of F.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Ray <m>\overrightarrow{EF}</m> lies on both <m>\overrightarrow{CH}</m> and
+                        <m>\overrightarrow{EF}</m>. <m>\overrightarrow{CH}</m> starts at point C and extends infinitely
+                        through points H, E, F, and D. <m>\overrightarrow{EF}</m> starts at point E and extends infinitely through points
+                        F and D. Since both rays travel through points E and F, they share a common ray <m>\overrightarrow{EF}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of points that lie on both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{BG}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        No points lie on both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{BG}</m>.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Rays <m>\overrightarrow{CH}</m> and <m>\overrightarrow{BG}</m> do not intersect. 
+                        Therefore, they do not share any common points.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The set of points that lie on both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{JI}</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Point E.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Both <m>\overrightarrow{CH}</m> and <m>\overrightarrow{JI}</m> pass through point E.
+                        This makes point E their shared point of intersection.
+                    </p>
+                </solution>
+            </task>
         </exercise>
-        <!--<exercise>
-            <statement>
-                <p>
-                    Use a protractor to measure the angles. You may need to print this  
-                    picture to make accurate measurements. ADD PICTURE AND PROBLEMS.
-                </p>
-            </statement>
-        </exercise>-->
         <exercise xml:id="exer-SAR-missingangles">
-            <statement>
+            <introduction>
                 <p>
                     In <xref ref="fig-SAR-missingangles"/>, 
                     <md>
@@ -816,41 +922,8 @@
                         <mrow>m(\angle{DCE})\amp = 67^\circ</mrow>
                         <mrow>m(\angle{EFC})\amp = 52^\circ</mrow>
                         <mrow>m(\angle{ECF})\amp = 89^\circ</mrow>
-                    </md> 
-                    Determine the measures of other angles as directed. 
-                    <ol>
-                        <li>
-                            <m>\angle{ACD}</m>
-                        </li>
-                        <li>
-                            <m>\angle{ADC}</m>
-                        </li>
-                        <li>
-                            <m>\angle{BCE}</m>
-                        </li>
-                        <li>
-                            <m>\angle{BCF}</m>
-                        </li>
-                        <li>
-                            <m>\angle{BFC}</m>
-                        </li>
-                        <li>
-                            <m>\angle{CBF}</m>
-                        </li>
-                        <li>
-                            <m>\angle{CEF}</m>
-                        </li>
-                        <li>
-                            <m>\angle{ACF}</m>
-                        </li>
-                        <li>
-                            <m>\angle{CDE}</m>
-                        </li>
-                        <li>
-                            What do we know about <m>\angle{ABC}</m>
-                            and <m>\angle{BAC}</m>? Explain.
-                        </li>
-                    </ol>
+                    </md>
+                    Determine the measures of other angles as directed.
                 </p>
                 <figure xml:id="fig-SAR-missingangles">
                     <caption>Sketch for <xref ref="exer-SAR-missingangles"/>.</caption>
@@ -861,44 +934,209 @@
                         </shortdescription>
                     </image>
                 </figure>
-            </statement>
-            <answer>
-                <p>
-                    <ol>
-                        <li>
-                            <m>m(\angle{ACD})=113^{\circ}</m>
-                        </li>
-                        <li>
-                            <m>m(\angle{ADC})=30^{\circ}</m>
-                        </li>
-                        <li>
-                            <m>m(\angle{BCE})=113^{\circ}</m>
-                        </li>
-                        <li>
-                            <m>m(\angle{BCF})=24^{\circ}</m>
-                        </li>
-                        <li>
-                            <m>m(\angle{BFC})=128^{\circ}</m>
-                        </li>
-                        <li>
-                            <m>m(\angle{CBF})=28^{\circ}</m>
-                        </li>
-                        <li>
-                            <m>m(\angle{CEF})=39^{\circ}</m>
-                        </li>
-                        <li>
-                            <m>m(\angle{ACF})=91^{\circ}</m>
-                        </li>
-                        <li>
-                            <m>m(\angle{CDE})=50^{\circ}</m>
-                        </li>
-                        <li>
-                            The sum <m>m(\angle{ABC})+m(\angle{BAC})=113^{\circ}</m>.
-                            Other answers are possible with adequate support.
-                        </li>
-                    </ol>
-                </p>
-            </answer>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{ACD}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{ACD})=113^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Angles <m>\angle{ACD}</m> and <m>\angle{DCE}</m> form a straight line, making them
+                        supplementary angles that add up to <m>180^{\circ}</m> Given that <m>m(\angle{DCE})=67^{\circ}</m>,
+                        <m>\angle{ACD}</m> is determined by subtracting <m>67^{\circ}</m> from <m>180^{\circ}</m>:
+                        <m>180^{\circ}-67^{\circ}=113^{\circ}</m>. Therefore, <m>m(\angle{ACD})=113^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{ADC}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{ADC})=30^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        To find <m>\angle{ACD}</m>, use the Angle Sum Theorem, which states that a triangles
+                        interior angles add up to <m>180^{\circ}</m>. Given that <m>m(\angle{CAD})=37^{\circ}</m> and
+                        <m>m(\angle{ACD})=113^{\circ}</m> (from the previous problem), simply subtract these values from <m>180^{\circ}</m>:
+                        <m>180^{\circ}-(37^{\circ}+113^{\circ})=180^{\circ}-150^{\circ}=30^{\circ}</m>.
+                        Therefore, <m>m(\angle{ADC})=30^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{BCE}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{BCE})=113^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Angle <m>\angle{BCE}</m> is vertical to <m>\angle{ACD}</m>. According to the Vertical Angles Theorem,
+                        vertical angles are always congruent and equal in measure. Since <m>m(\angle{ACD})=113^{\circ}</m>, then
+                        <m>m(\angle{BCE})=113^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{BCF}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{BCF})=24^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Angles <m>\angle{ACB}</m>, <m>\angle{BCF}</m>, and <m>\angle{ECF}</m> form a straight line 
+                        and add up to <m>180^{\circ}</m> Given that <m>m(\angle{ACB})=67^{\circ}</m> and <m>m(\angle{ECF})=89^{\circ}</m>, 
+                        simply subtract these values from <m>180^{\circ}</m>: <m>180^{\circ}-(67^{\circ}+89^{\circ})=180^{\circ}-156^{\circ}=24^{\circ}</m>.
+                        Therefore, <m>m(\angle{BCF})=24^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{BFC}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{BFC})=128^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Angles <m>\angle{BFC}</m> and <m>\angle{EFC}</m> form a straight line, making them
+                        supplementary angles that add up to <m>180^{\circ}</m> Given that <m>m(\angle{EFC})=52^{\circ}</m>,
+                        <m>\angle{BFC}</m> is determined by subtracting <m>52^{\circ}</m> from <m>180^{\circ}</m>:
+                        <m>180^{\circ}-52^{\circ}=128^{\circ}</m>. Therefore, <m>m(\angle{BFC})=128^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{CBF}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{CBF})=28^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        To find <m>\angle{CBF}</m>, use the Angle Sum Theorem, which states that a triangles
+                        interior angles add up to <m>180^{\circ}</m>. Given that <m>m(\angle{BCF})=24^{\circ}</m> and
+                        <m>m(\angle{BFC})=128^{\circ}</m> (from the previous problem), simply subtract these values from <m>180^{\circ}</m>:
+                        <m>180^{\circ}-(24^{\circ}+113^{\circ})=128^{\circ}-152^{\circ}=28^{\circ}</m>.
+                        Therefore, <m>m(\angle{CBF})=28^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{CEF}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{CEF})=39^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        To find <m>\angle{CEF}</m>, use the Angle Sum Theorem, which states that a triangles
+                        interior angles add up to <m>180^{\circ}</m>. Given that <m>m(\angle{ECF})=89^{\circ}</m> and
+                        <m>m(\angle{EFC})=52^{\circ}</m>, simply subtract these values from <m>180^{\circ}</m>:
+                        <m>180^{\circ}-(89^{\circ}+52^{\circ})=128^{\circ}-141^{\circ}=39^{\circ}</m>.
+                        Therefore, <m>m(\angle{CEF})=39^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{ACF}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{ACF})=91^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Angle <m>\angle{ACB}</m> is <m>67^{\circ}</m> because its vertical angle also measures
+                        <m>67^{\circ}</m>. Angle <m>\angle{BCF}</m> is <m>24^{\circ}</m>. To find <m>\angle{ACF}</m>, combine the
+                        angle measures of <m>\angle{ACB}</m> and <m>\angle{BCF}</m>: <m>67^{\circ}+24^{\circ}=91^{\circ}</m>.
+                        Therefore, <m>m(\angle{ACF})=91^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\angle{CDE}</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>m(\angle{CDE})=50^{\circ}</m>
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        In a previous problem, it was determined that <m>m(\angle{CEF})=39^{\circ}</m>.
+                        To find <m>\angle{CDE}</m>, subtract the given <m>39^{\circ}</m> from <m>89^{\circ}</m>:
+                        <m>89^{\circ}-39^{\circ}=50^{\circ}</m>. Therefore, <m>m(\angle{CDE})=91^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What do we know about <m>\angle{ABC}</m> and <m>\angle{BAC}</m>? Explain.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        The sum <m>m(\angle{ABC})+m(\angle{BAC})=113^{\circ}</m>. Other answers are possible with adequate support.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        The Angle Sum Theorem states that a triangle's interior angles always sum to
+                        <m>180^{\circ}</m>. Angle <m>m(\angle{ACB})=67^{\circ}</m> because it is vertical to
+                        <m>\angle{DCE}</m> and vertical angles are equal in measure. With <m>m(\angle{ACB})=67^{\circ}</m>,
+                        the remaining two angles, <m>\angle{ABC}</m> and <m>\angle{BAC}</m>, must sum to 
+                        <m>180^{\circ}-67^{\circ}=113^{\circ}</m>.
+                    </p>
+                </solution>
+            </task>
         </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-polygons-angles">
