@@ -9,7 +9,7 @@
 <!--******************************************-->
 <!--*  Authored with PreTeXt                 *-->
 <!--*  pretextbook.org                       *-->
-<!--*  Theme: default-modern                 *-->
+<!--*  Theme: salem                          *-->
 <!--*  Palette:                              *-->
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
@@ -102,7 +102,7 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.7.3';
+eBookConfig.runestone_version = '7.8.0';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
@@ -111,7 +111,7 @@ eBookConfig.enable_chatcodes =  false;
 <!--*** Runestone Services ***-->
 <script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
-<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
@@ -419,6 +419,13 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+</li></ul>
+</li>
 <li class="toc-item toc-backmatter contains-active">
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural toc-item-list contains-active">
@@ -451,18 +458,18 @@ eBookConfig.enable_chatcodes =  false;
 </h2>
 <div class="para" id="field-properties-2">We summarize the principles that define operations on the set of real numbers. Methods of performing calculations, simplifying algebraic expressions, and solving equations follow from these principles.</div>
 <article class="principle theorem-like" id="principle-closure-reals"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.13</span><span class="period">.</span><span class="space"> </span><span class="title">Closure of Addition and Multiplication on the Set of Real Numbers.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.10</span><span class="period">.</span><span class="space"> </span><span class="title">Closure of Addition and Multiplication on the Set of Real Numbers.</span>
 </h3>
 <div class="para" id="principle-closure-reals-2-1">If <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are real numbers, then <span class="process-math">\(a+b\)</span> and <span class="process-math">\(a\cdot b\)</span> are real numbers.</div></article><article class="principle theorem-like" id="principle-commutative"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.14</span><span class="period">.</span><span class="space"> </span><span class="title">Commutative Laws.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.11</span><span class="period">.</span><span class="space"> </span><span class="title">Commutative Laws.</span>
 </h3>
 <div class="para" id="principle-commutative-2-1">If <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are real numbers, then <span class="process-math">\(a+b=b+a\)</span> and <span class="process-math">\(a\cdot b=b\cdot a\text{.}\)</span>
 </div></article><article class="principle theorem-like" id="principle-associative"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.15</span><span class="period">.</span><span class="space"> </span><span class="title">Associative Laws.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.12</span><span class="period">.</span><span class="space"> </span><span class="title">Associative Laws.</span>
 </h3>
 <div class="para" id="principle-associative-2-1">If <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> are real numbers, then <span class="process-math">\((a+b)+c=a+(b+c)\)</span> and <span class="process-math">\((a\cdot b)\cdot c=a\cdot (b\cdot c)\text{.}\)</span>
 </div></article><article class="principle theorem-like" id="principle-distributive"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.16</span><span class="period">.</span><span class="space"> </span><span class="title">The Distributive Law.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.13</span><span class="period">.</span><span class="space"> </span><span class="title">The Distributive Law.</span>
 </h3>
 <div class="para" id="principle-distributive-2-1">If <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> are real numbers, then <span class="process-math">\(c\cdot(a+b)=ca+cb\)</span> and <span class="process-math">\((a+b)\cdot c=ac+bc\text{.}\)</span>
 </div> <div class="para logical" id="principle-distributive-2-2">
@@ -477,7 +484,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 </div></article><div class="para" id="field-properties-7">The Distributive Law, together with the other field properties, allows us to multiply polynomial.</div>
 <article class="example example-like" id="examp-mult-poly"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.2.17</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplying a Polynomial.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">A.2.14</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplying a Polynomial.</span>
 </h3>
 <div class="para" id="examp-mult-poly-2-1">Multiply <span class="process-math">\((2x+1)(x^2-3x+5)\text{.}\)</span>
 </div>
@@ -498,12 +505,12 @@ eBookConfig.enable_chatcodes =  false;
 =2x^3-5x^2+7x+5.\)</span>
 </div>
 </div></details>
-</div></article><div class="para" id="field-properties-9">As demonstrated in the solution of <a href="field-properties.html#examp-mult-poly" class="xref" data-knowl="./knowl/xref/examp-mult-poly.html" data-reveal-label="Reveal" data-close-label="Close" title="Example A.2.17: Multiplying a Polynomial">Example A.2.17</a>, the product of two polynomials can be found by multiplying each term in the first polynomial by each term in the second polynomial and then adding these products. If the first polynomial has <span class="process-math">\(m\)</span> terms and the second polynomial has <span class="process-math">\(n\)</span> terms, then there will be <span class="process-math">\(mn\)</span> terms before we combine like terms.</div>
+</div></article><div class="para" id="field-properties-9">As demonstrated in the solution of <a href="field-properties.html#examp-mult-poly" class="xref" data-knowl="./knowl/xref/examp-mult-poly.html" data-reveal-label="Reveal" data-close-label="Close" title="Example A.2.14: Multiplying a Polynomial">Example A.2.14</a>, the product of two polynomials can be found by multiplying each term in the first polynomial by each term in the second polynomial and then adding these products. If the first polynomial has <span class="process-math">\(m\)</span> terms and the second polynomial has <span class="process-math">\(n\)</span> terms, then there will be <span class="process-math">\(mn\)</span> terms before we combine like terms.</div>
 <article class="principle theorem-like" id="principle-identity"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.18</span><span class="period">.</span><span class="space"> </span><span class="title">The Identity Properties.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.15</span><span class="period">.</span><span class="space"> </span><span class="title">The Identity Properties.</span>
 </h3>
 <div class="para" id="principle-identity-2-1">If <span class="process-math">\(a\)</span> is an real number, then <span class="process-math">\(a+0=a\text{,}\)</span> <span class="process-math">\(0+a=a\text{,}\)</span> <span class="process-math">\(a\cdot 1=a\text{,}\)</span> and <span class="process-math">\(1\cdot a=a.\)</span> We call 0 the <dfn class="terminology">additive identity</dfn> and 1 the <dfn class="terminology">multiplicative identity</dfn>.</div></article><article class="principle theorem-like" id="field-properties-11"><h3 class="heading">
-<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.19</span><span class="period">.</span><span class="space"> </span><span class="title">The Inverse Properties.</span>
+<span class="type">Principle</span><span class="space"> </span><span class="codenumber">A.2.16</span><span class="period">.</span><span class="space"> </span><span class="title">The Inverse Properties.</span>
 </h3>
 <div class="para" id="field-properties-11-2-1">If <span class="process-math">\(a\)</span> is a real number, then the number <span class="process-math">\(-a\)</span> exists and has the property that <span class="process-math">\(a+(-a)=0\text{.}\)</span> If <span class="process-math">\(a\)</span> is an nonzero real number, then the number <span class="process-math">\(\frac{1}{a}\)</span> exists and has the property that <span class="process-math">\(a\cdot\frac{1}{a}=1\text{.}\)</span> The number <span class="process-math">\(-a\)</span> is said to be the additive inverse of <span class="process-math">\(a\)</span> and the number <span class="process-math">\(\frac{1}{a}\)</span> is said to be the multiplicative inverse of <span class="process-math">\(a\text{.}\)</span>
 </div></article></section></div>
@@ -514,5 +521,6 @@ eBookConfig.enable_chatcodes =  false;
 <div id="ptx-page-footer" class="ptx-page-footer">
 <a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
+<script>diagcess.Base.init()</script>
 </body>
 </html>
