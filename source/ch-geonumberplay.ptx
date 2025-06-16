@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-geonumberplay" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Exploring Patterns in Geometry and Numbers</title>
+    <introduction>
+        <p>
+            While much of this textbook has focused on exploring the whys behind
+            classical geometry, the subject of geometry is much broader and continues 
+            to grow. In this section, we will look at a few topics outside the standard
+            curriculum, observe patterns, and test conjectures. We will also appreciate
+            some connections between number sense and geometry.
+        </p>
+    </introduction>
+    <xi:include href="sec-geonumberplay-star.ptx"/>
+    <!--<xi:include href="sec-geonumberplay-billiards.ptx"/>
+    <xi:include href="sec-geonumberplay-fractals.ptx"/>
+    <xi:include href="sec-geonumberplay-instructor.ptx" />-->
+    </chapter>

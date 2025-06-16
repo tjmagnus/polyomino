@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-geonumberplay-star" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Star Polygons</title>
+
+  <introduction>
+    <p>
+    In <xref ref="ch-polygons"/>, we explored properties of <xref ref="def-convexconcave"
+    text="custom">convex</xref> 
+    polygons. In this section, we will create regular <xref ref="def-convexconcave" text="custom">
+    concave</xref> polygons, called star polygons. In addition to studying the geometrical 
+    properties of star polygons, we will observe how the relationship between a pair of 
+    numbers determines the shape of the star polygon associated with the number pair.
+    </p>  
+    </introduction>
+    <subsection xml:id="subsec-geonumberplay-star-defs">
+      <title>What is a Star Polygon?</title>
+      <p>
+        When asked to draw a star, most people will draw a five point star polygon
+        without lifting their pencil even though they are unfamiliar with the 
+        terminology. We will generalize this to create star polygons with different 
+        number of points. We will also see that our procedure will sometimes give us 
+        a regular polygon or no polygon at all.
+      </p>
+      <p>
+        To ensure that the star polygons we create are regular, we begin with equally spaced points 
+        around a circle as shown in <xref ref="fig-5dotsoncircle"/>. We draw segments from 
+        point 1 to point 3, from point 3 to point 5, from point 5 to point 2, from point 
+        2 to point 4, and then returning to point 1 to get the star polygon in 
+        <xref ref="fig-starpoly-5-2"/>. Note that we are connecting every 
+        second point and continuing until we return to our starting point. There was no need 
+        to lift our pencil in this construction.
+      </p>
+      <figure xml:id="fig-construct-starpoly-5-2">
+        <caption>Constructing a <m>\{_{2}^{5}\}</m>-star polygon.</caption>
+        <sidebyside>
+          <figure xml:id="fig-5dotsoncircle">
+            <caption>Five points on a circle.</caption>
+            <image>
+              <prefigure xmlns="https://prefigure.org" label="fivedotcircle">
+                <diagram width="300" height="300" margins="5">
+                  <definition>
+                    alignments=['nw','sw','se','ne','n']
+                  </definition>
+                  <definition>f(t)=(-sin(2*pi*(1+t)/5),cos(2*pi*(1+t)/5))</definition>
+                  <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
+                    <circle at="unit-circle" center="(0,0)" radius="1" stroke="blue"/>
+                    <repeat parameter="k=0..4">
+                      <point at="point" p="f(k)" alignment="alignments[k]">
+                        <m>${5-k}</m>
+                      </point>
+                    </repeat>
+                  </coordinates>
+
+                  <annotations>
+                    <annotation id="figure" text="Five equally-spaced points on a circle">
+                      <annotation id="unit-circle" text="The unit circle" circular="true">
+                      <annotation id="point k=0"
+                        text="Point 5"
+                        speech="point five"/>
+                      <annotation id="point k=1"
+                        text="Point 4"
+                        speech="point four"/>
+                      <annotation id="point k=2"
+                        text="Point 3"
+                        speech="point three"/>
+                      <annotation id="point k=3"
+                        text="Point 2"
+                        speech="point two"/>
+                      <annotation id="point k=4"
+                        text="Point 1"
+                        speech="point one"/>
+                      </annotation>
+                    </annotation>
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </figure>
+          <figure xml:id="fig-starpoly-5-2">
+            <caption>The <m>\{_{2}^{5}\}</m> star polygon</caption>
+            <image>
+              <prefigure xmlns="https://prefigure.org" label="fivedotstar">
+                <diagram width="300" height="300" margins="5">
+                  <definition>
+                    alignments=['nw','sw','se','ne','n']
+                  </definition>
+                  <definition>f(t)=(-sin(2*pi*(1+t)/5),cos(2*pi*(1+t)/5))</definition>
+                  <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
+                    <!--<circle at="unit-circle" center="(0,0)" radius="1" stroke="blue"/>-->
+                    <repeat parameter="k=0..4">
+                      <point at="point" p="f(k)" alignment="alignments[k]">
+                        <m>${5-k}</m>
+                      </point>
+                    </repeat>
+                    <path start="f(0)" stroke="black">
+                      <lineto point="f(2)"/>
+                      <lineto point="f(4)"/>
+                      <lineto point="f(6)"/>
+                      <lineto point="f(8)"/>
+                      <lineto point="f(0)"/>
+                      </path>
+                  </coordinates>
+
+                  <annotations>
+                    <annotation id="figure" text="Five Point Star Polygon drawn in a circle">
+                      <!--<annotation id="unit-circle" text="The unit circle" circular="true">-->
+                      <annotation id="point k=0"
+                        text="Point 5"
+                        speech="point five"/>
+                      <annotation id="point k=1"
+                        text="Point 4"
+                        speech="point four"/>
+                      <annotation id="point k=2"
+                        text="Point 3"
+                        speech="point three"/>
+                      <annotation id="point k=3"
+                        text="Point 2"
+                        speech="point two"/>
+                      <annotation id="point k=4"
+                        text="Point 1"
+                        speech="point one"/>
+                    </annotation>
+<!--How do I annotate the path segments?-->
+                  </annotations>
+                </diagram>
+              </prefigure>
+            </image>
+          </figure>
+        </sidebyside>
+      </figure>
+      <p>
+        The notation <m>\{_{2}^{5}\}</m> signifies that the star polygon 
+        has 5 points where every second point is connected. To create <m>\{_{1}^{5}\}</m>, 
+        we sketch a continuous path that connects each of the five points in 
+        <xref ref="fig-5dotsoncircle"/> to the first point from it (its neighbor). The 
+        resulting figure does not look like a star but rather the convex regular pentagon 
+        shown in <xref ref="fig-5-1-starpoly"/>.
+      </p>
+      <figure xml:id="fig-5-1-starpoly">
+        <caption>The <m>\{_{1}^{5}\}</m>-star polygon.</caption>
+        <image>
+          <prefigure xmlns="https://prefigure.org" label="im-5-1-starpoly">
+            <diagram width="300" height="300" margins="5">
+              <definition>
+                alignments=['nw','sw','se','ne','n']
+              </definition>
+              <definition>f(t)=(-sin(2*pi*(1+t)/5),cos(2*pi*(1+t)/5))</definition>
+              <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
+                <!--<circle at="unit-circle" center="(0,0)" radius="1" stroke="blue"/>-->
+                <repeat parameter="k=0..4">
+                  <point at="point" p="f(k)" alignment="alignments[k]">
+                    <m>${5-k}</m>
+                  </point>
+                </repeat>
+                <path start="f(0)" stroke="black">
+                  <lineto point="f(1)"/>
+                  <lineto point="f(2)"/>
+                  <lineto point="f(3)"/>
+                  <lineto point="f(4)"/>
+                  <lineto point="f(0)"/>
+                  </path>
+              </coordinates>
+
+              <annotations>
+                <annotation id="figure" text="Five Point Star Polygon drawn in a circle">
+                  <!--<annotation id="unit-circle" text="The unit circle" circular="true">-->
+                  <annotation id="point k=0"
+                    text="Point 5"
+                    speech="point five"/>
+                  <annotation id="point k=1"
+                    text="Point 4"
+                    speech="point four"/>
+                  <annotation id="point k=2"
+                    text="Point 3"
+                    speech="point three"/>
+                  <annotation id="point k=3"
+                    text="Point 2"
+                    speech="point two"/>
+                  <annotation id="point k=4"
+                    text="Point 1"
+                    speech="point one"/>
+                </annotation>
+              </annotations>
+            </diagram>
+          </prefigure>
+        </image>
+      </figure>
+      <exercise>
+        <statement>
+          <p>
+            Construct the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
+            do you notice about them?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Going to the third point in clockwise direction is the same as going to the 
+            second point in the counterclockwise direction.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The <m>\{_{3}^{5}\}</m>-star polygon is identical to the <m>\{_{2}^{5}\}</m>-star polygon.
+            The <m>\{_{4}^{5}\}</m>-star polygon, like the <m>\{_{1}^{5}\}</m>-star polygon, is a
+            regular pentagon.
+          </p>
+        </answer>
+      </exercise>
+    </subsection>
+</section>  

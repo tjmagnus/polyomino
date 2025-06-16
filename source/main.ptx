@@ -318,6 +318,8 @@
 
     <xi:include href="ch-dilation.ptx"/>
 
+    <xi:include href="ch-geonumberplay.ptx"/>
+
 
     
 

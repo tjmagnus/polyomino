@@ -70,8 +70,7 @@
     </subsection>
     <subsection>
       <title>First Exploration</title>
-    <exploration xml:id="intro-explore-exp-pentrect">
-      
+    <exploration label="intro-explore-exp-pentrectl" xml:id="intro-explore-exp-pentrect">
       <title>Tiling Rectangles with Polyominoes</title>
       <introduction>
         <p>
@@ -84,8 +83,7 @@
           greatly to your learning. Have fun!
         </p>
       </introduction>
-    
-      <task>
+      <task label="intro-explore-exptask-LpentFillSquare-l" xml:id="intro-explore-exptask-LpentFillSquare">
         <statement>
           <p>
             Just as a domino consists of two squares joined at an edge, a 
@@ -98,7 +96,7 @@
             To use the interactive tool, click and drag the L-shape to create a new 
             copy of the shape. Use the large dot, to rotate the copy. Arrange copies  
             to cover the blue square. This may also be done on paper. 
-        </p>
+          </p>
         <interactive xml:id="Lfillsquare" 
         iframe="https://www.mathigon.org/polypad/embed/OqM1coKhvKsMuw" 
         preview="magnus-ltetromino.png" aspect="16:12"/>
@@ -122,7 +120,7 @@
         </image>-->
         </statement>
       </task>
-      <task>
+      <task label="intro-explore-exptask-IZTpentFillSquare-l" xml:id="intro-explore-exptask-IZTpentFillSquare">
         <statement>
           <p>
             Pictured below are the four other tetrominoes: 
@@ -167,7 +165,7 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task label="intro-explore-exptask-areaPentFilledSquare-l" xml:id="intro-explore-exptask-areaPentFilledSquare">
         <statement>
           <p>
             Since a tetromino is formed by joining four unit squares, each 
@@ -189,7 +187,7 @@
         </statement>
       </task>
     
-      <task xml:id="create-pentominoes">
+      <task label="intro-explore-exptask-create-pentominoes-l" xml:id="intro-explore-exptask-create-pentominoes">
         <statement>
           <p>
             Similarly, we define a <term>pentomino</term> <idx><h>pentomino</h></idx>
@@ -239,7 +237,7 @@
           </p>
         </answer>
       </task>
-      <task xml:id="hiddenapp-pentominofilling">
+      <task label="intro-explore-exptask-hiddenapp-pentominofilling-l" xml:id="intro-explore-exptask-hiddenapp-pentominofilling">
         <statement>
           <p>
             Use some of the pentominoes you created to 
@@ -274,7 +272,7 @@
         </hint>
       </task>
 
-      <task>
+      <task label="intro-explore-exptask-unfillableRectangles-l" xml:id="intro-explore-exptask-unfillableRectangles">
         <statement>
           <p> 
             Are there any rectangles that cannot be filled using 
@@ -282,7 +280,8 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task label="intro-explore-exptask-wonderExp1-l" 
+        xml:id="intro-explore-exptask-wonderExp1">
         <statement>
           <p>
             As you participated in this exploration, what did you 
@@ -296,7 +295,7 @@
         </hint>
       </task>
     </exploration>
-    <exploration>
+    <exploration label="intro-explore-exp-MoreExpPentominoes-l" xml:id="intro-explore-exp-MoreExpPentominoes">
       <title>More Explorations with Pentominoes</title>
         <introduction component="instructor">
           <p>
@@ -305,7 +304,7 @@
             or omitted.
           </p>
         </introduction>
-        <task>
+        <task label="intro-explore-exptask-LabelPentominoes-l" xml:id="intro-explore-exptask-LabelPentominoes">
           <statement>
             <p>
               To simplify our discussion, we can call each pentomino by the letter it 
@@ -333,66 +332,69 @@
             </image>
           </statement>
         </task>
-        <task> 
-          <statement>
+        <task label="intro-explore-exptask-GrowPentominoes-l" xml:id="intro-explore-exptask-GrowPentominoes"> 
+          <introduction>
             <p>
               Observe how a larger copy of the L-pentomino tile can be created by filling 
               it with four different pentominoes:
             </p>
-        <image component="web" source="doublingl.svg" width="40%">
-          <shortdescription>
-            The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
-            F-, and P-pentominoes.
-          </shortdescription>
-        </image>
-        <image component="print" source="doublingl.png" width="40%">
-          <shortdescription>
-            The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
-            F-, and P-pentominoes.
-          </shortdescription>
-        </image>
-        <p>
-        <ol>
-          <li>
+            <image component="web" source="doublingl.svg" width="40%">
+              <shortdescription>
+                The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
+                F-, and P-pentominoes.
+              </shortdescription>
+            </image>
+            <image component="print" source="doublingl.png" width="40%">
+              <shortdescription>
+                The basic L-pentomino next to a L-shaped pentomino built from basic L-, I-,
+                F-, and P-pentominoes.
+              </shortdescription>
+            </image>
+        </introduction>
+        <task label="intro-explore-exptask-growsidesLtile-l" xml:id="intro-explore-exptask-growsidesLtile">
+          <statement>
             <p>
               How are the height and width of the new larger L-tile related to the 
               height and width of the basic L-tile?
             </p>
-          </li>
-          <li>
+          </statement>
+        </task>
+        <task label="intro-explore-exptask-growAreaLtile-l" xml:id="intro-explore-exptask-growAreaLtile">
+          <statement>
             <p>
-              How is the area of the new larger L-tile related to the area of the 
-              basic L-tile?
-            </p>
-          </li>
-          <li>
-            <p>
-              Choose another pentomino from among F, I, P, T, U, W, y, and Z, 
-              and demonstrate how it can be created using four distinct polyominoes.
-              Note that this cannot be done with X or V.
-            </p>
-          </li>
-        </ol>
-      </p>
-      </statement>
-      <hint>
-        <p> Use the interactive Polypad activity below or access a fullscreen 
-          version at Polypad by Amplify using the link  
-          <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">Pentomino Set
-          </url>.
-        </p> 
-        <interactive xml:id="pentominosetonPP"
-        iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
-        preview="pentomino-rectangles.png" aspect="22:15"/>
-      </hint>
-      </task>
-      <task>
+            How is the area of the new larger L-tile related to the area of the 
+            basic L-tile?
+            </p>  
+          </statement>
+        </task>
+          <task label="intro-explore-exptask-growyourtile-l" xml:id="intro-explore-exptask-growyourtile">
+            <statement>
+              <p>
+                Choose another pentomino from among F, I, P, T, U, W, y, and Z, 
+                and demonstrate how it can be created using four distinct polyominoes.
+                Note that this cannot be done with X or V.
+              </p>
+            </statement>
+            <hint>
+              <p> Use the interactive Polypad activity below or access a fullscreen 
+                version at Polypad by Amplify using the link  
+                <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">Pentomino Set
+                </url>.
+              </p> 
+              <interactive xml:id="pentominosetonPP"
+              iframe="https://www.mathigon.org/polypad/embed/TDXu2UNNZgwh2Q" 
+              preview="pentomino-rectangles.png" aspect="22:15"/>
+            </hint>
+          </task>
+        </task>
+      <task label="intro-explore-exptask-tripleVtile-l" xml:id="intro-explore-exptask-tripleVtile">
         <statement>
           <p>
             On the other hand, it is possible to create a copy of the V tile that is 
             three times the height 
             and width of the basic V tile by filling it with nine distinct pentominoes.
             <ol>
+<!-- Keep list format here. These are not separate tasks.-->
               <li>
                 <p>
                   Show how this can be done.
@@ -412,7 +414,8 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task label="intro-explore-exptask-grwthsummary-l" 
+      xml:id="intro-explore-exptask-grwthsummary">
         <statement>
           <p>
             What happens to the area of a figure when its height and width of are doubled?  tripled?  
@@ -488,7 +491,7 @@
           </statement>
         </principle> 
         <p>
-          We applied these two principles in <xref ref="hiddenapp-pentominofilling"/>
+          We applied these two principles in <xref ref="intro-explore-exptask-hiddenapp-pentominofilling"/>
           where we attempted to construct rectangles using pentominoes. Since pentominoes 
           have an area of five square units, we could only construct rectangles with areas 
           divisible by 5, namely 5, 15, 20, 25, 30, 35, 40, 45, 50, 55, and 60. 
@@ -503,7 +506,7 @@
           When we create a new rectangle with length <m>L=2\ell</m> and width <m>W=2w</m>, 
           the resulting area is <m>LW=(2\ell)(2w)=(2\cdot 2)(\ell w)=4\ell w</m> square units.
         </p>
-        <exercise>
+        <exercise label="intro-explore-check-tripleareanine-l" xml:id="intro-explore-check-tripleareanine">
           <title>Check Your Understanding</title>
           <statement>
             <p>
@@ -612,7 +615,7 @@
               Gathering your tools in one section of your notebook would be ideal.
             </p>
           </introduction>
-          <exercise xml:id="exer-intro-expl-toolbox-defarea">
+          <exercise label="intro-expl-toolbox-defarea" xml:id="intro-expl-toolbox-defarea">
             <statement>
               <p>
                 In your own words and illustration(s), describe why the definition 
@@ -620,14 +623,16 @@
                 the case where the length and width are whole numbers.
               </p>
             </statement>
+            <response />
           </exercise>
-          <exercise xml:id="exer-intro-expl-toolbox-addarea">
+          <exercise label="intro-expl-toolbox-addarea-l" xml:id="intro-expl-toolbox-addarea">
             <statement>
               <p>
                 What is meant by <xref ref="principle-areasums" text="custom"> Additivity of Area
                   </xref>? Give an example and describe in your own words. 
               </p>
             </statement>
+            <response />
           </exercise>
         </subexercises>  
         <subexercises xml:id="SAR-intro-exp">
@@ -641,8 +646,8 @@
             appear in education licensure exams.
           </p>
         </introduction>
-        <exercise xml:id="SAR-intro-exp-areas">
-          <statement>
+        <exercise label="intro-exp-SAR-areas-l" xml:id="SAR-intro-exp-areas">
+          <introduction>
             <p>
               Determine the area of each shape in <xref ref="builtrects"/>.
             </p>
@@ -658,23 +663,66 @@
                 </shortdescription>
               </image>
             </figure>
-          </statement>
-          <hint>
-            <p>
-              Break each figure into shapes for which the area can be computed.
-              Then use <xref ref="principle-areasums"/> to find the total area of the
-              region.
-            </p>
-          </hint>
+          </introduction>
+          <task >
+            <statement>
+              <p>
+                Shape 1
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Break each figure into shapes for which the area can be computed.
+                Then use <xref ref="principle-areasums"/> to find the total area of the
+                region. Or think of the figure as residing in a large measurable frame
+                and subtract as appropriate.
+              </p>
+            </hint>
+            <answer>
+              <p>
+                28 square inches
+              </p>
+            </answer>
+            <solution>
+              <p>
+                Several solutions are possible. One is to note that the
+                center is a 2 by 2 square and the four extensions are 2 by 3 
+                rectangles for a total of <m>2\cdot 2+4(2\cdot 3)=28</m> square inches.
+              </p>
+            </solution>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Shape 2
+              </p>
+            </statement>
+            <answer>
+              <p>
+                30
+              </p>
+            </answer>
+            <solution>
+              <p>
+                Several methods are possible. Perhaps, you noticed that the figure 
+                sits in a 7 by 8 rectangle and removed the lower 5 by 5 rectangle and 
+                a 1 by 1 rectangle to get <m>56-25-1=30</m> square inches. This problem 
+                can also be solved by adding three rectangles' areas together.
+              </p>
+            </solution>
+          </task>
         </exercise>
-        <exercise xml:id="SAR-intro-exp-otherarea">
+        <exercise label="intro-exp-SAR-standardpolygonarea-l" xml:id="SAR-intro-exp-standardpolygonarea">
+<!--Consider splitting this problem up into three focusing on the triangle, parallelogram, 
+and trapezoid separately. Use PreFigure to create three separate figures. Will this allow 
+for random problem generation?-->          
           <introduction>
             <p>
-              Refer to <xref ref="exer-introbasicshape-area"/>
+              Refer to <xref ref="fig-exer-introbasicshape-area"/>
               as you answer the following:
             </p>
-            <figure xml:id="exer-introbasicshape-area">
-              <caption>Shapes for <xref ref="SAR-intro-exp-otherarea"/></caption>
+            <figure xml:id="fig-exer-introbasicshape-area">
+              <caption>Shapes for <xref ref="SAR-intro-exp-standardpolygonarea"/></caption>
               <image source="basicshapesareaproblem">
                 <shortdescription>
                   The first two shapes are described in the problem. Trapezoid IJKL 
@@ -685,11 +733,11 @@
               </image>
             </figure>
           </introduction>
-            <task>
+            <task label="intro-exp-SAR-stdpolyarea-recttotri-l" xml:id="intro-exp-SAR-stdpolyarea-recttotri">
               <statement>
                 <p>
                     Find the area of rectangle <m>ABCD</m> with height 14 cm. and 
-                    width 6 cm. Then use your 
+                    width 6 cm given in <xref ref="fig-exer-introbasicshape-area"/>. Then use your 
                     answer to find the area of right triangle <m>\Delta ACD</m>.
                 </p>
               </statement>
@@ -700,59 +748,85 @@
                 </p>
               </hint>
               </task>
-              <task>
-                <statement>
+              <task label="intro-exp-SAR-stdpolyarea-recttoparallelogram-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-recttoparallelogram">
+                <introduction>
                   <p>
-                    Find the area of rectangle <m>MHGN</m> with height <m>NG=6</m> cm.
-                    and width <m>HG=10</m> cm.
+                    In <xref ref="fig-exer-introbasicshape-area"/>, parallelogram has base 10 cm
+                    and height 6 cm, points <m>M</m> and <m>N</m> lie on <m>\overleftrightarrow{EF}</m>
+                    with <m>\angle{HMF}</m> and <m>\angle{GNF}</m> being right angles. 
                   </p>
-                </statement>
-              </task>
-              <task>
-                <statement>
+                </introduction>
+                  <task label="intro-exp-SAR-stdpolyarea-recttoparallelogram-rect-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-recttoparallelogram-rect">
+                    <statement>
+                      <p>
+                        Find the area of rectangle <m>MHGN</m> with height <m>NG=6</m> cm.
+                        and width <m>HG=10</m> cm.
+                      </p>
+                    </statement>
+                  </task>
+                  <task label="intro-exp-SAR-stdpolyarea-recttoparallelogram-pllgrm-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-recttoparallelogram-pillgrm">
+                    <statement>
+                      <p>
+                        What is the area of parallelogram <m>EHGF</m> in <xref ref="fig-exer-introbasicshape-area"/>? How do 
+                        you know?
+                      </p>
+                    </statement>
+                    <response/>
+                    <hint>
+                      <p>
+                        How can you create rectangle <m>MHGN</m> from cutting and 
+                        rearranging pieces of parallelogram <m>EHGF</m>? 
+                      </p>
+                    </hint>
+                  </task>
+                </task>
+              <task label="intro-exp-SAR-stdpolyarea-trapPieces-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-trapPieces">
+                <introduction>
                   <p>
-                    What is the area of parallelogram <m>EHGF</m>? How do 
-                    you know?
+                    In <xref ref="fig-exer-introbasicshape-area"/>, trapezoid <m>ILKJ</m> has bases 
+                    <m>\overline{JK}</m> and <m>\overline{IL}</m> of lengths 16 cm and 10 cm, respectively.
+                    The trapezoid also has right angles at <m>L</m> and <m>K</m>. An altitude is drawn from
+                    <m>I</m> meeting <m>\overline{JK}</m> at a point <m>O</m> such that <m>m(\overline{JO})=6</m> 
+                    cm and <m>m(\overline{IL})=10</m> cm.
                   </p>
-                </statement>
-                <hint>
-                  <p>
-                    How can you create rectangle <m>MHGN</m> from cutting and 
-                    rearranging pieces of parallelogram <m>EHGF</m>? 
-                  </p>
-                </hint>
-              </task>
-              <task>
-                <statement>
-                  <p>
-                    Determine the area of rectangle <m>ILKO</m> with height <m>KL=6</m> cm.
-                  </p>
-                </statement>
-              </task>
-              <task>
-                <statement>
-                  <p>
-                      Determine the area of right triangle <m>IJO</m>.
-                  </p>
-                </statement>
-              </task>          
-              <task>
-                <statement>
-                  <p>
-                    Determine the area of trapezoid <m>IJKL</m>.
-                  </p>
-                </statement>
-                
-                <hint>
-                  <p>
-                    How can you build <m>IJKL</m> from the pieces.
-                  </p>
-                </hint>
-
+                </introduction>
+                <task label="intro-exp-SAR-stdpolyarea-trapPieces-rect-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-trapPieces-rect">
+                  <statement>
+                    <p>
+                      Determine the area of rectangle <m>ILKO</m> with height <m>KL=6</m> cm.
+                    </p>
+                  </statement>
+                </task>
+                <task label="intro-exp-SAR-stdpolyarea-trapPieces-tri-l" 
+              xml:id="intro-exp-SAR-stdpolyarea-trapPieces-tri">
+                  <statement>
+                    <p>
+                        Determine the area of right triangle <m>IJO</m>.
+                    </p>
+                  </statement>
+                </task>          
+                <task label="intro-exp-SAR-stdpolyarea-trapPieces-trap-l" 
+                xml:id="intro-exp-SAR-stdpolyarea-trapPieces-trap">
+                  <statement>
+                    <p>
+                      Determine the area of trapezoid <m>IJKL</m>.
+                    </p>
+                  </statement>
+                  <hint>
+                    <p>
+                      How can you build <m>IJKL</m> from the pieces.
+                    </p>
+                  </hint>
+                </task>
               </task>
             
         </exercise>
-        <exercise xml:id="SAR-intro-exp-numtriominoes">
+        <exercise label="SAR-intro-exp-numtriominoes-l" xml:id="SAR-intro-exp-numtriominoes">
           <statement>
             <p>
               A triomino consists of three <m>1\times 1</m> squares joined at edges.
@@ -772,7 +846,7 @@
             </p>
           </answer>
         </exercise>
-        <exercise xml:id="SAR-intro-exp-hexomino">
+        <exercise label="SAR-intro-exp-hexomino" xml:id="SAR-intro-exp-hexomino">
           <statement>
             <p>
               A hexomino is constructed from six <m>1 \times 1</m> squares. 
@@ -786,7 +860,7 @@
             </p>
           </hint>
         </exercise>
-        <exercise>
+        <exercise label="SAR-intro-exp-heptominoarea-l" xml:id="SAR-intro-exp-heptominoarea">
           <statement>
             <p>
               Jay constructs a solid rectangle using heptomino (seven-square) tiles. 
@@ -801,34 +875,35 @@
             </p>
           </hint>
         </exercise>
-        <exercise>
-          <statement>
-            <p>
-              <ol>
-                <li>
-                  <p>
-                    Show that it is possible to construct a rectangle of area 10 
-                    using pentominoes if you are allowed to reuse the same tile.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Show that if you are allowed to use copies of the same pentomino 
+        <exercise label="SAR-intro-exp-areaRectRepeatedPentom-l" 
+          xml:id="SAR-intro-exp-areaRectRepeatedPentom">
+          <task label="SAR-intro-exp-areaRect10Pentom-l" 
+            xml:id="SAR-intro-exp-areaRect10Pentom">
+            <statement>
+              <p>
+                Show that it is possible to construct a rectangle of area 10 
+                using pentominoes if you are allowed to reuse the same tile.
+              </p>
+            </statement>
+          </task>
+          <task label="SAR-intro-exp-areaRect5nPentom-l" 
+            xml:id="SAR-intro-exp-area5nPentom">
+            <statement>
+              <p>
+                Show that if you are allowed to use copies of the same pentomino 
                     tile multiple times you can construct a rectangle of area  <m>5n</m>  
                     for every whole number  <m>n</m>. 
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </statement>
-          <hint>
-            <p>
-              Use the same tetromino <m>n</m> times. What tetromino is already a 
-              rectangle?
-            </p>
-          </hint>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Use the same tetromino <m>n</m> times. What tetromino is already a 
+                rectangle?
+              </p>
+            </hint>
+          </task>
         </exercise>
-        <exercise>
+        <exercise label="SAR-intro-exp-rectsfromtetrominoes-l" xml:id="SAR-intro-exp-rectsfromtetrominoes">
           <statement>
             <p>
               Sketch all the different rectangles with no gaps or overlaps 
@@ -841,29 +916,32 @@
             </p>
           </statement>
         </exercise>
-        <exercise xml:id="SAR-intro-exp-areamodel">
+        <exercise xml:id="SAR-intro-exp-SAR-areamodel">
           <title>The Area Model for Multiplication</title>
+          <introduction>
+            <p> 
+              This problem illustrates the Area Model for Multiplication, an 
+              effective way of helping elementary school students visualize the operation 
+              of multiplication. <idx><h>area model for multiplication</h></idx>
+            </p>
+          </introduction>
+          <task label="SAR-intro-exp-SAR-areamodel-3x5rect-l" xml:id="SAR-intro-exp-SAR-areamodel-3x5rect">
             <statement>
-              <p> 
-                This problem illustrates the Area Model for Multiplication, an 
-                effective way of helping elementary school students visualize the operation 
-                of multiplication. <idx><h>area model for multiplication</h></idx>
-                <ol>
-                  <li>
-                    <p>
-                      On graph paper sketch a <m>3 \times 5</m> rectangle.  Show the fifteen 
-                      squares that make up the area.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Note that 12 can be factored as <m>1 \times 12</m>, <m>2 \times 6</m>, 
-                      or <m>3 \times 4</m>.  Sketch area models for each of these products.
-                    </p>
-                  </li>
-                </ol>
+              <p>
+                On graph paper sketch a <m>3 \times 5</m> rectangle.  Show the fifteen 
+                squares that make up the area.
               </p>
             </statement>
+          </task>
+          <task label="SAR-intro-exp-SAR-areamodel-area12rects-l" 
+            xml:id="SAR-intro-exp-SAR-areamodel-area12rects">
+            <statement>
+              <p>
+                  Note that 12 can be factored as <m>1 \times 12</m>, <m>2 \times 6</m>, 
+                  or <m>3 \times 4</m>.  Sketch area models for each of these products.
+              </p>
+            </statement>
+          </task>
         </exercise>
       </subexercises>
       <subexercises xml:id="ExtConc-intro-exp">
@@ -916,7 +994,8 @@
             </table>
           </sidebyside>
         </introduction>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-twodigit-4subrects-l" 
+          xml:id="ExtConc-intro-exp-areamodel-twodigit-4subrects">
             <statement>
               <p>
                 Determine the area of each of the four subrectangles pictured. Here, the squares 
@@ -930,14 +1009,16 @@
               </p>
             </hint>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-twodigit-sum-l" 
+          xml:id="ExtConc-intro-exp-areamodel-twodigit-sum">
             <statement>
               <p>
                 Add the four areas of the subrectangles together to find the total area.
               </p>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-twodigit-algorithm-l" 
+            xml:id="ExtConc-intro-exp-areamodel-twodigit-algorithm">
             <statement>
               <p>
                 The standard algorithm to multiply  <m>47 \times 25</m> is shown
@@ -957,7 +1038,8 @@
                 
                 <!--</figure>-->
         </exercise>
-        <exercise xml:id="ExtConc-intro-exp-areamodel-multidigit">
+        <exercise label="ExtConc-intro-exp-areamodel-multidigit-l" 
+          xml:id="ExtConc-intro-exp-areamodel-multidigit">
           <title>Multiplication of Multidigit Numbers</title>
           <statement>
             <p>
@@ -974,7 +1056,8 @@
             </p>
           </hint>
         </exercise>
-        <exercise xml:id="ExtConc-intro-exp-areamodel-fractions">
+        <exercise label="ExtConc-intro-exp-areamodel-fractions-l" 
+          xml:id="ExtConc-intro-exp-areamodel-fractions">
           <title>Modeling the Multiplication of Fractions and Mixed Numbers</title>
           <introduction>
             <p>
@@ -982,7 +1065,8 @@
               has a length of 1. 
             </p>
           </introduction>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-fractionalpts-l" 
+            xml:id="ExtConc-intro-exp-areamodel-fractionalpts">
             <statement>
               <p>
                 Sketch line segments that divide the height of the square
@@ -1000,7 +1084,7 @@
               </figure>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-mixnumcompute-l" xml:id="ExtConc-intro-exp-areamodel-mixnumcompute">
             <statement>
               <p>
                 The sketch in <xref ref="ExtConc-mixednum-areamodel"/>
@@ -1034,25 +1118,27 @@
                   </image>
                 </figure>
               </statement>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  Draw an area model of  <m>\frac{2}{5} \times \frac{3}{4}</m> by dividing 
-                  the unit length into fifths and the unit width into fourths.
-                  Shade and compute the product.  Explain how you find the numerator 
-                  and denominator of the unsimplified fraction from the sketch.
-                </p>
-              </statement>
-          <hint>
-            <p>
-              Begin by drawing a unit square similar to <xref ref="fig-unitsquare"/>,
-              dividing the sides according to the denominators of the fractions.
-            </p>
-          </hint>
+          </task>
+          <task label="ExtConc-intro-exp-areamodel-fraction-usemodel-l" 
+            xml:id="ExtConc-intro-exp-areamodel-fraction-usemodel-l">
+            <statement>
+              <p>
+                Draw an area model of  <m>\frac{2}{5} \times \frac{3}{4}</m> by dividing 
+                the unit length into fifths and the unit width into fourths.
+                Shade and compute the product.  Explain how you find the numerator 
+                and denominator of the unsimplified fraction from the sketch.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Begin by drawing a unit square similar to <xref ref="fig-unitsquare"/>,
+                dividing the sides according to the denominators of the fractions.
+              </p>
+            </hint>
           </task>
         </exercise>
-        <exercise xml:id="ExtConc-intro-exp-areamodel-polynomials">
+        <exercise label="ExtConc-intro-exp-areamodel-polynomials-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials">
           <title>Modeling the Multiplication of Polynomials</title>
           <introduction>
             <p>
@@ -1060,7 +1146,8 @@
               product of polynomials.
             </p>
           </introduction>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-polynomials-xheight-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials-xheight">
             <statement>
               <p>
                 Write the height of the entire rectangle as an algebraic 
@@ -1075,7 +1162,8 @@
               </p>
             </hint>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-polynomials-xwidth-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials-xwidth">
             <statement>
               <p>
                   Write the width of the entire rectangle as an algebraic expression 
@@ -1083,7 +1171,8 @@
               </p>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-polynomials-xareaalg-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials-xareaalg">
             <statement>
               <p>
                 Algebraically compute the area of the entire rectangle as the product 
@@ -1091,7 +1180,8 @@
               </p>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-areamodel-polynomials-xareageo-l" 
+          xml:id="ExtConc-intro-exp-areamodel-polynomials-xareageo">
             <statement>
               <p>
                 Find the area geometrically by finding the areas of the four subrectangles 
@@ -1121,7 +1211,7 @@
             </image>
           </figure>
         </exercise>
-        <exercise xml:id="ExtConc-intro-exp-probability">
+        <exercise label="ExtConc-intro-exp-probability-l" xml:id="ExtConc-intro-exp-probability">
           <title>Area in Probability</title>
           <introduction>
             <sidebyside widths="70% 30%">
@@ -1145,7 +1235,7 @@
                 </figure>
             </sidebyside>
           </introduction>
-          <task>
+          <task label="ExtConc-intro-exp-probability-ways9-l" xml:id="ExtConc-intro-exp-probability-ways9">
             <statement>
               <p>
                 Determine all of the ways that a sum of 9 can occur.
@@ -1158,14 +1248,15 @@
               </p>
             </hint>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-probability-ways6-l" xml:id="ExtConc-intro-exp-probability-ways6">
             <statement>
               <p>
                 List all of the ways that a sum of 6 can be rolled.
               </p>
             </statement>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-probability-histogram-l" 
+            xml:id="ExtConc-intro-exp-probability-histogram">
             <introduction>
               <p>
                 The sketch in <xref ref="histogram-exercise"/> is a bar graph 
@@ -1178,7 +1269,8 @@
                 fact that there are six ways of rolling a sum of 5.
               </p>
             </introduction>
-            <task>
+            <task label="ExtConc-intro-exp-probability-histogramtotal-l"
+              xml:id="ExtConc-intro-exp-probability-histogramtotal">
               <statement>
                 <p>
                   What is the total number of possible rolls?
@@ -1190,7 +1282,8 @@
                 </p>
               </hint>
             </task>
-            <task>
+            <task label="ExtConc-intro-exp-probability-histogram7-l" 
+              xml:id="ExtConc-intro-exp-probability-histogram7">
               <statement>
                 <p>
                   What is the number of rolls resulting in 7?
@@ -1202,7 +1295,7 @@
                 </p>
               </hint>
           </task>
-          <task>
+          <task label="ExtConc-intro-exp-probability-probof7-l" xml:id="ExtConc-intro-exp-probability-probof7">
             <statement>
               <p>
                 The probability of an event is computed by dividing 
@@ -1232,7 +1325,7 @@
       </subexercises>
       <subexercises xml:id="Writing-intro-exp">
         <title>Writing Prompt</title>
-        <exercise xml:id="Writing-intro-exp-autobiography">
+        <exercise label="Writing-intro-exp-autobiography-l" xml:id="Writing-intro-exp-autobiography">
           <title>Mathematical Autobiography</title>
           <p>
             Write an essay (2 to 4 pages) in which you discuss the experiences 
