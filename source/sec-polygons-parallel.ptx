@@ -16,43 +16,39 @@
         <title>What do we remember about lines on a plane?</title>
     <exploration>
         <title>Reflecting on Prior Understanding</title>
-        <task xml:id="parallel-task-describe-line">
-            <statement>
-                <p>
-                    In your own words, write three different endings to the statement, 
-                    <q>A line is ...</q>. Compare your responses to that of your classmates.
-                </p>
-            </statement>
-            <hint>
-                <p>
-                    There are no right or wrong answers!
-                </p>
-            </hint>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    Complete the following sentences:
-                    <ol>
-                        <li>
-                            <p>The sum of the measures of the interior angles of any triangle is ...</p>
-                        </li>
-                        <li>
-                            <p>Two lines in the plane are parallel if ...</p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-            <answer>
-                <p>
-                    This question is also designed to lead to discussion without 
-                    judgement. Students usually agree on 180 degrees for the sum
-                    of the measures of the angles in a triangle. They should give a 
-                    variety of ideas on what parallelism means. For a later question,
-                    we will use nonintersecting to define parallel lines.
-                </p>
-            </answer>
-        </task>
+        <introduction>
+        <p>Complete the following sentences:</p>
+        </introduction>
+            <task xml:id="parallel-task-describe-line">
+                <statement>
+                    <p>
+                        In your own words, write three different endings to the statement, 
+                        <q>A line is ...</q>. Compare your responses to that of your classmates.
+                    </p>
+                </statement>
+                <response />
+            </task>
+            <task xml:id="parallel-task-triangle-angles">
+                <statement>
+                    <p>The sum of the measures of the interior angles of any triangle is ...</p>
+                </statement>
+                <response />
+                <answer>
+                    <p>
+                        This question is also designed to lead to discussion without 
+                        judgement. Students usually agree on 180 degrees for the sum
+                        of the measures of the angles in a triangle. They should give a 
+                        variety of ideas on what parallelism means. For a later question,
+                        we will use nonintersecting to define parallel lines.
+                    </p>
+                </answer>
+            </task>
+            <task xml:id="parallel-task-two-lines">
+                <statement>
+                    <p>Two lines in the plane are parallel if ...</p>
+                </statement>
+                <response />
+            </task>
     </exploration>
 </subsection>
     <subsection xml:id="subsec-polygons-parallel-sphere">
@@ -94,8 +90,9 @@
                         do they satisfy? 
                     </p>
                 </statement>
+                <response />
             </task>
-            <task>
+            <task xml:id="parallel-task-linear-features">
                 <statement>
                     <p>
                         You have probably heard the expression, 
@@ -180,23 +177,25 @@
                     Instructions for virtual version is available in the instructor's note for this section.
                 </p>
             </aside>-->
-            <task>
+            <task xml:id="parallel-task-lattitudes">
                 <statement>
                     <p>
                         Which latitudes, if any, will be lines (great circles) 
                         on a sphere? 
                     </p>
                 </statement>
+                <response />
             </task>
-            <task>
+            <task xml:id="parallel-task-longitudes">
                 <statement>
                     <p>
                         Which longitudes, if any, will be lines on a sphere 
                         according to this definition?
                     </p>
                 </statement>
+                <response />
             </task>
-            <task>
+            <task xml:id="parallel-task-spherical-lines">
                 <statement>
                     <p>
                         In <xref ref="sec-intro-apply"/>, we defined two lines to 
@@ -211,8 +210,9 @@
                         intersect the equator?  Explain. 
                     </p>
                 </statement>
+                <response />
             </task>
-            <task>
+            <task xml:id="parallel-task-spherical-triangle">
                 <statement>
                     <p>
                         What do you expect to be true about the sum of the interior triangles of a 
@@ -222,8 +222,9 @@
                         straight as possible, forming a great circle.
                     </p>
                 </statement>
+                <response />
             </task>
-            <task>
+            <task xml:id="parallel-task-spherical-measurements">
                 <statement>
                     <p>
                         To measure the angles on a sphere, pass a piece of 
@@ -265,7 +266,7 @@
                     </p>
                 </hint>
             </task>
-            <task>
+            <task xml:id="parallel-task-spherical-measurements-repeated">
                 <statement>
                     <p>
                         Repeat the last task two more times so that you have computed 
@@ -280,7 +281,7 @@
                     </p>
                 </hint>
             </task>
-            <task>
+            <task xml:id="parallel-task-largest-triangle">
                 <statement>
                     <p>
                         What is the largest triangle you can make on the sphere?  
@@ -294,7 +295,7 @@
                     </p>
                 </hint>
             </task>
-            <task>
+            <task xml:id="parallel-task-interior-angles-conjecture">
                 <statement>
                     <p>
                         Make a conjecture as to the sum of the measures of the interior angles of a spherical 
@@ -376,32 +377,38 @@
 <exercise>
     <title>Check your Understanding</title>
     <statement>
-<p>
-    Refer to <xref ref="skewlines"/> as you answer the following.
-    <ol>
-        <li>
-            <p>
+        <p>Refer to <xref ref="skewlines"/> as you answer the following.</p>
+    <tasks>
+        <task xml:id="parallel-task-three-dimensional">
+            <statement>
+                <p>
                 In the figure, it looks like <m>\overleftrightarrow{BH}</m>
                 and <m>\overleftrightarrow{EF}</m> should intersect. Explain 
                 why they do not intersect when we think of the figure as a three-dimensional 
                 rectangular box or room.
-            </p>
-        </li>
-        <li>
-            <p>
-                Identify a second line (extension of an edge of the box in the picture) 
-                that would be considered to 
-                be skew to <m>\overleftrightarrow{BH}</m>.
-            </p>
-        </li>
-        <li>
-            <p>
-                How many lines suggested by edges of this box are parallel 
-                to <m>\overleftrightarrow{BH}</m>? Name them.
-            </p>
-        </li>
-    </ol>
-</p>
+                </p>
+            </statement>
+            <response />
+        </task>
+        <task xml:id="parallel-task-second-skew-line">
+            <statement>
+                <p>
+                    Identify a second line (extension of an edge of the box in the picture) 
+                    that would be considered to 
+                    be skew to <m>\overleftrightarrow{BH}</m>.
+                </p>
+            </statement>
+            <response />
+        </task>
+        <task xml:id="parallel-task-identify-parallel-lines">
+            <statement>
+                <p>
+                    How many lines suggested by edges of this box are parallel 
+                    to <m>\overleftrightarrow{BH}</m>? Name them.
+                </p>
+            </statement>
+        </task>
+    </tasks>
 </statement>
 </exercise>
             <p>
@@ -417,13 +424,13 @@
             </p>
             <exploration>
                 <title> Alternate Interior Angles</title>
-                <task>
-                    <statement>
-                        <p>
-                            In the following application, triangle <m>\Delta ABC</m> has been rotated 180 degrees  
-                            about midpoint <m>D</m> of side <m>BC</m> to form <m>\Delta A'C'B'</m>. Note that point 
-                            <m>B'</m> coincides with <m>C</m> and point <m>C'</m> coincides with <m>B</m>.
-                        </p>
+                        <introduction>
+                            <p>
+                                In the following application, triangle <m>\Delta ABC</m> has been rotated 180 degrees  
+                                about midpoint <m>D</m> of side <m>BC</m> to form <m>\Delta A'C'B'</m>. Note that point 
+                                <m>B'</m> coincides with <m>C</m> and point <m>C'</m> coincides with <m>B</m>.  
+                            </p>
+                        </introduction>
                         <figure xml:id="geogebra-app-corres-angles">
                             <caption>
                                 An interactive GeoGebra applet for Exploration on Alternate Interior Angles.
@@ -432,39 +439,40 @@
                                 <slate surface="geogebra" material="ts65chjj"/>
                             </interactive>
                         </figure>
-                        <p>
-                            <ol>
-                                <li>
+                        <tasks>
+                            <task>
+                                <statement>
                                     <p>
                                         What appears to be true about lines <m>\overleftrightarrow{AB}</m> and 
-                                    <m>\overleftrightarrow{CA'}</m>?
+                                        <m>\overleftrightarrow{CA'}</m>?
                                     </p>
-                                </li>
-                                <li>
+                                </statement>
+                                <response />
+                            </task>
+                            <task>
+                                <statement>
                                     <p>
                                         What other two lines appear to have this property?
                                     </p>
-                                </li>
-                                <li>
+                                </statement>
+                                <response />
+                            </task>
+                            <task>
+                                <statement>
                                     <p>
                                         Verify your observation by using the parallel line tool in the app. After selecting 
                                         parallel lines from the line tool menu, click on the line segment it should be parallel 
                                         to and then click on the point it should pass through.
                                     </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
-                        <p>
-                            What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m>
-                            <ol>
-                                <li>
-                                    <p>
-                                        In terms of angle measure? How do you know? 
-                                    </p>
+                                </statement>
+                                <response />
+                            </task>
+                            <task>
+                                <statement>
+                                    <p>What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m>In terms of angle measure? How do you know? </p>
+                                </statement>
+                                <response />
+                            </task>
                                     <aside>
                                         <p>
                                             An angle measurement tool is provided in the app if you choose to use it. Click on the 
@@ -473,22 +481,24 @@
                                             actual measurement.
                                         </p>
                                     </aside>
-                                </li>
-                                <li> 
-                                    <p>
-                                        In terms of their relationship to the parallel lines, <m>\overleftrightarrow{CA'}</m>
-                                        and <m>\overleftrightarrow{AB}</m> and the line <m>\overleftrightarrow{BC}</m>? 
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        In terms of triangle <m>\Delta ABC</m> and its rotated copy <m>\Delta AC'B'</m>?
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </statement>
-                </task>
+                                <task> 
+                                    <statement>
+                                        <p>
+                                            In terms of their relationship to the parallel lines, <m>\overleftrightarrow{CA'}</m>
+                                            and <m>\overleftrightarrow{AB}</m> and the line <m>\overleftrightarrow{BC}</m>? 
+                                        </p>
+                                    </statement>
+                                    <response />
+                                </task>
+                                <task>
+                                    <statement>
+                                        <p>
+                                            In terms of triangle <m>\Delta ABC</m> and its rotated copy <m>\Delta AC'B'</m>?
+                                        </p>
+                                    </statement>
+                                    <response />
+                                </task>
+                        </tasks>
             </exploration>
             <p>
                 When a line cuts across two other lines, we call it a <term>transversal</term> 
@@ -531,7 +541,7 @@
                         different parallel lines and on opposite sides of the transversal.
                     </p>
                     <p>
-                        Angles <m>ABC</m> and <m>GCH</m> are called <term>corresponding
+                        Angles <m>\angle ABC</m> and <m>\angle GCH</m> are called <term>corresponding
                         angles</term> because they lie in the same relative position; in
                         this case to the left of the transversal and below a parallel line.
                     </p>
@@ -674,39 +684,98 @@
         <subexercises xml:id="SAR-polygons-parallel">
             <title>Skills and Recall</title>
             <exercise>
-                <statement>
+                <introduction>
                     <p>
                         In <xref ref="def-angles-by-transversal"/>, a pair of alternate
                         interior angles, a pair of alternate exterior angles, and a pair of 
                         corresponding angles was identified for <xref ref="fig-transversal"/>.
                         Use <xref ref="fig-transversal"/> to identify the following:
                     </p>
-                    <tasks> 
-                    <!-- Add solutions to these tasks?-->
-                        <task>
-                            <statement>
-                                <p>A second pair of alternate interior angles.</p>
-                            </statement>
-                        </task>
-                        <task>
-                            <statement>
-                                <p>A second pair of alternate exterior angles.</p>
-                            </statement>
-                        </task>
-                        <task>
-                            <statement>
-                                <p>Three more pairs of corresponding angles.</p>
-                            </statement>
-                        </task>
-                    </tasks>
-                </statement>
+                </introduction>
+                <tasks> 
+                <!-- Add solutions to these tasks?-->
+                    <task>
+                        <statement>
+                            <p>A second pair of alternate interior angles.</p>
+                        </statement>
+                            <choices multiple-correct="yes">
+                                <choice correct="no">
+                                    <statement>
+                                        <p><m>\angle EBF</m></p>
+                                    </statement>
+                                </choice>
+                                <choice correct="yes">
+                                    <statement>
+                                        <p><m>\angle GCB</m></p>
+                                    </statement>
+                                </choice>
+                                <choice correct="no">
+                                    <statement>
+                                        <p><m>\angle GCH</m></p>
+                                    </statement>
+                                </choice>
+                                <choice correct="yes">
+                                    <statement>
+                                        <p><m>\angle FBC</m></p>
+                                    </statement>
+                                </choice>
+                            </choices>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>A second pair of alternate exterior angles.</p>
+                        </statement>
+                            <choices multiple-correct="yes">
+                                <choice correct="yes">
+                                    <statement>
+                                        <p><m>\angle EBF</m></p>
+                                    </statement>
+                                </choice>
+                                <choice correct="no">
+                                    <statement>
+                                        <p><m>\angle ABC</m></p>
+                                    </statement>
+                                </choice>
+                                <choice correct="no">
+                                    <statement>
+                                        <p><m>\angle DCB</m></p>
+                                    </statement>
+                                </choice>
+                                <choice correct="yes">
+                                    <statement>
+                                        <p><m>\angle GCH</m></p>
+                                    </statement>
+                                </choice>
+                            </choices>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>Three more pairs of corresponding angles.</p>
+                        </statement>
+                            <matches>
+                                <match order="3">
+                                    <premise><p><m>\angle EBF</m></p></premise>
+                                    <response><p><m>\angle BCD</m></p></response>
+                                </match>
+                                <match order="2">
+                                    <premise><p><m>\angle FBC</m></p></premise>
+                                    <response><p><m>\angle DCH</m></p></response>
+                                </match>
+                                <match order="1">
+                                    <premise><p><m>\angle ABE</m></p></premise>
+                                    <response><p><m>\angle GCB</m></p></response>
+                                </match>
+                            </matches>
+                    </task>
+                </tasks>
             </exercise>
             <exercise>
-                <statement>
+                <introduction>
                     <p>
                         In <xref ref="principle-alternate-interior-angles"/>, we claim that
                         alternate interior angles are congruent. 
                     </p>
+                </introduction>
                         <tasks>
                             <task>
                                 <statement>
@@ -716,6 +785,7 @@
                                         <xref ref="fig-transversal"/> have the same angle measure.
                                     </p>
                                 </statement>
+                                <response />
                             </task>
                             <task>
                                 <statement>
@@ -724,9 +794,9 @@
                                         and <m>GCH</m> in <xref ref="fig-transversal"/>must be congruent.
                                     </p>
                                 </statement>
+                                <response />
                             </task>
                         </tasks>
-                </statement>
             </exercise>
             <exercise xml:id="exer-transv-angle-measures">
                 <statement>
@@ -863,7 +933,6 @@
                     </p>
                     <p> 
                         <!--
-                        Not sure how I feel about how this looks on the web version.
                         Is there a better way to break up this exercise?
                         -->
                         Let <m>D</m> be a point 
