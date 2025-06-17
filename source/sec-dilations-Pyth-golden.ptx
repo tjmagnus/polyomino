@@ -681,6 +681,27 @@
             Determine <m>m\angle EFC</m>, <m>m\angle BDE</m>, and <m>m\angle BAC</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            In the previous problem, it was determined that <m>m\angle BAC</m> = 108 degrees.
+            Use triangle similarity to find <m>m\angle EFC</m> and <m>m\angle BDE</m>. Hint - Both <m>\angle EFC</m> and
+            <m>\angle BDE</m> correspond to <m>m\angle BAC</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>m\angle EFC</m> = 108 degrees
+            <m>m\angle BDE</m> = 108 degrees
+            <m>m\angle BAC</m> = 108 degrees
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Triangles <m>\Delta EFC</m> and <m>\Delta BDE</m> are similar to triangle <m>\Delta BAC</m>. This means their
+            corresponding angles are equal. Since <m>m\angle BAC</m> = 108 degrees, both <m>m\angle EFC</m> and <m>m\angle BDE</m>
+            are also 108 degrees.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
@@ -688,6 +709,26 @@
             Determine <m>m\angle FDE</m> and <m>m\angle AFD</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            Use angle similarity and match corresponding angles. Which angle in the larger triangle <m>\Delta ABC</m>
+            corresponds with <m>\angle FDE</m>? What about <m>\angle AFD</m>? Use these relationships to find missing measures.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>m\angle FDE</m> = 30 degrees
+            <m>m\angle AFD</m> = 30 degrees
+          </p>
+        </answer>
+        <solution>
+          <p>
+            When D, E, and F are midpoints on the sides of <m>\Delta ABC</m>, the smaller triangles like <m>\Delta DEF</m>
+            and <m>\Delta ADF</m> are similar to <m>\Delta ABC</m>. This means their corresponding angles are equal. So
+            <m>\angle FDE</m> and <m>\angle AFD</m> both correspond to <m>m\angle C</m>. Since <m>m\angle C</m> is 30 degrees,
+            both <m>m\angle FDE</m> and <m>m\angle AFD</m> are also 30 degrees.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
@@ -695,6 +736,23 @@
             Determine <m>m\angle EFD</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            The interior angles of any triangle always add up to 180 degrees (Triangle Angle Sum Theorem). For <m>\Delta FDE</m>,
+            <m>m\angle FDE</m> and <m>m\angle DEF</m> are already known. Use these two angles measures to find <m>m\angle EFD</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>m\angle EFD</m> = 42 degrees
+          </p>
+        </answer>
+        <solution>
+          <p>
+            It is given that <m>m\angle FDE</m> = 30 degrees and <m>m\angle DEF</m> = 108 degrees. Using the Triangle Angle
+            Sum Theorem, <m>m\angle EFD</m> is calculated as: 180 - (108 + 30) = 42 degrees.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
@@ -703,13 +761,51 @@
             sure to list the vertices in order.
           </p>
         </statement>
+        <hint>
+          <p>
+            Use the Midpoint Theorem to identify four triangles formed by connecting midpoints. These triangles are all
+            similar to the original triangle, <m>\Delta ABC</m>. 
+          </p>
+        </hint>
+        <answer>
+          <p>
+            Four triangles similar to <m>\Delta ABC</m> include: <m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>,
+            and <m>\Delta FEC</m>.
+          </p> 
+        </answer>
+        <solution>
+          <p>
+            When D, E, and F are the midpoints of the sides of triangle <m>\Delta ABC</m>, connecting them forms four smaller triangles.
+            All four of these triangles (<m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>, and <m>\Delta FEC</m>) are similar to
+            the original triangle <m>\Delta ABC</m>. This means that each smaller triangle is a miniature copy of the larger triangle
+            <m>\Delta ABC</m>. Therefore, all angles within these four smaller triangles perfectly match the corresponding angles in
+            <m>\Delta ABC</m>.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
           <p>
-                Determine the length of <m>\overline{AF}</m>. Support your answer.
+            Determine the length of <m>\overline{AF}</m>. Support your answer.
           </p>
         </statement>
+        <hint>
+          <p>
+            Use the definition of a midpoint. What does a midpoint do to a line segment?
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The length of <m>\overline{AF}</m> is 5.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Point F is the midpoint of side <m>\overline{AC}</m>, meaning it divides the side exactly in half. Since the total
+            length of <m>\overline{AC}</m> is 10, the length of <m>\overline{AF}</m> is half of that. Therefore, the length of
+            <m>\overline{AC}</m> is 5.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
@@ -717,6 +813,25 @@
             Determine the length of <m>\overline{DF}</m>. Support your answer.
           </p>
         </statement>
+        <hint>
+          <p>
+            Line segment <m>\overline{DF}</m> connects points D and F. Since both are midpoints, the Midsegment Theorem applies.
+            This theorem helps find the length of a line segment that connects two midpoints of a triangle.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The length of <m>\overline{DF}</m> is 7.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            When D and F are the midpoints of sides <m>\overline{AB}</m> and <m>\overline{AC}</m>, they create a midsegment
+            called <m>\overline{DF}</m>. The Midsegment Theorem states that this segment is always half the length of the
+            triangle's third side, <m>\overline{BC}</m>. Since <m>\overline{BC}</m> measures 14, <m>\overline{DF}</m> is
+            exactly half of that, making it 7.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
@@ -725,6 +840,26 @@
             What is the center and scale factor of this dilation?
           </p>
         </statement>
+        <hint>
+          <p>
+            For the center of this dilation, find the vertex that is shared by both <m>\Delta ABC</m> and <m>\Delta FEC</m>.
+            For scale factor, consider how the sides of <m>\Delta FEC</m> are smaller because F and E are midpoints.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            Center of Dilation: Point C
+            Scale Factor: <m>\frac{1}{2}</m>
+          </p>
+        </answer>
+        <solution>
+          <p>
+            Point C is the center of dilation because it is the shared corner between <m>\Delta ABC</m> and <m>\Delta FEC</m>.
+            The scale factor is <m>\frac{1}{2}</m>. This is because the new triangle <m>\Delta FEC</m> has sides such as 
+            <m>\overline{FC}</m> that are exactly are half the length of the matching side <m>\overline{AC}</m> in the
+            original triangle.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
@@ -738,6 +873,19 @@
             See <xref ref="table-def-obj-4"/>.
           </p>
         </hint>
+        <answer>
+          <p>
+            Type of Isometry: Translation
+            Defining Object(s): Translation Vector
+          </p>
+        </answer>
+        <solution>
+          <p>
+            This movement is a translation. It means <m>\Delta DEB</m> simply slides over to become <m>\Delta FCE</m>,
+            without rotating or flipping. Every point in <m>\Delta DEB</m> moves the same distance and in the same direction to 
+            align exactly with <m>\Delta FCE</m>.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
@@ -752,6 +900,18 @@
             as well.
           </p>
         </hint>
+        <answer>
+          <p>
+            Type of Isometry: Rotation
+            Defining Object(s): Center and Rotational Angle
+          </p>
+        </answer>
+        <solution>
+          <p>
+            This a rotation with exactly one fixed point, the midpoint of <m>\overline{DF}</m>. Rotating <m>\Delta ADF</m> 
+            180 degrees about this point aligns it exactly with <m>\Delta EFD</m>.
+          </p>
+        </solution>
       </task>
     </exercise>
   </subexercises>
