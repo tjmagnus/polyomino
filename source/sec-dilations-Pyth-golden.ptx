@@ -689,9 +689,11 @@
           </p>
         </hint>
         <answer>
-          <p><m>m\angle EFC=108</m> degrees</p>
-          <p><m>m\angle BDE=108</m> degrees</p>
-          <p><m>m\angle BAC=108</m> degrees</p>
+          <p>
+            <m>m\angle EFC=108</m> degrees,
+            <m>m\angle BDE=108</m> degrees,
+            <m>m\angle BAC=108</m> degrees
+          </p>
         </answer>
         <solution>
           <p>
@@ -714,8 +716,10 @@
           </p>
         </hint>
         <answer>
-          <p><m>m\angle FDE=30</m> degrees</p>
-          <p><m>m\angle AFD=30</m> degrees</p>
+          <p>
+            <m>m\angle FDE=30</m> degrees,
+            <m>m\angle AFD=30</m> degrees
+          </p>
         </answer>
         <solution>
           <p>
@@ -866,8 +870,10 @@
           </p>
         </hint>
         <answer>
-          <p>Type of Isometry: Translation</p>
-          <p>Defining Object(s): Translation Vector</p>
+          <p>
+            Type of Isometry: Translation,
+            Defining Object(s): Translation Vector
+          </p>
         </answer>
         <solution>
           <p>
@@ -891,8 +897,10 @@
           </p>
         </hint>
         <answer>
-          <p>Type of Isometry: Rotation</p>
-          <p>Defining Object(s): Center and Rotational Angle</p>
+          <p>
+            Type of Isometry: Rotation,
+            Defining Object(s): Center and Rotational Angle
+          </p>
         </answer>
         <solution>
           <p>
