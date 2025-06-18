@@ -656,7 +656,7 @@
       <task>
         <statement>
           <p>
-            Determine <m>m\angle DEB</m> and <m>m\angle BAC</m>.
+            Determine <m>m\angle DEB</m>.
           </p>
         </statement>
         <hint>
@@ -683,17 +683,15 @@
         </statement>
         <hint>
           <p>
-            In the previous problem, it was determined that <m>m\angle BAC=108</m> degrees.
-            Use triangle similarity to find <m>m\angle EFC</m> and <m>m\angle BDE</m>. Hint - Both <m>\angle EFC</m> and
+            Based on the Triangle Angle Sum Theorem, <m>m\angle BAC=108</m> degrees.
+            Use triangle similarity to find <m>m\angle EFC</m> and <m>m\angle BDE</m>. Hint...Both <m>\angle EFC</m> and
             <m>\angle BDE</m> correspond to <m>m\angle BAC</m>.
           </p>
         </hint>
         <answer>
-          <p>
-            <m>m\angle EFC=108</m> degrees
-            <m>m\angle BDE=108</m> degrees
-            <m>m\angle BAC=108</m> degrees
-          </p>
+          <p><m>m\angle EFC=108</m> degrees</p>
+          <p><m>m\angle BDE=108</m> degrees</p>
+          <p><m>m\angle BAC=108</m> degrees</p>
         </answer>
         <solution>
           <p>
@@ -716,10 +714,8 @@
           </p>
         </hint>
         <answer>
-          <p>
-            <m>m\angle FDE=30</m> degrees
-            <m>m\angle AFD=30</m> degrees
-          </p>
+          <p><m>m\angle FDE=30</m> degrees</p>
+          <p><m>m\angle AFD=30</m> degrees</p>
         </answer>
         <solution>
           <p>
@@ -801,7 +797,7 @@
           <p>
             Point F is the midpoint of side <m>\overline{AC}</m>, meaning it divides the side exactly in half. Since the total
             length of <m>\overline{AC}</m> is 10, the length of <m>\overline{AF}</m> is half of that. Therefore, the length of
-            <m>\overline{AC}</m> is 5.
+            <m>\overline{AF}</m> is 5.
           </p>
         </solution>
       </task>
@@ -845,10 +841,8 @@
           </p>
         </hint>
         <answer>
-          <p>
-            Center of Dilation: Point C
-            Scale Factor: <m>\frac{1}{2}</m>
-          </p>
+          <p>Center of Dilation: Point C</p>
+          <p>Scale Factor: <m>\frac{1}{2}</m></p>
         </answer>
         <solution>
           <p>
@@ -872,10 +866,8 @@
           </p>
         </hint>
         <answer>
-          <p>
-            Type of Isometry: Translation
-            Defining Object(s): Translation Vector
-          </p>
+          <p>Type of Isometry: Translation</p>
+          <p>Defining Object(s): Translation Vector</p>
         </answer>
         <solution>
           <p>
@@ -899,10 +891,8 @@
           </p>
         </hint>
         <answer>
-          <p>
-            Type of Isometry: Rotation
-            Defining Object(s): Center and Rotational Angle
-          </p>
+          <p>Type of Isometry: Rotation</p>
+          <p>Defining Object(s): Center and Rotational Angle</p>
         </answer>
         <solution>
           <p>
