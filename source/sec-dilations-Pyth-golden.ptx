@@ -763,23 +763,21 @@
         </statement>
         <hint>
           <p>
-            Use the Midpoint Theorem to identify four triangles formed by connecting midpoints. These triangles are all
-            similar to the original triangle, <m>\Delta ABC</m>. 
+            Imagine <m>\Delta ABC</m> as the big triangle. If lines are drawn inside it that are parallel to its sides, 
+            smaller triangles are made. These smaller triangles will have the same angles as the big one, <m>\Delta ABC</m>. 
           </p>
         </hint>
         <answer>
           <p>
-            Four triangles similar to <m>\Delta ABC</m> include: <m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>,
-            and <m>\Delta FEC</m>.
+            The four smaller triangles that are similar to <m>\Delta ABC</m> include: <m>\Delta EFD</m>, <m>\Delta ADF</m>, 
+            <m>\Delta DBE</m>, and <m>\Delta FEC</m>.
           </p> 
         </answer>
         <solution>
           <p>
-            When D, E, and F are the midpoints of the sides of triangle <m>\Delta ABC</m>, connecting them forms four smaller triangles.
-            All four of these triangles (<m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>, and <m>\Delta FEC</m>) are similar to
-            the original triangle <m>\Delta ABC</m>. This means that each smaller triangle is a miniature copy of the larger triangle
-            <m>\Delta ABC</m>. Therefore, all angles within these four smaller triangles perfectly match the corresponding angles in
-            <m>\Delta ABC</m>.
+            Drawing lines parallel to the sides of triangle <m>\Delta ABC</m> creates smaller triangles. Parallel lines
+            ensure two matching angles. Since all angles in a triangle add up to 180 degrees (Angle Sum Theorem), the third angle
+            must also match. Thus, the smaller triangles are similar to triangle <m>\Delta ABC</m>.
           </p>
         </solution>
       </task>
