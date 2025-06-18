@@ -243,7 +243,7 @@
             <task>
               <statement>
                 <p>
-                  What other triangle is similar to triangle <m>\Delta ABC</m>?
+                  What other triangle is similar to triangle <m>\Delta ABC?</m>
                   Be sure to write the letters in the order of corresponding
                   vertices.
               </p>
@@ -298,7 +298,7 @@
                   Equating <m>a^2+b^2</m> with <m>BC\cdot BC+AC\cdot AC</m>,
                   substitute the righthand expressions from the equations in
                   the first two parts of this task. Then add the expressions.
-                  Do you get <m>c^2</m>? Show all work.
+                  Do you get <m>c^2?</m> Show all work.
               </p>
               </statement>
             </task>
@@ -338,7 +338,7 @@
     <task>
       <statement>
         <p>
-          What is the measure of the third angle <m>\angle ACB</m>?
+          What is the measure of the third angle <m>\angle ACB?</m>
         </p>
       </statement>
     </task>
@@ -479,7 +479,7 @@
           <p>
             The area tool is under the angle menu. What is the ratio of
             the areas of similar triangles <m>\Delta ABC</m> and 
-            <m>\Delta BDA</m>? How is this number related to the ratio of 
+            <m>\Delta BDA?</m> How is this number related to the ratio of 
             the corresponding sides?
           </p>
         </statement>
@@ -557,7 +557,7 @@
     <task>
       <statement>
         <p>
-          Draw segment <m>\overline{AD}</m>. What type of triangle is <m>\Delta EAD</m>?
+          Draw segment <m>\overline{AD}</m>. What type of triangle is <m>\Delta EAD?</m>
         </p>
       </statement>
     </task>
@@ -578,7 +578,7 @@
     <task>
       <statement>
         <p>
-          Construct <m>\overline{BD}</m>. What is the measure of <m>\angle CDE</m>?
+          Construct <m>\overline{BD}</m>. What is the measure of <m>\angle CDE?</m>
           How do you know?
         </p>
       </statement>
@@ -614,8 +614,8 @@
       <task>
         <statement>
           <p>
-            What type of triangle is <m>\Delta DFC</m>? How is it related to 
-            <m>\Delta ADB</m>?
+            What type of triangle is <m>\Delta DFC?</m> How is it related to 
+            <m>\Delta ADB?</m>
           </p>
         </statement>
       </task>
@@ -712,7 +712,7 @@
         <hint>
           <p>
             Use angle similarity and match corresponding angles. Which angle in the larger triangle <m>\Delta ABC</m>
-            corresponds with <m>\angle FDE</m>? What about <m>\angle AFD</m>? Use these relationships to find missing measures.
+            corresponds with <m>\angle FDE?</m> What about <m>\angle AFD?</m> Use these relationships to find missing measures.
           </p>
         </hint>
         <answer>
