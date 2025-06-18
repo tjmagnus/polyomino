@@ -683,22 +683,22 @@
         </statement>
         <hint>
           <p>
-            In the previous problem, it was determined that <m>m\angle BAC</m> = 108 degrees.
+            In the previous problem, it was determined that <m>m\angle BAC=108</m> degrees.
             Use triangle similarity to find <m>m\angle EFC</m> and <m>m\angle BDE</m>. Hint - Both <m>\angle EFC</m> and
             <m>\angle BDE</m> correspond to <m>m\angle BAC</m>.
           </p>
         </hint>
         <answer>
           <p>
-            <m>m\angle EFC</m> = 108 degrees
-            <m>m\angle BDE</m> = 108 degrees
-            <m>m\angle BAC</m> = 108 degrees
+            <m>m\angle EFC=108</m> degrees
+            <m>m\angle BDE=108</m> degrees
+            <m>m\angle BAC=108</m> degrees
           </p>
         </answer>
         <solution>
           <p>
             Triangles <m>\Delta EFC</m> and <m>\Delta BDE</m> are similar to triangle <m>\Delta BAC</m>. This means their
-            corresponding angles are equal. Since <m>m\angle BAC</m> = 108 degrees, both <m>m\angle EFC</m> and <m>m\angle BDE</m>
+            corresponding angles are equal. Since <m>m\angle BAC=108</m> degrees, both <m>m\angle EFC</m> and <m>m\angle BDE</m>
             are also 108 degrees.
           </p>
         </solution>
@@ -717,8 +717,8 @@
         </hint>
         <answer>
           <p>
-            <m>m\angle FDE</m> = 30 degrees
-            <m>m\angle AFD</m> = 30 degrees
+            <m>m\angle FDE=30</m> degrees
+            <m>m\angle AFD=30</m> degrees
           </p>
         </answer>
         <solution>
@@ -744,12 +744,12 @@
         </hint>
         <answer>
           <p>
-            <m>m\angle EFD</m> = 42 degrees
+            <m>m\angle EFD=42</m> degrees
           </p>
         </answer>
         <solution>
           <p>
-            It is given that <m>m\angle FDE</m> = 30 degrees and <m>m\angle DEF</m> = 108 degrees. Using the Triangle Angle
+            It is given that <m>m\angle FDE=30</m> degrees and <m>m\angle DEF=108</m> degrees. Using the Triangle Angle
             Sum Theorem, <m>m\angle EFD</m> is calculated as: 180 - (108 + 30) = 42 degrees.
           </p>
         </solution>
@@ -776,7 +776,7 @@
         <solution>
           <p>
             Drawing lines parallel to the sides of triangle <m>\Delta ABC</m> creates smaller triangles. Parallel lines
-            ensure two matching angles. Since all angles in a triangle add up to 180 degrees (Angle Sum Theorem), the third angle
+            ensure two matching angles. Since all angles in a triangle add up to 180 degrees (Triangle Angle Sum Theorem), the third angle
             must also match. Thus, the smaller triangles are similar to triangle <m>\Delta ABC</m>.
           </p>
         </solution>
