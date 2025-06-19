@@ -480,7 +480,7 @@
                 <caption>Template for <m>\{_{1}^{7}\}</m>.</caption>
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle1">
-                    <diagram width="250" height="250" margins="10">
+                    <diagram width="225" height="225" margins="10">
                       <definition>
                         alignments=['nw','w','sw','sw','e','ne','n']
                       </definition>
@@ -525,7 +525,7 @@
                 <caption>Template for <m>\{_{2}^{7}\}</m>.</caption>
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle2">
-                    <diagram width="250" height="250" margins="10">
+                    <diagram width="225" height="225" margins="10">
                       <definition>
                         alignments=['nw','w','sw','sw','e','ne','n']
                       </definition>
@@ -570,7 +570,7 @@
                 <caption>Template for <m>\{_{3}^{7}\}</m>.</caption>
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle3">
-                    <diagram width="250" height="250" margins="10">
+                    <diagram width="225" height="225" margins="10">
                       <definition>
                         alignments=['nw','w','sw','sw','e','ne','n']
                       </definition>
