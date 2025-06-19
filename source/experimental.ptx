@@ -3,6 +3,8 @@
 <figure label="label-invent-an-identifier" xml:id="fig-invent-an-identifier-no-spaces">
   <caption>Write a short caption to appear below the figure.</caption>
   <image>
+  <shortdescription>Write something that will help a visually challenged user know
+  what is in the image.</shortdescription>
 <diagram dimensions="(300,300)" margins="5">
   <definition>f(x,q,s)=((tan(q))*x)/(tan(q)+tan(s))</definition>
   <definition>g(x,q,s)=x/((tan(q))^(-1)+(tan(s))^(-1))</definition>
