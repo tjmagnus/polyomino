@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.0';
+eBookConfig.runestone_version = '7.8.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.242116c5bc6b6581.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -423,7 +423,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with More Than Six Vertices</span></a></div></li>
+</ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -525,9 +528,10 @@ eBookConfig.enable_chatcodes =  false;
 </div></article><figure class="figure figure-like" id="illus-playfair"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/oneparallel.svg" class="contained"></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.4<span class="period">.</span></span><span class="space"> </span>Exactly one line through <span class="process-math">\(P\)</span> parallel to line <span class="process-math">\(m\text{.}\)</span></figcaption></figure><div class="para" id="subsec-understanding-parallel-5">In order to be parallel, two lines must lie in the same plane. If you are reading this indoors, you probably have a wall in front of you and a wall somewhere to your right. The line where the ceiling meets the wall in front of you will never intersect the line formed by the intersection of the floor and the wall to your right. Still, we do not consider these two lines to be parallel because there is no plane containing both lines. Instead, we say that these are <dfn class="terminology">skew lines</dfn>.</div>
 <aside class="aside aside-like" id="subsec-understanding-parallel-6"><div class="para" id="subsec-understanding-parallel-6-1">Although it appears that the two lines meet on the right, that is only a result of displaying a three-dimensional image on a two-dimensional surface. In reality, the top back line stays at the level of the ceiling and the lower front line stays on the floor. They do not meet.</div></aside><figure class="figure figure-like" id="skewlines"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/skew.svg" role="img" class="contained" alt="Rectangular box: front face has vertices A, B, C, and D counterclockwise starting in lower left corner. On the back face, the verices G, H, F, and E are counterclockwise starting in lower left, so that edges AG, BH, CF, and DE join the front and back faces."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.5<span class="period">.</span></span><span class="space"> </span>Illustrating skew lines as edges on a rectangular room.</figcaption></figure><details id="subsec-understanding-parallel-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.5<span class="period">.</span></span><span class="space"> </span>Illustrating skew lines as edges on a rectangular room.</figcaption></figure><article class="exercise exercise-like" id="subsec-understanding-parallel-8"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.3.6</span><span class="period">.</span><span class="space"> </span><span class="title">Check your Understanding.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="para logical" id="subsec-understanding-parallel-8-2-1">
+</h4>
+<div class="para logical" id="subsec-understanding-parallel-8-2-1">
 <div class="para">Refer to <a href="sec-polygons-parallel.html#skewlines" class="xref" data-knowl="./knowl/xref/skewlines.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.3.5">Figure 2.3.5</a> as you answer the following.</div>
 <ol class="decimal" id="subsec-understanding-parallel-8-2-1-2">
 <li id="subsec-understanding-parallel-8-2-1-2-1"><div class="para" id="subsec-understanding-parallel-8-2-1-2-1-1">In the figure, it looks like <span class="process-math">\(\overleftrightarrow{BH}\)</span> and <span class="process-math">\(\overleftrightarrow{EF}\)</span> should intersect. Explain why they do not intersect when we think of the figure as a three-dimensional rectangular box or room.</div></li>
@@ -535,7 +539,7 @@ eBookConfig.enable_chatcodes =  false;
 </div></li>
 <li id="subsec-understanding-parallel-8-2-1-2-3"><div class="para" id="subsec-understanding-parallel-8-2-1-2-3-1">How many lines suggested by edges of this box are parallel to <span class="process-math">\(\overleftrightarrow{BH}\text{?}\)</span> Name them.</div></li>
 </ol>
-</div></article></details><div class="para" id="subsec-understanding-parallel-9">We also observed that angle measures in spherical triangles did not behave in the way that Euclidean triangles do. This suggests that the measures of angles may be related to the parallel postulate. Indeed the two concepts are closely connected. In <a href="sec-polygons-angles.html#subsec-polygons-angles-triangle" class="internal" title="Subsection 2.2.3: Angles of a Triangle">Subsection 2.2.3</a>, we rotated a triangle 180 degrees about a midpoint of one of its sides and again around the midpoint of a second side. We then observed that the three angles formed a line when placed side by side at a vertex. We now look at that exploration in the context of parallelism.</div>
+</div></article><div class="para" id="subsec-understanding-parallel-9">We also observed that angle measures in spherical triangles did not behave in the way that Euclidean triangles do. This suggests that the measures of angles may be related to the parallel postulate. Indeed the two concepts are closely connected. In <a href="sec-polygons-angles.html#subsec-polygons-angles-triangle" class="internal" title="Subsection 2.2.3: Angles of a Triangle">Subsection 2.2.3</a>, we rotated a triangle 180 degrees about a midpoint of one of its sides and again around the midpoint of a second side. We then observed that the three angles formed a line when placed side by side at a vertex. We now look at that exploration in the context of parallelism.</div>
 <article class="exploration project-like" id="subsec-understanding-parallel-10"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">2.3.4</span><span class="period">.</span><span class="space"> </span><span class="title">Alternate Interior Angles.</span>
 </h4>

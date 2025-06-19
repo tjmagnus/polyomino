@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.0';
+eBookConfig.runestone_version = '7.8.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.242116c5bc6b6581.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -423,7 +423,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with More Than Six Vertices</span></a></div></li>
+</ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -461,9 +464,10 @@ eBookConfig.enable_chatcodes =  false;
 </h3>
 <div class="para" id="subsec-Isom-mystery-review-2">We know that an isometry is a transformation (or function) that preserves the measures of lines and angles.  The original object and its image under an isometry are always congruent to each other.  It turns out if we are given any two congruent figures in the plane there is an isometry that maps one of the figures onto the other.</div>
 <div class="para" id="subsec-Isom-mystery-review-3">In the exploration that follows, you will be given a pair of congruent figures for which you will determine the associated isometry that takes one figure to the other. You will need to use your recently-acquired knowledge about the four types of isometries. To prepare for the challenging detective work that lies ahead, open and complete <a href="sec-isom-mystery-isometries.html#checkpt-review-4isoms" class="xref" data-knowl="./knowl/xref/checkpt-review-4isoms.html" data-reveal-label="Reveal" data-close-label="Close" title="Checkpoint 4.5.1: Isometry Review and Tools">Checkpoint 4.5.1</a>.</div>
-<details id="checkpt-review-4isoms" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<article class="exercise exercise-like" id="checkpt-review-4isoms"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Isometry Review and Tools.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><article class="task exercise-like" id="checkpt-review-4isoms-2"><h5 class="heading">
+</h4>
+<article class="task exercise-like" id="checkpt-review-4isoms-2"><h5 class="heading">
 <span class="codenumber">(a)</span><span class="space"> </span><span class="title">Orientation Review.</span>
 </h5>
 <div class="para" id="checkpt-review-4isoms-2-2-1">
@@ -571,7 +575,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="solutions"><details id="checkpt-review-4isoms-7-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="checkpt-review-4isoms-7-4-2-1">yes</div></div></details></div></article><article class="task exercise-like" id="checkpt-review-4isoms-7-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
 <div class="para" id="checkpt-review-4isoms-7-5-1-1">On the sketch construct the midpoints of each of the segments <span class="process-math">\(\overline{PP'}\)</span> from a vertex <span class="process-math">\(P\)</span> of <span class="process-math">\(\Delta ABC\)</span> to its final image <span class="process-math">\(P''\)</span> on <span class="process-math">\(\Delta A''B''C''\text{.}\)</span>  What information do these midpoints give you?</div>
 <div class="solutions"><details id="checkpt-review-4isoms-7-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="checkpt-review-4isoms-7-5-2-1">The reflecting line will pass through these midpoints.</div></div></details></div></article><article class="task exercise-like" id="checkpt-review-4isoms-7-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
-<div class="para" id="checkpt-review-4isoms-7-6-1-1">What strategy could you use to find the reflecting line and translation vector for a glide reflection if you only have the original figure and final image?</div></article></article></article></details></section><section class="subsection" id="sec-isom-mystery-isometries-4"><h3 class="heading hide-type">
+<div class="para" id="checkpt-review-4isoms-7-6-1-1">What strategy could you use to find the reflecting line and translation vector for a glide reflection if you only have the original figure and final image?</div></article></article></article></section><section class="subsection" id="sec-isom-mystery-isometries-4"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.5.2</span><span class="space"> </span><span class="title">Solving the Mysteries</span>
 </h3>
 <div class="para" id="sec-isom-mystery-isometries-4-2">Now it is time to apply our knowledge! In the next activity, each task has a pair of congruent figures. In each of the tasks, you will determine the type of isometry that maps the original figure to its image and then to sketch the defining objects (the reflecting line, translation vector, and/or center). In the case of a rotation, also determine the angle of rotation and whether the rotation is clockwise or counterclockwise.</div>

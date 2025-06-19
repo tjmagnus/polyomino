@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.0';
+eBookConfig.runestone_version = '7.8.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.242116c5bc6b6581.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -423,7 +423,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with More Than Six Vertices</span></a></div></li>
+</ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -511,9 +514,10 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="space"> </span><span class="title">Defining Dilation</span>
 </h3>
 <div class="para" id="subsec-dilation-terminology-2">In <a href="sec-dilations-Cartesian.html#task-dilate-quad-graph" class="xref" data-knowl="./knowl/xref/task-dilate-quad-graph.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.1.1.a.iii: Dilating the Quadrilateral">Task 5.1.1.a.iii</a>, you constructed the <dfn class="terminology">image</dfn> of quadrilateral <span class="process-math">\(ABCD\)</span> under a geometric transformation that doubled the sides of the figure. We call this type of transformation a <dfn class="terminology">dilation</dfn>. <a href="sec-dilations-Cartesian.html#chkpt-notice-dilation" class="xref" data-knowl="./knowl/xref/chkpt-notice-dilation.html" data-reveal-label="Reveal" data-close-label="Close" title="Checkpoint 5.1.3: Did you notice?">Checkpoint 5.1.3</a> encourages you to reflect on the key ideas that appeared in <a href="sec-dilations-Cartesian.html#explor-magnify-quad" class="xref" data-knowl="./knowl/xref/explor-magnify-quad.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.1.1: Constructing a Dilated Quadrilateral">Exploration 5.1.1</a>. These properties will be useful as we work through this chapter.</div>
-<details id="chkpt-notice-dilation" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<article class="exercise exercise-like" id="chkpt-notice-dilation"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Did you notice?</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="chkpt-notice-dilation-2"><div class="para" id="chkpt-notice-dilation-2-1">A few properties related to dilations appeared in <a href="sec-dilations-Cartesian.html#explor-magnify-quad" class="xref" data-knowl="./knowl/xref/explor-magnify-quad.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.1.1: Constructing a Dilated Quadrilateral">Exploration 5.1.1</a>. Answer the following:</div></div>
+</h4>
+<div class="introduction" id="chkpt-notice-dilation-2"><div class="para" id="chkpt-notice-dilation-2-1">A few properties related to dilations appeared in <a href="sec-dilations-Cartesian.html#explor-magnify-quad" class="xref" data-knowl="./knowl/xref/explor-magnify-quad.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.1.1: Constructing a Dilated Quadrilateral">Exploration 5.1.1</a>. Answer the following:</div></div>
 <article class="task exercise-like" id="chkpt-notice-dilation-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="chkpt-notice-dilation-3-1-1">Does a dilation preserve the shape of figures?</div>
 <div class="solutions"><details id="chkpt-notice-dilation-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="chkpt-notice-dilation-3-2-1">Yes, dilations preserve shape.</div></div></details></div></article><article class="task exercise-like" id="chkpt-notice-dilation-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
@@ -526,7 +530,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="chkpt-notice-dilation-6-1-1">If <span class="process-math">\(P\)</span> is a point and <span class="process-math">\(P'\)</span> is its image under a dilation, what other point must lie on line <span class="process-math">\(\overleftrightarrow{PP'}\)</span> ?</div>
 <div class="solutions"><details id="chkpt-notice-dilation-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="chkpt-notice-dilation-6-2-1">The line <span class="process-math">\(\overleftrightarrow{PP'}\)</span> must pass through the center of the dilation.</div></div></details></div></article><article class="task exercise-like" id="chkpttask-scale-half"><h5 class="heading"><span class="codenumber">(e)</span></h5>
 <div class="para" id="chkpttask-scale-half-1-1">What is the image of quadrilateral <span class="process-math">\(A'B'C'D'\text{,}\)</span> created in <a href="sec-dilations-Cartesian.html#explor-magnify-quad" class="xref" data-knowl="./knowl/xref/explor-magnify-quad.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.1.1: Constructing a Dilated Quadrilateral">Exploration 5.1.1</a> under the dilation with center <span class="process-math">\((0,0)\)</span> and scale factor <span class="process-math">\(\frac{1}{2}\text{?}\)</span>
-</div></article></article></details><article class="definition definition-like" id="def-dilation"><h4 class="heading">
+</div></article></article><article class="definition definition-like" id="def-dilation"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1.4</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="def-dilation-6-1">
@@ -539,9 +543,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">Point <span class="process-math">\(P'\)</span> is called the <dfn class="terminology">image</dfn> of <span class="process-math">\(P\)</span> under the dilation.</div>
 </div> <div class="para" id="def-dilation-6-2">Although the word dilation suggests enlarging, a dilation may instead scale down as seen in <a href="sec-dilations-Cartesian.html#chkpttask-scale-half" class="xref" data-knowl="./knowl/xref/chkpttask-scale-half.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.1.3.e">Task 5.1.3.e</a>.</div></article><div class="para" id="subsec-dilation-terminology-5">The dilation in <a href="sec-dilations-Cartesian.html#fig-dilate-quad-sevenfourths" class="xref" data-knowl="./knowl/xref/fig-dilate-quad-sevenfourths.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.6">Figure 5.1.6</a> has a <dfn class="terminology">scale factor</dfn> of <span class="process-math">\(1.75\)</span> and <dfn class="terminology">center</dfn> <span class="process-math">\(Q\text{.}\)</span> Notice how <span class="process-math">\(A'\)</span> lies on <span class="process-math">\(\overleftrightarrow{QA}\)</span> and <span class="process-math">\(1.75(QA)=1.75(9)=15.75=QA'\text{.}\)</span>
 </div>
-<details id="subsec-dilation-terminology-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<article class="exercise exercise-like" id="subsec-dilation-terminology-6"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Applying the Definition of Dilation.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="subsec-dilation-terminology-6-2"><div class="para" id="subsec-dilation-terminology-6-2-1">Use <a href="sec-dilations-Cartesian.html#fig-dilate-quad-sevenfourths" class="xref" data-knowl="./knowl/xref/fig-dilate-quad-sevenfourths.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.6">Figure 5.1.6</a> to answer the following:</div></div>
+</h4>
+<div class="introduction" id="subsec-dilation-terminology-6-2"><div class="para" id="subsec-dilation-terminology-6-2-1">Use <a href="sec-dilations-Cartesian.html#fig-dilate-quad-sevenfourths" class="xref" data-knowl="./knowl/xref/fig-dilate-quad-sevenfourths.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.6">Figure 5.1.6</a> to answer the following:</div></div>
 <article class="task exercise-like" id="subsec-dilation-terminology-6-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="subsec-dilation-terminology-6-3-1-1">If <span class="process-math">\(QB=4.78\text{,}\)</span> what is <span class="process-math">\(QB'\text{?}\)</span>
 </div>
@@ -560,7 +565,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsec-dilation-terminology-6-6-1-1">What are the center and the scale factor of the dilation that takes quadrilateral <span class="process-math">\(A'B'C'D'\)</span> to <span class="process-math">\(ABCD\text{?}\)</span>
 </div>
 <div class="solutions"><details id="subsec-dilation-terminology-6-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-dilation-terminology-6-6-2-1">The center is still <span class="process-math">\(Q\text{.}\)</span> The scale factor is <span class="process-math">\(\approx 0.5714.\)</span>
-</div></div></details></div></article></article></details><figure class="figure figure-like" id="fig-dilate-quad-sevenfourths"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/dilate-quad-seven-fourths.svg" role="img" class="contained" alt="Quadrilateral ABCD is dilated by a factor of 1.75."></div>
+</div></div></details></div></article></article><figure class="figure figure-like" id="fig-dilate-quad-sevenfourths"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/dilate-quad-seven-fourths.svg" role="img" class="contained" alt="Quadrilateral ABCD is dilated by a factor of 1.75."></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.1.6<span class="period">.</span></span><span class="space"> </span>Dilation of a quadrilateral</figcaption></figure><article class="exploration project-like" id="subsec-dilation-terminology-8"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">5.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">A Dilation Not Centered at the Origin.</span>
 </h4>

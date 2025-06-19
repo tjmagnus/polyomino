@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.0';
+eBookConfig.runestone_version = '7.8.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.242116c5bc6b6581.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -423,7 +423,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with More Than Six Vertices</span></a></div></li>
+</ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -483,9 +486,10 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="period">.</span>
 </h4>
 <div class="para" id="def-proportionality-3-1">When two figures are similar, the ratio of corresponding sides is constant. This common ratio, <span class="process-math">\(k\text{,}\)</span> such that <span class="process-math">\(k=\frac{P'Q'}{PQ}\)</span> for all sides <span class="process-math">\(PQ\)</span> is called the <dfn class="terminology">constant of proportionality</dfn>.</div></article><div class="para" id="subsubsec-dilations-similar-4">In <a href="sec-dilations-Cartesian.html#fig-nested-simtri" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.9">Figure 5.1.9</a>, we see that <span class="process-math">\(\Delta ABC\sim\Delta DEC\)</span> with constant of proportionality <span class="process-math">\(k=\frac{1}{3}\text{.}\)</span> Also, <span class="process-math">\(A'B'C'D'\sim ABCD\)</span> in <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.1">Figure 5.2.1</a> has  <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the variable scale factor of the dilation.</div>
-<details id="subsubsec-dilations-similar-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<article class="exercise exercise-like" id="subsubsec-dilations-similar-5"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">5.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Understanding Proportionality, Congruence, and Similarity.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="introduction" id="subsubsec-dilations-similar-5-2"><div class="para" id="subsubsec-dilations-similar-5-2-1">The following questions encourage you to make connections between the concepts of scale factor, proportion, congruence, and similarity:</div></div>
+</h4>
+<div class="introduction" id="subsubsec-dilations-similar-5-2"><div class="para" id="subsubsec-dilations-similar-5-2-1">The following questions encourage you to make connections between the concepts of scale factor, proportion, congruence, and similarity:</div></div>
 <article class="task exercise-like" id="subsubsec-dilations-similar-5-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="subsubsec-dilations-similar-5-3-1-1">Why are absolute values necessary when we say that the constant of proportionality <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the scale factor <span class="process-math">\(s\text{?}\)</span>
 </div>
@@ -495,7 +499,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsubsec-dilations-similar-5-4-1-1">Will a pair of congruent figures also be similar?</div>
 <div class="solutions"><details id="subsubsec-dilations-similar-5-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsubsec-dilations-similar-5-4-2-1">Yes, you can consider congruent figures to be similar with a constant of proportionality, <span class="process-math">\(k=1\text{.}\)</span> Some people may insist that size must change in which case we would not consider congruent figures to also be similar. It depends on the definition being used.</div></div></details></div></article><article class="task exercise-like" id="subsubsec-dilations-similar-5-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="subsubsec-dilations-similar-5-5-1-1">Will a pair of similar triangles also be congruent?</div>
-<div class="solutions"><details id="subsubsec-dilations-similar-5-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsubsec-dilations-similar-5-5-2-1">Similar triangles will be congruent <em class="emphasis">only</em> when they are the same size; i.e., when <span class="process-math">\(k=1\text{.}\)</span> Most pairs of similar triangles are not congruent.</div></div></details></div></article></article></details><div class="para" id="subsubsec-dilations-similar-6">When two figures were congruent, we were able to find an isometry that mapped one figure onto the other. Can the same be said about similar figures and dilations? When two figures are similar, must there be a dilation that maps one onto the other?</div>
+<div class="solutions"><details id="subsubsec-dilations-similar-5-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsubsec-dilations-similar-5-5-2-1">Similar triangles will be congruent <em class="emphasis">only</em> when they are the same size; i.e., when <span class="process-math">\(k=1\text{.}\)</span> Most pairs of similar triangles are not congruent.</div></div></details></div></article></article><div class="para" id="subsubsec-dilations-similar-6">When two figures were congruent, we were able to find an isometry that mapped one figure onto the other. Can the same be said about similar figures and dilations? When two figures are similar, must there be a dilation that maps one onto the other?</div>
 <article class="exploration project-like" id="explore-mystery-similarity"><h4 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">5.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Mystery Similarity Transformations.</span>
 </h4>

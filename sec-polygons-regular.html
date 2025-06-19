@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.0';
+eBookConfig.runestone_version = '7.8.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.242116c5bc6b6581.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -423,7 +423,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with More Than Six Vertices</span></a></div></li>
+</ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -464,10 +467,11 @@ eBookConfig.enable_chatcodes =  false;
 <article class="definition definition-like" id="sec-polygons-regular-3-3"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.4.1</span><span class="period">.</span>
 </h4>
-<div class="para" id="sec-polygons-regular-3-3-3-1">A polygon is a <dfn class="terminology">regular polygon</dfn> if all of its sides and all of its angles are congruent. </div></article><details id="sec-polygons-regular-3-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<div class="para" id="sec-polygons-regular-3-3-3-1">A polygon is a <dfn class="terminology">regular polygon</dfn> if all of its sides and all of its angles are congruent. </div></article><article class="exercise exercise-like" id="sec-polygons-regular-3-4"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Check Your Understanding!</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-polygons-regular-3-4-2-1">Explain why each shape below is not a regular polygon:</div> <figure class="figure figure-like" id="sec-polygons-regular-3-4-2-2"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/nonregularpolygons.svg" role="img" class="contained" alt="Rhombus ABCD with obtuse angles at B and D, Rectangle EFGH with height 6 and width 10, and a House-shaped pentagon with base length 4, wall height 4, and total height 6."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.3<span class="period">.</span></span><span class="space"> </span>Nonregular Polygons</figcaption></figure></article></details></section><section class="subsection" id="subsec-polygons-regular-tilings"><h3 class="heading hide-type">
+</h4>
+<div class="para" id="sec-polygons-regular-3-4-2-1">Explain why each shape below is not a regular polygon:</div> <figure class="figure figure-like" id="sec-polygons-regular-3-4-2-2"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/nonregularpolygons.svg" role="img" class="contained" alt="Rhombus ABCD with obtuse angles at B and D, Rectangle EFGH with height 6 and width 10, and a House-shaped pentagon with base length 4, wall height 4, and total height 6."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.3<span class="period">.</span></span><span class="space"> </span>Nonregular Polygons</figcaption></figure></article></section><section class="subsection" id="subsec-polygons-regular-tilings"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="space"> </span><span class="title">Regular Tilings</span>
 </h3>
 <div class="para" id="subsec-polygons-regular-tilings-2">In <a href="sec-intro-explore.html#intro-explore-exp-pentrectl" class="xref" data-knowl="./knowl/xref/intro-explore-exp-pentrect.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 1.1.1: Tiling Rectangles with Polyominoes">Exploration 1.1.1</a>, we created a tiling of a square using tetrominoes. In this section, we will consider tilings of the plane. Since the plane continues infinitely, we will not be able to create a complete tiling. However, we will be able to build enough of the tiling to determine whether a tiling is possible.</div>

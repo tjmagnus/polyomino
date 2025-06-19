@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.0';
+eBookConfig.runestone_version = '7.8.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.242116c5bc6b6581.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -423,7 +423,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with More Than Six Vertices</span></a></div></li>
+</ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -541,13 +544,14 @@ eBookConfig.enable_chatcodes =  false;
 </h4>
 <div class="para" id="principle-areasums-2-1">If a region can be cut into non-overlapping sections, the area of the whole region is equal to the sum of the areas of the sections.</div></article><div class="para" id="subsec-reflect-exp-pentrect-8">We applied these two principles in <a href="sec-intro-explore.html#intro-explore-exptask-hiddenapp-pentominofilling-l" class="xref" data-knowl="./knowl/xref/intro-explore-exptask-hiddenapp-pentominofilling.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 1.1.1.e">Task 1.1.1.e</a> where we attempted to construct rectangles using pentominoes. Since pentominoes have an area of five square units, we could only construct rectangles with areas divisible by 5, namely 5, 15, 20, 25, 30, 35, 40, 45, 50, 55, and 60. <details class="ptx-footnote" aria-live="polite" id="subsec-reflect-exp-pentrect-8-2"><summary class="ptx-footnote__number" title="Footnote 1.1.6"><sup> 6 </sup></summary><div class="ptx-footnote__contents" id="subsec-reflect-exp-pentrect-8-2">To construct a rectangle of area 10, the same pentomino must be used twice.</div></details> In the same way, any shape made up entirely of tetrominoes must have an area divisible by 4.</div>
 <div class="para" id="subsec-reflect-exp-pentrect-9">Finally, we observed that when the lengths of all sides of a two-dimensional figure are doubled (or tripled), the area of the figure is multiplied by 4 (or 9). This is easy to observe in a rectangle with length <span class="process-math">\(\ell\)</span> and width <span class="process-math">\(w\text{.}\)</span> When we create a new rectangle with length <span class="process-math">\(L=2\ell\)</span> and width <span class="process-math">\(W=2w\text{,}\)</span> the resulting area is <span class="process-math">\(LW=(2\ell)(2w)=(2\cdot 2)(\ell w)=4\ell w\)</span> square units.</div>
-<details id="intro-explore-check-tripleareanine-l" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<article class="exercise exercise-like" id="intro-explore-check-tripleareanine-l"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Check Your Understanding.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="intro-explore-check-tripleareanine-l-2-1">Demonstrate algebraically why the area of a two-dimensional figure is multiplied by 9 when then lengths of the sides are tripled.</div>
+</h4>
+<div class="para" id="intro-explore-check-tripleareanine-l-2-1">Demonstrate algebraically why the area of a two-dimensional figure is multiplied by 9 when then lengths of the sides are tripled.</div>
 <div class="solutions">
 <details id="intro-explore-check-tripleareanine-l-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="intro-explore-check-tripleareanine-l-3-1">Use the example for getting four times the area by doubling the lengths as a guide.</div></div></details><details id="intro-explore-check-tripleareanine-l-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="intro-explore-check-tripleareanine-l-4-1">When <span class="process-math">\(L=3/ell\)</span> and <span class="process-math">\(W=3w\text{,}\)</span> the area is <span class="process-math">\(LW=(3\ell)(3w)=(3\cdot 3)(\ell w)=9\ell w.\)</span>
 </div></div></details>
-</div></article></details></section><section class="subsection" id="subsec-creative-expl"><h3 class="heading hide-type">
+</div></article></section><section class="subsection" id="subsec-creative-expl"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="space"> </span><span class="title">Exploring to Learn</span>
 </h3>
 <div class="para" id="subsec-creative-expl-2">Hopefully as you worked through these tasks, you allowed yourself to experiment with different arrangements of squares and polyominoes. This openness to creative exploration is essential to mathematical thinking. Phrases like "what if" or "I wonder" arise often as mathematicians create and make sense of new ideas. If you find yourself wanting to explore a question arising from a task but not explicitly asked, jot down your question and share it with your instructor. Your instructor might encourage you to investigate your question or even invite your classmates to consider it.<details class="ptx-footnote" aria-live="polite" id="subsec-creative-expl-2-1"><summary class="ptx-footnote__number" title="Footnote 1.1.7"><sup> 7 </sup></summary><div class="ptx-footnote__contents" id="subsec-creative-expl-2-1">Some questions may be addressed in a later section, too tangential, beyond the scope of this course, or even unsolved by the mathematical community. Thus your instructor will make the decision on which questions to pursue and when.</div></details>

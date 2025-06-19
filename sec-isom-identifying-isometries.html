@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.0';
+eBookConfig.runestone_version = '7.8.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.242116c5bc6b6581.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -423,7 +423,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with More Than Six Vertices</span></a></div></li>
+</ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -499,9 +502,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="task-fixedpt-rotate-1-1">In <a href="sec-isom-rotate-and-translate.html#rotated-triangle" class="xref" data-knowl="./knowl/xref/rotated-triangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.2.11">Figure 4.2.11</a>, which point(s) are not moved by the rotation about point <span class="process-math">\(F\text{?}\)</span> Are there any unlabeled points that are also fixed by this reflection? Explain.</div></article><article class="task exercise-like" id="subsec-fixed-points-4-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="subsec-fixed-points-4-5-1-1">In <a href="sec-isom-identifying-isometries.html#fig-fixedpt-transl" class="xref" data-knowl="./knowl/xref/fig-fixedpt-transl.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.3.2">Figure 4.3.2</a>, which point(s) are not moved by the translation by vector <span class="process-math">\(\overrightarrow{FG}\text{?}\)</span> Are there any unlabeled points that are fixed by this translation? Explain.</div> <figure class="figure figure-like" id="fig-fixedpt-transl"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/fixedpt-transl.svg" role="img" class="contained" alt="Concave pentagon ABCDE is translated to the left and slightly down by vector FG."></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.3.2<span class="period">.</span></span><span class="space"> </span>Translation by vector <span class="process-math">\(\overrightarrow{FG}\)</span></figcaption></figure></article></article><div class="para" id="subsec-fixed-points-5">Like the function <span class="process-math">\(f(x)=x\)</span> you may have encountered in another course, there is a transformation of the plane that maps every point to itself. We call this transformation, the <dfn class="terminology">identity transformation</dfn>. Under the action of the identity transformation, every point is a fixed point. Clearly, the identity function also preserves distance, angle measure, and orientation since it leaves everything unchanged. </div>
-<details id="subsec-fixed-points-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<article class="exercise exercise-like" id="subsec-fixed-points-6"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.3.3</span><span class="period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><article class="task exercise-like" id="subsec-fixed-points-6-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+</h4>
+<article class="task exercise-like" id="subsec-fixed-points-6-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="introduction" id="subsec-fixed-points-6-1-1"><div class="para logical" id="subsec-fixed-points-6-1-1-1">
 <div class="para">For each of the following, answer</div>
 <ol class="decimal" id="subsec-fixed-points-6-1-1-1-1">
@@ -520,7 +524,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsec-fixed-points-6-1-4-1-1">An isomorphism with an infinite number of fixed points might be a ___.</div>
 <div class="solutions"><details id="subsec-fixed-points-6-1-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-fixed-points-6-1-4-2-1">reflection</div></div></details></div></article><article class="task exercise-like" id="subsec-fixed-points-6-1-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
 <div class="para" id="subsec-fixed-points-6-1-5-1-1">An isomorphism with no fixed points might be a ___.</div>
-<div class="solutions"><details id="subsec-fixed-points-6-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-fixed-points-6-1-5-2-1">translation</div></div></details></div></article></article></article></details></section><section class="subsection" id="sec-isom-identifying-isometries-5"><h3 class="heading hide-type">
+<div class="solutions"><details id="subsec-fixed-points-6-1-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="subsec-fixed-points-6-1-5-2-1">translation</div></div></details></div></article></article></article></section><section class="subsection" id="sec-isom-identifying-isometries-5"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.3.4</span><span class="space"> </span><span class="title">Defining Objects of Isometries</span>
 </h3>
 <div class="para" id="sec-isom-identifying-isometries-5-2">First we determine whether the isometry mapping one figure onto a congruent image is a reflection, translation, or rotation. We then need to specify which reflection, which translation, or which rotation it is. We do this by identifying the defining object(s) of the isometry. With a reflection, for example, we specify which line we are reflecting across. This line is unique; no other line will give the same reflection. <a href="sec-isom-identifying-isometries.html#table-def-obj-1" class="xref" data-knowl="./knowl/xref/table-def-obj-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.3.4: Defining Objects for Three Isometries">Table 4.3.4</a> lists the defining objects for the three isometries we have studied.</div>
@@ -632,9 +636,10 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r1 l0 t0 lines">Center and<br>Angle</td>
 <td class="c m b0 r0 l0 t0 lines">Perp. bisector<br>of each <span class="process-math">\(\overline{PP'}\)</span><br>passes through<br>center</td>
 </tr>
-</table></div></figure><details id="subsec-isom-identify-exptable-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+</table></div></figure><article class="exercise exercise-like" id="subsec-isom-identify-exptable-4"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.3.10</span><span class="period">.</span><span class="space"> </span><span class="title">Updating Your Toolbox.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-isom-identify-exptable-4-2-1">Complete <a href="sec-isom-identifying-isometries.html#table-def-obj-2" class="xref" data-knowl="./knowl/xref/table-def-obj-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.3.9: Defining Objects for Three Isometries">Table 4.3.9</a> by filling in the column for orientation and the row for translation. Compare the last column in your table with the last item in each task of <a href="sec-isom-identifying-isometries.html#expl-isom-finding-defining-objects" class="xref" data-knowl="./knowl/xref/expl-isom-finding-defining-objects.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 4.3.4: Finding Defining Objects of Isometries">Exploration 4.3.4</a>. You are encouraged to rewrite each entry in words that are meaningful to you before adding this to your toolbox. You may find this table useful in the next section.</div></article></details></section><section class="exercises" id="Exercises-isom-ident"><h3 class="heading hide-type">
+</h4>
+<div class="para" id="subsec-isom-identify-exptable-4-2-1">Complete <a href="sec-isom-identifying-isometries.html#table-def-obj-2" class="xref" data-knowl="./knowl/xref/table-def-obj-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.3.9: Defining Objects for Three Isometries">Table 4.3.9</a> by filling in the column for orientation and the row for translation. Compare the last column in your table with the last item in each task of <a href="sec-isom-identifying-isometries.html#expl-isom-finding-defining-objects" class="xref" data-knowl="./knowl/xref/expl-isom-finding-defining-objects.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 4.3.4: Finding Defining Objects of Isometries">Exploration 4.3.4</a>. You are encouraged to rewrite each entry in words that are meaningful to you before adding this to your toolbox. You may find this table useful in the next section.</div></article></section><section class="exercises" id="Exercises-isom-ident"><h3 class="heading hide-type">
 <span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.3.6</span><span class="space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="subexercises" id="Toolbox-isom-ident"><h4 class="heading"><span class="title">Building Our Toolbox</span></h4>

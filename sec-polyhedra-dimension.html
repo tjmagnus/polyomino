@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.8.0';
+eBookConfig.runestone_version = '7.8.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.107bf2d9be20d9c4.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.242116c5bc6b6581.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c7bf407f76a97812.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
 <script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -423,7 +423,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with More Than Six Vertices</span></a></div></li>
+</ul>
 </li></ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -462,9 +465,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsec-polyhedra-dimension-interior-2">What does it mean to measure the interior of a geometric object? It depends on the object and the context. A line segment is a finite one-dimensional object bounded by two endpoints. Length can be thought of as the measure of the interior space of a line segment, namely the distance between the endpoints. In a one-dimensional space, all objects lie on a single line. we move only forward and backward along that line. There is no height or width.</div>
 <div class="para" id="subsec-polyhedra-dimension-interior-3">Two-dimensional geometry is the study of objects lying in a plane. Two-dimensional objects include polygons, circles, and other figures that can be drawn on a flat surface. A closed two-dimensional figure will be bounded by linear and/or curved segments that separate the interior of the figure from the rest of the plane, which we refer to as the exterior of the figure. The measure of the interior of a two-dimensional figure is called its area and involves both length and width. Of course, the boundary of the planar figure can also be measured, but the boundary consists of one-dimensional objects; namely, line segments and curves.</div>
 <div class="para" id="subsec-polyhedra-dimension-interior-4">In three-dimensional geometry, we have length, width, and a third direction called depth (or height). The geometrical solids studied in <a href="ch-polyhedra.html" class="internal" title="Chapter 3: Exploring Polyhedra">Chapter 3</a>, including prisms, cylinders, cones, pyramids, and polyhedra, are examples of three-dimensional solids. The measurement of the interior space of a geometrical solid is called volume. Each three-dimensional solid is bounded by surfaces which may include polygons, circles, and other two-dimensional objects. Since these surfaces are two-dimensional, we use area to describe the size of the boundary. The total of the area of these bounding surfaces is given the appropriate name, surface area.</div>
-<details id="polyhedra-dim-checkpoint-match-measures" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<article class="exercise exercise-like" id="polyhedra-dim-checkpoint-match-measures"><h4 class="heading">
 <span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.5.1</span><span class="period">.</span>
-</h4></summary><article class="exercise exercise-like knowl__content"><div class="ptx-runestone-container"><div class="runestone cardsort_section"><ul data-component="dragndrop" data-question_label="" style="visibility: hidden;" id="rs-polyhedra-dim-checkpoint-match-measures">
+</h4>
+<div class="ptx-runestone-container"><div class="runestone cardsort_section"><ul data-component="dragndrop" data-question_label="" style="visibility: hidden;" id="rs-polyhedra-dim-checkpoint-match-measures">
 <span data-subcomponent="question"><div class="para" id="polyhedra-dim-checkpoint-match-measures-1-1">Match the correct type of measurement to each scenario.</div></span><span data-subcomponent="feedback"><div class="para" id="polyhedra-dim-checkpoint-match-measures-2-1">Reread the above paragraphs.</div></span><li data-subcomponent="draggable" id="rs-polyhedra-dim-checkpoint-match-measures_drag1" data-category="1">The amount of ice that can fit in a cooler.</li>
 <li data-subcomponent="dropzone" for="rs-polyhedra-dim-checkpoint-match-measures_drag1" data-category="1">volume</li>
 <li data-subcomponent="draggable" id="rs-polyhedra-dim-checkpoint-match-measures_drag2" data-category="2">The amount of vinyl to cover a floor.</li>
@@ -473,7 +477,7 @@ eBookConfig.enable_chatcodes =  false;
 <li data-subcomponent="dropzone" for="rs-polyhedra-dim-checkpoint-match-measures_drag3" data-category="3">surface area</li>
 <li data-subcomponent="draggable" id="rs-polyhedra-dim-checkpoint-match-measures_drag4" data-category="4">The amount of wire to form a polygon’s boundary.</li>
 <li data-subcomponent="dropzone" for="rs-polyhedra-dim-checkpoint-match-measures_drag4" data-category="4">perSimeter</li>
-</ul></div></div></article></details></section><section class="subsection" id="subsec-polyhedral-dimesion-growth"><h3 class="heading hide-type">
+</ul></div></div></article></section><section class="subsection" id="subsec-polyhedral-dimesion-growth"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.5.2</span><span class="space"> </span><span class="title">Exploring Growth in Two-Dimensional Figures</span>
 </h3>
 <div class="para" id="subsec-polyhedral-dimesion-growth-2">How does the change in the length in one or more directions affect the area of a figure’s interior? How does it affect the size of its boundary?</div>
