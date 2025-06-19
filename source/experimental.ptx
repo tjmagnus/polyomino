@@ -1,4 +1,8 @@
-<!--Attempt at creating a triangle using SAS criteria. Points are plotted but not path so far. 
+<!--Template for making a triangle with a horizontal base given ASA.
+
+<figure label="label-invent-an-identifier" xml:id="fig-invent-an-identifier-no-spaces">
+  <caption>Write a short caption to appear below the figure.</caption>
+  <image>
 <diagram dimensions="(300,300)" margins="5">
   <definition>f(x,q,s)=((tan(q))*x)/(tan(q)+tan(s))</definition>
   <definition>g(x,q,s)=x/((tan(q))^(-1)+(tan(s))^(-1))</definition>
@@ -6,19 +10,19 @@
   <definition>q = radians(25)</definition>
   <definition>s = radians(60)</definition>
   <coordinates bbox="(-4,-4,8,8)">
-    <point p="(0,0)" alignment="sw">
+    <point p="(0,0)" size="1" alignment="sw">
       <m>B</m>
       </point>
-    <point p="(f(4,q,s),g(4,q,s))" alignment="n">
+    <point p="(f(4,q,s),g(4,q,s))" size="1" alignment="n">
       <m>A</m>
     </point>
-    <point p="(a,0)" alignment="se">
+    <point p="(a,0)" size="1" alignment="se">
       <m>C</m>
       </point>
     <path start="(0,0)" stroke="black">
       <lineto point="(a,0)"/>
         <lineto point="(f(4,q,s),g(4,q,s))"/>
-          <lineto> point="(0,0)"/>
+          <lineto point="(0,0)"/>
             </path>
   </coordinates>
 </diagram>-->
