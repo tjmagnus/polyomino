@@ -1,30 +1,55 @@
-<!--Template for making a triangle with a horizontal base given ASA.
+<!--Template for making a triangle with a horizontal base given ASA. Adjustments to size and
+offsets will need to be made after changing angles and base. Keep dimensions and coordinates 
+square to avoid distortion.-->
 
 <figure label="label-invent-an-identifier" xml:id="fig-invent-an-identifier-no-spaces">
   <caption>Write a short caption to appear below the figure.</caption>
   <image>
-  <shortdescription>Write something that will help a visually challenged user know
-  what is in the image.</shortdescription>
+  <shortdescription> <!-- for screenreaders/visually impaired.-->
+    Triangle ABC with a 25 degree angle at C and a 60 degree angle at B.
+  </shortdescription>
 <diagram dimensions="(300,300)" margins="5">
   <definition>f(x,q,s)=((tan(q))*x)/(tan(q)+tan(s))</definition>
   <definition>g(x,q,s)=x/((tan(q))^(-1)+(tan(s))^(-1))</definition>
-  <definition>a = 4</definition>
+  <definition>a = 10</definition>
   <definition>q = radians(25)</definition>
   <definition>s = radians(60)</definition>
-  <coordinates bbox="(-4,-4,8,8)">
+  <coordinates bbox="(-1,-1,12,12)">
+    <definition>points = ((0,0), (f(a,q,s),g(a,q,s)), (a,0))</definition>
     <point p="(0,0)" size="1" alignment="sw">
       <m>B</m>
       </point>
-    <point p="(f(4,q,s),g(4,q,s))" size="1" alignment="n">
+    <point p="(f(a,q,s),g(a,q,s))" size="1" alignment="n">
       <m>A</m>
     </point>
     <point p="(a,0)" size="1" alignment="se">
       <m>C</m>
       </point>
-    <path start="(0,0)" stroke="black">
+    <!--<path start="(0,0)" stroke="black">
       <lineto point="(a,0)"/>
         <lineto point="(f(4,q,s),g(4,q,s))"/>
           <lineto point="(0,0)"/>
-            </path>
+            </path>-->
+    <repeat parameter="k=1..3">
+    <angle-marker points="points" size="0.5"/>
+    <definition>points=roll(points)</definition>
+    </repeat>
+    <polygon points="points" closed="yes" stroke="black"/>
+    <label anchor="(0,0)" alignment="ne" offset="(20,8)">60</label>
+    <label anchor="(f(a,q,s),g(a,q,s))" alignment="s" offset="(0,-30)">
+      95</label>
+    <label anchor="(a,0)" alignment="nw" offset="(-30,0)">25</label>
   </coordinates>
-</diagram>-->
+
+  <annotations>
+    <annotation ref="figure"
+                text="Triangle ABC">
+      <annotation ref="point p=(0,0)"
+                  text="Point B with measure 60 degrees"
+                  speech="Point B with measure sixty degrees"/>
+      <annotation ref="point (a,0)"
+                  text="Point C with measure 25 degrees"
+                  speech="Point C with measure twenty-five degrees"/>
+    </annotation>
+  </annotations>
+</diagram>
