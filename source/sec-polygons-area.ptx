@@ -921,12 +921,27 @@
                         area? Use pictures and words to give a clear explanation.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        Consider the height of each shape.
+                    </p>
+                </hint>
                 <answer>
                     <p>
                         The rectangle RSTU will have the larger area because the height of 
                         parallelogram WXYZ will be less than the length of its side.
                     </p>
                 </answer>
+                <solution>
+                    <p>
+                        A rectangle is a special type of parallelogram where all angles are 90 degrees. For a parallelogram and
+                        a rectangle with the same side lengths (3 and 4 inches), the rectangle will always have the larger area. 
+                        This is because the rectangle's height is equal to its side length (e.g., 3 or 4 inches), while a 
+                        non-rectangular parallelogram's height will be shorter than its slanted side, reducing its area. 
+                        A picture would clearly show the parallelogram "leaning" and thus being shorter in vertical height 
+                        compared to the rectangle.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <introduction>
