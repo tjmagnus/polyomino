@@ -1033,11 +1033,23 @@
                             the square, the octagon, and the circle? Why?
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Consider how much of the circle's area each shape occupies. More sides allow a polygon to fill the space more completely.
+                        </p>
+                    </hint>
                     <answer>
                         <p>
                             area(square) &lt; area(circle) &lt; area (octagon),
                         </p>
                     </answer>
+                    <solution>
+                        <p>
+                            When a square and an octagon are both placed inside the same circle, with their corners touching the circle's 
+                            edge, the square covers less area than the octagon. This is because the octagon's eight sides allow it to fill the 
+                            circular space more fully compared to the square's four sides. Therefore, area(square) &lt; area(octagon) &lt; area(circle).
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -1045,11 +1057,23 @@
                             Compute the area of the square.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            The diagonal of the square is equal to the radius of the circle.
+                        </p>
+                    </hint>
                     <answer>
                         <p>
                             area(square) = 32
                         </p>
                     </answer>
+                    <solution>
+                        <p>
+                            The diagonal of the square is the same as the circle's diameter. Since the radius is 4, the
+                            diameter is 8. The area of the square is half of its diagonal squared. So,
+                            <m>(8\cdot 8) / 2</m>. Therefore, the area of the square is 32.
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -1057,11 +1081,23 @@
                             Compute the area of the octagon.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            To find the area of the octagon, break it down into 8 identical triangles.
+                        </p>
+                    </hint>
                     <answer>
                         <p> 
                             <m>area(octagon)=8\cdot \frac{1}{2}\cdot 4\cdot 2\sqrt{2}=32\sqrt{2}\approx 45.25</m>
                         </p>
                     </answer>
+                    <solution>
+                        <p>
+                            An octagon inside a circle with a radius of 4 forms 8 triangles. Each triangle has two sides of
+                            length 4, meeting at a 45 degree angle. Using the triangle area formula, each is
+                            <m>4\sqrt{2}</m>. Multiply by 8 for the total: <m>32\sqrt{2}\approx 45.25</m>.
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -1069,11 +1105,22 @@
                             Compute the area of the circle.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall the formula for area of a circle: <m>A = \pi r^2</m>.
+                        </p>
+                    </hint>
                     <answer>
                         <p>
                             <m>area(circle)=16\pi\approx 50.2</m>.
                         </p>
                     </answer>
+                    <solution>
+                        <p>
+                            The radius of the circle is 4. Recall that the area of a circle is <m>A = \pi r^2</m>. Multiply
+                            pi (<m>\pi</m>) by 4 squared (which is 16). So, the area is <m>16/pi</m> or approximately 50.2.
+                        </p>
+                    </solution>
                 </task>
             </exercise>
        </subexercises>
