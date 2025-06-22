@@ -892,6 +892,25 @@
                             this rotation?
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Consider how a 180-degree turn around point E would cause each corner of triangle <m>\Delta BCD</m> to move. Where 
+                            would <m>\Delta BCD</m> finally land?
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            The image of <m>\Delta BCD</m> rotated 180 degrees around <m>E</m> lands on top of <m>\Delta DAB</m>.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            A 180-degree rotation causes a shape to turn exactly halfway around a central point. For this 
+                            problem, that central point is E. Because E sits perfectly in the middle of <m>\overline{BD}</m>, 
+                            point B rotates to land on D. Similarly, point D rotates to land on B. Finally, point C rotates to land on point A.
+                            This means that <m>\Delta BCD</m> perfectly covers <m>\Delta DAB</m>.
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -900,6 +919,24 @@
                             and <m>CD=AB</m>.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall that in geometry, a rotation is a rigid transformation. Therefore, all lengths and distances
+                            are preserved.
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            See "Solution" for an explanation of why <m>AD=BC</m> and <m>CD=AB</m>.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            A 180-degree rotation is a rigid transformation, meaning it preserves all segment lengths. When
+                            <m>\Delta BCD</m> maps perfectly onto <m>\Delta DAB</m> under this rotation, their corresponding
+                            sides must be equal. Therefore, this transformation proves that <m>AD=BC</m> and <m>CD=AB</m>.
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -910,6 +947,26 @@
                             parallelogram.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Try moving different points see watch what happens to the lengths and directions of the opposite sides. What do 
+                            you notice?
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            Yes, the result still holds. A general claim is that opposite sides of any parallelogram are always equal in length.
+                            See "Solution" for a detailed explanation. 
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            Yes, the result still holds true regardless of how the parallelogram's shape is changed by dragging 
+                            its vertices. The 180-degree rotational symmetry around the intersection of its diagonals is a fundamental 
+                            property of all parallelograms, meaning the argument that opposite sides are equal will always apply. 
+                            Therefore, a general claim is that the opposite sides of any parallelogram are always equal in length.
+                        </p>
+                    </solution>
                 </task>
             </exercise>
             <exercise>
