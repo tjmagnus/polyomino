@@ -960,7 +960,7 @@
                     <hint>
                         <p>
                             Consider the size of each shape. Which shape takes up the most space, which takes up the least space, and which 
-                            fits somewhere between? Think about how this relate to area.
+                            fits somewhere between? Think about how this relates to area.
                         </p>
                     </hint>
                     <answer>
@@ -1021,7 +1021,8 @@
                         <p>
                             When a circle is inscribed within a square, the circle touches the middle of each of the square's sides.
                             This means the diameter of the circle is equal to the side length of the square. With a radius of 5, the circle's 
-                            diameter is 10, making the sides of the square also 10. Therefore, the area of the square is <m>10\cdot 10 = 100</m>.
+                            diameter is 10, making the sides of the square also 10. Therefore, the area of the square is <m>10\cdot 10 = 100</m>
+                            sq units.
                         </p>
                     </solution>
                 </task>
@@ -1043,8 +1044,8 @@
                     </answer>
                     <solution>
                         <p>
-                            he radius of the circle is 4. Recall that the area of a circle is <m>A = \pi r^2</m>. Multiply
-                            pi (<m>\pi</m>) by 5 squared (which is 25). So, the area is <m>25\pi</m> or approximately 78.54.
+                            The radius of the circle is 5. Recall that the area of a circle is <m>A = \pi r^2</m>. Multiply
+                            <m>\pi</m> by <m>5^2</m> (which is 25). So, the area is <m>25\pi</m> or approximately 78.54.
                         </p>
                     </solution>
                 </task>
@@ -1166,7 +1167,7 @@
                     <solution>
                         <p>
                             The radius of the circle is 4. Recall that the area of a circle is <m>A = \pi r^2</m>. Multiply
-                            pi (<m>\pi</m>) by 4 squared (which is 16). So, the area is <m>16\pi</m> or approximately 50.2.
+                            <m>\pi</m> by <m>5^2</m> (which is 16). So, the area is <m>16\pi</m> or approximately 50.2.
                         </p>
                     </solution>
                 </task>
