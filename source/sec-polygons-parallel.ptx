@@ -376,9 +376,9 @@
                  </figure>
 <exercise xml:id="parallel-exercise-understanding-parallel" label="parallel-exercise-understanding-parallel-label">
     <title>Check your Understanding</title>
-    <statement>
+    <introduction>
         <p>Refer to <xref ref="skewlines"/> as you answer the following.</p>
-    <tasks>
+    </introduction>
         <task xml:id="parallel-task-three-dimensional" label="parallel-task-three-dimensional-label">
             <statement>
                 <p>
@@ -408,8 +408,6 @@
                 </p>
             </statement>
         </task>
-    </tasks>
-</statement>
 </exercise>
             <p>
                 We also observed that angle measures in spherical triangles did not behave in the way that Euclidean 
@@ -439,7 +437,6 @@
                                 <slate surface="geogebra" material="ts65chjj"/>
                             </interactive>
                         </figure>
-                        <tasks>
                             <task xml:id="parallel-task-aia-1" label="parallel-task-aia-1-label">
                                 <statement>
                                     <p>
@@ -498,7 +495,6 @@
                                     </statement>
                                     <response />
                                 </task>
-                        </tasks>
             </exploration>
             <p>
                 When a line cuts across two other lines, we call it a <term>transversal</term> 
@@ -691,8 +687,7 @@
                         corresponding angles was identified for <xref ref="fig-transversal"/>.
                         Use <xref ref="fig-transversal"/> to identify the following:
                     </p>
-                </introduction>
-                <tasks> 
+                </introduction> 
                 <!-- Add solutions to these tasks?-->
                     <task xml:id="SAR-task-aia-1" label="SAR-task-aia-1-label">
                         <statement>
@@ -767,7 +762,6 @@
                                 </match>
                             </cardsort>
                         </task>
-                </tasks>
             </exercise>
             <exercise xml:id="SAR-parallel-aia-2" label="SAR-parallel-aia-2-label">
                 <introduction>
@@ -809,7 +803,6 @@
                         degrees.
                     </p>
                     <p>Determine the measures of the angles:</p>
-                        <tasks>
                             <task xml:id="SAR-parallel-task-measure-1" label="SAR-parallel-task-measure-1-label">
                                 <statement>
                                     <p><m>\angle{ACJ} = </m> <fillin answer="57" mode="number" width="3" /></p> 
@@ -901,7 +894,6 @@
                                     </evaluate>
                                 </evaluation>
                             </task>
-                        </tasks>
                     <figure xml:id="fig-exer-transv-angle-measures">
                         <caption>
                             Illustration for <xref ref="SAR-parallel-transv-angle-measures"/>
