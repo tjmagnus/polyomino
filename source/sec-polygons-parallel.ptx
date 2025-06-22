@@ -14,12 +14,12 @@
     </introduction>
     <subsection xml:id="subsec-review-lines">
         <title>What do we remember about lines on a plane?</title>
-    <exploration>
+    <exploration xml:id="parallel-explore-reflect" label="parallel-explore-reflect-label">
         <title>Reflecting on Prior Understanding</title>
         <introduction>
         <p>Complete the following sentences:</p>
         </introduction>
-            <task xml:id="parallel-task-describe-line">
+            <task xml:id="parallel-task-describe-line" label="parallel-task-describe-line-label">
                 <statement>
                     <p>
                         In your own words, write three different endings to the statement, 
@@ -28,7 +28,7 @@
                 </statement>
                 <response />
             </task>
-            <task xml:id="parallel-task-triangle-angles">
+            <task xml:id="parallel-task-triangle-angles" label="parallel-task-triangle-angles-label">
                 <statement>
                     <p>The sum of the measures of the interior angles of any triangle is ...</p>
                 </statement>
@@ -43,7 +43,7 @@
                     </p>
                 </answer>
             </task>
-            <task xml:id="parallel-task-two-lines">
+            <task xml:id="parallel-task-two-lines" label="parallel-task-two-lines-label">
                 <statement>
                     <p>Two lines in the plane are parallel if ...</p>
                 </statement>
@@ -63,7 +63,7 @@
             Are they straight or do they bend? What can we say about parallel lines in 
             these environments? Do our familiar properties hold?
         </p>
-        <exploration xml:id="parallel-explor-lines-sphere">
+        <exploration xml:id="parallel-explor-lines-sphere" label="parallel-explor-lines-sphere-label">
             <title>Defining Lines on a Sphere</title>
             <introduction>
                 <p>
@@ -76,7 +76,7 @@
                     you may use a ribbon with a globe where latitude and longitude lines are marked.  
                 </p>
             </introduction>
-            <task>
+            <task xml:id="parallel-task-lines-sphere" label="parallel-task-lines-sphere-label">
                 <title>Envisioning Lines on a Sphere</title>
                 <statement>
                     <p>
@@ -92,7 +92,7 @@
                 </statement>
                 <response />
             </task>
-            <task xml:id="parallel-task-linear-features">
+            <task xml:id="parallel-task-linear-features" label="parallel-task-linear-features-label">
                 <statement>
                     <p>
                         You have probably heard the expression, 
@@ -170,14 +170,14 @@
             </image>
         </figure>
         <!--https://www.geogebra.org/3d/shwmkytr-->
-        <exploration xml:id="parallel-explor-spherical-triangles">
+        <exploration xml:id="parallel-explor-spherical-triangles" label="parallel-explor-spherical-triangles-label">
             <title>Properties of Spherical Lines and Triangles</title>
             <!--<aside>
                 <p>
                     Instructions for virtual version is available in the instructor's note for this section.
                 </p>
             </aside>-->
-            <task xml:id="parallel-task-lattitudes">
+            <task xml:id="parallel-task-lattitudes" label="parallel-task-lattitudes-label">
                 <statement>
                     <p>
                         Which latitudes, if any, will be lines (great circles) 
@@ -186,7 +186,7 @@
                 </statement>
                 <response />
             </task>
-            <task xml:id="parallel-task-longitudes">
+            <task xml:id="parallel-task-longitudes" label="parallel-task-longitudes-label">
                 <statement>
                     <p>
                         Which longitudes, if any, will be lines on a sphere 
@@ -195,7 +195,7 @@
                 </statement>
                 <response />
             </task>
-            <task xml:id="parallel-task-spherical-lines">
+            <task xml:id="parallel-task-spherical-lines" label="parallel-task-spherical-lines-label">
                 <statement>
                     <p>
                         In <xref ref="sec-intro-apply"/>, we defined two lines to 
@@ -212,7 +212,7 @@
                 </statement>
                 <response />
             </task>
-            <task xml:id="parallel-task-spherical-triangle">
+            <task xml:id="parallel-task-spherical-triangle" label="parallel-task-spherical-triangle-label">
                 <statement>
                     <p>
                         What do you expect to be true about the sum of the interior triangles of a 
@@ -224,7 +224,7 @@
                 </statement>
                 <response />
             </task>
-            <task xml:id="parallel-task-spherical-measurements">
+            <task xml:id="parallel-task-spherical-measurements" label="parallel-task-spherical-measurements-label">
                 <statement>
                     <p>
                         To measure the angles on a sphere, pass a piece of 
@@ -266,7 +266,7 @@
                     </p>
                 </hint>
             </task>
-            <task xml:id="parallel-task-spherical-measurements-repeated">
+            <task xml:id="parallel-task-spherical-measurements-repeated" label="parallel-task-spherical-measurements-repeated-label">
                 <statement>
                     <p>
                         Repeat the last task two more times so that you have computed 
@@ -281,7 +281,7 @@
                     </p>
                 </hint>
             </task>
-            <task xml:id="parallel-task-largest-triangle">
+            <task xml:id="parallel-task-largest-triangle" label="parallel-task-largest-triangle-label">
                 <statement>
                     <p>
                         What is the largest triangle you can make on the sphere?  
@@ -295,7 +295,7 @@
                     </p>
                 </hint>
             </task>
-            <task xml:id="parallel-task-interior-angles-conjecture">
+            <task xml:id="parallel-task-interior-angles-conjecture" label="parallel-task-interior-angles-conjecture-label">
                 <statement>
                     <p>
                         Make a conjecture as to the sum of the measures of the interior angles of a spherical 
@@ -374,12 +374,12 @@
                         </shortdescription>
                     </image>
                  </figure>
-<exercise>
+<exercise xml:id="parallel-exercise-understanding-parallel" label="parallel-exercise-understanding-parallel-label">
     <title>Check your Understanding</title>
     <statement>
         <p>Refer to <xref ref="skewlines"/> as you answer the following.</p>
     <tasks>
-        <task xml:id="parallel-task-three-dimensional">
+        <task xml:id="parallel-task-three-dimensional" label="parallel-task-three-dimensional-label">
             <statement>
                 <p>
                 In the figure, it looks like <m>\overleftrightarrow{BH}</m>
@@ -390,7 +390,7 @@
             </statement>
             <response />
         </task>
-        <task xml:id="parallel-task-second-skew-line">
+        <task xml:id="parallel-task-second-skew-line" label="parallel-task-second-skew-line-label">
             <statement>
                 <p>
                     Identify a second line (extension of an edge of the box in the picture) 
@@ -400,7 +400,7 @@
             </statement>
             <response />
         </task>
-        <task xml:id="parallel-task-identify-parallel-lines">
+        <task xml:id="parallel-task-identify-parallel-lines" label="parallel-task-identify-parallel-lines-label">
             <statement>
                 <p>
                     How many lines suggested by edges of this box are parallel 
@@ -422,7 +422,7 @@
                 vertex. We now look at that exploration in the context of  
                 parallelism.
             </p>
-            <exploration>
+            <exploration xml:id="parallel-explor-aia" label="parallel-explor-aia-label">
                 <title> Alternate Interior Angles</title>
                         <introduction>
                             <p>
@@ -440,7 +440,7 @@
                             </interactive>
                         </figure>
                         <tasks>
-                            <task>
+                            <task xml:id="parallel-task-aia-1" label="parallel-task-aia-1-label">
                                 <statement>
                                     <p>
                                         What appears to be true about lines <m>\overleftrightarrow{AB}</m> and 
@@ -449,7 +449,7 @@
                                 </statement>
                                 <response />
                             </task>
-                            <task>
+                            <task xml:id="parallel-task-aia-2" label="parallel-task-aia-2-label">
                                 <statement>
                                     <p>
                                         What other two lines appear to have this property?
@@ -457,7 +457,7 @@
                                 </statement>
                                 <response />
                             </task>
-                            <task>
+                            <task xml:id="parallel-task-aia-3" label="parallel-task-aia-3-label">
                                 <statement>
                                     <p>
                                         Verify your observation by using the parallel line tool in the app. After selecting 
@@ -467,7 +467,7 @@
                                 </statement>
                                 <response />
                             </task>
-                            <task>
+                            <task xml:id="parallel-task-b-1" label="parallel-task-b-1-label">
                                 <statement>
                                     <p>What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m>In terms of angle measure? How do you know? </p>
                                 </statement>
@@ -481,7 +481,7 @@
                                             actual measurement.
                                         </p>
                                     </aside>
-                                <task> 
+                                <task xml:id="parallel-task-b-2" label="parallel-task-b-2-label"> 
                                     <statement>
                                         <p>
                                             In terms of their relationship to the parallel lines, <m>\overleftrightarrow{CA'}</m>
@@ -490,7 +490,7 @@
                                     </statement>
                                     <response />
                                 </task>
-                                <task>
+                                <task xml:id="parallel-task-b-3" label="parallel-task-b-3-label">
                                     <statement>
                                         <p>
                                             In terms of triangle <m>\Delta ABC</m> and its rotated copy <m>\Delta AC'B'</m>?
@@ -679,11 +679,11 @@
              180 degrees. The interested student is encouraged to consult other sources to learn more.
         </p>
     </subsection>  --> 
-    <exercises xml:id="exercises-polygons-parallel">
+    <exercises xml:id="exercises-polygons-parallel" label="exercises-polygons-parallel-label">
         <title>Exercises</title>
-        <subexercises xml:id="SAR-polygons-parallel">
+        <subexercises xml:id="SAR-polygons-parallel" label="SAR-polygons-parallel-label">
             <title>Skills and Recall</title>
-            <exercise>
+            <exercise xml:id="SAR-parallel-aia">
                 <introduction>
                     <p>
                         In <xref ref="def-angles-by-transversal"/>, a pair of alternate
@@ -694,7 +694,7 @@
                 </introduction>
                 <tasks> 
                 <!-- Add solutions to these tasks?-->
-                    <task>
+                    <task xml:id="SAR-task-aia-1" label="SAR-task-aia-1-label">
                         <statement>
                             <p>A second pair of alternate interior angles.</p>
                         </statement>
@@ -721,7 +721,7 @@
                                 </choice>
                             </choices>
                     </task>
-                    <task>
+                    <task xml:id="SAR-task-aia-2" label="SAR-task-aia-2-label">
                         <statement>
                             <p>A second pair of alternate exterior angles.</p>
                         </statement>
@@ -748,36 +748,35 @@
                                 </choice>
                             </choices>
                     </task>
-                    <task>
+                    <task xml:id="SAR-task-corresponding" label="SAR-task-corresponding-label">
                         <statement>
                             <p>Three more pairs of corresponding angles.</p>
                         </statement>
-                            <matches>
+                            <cardsort>
                                 <match order="3">
-                                    <premise><p><m>\angle EBF</m></p></premise>
-                                    <response><p><m>\angle BCD</m></p></response>
+                                    <premise><m>\angle EBF</m></premise>
+                                    <response><m>\angle BCD</m></response>
                                 </match>
                                 <match order="2">
-                                    <premise><p><m>\angle FBC</m></p></premise>
-                                    <response><p><m>\angle DCH</m></p></response>
+                                    <premise><m>\angle FBC</m></premise>
+                                    <response><m>\angle DCH</m></response>
                                 </match>
                                 <match order="1">
-                                    <premise><p><m>\angle ABE</m></p></premise>
-                                    <response><p><m>\angle GCB</m></p></response>
+                                    <premise><m>\angle ABE</m></premise>
+                                    <response><m>\angle GCB</m></response>
                                 </match>
-                            </matches>
-                    </task>
+                            </cardsort>
+                        </task>
                 </tasks>
             </exercise>
-            <exercise>
+            <exercise xml:id="SAR-parallel-aia-2" label="SAR-parallel-aia-2-label">
                 <introduction>
                     <p>
                         In <xref ref="principle-alternate-interior-angles"/>, we claim that
                         alternate interior angles are congruent. 
                     </p>
                 </introduction>
-                        <tasks>
-                            <task>
+                            <task xml:id="SAR-parallel-task-measure" label="SAR-parallel-task-measure-label">
                                 <statement>
                                     <p>
                                         Use this principle to argue that alternate exterior angles 
@@ -787,7 +786,7 @@
                                 </statement>
                                 <response />
                             </task>
-                            <task>
+                            <task xml:id="SAR-parallel-task-cong" label="SAR-parallel-task-cong-label">
                                 <statement>
                                     <p>
                                         Give a thorough argument that corresponding angles <m>ABC</m> 
@@ -796,9 +795,8 @@
                                 </statement>
                                 <response />
                             </task>
-                        </tasks>
             </exercise>
-            <exercise xml:id="exer-transv-angle-measures">
+            <exercise xml:id="SAR-parallel-transv-angle-measures" label="SAR-parallel-transv-angle-measures-label">
                 <statement>
                     <p>
                         In <xref ref="fig-exer-transv-angle-measures"/>,
@@ -812,7 +810,7 @@
                     </p>
                     <p>Determine the measures of the angles:</p>
                         <tasks>
-                            <task>
+                            <task xml:id="SAR-parallel-task-measure-1" label="SAR-parallel-task-measure-1-label">
                                 <statement>
                                     <p><m>\angle{ACJ} = </m> <fillin answer="57" mode="number" width="3" /></p> 
                                 </statement>
@@ -825,7 +823,7 @@
                                     </evaluate>
                                 </evaluation>
                             </task>
-                            <task>
+                            <task xml:id="SAR-parallel-task-measure-2" label="SAR-parallel-task-measure-2-label">
                                 <statement>
                                     <p><m>\angle{ACD} = </m> <fillin answer="123" mode="number" width="3" /></p>
                                 </statement>
@@ -838,7 +836,7 @@
                                     </evaluate>
                                 </evaluation>
                             </task>
-                            <task>
+                            <task xml:id="SAR-parallel-task-measure-3" label="SAR-parallel-task-measure-3-label">
                                 <statement>
                                     <p><m>\angle{DCE} = </m> <fillin characters="3" answer="57" mode="number" width="3" /></p>
                                 </statement>
@@ -851,7 +849,7 @@
                                     </evaluate>
                                 </evaluation>
                             </task>
-                            <task>
+                            <task xml:id="SAR-parallel-task-measure-4" label="SAR-parallel-task-measure-4-label">
                                 <statement>
                                     <p><m>\angle{BDK} = </m> <fillin characters="3" answer="66" width="3" /></p>
                                 </statement>
@@ -864,7 +862,7 @@
                                     </evaluate>
                                 </evaluation>                                
                             </task>
-                            <task>
+                            <task xml:id="SAR-parallel-task-measure-5" label="SAR-parallel-task-measure-5-label">
                                 <statement>
                                     <p><m>\angle{DBA} = </m> <fillin characters="3" answer="66" width="3" /></p>
                                 </statement>
@@ -877,7 +875,7 @@
                                     </evaluate>
                                 </evaluation>
                             </task>
-                            <task>
+                            <task xml:id="SAR-parallel-task-measure-6" label="SAR-parallel-task-measure-6-label">
                                 <statement>
                                     <p><m>\angle{AEB} = </m> <fillin characters="3" answer="57" width="3" /></p>
                                 </statement>
@@ -890,7 +888,7 @@
                                     </evaluate>
                                 </evaluation>
                             </task>
-                            <task>
+                            <task xml:id="SAR-parallel-task-measure-7" label="SAR-parallel-task-measure-7-label">
                                 <statement>
                                     <p><m>\angle{ABG} = </m> <fillin characters="3" answer="114" width="3" /></p>
                                 </statement>
@@ -906,7 +904,7 @@
                         </tasks>
                     <figure xml:id="fig-exer-transv-angle-measures">
                         <caption>
-                            Illustration for <xref ref="exer-transv-angle-measures"/>
+                            Illustration for <xref ref="SAR-parallel-transv-angle-measures"/>
                         </caption>
                         <image source="exer-transversal-angles">
                             <shortdescription>
@@ -920,9 +918,9 @@
                 </statement>
             </exercise>
         </subexercises>
-        <subexercises xml:id="ExtConc-polygons-parallel">
+        <subexercises xml:id="ExtConc-polygons-parallel" label="ExtConc-polygons-parallel-label">
             <title>Extending the Concepts</title>
-            <exercise>
+            <exercise xml:id="ExtConc-polygons-parallel-neq" label="ExtConc-polygons-parallel-neq-label">
                 <statement>
                     <p>
                         Suppose that lines <m>\ell</m> and <m>m</m> are not 
@@ -942,7 +940,7 @@
                     </p>
                 </statement>
             </exercise>
-            <exercise xml:id="ExtConc-polygons-parallel-Coxeterdisc">
+            <exercise xml:id="ExtConc-polygons-parallel-Coxeterdisc" label="ExtConc-polygons-parallel-Coxeterdisc-label">
                 <title>The Hyperbolic Disk Model</title>
                 <figure xml:id="fig-Coxeterdisc-basic">
                     <caption>
@@ -992,7 +990,7 @@
                             by the edge of the disc.
                         </p>
                     </aside>
-                <task>
+                <task xml:id="ExtConc-polygons-parallel-task-euclid-1" label="ExtConc-polygons-parallel-task-euclid-1-label">
                     <statement>
                         <p>
                             To our Euclidean eyes, line segment <m>\overline{AB}</m> appears 
@@ -1017,7 +1015,7 @@
                         </choice>
                     </choices>
                 </task>
-                <task>
+                <task xml:id="ExtConc-polygons-parallel-task-euclid-2" label="ExtConc-polygons-parallel-task-euclid-2-label">
                     <statement>
                         <p>
                             To our Euclidean eyes, line segment <m>\overline{CD}</m> appears 
@@ -1042,7 +1040,7 @@
                         </choice>
                     </choices>                    
                 </task>
-                <task>
+                <task xml:id="ExtConc-polygons-parallel-task-triangle" label="ExtConc-polygons-parallel-task-triangle-label">
                     <statement>
                         <p>
                             Consider triangle <m>\Delta ABC</m>. Do you
@@ -1050,9 +1048,10 @@
                             be equal to 180 degrees, less than 180 degrees, 
                             or more than 180 degrees?
                         </p>
+                        <!-- Add choices-->
                     </statement>
                 </task>
-                <task>
+                <task xml:id="ExtConc-polygons-parallel-task-sketch" label="ExtConc-polygons-parallel-task-sketch-label">
                     <statement>
                         <p>
                             Recalling that two lines are said to be parallel,
@@ -1063,7 +1062,7 @@
                         </p>
                     </statement>
                 </task>
-                <task>
+                <task xml:id="ExtConc-polygons-parallel-task-num-lines" label="ExtConc-polygons-parallel-task-num-lines-label">
                     <statement>
                         <p>
                             As noted, not all lines are shown in the sketch. In fact, for any two 
@@ -1074,7 +1073,7 @@
                             Support your answer by words and/or illustrations.
                         </p>
                     </statement>
-                    <response /> <!-- Runestone -->
+                    <response /> 
                 </task>
                 <figure xml:id="fig-escher-hypdisc">
                     <caption>
@@ -1088,9 +1087,9 @@
                 </figure>
             </exercise>
        </subexercises>
-       <subexercises xml:id="writing-polygons-parallel">
+       <subexercises xml:id="writing-polygons-parallel" label="writing-polygons-parallel-label">
         <title>Writing Prompts</title>
-        <exercise>
+        <exercise xml:id="writing-polygons-parallel-exerc" label="writing-polygons-parallel-exerc-label">
             <statement>
                 <p>
                     Write a letter to a friend in which you discuss some of the commonalities 
