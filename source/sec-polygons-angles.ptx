@@ -420,6 +420,7 @@
                 </p>
             </solution>
         </task>
+    </exploration>
         
         <!--original code if this should be converted back...-->
         <!--<task>
@@ -470,7 +471,6 @@
                 degrees.
             </p>
         </task>-->
-    </exploration>
     <p>
         We give a more concise definition of angle measure and introduce the 
         notion of angle congruence.
