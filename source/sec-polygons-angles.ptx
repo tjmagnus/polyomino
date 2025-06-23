@@ -576,6 +576,30 @@
                         </ol>
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        1). testing hint for question 1
+                    </p>
+                    <p>
+                        2). testing hint for question 2
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        1). testing answer for question 1
+                    </p>
+                    <p>
+                        2). testing answer for question 2
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        1). testing solution for question 1
+                    </p>
+                    <p>
+                        2). testing solution for question 2
+                    </p>
+                </solution>
             </task>
             <task>
                 <statement>
