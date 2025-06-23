@@ -229,7 +229,72 @@
     <!--</sidebyside>-->
     <exploration>
         <title>Reading a Protractor</title>
+        <introduction>
+            <p>
+                Use the picture above to determine the following:
+            </p>
+        </introduction>
         <task>
+            <statement>
+                <p>
+                    The measure of angle <m>\angle{EAB}</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The measure of angle <m>\angle{CAD}</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The measure of angle <m>\angle{CAE}</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The measure of angle <m>\angle{EAC}</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What fraction of a full rotation is 40 degrees?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What fraction of a full rotation is 110 degrees?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use a physical protractor and a ruler to draw an angle with
+                    measure 78 degrees. Describe your technique.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    It is possible to have angle measures greater than 180 degrees. 
+                    Use words and/or pictures to describe an angle that measures 240 
+                    degrees.
+                </p>
+            </statement>
+        </task>
+        
+        <!--<task>
             <p>
                 Use the picture above to determine the following:
                 <ol>
@@ -276,7 +341,7 @@
                 Use words and/or pictures to describe an angle that measures 240 
                 degrees.
             </p>
-        </task>
+        </task>-->
     </exploration>
     <p>
         We give a more concise definition of angle measure and introduce the 
