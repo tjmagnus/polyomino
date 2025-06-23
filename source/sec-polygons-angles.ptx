@@ -227,7 +227,7 @@
         </image>
         </figure>   
     <!--</sidebyside>-->
-    <exercise>
+    <exploration>
         <title>Reading a Protractor</title>
         <introduction>
             <p>
@@ -420,7 +420,7 @@
                 </p>
             </solution>
         </task>
-    </exercise>
+    </exploration>
         
         <!--original code if this should be converted back...-->
         <!--<task>
