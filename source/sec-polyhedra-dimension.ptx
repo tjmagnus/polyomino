@@ -54,21 +54,21 @@
           </p>
         </feedback>
         <cardsort>
-          <match order="4">
+          <match>
             <premise>The amount of ice that can fit in a cooler.</premise>
-            <response>volume</response>
+            <response order="4">volume</response>
           </match>
-          <match order="1">
+          <match>
             <premise>The amount of vinyl to cover a floor.</premise>
-            <response>area</response>
+            <response order="1">area</response>
           </match>
-          <match order="3">
+          <match>
             <premise>The amount of wood to build a box.</premise>
-            <response>surface area</response>
+            <response order="3">surface area</response>
           </match>
-          <match order="2">
+          <match>
             <premise>The amount of wire to form a polygon's boundary.</premise>
-            <response>perSimeter</response>
+            <response order="2">perSimeter</response>
           </match>
         </cardsort>
       </exercise>
