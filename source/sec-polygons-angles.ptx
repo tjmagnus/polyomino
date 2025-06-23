@@ -240,6 +240,22 @@
                     The measure of angle <m>\angle{EAB}</m>.
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Look where <m>\overrightarrow{AE}</m> points on the protractor.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>m(\angle{EAB})=150^{\circ}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The protractor shows that <m>\overrightarrow{AE}</m> points to <m>m(\angle{EAB})=150^{\circ}</m>. Since
+                    <m>\overrightarrow{AB}</m> is at <m>0^{\circ}</m>, the measure of the angle is <m>150^{\circ}</m>.
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -247,6 +263,22 @@
                     The measure of angle <m>\angle{CAD}</m>.
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Find the difference between the protractor marks for the two rays for angle <m>\angle{CAD}</m>.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>m(\angle{CAD})=140^{\circ}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <m>\overrightarrow{AD}</m> points to <m>40^{\circ}</m>, and <m>\overrightarrow{AC}</m> is at <m>180^{\circ}</m>.
+                    The difference between <m>180^{\circ}</m> and <m>40^{\circ}</m> is <m>140^{\circ}</m>.
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -254,6 +286,22 @@
                     The measure of angle <m>\angle{CAE}</m>.
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Find the difference between the marks for the two rays for angle <m>\angle{CAE}</m>.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>m(\angle{CAE})=30^{\circ}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <m>\overrightarrow{AE}</m> is at <m>150^{\circ}</m>, and <m>\overrightarrow{AC}</m> is at <m>180^{\circ}</m>.
+                    The difference between <m>180^{\circ}</m> and <m>150^{\circ}</m> is <m>30^{\circ}</m>.
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -261,6 +309,21 @@
                     The measure of angle <m>\angle{EAC}</m>.
                 </p>
             </statement>
+            <hint>
+                <p>
+                    This is the same angle as <m>\angle{CAE}</m>.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>m(\angle{EAC})=30^{\circ}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <m>\angle{EAC}</m> is just another name for <m>\angle{CAE}</m>, so the angle is also <m>30^{\circ}</m>.
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -268,6 +331,22 @@
                     What fraction of a full rotation is 40 degrees?
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Divide 40 by 360.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>\frac{1}{9}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    A full rotation is <m>360^{\circ}</m>. <m>\frac{40}{360} = \frac{1}{9}</m>, so <m>40^{\circ}</m> is
+                    one-ninth of a full turn.
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -275,6 +354,21 @@
                     What fraction of a full rotation is 110 degrees?
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Divide 110 by 360.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>\frac{11}{36}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <m>\frac{110}{360} = \frac{11}{36}</m>. So, <m>110^{\circ}</m> is <m>\frac{11}{36}</m> of a full rotation.
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -283,6 +377,22 @@
                     measure 78 degrees. Describe your technique.
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Align one side of the angle with <m>0^{\circ}</m>, then mark <m>78^{\circ}</m> on the protractor.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    See the "Solution" for a detailed explanation on technique.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Place the protractor on the vertex and align one side with <m>0^{\circ}</m>. Using the protractor, mark 
+                    <m>78^{\circ}</m>, then connect the vertex to this point with a straight line to complete the angle.
+                </p>
+            </solution>
         </task>
         <task>
             <statement>
@@ -292,8 +402,26 @@
                     degrees.
                 </p>
             </statement>
+            <hint>
+                <p>
+                    <m>240^{\circ}</m> is greater than <m>180^{\circ}</m>, so it is a reflex angle.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Draw a straight line (<m>180^{\circ}</m>), then measure an additional <m>60^{\circ}</m> past the straight
+                    line.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    A <m>240^{\circ}</m> angle wraps more than halfway around the circle. To draw it, measure <m>180^{\circ}</m>,
+                    then add <m>60^{\circ}</m> more to reach <m>240^{\circ}</m>.
+                </p>
+            </solution>
         </task>
         
+        <!--original code if this should be converted back...-->
         <!--<task>
             <p>
                 Use the picture above to determine the following:
