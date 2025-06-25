@@ -533,106 +533,150 @@
 
         </introduction>
         <task>
-                <statement>
-                    <p>
-                        Rotate triangle <m>\Delta ABC</m> 180 degrees about the midpoint 
-                        <m>D</m> of side <m>\overline{BC}</m> (see hint). Both the original triangle  
-                        and the rotated version should be visible. What do you notice?
-                    </p>
-                    <p>
-                        Note that two of the points are double labeled, once for each 
-                        triangle. If you rightclick on 
-                        the label, you can move it to make the original label visible.
-                    </p>
-                </statement>
-                <hint>
-                    <p>
-                        To perform this rotation in the GeoGebra app, click on the angle rotation icon 
-                        in the toolbar. Next, click on the interior of the triangle to select the object 
-                        to be rotated, then click on midpoint <m>D</m> to identify the center of the rotation. 
-                        When prompted to input 
-                        the angle measure, replace 45 with 180. Then click OK.
-                    </p>
-                </hint>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Also rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
-                        <m>E</m> of side <m>\overline{AB}</m>. 
-                        <ol>
-                            <li>
-                                <p>
-                                    Which angle of <m>\Delta ABC</m> is congruent to 
-                                    <m>\angle A'C'B'</m>?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Which angle of <m>\Delta ABC</m> is congruent to 
-                                    <m>\angle B_{1}'A_{1}'C_{1}'</m>?
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-                <hint>
-                    <p>
-                        1). testing hint for question 1
-                    </p>
-                    <p>
-                        2). testing hint for question 2
-                    </p>
-                </hint>
-                <answer>
-                    <p>
-                        1). testing answer for question 1
-                    </p>
-                    <p>
-                        2). testing answer for question 2
-                    </p>
-                </answer>
-                <solution>
-                    <p>
-                        1). testing solution for question 1
-                    </p>
-                    <p>
-                        2). testing solution for question 2
-                    </p>
-                </solution>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What does this tell you about 
-                        <m>m\angle ABC+m\angle BCA + m\angle CAB</m>? Explain how the picture 
-                        shows this. 
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Make a claim about the sum of the interior angles of a triangle.
-                    </p>
-                    <p>
-                        Does your claim work for all triangles or just the one in the 
-                        picture? To test this in the GeoGebra applet, select the arrow 
-                        in the tool menu. Then click and drag one of the vertices in 
-                        the original triangle to change the shape. Do your claims still  
-                        hold?
-                    </p>
-                <aside>
-                    <p>
-                        GeoGebra makes exploring multiple possibilities easier. 
-                        If you are doing this activity with 
-                        paper triangles, experiment with other triangles, repeating the  
-                        previous tasks. If your classmates used different triangles, this  
-                        would be a good time to compare results. 
-                    </p>
-                </aside>
-                </statement>
-            </task>
+            <statement>
+                <p>
+                    Rotate triangle <m>\Delta ABC</m> 180 degrees about the midpoint 
+                    <m>D</m> of side <m>\overline{BC}</m> (see hint). Both the original triangle  
+                    and the rotated version should be visible. What do you notice?
+                </p>
+                <p>
+                    Note that two of the points are double labeled, once for each 
+                    triangle. If you rightclick on 
+                    the label, you can move it to make the original label visible.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    To perform this rotation in the GeoGebra app, click on the angle rotation icon 
+                    in the toolbar. Next, click on the interior of the triangle to select the object 
+                    to be rotated, then click on midpoint <m>D</m> to identify the center of the rotation. 
+                    When prompted to input 
+                    the angle measure, replace 45 with 180. Then click OK.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    answer.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    solution.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Also rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
+                    <m>E</m> of side <m>\overline{AB}</m>. Which angle of <m>\Delta ABC</m> is congruent to 
+                    <m>\angle A'C'B'</m>?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    hint.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    answer.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    solution.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
+                    <m>E</m> of side <m>\overline{AB}</m>. Which angle of <m>\Delta ABC</m> is congruent to 
+                    <m>\angle B_{1}'A_{1}'C_{1}'</m>?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    hint.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    answer.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    solution.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What does this tell you about 
+                    <m>m\angle ABC+m\angle BCA + m\angle CAB</m>? Explain how the picture 
+                    shows this. 
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    hint.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    answer.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    solution.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Make a claim about the sum of the interior angles of a triangle.
+                </p>
+                <p>
+                    Does your claim work for all triangles or just the one in the 
+                    picture? To test this in the GeoGebra applet, select the arrow 
+                    in the tool menu. Then click and drag one of the vertices in 
+                    the original triangle to change the shape. Do your claims still  
+                    hold?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    hint.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    answer.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    solution.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <aside>
+                <p>
+                    GeoGebra makes exploring multiple possibilities easier. 
+                    If you are doing this activity with 
+                    paper triangles, experiment with other triangles, repeating the  
+                    previous tasks. If your classmates used different triangles, this  
+                    would be a good time to compare results. 
+                </p>
+            </aside>
+        </task>
     </exploration>
 </subsection>
 <subsection xml:id="subsec-polygons-angles-principle">
