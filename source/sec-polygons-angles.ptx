@@ -556,12 +556,14 @@
             </hint>
             <answer>
                 <p>
-                    answer.
+                    The rotated triangle, <m>\Delta A'B'C'</m>, perfectly overlaps with the original triangle, but flipped.
+                    See "Solution" for a list of possible observations.
                 </p>
             </answer>
             <solution>
                 <p>
-                    solution.
+                    Possible Observations: The two triangles are identical in size and shape, they share a common side
+                    <m>\overline{BC}</m>, and the combined shape formed by both triangles is a parallelogram.
                 </p>
             </solution>
         </task>
@@ -575,17 +577,18 @@
             </statement>
             <hint>
                 <p>
-                    hint.
+                    Think about where <m>\angle C</m> rotates when the triangle is flipped around the midpoint of <m>\overline{AB}</m>.
                 </p>
             </hint>
             <answer>
                 <p>
-                    answer.
+                    <m>\angle A'C'B'</m> is congruent to <m>\angle ACB</m>.
                 </p>
             </answer>
             <solution>
                 <p>
-                    solution.
+                    Rotating around midpoint <m>E</m> maps vertex <m>C</m> to a new location <m>C'</m> on the opposite side of <m>\overline{AB}</m>. 
+                    This rotation preserves angle measures, <m>\angle A'C'B'</m> corresponds to the original <m>\angle ACB</m> in both shape and size.
                 </p>
             </solution>
         </task>
@@ -599,17 +602,20 @@
             </statement>
             <hint>
                 <p>
-                    hint.
+                    Consider the rules of corresponding angles. Recall that alternate interior angles are always congruent.
+                    Which is the alternate interior angle to <m>\angle B_{1}'A_{1}'C_{1}'</m>?
                 </p>
             </hint>
             <answer>
                 <p>
-                    answer.
+                    Angle <m>\angle ABC</m>.
                 </p>
             </answer>
             <solution>
                 <p>
-                    solution.
+                    When <m>\Delta ABC</m> is rotated 180 degrees around midpoint <m>E</m> of side <m>\overline{AB}</m>, a new
+                    triangle <m>\Delta A'B'C'</m> is formed. Both <m>\angle ABC</m> (original triangle) and
+                    <m>\angle B'A'C'</m> (new triangle) are interior angles. Therefore, these angles are congruent.
                 </p>
             </solution>
         </task>
@@ -623,17 +629,19 @@
             </statement>
             <hint>
                 <p>
-                    hint.
+                    Recall the Interior Angles Theorem. What is always the sum of the three interior angles of a triangle?
                 </p>
             </hint>
             <answer>
                 <p>
-                    answer.
+                    The sum of the interior angles of a triangle is 180 degrees.
                 </p>
             </answer>
             <solution>
                 <p>
-                    solution.
+                    When the triangle is rotated around each side, the interior angles line up to form a straight line. In 
+                    geometry, a straight line always measures 180 degrees. Therefore, the three angles inside the triangle must 
+                    also add up to 180 degrees.
                 </p>
             </solution>
         </task>
@@ -652,17 +660,19 @@
             </statement>
             <hint>
                 <p>
-                    hint.
+                    Test this claim by changing the triangle’s shape in GeoGebra or by rotating the triangle as instructed.
                 </p>
             </hint>
             <answer>
                 <p>
-                    answer.
+                    The sum of the interior angles of any triangle is always 180 degrees, regardless of its shape.
                 </p>
             </answer>
             <solution>
                 <p>
-                    solution.
+                    By rotating the triangle around the midpoints and observing how angles line up, it becomes clear that the 
+                    three interior angles together form a straight line where their sum is 180°. This holds true even with
+                    changing the triangle's size or shape in GeoGebra.
                 </p>
             <aside>
                 <p>
