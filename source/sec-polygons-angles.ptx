@@ -568,7 +568,7 @@
         <task>
             <statement>
                 <p>
-                    Also rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
+                    Rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
                     <m>E</m> of side <m>\overline{AB}</m>. Which angle of <m>\Delta ABC</m> is congruent to 
                     <m>\angle A'C'B'</m>?
                 </p>
@@ -664,9 +664,6 @@
                 <p>
                     solution.
                 </p>
-            </solution>
-        </task>
-        <task>
             <aside>
                 <p>
                     GeoGebra makes exploring multiple possibilities easier. 
@@ -676,6 +673,7 @@
                     would be a good time to compare results. 
                 </p>
             </aside>
+            </solution>
         </task>
     </exploration>
 </subsection>
