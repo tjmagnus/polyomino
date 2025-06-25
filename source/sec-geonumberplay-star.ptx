@@ -182,10 +182,31 @@
         </prefigure>
       </image>
     </figure>
+    <p>
+      Our study of <term>star polygons</term> is not limited to figures built with five 
+      or six concentric dots. 
+    </p>
+    <definition xml:id="def-star-polygon">
+      <statement>
+        <idx><h>star polygon</h></idx>
+        <usage><m>\{_{k}^{n}\}</m></usage>
+        <description>Star polygon on <m>n</m> points</description>
+        <p>
+          We define the star polygon <m>\{_{k}^{n}\}</m> to be the planar 
+          figure formed by a set of <m>n</m> concentric points together with 
+          a series of line segments that join each point to the <m>k^\text{th}</m>
+          point from it moving clockwise around the circle.
+        </p>
+        <p>For a shorter phrasing we can call <m>k</m> the skip number of the star polygon 
+          on <m>n</m> points, but we need to take care. We are only skipping <m>k-1</m> points, 
+          connecting every <m>k^\text{th}</m> point.
+        </p>
+      </statement>
+    </definition>  
     <exercise>
       <statement>
         <p>
-          Construct the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
+          Sketch the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
           do you notice about them?
         </p>
       </statement>
@@ -471,7 +492,7 @@
           <p>
             Construct the star polygons <m>\{_{1}^{7}\}</m>, <m>\{_{2}^{7}\}</m>,
             and <m>\{_{3}^{7}\}</m>. Templates are provided in 
-            <xref ref="fig-3copies-7dots"/>.
+            <xref ref="fig-3copies-7dots"/>. 
           </p>
           <figure xml:id="fig-3copies-7dots" label="figlabel-3copies-7dots">
             <caption>Templates for <xref ref="expltask-starpolys-7"/>.</caption>
@@ -503,8 +524,30 @@
               </figure>
             </sidebyside>
           </figure>
+          <p>
+            If you are unable to sketch on the templates above, you may use a GeoGebra 
+             <xref ref="7dot-starpoly-appfig"/> for drawing 7-dot star polygons.
+          </p>
+          <figure xml:id="7dot-starpoly-appfig">
+            <caption>
+                GeoGebra interactive for drawing 7-dot star polygons
+            </caption>
+            <interactive xml:id="7dot-starpoly-app" geogebra="cgnsaja4"
+            width="90%" aspect="9:4" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            <!--platform="geogebra">
+                <slate surface="geogebra" material="q2b6amrz"/>
+            </interactive>-->
+          </figure>
         </statement>
       </task>
+      <!--<task>
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+      </task>-->
+
       <!--<task label="expl-starpolys-8-template">
         <statement>
           <p>
