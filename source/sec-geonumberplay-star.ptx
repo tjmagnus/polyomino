@@ -182,10 +182,31 @@
         </prefigure>
       </image>
     </figure>
+    <p>
+      Our study of <term>star polygons</term> is not limited to figures built with five 
+      or six concentric dots. 
+    </p>
+    <definition xml:id="def-star-polygon">
+      <statement>
+        <idx><h>star polygon</h></idx>
+        <usage><m>\{_{k}^{n}\}</m></usage>
+        <description>Star polygon on <m>n</m> points</description>
+        <p>
+          We define the star polygon <m>\{_{k}^{n}\}</m> to be the planar 
+          figure formed by a set of <m>n</m> concentric points together with 
+          a series of line segments that join each point to the <m>k^\text{th}</m>
+          point from it moving clockwise around the circle.
+        </p>
+        <p>For a shorter phrasing we can call <m>k</m> the skip number of the star polygon 
+          on <m>n</m> points, but we need to take care. We are only skipping <m>k-1</m> points, 
+          connecting every <m>k^\text{th}</m> point.
+        </p>
+      </statement>
+    </definition>  
     <exercise>
       <statement>
         <p>
-          Construct the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
+          Sketch the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
           do you notice about them?
         </p>
       </statement>
@@ -471,53 +492,17 @@
           <p>
             Construct the star polygons <m>\{_{1}^{7}\}</m>, <m>\{_{2}^{7}\}</m>,
             and <m>\{_{3}^{7}\}</m>. Templates are provided in 
-            <xref ref="fig-3copies-7dots"/>.
+            <xref ref="fig-3copies-7dots"/>. 
           </p>
           <figure xml:id="fig-3copies-7dots" label="figlabel-3copies-7dots">
-            <caption>Templates for task<xref ref="expltask-starpolys-7"/>.</caption>
-            <sidebyside widths="30% 30% 30%">
+            <caption>Templates for <xref ref="expltask-starpolys-7"/>.</caption>
+            <sidebyside widths="27% 27% 27%">
               <figure label="figlabel-7dots" xml:id="fig-7dots">
                 <caption>Template for <m>\{_{1}^{7}\}</m>.</caption>
                 <image>
-                  <prefigure xmlns="https://prefigure.org" label="sevendotcircle1">
-                    <diagram width="225" height="225" margins="10">
-                      <definition>
-                        alignments=['nw','w','sw','sw','e','ne','n']
-                      </definition>
-                      <definition>f(t)=(-sin(2*pi*(1+t)/7),cos(2*pi*(1+t)/7))</definition>
-                      <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
-                        <repeat parameter="k=0..6">
-                          <point at="point" p="f(k)" alignment="alignments[k]" size="2">
-                            <m>${7-k}</m>
-                          </point>
-                        </repeat>
-                      </coordinates>
-                      <annotations>
-                        <annotation id="figure" text="Seven Points around a Circle">
-                          <annotation id="point k=0"
-                            text="Point 7"
-                            speech="point seven"/>
-                          <annotation id="point k=1"
-                            text="Point 6"
-                            speech="point six"/>
-                          <annotation id="point k=2"
-                            text="Point 5"
-                            speech="point five"/>
-                          <annotation id="point k=3"
-                            text="Point 4"
-                            speech="point four"/>
-                          <annotation id="point k=4"
-                            text="Point 3"
-                            speech="point three"/>
-                          <annotation id="point k=5"
-                            text="Point 2"
-                            speech="point two"/>
-                          <annotation id="point k=6"
-                            text="Point 1"
-                            speech="point one"/>
-                        </annotation>
-                      </annotations>
-                    </diagram>
+                  <prefigure xmlns="https://prefigure.org" label="sevendotcircle1" 
+                  xml:id="sevendotcircle">
+                    <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
               </figure>
@@ -525,44 +510,7 @@
                 <caption>Template for <m>\{_{2}^{7}\}</m>.</caption>
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle2">
-                    <diagram width="225" height="225" margins="10">
-                      <definition>
-                        alignments=['nw','w','sw','sw','e','ne','n']
-                      </definition>
-                      <definition>f(t)=(-sin(2*pi*(1+t)/7),cos(2*pi*(1+t)/7))</definition>
-                      <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
-                        <repeat parameter="k=0..6">
-                          <point at="point" p="f(k)" alignment="alignments[k]" size="2">
-                            <m>${7-k}</m>
-                          </point>
-                        </repeat>
-                      </coordinates>
-                      <annotations>
-                        <annotation id="figure" text="Seven Points around a Circle">
-                          <annotation id="point k=0"
-                            text="Point 7"
-                            speech="point seven"/>
-                          <annotation id="point k=1"
-                            text="Point 6"
-                            speech="point six"/>
-                          <annotation id="point k=2"
-                            text="Point 5"
-                            speech="point five"/>
-                          <annotation id="point k=3"
-                            text="Point 4"
-                            speech="point four"/>
-                          <annotation id="point k=4"
-                            text="Point 3"
-                            speech="point three"/>
-                          <annotation id="point k=5"
-                            text="Point 2"
-                            speech="point two"/>
-                          <annotation id="point k=6"
-                            text="Point 1"
-                            speech="point one"/>
-                        </annotation>
-                      </annotations>
-                    </diagram>
+                    <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
               </figure>
@@ -570,52 +518,49 @@
                 <caption>Template for <m>\{_{3}^{7}\}</m>.</caption>
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle3">
-                    <diagram width="225" height="225" margins="10">
-                      <definition>
-                        alignments=['nw','w','sw','sw','e','ne','n']
-                      </definition>
-                      <definition>f(t)=(-sin(2*pi*(1+t)/7),cos(2*pi*(1+t)/7))</definition>
-                      <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
-                        <repeat parameter="k=0..6">
-                          <point at="point" p="f(k)" alignment="alignments[k]" size="2">
-                            <m>${7-k}</m>
-                          </point>
-                        </repeat>
-                      </coordinates>
-                      <annotations>
-                        <annotation id="figure" text="Seven Points around a Circle">
-                          <annotation id="point k=0"
-                            text="Point 7"
-                            speech="point seven"/>
-                          <annotation id="point k=1"
-                            text="Point 6"
-                            speech="point six"/>
-                          <annotation id="point k=2"
-                            text="Point 5"
-                            speech="point five"/>
-                          <annotation id="point k=3"
-                            text="Point 4"
-                            speech="point four"/>
-                          <annotation id="point k=4"
-                            text="Point 3"
-                            speech="point three"/>
-                          <annotation id="point k=5"
-                            text="Point 2"
-                            speech="point two"/>
-                          <annotation id="point k=6"
-                            text="Point 1"
-                            speech="point one"/>
-                        </annotation>
-                      </annotations>
-                    </diagram>
+                    <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
               </figure>
             </sidebyside>
           </figure>
+          <p>
+            If you are unable to sketch on the templates above, you may use a GeoGebra 
+             <xref ref="7dot-starpoly-appfig"/> for drawing 7-dot star polygons.
+          </p>
+          <figure xml:id="7dot-starpoly-appfig">
+            <caption>
+                GeoGebra interactive for drawing 7-dot star polygons
+            </caption>
+            <interactive xml:id="7dot-starpoly-app" geogebra="cgnsaja4"
+            width="90%" aspect="9:4" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            <!--platform="geogebra">
+                <slate surface="geogebra" material="q2b6amrz"/>
+            </interactive>-->
+          </figure>
         </statement>
       </task>
-      
+      <!--<task>
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+      </task>-->
+
+      <!--<task label="expl-starpolys-8-template">
+        <statement>
+          <p>
+            Here are some templates for drawing the 8-point star polygons.
+          </p>
+          <figure xml:id="fig-starpolys-template-8">
+            <caption>Templates for exploring 8 point star polygons.</caption>
+            <image>
+                  <prefigure xmlns="https://prefigure.org" label="pfig-8ptstartemplate-label"/> 
+
+          </figure>
+        </statement>
+      </task>-->
     </exploration>
   </subsection>
 </section>  
