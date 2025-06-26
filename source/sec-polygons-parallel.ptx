@@ -681,8 +681,6 @@
             <title>Skills and Recall</title>
             <exercise xml:id="SAR-parallel-aia">
                 <introduction>
-            <exercise>
-                <statement>
                     <p>
                         In <xref ref="def-angles-by-transversal"/>, a pair of alternate
                         interior angles, a pair of alternate exterior angles, and a pair of 
