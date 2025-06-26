@@ -778,8 +778,24 @@
         <task>
           <statement>
             <p>
-              Use the nine-dot template or the Geogebra applet to check your answers.
+              Use the nine-dot template in <xref ref="fig-starpolys-template-9"/> 
+              or the Geogebra applet to check your answers.
             </p>
+            <figure xml:id="fig-starpolys-template-9">
+            <caption>Templates for exploring 8-point star polygons.</caption>
+            <image>
+              <prefigure xmlns="https://prefigure.org" label="ninedotcircle">
+                  <xi:include href="pref-for-9-dot-circle.ptx" />
+                </prefigure>
+              </image> 
+            </figure>
+            <figure xml:id="ninedot-starpoly-appfig" label="ninedot-starpoly-applabel">
+              <caption>
+                  GeoGebra interactive for drawing 9-dot star polygons
+              </caption>
+              <interactive xml:id="ninedot-starpoly-app" geogebra="mc9sff95"
+               aspect="9:3" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            </figure>
           </statement>
         </task>
       </task>
