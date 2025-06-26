@@ -703,6 +703,77 @@
           <response />
         </task>
       </task>
+      <task label="expl-ninedot-starpolys-l" xml:id="expl-ninedot-starpolys">
+        <title>Nine-dot Star Polygons</title>
+        <introduction>
+          <p>
+            Now that we have experience drawing star polygons, let us make 
+            some predictions for nine-dot star polygons.
+          </p>
+        </introduction>
+        <task label="task-9star-regnonagon-l" xml:id="task-9star-regnonagon">
+          <statement>
+            <p>
+              Identify any nine-dot star polygons that are regular nonagons.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\{_{1}^{9}\}</m> and <m>\{_{8}^{9}\}</m>
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="expltask-9dotstarpoly-continuousdraw-l" 
+          xml:id="expltask-9dotstarpoly-continuousdraw">
+          <statement>
+            <p>
+              Which nine-dot star polygons can be drawn without lifting one's pencil?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\{_{1}^{9}\}</m>, <m>\{_{2}^{9}\}</m>, <m>\{_{4}^{9}\}</m>,
+              <m>\{_{5}^{9}\}</m>, <m>\{_{7}^{9}\}</m> and <m>\{_{8}^{9}\}</m>.
+            </p>
+          </answer>
+          <response/>
+        </task>
+        <task label="expltask-predict-93starpoly-l" xml:id="expltask-predict-93starpoly">
+          <introduction>
+            <p>
+              One of the nine-dot star polygons that requires us to lift our pencil and 
+              restart at a new dot is <m>\{_{3}^{9}\}</m>. 
+            </p>
+          </introduction>
+          <task label="expltask-predictshape-93starpoly" 
+            xml:id="expltask-predictshape-93starpoly">
+            <statement>
+              <p>
+                What shape is formed before we have to lift up our pencil?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                A triangle.
+              </p>
+            </answer>
+          </task>
+          <task label="expltask-predictnumb-93starpoly-l" 
+            xml:id="expltask-predictnumb-93starpoly">
+            <statement>
+              <p>
+                How many copies of that shape appear in <m>\{_{3}^{9}\}</m>?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Three
+              </p>
+            </answer>
+          </task>
+        </task>
+      </task>
     </exploration>
   </subsection>
 </section>  
