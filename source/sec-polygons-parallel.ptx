@@ -748,16 +748,16 @@
                             <p>Three more pairs of corresponding angles.</p>
                         </statement>
                             <cardsort>
-                                <match order="3">
-                                    <premise><m>\angle EBF</m></premise>
+                                <match>
+                                    <premise order="3"><m>\angle EBF</m></premise>
                                     <response><m>\angle BCD</m></response>
                                 </match>
-                                <match order="2">
-                                    <premise><m>\angle FBC</m></premise>
+                                <match>
+                                    <premise order="2"><m>\angle FBC</m></premise>
                                     <response><m>\angle DCH</m></response>
                                 </match>
-                                <match order="1">
-                                    <premise><m>\angle ABE</m></premise>
+                                <match>
+                                    <premise order="1"><m>\angle ABE</m></premise>
                                     <response><m>\angle GCB</m></response>
                                 </match>
                             </cardsort>
