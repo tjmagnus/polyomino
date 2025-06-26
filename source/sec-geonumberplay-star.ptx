@@ -758,6 +758,7 @@
                 A triangle.
               </p>
             </answer>
+            <response />
           </task>
           <task label="expltask-predictnumb-93starpoly-l" 
             xml:id="expltask-predictnumb-93starpoly">
@@ -771,7 +772,15 @@
                 Three
               </p>
             </answer>
+            <response />
           </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use the nine-dot template or the Geogebra applet to check your answers.
+            </p>
+          </statement>
         </task>
       </task>
     </exploration>
