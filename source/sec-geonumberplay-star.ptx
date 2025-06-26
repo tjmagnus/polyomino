@@ -486,7 +486,7 @@
       <title>Star Polygons <m>\{_{k}^{n}\}</m> for <m>n\gt 6</m></title>
       <task label="expltask-starpolys-7-l" xml:id="expltask-starpolys-7">
         <title>
-          Seven-vertex star polygons
+          Seven-dot star polygons
         </title>
         <statement>
           <p>
@@ -525,14 +525,14 @@
             </sidebyside>
           </figure>
           <p>
-            If you are unable to sketch on the templates above, you may use a GeoGebra 
-             <xref ref="7dot-starpoly-appfig"/> for drawing 7-dot star polygons.
+            If you are unable to sketch on the templates above, you may use the GeoGebra
+            interactive in <xref ref="sevendot-starpoly-appfig"/> to draw 7-dot star polygons.
           </p>
-          <figure xml:id="7dot-starpoly-appfig">
+          <figure xml:id="sevendot-starpoly-appfig">
             <caption>
                 GeoGebra interactive for drawing 7-dot star polygons
             </caption>
-            <interactive xml:id="7dot-starpoly-app" geogebra="cgnsaja4"
+            <interactive xml:id="sevendot-starpoly-app" geogebra="cgnsaja4"
             width="90%" aspect="9:4" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
             <!--platform="geogebra">
                 <slate surface="geogebra" material="q2b6amrz"/>
@@ -540,27 +540,169 @@
           </figure>
         </statement>
       </task>
-      <!--<task>
+      <task label="match-sevendot-starpolys">
         <statement>
           <p>
-            
+            Match the star polygon on the left with the star polygon on the right that 
+            is the same.
           </p>
         </statement>
-      </task>-->
-
-      <!--<task label="expl-starpolys-8-template">
-        <statement>
+        <feedback>
           <p>
-            Here are some templates for drawing the 8-point star polygons.
+            Consider which five-dot and six-dot star polygons looked the same. Why? If you 
+            are not sure, construct the remaining seven-dot star polygons.
           </p>
-          <figure xml:id="fig-starpolys-template-8">
-            <caption>Templates for exploring 8 point star polygons.</caption>
+        </feedback>
+        <cardsort>
+          <match>
+            <premise><m>\{_{4}^{7}\}</m></premise>
+            <response order="1"><m>\{_{3}^{7}\}</m></response>
+          </match>
+          <match>
+            <premise><m>\{_{5}^{7}\}</m></premise>
+            <response order="3"><m>\{_{2}^{7}\}</m></response>
+          </match>
+          <match>
+            <premise><m>\{_{6}^{7}\}</m></premise>
+            <response order="2"><m>\{_{1}^{7}\}</m></response>
+          </match>
+        </cardsort>
+      </task>
+      <task label="expltask-starpolys-8dots-l" xml:id="expltask-starpolys-8dots">
+        <title>Eight-dot star polygons.</title>
+        <task label="explsbtask-starpolys-81-l" xml:id="explsbtask-starpolys-81">
+          <statement>
+            <p>
+              Describe or sketch the star polygon <m>\{_{1}^{8}\}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              This is a regular octagon.
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="explsubtask-starpolys-82-l" xml:id="explsubtask-starpolys-82">
+          <statement>
+            <p>
+              Sketch the star polygon <m>\{_{2}^{8}\}</m> using either the template in 
+              <xref ref="fig-starpolys-template-8"/> or the GeoGebra applet in 
+              <xref ref="eightdot-starpoly-appfig"/>. Be sure to label your design with the 
+              symbol <m>\{_{2}^{8}\}</m>.
+            </p>
+            <figure xml:id="fig-starpolys-template-8">
+            <caption>Templates for exploring 8-point star polygons.</caption>
             <image>
-                  <prefigure xmlns="https://prefigure.org" label="pfig-8ptstartemplate-label"/> 
-
-          </figure>
-        </statement>
-      </task>-->
+              <prefigure xmlns="https://prefigure.org" label="eightdotcircle">
+                  <xi:include href="pref-for-8-dot-circle.ptx" />
+                </prefigure>
+              </image> 
+            </figure>
+            <figure xml:id="eightdot-starpoly-appfig" label="eightdot-starpoly-applabel">
+              <caption>
+                  GeoGebra interactive for drawing 8-dot star polygons
+              </caption>
+              <interactive xml:id="eightdot-starpoly-app" geogebra="phddxzyr"
+               aspect="10:3" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            </figure>
+          </statement>
+        </task>
+        <task label="pencillifts-82-label" xml:id="pencillifts-82">
+          <statement>
+            <p>
+              How many times were you required to "lift your pencil" while drawing 
+              <m>\{_{2}^{8}\}</m>? 
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Twice.
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="pencilliftshape-82-label" xml:id="pencilliftshape-82">
+          <statement>
+            <p>
+              What shape was created when you returned to your starting point (before 
+              lifting your pencil)?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              A square.
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="describe82starpoly-label" xml:id="describe82starpoly">
+          <statement>
+            <p>
+              Use your last two responses to describe in words what a <m>\{_{2}^{8}\}</m>
+              star polygon looks like.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Your answer may include the number of copies of a familiar shape. You might 
+              also include a rotational angle or how these copies are related in position.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Answers may vary. Two copies of a square with a common center rotated 45 degrees
+              from each other.
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="draw-other-8starpoly-label" xml:id="draw-other-8starpoly">
+          <statement>
+            <p>
+              Use copies of the template or the Geogebra applet to draw the
+              remaining 8-dot star polygons. When two eight-dot star polygons 
+              are known to look identical, you do not need to draw the design 
+              a second time. Instead write the two symbols, <m>\{_{k}^{8}\}</m> 
+              below the design, replacing <m>k</m> by the appropriate number.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              See below for descriptions of <m>\{_{3}^{8}\}</m> and <m>\{_{4}^{8}\}</m>.
+              Also <m>\{_{5}^{8}\}=\{_{3}^{8}\}</m>, <m>\{_{6}^{8}\}=\{_{2}^{8}\}</m>,
+              and <m>\{_{7}^{8}\}=\{_{1}^{8}\}</m>.
+            </p>
+          </answer>
+        </task>
+        <task label="describe83starpoly-label" xml:id="describe83starpoly">
+          <statement>
+            <p>
+              Describe <m>\{_{3}^{8}\}</m>. Did you need to lift your pencil to draw it?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              It can be drawn in a continuous sequence of line segments without lifting 
+              the pencil. It looks like a star with eight points. 
+            </p>
+          </answer>
+          <response/>
+        </task>
+        <task label="describe84starpoly-label" xml:id="describe84starpoly">
+          <statement>
+            <p>
+              Describe <m>\{_{4}^{8}\}</m>. Did you need to lift your pencil to draw it?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Yes. It consists of four line segments that meet at their midpoints.
+            </p>
+          </answer>
+          <response />
+        </task>
+      </task>
     </exploration>
   </subsection>
 </section>  
