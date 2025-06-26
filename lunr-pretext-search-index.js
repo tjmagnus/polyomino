@@ -1141,7 +1141,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "What Does Parallel Mean?",
-  "body": " What Does Parallel Mean?   What does it mean for two lines to be parallel? Remembering that lines continue indefinitely, we define two lines in the same plane to be  parallel if they never intersect. In this section, we will look more closely at this definition, explore properties related to parallel lines, and explore what lines look like in other geometries.    What do we remember about lines on a plane?   Reflecting on Prior Understanding    In your own words, write three different endings to the statement, A line is ... . Compare your responses to that of your classmates.    There are no right or wrong answers!      Complete the following sentences:   The sum of the measures of the interior angles of any triangle is ...    Two lines in the plane are parallel if ...       This question is also designed to lead to discussion without judgement. Students usually agree on 180 degrees for the sum of the measures of the angles in a triangle. They should give a variety of ideas on what parallelism means. For a later question, we will use nonintersecting to define parallel lines.       Geometry on Another Surface  In school, we typically consider lines to lie on a flat surface called a plane. While most of this textbook will follow this tradition, we take a brief departure from planar geometry in this section. The world we live on is not flat; it is roughly spherical. What objects might act like lines on the surface of a sphere? Do spherical lines have the same properties as lines on a plane? One could also study the behavior of lines in our universe: Are they straight or do they bend? What can we say about parallel lines in these environments? Do our familiar properties hold?   Defining Lines on a Sphere   For this activity and the one that follows, you will need a small sphere, some rubber bands large enough to go around your sphere, a protractor, a marker, and a piece of thread. Possible spheres include styrofoam balls, oranges, rubber balls, or spheres sold by math education supply companies. Aim for a sphere around the size of a softball. A smooth surface is best, but any small ball will suffice. As an alternative, you may use a ribbon with a globe where latitude and longitude lines are marked.    Envisioning Lines on a Sphere   We do not live on a plane; we live on a sphere. Let’s predict what objects on a sphere might act as lines. These lines will lie on the surface of the sphere. They will not pass through the sphere nor will they project out into space. What are some examples of things that might pose as “lines” on a sphere? Which of your descriptions in do they satisfy?      You have probably heard the expression, The shortest distance between two points lies along a line. We shall use this property of line segment to determine which linear features on a sphere act as lines and line segments. Suppose you have plans to fly from Chicago, Illinois (41.8781N, 87.6298W) to Rome, Italy (41.9028N,12.4964E). There are many paths you could take; some might qualify as lines under your suggestions above. Which path gives the shortest distance from Chicago to Rome? If a globe is available, find Chicago and Rome and experiment with a string to find the path of least distance. If you do not have a globe, mark the approximate locations of Chicago and Rome on your sphere; each should be midway between the equator and the North Pole, with Rome approximately a quarter of the way around east of Chicago. Tighten the string connecting these two cities to observe the path of shortest distance between them.   Describe this line segment. Does it follow a latitude line? Bend toward the North Pole? Bend toward the equator?    Allow this “line” to extend “forever” beyond the two points. What figure does it form? How is this figure related to the sphere itself?       1. The line segment does not follow the latitude line. It bends toward the North Pole.  2. The line extends to a circle around the sphere with the same radius and center.     The lines on a sphere are simply the great circles. A great circle is a circle on a sphere that has the same diameter as the sphere itself. If you were to cut a sphere along a great circle, you would split the circle into two hemispheres of the same size. Restrict yourself to this definition of line for the next exploration.   In , the circle through , , and and the circle through and are great circles because they have the same diameter and center as the sphere. The circle through , , and is not a great circle.    Spherical objects   A sphere showing two great circles, one of which is the equator. It also shows a smaller circle, like the Arctic Circle.      Properties of Spherical Lines and Triangles     Which latitudes, if any, will be lines (great circles) on a sphere?      Which longitudes, if any, will be lines on a sphere according to this definition?      In , we defined two lines to be parallel if they lie in the same plane and do not intersect. Spherical lines will be parallel if they lie on the sphere and do not intersect.  Choose any point on the sphere which is not on the equator. Can you construct a spherical line through this point that does intersect the equator? Explain.      What do you expect to be true about the sum of the interior triangles of a spherical triangle? On your sphere, plot three points that do not lie on the same line and connect them with spherical lines (rubber bands) to form spherical triangles. Make sure that each rubber band is as straight as possible, forming a great circle.      To measure the angles on a sphere, pass a piece of thread through the vertex hole of a protractor and tie it securely. Hold the protractor with that hole at the vertex of the angle you wish to measure, aligning the baseline of the protractor with one side of the angle. By pulling the thread tight and visually aligning it with the second side of the angle, you should be able to read the measure on the protractor as demonstrated in .  Record the measurements of each of the three angles of your triangle and then add the three measures.   Angle A:    Angle B:    Angle C:    Sum:       Don't force the sum to be 180 degrees. Results on a sphere may be different than on a plane.      Repeat the last task two more times so that you have computed the sum of the measures of the angles for at least three different triangles. Record your measurements and sums. What do you notice?    You should find that spherical triangles behave differently from triangles in the plane.      What is the largest triangle you can make on the sphere? Describe it and then determine the sum of its interior angles.    You get to define largest here and your definition may differ from that of other classmates. Hence, your results may also differ!      Make a conjecture as to the sum of the measures of the interior angles of a spherical triangle. Test your conjecture with additional triangles.      Measuring Angles on a Sphere      Understanding Parallel Lines  Most likely, and led to some observations that surprised you. One of the ways in which spherical geometry differs from Euclidean geometry is that no lines on the sphere are parallel. Of course, we could have defined line differently, but that would have led to a loss of other properties of lines, such as the existence and uniqueness of a line joining any pair of points. Hence, we need to be clear regarding the geometry being studied. Except where specified, our work will be limited to Euclidean geometry where lines lie on planes, not spheres. In Euclidean geometry, parallel lines exist. In fact, for each point and line not passing through , we can draw exactly one line through that is parallel to . We will accept this statement, known as Playfair's Parallel Postulate, as one of our principles.    Playfair's Parallel Postulate   Given a line and a point not on , there is one and only one line that passes through and is parallel to .     Exactly one line through parallel to line .    In order to be parallel, two lines must lie in the same plane. If you are reading this indoors, you probably have a wall in front of you and a wall somewhere to your right. The line where the ceiling meets the wall in front of you will never intersect the line formed by the intersection of the floor and the wall to your right. Still, we do not consider these two lines to be parallel because there is no plane containing both lines. Instead, we say that these are skew lines .   Although it appears that the two lines meet on the right, that is only a result of displaying a three-dimensional image on a two-dimensional surface. In reality, the top back line stays at the level of the ceiling and the lower front line stays on the floor. They do not meet.    Illustrating skew lines as edges on a rectangular room.   Rectangular box: front face has vertices A, B, C, and D counterclockwise starting in lower left corner. On the back face, the verices G, H, F, and E are counterclockwise starting in lower left, so that edges AG, BH, CF, and DE join the front and back faces.     Check your Understanding   Refer to as you answer the following.   In the figure, it looks like and should intersect. Explain why they do not intersect when we think of the figure as a three-dimensional rectangular box or room.    Identify a second line (extension of an edge of the box in the picture) that would be considered to be skew to .    How many lines suggested by edges of this box are parallel to ? Name them.       We also observed that angle measures in spherical triangles did not behave in the way that Euclidean triangles do. This suggests that the measures of angles may be related to the parallel postulate. Indeed the two concepts are closely connected. In , we rotated a triangle 180 degrees about a midpoint of one of its sides and again around the midpoint of a second side. We then observed that the three angles formed a line when placed side by side at a vertex. We now look at that exploration in the context of parallelism.   Alternate Interior Angles    In the following application, triangle has been rotated 180 degrees about midpoint of side to form . Note that point coincides with and point coincides with .   An interactive GeoGebra applet for Exploration on Alternate Interior Angles.       What appears to be true about lines and ?    What other two lines appear to have this property?    Verify your observation by using the parallel line tool in the app. After selecting parallel lines from the line tool menu, click on the line segment it should be parallel to and then click on the point it should pass through.         What can we say about the relationship between angles and    In terms of angle measure? How do you know?   An angle measurement tool is provided in the app if you choose to use it. Click on the three points defining the angle in counterclockwise order with the vertex of the angle being the second of the three. You may be able to give an explanation that does not use actual measurement.     In terms of their relationship to the parallel lines, and and the line ?    In terms of triangle and its rotated copy ?        When a line cuts across two other lines, we call it a transversal of the lines. In , transversal transversal cuts across two parallel lines and .   Transversal cuts across parallel lines and .   From left to right, points A, B, and F lie on a line and points G, C, and D lie on a line parallel to AB. The transversal contains points H, C, B, and E read from bottom to top.      alternate interior angles  alternate exterior angles  corresponding angles   When a transversal, such as in cuts across lines and so that and are on opposite sides of , angles and are said to be alternate interior angles .  In , we call and  alternate exterior angles since points and lie on the transversal on opposite sides of the two parallel lines and points and lie on different parallel lines and on opposite sides of the transversal.  Angles and are called corresponding angles because they lie in the same relative position; in this case to the left of the transversal and below a parallel line.    Although we will not give a proof, the following two statements are equivalent to Playfair's Parallel Postulate. These principles hold in Euclidean geometry where Playfair's Parallel Postulate is assumed, but fail in non-Euclidean geometries like the Spherical Geometry we studied in and .   Alternate Interior Angles   Given two parallel lines and and a line that crosses and , alternate interior angles have the same angle measure.     Angle Sum of a Triangle   The sum of the interior angles of any triangle is 180 degrees.       Exercises   Skills and Recall    In , a pair of alternate interior angles, a pair of alternate exterior angles, and a pair of corresponding angles was identified for . Use to identify the following:   A second pair of alternate interior angles.    A second pair of alternate exterior angles.    Three more pairs of corresponding angles.         In , we claim that alternate interior angles are congruent.   Use this principle to argue that alternate exterior angles and in have the same angle measure.    Give a thorough argument that corresponding angles and in must be congruent.         In , parallel lines and are cut by transversals and . The transversals meet at point . The measure of is 57 degrees and the measure of is 114 degrees.  Determine the measures of the angles:                                        Illustration for    Transversals AC and BD cut parallel lines AB and CD and meet at point E. Order of points on each line: Left to right: H-A-B-I and J-C-D-K. Top to bottom: F-A-C-E and G-B-D-E.        Extending the Concepts    Suppose that lines and are not parallel (so that they must meet at a point ) and that line cuts and at points and , respectively. Let be a point on line on the opposite side of . Explain why      The Hyperbolic Disk Model   Image from Coxeter's 1957 Address to the Royal Society of Canada   Hyperbolic disc model     The illustration in was explored by mathematician H. S. M. Coxeter and used by artist M. C. Escher as a basis for his Circle Limit series of prints. This illustration suggests another type of non-Euclidean geometry, a disc model of hyperbolic geometry. Here, lines are of two types: diameters of the outer disc and circular arcs that meet the outer disc at a right angle The tangents of these circles and the tangent of the outer disc at the point of intersection are perpendicular. .  In , line is the curved arc We ignore the section outside the outer disc. It is include to show how these lines are parts of circles. shown in orange about halfway between the top and the center, , of the outer disc. Point is below the center on the same diameter as ; thus, is that diameter. Line has been drawn to illustrate the fact that not all lines are visible in the design; in fact, given any two points in the interior of the disc, there is one and only one line passing through both points.     Distance is measured differently in this geometry. The curved triangular shapes near the edge that look tiny to our Euclidean eyes are actually congruent to the shapes near the center. Lines actually continue indefinitely even though they are bounded by the edge of the disc.     To our Euclidean eyes, line segment appears to do which of the following:   be straight    bend in toward the center    bend away from the center         To our Euclidean eyes, line segment appears to do which of the following:   be straight    bend in toward the center    bend away from the center         Consider triangle . Do you think that the sum of the angle measures will be equal to 180 degrees, less than 180 degrees, or more than 180 degrees?      Recalling that two lines are said to be parallel, sketch three different hyperbolic lines that are parallel to and pass through ? You may use points that have not yet been labeled.      As noted, not all lines are shown in the sketch. In fact, for any two points in the interior of the disc, either a diameter or arced line can be drawn. Do you think there are no lines, exactly one line, several lines, or an infinite number of hyperbolic lines that pass through and are parallel to ? Support your answer by words and\/or illustrations.     Coxeter's disc with points and lines added. Original image found in . Markings added using GeoGebra.   Poincare disc described in problem.       Writing Prompts    Write a letter to a friend in which you discuss some of the commonalities and differences between Euclidean and spherical geometry that you learned about in this section. As an optional extension, you might explore some other differences including whether spherical lines are infinite or finite and whether betweenness of points on spherical lines are preserved.      "
+  "body": " What Does Parallel Mean?   What does it mean for two lines to be parallel? Remembering that lines continue indefinitely, we define two lines in the same plane to be  parallel if they never intersect. In this section, we will look more closely at this definition, explore properties related to parallel lines, and explore what lines look like in other geometries.    What do we remember about lines on a plane?   Reflecting on Prior Understanding   Complete the following sentences:     In your own words, write three different endings to the statement, A line is ... . Compare your responses to that of your classmates.       The sum of the measures of the interior angles of any triangle is ...     This question is also designed to lead to discussion without judgement. Students usually agree on 180 degrees for the sum of the measures of the angles in a triangle. They should give a variety of ideas on what parallelism means. For a later question, we will use nonintersecting to define parallel lines.      Two lines in the plane are parallel if ...        Geometry on Another Surface  In school, we typically consider lines to lie on a flat surface called a plane. While most of this textbook will follow this tradition, we take a brief departure from planar geometry in this section. The world we live on is not flat; it is roughly spherical. What objects might act like lines on the surface of a sphere? Do spherical lines have the same properties as lines on a plane? One could also study the behavior of lines in our universe: Are they straight or do they bend? What can we say about parallel lines in these environments? Do our familiar properties hold?   Defining Lines on a Sphere   For this activity and the one that follows, you will need a small sphere, some rubber bands large enough to go around your sphere, a protractor, a marker, and a piece of thread. Possible spheres include styrofoam balls, oranges, rubber balls, or spheres sold by math education supply companies. Aim for a sphere around the size of a softball. A smooth surface is best, but any small ball will suffice. As an alternative, you may use a ribbon with a globe where latitude and longitude lines are marked.    Envisioning Lines on a Sphere   We do not live on a plane; we live on a sphere. Let’s predict what objects on a sphere might act as lines. These lines will lie on the surface of the sphere. They will not pass through the sphere nor will they project out into space. What are some examples of things that might pose as “lines” on a sphere? Which of your descriptions in do they satisfy?       You have probably heard the expression, The shortest distance between two points lies along a line. We shall use this property of line segment to determine which linear features on a sphere act as lines and line segments. Suppose you have plans to fly from Chicago, Illinois (41.8781N, 87.6298W) to Rome, Italy (41.9028N,12.4964E). There are many paths you could take; some might qualify as lines under your suggestions above. Which path gives the shortest distance from Chicago to Rome? If a globe is available, find Chicago and Rome and experiment with a string to find the path of least distance. If you do not have a globe, mark the approximate locations of Chicago and Rome on your sphere; each should be midway between the equator and the North Pole, with Rome approximately a quarter of the way around east of Chicago. Tighten the string connecting these two cities to observe the path of shortest distance between them.   Describe this line segment. Does it follow a latitude line? Bend toward the North Pole? Bend toward the equator?    Allow this “line” to extend “forever” beyond the two points. What figure does it form? How is this figure related to the sphere itself?       1. The line segment does not follow the latitude line. It bends toward the North Pole.  2. The line extends to a circle around the sphere with the same radius and center.     The lines on a sphere are simply the great circles. A great circle is a circle on a sphere that has the same diameter as the sphere itself. If you were to cut a sphere along a great circle, you would split the circle into two hemispheres of the same size. Restrict yourself to this definition of line for the next exploration.   In , the circle through , , and and the circle through and are great circles because they have the same diameter and center as the sphere. The circle through , , and is not a great circle.    Spherical objects   A sphere showing two great circles, one of which is the equator. It also shows a smaller circle, like the Arctic Circle.      Properties of Spherical Lines and Triangles     Which latitudes, if any, will be lines (great circles) on a sphere?       Which longitudes, if any, will be lines on a sphere according to this definition?       In , we defined two lines to be parallel if they lie in the same plane and do not intersect. Spherical lines will be parallel if they lie on the sphere and do not intersect.  Choose any point on the sphere which is not on the equator. Can you construct a spherical line through this point that does intersect the equator? Explain.       What do you expect to be true about the sum of the interior triangles of a spherical triangle? On your sphere, plot three points that do not lie on the same line and connect them with spherical lines (rubber bands) to form spherical triangles. Make sure that each rubber band is as straight as possible, forming a great circle.       To measure the angles on a sphere, pass a piece of thread through the vertex hole of a protractor and tie it securely. Hold the protractor with that hole at the vertex of the angle you wish to measure, aligning the baseline of the protractor with one side of the angle. By pulling the thread tight and visually aligning it with the second side of the angle, you should be able to read the measure on the protractor as demonstrated in .  Record the measurements of each of the three angles of your triangle and then add the three measures.   Angle A:    Angle B:    Angle C:    Sum:       Don't force the sum to be 180 degrees. Results on a sphere may be different than on a plane.      Repeat the last task two more times so that you have computed the sum of the measures of the angles for at least three different triangles. Record your measurements and sums. What do you notice?    You should find that spherical triangles behave differently from triangles in the plane.      What is the largest triangle you can make on the sphere? Describe it and then determine the sum of its interior angles.    You get to define largest here and your definition may differ from that of other classmates. Hence, your results may also differ!      Make a conjecture as to the sum of the measures of the interior angles of a spherical triangle. Test your conjecture with additional triangles.      Measuring Angles on a Sphere      Understanding Parallel Lines  Most likely, and led to some observations that surprised you. One of the ways in which spherical geometry differs from Euclidean geometry is that no lines on the sphere are parallel. Of course, we could have defined line differently, but that would have led to a loss of other properties of lines, such as the existence and uniqueness of a line joining any pair of points. Hence, we need to be clear regarding the geometry being studied. Except where specified, our work will be limited to Euclidean geometry where lines lie on planes, not spheres. In Euclidean geometry, parallel lines exist. In fact, for each point and line not passing through , we can draw exactly one line through that is parallel to . We will accept this statement, known as Playfair's Parallel Postulate, as one of our principles.    Playfair's Parallel Postulate   Given a line and a point not on , there is one and only one line that passes through and is parallel to .     Exactly one line through parallel to line .    In order to be parallel, two lines must lie in the same plane. If you are reading this indoors, you probably have a wall in front of you and a wall somewhere to your right. The line where the ceiling meets the wall in front of you will never intersect the line formed by the intersection of the floor and the wall to your right. Still, we do not consider these two lines to be parallel because there is no plane containing both lines. Instead, we say that these are skew lines .   Although it appears that the two lines meet on the right, that is only a result of displaying a three-dimensional image on a two-dimensional surface. In reality, the top back line stays at the level of the ceiling and the lower front line stays on the floor. They do not meet.    Illustrating skew lines as edges on a rectangular room.   Rectangular box: front face has vertices A, B, C, and D counterclockwise starting in lower left corner. On the back face, the verices G, H, F, and E are counterclockwise starting in lower left, so that edges AG, BH, CF, and DE join the front and back faces.     Check your Understanding   Refer to as you answer the following.     In the figure, it looks like and should intersect. Explain why they do not intersect when we think of the figure as a three-dimensional rectangular box or room.       Identify a second line (extension of an edge of the box in the picture) that would be considered to be skew to .       How many lines suggested by edges of this box are parallel to ? Name them.     We also observed that angle measures in spherical triangles did not behave in the way that Euclidean triangles do. This suggests that the measures of angles may be related to the parallel postulate. Indeed the two concepts are closely connected. In , we rotated a triangle 180 degrees about a midpoint of one of its sides and again around the midpoint of a second side. We then observed that the three angles formed a line when placed side by side at a vertex. We now look at that exploration in the context of parallelism.   Alternate Interior Angles   In the following application, triangle has been rotated 180 degrees about midpoint of side to form . Note that point coincides with and point coincides with .    An interactive GeoGebra applet for Exploration on Alternate Interior Angles.      What appears to be true about lines and ?       What other two lines appear to have this property?       Verify your observation by using the parallel line tool in the app. After selecting parallel lines from the line tool menu, click on the line segment it should be parallel to and then click on the point it should pass through.       What can we say about the relationship between angles and In terms of angle measure? How do you know?      An angle measurement tool is provided in the app if you choose to use it. Click on the three points defining the angle in counterclockwise order with the vertex of the angle being the second of the three. You may be able to give an explanation that does not use actual measurement.     In terms of their relationship to the parallel lines, and and the line ?       In terms of triangle and its rotated copy ?      When a line cuts across two other lines, we call it a transversal of the lines. In , transversal transversal cuts across two parallel lines and .   Transversal cuts across parallel lines and .   From left to right, points A, B, and F lie on a line and points G, C, and D lie on a line parallel to AB. The transversal contains points H, C, B, and E read from bottom to top.      alternate interior angles  alternate exterior angles  corresponding angles   When a transversal, such as in cuts across lines and so that and are on opposite sides of , angles and are said to be alternate interior angles .  In , we call and  alternate exterior angles since points and lie on the transversal on opposite sides of the two parallel lines and points and lie on different parallel lines and on opposite sides of the transversal.  Angles and are called corresponding angles because they lie in the same relative position; in this case to the left of the transversal and below a parallel line.    Although we will not give a proof, the following two statements are equivalent to Playfair's Parallel Postulate. These principles hold in Euclidean geometry where Playfair's Parallel Postulate is assumed, but fail in non-Euclidean geometries like the Spherical Geometry we studied in and .   Alternate Interior Angles   Given two parallel lines and and a line that crosses and , alternate interior angles have the same angle measure.     Angle Sum of a Triangle   The sum of the interior angles of any triangle is 180 degrees.       Exercises   Skills and Recall    In , a pair of alternate interior angles, a pair of alternate exterior angles, and a pair of corresponding angles was identified for . Use to identify the following:      A second pair of alternate interior angles.                            A second pair of alternate exterior angles.                            Three more pairs of corresponding angles.                     In , we claim that alternate interior angles are congruent.     Use this principle to argue that alternate exterior angles and in have the same angle measure.       Give a thorough argument that corresponding angles and in must be congruent.        In , parallel lines and are cut by transversals and . The transversals meet at point . The measure of is 57 degrees and the measure of is 114 degrees.  Determine the measures of the angles:          57  Correct.              123  Correct.              57  Correct.              66  Correct.              66  Correct.              57  Correct.              114  Correct.       Illustration for    Transversals AC and BD cut parallel lines AB and CD and meet at point E. Order of points on each line: Left to right: H-A-B-I and J-C-D-K. Top to bottom: F-A-C-E and G-B-D-E.        Extending the Concepts    Suppose that lines and are not parallel (so that they must meet at a point ) and that line cuts and at points and , respectively.   Let be a point on line on the opposite side of . Explain why      The Hyperbolic Disk Model   Image from Coxeter's 1957 Address to the Royal Society of Canada   Hyperbolic disc model     The illustration in was explored by mathematician H. S. M. Coxeter and used by artist M. C. Escher as a basis for his Circle Limit series of prints. This illustration suggests another type of non-Euclidean geometry, a disc model of hyperbolic geometry. Here, lines are of two types: diameters of the outer disc and circular arcs that meet the outer disc at a right angle The tangents of these circles and the tangent of the outer disc at the point of intersection are perpendicular. .  In , line is the curved arc We ignore the section outside the outer disc. It is include to show how these lines are parts of circles. shown in orange about halfway between the top and the center, , of the outer disc. Point is below the center on the same diameter as ; thus, is that diameter. Line has been drawn to illustrate the fact that not all lines are visible in the design; in fact, given any two points in the interior of the disc, there is one and only one line passing through both points.     Distance is measured differently in this geometry. The curved triangular shapes near the edge that look tiny to our Euclidean eyes are actually congruent to the shapes near the center. Lines actually continue indefinitely even though they are bounded by the edge of the disc.     To our Euclidean eyes, line segment appears to do which of the following:      be straight      bend in toward the center      bend away from the center        To our Euclidean eyes, line segment appears to do which of the following:      be straight      bend in toward the center      bend away from the center        Consider triangle . Do you think that the sum of the angle measures will be equal to 180 degrees, less than 180 degrees, or more than 180 degrees?       Recalling that two lines are said to be parallel, sketch three different hyperbolic lines that are parallel to and pass through . You may use points that have not yet been labeled.      As noted, not all lines are shown in the sketch. In fact, for any two points in the interior of the disc, either a diameter or arced line can be drawn. Do you think there are no lines, exactly one line, several lines, or an infinite number of hyperbolic lines that pass through and are parallel to ? Support your answer by words and\/or illustrations.      Coxeter's disc with points and lines added. Original image found in . Markings added using GeoGebra.   Poincare disc described in problem.       Writing Prompts    Write a letter to a friend in which you discuss some of the commonalities and differences between Euclidean and spherical geometry that you learned about in this section. As an optional extension, you might explore some other differences including whether spherical lines are infinite or finite and whether betweenness of points on spherical lines are preserved.       "
 },
 {
   "id": "sec-polygons-parallel-2-1",
@@ -1153,22 +1153,22 @@ var ptx_lunr_docs = [
   "body": "parallel "
 },
 {
-  "id": "subsec-review-lines-2",
+  "id": "parallel-explore-reflect-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#subsec-review-lines-2",
+  "url": "sec-polygons-parallel.html#parallel-explore-reflect-label",
   "type": "Exploration",
   "number": "2.3.1",
   "title": "Reflecting on Prior Understanding.",
-  "body": " Reflecting on Prior Understanding    In your own words, write three different endings to the statement, A line is ... . Compare your responses to that of your classmates.    There are no right or wrong answers!      Complete the following sentences:   The sum of the measures of the interior angles of any triangle is ...    Two lines in the plane are parallel if ...       This question is also designed to lead to discussion without judgement. Students usually agree on 180 degrees for the sum of the measures of the angles in a triangle. They should give a variety of ideas on what parallelism means. For a later question, we will use nonintersecting to define parallel lines.    "
+  "body": " Reflecting on Prior Understanding   Complete the following sentences:     In your own words, write three different endings to the statement, A line is ... . Compare your responses to that of your classmates.       The sum of the measures of the interior angles of any triangle is ...     This question is also designed to lead to discussion without judgement. Students usually agree on 180 degrees for the sum of the measures of the angles in a triangle. They should give a variety of ideas on what parallelism means. For a later question, we will use nonintersecting to define parallel lines.      Two lines in the plane are parallel if ...     "
 },
 {
-  "id": "parallel-explor-lines-sphere",
+  "id": "parallel-explor-lines-sphere-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#parallel-explor-lines-sphere",
+  "url": "sec-polygons-parallel.html#parallel-explor-lines-sphere-label",
   "type": "Exploration",
   "number": "2.3.2",
   "title": "Defining Lines on a Sphere.",
-  "body": " Defining Lines on a Sphere   For this activity and the one that follows, you will need a small sphere, some rubber bands large enough to go around your sphere, a protractor, a marker, and a piece of thread. Possible spheres include styrofoam balls, oranges, rubber balls, or spheres sold by math education supply companies. Aim for a sphere around the size of a softball. A smooth surface is best, but any small ball will suffice. As an alternative, you may use a ribbon with a globe where latitude and longitude lines are marked.    Envisioning Lines on a Sphere   We do not live on a plane; we live on a sphere. Let’s predict what objects on a sphere might act as lines. These lines will lie on the surface of the sphere. They will not pass through the sphere nor will they project out into space. What are some examples of things that might pose as “lines” on a sphere? Which of your descriptions in do they satisfy?      You have probably heard the expression, The shortest distance between two points lies along a line. We shall use this property of line segment to determine which linear features on a sphere act as lines and line segments. Suppose you have plans to fly from Chicago, Illinois (41.8781N, 87.6298W) to Rome, Italy (41.9028N,12.4964E). There are many paths you could take; some might qualify as lines under your suggestions above. Which path gives the shortest distance from Chicago to Rome? If a globe is available, find Chicago and Rome and experiment with a string to find the path of least distance. If you do not have a globe, mark the approximate locations of Chicago and Rome on your sphere; each should be midway between the equator and the North Pole, with Rome approximately a quarter of the way around east of Chicago. Tighten the string connecting these two cities to observe the path of shortest distance between them.   Describe this line segment. Does it follow a latitude line? Bend toward the North Pole? Bend toward the equator?    Allow this “line” to extend “forever” beyond the two points. What figure does it form? How is this figure related to the sphere itself?       1. The line segment does not follow the latitude line. It bends toward the North Pole.  2. The line extends to a circle around the sphere with the same radius and center.    "
+  "body": " Defining Lines on a Sphere   For this activity and the one that follows, you will need a small sphere, some rubber bands large enough to go around your sphere, a protractor, a marker, and a piece of thread. Possible spheres include styrofoam balls, oranges, rubber balls, or spheres sold by math education supply companies. Aim for a sphere around the size of a softball. A smooth surface is best, but any small ball will suffice. As an alternative, you may use a ribbon with a globe where latitude and longitude lines are marked.    Envisioning Lines on a Sphere   We do not live on a plane; we live on a sphere. Let’s predict what objects on a sphere might act as lines. These lines will lie on the surface of the sphere. They will not pass through the sphere nor will they project out into space. What are some examples of things that might pose as “lines” on a sphere? Which of your descriptions in do they satisfy?       You have probably heard the expression, The shortest distance between two points lies along a line. We shall use this property of line segment to determine which linear features on a sphere act as lines and line segments. Suppose you have plans to fly from Chicago, Illinois (41.8781N, 87.6298W) to Rome, Italy (41.9028N,12.4964E). There are many paths you could take; some might qualify as lines under your suggestions above. Which path gives the shortest distance from Chicago to Rome? If a globe is available, find Chicago and Rome and experiment with a string to find the path of least distance. If you do not have a globe, mark the approximate locations of Chicago and Rome on your sphere; each should be midway between the equator and the North Pole, with Rome approximately a quarter of the way around east of Chicago. Tighten the string connecting these two cities to observe the path of shortest distance between them.   Describe this line segment. Does it follow a latitude line? Bend toward the North Pole? Bend toward the equator?    Allow this “line” to extend “forever” beyond the two points. What figure does it form? How is this figure related to the sphere itself?       1. The line segment does not follow the latitude line. It bends toward the North Pole.  2. The line extends to a circle around the sphere with the same radius and center.    "
 },
 {
   "id": "subsec-polygons-parallel-sphere-4",
@@ -1189,13 +1189,13 @@ var ptx_lunr_docs = [
   "body": " Spherical objects   A sphere showing two great circles, one of which is the equator. It also shows a smaller circle, like the Arctic Circle.   "
 },
 {
-  "id": "parallel-explor-spherical-triangles",
+  "id": "parallel-explor-spherical-triangles-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#parallel-explor-spherical-triangles",
+  "url": "sec-polygons-parallel.html#parallel-explor-spherical-triangles-label",
   "type": "Exploration",
   "number": "2.3.3",
   "title": "Properties of Spherical Lines and Triangles.",
-  "body": " Properties of Spherical Lines and Triangles     Which latitudes, if any, will be lines (great circles) on a sphere?      Which longitudes, if any, will be lines on a sphere according to this definition?      In , we defined two lines to be parallel if they lie in the same plane and do not intersect. Spherical lines will be parallel if they lie on the sphere and do not intersect.  Choose any point on the sphere which is not on the equator. Can you construct a spherical line through this point that does intersect the equator? Explain.      What do you expect to be true about the sum of the interior triangles of a spherical triangle? On your sphere, plot three points that do not lie on the same line and connect them with spherical lines (rubber bands) to form spherical triangles. Make sure that each rubber band is as straight as possible, forming a great circle.      To measure the angles on a sphere, pass a piece of thread through the vertex hole of a protractor and tie it securely. Hold the protractor with that hole at the vertex of the angle you wish to measure, aligning the baseline of the protractor with one side of the angle. By pulling the thread tight and visually aligning it with the second side of the angle, you should be able to read the measure on the protractor as demonstrated in .  Record the measurements of each of the three angles of your triangle and then add the three measures.   Angle A:    Angle B:    Angle C:    Sum:       Don't force the sum to be 180 degrees. Results on a sphere may be different than on a plane.      Repeat the last task two more times so that you have computed the sum of the measures of the angles for at least three different triangles. Record your measurements and sums. What do you notice?    You should find that spherical triangles behave differently from triangles in the plane.      What is the largest triangle you can make on the sphere? Describe it and then determine the sum of its interior angles.    You get to define largest here and your definition may differ from that of other classmates. Hence, your results may also differ!      Make a conjecture as to the sum of the measures of the interior angles of a spherical triangle. Test your conjecture with additional triangles.    "
+  "body": " Properties of Spherical Lines and Triangles     Which latitudes, if any, will be lines (great circles) on a sphere?       Which longitudes, if any, will be lines on a sphere according to this definition?       In , we defined two lines to be parallel if they lie in the same plane and do not intersect. Spherical lines will be parallel if they lie on the sphere and do not intersect.  Choose any point on the sphere which is not on the equator. Can you construct a spherical line through this point that does intersect the equator? Explain.       What do you expect to be true about the sum of the interior triangles of a spherical triangle? On your sphere, plot three points that do not lie on the same line and connect them with spherical lines (rubber bands) to form spherical triangles. Make sure that each rubber band is as straight as possible, forming a great circle.       To measure the angles on a sphere, pass a piece of thread through the vertex hole of a protractor and tie it securely. Hold the protractor with that hole at the vertex of the angle you wish to measure, aligning the baseline of the protractor with one side of the angle. By pulling the thread tight and visually aligning it with the second side of the angle, you should be able to read the measure on the protractor as demonstrated in .  Record the measurements of each of the three angles of your triangle and then add the three measures.   Angle A:    Angle B:    Angle C:    Sum:       Don't force the sum to be 180 degrees. Results on a sphere may be different than on a plane.      Repeat the last task two more times so that you have computed the sum of the measures of the angles for at least three different triangles. Record your measurements and sums. What do you notice?    You should find that spherical triangles behave differently from triangles in the plane.      What is the largest triangle you can make on the sphere? Describe it and then determine the sum of its interior angles.    You get to define largest here and your definition may differ from that of other classmates. Hence, your results may also differ!      Make a conjecture as to the sum of the measures of the interior angles of a spherical triangle. Test your conjecture with additional triangles.    "
 },
 {
   "id": "fig-video-spherical-angles",
@@ -1252,22 +1252,22 @@ var ptx_lunr_docs = [
   "body": " Illustrating skew lines as edges on a rectangular room.   Rectangular box: front face has vertices A, B, C, and D counterclockwise starting in lower left corner. On the back face, the verices G, H, F, and E are counterclockwise starting in lower left, so that edges AG, BH, CF, and DE join the front and back faces.   "
 },
 {
-  "id": "subsec-understanding-parallel-8",
+  "id": "parallel-exercise-understanding-parallel-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#subsec-understanding-parallel-8",
+  "url": "sec-polygons-parallel.html#parallel-exercise-understanding-parallel-label",
   "type": "Checkpoint",
   "number": "2.3.6",
   "title": "Check your Understanding.",
-  "body": " Check your Understanding   Refer to as you answer the following.   In the figure, it looks like and should intersect. Explain why they do not intersect when we think of the figure as a three-dimensional rectangular box or room.    Identify a second line (extension of an edge of the box in the picture) that would be considered to be skew to .    How many lines suggested by edges of this box are parallel to ? Name them.      "
+  "body": " Check your Understanding   Refer to as you answer the following.     In the figure, it looks like and should intersect. Explain why they do not intersect when we think of the figure as a three-dimensional rectangular box or room.       Identify a second line (extension of an edge of the box in the picture) that would be considered to be skew to .       How many lines suggested by edges of this box are parallel to ? Name them.    "
 },
 {
-  "id": "subsec-understanding-parallel-10",
+  "id": "parallel-explor-aia-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#subsec-understanding-parallel-10",
+  "url": "sec-polygons-parallel.html#parallel-explor-aia-label",
   "type": "Exploration",
   "number": "2.3.4",
   "title": "Alternate Interior Angles.",
-  "body": " Alternate Interior Angles    In the following application, triangle has been rotated 180 degrees about midpoint of side to form . Note that point coincides with and point coincides with .   An interactive GeoGebra applet for Exploration on Alternate Interior Angles.       What appears to be true about lines and ?    What other two lines appear to have this property?    Verify your observation by using the parallel line tool in the app. After selecting parallel lines from the line tool menu, click on the line segment it should be parallel to and then click on the point it should pass through.         What can we say about the relationship between angles and    In terms of angle measure? How do you know?   An angle measurement tool is provided in the app if you choose to use it. Click on the three points defining the angle in counterclockwise order with the vertex of the angle being the second of the three. You may be able to give an explanation that does not use actual measurement.     In terms of their relationship to the parallel lines, and and the line ?    In terms of triangle and its rotated copy ?       "
+  "body": " Alternate Interior Angles   In the following application, triangle has been rotated 180 degrees about midpoint of side to form . Note that point coincides with and point coincides with .    An interactive GeoGebra applet for Exploration on Alternate Interior Angles.      What appears to be true about lines and ?       What other two lines appear to have this property?       Verify your observation by using the parallel line tool in the app. After selecting parallel lines from the line tool menu, click on the line segment it should be parallel to and then click on the point it should pass through.       What can we say about the relationship between angles and In terms of angle measure? How do you know?      An angle measurement tool is provided in the app if you choose to use it. Click on the three points defining the angle in counterclockwise order with the vertex of the angle being the second of the three. You may be able to give an explanation that does not use actual measurement.     In terms of their relationship to the parallel lines, and and the line ?       In terms of triangle and its rotated copy ?     "
 },
 {
   "id": "subsec-understanding-parallel-11",
@@ -1315,58 +1315,58 @@ var ptx_lunr_docs = [
   "body": " Angle Sum of a Triangle   The sum of the interior angles of any triangle is 180 degrees.   "
 },
 {
-  "id": "SAR-polygons-parallel-2",
+  "id": "SAR-parallel-aia",
   "level": "2",
-  "url": "sec-polygons-parallel.html#SAR-polygons-parallel-2",
+  "url": "sec-polygons-parallel.html#SAR-parallel-aia",
   "type": "Exercise",
   "number": "2.3.4.1",
   "title": "",
-  "body": "  In , a pair of alternate interior angles, a pair of alternate exterior angles, and a pair of corresponding angles was identified for . Use to identify the following:   A second pair of alternate interior angles.    A second pair of alternate exterior angles.    Three more pairs of corresponding angles.      "
+  "body": "  In , a pair of alternate interior angles, a pair of alternate exterior angles, and a pair of corresponding angles was identified for . Use to identify the following:      A second pair of alternate interior angles.                            A second pair of alternate exterior angles.                            Three more pairs of corresponding angles.                  "
 },
 {
-  "id": "SAR-polygons-parallel-3",
+  "id": "SAR-parallel-aia-2-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#SAR-polygons-parallel-3",
+  "url": "sec-polygons-parallel.html#SAR-parallel-aia-2-label",
   "type": "Exercise",
   "number": "2.3.4.2",
   "title": "",
-  "body": "  In , we claim that alternate interior angles are congruent.   Use this principle to argue that alternate exterior angles and in have the same angle measure.    Give a thorough argument that corresponding angles and in must be congruent.      "
+  "body": "  In , we claim that alternate interior angles are congruent.     Use this principle to argue that alternate exterior angles and in have the same angle measure.       Give a thorough argument that corresponding angles and in must be congruent.     "
 },
 {
-  "id": "exer-transv-angle-measures",
+  "id": "SAR-parallel-transv-angle-measures-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#exer-transv-angle-measures",
+  "url": "sec-polygons-parallel.html#SAR-parallel-transv-angle-measures-label",
   "type": "Exercise",
   "number": "2.3.4.3",
   "title": "",
-  "body": "  In , parallel lines and are cut by transversals and . The transversals meet at point . The measure of is 57 degrees and the measure of is 114 degrees.  Determine the measures of the angles:                                        Illustration for    Transversals AC and BD cut parallel lines AB and CD and meet at point E. Order of points on each line: Left to right: H-A-B-I and J-C-D-K. Top to bottom: F-A-C-E and G-B-D-E.     "
+  "body": "  In , parallel lines and are cut by transversals and . The transversals meet at point . The measure of is 57 degrees and the measure of is 114 degrees.  Determine the measures of the angles:          57  Correct.              123  Correct.              57  Correct.              66  Correct.              66  Correct.              57  Correct.              114  Correct.       Illustration for    Transversals AC and BD cut parallel lines AB and CD and meet at point E. Order of points on each line: Left to right: H-A-B-I and J-C-D-K. Top to bottom: F-A-C-E and G-B-D-E.     "
 },
 {
-  "id": "ExtConc-polygons-parallel-2",
+  "id": "ExtConc-polygons-parallel-neq-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#ExtConc-polygons-parallel-2",
+  "url": "sec-polygons-parallel.html#ExtConc-polygons-parallel-neq-label",
   "type": "Exercise",
   "number": "2.3.4.4",
   "title": "",
-  "body": "  Suppose that lines and are not parallel (so that they must meet at a point ) and that line cuts and at points and , respectively. Let be a point on line on the opposite side of . Explain why    "
+  "body": "  Suppose that lines and are not parallel (so that they must meet at a point ) and that line cuts and at points and , respectively.   Let be a point on line on the opposite side of . Explain why    "
 },
 {
-  "id": "ExtConc-polygons-parallel-Coxeterdisc",
+  "id": "ExtConc-polygons-parallel-Coxeterdisc-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#ExtConc-polygons-parallel-Coxeterdisc",
+  "url": "sec-polygons-parallel.html#ExtConc-polygons-parallel-Coxeterdisc-label",
   "type": "Exercise",
   "number": "2.3.4.5",
   "title": "The Hyperbolic Disk Model.",
-  "body": " The Hyperbolic Disk Model   Image from Coxeter's 1957 Address to the Royal Society of Canada   Hyperbolic disc model     The illustration in was explored by mathematician H. S. M. Coxeter and used by artist M. C. Escher as a basis for his Circle Limit series of prints. This illustration suggests another type of non-Euclidean geometry, a disc model of hyperbolic geometry. Here, lines are of two types: diameters of the outer disc and circular arcs that meet the outer disc at a right angle The tangents of these circles and the tangent of the outer disc at the point of intersection are perpendicular. .  In , line is the curved arc We ignore the section outside the outer disc. It is include to show how these lines are parts of circles. shown in orange about halfway between the top and the center, , of the outer disc. Point is below the center on the same diameter as ; thus, is that diameter. Line has been drawn to illustrate the fact that not all lines are visible in the design; in fact, given any two points in the interior of the disc, there is one and only one line passing through both points.     Distance is measured differently in this geometry. The curved triangular shapes near the edge that look tiny to our Euclidean eyes are actually congruent to the shapes near the center. Lines actually continue indefinitely even though they are bounded by the edge of the disc.     To our Euclidean eyes, line segment appears to do which of the following:   be straight    bend in toward the center    bend away from the center         To our Euclidean eyes, line segment appears to do which of the following:   be straight    bend in toward the center    bend away from the center         Consider triangle . Do you think that the sum of the angle measures will be equal to 180 degrees, less than 180 degrees, or more than 180 degrees?      Recalling that two lines are said to be parallel, sketch three different hyperbolic lines that are parallel to and pass through ? You may use points that have not yet been labeled.      As noted, not all lines are shown in the sketch. In fact, for any two points in the interior of the disc, either a diameter or arced line can be drawn. Do you think there are no lines, exactly one line, several lines, or an infinite number of hyperbolic lines that pass through and are parallel to ? Support your answer by words and\/or illustrations.     Coxeter's disc with points and lines added. Original image found in . Markings added using GeoGebra.   Poincare disc described in problem.    "
+  "body": " The Hyperbolic Disk Model   Image from Coxeter's 1957 Address to the Royal Society of Canada   Hyperbolic disc model     The illustration in was explored by mathematician H. S. M. Coxeter and used by artist M. C. Escher as a basis for his Circle Limit series of prints. This illustration suggests another type of non-Euclidean geometry, a disc model of hyperbolic geometry. Here, lines are of two types: diameters of the outer disc and circular arcs that meet the outer disc at a right angle The tangents of these circles and the tangent of the outer disc at the point of intersection are perpendicular. .  In , line is the curved arc We ignore the section outside the outer disc. It is include to show how these lines are parts of circles. shown in orange about halfway between the top and the center, , of the outer disc. Point is below the center on the same diameter as ; thus, is that diameter. Line has been drawn to illustrate the fact that not all lines are visible in the design; in fact, given any two points in the interior of the disc, there is one and only one line passing through both points.     Distance is measured differently in this geometry. The curved triangular shapes near the edge that look tiny to our Euclidean eyes are actually congruent to the shapes near the center. Lines actually continue indefinitely even though they are bounded by the edge of the disc.     To our Euclidean eyes, line segment appears to do which of the following:      be straight      bend in toward the center      bend away from the center        To our Euclidean eyes, line segment appears to do which of the following:      be straight      bend in toward the center      bend away from the center        Consider triangle . Do you think that the sum of the angle measures will be equal to 180 degrees, less than 180 degrees, or more than 180 degrees?       Recalling that two lines are said to be parallel, sketch three different hyperbolic lines that are parallel to and pass through . You may use points that have not yet been labeled.      As noted, not all lines are shown in the sketch. In fact, for any two points in the interior of the disc, either a diameter or arced line can be drawn. Do you think there are no lines, exactly one line, several lines, or an infinite number of hyperbolic lines that pass through and are parallel to ? Support your answer by words and\/or illustrations.      Coxeter's disc with points and lines added. Original image found in . Markings added using GeoGebra.   Poincare disc described in problem.    "
 },
 {
-  "id": "writing-polygons-parallel-2",
+  "id": "writing-polygons-parallel-exerc-label",
   "level": "2",
-  "url": "sec-polygons-parallel.html#writing-polygons-parallel-2",
+  "url": "sec-polygons-parallel.html#writing-polygons-parallel-exerc-label",
   "type": "Exercise",
   "number": "2.3.4.6",
   "title": "",
-  "body": "  Write a letter to a friend in which you discuss some of the commonalities and differences between Euclidean and spherical geometry that you learned about in this section. As an optional extension, you might explore some other differences including whether spherical lines are infinite or finite and whether betweenness of points on spherical lines are preserved.   "
+  "body": "  Write a letter to a friend in which you discuss some of the commonalities and differences between Euclidean and spherical geometry that you learned about in this section. As an optional extension, you might explore some other differences including whether spherical lines are infinite or finite and whether betweenness of points on spherical lines are preserved.    "
 },
 {
   "id": "sec-polygons-regular",
@@ -3760,7 +3760,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Star Polygons",
-  "body": " Star Polygons   In , we explored properties of convex polygons. In this section, we will create regular concave polygons, called star polygons. In addition to studying the geometrical properties of star polygons, we will observe how the relationship between a pair of numbers determines the shape of the star polygon associated with the number pair.    What is a Star Polygon?  When asked to draw a star, most people will draw a five point star polygon without lifting their pencil even though they are unfamiliar with the terminology. We will generalize this to create star polygons with different number of points. We will also see that our procedure will sometimes give us a regular polygon or no polygon at all.  To ensure that the star polygons we create are regular, we begin with equally spaced points around a circle as shown in . We draw segments from point 1 to point 3, from point 3 to point 5, from point 5 to point 2, from point 2 to point 4, and then returning to point 1 to get the star polygon in . Note that we are connecting every second point and continuing until we return to our starting point. There was no need to lift our pencil in this construction.   Constructing a -star polygon.    Five points on a circle.     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))      ${5-k}                     The star polygon     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))     ${5-k}                            The notation signifies that the star polygon has 5 points where every second point is connected. To create , we sketch a continuous path that connects each of the five points in to the first point from it (its neighbor). The resulting figure does not look like a star but rather the convex regular pentagon shown in .   The -star polygon.     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))     ${5-k}                           Construct the - and -star polygons. What do you notice about them?    Going to the third point in clockwise direction is the same as going to the second point in the counterclockwise direction.    The -star polygon is identical to the -star polygon. The -star polygon, like the -star polygon, is a regular pentagon.    Similarly, we can draw star polygons on six vertices. The -star polygon is simply a regular hexagon.   The -star polygon.   A regular hexagon circumscribed by a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                           As we create skipping every other vertex, we return to the starting point after creating a triangle. The three even-numbered vertices have not been visited.   The -star polygon, step one.   An equilateral triangle joining vertices one, three, and five.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                        We now repeat this process starting at an unvisited vertex and joining every second vertex until we return to this new starting vertex. As shown in , this creates a second triangle congruent to the first but rotated 60 degrees about the center of the circle containing the six vertices. To aid in our exploration, a new color was used to draw the second triangle. You are also encouraged to use a new color each time you need to lift your pencil.   The star polygon.   A six two star polygon formed from two equilateral triangles, one joining odd numbered vertices and the other joining even numbered vertices.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                                What happens when you try to create a -star polygon by joining every third point? Is it a polygon, a star, overlapping polygons, or something else?   Template for drawing a six-vertex star polygon.   Six dots around a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                              Exploring Star Polygons with More Than Six Vertices   We have observed that star polygons may look like regular polygons, overlapping rotated copies of regular polygons, or an intersection of line segments. One more possibility will be discovered later. After completing the exploration, you should be able to predict what a star polygon will look like based on the numbers and . Make conjectures and test them as you work through the exploration.    Star Polygons for   Seven-vertex star polygons   Construct the star polygons , , and . Templates are provided in .   Templates for task .    Template for .     alignments=['nw','w','sw','sw','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     Template for .     alignments=['nw','w','sw','sw','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     Template for .     alignments=['nw','w','sw','sw','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                          "
+  "body": " Star Polygons   In , we explored properties of convex polygons. In this section, we will create regular concave polygons, called star polygons. In addition to studying the geometrical properties of star polygons, we will observe how the relationship between a pair of numbers determines the shape of the star polygon associated with the number pair.    What is a Star Polygon?  When asked to draw a star, most people will draw a five point star polygon without lifting their pencil even though they are unfamiliar with the terminology. We will generalize this to create star polygons with different number of points. We will also see that our procedure will sometimes give us a regular polygon or no polygon at all.  To ensure that the star polygons we create are regular, we begin with equally spaced points around a circle as shown in . We draw segments from point 1 to point 3, from point 3 to point 5, from point 5 to point 2, from point 2 to point 4, and then returning to point 1 to get the star polygon in . Note that we are connecting every second point and continuing until we return to our starting point. There was no need to lift our pencil in this construction.   Constructing a -star polygon.    Five points on a circle.     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))      ${5-k}                     The star polygon     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))     ${5-k}                            The notation signifies that the star polygon has 5 points where every second point is connected. To create , we sketch a continuous path that connects each of the five points in to the first point from it (its neighbor). The resulting figure does not look like a star but rather the convex regular pentagon shown in .   The -star polygon.     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))     ${5-k}                         Our study of star polygons is not limited to figures built with five or six concentric dots.    star polygon   Star polygon on points  We define the star polygon to be the planar figure formed by a set of concentric points together with a series of line segments that join each point to the point from it moving clockwise around the circle.  For a shorter phrasing we can call the skip number of the star polygon on points, but we need to take care. We are only skipping points, connecting every point.      Sketch the - and -star polygons. What do you notice about them?    Going to the third point in clockwise direction is the same as going to the second point in the counterclockwise direction.    The -star polygon is identical to the -star polygon. The -star polygon, like the -star polygon, is a regular pentagon.    Similarly, we can draw star polygons on six vertices. The -star polygon is simply a regular hexagon.   The -star polygon.   A regular hexagon circumscribed by a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                           As we create skipping every other vertex, we return to the starting point after creating a triangle. The three even-numbered vertices have not been visited.   The -star polygon, step one.   An equilateral triangle joining vertices one, three, and five.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                        We now repeat this process starting at an unvisited vertex and joining every second vertex until we return to this new starting vertex. As shown in , this creates a second triangle congruent to the first but rotated 60 degrees about the center of the circle containing the six vertices. To aid in our exploration, a new color was used to draw the second triangle. You are also encouraged to use a new color each time you need to lift your pencil.   The star polygon.   A six two star polygon formed from two equilateral triangles, one joining odd numbered vertices and the other joining even numbered vertices.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                                What happens when you try to create a -star polygon by joining every third point? Is it a polygon, a star, overlapping polygons, or something else?   Template for drawing a six-vertex star polygon.   Six dots around a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                              Exploring Star Polygons with More Than Six Vertices   We have observed that star polygons may look like regular polygons, overlapping rotated copies of regular polygons, or an intersection of line segments. One more possibility will be discovered later. After completing the exploration, you should be able to predict what a star polygon will look like based on the numbers and . Make conjectures and test them as you work through the exploration.    Star Polygons for   Seven-vertex star polygons   Construct the star polygons , , and . Templates are provided in .   Templates for .    Template for .     alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     Template for .     alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     Template for .     alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                      If you are unable to sketch on the templates above, you may use a GeoGebra for drawing 7-dot star polygons.   GeoGebra interactive for drawing 7-dot star polygons           "
 },
 {
   "id": "fig-construct-starpoly-5-2",
@@ -3784,17 +3784,35 @@ var ptx_lunr_docs = [
   "id": "subsec-geonumberplay-star-defs-7",
   "level": "2",
   "url": "sec-geonumberplay-star.html#subsec-geonumberplay-star-defs-7",
-  "type": "Checkpoint",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "star polygons "
+},
+{
+  "id": "def-star-polygon",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#def-star-polygon",
+  "type": "Definition",
   "number": "6.1.3",
   "title": "",
-  "body": "  Construct the - and -star polygons. What do you notice about them?    Going to the third point in clockwise direction is the same as going to the second point in the counterclockwise direction.    The -star polygon is identical to the -star polygon. The -star polygon, like the -star polygon, is a regular pentagon.   "
+  "body": "  star polygon   Star polygon on points  We define the star polygon to be the planar figure formed by a set of concentric points together with a series of line segments that join each point to the point from it moving clockwise around the circle.  For a shorter phrasing we can call the skip number of the star polygon on points, but we need to take care. We are only skipping points, connecting every point.   "
+},
+{
+  "id": "subsec-geonumberplay-star-defs-9",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#subsec-geonumberplay-star-defs-9",
+  "type": "Checkpoint",
+  "number": "6.1.4",
+  "title": "",
+  "body": "  Sketch the - and -star polygons. What do you notice about them?    Going to the third point in clockwise direction is the same as going to the second point in the counterclockwise direction.    The -star polygon is identical to the -star polygon. The -star polygon, like the -star polygon, is a regular pentagon.   "
 },
 {
   "id": "fig-6-1-starpoly",
   "level": "2",
   "url": "sec-geonumberplay-star.html#fig-6-1-starpoly",
   "type": "Figure",
-  "number": "6.1.4",
+  "number": "6.1.5",
   "title": "",
   "body": " The -star polygon.   A regular hexagon circumscribed by a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                          "
 },
@@ -3803,7 +3821,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-geonumberplay-star.html#fig-6-2-starpoly-step1",
   "type": "Figure",
-  "number": "6.1.5",
+  "number": "6.1.6",
   "title": "",
   "body": " The -star polygon, step one.   An equilateral triangle joining vertices one, three, and five.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                       "
 },
@@ -3812,7 +3830,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-geonumberplay-star.html#fig-six-two-starpoly",
   "type": "Figure",
-  "number": "6.1.6",
+  "number": "6.1.7",
   "title": "",
   "body": " The star polygon.   A six two star polygon formed from two equilateral triangles, one joining odd numbered vertices and the other joining even numbered vertices.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                            "
 },
@@ -3821,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-geonumberplay-star.html#ckpt-six-dots-for-starpoly-l",
   "type": "Checkpoint",
-  "number": "6.1.7",
+  "number": "6.1.8",
   "title": "",
   "body": "   What happens when you try to create a -star polygon by joining every third point? Is it a polygon, a star, overlapping polygons, or something else?   Template for drawing a six-vertex star polygon.   Six dots around a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                           "
 },
@@ -3832,7 +3850,7 @@ var ptx_lunr_docs = [
   "type": "Exploration",
   "number": "6.1.1",
   "title": "Star Polygons <span class=\"process-math\">\\(\\{_{k}^{n}\\}\\)<\/span> for <span class=\"process-math\">\\(n\\gt 6\\)<\/span>.",
-  "body": " Star Polygons for   Seven-vertex star polygons   Construct the star polygons , , and . Templates are provided in .   Templates for task .    Template for .     alignments=['nw','w','sw','sw','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     Template for .     alignments=['nw','w','sw','sw','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     Template for .     alignments=['nw','w','sw','sw','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                        "
+  "body": " Star Polygons for   Seven-vertex star polygons   Construct the star polygons , , and . Templates are provided in .   Templates for .    Template for .     alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     Template for .     alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     Template for .     alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                      If you are unable to sketch on the templates above, you may use a GeoGebra for drawing 7-dot star polygons.   GeoGebra interactive for drawing 7-dot star polygons         "
 },
 {
   "id": "algebra-principles-3",
@@ -3848,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#def-expression",
   "type": "Definition",
-  "number": "A.1.10",
+  "number": "A.1.12",
   "title": "",
   "body": " expression  algebraic expression  numerical expression   An expression in mathematics is a representation of a numerical quantity consisting of a finite number of variables and\/or numbers joined by algebraic operations such as addition, subtraction, multiplication, division, and exponentiation. An expression is said to be algebraic if it contains at least one variable. We will also use the term numerical expression to describe any representation that is either an algebraic expression or number.   "
 },
@@ -3857,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#def-equation",
   "type": "Definition",
-  "number": "A.1.11",
+  "number": "A.1.13",
   "title": "",
   "body": " algebraic equation  equation   An equation is a statement formed by joining two algebraic expressions together with an equal sign. When we solve an equation, we determine which numerical quantities will make the statement true.   "
 },
@@ -3866,7 +3884,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#example-simplify",
   "type": "Example",
-  "number": "A.1.12",
+  "number": "A.1.14",
   "title": "Simplifying an Expression.",
   "body": " Simplifying an Expression   Simplify the expression .    Solving this expression requires an expansion of before we can subtract . One correct way of writing this is the following.   One might also write and then compute    "
 },
@@ -3875,7 +3893,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#example-solving",
   "type": "Example",
-  "number": "A.1.13",
+  "number": "A.1.15",
   "title": "Solving an Equation.",
   "body": " Solving an Equation   Solve the equation     One acceptable way of writing this for exercises is the following: We have found two numbers and that solve the equation. If this were a problem about geometric quantities, we frequently rule out negative numbers as unreasonable.   "
 },
@@ -3884,7 +3902,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#remark-use-equals-sign",
   "type": "Remark",
-  "number": "A.1.14",
+  "number": "A.1.16",
   "title": "",
   "body": " As we share our solutions with others, it is important to use the equals sign appropriately. Check that the two expressions on either side of the symbol are really equal to each other.  A frequent error made by students is to link steps of a computation with equals signs when the two expressions are not equal to each other. Typically, an operation has been performed in a step which did not exist previously. For example, a student simplifying may write Why is this incorrect? Near the end of the line, we see . This would imply that , a statement that is clearly false. It appears that the student has taken the square root of both sides of but that operation changes the value. While is the solution of , the expression is not equal to so they should not be linked with an equals sign.  "
 },
@@ -3893,7 +3911,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "algebra-principles-3.html#algebra-principles-3-12",
   "type": "Checkpoint",
-  "number": "A.1.15",
+  "number": "A.1.17",
   "title": "Find the Error.",
   "body": " Find the Error   The example in also suggests that . Identify where the value changes and why the equal sign is misleading.    After the equation , the number is subtracted changing the value.   "
 },
@@ -3911,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-closure-reals",
   "type": "Principle",
-  "number": "A.2.16",
+  "number": "A.2.18",
   "title": "Closure of Addition and Multiplication on the Set of Real Numbers.",
   "body": " Closure of Addition and Multiplication on the Set of Real Numbers   If and are real numbers, then and are real numbers.   "
 },
@@ -3920,7 +3938,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-commutative",
   "type": "Principle",
-  "number": "A.2.17",
+  "number": "A.2.19",
   "title": "Commutative Laws.",
   "body": " Commutative Laws   If and are real numbers, then and .   "
 },
@@ -3929,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-associative",
   "type": "Principle",
-  "number": "A.2.18",
+  "number": "A.2.20",
   "title": "Associative Laws.",
   "body": " Associative Laws   If , , and are real numbers, then and .   "
 },
@@ -3938,7 +3956,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-distributive",
   "type": "Principle",
-  "number": "A.2.19",
+  "number": "A.2.21",
   "title": "The Distributive Law.",
   "body": " The Distributive Law   If , , and are real numbers, then and .  Note that the distributive law also allows us to add fractions with a common denominator; In short,    "
 },
@@ -3947,7 +3965,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#examp-mult-poly",
   "type": "Example",
-  "number": "A.2.20",
+  "number": "A.2.22",
   "title": "Multiplying a Polynomial.",
   "body": " Multiplying a Polynomial   Multiply .     First we use the distributive law, multiplying each term in the second factor by : .  An obtional step, but one that makes the distributive law more evident, is to us the commutative law of multiplication to reverse the order of the factors in each term:   We can then use the distributive law on each term to get   Finally, we use the distributive law to combine like terms:   Although the distributive law makes the process work, we typically speed the process up by multiplying each term in the first factor by each term in the second factor:    "
 },
@@ -3956,7 +3974,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#principle-identity",
   "type": "Principle",
-  "number": "A.2.21",
+  "number": "A.2.23",
   "title": "The Identity Properties.",
   "body": " The Identity Properties   If is an real number, then , , , and We call 0 the additive identity and 1 the multiplicative identity .   "
 },
@@ -3965,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "field-properties.html#field-properties-11",
   "type": "Principle",
-  "number": "A.2.22",
+  "number": "A.2.24",
   "title": "The Inverse Properties.",
   "body": " The Inverse Properties   If is a real number, then the number exists and has the property that . If is an nonzero real number, then the number exists and has the property that . The number is said to be the additive inverse of and the number is said to be the multiplicative inverse of .   "
 },
@@ -3983,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-addition-equality",
   "type": "Principle",
-  "number": "A.3.23",
+  "number": "A.3.25",
   "title": "Addition Principle of Equality.",
   "body": " Addition Principle of Equality   If we add (or subtract) the same numerical expression from both sides of an equation, we get an equivalent Two equations are equivalent if they have exactly the same solution set. equation. In symbols, if and only if . Here, , , and may be numbers or algebraic expressions.   "
 },
@@ -3992,7 +4010,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-multiplication-equality",
   "type": "Principle",
-  "number": "A.3.24",
+  "number": "A.3.26",
   "title": "Multiplication Principle of Equality.",
   "body": " Multiplication Principle of Equality   If we multiply (or divide) both sides of an equation by the same nonzero numerical expression, we get an equivalent equation. In symbols, if and only if whenever , , and are numbers or algebraic expressions and . Similarly, if , then is equivalent to .   "
 },
@@ -4001,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-symmetry-equality",
   "type": "Principle",
-  "number": "A.3.25",
+  "number": "A.3.27",
   "title": "Symmetry Property of Equality.",
   "body": " Symmetry Property of Equality   The statement is true if and only if the statement is true.   "
 },
@@ -4010,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-transtive-equality",
   "type": "Principle",
-  "number": "A.3.26",
+  "number": "A.3.28",
   "title": "Transitive Property of Equality.",
   "body": " Transitive Property of Equality   If and are true statements, then .   "
 },
@@ -4028,7 +4046,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-multiply-by-zero",
   "type": "Principle",
-  "number": "A.3.27",
+  "number": "A.3.29",
   "title": "Multiplication by Zero.",
   "body": " Multiplication by Zero   For any numerical expression , .   "
 },
@@ -4037,7 +4055,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#principle-zero-product",
   "type": "Principle",
-  "number": "A.3.28",
+  "number": "A.3.30",
   "title": "Zero Product Property.",
   "body": " Zero Product Property   If and are any numerical expressions such that , then at least one of the factors or must equal zero.   "
 },
@@ -4046,7 +4064,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "equality-properties.html#equality-properties-14",
   "type": "Example",
-  "number": "A.3.29",
+  "number": "A.3.31",
   "title": "Solving a Polynomial Equation Using Principles.",
   "body": " Solving a Polynomial Equation Using Principles   Solve .    In symbols, with properties used: Click on solution to see this solution in paragraph form.    To solve , we first use to subtract from both sides of the equation so that the right side of the equation is 0. Thus, . By , . Substituting into our earlier equation, we see . Therefore, informs us that one of the following must be true: , , or . Solving each of these for gives the possible answers, , , and . Substituting each of these into the original equation verifies that the solution consists of these three values, , , and .  Click on answer to see the solution as a series of equations.   "
 },
@@ -4064,7 +4082,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#subsec-Functions-2-3",
   "type": "Example",
-  "number": "A.4.30",
+  "number": "A.4.32",
   "title": "A Function from Algebra.",
   "body": " A Function from Algebra   Let . Compute the following:               a) , b) , c) which can be simplified to .   "
 },
@@ -4073,7 +4091,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#def-function",
   "type": "Definition",
-  "number": "A.4.31",
+  "number": "A.4.33",
   "title": "",
   "body": " function   A function is a mapping that assigns to each input exactly one output.   "
 },
@@ -4082,7 +4100,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#def-sqrt",
   "type": "Definition",
-  "number": "A.4.32",
+  "number": "A.4.34",
   "title": "",
   "body": " square root  square   The square of a number is the number . Note that the number may be negative, positive, or 0, but the square, is always greater than or equal to 0.  The square root of a number is the nonnegative number such that . We use the notation to represent the square root of .   "
 },
@@ -4091,7 +4109,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#example-algrev-sq-sqrt",
   "type": "Example",
-  "number": "A.4.33",
+  "number": "A.4.35",
   "title": "Computing Squares and Square Roots.",
   "body": " Computing Squares and Square Roots   Compute the following using the definitions of square and square root. A calculator should not be necessary.                  a) , b) , c) , d)    "
 },
@@ -4109,7 +4127,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#principle-invpropofsqrt",
   "type": "Principle",
-  "number": "A.4.34",
+  "number": "A.4.36",
   "title": "Inverse Property of Squares and Square Roots.",
   "body": " Inverse Property of Squares and Square Roots   Let be a nonnegative real number. Then and .   "
 },
@@ -4118,7 +4136,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#examp-algrev-triangleleg",
   "type": "Example",
-  "number": "A.4.35",
+  "number": "A.4.37",
   "title": "Finding the Length of a Leg of a Right Triangle.",
   "body": " Finding the Length of a Leg of a Right Triangle   The length of the hypotenuse is 16 inches and the length of one leg is 10 inches. Determine the length of the other leg.    By the Pythagorean Theorem, we know or . Subtracting from both sides of the equation, we get . Taking the square root of both sides of the equation, we see    "
 },
@@ -4127,7 +4145,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#principle-exp-rt-product",
   "type": "Principle",
-  "number": "A.4.36",
+  "number": "A.4.38",
   "title": "Exponents and Roots of Products and Quotients.",
   "body": " Exponents and Roots of Products and Quotients   Let and be nonnegative real numbers. Then and If , then and .  Moreover, if is any nonnegative integer, we can say that and . Also and when .   "
 },
@@ -4136,7 +4154,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#example-inverse-solve-equation",
   "type": "Example",
-  "number": "A.4.37",
+  "number": "A.4.39",
   "title": "Using Inverses to Solve an Equation.",
   "body": " Using Inverses to Solve an Equation   Solve the equation .    Adding to both sides of gives us . Next we divide the expressions on both sides by , resulting in . Finally, we take the cube root of both sides, leaving us with . Checking our answer, we verify that as desired.   "
 },
@@ -4145,7 +4163,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "subsec-Functions.html#subsec-Functions-5-6",
   "type": "Example",
-  "number": "A.4.38",
+  "number": "A.4.40",
   "title": "Solving Equations with Order of Operations.",
   "body": " Solving Equations with Order of Operations   Solve the equation, .    We will demonstrate several methods. To emphasize how order of operations are reversed when undoing operations, we note that adding 8 would be last in a computation. Thus our first step is to subtract 8 (or add ) to both sides of our equation, resulting in . Next we, divide both sides by , leaving . Finally, we add to get .  Note that if we start by dividing by 5, tells us that we must also divide 8 by 5. The resulting equation, or , is correct but more difficult to solve.  Finally, we could solve this equation by first simplifying the left side. Our expression Replacing the original left side by this simplified version gives . Adding to both sides gives and dividing by 5 gives .   "
 },

@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="diagram" width="270" height="270">
+<svg xmlns="http://www.w3.org/2000/svg" id="diagram" width="245" height="245">
   <defs>
     <clipPath id="clipPath-0">
-      <rect x="10.0" y="10.0" width="250.0" height="250.0"/>
+      <rect x="10.0" y="10.0" width="225.0" height="225.0"/>
     </clipPath>
     <clipPath id="clipPath-1">
-      <rect x="10.0" y="10.0" width="250.0" height="250.0"/>
+      <rect x="10.0" y="10.0" width="225.0" height="225.0"/>
     </clipPath>
   </defs>
   <g id="g-0">
     <g id="point-k=0">
-      <g transform="translate(62.2,76.3) translate(-9.0,-12.6)">
+      <g transform="translate(56.7,69.4) translate(-9.0,-12.6)">
         <g id="g-1">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.632px" role="img" focusable="false" viewBox="0 -676 500 698" x="0.0" y="0.0">
             <defs>
@@ -17,7 +17,7 @@
             </defs>
             <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
               <g data-mml-node="math">
-                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="7">
                   <use data-c="37" xlink:href="#MJX-2-TEX-N-37"/>
                 </g>
               </g>
@@ -25,10 +25,10 @@
           </svg>
         </g>
       </g>
-      <circle cx="65.2" cy="79.3" r="2" stroke="black" stroke-width="2" fill="red"/>
+      <circle cx="59.7" cy="72.4" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="point-k=1">
-      <g transform="translate(42.0,154.9) translate(-9.0,-6.2)">
+      <g transform="translate(38.2,140.4) translate(-9.0,-6.2)">
         <g id="g-2">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -36,7 +36,7 @@
             </defs>
             <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
               <g data-mml-node="math">
-                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="6">
                   <use data-c="36" xlink:href="#MJX-3-TEX-N-36"/>
                 </g>
               </g>
@@ -44,10 +44,10 @@
           </svg>
         </g>
       </g>
-      <circle cx="48.0" cy="154.9" r="2" stroke="black" stroke-width="2" fill="red"/>
+      <circle cx="44.2" cy="140.4" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="point-k=2">
-      <g transform="translate(93.3,218.4) translate(-9.0,-0.0)">
+      <g transform="translate(84.6,197.9) translate(-9.0,-0.0)">
         <g id="g-3">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -55,7 +55,7 @@
             </defs>
             <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
               <g data-mml-node="math">
-                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="5">
                   <use data-c="35" xlink:href="#MJX-4-TEX-N-35"/>
                 </g>
               </g>
@@ -63,10 +63,10 @@
           </svg>
         </g>
       </g>
-      <circle cx="96.3" cy="215.4" r="2" stroke="black" stroke-width="2" fill="red"/>
+      <circle cx="87.6" cy="194.9" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="point-k=3">
-      <g transform="translate(170.7,218.4) translate(-9.0,-0.0)">
+      <g transform="translate(160.4,197.9) translate(0.0,-0.0)">
         <g id="g-4">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
             <defs>
@@ -74,7 +74,7 @@
             </defs>
             <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
               <g data-mml-node="math">
-                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="4">
                   <use data-c="34" xlink:href="#MJX-5-TEX-N-34"/>
                 </g>
               </g>
@@ -82,10 +82,10 @@
           </svg>
         </g>
       </g>
-      <circle cx="173.7" cy="215.4" r="2" stroke="black" stroke-width="2" fill="red"/>
+      <circle cx="157.4" cy="194.9" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="point-k=4">
-      <g transform="translate(228.0,154.9) translate(0.0,-6.2)">
+      <g transform="translate(206.8,140.4) translate(0.0,-6.2)">
         <g id="g-5">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.432px" role="img" focusable="false" viewBox="0 -665 500 687" x="0.0" y="0.0">
             <defs>
@@ -93,7 +93,7 @@
             </defs>
             <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
               <g data-mml-node="math">
-                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="3">
                   <use data-c="33" xlink:href="#MJX-6-TEX-N-33"/>
                 </g>
               </g>
@@ -101,10 +101,10 @@
           </svg>
         </g>
       </g>
-      <circle cx="222.0" cy="154.9" r="2" stroke="black" stroke-width="2" fill="red"/>
+      <circle cx="200.8" cy="140.4" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="point-k=5">
-      <g transform="translate(207.8,76.3) translate(0.0,-12.1)">
+      <g transform="translate(188.3,69.4) translate(0.0,-12.1)">
         <g id="g-6">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
             <defs>
@@ -112,7 +112,7 @@
             </defs>
             <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
               <g data-mml-node="math">
-                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="2">
                   <use data-c="32" xlink:href="#MJX-7-TEX-N-32"/>
                 </g>
               </g>
@@ -120,10 +120,10 @@
           </svg>
         </g>
       </g>
-      <circle cx="204.8" cy="79.3" r="2" stroke="black" stroke-width="2" fill="red"/>
+      <circle cx="185.3" cy="72.4" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="point-k=6">
-      <g transform="translate(135.0,39.7) translate(-4.5,-12.1)">
+      <g transform="translate(122.5,36.1) translate(-4.5,-12.1)">
         <g id="g-7">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
             <defs>
@@ -131,7 +131,7 @@
             </defs>
             <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
               <g data-mml-node="math">
-                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="1">
                   <use data-c="31" xlink:href="#MJX-8-TEX-N-31"/>
                 </g>
               </g>
@@ -139,7 +139,7 @@
           </svg>
         </g>
       </g>
-      <circle cx="135.0" cy="45.7" r="2" stroke="black" stroke-width="2" fill="red"/>
+      <circle cx="122.5" cy="42.1" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
   </g>
 </svg>
