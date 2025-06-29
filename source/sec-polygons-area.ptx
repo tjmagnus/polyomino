@@ -104,38 +104,73 @@
                 You probably remember the area formula for a triangle; in fact, you 
                 may have used it already in this course! But why is the area 
                 <m>A_{triangle}=\frac{1}{2}bh</m>? This exploration will encourage you to 
-                answer that question. 
+                answer that question.
+            </p>
+            <p>
+                Triangles come in all shapes and sizes. Sketch one or more 
+                examples of the following types of triangles.
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    Triangles come in all shapes and sizes. Sketch one or more 
-                    examples of the following types of triangles.
-                    <ol>
-                        <li>
-                            <p>
-                                An equilateral triangle.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                            A right isosceles triangle. 
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                An acute triangle that is not equilateral.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                An obtuse scalene triangle.
-                            </p>
-                        </li>
-                    </ol>
+                    An equilateral triangle.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    <figure xml:id="fig-equilateral-jsx">
+                        <caption>An equilateral triangle drawn using JSXGraph.</caption>
+                        <jsxgraph width="400" height="400">
+                        board = JXG.JSXGraph.initBoard(divid, {
+                            boundingbox: [-1, 2, 4, -1], axis: false
+                        });
+                        var A = board.create('point', [0, 0], {name: 'A', size: 3});
+                        var B = board.create('point', [3, 0], {name: 'B', size: 3});
+                        var C = board.create('point', [1.5, Math.sqrt(3) * 1.5], {name: 'C', size: 3});
+                        board.create('polygon', [A, B, C], {
+                            borders: {strokeColor: 'blue'}, vertices: {visible: false}
+                        });
+                        </jsxgraph>
+                    </figure>
+                </p>
+            </answer>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    A right isosceles triangle.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    Answer.
+                </p>
+            </answer>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    An acute triangle that is not equilateral.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    Answer.
+                </p>
+            </answer>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    An obtuse scalene triangle.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    Answer.
+                </p>
+            </answer>
         </task>
         <task>
             <statement>
