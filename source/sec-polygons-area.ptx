@@ -118,12 +118,9 @@
             </statement>
             <hint>
                 <p>A sample equilateral triangle with 3 equal sides and 3 equal angles.</p>
-                <figure xml:id="fig-equilateral-tri">
-                    <caption>
-                        <p>An equilateral triangle.</p>
-                    </caption>
-                    <image source="equilateral-tri"/>
-                </figure>
+                <image source="equilateral-tri">
+                    <shortdescription>An equilateral triangle.</shortdescription>
+                </image>
             </hint>
         </task>
         <task>
