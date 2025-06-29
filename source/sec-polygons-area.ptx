@@ -121,7 +121,7 @@
                 <p>
                     <figure xml:id="fig-equilateral-jsx">
                         <caption>An equilateral triangle drawn using JSXGraph.</caption>
-                        <jsxgraph width="400%" height="400%">
+                        <jsxgraph width="100%" height="400px">
                         board = JXG.JSXGraph.initBoard(divid, {
                             boundingbox: [-1, 2, 5, -2], axis: true
                         });
