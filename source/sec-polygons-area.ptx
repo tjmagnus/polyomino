@@ -117,7 +117,7 @@
                     An equilateral triangle.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
                     <figure xml:id="fig-equilateral-jsx">
                         <caption>An equilateral triangle drawn using JSXGraph.</caption>
@@ -134,7 +134,7 @@
                         </jsxgraph>
                     </figure>
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
