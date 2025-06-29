@@ -96,7 +96,6 @@
     </subsection>
     <subsection xml:id="subsec-area-tri">
         <title>The Area of a Triangle</title>
-
     <exploration>
         <title>Discovering the Area Formula for a Triangle</title>
         <introduction>
@@ -118,18 +117,10 @@
                 </p>
             </statement>
             <hint>
-                <p>
-                    <sidebyside widths="60% 40%">
-                        <p>
-                            A sample correct answer.
-                            Recall that an equilateral triangle has three equal sides and three equal angles. 
-                        </p>
-                        <figure xml:id="fig-equilateral-tri">
-                            <image source="equilateral-tri"/>
-                            <caption>An equilateral triangle</caption>
-                        </figure>
-                    </sidebyside>
-                </p>
+                <figure xml:id="fig-equilateral-tri">
+                    <image source="equilateral-tri"/>
+                    <caption>A sample equilateral triangle with 3 equal sides and 3 equal angles.</caption>
+                </figure>
             </hint>
         </task>
         <task>
