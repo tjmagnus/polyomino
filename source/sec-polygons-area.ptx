@@ -23,51 +23,72 @@
                 as needed to complete the following.
             </p>
         </introduction>
-        <task xml:id="parallelogramtypes">
+        <task xml:id="sketchaparallelogram">
             <statement>
                 <p>
-                    Sketch the following:
-                    <ol>
-                        <li xml:id="sketchaparallelogram">
-                            <p>
-                                A parallelogram with two different angle
-                                measures and two different lengths.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                A parallelogram with at least one acute angle 
-                                and four congruent sides.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                A parallelogram with four congruent angles. What 
-                                do we usually call this parallelogram?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Two parallelograms which share the 
-                                same side lengths  
-                                but have different heights.
-                            </p>
-                        </li>
-                    </ol>
+                    Sketch a parallelogram with two different angle
+                    measures and two different lengths.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    Answer.
+                </p>
+            </answer>
         </task>
         <task>
             <statement>
                 <p>
+                    Sketch a parallelogram with at least one acute angle 
+                    and four congruent sides.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    Answer.
+                </p>
+            </answer>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Sketch a parallelogram with four congruent angles. What 
+                    do we usually call this parallelogram?
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    Answer.
+                </p>
+            </answer>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Sketch two parallelograms which share the same side lengths but have different heights.
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    Answer.
+                </p>
+            </answer>
+        </task>
+        <task>   
+            <statement>
+                <p>
                     Beginning with the parallelogram pictured below or the one you 
-                    sketched in <xref ref="sketchaparallelogram"/> of 
-                    <xref ref="parallelogramtypes"/>, explain and demonstrate 
+                    sketched in <xref ref="sketchaparallelogram"/>, explain and demonstrate 
                     how you would construct a rectangle with the same area. You are allowed 
                     to cut the parallelogram and rearrange or duplicate pieces as part of your 
                     argument.
                 </p>
             </statement>
+            <answer>
+                <p>
+                    Answer.
+                </p>
+            </answer>
         </task>
         <task>
         <statement>
@@ -86,6 +107,11 @@
                 and rectangle.
             </p>
         </hint>
+        <answer>
+            <p>
+                Answer.
+            </p>
+        </answer>
         </task>
     </exploration>
         <p>
