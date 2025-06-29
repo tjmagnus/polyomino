@@ -1576,5 +1576,48 @@
         </exercise>
         </subexercises>
    </exercises>
+   <subsection xml:id="vocab-word-bank">
+        <title>Vocabulary Word Bank</title>
+        <p>
+            Review the key terms from this vocabulary-heavy section. All vocabulary terms are ordered based on the reading:
+        </p>
+        <p>
+            <term>Line</term>: A one-dimensional figure that extends infinitely in opposite directions.
+        </p>
+        <p>
+            <term>Line Segment</term>: The part of a line bounded by two endpoints. Consists of all points between the endpoints.
+        </p>
+        <p>
+            <term>Length</term>: The distance between the two endpoints of a line segment.
+        </p>
+        <p>
+            <term>Ray</term>: Extends infinitely in one direction, has a single endpoint, and cannot be measured.
+        </p>
+        <p>
+            <term>Angle</term>: The union of two rays with a common endpoint.
+        </p>
+        <p>
+            <term>Vertex</term>: The common endpoint where the two rays (sides) of an angle meet.
+        </p>
+        <p>
+            <term>Sides</term>: The two rays that share a vertex and form the angle.
+        </p>
+        <p>
+            <term>Opposite Rays</term>: Two rays that start at the same point and go in exactly opposite directions, forming a straight line.
+        </p>
+        <p>
+            <term>Angle Measure</term>: The number of degrees that one ray must be rotated around the vertex to match the other ray.
+        </p>
+        <p>
+            <term>Congruent Angles</term>: Two angles that are equal in measure. Can be expressed using <m>\cong</m>.
+        </p>
+        <p>
+            <term>Interior Angles</term>: Formed by points located between the two rays that create the angle.
+        </p>
+        <p>
+            <term>Vertical Angles</term>: When a pair of lines intersect, two pairs of vertical angles are formed. Individual
+            angle pairs are always congruent.
+        </p>
+    </subsection>
   
 </section>
