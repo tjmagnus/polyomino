@@ -124,8 +124,8 @@
                             A sample correct answer.
                             Recall that an equilateral triangle has three equal sides and three equal angles. 
                         </p>
-                        <figure xml:id="fig-equilateral-jsx-hint">
-                            <image source="equilateral-triangle-image"/>
+                        <figure xml:id="fig-equilateral-tri">
+                            <image source="equilateral-tri"/>
                             <caption>An equilateral triangle</caption>
                         </figure>
                     </sidebyside>
