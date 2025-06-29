@@ -844,37 +844,101 @@
     <title>Vocabulary</title>
     <subexercises xml:id="SAR-vocab-angles">
         <title>Vocabulary Review</title>
-        <exercise xml:id="HW-vocab-angle-parts">
+        <exercise xml:id="HW-vocab-points-rays-vertex">
+            <title>Points, Rays, and Vertex</title>
             <introduction>
                 <p>
-                    Use <xref ref="fig-angle-def"/> to answer questions a-c:
-                </p>
-                <p>
-                    Use <xref ref="image-vert-angles"/> to answer questions d-g:
+                    Use <xref ref="fig-angle-def"/> to answer the following questions:
                 </p>
             </introduction>
             <task>
                 <statement>
-                    <p>In the above figure, name the two sides of <m>\angle{ABC}</m>.</p>
+                    <p>
+                        Identify the POINTS.
+                    </p>
                 </statement>
                 <answer>
-                    <p>Ray <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>.</p>
+                    <p>
+                        A, B, and C.
+                    </p>
                 </answer>
             </task>
             <task>
                 <statement>
-                    <p>In math, what are these two sides called?</p>
+                    <p>
+                        Identify the RAYS.
+                    </p>
                 </statement>
                 <answer>
-                    <p>Rays.</p>
+                    <p>
+                        <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>.
+                    </p>
                 </answer>
             </task>
             <task>
                 <statement>
-                    <p>Identify the vertex of <m>\angle{ABC}</m>.</p>
+                    <p>
+                        Identify the VERTEX.
+                    </p>
                 </statement>
                 <answer>
-                    <p>Point B.</p>
+                    <p>
+                        Point B.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+        <exercise xml:id="HW-vocab-lines-angles">
+            <title>Lines and Angles</title>
+            <introduction>
+                <p>
+                    Use <xref ref="image-vert-angles"/> to answer the following questions:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify the LINES.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Line 1 Possible Answers: <m>\overleftrightarrow{AE}</m>, <m>\overleftrightarrow{AB}</m>, <m>\overleftrightarrow{BE}</m>.
+                    </p>
+                    <p>
+                        Line 2 Possible Answers: <m>\overleftrightarrow{CE}</m>, <m>\overleftrightarrow{CD}</m>, <m>\overleftrightarrow{DE}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the two VERTICAL ANGLE pairs. Recall VERTICAL ANGLES are congruent (equal in measure)!
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pair 1: <m>\angle{AED}</m> and <m>\angle{BEC}</m>.
+                    </p>
+                    <p>
+                        Pair 2: <m>\angle{AEC}</m> and <m>\angle{BED}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the two pairs of SUPPLEMENTARY ANGLES (STRAIGHT ANGLES).
+                        Recall that SUPPLEMENTARY ANGLES add up to 180 degrees!
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pair 1: <m>\angle{BEC}</m> and <m>\angle{BED}</m>.
+                    </p>
+                    <p>
+                        Pair 2: <m>\angle{AEC}</m> and <m>\angle{AED}</m>.
+                    </p>
                 </answer>
             </task>
         </exercise>
