@@ -840,6 +840,43 @@
         </statement>
     </exercise>
 </subsection>
+<exercises xml:id="exercises-vocab-angles">
+    <title>Vocabulary</title>
+    <subexercises xml:id="SAR-vocab-angles">
+        <title>Vocabulary Review</title>
+        <exercise xml:id="HW-vocab-angle-parts">
+            <introduction>
+                <p>
+                    Use <xref ref="fig-angle-def"/> to answer the following questions:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>In the above figure, name the two sides of <m>\angle{ABC}</m>.</p>
+                </statement>
+                <answer>
+                    <p>Ray <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>.</p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>In math, what are these two sides called?</p>
+                </statement>
+                <answer>
+                    <p>Rays.</p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>Identify the vertex of <m>\angle{ABC}</m>.</p>
+                </statement>
+                <answer>
+                    <p>Point B.</p>
+                </answer>
+            </task>
+        </exercise>
+    </subexercises>
+</exercises>
    <exercises xml:id="exercises-polygons-angles">
     <title>Exercises</title>
     <subexercises xml:id="SAR-polygons-angles">
