@@ -119,20 +119,16 @@
             </statement>
             <hint>
                 <p>
-                    <figure xml:id="fig-equilateral-jsx">
-                        <caption>An equilateral triangle drawn using JSXGraph.</caption>
-                        <jsxgraph width="100%" height="400px">
-                        board = JXG.JSXGraph.initBoard(divid, {
-                            boundingbox: [-1, 2, 5, -2], axis: true
-                        });
-                        var A = board.create('point', [0, 0], {name: 'A', size: 3});
-                        var B = board.create('point', [3, 0], {name: 'B', size: 3});
-                        var C = board.create('point', [1.5, Math.sqrt(3) * 1.5], {name: 'C', size: 3});
-                        board.create('polygon', [A, B, C], {
-                            borders: {strokeColor: 'blue'}, vertices: {visible: false}
-                        });
-                        </jsxgraph>
-                    </figure>
+                    <sidebyside widths="60% 40%">
+                        <p>
+                            A sample correct answer.
+                            Recall that an equilateral triangle has three equal sides and three equal angles. 
+                        </p>
+                        <figure xml:id="fig-equilateral-jsx-hint">
+                            <image source="equilateral-triangle-image"/>
+                            <caption>An equilateral triangle</caption>
+                        </figure>
+                    </sidebyside>
                 </p>
             </hint>
         </task>
