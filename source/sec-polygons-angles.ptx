@@ -229,7 +229,201 @@
     <!--</sidebyside>-->
     <exploration>
         <title>Reading a Protractor</title>
+        <introduction>
+            <p>
+                Use the picture above to determine the following:
+            </p>
+        </introduction>
         <task>
+            <statement>
+                <p>
+                    The measure of angle <m>\angle{EAB}</m>.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Look where <m>\overrightarrow{AE}</m> points on the protractor.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>m(\angle{EAB})=150^{\circ}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    The protractor shows that <m>\overrightarrow{AE}</m> points to <m>m(\angle{EAB})=150^{\circ}</m>. Since
+                    <m>\overrightarrow{AB}</m> is at <m>0^{\circ}</m>, the measure of the angle is <m>150^{\circ}</m>.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The measure of angle <m>\angle{CAD}</m>.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Find the difference between the protractor marks for the two rays for angle <m>\angle{CAD}</m>.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>m(\angle{CAD})=140^{\circ}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <m>\overrightarrow{AD}</m> points to <m>40^{\circ}</m>, and <m>\overrightarrow{AC}</m> is at <m>180^{\circ}</m>.
+                    The difference between <m>180^{\circ}</m> and <m>40^{\circ}</m> is <m>140^{\circ}</m>.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The measure of angle <m>\angle{CAE}</m>.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Find the difference between the marks for the two rays for angle <m>\angle{CAE}</m>.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>m(\angle{CAE})=30^{\circ}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <m>\overrightarrow{AE}</m> is at <m>150^{\circ}</m>, and <m>\overrightarrow{AC}</m> is at <m>180^{\circ}</m>.
+                    The difference between <m>180^{\circ}</m> and <m>150^{\circ}</m> is <m>30^{\circ}</m>.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    The measure of angle <m>\angle{EAC}</m>.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    This is the same angle as <m>\angle{CAE}</m>.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>m(\angle{EAC})=30^{\circ}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <m>\angle{EAC}</m> is just another name for <m>\angle{CAE}</m>, so the angle is also <m>30^{\circ}</m>.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What fraction of a full rotation is 40 degrees?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Divide 40 by 360.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>\frac{1}{9}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    A full rotation is <m>360^{\circ}</m>. <m>\frac{40}{360} = \frac{1}{9}</m>, so <m>40^{\circ}</m> is
+                    one-ninth of a full turn.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What fraction of a full rotation is 110 degrees?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Divide 110 by 360.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>\frac{11}{36}</m>
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    <m>\frac{110}{360} = \frac{11}{36}</m>. So, <m>110^{\circ}</m> is <m>\frac{11}{36}</m> of a full rotation.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Use a physical protractor and a ruler to draw an angle with
+                    measure 78 degrees. Describe your technique.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Align one side of the angle with <m>0^{\circ}</m>, then mark <m>78^{\circ}</m> on the protractor.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    See the "Solution" for a detailed explanation on technique.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Place the protractor on the vertex and align one side with <m>0^{\circ}</m>. Using the protractor, mark 
+                    <m>78^{\circ}</m>, then connect the vertex to this point with a straight line to complete the angle.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    It is possible to have angle measures greater than 180 degrees. 
+                    Use words and/or pictures to describe an angle that measures 240 
+                    degrees.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    <m>240^{\circ}</m> is greater than <m>180^{\circ}</m>, so it is a reflex angle.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Draw a straight line (<m>180^{\circ}</m>), then measure an additional <m>60^{\circ}</m> past the straight
+                    line.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    A <m>240^{\circ}</m> angle wraps more than halfway around the circle. To draw it, measure <m>180^{\circ}</m>,
+                    then add <m>60^{\circ}</m> more to reach <m>240^{\circ}</m>.
+                </p>
+            </solution>
+        </task>
+    </exploration>
+        
+        <!--original code if this should be converted back...-->
+        <!--<task>
             <p>
                 Use the picture above to determine the following:
                 <ol>
@@ -276,8 +470,7 @@
                 Use words and/or pictures to describe an angle that measures 240 
                 degrees.
             </p>
-        </task>
-    </exploration>
+        </task>-->
     <p>
         We give a more concise definition of angle measure and introduce the 
         notion of angle congruence.
@@ -340,82 +533,158 @@
 
         </introduction>
         <task>
-                <statement>
-                    <p>
-                        Rotate triangle <m>\Delta ABC</m> 180 degrees about the midpoint 
-                        <m>D</m> of side <m>\overline{BC}</m> (see hint). Both the original triangle  
-                        and the rotated version should be visible. What do you notice?
-                    </p>
-                    <p>
-                        Note that two of the points are double labeled, once for each 
-                        triangle. If you rightclick on 
-                        the label, you can move it to make the original label visible.
-                    </p>
-                </statement>
-                <hint>
-                    <p>
-                        To perform this rotation in the GeoGebra app, click on the angle rotation icon 
-                        in the toolbar. Next, click on the interior of the triangle to select the object 
-                        to be rotated, then click on midpoint <m>D</m> to identify the center of the rotation. 
-                        When prompted to input 
-                        the angle measure, replace 45 with 180. Then click OK.
-                    </p>
-                </hint>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Also rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
-                        <m>E</m> of side <m>\overline{AB}</m>. 
-                        <ol>
-                            <li>
-                                <p>
-                                    Which angle of <m>\Delta ABC</m> is congruent to 
-                                    <m>\angle A'C'B'</m>?
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Which angle of <m>\Delta ABC</m> is congruent to 
-                                    <m>\angle B_{1}'A_{1}'C_{1}'</m>?
-                                </p>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What does this tell you about 
-                        <m>m\angle ABC+m\angle BCA + m\angle CAB</m>? Explain how the picture 
-                        shows this. 
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        Make a claim about the sum of the interior angles of a triangle.
-                    </p>
-                    <p>
-                        Does your claim work for all triangles or just the one in the 
-                        picture? To test this in the GeoGebra applet, select the arrow 
-                        in the tool menu. Then click and drag one of the vertices in 
-                        the original triangle to change the shape. Do your claims still  
-                        hold?
-                    </p>
-                <aside>
-                    <p>
-                        GeoGebra makes exploring multiple possibilities easier. 
-                        If you are doing this activity with 
-                        paper triangles, experiment with other triangles, repeating the  
-                        previous tasks. If your classmates used different triangles, this  
-                        would be a good time to compare results. 
-                    </p>
-                </aside>
-                </statement>
-            </task>
+            <statement>
+                <p>
+                    Rotate triangle <m>\Delta ABC</m> 180 degrees about the midpoint 
+                    <m>D</m> of side <m>\overline{BC}</m> (see hint). Both the original triangle  
+                    and the rotated version should be visible. What do you notice?
+                </p>
+                <p>
+                    Note that two of the points are double labeled, once for each 
+                    triangle. If you rightclick on 
+                    the label, you can move it to make the original label visible.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    To perform this rotation in the GeoGebra app, click on the angle rotation icon 
+                    in the toolbar. Next, click on the interior of the triangle to select the object 
+                    to be rotated, then click on midpoint <m>D</m> to identify the center of the rotation. 
+                    When prompted to input 
+                    the angle measure, replace 45 with 180. Then click OK.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The rotated triangle, <m>\Delta A'B'C'</m>, perfectly overlaps with the original triangle, but flipped.
+                    See "Solution" for a list of possible observations.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Possible Observations: The two triangles are identical in size and shape, they share a common side
+                    <m>\overline{BC}</m>, and the combined shape formed by both triangles is a parallelogram.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
+                    <m>E</m> of side <m>\overline{AB}</m>. Which angle of <m>\Delta ABC</m> is congruent to 
+                    <m>\angle A'C'B'</m>?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Think about where <m>\angle C</m> rotates when the triangle is flipped around the midpoint of <m>\overline{AB}</m>.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    <m>\angle A'C'B'</m> is congruent to <m>\angle ACB</m>.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    Rotating around midpoint <m>E</m> maps vertex <m>C</m> to a new location <m>C'</m> on the opposite side of <m>\overline{AB}</m>. 
+                    This rotation preserves angle measures, <m>\angle A'C'B'</m> corresponds to the original <m>\angle ACB</m> in both shape and size.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Rotate <m>\Delta ABC</m> 180 degrees about the midpoint 
+                    <m>E</m> of side <m>\overline{AB}</m>. Which angle of <m>\Delta ABC</m> is congruent to 
+                    <m>\angle B_{1}'A_{1}'C_{1}'</m>?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Consider the rules of corresponding angles. Recall that alternate interior angles are always congruent.
+                    Which is the alternate interior angle to <m>\angle B_{1}'A_{1}'C_{1}'</m>?
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Angle <m>\angle ABC</m>.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    When <m>\Delta ABC</m> is rotated 180 degrees around midpoint <m>E</m> of side <m>\overline{AB}</m>, a new
+                    triangle <m>\Delta A'B'C'</m> is formed. Both <m>\angle ABC</m> (original triangle) and
+                    <m>\angle B'A'C'</m> (new triangle) are interior angles. Therefore, these angles are congruent.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What does this tell you about 
+                    <m>m\angle ABC+m\angle BCA + m\angle CAB</m>? Explain how the picture 
+                    shows this. 
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Recall the Interior Angles Theorem. What is always the sum of the three interior angles of a triangle?
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The sum of the interior angles of a triangle is 180 degrees.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    When the triangle is rotated around each side, the interior angles line up to form a straight line. In 
+                    geometry, a straight line always measures 180 degrees. Therefore, the three angles inside the triangle must 
+                    also add up to 180 degrees.
+                </p>
+            </solution>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Make a claim about the sum of the interior angles of a triangle.
+                </p>
+                <p>
+                    Does your claim work for all triangles or just the one in the 
+                    picture? To test this in the GeoGebra applet, select the arrow 
+                    in the tool menu. Then click and drag one of the vertices in 
+                    the original triangle to change the shape. Do your claims still  
+                    hold?
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Test this claim by changing the triangle’s shape in GeoGebra or by rotating the triangle as instructed.
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    The sum of the interior angles of any triangle is always 180 degrees, regardless of its shape.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    By rotating the triangle around the midpoints and observing how angles line up, it becomes clear that the 
+                    three interior angles together form a straight line where their sum is 180°. This holds true even with
+                    changing the triangle's size or shape in GeoGebra.
+                </p>
+            <aside>
+                <p>
+                    GeoGebra makes exploring multiple possibilities easier. 
+                    If you are doing this activity with 
+                    paper triangles, experiment with other triangles, repeating the  
+                    previous tasks. If your classmates used different triangles, this  
+                    would be a good time to compare results. 
+                </p>
+            </aside>
+            </solution>
+        </task>
     </exploration>
 </subsection>
 <subsection xml:id="subsec-polygons-angles-principle">
@@ -571,6 +840,110 @@
         </statement>
     </exercise>
 </subsection>
+<exercises xml:id="exercises-vocab-angles">
+    <title>Vocabulary</title>
+    <subexercises xml:id="SAR-vocab-angles">
+        <title>Vocabulary Review</title>
+        <exercise xml:id="HW-vocab-points-rays-vertex">
+            <title>Points, Rays, and Vertex</title>
+            <introduction>
+                <p>
+                    Use <xref ref="fig-angle-def"/> to answer the following questions:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>points</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        A, B, and C.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>rays</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\overrightarrow{AB}</m> and <m>\overrightarrow{AC}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>vertex</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Point B.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+        <exercise xml:id="HW-vocab-lines-angles">
+            <title>Lines and Angles</title>
+            <introduction>
+                <p>
+                    Use <xref ref="image-vert-angles"/> to answer the following questions:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>lines</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Line 1 Possible Answers: <m>\overleftrightarrow{AE}</m>, <m>\overleftrightarrow{AB}</m>, <m>\overleftrightarrow{BE}</m>.
+                    </p>
+                    <p>
+                        Line 2 Possible Answers: <m>\overleftrightarrow{CE}</m>, <m>\overleftrightarrow{CD}</m>, <m>\overleftrightarrow{DE}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the two <term>vertical angle</term> pairs. Recall <term>vertical angles</term> are congruent (equal in measure)!
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pair 1: <m>\angle{AED}</m> and <m>\angle{BEC}</m>.
+                    </p>
+                    <p>
+                        Pair 2: <m>\angle{AEC}</m> and <m>\angle{BED}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the two pairs of <term>supplementary angles</term> (straight angles).
+                        Recall that <term>supplementary angles</term> add up to 180 degrees!
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pair 1: <m>\angle{BEC}</m> and <m>\angle{BED}</m>.
+                    </p>
+                    <p>
+                        Pair 2: <m>\angle{AEC}</m> and <m>\angle{AED}</m>.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+    </subexercises>
+</exercises>
    <exercises xml:id="exercises-polygons-angles">
     <title>Exercises</title>
     <subexercises xml:id="SAR-polygons-angles">
@@ -1203,5 +1576,48 @@
         </exercise>
         </subexercises>
    </exercises>
+   <!--<subsection xml:id="vocab-word-bank">
+        <title>Vocabulary Word Bank</title>
+        <p>
+            Review the key terms from this vocabulary-heavy section. All vocabulary terms are ordered based on the reading:
+        </p>
+        <p>
+            <term>Line</term>: A one-dimensional figure that extends infinitely in opposite directions.
+        </p>
+        <p>
+            <term>Line Segment</term>: The part of a line bounded by two endpoints. Consists of all points between the endpoints.
+        </p>
+        <p>
+            <term>Length</term>: The distance between the two endpoints of a line segment.
+        </p>
+        <p>
+            <term>Ray</term>: Extends infinitely in one direction, has a single endpoint, and cannot be measured.
+        </p>
+        <p>
+            <term>Angle</term>: The union of two rays with a common endpoint.
+        </p>
+        <p>
+            <term>Vertex</term>: The common endpoint where the two rays (sides) of an angle meet.
+        </p>
+        <p>
+            <term>Sides</term>: The two rays that share a vertex and form the angle.
+        </p>
+        <p>
+            <term>Opposite Rays</term>: Two rays that start at the same point and go in exactly opposite directions, forming a straight line.
+        </p>
+        <p>
+            <term>Angle Measure</term>: The number of degrees that one ray must be rotated around the vertex to match the other ray.
+        </p>
+        <p>
+            <term>Congruent Angles</term>: Two angles that are equal in measure. Can be expressed using <m>\cong</m>.
+        </p>
+        <p>
+            <term>Interior Angles</term>: Formed by points located between the two rays that create the angle.
+        </p>
+        <p>
+            <term>Vertical Angles</term>: When a pair of lines intersect, two pairs of vertical angles are formed. Individual
+            angle pairs are always congruent.
+        </p>
+    </subsection>-->
   
 </section>

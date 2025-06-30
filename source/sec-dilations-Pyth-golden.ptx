@@ -243,7 +243,7 @@
             <task>
               <statement>
                 <p>
-                  What other triangle is similar to triangle <m>\Delta ABC</m>?
+                  What other triangle is similar to triangle <m>\Delta ABC?</m>
                   Be sure to write the letters in the order of corresponding
                   vertices.
               </p>
@@ -298,7 +298,7 @@
                   Equating <m>a^2+b^2</m> with <m>BC\cdot BC+AC\cdot AC</m>,
                   substitute the righthand expressions from the equations in
                   the first two parts of this task. Then add the expressions.
-                  Do you get <m>c^2</m>? Show all work.
+                  Do you get <m>c^2?</m> Show all work.
               </p>
               </statement>
             </task>
@@ -338,7 +338,7 @@
     <task>
       <statement>
         <p>
-          What is the measure of the third angle <m>\angle ACB</m>?
+          What is the measure of the third angle <m>\angle ACB?</m>
         </p>
       </statement>
     </task>
@@ -479,7 +479,7 @@
           <p>
             The area tool is under the angle menu. What is the ratio of
             the areas of similar triangles <m>\Delta ABC</m> and 
-            <m>\Delta BDA</m>? How is this number related to the ratio of 
+            <m>\Delta BDA?</m> How is this number related to the ratio of 
             the corresponding sides?
           </p>
         </statement>
@@ -557,7 +557,7 @@
     <task>
       <statement>
         <p>
-          Draw segment <m>\overline{AD}</m>. What type of triangle is <m>\Delta EAD</m>?
+          Draw segment <m>\overline{AD}</m>. What type of triangle is <m>\Delta EAD?</m>
         </p>
       </statement>
     </task>
@@ -578,7 +578,7 @@
     <task>
       <statement>
         <p>
-          Construct <m>\overline{BD}</m>. What is the measure of <m>\angle CDE</m>?
+          Construct <m>\overline{BD}</m>. What is the measure of <m>\angle CDE?</m>
           How do you know?
         </p>
       </statement>
@@ -614,8 +614,8 @@
       <task>
         <statement>
           <p>
-            What type of triangle is <m>\Delta DFC</m>? How is it related to 
-            <m>\Delta ADB</m>?
+            What type of triangle is <m>\Delta DFC?</m> How is it related to 
+            <m>\Delta ADB?</m>
           </p>
         </statement>
       </task>
@@ -656,7 +656,7 @@
       <task>
         <statement>
           <p>
-            Determine <m>m\angle DEB</m> and <m>m\angle BAC</m>.
+            Determine <m>m\angle DEB</m>.
           </p>
         </statement>
         <hint>
@@ -683,22 +683,20 @@
         </statement>
         <hint>
           <p>
-            In the previous problem, it was determined that <m>m\angle BAC</m> = 108 degrees.
-            Use triangle similarity to find <m>m\angle EFC</m> and <m>m\angle BDE</m>. Hint - Both <m>\angle EFC</m> and
+            Based on the Triangle Angle Sum Theorem, <m>m\angle BAC=108</m> degrees.
+            Use triangle similarity to find <m>m\angle EFC</m> and <m>m\angle BDE</m>. Hint...Both <m>\angle EFC</m> and
             <m>\angle BDE</m> correspond to <m>m\angle BAC</m>.
           </p>
         </hint>
         <answer>
-          <p>
-            <m>m\angle EFC</m> = 108 degrees
-            <m>m\angle BDE</m> = 108 degrees
-            <m>m\angle BAC</m> = 108 degrees
-          </p>
+          <p><m>m\angle EFC=108</m> degrees</p>
+          <p><m>m\angle BDE=108</m> degrees</p>
+          <p><m>m\angle BAC=108</m> degrees</p>
         </answer>
         <solution>
           <p>
             Triangles <m>\Delta EFC</m> and <m>\Delta BDE</m> are similar to triangle <m>\Delta BAC</m>. This means their
-            corresponding angles are equal. Since <m>m\angle BAC</m> = 108 degrees, both <m>m\angle EFC</m> and <m>m\angle BDE</m>
+            corresponding angles are equal. Since <m>m\angle BAC=108</m> degrees, both <m>m\angle EFC</m> and <m>m\angle BDE</m>
             are also 108 degrees.
           </p>
         </solution>
@@ -712,14 +710,12 @@
         <hint>
           <p>
             Use angle similarity and match corresponding angles. Which angle in the larger triangle <m>\Delta ABC</m>
-            corresponds with <m>\angle FDE</m>? What about <m>\angle AFD</m>? Use these relationships to find missing measures.
+            corresponds with <m>\angle FDE?</m> What about <m>\angle AFD?</m> Use these relationships to find missing measures.
           </p>
         </hint>
         <answer>
-          <p>
-            <m>m\angle FDE</m> = 30 degrees
-            <m>m\angle AFD</m> = 30 degrees
-          </p>
+          <p><m>m\angle FDE=30</m> degrees</p>
+          <p><m>m\angle AFD=30</m> degrees</p>
         </answer>
         <solution>
           <p>
@@ -744,12 +740,12 @@
         </hint>
         <answer>
           <p>
-            <m>m\angle EFD</m> = 42 degrees
+            <m>m\angle EFD=42</m> degrees
           </p>
         </answer>
         <solution>
           <p>
-            It is given that <m>m\angle FDE</m> = 30 degrees and <m>m\angle DEF</m> = 108 degrees. Using the Triangle Angle
+            It is given that <m>m\angle FDE=30</m> degrees and <m>m\angle DEF=108</m> degrees. Using the Triangle Angle
             Sum Theorem, <m>m\angle EFD</m> is calculated as: 180 - (108 + 30) = 42 degrees.
           </p>
         </solution>
@@ -763,23 +759,21 @@
         </statement>
         <hint>
           <p>
-            Use the Midpoint Theorem to identify four triangles formed by connecting midpoints. These triangles are all
-            similar to the original triangle, <m>\Delta ABC</m>. 
+            Imagine <m>\Delta ABC</m> as the big triangle. If lines are drawn inside it that are parallel to its sides, 
+            smaller triangles are made. These smaller triangles will have the same angles as the big one, <m>\Delta ABC</m>. 
           </p>
         </hint>
         <answer>
           <p>
-            Four triangles similar to <m>\Delta ABC</m> include: <m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>,
-            and <m>\Delta FEC</m>.
+            The four smaller triangles that are similar to <m>\Delta ABC</m> include: <m>\Delta EFD</m>, <m>\Delta ADF</m>, 
+            <m>\Delta DBE</m>, and <m>\Delta FEC</m>.
           </p> 
         </answer>
         <solution>
           <p>
-            When D, E, and F are the midpoints of the sides of triangle <m>\Delta ABC</m>, connecting them forms four smaller triangles.
-            All four of these triangles (<m>\Delta EFD</m>, <m>\Delta ADF</m>, <m>\Delta DBE</m>, and <m>\Delta FEC</m>) are similar to
-            the original triangle <m>\Delta ABC</m>. This means that each smaller triangle is a miniature copy of the larger triangle
-            <m>\Delta ABC</m>. Therefore, all angles within these four smaller triangles perfectly match the corresponding angles in
-            <m>\Delta ABC</m>.
+            Drawing lines parallel to the sides of triangle <m>\Delta ABC</m> creates smaller triangles. Parallel lines
+            ensure two matching angles. Since all angles in a triangle add up to 180 degrees (Triangle Angle Sum Theorem), the third angle
+            must also match. Thus, the smaller triangles are similar to triangle <m>\Delta ABC</m>.
           </p>
         </solution>
       </task>
@@ -803,7 +797,7 @@
           <p>
             Point F is the midpoint of side <m>\overline{AC}</m>, meaning it divides the side exactly in half. Since the total
             length of <m>\overline{AC}</m> is 10, the length of <m>\overline{AF}</m> is half of that. Therefore, the length of
-            <m>\overline{AC}</m> is 5.
+            <m>\overline{AF}</m> is 5.
           </p>
         </solution>
       </task>
@@ -847,10 +841,8 @@
           </p>
         </hint>
         <answer>
-          <p>
-            Center of Dilation: Point C
-            Scale Factor: <m>\frac{1}{2}</m>
-          </p>
+          <p>Center of Dilation: Point C</p>
+          <p>Scale Factor: <m>\frac{1}{2}</m></p>
         </answer>
         <solution>
           <p>
@@ -874,10 +866,8 @@
           </p>
         </hint>
         <answer>
-          <p>
-            Type of Isometry: Translation
-            Defining Object(s): Translation Vector
-          </p>
+          <p>Type of Isometry: Translation</p>
+          <p>Defining Object(s): Translation Vector</p>
         </answer>
         <solution>
           <p>
@@ -901,10 +891,8 @@
           </p>
         </hint>
         <answer>
-          <p>
-            Type of Isometry: Rotation
-            Defining Object(s): Center and Rotational Angle
-          </p>
+          <p>Type of Isometry: Rotation</p>
+          <p>Defining Object(s): Center and Rotational Angle</p>
         </answer>
         <solution>
           <p>
