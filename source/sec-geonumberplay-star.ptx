@@ -591,6 +591,12 @@
               <xref ref="eightdot-starpoly-appfig"/>. Be sure to label your design with the 
               symbol <m>\{_{2}^{8}\}</m>.
             </p>
+            <p>
+              Draw star polygons by beginning each new segment at the endpoint of the 
+              previous segment. When you return to the starting point, switch to a new 
+              color. The connected components, formed by connecting points in this fashion, 
+              will be easy to identify.
+            </p>
             <figure xml:id="fig-starpolys-template-8">
             <caption>Templates for exploring 8-point star polygons.</caption>
             <image>
@@ -614,6 +620,7 @@
               How many times were you required to "lift your pencil" while drawing 
               <m>\{_{2}^{8}\}</m>? 
             </p>
+            
           </statement>
           <answer>
             <p>
@@ -774,6 +781,20 @@
             </answer>
             <response />
           </task>
+          <task>
+            <statement>
+              <p>
+                Will any of the 9-point star polygons look like line segments meeting at 
+                their midpoints? If so, identify the skip value(s), <m>k</m> for which this 
+                happens. If not, explain why this will not happen.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                This will not happen.
+              </p>
+            </answer>
+          </task>
         </task>
         <task>
           <statement>
@@ -782,7 +803,7 @@
               or the Geogebra applet to check your answers.
             </p>
             <figure xml:id="fig-starpolys-template-9">
-            <caption>Templates for exploring 8-point star polygons.</caption>
+            <caption>Templates for exploring 9-point star polygons.</caption>
             <image>
               <prefigure xmlns="https://prefigure.org" label="ninedotcircle">
                   <xi:include href="pref-for-9-dot-circle.ptx" />
@@ -796,6 +817,61 @@
               <interactive xml:id="ninedot-starpoly-app" geogebra="mc9sff95"
                aspect="9:3" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
             </figure>
+          </statement>
+        </task>
+      </task>
+      <task label="expl-tendot-starpolys-l" xml:id="expl-tendot-starpolys">
+        <title>Ten-dot Star Polygons</title>
+        <introduction>
+          <p>
+            Some of the ten-point star polygons are easy to predict but with ten points we  
+            will encounter one final possibility for the first time.
+          </p>
+          <p>
+            As with nine dots, we try to make predictions for some of the ten-point star 
+            polygons first. In your descriptions, be sure to identify the number of connected 
+            components and the shape of each connected component. A ten-dot template is provided 
+            following the predictions to 
+            explore the less obvious cases. Feel free to use the template for visualizing and 
+            verifying the anticipated star polygons as needed.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Describe <m>\{_{1}^{10}\}</m>. For what other value of <m>k</m>, is 
+              <m><m>\{_{k}^{10}\}\cong\{_{1}^{10}\}</m> ?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Describe <m>\{_{2}^{10}\}</m>. This will have more than one connected component so be 
+              sure to identify the number of shape of the components. For what other value of <m>k</m>, is 
+              <m><m>\{_{k}^{10}\}\cong\{_{2}^{10}\}</m> ?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Will any of the 10-point star polygons look like line segments meeting at 
+              their midpoints? If so, identify the skip value(s), <m>k</m> for which this 
+              happens. If not, explain why this will not happen.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              This occurs when <m>k=10</m>.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Either sketch or describe <m>\{_{3}^{10}\}</m>.
+            </p>
           </statement>
         </task>
       </task>
