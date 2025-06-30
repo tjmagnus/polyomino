@@ -1576,7 +1576,7 @@
         </exercise>
         </subexercises>
    </exercises>
-   <subsection xml:id="vocab-word-bank">
+   <!--<subsection xml:id="vocab-word-bank">
         <title>Vocabulary Word Bank</title>
         <p>
             Review the key terms from this vocabulary-heavy section. All vocabulary terms are ordered based on the reading:
@@ -1616,7 +1616,7 @@
         </p>
         <p>
             <term>Vertical Angles</term>: When a pair of lines intersect, two pairs of vertical angles are formed. Individual
-            angle pairs are always congruent.
+            angle pairs are always congruent.-->
         </p>
     </subsection>
   

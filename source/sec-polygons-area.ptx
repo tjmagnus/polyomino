@@ -142,12 +142,12 @@
                     An equilateral triangle.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>A sample equilateral triangle with 3 equal sides and 3 equal angles.</p>
                 <image source="equilateral-tri">
                     <shortdescription>An equilateral triangle.</shortdescription>
                 </image>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
