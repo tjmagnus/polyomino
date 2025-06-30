@@ -482,6 +482,7 @@
         the exploration.  
       </p>
     </introduction>
+<!--Add note to instructors about encouraging exploration and not grading for correctness.-->
     <exploration label="expl-starpolys-l" xml:id="expl-starpolys">
       <title>Star Polygons <m>\{_{k}^{n}\}</m> for <m>n\gt 6</m></title>
       <task label="expltask-starpolys-7-l" xml:id="expltask-starpolys-7">
@@ -598,7 +599,7 @@
               will be easy to identify.
             </p>
             <figure xml:id="fig-starpolys-template-8">
-            <caption>Templates for exploring 8-point star polygons.</caption>
+            <caption>Template for exploring 8-point star polygons.</caption>
             <image>
               <prefigure xmlns="https://prefigure.org" label="eightdotcircle">
                   <xi:include href="pref-for-8-dot-circle.ptx" />
@@ -646,7 +647,8 @@
         <task label="describe82starpoly-label" xml:id="describe82starpoly">
           <statement>
             <p>
-              Use your last two responses to describe in words what a <m>\{_{2}^{8}\}</m>
+              Summarize your responses in <xref ref="pencillifts-82"/> and 
+              <xref ref="pencilliftshape-82"/> to describe in words what a <m>\{_{2}^{8}\}</m>
               star polygon looks like.
             </p>
           </statement>
@@ -800,10 +802,11 @@
           <statement>
             <p>
               Use the nine-dot template in <xref ref="fig-starpolys-template-9"/> 
-              or the Geogebra applet to check your answers.
+              or the Geogebra applet in <xref ref="ninedot-starpoly-appfig"/> 
+              to check your answers.
             </p>
             <figure xml:id="fig-starpolys-template-9">
-            <caption>Templates for exploring 9-point star polygons.</caption>
+            <caption>Template for exploring 9-point star polygons.</caption>
             <image>
               <prefigure xmlns="https://prefigure.org" label="ninedotcircle">
                   <xi:include href="pref-for-9-dot-circle.ptx" />
@@ -840,7 +843,7 @@
           <statement>
             <p>
               Describe <m>\{_{1}^{10}\}</m>. For what other value of <m>k</m>, is 
-              <m><m>\{_{k}^{10}\}\cong\{_{1}^{10}\}</m> ?
+              <m>\{_{k}^{10}\}\cong\{_{1}^{10}\}</m> ?
             </p>
           </statement>
         </task>
@@ -849,7 +852,7 @@
             <p>
               Describe <m>\{_{2}^{10}\}</m>. This will have more than one connected component so be 
               sure to identify the number of shape of the components. For what other value of <m>k</m>, is 
-              <m><m>\{_{k}^{10}\}\cong\{_{2}^{10}\}</m> ?
+              <m>\{_{k}^{10}\}\cong\{_{2}^{10}\}</m> ?
             </p>
           </statement>
         </task>
@@ -870,10 +873,21 @@
         <task>
           <statement>
             <p>
-              Either sketch or describe <m>\{_{3}^{10}\}</m>.
-            </p>
+              Either sketch or describe <m>\{_{3}^{10}\}</m>. You may use the template in 
+              <xref ref="fig-starpolys-template-10"/> 
+            </p><figure xml:id="fig-starpolys-template-10">
+            <caption>Template for exploring 10-point star polygons.</caption>
+            <image>
+              <prefigure xmlns="https://prefigure.org" label="tendotcircle">
+                  <xi:include href="pref-for-10-dot-circle.ptx" />
+                </prefigure>
+              </image> 
+            </figure>
+<!--Add GeoGebra here.-->
           </statement>
+<!--Be sure to explore ten four in detail.-->
         </task>
+
       </task>
     </exploration>
   </subsection>
