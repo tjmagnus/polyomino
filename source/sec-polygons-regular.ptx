@@ -132,6 +132,7 @@
           will happen with regular polygons with more than eight sides? Why?
         </p>
       </statement>
+      <response />
     </task>
     <task>
       <statement>
@@ -143,7 +144,6 @@
           will use this technique to find the measure of the vertex angles for other   
           regular <m>n</m>-gons.
         </p>
-        <sidebyside widths="65% 35%" valign="middle">
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
             <image source="VertexAngRegPentagon">
@@ -157,7 +157,7 @@
           </figure>
             <p>
               The following shorthand will be used to refer to the angles.
-              <ul>
+              <ul cols="3">
                 <li>
                   <m>\angle 1 = \angle EAD</m>
                 </li>
@@ -184,7 +184,6 @@
                 </li>
               </ul>
             </p>
-      </sidebyside>
       <p>
           <ol>
             <li>
