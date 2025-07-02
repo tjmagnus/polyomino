@@ -122,7 +122,8 @@
     </subsection>
     <subsection xml:id="subsec-area-tri">
         <title>The Area of a Triangle</title>
-    <exploration>
+        
+        <exploration xml:id="explore-area-formula">
         <title>Discovering the Area Formula for a Triangle</title>
         <introduction>
             <p>
@@ -136,42 +137,44 @@
                 examples of the following types of triangles.
             </p>
         </introduction>
-        <task>
+        <task xml:id="task-equilateral-triangle">
             <statement>
                 <p>
                     An equilateral triangle.
                 </p>
             </statement>
             <hint>
-                <p>A sample equilateral triangle with 3 equal sides and 3 equal angles.</p>
-                <image source="equilateral-tri">
-                    <shortdescription>An equilateral triangle.</shortdescription>
-                </image>
+                <p>
+                    When drawing an equilateral triangle, remember that all three sides must be equal in length. Remember that
+                    all three angles are also equal in measure.
+                </p>
             </hint>
         </task>
-        <task>
+        <task xml:id="task-right-isosceles">
             <statement>
                 <p>
                     A right isosceles triangle.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    To draw a right isosceles triangle, begin by drawing two perpendicular lines of equal length. Then, connect
+                    the endpoints of these lines to form the hypotenuse.
                 </p>
-            </answer>
+            </hint>
         </task>
-        <task>
+        <task xml:id="task-acute-triangle">
             <statement>
                 <p>
                     An acute triangle that is not equilateral.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    An acute triangle has all angles under 90 degrees. If the triangle is not equilateral, then its sides and 
+                    angles are not all equal.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
@@ -179,11 +182,12 @@
                     An obtuse scalene triangle.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    An obtuse triangle has one angle greater than 90 degrees. If the triangle is also scalene, then all three 
+                    of its side lengths and angles are different.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
