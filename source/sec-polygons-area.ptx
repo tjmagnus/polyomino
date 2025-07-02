@@ -1115,9 +1115,11 @@
                     </answer>
                     <solution>
                         <p>
-                            A square is circumscribed by a circle when its corners touch the circle's edge. With a radius of 5, 
-                            the circle's diameter is 10. This 10 is also the square's diagonal. The square's area is half of 10 squared,
-                            which is 50. Therefore, the area of BEFG is 50 sq units.
+                            When a square is circumscribed by a circle, its corners touch the circle's edge. A radius of 
+                            5 means the circle's diameter is 10, which is also the square's diagonal. The square can be divided 
+                            into two congruent triangles along this diagonal. Each triangle has a base of 10 (the diagonal) and 
+                            a height of 5 (half the diagonal). The area of one triangle is <m>\frac{1}{2} \cdot 10 \cdot 5 = 25</m>.
+                            Since the square comprises two such triangles, the total area of BEFG is <m>2 \cdot 25 = 50</m> sq units.
                         </p>
                     </solution>
                 </task>
