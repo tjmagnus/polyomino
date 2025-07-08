@@ -134,7 +134,7 @@
             </p>
             <p>
                 Triangles come in all shapes and sizes. Sketch one or more 
-                examples of the following types of triangles.
+                examples of the following types of triangles. 
             </p>
         </introduction>
         <task xml:id="task-equilateral-triangle">
@@ -294,7 +294,8 @@
             YouTube video: https://youtu.be/R_cFFMaPGWw-->
             <introduction>
                 <p>
-                    Sketch example(s) of each of the following trapezoids:
+                    Sketch example(s) of each of the following trapezoids. Refer to the definition of trapezoid <xref ref="def-trapezoid"/>
+                    as needed. 
                 </p>
             </introduction>
             <task>
@@ -305,8 +306,7 @@
                 </statement>
                 <hint>
                     <p>
-                        To draw an isosceles trapezoid, recall the definitions for both <xref ref="def-trapezoid" text="custom">trapezoid</xref>
-                        and <xref ref="def-isosceles" text="custom">isosceles</xref>. 
+                        To draw an isosceles trapezoid, recall what it means for a trapezoid to be <xref ref="def-isosceles" text="custom">isosceles</xref>. 
                     </p>
                 </hint>
             </task>
@@ -318,8 +318,7 @@
                 </statement>
                 <hint>
                     <p>
-                        To draw a trapezoid with one right angle, recall the definitions for both <xref ref="def-trapezoid" text="custom">trapezoid</xref>
-                        and <xref ref="def-typesofangles" text="custom">right angle</xref>.
+                        To draw a trapezoid with one right angle, refer to the definition <xref ref="def-typesofangles" text="custom">right angle</xref>.
                     </p>
                 </hint>
             </task>
