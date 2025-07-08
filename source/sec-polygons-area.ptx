@@ -303,6 +303,12 @@
                         An isosceles trapezoid.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To draw an isosceles trapezoid, recall the definitions for both <xref ref="def-trapezoid" text="custom">trapezoid</xref>
+                        and <xref ref="def-isosceles" text="custom">isosceles</xref>. 
+                    </p>
+                </hint>
             </task>
             <task>
                 <statement>
@@ -310,6 +316,12 @@
                         A trapezoid with one right angle.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To draw a trapezoid with one right angle, recall the definitions for both <xref ref="def-trapezoid" text="custom">trapezoid</xref>
+                        and <xref ref="def-typesofangles" text="custom">right angle</xref>.
+                    </p>
+                </hint>
             </task>
             <task>
                 <statement>
@@ -318,6 +330,11 @@
                         base angle.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To draw this trapezoid, review what it means for a base angle to be <xref ref="def-typesofangles" text="custom">acute or obtuse</xref>.
+                    </p>
+                </hint>
             </task>
         </task>
         <task>
