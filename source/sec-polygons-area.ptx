@@ -145,8 +145,8 @@
             </statement>
             <hint>
                 <p>
-                    When drawing an equilateral triangle, remember that all three sides must be equal in length. Remember that
-                    all three angles are also equal in measure.
+                    To draw an equilateral triangle, recall the definitions for both <xref ref="def-triangle" text="custom">triangle</xref>
+                    and <xref ref="def-equilateral" text="custom">equilateral</xref>.
                 </p>
             </hint>
         </task>
@@ -158,8 +158,8 @@
             </statement>
             <hint>
                 <p>
-                    To draw a right isosceles triangle, begin by drawing two perpendicular lines of equal length. Then, connect
-                    the endpoints of these lines to form the hypotenuse.
+                    To draw a right isosceles triangle, recall the definitions for both <xref ref="def-right-triangle" text="custom">right</xref>
+                    and <xref ref="def-isosceles" text="custom">isosceles</xref>.
                 </p>
             </hint>
         </task>
@@ -171,8 +171,8 @@
             </statement>
             <hint>
                 <p>
-                    An acute triangle has all angles under 90 degrees. If the triangle is not equilateral, then its sides and 
-                    angles are not all equal.
+                    To draw an acute triangle, recall the definition for <xref ref="def-triangles-by-angles" text="custom">acute</xref>.
+                    Also, review the definition for <xref ref="def-equilateral" text="custom">equilateral</xref> to ensure the triangle is NOT equilateral.
                 </p>
             </hint>
         </task>
@@ -184,8 +184,8 @@
             </statement>
             <hint>
                 <p>
-                    An obtuse triangle has one angle greater than 90 degrees. If the triangle is also scalene, then all three 
-                    of its side lengths and angles are different.
+                    To draw an obtuse scalene triangle, recall what it means for a triangle to be <xref ref="def-triangles-by-angles" text="custom">obtuse</xref>
+                    and <xref ref="def-scalene" text="custom">scalene</xref>.
                 </p>
             </hint>
         </task>
