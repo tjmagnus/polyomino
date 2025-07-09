@@ -654,6 +654,151 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       </statement>
     </definition>
   </subsection>
+  <exercises xml:id="exercises-vocab-intro-apply">
+    <title>Vocabulary</title>
+    <subexercises xml:id="SAR-vocab-intro-apply">
+        <title>Vocabulary Review</title>
+        <exercise xml:id="HW-vocab-triangles">
+            <title>Triangles</title>
+            <introduction>
+              <p>
+                Refer to the image below of <m>\Delta ABC</m> to answer the following questions:
+              </p>
+                <image source="righttriangleparts" width="85%">
+                  <shortdescription>(for accessibility)</shortdescription>
+                </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>right angle</term> (measure is 90 degrees).
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\angle ABC</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the two <term>acute angles</term> (measure is less than 90 degrees).
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\angle BAC</m> and <m>\angle ACB</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Identify the <term>hypotenuse</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>b=\overline{AC}</m>
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Identify the <term>legs</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>c=\overline{AB}</m> and <m>a=\overline{BC}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Based on its angle measurements, is <m>\Delta ABC</m> an <term>acute</term>, <term>obtuse</term>, or 
+                         <term>right triangle</term>?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Right triangle.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Based on its angle congruency, is <m>\Delta ABC</m> an <term>equilateral</term>, <term>isosceles</term>, or 
+                         <term>scalene triangle</term>?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Scalene triangle.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+        <exercise xml:id="HW-vocab-lines-angles">
+            <title>Lines and Angles</title>
+            <introduction>
+                <p>
+                    Use <xref ref="image-vert-angles"/> to answer the following questions:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>lines</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Line 1 Possible Answers: <m>\overleftrightarrow{AE}</m>, <m>\overleftrightarrow{AB}</m>, <m>\overleftrightarrow{BE}</m>.
+                    </p>
+                    <p>
+                        Line 2 Possible Answers: <m>\overleftrightarrow{CE}</m>, <m>\overleftrightarrow{CD}</m>, <m>\overleftrightarrow{DE}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the two <term>vertical angle</term> pairs. Recall <term>vertical angles</term> are congruent (equal in measure)!
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pair 1: <m>\angle{AED}</m> and <m>\angle{BEC}</m>.
+                    </p>
+                    <p>
+                        Pair 2: <m>\angle{AEC}</m> and <m>\angle{BED}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the two pairs of <term>supplementary angles</term> (straight angles).
+                        Recall that <term>supplementary angles</term> add up to 180 degrees!
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pair 1: <m>\angle{BEC}</m> and <m>\angle{BED}</m>.
+                    </p>
+                    <p>
+                        Pair 2: <m>\angle{AEC}</m> and <m>\angle{AED}</m>.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+    </subexercises>
+  </exercises>
   <exercises xml:id="exercises-intro-apply">
     <title>Exercises</title>
     <subexercises xml:id="SAR-intro-apply">
