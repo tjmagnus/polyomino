@@ -466,7 +466,7 @@
                             </task>
                             <task xml:id="parallel-task-b-1" label="parallel-task-b-1-label">
                                 <statement>
-                                    <p>What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m>In terms of angle measure? How do you know? </p>
+                                    <p>What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m> In terms of angle measure? How do you know? </p>
                                 </statement>
                                 <response />
                             </task>
