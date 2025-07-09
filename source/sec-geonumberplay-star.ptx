@@ -996,32 +996,104 @@
           <statement>
             <p>
               Observing a pattern is not a mathematical proof. Justify your claim in 
-              <xref ref="subtask-starpoly-general-k-one-conj"/> by arguing why this must happen
-              for any <m>n\geq 3</m> when <m>k=1</m>.
+              <xref ref="subtask-starpoly-general-k-one-conj"/> by writing a few sentences 
+              that explain why this type of shape appears whenever <m>k=1</m> regardless of 
+              the choice of <m>n\geq 3</m>.
             </p>
           </statement>
+          <hint>
+            <p>
+              How are the dots connected in <m>\{_{1}^{n}\}</m>?
+            </p>
+          </hint>
         </task>
-      </task>
-      <task label="starpolytasklabel-general-nminusk" xml:id="starpolytask-general-nminusk">
-        <statement>
-          <p>
-            We observed that <m>\{_{3}^{5}\}\cong \{_{2}^{5}\}</m> and 
-            <m>\{_{4}^{5}\}\cong\{_{1}^{5}\}</m> in <xref ref="ckpt5starpoly-nminusk"/>.
-            Fill in the blank to complete the conjecture: <m>\{_{j}^{n}\}\cong\{_{k}^{n}\}</m> 
-            when <m>j=</m> <fillin mode="math" width="10" answer="n-k"/>
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Write your answer as an algebraic expression involving the variables <m>k</m>
-            and <m>n</m>.
-          </p>
-        </hint>
-        <answer>
-          <p>
-            <m>n-k</m>
-          </p>
-        </answer>
+        <task label="starpolytasklabel-general-nminusk" xml:id="starpolytask-general-nminusk">
+          <statement>
+            <p>
+              We observed that <m>\{_{3}^{5}\}\cong \{_{2}^{5}\}</m> and 
+              <m>\{_{4}^{5}\}\cong\{_{1}^{5}\}</m> in <xref ref="ckpt5starpoly-nminusk"/>.
+              Fill in the blank to complete the conjecture: <m>\{_{j}^{n}\}\cong\{_{k}^{n}\}</m> 
+              when <m>j=</m> <fillin mode="math" width="10" answer="n-k"/>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Write your answer as an algebraic expression involving the variables <m>k</m>
+              and <m>n</m>.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>n-k</m>
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="starpolysubtask-one-pencil-l" xml:id="starpolysubtask-one-pencil">
+          <statement>
+            <p>
+              Review the sketches of star polygons you have read about or drawn. For which 
+              of these do you visit every dot before returning to the starting location?
+            </p>
+          </statement>
+          <choices multiple-correct="yes">
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{2}^{5}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{1}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{2}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{3}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{2}^{7}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{3}^{7}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{2}^{8}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{3}^{8}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{4}^{9}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{6}^{9}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{4}^{10}\}</m></p>
+              </statement>
+            </choice>
+          </choices>
+        </task>
       </task>
     </exploration>
   </subsection>
