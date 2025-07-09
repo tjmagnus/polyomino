@@ -662,7 +662,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             <title>Triangles</title>
             <introduction>
               <p>
-                Refer to the image below of <m>\Delta ABC</m> to answer the following questions:
+                Refer to the figure below of <m>\Delta ABC</m> to answer the following questions:
               </p>
                 <image source="righttriangleparts" width="85%">
                   <shortdescription>(for accessibility)</shortdescription>
@@ -742,57 +742,79 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                     </p>
                 </answer>
             </task>
+            <task>
+                <statement>
+                    <p>
+                         What is the formula for the perimeter of <m>\Delta ABC</m>?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        The sum of its three side lengths (a + b + c).
+                    </p>
+                </answer>
+            </task>
         </exercise>
-        <exercise xml:id="HW-vocab-lines-angles">
-            <title>Lines and Angles</title>
+        <exercise xml:id="HW-vocab-parallelograms">
+            <title>Parallelograms</title>
             <introduction>
                 <p>
-                    Use <xref ref="image-vert-angles"/> to answer the following questions:
+                    Use <xref ref="fig-parallelogram-def"/> to answer the following questions about parallelogram <m>ABCD</m>:
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        Identify the <term>lines</term>.
+                        Based on the above figure, how many pairs of <term>parallel</term> sides does a parallelogram have?
                     </p>
                 </statement>
                 <answer>
                     <p>
-                        Line 1 Possible Answers: <m>\overleftrightarrow{AE}</m>, <m>\overleftrightarrow{AB}</m>, <m>\overleftrightarrow{BE}</m>.
-                    </p>
-                    <p>
-                        Line 2 Possible Answers: <m>\overleftrightarrow{CE}</m>, <m>\overleftrightarrow{CD}</m>, <m>\overleftrightarrow{DE}</m>.
+                        2 pairs of parallel sides.
                     </p>
                 </answer>
             </task>
             <task>
                 <statement>
                     <p>
-                        Identify the two <term>vertical angle</term> pairs. Recall <term>vertical angles</term> are congruent (equal in measure)!
+                        Name the two pairs of <term>parallel</term> sides in parallelogram <m>ABCD</m>.
                     </p>
                 </statement>
                 <answer>
                     <p>
-                        Pair 1: <m>\angle{AED}</m> and <m>\angle{BEC}</m>.
+                        Pair 1: <m>\overleftrightarrow{AD}</m> and <m>\overleftrightarrow{BC}</m>.
                     </p>
                     <p>
-                        Pair 2: <m>\angle{AEC}</m> and <m>\angle{BED}</m>.
+                        Pair 2: <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m>.
                     </p>
                 </answer>
             </task>
             <task>
                 <statement>
                     <p>
-                        Identify the two pairs of <term>supplementary angles</term> (straight angles).
-                        Recall that <term>supplementary angles</term> add up to 180 degrees!
+                        Identify the <term>base</term>.
                     </p>
                 </statement>
                 <answer>
                     <p>
-                        Pair 1: <m>\angle{BEC}</m> and <m>\angle{BED}</m>.
+                        In a parallelogram, the <term>base</term> can be defined as any one of its four sides. It is often useful to 
+                        identify one side as the base. So, possible bases for parallelogram <m>ABCD</m> could include 
+                        <m>\overleftrightarrow{AB}</m>, <m>\overleftrightarrow{BC}</m>, <m>\overleftrightarrow{CD}</m>, or 
+                        <m>\overleftrightarrow{AD}</m>.
                     </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
                     <p>
-                        Pair 2: <m>\angle{AEC}</m> and <m>\angle{AED}</m>.
+                        Identify the <term>height</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        The base of a parallelogram is any of its four sides. The corresponding height is along an altitude and is
+                        perpendicular to the base. For parallelogram <m>ABCD</m>, if the chosen base is <m>\overleftrightarrow{AB}</m>, 
+                        then the height could be <m>\overline{DE}</m>.
                     </p>
                 </answer>
             </task>
