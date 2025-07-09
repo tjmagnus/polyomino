@@ -765,33 +765,6 @@
                             </cardsort>
                         </task>
             </exercise>
-            <exercise xml:id="SAR-parallel-aia-2" label="SAR-parallel-aia-2-label">
-                <introduction>
-                    <p>
-                        In <xref ref="principle-alternate-interior-angles"/>, we claim that
-                        alternate interior angles are congruent. 
-                    </p>
-                </introduction>
-                            <task xml:id="SAR-parallel-task-measure" label="SAR-parallel-task-measure-label">
-                                <statement>
-                                    <p>
-                                        Use this principle to argue that alternate exterior angles 
-                                        <m>\angle{ABE}</m> and <m>\angle{DCH}</m> in 
-                                        <xref ref="fig-transversal"/> have the same angle measure.
-                                    </p>
-                                </statement>
-                                <response />
-                            </task>
-                            <task xml:id="SAR-parallel-task-cong" label="SAR-parallel-task-cong-label">
-                                <statement>
-                                    <p>
-                                        Give a thorough argument that corresponding angles <m>\angle ABC</m> 
-                                        and <m>\angle GCH</m> in <xref ref="fig-transversal"/>must be congruent.
-                                    </p>
-                                </statement>
-                                <response />
-                            </task>
-            </exercise>
             <exercise xml:id="SAR-parallel-transv-angle-measures" label="SAR-parallel-transv-angle-measures-label">
                 <statement>
                     <p>
@@ -911,6 +884,34 @@
                     </figure>
                 </statement>
             </exercise>
+            <exercise xml:id="SAR-parallel-aia-2" label="SAR-parallel-aia-2-label">
+                <introduction>
+                    <p>
+                        In <xref ref="principle-alternate-interior-angles"/>, we claim that
+                        alternate interior angles are congruent. 
+                    </p>
+                </introduction>
+                            <task xml:id="SAR-parallel-task-measure" label="SAR-parallel-task-measure-label">
+                                <statement>
+                                    <p>
+                                        Use this principle to argue that alternate exterior angles 
+                                        <m>\angle{ABE}</m> and <m>\angle{DCH}</m> in 
+                                        <xref ref="fig-transversal"/> have the same angle measure.
+                                    </p>
+                                </statement>
+                                <response />
+                            </task>
+                            <task xml:id="SAR-parallel-task-cong" label="SAR-parallel-task-cong-label">
+                                <statement>
+                                    <p>
+                                        Give a thorough argument that corresponding angles <m>\angle ABC</m> 
+                                        and <m>\angle GCH</m> in <xref ref="fig-transversal"/>must be congruent.
+                                    </p>
+                                </statement>
+                                <response />
+                            </task>
+            </exercise>
+            
         </subexercises>
         <subexercises xml:id="ExtConc-polygons-parallel" label="ExtConc-polygons-parallel-label">
             <title>Extending the Concepts</title>
