@@ -134,8 +134,8 @@
       </statement>
       <response />
     </task>
-    <task>
-      <statement>
+    <exercise>
+      <introduction>
         <p>
           Perhaps you noticed that the vertex angle measure plays a role in determining 
           whether a regular polygon can be used to create a regular tiling. The steps in 
@@ -144,6 +144,7 @@
           will use this technique to find the measure of the vertex angles for other   
           regular <m>n</m>-gons.
         </p>
+      </introduction>
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
             <image source="VertexAngRegPentagon">
@@ -184,42 +185,47 @@
                 </li>
               </ul>
             </p>
-      <p>
-          <ol>
-            <li>
-              <p>
-                Explain why <m>m\angle EAB=m\angle 1+m\angle 2+m\angle 3</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                What is <m>m\angle 1 + m\angle 4 + m\angle E</m>?
-              </p>
-            </li>
-            <li>
-              <p>
-                Use the fact that the pentagon is divided into triangles to 
-                determine <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
-                +m\angle E</m>.
-              </p>
-            </li>
-            <li>
+            <task>
+              <statement>
+                <p>
+                  Explain why <m>m\angle EAB=m\angle 1+m\angle 2+m\angle 3</m>
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is <m>m\angle 1 + m\angle 4 + m\angle E</m>?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Use the fact that the pentagon is divided into triangles to 
+                  determine <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
+                  +m\angle E</m>.
+                </p>
+              </statement>
+            </task>
+           <task>
+            <statement>
               <p>
                 Having just computed the sum of the five congruent angles of  
                 a regular pentagon, determine <m>m\angle A</m>. 
               </p>
-            </li>
-            <li>
-              <p>
-                Some of what you found, but not all, will be true for all convex 
-                pentagons. What results about angle measure will also hold for 
-                non-regular convex pentagons? What will be different?
-              </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
-    </task>
+            </statement>
+           </task>
+            <task>
+              <statement>
+                <p>
+                  Some of what you found, but not all, will be true for all convex 
+                  pentagons. What results about angle measure will also hold for 
+                  non-regular convex pentagons? What will be different?
+                </p>
+              </statement>
+            </task>
+    </exercise>
     <task>
       <statement>
         <p>

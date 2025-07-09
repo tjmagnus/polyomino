@@ -683,8 +683,8 @@
                 <introduction>
                     <p>
                         In <xref ref="def-angles-by-transversal"/>, a pair of alternate
-                        interior angles, a pair of alternate exterior angles, and a pair of 
-                        corresponding angles was identified for <xref ref="fig-transversal"/>.
+                        interior angles (<m>\angle ABC</m> and <m>\angle DCB</m>), a pair of alternate exterior angles (<m>\angle ABE</m> and <m>\angle DCH</m>), and a pair of 
+                        corresponding angles (<m>\angle ABC</m> and <m>\angle GCH</m>) was identified for <xref ref="fig-transversal"/>.
                         Use <xref ref="fig-transversal"/> to identify the following:
                     </p>
                 </introduction> 
@@ -693,6 +693,8 @@
                         <statement>
                             <p>A second pair of alternate interior angles.</p>
                         </statement>
+                        
+                        
                             <choices multiple-correct="yes">
                                 <choice correct="no">
                                     <statement>
@@ -783,8 +785,8 @@
                             <task xml:id="SAR-parallel-task-cong" label="SAR-parallel-task-cong-label">
                                 <statement>
                                     <p>
-                                        Give a thorough argument that corresponding angles <m>ABC</m> 
-                                        and <m>GCH</m> in <xref ref="fig-transversal"/>must be congruent.
+                                        Give a thorough argument that corresponding angles <m>\angle ABC</m> 
+                                        and <m>\angle GCH</m> in <xref ref="fig-transversal"/>must be congruent.
                                     </p>
                                 </statement>
                                 <response />
