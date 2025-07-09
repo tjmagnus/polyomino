@@ -48,7 +48,7 @@
                 <p>
                     Remember that both a square and a rhombus have four congruent sides. A square, however, has all right angles. 
                     The presence of an acute angle indicates the figure must be a rhombus. 
-                    Recall the definition of a <xref ref="def-rhombus" text="custom">rhombus</xref>.
+                    Recall the definition of a <xref ref="def-equilateral" text="custom">rhombus</xref>.
                 </p>
             </hint>
         </task>
@@ -63,7 +63,7 @@
                 <p>
                     A parallelogram with four congruent angles means all its angles are equal. Since the sum of angles in a 
                     quadrilateral is 360 degrees, each angle must be 90 degrees. Recall that the parallelogram with all right
-                    angles is a <xref ref="def-square" text="custom">square</xref>.
+                    angles is a <xref ref="def-rectquads" text="custom">square</xref>.
                 </p>
             </hint>
         </task>
