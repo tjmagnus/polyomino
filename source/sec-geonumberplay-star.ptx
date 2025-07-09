@@ -203,7 +203,7 @@
         </p>
       </statement>
     </definition>  
-    <exercise>
+    <exercise label="ckpt5starpoly-nminusk-label" xml:id="ckpt5starpoly-nminusk">
       <statement>
         <p>
           Sketch the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
@@ -462,16 +462,22 @@
         </statement>
         <answer>
           <p>
-            <m>
-              \{_{3}^{6}\} looks like three line segments intersecting at their midpoints. 
-            </m>
+            The star polygon <m>\{_{3}^{6}\}</m> looks like three line segments 
+            intersecting at their midpoints. 
           </p>
         </answer>
+      </task>
+      <task label="ckpt-six-starpoly-nminusk-label" xml:id="ckpt-six-starpoly-nminusk">
+        <statement>
+          <p>
+            Predict what <m>\{_{4}^{6}\}</m> and <m>\{_{5}^{6}\}</m> will look like. Explain.
+          </p>
+        </statement>
       </task>
     </exercise>
   </subsection>
   <subsection xml:id="subsec-starpoly-sevenplus">
-    <title>Exploring Star Polygons with More Than Six Vertices</title>
+    <title>Exploring Star Polygons with Seven to Ten Vertices</title>
     <introduction>
       <p>
         We have observed that star polygons may look like regular polygons, overlapping
@@ -484,7 +490,7 @@
     </introduction>
 <!--Add note to instructors about encouraging exploration and not grading for correctness.-->
     <exploration label="expl-starpolys-l" xml:id="expl-starpolys">
-      <title>Star Polygons <m>\{_{k}^{n}\}</m> for <m>n\gt 6</m></title>
+      <title>Star Polygons <m>\{_{k}^{n}\}</m> for <m>7\lt n\lt 10</m></title>
       <task label="expltask-starpolys-7-l" xml:id="expltask-starpolys-7">
         <title>
           Seven-dot star polygons
@@ -803,16 +809,33 @@
             <p>
               Use the nine-dot template in <xref ref="fig-starpolys-template-9"/> 
               or the Geogebra applet in <xref ref="ninedot-starpoly-appfig"/> 
-              to check your answers.
+              to check your answers to the above tasks and to answer the next question.
             </p>
-            <figure xml:id="fig-starpolys-template-9">
-            <caption>Template for exploring 9-point star polygons.</caption>
-            <image>
-              <prefigure xmlns="https://prefigure.org" label="ninedotcircle">
-                  <xi:include href="pref-for-9-dot-circle.ptx" />
-                </prefigure>
-              </image> 
-            </figure>
+            <p>
+              Are the star polygons <m>\{_{2}^{9}\}</m> and <m>\{_{4}^{9}\}</m> the 
+              same? Explain.
+            </p>
+            <figure xml:id="fig-2copies-9dots" label="figlabel-2copies-9dots">
+              <caption>Templates for <xref ref="expl-ninedot-starpolys"/>.</caption>
+              <sidebyside widths="45% 45%">
+                <figure xml:id="fig-starpolys-template-9">
+                  <caption></caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="ninedotcircle">
+                      <xi:include href="pref-for-9-dot-circle.ptx" />
+                    </prefigure>
+                  </image> 
+                </figure>
+                <figure xml:id="fig-starpolys-template-9second">
+                  <caption></caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="ninedotcircle2">
+                        <xi:include href="pref-for-9-dot-circle.ptx" />
+                    </prefigure>
+                  </image> 
+                </figure> 
+                </sidebyside>
+              </figure>
             <figure xml:id="ninedot-starpoly-appfig" label="ninedot-starpoly-applabel">
               <caption>
                   GeoGebra interactive for drawing 9-dot star polygons
@@ -866,7 +889,7 @@
           </statement>
           <answer>
             <p>
-              This occurs when <m>k=10</m>.
+              This occurs when <m>k=5</m>.
             </p>
           </answer>
         </task>
@@ -883,11 +906,261 @@
                 </prefigure>
               </image> 
             </figure>
-<!--Add GeoGebra here.-->
+            <figure xml:id="tendot-starpoly-appfig" label="tendot-starpoly-applabel">
+              <caption>
+                  GeoGebra interactive for drawing 10-dot star polygons
+              </caption>
+              <interactive xml:id="tendot-starpoly-app" geogebra="unmuwysj"
+               aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            </figure>
           </statement>
-<!--Be sure to explore ten four in detail.-->
         </task>
-
+        <task>
+          <introduction>
+            <p>
+              In this task, we encounter a somewhat new result. We break our construction 
+              into separate steps to observe the features of the design.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Without lifting your pencil, connect every fourth dot until you return 
+                to your starting dot. What figure do you see? Describe this in terms of a  
+                previously constructed <m>\{_{k}^{n}\}</m> star polygon, identifying the 
+                values of <m>n</m> and <m>k</m>.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Ignore the dots that are not part of this connected component. The value 
+                of <m>n</m> will be the number of dots in the connected component.
+              </p>
+            </hint>
+            <answer>
+              <p>
+                The connected component is a five-pointed star, <m>\{_{2}^{5}\}</m> or 
+                equivalently <m>\{_{3}^{5}\}</m>.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Now drawing the remaining component(s) starting at an unused dot. If 
+                possible, use a different color for each connected component. How many 
+                connected components does <m>\{_{4}^{10}\}</m> have? Are the components
+                congruent to each other?
+              </p>
+            </statement>
+          </task>
+        </task>
+      </task>
+    </exploration>
+  </subsection>
+  <subsection xml:id="subsec-starpolys-generalizing">
+    <title>Making Conjectures and Generalizations about Star Polygons</title>
+    <introduction>
+      <p>
+        By now, you may be able to predict what a star polygon <m>\{_{k}^{n}\}</m>looks like simply by 
+        analyzing relationships between <m>n</m> and <m>k</m>. In <xref ref="expl-starpolys-general"/>,
+        we formalize these conjectures. When we make general conjectures and statements, we   
+        use variables instead of specific values.
+      </p>
+    </introduction>
+    <exploration xml:id="expl-starpolys-general" label="expl-label-starpolys-general">
+      <introduction>
+        <p>
+          Throughout this exploration, the reader is invited to look back at their earlier 
+          work in this section. Templates for twelve-dot, fifteen-dot, and twenty-four-dot 
+          circles are provided to allow students to further explore and validate their conjectures.
+        </p>
+      </introduction>
+      <task label="subtask-starpoly-general-k-one-label"  xml:id="subtask-starpoly-general-k-one">
+        <introduction>
+          <p>
+            Let us begin by summarizing what we know about <m>\{_{1}^{n}\}</m>.
+          </p>
+        </introduction>
+        <task label="subtask-starpoly-general-k-one-label-conj"  
+        xml:id="subtask-starpoly-general-k-one-conj">
+          <statement>
+            <p>
+              If <m>n</m> is any natural number greater than two, what is the shape of 
+              <m>\{_{1}^{n}\}</m>?
+            </p>
+          </statement>  
+        </task>
+        <task label="subtask-starpoly-general-k-one-label-justify"  
+        xml:id="subtask-starpoly-general-k-one-justify">
+          <statement>
+            <p>
+              Observing a pattern is not a mathematical proof. Justify your claim in 
+              <xref ref="subtask-starpoly-general-k-one-conj"/> by writing a few sentences 
+              that explain why this type of shape appears whenever <m>k=1</m> regardless of 
+              the choice of <m>n\geq 3</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              How are the dots connected in <m>\{_{1}^{n}\}</m>?
+            </p>
+          </hint>
+        </task>
+        <task label="starpolytasklabel-general-nminusk" xml:id="starpolytask-general-nminusk">
+          <statement>
+            <p>
+              We observed that <m>\{_{3}^{5}\}\cong \{_{2}^{5}\}</m> and 
+              <m>\{_{4}^{5}\}\cong\{_{1}^{5}\}</m> in <xref ref="ckpt5starpoly-nminusk"/>.
+              Fill in the blank to complete the conjecture: <m>\{_{j}^{n}\}\cong\{_{k}^{n}\}</m> 
+              when <m>j=</m> <fillin mode="math" width="10" answer="n-k"/>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Write your answer as an algebraic expression involving the variables <m>k</m>
+              and <m>n</m>.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>n-k</m>
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="starpolysubtask-one-pencil-l" xml:id="starpolysubtask-one-pencil">
+          <statement>
+            <p>
+              Review the sketches of star polygons you have read about or drawn. For which 
+              of these, do you visit every dot before returning to the starting location?
+              Assume that you are not lifting your pencil as you connect every kth dot.
+            </p>
+          </statement>
+          <choices multiple-correct="yes">
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{2}^{5}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{1}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{2}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{3}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{2}^{7}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{3}^{7}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{2}^{8}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{3}^{8}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{4}^{9}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{6}^{9}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{4}^{10}\}</m></p>
+              </statement>
+            </choice>
+          </choices>
+        </task>
+        <task label="predict-one-pencil-l" xml:id="predict-one-pencil">
+          <statement>
+            <p>
+              Which of the following star polygons do you expect to be able to draw without lifting
+              your pencil?
+            </p>
+          </statement>
+            <choices>
+              <choice correct="no">
+                <statement>
+                  <p>
+                    <m>\{_{6}^{12}\}</m>
+                  </p>
+                </statement>
+              </choice>
+              <choice correct="yes">
+                <statement>
+                  <p>
+                    <m>\{_{7}^{20}\}</m>
+                  </p>
+                </statement>
+              </choice>
+              <choice correct="no">
+                <statement>
+                  <p>
+                    <m>\{_{8}^{20}\}</m>
+                  </p>
+                </statement>
+              </choice>
+            </choices>
+        </task>
+        <task label="starpolysubtask-one-pencil-conj-l" xml:id="starpolysubtask-one-pencil-conj">
+          <statement>
+            <p>
+              Based on <xref ref="starpolysubtask-one-pencil"/>, make a conjecture as 
+              to the relationship between <m>k</m> and <m>n</m>
+              when a star polygon can be drawn without lifting one's pencil. Be sure that
+              all of the checked star polygons in <xref ref="starpolysubtask-one-pencil"/> 
+              satisfy your relationship. Also, verify that any unchecked star polygons do not meet
+              your criteria. 
+            </p>
+          </statement>
+        </task>
+        <task label="starpolysubtask-one-pencil-conj-whenfalse-l" xml:id="starpolysubtask-one-pencil-conj-whenfalse">
+          <statement>
+            <p>
+              Explain why drawing any star polygon which does not meet your criteria in 
+              <xref ref="starpolysubtask-one-pencil-conj"/>, for example 
+              <m>\{_{8}^{20}\}</m>, will require you to lift your pencil. Write your explanation
+              so that it discusses general values of <m>n</m> and <m>k</m>. You may also include 
+              specific examples to make your argument clearer.
+            </p>
+          </statement>
+        </task>
+        <task label="starpolysubtask-one-pencil-conj-whentrue-l" xml:id="starpolysubtask-one-pencil-conj-whentrue">
+          <statement>
+            <p>
+              Explain why drawing any star polygon which meets your criteria in 
+              <xref ref="starpolysubtask-one-pencil-conj"/> will allow you to connect every
+              dot before you need to
+              lift your pencil. Write your explanation
+              so that it discusses general values of <m>n</m> and <m>k</m>. You may also include 
+              specific examples to make your argument clearer.
+            </p>
+          </statement>
+        </task>
       </task>
     </exploration>
   </subsection>
