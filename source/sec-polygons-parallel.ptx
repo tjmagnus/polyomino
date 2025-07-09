@@ -874,12 +874,17 @@
                             Illustration for <xref ref="SAR-parallel-transv-angle-measures"/>
                         </caption>
                         <image source="exer-transversal-angles">
-                            <shortdescription>
-                                Transversals AC and BD cut parallel lines AB and CD 
+                            <description>
+                                <p>
+                                Transversals <m>\overleftrightarrow{AC}</m> and 
+                                <m>\overleftrightarrow{BD}</m> cut parallel lines 
+                                <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m>
                                 and meet at point E. Order of points on each line:
-                                Left to right: H-A-B-I and J-C-D-K. Top to bottom:
-                                F-A-C-E and G-B-D-E. 
-                            </shortdescription>
+                                Left to right: <m>H</m>-<m>A</m>-<m>B</m>-<m>I</m> and 
+                                <m>J</m>-<m>C</m>-<m>D</m>-<m>K</m>. Top to bottom:
+                                <m>F</m>-<m>A</m>-<m>C</m>-<m>E</m> and <m>G</m>-<m>B</m>-<m>D</m>-<m>E</m>. 
+                                </p>
+                            </description>
                         </image>
                     </figure>
                 </statement>
@@ -911,7 +916,6 @@
                                 <response />
                             </task>
             </exercise>
-            
         </subexercises>
         <subexercises xml:id="ExtConc-polygons-parallel" label="ExtConc-polygons-parallel-label">
             <title>Extending the Concepts</title>
