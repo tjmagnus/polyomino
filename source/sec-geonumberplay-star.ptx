@@ -1168,6 +1168,123 @@
             </p>
           </statement>
         </task>
+        <task label="starpoly-shape-components-l" xml:id="starpoly-shape-components">
+          <introduction>
+            <p>
+              Next we will focus on the shape of connected components of star polygons.
+            </p>
+          </introduction>
+          <task label="starpoly-triangle-components-l" xml:id="starpoly-triangle-components">
+            <statement> 
+              <p>
+                Sketch the star polygons <m>\{_{4}^{12}\}</m> and <m>\{_{5}^{15}\}</m> using 
+                the templates in <xref ref="starpoly-templates-12and15"/>.
+              </p>
+              <figure xml:id="starpoly-templates-12and15">
+                <caption>Templates for 12-dot and 15-dot star polygons.</caption>
+                <sidebyside width="45% 45%">
+                  <figure xml:id="twelvedotstarpolytemplate">
+                    <caption>Twelve-dot template.</caption>
+                    <image>
+                      <prefigure xmlns="https://prefigure.org" label="twelvedot4circle" 
+                      xml:id="twelvedotcircle">
+                        <xi:include href="pref-for-12-dot-circle.ptx" />
+                      </prefigure>
+                    </image> 
+                  </figure>
+                  <figure xml:id="fifteendotstarpolytemplate">
+                    <caption>Fifteen-dot template.</caption>
+                    <image>
+                      <prefigure xmlns="https://prefigure.org" label="fifteendot5circle" 
+                      xml:id="fifteendot5circle">
+                        <xi:include href="pref-for-15-dot-circle.ptx" />
+                      </prefigure>
+                    </image> 
+                  </figure>
+                </sidebyside>
+              </figure>
+              <p>
+                What shape is the initial connected component of <m>\{_{4}^{12}\}</m> and 
+                <m>\{_{5}^{15}\}</m>? Do the second connected 
+                components have the same shape?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Identify another pair of numbers <m>n</m> and <m>k</m> such that
+                a connected component of <m>\{_{k}^{n}\}</m> has the shape you identified in
+                <xref ref="starpoly-triangle-components"/>
+              </p>
+            </statement>
+          </task>
+          <task label="starpoly-triangle-conjecture-l" xml:id="starpoly-triangle-conjecture">
+            <statement>
+              <p>
+                Write a conjecture which identifies how the values <m>n</m> and <m>k</m>
+                tell you that the first connected component has this shape. Include the 
+                name of this shape in your statement.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What is the shape of the first connected component of <m>\{_{8}^{12}\}</m>?
+                Revise your conjecture in <xref ref="starpoly-triangle-conjecture"/> to  
+                include this and similar cases.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Next consider the connected components of <m>\{_{3}^{12}\}</m> and 
+                <m>\{_{5}^{20}\}</m>. What shape do you expect? Sketch these two star 
+                polygons using different colors for each connected component. 
+              </p>
+              <figure xml:id="starpoly-templates-12and20">
+                <caption>Templates for 12-dot and 20-dot star polygons.</caption>
+                <sidebyside width="45% 45%">
+                  <figure xml:id="twelvedotstarpolytemplate2">
+                    <caption>Twelve-dot template.</caption>
+                    <image>
+                      <prefigure xmlns="https://prefigure.org" label="twelvedot3circle" 
+                      xml:id="twelvedot3circle">
+                        <xi:include href="pref-for-12-dot-circle.ptx" />
+                      </prefigure>
+                    </image> 
+                  </figure>
+                  <figure xml:id="twentydotstarpolytemplate">
+                    <caption>Twenty-dot template.</caption>
+                    <image>
+                      <prefigure xmlns="https://prefigure.org" label="twentydot5circle" 
+                      xml:id="twentydot5circle">
+                        <xi:include href="pref-for-20-dot-circle.ptx" />
+                      </prefigure>
+                    </image> 
+                  </figure>
+                </sidebyside>
+              </figure>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Did you correctly predict the shape of the connected component? What shape?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Identify another pair of numbers <m>n</m> and <m>k</m> for which the 
+                connected components of <m>\{_{k}^{n}_}</m> should have this shape.
+              </p>
+            </statement>
+          </task>
+        </task>
       </task>
     </exploration>
   </subsection>
