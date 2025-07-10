@@ -1032,12 +1032,12 @@
         <task label="starpolysubtask-one-pencil-l" xml:id="starpolysubtask-one-pencil">
           <statement>
             <p>
-              Review the sketches of star polygons you have read about or drawn. For which 
-              of these, do you visit every dot before returning to the starting location?
+              Review the sketches of star polygons than have appeared in your reading and work. 
+              Which of these can be drawn by visiting every dot before returning to the starting location?
               Assume that you are not lifting your pencil as you connect every kth dot.
             </p>
           </statement>
-          <choices multiple-correct="yes">
+          <choices multiple-correct="yes" cols="2">
             <choice correct="yes">
               <statement>
                 <p><m>\{_{2}^{5}\}</m></p>
@@ -1091,6 +1091,13 @@
             <choice correct="no">
               <statement>
                 <p><m>\{_{4}^{10}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p>
+                  <m>\{_{7}^{10}\}</m>
+                </p>
               </statement>
             </choice>
           </choices>
