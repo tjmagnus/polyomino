@@ -1201,9 +1201,16 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </statement>
             <answer>
               <p>
-                Each small triangle has area 4.5 and the square has area 9. 
+                Each small orange triangle has an area of 4.5 square inches. 
               </p>
             </answer>
+            <solution>
+              <p>
+                The blue triangle has an area of 18 square inches. The green square and two orange triangles together also total 18 
+                square inches. Since the green square is 9 square inches, the remaining 9 is split equally between the two 
+                orange triangles. Therefore, each orange triangle has an area of 4.5 square inches.
+              </p>
+            </solution>
           </task>
           <task>
             <statement>
@@ -1213,9 +1220,15 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </statement>
             <answer>
               <p>
-                Each small triangle has area 4.5 and the square has area 9. 
+                The area of the green square is 9 square inches. 
               </p>
             </answer>
+            <solution>
+              <p>
+                The green square is half the height of the blue triangle but has the same base. This means its area is half of 
+                the blue triangle's area. Therefore, the square has an area of 9 square inches. 
+              </p>
+            </solution>
           </task>
       </exercise>
     </subexercises>
@@ -1226,7 +1239,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           <p>
             Answer the questions:
           </p>
-        </introduction>>
+        </introduction>
         <task>
           <statement>
             <p>
