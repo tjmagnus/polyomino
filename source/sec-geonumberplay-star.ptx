@@ -503,32 +503,32 @@
           </p>
           <figure xml:id="fig-3copies-7dots" label="figlabel-3copies-7dots">
             <caption>Templates for <xref ref="expltask-starpolys-7"/>.</caption>
-            <sidebyside widths="27% 27% 27%">
-              <figure label="figlabel-7dots" xml:id="fig-7dots">
-                <caption>Template for <m>\{_{1}^{7}\}</m>.</caption>
+            <sidebyside>
+              <!--<figure label="figlabel-7dots" xml:id="fig-7dots">
+                <caption>Template for <m>\{_{1}^{7}\}</m>.</caption>-->
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle1" 
                   xml:id="sevendotcircle">
                     <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              </figure>
+              <!--</figure>
               <figure>
-                <caption>Template for <m>\{_{2}^{7}\}</m>.</caption>
+                <caption>Template for <m>\{_{2}^{7}\}</m>.</caption>-->
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle2">
                     <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              </figure>
+              <!--</figure>
               <figure>
-                <caption>Template for <m>\{_{3}^{7}\}</m>.</caption>
+                <caption>Template for <m>\{_{3}^{7}\}</m>.</caption>-->
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle3">
                     <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              </figure>
+              <!--</figure>-->
             </sidebyside>
           </figure>
           <p>
@@ -1182,7 +1182,7 @@
               </p>
               <figure xml:id="starpoly-templates-12and15">
                 <caption>Templates for 12-dot and 15-dot star polygons.</caption>
-                <sidebyside width="45% 45%">
+                <sidebyside>
                   <figure xml:id="twelvedotstarpolytemplate">
                     <caption>Twelve-dot template.</caption>
                     <image>
@@ -1240,13 +1240,13 @@
           <task>
             <statement>
               <p>
-                Next consider the connected components of <m>\{_{3}^{12}\}</m> and 
+                Next consider the connected components of <m>\{^{12}_{3}\}</m> and 
                 <m>\{_{5}^{20}\}</m>. What shape do you expect? Sketch these two star 
                 polygons using different colors for each connected component. 
               </p>
               <figure xml:id="starpoly-templates-12and20">
                 <caption>Templates for 12-dot and 20-dot star polygons.</caption>
-                <sidebyside width="45% 45%">
+                <sidebyside >
                   <figure xml:id="twelvedotstarpolytemplate2">
                     <caption>Twelve-dot template.</caption>
                     <image>
@@ -1280,7 +1280,7 @@
             <statement>
               <p>
                 Identify another pair of numbers <m>n</m> and <m>k</m> for which the 
-                connected components of <m>\{_{k}^{n}_}</m> should have this shape.
+                connected components of <m>\{_{k}^{n}\}</m> should have this shape.
               </p>
             </statement>
           </task>
