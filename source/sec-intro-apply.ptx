@@ -770,7 +770,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 </statement>
                 <answer>
                     <p>
-                        2 pairs of parallel sides.
+                        Two pairs of parallel sides.
                     </p>
                 </answer>
             </task>
@@ -782,10 +782,10 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 </statement>
                 <answer>
                     <p>
-                        Pair 1: <m>\overleftrightarrow{AD}</m> and <m>\overleftrightarrow{BC}</m>.
+                        Pair 1: <m>\overline{AD}</m> and <m>\overline{BC}</m>.
                     </p>
                     <p>
-                        Pair 2: <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m>.
+                        Pair 2: <m>\overline{AB}</m> and <m>\overline{CD}</m>.
                     </p>
                 </answer>
             </task>
@@ -799,8 +799,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                     <p>
                         In a parallelogram, the <term>base</term> can be defined as any one of its four sides. It is often useful to 
                         identify one side as the base. So, possible bases for parallelogram <m>ABCD</m> could include 
-                        <m>\overleftrightarrow{AB}</m>, <m>\overleftrightarrow{BC}</m>, <m>\overleftrightarrow{CD}</m>, or 
-                        <m>\overleftrightarrow{AD}</m>.
+                        <m>\overline{AB}</m>, <m>\overline{BC}</m>, <m>\overline{CD}</m>, or 
+                        <m>\overline{AD}</m>.
                     </p>
                 </answer>
             </task>
@@ -813,8 +813,94 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 <answer>
                     <p>
                         The base of a parallelogram is any of its four sides. The corresponding height is along an altitude and is
-                        perpendicular to the base. For parallelogram <m>ABCD</m>, if the chosen base is <m>\overleftrightarrow{AB}</m>, 
+                        perpendicular to the base. For parallelogram <m>ABCD</m>, if the chosen base is <m>\overline{AB}</m>, 
                         then the height could be <m>\overline{DE}</m>.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+        <exercise xml:id="HW-vocab-trapezoids">
+            <title>Trapezoids</title>
+            <introduction>
+                <p>
+                    Use <xref ref="fig-trapezoid-def"/> to answer the following questions about trapezoid <m>ABCD</m>:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Based on the above figure, how many pairs of <term>parallel</term> sides does a trapezoid have?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Exactly one pair of parallel sides.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the pair of <term>parallel</term> sides in trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\overline{BC}</m> and <m>\overline{AD}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In a trapezoid, one of the parallel sides is called the <term>base</term>. Identify the 
+                        <term>base</term> in trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Base: <m>\overline{BC}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The other parallel side in a trapezoid is called the <term>summit</term>. Identify the <term>summit</term>
+                        in trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Summit: <m>\overline{AD}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The remaining two sides of a trapezoid are called legs. Identify the <term>legs</term> in trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Legs: <m>\overline{AB}</m> and <m>\overline{DC}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>altitude</term> (height) of trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Altitude: <m>\overline{AE}</m>.
+                    </p>
+                    <p>
+                        NOTE: In a trapezoid, the altitude is the perpendicular distance between its 
+                        two parallel bases, always forming a 90-degree angle with the bases.
                     </p>
                 </answer>
             </task>
