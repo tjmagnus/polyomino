@@ -1031,41 +1031,81 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             7 inches in shape 2.
           </p>
         </hint>
+        <answer>
+          <p>
+            Shape 1: 26 inches.
+          </p>
+          <p>
+            Shape 2: 31 inches.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The perimeter of each shape is found by adding the lengths of all its outer sides. Shape 1 has a total perimeter of 
+            26 inches, and Shape 2 has a total perimeter of 31 inches. 
+          </p>
+          <p>
+            Shape 1: 3+3+3+2+3+2+3+2+3+2 = 26 inches
+          </p>
+          <p>
+            Shape 2: 7+3+2+6+2+8+1+1+1 = 31 inches
+          </p>
+        </solution>
       </exercise>
-      <exercise>
-        <statement>
-          <p>
-            Sketch pictures of each of the following:
-            <ol>
-              <li>
-                <p>
-                  An isosceles obtuse triangle
-                </p>
-              </li>
-              <li>
-                <p>
-                  A rhombus that is not a square
-                </p>
-              </li>
-              <li>
-                <p>
-                  An equiangular hexagon which is not equilateral
-                </p>
-              </li>
-              <li>
-                <p>
-                  A concave quadrilateral
-                </p>
-              </li>
-            </ol>
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Reread definitions as needed and check that your sketches satisfy
-            the criteria.
-          </p>
-        </hint>
+      <exercise xml:id="sketch-polygons">
+          <introduction>
+            <p>
+              Sketch pictures of each of the following:
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                An isosceles obtuse triangle.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Reread definitions as needed and check that your sketches satisfy the criteria.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rhombus that is not a square.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Reread definitions as needed and check that your sketches satisfy the criteria.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                An equiangular hexagon which is not equilateral.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Reread definitions as needed and check that your sketches satisfy the criteria.
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A concave quadrilateral.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Reread definitions as needed and check that your sketches satisfy the criteria.
+              </p>
+            </hint>
+          </task>
       </exercise>
       <exercise xml:id="label-altitude-etc">
         <statement>
@@ -1126,24 +1166,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </hint>
       </exercise>
       <exercise xml:id="SAR-intro-apply-Tangramareas">
-        <statement>
+        <introduction>
           <p> 
             In <xref ref="trioftangrams"/>, three smaller Tangram pieces fill a 
             region congruent to the larger blue isosceles triangle. The square is half as 
             tall as the blue triangle. Suppose that the area of the blue triangle is 
-            18 square inches.
-            <ol>
-              <li>
-                <p>
-                  What is the area of one small orange triangle? How do you know?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the area of the square? How do you know?
-                </p>
-              </li>
-            </ol>
+            18 square inches. Refer to this figure to answer the following questions:
           </p>
             <figure xml:id="trioftangrams">
               <caption>Image for <xref ref="SAR-intro-apply-Tangramareas"/></caption>
@@ -1164,12 +1192,31 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 </shortdescription>
               </image>
             </figure>
-        </statement>
-        <answer>
-          <p>
-            Each small triangle has area 4.5 and the square has area 9. 
-          </p>
-        </answer>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                What is the area of one small orange triangle? How do you know?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Each small triangle has area 4.5 and the square has area 9. 
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What is the area of the square? How do you know?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Each small triangle has area 4.5 and the square has area 9. 
+              </p>
+            </answer>
+          </task>
       </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-intro-apply">
