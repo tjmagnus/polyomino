@@ -905,6 +905,110 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 </answer>
             </task>
         </exercise>
+        <exercise xml:id="HW-vocab-regular-polygons">
+            <title>Regular Polygons</title>
+            <introduction>
+                <p>
+                    Use <xref ref="fig-polypad-tiling"/> to answer the following questions about regular polygons:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Starting from the top, identify the name of the yellow polygon with three sides.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Triangle.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the name of the bright blue polygon with four sides. 
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Quadrilateral.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the name of the green polygon with five sides.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pentagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the name of the magenta polygon that has six sides?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Hexagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Give the name of the teal polygon with seven sides.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Heptagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the name of the purple polygon that has eight sides.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Octagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the name of the orange polygon with nine total sides?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Nonagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Although not included in this figure, what is the name of a polygon with ten sides?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Decagon.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
     </subexercises>
   </exercises>
   <exercises xml:id="exercises-intro-apply">
