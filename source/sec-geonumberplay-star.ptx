@@ -1246,9 +1246,19 @@
           <task>
             <statement>
               <p>
+                Given the numbers <m>n</m> and <m>k</m>, can you determine how many 
+                copies of this shape will appear in the complete <m>\{_{k}^{n}\}</m>
+                star polygon? How?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
                 Next consider the connected components of <m>\{^{12}_{3}\}</m> and 
-                <m>\{_{5}^{20}\}</m>. What shape do you expect? Sketch these two star 
-                polygons using different colors for each connected component. In 
+                <m>\{_{5}^{20}\}</m>. What do you expect the shape of each connected 
+                component to be? Sketch these two star polygons, <m>\{^{12}_{3}\}</m> and 
+                <m>\{_{5}^{20}\}</m>, using different colors for each connected component. 
                 GeoGebra apps for these constructions may be accessed via 
                 <xref ref="starpolydots-GeoGebra-12"/> and <xref ref="starpolydots-GeoGebra-20"/>.
               </p>
@@ -1289,35 +1299,121 @@
               <p>
                 Identify another pair of numbers <m>n</m> and <m>k</m> for which the 
                 connected components of <m>\{_{k}^{n}\}</m> has this shape. You may identify
-                one encountered already or one that you have not seen yet.
+                one encountered already or one that you have not seen yet. How many copies 
+                of this shape will <m>\{_{k}^{n}\}</m> have?
               </p>
             </statement>
           </task>
+          <task>
+            <introduction>
+              <p>
+                Sketch the star polygons, <m>\{_{15}^{6}\}</m> and <m>\{_{20}^{8}\}</m>.
+              </p>               
+              <figure xml:id="fifteendotstarpolytemplate2">
+                <caption>Twelve-dot template.</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="fifteendot6circle" 
+                  xml:id="fifteendot6circle">
+                    <xi:include href="pref-for-15-dot-circle.ptx" />
+                  </prefigure>
+                </image> 
+              </figure>
+              <figure xml:id="twentydotstarpolytemplate2">
+                <caption>Twenty-dot template.</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="twentydot8circle" 
+                  xml:id="twentydot8circle">
+                    <xi:include href="pref-for-20-dot-circle.ptx" />
+                  </prefigure>
+                </image> 
+              </figure>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  What shape are their individual connected components?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Denote this shape using <m>\{_{j}^{m}\}</m> star polygon notation. What
+                  are the values of <m>m</m> and <m>j</m>?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  How many connected components does <m>\{_{6}^{15}\}</m> have?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  How many connected components does <m>\{_{8}^{20}\}</m> have?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  How is the number of connected components related to the values
+                  <m>n</m> and <m>k</m>?
+                </p>
+              </statement>
+            </task>    
+          </task>
         </task>
-    
+        <task>
+          <statement>
+            <p>
+              Summarize what you have learned about how the design of a <m>\{_{k}^{n}\}</m>
+              star polygon is determined by the values of <m>n</m> and <m>k</m>. Include the 
+              number of connected components and the shape of the connected components.
+            </p>
+            <p>
+              Geogebra interactives are provided here for students wishing to use them.
+            </p>
+            <figure xml:id="starpolydots-GeoGebra-12" label="starpolydots-GeoGebra-12-label">
+              <caption>
+                  GeoGebra interactive for drawing 12-dot star polygons
+              </caption>
+              <interactive xml:id="twelvedot-starpoly-app" geogebra="rtkesejx"
+                aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            </figure>
+            <figure xml:id="starpolydots-GeoGebra-15">
+              <caption>Geogebra interactive for drawing 15-point star polygons</caption>
+                <interactive xml:id="fifteendot-starpoly-app" geogebra="dtepagfu"
+                  aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
+            </figure>
+            <figure xml:id="starpolydots-GeoGebra-20">
+              <caption>Geogebra interactive for drawing 20-point star polygons</caption>
+                <interactive xml:id="twentydot-starpoly-app" geogebra="g9dg457j"
+                  aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
+            </figure>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The following GeoGebra interactive can be used to verify that your claims
+              hold for star polygons with 18 or 24 dots.
+            </p>
+            <figure xml:id="starpolydots-GeoGebra-18and24">
+              <caption>Geogebra interactive for drawing 18 and 24-point star polygons</caption>
+                <interactive xml:id="starpoly-18and24-app" geogebra="rr9kzgzn"
+                  aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
+            </figure>
+          </statement>
+        </task>
       </task>
     </exploration>
 
 
 
   </subsection>
-  <subsection xml:id="subsec-Geogebra-for-other star polygons">
-    <title>Geogebra-for-other star polygons</title>
-    <p>
-      Say something.
-    </p>
-    <figure xml:id="starpolydots-GeoGebra-12" label="starpolydots-GeoGebra-12-label">
-      <caption>
-          GeoGebra interactive for drawing 12-dot star polygons
-      </caption>
-      <interactive xml:id="twelvedot-starpoly-app" geogebra="rtkesejx"
-        aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
-    </figure>
-    <figure xml:id="starpolydots-GeoGebra-15">
-      <caption>Geogebra interactive for drawing 15-point star polygons</caption>
-        <interactive xml:id="fifteendot-starpoly-app" geogebra="dtepagfu"
-          aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
-    </figure>
-
-  </subsection>
+  
 </section>  
