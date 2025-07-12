@@ -1087,7 +1087,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </statement>
             <hint>
               <p>
-                Reread definitions as needed and check that your sketches satisfy the criteria.
+                Review the definitions for both <xref ref="def-equilateral" text="custom">rhombus</xref> and 
+                <xref ref="def-rectquads" text="custom">square</xref>. 
               </p>
             </hint>
           </task>
@@ -1099,7 +1100,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </statement>
             <hint>
               <p>
-                Reread definitions as needed and check that your sketches satisfy the criteria.
+                Review the definitions for both <xref ref="def-equiangular" text="custom">equiangular</xref> and 
+                <xref ref="def-equilateral" text="custom">equilateral</xref>. Recall that a hexagon has six sides.
               </p>
             </hint>
           </task>
@@ -1111,7 +1113,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </statement>
             <hint>
               <p>
-                Reread definitions as needed and check that your sketches satisfy the criteria.
+                Review the definitions for both <xref ref="def-convexconcave" text="custom">concave</xref> and 
+                <xref ref="def-quadrilateral" text="custom">quadrilateral</xref>.
               </p>
             </hint>
           </task>
