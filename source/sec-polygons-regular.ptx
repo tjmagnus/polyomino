@@ -112,7 +112,7 @@
       preview="regular-polygons.png" aspect="16:12"/>
       </figure>
     </introduction>
-    <task>
+    <task xml:id="polypad-tiling-task" label="polypad-tiling-task-label">
       <statement>
         <p>
           Select a single regular polygon, make copies of it as needed,
@@ -123,7 +123,7 @@
         </p>
       </statement>
     </task>
-    <task>
+    <task xml:id="polypad-tiling-eight-sides-task" label="polypad-tiling-eight-sides-task-label">
       <statement>
         <p>
           Experiment with equilateral triangles, squares, regular pentagons, 
@@ -134,7 +134,8 @@
       </statement>
       <response />
     </task>
-    <exercise>
+  </exploration>
+  <exploration xml:id="explor-reg-tilings-angle-measure">
       <introduction>
         <p>
           Perhaps you noticed that the vertex angle measure plays a role in determining 
@@ -144,7 +145,6 @@
           will use this technique to find the measure of the vertex angles for other   
           regular <m>n</m>-gons.
         </p>
-      </introduction>
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
             <image source="VertexAngRegPentagon">
@@ -185,14 +185,16 @@
                 </li>
               </ul>
             </p>
-            <task>
+      </introduction>
+          <task xml:id="">
               <statement>
                 <p>
                   Explain why <m>m\angle EAB=m\angle 1+m\angle 2+m\angle 3</m>
                 </p>
               </statement>
-            </task>
-            <task>
+              </response>
+          </task>
+          <task>
               <statement>
                 <p>
                   What is <m>m\angle 1 + m\angle 4 + m\angle E</m>?
@@ -225,7 +227,8 @@
                 </p>
               </statement>
             </task>
-    </exercise>
+    
+    
     <task>
       <statement>
         <p>
@@ -306,6 +309,7 @@
         </table>
       </statement>
     </task>
+  </exploration>
     <task>
       <statement>
         <p>
@@ -351,7 +355,6 @@
         </p>
       </statement>
     </task>
-  </exploration>
 <p>
   In <xref ref="explor-reg-tilings"/>, we determined the measure of a <term>vertex angle</term>
   of a regular <m>n</m>-gon. We define this term and another important angle.
