@@ -1066,9 +1066,18 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </statement>
             <hint>
               <p>
-                Reread definitions as needed and check that your sketches satisfy the criteria.
+                Review the definitions for both <xref ref="def-isosceles" text="custom">isosceles</xref> and 
+                <xref ref="def-triangles-by-angles" text="custom">obtuse</xref>. 
               </p>
             </hint>
+            <answer>
+              <figure xml:id="fig-isosceles-obtuse-def">
+                <caption>A sample isosceles obtuse triangle <m>ABC</m>.</caption>
+                <image source="isosceles-obtuse-tri">
+                  <shortdescription>Isosceles obtuse triangle ABC.</shortdescription>
+                </image>
+              </figure>
+            </answer>
           </task>
           <task>
             <statement>
@@ -1243,14 +1252,26 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         <task>
           <statement>
             <p>
-              Is it possible for a triangle to be equilateral but not equiangular
+              Is it possible for a triangle to be equilateral but not equiangular?
             </p>
           </statement>
+          <hint>
+            <p>
+              Review the definitions for both <xref ref="def-equilateral" text="custom">equilateral</xref> and 
+              <xref ref="def-equiangular" text="custom">equiangular</xref>.
+            </p>
+          </hint>
           <answer>
             <p>
               No
             </p>
           </answer>
+          <solution>
+            <p>
+              A triangle cannot be equilateral without also being equiangular. If all three sides are the same length, then 
+              the angles across from those sides must also be equal. So, an equilateral triangle always has three equal angles.
+            </p>
+          </solution>
         </task>  
         <task>
           <statement>
