@@ -1294,6 +1294,18 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
               A rhombus is equilateral but not necessarily equiangular.
             </p>
           </answer>
+          <solution>
+            <p>
+              <figure xml:id="fig-nonequiangular-rhombus-def">
+                <caption>A sample rhombus <m>ABCD</m> where <m>\angle A \cong \angle C</m> and <m>\angle B \cong \angle D</m>.
+                Opposite angles are congruent while adjacent angles are not congruent. Because not all angles are congruent, rhombus 
+                <m>ABCD</m> is not equiangular.</caption>
+                <image source="rhombus">
+                  <shortdescription>Rhombus <m>ABCD</m> is not equiangular.</shortdescription>
+                </image>
+              </figure>
+            </p>
+          </solution>
           </task>
         <task>
           <statement>
