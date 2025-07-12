@@ -163,10 +163,12 @@
         <figure xml:id="fig-great-circle">
             <caption>Spherical objects</caption>
             <image source="sphericalobjects.png">
-                <shortdescription>A sphere showing two great circles, one of 
+                <shortdescription>
+                    A sphere showing two great circles, one of 
                     which is the equator. It also shows a smaller circle, like the 
                     Arctic Circle.
                 </shortdescription>
+                <!-- Remove LaTeX from descriptions.-->
             </image>
         </figure>
         <!--https://www.geogebra.org/3d/shwmkytr-->
@@ -910,7 +912,7 @@
                                 <statement>
                                     <p>
                                         Give a thorough argument that corresponding angles <m>\angle ABC</m> 
-                                        and <m>\angle GCH</m> in <xref ref="fig-transversal"/>must be congruent.
+                                        and <m>\angle GCH</m> in <xref ref="fig-transversal"/> must be congruent.
                                     </p>
                                 </statement>
                                 <response />
