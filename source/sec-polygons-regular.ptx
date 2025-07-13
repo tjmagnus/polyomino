@@ -702,7 +702,7 @@
         <xref ref="task-vertex-measure-regular-polygons-more"/> to list all 
         combinations of three, four, or five regular polygons that could meet at a 
         vertex, writing the vertex configurations in shorthand notation. Like the 
-        example in <xref ref="tile-w-3tri-2sq"/>, the same shape may be repeated. If  
+        example in <xref ref="semireg-tilings-task-three"/>, the same shape may be repeated. If  
         more than three polygons meet at a vertex, consider the different ways in 
         which they could be arranged.
       </p>
@@ -757,7 +757,7 @@
 </exploration>
 <p>
   This activity may have involved more of a struggle than some of the others. Perhaps you 
-  only found about half of the possibilities in <xref ref="srtiling-possible-vertex-arrangements"/>
+  only found about half of the possibilities in <xref ref="semireg-tilings-arrangements-experiment-task"/>
   or you cannot yet see a pattern to help determine which vertex arrangements lead to a 
   semiregular tiling. That is perfectly normal. Write down the ideas that you do have and 
   share them with classmates. As you share what you have observed and listen to others' 
@@ -903,7 +903,7 @@
             Not including the regular tiling <m>6.6.6</m>, there are nine possible  
             vertex arrangements consisting of three regular polygons. List as many as 
             you can, referring back to the work you did in 
-            <xref ref="srtiling-possible-vertex-arrangements"/>.
+            <xref ref="semireg-tilings-arrangements-experiment-task"/>.
           </p>
         </statement>
       </task>
