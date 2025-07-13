@@ -132,10 +132,11 @@
           will happen with regular polygons with more than eight sides? Why?
         </p>
       </statement>
-      <response />
+    <response />
     </task>
   </exploration>
   <exploration xml:id="explor-reg-tilings-angle-measure">
+    <title>Vertex Angle Measure</title>
       <introduction>
         <p>
           Perhaps you noticed that the vertex angle measure plays a role in determining 
@@ -186,39 +187,75 @@
               </ul>
             </p>
       </introduction>
-          <task xml:id="">
+          <task xml:id="regular-pentagon-angle-sum-one-task" label="regular-pentagon-angle-sum-one-label">
               <statement>
                 <p>
                   Explain why <m>m\angle EAB=m\angle 1+m\angle 2+m\angle 3</m>
                 </p>
               </statement>
-              </response>
+              <response />
           </task>
-          <task>
+          <task xml:id="regular-pentagon-angle-sum-two-task" label="regular-pentagon-angle-sum-two-label">
               <statement>
                 <p>
-                  What is <m>m\angle 1 + m\angle 4 + m\angle E</m>?
+                  <m>m\angle 1 + m\angle 4 + m\angle E =</m> 
+                  <fillin characters="3" answer="180" width="3" />
                 </p>
               </statement>
+              <evaluation>
+                  <evaluate>
+                      <test correct="yes">
+                          <numcmp use-answer="yes" op="eq">180</numcmp>
+                          <feedback>Correct.</feedback>
+                      </test>
+                  </evaluate>
+              </evaluation>
             </task>
-            <task>
+            <task xml:id="regular-pentagon-angle-sum-three-task" label="regular-pentagon-angle-sum-three-label">
               <statement>
                 <p>
-                  Use the fact that the pentagon is divided into triangles to 
-                  determine <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
-                  +m\angle E</m>.
+                  <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
+                  +m\angle E =</m>
                 </p>
+                <fillin characters="3" answer="540" width="3" />
               </statement>
+              <hint>
+                <p>
+                  Use the fact that the pentagon is divided into triangles.
+                </p>
+              </hint>
+               <evaluation>
+                  <evaluate>
+                      <test correct="yes">
+                          <numcmp use-answer="yes" op="eq">540</numcmp>
+                          <feedback>Correct.</feedback>
+                      </test>
+                </evaluate>
+              </evaluation>
             </task>
-           <task>
+           <task xml:id="regular-pentagon-angle-a-task" label="regular-pentagon-angle-a-label">"> 
             <statement>
               <p>
                 Having just computed the sum of the five congruent angles of  
                 a regular pentagon, determine <m>m\angle A</m>. 
               </p>
+              <fillin characters="3" answer="108" width="3" />
             </statement>
+            <evaluation>
+                  <evaluate>
+                      <test correct="yes">
+                          <numcmp use-answer="yes" op="eq">108</numcmp>
+                          <feedback>Correct.</feedback>
+                      </test>
+                </evaluate>
+              </evaluation>
+            <hint>
+              <p>
+                <m>m\angle A = m\angle B = m\angle C = </m> ...
+              </p>
+            </hint>
            </task>
-            <task>
+            <task xml:id="regular-pentagon-convex-nonconvex-task" label="regular-pentagon-convex-nonconvex-label">
               <statement>
                 <p>
                   Some of what you found, but not all, will be true for all convex 
@@ -226,10 +263,10 @@
                   non-regular convex pentagons? What will be different?
                 </p>
               </statement>
+              <response />
             </task>
-    
-    
-    <task>
+    <task xml:id="regular-pentagon-table-task" label="regular-pentagon-table-label">
+      <!-- Is there a way to display inputs for this table? -->
       <statement>
         <p>
           Use your work from the previous task to complete the row for regular 
@@ -310,53 +347,105 @@
       </statement>
     </task>
   </exploration>
-    <task>
-      <statement>
+
+    <exploration xml:id="explor-reg-tilings-revisited">
+      <title>Regular Tilings Revisited</title>
+      <introduction>
         <p>
           Returning to the question of when a regular polygon can be  
           used to create a regular tiling, 
-          <ol>
-            <li>
-              <p>
-                How many equilateral triangles can meet at a single point
-                without overlapping?
-              </p>
-            </li>
-            <li>
-              <p>
-                How many squares can meet at a single point?
-              </p>
-            </li>
-            <li>
-              <p>
-                How many regular hexagons can meet at a single point?
-              </p>
-            </li>
-            <li>
-              <p>
-                Explain in words and pictures why these three regular 
-                polygons can each produce a regular tiling.
-              </p>
-            </li>
-            <li>
-              <p>
-                When we tried to surround a point with regular pentagons a 
-                gap was formed. What is the degree measure of that gap?
-              </p>
-            </li>
-            <li>
-              <p>
-                If <m>n\geq 7</m>, do you know whether a regular <m>n</m>-gon might 
-                produce a regular tiling? Include a discussion of vertex angle measure 
-                in your explanation.
-              </p>
-            </li>
-          </ol>
         </p>
-      </statement>
-    </task>
+      </introduction>
+    <task xml:id="reg-tilings-triangles-task" label="reg-tilings-triangles-label"> 
+      <statement>
+        <p>
+          How many equilateral triangles can meet at a single point
+          without overlapping?
+        </p>
+         <fillin characters="1" answer="6" width="1" />
+        </statement>
+        <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">6</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+      </task>
+      <task xml:id="reg-tilings-squares-task" label="reg-tilings-squares-label">
+        <statement>
+          <p>
+            How many squares can meet at a single point?
+           </p>
+           <fillin characters="1" answer="4" width="1" />
+        </statement>
+        <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">4</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+      </task>
+      <task xml:id="reg-tilings-hexagons-task" label="reg-tilings-hexagons-label">
+        <statement>
+          <p>
+            How many regular hexagons can meet at a single point?
+          </p>
+          <fillin characters="1" answer="3" width="1" />
+        </statement>
+        <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">3</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+      </task>
+      <task xml:id="reg-tilings-reg-polygons-explain-task" label="reg-tilings-reg-polygons-explain-label">
+        <statement>
+          <p>
+            Explain in words and pictures why these three regular 
+            polygons can each produce a regular tiling.
+          </p>
+        </statement>
+        <response />
+      </task>
+      <task xml:id="reg-tilings-pentagons-task" label="reg-tilings-pentagons-label">
+        <statement>
+          <p>
+            When we tried to surround a point with regular pentagons a 
+            gap was formed. What is the degree measure of that gap?
+          </p>
+          <fillin characters="3" answer="36" width="3" />
+        </statement>
+        <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">36</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+      </task>
+      <task xml:id="reg-tilings-ngon-task" label="reg-tilings-ngon-label">
+        <statement>
+          <p>
+            If <m>n\geq 7</m>, do you know whether a regular <m>n</m>-gon might 
+            produce a regular tiling? Include a discussion of vertex angle measure 
+            in your explanation.
+          </p>
+        </statement>
+        <response />
+      </task>
+    </exploration>
+    
+    <!-- Add new section here? -->
 <p>
-  In <xref ref="explor-reg-tilings"/>, we determined the measure of a <term>vertex angle</term>
+  In <xref ref="explor-reg-tilings-angle-measure"/>, we determined the measure of a <term>vertex angle</term>
   of a regular <m>n</m>-gon. We define this term and another important angle.
 </p>
 <definition xml:id="def-vertexangle-centralangle">
