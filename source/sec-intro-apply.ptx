@@ -1091,6 +1091,20 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 <xref ref="def-rectquads" text="custom">square</xref>. 
               </p>
             </hint>
+            <answer>
+              <p>
+                <figure xml:id="fig-equilateral-rhombus">
+                  <caption>A sample rhombus <m>ABCD</m>.</caption>
+                  <image source="rhombus">
+                    <shortdescription>Rhombus <m>ABCD</m>.</shortdescription>
+                  </image>
+                </figure>
+              </p>
+              <p>
+                Rhombus <m>ABCD</m> is not a square. Although all its sides are equal (making it equilateral), its angles 
+                are not all 90 degrees. A true square must have all right angles, a property not shared by every rhombus.
+              </p>
+            </answer>
           </task>
           <task>
             <statement>
@@ -1296,14 +1310,13 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           </answer>
           <solution>
             <p>
-              <figure xml:id="fig-nonequiangular-rhombus-def">
-                <caption>A sample rhombus <m>ABCD</m> where <m>\angle A \cong \angle C</m> and <m>\angle B \cong \angle D</m>.
-                Opposite angles are congruent while adjacent angles are not congruent. Because not all angles are congruent, rhombus 
-                <m>ABCD</m> is not equiangular.</caption>
-                <image source="rhombus">
-                  <shortdescription>Rhombus <m>ABCD</m> is not equiangular.</shortdescription>
-                </image>
-              </figure>
+              <xref ref="fig-equilateral-rhombus"/> shows that it is possible for a rhombus to be equilateral but not equiangular.
+            </p>
+            <p>
+              A rhombus is classified as an equilateral quadrilateral, meaning all its sides are equal in length. For instance, in rhombus <m>ABCD</m>,
+              all sides are 5 units long. However, a rhombus is typically not equiangular because not all its angles are congruent. While opposite angles
+              are congruent (<m>\angle A \cong \angle C</m> and <m>\angle B \cong \angle D</m>), adjacent angles are not congruent.
+              This characteristic clearly demonstrates that an equilateral figure, such as rhombus <m>ABCD</m>, is not necessarily equiangular.
             </p>
           </solution>
           </task>
