@@ -1072,11 +1072,14 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </hint>
             <answer>
               <figure xml:id="fig-isosceles-obtuse-def">
-                <caption>A sample isosceles obtuse triangle <m>ABC</m>.</caption>
-                <image source="isosceles-obtuse-tri">
-                  <shortdescription>Isosceles obtuse triangle ABC.</shortdescription>
-                </image>
-              </figure>
+                  <caption>A sample isosceles obtuse triangle <m>ABC</m>.</caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="pref-isos-obtuse-tri" 
+                      xml:id="prefid-isos-obtuse-tri">
+                      <xi:include href="prefcode-isos-obtuse-tri.ptx" />
+                  </prefigure>
+                  </image>
+                </figure>
             </answer>
           </task>
           <task>
@@ -1095,8 +1098,11 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
               <p>
                 <figure xml:id="fig-equilateral-rhombus">
                   <caption>A sample rhombus <m>ABCD</m>.</caption>
-                  <image source="rhombus">
-                    <shortdescription>Rhombus <m>ABCD</m>.</shortdescription>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="pref-equi-rhom60" 
+                      xml:id="pref-equi-rhom60">
+                      <xi:include href="prefcode-equi-rhom60.ptx" />
+                  </prefigure>
                   </image>
                 </figure>
               </p>
