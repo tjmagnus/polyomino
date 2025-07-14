@@ -112,7 +112,7 @@
       preview="regular-polygons.png" aspect="16:12"/>
       </figure>
     </introduction>
-    <task>
+    <task xml:id="polypad-tiling-task" label="polypad-tiling-task-label">
       <statement>
         <p>
           Select a single regular polygon, make copies of it as needed,
@@ -123,7 +123,7 @@
         </p>
       </statement>
     </task>
-    <task>
+    <task xml:id="polypad-tiling-eight-sides-task" label="polypad-tiling-eight-sides-task-label">
       <statement>
         <p>
           Experiment with equilateral triangles, squares, regular pentagons, 
@@ -132,9 +132,12 @@
           will happen with regular polygons with more than eight sides? Why?
         </p>
       </statement>
+    <response />
     </task>
-    <task>
-      <statement>
+  </exploration>
+  <exploration xml:id="explor-reg-tilings-angle-measure">
+    <title>Vertex Angle Measure</title>
+      <introduction>
         <p>
           Perhaps you noticed that the vertex angle measure plays a role in determining 
           whether a regular polygon can be used to create a regular tiling. The steps in 
@@ -143,7 +146,6 @@
           will use this technique to find the measure of the vertex angles for other   
           regular <m>n</m>-gons.
         </p>
-        <sidebyside widths="65% 35%" valign="middle">
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
             <image source="VertexAngRegPentagon">
@@ -157,7 +159,7 @@
           </figure>
             <p>
               The following shorthand will be used to refer to the angles.
-              <ul>
+              <ul cols="3">
                 <li>
                   <m>\angle 1 = \angle EAD</m>
                 </li>
@@ -184,44 +186,87 @@
                 </li>
               </ul>
             </p>
-      </sidebyside>
-      <p>
-          <ol>
-            <li>
-              <p>
-                Explain why <m>m\angle EAB=m\angle 1+m\angle 2+m\angle 3</m>
-              </p>
-            </li>
-            <li>
-              <p>
-                What is <m>m\angle 1 + m\angle 4 + m\angle E</m>?
-              </p>
-            </li>
-            <li>
-              <p>
-                Use the fact that the pentagon is divided into triangles to 
-                determine <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
-                +m\angle E</m>.
-              </p>
-            </li>
-            <li>
+      </introduction>
+          <task xml:id="regular-pentagon-angle-sum-one-task" label="regular-pentagon-angle-sum-one-label">
+              <statement>
+                <p>
+                  Explain why <m>m\angle EAB=m\angle 1+m\angle 2+m\angle 3</m>
+                </p>
+              </statement>
+              <response />
+          </task>
+          <task xml:id="regular-pentagon-angle-sum-two-task" label="regular-pentagon-angle-sum-two-label">
+              <statement>
+                <p>
+                  <m>m\angle 1 + m\angle 4 + m\angle E =</m> 
+                  <fillin characters="3" answer="180" width="3" />
+                </p>
+              </statement>
+              <evaluation>
+                  <evaluate>
+                      <test correct="yes">
+                          <numcmp use-answer="yes" op="eq">180</numcmp>
+                          <feedback>Correct.</feedback>
+                      </test>
+                  </evaluate>
+              </evaluation>
+            </task>
+            <task xml:id="regular-pentagon-angle-sum-three-task" label="regular-pentagon-angle-sum-three-label">
+              <statement>
+                <p>
+                  <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
+                  +m\angle E =</m>
+                </p>
+                <fillin characters="3" answer="540" width="3" />
+              </statement>
+              <hint>
+                <p>
+                  Use the fact that the pentagon is divided into triangles.
+                </p>
+              </hint>
+               <evaluation>
+                  <evaluate>
+                      <test correct="yes">
+                          <numcmp use-answer="yes" op="eq">540</numcmp>
+                          <feedback>Correct.</feedback>
+                      </test>
+                </evaluate>
+              </evaluation>
+            </task>
+           <task xml:id="regular-pentagon-angle-a-task" label="regular-pentagon-angle-a-label">"> 
+            <statement>
               <p>
                 Having just computed the sum of the five congruent angles of  
                 a regular pentagon, determine <m>m\angle A</m>. 
               </p>
-            </li>
-            <li>
+              <fillin characters="3" answer="108" width="3" />
+            </statement>
+            <evaluation>
+                  <evaluate>
+                      <test correct="yes">
+                          <numcmp use-answer="yes" op="eq">108</numcmp>
+                          <feedback>Correct.</feedback>
+                      </test>
+                </evaluate>
+              </evaluation>
+            <hint>
               <p>
-                Some of what you found, but not all, will be true for all convex 
-                pentagons. What results about angle measure will also hold for 
-                non-regular convex pentagons? What will be different?
+                <m>m\angle A = m\angle B = m\angle C = </m> ...
               </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
-    </task>
-    <task>
+            </hint>
+           </task>
+            <task xml:id="regular-pentagon-convex-nonconvex-task" label="regular-pentagon-convex-nonconvex-label">
+              <statement>
+                <p>
+                  Some of what you found, but not all, will be true for all convex 
+                  pentagons. What results about angle measure will also hold for 
+                  non-regular convex pentagons? What will be different?
+                </p>
+              </statement>
+              <response />
+            </task>
+    <task xml:id="regular-pentagon-table-task" label="regular-pentagon-table-label">
+      <!-- Is there a way to display inputs for this table? -->
       <statement>
         <p>
           Use your work from the previous task to complete the row for regular 
@@ -301,54 +346,106 @@
         </table>
       </statement>
     </task>
-    <task>
-      <statement>
+  </exploration>
+
+    <exploration xml:id="explor-reg-tilings-revisited">
+      <title>Regular Tilings Revisited</title>
+      <introduction>
         <p>
           Returning to the question of when a regular polygon can be  
           used to create a regular tiling, 
-          <ol>
-            <li>
-              <p>
-                How many equilateral triangles can meet at a single point
-                without overlapping?
-              </p>
-            </li>
-            <li>
-              <p>
-                How many squares can meet at a single point?
-              </p>
-            </li>
-            <li>
-              <p>
-                How many regular hexagons can meet at a single point?
-              </p>
-            </li>
-            <li>
-              <p>
-                Explain in words and pictures why these three regular 
-                polygons can each produce a regular tiling.
-              </p>
-            </li>
-            <li>
-              <p>
-                When we tried to surround a point with regular pentagons a 
-                gap was formed. What is the degree measure of that gap?
-              </p>
-            </li>
-            <li>
-              <p>
-                If <m>n\geq 7</m>, do you know whether a regular <m>n</m>-gon might 
-                produce a regular tiling? Include a discussion of vertex angle measure 
-                in your explanation.
-              </p>
-            </li>
-          </ol>
         </p>
-      </statement>
-    </task>
-  </exploration>
+      </introduction>
+    <task xml:id="reg-tilings-triangles-task" label="reg-tilings-triangles-label"> 
+      <statement>
+        <p>
+          How many equilateral triangles can meet at a single point
+          without overlapping?
+        </p>
+         <fillin characters="1" answer="6" width="1" />
+        </statement>
+        <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">6</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+      </task>
+      <task xml:id="reg-tilings-squares-task" label="reg-tilings-squares-label">
+        <statement>
+          <p>
+            How many squares can meet at a single point?
+           </p>
+           <fillin characters="1" answer="4" width="1" />
+        </statement>
+        <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">4</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+      </task>
+      <task xml:id="reg-tilings-hexagons-task" label="reg-tilings-hexagons-label">
+        <statement>
+          <p>
+            How many regular hexagons can meet at a single point?
+          </p>
+          <fillin characters="1" answer="3" width="1" />
+        </statement>
+        <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">3</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+      </task>
+      <task xml:id="reg-tilings-reg-polygons-explain-task" label="reg-tilings-reg-polygons-explain-label">
+        <statement>
+          <p>
+            Explain in words and pictures why these three regular 
+            polygons can each produce a regular tiling.
+          </p>
+        </statement>
+        <response />
+      </task>
+      <task xml:id="reg-tilings-pentagons-task" label="reg-tilings-pentagons-label">
+        <statement>
+          <p>
+            When we tried to surround a point with regular pentagons a 
+            gap was formed. What is the degree measure of that gap?
+          </p>
+          <fillin characters="3" answer="36" width="3" />
+        </statement>
+        <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">36</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+      </task>
+      <task xml:id="reg-tilings-ngon-task" label="reg-tilings-ngon-label">
+        <statement>
+          <p>
+            If <m>n\geq 7</m>, do you know whether a regular <m>n</m>-gon might 
+            produce a regular tiling? Include a discussion of vertex angle measure 
+            in your explanation.
+          </p>
+        </statement>
+        <response />
+      </task>
+    </exploration>
+    
+    <!-- Add new section here? -->
 <p>
-  In <xref ref="explor-reg-tilings"/>, we determined the measure of a <term>vertex angle</term>
+  In <xref ref="explor-reg-tilings-angle-measure"/>, we determined the measure of a <term>vertex angle</term>
   of a regular <m>n</m>-gon. We define this term and another important angle.
 </p>
 <definition xml:id="def-vertexangle-centralangle">
@@ -402,7 +499,7 @@
       </p>
     </statement>
   </definition>
-<exploration>
+<exploration xml:id="explor-semireg-tilings">
   <title>In Search of Semiregular Tilings</title>
   <introduction>
     <p>
@@ -410,12 +507,13 @@
       sketches, work, and results as they may be useful later in this section.
     </p>
   </introduction>
-  <task>
+  <task xml:id="semireg-tilings-angle-measure-task" label="semireg-tilings-angle-measure-label">
     <statement>
     <p>
       What must be true about the measures of the angles of the vertices 
       meeting at and surrounding a single point?
     </p>
+    <response />
     </statement>
     <solution component="instructor">
       <p>
@@ -423,7 +521,7 @@
       </p>
     </solution>
   </task>
-  <task xml:id="task-vertex-measure-regular-polygons-more">
+  <task xml:id="task-vertex-measure-regular-polygons-more" label="vertex-measure-regular-polygons-more-label">
     <statement>
     <p>
       In <xref ref="table-vertex-measure-regular-polygons-common"/>, you 
@@ -431,47 +529,108 @@
       developed a general formula for finding this measure. Use the formula, 
       to determine the vertex angle measure of each of the following regular 
       <m>n</m>-gons. If the answer is not a whole number, write the answer as 
-      a mixed number.
+      a reduced fraction.
+    </p>
+    <p>
       <ol cols="2">
         <li>
           <p>
             heptagon (7 sides)
           </p>
+          <fillin characters="3" answer="900/7" width="3" />
         </li>
         <li>
           <p>
             nonagon (9 sides)
           </p>
+          <fillin characters="3" answer="140" width="3" />
         </li>
         <li>
           <p>
             dodecagon (12 sides)
           </p>
+          <fillin characters="3" answer="150" width="3" />
         </li>
         <li>
           <p>
             pentakaidecagon (15 sides)
           </p>
+          <fillin characters="3" answer="156" width="3" />
         </li>
         <li>
           <p>
             octakaidecagon (18 sides)
           </p>
+          <fillin characters="3" answer="160" width="3" />
         </li>
         <li>
           <p>
             icosagon (20 sides)
           </p>
+          <fillin characters="3" answer="162" width="3" />
         </li>
         <li>
           <p>tetrakaicosaigon (24 sides)</p>
+          <fillin characters="3" answer="165" width="3" />
         </li>
         <li>
           <p>tetracontakaidigon (42 sides)</p>
+          <fillin characters="3" answer="1200/7" width="3" />
         </li>
       </ol>
     </p>
+    
   </statement>
+  <evaluation>
+            <evaluate>
+                <test correct="yes">
+                    <strcmp use-answer="yes" op="eq">900/7</strcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+             <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">140</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+             <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">150</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+             <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">156</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+             <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">160</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+             <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">162</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+             <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">165</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+            <evaluate>
+                <test correct="yes">
+                    <strcmp use-answer="yes" op="eq">1200/7</strcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+    </evaluation>
   <hint>
     <p>
       The measure of the vertex angle of a regular <m>n</m>-gon 
@@ -479,16 +638,18 @@
     </p>
   </hint>
   </task>
-  <task xml:id="tile-w-3tri-2sq">
+  <task xml:id="semireg-tilings-task-three" label="semireg-tilings-task-three-label">
     <statement>
       <p>
         Refer to <xref ref="tiling33434"/> as you answer the following:
+      </p>
         <ol>
           <li>
             <p>
               Verify that the sum of the angles meeting at the vertex is  
               360 degrees.
             </p>
+            <response />
           </li>
           <li>
             <p>
@@ -496,6 +657,7 @@
               have one or two triangles between any two squares. Will this 
               eventually fill the plane without gaps or overlaps? 
             </p>
+            <response />
           </li>
           <li>
             <p>
@@ -504,9 +666,9 @@
               using the vertex arrangement <m>3.3.3.4.4</m> by building outward from your 
               initial vertex arrangement.
             </p>
+            <response />
           </li>
         </ol>
-      </p>
       <figure xml:id="tiling33434">
         <caption>A 3.3.4.3.4 (triangle, triangle, square, triangle, square) 
           vertex arrangement.</caption>
@@ -516,7 +678,7 @@
       </figure>
     </statement>
   </task>
-  <task>
+  <task xml:id="semireg-tilings-overlap-task" label="semireg-tilings-overlap-label">
     <statement>
       <p>
         Verify arithmetically that it is possible for an equilateral triangle, 
@@ -531,15 +693,16 @@
         </image>
       </figure>
     </statement>
+    <response />
   </task>
-  <task xml:id="srtiling-possible-vertex-arrangements">
+  <task xml:id="srtiling-possible-vertex-arrangements-task" label="srtiling-possible-vertex-arrangements-label">
     <statement>
       <p>
         Use the angle measures you found in <xref ref="table-vertex-measure-regular-polygons-common"/> and 
         <xref ref="task-vertex-measure-regular-polygons-more"/> to list all 
         combinations of three, four, or five regular polygons that could meet at a 
         vertex, writing the vertex configurations in shorthand notation. Like the 
-        example in <xref ref="tile-w-3tri-2sq"/>, the same shape may be repeated. If  
+        example in <xref ref="semireg-tilings-task-three"/>, the same shape may be repeated. If  
         more than three polygons meet at a vertex, consider the different ways in 
         which they could be arranged.
       </p>
@@ -564,8 +727,9 @@
         four polygons, and eight more using three polygons (in addition to 3.7.42).
       </p>
     </hint>
+    <response />
   </task>
-  <task>
+  <task xml:id="semireg-tilings-arrangements-experiment-task" label="semireg-tilings-arrangements-experiment-laebl">
     <statement>
       <p>
         Some of the vertex arrangements in the previous task will extend to create a semiregular tiling, 
@@ -580,8 +744,9 @@
         a semiregular tiling.
       </p>
     </hint>
+    <response />
   </task>
-  <task>
+  <task xml:id="semireg-tilings-arrangements-wonder-task" label="semireg-tilings-arrangements-wonder-label">
     <statement>
       <p>
         What do you notice about the vertex arrangements that work (or those that don't 
@@ -592,7 +757,7 @@
 </exploration>
 <p>
   This activity may have involved more of a struggle than some of the others. Perhaps you 
-  only found about half of the possibilities in <xref ref="srtiling-possible-vertex-arrangements"/>
+  only found about half of the possibilities in <xref ref="semireg-tilings-arrangements-experiment-task"/>
   or you cannot yet see a pattern to help determine which vertex arrangements lead to a 
   semiregular tiling. That is perfectly normal. Write down the ideas that you do have and 
   share them with classmates. As you share what you have observed and listen to others' 
@@ -738,7 +903,7 @@
             Not including the regular tiling <m>6.6.6</m>, there are nine possible  
             vertex arrangements consisting of three regular polygons. List as many as 
             you can, referring back to the work you did in 
-            <xref ref="srtiling-possible-vertex-arrangements"/>.
+            <xref ref="semireg-tilings-arrangements-experiment-task"/>.
           </p>
         </statement>
       </task>

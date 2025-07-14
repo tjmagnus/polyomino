@@ -163,10 +163,12 @@
         <figure xml:id="fig-great-circle">
             <caption>Spherical objects</caption>
             <image source="sphericalobjects.png">
-                <shortdescription>A sphere showing two great circles, one of 
+                <shortdescription>
+                    A sphere showing two great circles, one of 
                     which is the equator. It also shows a smaller circle, like the 
                     Arctic Circle.
                 </shortdescription>
+                <!-- Remove LaTeX from descriptions.-->
             </image>
         </figure>
         <!--https://www.geogebra.org/3d/shwmkytr-->
@@ -466,7 +468,7 @@
                             </task>
                             <task xml:id="parallel-task-b-1" label="parallel-task-b-1-label">
                                 <statement>
-                                    <p>What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m>In terms of angle measure? How do you know? </p>
+                                    <p>What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m> In terms of angle measure? How do you know? </p>
                                 </statement>
                                 <response />
                             </task>
@@ -683,8 +685,8 @@
                 <introduction>
                     <p>
                         In <xref ref="def-angles-by-transversal"/>, a pair of alternate
-                        interior angles, a pair of alternate exterior angles, and a pair of 
-                        corresponding angles was identified for <xref ref="fig-transversal"/>.
+                        interior angles (<m>\angle ABC</m> and <m>\angle DCB</m>), a pair of alternate exterior angles (<m>\angle ABE</m> and <m>\angle DCH</m>), and a pair of 
+                        corresponding angles (<m>\angle ABC</m> and <m>\angle GCH</m>) was identified for <xref ref="fig-transversal"/>.
                         Use <xref ref="fig-transversal"/> to identify the following:
                     </p>
                 </introduction> 
@@ -693,6 +695,8 @@
                         <statement>
                             <p>A second pair of alternate interior angles.</p>
                         </statement>
+                        
+                        
                             <choices multiple-correct="yes">
                                 <choice correct="no">
                                     <statement>
@@ -762,33 +766,6 @@
                                 </match>
                             </cardsort>
                         </task>
-            </exercise>
-            <exercise xml:id="SAR-parallel-aia-2" label="SAR-parallel-aia-2-label">
-                <introduction>
-                    <p>
-                        In <xref ref="principle-alternate-interior-angles"/>, we claim that
-                        alternate interior angles are congruent. 
-                    </p>
-                </introduction>
-                            <task xml:id="SAR-parallel-task-measure" label="SAR-parallel-task-measure-label">
-                                <statement>
-                                    <p>
-                                        Use this principle to argue that alternate exterior angles 
-                                        <m>\angle{ABE}</m> and <m>\angle{DCH}</m> in 
-                                        <xref ref="fig-transversal"/> have the same angle measure.
-                                    </p>
-                                </statement>
-                                <response />
-                            </task>
-                            <task xml:id="SAR-parallel-task-cong" label="SAR-parallel-task-cong-label">
-                                <statement>
-                                    <p>
-                                        Give a thorough argument that corresponding angles <m>ABC</m> 
-                                        and <m>GCH</m> in <xref ref="fig-transversal"/>must be congruent.
-                                    </p>
-                                </statement>
-                                <response />
-                            </task>
             </exercise>
             <exercise xml:id="SAR-parallel-transv-angle-measures" label="SAR-parallel-transv-angle-measures-label">
                 <statement>
@@ -899,15 +876,47 @@
                             Illustration for <xref ref="SAR-parallel-transv-angle-measures"/>
                         </caption>
                         <image source="exer-transversal-angles">
-                            <shortdescription>
-                                Transversals AC and BD cut parallel lines AB and CD 
+                            <description>
+                                <p>
+                                Transversals <m>\overleftrightarrow{AC}</m> and 
+                                <m>\overleftrightarrow{BD}</m> cut parallel lines 
+                                <m>\overleftrightarrow{AB}</m> and <m>\overleftrightarrow{CD}</m>
                                 and meet at point E. Order of points on each line:
-                                Left to right: H-A-B-I and J-C-D-K. Top to bottom:
-                                F-A-C-E and G-B-D-E. 
-                            </shortdescription>
+                                Left to right: <m>H</m>-<m>A</m>-<m>B</m>-<m>I</m> and 
+                                <m>J</m>-<m>C</m>-<m>D</m>-<m>K</m>. Top to bottom:
+                                <m>F</m>-<m>A</m>-<m>C</m>-<m>E</m> and <m>G</m>-<m>B</m>-<m>D</m>-<m>E</m>. 
+                                </p>
+                            </description>
                         </image>
                     </figure>
                 </statement>
+            </exercise>
+            <exercise xml:id="SAR-parallel-aia-2" label="SAR-parallel-aia-2-label">
+                <introduction>
+                    <p>
+                        In <xref ref="principle-alternate-interior-angles"/>, we claim that
+                        alternate interior angles are congruent. 
+                    </p>
+                </introduction>
+                            <task xml:id="SAR-parallel-task-measure" label="SAR-parallel-task-measure-label">
+                                <statement>
+                                    <p>
+                                        Use this principle to argue that alternate exterior angles 
+                                        <m>\angle{ABE}</m> and <m>\angle{DCH}</m> in 
+                                        <xref ref="fig-transversal"/> have the same angle measure.
+                                    </p>
+                                </statement>
+                                <response />
+                            </task>
+                            <task xml:id="SAR-parallel-task-cong" label="SAR-parallel-task-cong-label">
+                                <statement>
+                                    <p>
+                                        Give a thorough argument that corresponding angles <m>\angle ABC</m> 
+                                        and <m>\angle GCH</m> in <xref ref="fig-transversal"/> must be congruent.
+                                    </p>
+                                </statement>
+                                <response />
+                            </task>
             </exercise>
         </subexercises>
         <subexercises xml:id="ExtConc-polygons-parallel" label="ExtConc-polygons-parallel-label">
