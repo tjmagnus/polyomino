@@ -182,10 +182,31 @@
         </prefigure>
       </image>
     </figure>
-    <exercise>
+    <p>
+      Our study of <term>star polygons</term> is not limited to figures built with five 
+      or six concentric dots. 
+    </p>
+    <definition xml:id="def-star-polygon">
+      <statement>
+        <idx><h>star polygon</h></idx>
+        <usage><m>\{_{k}^{n}\}</m></usage>
+        <description>Star polygon on <m>n</m> points</description>
+        <p>
+          We define the star polygon <m>\{_{k}^{n}\}</m> to be the planar 
+          figure formed by a set of <m>n</m> concentric points together with 
+          a series of line segments that join each point to the <m>k^\text{th}</m>
+          point from it moving clockwise around the circle.
+        </p>
+        <p>For a shorter phrasing we can call <m>k</m> the skip number of the star polygon 
+          on <m>n</m> points, but we need to take care. We are only skipping <m>k-1</m> points, 
+          connecting every <m>k^\text{th}</m> point.
+        </p>
+      </statement>
+    </definition>  
+    <exercise label="ckpt5starpoly-nminusk-label" xml:id="ckpt5starpoly-nminusk">
       <statement>
         <p>
-          Construct the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
+          Sketch the <m>\{_{3}^{5}\}</m>- and <m>\{_{4}^{5}\}</m>-star polygons. What 
           do you notice about them?
         </p>
       </statement>
@@ -441,16 +462,22 @@
         </statement>
         <answer>
           <p>
-            <m>
-              \{_{3}^{6}\} looks like three line segments intersecting at their midpoints. 
-            </m>
+            The star polygon <m>\{_{3}^{6}\}</m> looks like three line segments 
+            intersecting at their midpoints. 
           </p>
         </answer>
+      </task>
+      <task label="ckpt-six-starpoly-nminusk-label" xml:id="ckpt-six-starpoly-nminusk">
+        <statement>
+          <p>
+            Predict what <m>\{_{4}^{6}\}</m> and <m>\{_{5}^{6}\}</m> will look like. Explain.
+          </p>
+        </statement>
       </task>
     </exercise>
   </subsection>
   <subsection xml:id="subsec-starpoly-sevenplus">
-    <title>Exploring Star Polygons with More Than Six Vertices</title>
+    <title>Exploring Star Polygons with Seven to Ten Vertices</title>
     <introduction>
       <p>
         We have observed that star polygons may look like regular polygons, overlapping
@@ -461,161 +488,956 @@
         the exploration.  
       </p>
     </introduction>
+      <aside component="instructor">
+          <p>
+             As students work on this exploration, a quick check for symmetry can assist
+             you (and them) in determining whether they are using the skip number consistently.
+             Encourage them to use a different color for each connected component. At this 
+             point they should note down any conjectures they have without the concern that 
+             their answers will be graded for correctness. This explore, observe, conjecture, 
+             and justify process encourages creativity and reasoning, two important parts of 
+             mathematical learning. Don't deprive your students of this opportunity! 
+             A later exploration will examine the theory in more detail. At that time, 
+             they can revise and clarify their conjectures. 
+          </p>
+      </aside>
     <exploration label="expl-starpolys-l" xml:id="expl-starpolys">
-      <title>Star Polygons <m>\{_{k}^{n}\}</m> for <m>n\gt 6</m></title>
+      <title>Star Polygons <m>\{_{k}^{n}\}</m> for <m>7\lt n\lt 10</m></title>
       <task label="expltask-starpolys-7-l" xml:id="expltask-starpolys-7">
         <title>
-          Seven-vertex star polygons
+          Seven-dot star polygons
         </title>
         <statement>
           <p>
             Construct the star polygons <m>\{_{1}^{7}\}</m>, <m>\{_{2}^{7}\}</m>,
             and <m>\{_{3}^{7}\}</m>. Templates are provided in 
-            <xref ref="fig-3copies-7dots"/>.
+            <xref ref="fig-3copies-7dots"/>. 
           </p>
           <figure xml:id="fig-3copies-7dots" label="figlabel-3copies-7dots">
-            <caption>Templates for task<xref ref="expltask-starpolys-7"/>.</caption>
-            <sidebyside widths="30% 30% 30%">
-              <figure label="figlabel-7dots" xml:id="fig-7dots">
-                <caption>Template for <m>\{_{1}^{7}\}</m>.</caption>
+            <caption>Templates for <xref ref="expltask-starpolys-7"/>.</caption>
+            <sidebyside>
+              <!--<figure label="figlabel-7dots" xml:id="fig-7dots">
+                <caption>Template for <m>\{_{1}^{7}\}</m>.</caption>-->
                 <image>
-                  <prefigure xmlns="https://prefigure.org" label="sevendotcircle1">
-                    <diagram width="225" height="225" margins="10">
-                      <definition>
-                        alignments=['nw','w','sw','sw','e','ne','n']
-                      </definition>
-                      <definition>f(t)=(-sin(2*pi*(1+t)/7),cos(2*pi*(1+t)/7))</definition>
-                      <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
-                        <repeat parameter="k=0..6">
-                          <point at="point" p="f(k)" alignment="alignments[k]" size="2">
-                            <m>${7-k}</m>
-                          </point>
-                        </repeat>
-                      </coordinates>
-                      <annotations>
-                        <annotation id="figure" text="Seven Points around a Circle">
-                          <annotation id="point k=0"
-                            text="Point 7"
-                            speech="point seven"/>
-                          <annotation id="point k=1"
-                            text="Point 6"
-                            speech="point six"/>
-                          <annotation id="point k=2"
-                            text="Point 5"
-                            speech="point five"/>
-                          <annotation id="point k=3"
-                            text="Point 4"
-                            speech="point four"/>
-                          <annotation id="point k=4"
-                            text="Point 3"
-                            speech="point three"/>
-                          <annotation id="point k=5"
-                            text="Point 2"
-                            speech="point two"/>
-                          <annotation id="point k=6"
-                            text="Point 1"
-                            speech="point one"/>
-                        </annotation>
-                      </annotations>
-                    </diagram>
+                  <prefigure xmlns="https://prefigure.org" label="sevendotcircle1" 
+                  xml:id="sevendotcircle">
+                    <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              </figure>
+              <!--</figure>
               <figure>
-                <caption>Template for <m>\{_{2}^{7}\}</m>.</caption>
+                <caption>Template for <m>\{_{2}^{7}\}</m>.</caption>-->
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle2">
-                    <diagram width="225" height="225" margins="10">
-                      <definition>
-                        alignments=['nw','w','sw','sw','e','ne','n']
-                      </definition>
-                      <definition>f(t)=(-sin(2*pi*(1+t)/7),cos(2*pi*(1+t)/7))</definition>
-                      <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
-                        <repeat parameter="k=0..6">
-                          <point at="point" p="f(k)" alignment="alignments[k]" size="2">
-                            <m>${7-k}</m>
-                          </point>
-                        </repeat>
-                      </coordinates>
-                      <annotations>
-                        <annotation id="figure" text="Seven Points around a Circle">
-                          <annotation id="point k=0"
-                            text="Point 7"
-                            speech="point seven"/>
-                          <annotation id="point k=1"
-                            text="Point 6"
-                            speech="point six"/>
-                          <annotation id="point k=2"
-                            text="Point 5"
-                            speech="point five"/>
-                          <annotation id="point k=3"
-                            text="Point 4"
-                            speech="point four"/>
-                          <annotation id="point k=4"
-                            text="Point 3"
-                            speech="point three"/>
-                          <annotation id="point k=5"
-                            text="Point 2"
-                            speech="point two"/>
-                          <annotation id="point k=6"
-                            text="Point 1"
-                            speech="point one"/>
-                        </annotation>
-                      </annotations>
-                    </diagram>
+                    <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              </figure>
+              <!--</figure>
               <figure>
-                <caption>Template for <m>\{_{3}^{7}\}</m>.</caption>
+                <caption>Template for <m>\{_{3}^{7}\}</m>.</caption>-->
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle3">
-                    <diagram width="225" height="225" margins="10">
-                      <definition>
-                        alignments=['nw','w','sw','sw','e','ne','n']
-                      </definition>
-                      <definition>f(t)=(-sin(2*pi*(1+t)/7),cos(2*pi*(1+t)/7))</definition>
-                      <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
-                        <repeat parameter="k=0..6">
-                          <point at="point" p="f(k)" alignment="alignments[k]" size="2">
-                            <m>${7-k}</m>
-                          </point>
-                        </repeat>
-                      </coordinates>
-                      <annotations>
-                        <annotation id="figure" text="Seven Points around a Circle">
-                          <annotation id="point k=0"
-                            text="Point 7"
-                            speech="point seven"/>
-                          <annotation id="point k=1"
-                            text="Point 6"
-                            speech="point six"/>
-                          <annotation id="point k=2"
-                            text="Point 5"
-                            speech="point five"/>
-                          <annotation id="point k=3"
-                            text="Point 4"
-                            speech="point four"/>
-                          <annotation id="point k=4"
-                            text="Point 3"
-                            speech="point three"/>
-                          <annotation id="point k=5"
-                            text="Point 2"
-                            speech="point two"/>
-                          <annotation id="point k=6"
-                            text="Point 1"
-                            speech="point one"/>
-                        </annotation>
-                      </annotations>
-                    </diagram>
+                    <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              </figure>
+              <!--</figure>-->
             </sidebyside>
+          </figure>
+          <p>
+            If you are unable to sketch on the templates above, you may use the GeoGebra
+            interactive in <xref ref="sevendot-starpoly-appfig"/> to draw 7-dot star polygons.
+          </p>
+          <figure xml:id="sevendot-starpoly-appfig">
+            <caption>
+                GeoGebra interactive for drawing 7-dot star polygons
+            </caption>
+            <interactive xml:id="sevendot-starpoly-app" geogebra="cgnsaja4"
+            width="90%" aspect="9:4" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            <!--platform="geogebra">
+                <slate surface="geogebra" material="q2b6amrz"/>
+            </interactive>-->
           </figure>
         </statement>
       </task>
-      
+      <task label="match-sevendot-starpolys">
+        <statement>
+          <p>
+            Match the star polygon on the left with the star polygon on the right that 
+            is the same.
+          </p>
+        </statement>
+        <feedback>
+          <p>
+            Consider which five-dot and six-dot star polygons looked the same. Why? If you 
+            are not sure, construct the remaining seven-dot star polygons.
+          </p>
+        </feedback>
+        <cardsort>
+          <match>
+            <premise><m>\{_{4}^{7}\}</m></premise>
+            <response order="1"><m>\{_{3}^{7}\}</m></response>
+          </match>
+          <match>
+            <premise><m>\{_{5}^{7}\}</m></premise>
+            <response order="3"><m>\{_{2}^{7}\}</m></response>
+          </match>
+          <match>
+            <premise><m>\{_{6}^{7}\}</m></premise>
+            <response order="2"><m>\{_{1}^{7}\}</m></response>
+          </match>
+        </cardsort>
+      </task>
+      <task label="expltask-starpolys-8dots-l" xml:id="expltask-starpolys-8dots">
+        <title>Eight-dot star polygons.</title>
+        <task label="explsbtask-starpolys-81-l" xml:id="explsbtask-starpolys-81">
+          <statement>
+            <p>
+              Describe or sketch the star polygon <m>\{_{1}^{8}\}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              This is a regular octagon.
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="explsubtask-starpolys-82-l" xml:id="explsubtask-starpolys-82">
+          <statement>
+            <p>
+              Sketch the star polygon <m>\{_{2}^{8}\}</m> using either the template in 
+              <xref ref="fig-starpolys-template-8"/> or the GeoGebra applet in 
+              <xref ref="eightdot-starpoly-appfig"/>. Be sure to label your design with the 
+              symbol <m>\{_{2}^{8}\}</m>.
+            </p>
+            <p>
+              Draw star polygons by beginning each new segment at the endpoint of the 
+              previous segment. When you return to the starting point, switch to a new 
+              color. The connected components, formed by connecting points in this fashion, 
+              will be easy to identify.
+            </p>
+            <figure xml:id="fig-starpolys-template-8">
+            <caption>Template for exploring 8-point star polygons.</caption>
+            <image>
+              <prefigure xmlns="https://prefigure.org" label="eightdotcircle">
+                  <xi:include href="pref-for-8-dot-circle.ptx" />
+                </prefigure>
+              </image> 
+            </figure>
+            <figure xml:id="eightdot-starpoly-appfig" label="eightdot-starpoly-applabel">
+              <caption>
+                  GeoGebra interactive for drawing 8-dot star polygons
+              </caption>
+              <interactive xml:id="eightdot-starpoly-app" geogebra="phddxzyr"
+               aspect="10:3" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            </figure>
+          </statement>
+        </task>
+        <task label="pencillifts-82-label" xml:id="pencillifts-82">
+          <statement>
+            <p>
+              How many times were you required to "lift your pencil" while drawing 
+              <m>\{_{2}^{8}\}</m>? 
+            </p>
+            
+          </statement>
+          <answer>
+            <p>
+              Twice.
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="pencilliftshape-82-label" xml:id="pencilliftshape-82">
+          <statement>
+            <p>
+              What shape was created when you returned to your starting point (before 
+              lifting your pencil)?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              A square.
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="describe82starpoly-label" xml:id="describe82starpoly">
+          <statement>
+            <p>
+              Summarize your responses in <xref ref="pencillifts-82"/> and 
+              <xref ref="pencilliftshape-82"/> to describe in words what a <m>\{_{2}^{8}\}</m>
+              star polygon looks like.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Your answer may include the number of copies of a familiar shape. You might 
+              also include a rotational angle or how these copies are related in position.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Answers may vary. Two copies of a square with a common center rotated 45 degrees
+              from each other.
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="draw-other-8starpoly-label" xml:id="draw-other-8starpoly">
+          <statement>
+            <p>
+              Use copies of the template or the Geogebra applet to draw the
+              remaining 8-dot star polygons. When two eight-dot star polygons 
+              are known to look identical, you do not need to draw the design 
+              a second time. Instead write the two symbols, <m>\{_{k}^{8}\}</m> 
+              below the design, replacing <m>k</m> by the appropriate number.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              See below for descriptions of <m>\{_{3}^{8}\}</m> and <m>\{_{4}^{8}\}</m>.
+              Also <m>\{_{5}^{8}\}=\{_{3}^{8}\}</m>, <m>\{_{6}^{8}\}=\{_{2}^{8}\}</m>,
+              and <m>\{_{7}^{8}\}=\{_{1}^{8}\}</m>.
+            </p>
+          </answer>
+        </task>
+        <task label="describe83starpoly-label" xml:id="describe83starpoly">
+          <statement>
+            <p>
+              Describe <m>\{_{3}^{8}\}</m>. Did you need to lift your pencil to draw it?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              It can be drawn in a continuous sequence of line segments without lifting 
+              the pencil. It looks like a star with eight points. 
+            </p>
+          </answer>
+          <response/>
+        </task>
+        <task label="describe84starpoly-label" xml:id="describe84starpoly">
+          <statement>
+            <p>
+              Describe <m>\{_{4}^{8}\}</m>. Did you need to lift your pencil to draw it?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Yes. It consists of four line segments that meet at their midpoints.
+            </p>
+          </answer>
+          <response />
+        </task>
+      </task>
+      <task label="expl-ninedot-starpolys-l" xml:id="expl-ninedot-starpolys">
+        <title>Nine-dot Star Polygons</title>
+        <introduction>
+          <p>
+            Now that we have experience drawing star polygons, let us make 
+            some predictions for nine-dot star polygons.
+          </p>
+        </introduction>
+        <task label="task-9star-regnonagon-l" xml:id="task-9star-regnonagon">
+          <statement>
+            <p>
+              Identify any nine-dot star polygons that are regular nonagons.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\{_{1}^{9}\}</m> and <m>\{_{8}^{9}\}</m>
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="expltask-9dotstarpoly-continuousdraw-l" 
+          xml:id="expltask-9dotstarpoly-continuousdraw">
+          <statement>
+            <p>
+              Which nine-dot star polygons can be drawn without lifting one's pencil?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\{_{1}^{9}\}</m>, <m>\{_{2}^{9}\}</m>, <m>\{_{4}^{9}\}</m>,
+              <m>\{_{5}^{9}\}</m>, <m>\{_{7}^{9}\}</m> and <m>\{_{8}^{9}\}</m>.
+            </p>
+          </answer>
+          <response/>
+        </task>
+        <task label="expltask-predict-93starpoly-l" xml:id="expltask-predict-93starpoly">
+          <introduction>
+            <p>
+              One of the nine-dot star polygons that requires us to lift our pencil and 
+              restart at a new dot is <m>\{_{3}^{9}\}</m>. 
+            </p>
+          </introduction>
+          <task label="expltask-predictshape-93starpoly" 
+            xml:id="expltask-predictshape-93starpoly">
+            <statement>
+              <p>
+                What shape is formed before we have to lift up our pencil?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                A triangle.
+              </p>
+            </answer>
+            <response />
+          </task>
+          <task label="expltask-predictnumb-93starpoly-l" 
+            xml:id="expltask-predictnumb-93starpoly">
+            <statement>
+              <p>
+                How many copies of that shape appear in <m>\{_{3}^{9}\}</m>?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Three
+              </p>
+            </answer>
+            <response />
+          </task>
+          <task>
+            <statement>
+              <p>
+                Will any of the 9-point star polygons look like line segments meeting at 
+                their midpoints? If so, identify the skip value(s), <m>k</m> for which this 
+                happens. If not, explain why this will not happen.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                This will not happen.
+              </p>
+            </answer>
+          </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use the nine-dot template in <xref ref="fig-starpolys-template-9"/> 
+              or the Geogebra applet in <xref ref="ninedot-starpoly-appfig"/> 
+              to check your answers to the above tasks and to answer the next question.
+            </p>
+            <p>
+              Are the star polygons <m>\{_{2}^{9}\}</m> and <m>\{_{4}^{9}\}</m> the 
+              same? Explain.
+            </p>
+            <figure xml:id="fig-2copies-9dots" label="figlabel-2copies-9dots">
+              <caption>Templates for <xref ref="expl-ninedot-starpolys"/>.</caption>
+              <sidebyside widths="45% 45%">
+                <figure xml:id="fig-starpolys-template-9">
+                  <caption></caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="ninedotcircle">
+                      <xi:include href="pref-for-9-dot-circle.ptx" />
+                    </prefigure>
+                  </image> 
+                </figure>
+                <figure xml:id="fig-starpolys-template-9second">
+                  <caption></caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="ninedotcircle2">
+                        <xi:include href="pref-for-9-dot-circle.ptx" />
+                    </prefigure>
+                  </image> 
+                </figure> 
+                </sidebyside>
+              </figure>
+            <figure xml:id="ninedot-starpoly-appfig" label="ninedot-starpoly-applabel">
+              <caption>
+                  GeoGebra interactive for drawing 9-dot star polygons
+              </caption>
+              <interactive xml:id="ninedot-starpoly-app" geogebra="mc9sff95"
+               aspect="9:3" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            </figure>
+          </statement>
+        </task>
+      </task>
+      <task label="expl-tendot-starpolys-l" xml:id="expl-tendot-starpolys">
+        <title>Ten-dot Star Polygons</title>
+        <introduction>
+          <p>
+            Some of the ten-point star polygons are easy to predict but with ten points we  
+            will encounter one final possibility for the first time.
+          </p>
+          <p>
+            As with nine dots, we try to make predictions for some of the ten-point star 
+            polygons first. In your descriptions, be sure to identify the number of connected 
+            components and the shape of each connected component. A ten-dot template is provided 
+            following the predictions to 
+            explore the less obvious cases. Feel free to use the template for visualizing and 
+            verifying the anticipated star polygons as needed.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Describe <m>\{_{1}^{10}\}</m>. For what other value of <m>k</m>, is 
+              <m>\{_{k}^{10}\}\cong\{_{1}^{10}\}</m> ?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Describe <m>\{_{2}^{10}\}</m>. This will have more than one connected component so be 
+              sure to identify the number of shape of the components. For what other value of <m>k</m>, is 
+              <m>\{_{k}^{10}\}\cong\{_{2}^{10}\}</m> ?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Will any of the 10-point star polygons look like line segments meeting at 
+              their midpoints? If so, identify the skip value(s), <m>k</m> for which this 
+              happens. If not, explain why this will not happen.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              This occurs when <m>k=5</m>.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Either sketch or describe <m>\{_{3}^{10}\}</m>. You may use the template in 
+              <xref ref="fig-starpolys-template-10"/> 
+            </p><figure xml:id="fig-starpolys-template-10">
+            <caption>Template for exploring 10-point star polygons.</caption>
+            <image>
+              <prefigure xmlns="https://prefigure.org" label="tendotcircle">
+                  <xi:include href="pref-for-10-dot-circle.ptx" />
+                </prefigure>
+              </image> 
+            </figure>
+            <figure xml:id="tendot-starpoly-appfig" label="tendot-starpoly-applabel">
+              <caption>
+                  GeoGebra interactive for drawing 10-dot star polygons
+              </caption>
+              <interactive xml:id="tendot-starpoly-app" geogebra="unmuwysj"
+               aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            </figure>
+          </statement>
+        </task>
+        <task>
+          <introduction>
+            <p>
+              In this task, we encounter a somewhat new result. We break our construction 
+              into separate steps to observe the features of the design.
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                Without lifting your pencil, connect every fourth dot until you return 
+                to your starting dot. What figure do you see? Describe this in terms of a  
+                previously constructed <m>\{_{k}^{n}\}</m> star polygon, identifying the 
+                values of <m>n</m> and <m>k</m>.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Ignore the dots that are not part of this connected component. The value 
+                of <m>n</m> will be the number of dots in the connected component.
+              </p>
+            </hint>
+            <answer>
+              <p>
+                The connected component is a five-pointed star, <m>\{_{2}^{5}\}</m> or 
+                equivalently <m>\{_{3}^{5}\}</m>.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Now drawing the remaining component(s) starting at an unused dot. If 
+                possible, use a different color for each connected component. How many 
+                connected components does <m>\{_{4}^{10}\}</m> have? Are the components
+                congruent to each other?
+              </p>
+            </statement>
+          </task>
+        </task>
+      </task>
     </exploration>
   </subsection>
+  <subsection xml:id="subsec-starpolys-generalizing">
+    <title>Making Conjectures and Generalizations about Star Polygons</title>
+    <introduction>
+      <p>
+        By now, you may be able to predict what a star polygon <m>\{_{k}^{n}\}</m>looks like simply by 
+        analyzing relationships between <m>n</m> and <m>k</m>. In <xref ref="expl-starpolys-general"/>,
+        we formalize these conjectures. When we make general conjectures and statements, we   
+        use variables instead of specific values.
+      </p>
+      <aside component="instructor">
+        <p>
+            Again, enable students to participate in mathematical reasoning by not 
+            grading for correctness. Some students will need encouragement to share and 
+            hone their conjectures. This is a great opportunity to work with small groups
+            asking them questions and clarifying instructions, but not giving answers. Perhaps,
+            each group will have a conjecture and justification they can share. Identify these
+            opportunities for presentations as you interact with the groups and order the 
+            whole class discussion from 
+            foundational to general, conjecture to justification.
+        </p>
+    </aside>
+    </introduction>
+    <exploration xml:id="expl-starpolys-general" label="expl-label-starpolys-general">
+      <introduction>
+        <p>
+          Throughout this exploration, the reader is invited to look back at their earlier 
+          work in this section. Templates for twelve-dot, fifteen-dot, twenty-dot, and 
+          twenty-four-dot circles are provided to allow students to further explore and 
+          validate their conjectures. Students wishing to use GeoGebra will find apps for 
+          12-, 15-, 20-, and 24-dot 
+          circles at the end of the exploration. These can also be accessed via hyperlinks
+          in the reading.
+        </p>
+      </introduction>
+      <task label="subtask-starpoly-general-k-one-label"  xml:id="subtask-starpoly-general-k-one">
+        <introduction>
+          <p>
+            Let us begin by summarizing what we know about <m>\{_{1}^{n}\}</m>.
+          </p>
+        </introduction>
+        <task label="subtask-starpoly-general-k-one-label-conj"  
+        xml:id="subtask-starpoly-general-k-one-conj">
+          <statement>
+            <p>
+              If <m>n</m> is any natural number greater than two, what is the shape of 
+              <m>\{_{1}^{n}\}</m>?
+            </p>
+          </statement>  
+        </task>
+        <task label="subtask-starpoly-general-k-one-label-justify"  
+        xml:id="subtask-starpoly-general-k-one-justify">
+          <statement>
+            <p>
+              Observing a pattern is not a mathematical proof. Justify your claim in 
+              <xref ref="subtask-starpoly-general-k-one-conj"/> by writing a few sentences 
+              that explain why this type of shape appears whenever <m>k=1</m> regardless of 
+              the choice of <m>n\geq 3</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              How are the dots connected in <m>\{_{1}^{n}\}</m>?
+            </p>
+          </hint>
+        </task>
+        <task label="starpolytasklabel-general-nminusk" xml:id="starpolytask-general-nminusk">
+          <statement>
+            <p>
+              We observed that <m>\{_{3}^{5}\}\cong \{_{2}^{5}\}</m> and 
+              <m>\{_{4}^{5}\}\cong\{_{1}^{5}\}</m> in <xref ref="ckpt5starpoly-nminusk"/>.
+              Fill in the blank to complete the conjecture: <m>\{_{j}^{n}\}\cong\{_{k}^{n}\}</m> 
+              when <m>j=</m> <fillin mode="math" width="10" answer="n-k"/>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Write your answer as an algebraic expression involving the variables <m>k</m>
+              and <m>n</m>.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>n-k</m>
+            </p>
+          </answer>
+          <response />
+        </task>
+        <task label="starpolysubtask-one-pencil-l" xml:id="starpolysubtask-one-pencil">
+          <statement>
+            <p>
+              Review the sketches of star polygons than have appeared in your reading and work. 
+              Which of these can be drawn by visiting every dot before returning to the starting location?
+              Assume that you are not lifting your pencil as you connect every kth dot.
+            </p>
+          </statement>
+          <choices multiple-correct="yes" cols="2">
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{2}^{5}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{1}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{2}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{3}^{6}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{2}^{7}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{3}^{7}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{2}^{8}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{3}^{8}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p><m>\{_{4}^{9}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{6}^{9}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="no">
+              <statement>
+                <p><m>\{_{4}^{10}\}</m></p>
+              </statement>
+            </choice>
+            <choice correct="yes">
+              <statement>
+                <p>
+                  <m>\{_{7}^{10}\}</m>
+                </p>
+              </statement>
+            </choice>
+          </choices>
+        </task>
+        <task label="predict-one-pencil-l" xml:id="predict-one-pencil">
+          <statement>
+            <p>
+              Which of the following star polygons do you expect to be able to draw without lifting
+              your pencil?
+            </p>
+          </statement>
+            <choices>
+              <choice correct="no">
+                <statement>
+                  <p>
+                    <m>\{_{6}^{12}\}</m>
+                  </p>
+                </statement>
+              </choice>
+              <choice correct="yes">
+                <statement>
+                  <p>
+                    <m>\{_{7}^{20}\}</m>
+                  </p>
+                </statement>
+              </choice>
+              <choice correct="no">
+                <statement>
+                  <p>
+                    <m>\{_{8}^{20}\}</m>
+                  </p>
+                </statement>
+              </choice>
+            </choices>
+        </task>
+        <task label="starpolysubtask-one-pencil-conj-l" xml:id="starpolysubtask-one-pencil-conj">
+          <statement>
+            <p>
+              Based on <xref ref="starpolysubtask-one-pencil"/>, make a conjecture as 
+              to the relationship between <m>k</m> and <m>n</m>
+              when a star polygon can be drawn without lifting one's pencil. Be sure that
+              all of the checked star polygons in <xref ref="starpolysubtask-one-pencil"/> 
+              satisfy your relationship. Also, verify that any unchecked star polygons do not meet
+              your criteria. 
+            </p>
+          </statement>
+        </task>
+        <task label="starpolysubtask-one-pencil-conj-whenfalse-l" xml:id="starpolysubtask-one-pencil-conj-whenfalse">
+          <statement>
+            <p>
+              Explain why drawing any star polygon which does not meet your criteria in 
+              <xref ref="starpolysubtask-one-pencil-conj"/>, for example 
+              <m>\{_{8}^{20}\}</m>, will require you to lift your pencil. Write your explanation
+              so that it discusses general values of <m>n</m> and <m>k</m>. You may also include 
+              specific examples to make your argument clearer.
+            </p>
+          </statement>
+        </task>
+        <task label="starpolysubtask-one-pencil-conj-whentrue-l" xml:id="starpolysubtask-one-pencil-conj-whentrue">
+          <statement>
+            <p>
+              Explain why drawing any star polygon which meets your criteria in 
+              <xref ref="starpolysubtask-one-pencil-conj"/> will allow you to connect every
+              dot before you need to
+              lift your pencil. Write your explanation
+              so that it discusses general values of <m>n</m> and <m>k</m>. You may also include 
+              specific examples to make your argument clearer.
+            </p>
+          </statement>
+        </task>
+        <task label="starpoly-shape-components-l" xml:id="starpoly-shape-components">
+          <introduction>
+            <p>
+              Next we will focus on the shape of connected components of star polygons.
+            </p>
+          </introduction>
+          <task label="starpoly-triangle-components-l" xml:id="starpoly-triangle-components">
+            <statement> 
+              <p>
+                Sketch the star polygons <m>\{_{4}^{12}\}</m> and <m>\{_{5}^{15}\}</m> using 
+                the templates in <xref ref="starpoly-templates-12and15"/> or the GeoGebra 
+                apps in <xref ref="starpolydots-GeoGebra-12"/> and 
+                <xref ref="starpolydots-GeoGebra-15"/>.
+              </p>
+              <figure xml:id="starpoly-templates-12and15">
+                <caption>Templates for 12-dot and 15-dot star polygons.</caption>
+                <sidebyside>
+                  <figure xml:id="twelvedotstarpolytemplate">
+                    <caption>Twelve-dot template.</caption>
+                    <image>
+                      <prefigure xmlns="https://prefigure.org" label="twelvedot4circle" 
+                      xml:id="twelvedotcircle">
+                        <xi:include href="pref-for-12-dot-circle.ptx" />
+                      </prefigure>
+                    </image> 
+                  </figure>
+                  <figure xml:id="fifteendotstarpolytemplate">
+                    <caption>Fifteen-dot template.</caption>
+                    <image>
+                      <prefigure xmlns="https://prefigure.org" label="fifteendot5circle" 
+                      xml:id="fifteendot5circle">
+                        <xi:include href="pref-for-15-dot-circle.ptx" />
+                      </prefigure>
+                    </image> 
+                  </figure>
+                </sidebyside>
+              </figure>
+              <p>
+                What shape is the initial connected component of <m>\{_{4}^{12}\}</m> and 
+                <m>\{_{5}^{15}\}</m>? Do the second connected 
+                components have the same shape?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Identify another pair of numbers <m>n</m> and <m>k</m> such that
+                a connected component of <m>\{_{k}^{n}\}</m> has the shape you identified in
+                <xref ref="starpoly-triangle-components"/>
+              </p>
+            </statement>
+          </task>
+          <task label="starpoly-triangle-conjecture-l" xml:id="starpoly-triangle-conjecture">
+            <statement>
+              <p>
+                Write a conjecture which identifies how the values <m>n</m> and <m>k</m>
+                tell you that the first connected component has this shape. Include the 
+                name of this shape in your statement.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What is the shape of the first connected component of <m>\{_{8}^{12}\}</m>?
+                Revise your conjecture in <xref ref="starpoly-triangle-conjecture"/> to  
+                include this and similar cases.
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Given the numbers <m>n</m> and <m>k</m>, can you determine how many 
+                copies of this shape will appear in the complete <m>\{_{k}^{n}\}</m>
+                star polygon? How?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Next consider the connected components of <m>\{^{12}_{3}\}</m> and 
+                <m>\{_{5}^{20}\}</m>. What do you expect the shape of each connected 
+                component to be? Sketch these two star polygons, <m>\{^{12}_{3}\}</m> and 
+                <m>\{_{5}^{20}\}</m>, using different colors for each connected component. 
+                GeoGebra apps for these constructions may be accessed via 
+                <xref ref="starpolydots-GeoGebra-12"/> and <xref ref="starpolydots-GeoGebra-20"/>.
+              </p>
+              <figure xml:id="starpoly-templates-12and20">
+                <caption>Templates for 12-dot and 20-dot star polygons.</caption>
+                <sidebyside >
+                  <figure xml:id="twelvedotstarpolytemplate2">
+                    <caption>Twelve-dot template.</caption>
+                    <image>
+                      <prefigure xmlns="https://prefigure.org" label="twelvedot3circle" 
+                      xml:id="twelvedot3circle">
+                        <xi:include href="pref-for-12-dot-circle.ptx" />
+                      </prefigure>
+                    </image> 
+                  </figure>
+                  <figure xml:id="twentydotstarpolytemplate">
+                    <caption>Twenty-dot template.</caption>
+                    <image>
+                      <prefigure xmlns="https://prefigure.org" label="twentydot5circle" 
+                      xml:id="twentydot5circle">
+                        <xi:include href="pref-for-20-dot-circle.ptx" />
+                      </prefigure>
+                    </image> 
+                  </figure>
+                </sidebyside>
+              </figure>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Did you correctly predict the shape of the connected component? What shape?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Identify another pair of numbers <m>n</m> and <m>k</m> for which the 
+                connected components of <m>\{_{k}^{n}\}</m> has this shape. You may identify
+                one encountered already or one that you have not seen yet. How many copies 
+                of this shape will <m>\{_{k}^{n}\}</m> have?
+              </p>
+            </statement>
+          </task>
+          <task>
+            <introduction>
+              <p>
+                Sketch the star polygons, <m>\{_{15}^{6}\}</m> and <m>\{_{20}^{8}\}</m>.
+              </p>               
+              <figure xml:id="fifteendotstarpolytemplate2">
+                <caption>Twelve-dot template.</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="fifteendot6circle" 
+                  xml:id="fifteendot6circle">
+                    <xi:include href="pref-for-15-dot-circle.ptx" />
+                  </prefigure>
+                </image> 
+              </figure>
+              <figure xml:id="twentydotstarpolytemplate2">
+                <caption>Twenty-dot template.</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="twentydot8circle" 
+                  xml:id="twentydot8circle">
+                    <xi:include href="pref-for-20-dot-circle.ptx" />
+                  </prefigure>
+                </image> 
+              </figure>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  What shape are their individual connected components?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Denote this shape using <m>\{_{j}^{m}\}</m> star polygon notation. What
+                  are the values of <m>m</m> and <m>j</m>?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  How many connected components does <m>\{_{6}^{15}\}</m> have?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  How many connected components does <m>\{_{8}^{20}\}</m> have?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  How is the number of connected components related to the values
+                  <m>n</m> and <m>k</m>?
+                </p>
+              </statement>
+            </task>    
+          </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Summarize what you have learned about how the design of a <m>\{_{k}^{n}\}</m>
+              star polygon is determined by the values of <m>n</m> and <m>k</m>. Include the 
+              number of connected components and the shape of the connected components.
+            </p>
+            <p>
+              Geogebra interactives are provided here for students wishing to use them.
+            </p>
+            <figure xml:id="starpolydots-GeoGebra-12" label="starpolydots-GeoGebra-12-label">
+              <caption>
+                  GeoGebra interactive for drawing 12-dot star polygons
+              </caption>
+              <interactive xml:id="twelvedot-starpoly-app" geogebra="rtkesejx"
+                aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
+            </figure>
+            <figure xml:id="starpolydots-GeoGebra-15">
+              <caption>Geogebra interactive for drawing 15-point star polygons</caption>
+                <interactive xml:id="fifteendot-starpoly-app" geogebra="dtepagfu"
+                  aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
+            </figure>
+            <figure xml:id="starpolydots-GeoGebra-20">
+              <caption>Geogebra interactive for drawing 20-point star polygons</caption>
+                <interactive xml:id="twentydot-starpoly-app" geogebra="g9dg457j"
+                  aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
+            </figure>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The following GeoGebra interactive can be used to verify that your claims
+              hold for star polygons with 18 or 24 dots.
+            </p>
+            <figure xml:id="starpolydots-GeoGebra-18and24">
+              <caption>Geogebra interactive for drawing 18 and 24-point star polygons</caption>
+                <interactive xml:id="starpoly-18and24-app" geogebra="rr9kzgzn"
+                  aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
+            </figure>
+          </statement>
+        </task>
+      </task>
+    </exploration>
+
+
+
+  </subsection>
+  
 </section>  

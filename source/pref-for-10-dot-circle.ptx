@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
+    <definition>
+    alignments=['nw','w','w','sw','s','se','e','e','ne','n']
+    </definition>
+    <definition>f(t)=(-sin(2*pi*(1+t)/10),cos(2*pi*(1+t)/10))</definition>
+    <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
+    <repeat parameter="k=0..9">
+        <point at="point" p="f(k)" alignment="alignments[k]" size="2">
+        <m>${10-k}</m>
+        </point>
+    </repeat>
+    </coordinates>
+    <annotations>
+    <annotation id="figure" text="Ten Points around a Circle">
+        <annotation id="point k=0"
+            text="Point 10"
+            speech="point ten"/>
+        <annotation id="point k=1"
+            text="Point 9"
+            speech="point nine"/>
+        <annotation id="point k=2"
+            text="Point 8"
+            speech="point eight"/>
+        <annotation id="point k=3"
+            text="Point 7"
+            speech="point seven"/>
+        <annotation id="point k=4"
+            text="Point 6"
+            speech="point six"/>
+        <annotation id="point k=5"
+            text="Point 5"
+            speech="point five"/>
+        <annotation id="point k=6"
+            text="Point 4"
+            speech="point four"/>
+        <annotation id="point k=7"
+            text="Point 3"
+            speech="point three"/>
+        <annotation id="point k=8"
+            text="Point 2"
+            speech="point two"/>
+        <annotation id="point k=9"
+            text="Point 1"
+            speech="point one"/>
+        </annotation>
+    </annotations>
+</diagram>

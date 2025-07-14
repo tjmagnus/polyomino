@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
+    <definition>
+    alignments=['nw','nw','nw','w','sw','sw','s','s','se','se','e','ne','ne','ne','n']
+    </definition>
+    <definition>f(t)=(-sin(2*pi*(1+t)/15),cos(2*pi*(1+t)/15))</definition>
+    <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
+    <repeat parameter="k=0..14">
+        <point at="point" p="f(k)" alignment="alignments[k]" size="2">
+        <m>${15-k}</m>
+        </point>
+    </repeat>
+    </coordinates>
+    <annotations>
+    <annotation id="figure" text="Fifteen Points around a Circle">
+        <annotation id="point k=0"
+            text="Point 15"
+            speech="point fifteen"/>
+        <annotation id="point k=1"
+            text="Point 14"
+            speech="point fourteen"/>
+        <annotation id="point k=2"
+            text="Point 13"
+            speech="point thirteen"/>
+        <annotation id="point k=3"
+            text="Point 12"
+            speech="point twelve"/>
+        <annotation id="point k=4"
+            text="Point 11"
+            speech="point eleven"/>
+        <annotation id="point k=5"
+            text="Point 10"
+            speech="point ten"/>
+        <annotation id="point k=6"
+            text="Point 9"
+            speech="point nine"/>
+        <annotation id="point k=7"
+            text="Point 8"
+            speech="point eight"/>
+        <annotation id="point k=8"
+            text="Point 7"
+            speech="point seven"/>
+        <annotation id="point k=9"
+            text="Point 6"
+            speech="point six"/>
+        <annotation id="point k=10"
+            text="Point 5"
+            speech="point five"/>
+        <annotation id="point k=11"
+            text="Point 4"
+            speech="point four"/>
+        <annotation id="point k=12"
+            text="Point 3"
+            speech="point three"/>
+        <annotation id="point k=13"
+            text="Point 2"
+            speech="point two"/>
+        <annotation id="point k=14"
+            text="Point 1"
+            speech="point one"/>
+        </annotation>
+    </annotations>
+</diagram>
