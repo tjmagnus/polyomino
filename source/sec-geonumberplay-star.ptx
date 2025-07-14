@@ -189,6 +189,9 @@
     <definition xml:id="def-star-polygon">
       <statement>
         <idx><h>star polygon</h></idx>
+        <idx><h>polygon</h><h>star polygon</h></idx>
+        <idx><h>skip number</h></idx>
+        <idx><h>star polygon</h><h>skip number</h></idx>
         <usage><m>\{_{k}^{n}\}</m></usage>
         <description>Star polygon on <m>n</m> points</description>
         <p>
@@ -405,6 +408,30 @@
         </prefigure>
       </image>
     </figure>
+    <definition xml:id="def-connected-component">
+      <idx><h>connected component</h></idx>
+      <idx><h>star polygon</h><h>connected component</h></idx>
+      <statement>
+        <p>
+          Each figure created by connecting a (sub)set of points together by starting at  
+          one point and drawing a series of line segments together in one continuous process 
+          without lifting our pencil and turning only at the given points is a connected 
+          component<fn>The term connected component comes from Graph 
+          Theory where points are called vertices and line segments are called edges.</fn>. 
+          A <term>connected component</term> is a subset of points which are 
+          connected by line segments in the figure whose end points are those points. Two 
+          connected components will not have any endpoints in common. In 
+          <xref ref="fig-six-two-starpoly"/>, there are two connected components both of 
+          which are triangles. One triangle connects the points 1, 3, and 5 and the other 
+          connects the points 2, 4, 6. 
+        </p>
+        <p>
+          A connected component of a star polygon is also a star polygon. It may be the entire 
+          star polygon, a star polygon with fewer points, or a single line segment, 
+          namely the degenerate star polygon <m>\{_{1}^{2}\}</m>.
+        </p>
+      </statement>
+    </definition>
     <exercise label="ckpt-six-dots-for-starpoly-l" xml:id="ckpt-six-dots-for-starpoly">
       <task label="ckptask-six-dots-for-starpoly-l" xml:id="ckptask-six-dots-for-starpoly">
         <statement>
@@ -488,6 +515,7 @@
         the exploration.  
       </p>
     </introduction>
+<!--Move to instructor's guide subsection?-->
       <aside component="instructor">
           <p>
              As students work on this exploration, a quick check for symmetry can assist
@@ -516,31 +544,23 @@
           <figure xml:id="fig-3copies-7dots" label="figlabel-3copies-7dots">
             <caption>Templates for <xref ref="expltask-starpolys-7"/>.</caption>
             <sidebyside>
-              <!--<figure label="figlabel-7dots" xml:id="fig-7dots">
-                <caption>Template for <m>\{_{1}^{7}\}</m>.</caption>-->
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle1" 
                   xml:id="sevendotcircle">
                     <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              <!--</figure>
-              <figure>
-                <caption>Template for <m>\{_{2}^{7}\}</m>.</caption>-->
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle2">
                     <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              <!--</figure>
-              <figure>
-                <caption>Template for <m>\{_{3}^{7}\}</m>.</caption>-->
                 <image>
                   <prefigure xmlns="https://prefigure.org" label="sevendotcircle3">
                     <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
-              <!--</figure>-->
+
             </sidebyside>
           </figure>
           <p>
@@ -553,9 +573,7 @@
             </caption>
             <interactive xml:id="sevendot-starpoly-app" geogebra="cgnsaja4"
             width="90%" aspect="9:4" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
-            <!--platform="geogebra">
-                <slate surface="geogebra" material="q2b6amrz"/>
-            </interactive>-->
+
           </figure>
         </statement>
       </task>
@@ -636,14 +654,13 @@
         <task label="pencillifts-82-label" xml:id="pencillifts-82">
           <statement>
             <p>
-              How many times were you required to "lift your pencil" while drawing 
-              <m>\{_{2}^{8}\}</m>? 
+              How many <xref ref="def-connected-component" text="custom">connected 
+              components</xref> does <m>\{_{2}^{8}\}</m> have?
             </p>
-            
           </statement>
           <answer>
             <p>
-              Twice.
+              Two.
             </p>
           </answer>
           <response />
@@ -651,8 +668,7 @@
         <task label="pencilliftshape-82-label" xml:id="pencilliftshape-82">
           <statement>
             <p>
-              What shape was created when you returned to your starting point (before 
-              lifting your pencil)?
+              What is the shape of the connected component containing point 1?
             </p>
           </statement>
           <answer>
@@ -868,8 +884,8 @@
           <p>
             As with nine dots, we try to make predictions for some of the ten-point star 
             polygons first. In your descriptions, be sure to identify the number of connected 
-            components and the shape of each connected component. A ten-dot template is provided 
-            following the predictions to 
+            components and the shape of each connected component. A ten-dot template is 
+            provided following the predictions to 
             explore the less obvious cases. Feel free to use the template for visualizing and 
             verifying the anticipated star polygons as needed.
           </p>
@@ -959,9 +975,9 @@
           <task>
             <statement>
               <p>
-                Now drawing the remaining component(s) starting at an unused dot. If 
-                possible, use a different color for each connected component. How many 
-                connected components does <m>\{_{4}^{10}\}</m> have? Are the components
+                Now drawing the remaining connected component(s), each starting at a
+                previously unused dot. If possible, use a different color for each connected component. How many 
+                connected components does <m>\{_{4}^{10}\}</m> have? Are the connected components
                 congruent to each other?
               </p>
             </statement>
@@ -979,6 +995,7 @@
         we formalize these conjectures. When we make general conjectures and statements, we   
         use variables instead of specific values.
       </p>
+<!--Move to (or repeat) in instructor's section.-->
       <aside component="instructor">
         <p>
             Again, enable students to participate in mathematical reasoning by not 
@@ -990,7 +1007,7 @@
             whole class discussion from 
             foundational to general, conjecture to justification.
         </p>
-    </aside>
+      </aside>
     </introduction>
     <exploration xml:id="expl-starpolys-general" label="expl-label-starpolys-general">
       <introduction>
@@ -1061,8 +1078,8 @@
           <statement>
             <p>
               Review the sketches of star polygons than have appeared in your reading and work. 
-              Which of these can be drawn by visiting every dot before returning to the starting location?
-              Assume that you are not lifting your pencil as you connect every kth dot.
+              Which of these consist of a single connected component connecting every dot 
+              before one needs to lift their pencil?
             </p>
           </statement>
           <choices multiple-correct="yes" cols="2">
@@ -1133,8 +1150,8 @@
         <task label="predict-one-pencil-l" xml:id="predict-one-pencil">
           <statement>
             <p>
-              Which of the following star polygons do you expect to be able to draw without lifting
-              your pencil?
+              Which of the following star polygons do you expect to consist of a single
+              connected component?
             </p>
           </statement>
             <choices>
@@ -1166,7 +1183,7 @@
             <p>
               Based on <xref ref="starpolysubtask-one-pencil"/>, make a conjecture as 
               to the relationship between <m>k</m> and <m>n</m>
-              when a star polygon can be drawn without lifting one's pencil. Be sure that
+              when a star polygon consists of a single connected component. Be sure that
               all of the checked star polygons in <xref ref="starpolysubtask-one-pencil"/> 
               satisfy your relationship. Also, verify that any unchecked star polygons do not meet
               your criteria. 
@@ -1235,8 +1252,8 @@
               </figure>
               <p>
                 What shape is the initial connected component of <m>\{_{4}^{12}\}</m> and 
-                <m>\{_{5}^{15}\}</m>? Do the second connected 
-                components have the same shape?
+                <m>\{_{5}^{15}\}</m>? Do the second sketched connected 
+                components have the same shape as the first?
               </p>
             </statement>
           </task>
@@ -1322,7 +1339,7 @@
             <statement>
               <p>
                 Identify another pair of numbers <m>n</m> and <m>k</m> for which the 
-                connected components of <m>\{_{k}^{n}\}</m> has this shape. You may identify
+                connected components of <m>\{_{k}^{n}\}</m> have this shape. You may identify
                 one encountered already or one that you have not seen yet. How many copies 
                 of this shape will <m>\{_{k}^{n}\}</m> have?
               </p>
