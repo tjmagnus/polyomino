@@ -500,6 +500,14 @@
             Predict what <m>\{_{4}^{6}\}</m> and <m>\{_{5}^{6}\}</m> will look like. Explain.
           </p>
         </statement>
+        <answer>
+          <p>
+            The star polygon <m>\{_{4}^{6}\}</m> will look like <m>\{_{2}^{6}\}</m>, namely two equilateral 
+            triangles rotated 60 degrees from each other. Also, <m>\{_{5}^{6}\}\cong \{_{1}^{6}\}</m> 
+            and is a regular hexagon.
+          </p>
+        </answer>
+        <response />
       </task>
     </exercise>
   </subsection>
@@ -872,6 +880,12 @@
                aspect="9:3" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/> 
             </figure>
           </statement>
+          <answer>
+            <p>
+              <m>\{_{2}^{9}\}</m> and <m>\{_{4}^{9}\}</m> are not the same. Explanations
+              may vary.
+            </p>
+          </answer>
         </task>
       </task>
       <task label="expl-tendot-starpolys-l" xml:id="expl-tendot-starpolys">
@@ -897,6 +911,11 @@
               <m>\{_{k}^{10}\}\cong\{_{1}^{10}\}</m> ?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>\{_{1}^{10}\}</m> is a regular decagon and is congruent to <m>\{_{9}^{10}\}</m>
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -906,6 +925,11 @@
               <m>\{_{k}^{10}\}\cong\{_{2}^{10}\}</m> ?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>\{_{2}^{10}\}</m> consists of two regular pentagons <m>\{_{1}^{5}\}</m>.
+            </p>
+          </answer>
         </task>
         <task>
           <statement>
@@ -981,6 +1005,11 @@
                 congruent to each other?
               </p>
             </statement>
+            <answer>
+              <p>
+                Two congruent components with the shape of a five-point star.
+              </p>
+            </answer>
           </task>
         </task>
       </task>
@@ -1035,6 +1064,12 @@
               <m>\{_{1}^{n}\}</m>?
             </p>
           </statement>  
+          <answer>
+            <p>
+              A regular <m>n</m>-gon.
+            </p>
+          </answer>
+          <response />
         </task>
         <task label="subtask-starpoly-general-k-one-label-justify"  
         xml:id="subtask-starpoly-general-k-one-justify">
@@ -1051,6 +1086,8 @@
               How are the dots connected in <m>\{_{1}^{n}\}</m>?
             </p>
           </hint>
+          <response />
+          
         </task>
         <task label="starpolytasklabel-general-nminusk" xml:id="starpolytask-general-nminusk">
           <statement>
@@ -1078,7 +1115,7 @@
           <statement>
             <p>
               Review the sketches of star polygons than have appeared in your reading and work. 
-              Which of these consist of a single connected component connecting every dot 
+              Which of the following consist of a single connected component connecting every dot 
               before one needs to lift their pencil?
             </p>
           </statement>
@@ -1189,6 +1226,12 @@
               your criteria. 
             </p>
           </statement>
+          <answer>
+            <p>
+              When <m>n</m> and <m>k</m> have no common factors greater than one,
+              <m>\{_{k}^{n}\}</m> consists of a single connected component.
+            </p>
+          </answer>
         </task>
         <task label="starpolysubtask-one-pencil-conj-whenfalse-l" xml:id="starpolysubtask-one-pencil-conj-whenfalse">
           <statement>
@@ -1200,6 +1243,14 @@
               specific examples to make your argument clearer.
             </p>
           </statement>
+          <answer>
+            <p>
+              Answers will vary. Let <m>d=GCF\(n,k\).</m> Then a single connected component 
+              includes every <m>d^\text{th}</m> dot. A more exhaustive proof is outside the 
+              scope of this course. Students might want to first focus on the case where 
+              <m>n</m> is a multiple of <m>k</m> before considering the more general case.
+            </p>
+          </answer>
         </task>
         <task label="starpolysubtask-one-pencil-conj-whentrue-l" xml:id="starpolysubtask-one-pencil-conj-whentrue">
           <statement>
@@ -1256,6 +1307,11 @@
                 components have the same shape as the first?
               </p>
             </statement>
+            <answer>
+              <p>
+                Triangles. Same shape.
+              </p>
+            </answer>
           </task>
           <task>
             <statement>
@@ -1265,6 +1321,11 @@
                 <xref ref="starpoly-triangle-components"/>
               </p>
             </statement>
+            <answer>
+              <p>
+                Answers will vary, but will satisfy <m>3k=n.</m>
+              </p>
+            </answer>
           </task>
           <task label="starpoly-triangle-conjecture-l" xml:id="starpoly-triangle-conjecture">
             <statement>
@@ -1274,6 +1335,12 @@
                 name of this shape in your statement.
               </p>
             </statement>
+            <answer>
+              <p>
+                If <m>n=3k</m>, then the connected components of <m>\{_{k}^{n}\}</m> are 
+                triangles.
+              </p>
+            </answer>
           </task>
           <task>
             <statement>
@@ -1283,6 +1350,12 @@
                 include this and similar cases.
               </p>
             </statement>
+            <answer>
+              <p>
+                Also triangles. A more general statement might use <m>n=3\cdot GCF(n,k)</m>
+                as the criteria.
+              </p>
+            </answer>
           </task>
           <task>
             <statement>
@@ -1292,6 +1365,11 @@
                 star polygon? How?
               </p>
             </statement>
+            <answer>
+              <p>
+                The number of connected components is <m>GCF(n,k)</m>.
+              </p>
+            </answer>
           </task>
           <task>
             <statement>
@@ -1334,6 +1412,11 @@
                 Did you correctly predict the shape of the connected component? What shape?
               </p>
             </statement>
+            <answer>
+              <p>
+                The shape is a square.
+              </p>
+            </answer>
           </task>
           <task>
             <statement>
@@ -1344,6 +1427,11 @@
                 of this shape will <m>\{_{k}^{n}\}</m> have?
               </p>
             </statement>
+            <answer>
+              <p>
+                Examples include <m>\{_{1}^{4}\}</m>, <m>\{_{2}^{8}\}</m>, and <m>\{_{6}^{24}\}</m>.
+              </p>
+            </answer>
           </task>
           <task>
             <introduction>
@@ -1375,14 +1463,24 @@
                   What shape are their individual connected components?
                 </p>
               </statement>
+              <answer>
+                <p>
+                  Five-pointed stars.
+                </p>
+              </answer>
             </task>
             <task>
               <statement>
                 <p>
-                  Denote this shape using <m>\{_{j}^{m}\}</m> star polygon notation. What
+                  Denote the connected component's shape using <m>\{_{j}^{m}\}</m> star polygon notation. What
                   are the values of <m>m</m> and <m>j</m>?
                 </p>
               </statement>
+              <answer>
+                <p>
+                  <m>\{_{2}^{5}\}</m>
+                </p>
+              </answer>
             </task>
             <task>
               <statement>
@@ -1390,6 +1488,11 @@
                   How many connected components does <m>\{_{6}^{15}\}</m> have?
                 </p>
               </statement>
+              <answer>
+                <p>
+                  Three.
+                </p>
+              </answer>
             </task>
             <task>
               <statement>
@@ -1397,6 +1500,11 @@
                   How many connected components does <m>\{_{8}^{20}\}</m> have?
                 </p>
               </statement>
+              <answer>
+                <p>
+                  Four.
+                </p>
+              </answer>
             </task>
             <task>
               <statement>
@@ -1405,6 +1513,11 @@
                   <m>n</m> and <m>k</m>?
                 </p>
               </statement>
+              <answer>
+                <p>
+                  Answers may vary. The greatest common factor of <m>n</m> and <m>k</m>.
+                </p>
+              </answer>
             </task>    
           </task>
         </task>
@@ -1444,7 +1557,7 @@
               hold for star polygons with 18 or 24 dots.
             </p>
             <figure xml:id="starpolydots-GeoGebra-18and24">
-              <caption>Geogebra interactive for drawing 18 and 24-point star polygons</caption>
+              <caption>Geogebra interactive for drawing 18- and 24-point star polygons</caption>
                 <interactive xml:id="starpoly-18and24-app" geogebra="rr9kzgzn"
                   aspect="9:6" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
             </figure>
