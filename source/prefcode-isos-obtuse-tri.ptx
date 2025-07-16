@@ -2,24 +2,20 @@
 
 <diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
     <coordinates bbox="(-5,-5,5,5)">
-      <!-- Blue filled triangle -->
-      <polygon points="((-4,0),(4,0),(0,2))" closed="yes" fill="skyblue">
-        <style>stroke:blue; stroke-width:2;</style>
+      <polygon points="((-4,0),(4,0),(0,2))" closed="yes" fill="skyblue" size="2">
+        <style>stroke:black; stroke-width:2;</style>
       </polygon>
 
-      <!-- Points -->
       <point name="A" p="(-4,0)" />
       <point name="B" p="(4,0)" />
       <point name="C" p="(0,2)" />
 
-      <!-- Angle labels -->
-      <label p="(-3,0.2)">30°</label>
-      <label p="(3,0.2)">30°</label>
-      <label p="(0.1,1.5)">120°</label>
+      <label p="(-3,0.2)" scale="0.8"><m>\scriptsize \textbf{30°}</m></label>
+      <label p="(3,0.2)" scale="0.8"><m>\scriptsize \textbf{30°}</m></label>
+      <label p="(0.1,1.5)" scale="0.8"><m>\scriptsize \textbf{120°}</m></label>
 
-      <!-- Letter labels -->
-      <label p="(-4.5,0)">A</label>
-      <label p="(4.5,0)">C</label>
-      <label p="(0,2.5)">B</label>
+      <label p="(-4.5,0)" scale="0.8"><m>\scriptsize \textbf{A}</m></label>
+      <label p="(4.5,0)" scale="0.8"><m>\scriptsize \textbf{C}</m></label>
+      <label p="(0,2.5)" scale="0.8"><m>\scriptsize \textbf{B}</m></label>
     </coordinates>
 </diagram>
