@@ -1154,6 +1154,23 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 <xref ref="def-quadrilateral" text="custom">quadrilateral</xref>.
               </p>
             </hint>
+            <answer>
+              <p>
+                <figure xml:id="fig-concave-quadrilateral-">
+                  <caption>A sample concave quadrilateral <m>ABCD</m>.</caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="pref-concave-quad" 
+                      xml:id="pref-concave-quad">
+                      <xi:include href="prefcode-concave-quad.ptx" />
+                  </prefigure>
+                  </image>
+                </figure>
+              </p>
+              <p>
+                Quadrilateral <m>ABCD</m> is concave because at least one interior angle is greater than 180 degrees,
+                specifically <m>\angle{D}</m>.
+              </p>
+            </answer>
           </task>
       </exercise>
       <exercise xml:id="label-altitude-etc">
