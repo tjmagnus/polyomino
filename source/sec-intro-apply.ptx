@@ -1124,6 +1124,23 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 <xref ref="def-equilateral" text="custom">equilateral</xref>. Recall that a hexagon has six sides.
               </p>
             </hint>
+            <answer>
+              <p>
+                <figure xml:id="fig-equiangular-nonequilateral-hexagon-">
+                  <caption>A sample hexagon <m>ABCDEF</m>.</caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="pref-equiang-hexagon" 
+                      xml:id="pref-equiang-hexagon">
+                      <xi:include href="prefcode-equiang-hexagon.ptx" />
+                  </prefigure>
+                  </image>
+                </figure>
+              </p>
+              <p>
+                Hexagon <m>ABCDEF</m> is equiangular with all angles measuring 120 degrees. However, its sides are not all 
+                equal in length, meaning it is not equilateral.
+              </p>
+            </answer>
           </task>
           <task>
             <statement>
