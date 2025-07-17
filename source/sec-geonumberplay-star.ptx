@@ -1746,7 +1746,7 @@
       <exercise label="SAR-geonum-starpoly-desc6042-l">
         <statement>
           <p>
-            Describe <m>\{_{60}^{42}\}</m> by identifying the number of connected
+            Describe <m>\{_{42}^{60}\}</m> by identifying the number of connected
             components and their shape.
           </p>
         </statement>
@@ -1755,7 +1755,7 @@
       <exercise label="SAR-geonum-starpoly-findNandKstar-l"/>
         <introduction>
           <p>
-            A star polygon <m>\{_{k}^{n}\}</m> consists of five copies of <m>\{_{16}^{3}\}</m> 
+            A star polygon <m>\{_{k}^{n}\}</m> consists of five copies of <m>\{_{3}^{16}\}</m> 
             sharing a common center.
           </p>
         </introduction>
@@ -1816,6 +1816,7 @@
           <p>
             Add some: Relationship between k, n, GCF(n,k), LCM(n,k). Relationship between GCF and the
             connected component.
+            Symmetry? Measurement?
           </p>
         </statement>
       </exercise>
@@ -1836,6 +1837,17 @@
             general argument.
           </p>
         </statement>
+      </exercise>
+<!--TO DO TO DO TO DO
+In 1.2, add definition of polygon. Also add a clarification about how the sides of 
+polygons only meet at endpoints and add a non-example with intersecting sides.-->
+      <exercise>
+        Are star polygons really <!--<xref ref="def-polygon" text="custom">-->polygons<!--<\xref>-->? 
+        Recognizing that polygons may be <xref ref="def-convexconcave">convex</xref> or 
+        <xref ref="def-convexconcave">concave</xref>, how might we adapt a design like 
+        <xref ref="fig-six-two-starpoly"/> or 
+        <xref ref="fig-starpoly-5-2"/> so that it satisfies the definition of a polygon?
+        Are there some star polygons that cannot be drawn as polygons? Explain.
       </exercise>
     </subexercises>
   </exercises>

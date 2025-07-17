@@ -13,6 +13,6 @@
     </introduction>
     <xi:include href="sec-geonumberplay-star.ptx"/>
     <!--<xi:include href="sec-geonumberplay-billiards.ptx"/>
-    <xi:include href="sec-geonumberplay-fractals.ptx"/>
-    <xi:include href="sec-geonumberplay-instructor.ptx" />-->
+    <xi:include href="sec-geonumberplay-fractals.ptx"/>-->
+    <xi:include href="sec-geonumberplay-instructor.ptx" />
     </chapter>
