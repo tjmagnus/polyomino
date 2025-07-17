@@ -1569,5 +1569,274 @@
 
 
   </subsection>
-  
+  <exercises xml:id="exer-geonum-starpoly">
+    <title>Exercises</title>
+    <subexercises label="Toolbox-geonum-starpoly-l" xml:id="Toolbox-geonum-starpoly">
+      <title>Building Our Toolbox</title>
+      <exercise label="Toolbox-geonum-starpoly-process">
+        <statement>
+          <p>
+            In your own words, write instructions that a friend not in this class could
+            use to draw a star polygon.
+          </p>
+        </statement>
+        <response />  
+      </exercise>
+      <exercise label="Toolbox-geonum-starpoly-GCF-l">
+        <introduction>
+          <statement>
+            <p>
+              Suppose <m>a</m> and <m>b</m> are any two positive integers. 
+            </p>
+          </statement>
+        </introduction>
+        <task label="Toolbox-geonum-starpoly-GCF-def-l" xml:id="Toolbox-geonum-starpoly-GCF-defid">
+          <statement>
+            <p>
+              Write a definition 
+              for <m>GCF(a,b)</m> the greatest common factor of <m>a</m> and <m>b</m>.  
+            </p>
+          </statement>
+        </task>
+        <task label="Toolbox-geonum-starpoly-GCF-example">
+          <statement>
+            <p>
+              Use your definition in <xref ref="Toolbox-geonum-starpoly-GCF-defid"/> 
+              to explain why 12 is the greatest common factor of 84 and 120.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              You may use the words <term>greatest</term> and <term>factor</term> or synonyms
+              in your response. Think about why 6 is not GCF(84,120). Why is GCF(84,120) not 24?
+            </p>
+          </hint>
+          <response />
+        </task>
+      </exercise>
+      <exercise label="Toolbox-geonum-starpoly-reg-l">
+        <statement>
+          <p>
+            Suppose that <m>n</m> is any natural number greater than 2. 
+            What is the shape of <m>\{_{1}^{n}\}?</m>
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Your answer will contain the variable <m>n</m>.
+          </p>
+        </hint>
+      </exercise>
+      <exercise label="Toolbox-geonum-starpoly-cong-l">
+        <statement>
+          <p>
+            Suppose <m>\{_{j}^{n}\}\cong\{_{k}^{n}\}</m>. What does that tell us about
+            the relationship between <m>j</m>, <m>k</m>, and <m>n?</m>
+          </p>
+        </statement>
+        <choices multiple-correct="yes">
+          <choice correct="no">
+            <statement>
+              <p>
+                <m>n+k=j.</m>
+              </p>
+            </statement> 
+          </choice>
+          <choice correct="no">
+            <statement>
+              <p>
+                <m>n=k\cdot j.</m>
+              </p>
+            </statement> 
+          </choice>
+          <choice correct="yes">
+            <statement>
+              <p>
+                <m>n=k+j.</m>
+              </p>
+            </statement> 
+          </choice>
+          <choice correct="yes">
+            <statement>
+              <p>
+                <m>k=n-j.</m>
+              </p>
+            </statement> 
+          </choice>
+          <choice correct="no">
+            <statement>
+              <p>
+                <m>j=GCF(n,k).</m>
+              </p>
+            </statement> 
+          </choice>
+        </choices>
+      </exercise>
+      <exercise label="Toolbox-geonum-starpoly-GCF-l">
+        <introduction>
+          <p>
+            Suppose <m>d</m> is the greatest common factor of <m>n</m> and <m>k.</m>
+          </p>
+        </introduction>
+        <task label="Toolbox-geonum-starpoly-GCF-number-l">
+          <statement>
+            <p>
+            How many connected components does <m>\{_{k}^{n}\}</m> have?
+            </p>  
+          </statement>
+          <answer>
+            <p>
+              <m>GCF(n,k)</m>
+            </p>
+            </answer>
+        </task>
+        <task label="Toolbox-geonum-starpoly-GCF-shape-l">
+          <statement>
+            <p>
+              Each connected component of <m>\{_{k}^{n}\}</m> is a star polygon <m>\{_{j}^{m}\}</m>.
+              What are the values of <m>m</m> and <m>j?</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Your answers will be mathematical expressions involving <m>n</m> and <m>k</m>.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>m=GCF(n,k)</m> and <m>j=\frac{k}{GCF(n,k)}.</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="SAR-geonum-starpoly">
+      <title>Skills and Recall</title>
+<!--Consider making some of these randomly generated.-->
+      <exercise>
+        <statement>
+          <p>
+            Match each value of <m>k</m> to the corresponding description of <m>\{_{k}^{42}\}.</m>
+          </p>
+        </statement>
+        <cardsort>
+          <match>
+            <premise order="4"><m>k=4</m></premise>
+            <response>Two copies of a 21-pointed star.</response>
+          </match>
+          <match>
+            <premise order="1"><m>k=5</m></premise>
+            <response>A 42-point star.</response>
+          </match>
+          
+          <match>
+              <premise order="2"><m>k=6</m></premise>
+              <response>Six copies of a regular 7-gon.</response>
+          </match>
+          <match>
+            <premise order="5"><m>k=7</m></premise>
+            <response>Seven copies of a regular hexagon</response>
+          </match>
+          <match>
+            <premise order="3"><m>k=9</m></premise>
+            <response>Three copies of a 14-pointed star</response>
+          </match> 
+        </cardsort>                   
+      </exercise>
+      <exercise label="SAR-geonum-starpoly-desc6042-l">
+        <statement>
+          <p>
+            Describe <m>\{_{60}^{42}\}</m> by identifying the number of connected
+            components and their shape.
+          </p>
+        </statement>
+        <response />
+      </exercise>
+      <exercise label="SAR-geonum-starpoly-findNandKstar-l"/>
+        <introduction>
+          <p>
+            A star polygon <m>\{_{k}^{n}\}</m> consists of five copies of <m>\{_{16}^{3}\}</m> 
+            sharing a common center.
+          </p>
+        </introduction>
+        <task label="SAR-geonum-starpoly-findNstar-l">
+          <statement>
+            <p>
+              Determine the value of <m>n.</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>n=80</m>
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Since there are five copies of <m>\{_{16}^{3}\}</m>, there must be five times as 
+              many dots; thus <m>n=5\cdot 16=80.</m>
+            </p>
+          </solution>
+          <response />
+        </task>
+        <task label="SAR-geonum-starpoly-findKstar-l">
+          <statement>
+            <p>
+              Determine all possible values of <m>.</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>k=15</m> and <m>k=65.</m>
+            </p>
+          </answer>
+          <solution>
+            <p>
+              We multiply the bottom number <m>j=3</m> by the number of copies, 5, to get 
+              <m>5\cdot 3=15</m>. The second solution is found by subtraction, <m>80-15=65.</m>
+            </p>
+          </solution>
+        </task>
+        <task label="SAR-geonum-starpoly-findKreg">
+          <statement>
+            <p>
+              Determine all possible values of <m>k.</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>k=10</m> and <m>k=30</m>
+            </p>
+          </answer>
+        </task>
+    </subexercises>
+    <subexercises xml:id="ExtConc-geonum-starpoly">
+      <title>Extending the Concepts</title>
+      <exercise>
+        <statement>
+          <p>
+            Add some: Relationship between k, n, GCF(n,k), LCM(n,k). Relationship between GCF and the
+            connected component.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+    <subexercises xml:id="Writing-geonum-starpoly">
+      <title>Writing Prompts</title>
+      <exercise>
+        <statement>
+          <p>
+            Louie claims that the Greatest Common Factor of two numbers must be larger 
+            than their Least Common Multiple because of the words <sq>greater</sq> and
+            <sq>less</sq>. Huey disagrees and claims that the Least Common Multiple must 
+            be at least as large as their Greatest Common Factor.
+          </p>
+          <p>
+            Which is correct? Write a letter (perhaps to Louie or Huey) supporting your argument.
+            Although you can use specific examples as partial support, you should include a more 
+            general argument.
+          </p>
+        </statement>
+      </exercise>
+    </subexercises>
+  </exercises>
 </section>  
