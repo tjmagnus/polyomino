@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
+    <coordinates bbox="(-3.5,-2.5,3.5,2.5)">
+      <polygon points="((-1,-2.598),(1,-2.598),(2.5,0),(1,2.598),(-1,2.598),(-2.5,0))" closed="yes" fill="plum" size="2">
+        <style>stroke:black; stroke-width:2;</style>
+      </polygon>
+
+      <point name="A" p="(-1,-2.498)" fill = "lavender" />
+      <point name="B" p="(1,-2.498)" fill = "lavender" />
+      <point name="C" p="(2.5,0)" fill = "lavender" />
+      <point name="D" p="(1,2.498)" fill = "lavender" />
+      <point name="E" p="(-1,2.498)" fill = "lavender" />
+      <point name="F" p="(-2.5,0)" fill = "lavender"/>
+
+      <label p="(-0.7,-2.2)" scale="0.7"><m>\scriptsize \textbf{120°}</m></label> 
+      <label p="(0.8,-2.2)" scale="0.7"><m>\scriptsize \textbf{120°}</m></label> 
+      <label p="(2,0)" scale="0.7"><m>\scriptsize \textbf{120°}</m></label>   
+      <label p="(0.8,2.2)" scale="0.7"><m>\scriptsize \textbf{120°}</m></label>   
+      <label p="(-0.7,2.2)" scale="0.7"><m>\scriptsize \textbf{120°}</m></label>   
+      <label p="(-1.9,0)" scale="0.7"><m>\scriptsize \textbf{120°}</m></label>
+
+      <label p="(-1.4,2.5)" scale="0.9"><m>\scriptsize \textbf{A}</m></label>
+      <label p="(1.4,2.5)" scale="0.9"><m>\scriptsize \textbf{B}</m></label>
+      <label p="(2.9,0)" scale="0.9"><m>\scriptsize \textbf{C}</m></label>
+      <label p="(1.4,-2.5)" scale="0.9"><m>\scriptsize \textbf{D}</m></label>
+      <label p="(-1.4,-2.5)" scale="0.9"><m>\scriptsize \textbf{E}</m></label>
+      <label p="(-2.8,0)" scale="0.9"><m>\scriptsize \textbf{F}</m></label>
+
+      <label p="(0,-2.6)" scale="0.8"><m>\scriptsize \textbf{1.5}</m></label>
+      <label p="(2, -1.3)" scale="0.8"><m>\scriptsize \textbf{3}</m></label>
+      <label p="(2, 1.3)" scale="0.8"><m>\scriptsize \textbf{3}</m></label>
+      <label p="(0, 2.6)" scale="0.8"><m>\scriptsize \textbf{1.5}</m></label>
+      <label p="(-2, 1.3)" scale="0.8"><m>\scriptsize \textbf{3}</m></label>
+      <label p="(-2, -1.3)" scale="0.8"><m>\scriptsize \textbf{3}</m></label>
+    </coordinates>
+</diagram>
