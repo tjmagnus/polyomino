@@ -6,7 +6,17 @@
         This chapter provides optional opportunities to explore topics outside the 
         standard curriculum and to observe the connections between geometry, algebra, number, 
         and operations. Observing patterns, making conjectures, and justification is encouraged
-        throughout.   
+        throughout. For prospective teachers, the sections <xref ref="sec-geonumberplay-star"/>
+        and <xref ref="sec-geonumberplay-billiards"/> offer an opportunity to review the 
+        greatest common factor and least common multiple of integers and to see that these
+        concepts play a role outside of operations on fractions. The choice to use GCF instead 
+        of GCD was intentional as I wanted to emphasize the term <term>factor</term> here. 
+        <aside>
+            <p>
+                The term <sq>divisor</sq> can be used instead of <sq>factor</sq>, but students 
+                seem to translate GCD as <sq>Greatest Common Denominator</sq>.        
+            </p>
+        </aside>  
     </p>
     <subsection>
         <title>Notes for <xref ref="sec-geonumberplay-star"/></title>
