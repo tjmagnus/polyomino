@@ -27,13 +27,13 @@
             <introduction>
                 <p>
                     In <xref ref="fig-snells-law"/>, a ball traveling in direction 
-                    <m>\overline{AD}</m> meets wall <m>\overleftrightarrow{CE}</m> 
+                    <m>\overrightarrow{AD}</m> meets wall <m>\overleftrightarrow{CE}</m> 
                     at point <m>B</m>.   
                 </p>
                 <figure xml:id="fig-snells-law">
                     <caption>GeoGebra interactive for bounce angle</caption>
                     <interactive xml:id="snells-app" geogebra="zhdz78b6"
-               aspect="10:3" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
+               aspect="10:7" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
                 </figure>
             </introduction>
             <task label="expltask-snells-vertical-l" xml:id="expltask-snells-vertical">

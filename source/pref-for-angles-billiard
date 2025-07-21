@@ -1,0 +1,26 @@
+<!--Why are no labels showing up?-->
+
+<diagram dimensions="(320,183.8)" margins="10">
+  
+  <coordinates bbox="(0,0,10,5.46)">
+    <definition>
+    <point p1="(0,5.46)" size="1" alignment="se"><m>A</m></point>
+    <point p2="(0,0)" size="1" alignment="ne"><m>B</m></point>
+    <point p3="(10,0)" size="1" alignment="nw"><m>C</m></point>
+    <point p4="(10,5.46)" size="1" alignment="sw"><m>D</m></point>
+    <point p5="(0,3.64)" size="1" alignment="e"><m>E</m></point>
+    <point p6="(10,3.64)" size="1" alignment="w"><m>F</m></point>
+    <point p7="(5,1.82)" size="1" alignment="n"><m>G</m></point>
+    <point p8="(5,5.46)" size="1" alignment="s"><m>H</m></point>
+    <rectangle lower-left="(0,0)" dimensions="(10,5.46)" stroke="black"/>
+      <path start="(0,0)" stroke="blue">
+    <lineto point="(10,3.64)"/>
+    <lineto point="(5,5.46)"/>
+      <lineto point="(0,3.64)"/>
+        <lineto point="(10,0)"/>
+        </path>  
+        <angle-marker points="((5,0),(0,0),(10,3.64))">
+          <m>20</m>
+          </angle-marker>
+  </coordinates>
+</diagram>
