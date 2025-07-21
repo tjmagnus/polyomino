@@ -1,0 +1,120 @@
+<diagram>
+  <annotations>
+    <annotation id="figure" speech2="Ten Points around a Circle">
+      <grouped>figure</grouped>
+      <position>1</position>
+      <children>
+        <active>point k=0</active>
+        <active>point k=1</active>
+        <active>point k=2</active>
+        <active>point k=3</active>
+        <active>point k=4</active>
+        <active>point k=5</active>
+        <active>point k=6</active>
+        <active>point k=7</active>
+        <active>point k=8</active>
+        <active>point k=9</active>
+        <active>point k=10</active>
+        <active>point k=11</active>
+      </children>
+      <components>
+        <active>point k=0</active>
+        <active>point k=1</active>
+        <active>point k=2</active>
+        <active>point k=3</active>
+        <active>point k=4</active>
+        <active>point k=5</active>
+        <active>point k=6</active>
+        <active>point k=7</active>
+        <active>point k=8</active>
+        <active>point k=9</active>
+        <active>point k=10</active>
+        <active>point k=11</active>
+      </components>
+    </annotation>
+    <annotation id="point k=0" speech2="Point 12" speech="point twelve">
+      <active>point k=0</active>
+      <position>1</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=1" speech2="Point 11" speech="point eleven">
+      <active>point k=1</active>
+      <position>2</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=2" speech2="Point 10" speech="point ten">
+      <active>point k=2</active>
+      <position>3</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=3" speech2="Point 9" speech="point nine">
+      <active>point k=3</active>
+      <position>4</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=4" speech2="Point 8" speech="point eight">
+      <active>point k=4</active>
+      <position>5</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=5" speech2="Point 7" speech="point seven">
+      <active>point k=5</active>
+      <position>6</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=6" speech2="Point 6" speech="point six">
+      <active>point k=6</active>
+      <position>7</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=7" speech2="Point 5" speech="point five">
+      <active>point k=7</active>
+      <position>8</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=8" speech2="Point 4" speech="point four">
+      <active>point k=8</active>
+      <position>9</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=9" speech2="Point 3" speech="point three">
+      <active>point k=9</active>
+      <position>10</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=10" speech2="Point 2" speech="point two">
+      <active>point k=10</active>
+      <position>11</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+    <annotation id="point k=11" speech2="Point 1" speech="point one">
+      <active>point k=11</active>
+      <position>12</position>
+      <parents>
+        <grouped>figure</grouped>
+      </parents>
+    </annotation>
+  </annotations>
+</diagram>

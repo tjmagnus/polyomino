@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Exploring Length and the Pythagorean Theorem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Instructor’s Version of Polyominoes, Polygons, and Polyhedra">
+<meta property="book:author" content="Teresa D. Magnus">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.8.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.a99e275a1e410b98.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.58623b9a3097f5e4.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
+<p class="byline">Teresa D. Magnus</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-polygons-regular.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-polygons.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-polygons-8.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-biography"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">About Teresa Magnus</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-8.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Geometrical Thinking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-explore.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Invitation to Explore</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-To-The-Student" class="internal"><span class="codenumber">1.1.1</span> <span class="title">To The Student</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-intro-explore-3" class="internal"><span class="codenumber">1.1.2</span> <span class="title">First Exploration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-reflect-exp-pentrect" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Learning from the Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-creative-expl" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Exploring to Learn</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-explore.html#Exercises-intro-exp" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-apply.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Invitation to Apply Knowledge</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-BuildingToolbox" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Building a Course Toolbox</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-definingpolygons" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Defining Polygons</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-apply.html#exercises-intro-apply" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-share.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Invitation to Share our Discoveries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#sec-intro-share-2" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Identifying a Pattern</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-explainconjectures" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Conjectures and Explanations in Mathematics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-letter" class="internal"><span class="codenumber">1.3.3</span> <span class="title">A Sample Explanatory Letter</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-share.html#exercises-intro-share" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-struggle.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Invitation to Overcome Challenges</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-2" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Growing through Persistance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#subsec-intro-struggle-reflect" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Confronting the Challenge</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-4" class="internal"><span class="codenumber">1.4.3</span> <span class="title">A Geometric Tool and an Algebraic Tool</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-struggle.html#exercises-intro-struggle" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="ch-intro-7.html" class="internal"><span class="codenumber">1.5</span> <span class="title">References and Suggested Readings</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-instructor.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-2" class="internal"><span class="codenumber">1.6.1</span> <span class="title">General Notes on Writing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-3" class="internal"><span class="codenumber">1.6.2</span> <span class="title">Notes for Section 1.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-4" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Notes for Section 1.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-5" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Notes for Section 1.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-6" class="internal"><span class="codenumber">1.6.5</span> <span class="title">Notes for Section 1.4</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-polygons.html" class="internal"><span class="codenumber">2</span> <span class="title">Exploring Polygons and Other Figures on the Plane</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-area.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exploring Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Area of a Parallelogram</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-area-tri" class="internal"><span class="codenumber">2.1.2</span> <span class="title">The Area of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">The Area of a Trapezoid</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Thoughts on Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-irregular-area" class="internal"><span class="codenumber">2.1.4.1</span> <span class="title">Estimating the Area of Curved Regions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsubsec-area-circle" class="internal"><span class="codenumber">2.1.4.2</span> <span class="title">The Area of a Circle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-area.html#exercises-polygons-area" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-angles.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Exploring Angle Measure</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-defs" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Linear Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-Def-and-Measuring-Angles" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Defining and Measuring Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-triangle" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Angles of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-principle" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Additivity of Angles and Definitions Associated with Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#sec-polygons-angles-7" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Vertical Angles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-angles.html#exercises-vocab-angles" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-angles.html#exercises-polygons-angles" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel-label" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-regular.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Exploring Regular Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#sec-polygons-regular-3" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Regular Polygons</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-polygons-regular-tilings" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Regular Tilings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semiregular-tilings" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Semiregular Tilings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semireg-rules" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Narrowing Down the Options</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-regular.html#exercises-polygons-regular" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-polygons-length.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Exploring Length and the Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Right Triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Check Your Understanding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Check your Understanding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-5" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Proving the Pythagorean Theorem with Picture Puzzles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Reflecting on the Pythagorean Theorem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-length.html#exercises-polygons-length" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="ch-polygons-8.html" class="internal"><span class="codenumber">2.6</span> <span class="title">References and Suggested Readings</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-instructor.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-2" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Notes for Section 2.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-3" class="internal"><span class="codenumber">2.7.2</span> <span class="title">Notes for Section 2.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-4" class="internal"><span class="codenumber">2.7.3</span> <span class="title">Notes for Section 2.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-5" class="internal"><span class="codenumber">2.7.4</span> <span class="title">Notes for Section 2.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-6" class="internal"><span class="codenumber">2.7.5</span> <span class="title">Notes for Section 2.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Prisms and Cylinders</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#subsec-expl-prism-volume" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Volumes of Prisms and Cylinders</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#subsec-surfarea-prism-cyl" class="internal"><span class="codenumber">3.3.3</span> <span class="title">The Surface Area of Prisms and Cylinders</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Pyramids and Cones</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-2" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Defining Pyramids and Cones</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsec-expl-Euler-pyramid" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Patterns with Pyramids</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-4" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Measuring Pyramids</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-surfarea" class="internal"><span class="codenumber">3.4.3.1</span> <span class="title">Surface Area of Pyramids and Cones</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-volume" class="internal"><span class="codenumber">3.4.3.2</span> <span class="title">Volume of Pyramids and Cones</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interiors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exploring Growth in Two-Dimensional Figures</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Instructor’s Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-defining-reflection" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Defining a Reflection</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-expl-ref-coordplane" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exploring Reflections by Sketching</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-Reflections-and-Coordinate-Geometry" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Reflections and Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#sec-isom-reflect-Cartesian-5" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Key Ideas Regarding Reflections</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-interactives-ref-Cartesian" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Optional GeoGebra Interactives</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#exer-isom-reflect" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Orientation-Maintaining Transformations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP" class="internal"><span class="codenumber">4.2.1</span> <span class="title">What do we mean by orientation-maintaining?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Collinearities and Isomorphisms</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-Translations" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Translations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-translation" class="internal"><span class="codenumber">4.2.3.1</span> <span class="title">Properties of Translations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-rotation" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Rotations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-rotation" class="internal"><span class="codenumber">4.2.4.1</span> <span class="title">Properties of Rotations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#exer-isom-RAT" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-identifying-isometries.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Identifying Isometries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What do we know? What do we wonder?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-congruent-figs-orientation" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Isometry Between Congruent Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-fixed-points" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Recognizing Isometries by Fixed Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-5" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.5</span> <span class="title">What have we learned?</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#Exercises-isom-ident" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-composing-reflections.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compositions of Reflections</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#sec-isom-composing-reflections-2" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Compositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#subsec-Four-Isometries" class="internal"><span class="codenumber">4.4.2</span> <span class="title">The Four Isometries</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#exer-isom-comp" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-mystery-isometries.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Mystery Isometries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#subsec-Isom-mystery-review" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Review of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#sec-isom-mystery-isometries-4" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Solving the Mysteries</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#exer-isom-mystery" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-symmetry.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Symmetry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-3" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Two Types of Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry of Polygons</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#subsec-symm-transformations" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Symmetry Transformations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-symmetry.html#exer-isom-symm" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-instructor.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-2" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Notes for Section 4.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-3" class="internal"><span class="codenumber">4.7.2</span> <span class="title">Notes for Section 4.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-4" class="internal"><span class="codenumber">4.7.3</span> <span class="title">Notes for Section 4.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-5" class="internal"><span class="codenumber">4.7.4</span> <span class="title">Notes for Section 4.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-6" class="internal"><span class="codenumber">4.7.5</span> <span class="title">Notes for Section 4.5</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-7" class="internal"><span class="codenumber">4.7.6</span> <span class="title">Notes for Section 4.6</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-distance-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Distance on the Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(xy\)</span>-Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Defining Dilation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Similar Triangles and Dilations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-and-similarity.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Dilations and Similar Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsec-DAR-sliding-dilation" class="internal"><span class="codenumber">5.2.1</span> <span class="title">A Dynamic Look at Dilations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsubsec-dilations-similar" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Dilations and Similar Triangles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#exer-dilations-DAS" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Pythagorean Theorem and the Golden Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilation-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with Seven to Ten Vertices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpolys-generalizing" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Making Conjectures and Generalizations about Star Polygons</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">A</span> <span class="title">Algebra Review</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles-3.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Algebraic Expressions and Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="field-properties.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Field Properties of the Real Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equality-properties.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Properties of Equality</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsec-Functions.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Functions and Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-algrev-sqroots" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Working with squares and square roots</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-Functions-4" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Other Pairs of Inverse Functions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-Functions-5" class="internal"><span class="codenumber">A.4.3</span> <span class="title">Order of Operations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="list-of-principles.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Principles</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-list-formulas.html" class="internal"><span class="codenumber">D</span> <span class="title">List of Formulas</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-polygons-length"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.5</span><span class="space"> </span><span class="title">Exploring Length and the Pythagorean Theorem</span>
+</h2>
+<section class="introduction" id="sec-polygons-length-2"><div class="para" id="sec-polygons-length-2-1">Dating from before 500 B.C., the Pythagorean Theorem allows us to compute lengths associated with right triangles. Upon completing this section, you should be able to explain to others how the Pythagorean Theorem follows from our basic principles. First, we introduce some terminology and refresh our memory on how to apply the theorem.</div></section><section class="subsection" id="sec-polygons-length-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="space"> </span><span class="title">Right Triangles</span>
+</h3>
+<article class="definition definition-like" id="def-righttriangle"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-righttriangle-5-1">As noted in <a href="sec-intro-apply.html#def-triangles-by-angles" class="xref" data-knowl="./knowl/xref/def-triangles-by-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.11">Definition 1.2.11</a>, a <dfn class="terminology">right triangle</dfn> is a triangle with one right angle. The longest side, called the <dfn class="terminology">hypotenuse</dfn>, of a right triangle is always opposite the right angle. The other two sides of the right triangle are called the <dfn class="terminology">legs</dfn>.</div></article><section class="reading-questions" id="sec-polygons-length-3-3"><h4 class="heading hide-type">
+<span class="type">Reading Questions</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Check Your Understanding</span>
+</h4>
+<section class="introduction" id="sec-polygons-length-3-3-2"><div class="para" id="sec-polygons-length-3-3-2-1">Refer to the picture as you answer the following:</div>
+<div class="image-box" style="width: 85%; margin-left: 7.5%; margin-right: 7.5%;"><img src="external/righttriangleparts.svg" role="img" class="contained" alt="(for accessibility)"></div></section><article class="exercise exercise-like" id="sec-polygons-length-3-3-3"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="sec-polygons-length-3-3-3-1-1">Which lowercase letter represents the hypotenuse in the triangle above?</div>
+<div class="solutions"><details id="sec-polygons-length-3-3-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-polygons-length-3-3-3-2-1"><span class="process-math">\(b=\overline{AC}\)</span></div></div></details></div></article><article class="exercise exercise-like" id="sec-polygons-length-3-3-4"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="sec-polygons-length-3-3-4-1-1">Which angle appears to be the smallest in the triangle?</div>
+<div class="solutions"><details id="sec-polygons-length-3-3-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-polygons-length-3-3-4-2-1"><span class="process-math">\(\angle BAC\)</span></div></div></details></div></article><article class="exercise exercise-like" id="sec-polygons-length-3-3-5"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="sec-polygons-length-3-3-5-1-1">Which side appears to be the shortest in the triangle?</div>
+<div class="solutions"><details id="sec-polygons-length-3-3-5-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-polygons-length-3-3-5-2-1"><span class="process-math">\(a=\overline{BC}\)</span></div></div></details></div></article><article class="exercise exercise-like" id="sec-polygons-length-3-3-6"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="sec-polygons-length-3-3-6-1-1">How are the answers to the last two questions related? Does this relationship also hold for the largest side and largest angle?</div>
+<div class="solutions"><details id="sec-polygons-length-3-3-6-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-polygons-length-3-3-6-2-1">The smallest side is opposite the smallest angle. The largest side is opposite the largest angle.</div></div></details></div></article></section></section><section class="subsection" id="sec-polygons-length-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.5.2</span><span class="space"> </span><span class="title">The Pythagorean Theorem</span>
+</h3>
+<div class="para" id="sec-polygons-length-4-2">The Pythagorean Theorem states that if <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> are the lengths of the sides of a right triangle and <span class="process-math">\(c\)</span> is the length of the hypotenuse, then <span class="process-math">\(a^2+b^2=c^2\text{.}\)</span>
+</div>
+<article class="theorem theorem-like" id="thm-Pythagorean"><h4 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">2.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">Pythagorean Theorem.</span>
+</h4>
+<div class="para" id="thm-Pythagorean-2-1">Suppose <span class="process-math">\(\Delta ABC\)</span> is a right triangle with right angle at <span class="process-math">\(C\text{.}\)</span> Let <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> be the lengths of legs <span class="process-math">\(\overline{BC}\)</span> and <span class="process-math">\(\overline{AC}\text{,}\)</span> respectively, and let <span class="process-math">\(c\)</span> be the length of the hypotenuse <span class="process-math">\(\overline{AB}\text{.}\)</span> Then <span class="process-math">\(a^2+b^2=c^2\text{.}\)</span>
+</div></article><div class="para" id="sec-polygons-length-4-4">The next set of questions will refresh your skill in using the Pythagorean Theorem to determine missing lengths.</div>
+<section class="reading-questions" id="sec-polygons-length-4-5"><h4 class="heading hide-type">
+<span class="type">Reading Questions</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Check your Understanding</span>
+</h4>
+<article class="exercise exercise-like" id="sec-polygons-length-4-5-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="sec-polygons-length-4-5-2-1-1">A triangle has legs of length 5 and 7. Determine the length of the hypotenuse.</div>
+<div class="solutions"><details id="sec-polygons-length-4-5-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-polygons-length-4-5-2-2-1"><span class="process-math">\(\sqrt{74}\approx8.602\)</span></div></div></details></div></article><article class="exercise exercise-like" id="sec-polygons-length-4-5-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="sec-polygons-length-4-5-3-1-1">A square has a diagonal of length <span class="process-math">\(\sqrt{80}\text{.}\)</span> Determine the length of the sides.</div>
+<div class="solutions">
+<details id="sec-polygons-length-4-5-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polygons-length-4-5-3-2-1">Since the sides of a square are the same length, use the same letter to represent all of them. How do you create a triangle from a square?</div></div></details><details id="sec-polygons-length-4-5-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-polygons-length-4-5-3-3-1"><span class="process-math">\(\sqrt{40}=2\sqrt{10}\approx 6.325\)</span></div></div></details>
+</div></article></section></section><section class="subsection" id="sec-polygons-length-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.5.3</span><span class="space"> </span><span class="title">Proving the Pythagorean Theorem with Picture Puzzles</span>
+</h3>
+<div class="para" id="sec-polygons-length-5-2">The Pythagorean Theorem is very useful, but it is also somewhat mysterious. Why does the formula work for all right triangles? Surprisingly, there are more than 350 recognized proofs of the Pythagorean Theorem. We will look at just a few. In the following exploration, you will rearrange polygons built from a right triangle, and use the rearrangements to explain why <span class="process-math">\(a^2+b^2=c^2\)</span> in each case. You are encouraged to try all the proofs in this section and to choose one to learn well enough to convince others.</div>
+<aside class="aside aside-like" id="sec-polygons-length-5-3"><div class="para" id="sec-polygons-length-5-3-1">The book, <em class="emphasis">The Pythagorean Proposition</em>, by Elisha S. Loomis, (NCTM:1968) contains 367 proofs of the Pythagorean Theorem. </div></aside><article class="exploration project-like" id="sec-polygons-length-5-4"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Puzzling over Why the Pythagorean Theorem Holds.</span>
+</h4>
+<div class="introduction" id="sec-polygons-length-5-4-2"><div class="para" id="sec-polygons-length-5-4-2-1">For these explorations, we start with an arbitrary right triangle with hypotenuse length <span class="process-math">\(c\)</span> and legs of length <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{.}\)</span>
+</div></div>
+<article class="task exercise-like" id="tri4andcsq"><h5 class="heading">
+<span class="codenumber">(a)</span><span class="space"> </span><span class="title">First Pythagorean Puzzle.</span>
+</h5>
+<div class="para" id="tri4andcsq-2-1">In <a href="sec-polygons-length.html#PythRTriCsq" class="xref" data-knowl="./knowl/xref/PythRTriCsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.3">Figure 2.5.3</a>, the four blue triangles on the right are congruent copies of the right triangle <span class="process-math">\(\Delta ABC\text{.}\)</span> Check Puzzle_1 to reveal a second square. The side length of this new orange square is <span class="process-math">\(c\text{.}\)</span> To verify this, you can line up the side of the square with the hypotenuse of one of the triangles.</div> <figure class="figure figure-like" id="PythRTriCsq"><iframe id="pyththmgeoapp" width="600" height="600" src="pyththmgeoapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.3<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for <a href="sec-polygons-length.html#tri4andcsq" class="xref" data-knowl="./knowl/xref/tri4andcsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 2.5.1.a: First Pythagorean Puzzle">Task 2.5.1.a</a>.</figcaption></figure> <div class="para logical" id="tri4andcsq-2-3"><ol class="decimal" id="tri4andcsq-2-3-1">
+<li id="tri4andcsq-2-3-1-1"><div class="para" id="tri4andcsq-2-3-1-1-1">Fill the square on the left using the four blue copies of the triangle and the orange square on the right. Pieces can be moved by selecting the interior and they can be rotated by moving the dotted vertex. The red triangle labeled <span class="process-math">\(\Delta ABC\)</span> is only shown for reference and will not be used. As always, there should be no gaps or overlaps. Preserve your work with a sketch or screenshot.</div></li>
+<li id="tri4andcsq-2-3-1-2"><div class="para" id="tri4andcsq-2-3-1-2-1">What is the length of a side of the square that you filled? Give your answer in terms of lengths <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and/or <span class="process-math">\(c\text{.}\)</span>
+</div></li>
+<li id="tri4andcsq-2-3-1-3"><div class="para" id="tri4andcsq-2-3-1-3-1">Determine the area of each of the pieces used to fill the square frame using the variables <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and/or <span class="process-math">\(c\text{.}\)</span> Write the sum of these areas in terms of these variables.</div></li>
+</ol></div></article><article class="task exercise-like" id="tri4andsquaresAandB"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Second Pythagorean Puzzle.</span>
+</h5>
+<div class="para" id="tri4andsquaresAandB-2-1">For this puzzle, select Puzzle_2 in <a href="sec-polygons-length.html#PythRTriABsq" class="xref" data-knowl="./knowl/xref/PythRTriABsq.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.4">Figure 2.5.4</a>. The orange square should no longer be visible. Instead, a green square with side length <span class="process-math">\(a\text{,}\)</span> corresponding to the shorter leg of <span class="process-math">\(\Delta ABC\text{.}\)</span> The purple square below it has a side length <span class="process-math">\(b\)</span> corresponding to the other leg.</div>  <figure class="figure figure-like" id="PythRTriABsq"><iframe id="pythproofgeoapp" width="600" height="600" src="pythproofgeoapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.4<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for <a href="sec-polygons-length.html#tri4andsquaresAandB" class="xref" data-knowl="./knowl/xref/tri4andsquaresAandB.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 2.5.1.b: Second Pythagorean Puzzle">Task 2.5.1.b</a>.</figcaption></figure> <div class="para logical" id="tri4andsquaresAandB-2-3"><ol class="decimal" id="tri4andsquaresAandB-2-3-1">
+<li id="tri4andsquaresAandB-2-3-1-1"><div class="para" id="tri4andsquaresAandB-2-3-1-1-1">Fill the square frame on the lower left with the four congruent right triangles and the squares with lengths <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> respectively. Preserve your work with a sketch or screenshot.</div></li>
+<li id="tri4andsquaresAandB-2-3-1-2"><div class="para" id="tri4andsquaresAandB-2-3-1-2-1">What is the length of a side of the square that you filled? Give your answer in terms of lengths <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and/or <span class="process-math">\(c\text{.}\)</span>
+</div></li>
+<li id="tri4andsquaresAandB-2-3-1-3"><div class="para" id="tri4andsquaresAandB-2-3-1-3-1">Determine the area of each of the pieces used to fill the square frame using the variables <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and/or <span class="process-math">\(c\text{.}\)</span> Write the sum of these areas using variables.</div></li>
+</ol></div></article><article class="task exercise-like" id="sec-polygons-length-5-4-5"><h5 class="heading">
+<span class="codenumber">(c)</span><span class="space"> </span><span class="title">Using the First Two Puzzles Together to Prove the Pythagorean Theorem.</span>
+</h5>
+<div class="para" id="sec-polygons-length-5-4-5-2-1">Look at the two ways in which you filled the square frames and the expressions for the area of the frames. How can you use this to justify the formula <span class="process-math">\(a^2+b^2=c^2\text{?}\)</span>
+</div> <aside class="aside aside-like" id="sec-polygons-length-5-4-5-2-2"><div class="para" id="sec-polygons-length-5-4-5-2-2-1">An alternative is to use just the first puzzle and more algebra to prove the Pythagorean Theorem. This is acceptable, but Education majors may appreciate that the method of using both puzzles together can be used to convince third graders.</div></aside><div class="solutions"><details id="sec-polygons-length-5-4-5-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polygons-length-5-4-5-3-1">We could change the size and shape of the right triangle by moving any of the vertices <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> or <span class="process-math">\(C\)</span> in the red triangle.  Note that the sizes of the squares will also change according to the new lengths of the sides of the triangle. Will the length of each side of the black square frames still be expressed with the algebraic formula you indicated above? Can the new pieces be moved so that the new frame can be filled using the Puzzle 1 pieces and separately using the Puzzle 2 pieces? Give an algebraic argument for why the frame for Puzzle 1 and Puzzle 2 must be the same for any specified right triangle. Why does this allow us to set the two sums of areas equal to each other?</div></div></details></div></article><article class="task exercise-like" id="GarfieldTask"><h5 class="heading">
+<span class="codenumber">(d)</span><span class="space"> </span><span class="title">A Presidential Proof.</span>
+</h5>
+<div class="para" id="GarfieldTask-2-1">This proof of the Pythagorean Theorem is attributed to James A. Garfield, the twentieth President of the United States. Refer to the diagram below:</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/Garfield.svg" role="img" class="contained" alt="Right triangle ABC with right angle at C. Point D is placed on ray CA so that the length of AD equals the length of BC. Point E is placed on the same side of CD as B so that line DE is perpendicular to AD and segment DE is the same length as AC. Points E and B are joined by a segment. This creates two congruent right triangles ABC and EAD and an isoceles right triangle BAE. The outer boundary is a trapezoid BCDE since BC and DE are parallel."></div> <div class="para logical" id="GarfieldTask-2-3"><ol class="decimal" id="GarfieldTask-2-3-1">
+<li id="GarfieldTask-2-3-1-1"><div class="para" id="GarfieldTask-2-3-1-1-1">The diagram above consists of two congruent right triangles and one isosceles right triangle arranged to form a trapezoid. Label the hypotenuses with the letter <span class="process-math">\(c\text{.}\)</span> Label the smallest side of these triangles <span class="process-math">\(a\)</span> and the other leg <span class="process-math">\(b\text{.}\)</span> Note that the hypotenuse of the remaining right triangle is longer than <span class="process-math">\(c\text{.}\)</span> Instead, call its length <span class="process-math">\(d\)</span> to distinguish between the two numbers.</div></li>
+<li id="GarfieldTask-2-3-1-2"><div class="para" id="GarfieldTask-2-3-1-2-1">Identify the two parallel bases for the trapezoid. Determine the height of this trapezoid in terms of the labels you put on the diagram.</div></li>
+<li id="GarfieldTask-2-3-1-3"><div class="para" id="GarfieldTask-2-3-1-3-1">Compute the area of the trapezoid using the trapezoid formula leaving your answer in terms of the variables you used to label the diagram.</div></li>
+<li id="GarfieldTask-2-3-1-4"><div class="para" id="GarfieldTask-2-3-1-4-1">Similarly, compute the areas of each of the three triangular pieces and add them together.</div></li>
+<li id="GarfieldTask-2-3-1-5"><div class="para" id="GarfieldTask-2-3-1-5-1">How does this prove the Pythagorean Theorem?</div></li>
+</ol></div></article><article class="task exercise-like" id="sqtostairs-Pyth-task"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<div class="para" id="sqtostairs-Pyth-task-1-1">The final proof of the Pythagorean Theorem is primarily visual. Almost no algebra is required. The GeoGebra interactive in <a href="sec-polygons-length.html#PythBlocks" class="xref" data-knowl="./knowl/xref/PythBlocks.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.5">Figure 2.5.5</a> provides four copies of a right triangle and a smaller square of unlabeled side length that can be moved and rotated.</div> <figure class="figure figure-like" id="PythBlocks"><iframe id="stairsteppyththmapp" width="600" height="600" src="stairsteppyththmapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.5<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for proving the Pythagorean Theorem.</figcaption></figure> <div class="para logical" id="sqtostairs-Pyth-task-1-3"><ol class="decimal" id="sqtostairs-Pyth-task-1-3-1">
+<li id="sqtostairs-Pyth-task-1-3-1-1"><div class="para" id="sqtostairs-Pyth-task-1-3-1-1-1">Rearrange the four congruent triangle copies and the small square to form a square. Verify that your shape is definitely a square. Do not use <span class="process-math">\(\Delta ABC\text{.}\)</span> Drag the centers of shapes to move them and use the labeled corners to rotate. Save a copy of your work.</div></li>
+<li id="sqtostairs-Pyth-task-1-3-1-2"><div class="para" id="sqtostairs-Pyth-task-1-3-1-2-1">What is the length of a side of this square?</div></li>
+<li id="sqtostairs-Pyth-task-1-3-1-3"><div class="para" id="sqtostairs-Pyth-task-1-3-1-3-1">What is the area of the square you created?</div></li>
+<li id="sqtostairs-Pyth-task-1-3-1-4"><div class="para" id="sqtostairs-Pyth-task-1-3-1-4-1">What is the length of a side of the small square in terms of the labels <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and/or <span class="process-math">\(c\text{?}\)</span>
+</div></li>
+<li id="sqtostairs-Pyth-task-1-3-1-5">
+<div class="para" id="sqtostairs-Pyth-task-1-3-1-5-1">Once again, our goal is to show <span class="process-math">\(a^2+b^2=c^2\text{.}\)</span> Use the same five pieces to create a pair of touching squares of area <span class="process-math">\(a^2\)</span> and <span class="process-math">\(b^2\text{.}\)</span> Some puzzle pieces will cover parts of both squares. A second copy of the GeoGebra applet is provided below for your use.</div>
+<figure class="figure figure-like" id="PythBlocks2"><iframe id="stairsteppyththmappcopy" width="600" height="600" src="stairsteppyththmappcopy-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.6<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for proving the Pythagorean Theorem, repeated from above.</figcaption></figure>
+</li>
+<li id="sqtostairs-Pyth-task-1-3-1-6"><div class="para" id="sqtostairs-Pyth-task-1-3-1-6-1">How do you know that the two squares in your diagram are actually squares and that their side lengths are <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> respectively? Base your argument on the lengths of the triangle sides.</div></li>
+<li id="sqtostairs-Pyth-task-1-3-1-7"><div class="para" id="sqtostairs-Pyth-task-1-3-1-7-1">How do these two sketches together show that the Pythagorean Theorem holds?</div></li>
+</ol></div></article></article></section><section class="subsection" id="sec-polygons-length-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.5.4</span><span class="space"> </span><span class="title">Reflecting on the Pythagorean Theorem</span>
+</h3>
+<div class="para" id="sec-polygons-length-6-2">Most people can state the Pythagorean Theorem and use it to find missing lengths in a right triangle, but in this section you have learned why the theorem holds for all right triangles. We have practiced using variables in our arguments so that our explanation is not just shown for a right triangle with lengths 3, 4, and 5 (or 5, 12, and 13), but for all right triangles. Even so, the fact that we used puzzle pieces enables us to share this knowledge with anyone who has at least a fourth grade knowledge of geometry, area, and square numbers. A few of our proofs did not require the algebraic representation and symbolic manipulation learned in middle or high school.</div>
+<div class="para" id="sec-polygons-length-6-3">On the other hand, we need to be careful that we do not try to apply this theorem to non-right triangles. It is possible to create a triangle whose side lengths are 3, 5, and 6, but this triangle will not have a right angle. In fact, the converse of the Pythagorean Theorem states that if <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> are sides of a triangle with <span class="process-math">\(a^2+b^2=c^2\text{,}\)</span> then the triangle will have a right angle opposite the side with length <span class="process-math">\(c\text{.}\)</span> </div></section><section class="exercises" id="exercises-polygons-length"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.5.5</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="subexercises" id="Toolbox-polygons-length"><h4 class="heading"><span class="title">Building Our Toolbox</span></h4>
+<article class="exercise exercise-like" id="polygons-length-BOT-Pyth"><h5 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Pythagorean Theorem.</span>
+</h5>
+<div class="para" id="polygons-length-BOT-Pyth-2-1">Write down the formula for the Pythagorean Theorem. Use an example and sketch as you explain when the theorem can be used, what the variables represent, and how to use the formula to solve a problem.</div></article><article class="exercise exercise-like" id="polygons-length-BOT-lengthadditivity"><h5 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Principle of Additivity of Length.</span>
+</h5>
+<div class="para logical" id="polygons-length-BOT-lengthadditivity-2-1"><ol class="lower-alpha lower-alpha-level-1" id="polygons-length-BOT-lengthadditivity-2-1-1">
+<li id="polygons-length-BOT-lengthadditivity-2-1-1-1"><div class="para" id="polygons-length-BOT-lengthadditivity-2-1-1-1-1">Use a picture to demonstrate why a segment formed by extending a segment of length <span class="process-math">\(a\)</span> units by a segment of <span class="process-math">\(b\)</span> more units produces a segment of length <span class="process-math">\(a+b\)</span> units.</div></li>
+<li id="polygons-length-BOT-lengthadditivity-2-1-1-2"><div class="para" id="polygons-length-BOT-lengthadditivity-2-1-1-2-1">What happens when segments <span class="process-math">\(\overline{AB}\)</span> of length 3 inches, <span class="process-math">\(\overline{BC}\)</span> of length 5 inches, and <span class="process-math">\(\overline{AC}\)</span> of length 6 inches are joined at the endpoints, <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> and <span class="process-math">\(C\text{?}\)</span> Is this still a straight line?</div></li>
+<li id="polygons-length-BOT-lengthadditivity-2-1-1-3"><div class="para" id="polygons-length-BOT-lengthadditivity-2-1-1-3-1">Again let <span class="process-math">\(\overline{AB}\)</span> have length 3 inches and <span class="process-math">\(\overline{BC}\)</span> have length 5 inches. Can you create segment <span class="process-math">\(\overline{AC}\)</span> with length 10 inches? Explain.</div></li>
+</ol></div></article></article><article class="subexercises" id="SAR-polygons-length"><h4 class="heading"><span class="title">Skills and Recall</span></h4>
+<article class="exercise exercise-like" id="exer-SAR-Pyth"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para logical" id="exer-SAR-Pyth-1-1">
+<div class="para">Determine the following in <a href="sec-polygons-length.html#fig-SAR-Pyth" class="xref" data-knowl="./knowl/xref/fig-SAR-Pyth.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.7">Figure 2.5.7</a>:</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exer-SAR-Pyth-1-1-2">
+<li id="exer-SAR-Pyth-1-1-2-1"><div class="para" id="exer-SAR-Pyth-1-1-2-1-1">The length of <span class="process-math">\(\overline{AC}\text{.}\)</span>
+</div></li>
+<li id="exer-SAR-Pyth-1-1-2-2"><div class="para" id="exer-SAR-Pyth-1-1-2-2-1">The length of <span class="process-math">\(\overline{DF}\text{.}\)</span>
+</div></li>
+<li id="exer-SAR-Pyth-1-1-2-3"><div class="para" id="exer-SAR-Pyth-1-1-2-3-1">The length of <span class="process-math">\(\overline{IJ}\text{.}\)</span> Note <span class="process-math">\(\overline{IJ}\cong\overline{HI}\text{.}\)</span>
+</div></li>
+<li id="exer-SAR-Pyth-1-1-2-4"><div class="para" id="exer-SAR-Pyth-1-1-2-4-1">The perimeter of quadrilateral <span class="process-math">\(GHIJ\text{.}\)</span>
+</div></li>
+</ol>
+</div> <figure class="figure figure-like" id="fig-SAR-Pyth"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/image-SAR-Pyth.svg" role="img" class="contained" alt="Right triangle ABC has legs of length 5 and 6. Right triangle DEF has hypotenus of 5.6 and leg DE of length 5. Quadrilateral GHIJ is formed by two triangles that share diagonal HJ of length 6. HIJ is an isosceles right triangle with legs x and hypotenuse 6. GHJ has a right angle at H and a hypotenuse GJ of length 6.5."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.7<span class="period">.</span></span><span class="space"> </span>Images for <a href="sec-polygons-length.html#exer-SAR-Pyth" class="xref" data-knowl="./knowl/xref/exer-SAR-Pyth.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.5.5.3">Exercise 2.5.5.3</a></figcaption></figure></article></article><article class="subexercises" id="ExtConc-polygons-length"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
+<article class="exercise exercise-like" id="ExtConc-PythIneq"><h5 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Pythagorean Inequalities.</span>
+</h5>
+<div class="introduction" id="ExtConc-PythIneq-2">
+<div class="para" id="ExtConc-PythIneq-2-1">Use <a href="sec-polygons-length.html#fig-HWadjustableTri" class="xref" data-knowl="./knowl/xref/fig-HWadjustableTri.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.8">Figure 2.5.8</a> to answer the questions that follow:</div>
+<figure class="figure figure-like" id="fig-HWadjustableTri"><iframe id="Gg-HWadjustableTri" width="600" height="600" src="Gg-HWadjustableTri-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.8<span class="period">.</span></span><span class="space"> </span>GeoGebra Interactive for <a href="sec-polygons-length.html#ExtConc-PythIneq" class="xref" data-knowl="./knowl/xref/ExtConc-PythIneq.html" data-reveal-label="Reveal" data-close-label="Close" title="Exercise 2.5.5.4: Pythagorean Inequalities">Exercise 2.5.5.4</a></figcaption></figure>
+</div>
+<article class="task exercise-like" id="ExtConc-PythIneq-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="ExtConc-PythIneq-3-1-1">The measure of <span class="process-math">\(\angle{BCA}\)</span> is given by the value of slider <span class="process-math">\(\alpha\text{.}\)</span> With this slider set to 90 degrees, move the other two sliders to change the lengths of <span class="process-math">\(a=BC\)</span> and <span class="process-math">\(b=AC\text{.}\)</span> The length of <span class="process-math">\(c=AB\)</span> should also change.</div> <div class="para" id="ExtConc-PythIneq-3-1-2">What do you notice about <span class="process-math">\(a^2+b^2\)</span> and <span class="process-math">\(c^2\text{?}\)</span>
+</div></article><article class="task exercise-like" id="ExtConc-PythIneq-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="ExtConc-PythIneq-4-1-1">Now change the value of <span class="process-math">\(\alpha\)</span> so that <span class="process-math">\(0\lt \alpha \lt 90\text{.}\)</span> What do you notice about <span class="process-math">\(a^2+b^2\)</span> and <span class="process-math">\(c^2\text{?}\)</span> Is your observation also true when you change <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{?}\)</span> Does your observation remain true when you change <span class="process-math">\(\alpha\)</span> to another acute angle?</div></article><article class="task exercise-like" id="ExtConc-PythIneq-5"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="ExtConc-PythIneq-5-1-1">Now slide <span class="process-math">\(\alpha\)</span> so that it has a value between 90 degrees and 180 degrees. How do <span class="process-math">\(a^2+b^2\)</span> and <span class="process-math">\(c^2\)</span> compare now? Experiment with different obtuse angles and lengths to see whether your conjecture remains true.</div></article></article><article class="exercise exercise-like" id="ExtConc-polygons-length-3"><h5 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Generating Pythagorean Triples with Algebra.</span>
+</h5>
+<div class="para logical" id="ExtConc-polygons-length-3-2-1">
+<div class="para">A Pythagorean triple is a set of three positive integers <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> such that <span class="process-math">\(a^2+b^2=c^2\text{.}\)</span>
+</div>
+<ol class="lower-alpha lower-alpha-level-1" id="ExtConc-polygons-length-3-2-1-5">
+<li id="ExtConc-polygons-length-3-2-1-5-1"><div class="para" id="ExtConc-polygons-length-3-2-1-5-1-1">Find <span class="process-math">\(c\)</span> that forms a Pythagorean triple with the numbers <span class="process-math">\(a=45\)</span> and <span class="process-math">\(b=200\text{.}\)</span> Show your work.</div></li>
+<li id="ExtConc-polygons-length-3-2-1-5-2"><div class="para" id="ExtConc-polygons-length-3-2-1-5-2-1">Find the number <span class="process-math">\(a\)</span> that forms a Pythagorean triple with the numbers <span class="process-math">\(b=32\)</span> and <span class="process-math">\(c=130\text{.}\)</span> Show your work.</div></li>
+<li id="ExtConc-polygons-length-3-2-1-5-3"><div class="para" id="ExtConc-polygons-length-3-2-1-5-3-1">Demonstrate by an example that it is not always possible to create a Pythagorean triple from two given integers. In other words, name two integers, <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> such that <span class="process-math">\(a^2+b^2\)</span> is not equal to a perfect square.</div></li>
+<li id="ExtConc-polygons-length-3-2-1-5-4"><div class="para logical" id="ExtConc-polygons-length-3-2-1-5-4-1">
+<div class="para">Choose two positive integers. Call the smaller one <span class="process-math">\(j\)</span> and the larger one <span class="process-math">\(k\text{.}\)</span>
+</div>
+<ol class="lower-roman" id="ExtConc-polygons-length-3-2-1-5-4-1-3">
+<li id="ExtConc-polygons-length-3-2-1-5-4-1-3-1"><div class="para" id="ExtConc-polygons-length-3-2-1-5-4-1-3-1-1">Compute <span class="process-math">\(2jk\)</span> and call it <span class="process-math">\(a\text{.}\)</span>
+</div></li>
+<li id="ExtConc-polygons-length-3-2-1-5-4-1-3-2"><div class="para" id="ExtConc-polygons-length-3-2-1-5-4-1-3-2-1">Compute <span class="process-math">\(k-j\)</span> and call it <span class="process-math">\(b\text{.}\)</span>
+</div></li>
+<li id="ExtConc-polygons-length-3-2-1-5-4-1-3-3"><div class="para" id="ExtConc-polygons-length-3-2-1-5-4-1-3-3-1">Is there a third positive integer <span class="process-math">\(c\)</span> such that <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> form a Pythagorean triple? If so, what is <span class="process-math">\(c\text{?}\)</span>
+</div></li>
+</ol>
+</div></li>
+<li id="ExtConc-polygons-length-3-2-1-5-5"><div class="para" id="ExtConc-polygons-length-3-2-1-5-5-1">Use algebra to demonstrate that the sum of <span class="process-math">\((2jk)^2\)</span> and <span class="process-math">\((k-j)^2\)</span> is always a perfect square when <span class="process-math">\(j\)</span> and <span class="process-math">\(k\)</span> are positive integers with <span class="process-math">\(j\lt k\text{.}\)</span> What does this tell you about Pythagorean triples?</div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="ExtConc-polygons-length-4"><h5 class="heading">
+<span class="codenumber">6<span class="period">.</span></span><span class="space"> </span><span class="title">Area of a Regular Hexagon.</span>
+</h5>
+<div class="para logical" id="ExtConc-polygons-length-4-2-1">
+<div class="para">A regular hexagon with side length 6 units is pictured in <a href="sec-polygons-length.html#fig-SAR-HexArea" class="xref" data-knowl="./knowl/xref/fig-SAR-HexArea.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.5.9">Figure 2.5.9</a>. Determine the following:</div>
+<ol class="lower-alpha lower-alpha-level-1" id="ExtConc-polygons-length-4-2-1-2"><li id="ExtConc-polygons-length-4-2-1-2-1">
+<div class="para" id="ExtConc-polygons-length-4-2-1-2-1-1">The height of the hexagon.</div>
+<div class="para" id="ExtConc-polygons-length-4-2-1-2-1-2">The area of the hexagon.</div>
+</li></ol>
+</div> <figure class="figure figure-like" id="fig-SAR-HexArea"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/reghexsize6.svg" role="img" class="contained" alt="A regular hexagon with side length 6 units."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.9<span class="period">.</span></span><span class="space"> </span>A regular hexagon with side length 6 units.</figcaption></figure></article></article><article class="subexercises" id="writing-polygons-length"><h4 class="heading"><span class="title">Writing Prompts</span></h4>
+<article class="exercise exercise-like" id="writing-polygons-length-2"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="writing-polygons-length-2-1-1">Write a letter to a friend using one of the puzzle proofs in this section to explain why the Pythagorean Theorem holds. <a href="ch-polygons.html#principle-area-of-congruent-figs" class="xref" data-knowl="./knowl/xref/principle-area-of-congruent-figs.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle 2.0.3: Area of Congruent Polygons">Principle 2.0.3</a> or <a href="sec-intro-explore.html#principle-areasums" class="xref" data-knowl="./knowl/xref/principle-areasums.html" data-reveal-label="Reveal" data-close-label="Close" title="Principle 1.1.3: Additivity of Area">Principle 1.1.3</a> should play an implicit or explicit role in your explanation.</div></article></article></section></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-polygons-regular.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-polygons-8.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>

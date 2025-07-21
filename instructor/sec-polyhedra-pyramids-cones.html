@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Pyramids and Cones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Instructor’s Version of Polyominoes, Polygons, and Polyhedra">
+<meta property="book:author" content="Teresa D. Magnus">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.8.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.a99e275a1e410b98.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.58623b9a3097f5e4.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
+<p class="byline">Teresa D. Magnus</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-polyhedra-Prisms-Cylinders.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-polyhedra.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-polyhedra-dimension.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-biography"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">About Teresa Magnus</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-8.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Geometrical Thinking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-explore.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Invitation to Explore</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-To-The-Student" class="internal"><span class="codenumber">1.1.1</span> <span class="title">To The Student</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-intro-explore-3" class="internal"><span class="codenumber">1.1.2</span> <span class="title">First Exploration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-reflect-exp-pentrect" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Learning from the Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-creative-expl" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Exploring to Learn</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-explore.html#Exercises-intro-exp" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-apply.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Invitation to Apply Knowledge</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-BuildingToolbox" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Building a Course Toolbox</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-definingpolygons" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Defining Polygons</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-apply.html#exercises-intro-apply" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-share.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Invitation to Share our Discoveries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#sec-intro-share-2" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Identifying a Pattern</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-explainconjectures" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Conjectures and Explanations in Mathematics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-letter" class="internal"><span class="codenumber">1.3.3</span> <span class="title">A Sample Explanatory Letter</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-share.html#exercises-intro-share" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-struggle.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Invitation to Overcome Challenges</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-2" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Growing through Persistance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#subsec-intro-struggle-reflect" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Confronting the Challenge</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-4" class="internal"><span class="codenumber">1.4.3</span> <span class="title">A Geometric Tool and an Algebraic Tool</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-struggle.html#exercises-intro-struggle" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="ch-intro-7.html" class="internal"><span class="codenumber">1.5</span> <span class="title">References and Suggested Readings</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-instructor.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-2" class="internal"><span class="codenumber">1.6.1</span> <span class="title">General Notes on Writing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-3" class="internal"><span class="codenumber">1.6.2</span> <span class="title">Notes for Section 1.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-4" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Notes for Section 1.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-5" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Notes for Section 1.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-6" class="internal"><span class="codenumber">1.6.5</span> <span class="title">Notes for Section 1.4</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-polygons.html" class="internal"><span class="codenumber">2</span> <span class="title">Exploring Polygons and Other Figures on the Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-area.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exploring Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Area of a Parallelogram</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-area-tri" class="internal"><span class="codenumber">2.1.2</span> <span class="title">The Area of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">The Area of a Trapezoid</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Thoughts on Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-irregular-area" class="internal"><span class="codenumber">2.1.4.1</span> <span class="title">Estimating the Area of Curved Regions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsubsec-area-circle" class="internal"><span class="codenumber">2.1.4.2</span> <span class="title">The Area of a Circle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-area.html#exercises-polygons-area" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-angles.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Exploring Angle Measure</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-defs" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Linear Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-Def-and-Measuring-Angles" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Defining and Measuring Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-triangle" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Angles of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-principle" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Additivity of Angles and Definitions Associated with Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#sec-polygons-angles-7" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Vertical Angles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-angles.html#exercises-vocab-angles" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-angles.html#exercises-polygons-angles" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel-label" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-regular.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Exploring Regular Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#sec-polygons-regular-3" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Regular Polygons</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-polygons-regular-tilings" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Regular Tilings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semiregular-tilings" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Semiregular Tilings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semireg-rules" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Narrowing Down the Options</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-regular.html#exercises-polygons-regular" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-length.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Exploring Length and the Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Right Triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Check Your Understanding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Check your Understanding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-5" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Proving the Pythagorean Theorem with Picture Puzzles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Reflecting on the Pythagorean Theorem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-length.html#exercises-polygons-length" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="ch-polygons-8.html" class="internal"><span class="codenumber">2.6</span> <span class="title">References and Suggested Readings</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-instructor.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-2" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Notes for Section 2.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-3" class="internal"><span class="codenumber">2.7.2</span> <span class="title">Notes for Section 2.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-4" class="internal"><span class="codenumber">2.7.3</span> <span class="title">Notes for Section 2.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-5" class="internal"><span class="codenumber">2.7.4</span> <span class="title">Notes for Section 2.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-6" class="internal"><span class="codenumber">2.7.5</span> <span class="title">Notes for Section 2.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Prisms and Cylinders</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#subsec-expl-prism-volume" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Volumes of Prisms and Cylinders</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#subsec-surfarea-prism-cyl" class="internal"><span class="codenumber">3.3.3</span> <span class="title">The Surface Area of Prisms and Cylinders</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Pyramids and Cones</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-2" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Defining Pyramids and Cones</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsec-expl-Euler-pyramid" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Patterns with Pyramids</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-4" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Measuring Pyramids</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-surfarea" class="internal"><span class="codenumber">3.4.3.1</span> <span class="title">Surface Area of Pyramids and Cones</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-volume" class="internal"><span class="codenumber">3.4.3.2</span> <span class="title">Volume of Pyramids and Cones</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interiors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exploring Growth in Two-Dimensional Figures</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Instructor’s Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-defining-reflection" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Defining a Reflection</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-expl-ref-coordplane" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exploring Reflections by Sketching</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-Reflections-and-Coordinate-Geometry" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Reflections and Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#sec-isom-reflect-Cartesian-5" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Key Ideas Regarding Reflections</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-interactives-ref-Cartesian" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Optional GeoGebra Interactives</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#exer-isom-reflect" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Orientation-Maintaining Transformations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP" class="internal"><span class="codenumber">4.2.1</span> <span class="title">What do we mean by orientation-maintaining?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Collinearities and Isomorphisms</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-Translations" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Translations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-translation" class="internal"><span class="codenumber">4.2.3.1</span> <span class="title">Properties of Translations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-rotation" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Rotations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-rotation" class="internal"><span class="codenumber">4.2.4.1</span> <span class="title">Properties of Rotations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#exer-isom-RAT" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-identifying-isometries.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Identifying Isometries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What do we know? What do we wonder?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-congruent-figs-orientation" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Isometry Between Congruent Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-fixed-points" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Recognizing Isometries by Fixed Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-5" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.5</span> <span class="title">What have we learned?</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#Exercises-isom-ident" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-composing-reflections.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compositions of Reflections</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#sec-isom-composing-reflections-2" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Compositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#subsec-Four-Isometries" class="internal"><span class="codenumber">4.4.2</span> <span class="title">The Four Isometries</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#exer-isom-comp" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-mystery-isometries.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Mystery Isometries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#subsec-Isom-mystery-review" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Review of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#sec-isom-mystery-isometries-4" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Solving the Mysteries</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#exer-isom-mystery" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-symmetry.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Symmetry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-3" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Two Types of Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry of Polygons</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#subsec-symm-transformations" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Symmetry Transformations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-symmetry.html#exer-isom-symm" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-instructor.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-2" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Notes for Section 4.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-3" class="internal"><span class="codenumber">4.7.2</span> <span class="title">Notes for Section 4.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-4" class="internal"><span class="codenumber">4.7.3</span> <span class="title">Notes for Section 4.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-5" class="internal"><span class="codenumber">4.7.4</span> <span class="title">Notes for Section 4.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-6" class="internal"><span class="codenumber">4.7.5</span> <span class="title">Notes for Section 4.5</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-7" class="internal"><span class="codenumber">4.7.6</span> <span class="title">Notes for Section 4.6</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-distance-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Distance on the Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(xy\)</span>-Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Defining Dilation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Similar Triangles and Dilations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-and-similarity.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Dilations and Similar Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsec-DAR-sliding-dilation" class="internal"><span class="codenumber">5.2.1</span> <span class="title">A Dynamic Look at Dilations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsubsec-dilations-similar" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Dilations and Similar Triangles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#exer-dilations-DAS" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Pythagorean Theorem and the Golden Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilation-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with Seven to Ten Vertices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpolys-generalizing" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Making Conjectures and Generalizations about Star Polygons</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">A</span> <span class="title">Algebra Review</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles-3.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Algebraic Expressions and Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="field-properties.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Field Properties of the Real Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equality-properties.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Properties of Equality</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsec-Functions.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Functions and Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-algrev-sqroots" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Working with squares and square roots</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-Functions-4" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Other Pairs of Inverse Functions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-Functions-5" class="internal"><span class="codenumber">A.4.3</span> <span class="title">Order of Operations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="list-of-principles.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Principles</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-list-formulas.html" class="internal"><span class="codenumber">D</span> <span class="title">List of Formulas</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-polyhedra-pyramids-cones"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.4</span><span class="space"> </span><span class="title">Pyramids and Cones</span>
+</h2>
+<section class="subsection" id="sec-polyhedra-pyramids-cones-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="space"> </span><span class="title">Defining Pyramids and Cones</span>
+</h3>
+<div class="para" id="sec-polyhedra-pyramids-cones-2-2">In this section, we will learn about pyramids and cones and how they are related to prisms and cylinders.</div>
+<article class="definition definition-like" id="def-pyramid"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Pyramid.</span>
+</h4>
+<div class="para" id="def-pyramid-5-1">A <dfn class="terminology">pyramid</dfn> is a polyhedron which may have any polygon as its base. All remaining faces are triangles that come together at a common vertex called the <dfn class="terminology">apex</dfn>.  The <dfn class="terminology">height</dfn> of the pyramid is measured from the apex to the plane containing the base along a line perpendicular to this plane.</div> <div class="para" id="def-pyramid-5-2">We name each pyramid according to its base. Thus, a triangular pyramid has a triangular base, a square pyramid has a square base, and so forth. Also, the apex of the pyramid does not have to be directly above the center of the base. In fact, the apex may not be directly above any part of the pyramid as shown in <a href="sec-polyhedra-pyramids-cones.html#fig-skew-pyramid" class="xref" data-knowl="./knowl/xref/fig-skew-pyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.3">Figure 3.4.3</a>.</div></article><div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel bottom" style="width:47.3684210526316%;"><figure class="figure figure-like" id="fig-SqPyramid"><img src="external/SqPyramid1.png" class="contained" alt="A pyramid with a square base."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.2<span class="period">.</span></span><span class="space"> </span>A square pyramid</figcaption></figure></div>
+<div class="sbspanel bottom" style="width:47.3684210526316%;"><figure class="figure figure-like" id="fig-skew-pyramid"><img src="external/skewpyr.png" class="contained" alt="A square pyramid with apex off to the side."><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.3<span class="period">.</span></span><span class="space"> </span>A skew pyramid</figcaption></figure></div>
+</div></div></section><section class="subsection" id="subsec-expl-Euler-pyramid"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="space"> </span><span class="title">Patterns with Pyramids</span>
+</h3>
+<article class="exploration project-like" id="exploring-pyramid-patterns"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.4.1</span><span class="period">.</span>
+</h4>
+<article class="task exercise-like" id="exploring-pyramid-patterns-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="exploring-pyramid-patterns-1-1-1">Use models and reasoning to complete <a href="sec-polyhedra-pyramids-cones.html#table-pyramid-FVE" class="xref" data-knowl="./knowl/xref/table-pyramid-FVE.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.4.4: Counting Parts of a Pyramid">Table 3.4.4</a>. Pictures of a pentagonal pyramid and a hexagonal pyramid are provided in <a href="sec-polyhedra-pyramids-cones.html#fig-pentpyr-hexpyr" class="xref" data-knowl="./knowl/xref/fig-pentpyr-hexpyr.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.5">Figure 3.4.5</a>.</div> <figure class="table table-like" id="table-pyramid-FVE"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.4<span class="period">.</span></span><span class="space"> </span>Counting Parts of a Pyramid</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l0 t0 lines">Type of Pyramid</th>
+<th scope="col" class="c m b2 r1 l0 t0 lines">
+<span class="process-math">\(F=\)</span> Number of faces</th>
+<th scope="col" class="c m b2 r1 l0 t0 lines">
+<span class="process-math">\(V=\)</span> Number of vertices</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">
+<span class="process-math">\(E=\)</span> Number of edges</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Triangular pyramid</th>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r0 l0 t0 lines">6</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Quadrilateral pyramid</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Pentagonal pyramid</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Hexagonal pyramid</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<th scope="row" class="c m b0 r2 l0 t0 lines">
+<span class="process-math">\(n\)</span>-gonal pyramid</th>
+<td class="c m b0 r1 l0 t0 lines"></td>
+<td class="c m b0 r1 l0 t0 lines"></td>
+<td class="c m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="exploring-pyramid-patterns-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="exploring-pyramid-patterns-3-1-1">What appears to be true about <span class="process-math">\(F+V-E\)</span> for each pyramid?</div></article></article></section><section class="subsection" id="sec-polyhedra-pyramids-cones-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="space"> </span><span class="title">Measuring Pyramids</span>
+</h3>
+<div class="para" id="sec-polyhedra-pyramids-cones-4-2">In <a href="sec-polyhedra-pyramids-cones.html#explor-rect-pyr" class="xref" data-knowl="./knowl/xref/explor-rect-pyr.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 3.4.2: Exploring a Rectangular Pyramid">Exploration 3.4.2</a>, we shall compute measurements for a specific example, a pyramid with a rectangular base and three perpendicular edges meeting at vertex <span class="process-math">\(A\text{.}\)</span> If this exploration is done in class, your instructor may choose to assign different pyramids to different groups. If this is the case, you will want to construct your pyramid very carefully so that your pyramid can be assembled with other groups’ pyramids to form a new, yet familiar, solid. Then we will be able to use this construction to compute volume.</div>
+<article class="exploration project-like" id="explor-rect-pyr"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Exploring a Rectangular Pyramid.</span>
+</h4>
+<div class="introduction" id="explor-rect-pyr-2">
+<div class="para" id="explor-rect-pyr-2-1">In this activity, you will study the rectangular pyramid that is created by folding only one of the nets in <a href="sec-polyhedra-pyramids-cones.html#fig-three-pyr-nets" class="xref" data-knowl="./knowl/xref/fig-three-pyr-nets.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.6">Figure 3.4.6</a>. Check with your instructor to see which net you should explore. </div>
+<figure class="figure figure-like" id="fig-three-pyr-nets"><div class="sidebyside"><div class="sbsrow" style="margin-left:0.166666666666667%;margin-right:0.166666666666667%;">
+<div class="sbspanel bottom" style="width:33.1103678929766%;"><figure class="figure figure-like" id="fig-explor-rect-pyr-345"><img src="external/PyramidNet345.svg" role="img" class="contained" alt="A net that can be folded to create a rectangular pyramid with 3 by 4 rectangular base and height 5."><figcaption><span class="codenumber">(a)</span><span class="space"> </span>Pyramid Net 1</figcaption></figure></div>
+<div class="sbspanel bottom" style="width:33.1103678929766%;"><figure class="figure figure-like" id="fig-explor-rect-pyr-354"><img src="external/PyramidNet354.svg" role="img" class="contained" alt="A net that can be folded to create a rectangular pyramid with 3 by 5 rectangular base and height 4."><figcaption><span class="codenumber">(b)</span><span class="space"> </span>Pyramid Net 2</figcaption></figure></div>
+<div class="sbspanel bottom" style="width:33.1103678929766%;"><figure class="figure figure-like" id="fig-explor-rect-pyr-453"><img src="external/PyramidNet453.svg" role="img" class="contained" alt="A net that can be folded to create a rectangular pyramid with 4 by 5 rectangular base and height 3."><figcaption><span class="codenumber">(c)</span><span class="space"> </span>Pyramid Net 3</figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.6<span class="period">.</span></span><span class="space"> </span>Nets of three rectangular pyramids</figcaption></figure>
+</div>
+<article class="task exercise-like" id="lengths-rect-pyr"><h5 class="heading">
+<span class="codenumber">(a)</span><span class="space"> </span><span class="title">Finding Edge Lengths and Surface Area.</span>
+</h5>
+<div class="introduction" id="lengths-rect-pyr-2">
+<div class="para" id="lengths-rect-pyr-2-1">Regardless of which pyramid net you are working with, the base <span class="process-math">\(ABCD\)</span> is a rectangle. Angles <span class="process-math">\(\angle CAE\text{,}\)</span> <span class="process-math">\(\angle BAF\text{,}\)</span> <span class="process-math">\(\angle DCE'\text{,}\)</span> and <span class="process-math">\(\angle DBF'\)</span> are right angles. The dimensions of the base and the length of <span class="process-math">\(\overline{AE}\)</span> are given in the table below: </div>
+<figure class="table table-like" id="table-pyramidnets123"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.7<span class="period">.</span></span><span class="space"> </span>Dimensions of Pyramids 1, 2, and 3</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l0 t0 lines">Pyramid Number</th>
+<th scope="col" class="c m b2 r1 l0 t0 lines">Dimensions of Base</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Length of <span class="process-math">\(\overline{AE}\)</span>
+</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Net 1</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3\times 4\)</span></td>
+<td class="c m b1 r0 l0 t0 lines">5</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Net 2</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3\times 5\)</span></td>
+<td class="c m b1 r0 l0 t0 lines">4</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Net 3</th>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(4\times 5\)</span></td>
+<td class="c m b1 r0 l0 t0 lines">3</td>
+</tr>
+</table></div></figure><div class="para" id="lengths-rect-pyr-2-3">Determine the following:</div>
+</div>
+<article class="task exercise-like" id="lengths-rect-pyr-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="lengths-rect-pyr-3-1-1">For the record, state which Pyramid Net you will study: <a href="sec-polyhedra-pyramids-cones.html#fig-explor-rect-pyr-345" class="xref" data-knowl="./knowl/xref/fig-explor-rect-pyr-345.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.6.(a)">Net 1</a>, <a href="sec-polyhedra-pyramids-cones.html#fig-explor-rect-pyr-354" class="xref" data-knowl="./knowl/xref/fig-explor-rect-pyr-354.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.6.(b)">Net 2</a>, or <a href="sec-polyhedra-pyramids-cones.html#fig-explor-rect-pyr-453" class="xref" data-knowl="./knowl/xref/fig-explor-rect-pyr-453.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.6.(c)">Net 3</a>.</div></article><article class="task exercise-like" id="lengths-rect-pyr-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="lengths-rect-pyr-4-1-1">Determine <span class="process-math">\(AF\text{.}\)</span>
+</div></article><article class="task exercise-like" id="lengths-rect-pyr-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="lengths-rect-pyr-5-1-1">Determine <span class="process-math">\(EC\text{.}\)</span>
+</div>
+<div class="solutions"><details id="lengths-rect-pyr-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="lengths-rect-pyr-5-2-1">The Pythagorean Theorem should be used. If your answer is not a whole number (Net 1), leave the square root in your answer.</div></div></details></div></article><article class="task exercise-like" id="lengths-rect-pyr-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="lengths-rect-pyr-6-1-1">Determine <span class="process-math">\(BF\text{.}\)</span>
+</div>
+<div class="solutions"><details id="lengths-rect-pyr-6-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="lengths-rect-pyr-6-2-1">If your answer is not a whole number, you should leave the square root in your answer. What happens when you take the square of a square root?</div></div></details></div></article><article class="task exercise-like" id="lengths-rect-pyr-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="lengths-rect-pyr-7-1-1">Explain without performing any calculations why <span class="process-math">\(CE'\)</span> should equal <span class="process-math">\(CE\)</span> and <span class="process-math">\(BF'\)</span> should equal <span class="process-math">\(BF\text{.}\)</span>
+</div>
+<div class="solutions"><details id="lengths-rect-pyr-7-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="lengths-rect-pyr-7-2-1">Remember that the net should fold into a pyramid.</div></div></details></div></article><article class="task exercise-like" id="lengths-rect-pyr-8"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
+<div class="para" id="lengths-rect-pyr-8-1-1">Calculate <span class="process-math">\(DE'\)</span> and <span class="process-math">\(DF'\text{.}\)</span>
+</div>
+<div class="solutions"><details id="lengths-rect-pyr-8-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="lengths-rect-pyr-8-2-1">Compute these separately and check that they are equal.</div>
+<div class="para" id="lengths-rect-pyr-8-2-2">Leave the square root in your answer. What happens when you take the square of a square root?</div>
+</div></details></div></article><article class="task exercise-like" id="lengths-rect-pyr-9"><h6 class="heading"><span class="codenumber">(vii)</span></h6>
+<div class="para" id="lengths-rect-pyr-9-1-1">Use your knowledge of area of rectangles and triangles and the definition of surface area to determine the surface area of this rectangular pyramid.</div></article></article><article class="task exercise-like" id="construct-rect-pyr"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Constructing a pyramid from a net.</span>
+</h5>
+<div class="para" id="construct-rect-pyr-2-1">Print your Pyramid Net<details class="ptx-footnote" aria-live="polite" id="construct-rect-pyr-2-1-1"><summary class="ptx-footnote__number" title="Footnote 3.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="construct-rect-pyr-2-1-1">To print out copies of all three nets, sized consistently, use <a class="external" href="https://drive.google.com/file/d/1GvWkZHR1BYcQzO_0rUs516MUoLaJnwZ_/view?usp=sharing" target="_blank">bit.ly/3PyramidNets.</a>.</div></details> on cardstock, cut your net out, and fold along the dashed lines to see that this forms a rectangular pyramid.</div> <div class="para" id="construct-rect-pyr-2-2">What do you notice about the corner of your pyramid at <span class="process-math">\(A\text{?}\)</span>
+</div></article></article><section class="subsubsection" id="subsubsec-pyramid-surfarea"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">3.4.3.1</span><span class="space"> </span><span class="title">Surface Area of Pyramids and Cones</span>
+</h4>
+<div class="para" id="subsubsec-pyramid-surfarea-2">With both prisms and pyramids, formulas exist to compute the <a href="sec-polyhedra-Prisms-Cylinders.html#def-surf-area" class="xref" data-knowl="./knowl/xref/def-surf-area.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.3.8">surface area 3.3.8</a> of some of the common types, but these formulas are often not necessary.<details class="ptx-footnote" aria-live="polite" id="subsubsec-pyramid-surfarea-2-2"><summary class="ptx-footnote__number" title="Footnote 3.4.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="subsubsec-pyramid-surfarea-2-2">The tough part of computing surface area is determining missing lengths and altitudes. Some formulas will alleviate the need to perform these computations.</div></details> Some of these formulas use techniques that are beyond the scope of this course. However, if we can compute the area of each face, then the surface area is simply the sum of the areas of the faces. Working with nets can help us focus on measuring the surfaces.</div>
+<div class="para" id="subsubsec-pyramid-surfarea-3">As illustrated in <a href="sec-polyhedra-pyramids-cones.html#fig-cone-surface" class="xref" data-knowl="./knowl/xref/fig-cone-surface.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.8">Figure 3.4.8</a>, the surface of a cone will consist of two parts: the circle that forms its base and a circular sector that forms the section connecting the apex to the base. In the net for the cone, the center of the circular sector corresponds to the apex of the cone and the radius of the sector corresponds to the slant height of the cone. This slant height is measured along a line segment from the apex to the edge of the base which meets the base at an angle less than 90 degrees.</div>
+<div class="para" id="subsubsec-pyramid-surfarea-4">The cone, pictured in <a href="sec-polyhedra-pyramids-cones.html#fig-cone-surface" class="xref" data-knowl="./knowl/xref/fig-cone-surface.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.8">Figure 3.4.8</a>, has a circular base with radius 3 and a vertical height of 6. Using the Pythagorean Theorem, we know that the slant height is <span class="process-math">\(\sqrt{3^2+6^2}=\sqrt{45}\approx 6.71\text{.}\)</span> The net for this cone consists of the radius-3 circular base and the shaded portion of the larger circle. The fact that the circumference of the base matches the curved edge of the sector enables us to find the central angle, approximately <span class="process-math">\(q=6.71\)</span> of the sector. The process of finding the angle and area of the sector is left to an exercise.</div>
+<figure class="figure figure-like" id="fig-cone-surface"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cone36-and-net.svg" role="img" class="contained" alt="Cone with base radius 3, vertical height 6, and slant length 6.71. Two touching circles, one with radius 3. The other with radius 6.71 has shaded portion with central angle 161."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.8<span class="period">.</span></span><span class="space"> </span>A cone and its net.</figcaption></figure></section><section class="subsubsection" id="subsubsec-pyramid-volume"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">3.4.3.2</span><span class="space"> </span><span class="title">Volume of Pyramids and Cones</span>
+</h4>
+<div class="para" id="subsubsec-pyramid-volume-2">We end this section by stating a fact that will allow us to find the volume of many pyramids and cones.</div>
+<article class="axiom theorem-like" id="formula-vol-of-pyramid"><h5 class="heading">
+<span class="type">Formula</span><span class="space"> </span><span class="codenumber">3.4.9</span><span class="period">.</span><span class="space"> </span><span class="title">Volume of a Pyramid.</span>
+</h5>
+<div class="para logical" id="formula-vol-of-pyramid-4-1">
+<div class="para">The volume of a pyramid is one-third the volume of a prism with the same base and height. Thus, the volume of a pyramid is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{pyr}=\frac{A_{base}\cdot h}{3}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(A_{base}\)</span> is the area of the base and <span class="process-math">\(h\)</span> is the height measured along a vertical line segment from the apex to the base.</div>
+</div></article><div class="para" id="subsubsec-pyramid-volume-4">A cone has a similar relationship with a cylinder.</div>
+<article class="axiom theorem-like" id="formula-vol-of-cone"><h5 class="heading">
+<span class="type">Formula</span><span class="space"> </span><span class="codenumber">3.4.10</span><span class="period">.</span><span class="space"> </span><span class="title">Volume of a Cone.</span>
+</h5>
+<div class="para logical" id="formula-vol-of-cone-4-1">
+<div class="para">The volume of a cone is one-third the volume of a cylinder with the same base and height. Since the base of a cone or cylinder is a circle with area, <span class="process-math">\(A_{base}=\pi r^2\text{,}\)</span> the formula for the volume of a cone can be written as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V_{cone}=\frac{\pi r^2 h}{3}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(r\)</span> is the radius of the base and h is the vertical height when the cone is sitting on its base.</div>
+</div></article><div class="para" id="subsubsec-pyramid-volume-6">This fact may be something you choose to accept and use without further justification. In case you have doubts, the remainder of this section provides several different ways to visualize this surprising fact. As you have already experienced, visualizing three-dimensional properties can be challenging. Use the activities or videos, that work best for you or are required by your instructor.</div>
+<article class="exploration project-like" id="expl-volume-by-water"><h5 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">Visualizing Pyramid and Cone Volume with Water.</span>
+</h5>
+<div class="introduction" id="expl-volume-by-water-2"><div class="para" id="expl-volume-by-water-2-1">This is the simplest demonstration of the claim that the volume of a pyramid is one-third the volume of the corresponding prism. In order too perform this task, a special set of containers are needed. These are available through educational material companies. This exploration can also be viewed in the YouTube video in <a href="sec-polyhedra-pyramids-cones.html#fig-water-volume-video" class="xref" data-knowl="./knowl/xref/fig-water-volume-video.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.11">Figure 3.4.11</a>.</div></div>
+<article class="task exercise-like" id="expl-volume-by-water-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="expl-volume-by-water-3-1-1">Typically, this set will contain two pyramids and prisms with the same base and height. It will also contain a cone and cylinder with a common base and height. Fill the pyramid (or cone) with water and then pour the water into the prism (or cylinder) that has the same base and height. Repeat until the prism (or cylinder) is filled. What do you notice?</div></article><article class="task exercise-like" id="expl-volume-by-water-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="expl-volume-by-water-4-1-1">Repeat the previous experiment with any other pyramid/prism or cone/cylinder pairs you have available.</div></article><article class="task exercise-like" id="expl-volume-by-water-5"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="expl-volume-by-water-5-1-1">Does this prove that the formula works in all cases where a pyramid (or cone) has the same base and height as a prism (or cylinder)? What are some nice properties that the paired solids you used have that other prisms and pyramid pairs might not have? What are some other pyramid/prism pairs or cone/cylinder pairs that you would add to the set to make the argument more convincing?</div></article></article><article class="exploration project-like" id="expl-volume-recpyr-by-construction"><h5 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="period">.</span><span class="space"> </span><span class="title">Visualizing the Volume of a Rectangular Pyramid by Construction from Nets.</span>
+</h5>
+<div class="introduction" id="expl-volume-recpyr-by-construction-2"><div class="para" id="expl-volume-recpyr-by-construction-2-1">This demonstration of the volume formula for a pyramid uses the three nets created in <a href="sec-polyhedra-pyramids-cones.html#construct-rect-pyr" class="xref" data-knowl="./knowl/xref/construct-rect-pyr.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.4.2.b: Constructing a pyramid from a net">Task 3.4.2.b</a>. Because the nets are constructed using paper and tape, the ability to complete and comprehend this demonstration may depend on the quality of construction. It is essential that the scale of the three pyramids is consistent. The document <a class="external" href="https://drive.google.com/file/d/1GvWkZHR1BYcQzO_0rUs516MUoLaJnwZ_/view?usp=sharing" target="_blank">bit.ly/3PyramidNets</a><details class="ptx-footnote" aria-live="polite" id="expl-volume-recpyr-by-construction-2-1-3"><summary class="ptx-footnote__number" title="Footnote 3.4.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="expl-volume-recpyr-by-construction-2-1-3"><code class="code-inline tex2jax_ignore">drive.google.com/file/d/1GvWkZHR1BYcQzO_0rUs516MUoLaJnwZ_/view?usp=sharing</code></div></details> displays all three nets with the same scale. Printing on stiffer tagboard is recommended.</div></div>
+<article class="task exercise-like" id="expl-volume-recpyr-by-construction-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="expl-volume-recpyr-by-construction-3-1-1">Cut out each net and carefully assemble each into a pyramid with base <span class="process-math">\(ABDC\text{.}\)</span>
+</div></article><article class="task exercise-like" id="expl-volume-recpyr-by-construction-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="expl-volume-recpyr-by-construction-4-1-1">Arrange the three pyramids so that they form a single rectangular prism. The faces will be <span class="process-math">\(3\times 4\)</span>-, <span class="process-math">\(3\times 5\)</span>-, and <span class="process-math">\(4\times 5\)</span>-rectangles.</div></article><article class="task exercise-like" id="expl-pyr-vol-prismcalculate"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="expl-pyr-vol-prismcalculate-1-1">Compute the volume of the prism.</div></article><article class="task exercise-like" id="expl-volume-recpyr-by-construction-6"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para logical" id="expl-volume-recpyr-by-construction-6-1-1">
+<div class="para">Each of the three pyramids has a different base. Determine the area of the base of the pyramid formed by folding</div>
+<ol class="decimal" id="expl-volume-recpyr-by-construction-6-1-1-1">
+<li id="expl-volume-recpyr-by-construction-6-1-1-1-1"><div class="para" id="expl-volume-recpyr-by-construction-6-1-1-1-1-1">Pyramid Net 1</div></li>
+<li id="expl-volume-recpyr-by-construction-6-1-1-1-2"><div class="para" id="expl-volume-recpyr-by-construction-6-1-1-1-2-1">Pyramid Net 2</div></li>
+<li id="expl-volume-recpyr-by-construction-6-1-1-1-3"><div class="para" id="expl-volume-recpyr-by-construction-6-1-1-1-3-1">Pyramid Net 3</div></li>
+</ol>
+</div></article><article class="task exercise-like" id="expl-pyr-volume-calculations"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<div class="para logical" id="expl-pyr-volume-calculations-1-1">
+<div class="para">Use the formula <span class="process-math">\(V_{pyramid}=\frac{A_{base}\cdot d}{3}\)</span> to compute the volume of the pyramid formed by</div>
+<ol class="decimal" id="expl-pyr-volume-calculations-1-1-2">
+<li id="expl-pyr-volume-calculations-1-1-2-1"><div class="para" id="expl-pyr-volume-calculations-1-1-2-1-1">Pyramid Net 1</div></li>
+<li id="expl-pyr-volume-calculations-1-1-2-2"><div class="para" id="expl-pyr-volume-calculations-1-1-2-2-1">Pyramid Net 2</div></li>
+<li id="expl-pyr-volume-calculations-1-1-2-3"><div class="para" id="expl-pyr-volume-calculations-1-1-2-3-1">Pyramid Net 3</div></li>
+</ol>
+</div></article><article class="task exercise-like" id="expl-volume-recpyr-by-construction-8"><h6 class="heading"><span class="codenumber">(f)</span></h6>
+<div class="para" id="expl-volume-recpyr-by-construction-8-1-1">How does additivity of volume together with the computations in <a href="sec-polyhedra-pyramids-cones.html#expl-pyr-vol-prismcalculate" class="xref" data-knowl="./knowl/xref/expl-pyr-vol-prismcalculate.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.4.4.c">Task 3.4.4.c</a> and <a href="sec-polyhedra-pyramids-cones.html#expl-pyr-volume-calculations" class="xref" data-knowl="./knowl/xref/expl-pyr-volume-calculations.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.4.4.e">Task 3.4.4.e</a> help to confirm the formula for the volume of pyramid for this particular situation?</div> <div class="para" id="expl-volume-recpyr-by-construction-8-1-2">Bonus challenge: To what family of pyramids can we generalize this argument</div>
+<div class="solutions"><details id="expl-volume-recpyr-by-construction-8-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="expl-volume-recpyr-by-construction-8-2-1">For the bonus, note that these pyramids had a particular shaped base and a special base angle.</div></div></details></div></article></article><article class="exploration project-like" id="subsubsec-pyramid-volume-9"><h5 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.4.5</span><span class="period">.</span><span class="space"> </span><span class="title">Visualizing the Volume of a Rectangular Pyramid using a GeoGebra Applet.</span>
+</h5>
+<div class="introduction" id="subsubsec-pyramid-volume-9-2"><div class="para" id="subsubsec-pyramid-volume-9-2-1">This demonstration explores the relationship between the volume formulas of prisms and pyramids. The GeoGebra applet, (created by John Golden<details class="ptx-footnote" aria-live="polite" id="subsubsec-pyramid-volume-9-2-1-1"><summary class="ptx-footnote__number" title="Footnote 3.4.5"><sup> 5 </sup></summary><div class="ptx-footnote__contents" id="subsubsec-pyramid-volume-9-2-1-1">Golden, John, "Pyramids in Prism," GeoGebra Public Resources, CC-BY-SA, 2015. Slightly edited to delete questions and adjust the graphical views.</div></details>) demonstrates how a <span class="process-math">\(3\times 4\times 5\)</span>-rectangular prism is split into three rectangular pyramids. In this activity, the shapes are the same as in <a href="sec-polyhedra-pyramids-cones.html#expl-volume-recpyr-by-construction" class="xref" data-knowl="./knowl/xref/expl-volume-recpyr-by-construction.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 3.4.4: Visualizing the Volume of a Rectangular Pyramid by Construction from Nets">Exploration 3.4.4</a>, but the prism is pulled apart rather than built. The applet allows us to change the dimensions of the prism and pyramids to help us see that the formula holds for prisms of other dimensions as well. A device with a larger screen is recommended.</div></div>
+<article class="task exercise-like" id="subsubsec-pyramid-volume-9-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<article class="task exercise-like" id="subsubsec-pyramid-volume-9-3-1"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="introduction" id="subsubsec-pyramid-volume-9-3-1-1"><div class="para" id="subsubsec-pyramid-volume-9-3-1-1-1">Verify that the blue rectangle shown on the left has the same dimensions as the base of the prism on the right. Do this by checking the coordinates on the graph.</div></div>
+<article class="task exercise-like" id="subsubsec-pyramid-volume-9-3-1-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subsubsec-pyramid-volume-9-3-1-2-1-1">Drag point <span class="process-math">\(B\text{,}\)</span> the lower right corner of the rectangle in the left picture. What happens to the prism on the right?</div></article><article class="task exercise-like" id="subsubsec-pyramid-volume-9-3-1-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subsubsec-pyramid-volume-9-3-1-3-1-1">Drag point <span class="process-math">\(C\text{,}\)</span> the upper left corner of the rectangle in the left picture. How does this affect the prism on the right?</div></article></article><article class="task exercise-like" id="subsubsec-pyramid-volume-9-3-2"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="subsubsec-pyramid-volume-9-3-2-1-1">Move the vertical slider on the far left to change the value of <span class="process-math">\(ht\text{.}\)</span> How does this affect the prism on the right?</div></article><article class="task exercise-like" id="subsubsec-pyramid-volume-9-3-3"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="introduction" id="subsubsec-pyramid-volume-9-3-3-1">
+<div class="para" id="subsubsec-pyramid-volume-9-3-3-1-1">Use the reset button (upper right corner of the left frame) to return the value of <span class="process-math">\(ht\)</span> and the locations of <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> to their original setting.</div>
+<div class="para" id="subsubsec-pyramid-volume-9-3-3-1-2">Slowly move the top slider to pull the prism apart into pyramids, observing the process in the right frame. When the slider is moved all the way to the right, there should be three pyramids visible in the right frame and three rectangles visible in the left frame.</div>
+<div class="para" id="subsubsec-pyramid-volume-9-3-3-1-3">Verify that the three rectangles on the left correspond to the bases of the three pyramids on the right. You may need to adjust your viewing window by zooming out or dragging. You can also see the coordinates of the vertices by right-clicking on the point. </div>
+</div>
+<article class="task exercise-like" id="subsubsec-pyramid-volume-9-3-3-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="subsubsec-pyramid-volume-9-3-3-2-1-1">What are the dimensions of the base of the green prism, given by <span class="process-math">\(BB''D''D\text{?}\)</span>
+</div></article><article class="task exercise-like" id="subsubsec-pyramid-volume-9-3-3-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="subsubsec-pyramid-volume-9-3-3-3-1-1">What are the dimensions of the base of the red prism, given by <span class="process-math">\(AA''B''B\text{?}\)</span>
+</div></article></article></article></article></section><section class="conclusion" id="sec-polyhedra-pyramids-cones-4-6"><div class="para" id="sec-polyhedra-pyramids-cones-4-6-1">These explorations show that, at least in a few cases, the volume of a pyramid or cone is one-third that of the corresponding prism or cylinder. A proof of this fact for all situations is beyond the scope of this course.</div></section></section><section class="exercises" id="Exercises-polyhedra-pyr"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.4.4</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="subexercises" id="SAR-polyhedra-pyr"><h4 class="heading"><span class="title">Skills and Recall</span></h4>
+<article class="exercise exercise-like" id="SAR-polypyr-vol"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="introduction" id="SAR-polypyr-vol-1"><div class="para" id="SAR-polypyr-vol-1-1">Determine the volumes of the following solids:</div></div>
+<article class="task exercise-like" id="SAR-polypyr-vol-2"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="SAR-polypyr-vol-2-1-1">A pyramid with a <span class="process-math">\(9\times 9\)</span> square base and a height of <span class="process-math">\(4\text{.}\)</span>
+</div>
+<div class="solutions">
+<details id="SAR-polypyr-vol-2-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="SAR-polypyr-vol-2-2-1">V=108 cubic units.</div></div></details><details id="SAR-polypyr-vol-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="SAR-polypyr-vol-2-3-1"><span class="process-math">\(V=\frac{81\cdot 4}{3}=\frac{324}{3}=108\)</span></div></div></details>
+</div></article><article class="task exercise-like" id="SAR-polypyr-vol-3"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="SAR-polypyr-vol-3-1-1">A pyramid with a rectangular base with a length of <span class="process-math">\(3\text{,}\)</span> a width of <span class="process-math">\(7\text{,}\)</span> and a height of <span class="process-math">\(5\text{.}\)</span>
+</div>
+<div class="solutions">
+<details id="SAR-polypyr-vol-3-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="SAR-polypyr-vol-3-2-1">35 cubic units</div></div></details><details id="SAR-polypyr-vol-3-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="SAR-polypyr-vol-3-3-1"><span class="process-math">\(\frac{21\cdot 5}{3}=35\)</span></div></div></details>
+</div></article><article class="task exercise-like" id="SAR-polypyr-vol-4"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="SAR-polypyr-vol-4-1-1">A cone with height 15 cm and radius 10 cm.</div>
+<div class="solutions">
+<details id="SAR-polypyr-vol-4-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="SAR-polypyr-vol-4-2-1">
+<span class="process-math">\(500\pi\)</span> cm^{2}</div></div></details><details id="SAR-polypyr-vol-4-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="SAR-polypyr-vol-4-3-1">
+<span class="process-math">\(\frac{1}{3}(15\cdot \pi\cdot 10^2)=500\pi\)</span> cubic centimeters</div></div></details>
+</div></article><article class="task exercise-like" id="SAR-polypyr-vol-5"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="SAR-polypyr-vol-5-1-1">A triangular pyramid with a distance of 10 cm from apex to base. The base is an isosceles triangle with sides 13 cm, 13 cm, and 10 cm. Since the base is isosceles, its altitude passes through the midpoint of the 10 cm side. This pyramid is sketched in <a href="sec-polyhedra-pyramids-cones.html#fig-SAR-pyr-base-isos" class="xref" data-knowl="./knowl/xref/fig-SAR-pyr-base-isos.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.12">Figure 3.4.12</a> and the lengths of the sides of the base are given.</div></article></article><article class="exercise exercise-like" id="SAR-polypyr-SurfA"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="introduction" id="SAR-polypyr-SurfA-1"><div class="para" id="SAR-polypyr-SurfA-1-1">Determine the surface area of the solids:</div></div>
+<article class="task exercise-like" id="SAR-prism-net-likepyr-Surface"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="SAR-prism-net-likepyr-Surface-1-1">The prism with an isosceles triangle base and stretch distance 10 cm where the triangle has one side of length 10 cm and two of length 13 cm.</div>
+<div class="solutions">
+<details id="SAR-prism-net-likepyr-Surface-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="SAR-prism-net-likepyr-Surface-2-1">480</div></div></details><details id="SAR-prism-net-likepyr-Surface-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="SAR-prism-net-likepyr-Surface-3-1"><span class="process-math">\(10^2+2\cdot(130+\frac{10\cdot 12}{2})\)</span></div></div></details>
+</div></article><article class="task exercise-like" id="SAR-pyr-net-Surface"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="SAR-pyr-net-Surface-1-1">The pyramid with net given in <a href="sec-polyhedra-pyramids-cones.html#fig-SAR-tripyr-net-for-SA" class="xref" data-knowl="./knowl/xref/fig-SAR-tripyr-net-for-SA.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.14">Figure 3.4.14</a>
+</div>
+<div class="solutions">
+<details id="SAR-pyr-net-Surface-2" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="SAR-pyr-net-Surface-2-1">275.58</div></div></details><details id="SAR-pyr-net-Surface-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="SAR-pyr-net-Surface-3-1"><span class="process-math">\(\frac{12\cdot 10}{2}+\frac{12.93\cdot 10}{2}+\frac{12\cdot 10}{2}
++2\cdot \frac{11.61\cdot 13}{2}\)</span></div></div></details>
+</div></article><article class="task exercise-like" id="SAR-polypyr-SurfA-4"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="SAR-polypyr-SurfA-4-1-1">The prism in <a href="sec-polyhedra-pyramids-cones.html#SAR-prism-net-likepyr-Surface" class="xref" data-knowl="./knowl/xref/SAR-prism-net-likepyr-Surface.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.4.4.2.a">Task 3.4.4.2.a</a> and the pyramid in <a href="sec-polyhedra-pyramids-cones.html#SAR-pyr-net-Surface" class="xref" data-knowl="./knowl/xref/SAR-pyr-net-Surface.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.4.4.2.b">Task 3.4.4.2.b</a> have the same height and base. Divide the two surface areas. Does there appear to be a nice relationship between the surface area of a pyramid and the surface area of the associated prism?</div>
+<div class="solutions">
+<details id="SAR-polypyr-SurfA-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="SAR-polypyr-SurfA-4-2-1">Make sure that your calculator is showing four or more digits after the decimal point. Is the ratio you compute a nice number or an ugly number? Is it familiar to you?</div></div></details><details id="SAR-polypyr-SurfA-4-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content">
+<div class="para" id="SAR-polypyr-SurfA-4-3-1">The ratio is 1.74178097104. There does not appear to be a nice relationship between the two surface areas.</div>
+<div class="para" id="SAR-polypyr-SurfA-4-3-2">In fact, the surface area due to the base(s) will be related by a factor of two since there are two bases in a prism and one in a pyramid. However, the heights of the triangular sides are not the same as the stretch distance <span class="process-math">\(d\)</span> of the prism, but instead are <span class="process-math">\(\sqrt{d^2+e^2}\)</span> where <span class="process-math">\(e\)</span> is the distance from the centroid of the base to the edge joining the base to the face.</div>
+</div></details>
+</div></article></article></article><article class="subexercises" id="ExtConc-polyhed-pyramid"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
+<article class="exercise exercise-like" id="ExtConc-polyhed-pyramid-2"><h5 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Angle and Area of a Sector.</span>
+</h5>
+<div class="introduction" id="ExtConc-polyhed-pyramid-2-2"><div class="para" id="ExtConc-polyhed-pyramid-2-2-1">The questions in this exercise refer to the cone in <a href="sec-polyhedra-pyramids-cones.html#fig-cone-and-net-ExtConc" class="xref" data-knowl="./knowl/xref/fig-cone-and-net-ExtConc.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.15">Figure 3.4.15</a> which has a circular base with radius 8 inches and a slant height of 17 inches.</div></div>
+<article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-3-1-1">Determine the area of the base of this cone.</div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-4-1-1">The height of the cone is measured from the apex along a segment perpendicular to the base. Use this information to determine the height of this cone.</div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-5"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-5-1-1">Determine the volume of this cone.</div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-6"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-6-1-1">Determine the circumference of the base.</div>
+<div class="solutions">
+<details id="ExtConc-polyhed-pyramid-2-6-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="ExtConc-polyhed-pyramid-2-6-2-1">The base is a circle with radius 8. What is the formula for the circumference? Also, if you leave the constant <span class="process-math">\(\pi\)</span> in your answer, it will simplify your work in a later problem.</div></div></details><details id="ExtConc-polyhed-pyramid-2-6-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">1</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="ExtConc-polyhed-pyramid-2-6-3-1"><span class="process-math">\(16\pi\)</span></div></div></details><details id="ExtConc-polyhed-pyramid-2-6-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="space"> </span><span class="codenumber">2</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="ExtConc-polyhed-pyramid-2-6-4-1"><span class="process-math">\(2\pi\cdot 8=16\pi\)</span></div></div></details>
+</div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-7"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<div class="introduction" id="ExtConc-polyhed-pyramid-2-7-1"><div class="para" id="ExtConc-polyhed-pyramid-2-7-1-1">A possible net for the cone is given in <a href="sec-polyhedra-pyramids-cones.html#ExtConc-net-for-cone" class="xref" data-knowl="./knowl/xref/ExtConc-net-for-cone.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.4.16">Figure 3.4.16</a>. The distance from <span class="process-math">\(B\)</span> to <span class="process-math">\(B'\)</span> along the circular arc, known as the <dfn class="terminology">arclength</dfn>, should equal the distance around the circumference of the base.</div></div>
+<article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-7-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-7-2-1-1">What is the total circumference of a circle with radius 17 inches?</div>
+<div class="solutions"><details id="ExtConc-polyhed-pyramid-2-7-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="ExtConc-polyhed-pyramid-2-7-2-2-1">Again, you are encouraged to leave the number <span class="process-math">\(\pi\)</span> in your answer.</div></div></details></div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-7-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-7-3-1-1">What fraction of this circumference should the arc length from <span class="process-math">\(B\)</span> to <span class="process-math">\(B'\)</span> be?</div>
+<div class="solutions"><details id="ExtConc-polyhed-pyramid-2-7-3-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="ExtConc-polyhed-pyramid-2-7-3-2-1">The number <span class="process-math">\(\pi\)</span> should cancel, leaving you with a fraction where the numerator and denominator are whole numbers. Do they look familiar?</div></div></details></div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-7-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-7-4-1-1">What is the rotational angle of a full circle? Use this together with the fraction you just computed to determine the measure of <span class="process-math">\(\angle{BDB'}\text{.}\)</span>
+</div>
+<div class="solutions"><details id="ExtConc-polyhed-pyramid-2-7-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="ExtConc-polyhed-pyramid-2-7-4-2-1">This figure only shows a rough approximation of the location of <span class="process-math">\(B'\text{.}\)</span> Do not use a protractor.</div></div></details></div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-7-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-7-5-1-1">Determine the area of the sector of circle <span class="process-math">\(D\)</span> from <span class="process-math">\(B\)</span> to <span class="process-math">\(B'\text{.}\)</span>
+</div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-7-6"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-7-6-1-1">Determine the surface area of the cone with radius 8 inches and slant height 17 inches.</div></article><article class="task exercise-like" id="ExtConc-polyhed-pyramid-2-7-7"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
+<div class="para" id="ExtConc-polyhed-pyramid-2-7-7-1-1">What did you learn by doing this exercise? Did you observe anything that you think would make a good conjecture for cones in general?</div></article></article></article></article></section></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-polyhedra-Prisms-Cylinders.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-polyhedra-dimension.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>

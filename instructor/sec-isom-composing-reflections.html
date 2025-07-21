@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-legacy                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Compositions of Reflections</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Instructor’s Version of Polyominoes, Polygons, and Polyhedra">
+<meta property="book:author" content="Teresa D. Magnus">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.8.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.a99e275a1e410b98.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.58623b9a3097f5e4.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.5bdeacdba067a0e3.css">
+<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Instructor’s Version of Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
+<p class="byline">Teresa D. Magnus</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-isom-identifying-isometries.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-isom.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-isom-mystery-isometries.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-biography"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">About Teresa Magnus</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-8.html" class="internal"><span class="title">How to use this book</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction to Geometrical Thinking</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-explore.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Invitation to Explore</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-To-The-Student" class="internal"><span class="codenumber">1.1.1</span> <span class="title">To The Student</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-intro-explore-3" class="internal"><span class="codenumber">1.1.2</span> <span class="title">First Exploration</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-reflect-exp-pentrect" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Learning from the Explorations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-creative-expl" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Exploring to Learn</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-explore.html#Exercises-intro-exp" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-apply.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Invitation to Apply Knowledge</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-BuildingToolbox" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Building a Course Toolbox</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-definingpolygons" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Defining Polygons</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-apply.html#exercises-intro-apply" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-share.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Invitation to Share our Discoveries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#sec-intro-share-2" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Identifying a Pattern</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-explainconjectures" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Conjectures and Explanations in Mathematics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-letter" class="internal"><span class="codenumber">1.3.3</span> <span class="title">A Sample Explanatory Letter</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-share.html#exercises-intro-share" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-struggle.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Invitation to Overcome Challenges</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-2" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Growing through Persistance</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#subsec-intro-struggle-reflect" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Confronting the Challenge</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-4" class="internal"><span class="codenumber">1.4.3</span> <span class="title">A Geometric Tool and an Algebraic Tool</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-struggle.html#exercises-intro-struggle" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="ch-intro-7.html" class="internal"><span class="codenumber">1.5</span> <span class="title">References and Suggested Readings</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-intro-instructor.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-2" class="internal"><span class="codenumber">1.6.1</span> <span class="title">General Notes on Writing</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-3" class="internal"><span class="codenumber">1.6.2</span> <span class="title">Notes for Section 1.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-4" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Notes for Section 1.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-5" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Notes for Section 1.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-instructor.html#sec-intro-instructor-6" class="internal"><span class="codenumber">1.6.5</span> <span class="title">Notes for Section 1.4</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-polygons.html" class="internal"><span class="codenumber">2</span> <span class="title">Exploring Polygons and Other Figures on the Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-area.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exploring Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Area of a Parallelogram</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-area-tri" class="internal"><span class="codenumber">2.1.2</span> <span class="title">The Area of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">The Area of a Trapezoid</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Thoughts on Area</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-irregular-area" class="internal"><span class="codenumber">2.1.4.1</span> <span class="title">Estimating the Area of Curved Regions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsubsec-area-circle" class="internal"><span class="codenumber">2.1.4.2</span> <span class="title">The Area of a Circle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-area.html#exercises-polygons-area" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-angles.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Exploring Angle Measure</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-defs" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Linear Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-Def-and-Measuring-Angles" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Defining and Measuring Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-triangle" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Angles of a Triangle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-principle" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Additivity of Angles and Definitions Associated with Angles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#sec-polygons-angles-7" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Vertical Angles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-angles.html#exercises-vocab-angles" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Vocabulary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-angles.html#exercises-polygons-angles" class="internal"><span class="codenumber">2.2.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-parallel.html#exercises-polygons-parallel-label" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-regular.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Exploring Regular Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#sec-polygons-regular-3" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Regular Polygons</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-polygons-regular-tilings" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Regular Tilings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semiregular-tilings" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Semiregular Tilings</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semireg-rules" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Narrowing Down the Options</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-regular.html#exercises-polygons-regular" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-length.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Exploring Length and the Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Right Triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Check Your Understanding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Check your Understanding</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-5" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Proving the Pythagorean Theorem with Picture Puzzles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Reflecting on the Pythagorean Theorem</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-length.html#exercises-polygons-length" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="ch-polygons-8.html" class="internal"><span class="codenumber">2.6</span> <span class="title">References and Suggested Readings</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polygons-instructor.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-2" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Notes for Section 2.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-3" class="internal"><span class="codenumber">2.7.2</span> <span class="title">Notes for Section 2.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-4" class="internal"><span class="codenumber">2.7.3</span> <span class="title">Notes for Section 2.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-5" class="internal"><span class="codenumber">2.7.4</span> <span class="title">Notes for Section 2.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-instructor.html#sec-polygons-instructor-6" class="internal"><span class="codenumber">2.7.5</span> <span class="title">Notes for Section 2.5</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-5" class="internal"><span class="codenumber">3.1.4</span> <span class="title">What Regular Polyhedra Exist</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-nets" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Nets for Polyhedra</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#exercises-polyhedra-reg" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Defining Prisms and Antiprisms</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#exercises-semireg-polyhedra" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Prisms and Cylinders</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#subsec-expl-prism-volume" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Volumes of Prisms and Cylinders</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#subsec-surfarea-prism-cyl" class="internal"><span class="codenumber">3.3.3</span> <span class="title">The Surface Area of Prisms and Cylinders</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Pyramids and Cones</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-2" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Defining Pyramids and Cones</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsec-expl-Euler-pyramid" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Patterns with Pyramids</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-4" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Measuring Pyramids</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-surfarea" class="internal"><span class="codenumber">3.4.3.1</span> <span class="title">Surface Area of Pyramids and Cones</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-volume" class="internal"><span class="codenumber">3.4.3.2</span> <span class="title">Volume of Pyramids and Cones</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#Exercises-polyhedra-pyr" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interiors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exploring Growth in Two-Dimensional Figures</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-polyhedra-instructor.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Instructor’s Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-2" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Notes for Section 3.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-3" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Notes for Section 3.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-4" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Notes for Section 3.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-instructor.html#sec-polyhedra-instructor-5" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Notes for Section 3.4</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-defining-reflection" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Defining a Reflection</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-expl-ref-coordplane" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exploring Reflections by Sketching</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-Reflections-and-Coordinate-Geometry" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Reflections and Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#sec-isom-reflect-Cartesian-5" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Key Ideas Regarding Reflections</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-interactives-ref-Cartesian" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Optional GeoGebra Interactives</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#exer-isom-reflect" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Orientation-Maintaining Transformations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP" class="internal"><span class="codenumber">4.2.1</span> <span class="title">What do we mean by orientation-maintaining?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Collinearities and Isomorphisms</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-Translations" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Translations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-translation" class="internal"><span class="codenumber">4.2.3.1</span> <span class="title">Properties of Translations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-rotation" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Rotations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-rotation" class="internal"><span class="codenumber">4.2.4.1</span> <span class="title">Properties of Rotations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#exer-isom-RAT" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-identifying-isometries.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Identifying Isometries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What do we know? What do we wonder?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-congruent-figs-orientation" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Isometry Between Congruent Figures</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-fixed-points" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Recognizing Isometries by Fixed Points</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-5" class="internal"><span class="codenumber">4.3.4</span> <span class="title">Defining Objects of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-identify-exptable" class="internal"><span class="codenumber">4.3.5</span> <span class="title">What have we learned?</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#Exercises-isom-ident" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-isom-composing-reflections.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compositions of Reflections</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#sec-isom-composing-reflections-2" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Compositions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#subsec-Four-Isometries" class="internal"><span class="codenumber">4.4.2</span> <span class="title">The Four Isometries</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#exer-isom-comp" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-mystery-isometries.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Mystery Isometries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#subsec-Isom-mystery-review" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Review of Isometries</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#sec-isom-mystery-isometries-4" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Solving the Mysteries</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#exer-isom-mystery" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-symmetry.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Symmetry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-3" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Two Types of Symmetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry of Polygons</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#subsec-symm-transformations" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Symmetry Transformations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-symmetry.html#exer-isom-symm" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-isom-instructor.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-2" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Notes for Section 4.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-3" class="internal"><span class="codenumber">4.7.2</span> <span class="title">Notes for Section 4.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-4" class="internal"><span class="codenumber">4.7.3</span> <span class="title">Notes for Section 4.3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-5" class="internal"><span class="codenumber">4.7.4</span> <span class="title">Notes for Section 4.4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-6" class="internal"><span class="codenumber">4.7.5</span> <span class="title">Notes for Section 4.5</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-instructor.html#sec-isom-instructor-7" class="internal"><span class="codenumber">4.7.6</span> <span class="title">Notes for Section 4.6</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-distance-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Distance on the Cartesian Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(xy\)</span>-Plane</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Defining Dilation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilate-similartri-example" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Similar Triangles and Dilations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#exer-dilations-cartesian" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-and-similarity.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Dilations and Similar Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsec-DAR-sliding-dilation" class="internal"><span class="codenumber">5.2.1</span> <span class="title">A Dynamic Look at Dilations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsubsec-dilations-similar" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Dilations and Similar Triangles</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#exer-dilations-DAS" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Pythagorean Theorem and the Golden Triangle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon" class="internal"><span class="codenumber">5.3.4</span> <span class="title">A Connection to a Regular Pentagon</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#exer-dilations-Pyth" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-dilation-instructor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Instructor Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-2" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Notes for Section 5.1</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-3" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Notes for Section 5.2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilation-instructor.html#sec-dilation-instructor-4" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Notes for Section 5.3</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with Seven to Ten Vertices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpolys-generalizing" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Making Conjectures and Generalizations about Star Polygons</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">A</span> <span class="title">Algebra Review</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles-3.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Algebraic Expressions and Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="field-properties.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Field Properties of the Real Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equality-properties.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Properties of Equality</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="subsec-Functions.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Functions and Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-algrev-sqroots" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Working with squares and square roots</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-Functions-4" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Other Pairs of Inverse Functions</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-Functions-5" class="internal"><span class="codenumber">A.4.3</span> <span class="title">Order of Operations</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="list-of-principles.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Principles</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-list-formulas.html" class="internal"><span class="codenumber">D</span> <span class="title">List of Formulas</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-isom-composing-reflections"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">4.4</span><span class="space"> </span><span class="title">Compositions of Reflections</span>
+</h2>
+<section class="subsection" id="sec-isom-composing-reflections-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="space"> </span><span class="title">Compositions</span>
+</h3>
+<div class="para logical" id="sec-isom-composing-reflections-2-2">
+<div class="para">Each of the transformations we have studied so far (reflections, translations, and rotations) performs an action on the points of the plane. In fact, a transformation is a <dfn class="terminology">function</dfn> where the inputs and outputs are geometric objects instead of numbers. In algebra, you learned about the “add three” function, written <span class="process-math">\(f(x)=x+3\text{,}\)</span> and the “multiply by four” function, <span class="process-math">\(g(x)=4x\text{.}\)</span> You also learned that you could perform two functions in succession. For example, you could perform the “add three” function on the number <span class="process-math">\(1\)</span> and then perform the “multiply by 4” function on the result.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 \overset{x+3}{\rightarrow} 4  \overset{4x}{\rightarrow} 16
+\end{equation*}
+</div>
+<div class="para">In function notation, we may write  <span class="process-math">\(g(f(1))=g(1+3)=g(4)=4(4)=16\)</span> where we perform the inner function first. We may also perform these operations on a generic value <span class="process-math">\(x\text{:}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+g(f(x))=g(x+3)=4(x+3)=4x+12.
+\end{equation*}
+</div>
+<div class="para">We note the importance of order. If we multiply by 4 first and add 3 second, we get a different result:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(g(x))=f(4x)=(4x)+3=4x+3.
+\end{equation*}
+</div>
+</div>
+<div class="para" id="sec-isom-composing-reflections-2-3">We now explore what happens when we compose geometric transformations. We could compose any two transformations, but we will first focus on reflections. What happens when we perform two or more reflections in succession? Do we get another reflection? Does it matter whether the lines are parallel? Does the order in which we perform the reflections matter?</div>
+<article class="definition definition-like" id="def-composition"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-composition-3-1">A <dfn class="terminology">composition</dfn> of two transformations is a sequence of two transformations, <span class="process-math">\(s\)</span> and <span class="process-math">\(t\text{,}\)</span> performed in succession. To find the image of a point <span class="process-math">\(P\)</span> under the composition, <span class="process-math">\(t(s(P))\text{,}\)</span> first find the image <span class="process-math">\(P'\)</span> of <span class="process-math">\(P\)</span> under the action of <span class="process-math">\(s\text{.}\)</span> Then find the image <span class="process-math">\(P''\)</span> of <span class="process-math">\(P'\)</span> under <span class="process-math">\(t\text{.}\)</span>
+</div> <div class="para" id="def-composition-3-2">The process of performing the two processing in succession can be written</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P \overset{s}\rightarrow s(P) \overset{t}\rightarrow t(s(P))
+\end{equation*}
+</div>
+<div class="para" id="def-composition-3-4">or more simply as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P \overset{s}\rightarrow P' \overset{t}\rightarrow P''.
+\end{equation*}
+</div>
+<div class="para" id="def-composition-3-6">Note that in the composition <span class="process-math">\(P \rightarrow s(t(P))\text{,}\)</span> we perform the inside function <span class="process-math">\(t\)</span> before the outer function <span class="process-math">\(s\text{.}\)</span>
+</div></article><aside class="aside aside-like" id="sec-isom-composing-reflections-2-5"><div class="para" id="sec-isom-composing-reflections-2-5-1">We can also use the notation <span class="process-math">\(t\circ s\)</span> to represent the composition of <span class="process-math">\(t\)</span> composed with <span class="process-math">\(s\text{.}\)</span> It’s action on point <span class="process-math">\(P\)</span> is written <span class="process-math">\(t(s(P))\text{.}\)</span>
+</div></aside><article class="exploration project-like" id="explor-refl-two-parallels"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Reflecting across Parallel Lines.</span>
+</h4>
+<article class="task exercise-like" id="explor-refl-two-parallels-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="introduction" id="explor-refl-two-parallels-2-1">
+<div class="para" id="explor-refl-two-parallels-2-1-1">First we explore what happens when you reflect an object first across line <span class="process-math">\(g\)</span> and then across line <span class="process-math">\(h\)</span>  where <span class="process-math">\(g\)</span> and <span class="process-math">\(h\)</span> are parallel.</div>
+<figure class="figure figure-like" id="app-reflect2parallels"><iframe id="ref2paralinesapp" width="600" height="600" src="ref2paralinesapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.2<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for reflecting across parallel lines.</figcaption></figure>
+</div>
+<article class="task exercise-like" id="explor-refl-two-parallels-2-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="explor-refl-two-parallels-2-2-1-1">Use the ‘Reflect across Line’ tool to reflect pentomino <span class="process-math">\(ABCDEF\)</span> across line <span class="process-math">\(g\)</span> in <a href="sec-isom-composing-reflections.html#app-reflect2parallels" class="xref" data-knowl="./knowl/xref/app-reflect2parallels.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.4.2">Figure 4.4.2</a> to create pentomino <span class="process-math">\(A'B'C'D'E'F'\text{.}\)</span>
+</div>
+<div class="solutions"><details id="explor-refl-two-parallels-2-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="explor-refl-two-parallels-2-2-2-1">To use the ‘Reflect about Line’ tool, select the icon that shows two dots across a diagonal line from each other. Click the interior of the original figure and then click the mirror line.</div></div></details></div></article><article class="task exercise-like" id="explor-refl-two-parallels-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="explor-refl-two-parallels-2-3-1-1">Then reflect the new pentomino <span class="process-math">\(A'B'C'D'E'F'\)</span> across line <span class="process-math">\(h\)</span> to form pentomino <span class="process-math">\(A''B''C''D''E''F''\text{.}\)</span>
+</div> <div class="para" id="explor-refl-two-parallels-2-3-1-2">Finally, check the box that says ‘Show image’. Does this line up with your final image? Save a screen shot that shows the intermediate step.</div></article><article class="task exercise-like" id="explor-refl-two-parallels-2-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="introduction" id="explor-refl-two-parallels-2-4-1"><div class="para" id="explor-refl-two-parallels-2-4-1-1">To help you focus on <span class="process-math">\(ABCDEF\)</span> and <span class="process-math">\(A_2B_2C_2D_2E_2F_2\text{,}\)</span> click on the reset button to hide your work. Then check the ‘Show image’ box to reveal the image of the composition.</div></div>
+<article class="task exercise-like" id="explor-refl-two-parallels-2-4-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="explor-refl-two-parallels-2-4-2-1-1">What type of isometry takes <span class="process-math">\(ABCDEF\)</span> to <span class="process-math">\(A_2B_2C_2D_2E_2F_2\text{?}\)</span> Is it a reflection, a translation, a rotation, or something else?</div></article><article class="task exercise-like" id="explor-refl-two-parallels-2-4-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="explor-refl-two-parallels-2-4-3-1-1">Draw the segments <span class="process-math">\(\overline{AA_2}, \overline{BB_2}, \ldots, \overline{FF_2}\)</span> and measure the lengths <span class="process-math">\(AA_2, BB_2, \ldots, FF_2\text{.}\)</span> What do you notice?</div></article><article class="task exercise-like" id="explor-refl-two-parallels-2-4-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="explor-refl-two-parallels-2-4-4-1-1">What do you notice about the angle between each segment, <span class="process-math">\(\overline{AA_2}, \overline{BB_2}, \ldots, \overline{FF_2}\)</span> and the original two lines <span class="process-math">\(g\)</span> and <span class="process-math">\(h\text{?}\)</span>
+</div></article><article class="task exercise-like" id="explor-refl-two-parallels-2-4-5"><h6 class="heading"><span class="codenumber">(D)</span></h6>
+<div class="para" id="explor-refl-two-parallels-2-4-5-1-1">Measure the distance between the original pair of reflecting lines <span class="process-math">\(g\)</span> and <span class="process-math">\(h\text{.}\)</span> To do this, reveal segment <span class="process-math">\(\overline{TU}\)</span> using the checkbox. Then use the ‘Distance or length’tool to measure <span class="process-math">\(\overline{TU}\text{.}\)</span>
+</div>
+<div class="solutions"><details id="explor-refl-two-parallels-2-4-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="explor-refl-two-parallels-2-4-5-2-1">For a smaller font, measure the segment, not the distance between points.</div></div></details></div></article></article><article class="task exercise-like" id="explor-refl-two-parallels-2-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="explor-refl-two-parallels-2-5-1-1">Each type of isometry has a special object or two that helps to determine it precisely. As shown in <a href="sec-isom-identifying-isometries.html#table-def-obj-2" class="xref" data-knowl="./knowl/xref/table-def-obj-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.3.9: Defining Objects for Three Isometries">Table 4.3.9</a>, a reflection has a reflecting line, a translation has a vector, and a rotation has a center and angle.  Identify and draw in the specific line, vector, or center and angle for this transformation.  How does this object relate to the parallel reflecting lines <span class="process-math">\(g\)</span> and <span class="process-math">\(h\text{?}\)</span> Verify your answer using the appropriate transformation tool (Reflect across Line, Translate by Vector, or Rotate around Point) in geogebra.</div>
+<div class="solutions"><details id="explor-refl-two-parallels-2-5-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="explor-refl-two-parallels-2-5-2-1">These transformation tools appear in the same menu in this applet.</div></div></details></div></article><article class="task exercise-like" id="explor-refl-two-parallels-2-6"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="explor-refl-two-parallels-2-6-1-1">A second copy of the GeoGebra app for reflecting across parallel lines is provided in <a href="sec-isom-composing-reflections.html#app-reflect2parallels-again" class="xref" data-knowl="./knowl/xref/app-reflect2parallels-again.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.4.3">Figure 4.4.3</a>. This time reflect <span class="process-math">\(ABCDEF\)</span> first across line <span class="process-math">\(h\)</span> and then reflect the result across line <span class="process-math">\(g\text{.}\)</span> How does the result compare to what happened when we reflected across g before h? Where is <span class="process-math">\(A''B''C''D''E''F''\text{?}\)</span> Have any of the distances or angles changed?</div> <figure class="figure figure-like" id="app-reflect2parallels-again"><iframe id="ref2paralinesapp2" width="600" height="600" src="ref2paralinesapp2-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.3<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for reflecting across parallel lines.</figcaption></figure><div class="solutions"><details id="explor-refl-two-parallels-2-6-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="explor-refl-two-parallels-2-6-2-1">The ‘Show image’ checkbox reveals the image of the first composition, not this one.</div></div></details></div></article></article></article><div class="para" id="sec-isom-composing-reflections-2-7">In the next exploration, we will perform a similar experiment reflecting an object across two intersecting lines in succession.</div>
+<article class="exploration project-like" id="explor-refl-two-intersecting"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Reflecting Across Intersecting Lines.</span>
+</h4>
+<article class="task exercise-like" id="explor-refl-two-intersecting-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="introduction" id="explor-refl-two-intersecting-2-1">
+<div class="para" id="explor-refl-two-intersecting-2-1-1">Now we explore what happens when you reflect an object first across line <span class="process-math">\(g\)</span> and then across line <span class="process-math">\(h\)</span>  where <span class="process-math">\(g\)</span> and <span class="process-math">\(h\)</span> intersect.</div>
+<figure class="figure figure-like" id="app-reflect2intersect"><iframe id="ref2intersectinglinesapp" width="600" height="600" src="ref2intersectinglinesapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.4<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for reflecting across intersecting lines.</figcaption></figure>
+</div>
+<article class="task exercise-like" id="explor-refl-two-intersecting-2-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-2-2-1-1">Use the ‘reflect across line’ tool to reflect pentomino <span class="process-math">\(ABCDEF\)</span> across line <span class="process-math">\(g\)</span> in <a href="sec-isom-composing-reflections.html#app-reflect2intersect" class="xref" data-knowl="./knowl/xref/app-reflect2intersect.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.4.4">Figure 4.4.4</a> to create pentomino <span class="process-math">\(A'B'C'D'E'F'\text{.}\)</span>
+</div></article><article class="task exercise-like" id="explor-refl-two-intersecting-2-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-2-3-1-1">Then reflect the new pentomino <span class="process-math">\(A'B'C'D'E'F'\)</span> across line <span class="process-math">\(h\)</span> to form pentomino <span class="process-math">\(A''B''C''D''E''F''\text{.}\)</span>
+</div> <div class="para" id="explor-refl-two-intersecting-2-3-1-2">Now check the ‘Show image’ box to check your work.</div></article></article><article class="task exercise-like" id="explor-refl-two-intersecting-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="introduction" id="explor-refl-two-intersecting-3-1"><div class="para" id="explor-refl-two-intersecting-3-1-1">Refer to the original pentomino <span class="process-math">\(ABCDEF\)</span> and its image <span class="process-math">\(A''B''C''D''E''F''\)</span> created by reflecting across intersecting lines <span class="process-math">\(g\)</span> and <span class="process-math">\(h\)</span> in <a href="sec-isom-composing-reflections.html#app-reflect2intersect" class="xref" data-knowl="./knowl/xref/app-reflect2intersect.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.4.4">Figure 4.4.4</a>. You may choose to hide <span class="process-math">\(A'B'C'D'E'F'\)</span> (and the duplicated <span class="process-math">\(A''B''C''D''E''F''\)</span>) after saving a screenshot of your work. Use the reset button and ‘Show image’ checkbox.</div></div>
+<article class="task exercise-like" id="explor-refl-two-intersecting-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-3-2-1-1">What type of isometry takes <span class="process-math">\(ABCDEF\)</span> to the final image <span class="process-math">\(A_2 B_2C_2 D_2 E_2 F_2\text{?}\)</span> Is it a reflection, a translation, a rotation, or something else?</div></article><article class="task exercise-like" id="explor-refl-two-intersecting-3-3"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-3-3-1-1">Draw the segments <span class="process-math">\(\overline{AA_2}, \overline{BB_2}, \ldots,
+\overline{FF_2}\text{.}\)</span>  What, if anything, do you notice?</div></article><article class="task exercise-like" id="explor-refl-two-intersecting-3-4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-3-4-1-1">Create the perpendicular bisector of each segment <span class="process-math">\(\overline{AA_2}, 
+\overline{BB_2}, \ldots, \overline{FF_2}\text{.}\)</span> What do you notice about the perpendicular bisectors?</div></article><article class="task exercise-like" id="explor-refl-two-intersecting-3-5"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-3-5-1-1">Each type of translation has a special object or two that helps to determine it precisely. Identify and draw in the specific line, vector, or center and angle for this transformation, referring to <a href="sec-isom-identifying-isometries.html#table-def-obj-2" class="xref" data-knowl="./knowl/xref/table-def-obj-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.3.9: Defining Objects for Three Isometries">Table 4.3.9</a> as needed. How does the object(s) relate to the intersecting reflecting lines <span class="process-math">\(g\)</span> and <span class="process-math">\(h\text{?}\)</span>
+</div></article><article class="task exercise-like" id="explor-refl-two-intersecting-3-6"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-3-6-1-1">Create point <span class="process-math">\(P\)</span> where the original two lines intersect. What is the measure of <span class="process-math">\(\angle A_2 PA\text{?}\)</span> <span class="process-math">\(\angle B_2 PB\text{?}\)</span> <span class="process-math">\(\angle C_2 PC\text{?}\)</span> <span class="process-math">\(\angle D_2 PD\text{?}\)</span> <span class="process-math">\(\angle E_2PE\text{?}\)</span> <span class="process-math">\(\angle F_2PF\text{?}\)</span> What does this tell you about the transformation taking <span class="process-math">\(ABCDEF\)</span> to <span class="process-math">\(A_2B_2C_2D_2E_2F_2\text{?}\)</span>
+</div></article><article class="task exercise-like" id="explor-refl-two-intersecting-3-7"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-3-7-1-1">Measure the angles created by the original pair of intersecting lines <span class="process-math">\(g\)</span> and <span class="process-math">\(h\text{.}\)</span> What do you notice?</div></article><article class="task exercise-like" id="explor-refl-two-intersecting-3-8"><h6 class="heading"><span class="codenumber">(vii)</span></h6>
+<div class="para" id="explor-refl-two-intersecting-3-8-1-1">Measure the lengths <span class="process-math">\(AP\text{,}\)</span> <span class="process-math">\(A_2P\text{,}\)</span> <span class="process-math">\(BP\text{,}\)</span> <span class="process-math">\(B_2P\text{,}\)</span> etc. What do you notice?</div></article></article><article class="task exercise-like" id="explor-refl-two-intersecting-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="explor-refl-two-intersecting-4-1-1">A second copy of the GeoGebra app for reflecting across intersecting lines is provided in <a href="sec-isom-composing-reflections.html#app-reflect2intersect-again" class="xref" data-knowl="./knowl/xref/app-reflect2intersect-again.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.4.5">Figure 4.4.5</a>. This time reflect <span class="process-math">\(ABCDEF\)</span> first across line <span class="process-math">\(h\)</span> and then reflect the result across line <span class="process-math">\(g\text{.}\)</span> How does the result compare to what happened when we reflected across g before h? Where is <span class="process-math">\(A''B''C''D''E''F''\text{?}\)</span> Have any of the lengths or angles changed?</div> <figure class="figure figure-like" id="app-reflect2intersect-again"><iframe id="ref2intersectinglinesapp2" width="600" height="600" src="ref2intersectinglinesapp2-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.5<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for reflecting across intersecting lines.</figcaption></figure><div class="solutions"><details id="explor-refl-two-intersecting-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="explor-refl-two-intersecting-4-2-1">The ‘Show image’ checkbox reveals the image of the first composition, not this one.</div></div></details></div></article></article><div class="para" id="sec-isom-composing-reflections-2-9">Next we will explore what happens when we reflect across three lines in succession. Once again, we will consider the case where the lines are parallel and when they intersect. Will we get the same transformations as before or might these be something different?</div>
+<article class="exploration project-like" id="expl-ref-three"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">Reflecting across three lines.</span>
+</h4>
+<article class="task exercise-like" id="expl-ref-three-2"><h5 class="heading">
+<span class="codenumber">(a)</span><span class="space"> </span><span class="title">Orientation.</span>
+</h5>
+<div class="introduction" id="expl-ref-three-2-2"><div class="para" id="expl-ref-three-2-2-1">Recall that a reflection across a single line reverses the orientation.</div></div>
+<article class="task exercise-like" id="expl-ref-three-2-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="expl-ref-three-2-3-1-1">What happens to the orientation when you reflect an object across two lines in succession?</div></article><article class="task exercise-like" id="expl-ref-three-2-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="expl-ref-three-2-4-1-1">If you were to reflect the object across a third line, what would you expect to happen to the orientation?</div></article></article><article class="task exercise-like" id="expl-ref-three-3"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Reflecting across three parallel lines.</span>
+</h5>
+<div class="introduction" id="expl-ref-three-3-2">
+<div class="para" id="expl-ref-three-3-2-1">Reflect the triangle in <a href="sec-isom-composing-reflections.html#app-reflect3parallel" class="xref" data-knowl="./knowl/xref/app-reflect3parallel.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.4.6">Figure 4.4.6</a> across lines <span class="process-math">\(d\text{,}\)</span> <span class="process-math">\(e\text{,}\)</span> and <span class="process-math">\(f\)</span> in succession.</div>
+<figure class="figure figure-like" id="app-reflect3parallel"><iframe id="ref3parallellinesapp" width="600" height="600" src="ref3parallellinesapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.6<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for reflecting across three parallel lines.</figcaption></figure>
+</div>
+<article class="task exercise-like" id="expl-ref-three-3-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="para" id="expl-ref-three-3-3-1-1">What type of single transformation (reflection, translation, rotation, or something else) takes the original triangle to the final image?</div></article><article class="task exercise-like" id="expl-ref-three-3-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="expl-ref-three-3-4-1-1">Each type of translation has a special object or two that helps to determine it precisely. Identify and draw in the specific line, vector, or center and angle for this transformation. How, if at all, is this object related to the three lines <span class="process-math">\(d\text{,}\)</span> <span class="process-math">\(e\text{,}\)</span> and <span class="process-math">\(f\text{?}\)</span>
+</div>
+<div class="solutions"><details id="expl-ref-three-3-4-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="expl-ref-three-3-4-2-1">As of this writing, the author has not found a relationship between this defining object and the three lines. If you discover one, please let her know. You may be recognized in a future edition!</div>
+<div class="para" id="expl-ref-three-3-4-2-2">Unlabeled points on lines <span class="process-math">\(d\text{,}\)</span> <span class="process-math">\(e\text{,}\)</span> and <span class="process-math">\(f\)</span> allow the lines to be moved while staying parallel. Experiment to see whether your claims continue to hold. You can also experiment with reflecting across the three lines in a different order; however, the ‘Show image’ will not work.</div>
+</div></details></div></article></article><article class="task exercise-like" id="expl-ref-three-4"><h5 class="heading">
+<span class="codenumber">(c)</span><span class="space"> </span><span class="title">Reflecting across three intersecting lines.</span>
+</h5>
+<div class="introduction" id="expl-ref-three-4-2">
+<div class="para" id="expl-ref-three-4-2-1">Finally, we reflect the triangle across three lines, at least some of which intersect.  Use the ‘Reflect about Line’ tool to reflect <span class="process-math">\(\Delta ABC\)</span> across <span class="process-math">\(d\text{,}\)</span> then reflect its image <span class="process-math">\(\Delta A'B'C'\)</span> across line <span class="process-math">\(e\text{,}\)</span> and finally reflect <span class="process-math">\(\Delta A''B''C''\)</span> across <span class="process-math">\(f\text{.}\)</span> After creating <span class="process-math">\(\Delta A'''B'''C'''\text{,}\)</span> check the result using the checkbox ‘Show image’. Record your work.</div>
+<figure class="figure figure-like" id="app-reflect3intersect"><iframe id="ref3intersectinglinesapp" width="600" height="600" src="ref3intersectinglinesapp-if.html"></iframe><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.7<span class="period">.</span></span><span class="space"> </span>An interactive GeoGebra applet for reflecting across three intersecting lines.</figcaption></figure>
+</div>
+<article class="task exercise-like" id="expl-ref-three-4-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<div class="introduction" id="expl-ref-three-4-3-1"><div class="para" id="expl-ref-three-4-3-1-1">You may reset your work to focus on the initial triangle <span class="process-math">\(\Delta ABC\)</span> and final image <span class="process-math">\(\Delta A'_1 B'_1 C'_1\text{.}\)</span>
+</div></div>
+<article class="task exercise-like" id="expl-ref-three-4-3-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
+<div class="para" id="expl-ref-three-4-3-2-1-1">Is the orientation of the figure the same or changed under the single transformation that takes <span class="process-math">\(\Delta ABC\)</span> to <span class="process-math">\(\Delta A'_1 B'_1 C'_1\text{?}\)</span>
+</div></article><article class="task exercise-like" id="expl-ref-three-4-3-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
+<div class="para" id="expl-ref-three-4-3-3-1-1">Explain how you know that this transformation is not a reflection.</div></article><article class="task exercise-like" id="expl-ref-three-4-3-4"><h6 class="heading"><span class="codenumber">(C)</span></h6>
+<div class="para" id="expl-ref-three-4-3-4-1-1">Explain how you know that this transformation is not a translation.</div></article><article class="task exercise-like" id="expl-ref-three-4-3-5"><h6 class="heading"><span class="codenumber">(D)</span></h6>
+<div class="para" id="expl-ref-three-4-3-5-1-1">Explain how you know that this transformation is not a rotation.</div></article><article class="task exercise-like" id="expl-ref-three-4-3-6"><h6 class="heading"><span class="codenumber">(E)</span></h6>
+<div class="para" id="expl-ref-three-4-3-6-1-1">Hide lines <span class="process-math">\(d\text{,}\)</span> <span class="process-math">\(e\text{,}\)</span> and <span class="process-math">\(f\)</span> by unchecking the ‘Show mirrors’ box. Plot the midpoint of each of the line segments, <span class="process-math">\(\overline{AA'_1}\text{,}\)</span> <span class="process-math">\(\overline{BB'_1}\text{,}\)</span> and <span class="process-math">\(\overline{CC'_1}\text{.}\)</span> What do you notice about these midpoints?</div>
+<div class="solutions"><details id="expl-ref-three-4-3-6-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="expl-ref-three-4-3-6-2-1">GeoGebra allows you to plot the midpoint without drawing the segments.</div></div></details></div></article><article class="task exercise-like" id="expl-ref-three-4-3-7"><h6 class="heading"><span class="codenumber">(F)</span></h6>
+<div class="para" id="expl-ref-three-4-3-7-1-1">Draw the line that passes through the midpoints of <span class="process-math">\(\overline{AA'_1}\)</span> and <span class="process-math">\(\overline{BB'_1}\text{.}\)</span> Then reflect <span class="process-math">\(\Delta ABC\)</span> across this line. What do you notice about the relationship between this new triangle <span class="process-math">\(\Delta A'B'C'\)</span> and <span class="process-math">\(\Delta A'_1 B'_1 C'_1\text{?}\)</span>
+</div></article><article class="task exercise-like" id="expl-ref-three-4-3-8"><h6 class="heading"><span class="codenumber">(G)</span></h6>
+<div class="para" id="expl-ref-three-4-3-8-1-1">Describe a two-transformation process that takes <span class="process-math">\(\Delta ABC\)</span> to <span class="process-math">\(\Delta A'_1 B'_1 C'_1\text{.}\)</span>
+</div></article></article></article></article></section><section class="subsection" id="subsec-Four-Isometries"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">4.4.2</span><span class="space"> </span><span class="title">The Four Isometries</span>
+</h3>
+<div class="para" id="subsec-Four-Isometries-2">In this chapter, we’ve explored the behavior of a particular type of transformation, called an <dfn class="terminology">isometry</dfn>. This term comes from the Greek words “iso-” meaning “equality” and “metria” meaning “measure”.</div>
+<article class="definition definition-like" id="def-isometry"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.4.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-isometry-2-1">An <dfn class="terminology">isometry</dfn> is a function taking points on the plane to points on the plane which sends collinear points to collinear points and preserves the distance between points.</div></article><div class="para" id="subsec-Four-Isometries-4">There are four types of isometries.  Through our explorations, we have seen that the orientation of a figure is reversed each time it is reflected. Thus, orientation is changed under an odd number of reflections and maintained (flipped back) under an even number of reflections. Hence, the composition of two reflections in succession will be either a translation (when the reflecting lines are parallel) or a rotation (when the reflecting lines intersect). When we reflect across three lines, not all of which are parallel, we get an isometry which reverses the orientation of figures but is not a reflection. Instead we obtain what is known as a glide reflection.</div>
+<article class="definition definition-like" id="def-glide-ref"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.4.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="def-glide-ref-1-1">A <dfn class="terminology">glide reflection</dfn> is defined as a composition of a reflection across a line and a translation along a vector parallel to (or on) the reflecting line. In <a href="sec-isom-composing-reflections.html#illustrated-glref" class="xref" data-knowl="./knowl/xref/illustrated-glref.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 4.4.10">Figure 4.4.10</a>, note how the pentomino is first reflected across the line and then translated along vector <span class="process-math">\(\overrightarrow{GH}\text{.}\)</span>  Any of the parallel vectors, like <span class="process-math">\(\overrightarrow{A'A''}\)</span> or <span class="process-math">\(\overrightarrow{CC''}\text{,}\)</span> could be used as the translation vector, but the reflecting line here is <span class="process-math">\(\overleftrightarrow{GH}\text{,}\)</span> not <span class="process-math">\(\overleftrightarrow{CC''}\text{.}\)</span> </div></article><figure class="figure figure-like" id="illustrated-glref"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/glrefpicture.svg" role="img" class="contained" alt="L-pentamino is reflected across line GH. Then its image is slid using vector GH. A and C are two vertices on the original."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.10<span class="period">.</span></span><span class="space"> </span>Glide reflection of a pentomino.</figcaption></figure><article class="exercise exercise-like" id="subsec-Four-Isometries-7"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">4.4.11</span><span class="period">.</span><span class="space"> </span><span class="title">Reflective Question.</span>
+</h4>
+<div class="para" id="subsec-Four-Isometries-7-2-1">Will a glide reflection have any fixed point(s)? How do you know?</div></article><div class="para" id="subsec-Four-Isometries-8">We now update <a href="sec-isom-identifying-isometries.html#table-def-obj-1" class="xref" data-knowl="./knowl/xref/table-def-obj-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.3.4: Defining Objects for Three Isometries">Table 4.3.4</a> to include glide reflections.</div>
+<figure class="table table-like" id="table-def-obj-4"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.12<span class="period">.</span></span><span class="space"> </span>Defining Objects for Three Isometries</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r2 l0 t0 lines">Isometry</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Defining Objects</th>
+</tr>
+<tr>
+<td class="c m b0 r2 l0 t0 lines">Reflection</td>
+<td class="c m b0 r1 l0 t0 lines">Reflecting Line (or mirror)</td>
+</tr>
+<tr>
+<td class="c m b0 r2 l0 t0 lines">Translation</td>
+<td class="c m b0 r1 l0 t0 lines">Translation Vector</td>
+</tr>
+<tr>
+<td class="c m b0 r2 l0 t0 lines">Rotation</td>
+<td class="c m b0 r1 l0 t0 lines">Center and Rotational Angle</td>
+</tr>
+<tr>
+<td class="c m b0 r2 l0 t0 lines">Glide Reflection</td>
+<td class="c m b0 r1 l0 t0 lines">Mirror and Translation Vector<details class="ptx-footnote" aria-live="polite" id="table-def-obj-4-2-10-2-1"><summary class="ptx-footnote__number" title="Footnote 4.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="table-def-obj-4-2-10-2-1">The translation vector will either lie on the mirror or be parallel to the mirror.</div></details>
+</td>
+</tr>
+</table></div></figure></section><section class="exercises" id="exer-isom-comp"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">4.4.3</span><span class="space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="subexercises" id="Toolbox-isom-comp"><h4 class="heading"><span class="title">Building Our Toolbox</span></h4>
+<article class="exercise exercise-like" id="Toolbox-isom-comp-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="Toolbox-isom-comp-2-1-1">Add the information about glide reflections to complete <a href="sec-isom-composing-reflections.html#table-def-obj-3" class="xref" data-knowl="./knowl/xref/table-def-obj-3.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.4.13: Defining Objects for Four Isometries">Table 4.4.13</a>. You should have already filled in the other rows in <a href="sec-isom-identifying-isometries.html#table-def-obj-2" class="xref" data-knowl="./knowl/xref/table-def-obj-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 4.3.9: Defining Objects for Three Isometries">Table 4.3.9</a>.</div> <figure class="table table-like" id="table-def-obj-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.13<span class="period">.</span></span><span class="space"> </span>Defining Objects for Four Isometries</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b2 r2 l0 t0 lines">Isometry</th>
+<th scope="col" class="c m b2 r1 l0 t0 lines">Orientation</th>
+<th scope="col" class="c m b2 r1 l0 t0 lines">Fixed<br>Points</th>
+<th scope="col" class="c m b2 r1 l0 t0 lines">Defining<br>Object(s)</th>
+<th scope="col" class="c m b2 r0 l0 t0 lines">Properties of<br>Def. Object(s)</th>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Reflection</th>
+<td class="c m b1 r1 l0 t0 lines">Reverses</td>
+<td class="c m b1 r1 l0 t0 lines">Points on<br>Mirror</td>
+<td class="c m b1 r1 l0 t0 lines">Reflecting Line<br>(or mirror)</td>
+<td class="c m b1 r0 l0 t0 lines">Mirror is the<br>perpendicular<br>bisector of each <span class="process-math">\(\overline{PP'}\)</span>
+</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Translation</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">Translation<br>Vector</td>
+<td class="c m b1 r0 l0 t0 lines">
+<br><br><br><br>
+</td>
+</tr>
+<tr>
+<th scope="row" class="c m b1 r2 l0 t0 lines">Rotation</th>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">Center and<br>Angle</td>
+<td class="c m b1 r0 l0 t0 lines">Perp. bisector<br>of each <span class="process-math">\(\overline{PP'}\)</span><br>passes through<br>center</td>
+</tr>
+<tr>
+<th scope="row" class="c m b0 r2 l0 t0 lines">Glide<br>Reflection</th>
+<td class="c m b0 r1 l0 t0 lines"></td>
+<td class="c m b0 r1 l0 t0 lines"></td>
+<td class="c m b0 r1 l0 t0 lines">Mirror and<br>Vector</td>
+<td class="c m b0 r0 l0 t0 lines">Midpoint of<br>each <span class="process-math">\(\overline{PP'}\)</span> lies<br>on mirror</td>
+</tr>
+</table></div></figure></article></article><article class="subexercises" id="SAR-isom-comp"><h4 class="heading"><span class="title">Skills and Recall</span></h4>
+<article class="exercise exercise-like" id="SAR-isom-comp-2"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="SAR-isom-comp-2-1-1">Add some.</div></article></article><article class="subexercises" id="ExtConc-isom-comp"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
+<article class="exercise exercise-like" id="ExtConc-isom-comp-2"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="ExtConc-isom-comp-2-1-1">Add</div></article></article><article class="subexercises" id="Writing-isom-comp"><h4 class="heading"><span class="title">Writing Prompts</span></h4>
+<article class="exercise exercise-like" id="Writing-isom-comp-2"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="Writing-isom-comp-2-1-1">Add</div></article></article></section></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-isom-identifying-isometries.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-isom-mystery-isometries.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+<script>diagcess.Base.init()</script>
+</body>
+</html>

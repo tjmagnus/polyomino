@@ -1,0 +1,4334 @@
+var ptx_lunr_search_style = "textbook";
+var ptx_lunr_docs = [
+{
+  "id": "front-colophon",
+  "level": "1",
+  "url": "front-colophon.html",
+  "type": "Colophon",
+  "number": "",
+  "title": "Colophon",
+  "body": "  "
+},
+{
+  "id": "frontmatter-4",
+  "level": "1",
+  "url": "frontmatter-4.html",
+  "type": "Author Biography",
+  "number": "",
+  "title": "About Teresa Magnus",
+  "body": " About Teresa Magnus  Teresa \"Terri\" Magnus has taught mathematics at small private universities for over three decades. She believes in active learning through problem-solving. Outside the classroom, Terri enjoys hiking in the White Mountains and playing games with family and friends.  "
+},
+{
+  "id": "frontmatter-5",
+  "level": "1",
+  "url": "frontmatter-5.html",
+  "type": "Dedication",
+  "number": "",
+  "title": "Dedication",
+  "body": " For John and Paul  "
+},
+{
+  "id": "frontmatter-6",
+  "level": "1",
+  "url": "frontmatter-6.html",
+  "type": "Acknowledgements",
+  "number": "",
+  "title": "Acknowledgements",
+  "body": " I am grateful for the sabbatical time Rivier University provided so that I could produce this book. The initial design and many of the activities for this textbook were created during my Spring 2016 sabbatical, and the book was written during my year-long sabbatical in 2023-2024. In addition, I appreciate the 2024 Rivier Summer Faculty Research Grant that enabled me to recruit three Rivier University student interns to review the book. The constructive feedback I received from these student interns Sarah Frazier, Elisabeth Jacob, and Caitlyn St. Cyr exceeded my expectations. In addition, to identifying errors and dead links, they suggested rephrasings of sentences and identified where additional explanations, hints, or activities might be helpful. I would also like to thank my MA127 Geometrical Explorations students over the years. Watching their teamwork, struggles, questioning, growth, and success has helped me revise these activities and transform them into a coherent text.  I thank the PROSE\/PreTeXt community who made this format possible. Not only was the code available for use, they welcomed me as a new user, encouraged my project, and offered technical support. Steven Clontz and Oscar Levin were expecially helpful in helping me identify errors in my code, suggesting ways to yield desired outcomes, and exploring possible ideas for new structures. They, and other community members, took time out of their own busy schedules and made me feel welcome at their online office hours. I would also like to thank Rob Beezer and the other developers for creating and refining the PreTeXt markup language.  My own love of mathematics was sparked by people who encouraged me to explore. My parents, Paul and Patricia Deltz, provided a loving home filled with crafts, games, and puzzles. We were encouraged to play, experiment, and learn from our mistakes. Saint Thomas More School (Houston) teacher Crystal Mills allowed me to investigate Billiard Ball Geometry after I had demonstrated facility with seventh-grade mathematics. At the University of Dallas, professors Andrew Berner and Charles Coppin engaged us in inquiry-based lessons. Their inspiration led me to continue my studies and shaped my own philosophy of teaching.    Last but not least, I appreciate the love, support, and encouragement I've received from my family, especially my husband John and my son Paul. Paul also helped me as I struggled to use GitHub tools for the first time. It was a humbling and rewarding experience to learn from him; an experience I will always treasure.  "
+},
+{
+  "id": "preface",
+  "level": "1",
+  "url": "preface.html",
+  "type": "Preface",
+  "number": "",
+  "title": "Preface",
+  "body": " This book is designed to engage students in the art and excitement of doing mathematics: of being curious, exploring possibilities, observing patterns, making conjectures, and justifying claims. Active play and discovery has been an important part of my own mathematical journey and continues to be an essential part of the field of mathematics.  Creative problem solving should not be limited to honors or upper-level courses; given the opportunity all students can grow and thrive through mathematical exploration. Problems can and should be chosen to be accessible yet intriguing. I visited kindergarten classes where students were enthusiastic about patterns and numbers, eagerly wanting to share their thoughts and try new things. As a university professor, I wanted to know more about why this enthusiasm and confidence dissipates by the time they reach my classes. For most students, mathematics becomes a set of rules to follow, a collection of techniques to master, and a jumble of examples to mimick. Despite the fact that some of our most treasured mathematical results took years even centuries to be established, our society has emphasized speed and completion over contemplation. Most students (and adults) spend very little time thinking about problems and instead rely on other resources to provide information and demonstrate methods. They search for examples to mimic instead of creating personal strategies. Without the opportunity to think and explore, there is no excitement and sense of accomplishment. As a teacher and author, my mission is to share the joy of mathematical exploration with students, especially those considering a career in education.  Many resources have mathematical tasks and problems available for students to explore. Noncurricular puzzles, games, applications, and fun topics are great ways to encourage teamwork, creativity, and reasoning, but a mathematics course needs to have purpose and cohesion as well. In developing my course, I challenged myself to choose, sequence, and tailor activities so that students would develop and build upon foundational knowledge. As students work on activities in my class, I respond to their questions, celebrate their discoveries, address misconceptions, and probe deeper into interesting ideas. As a class, we discuss the key concepts that arise from the activities. As I write this textbook, I find that I need to anticipate how others might use the book and include more detail than I need in my own classroom. Some activities have more scaffolding to ensure that essential material is uncovered and introductory and summary reading has been added to focus and support learning. I hope that this additional detail and structure still allows for differing strategies, rich discussion, and the thrill of discovery.  Geometry is over 2500 years old, but continues to grow as a field of study. We see geometry, touch geometry, and create with geometry. There is geometry in the physical world around us, the universe beyond us, and in our imagination. Geometry invites us not only to explore, but to question, conjecture, and justify. It is a natural place to build logic and reasoning. In this textbook, my approach to logic is invitational, not rigid. Students are asked to explain their reasoning to a friend, sometimes in writing. They are asked to be clear and thorough, but there is no set format required. The goal is not to become mathematical proof writers, but to solidify their own understanding and to share it with others. The ability to write with detail and clarity benefits all students whether they aim to become teachers, lawyers, business professionals, or scientists.  The framework of this book is designed to meet most of our state's cerfication requirements for elementary and early childhood educators, using exploratory activities to lead them to a deeper understanding of the geometry that they will be teaching. Despite the fact that students have been taught most of the formulas and facts before arriving at college, I have found that most students do not fully understand them. Approaching the material from an exploratory perspective with an emphasis on answering the question why gives a fresh new look at familiar material. Before redesigning my course, I dreaded teaching the topic measurement as it seemed so dry and repetitive. Now area of a rectangle forms the foundation upon which much of this book is based. In particular, dissection and construction of polygons are used to observe and justify results like the Pythagorean Theorem. The list of formulas is kept short and intuitive, especially with volume and surface area. Instead, students are encouraged to use the definitions to compute these quantities.  The textbook includes a mix of interactive activities and open-ended explorations. Many of these are embedded GeoGebra and PolyPad applets, most created by the author. Other activities are tactile, using manipulatives, geometrical tools, and inexpensive office supplies. Often an option of completing tasks either digitally or tactilely is provided.  My hope is to continue improving the book, releasing a new edition each spring in time for fall adoptions. These new editions will incorporate additions and corrections suggested by instructors and students who use the text the previous semesters. Thus I encourage you to send along any corrections, suggestions, and comments as you have them.   Teresa D. Magnus, Ph.D.  Rivier University, 2024   "
+},
+{
+  "id": "frontmatter-8",
+  "level": "1",
+  "url": "frontmatter-8.html",
+  "type": "Preface",
+  "number": "",
+  "title": "How to use this book",
+  "body": " How to use this book  The author is writing this textbook during a 2023-2024 sabbatical. Updates and additions will be deployed every week or two to . Suggestions on how to improve this textbook are appreciated.  An Instructor's Version is available to faculty upon request. Email the author at tmagnus@rivier.edu with your name, contact information, and the link to a webpage verifying your role as instructor.   Exploration activities  Explorations are an essential part of this course. Students, often in groups, make sense of the mathematics and take ownership of the content by discovering relationships through hands-on activities. I am happy to share the classroom worksheets on which this course is based. In fact, I plan to continue to use handouts for most of the inclass explorations even after this textbook is complete. I plan to add many of these to an instructor-accessible website. Instructors wanting to use these sooner should email me!     Interactive Online Version  For those of you reading this in a PDF or in print, I encourage you to also check out the interactive online version, which makes navigating the book a little easier. Additionally, many of the activities are implemented as GeoGebra or Polypad applets, which allow you to work interactively inside the textbook. Some exercises can be checked inside the online textbook and hyperlinks to definitions and other items are included.  My hope is to add other features, like how-to-use-the-software videos, in the future. You can view the interactive version for free at .    "
+},
+{
+  "id": "sec-intro-explore",
+  "level": "1",
+  "url": "sec-intro-explore.html",
+  "type": "Section",
+  "number": "1.1",
+  "title": "Invitation to Explore",
+  "body": " Invitation to Explore   To The Student  This class may be different from many of the mathematics classes you have taken in the past. You will be encouraged to explore geometrical ideas, solve puzzles, make conjectures, discuss with classmates, make connections between ideas, explain your solutions, and justify your reasoning. You should not expect to be shown how to solve problems by the instructions. In fact, there may not be one single right way to complete some of the problems but rather many acceptable ways of coming to a solution. Your teacher will encourage you to share these alternative approaches with the class.  Perhaps this course would be easier for you if you were simply told how to solve the problems, but the objective of this course is not to learn facts and methods, but rather to develop your mathematical thinking and communication skills. In this age of technology, computers can do many of the algorithms and processes that were at one time the core of mathematics education. However, they have not replaced man’s role of developing strategies to solve problems and recognizing when mathematics can be applied to real-world situations. Developing these reasoning skills will help you more in your future than simply being able to quote the Theorem. On the other hand, it is still useful to know the Pythagorean Theorem so that you are able to recognize when it can (and cannot) be used to solve both elementary and complex problems. This theorem along with some other basic formulas you have learned in the past (and can look up online) form a toolbox for our work, but we will give more emphasis to the creative process that is mathematics.  In A Mathematician’s Lament, Paul Lockhart describes a nightmare in which music was taught in the same way that mathematics is currently taught. He says,   Mathematics is the music of reason. To do mathematics is to engage in an act of discovery and conjecture, intuition and inspiration; to be in a state of confusion— not because it makes no sense to you, but because you gave it sense and you still don’t understand what your creation is up to; to have a breakthrough idea; to be frustrated as an artist; to be awed and overwhelmed by an almost painful beauty; to be alive.  If we were to teach music via lecture and mere recall, focusing on the notation and structure, but not allowing students to experience and create music, the subject would be dry and uninteresting, the creative process would be stifled, and very few would have an interest in learning music. Yet, that is what we have done with much of our mathematics instruction. We have removed both the exploration and the fun.    So I encourage you to embrace the experience that is mathematics. Approach each puzzle with an open mind, make guesses as to what is happening, and experiment to determine whether your ideas are correct. Play with the materials and the concepts and ask new questions. In this course, you might even be invited to explore a question you posed instead of the one the teacher originally posed! Mathematics is not just about finding the answer; even when there is an answer, our work should evoke new questions: Why? What else?    First Exploration   Tiling Rectangles with Polyominoes   Although this task is to fill a box, you are encouraged to think outside the box as you do this activity. You will find that a willingness to take chances and try out different strategies will be essential to your success in this course. Taking time to reflect as you respond to the \"why\" questions and sharing your ideas with your classmates will also contribute greatly to your learning. Have fun!     Just as a domino consists of two squares joined at an edge, a tetromino  tetromino  polyomino  tetromino is a flat figure created by joining four congruent squares along edges. Fill the blue square with non-overlapping copies of the green L-shaped tetronimo. How many tetrominoes are required?  To use the interactive tool, click and drag the L-shape to create a new copy of the shape. Use the large dot, to rotate the copy. Arrange copies to cover the blue square. This may also be done on paper.     Interactive tool on Polypad by Mathigon        Pictured below are the four other tetrominoes: an I-shape, a Z-shape, a T-shape, and a small square. Like the L-shape, some of these can cover the larger square without overlaps or gaps. Identify which tetrominoes will tile one of the larger squares and show how this can be done. If there are any tetrominoes which cannot tile the square alone, explain why you believe the tiling is impossible.  Once again in the application, copies of the I-shape, Z-shape, T-shape, and small square can be created by clicking the shape and dragging. Four larger squares are provided; try to tile one with the I-shape, one with the Z-shape, etc.      Interactive tool on Polypad by Amplify.       Since a tetromino is formed by joining four unit squares, each tetromino has an area of four square units, as illustrated here.  What is the area of the square that you filled with tetrominoes?      Similarly, we define a pentomino  pentomino  polyomino pentomino to be a figure formed by joining five congruent squares along edges. One pentomino is pictured. Create new pentominoes by copying and moving the provided purple unit square. Note that if two pentominoes are reflections or rotations of each other, we consider them to be the same pentomino. Be sure to save a copy of your sketch for future reference.    Interactive tool on Polypad by Amplify      There are twelve different pentominoes. Did you find them all?    The pentominoes may be labeled as F, I, L, N, P, T, U, V, W, X, y, and Z. Can you figure out which is which?      Use some of the pentominoes you created to build solid rectangles. The hint below gives access to an interactive tool.   What dimensions are possible? Does it matter whether you restrict yourself to never using a pentomino more than once in a rectangle?    Can you build a rectangle that uses every pentomino exactly once?       Use the interactive Polypad activity below or access a fullscreen version at Polypad by Amplify using the link Pentomino Set .       Are there any rectangles that cannot be filled using only pentominoes? Why?      As you participated in this exploration, what did you wonder? What did you notice about area?    There is no right or wrong answer here! Write something!      More Explorations with Pentominoes   Note to instructor: Questions from this exploration may be used as an in-class supplement to the first exploration, as a homework assignment, or omitted.     To simplify our discussion, we can call each pentomino by the letter it most resembles, namely F, I, L, P, T, U, V, W, X, y, Z, and N. The F and N pentominos are less obvious and are identified below. Sketch and identify the others or refer to and label your earlier sketches.      Observe how a larger copy of the L-pentomino tile can be created by filling it with four different pentominoes:     How are the height and width of the new larger L-tile related to the height and width of the basic L-tile?      How is the area of the new larger L-tile related to the area of the basic L-tile?      Choose another pentomino from among F, I, P, T, U, W, y, and Z, and demonstrate how it can be created using four distinct polyominoes. Note that this cannot be done with X or V.    Use the interactive Polypad activity below or access a fullscreen version at Polypad by Amplify using the link Pentomino Set .        On the other hand, it is possible to create a copy of the V tile that is three times the height and width of the basic V tile by filling it with nine distinct pentominoes.    Show how this can be done.    How does the new area compare with the original?    Explore whether other pentominoes can be tripled in this way.         What happens to the area of a figure when its height and width of are doubled? tripled? How does the number of basic pentominoes needed to fill the figure change?       Learning from the Explorations  The purpose of is two-fold. It introduces the exploratory nature of the course and it also suggests a few important geometric facts and definitions that we will use as our initial geometrical foundation. These facts are chosen because they are intuitively obvious, but they give us some building blocks we will need to justify more complex ideas. We state them here for clarity and future reference beginning with a definition for area.   area   The area of a closed figure in the plane is the number of unit squares needed to fill the figure without any gaps or overlaps.    We noted that each tetromino was made up of four unit squares and each pentomino consisted of five unit squares; thus the area of a tetromino is four square units and the area of a pentomino is five square units. We also recalled the area formula for a rectangle.    Area of a Rectangle   The area of a rectangle is the product of its length and its width ; in symbols, .    Another observation is that if you can fill a closed region with smaller shapes so that none of the smaller shapes overlap and no part of the region is left uncovered, then the area of the region is equal to the sum of the areas of the smaller shapes. While this may seem like a simple idea, we will see that it allows us to determine the area formulas of other geometric shapes and to prove the Pythagorean Theorem. We can dissect dissect a shape into smaller shapes, rearrange the pieces into another shape, and argue that the two regions have equal area because they both consist of the same collection of smaller shapes.   Additivity of Area   If a region can be cut into non-overlapping sections, the area of the whole region is equal to the sum of the areas of the sections.    We applied these two principles in where we attempted to construct rectangles using pentominoes. Since pentominoes have an area of five square units, we could only construct rectangles with areas divisible by 5, namely 5, 15, 20, 25, 30, 35, 40, 45, 50, 55, and 60. To construct a rectangle of area 10, the same pentomino must be used twice. In the same way, any shape made up entirely of tetrominoes must have an area divisible by 4.  Finally, we observed that when the lengths of all sides of a two-dimensional figure are doubled (or tripled), the area of the figure is multiplied by 4 (or 9). This is easy to observe in a rectangle with length and width . When we create a new rectangle with length and width , the resulting area is square units.   Check Your Understanding   Demonstrate algebraically why the area of a two-dimensional figure is multiplied by 9 when then lengths of the sides are tripled.    Use the example for getting four times the area by doubling the lengths as a guide.    When and , the area is       Exploring to Learn  Hopefully as you worked through these tasks, you allowed yourself to experiment with different arrangements of squares and polyominoes. This openness to creative exploration is essential to mathematical thinking. Phrases like \"what if\" or \"I wonder\" arise often as mathematicians create and make sense of new ideas. If you find yourself wanting to explore a question arising from a task but not explicitly asked, jot down your question and share it with your instructor. Your instructor might encourage you to investigate your question or even invite your classmates to consider it. Some questions may be addressed in a later section, too tangential, beyond the scope of this course, or even unsolved by the mathematical community. Thus your instructor will make the decision on which questions to pursue and when.   You may have noticed that you and your peers discovered different ways of completing the same task. Multiple approaches and multiple solutions are often welcome and even encouraged! If you have a strategy that is different than your group members, try both separately and then compare. You have the ability to do the mathematics, but it will be more meaningful if you attack tasks in a way that makes sense to you. This will require you and your peers to take some risks, to challenge each other to speak up, and to be nonjudgmental of others.  In fact, doing mathematics is a social activity. When we notice patterns and make conjectures, we share our ideas with others and use logic to make convincing arguments. For over 2500 years, mathematicians have been adding to the body of mathematical knowledge; some of which has been shared with you during your studies. The field of mathematics continues to grow.  Unfortunately, most students have had little opportunity to creatively explore in their mathematics classes. You have probably memorized formulas and performed calculations in many of your mathematics classes. While formulas and calculations are useful tools in mathematics, they are not the essence of mathematics and can often be done via a computer. In this course, we will develop the creative thinking, reasoning, and problem-solving practices that set humans apart from computers and are valued by employers. We will think outside the box, make predictions, and wonder why. Different approaches and strategies are encouraged. Relax and have fun exploring mathematics!     Exercises   Building Our Toolbox   Throughout the course, you will learn important principles, definitions, formulas, and geometry facts. Create your toolbox so that these tools will be easy to find and meaningful to you when you need to refer to them or review material. Gathering your tools in one section of your notebook would be ideal.     In your own words and illustration(s), describe why the definition of area leads to the formula for the area of a rectangle at least in the case where the length and width are whole numbers.       What is meant by Additivity of Area ? Give an example and describe in your own words.       Skills and Recall   Exercises in this section are designed to check that you have understood the main ideas and that you can perform the skills, techniques, and formulas needed to move on in the course. Exercises in this group may also encourage practice of skills that appear in education licensure exams.     Determine the area of each shape in .   Shapes for   Shape 1 is a cross formed by two equal length intersecting bars. Each bar is 2 inches by 8 inches so that their intersection is a 2 by 2 square. Shape 2 is more irregular, close to a rotated L-shape with a 1 by 1 square removed near where the legs meet. One leg of the L is 8 inches long and 2 inches wide. The other is 7 inches long and 3 inches wide.       Shape 1    Break each figure into shapes for which the area can be computed. Then use to find the total area of the region. Or think of the figure as residing in a large measurable frame and subtract as appropriate.    28 square inches    Several solutions are possible. One is to note that the center is a 2 by 2 square and the four extensions are 2 by 3 rectangles for a total of square inches.      Shape 2    30    Several methods are possible. Perhaps, you noticed that the figure sits in a 7 by 8 rectangle and removed the lower 5 by 5 rectangle and a 1 by 1 rectangle to get square inches. This problem can also be solved by adding three rectangles' areas together.        Refer to as you answer the following:   Shapes for   The first two shapes are described in the problem. Trapezoid IJKL in the third problem consists of a right triangle OJI and rectangle ILKO with a common side IO. The height and width of the triangle is the same, namely 6 cm. The width of the rectangle is 10 cm.       Find the area of rectangle with height 14 cm. and width 6 cm given in . Then use your answer to find the area of right triangle .     is used in each of these problems. How many copies of fill rectangle ?      In , parallelogram has base 10 cm and height 6 cm, points and lie on with and being right angles.     Find the area of rectangle with height cm. and width cm.      What is the area of parallelogram in ? How do you know?     How can you create rectangle from cutting and rearranging pieces of parallelogram ?       In , trapezoid has bases and of lengths 16 cm and 10 cm, respectively. The trapezoid also has right angles at and . An altitude is drawn from meeting at a point such that cm and cm.     Determine the area of rectangle with height cm.      Determine the area of right triangle .      Determine the area of trapezoid .    How can you build from the pieces.        A triomino consists of three squares joined at edges. How many distinct triominoes exist? Sketch them. Do not include any triominoes that are reflections or rotations of ones you have already sketched.    There are just two.    One is I-shaped; the other L-shaped.      A hexomino is constructed from six squares. Explain why it is impossible to construct a solid rectangle with area twenty using non-overlapping hexomino tiles.    What is the area of each hexomino? How does that affect the total area?      Jay constructs a solid rectangle using heptomino (seven-square) tiles. What must be true about the area of Jay's rectangle?    We do not know how many heptominoes Jay used, but we do know the area of each heptomino. Many rectangles could be built, but their areas will always have what factor?       Show that it is possible to construct a rectangle of area 10 using pentominoes if you are allowed to reuse the same tile.      Show that if you are allowed to use copies of the same pentomino tile multiple times you can construct a rectangle of area for every whole number .    Use the same tetromino times. What tetromino is already a rectangle?       Sketch all the different rectangles with no gaps or overlaps that can be created by a single set of five tetrominoes. You don't have to use all of the tetrominoes in each rectangles and you may use a new set of tetrominoes for each rectangle; however no rectangle will use a single tile more than once.     The Area Model for Multiplication   This problem illustrates the Area Model for Multiplication, an effective way of helping elementary school students visualize the operation of multiplication. area model for multiplication      On graph paper sketch a rectangle. Show the fifteen squares that make up the area.      Note that 12 can be factored as , , or . Sketch area models for each of these products.       Extending the Concepts    Area Model for Two-digit Numbers   Multiplication of two-digit numbers can be represented using the area model: for example, to multiply 47 by 25 we can represent 47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones. We then can sketch the product as shown in .    Rectangular Model    Algorithm    47    25    235    + 940    1175         Determine the area of each of the four subrectangles pictured. Here, the squares on the grid are not but defined by the notations on the sides.    One of the subrectangles is a -rectangle. What are the others?      Add the four areas of the subrectangles together to find the total area.      The standard algorithm to multiply is shown in . Identify what the 235 and 940 in the algorithm represent in the area model pictured at the beginning of this exercise.    Consider sums of areas.        Multiplication of Multidigit Numbers   Sketch an area model illustration of the product , not necessarily drawn to scale, but with each side length broken down into thousands, hundreds, tens, and ones as appropriate. Demonstrate how this area model can be used to compute the product.    Use as an example. You will need more subrectangles for this problem.     Modeling the Multiplication of Fractions and Mixed Numbers   Each side of the square, pictured in has a length of 1.     Sketch line segments that divide the height of the square equally into thirds and the width equally into fourths. How many subrectangles does this split the square into? What is the area of each subrectangle? What does this tell you about ?   A unit square   A square        The sketch in shows a model of . Compute the areas of each of the four shaded regions (blue, orange, pink, and green), and then compute the total. Note that solid lines are used to represent lengths of whole units and dashed lines represent fractional lengths    Area Model for   A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five fifths. The side of length 3 is split into two whole units and three thirds. The upper 1\/3 strip and rightmost 1\/5 strip are unshaded. The two 1 by 1 squares are shaded blue. Two one by one-third rectangles are orange. Four one-fifth by one rectangles are pink and there are four green one third by one-fifth rectangles forming a 2\/3 by 2\/5 rectangle.        Draw an area model of by dividing the unit length into fifths and the unit width into fourths. Shade and compute the product. Explain how you find the numerator and denominator of the unsimplified fraction from the sketch.    Begin by drawing a unit square similar to , dividing the sides according to the denominators of the fractions.      Modeling the Multiplication of Polynomials   The sketch in illustrates a product of polynomials.     Write the height of the entire rectangle as an algebraic expression involving the variable .    An algebraic expression involving the variable may include numbers and operations like in addition to the variable . For part a, the algebraic expression is .      Write the width of the entire rectangle as an algebraic expression involving the variable .      Algebraically compute the area of the entire rectangle as the product of your two algebraic expressions. Show your work.      Find the area geometrically by finding the areas of the four subrectangles and adding the areas together. Show your work. Did you get the same result?     An area model for the expression .     Area in Probability    A tetrahedral die is a triangular pyramid with four sides numbered 1 through 4. Because the die is shaped like a triangular pyramid, there is no top face so the number rolled will correspond to the top point if the dice are labeled like the ones to the right. If three tetrahedral die are rolled the possible sums range from 3 to 12. For example, consider the sum 5 which can be achieved by each of the following six rolls: (1,1,3), (1,2,2), (1,3,1), (2,1,2), (2,2,1), (3,1,1).   Tetrahedral dice   Triangular pyramids with sides labeled 1, 2, 3, 4.        Determine all of the ways that a sum of 9 can occur.    The rolls , and count as three separate rolls.      List all of the ways that a sum of 6 can be rolled.      The sketch in is a bar graph or histogram showing the frequency or number of ways that each of the sums from 3 to 12 can be rolled with three tetrahedral dice. Note that the sums are given on the horizontal axis and the frequencies are on the vertical axis. Note how the third vertical bar, centered above the number 5, has height 6 to illustrate the fact that there are six ways of rolling a sum of 5.     What is the total number of possible rolls?    Consider the heights of the columns.      What is the number of rolls resulting in 7?    Consider the bar centered over the number 7.      The probability of an event is computed by dividing the number of different rolls meeting the criteria for that event by the total number of different possible rolls. What is the probability of rolling a 7 with three tetrahedral dice?     Frequency of sums of tetrahedral dice rolls   A symmetric histogram graph is shown. The following rectangular bars appear on the graph, each with width 1 and base on the x-axis. Above the number 3 and above the number 12, sits a rectangle with height 1. Above both 4 and 11, the bar's height is 3. Above both 5 and 10, the height is 6. Above both 6 and 9, the height is 10. And above both 7 and 8, the height is 12.        Writing Prompt   Mathematical Autobiography  Write an essay (2 to 4 pages) in which you discuss the experiences in your life that have formed you as a mathematician or geometer. This essay will be unique to you, but here are some questions that you might consider in your reflection: Were there any turning points in your education? What experiences have stimulated and which have stimied your mathematical growth? Are there obstacles that you have overcome or would like to overcome? How? What are your personal goals in this course? What do you see as personal challenges to being successful?  The paper should not be a mere timeline (boring!) or a list of answers to the questions above (disjointed), but instead should be a cohesive essay that focuses on the development of your mathematical ability, confidence, and attitude, centering on a few key turning points. Examples of experiences that help illustrate your statements should be included. How did the class format (lecture, testing, activities, interaction, pacing) change you? Did you have experiences beyond the classroom that affected your mathematical growth?   You may be asked to look back on this essay at the end of the semester to assess personal growth. Your instructor may also use this autobiography to better understand you as a student. In case your instructor knows your past teachers, use pseudonyms or letters to refer to them. The essay should focus on you, not your teachers.     "
+},
+{
+  "id": "intro-explore-exp-pentrectl",
+  "level": "2",
+  "url": "sec-intro-explore.html#intro-explore-exp-pentrectl",
+  "type": "Exploration",
+  "number": "1.1.1",
+  "title": "Tiling Rectangles with Polyominoes.",
+  "body": " Tiling Rectangles with Polyominoes   Although this task is to fill a box, you are encouraged to think outside the box as you do this activity. You will find that a willingness to take chances and try out different strategies will be essential to your success in this course. Taking time to reflect as you respond to the \"why\" questions and sharing your ideas with your classmates will also contribute greatly to your learning. Have fun!     Just as a domino consists of two squares joined at an edge, a tetromino  tetromino  polyomino  tetromino is a flat figure created by joining four congruent squares along edges. Fill the blue square with non-overlapping copies of the green L-shaped tetronimo. How many tetrominoes are required?  To use the interactive tool, click and drag the L-shape to create a new copy of the shape. Use the large dot, to rotate the copy. Arrange copies to cover the blue square. This may also be done on paper.     Interactive tool on Polypad by Mathigon        Pictured below are the four other tetrominoes: an I-shape, a Z-shape, a T-shape, and a small square. Like the L-shape, some of these can cover the larger square without overlaps or gaps. Identify which tetrominoes will tile one of the larger squares and show how this can be done. If there are any tetrominoes which cannot tile the square alone, explain why you believe the tiling is impossible.  Once again in the application, copies of the I-shape, Z-shape, T-shape, and small square can be created by clicking the shape and dragging. Four larger squares are provided; try to tile one with the I-shape, one with the Z-shape, etc.      Interactive tool on Polypad by Amplify.       Since a tetromino is formed by joining four unit squares, each tetromino has an area of four square units, as illustrated here.  What is the area of the square that you filled with tetrominoes?      Similarly, we define a pentomino  pentomino  polyomino pentomino to be a figure formed by joining five congruent squares along edges. One pentomino is pictured. Create new pentominoes by copying and moving the provided purple unit square. Note that if two pentominoes are reflections or rotations of each other, we consider them to be the same pentomino. Be sure to save a copy of your sketch for future reference.    Interactive tool on Polypad by Amplify      There are twelve different pentominoes. Did you find them all?    The pentominoes may be labeled as F, I, L, N, P, T, U, V, W, X, y, and Z. Can you figure out which is which?      Use some of the pentominoes you created to build solid rectangles. The hint below gives access to an interactive tool.   What dimensions are possible? Does it matter whether you restrict yourself to never using a pentomino more than once in a rectangle?    Can you build a rectangle that uses every pentomino exactly once?       Use the interactive Polypad activity below or access a fullscreen version at Polypad by Amplify using the link Pentomino Set .       Are there any rectangles that cannot be filled using only pentominoes? Why?      As you participated in this exploration, what did you wonder? What did you notice about area?    There is no right or wrong answer here! Write something!    "
+},
+{
+  "id": "intro-explore-exp-MoreExpPentominoes-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#intro-explore-exp-MoreExpPentominoes-l",
+  "type": "Exploration",
+  "number": "1.1.2",
+  "title": "More Explorations with Pentominoes.",
+  "body": " More Explorations with Pentominoes   Note to instructor: Questions from this exploration may be used as an in-class supplement to the first exploration, as a homework assignment, or omitted.     To simplify our discussion, we can call each pentomino by the letter it most resembles, namely F, I, L, P, T, U, V, W, X, y, Z, and N. The F and N pentominos are less obvious and are identified below. Sketch and identify the others or refer to and label your earlier sketches.      Observe how a larger copy of the L-pentomino tile can be created by filling it with four different pentominoes:     How are the height and width of the new larger L-tile related to the height and width of the basic L-tile?      How is the area of the new larger L-tile related to the area of the basic L-tile?      Choose another pentomino from among F, I, P, T, U, W, y, and Z, and demonstrate how it can be created using four distinct polyominoes. Note that this cannot be done with X or V.    Use the interactive Polypad activity below or access a fullscreen version at Polypad by Amplify using the link Pentomino Set .        On the other hand, it is possible to create a copy of the V tile that is three times the height and width of the basic V tile by filling it with nine distinct pentominoes.    Show how this can be done.    How does the new area compare with the original?    Explore whether other pentominoes can be tripled in this way.         What happens to the area of a figure when its height and width of are doubled? tripled? How does the number of basic pentominoes needed to fill the figure change?    "
+},
+{
+  "id": "def-area",
+  "level": "2",
+  "url": "sec-intro-explore.html#def-area",
+  "type": "Definition",
+  "number": "1.1.1",
+  "title": "",
+  "body": " area   The area of a closed figure in the plane is the number of unit squares needed to fill the figure without any gaps or overlaps.   "
+},
+{
+  "id": "formula-area-rectangle",
+  "level": "2",
+  "url": "sec-intro-explore.html#formula-area-rectangle",
+  "type": "Formula",
+  "number": "1.1.2",
+  "title": "Area of a Rectangle.",
+  "body": " Area of a Rectangle   The area of a rectangle is the product of its length and its width ; in symbols, .   "
+},
+{
+  "id": "principle-areasums",
+  "level": "2",
+  "url": "sec-intro-explore.html#principle-areasums",
+  "type": "Principle",
+  "number": "1.1.3",
+  "title": "Additivity of Area.",
+  "body": " Additivity of Area   If a region can be cut into non-overlapping sections, the area of the whole region is equal to the sum of the areas of the sections.   "
+},
+{
+  "id": "intro-explore-check-tripleareanine-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#intro-explore-check-tripleareanine-l",
+  "type": "Checkpoint",
+  "number": "1.1.4",
+  "title": "Check Your Understanding.",
+  "body": " Check Your Understanding   Demonstrate algebraically why the area of a two-dimensional figure is multiplied by 9 when then lengths of the sides are tripled.    Use the example for getting four times the area by doubling the lengths as a guide.    When and , the area is    "
+},
+{
+  "id": "intro-expl-toolbox-defarea",
+  "level": "2",
+  "url": "sec-intro-explore.html#intro-expl-toolbox-defarea",
+  "type": "Exercise",
+  "number": "1.1.5.1",
+  "title": "",
+  "body": "  In your own words and illustration(s), describe why the definition of area leads to the formula for the area of a rectangle at least in the case where the length and width are whole numbers.    "
+},
+{
+  "id": "intro-expl-toolbox-addarea-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#intro-expl-toolbox-addarea-l",
+  "type": "Exercise",
+  "number": "1.1.5.2",
+  "title": "",
+  "body": "  What is meant by Additivity of Area ? Give an example and describe in your own words.    "
+},
+{
+  "id": "intro-exp-SAR-areas-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#intro-exp-SAR-areas-l",
+  "type": "Exercise",
+  "number": "1.1.5.3",
+  "title": "",
+  "body": "  Determine the area of each shape in .   Shapes for   Shape 1 is a cross formed by two equal length intersecting bars. Each bar is 2 inches by 8 inches so that their intersection is a 2 by 2 square. Shape 2 is more irregular, close to a rotated L-shape with a 1 by 1 square removed near where the legs meet. One leg of the L is 8 inches long and 2 inches wide. The other is 7 inches long and 3 inches wide.       Shape 1    Break each figure into shapes for which the area can be computed. Then use to find the total area of the region. Or think of the figure as residing in a large measurable frame and subtract as appropriate.    28 square inches    Several solutions are possible. One is to note that the center is a 2 by 2 square and the four extensions are 2 by 3 rectangles for a total of square inches.      Shape 2    30    Several methods are possible. Perhaps, you noticed that the figure sits in a 7 by 8 rectangle and removed the lower 5 by 5 rectangle and a 1 by 1 rectangle to get square inches. This problem can also be solved by adding three rectangles' areas together.    "
+},
+{
+  "id": "intro-exp-SAR-standardpolygonarea-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#intro-exp-SAR-standardpolygonarea-l",
+  "type": "Exercise",
+  "number": "1.1.5.4",
+  "title": "",
+  "body": "   Refer to as you answer the following:   Shapes for   The first two shapes are described in the problem. Trapezoid IJKL in the third problem consists of a right triangle OJI and rectangle ILKO with a common side IO. The height and width of the triangle is the same, namely 6 cm. The width of the rectangle is 10 cm.       Find the area of rectangle with height 14 cm. and width 6 cm given in . Then use your answer to find the area of right triangle .     is used in each of these problems. How many copies of fill rectangle ?      In , parallelogram has base 10 cm and height 6 cm, points and lie on with and being right angles.     Find the area of rectangle with height cm. and width cm.      What is the area of parallelogram in ? How do you know?     How can you create rectangle from cutting and rearranging pieces of parallelogram ?       In , trapezoid has bases and of lengths 16 cm and 10 cm, respectively. The trapezoid also has right angles at and . An altitude is drawn from meeting at a point such that cm and cm.     Determine the area of rectangle with height cm.      Determine the area of right triangle .      Determine the area of trapezoid .    How can you build from the pieces.     "
+},
+{
+  "id": "SAR-intro-exp-numtriominoes-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#SAR-intro-exp-numtriominoes-l",
+  "type": "Exercise",
+  "number": "1.1.5.5",
+  "title": "",
+  "body": "  A triomino consists of three squares joined at edges. How many distinct triominoes exist? Sketch them. Do not include any triominoes that are reflections or rotations of ones you have already sketched.    There are just two.    One is I-shaped; the other L-shaped.   "
+},
+{
+  "id": "SAR-intro-exp-hexomino",
+  "level": "2",
+  "url": "sec-intro-explore.html#SAR-intro-exp-hexomino",
+  "type": "Exercise",
+  "number": "1.1.5.6",
+  "title": "",
+  "body": "  A hexomino is constructed from six squares. Explain why it is impossible to construct a solid rectangle with area twenty using non-overlapping hexomino tiles.    What is the area of each hexomino? How does that affect the total area?   "
+},
+{
+  "id": "SAR-intro-exp-heptominoarea-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#SAR-intro-exp-heptominoarea-l",
+  "type": "Exercise",
+  "number": "1.1.5.7",
+  "title": "",
+  "body": "  Jay constructs a solid rectangle using heptomino (seven-square) tiles. What must be true about the area of Jay's rectangle?    We do not know how many heptominoes Jay used, but we do know the area of each heptomino. Many rectangles could be built, but their areas will always have what factor?   "
+},
+{
+  "id": "SAR-intro-exp-areaRectRepeatedPentom-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#SAR-intro-exp-areaRectRepeatedPentom-l",
+  "type": "Exercise",
+  "number": "1.1.5.8",
+  "title": "",
+  "body": "   Show that it is possible to construct a rectangle of area 10 using pentominoes if you are allowed to reuse the same tile.      Show that if you are allowed to use copies of the same pentomino tile multiple times you can construct a rectangle of area for every whole number .    Use the same tetromino times. What tetromino is already a rectangle?    "
+},
+{
+  "id": "SAR-intro-exp-rectsfromtetrominoes-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#SAR-intro-exp-rectsfromtetrominoes-l",
+  "type": "Exercise",
+  "number": "1.1.5.9",
+  "title": "",
+  "body": "  Sketch all the different rectangles with no gaps or overlaps that can be created by a single set of five tetrominoes. You don't have to use all of the tetrominoes in each rectangles and you may use a new set of tetrominoes for each rectangle; however no rectangle will use a single tile more than once.   "
+},
+{
+  "id": "SAR-intro-exp-SAR-areamodel",
+  "level": "2",
+  "url": "sec-intro-explore.html#SAR-intro-exp-SAR-areamodel",
+  "type": "Exercise",
+  "number": "1.1.5.10",
+  "title": "The Area Model for Multiplication.",
+  "body": " The Area Model for Multiplication   This problem illustrates the Area Model for Multiplication, an effective way of helping elementary school students visualize the operation of multiplication. area model for multiplication      On graph paper sketch a rectangle. Show the fifteen squares that make up the area.      Note that 12 can be factored as , , or . Sketch area models for each of these products.    "
+},
+{
+  "id": "ExtConc-intro-exp-areamodel-twodigit",
+  "level": "2",
+  "url": "sec-intro-explore.html#ExtConc-intro-exp-areamodel-twodigit",
+  "type": "Exercise",
+  "number": "1.1.5.11",
+  "title": "Area Model for Two-digit Numbers.",
+  "body": " Area Model for Two-digit Numbers   Multiplication of two-digit numbers can be represented using the area model: for example, to multiply 47 by 25 we can represent 47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones. We then can sketch the product as shown in .    Rectangular Model    Algorithm    47    25    235    + 940    1175         Determine the area of each of the four subrectangles pictured. Here, the squares on the grid are not but defined by the notations on the sides.    One of the subrectangles is a -rectangle. What are the others?      Add the four areas of the subrectangles together to find the total area.      The standard algorithm to multiply is shown in . Identify what the 235 and 940 in the algorithm represent in the area model pictured at the beginning of this exercise.    Consider sums of areas.      "
+},
+{
+  "id": "ExtConc-intro-exp-areamodel-multidigit-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#ExtConc-intro-exp-areamodel-multidigit-l",
+  "type": "Exercise",
+  "number": "1.1.5.12",
+  "title": "Multiplication of Multidigit Numbers.",
+  "body": " Multiplication of Multidigit Numbers   Sketch an area model illustration of the product , not necessarily drawn to scale, but with each side length broken down into thousands, hundreds, tens, and ones as appropriate. Demonstrate how this area model can be used to compute the product.    Use as an example. You will need more subrectangles for this problem.   "
+},
+{
+  "id": "ExtConc-intro-exp-areamodel-fractions-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#ExtConc-intro-exp-areamodel-fractions-l",
+  "type": "Exercise",
+  "number": "1.1.5.13",
+  "title": "Modeling the Multiplication of Fractions and Mixed Numbers.",
+  "body": " Modeling the Multiplication of Fractions and Mixed Numbers   Each side of the square, pictured in has a length of 1.     Sketch line segments that divide the height of the square equally into thirds and the width equally into fourths. How many subrectangles does this split the square into? What is the area of each subrectangle? What does this tell you about ?   A unit square   A square        The sketch in shows a model of . Compute the areas of each of the four shaded regions (blue, orange, pink, and green), and then compute the total. Note that solid lines are used to represent lengths of whole units and dashed lines represent fractional lengths    Area Model for   A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five fifths. The side of length 3 is split into two whole units and three thirds. The upper 1\/3 strip and rightmost 1\/5 strip are unshaded. The two 1 by 1 squares are shaded blue. Two one by one-third rectangles are orange. Four one-fifth by one rectangles are pink and there are four green one third by one-fifth rectangles forming a 2\/3 by 2\/5 rectangle.        Draw an area model of by dividing the unit length into fifths and the unit width into fourths. Shade and compute the product. Explain how you find the numerator and denominator of the unsimplified fraction from the sketch.    Begin by drawing a unit square similar to , dividing the sides according to the denominators of the fractions.    "
+},
+{
+  "id": "ExtConc-intro-exp-areamodel-polynomials-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#ExtConc-intro-exp-areamodel-polynomials-l",
+  "type": "Exercise",
+  "number": "1.1.5.14",
+  "title": "Modeling the Multiplication of Polynomials.",
+  "body": " Modeling the Multiplication of Polynomials   The sketch in illustrates a product of polynomials.     Write the height of the entire rectangle as an algebraic expression involving the variable .    An algebraic expression involving the variable may include numbers and operations like in addition to the variable . For part a, the algebraic expression is .      Write the width of the entire rectangle as an algebraic expression involving the variable .      Algebraically compute the area of the entire rectangle as the product of your two algebraic expressions. Show your work.      Find the area geometrically by finding the areas of the four subrectangles and adding the areas together. Show your work. Did you get the same result?     An area model for the expression .   "
+},
+{
+  "id": "ExtConc-intro-exp-probability-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#ExtConc-intro-exp-probability-l",
+  "type": "Exercise",
+  "number": "1.1.5.15",
+  "title": "Area in Probability.",
+  "body": " Area in Probability    A tetrahedral die is a triangular pyramid with four sides numbered 1 through 4. Because the die is shaped like a triangular pyramid, there is no top face so the number rolled will correspond to the top point if the dice are labeled like the ones to the right. If three tetrahedral die are rolled the possible sums range from 3 to 12. For example, consider the sum 5 which can be achieved by each of the following six rolls: (1,1,3), (1,2,2), (1,3,1), (2,1,2), (2,2,1), (3,1,1).   Tetrahedral dice   Triangular pyramids with sides labeled 1, 2, 3, 4.        Determine all of the ways that a sum of 9 can occur.    The rolls , and count as three separate rolls.      List all of the ways that a sum of 6 can be rolled.      The sketch in is a bar graph or histogram showing the frequency or number of ways that each of the sums from 3 to 12 can be rolled with three tetrahedral dice. Note that the sums are given on the horizontal axis and the frequencies are on the vertical axis. Note how the third vertical bar, centered above the number 5, has height 6 to illustrate the fact that there are six ways of rolling a sum of 5.     What is the total number of possible rolls?    Consider the heights of the columns.      What is the number of rolls resulting in 7?    Consider the bar centered over the number 7.      The probability of an event is computed by dividing the number of different rolls meeting the criteria for that event by the total number of different possible rolls. What is the probability of rolling a 7 with three tetrahedral dice?     Frequency of sums of tetrahedral dice rolls   A symmetric histogram graph is shown. The following rectangular bars appear on the graph, each with width 1 and base on the x-axis. Above the number 3 and above the number 12, sits a rectangle with height 1. Above both 4 and 11, the bar's height is 3. Above both 5 and 10, the height is 6. Above both 6 and 9, the height is 10. And above both 7 and 8, the height is 12.     "
+},
+{
+  "id": "Writing-intro-exp-autobiography-l",
+  "level": "2",
+  "url": "sec-intro-explore.html#Writing-intro-exp-autobiography-l",
+  "type": "Exercise",
+  "number": "1.1.5.16",
+  "title": "Mathematical Autobiography.",
+  "body": " Mathematical Autobiography  Write an essay (2 to 4 pages) in which you discuss the experiences in your life that have formed you as a mathematician or geometer. This essay will be unique to you, but here are some questions that you might consider in your reflection: Were there any turning points in your education? What experiences have stimulated and which have stimied your mathematical growth? Are there obstacles that you have overcome or would like to overcome? How? What are your personal goals in this course? What do you see as personal challenges to being successful?  The paper should not be a mere timeline (boring!) or a list of answers to the questions above (disjointed), but instead should be a cohesive essay that focuses on the development of your mathematical ability, confidence, and attitude, centering on a few key turning points. Examples of experiences that help illustrate your statements should be included. How did the class format (lecture, testing, activities, interaction, pacing) change you? Did you have experiences beyond the classroom that affected your mathematical growth?   You may be asked to look back on this essay at the end of the semester to assess personal growth. Your instructor may also use this autobiography to better understand you as a student. In case your instructor knows your past teachers, use pseudonyms or letters to refer to them. The essay should focus on you, not your teachers.  "
+},
+{
+  "id": "sec-intro-apply",
+  "level": "1",
+  "url": "sec-intro-apply.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Invitation to Apply Knowledge",
+  "body": " Invitation to Apply Knowledge    Building a Course Toolbox  Throughout our learning, and in fact throughout our lives, we add knowledge to our toolkit that we can later reference as needed. The tools in our toolkit can then be used to solve problems, to further build our understanding of related concepts, and to support the validity of an argument. Most likely, you are already familiar with some of these tools from previous coursework. You know how to perform computations, have used geometric formulas, and can recognize many shapes.  Although you already know some of the facts and formulas, we will develop a toolbox from the ground up in this course, starting with basic principles and assumptions that are intuitively obvious. With geometric formulas and theorems, we will want to explore why these are true before adding them to our toolbox. When we need to assume a statement without proving it, we will acknowledge the assumption and identify it as a principle rather than a theorem. Theorems will be justified logically from the principles and previously proved theorems. Definitions are developed to give us helpful terminology and state the characteristics needed to identify the object. We typically do not include every property of an object in the definition; some properties can be proved from the initial definition. For example, we define a rectangle to be a quadrilateral with four right angles. The property that opposite sides of a rectangle are congruent is not included in the definition because it can be proved from the definition.  Depending on the level of a geometry textbook and the author's goals, you will see some differences between the statements of geometric definitions and principles (also called axioms). For this reason, a proof you find elsewhere may not be sufficient here due to its reliance on different assumptions. Students are encouraged to use the resources in this text for their work. In addition, you should be mindful of the order in which theorems are introduced as you cannot use a theorem that comes later in the textbook as an argument in a proof. On the other hand, this textbook is not as rigorous as some geometry textbooks. In order to maintain the exploratory and intuitive nature of this book, the author will include some principles here that might appear as proven theorems in other texts. At times, proofs may be included as exercises leaving the choice of rigor up to the course instructor.   Our course toolbox currently contains the definition of area , the area formula for a rectangle , and Additivity of Area Principle . In other words, we can think about the area of a region as the number of blocks that fill the interior, we can use the area formula for a rectangle, and we know that the area of a region is equal to the sum of the areas of its parts. Hopefully, you will agree that length should also be additive; namely, that if we extend a segment of length by a segment of length , the resulting segment has length . We restate this below:    Additivity of Length   Suppose that is a point on the interior of line segment , then the length of equals the sum of the lengths of and .    Since we are interested in discovering facts and formulas that will hold for a whole class of geometric shapes, we will often use variables to represent numerical quantities such as length, area, and angle measure. We include in our toolbox the algebraic rules and procedures in that allow us to perform calculations, simplify expressions, and solve equations. There is a section in this book's appendix (back matter) on algebra for your review and reference.  Eventually, we will add more tools to our collection including the Pythagorean Theorem, area formulas for other shapes, and other geometrical theorems and formulas. The reasons behind these will be explored in future sections and based on definitions and the initial principles.  As we encounter and state new definitions, these too will be added to our toolbox. As you work through the next exploration, you will encounter terms like trapezoid and isosceles. Definitions for these and other terms are provided at the end of this section in case you would like to refresh your memory. You can also use the index or textbook's search tool to find definitions.   Explorations with Tangrams   In this exploration, use the tools currently in our toolbox as you answer the questions. You may find yourself wanting to use the Pythagorean Theorem and the area formula for a triangle, but you are encouraged to try to answer the questions without these formulas. In fact, if you find yourself using the Pythagorean Theorem, there is probably an easier method!  A set of tangrams consists of the following seven pieces: two large triangles, one medium triangle, a parallelogram, a square, and two small triangles.   The Seven Tangrams   To complete this exploration, you will need to move the seven tangram pieces around. If you do not have a set of tangrams, you may print and cut out the shapes shown above. A tangram interactive is also available on Polypad by Amplify via the link Interactive Tangrams on Polypad by Amplify .     Assume that the length of each side of the square is 1 unit. Determine the area of each of the figures:   The area of the square.    The area of one small triangle.    The area of the parallelogram.    The area of the medium triangle.    The area of the large triangle.         Still assuming that the length of each side of the square is 1 unit, now find the lengths of the sides of the other tangram shapes. You may use the Pythagorean Theorem, but it is possible to determine these lengths without it!      Construct each of the following if possible:   A triangle using three tangram pieces.    A rectangle    A parallelogram that is not a rectangle using two pieces.    A non-isosceles trapezoid (you choose the number of pieces).    A pentagon.    A non-square rectangle using all seven pieces.    A square using all seven pieces.   What is the area of this square?    What is the side length of this square?            Were you able to answer the questions above without using the Pythagorean Theorem or the area formula for a triangle? If not, explore how this might be done!    What tools do we have in our toolbox? How can these help?     In this exercise, we practiced using our initial principles and identified some tools, namely the Pythagorean Theorem and the area formula for a triangle, that will be developed later. We also noted that there are multiple ways to solve a problem. Solutions do not need to use formulas and should evolve from what we know and what we have in our toolbox. Still, we want to grow our toolbox to increase our ability to solve problems and justify claims.  Perhaps you moved figures around and lined up sides to determine whether the lengths were the same.     Defining Polygons  In the first part of this course, we will work primarily with polygons. What is a polygon? Giving a clear, clean definition of the word \"polygon\" is difficult so we will describe it verbally and give several examples. If you search for the definition in books or on the web, you will find different attempts to give a clear definition. We will describe a polygon  polygon as being a closed plane figure formed by a sequence of straight sides. Thus, a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean that a polygon will have a well-defined interior; the polygon forms a solid boundary between this interior and the rest of the plane.   Some examples of polygons    A right trapezoid    A concave pentagon.     As seen in , we distinguish between convex and concave polygons.   convex  concave  polygon convex  polygon concave   A polygon is convex if every interior angle has a measure less than 180 degrees. If a polygon is not convex, then it is concave .    Not all flat shapes are polygons as illustrated in .   Examples of figures that are not polygons    Not closed.    Curved edges     Some specific types of polygons are defined below. We add these to our toolbox. An easy way to find definitions later is to use the index at the end of the textbook.    triangle  polygon triangle   A triangle is a polygon with exactly three sides.     quadrilateral  polygon quadrilateral   A quadrilateral is a polygon with exactly four sides.     polygon n-gon  polygon pentagon  polygon octagon  polygon decagon  n-gon  pentagon  octagon  decagon   A pentagon is a polygon n-gon with five sides. A hexagon has six sides. We use the general term -gon to describe a polygon with exactly sides. Other common numerical prefixes used to describe polygons include octa (eight) and deca (ten). These will be explored more in .    Some polygons are defined by the types of angles they have.   right angle  acute angle  obtuse angle  angle right  angle acute  angle obtuse   An angle is said to be a right angle if its measure is 90 degrees. Angles that have measures less than 90 degrees are said to be acute and angles with measures greater than 90 degrees are said to be obtuse .     triangle right  hypotenuse  leg right triangle  right triangle   A triangle is said to be a right triangle if one of its angles is a right angle. In a right triangle, the side opposite the right angle is called the hypotenuse and the other two sides are called legs .     triangle acute  triangle obtuse  acute triangle  obtuse triangle   If one of its angles is obtuse, we say that a triangle is an obtuse triangle . An acute triangle is a triangle with three acute angles. We will explore the measurement of angles more in and .     quadrilateral rectangle  quadrilateral square  rectangle  square   A quadrilateral with four right angles is called a rectangle A square is a rectangle whose sides are all the same length.     equiangular   A polygon is said to be equiangular if all of its angles have the same measure.    Quadrilaterals may also be described by the existence of parallel sides.   parallel lines  parallel sides of a polygon   Two lines in the same plane are said to be parallel if they never intersect. Two line segments or two sides of a polygon are said to be parallel if the lines they are a part of are parallel. Note that a line always extends infinitely in two directions while a line segment has endpoints.     parallelogram  quadrilateral parallelogram  parallelogram altitude  parallelogram base  altitude parallelogram  base parallelogram   A parallelogram is a quadrilateral with two pairs of parallel sides. When describing the measurements of a parallelogram, it is useful to identify one side as the base . The height of the parallelogram is measured along an altitude , namely a segment formed connecting a point on the side opposite the base to a point on the base such that the altitude meets the line forming the base at a right angle.  In , is a parallelogram since lines and are parallel and lines and are parallel. Segment is an altitude for . The altitude may be drawn from any vertex to an opposite side and may lie in the interior or the exterior of the parallogram.     Two pairs of parallel lines creating parallelogram   Two pairs of parallel lines creating parallelogram      trapezoid  quadrilateral trapezoid  trapezoid altitude  trapezoid base  altitude trapezoid  base trapezoid  leg trapezoid   A quadrilateral with exactly one pair of parallel sides is called a trapezoid . One of the parallel sides is called the base and the other is called the summit . The remaining two sides of a trapezoid are called legs . The height of a trapezoid is the distance between the base and the summit, measured along an altitude which is perpendicular to the base.  In , we see that base and summit lie on parallel lines and , respectively. Segments and are legs while is an altitude. Note that the altitude may lie in either the interior or the exterior of the trapezoid.     Trapezoid   Trapezoid ABCD with base BC and summit AD    Triangles and other polygons may also be classified by whether some of their sides have the same length. Two sides of a polygon are said to be congruent  congruent sides if they are the same length.   equilateral triangle  equilateral quadrilateral  rhombus  quadrilateral rhombus  triangle equilateral   A polygon is described as being equilateral if all of its sides are congruent. An equilateral quadrilateral is called a rhombus .     isosceles  isosceles triangle  isosceles trazezoid  triangle isosceles  trapezoid isosceles   The word isosceles comes from two Greek words, isos meaning equal and skelos meaning leg . An isosceles triangle is a triangle with two congruent sides. An isosceles trapezoid is a trapezoid with two congruent, non-parallel sides.     Isosceles and Equilateral Triangles  Some textbooks will restrict the term isosceles triangle to a triangle with exactly two congruent sides while others allow two or all three of the sides to be congruent. This latter definition is used when one is one wants to argue that properties of isosceles triangles extend to equilateral triangles.   Should you become a teacher, it is wise to be mindful of how your textbook uses these terms. In the early sections of this text, we will distinguish between isosceles and equilateral triangles when you are asked to sketch and identify examples. When we explore properties of triangles, you may use the fact that properties of an isosceles triangle will also hold for equilateral triangles.  In case you are curious, equilateral comes from Latin and French words meaning equal sides.    scalene  triangle scalene   A triangle with no congruent sides is said to be a scalene triangle .     kite  quadrilateral kite   A kite is a quadrilateral with two pairs of adjacent congruent sides. A kite has reflective (fold) symmetry across one of its diagonals.    While area measures the interior region bounded by a polygon or other closed figure in the plane, we can also measure the boundary itself.   perimeter   The perimeter of a closed figure is the total length of its boundary. In the case of a polygon, the perimeter is the sum of the lengths of its sides.      Exercises   Skills and Recall    Determine the perimeter of each of the shapes in .    Review the definition of perimeter . You will have to compute the lengths of some sides. All sides in these figures are horizontal or vertical so that the total horizontal distance from the left boundary to the right boundary is 8 inches in shape 1 and 7 inches in shape 2.      Sketch pictures of each of the following:   An isosceles obtuse triangle    A rhombus that is not a square    An equiangular hexagon which is not equilateral    A concave quadrilateral       Reread definitions as needed and check that your sketches satisfy the criteria.      Triangle , trapezoid , and parallelogram are provided in .   Label a side of triangle as the base. Then draw and label the altitude of the triangle corresponding to that base.    Which two sides of trapezoid could be considered to be bases? Label one as the base. Also label the summit and legs of the trapezoid. Then draw and label an altitude for .    Label side as the base of parallelogram . Sketch and label an altitude for corresponding to base .    Could another side of been chosen as the base? Which one(s)? Would the altitude be the same?      Shapes for     Check that each altitude is perpendicular to the corresponding base. Multiple answers are possible for most of these questions.      In , three smaller Tangram pieces fill a region congruent to the larger blue isosceles triangle. The square is half as tall as the blue triangle. Suppose that the area of the blue triangle is 18 square inches.   What is the area of one small orange triangle? How do you know?    What is the area of the square? How do you know?      Image for     Each small triangle has area 4.5 and the square has area 9.      Extending the Concepts    Answer the questions:  >   Is it possible for a triangle to be equilateral but not equiangular    No      Show by example that it is possible for a quadrilateral to be equilateral but not equiangular.    Thread four straws of equal length in succession with a piece of string and bring the ends together to form a quadrilateral. Must the angles be equal?    A rhombus is equilateral but not necessarily equiangular.      Show by example that it is possible for a quadrilateral to be equiangular but not equilateral.    What must the common angle be? Is there a quadrilateral with angles this size which is not equilateral?    A rectangle is equiangular but not necessarily equilateral.       If two polygons have the same area, must they have the same perimeter? Support your answer using words and\/or pictures.    Experiment, but keep your examples simple. One idea is to pick a number which can be factored in more than one way and let that be the common area. You do not have to use the same shape, but you may choose to use (or not to use) the same number of sides. Your examples should differ from your classmates!      Sketch a polygon where the numerical value of the perimeter is equal to the numerical value of the area. Be sure to label the sides with their lengths.  Now triple the length of each side and recompute the area and the perimeter. What value(s) do you get? Are they still the same?  Assume that the original side lengths had yards as their units. What would the units be for the shape's area?       Again experiment with simple shapes like triangles or rectangles. Multiple examples exist.      We have noted that polygons satisfy additivity of area and that segments satisfy additivity of length. Should polygons satisfy additivity of perimeter? Support your answer with pictures and words.    Draw a picture of two polygons that share a common side. Compute the perimeters of each polygon and of the new shape created. Recall that perimeter is the length of the boundary of the figure and does not include any lengths in the interior.      Writing Prompts    By the time students reach college, they already have some geometry tools in their toolbox. What geometric tools do you bring to the course? Of these tools, which do you feel comfortable using and which do you need to learn more about? You may include tools that we have not yet covered in this textbook.      Explore the Index and Search tools in this textbook. Write a paragraph in which you discuss the benefit of these tools and explain how to use at least one of these tools.      "
+},
+{
+  "id": "principle-addlengths",
+  "level": "2",
+  "url": "sec-intro-apply.html#principle-addlengths",
+  "type": "Principle",
+  "number": "1.2.1",
+  "title": "Additivity of Length.",
+  "body": " Additivity of Length   Suppose that is a point on the interior of line segment , then the length of equals the sum of the lengths of and .   "
+},
+{
+  "id": "intro-apply-explore-tangram",
+  "level": "2",
+  "url": "sec-intro-apply.html#intro-apply-explore-tangram",
+  "type": "Exploration",
+  "number": "1.2.1",
+  "title": "Explorations with Tangrams.",
+  "body": " Explorations with Tangrams   In this exploration, use the tools currently in our toolbox as you answer the questions. You may find yourself wanting to use the Pythagorean Theorem and the area formula for a triangle, but you are encouraged to try to answer the questions without these formulas. In fact, if you find yourself using the Pythagorean Theorem, there is probably an easier method!  A set of tangrams consists of the following seven pieces: two large triangles, one medium triangle, a parallelogram, a square, and two small triangles.   The Seven Tangrams   To complete this exploration, you will need to move the seven tangram pieces around. If you do not have a set of tangrams, you may print and cut out the shapes shown above. A tangram interactive is also available on Polypad by Amplify via the link Interactive Tangrams on Polypad by Amplify .     Assume that the length of each side of the square is 1 unit. Determine the area of each of the figures:   The area of the square.    The area of one small triangle.    The area of the parallelogram.    The area of the medium triangle.    The area of the large triangle.         Still assuming that the length of each side of the square is 1 unit, now find the lengths of the sides of the other tangram shapes. You may use the Pythagorean Theorem, but it is possible to determine these lengths without it!      Construct each of the following if possible:   A triangle using three tangram pieces.    A rectangle    A parallelogram that is not a rectangle using two pieces.    A non-isosceles trapezoid (you choose the number of pieces).    A pentagon.    A non-square rectangle using all seven pieces.    A square using all seven pieces.   What is the area of this square?    What is the side length of this square?            Were you able to answer the questions above without using the Pythagorean Theorem or the area formula for a triangle? If not, explore how this might be done!    What tools do we have in our toolbox? How can these help?    "
+},
+{
+  "id": "intro-apply-subsec-definingpolygons-2",
+  "level": "2",
+  "url": "sec-intro-apply.html#intro-apply-subsec-definingpolygons-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "polygon "
+},
+{
+  "id": "polygonvisualdefinition",
+  "level": "2",
+  "url": "sec-intro-apply.html#polygonvisualdefinition",
+  "type": "Figure",
+  "number": "1.2.3",
+  "title": "",
+  "body": " Some examples of polygons    A right trapezoid    A concave pentagon.    "
+},
+{
+  "id": "def-convexconcave",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-convexconcave",
+  "type": "Definition",
+  "number": "1.2.4",
+  "title": "",
+  "body": " convex  concave  polygon convex  polygon concave   A polygon is convex if every interior angle has a measure less than 180 degrees. If a polygon is not convex, then it is concave .   "
+},
+{
+  "id": "nonpolygons",
+  "level": "2",
+  "url": "sec-intro-apply.html#nonpolygons",
+  "type": "Figure",
+  "number": "1.2.5",
+  "title": "",
+  "body": " Examples of figures that are not polygons    Not closed.    Curved edges    "
+},
+{
+  "id": "def-triangle",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-triangle",
+  "type": "Definition",
+  "number": "1.2.6",
+  "title": "",
+  "body": " triangle  polygon triangle   A triangle is a polygon with exactly three sides.   "
+},
+{
+  "id": "def-quadrilateral",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-quadrilateral",
+  "type": "Definition",
+  "number": "1.2.7",
+  "title": "",
+  "body": " quadrilateral  polygon quadrilateral   A quadrilateral is a polygon with exactly four sides.   "
+},
+{
+  "id": "def-ngon",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-ngon",
+  "type": "Definition",
+  "number": "1.2.8",
+  "title": "",
+  "body": " polygon n-gon  polygon pentagon  polygon octagon  polygon decagon  n-gon  pentagon  octagon  decagon   A pentagon is a polygon n-gon with five sides. A hexagon has six sides. We use the general term -gon to describe a polygon with exactly sides. Other common numerical prefixes used to describe polygons include octa (eight) and deca (ten). These will be explored more in .   "
+},
+{
+  "id": "def-typesofangles",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-typesofangles",
+  "type": "Definition",
+  "number": "1.2.9",
+  "title": "",
+  "body": " right angle  acute angle  obtuse angle  angle right  angle acute  angle obtuse   An angle is said to be a right angle if its measure is 90 degrees. Angles that have measures less than 90 degrees are said to be acute and angles with measures greater than 90 degrees are said to be obtuse .   "
+},
+{
+  "id": "def-right-triangle",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-right-triangle",
+  "type": "Definition",
+  "number": "1.2.10",
+  "title": "",
+  "body": " triangle right  hypotenuse  leg right triangle  right triangle   A triangle is said to be a right triangle if one of its angles is a right angle. In a right triangle, the side opposite the right angle is called the hypotenuse and the other two sides are called legs .   "
+},
+{
+  "id": "def-triangles-by-angles",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-triangles-by-angles",
+  "type": "Definition",
+  "number": "1.2.11",
+  "title": "",
+  "body": " triangle acute  triangle obtuse  acute triangle  obtuse triangle   If one of its angles is obtuse, we say that a triangle is an obtuse triangle . An acute triangle is a triangle with three acute angles. We will explore the measurement of angles more in and .   "
+},
+{
+  "id": "def-rectquads",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-rectquads",
+  "type": "Definition",
+  "number": "1.2.12",
+  "title": "",
+  "body": " quadrilateral rectangle  quadrilateral square  rectangle  square   A quadrilateral with four right angles is called a rectangle A square is a rectangle whose sides are all the same length.   "
+},
+{
+  "id": "def-equiangular",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-equiangular",
+  "type": "Definition",
+  "number": "1.2.13",
+  "title": "",
+  "body": " equiangular   A polygon is said to be equiangular if all of its angles have the same measure.   "
+},
+{
+  "id": "def-parallel",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-parallel",
+  "type": "Definition",
+  "number": "1.2.14",
+  "title": "",
+  "body": " parallel lines  parallel sides of a polygon   Two lines in the same plane are said to be parallel if they never intersect. Two line segments or two sides of a polygon are said to be parallel if the lines they are a part of are parallel. Note that a line always extends infinitely in two directions while a line segment has endpoints.   "
+},
+{
+  "id": "def-parallelogram",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-parallelogram",
+  "type": "Definition",
+  "number": "1.2.15",
+  "title": "",
+  "body": " parallelogram  quadrilateral parallelogram  parallelogram altitude  parallelogram base  altitude parallelogram  base parallelogram   A parallelogram is a quadrilateral with two pairs of parallel sides. When describing the measurements of a parallelogram, it is useful to identify one side as the base . The height of the parallelogram is measured along an altitude , namely a segment formed connecting a point on the side opposite the base to a point on the base such that the altitude meets the line forming the base at a right angle.  In , is a parallelogram since lines and are parallel and lines and are parallel. Segment is an altitude for . The altitude may be drawn from any vertex to an opposite side and may lie in the interior or the exterior of the parallogram.   "
+},
+{
+  "id": "fig-parallelogram-def",
+  "level": "2",
+  "url": "sec-intro-apply.html#fig-parallelogram-def",
+  "type": "Figure",
+  "number": "1.2.16",
+  "title": "",
+  "body": " Two pairs of parallel lines creating parallelogram   Two pairs of parallel lines creating parallelogram   "
+},
+{
+  "id": "def-trapezoid",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-trapezoid",
+  "type": "Definition",
+  "number": "1.2.17",
+  "title": "",
+  "body": " trapezoid  quadrilateral trapezoid  trapezoid altitude  trapezoid base  altitude trapezoid  base trapezoid  leg trapezoid   A quadrilateral with exactly one pair of parallel sides is called a trapezoid . One of the parallel sides is called the base and the other is called the summit . The remaining two sides of a trapezoid are called legs . The height of a trapezoid is the distance between the base and the summit, measured along an altitude which is perpendicular to the base.  In , we see that base and summit lie on parallel lines and , respectively. Segments and are legs while is an altitude. Note that the altitude may lie in either the interior or the exterior of the trapezoid.   "
+},
+{
+  "id": "fig-trapezoid-def",
+  "level": "2",
+  "url": "sec-intro-apply.html#fig-trapezoid-def",
+  "type": "Figure",
+  "number": "1.2.18",
+  "title": "",
+  "body": " Trapezoid   Trapezoid ABCD with base BC and summit AD   "
+},
+{
+  "id": "intro-apply-subsec-definingpolygons-24",
+  "level": "2",
+  "url": "sec-intro-apply.html#intro-apply-subsec-definingpolygons-24",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "congruent "
+},
+{
+  "id": "def-equilateral",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-equilateral",
+  "type": "Definition",
+  "number": "1.2.19",
+  "title": "",
+  "body": " equilateral triangle  equilateral quadrilateral  rhombus  quadrilateral rhombus  triangle equilateral   A polygon is described as being equilateral if all of its sides are congruent. An equilateral quadrilateral is called a rhombus .   "
+},
+{
+  "id": "def-isosceles",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-isosceles",
+  "type": "Definition",
+  "number": "1.2.20",
+  "title": "",
+  "body": " isosceles  isosceles triangle  isosceles trazezoid  triangle isosceles  trapezoid isosceles   The word isosceles comes from two Greek words, isos meaning equal and skelos meaning leg . An isosceles triangle is a triangle with two congruent sides. An isosceles trapezoid is a trapezoid with two congruent, non-parallel sides.   "
+},
+{
+  "id": "def-scalene",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-scalene",
+  "type": "Definition",
+  "number": "1.2.21",
+  "title": "",
+  "body": " scalene  triangle scalene   A triangle with no congruent sides is said to be a scalene triangle .   "
+},
+{
+  "id": "def-kite",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-kite",
+  "type": "Definition",
+  "number": "1.2.22",
+  "title": "",
+  "body": " kite  quadrilateral kite   A kite is a quadrilateral with two pairs of adjacent congruent sides. A kite has reflective (fold) symmetry across one of its diagonals.   "
+},
+{
+  "id": "def-perimeter",
+  "level": "2",
+  "url": "sec-intro-apply.html#def-perimeter",
+  "type": "Definition",
+  "number": "1.2.23",
+  "title": "",
+  "body": " perimeter   The perimeter of a closed figure is the total length of its boundary. In the case of a polygon, the perimeter is the sum of the lengths of its sides.   "
+},
+{
+  "id": "SAR-intro-apply-perimeter",
+  "level": "2",
+  "url": "sec-intro-apply.html#SAR-intro-apply-perimeter",
+  "type": "Exercise",
+  "number": "1.2.3.1",
+  "title": "",
+  "body": "  Determine the perimeter of each of the shapes in .    Review the definition of perimeter . You will have to compute the lengths of some sides. All sides in these figures are horizontal or vertical so that the total horizontal distance from the left boundary to the right boundary is 8 inches in shape 1 and 7 inches in shape 2.   "
+},
+{
+  "id": "SAR-intro-apply-3",
+  "level": "2",
+  "url": "sec-intro-apply.html#SAR-intro-apply-3",
+  "type": "Exercise",
+  "number": "1.2.3.2",
+  "title": "",
+  "body": "  Sketch pictures of each of the following:   An isosceles obtuse triangle    A rhombus that is not a square    An equiangular hexagon which is not equilateral    A concave quadrilateral       Reread definitions as needed and check that your sketches satisfy the criteria.   "
+},
+{
+  "id": "label-altitude-etc",
+  "level": "2",
+  "url": "sec-intro-apply.html#label-altitude-etc",
+  "type": "Exercise",
+  "number": "1.2.3.3",
+  "title": "",
+  "body": "  Triangle , trapezoid , and parallelogram are provided in .   Label a side of triangle as the base. Then draw and label the altitude of the triangle corresponding to that base.    Which two sides of trapezoid could be considered to be bases? Label one as the base. Also label the summit and legs of the trapezoid. Then draw and label an altitude for .    Label side as the base of parallelogram . Sketch and label an altitude for corresponding to base .    Could another side of been chosen as the base? Which one(s)? Would the altitude be the same?      Shapes for     Check that each altitude is perpendicular to the corresponding base. Multiple answers are possible for most of these questions.   "
+},
+{
+  "id": "SAR-intro-apply-Tangramareas",
+  "level": "2",
+  "url": "sec-intro-apply.html#SAR-intro-apply-Tangramareas",
+  "type": "Exercise",
+  "number": "1.2.3.4",
+  "title": "",
+  "body": "  In , three smaller Tangram pieces fill a region congruent to the larger blue isosceles triangle. The square is half as tall as the blue triangle. Suppose that the area of the blue triangle is 18 square inches.   What is the area of one small orange triangle? How do you know?    What is the area of the square? How do you know?      Image for     Each small triangle has area 4.5 and the square has area 9.   "
+},
+{
+  "id": "ExtConc-intro-apply-nameit",
+  "level": "2",
+  "url": "sec-intro-apply.html#ExtConc-intro-apply-nameit",
+  "type": "Exercise",
+  "number": "1.2.3.5",
+  "title": "",
+  "body": "  Answer the questions:  >   Is it possible for a triangle to be equilateral but not equiangular    No      Show by example that it is possible for a quadrilateral to be equilateral but not equiangular.    Thread four straws of equal length in succession with a piece of string and bring the ends together to form a quadrilateral. Must the angles be equal?    A rhombus is equilateral but not necessarily equiangular.      Show by example that it is possible for a quadrilateral to be equiangular but not equilateral.    What must the common angle be? Is there a quadrilateral with angles this size which is not equilateral?    A rectangle is equiangular but not necessarily equilateral.    "
+},
+{
+  "id": "ExtConc-intro-apply-3",
+  "level": "2",
+  "url": "sec-intro-apply.html#ExtConc-intro-apply-3",
+  "type": "Exercise",
+  "number": "1.2.3.6",
+  "title": "",
+  "body": "  If two polygons have the same area, must they have the same perimeter? Support your answer using words and\/or pictures.    Experiment, but keep your examples simple. One idea is to pick a number which can be factored in more than one way and let that be the common area. You do not have to use the same shape, but you may choose to use (or not to use) the same number of sides. Your examples should differ from your classmates!   "
+},
+{
+  "id": "ExtConc-intro-apply-4",
+  "level": "2",
+  "url": "sec-intro-apply.html#ExtConc-intro-apply-4",
+  "type": "Exercise",
+  "number": "1.2.3.7",
+  "title": "",
+  "body": "  Sketch a polygon where the numerical value of the perimeter is equal to the numerical value of the area. Be sure to label the sides with their lengths.  Now triple the length of each side and recompute the area and the perimeter. What value(s) do you get? Are they still the same?  Assume that the original side lengths had yards as their units. What would the units be for the shape's area?       Again experiment with simple shapes like triangles or rectangles. Multiple examples exist.   "
+},
+{
+  "id": "ExtConc-intro-apply-5",
+  "level": "2",
+  "url": "sec-intro-apply.html#ExtConc-intro-apply-5",
+  "type": "Exercise",
+  "number": "1.2.3.8",
+  "title": "",
+  "body": "  We have noted that polygons satisfy additivity of area and that segments satisfy additivity of length. Should polygons satisfy additivity of perimeter? Support your answer with pictures and words.    Draw a picture of two polygons that share a common side. Compute the perimeters of each polygon and of the new shape created. Recall that perimeter is the length of the boundary of the figure and does not include any lengths in the interior.   "
+},
+{
+  "id": "Writing-intro-apply-nameit-2",
+  "level": "2",
+  "url": "sec-intro-apply.html#Writing-intro-apply-nameit-2",
+  "type": "Exercise",
+  "number": "1.2.3.9",
+  "title": "",
+  "body": "  By the time students reach college, they already have some geometry tools in their toolbox. What geometric tools do you bring to the course? Of these tools, which do you feel comfortable using and which do you need to learn more about? You may include tools that we have not yet covered in this textbook.   "
+},
+{
+  "id": "Writing-intro-apply-nameit-3",
+  "level": "2",
+  "url": "sec-intro-apply.html#Writing-intro-apply-nameit-3",
+  "type": "Exercise",
+  "number": "1.2.3.10",
+  "title": "",
+  "body": "  Explore the Index and Search tools in this textbook. Write a paragraph in which you discuss the benefit of these tools and explain how to use at least one of these tools.   "
+},
+{
+  "id": "sec-intro-share",
+  "level": "1",
+  "url": "sec-intro-share.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Invitation to Share our Discoveries",
+  "body": " Invitation to Share our Discoveries    Identifying a Pattern  We begin this section by creating a pattern and using it to develop a conjecture.     Compute the following sums:                      Without actually adding the values, make a prediction for the following sums:                 The expression is another way of writing . We write enough addends to establish a pattern and then the tells the reader that the pattern continues. The at the end indicates that the sum will end when the pattern reaches .      Based on your work above, give a simple formula that can be used to calculate for any positive integer .    In the previous problem, since .      Explain how you came up with your formula and why you believe it holds for all . If you were not able to come up with a formula, describe what you have discovered about these sums.       Conjectures and Explanations in Mathematics  Have you ever wondered how mathematics came into existence? A simple answer is that people explored mathematical objects, like numbers or shapes, and noticed patterns and consistencies. They then sought to convince themselves and others that these patterns were not just coincidences but universal properties of the numberic or geometric structure. For example, they observed and then proved that whenever a triangle had two sides of equal length the angles opposite those sides would be congruent.  How do we convince others? In mathematics, we start with basic assumptions like the principles and definitions in this text and then use logic to demonstrate that our conjecture must follow. We also accept the algebraic properties of the real number system along with properties of equality and inequality, allowing us to simplify algebraic expressions and solve linear equalities and inequalities using techniques learned in previous courses. Once we prove a claim, it is no longer a conjecture and is now considered to be a theorem. We can then add the theorem to our toolbox and use it to demonstrate new claims.  Since this textbook is written for students majoring in fields other than mathematics, we will not spend time developing proof-writing techniques. Even so, everyone can benefit from learning to write clear and thorough explanations and demonstrations. Future teachers should develop the ability to explain mathematics carefully and accurately, using words, pictures, and multiple approaches that their students can understand. For a future lawyer or business professional, the practice of writing explanatory papers in mathematics will enhance their ability to present and support arguments for their cases and proposals. As you write explanations, choose an audience that makes sense for you--a student, a friend, a colleague, a jury --and use language appropriate for that audience.  How do we write mathematical explanations and establish new truths? We usually let our readers know what we claim and plan to prove. In geometry, we often accompany our explanations with a sketch on which we have labeled with the names of points and\/or variables for lengths so that our reader can follow our argument visually. We do not assign numerical values to lengths as we do not want to limit our claim to one example.  In , we discovered a formula for the sum of the first odd numbers. It appears to equal , but why? Simply observing the pattern via a few examples, does not convince us that this will also be the case for . Something strange might happen between 5 and 1000. Instead, consider the following proof by pictures :     The first four steps of a pattern are provided.    Sketch what the fifth and sixth step of the pattern should look like.     One way of computing the area of the figure in each step is to measure the height and width and multiply. For step one we get , and for step two we get . Use this technique to determine the area of   the third figure.    the fourth figure.    the fifth figure.    the sixth figure.        The area of the third figure can also be found by computing the area of each of the four rectangles that make up the figure, namely . Show and compute the sum of the smaller rectangles   the fourth figure.    the fifth figure.    the sixth figure.          The image to the right shows an -square with two rectangles aligned with the lower and right sides, respectively. The lower right corner has been filled with a 1-unit square.   An arbitrary step in the pattern.    Write the following as unsimplified algebraic expressions with the variable :   The total area found by multiplying the height and length of the figure.    The total area found by adding the areas of the four rectangles.         What algebraic equation or formula does this work suggest? Give an explanation of why it must hold using words, pictures, geometry, and\/or algebra.       A Sample Explanatory Letter  The following letter demonstrates how we might write a thorough, yet informal, explanatory letter. Note the use of variables for a general argument and labeled sketches to help the reader follow our argument.   Dear Aunt Josephine,  I have been thinking about you a lot lately and how much I appreciated your help when I was learning algebra. You may remember how much I struggled with understanding why equals instead of in that course. In my current geometry course, I learned a geometric argument for that equation that makes more sense to me and I thought you might like it too.  In the picture below, you can see a square with side broken up into four rectangles. (Here, I am using in place of .) The area of this square is of course. Notice that is the sum of the areas of the square (top left) and the small square (lower right). These do not fill the entire square so must be greater than . The two missing pieces are rectangles with area . Adding all four pieces, we see .    Visualizing    Now that I have seen this geometrically I remember the formula much better!  I hope you and Uncle Tom are doing well. I look forward to visiting you soon.  Sid   Notice how the author Sid introduces the reader to what will be demonstrated, uses a picture to help the reader visualize the explanation, and then explains in words how the picture justifies the argument. In this example, Sid has to deal with the fact that we typically use the variable in algebra to represent any real number but the variable , representing whole numbers appeared in the sketch. Aunt Josephine is alerted to the fact that would be used in place of and Sid consistently uses in the logical argument. The author could have drawn a new sketch and relabeled it with in place of , but chose not to do so. Since the author is using the sketch from the activity, a citation reference should be included. In fact, if a tool like Polypad or GeoGebra is used to create a sketch, the technology should be credited. Also, note how Aunt Josephine did not have to see the questions in the activity to understand Sid's explanation.    Did you notice the unstated use of in Sid's letter? Explain the role of this principle here.      Exercises   Skills and Recall    Determine two different possibilities for the next term in the sequence . Give reasons for your answers.      Extending the Concepts   A Triangular Pattern of Dots   Consider the pattern suggested by the triangles of dots:   A Sequence of Triangles   T1 is a dot. The remaining figures look like equilateral triangles. T2 contains a row of two dots and a dot above. T3 adds a row of three dots below T2. T4 adds a row of four dots below T3. T5 adds a row of five dots below T4.       List the number of dots in each of . Do not add these five numbers.    Sketch . How many dots does it have?    Without drawing the picture, how many dots should have? Why?    In , the dots in have been rearranged to form an isosceles right triangle, labeled . Then a second copy of this configuration has been made and rotated so that together they form a rectangle, labeled .  Use this process to sketch , , and . What should look like?  What is the number of dots (blue and red together) in each row of ?  How many rows of dots does have?  How is the product of these two numbers related to the number of dots in ? Explain why this result is what one might expect from the picture.  Use your sketches of and the provided sketch of to complete .      Letting stand for the number of rows in our triangle , give a formula for the total number of dots in . The formula will use the variable , work for all possible positive integers , and not require the use of .      Counting Dots in Triangles and Rectangles    Index  Number of dots per row  Number of rows of dots  Number of dots in  Number of dots in    1  1  2  2  1    2  2  3  6  3    3  ?  ?  ?  ?    4  ?  ?  ?  ?    5  ?  ?  ?  ?      Rearranging the fifth triangle of dots   Described in problem.        Writing Prompts   Why is equal to ?   In , assume is a square with side length and that and are the midpoints of and , respectively.   Right triangle of side length 2   Isosceles triangle ABC has side length 2. Segment FE joins the midpoints of side AB and hypotenuse AC. Segment DE joins the midpoints of side BC and hypotenuse AC.    Write a letter to Aunt Josephine or another friend in which you describe how this picture shows that    Algebraically, we know . For this writing prompt, give a geometric proof.      Writing about the Count of Dots in a Triangle   Write a letter to a friend in the style of the letter to Aunt Josephine in which you explain why Your sketches and discoveries in should be helpful in writing this letter.     Wonder in Mathematics   After watching the TEDxSidney Talk, Mathematics is the Sense you never knew you had by high school mathematics teacher Eddie Woo, , spend some time looking for, observing, and wondering about patterns and\/or similitudes. Possible examples may appear in nature, art, language, numbers, etc. Choose one example and write about what you have observed and wondered. Be sure to discuss how viewing this example and the greater world around us with this sense of maths Mathematics is typically called maths throughout the United Kingdom and much of the world so it is appropriate for the speaker to use this term. (as Eddie Woo describes it) can change us and our understanding.   TEDxSydney video on YouTube.        "
+},
+{
+  "id": "sum-odds",
+  "level": "2",
+  "url": "sec-intro-share.html#sum-odds",
+  "type": "Exploration",
+  "number": "1.3.1",
+  "title": "",
+  "body": "   Compute the following sums:                      Without actually adding the values, make a prediction for the following sums:                 The expression is another way of writing . We write enough addends to establish a pattern and then the tells the reader that the pattern continues. The at the end indicates that the sum will end when the pattern reaches .      Based on your work above, give a simple formula that can be used to calculate for any positive integer .    In the previous problem, since .      Explain how you came up with your formula and why you believe it holds for all . If you were not able to come up with a formula, describe what you have discovered about these sums.    "
+},
+{
+  "id": "subsec-explainconjectures-7",
+  "level": "2",
+  "url": "sec-intro-share.html#subsec-explainconjectures-7",
+  "type": "Exploration",
+  "number": "1.3.2",
+  "title": "",
+  "body": "   The first four steps of a pattern are provided.    Sketch what the fifth and sixth step of the pattern should look like.     One way of computing the area of the figure in each step is to measure the height and width and multiply. For step one we get , and for step two we get . Use this technique to determine the area of   the third figure.    the fourth figure.    the fifth figure.    the sixth figure.        The area of the third figure can also be found by computing the area of each of the four rectangles that make up the figure, namely . Show and compute the sum of the smaller rectangles   the fourth figure.    the fifth figure.    the sixth figure.          The image to the right shows an -square with two rectangles aligned with the lower and right sides, respectively. The lower right corner has been filled with a 1-unit square.   An arbitrary step in the pattern.    Write the following as unsimplified algebraic expressions with the variable :   The total area found by multiplying the height and length of the figure.    The total area found by adding the areas of the four rectangles.         What algebraic equation or formula does this work suggest? Give an explanation of why it must hold using words, pictures, geometry, and\/or algebra.    "
+},
+{
+  "id": "subsec-letter-4",
+  "level": "2",
+  "url": "sec-intro-share.html#subsec-letter-4",
+  "type": "Figure",
+  "number": "1.3.2",
+  "title": "",
+  "body": " Visualizing  "
+},
+{
+  "id": "subsec-letter-7",
+  "level": "2",
+  "url": "sec-intro-share.html#subsec-letter-7",
+  "type": "Checkpoint",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  Did you notice the unstated use of in Sid's letter? Explain the role of this principle here.   "
+},
+{
+  "id": "SAR-intro-share-insertname",
+  "level": "2",
+  "url": "sec-intro-share.html#SAR-intro-share-insertname",
+  "type": "Exercise",
+  "number": "1.3.4.1",
+  "title": "",
+  "body": "  Determine two different possibilities for the next term in the sequence . Give reasons for your answers.   "
+},
+{
+  "id": "exer-tri-numbers",
+  "level": "2",
+  "url": "sec-intro-share.html#exer-tri-numbers",
+  "type": "Exercise",
+  "number": "1.3.4.2",
+  "title": "A Triangular Pattern of Dots.",
+  "body": " A Triangular Pattern of Dots   Consider the pattern suggested by the triangles of dots:   A Sequence of Triangles   T1 is a dot. The remaining figures look like equilateral triangles. T2 contains a row of two dots and a dot above. T3 adds a row of three dots below T2. T4 adds a row of four dots below T3. T5 adds a row of five dots below T4.       List the number of dots in each of . Do not add these five numbers.    Sketch . How many dots does it have?    Without drawing the picture, how many dots should have? Why?    In , the dots in have been rearranged to form an isosceles right triangle, labeled . Then a second copy of this configuration has been made and rotated so that together they form a rectangle, labeled .  Use this process to sketch , , and . What should look like?  What is the number of dots (blue and red together) in each row of ?  How many rows of dots does have?  How is the product of these two numbers related to the number of dots in ? Explain why this result is what one might expect from the picture.  Use your sketches of and the provided sketch of to complete .      Letting stand for the number of rows in our triangle , give a formula for the total number of dots in . The formula will use the variable , work for all possible positive integers , and not require the use of .      Counting Dots in Triangles and Rectangles    Index  Number of dots per row  Number of rows of dots  Number of dots in  Number of dots in    1  1  2  2  1    2  2  3  6  3    3  ?  ?  ?  ?    4  ?  ?  ?  ?    5  ?  ?  ?  ?      Rearranging the fifth triangle of dots   Described in problem.     "
+},
+{
+  "id": "whysqrt8is2sqrt2",
+  "level": "2",
+  "url": "sec-intro-share.html#whysqrt8is2sqrt2",
+  "type": "Exercise",
+  "number": "1.3.4.3",
+  "title": "Why is <span class=\"process-math\">\\(\\sqrt{8}\\)<\/span> equal to <span class=\"process-math\">\\(2\\sqrt{2}\\text{?}\\)<\/span>",
+  "body": " Why is equal to ?   In , assume is a square with side length and that and are the midpoints of and , respectively.   Right triangle of side length 2   Isosceles triangle ABC has side length 2. Segment FE joins the midpoints of side AB and hypotenuse AC. Segment DE joins the midpoints of side BC and hypotenuse AC.    Write a letter to Aunt Josephine or another friend in which you describe how this picture shows that    Algebraically, we know . For this writing prompt, give a geometric proof.    "
+},
+{
+  "id": "tri-numbers-write",
+  "level": "2",
+  "url": "sec-intro-share.html#tri-numbers-write",
+  "type": "Exercise",
+  "number": "1.3.4.4",
+  "title": "Writing about the Count of Dots in a Triangle.",
+  "body": " Writing about the Count of Dots in a Triangle   Write a letter to a friend in the style of the letter to Aunt Josephine in which you explain why Your sketches and discoveries in should be helpful in writing this letter.   "
+},
+{
+  "id": "writing-intro-share-wonder",
+  "level": "2",
+  "url": "sec-intro-share.html#writing-intro-share-wonder",
+  "type": "Exercise",
+  "number": "1.3.4.5",
+  "title": "Wonder in Mathematics.",
+  "body": " Wonder in Mathematics   After watching the TEDxSidney Talk, Mathematics is the Sense you never knew you had by high school mathematics teacher Eddie Woo, , spend some time looking for, observing, and wondering about patterns and\/or similitudes. Possible examples may appear in nature, art, language, numbers, etc. Choose one example and write about what you have observed and wondered. Be sure to discuss how viewing this example and the greater world around us with this sense of maths Mathematics is typically called maths throughout the United Kingdom and much of the world so it is appropriate for the speaker to use this term. (as Eddie Woo describes it) can change us and our understanding.   TEDxSydney video on YouTube.     "
+},
+{
+  "id": "sec-intro-struggle",
+  "level": "1",
+  "url": "sec-intro-struggle.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "Invitation to Overcome Challenges",
+  "body": " Invitation to Overcome Challenges   Growing through Persistance  Have you ever watched a baby learn a new skill, like walking, crawling, or even rolling over? The child does not master the skill on the first try, but they are determined. They fall down, perhaps bump their head, but they keep trying. They readjust what they are doing, figure out how to create momentum and balance, and finally succeed. Even then they may stumble, but they persist. In the process, they grow stronger and can apply these skills to later learning, like running, climbing the cabinets, and reaching the cookie jar.  Throughout our lives, we grow by challenging ourselves to move beyond our comfort zone. We learn to read and write, play games and sports, cook, make music, or create art. Our brains are muscles that develop as we attempt new challenges. The nature of mathematics involves struggling with a problem, trying different strategies, taking breaks but persisting, and learning from failed attempts. In the explorations of this section, you may find that some of the problems are easy, but others require looking at the problem in new ways and trying different strategies. Accept the challenge, try out different ideas, and don't worry about making mistakes. Allow these attempts to enable growth and eventual success.   Triangles on a Geoboard   You may use tools that you remember from previous courses, such as the area formula for a triangle and the Pythagorean Theorem, as you complete this activity. We will explore why these formulas hold in .     In this exploration, we will work with a geoboard that has four rows and four columns of pins such as the one pictured below.     Measuring along any row, we will assume that the horizontal distance between neighboring dots on a geoboard is one unit. What is the distance across the top of the geoboard from the leftmost pin to the rightmost pin?    Similarly, the vertical distance between neighboring pins in any column will be one unit. Determine the area of the square whose vertices are the four outermost pins on this geoboard.    Determine the shortest diagonal distance between two pins. In other words, what is the distance from the pin in the upper left corner to the pin in the second row and second column?    What is the distance from the top left pin to the bottom right pin?         As we construct triangles and other shapes on our geoboard, note that each vertex must be one one of the sixteen pins.   To use the embedded interactive GeoBoard via the Polypad by Amplify, select the line tool near the bottom. Then click and drag from one dot to another to create line segments. An easier to use GeoBoard is accessible from apps.mathlearningcenter.org\/geoboard\/ , but gives a 5x5 board instead of 4x4.      Construct a triangle with the smallest possible area. What is the area?     Construct a triangle with the largest possible area. Then construct a second triangle with the same area that is not the same shape as the first. Record your sketches and compute this area.     Interactive tool on Polypad by Amplify           Construct triangles with an area different than any triangle you've already drawn. Counting the triangles you drew in , it is possible to create a total of eight triangles each with a different area. Be sure to record your sketches of the triangles and their areas for reference.    Interactive tool on Polypad by Amplify     The possible areas are .      Extension: If we use a 5x5-geoboard instead, what squares and what triangles are possible? Compute the areas. A virtual 5x5-GeoBoard is available at apps.mathlearningcenter.org\/geoboard\/ .       Confronting the Challenge  To give you the experience of confronting the challenge and the exhilaration of conquering it, the answer to the last task in this exploration will not be provided here. Searching for solutions or examples will not help you grow mathematically. Instead, consider other ways in which you might attack the problem. Dare to try something new!  The above exploration starts off relatively easy. Once you understood how to create and measure shapes on the geoboard, you probably found triangles with areas of , and . In fact, you might have found multiple triangles with these areas. Yet the remaining areas may seem impossible. If you are still in this situation, think about why these same six areas keep occurring. What do these triangles have in common? What other types of triangles exist on the GeoBoard?  As you find these new triangles, another question emerges: How does one compute the area of these triangles? To use the area formula, , one usually uses the values of and . How does one find and with certainty? Or is it necessary to find the base and height of the triangle? Might there be other ways of finding the area in the current setting?  There are many lessons to be learned here that go beyond measuring area. Mathematics is not about doing fast calculations with provided formulas or following steps. Instead, it requires persistence, creative thinking, and exploring multiple strategies. Sometimes it is helpful to walk away from a problem for a little while and to return to it with a different perspective. It helps to share ideas with others even when you do not know where they will lead.  Did you discover a triangle that was not obvious? Did you figure out a way to compute the area of these triangles? Did you help others understand? Be proud of your discoveries and contributions. This is evidence that you, yes you, are a mathematician!  Each student brings their own individual strengths to the class. Some are great at remembering and applying formulas while others are great at drawing sketches. Some have a talent for recognizing patterns or building on others' ideas while other students are adept at explaining results and connections. In fact, you may find yourself contributing in different ways on different activities. The important thing is to believe in yourself and be open to trying new things. Unfortunately, most people believe the myth that they can't do math. They spend too much energy comparing themselves to others. Math is not about being perfect or fast. Instead, mathematics is about exploring, creating, experimenting, conjecturing, applying, and justifying.  If today was not your day to shine, perhaps you were hesitant to consider alternative approaches or to pursue your ideas. This particular topic might not have engaged you in the same way as it did others. Or maybe it was just an off day. There will be more opportunities to overcome challenges throughout this book. As long as you are open to learning and exploring your own ideas, your mathematical ability and confidence will grow. After all, the course has just started, and you are just adapting to this book and its style, your instructor, and your classmates. By the way, your brain may hurt a little as you confront and conquer mathematical challenges. Like every other muscle in your body, a little soreness means that you are growing in strength. Success comes from overcoming the struggle, from remembering and building on your accomplishments and missteps.    A Geometric Tool and an Algebraic Tool  As we have noticed in this section, not all segments are horizontal or vertical. To determine the lengths of these slanted segments on a grid, the Pythagorean Theorem will be helpful. The Pythagorean Theorem allows us to find the lengths of the sides of right triangles using the fact that where is the length of the hypotenuse and and are the lengths of the legs of the triangle. A more in-depth exploration of the Pythagorean Theorem will be pursued in .  Applying the Pythagorean Theorem requires facility with the algebraic operation of squaring and its inverse operation, the square root function. A review of how to work with squares and square roots is provided in in the Backmatter.    Exercises   Skills and Recall    Compute the following numbers if they exist.                                    One answer is not a real number.    a. 7, b. 30, c. is not a real number, d. , e. , f. , g. 12345678, h. 0, i. 3, j. 2      Extending the Concepts   Properties of Squares and Square Roots   Use algebra rules or experimentation to determine the following. Your answers should contain variables. A review of square roots may be found in    Let be any nonnegative number. What is ?    Let be any nonnegative number. What is ?    Let be any nonnegative number. What is ?    Let be any nonnegative number. What is ?    Let be any negative number. Is ? Explain.    Let be any negative number. Is ? Explain.    Is ? To support your answer, choose a nonzero number and a nonzero number , substitute your values into the equation, and carefully evaluate both sides.    Is ? Explain.         Writing Prompts   Geoboard Experience   Discuss the emotions that you experienced as you were working on this activity. Did you encounter moments when you felt stuck? How long did that last? What helped you persist through the process? Were you able to get unstuck without being told answers? How did that make you feel? Discussion of other emotional stages of this activity is allowed provided that you focus on the emotions associated with the struggle and challenge of conquering a mathematical task.  If this particular activity did not challenge you as much as an earlier one, then your instructor may give you permission to discuss one of those instead.     Growing via Challenges   Reflect on a time when you had to struggle to learn how to do something (not necessarily mathematics), but where you eventually succeeded. Describe the event, why and how you struggled, what helped you persist, and how you grew. Did you feel differently about this success compared to successfully completing routine tasks? Can this experience help you as you tackle tough questions in this course?      "
+},
+{
+  "id": "intro-struggle-exp-geoboardsq",
+  "level": "2",
+  "url": "sec-intro-struggle.html#intro-struggle-exp-geoboardsq",
+  "type": "Exploration",
+  "number": "1.4.1",
+  "title": "Triangles on a Geoboard.",
+  "body": " Triangles on a Geoboard   You may use tools that you remember from previous courses, such as the area formula for a triangle and the Pythagorean Theorem, as you complete this activity. We will explore why these formulas hold in .     In this exploration, we will work with a geoboard that has four rows and four columns of pins such as the one pictured below.     Measuring along any row, we will assume that the horizontal distance between neighboring dots on a geoboard is one unit. What is the distance across the top of the geoboard from the leftmost pin to the rightmost pin?    Similarly, the vertical distance between neighboring pins in any column will be one unit. Determine the area of the square whose vertices are the four outermost pins on this geoboard.    Determine the shortest diagonal distance between two pins. In other words, what is the distance from the pin in the upper left corner to the pin in the second row and second column?    What is the distance from the top left pin to the bottom right pin?         As we construct triangles and other shapes on our geoboard, note that each vertex must be one one of the sixteen pins.   To use the embedded interactive GeoBoard via the Polypad by Amplify, select the line tool near the bottom. Then click and drag from one dot to another to create line segments. An easier to use GeoBoard is accessible from apps.mathlearningcenter.org\/geoboard\/ , but gives a 5x5 board instead of 4x4.      Construct a triangle with the smallest possible area. What is the area?     Construct a triangle with the largest possible area. Then construct a second triangle with the same area that is not the same shape as the first. Record your sketches and compute this area.     Interactive tool on Polypad by Amplify           Construct triangles with an area different than any triangle you've already drawn. Counting the triangles you drew in , it is possible to create a total of eight triangles each with a different area. Be sure to record your sketches of the triangles and their areas for reference.    Interactive tool on Polypad by Amplify     The possible areas are .      Extension: If we use a 5x5-geoboard instead, what squares and what triangles are possible? Compute the areas. A virtual 5x5-GeoBoard is available at apps.mathlearningcenter.org\/geoboard\/ .    "
+},
+{
+  "id": "SAR-intro-struggle-squarert",
+  "level": "2",
+  "url": "sec-intro-struggle.html#SAR-intro-struggle-squarert",
+  "type": "Exercise",
+  "number": "1.4.4.1",
+  "title": "",
+  "body": "  Compute the following numbers if they exist.                                    One answer is not a real number.    a. 7, b. 30, c. is not a real number, d. , e. , f. , g. 12345678, h. 0, i. 3, j. 2   "
+},
+{
+  "id": "ExtConc-intro-struggle-2",
+  "level": "2",
+  "url": "sec-intro-struggle.html#ExtConc-intro-struggle-2",
+  "type": "Exercise",
+  "number": "1.4.4.2",
+  "title": "Properties of Squares and Square Roots.",
+  "body": " Properties of Squares and Square Roots   Use algebra rules or experimentation to determine the following. Your answers should contain variables. A review of square roots may be found in    Let be any nonnegative number. What is ?    Let be any nonnegative number. What is ?    Let be any nonnegative number. What is ?    Let be any nonnegative number. What is ?    Let be any negative number. Is ? Explain.    Let be any negative number. Is ? Explain.    Is ? To support your answer, choose a nonzero number and a nonzero number , substitute your values into the equation, and carefully evaluate both sides.    Is ? Explain.      "
+},
+{
+  "id": "writing-intro-struggle-geoboard",
+  "level": "2",
+  "url": "sec-intro-struggle.html#writing-intro-struggle-geoboard",
+  "type": "Exercise",
+  "number": "1.4.4.3",
+  "title": "Geoboard Experience.",
+  "body": " Geoboard Experience   Discuss the emotions that you experienced as you were working on this activity. Did you encounter moments when you felt stuck? How long did that last? What helped you persist through the process? Were you able to get unstuck without being told answers? How did that make you feel? Discussion of other emotional stages of this activity is allowed provided that you focus on the emotions associated with the struggle and challenge of conquering a mathematical task.  If this particular activity did not challenge you as much as an earlier one, then your instructor may give you permission to discuss one of those instead.   "
+},
+{
+  "id": "writing-intro-struggle-other",
+  "level": "2",
+  "url": "sec-intro-struggle.html#writing-intro-struggle-other",
+  "type": "Exercise",
+  "number": "1.4.4.4",
+  "title": "Growing via Challenges.",
+  "body": " Growing via Challenges   Reflect on a time when you had to struggle to learn how to do something (not necessarily mathematics), but where you eventually succeeded. Describe the event, why and how you struggled, what helped you persist, and how you grew. Did you feel differently about this success compared to successfully completing routine tasks? Can this experience help you as you tackle tough questions in this course?   "
+},
+{
+  "id": "ch-intro-7",
+  "level": "1",
+  "url": "ch-intro-7.html",
+  "type": "References",
+  "number": "1.5",
+  "title": "References and Suggested Readings",
+  "body": " References and Suggested Readings  Lockhart, Paul, A Mathematician's Lament: How School Cheats Us Out of Our Most Fascinating and Imaginative Art Form Bellevue Literary Press, New York NY 2009.   O'Daffer, P.G. and S.R. Clemens, Geometry: An Investigative Approach 2nd ed., Pearson, 1992.  "
+},
+{
+  "id": "sec-intro-instructor",
+  "level": "1",
+  "url": "sec-intro-instructor.html",
+  "type": "Section",
+  "number": "1.6",
+  "title": "Instructor Notes",
+  "body": " Instructor Notes   General Notes on Writing  Although I am including writing prompts for most sections, I typically only assign two explanatory papers (the area formula for a trapezoid and the Pythagorean Theorem) and three to five journal essays (these vary, but typically include the autobiography, the essay on wonder, and a reflection on Lockhart's \"A Mathematician's Lament\"). I recognize that my students have little, if any, experience in writing mathematical explanations. When I teach this course, I build revisions of these two papers into the schedule and grading specifications. Some of the journal writing prompts can be assigned at any point during the course. Teaching this course in the winter\/spring semester, we typically have at least one snow day and the essay on wonder is a nice assignment to use in lieu of a class. I have found that students may not be ready to write the reflection on \"A Mathematician's Lament\" early in the semester. Well into the semester, many students are hanging on to the belief that math is simply a collection of tools to memorize and use. I also assign a final portfolio in which students discuss growth in their mathematical abilities, understanding, and attitude. I am happy to share a copy of my portfolio assignment, detailed descriptions of the two explanatory papers, and my specifications grading rubric.   Eventually, I will create a website with these handouts. Perhaps, I'll add an early and late reflection on Lockhart's essay.     Notes for  The first exploratory activity should not require much of an introduction and provides an opportunity for students to get to know a few classmates and experience a tactile or visual learning experience in a low-stress environment. Expectations of group work can begin to be established. Although this activity may be done via applets embedded within the online version of the textbook, I prefer to have my students complete this activity in small groups (three per group) with a worksheet and graph paper. A handout for the inclass version of this activity is available to instructors by request. .  I provide each group with a set of plastic pentominoes only after they have discovered most of them through experimentation. Printable pentominoes that could be cut out can easily be found on the web. For students completing this exploration in the online textbook, I have hidden the last interactive inside the hint to , so that the answer to students will take some time trying to create the twelve pentominoes in without having the answer immediately visible. For another option, this exploration is available as a Desmos classroom activity, . however, the instructor may wish to break this up (make two copies to edit) into two four-slide activities so that the slides with the pentominoes will not be visible too soon.  This activity also plays an important role in preparing students for much of the work to come. We will build upon the definition of area , the area formula of a rectangle , and Additivity of Area as we compute areas of other shapes and prove the Pythagorean Theorem. We will also introduce additivity of length, angle measure, and volume. These intuitive concepts have many applications and connections. As part of the post-exploration discussion, you may want to remind the students about how area is simply the number of unit squares that fill the interior. It can be noted how the area formula for a rectangle is easy to remember and related to the operation for multiplication. We will be using the fact that the total area is preserved when a figure is cut into smaller figures and then rearranged to form a new figure. This principle will be used to derive area formulas for other figures and to demonstrate the universality of the Pythagorean Theorem.  I often assign a math autobiography at the beginning of the semester and and have students refer back to it in their final portfolio. Students often respond positively to the \"Notice and Wonder\" reflective writing assignment based on Eddie Wu's TedX talk,  . The latter makes a good \"snow day\" activity. I have been less successful with students' response to \"A Mathematician's Lament\" by Paul Lockhart. Many students fail to see how mathematics is creative like art, especially at the beginning of the semester.    Notes for  This section has a shorter exploration, but establishes many of the early definitions that are needed early in this text. In the exploration, students can use \"matching up\" as a way to identify whether two lengths are the same. As mentioned in the activity, most of the work can be done without using the square root, but I typically find students wanting to use it anyway. One algebraic item that might be discussed here or in the next section is .  Here is an opportunity to discuss how computation and application is only a small part of mathematics. The questions What do I know? and What can I use? and What can I try? should be encouraged as students work. Our toolbox currently contains the three principles on area, our knowledge of arithmetic and area, and the definitions in this section. We will continue to build our toolbox as the course progresses.  Students have very little experience using an index or glossary. They may benefit from having the index of this textbook pointed out to them. Should they be unsure of terminology or notation later in the course, they should be able to locate this infomation quickly via the index.    Notes for  This section is new, but I have experimented with some tasks to develop early mathematical writing skills. I have asked students to write a short paper in which they give me instructions on how to perform a (nonmathematical) task. I've also done an inclass \"jigsaw group activity\" in which groups of students are given different pattern block designs and have to write instructions on how to recreate the design. They then are paired with someone from a different group and attempt to recreate the design from the instructions. Pictures are not allowed in the instructions, but we later discuss how pictures and precise vocabulary would have been helpful.  This section is designed to introduce students to the importance of understanding, explaining, and communicating mathematics as a way of continuing the subject. I normally assign two explanatory papers in the next chapter. In them, I do not force a formal proof-writing style, but I do encourage students to develop their ability to write clearly, to include and discuss diagrams, to use variables instead of specific measurements, to refer previously established principles and facts, and to use implications appropriately. The letter from Sid to Aunt Josephine serves as a sample for students as they write later letters of explanation. Of course, students may choose to write to a client or use a different form of communication.    Notes for  The activity in this section starts easy, but becomes more challenging. Students typically find squares and triangles that have at least one vertical or horizontal side, but may need encouragement to look at the problem differently. In fact, it might be worth noting how triangles with a base of 1 and a height of 2 can look so different.  The vertices of the polygons must be at the geoboard pegs even though you can have rubberbands crossing elsewhere. Eventually, some students will start creating triangles with no vertical or horizontal sides. Encourage them to come up with their own strategies to compute the areas. Answer questions with questions. What are they thinking? What have they tried? My students have expanded my knowledge of what is possible here.  Some semesters, students with a more extensive mathematical background will use more complicated procedures like the Pythagorean Theorem and Heron's formula. If the rest of their group is able to participate in the discussion I let them continue. On the other hand, very little mathematics is needed to use the negative space; that is, finding the area of an inner square by subtracting outer triangles from a rectangle. The student who makes this observation often has a confidence boost from sharing this in a post-activity discussion. If it does not appear that anyone in the class is headed in this direction, I have posted a picture of one group's triangle and then drawn the box around it watching students' expressions for a possible \"aha.\" Another time, I started the subsequent class by displaying the following picture and asking students to write what they notice and wonder.  To my surprise, several students noticed incorrectly that the triangle was isosceles. This led to a worthwhile investigation into how they might convince me that it was isosceles and helping them see why visual claims did not hold.   "
+},
+{
+  "id": "sec-polygons-area",
+  "level": "1",
+  "url": "sec-polygons-area.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Exploring Area",
+  "body": " Exploring Area   In this section, we will determine the area formulas for three shapes: a parallelogram, a triangle, and a trapezoid. Our goal will be not only to use the formulas but more importantly to be able to explain why they follow from the basic principles of area. In particular, we will use the formula for the area of a rectangle, , as a starting point to derive additional area formulas.    Area of a Parallelogram   Discovering an Area Formula for a Parallelogram   Refer to the definition of parallelogram as needed to complete the following.     Sketch a parallelogram with two different angle measures and two different lengths.    Answer.      Sketch a parallelogram with at least one acute angle and four congruent sides.    Answer.      Sketch a parallelogram with four congruent angles. What do we usually call this parallelogram?    Answer.      Sketch two parallelograms which share the same side lengths but have different heights.    Answer.      Beginning with the parallelogram pictured below or the one you sketched in , explain and demonstrate how you would construct a rectangle with the same area. You are allowed to cut the parallelogram and rearrange or duplicate pieces as part of your argument.    Answer.      Building on the previous problem, derive an area formula for a parallelogram. Use a combination of words and pictures to explain how it comes from the area formula for a rectangle and how you know it must work for all parallelograms.    Be sure to label the height and base in your pictures. These lengths should stay the same throughout your explanation and clarify the relationship between your parallelogram and rectangle.    Answer.     Now that we know the area formula for parallelograms and why it works, we may add it to our toolbox and use it as well as the area formula for a rectangle in the next exploration.    The Area of a Triangle   Discovering the Area Formula for a Triangle   You probably remember the area formula for a triangle; in fact, you may have used it already in this course! But why is the area ? This exploration will encourage you to answer that question.  Triangles come in all shapes and sizes. Sketch one or more examples of the following types of triangles.     An equilateral triangle.    A sample equilateral triangle with 3 equal sides and 3 equal angles.   An equilateral triangle.       A right isosceles triangle.    Answer.      An acute triangle that is not equilateral.    Answer.      An obtuse scalene triangle.    Answer.      To demonstrate WHY the formula, , gives the area for any triangle, construct a parallelogram based on the triangle shown below. How is the area of your parallelogram related to the area of the triangle? Explain.   Resist the urge to use numbers instead of the variables, and . Specific triangles will have numerical dimensions, but we want a formula that will work for all triangles, not just the one you have. Variables allow us to generalize formulas.    A scalene triangle.       A friend (or one of your students) asks you why the area formula for a triangle is . Rewrite and elaborate on your answer to the previous task to give a clear, thorough, and cohesive explanation. Be sure to use words and pictures as needed to make the locations of and clear. The relationship between the triangle and the parallelogram needs to be made explicit as well. Do they have the same height and base? Why or why not? Why must their areas be related and how?      The Area of a Trapezoid  We now have three area formulas in our toolbox:   First Three Area Formulas  area of triangle  area of parallelogram  area of rectangle  triangle area  parallelogram area  rectangle area    Shape  Area Formula  Variables    Rectangle   area , length , width    Parallelogram   area , base , height    Triangle   area , base , height     In the next exploration, you will use these three formulas as needed to derive and justify the formula for the area of a trapezoid .   The Area Formula for a Trapezoid   Once again, we look at some examples before discovering the formula for area.  This activity may be done using pencil, paper, scissors, and tape. A GeoGebra interactive, , has been provided for those wishing to use it for generating ideas, experimenting, or producing sketches. A 10-minute video, , at the end of this section introduces students to some of the GeoGebra tools.   GeoGebra Interactive for        Sketch example(s) of each of the following trapezoids:     An isosceles trapezoid.      A trapezoid with one right angle.      A trapezoid with one acute base angle and one obtuse base angle.       Be creative as you look for ways to apply our knowledge of the area of parallelograms and triangles to find the area of a trapezoid. There are many good strategies for this problem. Challenge yourself (or your group) to find a method that is different than the methods used by others in your class. Instructions follow:     Use dissection (cutting), duplication, and\/or rearrangement to construct or deconstruct a trapezoid into one or more parallelograms and\/or triangles. You may print and use the trapezoid in , draw your own, or use the GeoGebra interactive .    You may use rectangles since they are parallelograms; however, this exploration can also be done without rectangles.      How would you find the area of each rectangle, parallelogram, or triangle in your dissection (or construction)? Could you compute these areas if the only values you know are , and ?      If you find the areas difficult to compute, experiment to find other ways of dissecting the trapezoid into parallelograms and\/or triangles or constructing one of these shapes from duplicating the trapezoid. There are lots of ways to do this and the most obvious dissection is one of the more challenging to use in the next step.      Briefly describe your construction or deconstruction and how you would find the area of the parts (or whole In the case where you built a larger figure from the initial trapezoid. ).     An arbitrary trapezoid that may be used in . Note how this trapezoid is not isosceles and does not have a right angle.      How does your (de)construction demonstrate that the area formula for a trapezoid is ? The steps that follow will assist you in forming a convincing argument. You may have already completed some of this work in the above task.     Choose one of the constructions or deconstructions you created in the previous task. Label the height of the trapezoid with the variable . The summit and base of the trapezoid are typically labeled and , and these are the labels that I will use in these instructions, but you are free to assign them other labels if you would like to avoid subscripts. Once you select your labels for the height, base, and summit, you should use them consistently for the remainder of this activity. In fact, these labels will only be used for lengths known to be equal to the height, base, and summit of the original trapezoid.   You might call the summit and the base . Others may use and . You could even name the summit or if you desire. On the other hand, is a bit long to use in diagrams and formulas so single letters are usually chosen.       Now identify any parts of your other shapes that must have the same length as your trapezoid's height, base, or summit because of the way they were constructed. Label them with the appropriate variable to indicate this equality. Be careful!    You may use the fact that opposite sides of a parallelogram are congruent. A justification of this fact using rotations is explored in .      You may have created triangles, rectangles, or parallelograms which have, or might have, different base length or height. Any new length or height should be given a different label. If you find that you need to create a lot of new labels, you might want to use a different construction or deconstruction to reduce the amount of algebra you will need to do later.  If you did not create any new lengths or heights, you may skip the next item.      Relate any new labels to the trapezoid's height, base, and\/or summit. For example, if you split the base into three segments, labeled , , and , you would write down the relationship . Is equal to one of the original values? If so, it is often useful to replace by that variable. If you split the base into two segments, one of which is congruent to the summit, you might write or equivalently, .      Compute the areas of any rectangles, parallelograms, or triangles in your construction\/deconstruction, leaving variables in your expressions for each area. Be careful to use the variables assigned in your sketch which may be different than the variables in the standard formulas. For example, if you created an upside-down triangle, its base may be the summit of the trapezoid, and so we would use the label (or ) instead of .      Write a draft of how your (de)construction shows that the area of any trapezoid must be where is the length of the summit, is the length of the base, and is the height. You may be asked to write this explanation more formally outside of class.        Thoughts on Area  Adding the formula for the area of a trapezoid, we now have four area formulas in our toolbox. We could continue to derive the area of more shapes like kites, pentagons, hexagons, etc., but the list would become unwieldy and unhelpful. trapezoid area  area of a trapezoid Instead, we will simply break other polygons into triangles, parallelograms, and other shapes so that we can compute their area. We can then add (or subtract) the areas as appropriate. Measuring tools could be used to estimate the dimensions needed to compute the area of physical space such as floorspace or a garden.   Estimating the Area of Curved Regions  As our shapes become more irregular or curved, we apply the definition of area together with estimation. For these situations, we may superimpose the region over a grid of -unit squares. Of course, the boundary of the region may cross through some squares as shown below.   A curved region on a grid of 1x1-unit squares    Estimating Area of a Curved Region    Give a rough estimate of the area of the region sketched in . Briefly describe what you did.    There are many, many right answers for this task!      Count the squares that are completely inside the sketched region. This will give an underestimate of the area.      Give an overestimate of the area by selecting and counting a collection of squares that completely encloses the sketched region.      Carefully add a horizontal line halfway between each pair of horizontal lines on the original grid. Similarly add vertical line between each existing pair of vertical lines. This will produce a more refined grid with smaller squares.   Each square on the original grid had an area of 1 unit. What is the area of each new square that you created?    Count the small squares that are entirely inside the region and use this to compute an underestimate of the region.   You may choose to use a mix of original and smaller squares as long as they do not overlap.     Give a more refined overestimate of the area of the region by identifying a collection of squares that encloses the region.         Briefly describe how this method can be used to measure the area of any region to a desired level of precision. What are some limitations to this method?       The Area of a Circle  Although a circle is not a polygon, we can use polygons to derive the formulas for the area and perimeter of a circle.   Defining a Circle  circle  radius  diameter  center circle   A circle is the set of points Here, we consider only points on a single plane or flat surface. that are of equal distance from a point called the center of the circle. This set of equidistant points is sometimes referred to as the circumference of the circle to distinguish it from the interior and exterior of the circle. The radius (pl. radii) refers both to any segment from the center of the circle to a point on its circumference. The term radius can also refer to the length common to all radii. A segment that joins two points of the circle and passes through the center is called a diameter . The length of a diameter is also called the diameter and is twice the length of the radius.  The circle in has a center at point . Radii include , , , and . One diameter is . The distance from to any point on the circumference is 8.7, the radius of the circle.   Terms related to a circle   A circle       Archimedes (287-212 BC) determined the area of a circle by looking at inscribed and circumscribed See for an illustration of these terms. polygons. As the number of sides grew, the area of the polygons would approach the area of the circle, with the area of the inscribed polygons giving a lower estimate and the area of the circumscribed polygons giving an overestimate. The number was not known at the time, but this method provides a means of calculating to any level of precision. Note that . The value is only a rough estimate. In fact, mathematicians have now calculated over sixty trillion digits for . For our purposes, should be sufficient, but space travel engineers usually need about 40 digits of for their work.   Inscribing and circumscribing a circle with squares, octagons, and 16-gons.   There are two measurements associated with a circle. In addition to area which measures the interior space, we often wish to compute the length of the boundary around the circle. We call this boundary length the circumference of the circle and can think of it as the length of string needed to wrap around the circle. Both area and circumference depend only on the length of the circle's radius .  A technique, similar to the one described for estimating area using polygons of increasing number of sides, can be used to find the circumference or distance around a circle. We give the resulting formula below.    Measuring a circle  circumference  circle circumference  circle area  area circle   The area of a circle is the interior space of a circle and is computed by the formula where is the radius of the circle. The circumference of a circle is the length of its boundary and is given by .     The following video demonstrates how to use some of the tools in GeoGebra interactives.   Introduction to GeoGebra video In addition to GeoGebra and YouTube, the author used Canvas Studio to produce this video. on YouTube.       Exercises   Skills and Recall    Compute the areas of the following figures. The boundary of each figure is given by solid lines. Dashed segments are not part of the boundary, but provide additional information that may be helpful.   Triangle where .   Triangle   AB has length 5 centimeters and AC has length 8.8 centimeters. AD meets BC with a right angle at D and AD has length 3.8 centimeters. Side BC has length 11.1 centimeters.      Right Trapezoid .   Trapezoid   Trapezoid DEFG with right angles at D and E. DG has length 6.3 in, GF has length 6.5 in, EF has length 11.6 in, and the height DE has length 3.8 in.      Parallelogram .   Parallelogram   Parallelogram HKLM with HK=8.1 mm, KL=4.8 mm, LM=8.1 mm, and HM=4.8 mm. An altitude drawn from vertex H hitting line MN on the outside of the parallelogram has length 4 mm. The length from the nearest vertex M to the foot of the altitude is 2.7 mm.         (a) 21.9 sq. cm, (b) 34.01 sq. in., (c) 32.4 sq. mm.    (a) , (b) , (c) .      Perimeter was defined in . Determine the perimeter of each of the figures in .   Triangle in     Trapezoid in     Parallelogram in        (a) 24.9 cm, (b) 28.2 in, (c) 25.8 mm    (a) , (b) , (c)       Determine both the area and the perimeter of the following figure. Assume that each square of the grid has area 1 square centimeter.   Area    Perimeter      A nonagon   The vertices of the nonagon in clockwise order are (0,9), (3,9), (3,10), (6,10), (9,7), (6,4), (6,0), (3,0), and (0,4).      Area is 60 sq. cm. Perimeter is cm.    For area, the region may be broken up into triangles and rectangles in various ways. The rare student may use parallelograms or trapezoids in their dissection. Some students will likely just count full squares and half squares in each row. With the latter strategy, note that the lower left segment does not divide squares exactly in half.  Perimeter: .      Extending the Concepts   Opposite Sides of a Parallelogram   Parallelogram is drawn in . In addition, diagonal is drawn to form triangle . Point is the midpoint of .   An interactive parallelogram.       Use the Rotate Around Point tool to rotate 180 degrees around . Where does the image of land under this rotation?    Consider how a 180-degree turn around point E would cause each corner of triangle to move. Where would finally land?    The image of rotated 180 degrees around lands on top of .    A 180-degree rotation causes a shape to turn exactly halfway around a central point. For this problem, that central point is E. Because E sits perfectly in the middle of , point B rotates to land on D. Similarly, point D rotates to land on B. Finally, point C rotates to land on point A. This means that perfectly covers .      Use this rotation to argue that and .    Recall that in geometry, a rotation is a rigid transformation. Therefore, all lengths and distances are preserved.    See \"Solution\" for an explanation of why and .    A 180-degree rotation is a rigid transformation, meaning it preserves all segment lengths. When maps perfectly onto under this rotation, their corresponding sides must be equal. Therefore, this transformation proves that and .      Drag point , or to change the shape of the parallelogram. Does the result still hold? Make a general claim about the opposite sides of a parallelogram.    Try moving different points see watch what happens to the lengths and directions of the opposite sides. What do you notice?    Yes, the result still holds. A general claim is that opposite sides of any parallelogram are always equal in length. See \"Solution\" for a detailed explanation.    Yes, the result still holds true regardless of how the parallelogram's shape is changed by dragging its vertices. The 180-degree rotational symmetry around the intersection of its diagonals is a fundamental property of all parallelograms, meaning the argument that opposite sides are equal will always apply. Therefore, a general claim is that the opposite sides of any parallelogram are always equal in length.       A parallelogram has sides of length 3 inches and length 4 inches and rectangle also has sides of length 3 inches and length 4 inches. Which has the larger area? Use pictures and words to give a clear explanation.    Consider the height of each shape.    The rectangle RSTU will have the larger area because the height of parallelogram WXYZ will be less than the length of its side.    A rectangle is a special type of parallelogram where all angles are 90 degrees. For a parallelogram and a rectangle with the same side lengths (3 and 4 inches), the rectangle will always have the larger area. This is because the rectangle's height is equal to its side length (e.g., 3 or 4 inches), while a non-rectangular parallelogram's height will be shorter than its slanted side, reducing its area. A picture would clearly show the parallelogram \"leaning\" and thus being shorter in vertical height compared to the rectangle.      In , two copies of a circle of radius 5 are given. The circle on the left circumscribes square , meaning that the vertices , , , and lie on the circle. The circle on the right is inscribed in square . Here the circle just touches the square at the midpoint of each side.   Square circumscribed by and inscribed in a circle of radius 5.   Square BEFG is circumscribed by a circle of radius 5. Square HIJK is inscribed in a circle of radius 5.       Based on the picture, what should be true about the area of the circle relative to the two squares?    Consider the size of each shape. Which shape takes up the most space, which takes up the least space, and which fits somewhere between? Think about how this relates to area.    The area of the circle should be between the areas of the two squares.    When a circle is fitted inside a square, the square's area is larger. When that same circle has another square fitted inside it, that inner square's area is smaller. Therefore, the circle's area is greater than the inner square's area but less than the outer square's area.      Compute the area of square .    The diameter of the circle and the diagonal of the square are equal in length.    Area of BEFG is 50 sq units.    A square is circumscribed by a circle when its corners touch the circle's edge. With a radius of 5, the circle's diameter is 10. This 10 is also the square's diagonal. The square's area is half of 10 squared, which is 50. Therefore, the area of BEFG is 50 sq units.      Compute the area of square .    The diameter of the circle equals the length of the square's sides.    Area of HIJK is 100 sq units.    When a circle is inscribed within a square, the circle touches the middle of each of the square's sides. This means the diameter of the circle is equal to the side length of the square. With a radius of 5, the circle's diameter is 10, making the sides of the square also 10. Therefore, the area of HIJK is sq units.      Compute the area of the circle.    Recall the formula for area of a circle: .    Area of the circle is .    The radius of the circle is 5. Recall that the area of a circle is . Multiply by (which is 25). So, the area is or approximately 78.54.      Do these measurements agree with your expectation?        shows a square and an octagon circumscribed by a single circle of radius 4. On the left, an eighth of the octagon is shown to illustrate its height of or approximately .   Square and Octagon circumscribed by a circle of radius 4   A square and octagon are circumscribed by a circle of radius 4. An eighth slice of the octagon has base 4 and height approximately 2.828.       What do you expect to be true about the areas of the square, the octagon, and the circle? Why?    Consider how much of the circle's area each shape occupies. More sides allow a polygon to fill the space more completely.    area(square) < area(circle) < area (octagon),    When a square and an octagon are both placed inside the same circle, with their corners touching the circle's edge, the square covers less area than the octagon. This is because the octagon's eight sides allow it to fill the circular space more fully compared to the square's four sides. Therefore, area(square) < area(octagon) < area(circle).      Compute the area of the square.    The diagonal of the square is equal to the radius of the circle.    area(square) = 32    The diagonal of the square is the same as the circle's diameter. Since the radius is 4, the diameter is 8. The area of the square is half of its diagonal squared. So, . Therefore, the area of the square is 32.      Compute the area of the octagon.    To find the area of the octagon, break it down into 8 identical triangles.         An octagon inside a circle with a radius of 4 forms 8 triangles. Each triangle has two sides of length 4, meeting at a 45 degree angle. Using the triangle area formula, each is . Multiply by 8 for the total: .      Compute the area of the circle.    Recall the formula for area of a circle: .     .    The radius of the circle is 4. Recall that the area of a circle is . Multiply by (which is 16). So, the area is or approximately 50.2.       Writing Prompts    Write a letter to a friend in which you explain how the area of a trapezoid is derived from previously known area formulas such as rectangles, parallelograms, and\/or triangles. See for suggestions on how to write a clear explanation.      Research the history of the number , focusing on a role that geometry played in its discovery or development.      "
+},
+{
+  "id": "sec-polygons-area-3-2",
+  "level": "2",
+  "url": "sec-polygons-area.html#sec-polygons-area-3-2",
+  "type": "Exploration",
+  "number": "2.1.1",
+  "title": "Discovering an Area Formula for a Parallelogram.",
+  "body": " Discovering an Area Formula for a Parallelogram   Refer to the definition of parallelogram as needed to complete the following.     Sketch a parallelogram with two different angle measures and two different lengths.    Answer.      Sketch a parallelogram with at least one acute angle and four congruent sides.    Answer.      Sketch a parallelogram with four congruent angles. What do we usually call this parallelogram?    Answer.      Sketch two parallelograms which share the same side lengths but have different heights.    Answer.      Beginning with the parallelogram pictured below or the one you sketched in , explain and demonstrate how you would construct a rectangle with the same area. You are allowed to cut the parallelogram and rearrange or duplicate pieces as part of your argument.    Answer.      Building on the previous problem, derive an area formula for a parallelogram. Use a combination of words and pictures to explain how it comes from the area formula for a rectangle and how you know it must work for all parallelograms.    Be sure to label the height and base in your pictures. These lengths should stay the same throughout your explanation and clarify the relationship between your parallelogram and rectangle.    Answer.    "
+},
+{
+  "id": "subsec-area-tri-2",
+  "level": "2",
+  "url": "sec-polygons-area.html#subsec-area-tri-2",
+  "type": "Exploration",
+  "number": "2.1.2",
+  "title": "Discovering the Area Formula for a Triangle.",
+  "body": " Discovering the Area Formula for a Triangle   You probably remember the area formula for a triangle; in fact, you may have used it already in this course! But why is the area ? This exploration will encourage you to answer that question.  Triangles come in all shapes and sizes. Sketch one or more examples of the following types of triangles.     An equilateral triangle.    A sample equilateral triangle with 3 equal sides and 3 equal angles.   An equilateral triangle.       A right isosceles triangle.    Answer.      An acute triangle that is not equilateral.    Answer.      An obtuse scalene triangle.    Answer.      To demonstrate WHY the formula, , gives the area for any triangle, construct a parallelogram based on the triangle shown below. How is the area of your parallelogram related to the area of the triangle? Explain.   Resist the urge to use numbers instead of the variables, and . Specific triangles will have numerical dimensions, but we want a formula that will work for all triangles, not just the one you have. Variables allow us to generalize formulas.    A scalene triangle.       A friend (or one of your students) asks you why the area formula for a triangle is . Rewrite and elaborate on your answer to the previous task to give a clear, thorough, and cohesive explanation. Be sure to use words and pictures as needed to make the locations of and clear. The relationship between the triangle and the parallelogram needs to be made explicit as well. Do they have the same height and base? Why or why not? Why must their areas be related and how?    "
+},
+{
+  "id": "formulas-areathroughtriangle",
+  "level": "2",
+  "url": "sec-polygons-area.html#formulas-areathroughtriangle",
+  "type": "Table",
+  "number": "2.1.1",
+  "title": "First Three Area Formulas",
+  "body": " First Three Area Formulas  area of triangle  area of parallelogram  area of rectangle  triangle area  parallelogram area  rectangle area    Shape  Area Formula  Variables    Rectangle   area , length , width    Parallelogram   area , base , height    Triangle   area , base , height    "
+},
+{
+  "id": "Exp-area-trapezoid",
+  "level": "2",
+  "url": "sec-polygons-area.html#Exp-area-trapezoid",
+  "type": "Exploration",
+  "number": "2.1.3",
+  "title": "The Area Formula for a Trapezoid.",
+  "body": " The Area Formula for a Trapezoid   Once again, we look at some examples before discovering the formula for area.  This activity may be done using pencil, paper, scissors, and tape. A GeoGebra interactive, , has been provided for those wishing to use it for generating ideas, experimenting, or producing sketches. A 10-minute video, , at the end of this section introduces students to some of the GeoGebra tools.   GeoGebra Interactive for        Sketch example(s) of each of the following trapezoids:     An isosceles trapezoid.      A trapezoid with one right angle.      A trapezoid with one acute base angle and one obtuse base angle.       Be creative as you look for ways to apply our knowledge of the area of parallelograms and triangles to find the area of a trapezoid. There are many good strategies for this problem. Challenge yourself (or your group) to find a method that is different than the methods used by others in your class. Instructions follow:     Use dissection (cutting), duplication, and\/or rearrangement to construct or deconstruct a trapezoid into one or more parallelograms and\/or triangles. You may print and use the trapezoid in , draw your own, or use the GeoGebra interactive .    You may use rectangles since they are parallelograms; however, this exploration can also be done without rectangles.      How would you find the area of each rectangle, parallelogram, or triangle in your dissection (or construction)? Could you compute these areas if the only values you know are , and ?      If you find the areas difficult to compute, experiment to find other ways of dissecting the trapezoid into parallelograms and\/or triangles or constructing one of these shapes from duplicating the trapezoid. There are lots of ways to do this and the most obvious dissection is one of the more challenging to use in the next step.      Briefly describe your construction or deconstruction and how you would find the area of the parts (or whole In the case where you built a larger figure from the initial trapezoid. ).     An arbitrary trapezoid that may be used in . Note how this trapezoid is not isosceles and does not have a right angle.      How does your (de)construction demonstrate that the area formula for a trapezoid is ? The steps that follow will assist you in forming a convincing argument. You may have already completed some of this work in the above task.     Choose one of the constructions or deconstructions you created in the previous task. Label the height of the trapezoid with the variable . The summit and base of the trapezoid are typically labeled and , and these are the labels that I will use in these instructions, but you are free to assign them other labels if you would like to avoid subscripts. Once you select your labels for the height, base, and summit, you should use them consistently for the remainder of this activity. In fact, these labels will only be used for lengths known to be equal to the height, base, and summit of the original trapezoid.   You might call the summit and the base . Others may use and . You could even name the summit or if you desire. On the other hand, is a bit long to use in diagrams and formulas so single letters are usually chosen.       Now identify any parts of your other shapes that must have the same length as your trapezoid's height, base, or summit because of the way they were constructed. Label them with the appropriate variable to indicate this equality. Be careful!    You may use the fact that opposite sides of a parallelogram are congruent. A justification of this fact using rotations is explored in .      You may have created triangles, rectangles, or parallelograms which have, or might have, different base length or height. Any new length or height should be given a different label. If you find that you need to create a lot of new labels, you might want to use a different construction or deconstruction to reduce the amount of algebra you will need to do later.  If you did not create any new lengths or heights, you may skip the next item.      Relate any new labels to the trapezoid's height, base, and\/or summit. For example, if you split the base into three segments, labeled , , and , you would write down the relationship . Is equal to one of the original values? If so, it is often useful to replace by that variable. If you split the base into two segments, one of which is congruent to the summit, you might write or equivalently, .      Compute the areas of any rectangles, parallelograms, or triangles in your construction\/deconstruction, leaving variables in your expressions for each area. Be careful to use the variables assigned in your sketch which may be different than the variables in the standard formulas. For example, if you created an upside-down triangle, its base may be the summit of the trapezoid, and so we would use the label (or ) instead of .      Write a draft of how your (de)construction shows that the area of any trapezoid must be where is the length of the summit, is the length of the base, and is the height. You may be asked to write this explanation more formally outside of class.     "
+},
+{
+  "id": "curved-region",
+  "level": "2",
+  "url": "sec-polygons-area.html#curved-region",
+  "type": "Figure",
+  "number": "2.1.4",
+  "title": "",
+  "body": " A curved region on a grid of 1x1-unit squares  "
+},
+{
+  "id": "subsec-irregular-area-4",
+  "level": "2",
+  "url": "sec-polygons-area.html#subsec-irregular-area-4",
+  "type": "Exploration",
+  "number": "2.1.4",
+  "title": "Estimating Area of a Curved Region.",
+  "body": " Estimating Area of a Curved Region    Give a rough estimate of the area of the region sketched in . Briefly describe what you did.    There are many, many right answers for this task!      Count the squares that are completely inside the sketched region. This will give an underestimate of the area.      Give an overestimate of the area by selecting and counting a collection of squares that completely encloses the sketched region.      Carefully add a horizontal line halfway between each pair of horizontal lines on the original grid. Similarly add vertical line between each existing pair of vertical lines. This will produce a more refined grid with smaller squares.   Each square on the original grid had an area of 1 unit. What is the area of each new square that you created?    Count the small squares that are entirely inside the region and use this to compute an underestimate of the region.   You may choose to use a mix of original and smaller squares as long as they do not overlap.     Give a more refined overestimate of the area of the region by identifying a collection of squares that encloses the region.         Briefly describe how this method can be used to measure the area of any region to a desired level of precision. What are some limitations to this method?    "
+},
+{
+  "id": "def-circle",
+  "level": "2",
+  "url": "sec-polygons-area.html#def-circle",
+  "type": "Definition",
+  "number": "2.1.5",
+  "title": "Defining a Circle.",
+  "body": " Defining a Circle  circle  radius  diameter  center circle   A circle is the set of points Here, we consider only points on a single plane or flat surface. that are of equal distance from a point called the center of the circle. This set of equidistant points is sometimes referred to as the circumference of the circle to distinguish it from the interior and exterior of the circle. The radius (pl. radii) refers both to any segment from the center of the circle to a point on its circumference. The term radius can also refer to the length common to all radii. A segment that joins two points of the circle and passes through the center is called a diameter . The length of a diameter is also called the diameter and is twice the length of the radius.  The circle in has a center at point . Radii include , , , and . One diameter is . The distance from to any point on the circumference is 8.7, the radius of the circle.   Terms related to a circle   A circle      "
+},
+{
+  "id": "estimate-area-circle",
+  "level": "2",
+  "url": "sec-polygons-area.html#estimate-area-circle",
+  "type": "Figure",
+  "number": "2.1.7",
+  "title": "",
+  "body": " Inscribing and circumscribing a circle with squares, octagons, and 16-gons.  "
+},
+{
+  "id": "subsubsec-area-circle-6",
+  "level": "2",
+  "url": "sec-polygons-area.html#subsubsec-area-circle-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "circumference radius "
+},
+{
+  "id": "def-circle-measures",
+  "level": "2",
+  "url": "sec-polygons-area.html#def-circle-measures",
+  "type": "Definition",
+  "number": "2.1.8",
+  "title": "Measuring a circle.",
+  "body": " Measuring a circle  circumference  circle circumference  circle area  area circle   The area of a circle is the interior space of a circle and is computed by the formula where is the radius of the circle. The circumference of a circle is the length of its boundary and is given by .   "
+},
+{
+  "id": "video-intro-GeoGebra-trap",
+  "level": "2",
+  "url": "sec-polygons-area.html#video-intro-GeoGebra-trap",
+  "type": "Figure",
+  "number": "2.1.9",
+  "title": "",
+  "body": " Introduction to GeoGebra video In addition to GeoGebra and YouTube, the author used Canvas Studio to produce this video. on YouTube.   "
+},
+{
+  "id": "HW-compute-area",
+  "level": "2",
+  "url": "sec-polygons-area.html#HW-compute-area",
+  "type": "Exercise",
+  "number": "2.1.5.1",
+  "title": "",
+  "body": "  Compute the areas of the following figures. The boundary of each figure is given by solid lines. Dashed segments are not part of the boundary, but provide additional information that may be helpful.   Triangle where .   Triangle   AB has length 5 centimeters and AC has length 8.8 centimeters. AD meets BC with a right angle at D and AD has length 3.8 centimeters. Side BC has length 11.1 centimeters.      Right Trapezoid .   Trapezoid   Trapezoid DEFG with right angles at D and E. DG has length 6.3 in, GF has length 6.5 in, EF has length 11.6 in, and the height DE has length 3.8 in.      Parallelogram .   Parallelogram   Parallelogram HKLM with HK=8.1 mm, KL=4.8 mm, LM=8.1 mm, and HM=4.8 mm. An altitude drawn from vertex H hitting line MN on the outside of the parallelogram has length 4 mm. The length from the nearest vertex M to the foot of the altitude is 2.7 mm.         (a) 21.9 sq. cm, (b) 34.01 sq. in., (c) 32.4 sq. mm.    (a) , (b) , (c) .   "
+},
+{
+  "id": "SAR-polygons-area-3",
+  "level": "2",
+  "url": "sec-polygons-area.html#SAR-polygons-area-3",
+  "type": "Exercise",
+  "number": "2.1.5.2",
+  "title": "",
+  "body": "  Perimeter was defined in . Determine the perimeter of each of the figures in .   Triangle in     Trapezoid in     Parallelogram in        (a) 24.9 cm, (b) 28.2 in, (c) 25.8 mm    (a) , (b) , (c)    "
+},
+{
+  "id": "SAR-polygons-area-4",
+  "level": "2",
+  "url": "sec-polygons-area.html#SAR-polygons-area-4",
+  "type": "Exercise",
+  "number": "2.1.5.3",
+  "title": "",
+  "body": "  Determine both the area and the perimeter of the following figure. Assume that each square of the grid has area 1 square centimeter.   Area    Perimeter      A nonagon   The vertices of the nonagon in clockwise order are (0,9), (3,9), (3,10), (6,10), (9,7), (6,4), (6,0), (3,0), and (0,4).      Area is 60 sq. cm. Perimeter is cm.    For area, the region may be broken up into triangles and rectangles in various ways. The rare student may use parallelograms or trapezoids in their dissection. Some students will likely just count full squares and half squares in each row. With the latter strategy, note that the lower left segment does not divide squares exactly in half.  Perimeter: .   "
+},
+{
+  "id": "oppsides-of-parallelogram",
+  "level": "2",
+  "url": "sec-polygons-area.html#oppsides-of-parallelogram",
+  "type": "Exercise",
+  "number": "2.1.5.4",
+  "title": "Opposite Sides of a Parallelogram.",
+  "body": " Opposite Sides of a Parallelogram   Parallelogram is drawn in . In addition, diagonal is drawn to form triangle . Point is the midpoint of .   An interactive parallelogram.       Use the Rotate Around Point tool to rotate 180 degrees around . Where does the image of land under this rotation?    Consider how a 180-degree turn around point E would cause each corner of triangle to move. Where would finally land?    The image of rotated 180 degrees around lands on top of .    A 180-degree rotation causes a shape to turn exactly halfway around a central point. For this problem, that central point is E. Because E sits perfectly in the middle of , point B rotates to land on D. Similarly, point D rotates to land on B. Finally, point C rotates to land on point A. This means that perfectly covers .      Use this rotation to argue that and .    Recall that in geometry, a rotation is a rigid transformation. Therefore, all lengths and distances are preserved.    See \"Solution\" for an explanation of why and .    A 180-degree rotation is a rigid transformation, meaning it preserves all segment lengths. When maps perfectly onto under this rotation, their corresponding sides must be equal. Therefore, this transformation proves that and .      Drag point , or to change the shape of the parallelogram. Does the result still hold? Make a general claim about the opposite sides of a parallelogram.    Try moving different points see watch what happens to the lengths and directions of the opposite sides. What do you notice?    Yes, the result still holds. A general claim is that opposite sides of any parallelogram are always equal in length. See \"Solution\" for a detailed explanation.    Yes, the result still holds true regardless of how the parallelogram's shape is changed by dragging its vertices. The 180-degree rotational symmetry around the intersection of its diagonals is a fundamental property of all parallelograms, meaning the argument that opposite sides are equal will always apply. Therefore, a general claim is that the opposite sides of any parallelogram are always equal in length.    "
+},
+{
+  "id": "ExtConc-polygons-area-3",
+  "level": "2",
+  "url": "sec-polygons-area.html#ExtConc-polygons-area-3",
+  "type": "Exercise",
+  "number": "2.1.5.5",
+  "title": "",
+  "body": "  A parallelogram has sides of length 3 inches and length 4 inches and rectangle also has sides of length 3 inches and length 4 inches. Which has the larger area? Use pictures and words to give a clear explanation.    Consider the height of each shape.    The rectangle RSTU will have the larger area because the height of parallelogram WXYZ will be less than the length of its side.    A rectangle is a special type of parallelogram where all angles are 90 degrees. For a parallelogram and a rectangle with the same side lengths (3 and 4 inches), the rectangle will always have the larger area. This is because the rectangle's height is equal to its side length (e.g., 3 or 4 inches), while a non-rectangular parallelogram's height will be shorter than its slanted side, reducing its area. A picture would clearly show the parallelogram \"leaning\" and thus being shorter in vertical height compared to the rectangle.   "
+},
+{
+  "id": "ExtConc-polygons-area-4",
+  "level": "2",
+  "url": "sec-polygons-area.html#ExtConc-polygons-area-4",
+  "type": "Exercise",
+  "number": "2.1.5.6",
+  "title": "",
+  "body": "  In , two copies of a circle of radius 5 are given. The circle on the left circumscribes square , meaning that the vertices , , , and lie on the circle. The circle on the right is inscribed in square . Here the circle just touches the square at the midpoint of each side.   Square circumscribed by and inscribed in a circle of radius 5.   Square BEFG is circumscribed by a circle of radius 5. Square HIJK is inscribed in a circle of radius 5.       Based on the picture, what should be true about the area of the circle relative to the two squares?    Consider the size of each shape. Which shape takes up the most space, which takes up the least space, and which fits somewhere between? Think about how this relates to area.    The area of the circle should be between the areas of the two squares.    When a circle is fitted inside a square, the square's area is larger. When that same circle has another square fitted inside it, that inner square's area is smaller. Therefore, the circle's area is greater than the inner square's area but less than the outer square's area.      Compute the area of square .    The diameter of the circle and the diagonal of the square are equal in length.    Area of BEFG is 50 sq units.    A square is circumscribed by a circle when its corners touch the circle's edge. With a radius of 5, the circle's diameter is 10. This 10 is also the square's diagonal. The square's area is half of 10 squared, which is 50. Therefore, the area of BEFG is 50 sq units.      Compute the area of square .    The diameter of the circle equals the length of the square's sides.    Area of HIJK is 100 sq units.    When a circle is inscribed within a square, the circle touches the middle of each of the square's sides. This means the diameter of the circle is equal to the side length of the square. With a radius of 5, the circle's diameter is 10, making the sides of the square also 10. Therefore, the area of HIJK is sq units.      Compute the area of the circle.    Recall the formula for area of a circle: .    Area of the circle is .    The radius of the circle is 5. Recall that the area of a circle is . Multiply by (which is 25). So, the area is or approximately 78.54.      Do these measurements agree with your expectation?    "
+},
+{
+  "id": "ExtConc-polygons-area-5",
+  "level": "2",
+  "url": "sec-polygons-area.html#ExtConc-polygons-area-5",
+  "type": "Exercise",
+  "number": "2.1.5.7",
+  "title": "",
+  "body": "   shows a square and an octagon circumscribed by a single circle of radius 4. On the left, an eighth of the octagon is shown to illustrate its height of or approximately .   Square and Octagon circumscribed by a circle of radius 4   A square and octagon are circumscribed by a circle of radius 4. An eighth slice of the octagon has base 4 and height approximately 2.828.       What do you expect to be true about the areas of the square, the octagon, and the circle? Why?    Consider how much of the circle's area each shape occupies. More sides allow a polygon to fill the space more completely.    area(square) < area(circle) < area (octagon),    When a square and an octagon are both placed inside the same circle, with their corners touching the circle's edge, the square covers less area than the octagon. This is because the octagon's eight sides allow it to fill the circular space more fully compared to the square's four sides. Therefore, area(square) < area(octagon) < area(circle).      Compute the area of the square.    The diagonal of the square is equal to the radius of the circle.    area(square) = 32    The diagonal of the square is the same as the circle's diameter. Since the radius is 4, the diameter is 8. The area of the square is half of its diagonal squared. So, . Therefore, the area of the square is 32.      Compute the area of the octagon.    To find the area of the octagon, break it down into 8 identical triangles.         An octagon inside a circle with a radius of 4 forms 8 triangles. Each triangle has two sides of length 4, meeting at a 45 degree angle. Using the triangle area formula, each is . Multiply by 8 for the total: .      Compute the area of the circle.    Recall the formula for area of a circle: .     .    The radius of the circle is 4. Recall that the area of a circle is . Multiply by (which is 16). So, the area is or approximately 50.2.    "
+},
+{
+  "id": "writing-polygons-area-2",
+  "level": "2",
+  "url": "sec-polygons-area.html#writing-polygons-area-2",
+  "type": "Exercise",
+  "number": "2.1.5.8",
+  "title": "",
+  "body": "  Write a letter to a friend in which you explain how the area of a trapezoid is derived from previously known area formulas such as rectangles, parallelograms, and\/or triangles. See for suggestions on how to write a clear explanation.   "
+},
+{
+  "id": "writing-polygons-area-3",
+  "level": "2",
+  "url": "sec-polygons-area.html#writing-polygons-area-3",
+  "type": "Exercise",
+  "number": "2.1.5.9",
+  "title": "",
+  "body": "  Research the history of the number , focusing on a role that geometry played in its discovery or development.   "
+},
+{
+  "id": "sec-polygons-angles",
+  "level": "1",
+  "url": "sec-polygons-angles.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Exploring Angle Measure",
+  "body": " Exploring Angle Measure   Having looked at area as the measure of the interior space of a polygon, we now turn our attention to measuring angles. What is an angle and how do we measure it?    Linear Objects  To fully grasp the definition of angle, we need to first understand the difference between lines, segments, and rays.   line  segment  line segment  distance  length    line     line segment     length of segment     length of segment    A line is a one-dimensional figure that extends infinitely in opposite directions. In Euclidean geometry, lines are straight, but we will encounter a geometry in which they are curved. One important trait of lines is that any pair of distinct points lie on exactly one line. For this reason, we may denote the line through points and as .  A line segment is the part of a line bounded by two endpoints. Line segment consists of endpoints  and and all points on line which lie between and .  Unlike a line, a line segment has finite length. We define the length of to be the distance from point to point . We use the notation or simply to denote the length of .    Whereas a line continues infinitely in two directions, a ray continues infinitely in just one direction and has an endpoint.   ray    ray     Ray  consists of point , point , and all points on line which are on the same side of as point . A ray extends infinitely in one direction, has a single endpoint, and cannot be measured.   Note that has many names. If is any point on other than , then .       Defining and Measuring Angles  We now define an angle and describe how to measure angles.   angle  vertex angle  angle vertex  angle side  side angle   An angle is the union of two rays with a common endpoint. In particular, , shown in , consists of all points that lie on the rays and . The common endpoint of the rays is called the vertex of the angle and the two rays and are called the sides of the angle.    Angle   angle BAC     To think of the measure of an angle as the space between the rays is vague and misleading. The area between the rays is infinite. Note also that the points and on the sides of do not play a role in defining or measuring the angle. If is any other point on ray other than , then is the same angle as and hence has the same measure. Thus it would make no sense to use the linear distance between and for measuring . The sides of an angle are infinite and extend beyond what can be drawn.  Instead, we think of angle measurement in terms of rotational movement around the vertex, specifically the amount of rotation needed to move one side of the angle on top of the other.   To begin our study of angle measure, we will adopt the practice of assuming that there are 360 degrees in a full rotation about any point. The choice of 360 can be traced back to the Babylonians who were studying planetary paths around 400 B.C. and used a base 60 (instead of base 10) number system. One advantage of the number 360 is that it has a lot of factors including 2, 3, 4, 5, 6, and 8. This results in more pleasing numbers when we consider fractions of a circle.    Full rotation about point .     Suppose point lies between points and on line as shown in . In this case, we say that rays and are opposite rays opposite rays  rays opposite . Since , a rotation of 180 degrees will take the ray to the ray on the opposite side of .   180-degree rotation about point    Continuing, we define the measurement of angles according to what fraction of a full (or half) rotation they represent. Notice how the protractor in divides the semicircular arc into 180 segments, eighteen of which are labeled with numerical values. These multiples of ten are fractions of the half rotation 180 degrees, for example . To find the measure of , we place the center dot of the protractor over the vertex of the angle and lined up ray with the mark for 0 degrees. The other side of the angle passes through the mark for 40 degrees.   Using a protractor to measure angles.     Reading a Protractor   Use the picture above to determine the following:     The measure of angle .    Look where points on the protractor.         The protractor shows that points to . Since is at , the measure of the angle is .      The measure of angle .    Find the difference between the protractor marks for the two rays for angle .          points to , and is at . The difference between and is .      The measure of angle .    Find the difference between the marks for the two rays for angle .          is at , and is at . The difference between and is .      The measure of angle .    This is the same angle as .          is just another name for , so the angle is also .      What fraction of a full rotation is 40 degrees?    Divide 40 by 360.         A full rotation is . , so is one-ninth of a full turn.      What fraction of a full rotation is 110 degrees?    Divide 110 by 360.          . So, is of a full rotation.      Use a physical protractor and a ruler to draw an angle with measure 78 degrees. Describe your technique.    Align one side of the angle with , then mark on the protractor.    See the \"Solution\" for a detailed explanation on technique.    Place the protractor on the vertex and align one side with . Using the protractor, mark , then connect the vertex to this point with a straight line to complete the angle.      It is possible to have angle measures greater than 180 degrees. Use words and\/or pictures to describe an angle that measures 240 degrees.     is greater than , so it is a reflex angle.    Draw a straight line ( ), then measure an additional past the straight line.    A angle wraps more than halfway around the circle. To draw it, measure , then add more to reach .       We give a more concise definition of angle measure and introduce the notion of angle congruence.   angle measure  measure angle    angle measure    The measure of , written , is the number of degrees of rotation about vertex needed to move ray onto .     congruent angles    congruent angles    If two angles and have the same measure, we say that the angles are congruent and write . Thus, means .     Note the use of the equals sign in where the two sides of the equation represent numbers. The symbol relates geometrical objects of the same type.     Angles of a Triangle    The GeoGebra app, is useful in completing this activity. You may also perform this activity by carefully cutting out a scalene triangle and tracing it on a sheet of paper.   An interactive GeoGebra applet for .       Rotate triangle 180 degrees about the midpoint of side (see hint). Both the original triangle and the rotated version should be visible. What do you notice?  Note that two of the points are double labeled, once for each triangle. If you rightclick on the label, you can move it to make the original label visible.    To perform this rotation in the GeoGebra app, click on the angle rotation icon in the toolbar. Next, click on the interior of the triangle to select the object to be rotated, then click on midpoint to identify the center of the rotation. When prompted to input the angle measure, replace 45 with 180. Then click OK.    The rotated triangle, , perfectly overlaps with the original triangle, but flipped. See \"Solution\" for a list of possible observations.    Possible Observations: The two triangles are identical in size and shape, they share a common side , and the combined shape formed by both triangles is a parallelogram.      Rotate 180 degrees about the midpoint of side . Which angle of is congruent to ?    Think about where rotates when the triangle is flipped around the midpoint of .     is congruent to .    Rotating around midpoint maps vertex to a new location on the opposite side of . This rotation preserves angle measures, corresponds to the original in both shape and size.      Rotate 180 degrees about the midpoint of side . Which angle of is congruent to ?    Consider the rules of corresponding angles. Recall that alternate interior angles are always congruent. Which is the alternate interior angle to ?    Angle .    When is rotated 180 degrees around midpoint of side , a new triangle is formed. Both (original triangle) and (new triangle) are interior angles. Therefore, these angles are congruent.      What does this tell you about ? Explain how the picture shows this.    Recall the Interior Angles Theorem. What is always the sum of the three interior angles of a triangle?    The sum of the interior angles of a triangle is 180 degrees.    When the triangle is rotated around each side, the interior angles line up to form a straight line. In geometry, a straight line always measures 180 degrees. Therefore, the three angles inside the triangle must also add up to 180 degrees.      Make a claim about the sum of the interior angles of a triangle.  Does your claim work for all triangles or just the one in the picture? To test this in the GeoGebra applet, select the arrow in the tool menu. Then click and drag one of the vertices in the original triangle to change the shape. Do your claims still hold?    Test this claim by changing the triangle’s shape in GeoGebra or by rotating the triangle as instructed.    The sum of the interior angles of any triangle is always 180 degrees, regardless of its shape.    By rotating the triangle around the midpoints and observing how angles line up, it becomes clear that the three interior angles together form a straight line where their sum is 180°. This holds true even with changing the triangle's size or shape in GeoGebra.   GeoGebra makes exploring multiple possibilities easier. If you are doing this activity with paper triangles, experiment with other triangles, repeating the previous tasks. If your classmates used different triangles, this would be a good time to compare results.        Additivity of Angles and Definitions Associated with Angles  Like additivity of area and additivity of length , the additivity of angle measure is intuitively obvious and will prove useful. We state this as a principle and add it to our toolbox. First, we must clarify what we mean by the interior of an angle.   interior angle  angle interior   A point is said to be in the interior of if and lie on the same side of line and and lie on the same side of line . Ray lies in the interior of if lies in the interior of .     Additivity of angle measure   Angle BAC with interior ray AD     Additivity of Angle Measure   If ray lies in the interior of angle , then .         Vertical Angles  To conclude this section, we will use what we have learned to make a claim about vertical angles.   angle vertical  vertical angle   When a pair of lines intersect, two pairs of vertical angles are formed. The point where the lines intersect will be the vertex for each angle in a vertical pair and the sides of one angle will be the opposite rays of the sides of the other angle in the pair.       Determine two pairs of vertical angles in the figure to the right.   Lines intersecting to form vertical angles   Two lines meet at point E. One line contains points A, E, and B in order and the other contains points C, E, and D in that order.       Each pair of vertical angles consists of two angles.    One pair consists of and . The other pair of vertical angles are and .      What must be true about the measures of any pair of vertical angles? Give a thorough explanation of why this must be true using .      Vocabulary   Vocabulary Review   Points, Rays, and Vertex   Use to answer the following questions:     Identify the points .    A, B, and C.      Identify the rays .     and .      Identify the vertex .    Point B.      Lines and Angles   Use to answer the following questions:     Identify the lines .    Line 1 Possible Answers: , , .  Line 2 Possible Answers: , , .      Identify the two vertical angle pairs. Recall vertical angles are congruent (equal in measure)!    Pair 1: and .  Pair 2: and .      Identify the two pairs of supplementary angles (straight angles). Recall that supplementary angles add up to 180 degrees!    Pair 1: and .  Pair 2: and .        Exercises   Skills and Recall    Use to identify the following:   Sketch for and .   Three lines intersect at a point E. The order of points on each line are as follows: A, E, B, and then G on line 1; C, H, E, F, and D on line 2; and I, E, and J on line 3. Going clockwise around point E, we have A, C, I, B, F, and J.       All labeled points that lie on segment .    Points E and F are the only labeled points that lie on the segment .    Points E and F are the only labeled points along segment       All labeled points that lie on line .    Points C, H, E, F, and D lie on line .    In geometry, a line extends infinitely in both directions. All five points lie along the line .      All labeled points that lie on ray .    Points C, H, E, and F lie on ray .    Ray starts at point F and extends through points E, H, and C, all in the same direction.      Another name for ray .    Other names for are and .    Ray can also be written as or . All three names refer to an identical ray because they start at point F and extend in the same direction.      Two other names for angle .    Other names for are , , and .     can also be written as , , or . All four names refer to the same angle at vertex E, using different points along its rays.      The sum .    180 degrees     and form a straight line, so they are supplementary angles. Supplementary angles always add up to 180 degrees.      A point in the interior of .    Point A lies in the interior of .    Point A is located within the interior of . It lies between the two rays that form .      Four pairs of congruent angles.    Several right answers; correct if the angles are vertical angles and four pairs are given. One possibility: and ; ; and ; and and . You may choose whether to allow an angle (with multiple names) to be congruent to itself.    Each of the four angle pairs listed above are vertical angles, meaning they are congruent.      All labeled points that lie on both and .    E is the only point in common.    Point E lies on both and . These two lines intersect at point E, making it their common point.      All labeled points that lie on both and .    A, B, and G all lie on both rays.    Points A, B, and G lie on both and . starts at point G and continues infinitely through point B toward point A. starts at point A and continues infinitely through point B toward point G.       Use to name the following. Answers may be lines, line segments, rays, angles, single points, or the empty set.     The set of all points that lie on or or both.    The line ; also called or .    Line lies on rays and . Ray starts at point I and continues infinitely through points E and J, spanning the line . Ray starts at point J and continue infinitely through points E and I, also spanning the line .      The set of all points that lie on or or both.     ; also called .     and share a common point at vertex E. These two rays intersect to form the angle .      The set of points that lie on both and .    Segment .    Segment lies on rays and . Ray starts at point G and extends infinitely through points B, E, and A. Ray starts at point B and extends infinitely through point G. Because both rays travel through points B and G, they share a common line segment .      The set of points that lie on both and .    Ray ; point D may be used in place of F.    Ray lies on both and . starts at point C and extends infinitely through points H, E, F, and D. starts at point E and extends infinitely through points F and D. Since both rays travel through points E and F, they share a common ray .      The set of points that lie on both and .    No points lie on both and .    Rays and do not intersect. Therefore, they do not share any common points.      The set of points that lie on both and .    Point E.    Both and pass through point E. This makes point E their shared point of intersection.       In , Determine the measures of other angles as directed.   Sketch for .   Quadrilateral ABED. Diagonals AE and BD meet at point C. Point F lies on side BE.                 Angles and form a straight line, making them supplementary angles that add up to Given that , is determined by subtracting from : . Therefore, .                To find , use the Angle Sum Theorem, which states that a triangles interior angles add up to . Given that and (from the previous problem), simply subtract these values from : . Therefore, .                Angle is vertical to . According to the Vertical Angles Theorem, vertical angles are always congruent and equal in measure. Since , then .                Angles , , and form a straight line and add up to Given that and , simply subtract these values from : . Therefore, .                Angles and form a straight line, making them supplementary angles that add up to Given that , is determined by subtracting from : . Therefore, .                To find , use the Angle Sum Theorem, which states that a triangles interior angles add up to . Given that and (from the previous problem), simply subtract these values from : . Therefore, .                To find , use the Angle Sum Theorem, which states that a triangles interior angles add up to . Given that and , simply subtract these values from : . Therefore, .                Angle is because its vertical angle also measures . Angle is . To find , combine the angle measures of and : . Therefore, .                In a previous problem, it was determined that . To find , subtract the given from : . Therefore, .      What do we know about and ? Explain.    The sum . Other answers are possible with adequate support.    The Angle Sum Theorem states that a triangle's interior angles always sum to . Angle because it is vertical to and vertical angles are equal in measure. With , the remaining two angles, and , must sum to .       Extending the Concepts     Must the right angle be the largest angle of a right triangle? Explain how this follows from results of this section.      Sketch any convex quadrilateral on paper or using the GeoGebra drawing tool.   An interactive GeoGebra applet for Quadrilateral Angle Sum Exercise.    Connect opposite vertices and with a line segment, called a diagonal , to divide the quadrilateral into two shapes.   What two shapes did this create?    What does this tell you about the angle sum of a convex quadrilateral? Explain in words and pictures why this will be true for all convex quadrilaterals.    Experiment with other triangles or by moving vertex in the applet. Does your claim still hold true? What happens to the angle measure when the quadrilateral is no longer convex?       Different interpretations of angles in a concave quadrilateral can be made here. In your explanation, you may need to specify whether you are looking only at interior angles or only considering angles less than 180 degrees.       "
+},
+{
+  "id": "def-line-segment",
+  "level": "2",
+  "url": "sec-polygons-angles.html#def-line-segment",
+  "type": "Definition",
+  "number": "2.2.1",
+  "title": "",
+  "body": " line  segment  line segment  distance  length    line     line segment     length of segment     length of segment    A line is a one-dimensional figure that extends infinitely in opposite directions. In Euclidean geometry, lines are straight, but we will encounter a geometry in which they are curved. One important trait of lines is that any pair of distinct points lie on exactly one line. For this reason, we may denote the line through points and as .  A line segment is the part of a line bounded by two endpoints. Line segment consists of endpoints  and and all points on line which lie between and .  Unlike a line, a line segment has finite length. We define the length of to be the distance from point to point . We use the notation or simply to denote the length of .   "
+},
+{
+  "id": "def-ray",
+  "level": "2",
+  "url": "sec-polygons-angles.html#def-ray",
+  "type": "Definition",
+  "number": "2.2.2",
+  "title": "",
+  "body": " ray    ray     Ray  consists of point , point , and all points on line which are on the same side of as point . A ray extends infinitely in one direction, has a single endpoint, and cannot be measured.   Note that has many names. If is any point on other than , then .    "
+},
+{
+  "id": "def-angles",
+  "level": "2",
+  "url": "sec-polygons-angles.html#def-angles",
+  "type": "Definition",
+  "number": "2.2.3",
+  "title": "",
+  "body": " angle  vertex angle  angle vertex  angle side  side angle   An angle is the union of two rays with a common endpoint. In particular, , shown in , consists of all points that lie on the rays and . The common endpoint of the rays is called the vertex of the angle and the two rays and are called the sides of the angle.    Angle   angle BAC    "
+},
+{
+  "id": "subsec-Def-and-Measuring-Angles-6-2",
+  "level": "2",
+  "url": "sec-polygons-angles.html#subsec-Def-and-Measuring-Angles-6-2",
+  "type": "Figure",
+  "number": "2.2.5",
+  "title": "",
+  "body": " Full rotation about point .  "
+},
+{
+  "id": "subsec-Def-and-Measuring-Angles-7",
+  "level": "2",
+  "url": "sec-polygons-angles.html#subsec-Def-and-Measuring-Angles-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "opposite rays "
+},
+{
+  "id": "fig-180deg",
+  "level": "2",
+  "url": "sec-polygons-angles.html#fig-180deg",
+  "type": "Figure",
+  "number": "2.2.6",
+  "title": "",
+  "body": " 180-degree rotation about point  "
+},
+{
+  "id": "protractor",
+  "level": "2",
+  "url": "sec-polygons-angles.html#protractor",
+  "type": "Figure",
+  "number": "2.2.7",
+  "title": "",
+  "body": " Using a protractor to measure angles.  "
+},
+{
+  "id": "subsec-Def-and-Measuring-Angles-11",
+  "level": "2",
+  "url": "sec-polygons-angles.html#subsec-Def-and-Measuring-Angles-11",
+  "type": "Exploration",
+  "number": "2.2.1",
+  "title": "Reading a Protractor.",
+  "body": " Reading a Protractor   Use the picture above to determine the following:     The measure of angle .    Look where points on the protractor.         The protractor shows that points to . Since is at , the measure of the angle is .      The measure of angle .    Find the difference between the protractor marks for the two rays for angle .          points to , and is at . The difference between and is .      The measure of angle .    Find the difference between the marks for the two rays for angle .          is at , and is at . The difference between and is .      The measure of angle .    This is the same angle as .          is just another name for , so the angle is also .      What fraction of a full rotation is 40 degrees?    Divide 40 by 360.         A full rotation is . , so is one-ninth of a full turn.      What fraction of a full rotation is 110 degrees?    Divide 110 by 360.          . So, is of a full rotation.      Use a physical protractor and a ruler to draw an angle with measure 78 degrees. Describe your technique.    Align one side of the angle with , then mark on the protractor.    See the \"Solution\" for a detailed explanation on technique.    Place the protractor on the vertex and align one side with . Using the protractor, mark , then connect the vertex to this point with a straight line to complete the angle.      It is possible to have angle measures greater than 180 degrees. Use words and\/or pictures to describe an angle that measures 240 degrees.     is greater than , so it is a reflex angle.    Draw a straight line ( ), then measure an additional past the straight line.    A angle wraps more than halfway around the circle. To draw it, measure , then add more to reach .    "
+},
+{
+  "id": "subsec-Def-and-Measuring-Angles-13",
+  "level": "2",
+  "url": "sec-polygons-angles.html#subsec-Def-and-Measuring-Angles-13",
+  "type": "Definition",
+  "number": "2.2.8",
+  "title": "",
+  "body": " angle measure  measure angle    angle measure    The measure of , written , is the number of degrees of rotation about vertex needed to move ray onto .   "
+},
+{
+  "id": "subsec-Def-and-Measuring-Angles-14",
+  "level": "2",
+  "url": "sec-polygons-angles.html#subsec-Def-and-Measuring-Angles-14",
+  "type": "Definition",
+  "number": "2.2.9",
+  "title": "",
+  "body": " congruent angles    congruent angles    If two angles and have the same measure, we say that the angles are congruent and write . Thus, means .   "
+},
+{
+  "id": "expl-angsum-triangle",
+  "level": "2",
+  "url": "sec-polygons-angles.html#expl-angsum-triangle",
+  "type": "Exploration",
+  "number": "2.2.2",
+  "title": "",
+  "body": "  The GeoGebra app, is useful in completing this activity. You may also perform this activity by carefully cutting out a scalene triangle and tracing it on a sheet of paper.   An interactive GeoGebra applet for .       Rotate triangle 180 degrees about the midpoint of side (see hint). Both the original triangle and the rotated version should be visible. What do you notice?  Note that two of the points are double labeled, once for each triangle. If you rightclick on the label, you can move it to make the original label visible.    To perform this rotation in the GeoGebra app, click on the angle rotation icon in the toolbar. Next, click on the interior of the triangle to select the object to be rotated, then click on midpoint to identify the center of the rotation. When prompted to input the angle measure, replace 45 with 180. Then click OK.    The rotated triangle, , perfectly overlaps with the original triangle, but flipped. See \"Solution\" for a list of possible observations.    Possible Observations: The two triangles are identical in size and shape, they share a common side , and the combined shape formed by both triangles is a parallelogram.      Rotate 180 degrees about the midpoint of side . Which angle of is congruent to ?    Think about where rotates when the triangle is flipped around the midpoint of .     is congruent to .    Rotating around midpoint maps vertex to a new location on the opposite side of . This rotation preserves angle measures, corresponds to the original in both shape and size.      Rotate 180 degrees about the midpoint of side . Which angle of is congruent to ?    Consider the rules of corresponding angles. Recall that alternate interior angles are always congruent. Which is the alternate interior angle to ?    Angle .    When is rotated 180 degrees around midpoint of side , a new triangle is formed. Both (original triangle) and (new triangle) are interior angles. Therefore, these angles are congruent.      What does this tell you about ? Explain how the picture shows this.    Recall the Interior Angles Theorem. What is always the sum of the three interior angles of a triangle?    The sum of the interior angles of a triangle is 180 degrees.    When the triangle is rotated around each side, the interior angles line up to form a straight line. In geometry, a straight line always measures 180 degrees. Therefore, the three angles inside the triangle must also add up to 180 degrees.      Make a claim about the sum of the interior angles of a triangle.  Does your claim work for all triangles or just the one in the picture? To test this in the GeoGebra applet, select the arrow in the tool menu. Then click and drag one of the vertices in the original triangle to change the shape. Do your claims still hold?    Test this claim by changing the triangle’s shape in GeoGebra or by rotating the triangle as instructed.    The sum of the interior angles of any triangle is always 180 degrees, regardless of its shape.    By rotating the triangle around the midpoints and observing how angles line up, it becomes clear that the three interior angles together form a straight line where their sum is 180°. This holds true even with changing the triangle's size or shape in GeoGebra.   GeoGebra makes exploring multiple possibilities easier. If you are doing this activity with paper triangles, experiment with other triangles, repeating the previous tasks. If your classmates used different triangles, this would be a good time to compare results.     "
+},
+{
+  "id": "subsec-polygons-angles-principle-3",
+  "level": "2",
+  "url": "sec-polygons-angles.html#subsec-polygons-angles-principle-3",
+  "type": "Definition",
+  "number": "2.2.11",
+  "title": "",
+  "body": " interior angle  angle interior   A point is said to be in the interior of if and lie on the same side of line and and lie on the same side of line . Ray lies in the interior of if lies in the interior of .   "
+},
+{
+  "id": "fig-additivity-angles",
+  "level": "2",
+  "url": "sec-polygons-angles.html#fig-additivity-angles",
+  "type": "Figure",
+  "number": "2.2.12",
+  "title": "",
+  "body": " Additivity of angle measure   Angle BAC with interior ray AD   "
+},
+{
+  "id": "principle-addangles",
+  "level": "2",
+  "url": "sec-polygons-angles.html#principle-addangles",
+  "type": "Principle",
+  "number": "2.2.13",
+  "title": "Additivity of Angle Measure.",
+  "body": " Additivity of Angle Measure   If ray lies in the interior of angle , then .   "
+},
+{
+  "id": "def-vertical-angles",
+  "level": "2",
+  "url": "sec-polygons-angles.html#def-vertical-angles",
+  "type": "Definition",
+  "number": "2.2.14",
+  "title": "",
+  "body": " angle vertical  vertical angle   When a pair of lines intersect, two pairs of vertical angles are formed. The point where the lines intersect will be the vertex for each angle in a vertical pair and the sides of one angle will be the opposite rays of the sides of the other angle in the pair.   "
+},
+{
+  "id": "sec-polygons-angles-7-4",
+  "level": "2",
+  "url": "sec-polygons-angles.html#sec-polygons-angles-7-4",
+  "type": "Checkpoint",
+  "number": "2.2.15",
+  "title": "",
+  "body": "   Determine two pairs of vertical angles in the figure to the right.   Lines intersecting to form vertical angles   Two lines meet at point E. One line contains points A, E, and B in order and the other contains points C, E, and D in that order.       Each pair of vertical angles consists of two angles.    One pair consists of and . The other pair of vertical angles are and .   "
+},
+{
+  "id": "sec-polygons-angles-7-5",
+  "level": "2",
+  "url": "sec-polygons-angles.html#sec-polygons-angles-7-5",
+  "type": "Checkpoint",
+  "number": "2.2.17",
+  "title": "",
+  "body": "  What must be true about the measures of any pair of vertical angles? Give a thorough explanation of why this must be true using .   "
+},
+{
+  "id": "HW-vocab-points-rays-vertex",
+  "level": "2",
+  "url": "sec-polygons-angles.html#HW-vocab-points-rays-vertex",
+  "type": "Exercise",
+  "number": "2.2.6.1",
+  "title": "Points, Rays, and Vertex.",
+  "body": " Points, Rays, and Vertex   Use to answer the following questions:     Identify the points .    A, B, and C.      Identify the rays .     and .      Identify the vertex .    Point B.    "
+},
+{
+  "id": "HW-vocab-lines-angles",
+  "level": "2",
+  "url": "sec-polygons-angles.html#HW-vocab-lines-angles",
+  "type": "Exercise",
+  "number": "2.2.6.2",
+  "title": "Lines and Angles.",
+  "body": " Lines and Angles   Use to answer the following questions:     Identify the lines .    Line 1 Possible Answers: , , .  Line 2 Possible Answers: , , .      Identify the two vertical angle pairs. Recall vertical angles are congruent (equal in measure)!    Pair 1: and .  Pair 2: and .      Identify the two pairs of supplementary angles (straight angles). Recall that supplementary angles add up to 180 degrees!    Pair 1: and .  Pair 2: and .    "
+},
+{
+  "id": "HW-SAR-angles-linepoints",
+  "level": "2",
+  "url": "sec-polygons-angles.html#HW-SAR-angles-linepoints",
+  "type": "Exercise",
+  "number": "2.2.7.1",
+  "title": "",
+  "body": "  Use to identify the following:   Sketch for and .   Three lines intersect at a point E. The order of points on each line are as follows: A, E, B, and then G on line 1; C, H, E, F, and D on line 2; and I, E, and J on line 3. Going clockwise around point E, we have A, C, I, B, F, and J.       All labeled points that lie on segment .    Points E and F are the only labeled points that lie on the segment .    Points E and F are the only labeled points along segment       All labeled points that lie on line .    Points C, H, E, F, and D lie on line .    In geometry, a line extends infinitely in both directions. All five points lie along the line .      All labeled points that lie on ray .    Points C, H, E, and F lie on ray .    Ray starts at point F and extends through points E, H, and C, all in the same direction.      Another name for ray .    Other names for are and .    Ray can also be written as or . All three names refer to an identical ray because they start at point F and extend in the same direction.      Two other names for angle .    Other names for are , , and .     can also be written as , , or . All four names refer to the same angle at vertex E, using different points along its rays.      The sum .    180 degrees     and form a straight line, so they are supplementary angles. Supplementary angles always add up to 180 degrees.      A point in the interior of .    Point A lies in the interior of .    Point A is located within the interior of . It lies between the two rays that form .      Four pairs of congruent angles.    Several right answers; correct if the angles are vertical angles and four pairs are given. One possibility: and ; ; and ; and and . You may choose whether to allow an angle (with multiple names) to be congruent to itself.    Each of the four angle pairs listed above are vertical angles, meaning they are congruent.      All labeled points that lie on both and .    E is the only point in common.    Point E lies on both and . These two lines intersect at point E, making it their common point.      All labeled points that lie on both and .    A, B, and G all lie on both rays.    Points A, B, and G lie on both and . starts at point G and continues infinitely through point B toward point A. starts at point A and continues infinitely through point B toward point G.    "
+},
+{
+  "id": "HW-SAR-linepart-type",
+  "level": "2",
+  "url": "sec-polygons-angles.html#HW-SAR-linepart-type",
+  "type": "Exercise",
+  "number": "2.2.7.2",
+  "title": "",
+  "body": "  Use to name the following. Answers may be lines, line segments, rays, angles, single points, or the empty set.     The set of all points that lie on or or both.    The line ; also called or .    Line lies on rays and . Ray starts at point I and continues infinitely through points E and J, spanning the line . Ray starts at point J and continue infinitely through points E and I, also spanning the line .      The set of all points that lie on or or both.     ; also called .     and share a common point at vertex E. These two rays intersect to form the angle .      The set of points that lie on both and .    Segment .    Segment lies on rays and . Ray starts at point G and extends infinitely through points B, E, and A. Ray starts at point B and extends infinitely through point G. Because both rays travel through points B and G, they share a common line segment .      The set of points that lie on both and .    Ray ; point D may be used in place of F.    Ray lies on both and . starts at point C and extends infinitely through points H, E, F, and D. starts at point E and extends infinitely through points F and D. Since both rays travel through points E and F, they share a common ray .      The set of points that lie on both and .    No points lie on both and .    Rays and do not intersect. Therefore, they do not share any common points.      The set of points that lie on both and .    Point E.    Both and pass through point E. This makes point E their shared point of intersection.    "
+},
+{
+  "id": "exer-SAR-missingangles",
+  "level": "2",
+  "url": "sec-polygons-angles.html#exer-SAR-missingangles",
+  "type": "Exercise",
+  "number": "2.2.7.3",
+  "title": "",
+  "body": "  In , Determine the measures of other angles as directed.   Sketch for .   Quadrilateral ABED. Diagonals AE and BD meet at point C. Point F lies on side BE.                 Angles and form a straight line, making them supplementary angles that add up to Given that , is determined by subtracting from : . Therefore, .                To find , use the Angle Sum Theorem, which states that a triangles interior angles add up to . Given that and (from the previous problem), simply subtract these values from : . Therefore, .                Angle is vertical to . According to the Vertical Angles Theorem, vertical angles are always congruent and equal in measure. Since , then .                Angles , , and form a straight line and add up to Given that and , simply subtract these values from : . Therefore, .                Angles and form a straight line, making them supplementary angles that add up to Given that , is determined by subtracting from : . Therefore, .                To find , use the Angle Sum Theorem, which states that a triangles interior angles add up to . Given that and (from the previous problem), simply subtract these values from : . Therefore, .                To find , use the Angle Sum Theorem, which states that a triangles interior angles add up to . Given that and , simply subtract these values from : . Therefore, .                Angle is because its vertical angle also measures . Angle is . To find , combine the angle measures of and : . Therefore, .                In a previous problem, it was determined that . To find , subtract the given from : . Therefore, .      What do we know about and ? Explain.    The sum . Other answers are possible with adequate support.    The Angle Sum Theorem states that a triangle's interior angles always sum to . Angle because it is vertical to and vertical angles are equal in measure. With , the remaining two angles, and , must sum to .    "
+},
+{
+  "id": "ExtConc-polygons-angles-2",
+  "level": "2",
+  "url": "sec-polygons-angles.html#ExtConc-polygons-angles-2",
+  "type": "Exercise",
+  "number": "2.2.7.4",
+  "title": "",
+  "body": "  Must the right angle be the largest angle of a right triangle? Explain how this follows from results of this section.   "
+},
+{
+  "id": "ExtConc-polygons-angles-3",
+  "level": "2",
+  "url": "sec-polygons-angles.html#ExtConc-polygons-angles-3",
+  "type": "Exercise",
+  "number": "2.2.7.5",
+  "title": "",
+  "body": "  Sketch any convex quadrilateral on paper or using the GeoGebra drawing tool.   An interactive GeoGebra applet for Quadrilateral Angle Sum Exercise.    Connect opposite vertices and with a line segment, called a diagonal , to divide the quadrilateral into two shapes.   What two shapes did this create?    What does this tell you about the angle sum of a convex quadrilateral? Explain in words and pictures why this will be true for all convex quadrilaterals.    Experiment with other triangles or by moving vertex in the applet. Does your claim still hold true? What happens to the angle measure when the quadrilateral is no longer convex?       Different interpretations of angles in a concave quadrilateral can be made here. In your explanation, you may need to specify whether you are looking only at interior angles or only considering angles less than 180 degrees.   "
+},
+{
+  "id": "sec-polygons-parallel",
+  "level": "1",
+  "url": "sec-polygons-parallel.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "What Does Parallel Mean?",
+  "body": " What Does Parallel Mean?   What does it mean for two lines to be parallel? Remembering that lines continue indefinitely, we define two lines in the same plane to be  parallel if they never intersect. In this section, we will look more closely at this definition, explore properties related to parallel lines, and explore what lines look like in other geometries.    What do we remember about lines on a plane?   Reflecting on Prior Understanding   Complete the following sentences:     In your own words, write three different endings to the statement, A line is ... . Compare your responses to that of your classmates.       The sum of the measures of the interior angles of any triangle is ...     This question is also designed to lead to discussion without judgement. Students usually agree on 180 degrees for the sum of the measures of the angles in a triangle. They should give a variety of ideas on what parallelism means. For a later question, we will use nonintersecting to define parallel lines.      Two lines in the plane are parallel if ...        Geometry on Another Surface  In school, we typically consider lines to lie on a flat surface called a plane. While most of this textbook will follow this tradition, we take a brief departure from planar geometry in this section. The world we live on is not flat; it is roughly spherical. What objects might act like lines on the surface of a sphere? Do spherical lines have the same properties as lines on a plane? One could also study the behavior of lines in our universe: Are they straight or do they bend? What can we say about parallel lines in these environments? Do our familiar properties hold?   Defining Lines on a Sphere   For this activity and the one that follows, you will need a small sphere, some rubber bands large enough to go around your sphere, a protractor, a marker, and a piece of thread. Possible spheres include styrofoam balls, oranges, rubber balls, or spheres sold by math education supply companies. Aim for a sphere around the size of a softball. A smooth surface is best, but any small ball will suffice. As an alternative, you may use a ribbon with a globe where latitude and longitude lines are marked.    Envisioning Lines on a Sphere   We do not live on a plane; we live on a sphere. Let’s predict what objects on a sphere might act as lines. These lines will lie on the surface of the sphere. They will not pass through the sphere nor will they project out into space. What are some examples of things that might pose as “lines” on a sphere? Which of your descriptions in do they satisfy?       You have probably heard the expression, The shortest distance between two points lies along a line. We shall use this property of line segment to determine which linear features on a sphere act as lines and line segments. Suppose you have plans to fly from Chicago, Illinois (41.8781N, 87.6298W) to Rome, Italy (41.9028N,12.4964E). There are many paths you could take; some might qualify as lines under your suggestions above. Which path gives the shortest distance from Chicago to Rome? If a globe is available, find Chicago and Rome and experiment with a string to find the path of least distance. If you do not have a globe, mark the approximate locations of Chicago and Rome on your sphere; each should be midway between the equator and the North Pole, with Rome approximately a quarter of the way around east of Chicago. Tighten the string connecting these two cities to observe the path of shortest distance between them.   Describe this line segment. Does it follow a latitude line? Bend toward the North Pole? Bend toward the equator?    Allow this “line” to extend “forever” beyond the two points. What figure does it form? How is this figure related to the sphere itself?      The GeoGebra app , authored by Heather Pierce, may also be used to draw lines on a virtual sphere.     1. The line segment does not follow the latitude line. It bends toward the North Pole.  2. The line extends to a circle around the sphere with the same radius and center.     The lines on a sphere are simply the great circles. A great circle is a circle on a sphere that has the same diameter as the sphere itself. If you were to cut a sphere along a great circle, you would split the circle into two hemispheres of the same size. Restrict yourself to this definition of line for the next exploration.   In , the circle through , , and and the circle through and are great circles because they have the same diameter and center as the sphere. The circle through , , and is not a great circle.    Spherical objects   A sphere showing two great circles, one of which is the equator. It also shows a smaller circle, like the Arctic Circle.       Properties of Spherical Lines and Triangles     Which latitudes, if any, will be lines (great circles) on a sphere?       Which longitudes, if any, will be lines on a sphere according to this definition?       In , we defined two lines to be parallel if they lie in the same plane and do not intersect. Spherical lines will be parallel if they lie on the sphere and do not intersect.  Choose any point on the sphere which is not on the equator. Can you construct a spherical line through this point that does intersect the equator? Explain.       What do you expect to be true about the sum of the interior triangles of a spherical triangle? On your sphere, plot three points that do not lie on the same line and connect them with spherical lines (rubber bands) to form spherical triangles. Make sure that each rubber band is as straight as possible, forming a great circle.       To measure the angles on a sphere, pass a piece of thread through the vertex hole of a protractor and tie it securely. Hold the protractor with that hole at the vertex of the angle you wish to measure, aligning the baseline of the protractor with one side of the angle. By pulling the thread tight and visually aligning it with the second side of the angle, you should be able to read the measure on the protractor as demonstrated in .  Record the measurements of each of the three angles of your triangle and then add the three measures.   Angle A:    Angle B:    Angle C:    Sum:       Don't force the sum to be 180 degrees. Results on a sphere may be different than on a plane.      Repeat the last task two more times so that you have computed the sum of the measures of the angles for at least three different triangles. Record your measurements and sums. What do you notice?    You should find that spherical triangles behave differently from triangles in the plane.      What is the largest triangle you can make on the sphere? Describe it and then determine the sum of its interior angles.    You get to define largest here and your definition may differ from that of other classmates. Hence, your results may also differ!      Make a conjecture as to the sum of the measures of the interior angles of a spherical triangle. Test your conjecture with additional triangles.      Measuring Angles on a Sphere      Understanding Parallel Lines  Most likely, and led to some observations that surprised you. One of the ways in which spherical geometry differs from Euclidean geometry is that no lines on the sphere are parallel. Of course, we could have defined line differently, but that would have led to a loss of other properties of lines, such as the existence and uniqueness of a line joining any pair of points. Hence, we need to be clear regarding the geometry being studied. Except where specified, our work will be limited to Euclidean geometry where lines lie on planes, not spheres. In Euclidean geometry, parallel lines exist. In fact, for each point and line not passing through , we can draw exactly one line through that is parallel to . We will accept this statement, known as Playfair's Parallel Postulate, as one of our principles.    Playfair's Parallel Postulate   Given a line and a point not on , there is one and only one line that passes through and is parallel to .     Exactly one line through parallel to line .   In order to be parallel, two lines must lie in the same plane. If you are reading this indoors, you probably have a wall in front of you and a wall somewhere to your right. The line where the ceiling meets the wall in front of you will never intersect the line formed by the intersection of the floor and the wall to your right. Still, we do not consider these two lines to be parallel because there is no plane containing both lines. Instead, we say that these are skew lines .   Although it appears that the two lines meet on the right, that is only a result of displaying a three-dimensional image on a two-dimensional surface. In reality, the top back line stays at the level of the ceiling and the lower front line stays on the floor. They do not meet.    Illustrating skew lines as edges on a rectangular room.   Rectangular box: front face has vertices A, B, C, and D counterclockwise starting in lower left corner. On the back face, the verices G, H, F, and E are counterclockwise starting in lower left, so that edges AG, BH, CF, and DE join the front and back faces.     Check your Understanding   Refer to as you answer the following.     In the figure, it looks like and should intersect. Explain why they do not intersect when we think of the figure as a three-dimensional rectangular box or room.       Identify a second line (extension of an edge of the box in the picture) that would be considered to be skew to .       How many lines suggested by edges of this box are parallel to ? Name them.     We also observed that angle measures in spherical triangles did not behave in the way that Euclidean triangles do. This suggests that the measures of angles may be related to the parallel postulate. Indeed the two concepts are closely connected. In , we rotated a triangle 180 degrees about a midpoint of one of its sides and again around the midpoint of a second side. We then observed that the three angles formed a line when placed side by side at a vertex. We now look at that exploration in the context of parallelism.   Alternate Interior Angles   In the following application, triangle has been rotated 180 degrees about midpoint of side to form . Note that point coincides with and point coincides with .    An interactive GeoGebra applet for Exploration on Alternate Interior Angles.      What appears to be true about lines and ?       What other two lines appear to have this property?       Verify your observation by using the parallel line tool in the app. After selecting parallel lines from the line tool menu, click on the line segment it should be parallel to and then click on the point it should pass through.       What can we say about the relationship between angles and In terms of angle measure? How do you know?      An angle measurement tool is provided in the app if you choose to use it. Click on the three points defining the angle in counterclockwise order with the vertex of the angle being the second of the three. You may be able to give an explanation that does not use actual measurement.     In terms of their relationship to the parallel lines, and and the line ?       In terms of triangle and its rotated copy ?      When a line cuts across two other lines, we call it a transversal of the lines. In , transversal transversal cuts across two parallel lines and .   Transversal cuts across parallel lines and .   From left to right, points A, B, and F lie on a line and points G, C, and D lie on a line parallel to AB. The transversal contains points H, C, B, and E read from bottom to top.      alternate interior angles  alternate exterior angles  corresponding angles   When a transversal, such as in cuts across lines and so that and are on opposite sides of , angles and are said to be alternate interior angles .  In , we call and  alternate exterior angles since points and lie on the transversal on opposite sides of the two parallel lines and points and lie on different parallel lines and on opposite sides of the transversal.  Angles and are called corresponding angles because they lie in the same relative position; in this case to the left of the transversal and below a parallel line.    Although we will not give a proof, the following two statements are equivalent to Playfair's Parallel Postulate. These principles hold in Euclidean geometry where Playfair's Parallel Postulate is assumed, but fail in non-Euclidean geometries like the Spherical Geometry we studied in and .   Alternate Interior Angles   Given two parallel lines and and a line that crosses and , alternate interior angles have the same angle measure.     Angle Sum of a Triangle   The sum of the interior angles of any triangle is 180 degrees.       Exercises   Skills and Recall    In , a pair of alternate interior angles ( and ), a pair of alternate exterior angles ( and ), and a pair of corresponding angles ( and ) was identified for . Use to identify the following:      A second pair of alternate interior angles.                            A second pair of alternate exterior angles.                            Three more pairs of corresponding angles.                     In , parallel lines and are cut by transversals and . The transversals meet at point . The measure of is 57 degrees and the measure of is 114 degrees.  Determine the measures of the angles:          57  Correct.              123  Correct.              57  Correct.              66  Correct.              66  Correct.              57  Correct.              114  Correct.       Illustration for     Transversals and cut parallel lines and and meet at point E. Order of points on each line: Left to right: - - - and - - - . Top to bottom: - - - and - - - .         In , we claim that alternate interior angles are congruent.     Use this principle to argue that alternate exterior angles and in have the same angle measure.       Give a thorough argument that corresponding angles and in must be congruent.        Extending the Concepts    Suppose that lines and are not parallel (so that they must meet at a point ) and that line cuts and at points and , respectively.   Let be a point on line on the opposite side of . Explain why      The Hyperbolic Disk Model   Image from Coxeter's 1957 Address to the Royal Society of Canada   Hyperbolic disc model     The illustration in was explored by mathematician H. S. M. Coxeter and used by artist M. C. Escher as a basis for his Circle Limit series of prints. This illustration suggests another type of non-Euclidean geometry, a disc model of hyperbolic geometry. Here, lines are of two types: diameters of the outer disc and circular arcs that meet the outer disc at a right angle The tangents of these circles and the tangent of the outer disc at the point of intersection are perpendicular. .  In , line is the curved arc We ignore the section outside the outer disc. It is include to show how these lines are parts of circles. shown in orange about halfway between the top and the center, , of the outer disc. Point is below the center on the same diameter as ; thus, is that diameter. Line has been drawn to illustrate the fact that not all lines are visible in the design; in fact, given any two points in the interior of the disc, there is one and only one line passing through both points.     Distance is measured differently in this geometry. The curved triangular shapes near the edge that look tiny to our Euclidean eyes are actually congruent to the shapes near the center. Lines actually continue indefinitely even though they are bounded by the edge of the disc.     To our Euclidean eyes, line segment appears to do which of the following:      be straight      bend in toward the center      bend away from the center        To our Euclidean eyes, line segment appears to do which of the following:      be straight      bend in toward the center      bend away from the center        Consider triangle . Do you think that the sum of the angle measures will be equal to 180 degrees, less than 180 degrees, or more than 180 degrees?       Recalling that two lines are said to be parallel, sketch three different hyperbolic lines that are parallel to and pass through . You may use points that have not yet been labeled.      As noted, not all lines are shown in the sketch. In fact, for any two points in the interior of the disc, either a diameter or arced line can be drawn. Do you think there are no lines, exactly one line, several lines, or an infinite number of hyperbolic lines that pass through and are parallel to ? Support your answer by words and\/or illustrations.      Coxeter's disc with points and lines added. Original image found in . Markings added using GeoGebra.   Poincare disc described in problem.       Writing Prompts    Write a letter to a friend in which you discuss some of the commonalities and differences between Euclidean and spherical geometry that you learned about in this section. As an optional extension, you might explore some other differences including whether spherical lines are infinite or finite and whether betweenness of points on spherical lines are preserved.       "
+},
+{
+  "id": "sec-polygons-parallel-2-1",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#sec-polygons-parallel-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "parallel "
+},
+{
+  "id": "parallel-explore-reflect-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#parallel-explore-reflect-label",
+  "type": "Exploration",
+  "number": "2.3.1",
+  "title": "Reflecting on Prior Understanding.",
+  "body": " Reflecting on Prior Understanding   Complete the following sentences:     In your own words, write three different endings to the statement, A line is ... . Compare your responses to that of your classmates.       The sum of the measures of the interior angles of any triangle is ...     This question is also designed to lead to discussion without judgement. Students usually agree on 180 degrees for the sum of the measures of the angles in a triangle. They should give a variety of ideas on what parallelism means. For a later question, we will use nonintersecting to define parallel lines.      Two lines in the plane are parallel if ...     "
+},
+{
+  "id": "parallel-explor-lines-sphere-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#parallel-explor-lines-sphere-label",
+  "type": "Exploration",
+  "number": "2.3.2",
+  "title": "Defining Lines on a Sphere.",
+  "body": " Defining Lines on a Sphere   For this activity and the one that follows, you will need a small sphere, some rubber bands large enough to go around your sphere, a protractor, a marker, and a piece of thread. Possible spheres include styrofoam balls, oranges, rubber balls, or spheres sold by math education supply companies. Aim for a sphere around the size of a softball. A smooth surface is best, but any small ball will suffice. As an alternative, you may use a ribbon with a globe where latitude and longitude lines are marked.    Envisioning Lines on a Sphere   We do not live on a plane; we live on a sphere. Let’s predict what objects on a sphere might act as lines. These lines will lie on the surface of the sphere. They will not pass through the sphere nor will they project out into space. What are some examples of things that might pose as “lines” on a sphere? Which of your descriptions in do they satisfy?       You have probably heard the expression, The shortest distance between two points lies along a line. We shall use this property of line segment to determine which linear features on a sphere act as lines and line segments. Suppose you have plans to fly from Chicago, Illinois (41.8781N, 87.6298W) to Rome, Italy (41.9028N,12.4964E). There are many paths you could take; some might qualify as lines under your suggestions above. Which path gives the shortest distance from Chicago to Rome? If a globe is available, find Chicago and Rome and experiment with a string to find the path of least distance. If you do not have a globe, mark the approximate locations of Chicago and Rome on your sphere; each should be midway between the equator and the North Pole, with Rome approximately a quarter of the way around east of Chicago. Tighten the string connecting these two cities to observe the path of shortest distance between them.   Describe this line segment. Does it follow a latitude line? Bend toward the North Pole? Bend toward the equator?    Allow this “line” to extend “forever” beyond the two points. What figure does it form? How is this figure related to the sphere itself?      The GeoGebra app , authored by Heather Pierce, may also be used to draw lines on a virtual sphere.     1. The line segment does not follow the latitude line. It bends toward the North Pole.  2. The line extends to a circle around the sphere with the same radius and center.    "
+},
+{
+  "id": "subsec-polygons-parallel-sphere-4",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#subsec-polygons-parallel-sphere-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "great circle "
+},
+{
+  "id": "fig-great-circle",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#fig-great-circle",
+  "type": "Figure",
+  "number": "2.3.1",
+  "title": "",
+  "body": " Spherical objects   A sphere showing two great circles, one of which is the equator. It also shows a smaller circle, like the Arctic Circle.    "
+},
+{
+  "id": "parallel-explor-spherical-triangles-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#parallel-explor-spherical-triangles-label",
+  "type": "Exploration",
+  "number": "2.3.3",
+  "title": "Properties of Spherical Lines and Triangles.",
+  "body": " Properties of Spherical Lines and Triangles     Which latitudes, if any, will be lines (great circles) on a sphere?       Which longitudes, if any, will be lines on a sphere according to this definition?       In , we defined two lines to be parallel if they lie in the same plane and do not intersect. Spherical lines will be parallel if they lie on the sphere and do not intersect.  Choose any point on the sphere which is not on the equator. Can you construct a spherical line through this point that does intersect the equator? Explain.       What do you expect to be true about the sum of the interior triangles of a spherical triangle? On your sphere, plot three points that do not lie on the same line and connect them with spherical lines (rubber bands) to form spherical triangles. Make sure that each rubber band is as straight as possible, forming a great circle.       To measure the angles on a sphere, pass a piece of thread through the vertex hole of a protractor and tie it securely. Hold the protractor with that hole at the vertex of the angle you wish to measure, aligning the baseline of the protractor with one side of the angle. By pulling the thread tight and visually aligning it with the second side of the angle, you should be able to read the measure on the protractor as demonstrated in .  Record the measurements of each of the three angles of your triangle and then add the three measures.   Angle A:    Angle B:    Angle C:    Sum:       Don't force the sum to be 180 degrees. Results on a sphere may be different than on a plane.      Repeat the last task two more times so that you have computed the sum of the measures of the angles for at least three different triangles. Record your measurements and sums. What do you notice?    You should find that spherical triangles behave differently from triangles in the plane.      What is the largest triangle you can make on the sphere? Describe it and then determine the sum of its interior angles.    You get to define largest here and your definition may differ from that of other classmates. Hence, your results may also differ!      Make a conjecture as to the sum of the measures of the interior angles of a spherical triangle. Test your conjecture with additional triangles.    "
+},
+{
+  "id": "fig-video-spherical-angles",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#fig-video-spherical-angles",
+  "type": "Figure",
+  "number": "2.3.2",
+  "title": "",
+  "body": " Measuring Angles on a Sphere   "
+},
+{
+  "id": "subsec-understanding-parallel-2",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#subsec-understanding-parallel-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "line "
+},
+{
+  "id": "principle-Playfair",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#principle-Playfair",
+  "type": "Principle",
+  "number": "2.3.3",
+  "title": "Playfair’s Parallel Postulate.",
+  "body": " Playfair's Parallel Postulate   Given a line and a point not on , there is one and only one line that passes through and is parallel to .   "
+},
+{
+  "id": "illus-playfair",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#illus-playfair",
+  "type": "Figure",
+  "number": "2.3.4",
+  "title": "",
+  "body": " Exactly one line through parallel to line .  "
+},
+{
+  "id": "subsec-understanding-parallel-5",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#subsec-understanding-parallel-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "skew lines "
+},
+{
+  "id": "skewlines",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#skewlines",
+  "type": "Figure",
+  "number": "2.3.5",
+  "title": "",
+  "body": " Illustrating skew lines as edges on a rectangular room.   Rectangular box: front face has vertices A, B, C, and D counterclockwise starting in lower left corner. On the back face, the verices G, H, F, and E are counterclockwise starting in lower left, so that edges AG, BH, CF, and DE join the front and back faces.   "
+},
+{
+  "id": "parallel-exercise-understanding-parallel-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#parallel-exercise-understanding-parallel-label",
+  "type": "Checkpoint",
+  "number": "2.3.6",
+  "title": "Check your Understanding.",
+  "body": " Check your Understanding   Refer to as you answer the following.     In the figure, it looks like and should intersect. Explain why they do not intersect when we think of the figure as a three-dimensional rectangular box or room.       Identify a second line (extension of an edge of the box in the picture) that would be considered to be skew to .       How many lines suggested by edges of this box are parallel to ? Name them.    "
+},
+{
+  "id": "parallel-explor-aia-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#parallel-explor-aia-label",
+  "type": "Exploration",
+  "number": "2.3.4",
+  "title": "Alternate Interior Angles.",
+  "body": " Alternate Interior Angles   In the following application, triangle has been rotated 180 degrees about midpoint of side to form . Note that point coincides with and point coincides with .    An interactive GeoGebra applet for Exploration on Alternate Interior Angles.      What appears to be true about lines and ?       What other two lines appear to have this property?       Verify your observation by using the parallel line tool in the app. After selecting parallel lines from the line tool menu, click on the line segment it should be parallel to and then click on the point it should pass through.       What can we say about the relationship between angles and In terms of angle measure? How do you know?      An angle measurement tool is provided in the app if you choose to use it. Click on the three points defining the angle in counterclockwise order with the vertex of the angle being the second of the three. You may be able to give an explanation that does not use actual measurement.     In terms of their relationship to the parallel lines, and and the line ?       In terms of triangle and its rotated copy ?     "
+},
+{
+  "id": "subsec-understanding-parallel-11",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#subsec-understanding-parallel-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "transversal "
+},
+{
+  "id": "fig-transversal",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#fig-transversal",
+  "type": "Figure",
+  "number": "2.3.8",
+  "title": "",
+  "body": " Transversal cuts across parallel lines and .   From left to right, points A, B, and F lie on a line and points G, C, and D lie on a line parallel to AB. The transversal contains points H, C, B, and E read from bottom to top.   "
+},
+{
+  "id": "def-angles-by-transversal",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#def-angles-by-transversal",
+  "type": "Definition",
+  "number": "2.3.9",
+  "title": "",
+  "body": " alternate interior angles  alternate exterior angles  corresponding angles   When a transversal, such as in cuts across lines and so that and are on opposite sides of , angles and are said to be alternate interior angles .  In , we call and  alternate exterior angles since points and lie on the transversal on opposite sides of the two parallel lines and points and lie on different parallel lines and on opposite sides of the transversal.  Angles and are called corresponding angles because they lie in the same relative position; in this case to the left of the transversal and below a parallel line.   "
+},
+{
+  "id": "principle-alternate-interior-angles",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#principle-alternate-interior-angles",
+  "type": "Principle",
+  "number": "2.3.10",
+  "title": "Alternate Interior Angles.",
+  "body": " Alternate Interior Angles   Given two parallel lines and and a line that crosses and , alternate interior angles have the same angle measure.   "
+},
+{
+  "id": "principle-trisum",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#principle-trisum",
+  "type": "Principle",
+  "number": "2.3.11",
+  "title": "Angle Sum of a Triangle.",
+  "body": " Angle Sum of a Triangle   The sum of the interior angles of any triangle is 180 degrees.   "
+},
+{
+  "id": "SAR-parallel-aia",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#SAR-parallel-aia",
+  "type": "Exercise",
+  "number": "2.3.4.1",
+  "title": "",
+  "body": "  In , a pair of alternate interior angles ( and ), a pair of alternate exterior angles ( and ), and a pair of corresponding angles ( and ) was identified for . Use to identify the following:      A second pair of alternate interior angles.                            A second pair of alternate exterior angles.                            Three more pairs of corresponding angles.                  "
+},
+{
+  "id": "SAR-parallel-transv-angle-measures-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#SAR-parallel-transv-angle-measures-label",
+  "type": "Exercise",
+  "number": "2.3.4.2",
+  "title": "",
+  "body": "  In , parallel lines and are cut by transversals and . The transversals meet at point . The measure of is 57 degrees and the measure of is 114 degrees.  Determine the measures of the angles:          57  Correct.              123  Correct.              57  Correct.              66  Correct.              66  Correct.              57  Correct.              114  Correct.       Illustration for     Transversals and cut parallel lines and and meet at point E. Order of points on each line: Left to right: - - - and - - - . Top to bottom: - - - and - - - .      "
+},
+{
+  "id": "SAR-parallel-aia-2-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#SAR-parallel-aia-2-label",
+  "type": "Exercise",
+  "number": "2.3.4.3",
+  "title": "",
+  "body": "  In , we claim that alternate interior angles are congruent.     Use this principle to argue that alternate exterior angles and in have the same angle measure.       Give a thorough argument that corresponding angles and in must be congruent.     "
+},
+{
+  "id": "ExtConc-polygons-parallel-neq-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#ExtConc-polygons-parallel-neq-label",
+  "type": "Exercise",
+  "number": "2.3.4.4",
+  "title": "",
+  "body": "  Suppose that lines and are not parallel (so that they must meet at a point ) and that line cuts and at points and , respectively.   Let be a point on line on the opposite side of . Explain why    "
+},
+{
+  "id": "ExtConc-polygons-parallel-Coxeterdisc-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#ExtConc-polygons-parallel-Coxeterdisc-label",
+  "type": "Exercise",
+  "number": "2.3.4.5",
+  "title": "The Hyperbolic Disk Model.",
+  "body": " The Hyperbolic Disk Model   Image from Coxeter's 1957 Address to the Royal Society of Canada   Hyperbolic disc model     The illustration in was explored by mathematician H. S. M. Coxeter and used by artist M. C. Escher as a basis for his Circle Limit series of prints. This illustration suggests another type of non-Euclidean geometry, a disc model of hyperbolic geometry. Here, lines are of two types: diameters of the outer disc and circular arcs that meet the outer disc at a right angle The tangents of these circles and the tangent of the outer disc at the point of intersection are perpendicular. .  In , line is the curved arc We ignore the section outside the outer disc. It is include to show how these lines are parts of circles. shown in orange about halfway between the top and the center, , of the outer disc. Point is below the center on the same diameter as ; thus, is that diameter. Line has been drawn to illustrate the fact that not all lines are visible in the design; in fact, given any two points in the interior of the disc, there is one and only one line passing through both points.     Distance is measured differently in this geometry. The curved triangular shapes near the edge that look tiny to our Euclidean eyes are actually congruent to the shapes near the center. Lines actually continue indefinitely even though they are bounded by the edge of the disc.     To our Euclidean eyes, line segment appears to do which of the following:      be straight      bend in toward the center      bend away from the center        To our Euclidean eyes, line segment appears to do which of the following:      be straight      bend in toward the center      bend away from the center        Consider triangle . Do you think that the sum of the angle measures will be equal to 180 degrees, less than 180 degrees, or more than 180 degrees?       Recalling that two lines are said to be parallel, sketch three different hyperbolic lines that are parallel to and pass through . You may use points that have not yet been labeled.      As noted, not all lines are shown in the sketch. In fact, for any two points in the interior of the disc, either a diameter or arced line can be drawn. Do you think there are no lines, exactly one line, several lines, or an infinite number of hyperbolic lines that pass through and are parallel to ? Support your answer by words and\/or illustrations.      Coxeter's disc with points and lines added. Original image found in . Markings added using GeoGebra.   Poincare disc described in problem.    "
+},
+{
+  "id": "writing-polygons-parallel-exerc-label",
+  "level": "2",
+  "url": "sec-polygons-parallel.html#writing-polygons-parallel-exerc-label",
+  "type": "Exercise",
+  "number": "2.3.4.6",
+  "title": "",
+  "body": "  Write a letter to a friend in which you discuss some of the commonalities and differences between Euclidean and spherical geometry that you learned about in this section. As an optional extension, you might explore some other differences including whether spherical lines are infinite or finite and whether betweenness of points on spherical lines are preserved.    "
+},
+{
+  "id": "sec-polygons-regular",
+  "level": "1",
+  "url": "sec-polygons-regular.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Exploring Regular Polygons",
+  "body": " Exploring Regular Polygons   Have you ever studied a tiling of a floor or a pattern on a quilt? In this section, we will define a regular polygon and explore when regular tilings can be used to tile the plane.   The material in this section has been adapted from Section 4.1 in Symmetry, Shape, and Space .     Regular Polygons  We begin by defining what it means for a polygon to be regular.   regular polygon  polygon regular   A polygon is a regular polygon if all of its sides and all of its angles are congruent.      Check Your Understanding!   Explain why each shape below is not a regular polygon:   Nonregular Polygons   Rhombus ABCD with obtuse angles at B and D, Rectangle EFGH with height 6 and width 10, and a House-shaped pentagon with base length 4, wall height 4, and total height 6.        Regular Tilings  In , we created a tiling of a square using tetrominoes. In this section, we will consider tilings of the plane. Since the plane continues infinitely, we will not be able to create a complete tiling. However, we will be able to build enough of the tiling to determine whether a tiling is possible.   tiling  tiling regular  regular tiling  tiling monohedral  monohedral tiling   A tiling is a collection of closed polygons that cover a plane (continuing infinitely in all directions) with no gaps and no overlaps. A monohedral tiling is a tiling that uses only one shaped tile while a regular tiling is a monohedral tiling that uses a single regular polygon as its tile. In a regular tiling, each side of a polygon will line up perfectly with a side of an adjacent c.     Regular Tilings   This activity may be completed using physical tiles or in the interactive applet below. Be sure to save a record of your designs by tracing, photography, or screenshots. Some of the computations will also be used later in this section, so you are encouraged to keep an accessible record of your work for future reference.  The web application Polypad by Amplify provides regular -gons for . These are the top six shapes provided. Simply drag the shape from the left into the whiteboard area and it will make a new copy. Rotate the polygon using the dotted stem and move it by clicking on the interior and dragging. For -gons with , use the nonagon at the bottom. Pull on the dotted vertex to change the number of sides. With the new -gon selected, you can now use the duplicated sheet icon on the flip\/cut\/... menu to make copies of your -gon. Fullscreen, undo, redo, reset, and extract buttons are provided on the right.    Interactive tool for tiling on Polypad by Amplify.        Select a single regular polygon, make copies of it as needed, and use it to construct a regular tiling. Construct enough of the tiling to convince others that the tiling can continue to tile the plane, upward and downward, to the left and the right, with no gaps and overlaps.      Experiment with equilateral triangles, squares, regular pentagons, regular hexagons, and other regular -gons to determine which can be used to create a regular tiling and which cannot. What do you think will happen with regular polygons with more than eight sides? Why?       Vertex Angle Measure   Perhaps you noticed that the vertex angle measure plays a role in determining whether a regular polygon can be used to create a regular tiling. The steps in this task will lead you to determine the measure of the vertex angle of a regular pentagon. We will use this technique to find the measure of the vertex angles for other regular -gons.   A triangulated regular pentagon   A regular pentagon with vertices labeled A, B, C, D, and E. The interior angle at A has been split by diagonals into angles 1, 2, and 3. Angle D has been split into angles 4 and 5. Angle C has been split into angles 6 and 7.    The following shorthand will be used to refer to the angles.                        , etc.       Explain why                180  Correct.              Use the fact that the pentagon is divided into triangles.      540  Correct.      \">  Having just computed the sum of the five congruent angles of a regular pentagon, determine .       108  Correct.       ...      Some of what you found, but not all, will be true for all convex pentagons. What results about angle measure will also hold for non-regular convex pentagons? What will be different?        Use your work from the previous task to complete the row for regular pentagon in the table below. Repeat this procedure for squares, regular hexagons, regular octagons, and regular decagons: First draw diagonals from a single vertex to dissect the polygon into triangles, next use the triangles to determine the total vertex angle measure, and then determine the measure of each angle. In the final row, is a variable representing the number of sides and the answers will be algebraic expressions involving the variable .   Angles of Regular Polygons         shape  number of sides  number of triangles  total angle measure  single vertex measure    triangle  3  1  180  60    square  4       regular pentagon  5       regular hexagon  6       regular octagon  8       regular decagon  10       regular -gon             Regular Tilings Revisited   Returning to the question of when a regular polygon can be used to create a regular tiling,     How many equilateral triangles can meet at a single point without overlapping?       6  Correct.        How many squares can meet at a single point?       4  Correct.        How many regular hexagons can meet at a single point?       3  Correct.        Explain in words and pictures why these three regular polygons can each produce a regular tiling.       When we tried to surround a point with regular pentagons a gap was formed. What is the degree measure of that gap?       36  Correct.        If , do you know whether a regular -gon might produce a regular tiling? Include a discussion of vertex angle measure in your explanation.       In , we determined the measure of a vertex angle of a regular -gon. We define this term and another important angle.   vertex angle  central angle  angle of polygon vertex  angle of regular polygon central  polygon vertex angle  regular polygon central angle  center of regular polygon  regular polygon center   A vertex angle of a polygon is any angle which shares its vertex with that of the polygon. The sides of a vertex angle lie along the two sides of the polygon, meeting at the vertex.  When a polygon is regular, we can also define its center to be the point which is equidistant from all vertices of the polygon. A central angle of a regular polygon has its vertex at the center of the polygon and its sides consist of a pair of rays emanating from the center to two adjacent vertices.      Semiregular Tilings  If we allow more than one regular polygon to be used in a tiling, we are able to create a wider variety of designs.   tiling semiregular  semiregular tiling  tiling monohedral  vertex arrangement tiling   A semiregular tiling is a tiling consisting of two or more regular polygons with common side lengths with the additional requirement that the arrangement of polygonal faces around every vertex is the same.  We can denote the vertex arrangement by identifying the number of sides in each polygon as we travel around a vertex. An example of this is the 3.3.4.3.4-vertex arrangement, referring to triangle, triangle, square, triangle, square. This arrangement is shown in and will be discussed in the next exploration.     In Search of Semiregular Tilings   Once again, you are encouraged to continue the practice of saving your sketches, work, and results as they may be useful later in this section.     What must be true about the measures of the angles of the vertices meeting at and surrounding a single point?     The sum of the angle measures must be 360 degrees.      In , you determined the vertex angle measure for a few regular polygons and developed a general formula for finding this measure. Use the formula, to determine the vertex angle measure of each of the following regular -gons. If the answer is not a whole number, write the answer as a reduced fraction.     heptagon (7 sides)     nonagon (9 sides)     dodecagon (12 sides)     pentakaidecagon (15 sides)     octakaidecagon (18 sides)     icosagon (20 sides)     tetrakaicosaigon (24 sides)     tetracontakaidigon (42 sides)          900\/7  Correct.      140  Correct.      150  Correct.      156  Correct.      160  Correct.      162  Correct.      165  Correct.      1200\/7  Correct.      The measure of the vertex angle of a regular -gon is given by the formula .      Refer to as you answer the following:    Verify that the sum of the angles meeting at the vertex is 360 degrees.     Extend the design making sure that you always have one or two triangles between any two squares. Will this eventually fill the plane without gaps or overlaps?     Note that gives a different pattern. Show that it is possible to create a tiling using the vertex arrangement by building outward from your initial vertex arrangement.      A 3.3.4.3.4 (triangle, triangle, square, triangle, square) vertex arrangement.   A tiling with vertex arrangement 3.3.4.3.4        Verify arithmetically that it is possible for an equilateral triangle, a regular heptagon, and a regular tetracontakaidigon (pictured below), to fit snugly around a vertex with no overlaps. In shorthand, we can write this vertex arrangement as .   A tetracontakaidigon (42-gon).   A regular 42-sided polygon.         Use the angle measures you found in and to list all combinations of three, four, or five regular polygons that could meet at a vertex, writing the vertex configurations in shorthand notation. Like the example in , the same shape may be repeated. If more than three polygons meet at a vertex, consider the different ways in which they could be arranged.   Note that and are potentially two other ways of writing in . We could begin at any polygon and list the polygons in order. To avoid these repetitions, it is standard practice to begin with the polygon with the smallest number of sides and then move to its neighbor with the smallest number of sides, continuing around until all the polygons around the point have been named. Similarly, we write rather than for the tiling where the two squares are adjacent.     We are not including the three regular tilings in this list. There is one more vertex arrangement using five polygons (in addition to 3.3.4.3.4 and 3.3.3.4.4), five using four polygons, and eight more using three polygons (in addition to 3.7.42).       Some of the vertex arrangements in the previous task will extend to create a semiregular tiling, but not all of them! Experiment by surrounding one vertex using the pattern and then try to surround the neighboring vertices using the same arrangement. Which seem to work and which fail? For the ones that fail, what seems to go wrong?    Only eight of the seventeen possible vertex arrangements can be used to create a semiregular tiling.       What do you notice about the vertex arrangements that work (or those that don't work)? What do you wonder?     This activity may have involved more of a struggle than some of the others. Perhaps you only found about half of the possibilities in or you cannot yet see a pattern to help determine which vertex arrangements lead to a semiregular tiling. That is perfectly normal. Write down the ideas that you do have and share them with classmates. As you share what you have observed and listen to others' discoveries, you and your classmates may uncover some amazing results.    Narrowing Down the Options  When we look at possible vertex arrangements for a semiregular tiling, our options are very limited. Not including the regular tiling by squares, you should have found three groups of four regular polygons with an angle sum of 360 degrees. All of these have at least one polygon appearing twice. Why do some of these extend to a semiregular tiling while others do not? Does it matter whether the common polygons are next to each other or separated?  As we attempt to create a 3.3.6.6 pattern, we find that it is impossible to maintain a consistent vertex arrangement. Fairly quickly, we are forced to create a 3.6.3.6 arrangement at some vertices. On the other hand, a 3.3.6.6 vertex arrangement can continue indefinitely. Let us explore why this happens.   Semiregular Tilings with Four Regular Polygons at a Vertex    Use physical or virtual triangles and hexagons to sketch the vertex arrangement 3.3.6.6 or refer to an earlier sketch if available. The Polypad by Amplify applet in may be used.   Choose one of the two triangles at this vertex and attempt to surround it with triangles and\/or hexagons while maintaining the 3.3.6.6 arrangement at each vertex.    Note that each triangle in a 3.3.6.6 must share a side with one triangle and one hexagon due to the order of the 3's and 6's.   Surrounding a regular triangle with regular triangles and regular hexagons.    Will the remaining side abut a triangle or a hexagon? Discuss what happens in each case.          There is a second group of four regular polygons consisting of two equilateral triangles and two other polygons.   What are the other two polygons? We will represent the number of sides of these polygons by and .    Explain why the arrangement will not extend to a semiregular tiling using an argument similar to what we did with .    Explain why the arrangement also fails to create a semiregular tiling.         The remaining semiregular tiling with four polygons meeting at each vertex has two squares and two other polygons in the vertex arrangement.   What are the other two polygons? Again, the number of sides of these two polygons are represented by and in the questions that follow.    Are you able to surround a square along its sides by an alternating sequence of -gons and -gons?    One of the polygons has an odd number, , of sides. Are you able to surround the -gon along its sides by an alternating sequence of squares and -gons?    Explain in words and pictures why extends to a semiregular tiling, but does not. Draw or record a sketch of if you do not already have one.        We conclude that there are only two semiregular tilings and one regular tiling of the plane where four polygons meet at a vertex. All three vertex arrangements with five polygons meeting extend to semiregular tilings. To complete this analysis, we consider which three-polygon vertex arrangements extend to a semiregular tiling.   Semiregular Tilings with Three Regular Polygons at a Vertex    Not including the regular tiling , there are nine possible vertex arrangements consisting of three regular polygons. List as many as you can, referring back to the work you did in .      Verify algebraically that can surround a single point.      Use the fact that 5 is an odd number to explain why does not extend to a semiregular tiling. You may include pictures as well as words in your explanation.    What happens as you try to surround a pentagon with the necessary pentagons and decagons?      Determine the three vertex arrangements with three polygons that extend to a semiregular tiling. Why must the others be eliminated?       Exercises   Building Our Toolbox  As we conclude this long section, it is wise to reflect on what we have learned. What should we add to our toolbox for later use? Definitions for regular polygons, tilings, regular tilings, and semiregular tilings were introduced at the beginning of the section. You should also note the items below:    In your own words and pictures, describe the difference between a regular and a nonregular polygon.      If a group of polygons meet at a single vertex, what must be the sum of the angle measures at that vertex? Note that this wording generalizes this fact to nonregular polygons as well.      Describe the three regular tilings.      What is the sum of the measures of the vertex angles for any (not necessarily regular) convex -gon? For example, the measures of the angles of any triangle add up to 180 degrees. What is the total for a convex quadrilateral, a convex pentagon, etc.?      What formula can be used to compute the angle measure for a regular -gon?      What do we mean by a -vertex arrangement?      Just because a collection of regular polygons can surround a vertex does not mean that they can create a semiregular tiling. Give an example of a vertex arrangement that does not extend to a regular tiling. Support your claim.      Skills and Recall    Sketch a picture of each of the following:   A concave octagon    A convex hexagon that is not regular    A rectangle that is a regular quadrilateral.    A rectangle that is not a regular quadrilateral.         What is the total angle measure of each of the following?   a triangle    a convex quadrilateral    a convex 11-gon    a convex 50-gon       (a) 180 degrees, (b) 360 degrees, (c) 1620 degrees, (d) 8640 degrees    (c)       Demonstrate that each of the following exists by sketching an example:   a pentagon that is not convex    a convex hexagon with at least one right angle         Demonstrate that each of the following exists by sketching an example:   an equilateral polygon that is not regular    an equiangular polygon that is not regular         Answer the following:   What is the measure of each vertex in a regular 18-gon?    What is the measure of each vertex in a regular 9-gon?    If a regular 18-gon, a regular 9-gon, and an equilateral triangle meet at a vertex, will there be a gap? an overlap? or will they fit together without gaps or overlaps?   Explain why it is impossible to create a semiregular tiling using regular 18-gons, regular 9-gons, and equilateral triangles.        Answer the following questions about a 100-gon.   Diagonals drawn from a single vertex will divide a 100-gon into how many triangles?    What is the sum of the interior angles in a convex 100-gon?    In a regular 100-gon, what is the measure of each interior angle?    In a regular 100-gon, what is the measure of each central angle?       What must the sum of the central angles be?      In , and are right angles, , and . Determine .   Pentagon for        Explain why each of the following are not semiregular tilings:   The design started in .    The design started in     The design started in        Not semi-regular 1.   Three rows where each has a regular hexagon then an hourglass pair of equilateral triangles. The hexagons are directly above each other, sharing a side, and the bottow triangle of each row shares a side with the top triangle of the row below.      Not semi-regular 2.   A design made by rhombi, darts, and kites.     Not semi-regular 3.   A design with rows of squares and rows of alternating triangles. The vertices of the triangles meet the squares at the center of a side.         Extending the Concepts   Another Way to Calculate the Vertex Angle of a Regular Polygon   In , a regular nonagon, its center , and segments joining each vertex to the center are shown. Use it to answer the following:   Explain why each central angle must measure 40 degrees.    What type of triangle is ? Why?    What is the measure of ? Why?    What is the measure of ? Explain based on the steps in this problem.    What is the formula for the central angle of any regular -gon?    Explain how we can use the measure of a central angle to justify that the vertex angle of a regular -gon has measure .    Algebraically, show that the vertex angle of a regular -gon has measure using the steps above.      Nonagon for .   Nonagon with center and spokes.       Finding the Center of a Regular Polygon   In , the center of the regular nonagon was provided. In this problem, we explore how to find the center of a regular -gon.   Give a definition for the center of a regular polygon in your own words.    First give clear instructions on how one can find the center of any regular -gon where is an even number. Explain your technique. You may use the decagon in for exploration and illustration. This applet will also allow you to create other -gons as needed. The circle and radius tool may be used to check your work, but not for finding the center.    Refer to . Do lines connecting vertices pass through the center? Give an alternate strategy for drawing lines that will pass through the center of an -gon when is odd. You may use the nonagon in the GeoGebra applet in . The circle and radius tool may be used to check your work, but not for finding the center.      GeoGebra interactive with Decagon and a Nonagon         Writing Prompts    Write a letter to a friend describing one thing you found to be surprising or interesting in this section.      Write a letter to a friend in which you give a formula for the vertex angle of a regular -gon and explain why it holds for all regular -gons.      Write a letter to a friend in which you explain why there are exactly three regular tilings.      "
+},
+{
+  "id": "sec-polygons-regular-3-3",
+  "level": "2",
+  "url": "sec-polygons-regular.html#sec-polygons-regular-3-3",
+  "type": "Definition",
+  "number": "2.4.1",
+  "title": "",
+  "body": " regular polygon  polygon regular   A polygon is a regular polygon if all of its sides and all of its angles are congruent.    "
+},
+{
+  "id": "sec-polygons-regular-3-4",
+  "level": "2",
+  "url": "sec-polygons-regular.html#sec-polygons-regular-3-4",
+  "type": "Checkpoint",
+  "number": "2.4.2",
+  "title": "Check Your Understanding!",
+  "body": " Check Your Understanding!   Explain why each shape below is not a regular polygon:   Nonregular Polygons   Rhombus ABCD with obtuse angles at B and D, Rectangle EFGH with height 6 and width 10, and a House-shaped pentagon with base length 4, wall height 4, and total height 6.     "
+},
+{
+  "id": "subsec-polygons-regular-tilings-3",
+  "level": "2",
+  "url": "sec-polygons-regular.html#subsec-polygons-regular-tilings-3",
+  "type": "Definition",
+  "number": "2.4.4",
+  "title": "",
+  "body": " tiling  tiling regular  regular tiling  tiling monohedral  monohedral tiling   A tiling is a collection of closed polygons that cover a plane (continuing infinitely in all directions) with no gaps and no overlaps. A monohedral tiling is a tiling that uses only one shaped tile while a regular tiling is a monohedral tiling that uses a single regular polygon as its tile. In a regular tiling, each side of a polygon will line up perfectly with a side of an adjacent c.   "
+},
+{
+  "id": "explor-reg-tilings",
+  "level": "2",
+  "url": "sec-polygons-regular.html#explor-reg-tilings",
+  "type": "Exploration",
+  "number": "2.4.1",
+  "title": "Regular Tilings.",
+  "body": " Regular Tilings   This activity may be completed using physical tiles or in the interactive applet below. Be sure to save a record of your designs by tracing, photography, or screenshots. Some of the computations will also be used later in this section, so you are encouraged to keep an accessible record of your work for future reference.  The web application Polypad by Amplify provides regular -gons for . These are the top six shapes provided. Simply drag the shape from the left into the whiteboard area and it will make a new copy. Rotate the polygon using the dotted stem and move it by clicking on the interior and dragging. For -gons with , use the nonagon at the bottom. Pull on the dotted vertex to change the number of sides. With the new -gon selected, you can now use the duplicated sheet icon on the flip\/cut\/... menu to make copies of your -gon. Fullscreen, undo, redo, reset, and extract buttons are provided on the right.    Interactive tool for tiling on Polypad by Amplify.        Select a single regular polygon, make copies of it as needed, and use it to construct a regular tiling. Construct enough of the tiling to convince others that the tiling can continue to tile the plane, upward and downward, to the left and the right, with no gaps and overlaps.      Experiment with equilateral triangles, squares, regular pentagons, regular hexagons, and other regular -gons to determine which can be used to create a regular tiling and which cannot. What do you think will happen with regular polygons with more than eight sides? Why?     "
+},
+{
+  "id": "explor-reg-tilings-angle-measure",
+  "level": "2",
+  "url": "sec-polygons-regular.html#explor-reg-tilings-angle-measure",
+  "type": "Exploration",
+  "number": "2.4.2",
+  "title": "Vertex Angle Measure.",
+  "body": " Vertex Angle Measure   Perhaps you noticed that the vertex angle measure plays a role in determining whether a regular polygon can be used to create a regular tiling. The steps in this task will lead you to determine the measure of the vertex angle of a regular pentagon. We will use this technique to find the measure of the vertex angles for other regular -gons.   A triangulated regular pentagon   A regular pentagon with vertices labeled A, B, C, D, and E. The interior angle at A has been split by diagonals into angles 1, 2, and 3. Angle D has been split into angles 4 and 5. Angle C has been split into angles 6 and 7.    The following shorthand will be used to refer to the angles.                        , etc.       Explain why                180  Correct.              Use the fact that the pentagon is divided into triangles.      540  Correct.      \">  Having just computed the sum of the five congruent angles of a regular pentagon, determine .       108  Correct.       ...      Some of what you found, but not all, will be true for all convex pentagons. What results about angle measure will also hold for non-regular convex pentagons? What will be different?        Use your work from the previous task to complete the row for regular pentagon in the table below. Repeat this procedure for squares, regular hexagons, regular octagons, and regular decagons: First draw diagonals from a single vertex to dissect the polygon into triangles, next use the triangles to determine the total vertex angle measure, and then determine the measure of each angle. In the final row, is a variable representing the number of sides and the answers will be algebraic expressions involving the variable .   Angles of Regular Polygons         shape  number of sides  number of triangles  total angle measure  single vertex measure    triangle  3  1  180  60    square  4       regular pentagon  5       regular hexagon  6       regular octagon  8       regular decagon  10       regular -gon           "
+},
+{
+  "id": "explor-reg-tilings-revisited",
+  "level": "2",
+  "url": "sec-polygons-regular.html#explor-reg-tilings-revisited",
+  "type": "Exploration",
+  "number": "2.4.3",
+  "title": "Regular Tilings Revisited.",
+  "body": " Regular Tilings Revisited   Returning to the question of when a regular polygon can be used to create a regular tiling,     How many equilateral triangles can meet at a single point without overlapping?       6  Correct.        How many squares can meet at a single point?       4  Correct.        How many regular hexagons can meet at a single point?       3  Correct.        Explain in words and pictures why these three regular polygons can each produce a regular tiling.       When we tried to surround a point with regular pentagons a gap was formed. What is the degree measure of that gap?       36  Correct.        If , do you know whether a regular -gon might produce a regular tiling? Include a discussion of vertex angle measure in your explanation.     "
+},
+{
+  "id": "subsec-polygons-regular-tilings-7",
+  "level": "2",
+  "url": "sec-polygons-regular.html#subsec-polygons-regular-tilings-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "vertex angle "
+},
+{
+  "id": "def-vertexangle-centralangle",
+  "level": "2",
+  "url": "sec-polygons-regular.html#def-vertexangle-centralangle",
+  "type": "Definition",
+  "number": "2.4.8",
+  "title": "",
+  "body": " vertex angle  central angle  angle of polygon vertex  angle of regular polygon central  polygon vertex angle  regular polygon central angle  center of regular polygon  regular polygon center   A vertex angle of a polygon is any angle which shares its vertex with that of the polygon. The sides of a vertex angle lie along the two sides of the polygon, meeting at the vertex.  When a polygon is regular, we can also define its center to be the point which is equidistant from all vertices of the polygon. A central angle of a regular polygon has its vertex at the center of the polygon and its sides consist of a pair of rays emanating from the center to two adjacent vertices.   "
+},
+{
+  "id": "def-semireg-tiling",
+  "level": "2",
+  "url": "sec-polygons-regular.html#def-semireg-tiling",
+  "type": "Definition",
+  "number": "2.4.9",
+  "title": "",
+  "body": " tiling semiregular  semiregular tiling  tiling monohedral  vertex arrangement tiling   A semiregular tiling is a tiling consisting of two or more regular polygons with common side lengths with the additional requirement that the arrangement of polygonal faces around every vertex is the same.  We can denote the vertex arrangement by identifying the number of sides in each polygon as we travel around a vertex. An example of this is the 3.3.4.3.4-vertex arrangement, referring to triangle, triangle, square, triangle, square. This arrangement is shown in and will be discussed in the next exploration.   "
+},
+{
+  "id": "explor-semireg-tilings",
+  "level": "2",
+  "url": "sec-polygons-regular.html#explor-semireg-tilings",
+  "type": "Exploration",
+  "number": "2.4.4",
+  "title": "In Search of Semiregular Tilings.",
+  "body": " In Search of Semiregular Tilings   Once again, you are encouraged to continue the practice of saving your sketches, work, and results as they may be useful later in this section.     What must be true about the measures of the angles of the vertices meeting at and surrounding a single point?     The sum of the angle measures must be 360 degrees.      In , you determined the vertex angle measure for a few regular polygons and developed a general formula for finding this measure. Use the formula, to determine the vertex angle measure of each of the following regular -gons. If the answer is not a whole number, write the answer as a reduced fraction.     heptagon (7 sides)     nonagon (9 sides)     dodecagon (12 sides)     pentakaidecagon (15 sides)     octakaidecagon (18 sides)     icosagon (20 sides)     tetrakaicosaigon (24 sides)     tetracontakaidigon (42 sides)          900\/7  Correct.      140  Correct.      150  Correct.      156  Correct.      160  Correct.      162  Correct.      165  Correct.      1200\/7  Correct.      The measure of the vertex angle of a regular -gon is given by the formula .      Refer to as you answer the following:    Verify that the sum of the angles meeting at the vertex is 360 degrees.     Extend the design making sure that you always have one or two triangles between any two squares. Will this eventually fill the plane without gaps or overlaps?     Note that gives a different pattern. Show that it is possible to create a tiling using the vertex arrangement by building outward from your initial vertex arrangement.      A 3.3.4.3.4 (triangle, triangle, square, triangle, square) vertex arrangement.   A tiling with vertex arrangement 3.3.4.3.4        Verify arithmetically that it is possible for an equilateral triangle, a regular heptagon, and a regular tetracontakaidigon (pictured below), to fit snugly around a vertex with no overlaps. In shorthand, we can write this vertex arrangement as .   A tetracontakaidigon (42-gon).   A regular 42-sided polygon.         Use the angle measures you found in and to list all combinations of three, four, or five regular polygons that could meet at a vertex, writing the vertex configurations in shorthand notation. Like the example in , the same shape may be repeated. If more than three polygons meet at a vertex, consider the different ways in which they could be arranged.   Note that and are potentially two other ways of writing in . We could begin at any polygon and list the polygons in order. To avoid these repetitions, it is standard practice to begin with the polygon with the smallest number of sides and then move to its neighbor with the smallest number of sides, continuing around until all the polygons around the point have been named. Similarly, we write rather than for the tiling where the two squares are adjacent.     We are not including the three regular tilings in this list. There is one more vertex arrangement using five polygons (in addition to 3.3.4.3.4 and 3.3.3.4.4), five using four polygons, and eight more using three polygons (in addition to 3.7.42).       Some of the vertex arrangements in the previous task will extend to create a semiregular tiling, but not all of them! Experiment by surrounding one vertex using the pattern and then try to surround the neighboring vertices using the same arrangement. Which seem to work and which fail? For the ones that fail, what seems to go wrong?    Only eight of the seventeen possible vertex arrangements can be used to create a semiregular tiling.       What do you notice about the vertex arrangements that work (or those that don't work)? What do you wonder?    "
+},
+{
+  "id": "subsec-semireg-rules-4",
+  "level": "2",
+  "url": "sec-polygons-regular.html#subsec-semireg-rules-4",
+  "type": "Exploration",
+  "number": "2.4.5",
+  "title": "Semiregular Tilings with Four Regular Polygons at a Vertex.",
+  "body": " Semiregular Tilings with Four Regular Polygons at a Vertex    Use physical or virtual triangles and hexagons to sketch the vertex arrangement 3.3.6.6 or refer to an earlier sketch if available. The Polypad by Amplify applet in may be used.   Choose one of the two triangles at this vertex and attempt to surround it with triangles and\/or hexagons while maintaining the 3.3.6.6 arrangement at each vertex.    Note that each triangle in a 3.3.6.6 must share a side with one triangle and one hexagon due to the order of the 3's and 6's.   Surrounding a regular triangle with regular triangles and regular hexagons.    Will the remaining side abut a triangle or a hexagon? Discuss what happens in each case.          There is a second group of four regular polygons consisting of two equilateral triangles and two other polygons.   What are the other two polygons? We will represent the number of sides of these polygons by and .    Explain why the arrangement will not extend to a semiregular tiling using an argument similar to what we did with .    Explain why the arrangement also fails to create a semiregular tiling.         The remaining semiregular tiling with four polygons meeting at each vertex has two squares and two other polygons in the vertex arrangement.   What are the other two polygons? Again, the number of sides of these two polygons are represented by and in the questions that follow.    Are you able to surround a square along its sides by an alternating sequence of -gons and -gons?    One of the polygons has an odd number, , of sides. Are you able to surround the -gon along its sides by an alternating sequence of squares and -gons?    Explain in words and pictures why extends to a semiregular tiling, but does not. Draw or record a sketch of if you do not already have one.       "
+},
+{
+  "id": "subsec-semireg-rules-6",
+  "level": "2",
+  "url": "sec-polygons-regular.html#subsec-semireg-rules-6",
+  "type": "Exploration",
+  "number": "2.4.6",
+  "title": "Semiregular Tilings with Three Regular Polygons at a Vertex.",
+  "body": " Semiregular Tilings with Three Regular Polygons at a Vertex    Not including the regular tiling , there are nine possible vertex arrangements consisting of three regular polygons. List as many as you can, referring back to the work you did in .      Verify algebraically that can surround a single point.      Use the fact that 5 is an odd number to explain why does not extend to a semiregular tiling. You may include pictures as well as words in your explanation.    What happens as you try to surround a pentagon with the necessary pentagons and decagons?      Determine the three vertex arrangements with three polygons that extend to a semiregular tiling. Why must the others be eliminated?    "
+},
+{
+  "id": "exer-toolbox-regpolygon-def",
+  "level": "2",
+  "url": "sec-polygons-regular.html#exer-toolbox-regpolygon-def",
+  "type": "Exercise",
+  "number": "2.4.5.1",
+  "title": "",
+  "body": "  In your own words and pictures, describe the difference between a regular and a nonregular polygon.   "
+},
+{
+  "id": "exer-toolbox-polygon-meet-vertex",
+  "level": "2",
+  "url": "sec-polygons-regular.html#exer-toolbox-polygon-meet-vertex",
+  "type": "Exercise",
+  "number": "2.4.5.2",
+  "title": "",
+  "body": "  If a group of polygons meet at a single vertex, what must be the sum of the angle measures at that vertex? Note that this wording generalizes this fact to nonregular polygons as well.   "
+},
+{
+  "id": "Toolbox-polygons-regular-5",
+  "level": "2",
+  "url": "sec-polygons-regular.html#Toolbox-polygons-regular-5",
+  "type": "Exercise",
+  "number": "2.4.5.3",
+  "title": "",
+  "body": "  Describe the three regular tilings.   "
+},
+{
+  "id": "Toolbox-polygons-regular-6",
+  "level": "2",
+  "url": "sec-polygons-regular.html#Toolbox-polygons-regular-6",
+  "type": "Exercise",
+  "number": "2.4.5.4",
+  "title": "",
+  "body": "  What is the sum of the measures of the vertex angles for any (not necessarily regular) convex -gon? For example, the measures of the angles of any triangle add up to 180 degrees. What is the total for a convex quadrilateral, a convex pentagon, etc.?   "
+},
+{
+  "id": "Toolbox-polygons-regular-7",
+  "level": "2",
+  "url": "sec-polygons-regular.html#Toolbox-polygons-regular-7",
+  "type": "Exercise",
+  "number": "2.4.5.5",
+  "title": "",
+  "body": "  What formula can be used to compute the angle measure for a regular -gon?   "
+},
+{
+  "id": "Toolbox-polygons-regular-8",
+  "level": "2",
+  "url": "sec-polygons-regular.html#Toolbox-polygons-regular-8",
+  "type": "Exercise",
+  "number": "2.4.5.6",
+  "title": "",
+  "body": "  What do we mean by a -vertex arrangement?   "
+},
+{
+  "id": "Toolbox-polygons-regular-9",
+  "level": "2",
+  "url": "sec-polygons-regular.html#Toolbox-polygons-regular-9",
+  "type": "Exercise",
+  "number": "2.4.5.7",
+  "title": "",
+  "body": "  Just because a collection of regular polygons can surround a vertex does not mean that they can create a semiregular tiling. Give an example of a vertex arrangement that does not extend to a regular tiling. Support your claim.   "
+},
+{
+  "id": "SAR-polygons-regular-2",
+  "level": "2",
+  "url": "sec-polygons-regular.html#SAR-polygons-regular-2",
+  "type": "Exercise",
+  "number": "2.4.5.8",
+  "title": "",
+  "body": "  Sketch a picture of each of the following:   A concave octagon    A convex hexagon that is not regular    A rectangle that is a regular quadrilateral.    A rectangle that is not a regular quadrilateral.      "
+},
+{
+  "id": "SAR-polygons-regular-3",
+  "level": "2",
+  "url": "sec-polygons-regular.html#SAR-polygons-regular-3",
+  "type": "Exercise",
+  "number": "2.4.5.9",
+  "title": "",
+  "body": "  What is the total angle measure of each of the following?   a triangle    a convex quadrilateral    a convex 11-gon    a convex 50-gon       (a) 180 degrees, (b) 360 degrees, (c) 1620 degrees, (d) 8640 degrees    (c)    "
+},
+{
+  "id": "SAR-polygons-regular-4",
+  "level": "2",
+  "url": "sec-polygons-regular.html#SAR-polygons-regular-4",
+  "type": "Exercise",
+  "number": "2.4.5.10",
+  "title": "",
+  "body": "  Demonstrate that each of the following exists by sketching an example:   a pentagon that is not convex    a convex hexagon with at least one right angle      "
+},
+{
+  "id": "SAR-polygons-regular-5",
+  "level": "2",
+  "url": "sec-polygons-regular.html#SAR-polygons-regular-5",
+  "type": "Exercise",
+  "number": "2.4.5.11",
+  "title": "",
+  "body": "  Demonstrate that each of the following exists by sketching an example:   an equilateral polygon that is not regular    an equiangular polygon that is not regular      "
+},
+{
+  "id": "SAR-polygons-regular-6",
+  "level": "2",
+  "url": "sec-polygons-regular.html#SAR-polygons-regular-6",
+  "type": "Exercise",
+  "number": "2.4.5.12",
+  "title": "",
+  "body": "  Answer the following:   What is the measure of each vertex in a regular 18-gon?    What is the measure of each vertex in a regular 9-gon?    If a regular 18-gon, a regular 9-gon, and an equilateral triangle meet at a vertex, will there be a gap? an overlap? or will they fit together without gaps or overlaps?   Explain why it is impossible to create a semiregular tiling using regular 18-gons, regular 9-gons, and equilateral triangles.     "
+},
+{
+  "id": "SAR-polygons-regular-7",
+  "level": "2",
+  "url": "sec-polygons-regular.html#SAR-polygons-regular-7",
+  "type": "Exercise",
+  "number": "2.4.5.13",
+  "title": "",
+  "body": "  Answer the following questions about a 100-gon.   Diagonals drawn from a single vertex will divide a 100-gon into how many triangles?    What is the sum of the interior angles in a convex 100-gon?    In a regular 100-gon, what is the measure of each interior angle?    In a regular 100-gon, what is the measure of each central angle?       What must the sum of the central angles be?   "
+},
+{
+  "id": "exer-houseangle",
+  "level": "2",
+  "url": "sec-polygons-regular.html#exer-houseangle",
+  "type": "Exercise",
+  "number": "2.4.5.14",
+  "title": "",
+  "body": "  In , and are right angles, , and . Determine .   Pentagon for     "
+},
+{
+  "id": "SAR-polygons-regular-9",
+  "level": "2",
+  "url": "sec-polygons-regular.html#SAR-polygons-regular-9",
+  "type": "Exercise",
+  "number": "2.4.5.15",
+  "title": "",
+  "body": "  Explain why each of the following are not semiregular tilings:   The design started in .    The design started in     The design started in        Not semi-regular 1.   Three rows where each has a regular hexagon then an hourglass pair of equilateral triangles. The hexagons are directly above each other, sharing a side, and the bottow triangle of each row shares a side with the top triangle of the row below.      Not semi-regular 2.   A design made by rhombi, darts, and kites.     Not semi-regular 3.   A design with rows of squares and rows of alternating triangles. The vertices of the triangles meet the squares at the center of a side.      "
+},
+{
+  "id": "exer-ExtConc-pgreg-nonagon",
+  "level": "2",
+  "url": "sec-polygons-regular.html#exer-ExtConc-pgreg-nonagon",
+  "type": "Exercise",
+  "number": "2.4.5.16",
+  "title": "Another Way to Calculate the Vertex Angle of a Regular Polygon.",
+  "body": " Another Way to Calculate the Vertex Angle of a Regular Polygon   In , a regular nonagon, its center , and segments joining each vertex to the center are shown. Use it to answer the following:   Explain why each central angle must measure 40 degrees.    What type of triangle is ? Why?    What is the measure of ? Why?    What is the measure of ? Explain based on the steps in this problem.    What is the formula for the central angle of any regular -gon?    Explain how we can use the measure of a central angle to justify that the vertex angle of a regular -gon has measure .    Algebraically, show that the vertex angle of a regular -gon has measure using the steps above.      Nonagon for .   Nonagon with center and spokes.     "
+},
+{
+  "id": "ExtConc-polygons-regular-3",
+  "level": "2",
+  "url": "sec-polygons-regular.html#ExtConc-polygons-regular-3",
+  "type": "Exercise",
+  "number": "2.4.5.17",
+  "title": "Finding the Center of a Regular Polygon.",
+  "body": " Finding the Center of a Regular Polygon   In , the center of the regular nonagon was provided. In this problem, we explore how to find the center of a regular -gon.   Give a definition for the center of a regular polygon in your own words.    First give clear instructions on how one can find the center of any regular -gon where is an even number. Explain your technique. You may use the decagon in for exploration and illustration. This applet will also allow you to create other -gons as needed. The circle and radius tool may be used to check your work, but not for finding the center.    Refer to . Do lines connecting vertices pass through the center? Give an alternate strategy for drawing lines that will pass through the center of an -gon when is odd. You may use the nonagon in the GeoGebra applet in . The circle and radius tool may be used to check your work, but not for finding the center.      GeoGebra interactive with Decagon and a Nonagon     "
+},
+{
+  "id": "writing-polygons-regular-2",
+  "level": "2",
+  "url": "sec-polygons-regular.html#writing-polygons-regular-2",
+  "type": "Exercise",
+  "number": "2.4.5.18",
+  "title": "",
+  "body": "  Write a letter to a friend describing one thing you found to be surprising or interesting in this section.   "
+},
+{
+  "id": "writing-polygons-regular-3",
+  "level": "2",
+  "url": "sec-polygons-regular.html#writing-polygons-regular-3",
+  "type": "Exercise",
+  "number": "2.4.5.19",
+  "title": "",
+  "body": "  Write a letter to a friend in which you give a formula for the vertex angle of a regular -gon and explain why it holds for all regular -gons.   "
+},
+{
+  "id": "writing-polygons-regular-4",
+  "level": "2",
+  "url": "sec-polygons-regular.html#writing-polygons-regular-4",
+  "type": "Exercise",
+  "number": "2.4.5.20",
+  "title": "",
+  "body": "  Write a letter to a friend in which you explain why there are exactly three regular tilings.   "
+},
+{
+  "id": "sec-polygons-length",
+  "level": "1",
+  "url": "sec-polygons-length.html",
+  "type": "Section",
+  "number": "2.5",
+  "title": "Exploring Length and the Pythagorean Theorem",
+  "body": " Exploring Length and the Pythagorean Theorem   Dating from before 500 B.C., the Pythagorean Theorem allows us to compute lengths associated with right triangles. Upon completing this section, you should be able to explain to others how the Pythagorean Theorem follows from our basic principles. First, we introduce some terminology and refresh our memory on how to apply the theorem.    Right Triangles   triangle right  right triangle  hypotenuse  leg right triangle   As noted in , a right triangle is a triangle with one right angle. The longest side, called the hypotenuse , of a right triangle is always opposite the right angle. The other two sides of the right triangle are called the legs .     Check Your Understanding   Refer to the picture as you answer the following:   (for accessibility)      Which lowercase letter represents the hypotenuse in the triangle above?           Which angle appears to be the smallest in the triangle?           Which side appears to be the shortest in the triangle?         How are the answers to the last two questions related? Does this relationship also hold for the largest side and largest angle?    The smallest side is opposite the smallest angle. The largest side is opposite the largest angle.       The Pythagorean Theorem  The Pythagorean Theorem states that if and are the lengths of the sides of a right triangle and is the length of the hypotenuse, then .   Pythagorean Theorem   Suppose is a right triangle with right angle at . Let and be the lengths of legs and , respectively, and let be the length of the hypotenuse . Then .    The next set of questions will refresh your skill in using the Pythagorean Theorem to determine missing lengths.   Check your Understanding    A triangle has legs of length 5 and 7. Determine the length of the hypotenuse.           A square has a diagonal of length . Determine the length of the sides.    Since the sides of a square are the same length, use the same letter to represent all of them. How do you create a triangle from a square?            Proving the Pythagorean Theorem with Picture Puzzles  The Pythagorean Theorem is very useful, but it is also somewhat mysterious. Why does the formula work for all right triangles? Surprisingly, there are more than 350 recognized proofs of the Pythagorean Theorem. We will look at just a few. In the following exploration, you will rearrange polygons built from a right triangle, and use the rearrangements to explain why in each case. You are encouraged to try all the proofs in this section and to choose one to learn well enough to convince others.   The book, The Pythagorean Proposition , by Elisha S. Loomis, (NCTM:1968) contains 367 proofs of the Pythagorean Theorem.     Puzzling over Why the Pythagorean Theorem Holds   For these explorations, we start with an arbitrary right triangle with hypotenuse length and legs of length and .    First Pythagorean Puzzle   In , the four blue triangles on the right are congruent copies of the right triangle . Check Puzzle_1 to reveal a second square. The side length of this new orange square is . To verify this, you can line up the side of the square with the hypotenuse of one of the triangles.   An interactive GeoGebra applet for .       Fill the square on the left using the four blue copies of the triangle and the orange square on the right. Pieces can be moved by selecting the interior and they can be rotated by moving the dotted vertex. The red triangle labeled is only shown for reference and will not be used. As always, there should be no gaps or overlaps. Preserve your work with a sketch or screenshot.    What is the length of a side of the square that you filled? Give your answer in terms of lengths , , and\/or .    Determine the area of each of the pieces used to fill the square frame using the variables , , and\/or . Write the sum of these areas in terms of these variables.        Second Pythagorean Puzzle   For this puzzle, select Puzzle_2 in . The orange square should no longer be visible. Instead, a green square with side length , corresponding to the shorter leg of . The purple square below it has a side length corresponding to the other leg.    An interactive GeoGebra applet for .       Fill the square frame on the lower left with the four congruent right triangles and the squares with lengths and , respectively. Preserve your work with a sketch or screenshot.    What is the length of a side of the square that you filled? Give your answer in terms of lengths , , and\/or .    Determine the area of each of the pieces used to fill the square frame using the variables , , and\/or . Write the sum of these areas using variables.        Using the First Two Puzzles Together to Prove the Pythagorean Theorem   Look at the two ways in which you filled the square frames and the expressions for the area of the frames. How can you use this to justify the formula ?   An alternative is to use just the first puzzle and more algebra to prove the Pythagorean Theorem. This is acceptable, but Education majors may appreciate that the method of using both puzzles together can be used to convince third graders.     We could change the size and shape of the right triangle by moving any of the vertices , , or in the red triangle. Note that the sizes of the squares will also change according to the new lengths of the sides of the triangle. Will the length of each side of the black square frames still be expressed with the algebraic formula you indicated above? Can the new pieces be moved so that the new frame can be filled using the Puzzle 1 pieces and separately using the Puzzle 2 pieces? Give an algebraic argument for why the frame for Puzzle 1 and Puzzle 2 must be the same for any specified right triangle. Why does this allow us to set the two sums of areas equal to each other?     A Presidential Proof   This proof of the Pythagorean Theorem is attributed to James A. Garfield, the twentieth President of the United States. Refer to the diagram below:   Right triangle ABC with right angle at C. Point D is placed on ray CA so that the length of AD equals the length of BC. Point E is placed on the same side of CD as B so that line DE is perpendicular to AD and segment DE is the same length as AC. Points E and B are joined by a segment. This creates two congruent right triangles ABC and EAD and an isoceles right triangle BAE. The outer boundary is a trapezoid BCDE since BC and DE are parallel.      The diagram above consists of two congruent right triangles and one isosceles right triangle arranged to form a trapezoid. Label the hypotenuses with the letter . Label the smallest side of these triangles and the other leg . Note that the hypotenuse of the remaining right triangle is longer than . Instead, call its length to distinguish between the two numbers.    Identify the two parallel bases for the trapezoid. Determine the height of this trapezoid in terms of the labels you put on the diagram.    Compute the area of the trapezoid using the trapezoid formula leaving your answer in terms of the variables you used to label the diagram.    Similarly, compute the areas of each of the three triangular pieces and add them together.    How does this prove the Pythagorean Theorem?         The final proof of the Pythagorean Theorem is primarily visual. Almost no algebra is required. The GeoGebra interactive in provides four copies of a right triangle and a smaller square of unlabeled side length that can be moved and rotated.   An interactive GeoGebra applet for proving the Pythagorean Theorem.       Rearrange the four congruent triangle copies and the small square to form a square. Verify that your shape is definitely a square. Do not use . Drag the centers of shapes to move them and use the labeled corners to rotate. Save a copy of your work.    What is the length of a side of this square?    What is the area of the square you created?    What is the length of a side of the small square in terms of the labels , , and\/or ?    Once again, our goal is to show . Use the same five pieces to create a pair of touching squares of area and . Some puzzle pieces will cover parts of both squares. A second copy of the GeoGebra applet is provided below for your use.   An interactive GeoGebra applet for proving the Pythagorean Theorem, repeated from above.      How do you know that the two squares in your diagram are actually squares and that their side lengths are and , respectively? Base your argument on the lengths of the triangle sides.    How do these two sketches together show that the Pythagorean Theorem holds?          Reflecting on the Pythagorean Theorem  Most people can state the Pythagorean Theorem and use it to find missing lengths in a right triangle, but in this section you have learned why the theorem holds for all right triangles. We have practiced using variables in our arguments so that our explanation is not just shown for a right triangle with lengths 3, 4, and 5 (or 5, 12, and 13), but for all right triangles. Even so, the fact that we used puzzle pieces enables us to share this knowledge with anyone who has at least a fourth grade knowledge of geometry, area, and square numbers. A few of our proofs did not require the algebraic representation and symbolic manipulation learned in middle or high school.  On the other hand, we need to be careful that we do not try to apply this theorem to non-right triangles. It is possible to create a triangle whose side lengths are 3, 5, and 6, but this triangle will not have a right angle. In fact, the converse of the Pythagorean Theorem states that if , , and are sides of a triangle with , then the triangle will have a right angle opposite the side with length .     Exercises   Building Our Toolbox   Pythagorean Theorem   Write down the formula for the Pythagorean Theorem. Use an example and sketch as you explain when the theorem can be used, what the variables represent, and how to use the formula to solve a problem.     Principle of Additivity of Length      Use a picture to demonstrate why a segment formed by extending a segment of length units by a segment of more units produces a segment of length units.    What happens when segments of length 3 inches, of length 5 inches, and of length 6 inches are joined at the endpoints, , , and ? Is this still a straight line?    Again let have length 3 inches and have length 5 inches. Can you create segment with length 10 inches? Explain.         Skills and Recall    Determine the following in :   The length of .    The length of .    The length of . Note .    The perimeter of quadrilateral .      Images for   Right triangle ABC has legs of length 5 and 6. Right triangle DEF has hypotenus of 5.6 and leg DE of length 5. Quadrilateral GHIJ is formed by two triangles that share diagonal HJ of length 6. HIJ is an isosceles right triangle with legs x and hypotenuse 6. GHJ has a right angle at H and a hypotenuse GJ of length 6.5.        Extending the Concepts   Pythagorean Inequalities   Use to answer the questions that follow:   GeoGebra Interactive for        The measure of is given by the value of slider . With this slider set to 90 degrees, move the other two sliders to change the lengths of and . The length of should also change.  What do you notice about and ?      Now change the value of so that . What do you notice about and ? Is your observation also true when you change and ? Does your observation remain true when you change to another acute angle?      Now slide so that it has a value between 90 degrees and 180 degrees. How do and compare now? Experiment with different obtuse angles and lengths to see whether your conjecture remains true.        Generating Pythagorean Triples with Algebra   A Pythagorean triple is a set of three positive integers , , and such that .   Find that forms a Pythagorean triple with the numbers and . Show your work.    Find the number that forms a Pythagorean triple with the numbers and . Show your work.    Demonstrate by an example that it is not always possible to create a Pythagorean triple from two given integers. In other words, name two integers, and , such that is not equal to a perfect square.    Choose two positive integers. Call the smaller one and the larger one .   Compute and call it .    Compute and call it .    Is there a third positive integer such that , , and form a Pythagorean triple? If so, what is ?       Use algebra to demonstrate that the sum of and is always a perfect square when and are positive integers with . What does this tell you about Pythagorean triples?        Area of a Regular Hexagon   A regular hexagon with side length 6 units is pictured in . Determine the following:   The height of the hexagon.  The area of the hexagon.      A regular hexagon with side length 6 units.   A regular hexagon with side length 6 units.        Writing Prompts    Write a letter to a friend using one of the puzzle proofs in this section to explain why the Pythagorean Theorem holds. or should play an implicit or explicit role in your explanation.      "
+},
+{
+  "id": "def-righttriangle",
+  "level": "2",
+  "url": "sec-polygons-length.html#def-righttriangle",
+  "type": "Definition",
+  "number": "2.5.1",
+  "title": "",
+  "body": " triangle right  right triangle  hypotenuse  leg right triangle   As noted in , a right triangle is a triangle with one right angle. The longest side, called the hypotenuse , of a right triangle is always opposite the right angle. The other two sides of the right triangle are called the legs .   "
+},
+{
+  "id": "sec-polygons-length-3-3-3",
+  "level": "2",
+  "url": "sec-polygons-length.html#sec-polygons-length-3-3-3",
+  "type": "Reading Question",
+  "number": "2.5.1.1",
+  "title": "",
+  "body": "  Which lowercase letter represents the hypotenuse in the triangle above?        "
+},
+{
+  "id": "sec-polygons-length-3-3-4",
+  "level": "2",
+  "url": "sec-polygons-length.html#sec-polygons-length-3-3-4",
+  "type": "Reading Question",
+  "number": "2.5.1.2",
+  "title": "",
+  "body": "  Which angle appears to be the smallest in the triangle?        "
+},
+{
+  "id": "sec-polygons-length-3-3-5",
+  "level": "2",
+  "url": "sec-polygons-length.html#sec-polygons-length-3-3-5",
+  "type": "Reading Question",
+  "number": "2.5.1.3",
+  "title": "",
+  "body": "  Which side appears to be the shortest in the triangle?      "
+},
+{
+  "id": "sec-polygons-length-3-3-6",
+  "level": "2",
+  "url": "sec-polygons-length.html#sec-polygons-length-3-3-6",
+  "type": "Reading Question",
+  "number": "2.5.1.4",
+  "title": "",
+  "body": "  How are the answers to the last two questions related? Does this relationship also hold for the largest side and largest angle?    The smallest side is opposite the smallest angle. The largest side is opposite the largest angle.   "
+},
+{
+  "id": "thm-Pythagorean",
+  "level": "2",
+  "url": "sec-polygons-length.html#thm-Pythagorean",
+  "type": "Theorem",
+  "number": "2.5.2",
+  "title": "Pythagorean Theorem.",
+  "body": " Pythagorean Theorem   Suppose is a right triangle with right angle at . Let and be the lengths of legs and , respectively, and let be the length of the hypotenuse . Then .   "
+},
+{
+  "id": "sec-polygons-length-4-5-2",
+  "level": "2",
+  "url": "sec-polygons-length.html#sec-polygons-length-4-5-2",
+  "type": "Reading Question",
+  "number": "2.5.2.1",
+  "title": "",
+  "body": "  A triangle has legs of length 5 and 7. Determine the length of the hypotenuse.        "
+},
+{
+  "id": "sec-polygons-length-4-5-3",
+  "level": "2",
+  "url": "sec-polygons-length.html#sec-polygons-length-4-5-3",
+  "type": "Reading Question",
+  "number": "2.5.2.2",
+  "title": "",
+  "body": "  A square has a diagonal of length . Determine the length of the sides.    Since the sides of a square are the same length, use the same letter to represent all of them. How do you create a triangle from a square?        "
+},
+{
+  "id": "sec-polygons-length-5-4",
+  "level": "2",
+  "url": "sec-polygons-length.html#sec-polygons-length-5-4",
+  "type": "Exploration",
+  "number": "2.5.1",
+  "title": "Puzzling over Why the Pythagorean Theorem Holds.",
+  "body": " Puzzling over Why the Pythagorean Theorem Holds   For these explorations, we start with an arbitrary right triangle with hypotenuse length and legs of length and .    First Pythagorean Puzzle   In , the four blue triangles on the right are congruent copies of the right triangle . Check Puzzle_1 to reveal a second square. The side length of this new orange square is . To verify this, you can line up the side of the square with the hypotenuse of one of the triangles.   An interactive GeoGebra applet for .       Fill the square on the left using the four blue copies of the triangle and the orange square on the right. Pieces can be moved by selecting the interior and they can be rotated by moving the dotted vertex. The red triangle labeled is only shown for reference and will not be used. As always, there should be no gaps or overlaps. Preserve your work with a sketch or screenshot.    What is the length of a side of the square that you filled? Give your answer in terms of lengths , , and\/or .    Determine the area of each of the pieces used to fill the square frame using the variables , , and\/or . Write the sum of these areas in terms of these variables.        Second Pythagorean Puzzle   For this puzzle, select Puzzle_2 in . The orange square should no longer be visible. Instead, a green square with side length , corresponding to the shorter leg of . The purple square below it has a side length corresponding to the other leg.    An interactive GeoGebra applet for .       Fill the square frame on the lower left with the four congruent right triangles and the squares with lengths and , respectively. Preserve your work with a sketch or screenshot.    What is the length of a side of the square that you filled? Give your answer in terms of lengths , , and\/or .    Determine the area of each of the pieces used to fill the square frame using the variables , , and\/or . Write the sum of these areas using variables.        Using the First Two Puzzles Together to Prove the Pythagorean Theorem   Look at the two ways in which you filled the square frames and the expressions for the area of the frames. How can you use this to justify the formula ?   An alternative is to use just the first puzzle and more algebra to prove the Pythagorean Theorem. This is acceptable, but Education majors may appreciate that the method of using both puzzles together can be used to convince third graders.     We could change the size and shape of the right triangle by moving any of the vertices , , or in the red triangle. Note that the sizes of the squares will also change according to the new lengths of the sides of the triangle. Will the length of each side of the black square frames still be expressed with the algebraic formula you indicated above? Can the new pieces be moved so that the new frame can be filled using the Puzzle 1 pieces and separately using the Puzzle 2 pieces? Give an algebraic argument for why the frame for Puzzle 1 and Puzzle 2 must be the same for any specified right triangle. Why does this allow us to set the two sums of areas equal to each other?     A Presidential Proof   This proof of the Pythagorean Theorem is attributed to James A. Garfield, the twentieth President of the United States. Refer to the diagram below:   Right triangle ABC with right angle at C. Point D is placed on ray CA so that the length of AD equals the length of BC. Point E is placed on the same side of CD as B so that line DE is perpendicular to AD and segment DE is the same length as AC. Points E and B are joined by a segment. This creates two congruent right triangles ABC and EAD and an isoceles right triangle BAE. The outer boundary is a trapezoid BCDE since BC and DE are parallel.      The diagram above consists of two congruent right triangles and one isosceles right triangle arranged to form a trapezoid. Label the hypotenuses with the letter . Label the smallest side of these triangles and the other leg . Note that the hypotenuse of the remaining right triangle is longer than . Instead, call its length to distinguish between the two numbers.    Identify the two parallel bases for the trapezoid. Determine the height of this trapezoid in terms of the labels you put on the diagram.    Compute the area of the trapezoid using the trapezoid formula leaving your answer in terms of the variables you used to label the diagram.    Similarly, compute the areas of each of the three triangular pieces and add them together.    How does this prove the Pythagorean Theorem?         The final proof of the Pythagorean Theorem is primarily visual. Almost no algebra is required. The GeoGebra interactive in provides four copies of a right triangle and a smaller square of unlabeled side length that can be moved and rotated.   An interactive GeoGebra applet for proving the Pythagorean Theorem.       Rearrange the four congruent triangle copies and the small square to form a square. Verify that your shape is definitely a square. Do not use . Drag the centers of shapes to move them and use the labeled corners to rotate. Save a copy of your work.    What is the length of a side of this square?    What is the area of the square you created?    What is the length of a side of the small square in terms of the labels , , and\/or ?    Once again, our goal is to show . Use the same five pieces to create a pair of touching squares of area and . Some puzzle pieces will cover parts of both squares. A second copy of the GeoGebra applet is provided below for your use.   An interactive GeoGebra applet for proving the Pythagorean Theorem, repeated from above.      How do you know that the two squares in your diagram are actually squares and that their side lengths are and , respectively? Base your argument on the lengths of the triangle sides.    How do these two sketches together show that the Pythagorean Theorem holds?       "
+},
+{
+  "id": "polygons-length-BOT-Pyth",
+  "level": "2",
+  "url": "sec-polygons-length.html#polygons-length-BOT-Pyth",
+  "type": "Exercise",
+  "number": "2.5.5.1",
+  "title": "Pythagorean Theorem.",
+  "body": " Pythagorean Theorem   Write down the formula for the Pythagorean Theorem. Use an example and sketch as you explain when the theorem can be used, what the variables represent, and how to use the formula to solve a problem.   "
+},
+{
+  "id": "polygons-length-BOT-lengthadditivity",
+  "level": "2",
+  "url": "sec-polygons-length.html#polygons-length-BOT-lengthadditivity",
+  "type": "Exercise",
+  "number": "2.5.5.2",
+  "title": "Principle of Additivity of Length.",
+  "body": " Principle of Additivity of Length      Use a picture to demonstrate why a segment formed by extending a segment of length units by a segment of more units produces a segment of length units.    What happens when segments of length 3 inches, of length 5 inches, and of length 6 inches are joined at the endpoints, , , and ? Is this still a straight line?    Again let have length 3 inches and have length 5 inches. Can you create segment with length 10 inches? Explain.      "
+},
+{
+  "id": "exer-SAR-Pyth",
+  "level": "2",
+  "url": "sec-polygons-length.html#exer-SAR-Pyth",
+  "type": "Exercise",
+  "number": "2.5.5.3",
+  "title": "",
+  "body": "  Determine the following in :   The length of .    The length of .    The length of . Note .    The perimeter of quadrilateral .      Images for   Right triangle ABC has legs of length 5 and 6. Right triangle DEF has hypotenus of 5.6 and leg DE of length 5. Quadrilateral GHIJ is formed by two triangles that share diagonal HJ of length 6. HIJ is an isosceles right triangle with legs x and hypotenuse 6. GHJ has a right angle at H and a hypotenuse GJ of length 6.5.     "
+},
+{
+  "id": "ExtConc-PythIneq",
+  "level": "2",
+  "url": "sec-polygons-length.html#ExtConc-PythIneq",
+  "type": "Exercise",
+  "number": "2.5.5.4",
+  "title": "Pythagorean Inequalities.",
+  "body": " Pythagorean Inequalities   Use to answer the questions that follow:   GeoGebra Interactive for        The measure of is given by the value of slider . With this slider set to 90 degrees, move the other two sliders to change the lengths of and . The length of should also change.  What do you notice about and ?      Now change the value of so that . What do you notice about and ? Is your observation also true when you change and ? Does your observation remain true when you change to another acute angle?      Now slide so that it has a value between 90 degrees and 180 degrees. How do and compare now? Experiment with different obtuse angles and lengths to see whether your conjecture remains true.      "
+},
+{
+  "id": "ExtConc-polygons-length-3",
+  "level": "2",
+  "url": "sec-polygons-length.html#ExtConc-polygons-length-3",
+  "type": "Exercise",
+  "number": "2.5.5.5",
+  "title": "Generating Pythagorean Triples with Algebra.",
+  "body": " Generating Pythagorean Triples with Algebra   A Pythagorean triple is a set of three positive integers , , and such that .   Find that forms a Pythagorean triple with the numbers and . Show your work.    Find the number that forms a Pythagorean triple with the numbers and . Show your work.    Demonstrate by an example that it is not always possible to create a Pythagorean triple from two given integers. In other words, name two integers, and , such that is not equal to a perfect square.    Choose two positive integers. Call the smaller one and the larger one .   Compute and call it .    Compute and call it .    Is there a third positive integer such that , , and form a Pythagorean triple? If so, what is ?       Use algebra to demonstrate that the sum of and is always a perfect square when and are positive integers with . What does this tell you about Pythagorean triples?      "
+},
+{
+  "id": "ExtConc-polygons-length-4",
+  "level": "2",
+  "url": "sec-polygons-length.html#ExtConc-polygons-length-4",
+  "type": "Exercise",
+  "number": "2.5.5.6",
+  "title": "Area of a Regular Hexagon.",
+  "body": " Area of a Regular Hexagon   A regular hexagon with side length 6 units is pictured in . Determine the following:   The height of the hexagon.  The area of the hexagon.      A regular hexagon with side length 6 units.   A regular hexagon with side length 6 units.     "
+},
+{
+  "id": "writing-polygons-length-2",
+  "level": "2",
+  "url": "sec-polygons-length.html#writing-polygons-length-2",
+  "type": "Exercise",
+  "number": "2.5.5.7",
+  "title": "",
+  "body": "  Write a letter to a friend using one of the puzzle proofs in this section to explain why the Pythagorean Theorem holds. or should play an implicit or explicit role in your explanation.   "
+},
+{
+  "id": "ch-polygons-8",
+  "level": "1",
+  "url": "ch-polygons-8.html",
+  "type": "References",
+  "number": "2.6",
+  "title": "References and Suggested Readings",
+  "body": " References and Suggested Readings  Kinsey, L.C and T.E. Moore Symmetry, Shape, and Space: An Introduction to Mathematics Through Geometry Key College Publishing, New York NY 2002.   O'Daffer, P.G. and S.R. Clemens, Geometry: An Investigative Approach 2nd ed., Pearson, 1992.   Casselman, Bill, How Did Escher Do It?  American Mathematical Society   June 2010.    "
+},
+{
+  "id": "sec-polygons-instructor",
+  "level": "1",
+  "url": "sec-polygons-instructor.html",
+  "type": "Section",
+  "number": "2.7",
+  "title": "Instructor Notes",
+  "body": " Instructor Notes   Notes for  Although students may know the area formulas for a parallelogram and a triangle, they don't necessarily know how they are related and why height is such an important parameter. Students are less likely to know the area of a trapezoid, which is fine since it is rarely used, but this activity enables them to reconstruct the formula. The emphasis in this section is on creativity, justification, and communication, not computation. this can be an opportunity to demonstrate how the use of labels makes it easier to communicate clearly. I typically assign the trapezoid area \"letter\" as one of the two major explanatory papers in the course. The most common dissection created by students involves cutting the trapezoid into a rectangle and two triangles. Unfortunately, this dissection is the hardest one to work with algebraically as it requires breaking the longer base into three parts and introducing two extra variables. After they have completed the inclass activity, I show them the following picture of some possible dissections that previous students have used.   Dissections of Trapezoids      Notes for  Students should have access to a protractor. Not all students will know how to use one correctly. If the protractor has a hole to align with the vertex, that will be useful in measuring spherical angles in section     Notes for   This is a new section and has not been tested in a class. I'm still trying to strike a balance between introducing students to the strange and exciting world of non-Euclidean geometry without overwhelming them with mathematical rigor. I have used some of the activities in worksheet form, but the reading sections are new and may change. I encourage you to try the spherical triangle activity in advance to decide whether physical spheres will work for your class and how to measure angles. Alternatively, you might consider using the GeoGebra app , authored by Heather Pierce, to have students draw lines and triangles on a virtual sphere.   I am considering adding an exploration of hyperbolic triangles in the exercise section or as an optional subsection.    Notes for  Explorations into regular and semiregular tilings will encourage students to discover the total angle measure of a convex gon, to develop a formula for the vertex angle of a regular gon, and to observe how alternating patterns can continue around even-sided polygons but not odd ones.  For in-class exploration, you may opt to have pattern blocks or stencils available to assemble and trace, but most sets of pattern blocks do not include regular pentagons, regular heptagons, regular octagons, etc. The online application Polypad by Amplify , provides regular polygons for through and regular -gons can be created using the \"regular\" tile and dragging the dot. Some interactives and images will be included in the exploration activities.  The end of this section, , can be omitted depending on the level of reasoning and rigor you wish to develop and the interests of your students. There will be an optional section in on semiregular polyhedra that applies what is developed here. In that section, students can also learn and explore the possibilities without delving into the governing rules. Even if you choose to skip this section, you might want to have worked through the following activities or read about the topic to prepare yourself to lead a discussion. I have also used the following explorations as a way to engage fast groups in class discovery while other groups are catching up.  This section also offers the opportunity for further explorations into dual tilings, tilings with nonregular polygons, creating art from regular tilings, and asymmetric tilings. A few of these are suggested in the list of projects at the end of this section. My students have enjoyed hearing about Marjorie Rice, a housewife, mother, and amateur mathematician who famously discovered new pentagonal tiles. As you look at other resources, note that the terms tiling and tessellation are used interchangeably.  The web application Polypad by Amplify provides regular -gons for . These are the top six shapes in the Polygons and Shapes menu. Simply drag the shape from the left into the whiteboard area. Rotate using the black dot and move by clicking on the interior. For -gons with , use the hexagon labeled \"regular\" in the bottom rom of shapes. After you have moved this figure into the whiteboard, use the dotted vertex to increase the number of sides. You can then use the duplicated sheet icon on the flip\/cut\/... menu to make copies of your -gon.    Notes for  To be added. I assign an explanatory letter on the Pythagorean Theorem. I need to go back and fix some of the puzzles. Because three of the blue copies of triangles are duplicates of the first, they do not expand if you change the shape of , but the first triangle does. Until this is fixed, encourage students not to touch . They can use the reset icon or Ctrl-Z to go back if a student does this. They can also refresh the webpage and it will go back to the original. It should stay on the same page.   "
+},
+{
+  "id": "sec-polygons-instructor-2-3",
+  "level": "2",
+  "url": "sec-polygons-instructor.html#sec-polygons-instructor-2-3",
+  "type": "Figure",
+  "number": "2.7.1",
+  "title": "",
+  "body": " Dissections of Trapezoids   "
+},
+{
+  "id": "sec-polyhedra-regular",
+  "level": "1",
+  "url": "sec-polyhedra-regular.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Regular Polyhedra",
+  "body": " Regular Polyhedra   Two-Dimensional and Three-Dimensional Objects  Polygons and circles lie in a plane. Figures that lie in a plane and have a height and length are said to be two-dimensional objects. We can measure the area of closed two-dimensional figures. When we limit our geometrical study to objects that lie in one common plane, we are studying two-dimensional geometry. We often use an -coordinate system to represent points on a plane. The -axis represents one direction (across) while the -axis represents a second direction (up or down). Objects within the plane also include lines (one-dimensional objects) and points (zero-dimensional objects). In fact, the real number line or -axis is one of may one-dimenstional lines in the . When we define parallel and perpendicular lines, we assume that these one-dimensional lines are lying in a common two-dimensional plane.   Skew lines only exist in three-dimensional (or higher) geometry. During our brief glance at spherical geometry in and hyperbolic geometry in , we limited our work to objects on a specified surface. Each of these surfaces, the sphere or the disk, is analogous to a plane and hence considered two-dimensional in its non-Euclidean geometry.  One can study the sphere as a three-dimensional object in Euclidean geometry. In addition, one can extend the Hyperbolic Disk Model to three dimensions.    Check Your Understanding of Two-Dimensional Objects    Lines, segments, and rays live in the plane, but they are considered to be one-dimensional objects. Why?    Answers may vary. Linear objects have only dimension length, not width or depth. We cannot measure the area of a linear object.      Points are considered to be zero-dimensional objects. Why?    Points have no length, width, or breadth.      A circle is considered to be a two-dimensional object, but we typically use one attribute, namely radius, when describing its size. Does a circle have a height and width? If so, how are the height and width of a circle related to its radius?    Both the height and width of a circle are equal to the diameter; that is, twice the length of the radius. We can measure the area of a circle.     In this section, we will explore three-dimensional solids. Solids with flat polygonal sides, like cubes and pyramids, are called polyhedra. Other solids, like cylinders and spheres have curved faces.  To fully understand this chapter, you will need to construct some of these figures. Be prepared to print copies of patterns on paper or cardstock so that you can fold and tape the figures together as needed.    Defining a Polyhedron  Some three-dimensional solids have polygonal faces.   polyhedron  polyhedron convex  convex polyhedron  concave polyhedron  polyhedron concave   A polyhedron (plural: polyhedra) is a three-dimensional closed figure in which all of the faces are polygons. Both of the solids in are polyhedra, but the one on the left is said to be concave since we can connect some vertices, like the far left and top vertex with straight segments that pass through the exterior (outside the surface) of the solid. As we work through this chapter, we will assume that a polyhedron is convex so that it has no valleys or depressions. Any line segment connecting two points on the surface of a convex polyhedron will only contain points on the surface or interior of the polyhedron.     A concave polyhedron and a convex polyhedron   A concave polyhedron and a convex polyhedron     face  edge polyhedron  vertex polyhedron  polyhedron face  polyhedron edge  polyhedron vertex   A face of a geometrical solid refers to a flat surface that forms part of the boundary of the solid. The line segments where two faces meet are called edges , and the points where edges meet are called the vertices of the polyhedron. The vertices of the polyhedron are also vertices of its polygonal faces.    While it is not incorrect to call a face of a polyhedron a side , one should be careful to distinguish between a face of the polyhedron and a side of a polygon (which is an edge of the polyhedron). Using the terms face and edge will make our discussions about polyhedra clearer.   face angle  angle of polyhedron face angle  polyhedron face angle  angle polyhedron   Note also that a polyhedron has more than one type of angle. In this section, we will be working with angles whose rays are adjacent edges of the polyhedron. Each of these angles is a vertex angle of one of the faces of the polyhedron; hence, we may refer to them as face angles . This is not the same as a dihedral angle , measuring the space between two faces.       Which of the following solids are polyhedra?   cylinder    cube    triangular prism   sphere      A cube and triangular prism are polyhedra. A cylinder and sphere are not polyhedra since they have curved surfaces.      Defining Regular Polyhedra  Just as with polygons and tilings, we describe some polyhedra as regular polyhedra . These special solids were identified by Greek mathematicians around 300 B.C., appear in ancient and modern artwork, and are used to model chemical and biological structures today. In this section, we will find that there are only a handful of polyhedra that meet the criteria of being regular.   regular polyhedron  polyhedron regular   A polyhedron is said to be regular if it satisfies these two conditions:   The faces are congruent regular polygons and    At every vertex, the number of polygons meeting is the same.         What Regular Polyhedra Exist   Discovering Regular Polyhedra   A nonregular polyhedron   Explain why a square pyramid, , is not a regular polyhedron.    Reread the definition for regular polyhedron.     Angle Measures at a Vertex     When we constructed tilings of the plane in , we found the sum of the measures of the angles surrounding a vertex was always the same. What was that sum?  Why must the total degree of the face angles surrounding a vertex be less than that amount if we are building a polyhedron instead of a tiling?      Look at some polyhedra or attempt to build some. Unless it has curved walls, your classroom is probably a polyhedra.     Regular Polyhedra with Triangular Faces   For this task, you will need copies of rigid congruent equilateral triangles that can be put together. There are commercially available shapes that can be snapped together, but you can also create your own using tagboard or even straws and string.   An online search for isometric graph paper will give you a sheet of congruent triangles that could be enlarged, printed on stiff paper, and cut. Equilateral triangles for building polyhedra may also be created from short straws and string. Perhaps, you have other ideas? Popsicle sticks? An edge length of at least 2 centimeters is recommended.   Which regular polyhedra can be formed using only equilateral triangles? To answer this question, we will consider the possible number of triangles that could meet at each vertex and attempt to construct the polyhedron, making sure that we keep the vertex arrangement consistent. Later you will be asked to enter the answers to some of these questions into .   What happens when you try to construct a polyhedron with only two triangles, and no other shapes, meeting at a vertex?    It is possible to create a regular polyhedron with exactly three triangles meeting at every vertex.   Build this polygon and describe its shape or save a picture of it.    How many triangular faces does this polyhedron have?    How many edges does this polyhedron have?    How many vertices does this polyhedron have?       It is also possible to create a polyhedron with exactly four triangles meeting at every vertex.   Build this polygon and describe its shape or save a picture of it. Check every vertex of the polyhedron to make sure there are exactly four triangles meeting.    How many triangular faces does this polyhedron have?    How many edges does this polyhedron have?    How many vertices does this polyhedron have?       Is it possible to create a regular polyhedron with exactly five triangles meeting at each vertex? If so, build it, record your work, and count the faces, edges, and vertices.    What is the largest number of triangles that can meet at a vertex to form a corner or point of a polyhedron? What happens when you squeeze one more triangle in at a vertex?    Optional Extension: What happens when you squeeze yet another triangle in at each vertex ?    Use your answers above to complete the following table:      Regular Polyhedra with Triangular Faces    Number of faces at each vertex  Total number of faces  Total number of edges  Total number of vertices    3       4       5           A Nonregular Polyhedron made from Regular Triangles   There is a polyhedron that can be constructed which has exactly six faces, all being equilateral triangles. Build this polyhedron, and then explain why it does not satisfy the definition of a regular polyhedron.     Other Regular Polyhedra   We now explore whether we can form regular polyhedra using squares, regular pentagons, or other regular polygons.   Regular polyhedra with square faces:   Each angle of a square has what degree measure?    Is it possible to create a regular polyhedron using only squares? If so, determine the number of squares that must meet at each vertex. Then construct or describe the polyhedron. Record a picture.   If you are making your own squares, you will need to ensure that every angle of each square is 90 degrees. Models made from straws may lose that property without proper support. On the other hand, you may have examples of a regular polyhedron with square faces already so that you do not need to build this.     If the construction is possible, count the faces at each vertex, the total number of faces, the total number of edges, and the total number of vertices. Record the information in below.    Would it be possible to create a regular polyhedron with fewer squares meeting at each vertex? Why or why not?    Would it be possible to create a regular polyhedron with more squares meeting at each vertex? Why or why not?       Regular polyhedra with pentagonal faces:   What is the measure of a vertex angle of a regular pentagon?    Is it possible to create a regular polyhedron using only pentagons? If so, determine the number of regular pentagons that must meet at each vertex and then construct the polyhedron. Carefully describe this polyhedron and\/or save a picture.   Search for regular pentagon template to find a sheet of congruent regular pentagons that you can resize, print on sturdy paper, and cut.     If the construction was possible, count the faces at each vertex, the total number of faces, the total number of edges, and the total number of vertices. Record the information in below.    Is this the only possible regular polyhedron using pentagons? Explain.       In search of regular polyhedra whose faces have more than five sides:   What is the measure of each vertex angle in a regular hexagon?    Why would surrounding a vertex with three hexagons not result in a possible corner for a polyhedron?    If a regular polygon has more than six sides, then the measure of each of its vertex angles must be between what two numbers?    Write a thorough and convincing argument as to why any regular polyhedron must be bounded by equilateral triangles, squares, or regular pentagons. Conclude that there are exactly five types of regular polyhedra.       Use your answers above to complete the following table:      Regular Polyhedra with Square or Pentagonal Faces    Shape of Face  Number of faces at each vertex  Total number of faces  Total number of edges  Total number of vertices    square        pentagon             Look at the tables and . Let be the total number of faces, be the total number of edges, and be the total number of vertices. What do you notice about ?     We have determined that there are exactly five regular polyhedra. They have the names, tetrahedron (four-faced), hexahedron (six-faced), octahedron (eight-faced), dodecahedron (12-faced), and icosahedron (20-faced). Match these names to the polyhedra you created and add these labels to the appropriate lines in your tables.    Nets for Polyhedra  While building your polyhedra, you may have wondered whether it was necessary to cut out and glue each polygon separately. gives a triangle that can be cut out and folded along the interior lines to produce a regular tetrahedron. You may want to leave a little extra paper along some of the external edges so that you have a surface for gluing them together. This pattern is called a net for the polyhedron.   net polyhedron  polyhedral net   A net for a polyhedron is a single-piece pattern for the polyhedron that can be folded and glued to form the solid. A net can be created by cutting the polyhedron along some of its edges and unfolding. There are multiple nets for each polyhedron.     A net for a regular tetrahedron   The midpoints of the sides of an equilateral triangle are joined by segments to divide the triangle into four congruent equilateral triangles.      Exercises   Building your Toolbox    Give a definition of regular polyhedra in your own words. Then, name and describe each of the five regular polyhedra. In particular, you should mention the shape of each face and the number of faces meeting at each vertex.      Identify by name and\/or picture three examples of polyhedra that are not regular. Explain why each is not regular.      What must be true about the sum of the angle measures at any vertex of a convex polyhedron?      Skills and Recall   Tetrahedral Nets   Two patterns are given in . Which, if any, will form a regular tetrahedron when folded along the interior lines?   Possible tetrahedral nets   Pattern a gives a string of four equilateral triangles arranged in a line. The fold lines zigzag down the interior of the design. Pattern b gives four equilateral triangles which share a common vertex.       Nets for a Cube   Sketch a net for a cube and use it to construct a cube.     Nets for Polyhedra?   Give an explanation for why each of the patterns in cannot be a net for a regular polyhedron.   Not regular polyhedral nets   Pattern a has six squares. Four are in a row and there is one below the first and the last. Pattern b has three squares in a row and two equilateral triangles, one each along the top edge of the center square and along the bottom edge of the center square. Pattern c is a strip of six alternating regular triangles. Pattern d has four 1.3x2 rectangles and two 1.3x1.3 squares.        Extending the Concepts   Counting Vertices and Edges   It is easy to lose track when counting the vertices or edges of a polyhedron with many faces. We can use mathematical reasoning to compute these values for regular polyhedra.     Every edge gets glued to one edge of another triangle so the assembled octahedron will have half as many edges. How many edges does the octahedron have?      How many triangles meet at each vertex of an octahedron?      Divide the total number of vertices of the triangles, 24, by the number of triangles that meet at each vertex of the octahedron. This will give you the number of vertices in the assembled octahedron.      Use a similar argument to compute the number of edges and vertices in an icosahedron.        "
+},
+{
+  "id": "subsec-polyhedra-reg-3DSolids-4",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids-4",
+  "type": "Checkpoint",
+  "number": "3.1.1",
+  "title": "Check Your Understanding of Two-Dimensional Objects.",
+  "body": " Check Your Understanding of Two-Dimensional Objects    Lines, segments, and rays live in the plane, but they are considered to be one-dimensional objects. Why?    Answers may vary. Linear objects have only dimension length, not width or depth. We cannot measure the area of a linear object.      Points are considered to be zero-dimensional objects. Why?    Points have no length, width, or breadth.      A circle is considered to be a two-dimensional object, but we typically use one attribute, namely radius, when describing its size. Does a circle have a height and width? If so, how are the height and width of a circle related to its radius?    Both the height and width of a circle are equal to the diameter; that is, twice the length of the radius. We can measure the area of a circle.    "
+},
+{
+  "id": "def-polyhedron",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#def-polyhedron",
+  "type": "Definition",
+  "number": "3.1.2",
+  "title": "",
+  "body": " polyhedron  polyhedron convex  convex polyhedron  concave polyhedron  polyhedron concave   A polyhedron (plural: polyhedra) is a three-dimensional closed figure in which all of the faces are polygons. Both of the solids in are polyhedra, but the one on the left is said to be concave since we can connect some vertices, like the far left and top vertex with straight segments that pass through the exterior (outside the surface) of the solid. As we work through this chapter, we will assume that a polyhedron is convex so that it has no valleys or depressions. Any line segment connecting two points on the surface of a convex polyhedron will only contain points on the surface or interior of the polyhedron.   "
+},
+{
+  "id": "fig-convex-concave-polyhedra",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#fig-convex-concave-polyhedra",
+  "type": "Figure",
+  "number": "3.1.3",
+  "title": "",
+  "body": " A concave polyhedron and a convex polyhedron   A concave polyhedron and a convex polyhedron   "
+},
+{
+  "id": "def-FEV-polyhedron",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#def-FEV-polyhedron",
+  "type": "Definition",
+  "number": "3.1.4",
+  "title": "",
+  "body": " face  edge polyhedron  vertex polyhedron  polyhedron face  polyhedron edge  polyhedron vertex   A face of a geometrical solid refers to a flat surface that forms part of the boundary of the solid. The line segments where two faces meet are called edges , and the points where edges meet are called the vertices of the polyhedron. The vertices of the polyhedron are also vertices of its polygonal faces.   "
+},
+{
+  "id": "subsec-def-polyhedra-6",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#subsec-def-polyhedra-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "face edge "
+},
+{
+  "id": "def-face-angle",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#def-face-angle",
+  "type": "Definition",
+  "number": "3.1.5",
+  "title": "",
+  "body": " face angle  angle of polyhedron face angle  polyhedron face angle  angle polyhedron   Note also that a polyhedron has more than one type of angle. In this section, we will be working with angles whose rays are adjacent edges of the polyhedron. Each of these angles is a vertex angle of one of the faces of the polyhedron; hence, we may refer to them as face angles . This is not the same as a dihedral angle , measuring the space between two faces.    "
+},
+{
+  "id": "subsec-def-polyhedra-8",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#subsec-def-polyhedra-8",
+  "type": "Checkpoint",
+  "number": "3.1.6",
+  "title": "",
+  "body": "  Which of the following solids are polyhedra?   cylinder    cube    triangular prism   sphere      A cube and triangular prism are polyhedra. A cylinder and sphere are not polyhedra since they have curved surfaces.   "
+},
+{
+  "id": "sec-polyhedra-regular-4-2",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#sec-polyhedra-regular-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "regular polyhedra "
+},
+{
+  "id": "def-regpolyhedron",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#def-regpolyhedron",
+  "type": "Definition",
+  "number": "3.1.7",
+  "title": "",
+  "body": " regular polyhedron  polyhedron regular   A polyhedron is said to be regular if it satisfies these two conditions:   The faces are congruent regular polygons and    At every vertex, the number of polygons meeting is the same.      "
+},
+{
+  "id": "sec-polyhedra-regular-5-2",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#sec-polyhedra-regular-5-2",
+  "type": "Exploration",
+  "number": "3.1.1",
+  "title": "Discovering Regular Polyhedra.",
+  "body": " Discovering Regular Polyhedra   A nonregular polyhedron   Explain why a square pyramid, , is not a regular polyhedron.    Reread the definition for regular polyhedron.     Angle Measures at a Vertex     When we constructed tilings of the plane in , we found the sum of the measures of the angles surrounding a vertex was always the same. What was that sum?  Why must the total degree of the face angles surrounding a vertex be less than that amount if we are building a polyhedron instead of a tiling?      Look at some polyhedra or attempt to build some. Unless it has curved walls, your classroom is probably a polyhedra.     Regular Polyhedra with Triangular Faces   For this task, you will need copies of rigid congruent equilateral triangles that can be put together. There are commercially available shapes that can be snapped together, but you can also create your own using tagboard or even straws and string.   An online search for isometric graph paper will give you a sheet of congruent triangles that could be enlarged, printed on stiff paper, and cut. Equilateral triangles for building polyhedra may also be created from short straws and string. Perhaps, you have other ideas? Popsicle sticks? An edge length of at least 2 centimeters is recommended.   Which regular polyhedra can be formed using only equilateral triangles? To answer this question, we will consider the possible number of triangles that could meet at each vertex and attempt to construct the polyhedron, making sure that we keep the vertex arrangement consistent. Later you will be asked to enter the answers to some of these questions into .   What happens when you try to construct a polyhedron with only two triangles, and no other shapes, meeting at a vertex?    It is possible to create a regular polyhedron with exactly three triangles meeting at every vertex.   Build this polygon and describe its shape or save a picture of it.    How many triangular faces does this polyhedron have?    How many edges does this polyhedron have?    How many vertices does this polyhedron have?       It is also possible to create a polyhedron with exactly four triangles meeting at every vertex.   Build this polygon and describe its shape or save a picture of it. Check every vertex of the polyhedron to make sure there are exactly four triangles meeting.    How many triangular faces does this polyhedron have?    How many edges does this polyhedron have?    How many vertices does this polyhedron have?       Is it possible to create a regular polyhedron with exactly five triangles meeting at each vertex? If so, build it, record your work, and count the faces, edges, and vertices.    What is the largest number of triangles that can meet at a vertex to form a corner or point of a polyhedron? What happens when you squeeze one more triangle in at a vertex?    Optional Extension: What happens when you squeeze yet another triangle in at each vertex ?    Use your answers above to complete the following table:      Regular Polyhedra with Triangular Faces    Number of faces at each vertex  Total number of faces  Total number of edges  Total number of vertices    3       4       5           A Nonregular Polyhedron made from Regular Triangles   There is a polyhedron that can be constructed which has exactly six faces, all being equilateral triangles. Build this polyhedron, and then explain why it does not satisfy the definition of a regular polyhedron.     Other Regular Polyhedra   We now explore whether we can form regular polyhedra using squares, regular pentagons, or other regular polygons.   Regular polyhedra with square faces:   Each angle of a square has what degree measure?    Is it possible to create a regular polyhedron using only squares? If so, determine the number of squares that must meet at each vertex. Then construct or describe the polyhedron. Record a picture.   If you are making your own squares, you will need to ensure that every angle of each square is 90 degrees. Models made from straws may lose that property without proper support. On the other hand, you may have examples of a regular polyhedron with square faces already so that you do not need to build this.     If the construction is possible, count the faces at each vertex, the total number of faces, the total number of edges, and the total number of vertices. Record the information in below.    Would it be possible to create a regular polyhedron with fewer squares meeting at each vertex? Why or why not?    Would it be possible to create a regular polyhedron with more squares meeting at each vertex? Why or why not?       Regular polyhedra with pentagonal faces:   What is the measure of a vertex angle of a regular pentagon?    Is it possible to create a regular polyhedron using only pentagons? If so, determine the number of regular pentagons that must meet at each vertex and then construct the polyhedron. Carefully describe this polyhedron and\/or save a picture.   Search for regular pentagon template to find a sheet of congruent regular pentagons that you can resize, print on sturdy paper, and cut.     If the construction was possible, count the faces at each vertex, the total number of faces, the total number of edges, and the total number of vertices. Record the information in below.    Is this the only possible regular polyhedron using pentagons? Explain.       In search of regular polyhedra whose faces have more than five sides:   What is the measure of each vertex angle in a regular hexagon?    Why would surrounding a vertex with three hexagons not result in a possible corner for a polyhedron?    If a regular polygon has more than six sides, then the measure of each of its vertex angles must be between what two numbers?    Write a thorough and convincing argument as to why any regular polyhedron must be bounded by equilateral triangles, squares, or regular pentagons. Conclude that there are exactly five types of regular polyhedra.       Use your answers above to complete the following table:      Regular Polyhedra with Square or Pentagonal Faces    Shape of Face  Number of faces at each vertex  Total number of faces  Total number of edges  Total number of vertices    square        pentagon             Look at the tables and . Let be the total number of faces, be the total number of edges, and be the total number of vertices. What do you notice about ?    "
+},
+{
+  "id": "sec-polyhedra-regular-5-3",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#sec-polyhedra-regular-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "tetrahedron hexahedron octahedron dodecahedron icosahedron "
+},
+{
+  "id": "def-net",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#def-net",
+  "type": "Definition",
+  "number": "3.1.10",
+  "title": "",
+  "body": " net polyhedron  polyhedral net   A net for a polyhedron is a single-piece pattern for the polyhedron that can be folded and glued to form the solid. A net can be created by cutting the polyhedron along some of its edges and unfolding. There are multiple nets for each polyhedron.   "
+},
+{
+  "id": "fig-tetranet",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#fig-tetranet",
+  "type": "Figure",
+  "number": "3.1.11",
+  "title": "",
+  "body": " A net for a regular tetrahedron   The midpoints of the sides of an equilateral triangle are joined by segments to divide the triangle into four congruent equilateral triangles.   "
+},
+{
+  "id": "HW-regpolyhedra-summary",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#HW-regpolyhedra-summary",
+  "type": "Exercise",
+  "number": "3.1.6.1",
+  "title": "",
+  "body": "  Give a definition of regular polyhedra in your own words. Then, name and describe each of the five regular polyhedra. In particular, you should mention the shape of each face and the number of faces meeting at each vertex.   "
+},
+{
+  "id": "Toolbox-polyhedra-reg-3",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#Toolbox-polyhedra-reg-3",
+  "type": "Exercise",
+  "number": "3.1.6.2",
+  "title": "",
+  "body": "  Identify by name and\/or picture three examples of polyhedra that are not regular. Explain why each is not regular.   "
+},
+{
+  "id": "Toolbox-polyhedra-reg-4",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#Toolbox-polyhedra-reg-4",
+  "type": "Exercise",
+  "number": "3.1.6.3",
+  "title": "",
+  "body": "  What must be true about the sum of the angle measures at any vertex of a convex polyhedron?   "
+},
+{
+  "id": "exercises-polyhedra-reg-3-2",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#exercises-polyhedra-reg-3-2",
+  "type": "Exercise",
+  "number": "3.1.6.4",
+  "title": "Tetrahedral Nets.",
+  "body": " Tetrahedral Nets   Two patterns are given in . Which, if any, will form a regular tetrahedron when folded along the interior lines?   Possible tetrahedral nets   Pattern a gives a string of four equilateral triangles arranged in a line. The fold lines zigzag down the interior of the design. Pattern b gives four equilateral triangles which share a common vertex.     "
+},
+{
+  "id": "exercises-polyhedra-reg-3-3",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#exercises-polyhedra-reg-3-3",
+  "type": "Exercise",
+  "number": "3.1.6.5",
+  "title": "Nets for a Cube.",
+  "body": " Nets for a Cube   Sketch a net for a cube and use it to construct a cube.   "
+},
+{
+  "id": "exercises-polyhedra-reg-3-4",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#exercises-polyhedra-reg-3-4",
+  "type": "Exercise",
+  "number": "3.1.6.6",
+  "title": "Nets for Polyhedra?",
+  "body": " Nets for Polyhedra?   Give an explanation for why each of the patterns in cannot be a net for a regular polyhedron.   Not regular polyhedral nets   Pattern a has six squares. Four are in a row and there is one below the first and the last. Pattern b has three squares in a row and two equilateral triangles, one each along the top edge of the center square and along the bottom edge of the center square. Pattern c is a strip of six alternating regular triangles. Pattern d has four 1.3x2 rectangles and two 1.3x1.3 squares.     "
+},
+{
+  "id": "exercises-polyhedra-reg-4-2",
+  "level": "2",
+  "url": "sec-polyhedra-regular.html#exercises-polyhedra-reg-4-2",
+  "type": "Exercise",
+  "number": "3.1.6.7",
+  "title": "Counting Vertices and Edges.",
+  "body": " Counting Vertices and Edges   It is easy to lose track when counting the vertices or edges of a polyhedron with many faces. We can use mathematical reasoning to compute these values for regular polyhedra.     Every edge gets glued to one edge of another triangle so the assembled octahedron will have half as many edges. How many edges does the octahedron have?      How many triangles meet at each vertex of an octahedron?      Divide the total number of vertices of the triangles, 24, by the number of triangles that meet at each vertex of the octahedron. This will give you the number of vertices in the assembled octahedron.      Use a similar argument to compute the number of edges and vertices in an icosahedron.    "
+},
+{
+  "id": "sec-polyhedra-semiregular",
+  "level": "1",
+  "url": "sec-polyhedra-semiregular.html",
+  "type": "Section",
+  "number": "3.2",
+  "title": "Semiregular Polyhedra",
+  "body": " Semiregular Polyhedra   Defining Semiregular Polyhedra  We now extend our collection of polyhedra by exploring what it means for a polyhedron to be semiregular. Note the resemblance to the definition of semiregular tiling.   semiregular polyhedron  polyhedron semiregular  vertex arrangement polyhedron   A polyhedron is semiregular if it satisfies the following conditions:  Every face is a regular polygon.  At least two polygonal faces have a different number of sides.  The arrangement of polygons at every vertex of the polyhedron is the same.    The notation for a vertex arrangement of a regular or semi-regular polyhedron is the same as what we used for tilings. For example, the vertex arrangement for a cube would be 4.4.4 because there are three squares meeting at any vertex of the cube.     Check your Understanding   Which regular polyhedron corresponds to the notation 3.3.3.3.3?    Does the number 3 correspond to the shape of the face or the number of faces that meet?     The icosahedron because five triangles meet at each vertex.      Examples of Semi-regular Polyhedra    The Great Rhombicosidodecahedron   One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron which is shown in Illustration produced by Robert Webb's Stella software accessible via http:\/\/www.software3d.com\/Stella.php . . Check that each visible vertex has the arrangement 4.6.10.   Great Rhombicosidodecahedron      Three polygons meet at each vertex of the great rhombicosidodecahedron. What is the sum of three angle measures at any one vertex?      The Icosidodecahedron   Another Archimedean solid is the icosidodecahedron Illustration produced by Robert Webb's Stella software accessible via http:\/\/www.software3d.com\/Stella.php . .   The Icosidodecahedron       What is the vertex arrangement of the icosidodecahedron?      How many pentagons are needed to create an icosidodecahedron? Be sure to count the ones you cannot see as well.      How many triangles are needed to create an icosidodecahedron?      Other Semi-regular Polyhedra   Choose one of the following vertex arrangements, , , , , , or .     Construct the semiregular polyhedron that has that has your chosen vertex arrangement.      How many faces of each type does your semiregular polyhedron have?      What is the total number of vertices?      What is the total number of edges?      As a bonus, repeat this task for other vertex arrangements. If you are up for a challenge, you may choose , , or .        Families of Semiregular Polyhedra    Semiregular Polyhedra with Vertex Arrangement    Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.      (same as )                    Without building describe clearly what it would look like.      The polyhedra you just created are called prisms . Use your constructions to complete . The first row should list the number of faces, vertices, and edges in a semiregular solid with a -vertex arrangement.   Attributes of Prisms        Shape of base  Number of faces  Number of vertices  Number of edges    Triangle   6     Quadrilateral       Pentagon       Hexagon       Heptagon (7)  9  14  21    Octagon       -gon            Semiregular Polyhedra with Vertex Arrangement    Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.      (a regular polyhedron)                           Without building describe clearly what it would look like.      The polyhedra you just created are called antiprisms . Use your constructions to complete .   Attributes of Antiprisms        Shape of base  Number of faces  Number of vertices  Number of edges    Triangle   6     Quadrilateral       Pentagon       Hexagon       Heptagon (7)  16  14  28    Octagon       -gon             Compute for each row in and each row of . What do you notice?       Defining Prisms and Antiprisms  In this section we discovered two families of semiregular polygons: prisms and antiprisms. We can also create prisms and antiprisms which have irregular faces. In particular, the sides of a prism need not be squares, they could be rectangles or other parallelograms. The sides of an antiprism do not need to be equilateral. Moreover, the bases of a prism or antiprism may be any polygon whatsoever. Some examples of prisms are shown in and    prism   A prism is a polyhedron consisting of two congruent parallel polygonal faces joined by sides that are parallelograms, often rectangles.     An assortment of right prisms   Prisms    In , you built and analyzed some antiprisms, similar to the one on the right in .   antiprism   An antiprism is a polyhedron consisting of a pair of parallel congruent polygonal faces joined by sides that are triangles.     A pentagonal prism and pentagonal antiprism   pentagonal prism and antiprism    The two parallel congruent polygonal faces are called the bases of the prism or antiprism. The top base may be called the summit in which case the bottom would be called the base . We specify the type of prism or pyramid by shape of its base so that the prism with a -vertex configuration is called an -gonal prism . Of course, we can set a polyhedron on any of its faces. Sometimes the base(s) will appear to be at the ends of the solid rather than at the top and bottom. base prism  summit prism  base antiprism  summit antiprism    The summit of an antiprism will be a rotated copy of the base lying in a plane parallel to the base. A prism will not have this rotation.     Exercises   Building Our Toolbox   Understanding the Definition of Semiregular Polyhedron   State the definition of semiregular polyhedron in your own words.     Of the three criteria in , which one rules out a cube?      Of the three criteria in , which one explains why a rectangular prism (box) is not a semiregular polyhedron?      Could a pyramid with a square base be a semiregular polyhedron? Explain.      Observing Euler's Identity    You have calculated for the five regular polyhedra, several pyramids, and several prisms. What do you notice?   This identity, which holds for all polyhedra, is called Euler's Identity after the mathematician Leonhard Euler (1707-1783) although Francesco Maurolico stated the equation for regular polyhedra in 1537. Euler was a prolific mathematician who worked in many different areas of mathematics. In fact, if you search for Euler's identity, you will find other identities also named for him, notably the complex number identity, , or its special case, .  Euler's Identity for Polyhedra        Skills and Recall   Counting Vertices, Faces, and Edges   An octadecagon is an 18-gon.   How many vertices will an octadecagonal prism have?    How many faces will an octadecagonal prism have?    How many edges will an octadecagonal prism have?    How many vertices will an octadecagonal antiprism have?    How many faces will an octadecagonal antiprism have?    How many edges will an octadecagonal antiprism have?        Applying Euler's Identity   A pentagonal cupola is a convex polyhedron with 12 faces and 25 edges. Determine how many vertices a pentagonal cupola must have.      Extending the Concepts   Dipyramids   The regular octahedron looks like two congruent square pyramids glued together. Solids formed in this way are called dipyramids . Thus, the regular octahedron is also called a square dipyramid. You should have built a triangular dipyramid in .  An -gonal tripyramid has two vertices where triangles meet, but at each of the vertices where the pyramids are glued together , there are four isosceles triangles touching. A net for a pentagonal dipyramid is given in .  Determine the number of vertices, faces, and edges for each of the following types of dipyramids. Do not count the bases of the pyramids as a face.   A triangular dipyramid    A pentagonal dipyramid    A hexagonal dipyramid    An -gonal dipyramid      Net for a pentagonal dipyramid   A net for a pentagonal dipyramid consisting of ten isosceles triangles.        Writing Prompts    Write a letter to a friend describing one thing you found to be surprising or interesting in this section or . What questions do you have that would be interesting to explore?      When three-dimensional objects are described verbally or illustrated in a two-dimensional space, they can be difficult to visualize. Discuss the challenges you have encountered with visualizing these solids and the techniques you have used to overcome these challenges.      "
+},
+{
+  "id": "def-semiregplyhdron",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#def-semiregplyhdron",
+  "type": "Definition",
+  "number": "3.2.1",
+  "title": "",
+  "body": " semiregular polyhedron  polyhedron semiregular  vertex arrangement polyhedron   A polyhedron is semiregular if it satisfies the following conditions:  Every face is a regular polygon.  At least two polygonal faces have a different number of sides.  The arrangement of polygons at every vertex of the polyhedron is the same.    The notation for a vertex arrangement of a regular or semi-regular polyhedron is the same as what we used for tilings. For example, the vertex arrangement for a cube would be 4.4.4 because there are three squares meeting at any vertex of the cube.   "
+},
+{
+  "id": "sec-polyhedra-semiregular-2-4",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2-4",
+  "type": "Checkpoint",
+  "number": "3.2.2",
+  "title": "Check your Understanding.",
+  "body": " Check your Understanding   Which regular polyhedron corresponds to the notation 3.3.3.3.3?    Does the number 3 correspond to the shape of the face or the number of faces that meet?     The icosahedron because five triangles meet at each vertex.   "
+},
+{
+  "id": "subsec-polyhedra-semiregular-examples-2",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples-2",
+  "type": "Exploration",
+  "number": "3.2.1",
+  "title": "",
+  "body": "  The Great Rhombicosidodecahedron   One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron which is shown in Illustration produced by Robert Webb's Stella software accessible via http:\/\/www.software3d.com\/Stella.php . . Check that each visible vertex has the arrangement 4.6.10.   Great Rhombicosidodecahedron      Three polygons meet at each vertex of the great rhombicosidodecahedron. What is the sum of three angle measures at any one vertex?      The Icosidodecahedron   Another Archimedean solid is the icosidodecahedron Illustration produced by Robert Webb's Stella software accessible via http:\/\/www.software3d.com\/Stella.php . .   The Icosidodecahedron       What is the vertex arrangement of the icosidodecahedron?      How many pentagons are needed to create an icosidodecahedron? Be sure to count the ones you cannot see as well.      How many triangles are needed to create an icosidodecahedron?      Other Semi-regular Polyhedra   Choose one of the following vertex arrangements, , , , , , or .     Construct the semiregular polyhedron that has that has your chosen vertex arrangement.      How many faces of each type does your semiregular polyhedron have?      What is the total number of vertices?      What is the total number of edges?      As a bonus, repeat this task for other vertex arrangements. If you are up for a challenge, you may choose , , or .     "
+},
+{
+  "id": "sec-polyhedra-semiregular-4-2",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4-2",
+  "type": "Exploration",
+  "number": "3.2.2",
+  "title": "",
+  "body": "  Semiregular Polyhedra with Vertex Arrangement    Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.      (same as )                    Without building describe clearly what it would look like.      The polyhedra you just created are called prisms . Use your constructions to complete . The first row should list the number of faces, vertices, and edges in a semiregular solid with a -vertex arrangement.   Attributes of Prisms        Shape of base  Number of faces  Number of vertices  Number of edges    Triangle   6     Quadrilateral       Pentagon       Hexagon       Heptagon (7)  9  14  21    Octagon       -gon            Semiregular Polyhedra with Vertex Arrangement    Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.      (a regular polyhedron)                           Without building describe clearly what it would look like.      The polyhedra you just created are called antiprisms . Use your constructions to complete .   Attributes of Antiprisms        Shape of base  Number of faces  Number of vertices  Number of edges    Triangle   6     Quadrilateral       Pentagon       Hexagon       Heptagon (7)  16  14  28    Octagon       -gon             Compute for each row in and each row of . What do you notice?    "
+},
+{
+  "id": "def-prism",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#def-prism",
+  "type": "Definition",
+  "number": "3.2.7",
+  "title": "",
+  "body": " prism   A prism is a polyhedron consisting of two congruent parallel polygonal faces joined by sides that are parallelograms, often rectangles.   "
+},
+{
+  "id": "fig-some-prisms",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#fig-some-prisms",
+  "type": "Figure",
+  "number": "3.2.8",
+  "title": "",
+  "body": " An assortment of right prisms   Prisms   "
+},
+{
+  "id": "def-antiprism",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#def-antiprism",
+  "type": "Definition",
+  "number": "3.2.9",
+  "title": "",
+  "body": " antiprism   An antiprism is a polyhedron consisting of a pair of parallel congruent polygonal faces joined by sides that are triangles.   "
+},
+{
+  "id": "fig-prism-antiprism",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#fig-prism-antiprism",
+  "type": "Figure",
+  "number": "3.2.10",
+  "title": "",
+  "body": " A pentagonal prism and pentagonal antiprism   pentagonal prism and antiprism   "
+},
+{
+  "id": "sec-polyhedra-semiregular-5-8",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-5-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "bases summit base -gonal prism "
+},
+{
+  "id": "exercises-semireg-polyhedra-2-2",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#exercises-semireg-polyhedra-2-2",
+  "type": "Exercise",
+  "number": "3.2.5.1",
+  "title": "Understanding the Definition of Semiregular Polyhedron.",
+  "body": " Understanding the Definition of Semiregular Polyhedron   State the definition of semiregular polyhedron in your own words.     Of the three criteria in , which one rules out a cube?      Of the three criteria in , which one explains why a rectangular prism (box) is not a semiregular polyhedron?      Could a pyramid with a square base be a semiregular polyhedron? Explain.    "
+},
+{
+  "id": "exercises-semireg-polyhedra-2-3",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#exercises-semireg-polyhedra-2-3",
+  "type": "Exercise",
+  "number": "3.2.5.2",
+  "title": "Observing Euler’s Identity.",
+  "body": " Observing Euler's Identity    You have calculated for the five regular polyhedra, several pyramids, and several prisms. What do you notice?   This identity, which holds for all polyhedra, is called Euler's Identity after the mathematician Leonhard Euler (1707-1783) although Francesco Maurolico stated the equation for regular polyhedra in 1537. Euler was a prolific mathematician who worked in many different areas of mathematics. In fact, if you search for Euler's identity, you will find other identities also named for him, notably the complex number identity, , or its special case, .  Euler's Identity for Polyhedra     "
+},
+{
+  "id": "exercises-semireg-polyhedra-3-2",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#exercises-semireg-polyhedra-3-2",
+  "type": "Exercise",
+  "number": "3.2.5.3",
+  "title": "Counting Vertices, Faces, and Edges.",
+  "body": " Counting Vertices, Faces, and Edges   An octadecagon is an 18-gon.   How many vertices will an octadecagonal prism have?    How many faces will an octadecagonal prism have?    How many edges will an octadecagonal prism have?    How many vertices will an octadecagonal antiprism have?    How many faces will an octadecagonal antiprism have?    How many edges will an octadecagonal antiprism have?      "
+},
+{
+  "id": "exercises-semireg-polyhedra-3-3",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#exercises-semireg-polyhedra-3-3",
+  "type": "Exercise",
+  "number": "3.2.5.4",
+  "title": "Applying Euler’s Identity.",
+  "body": " Applying Euler's Identity   A pentagonal cupola is a convex polyhedron with 12 faces and 25 edges. Determine how many vertices a pentagonal cupola must have.   "
+},
+{
+  "id": "exercises-semireg-polyhedra-4-2",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#exercises-semireg-polyhedra-4-2",
+  "type": "Exercise",
+  "number": "3.2.5.5",
+  "title": "Dipyramids.",
+  "body": " Dipyramids   The regular octahedron looks like two congruent square pyramids glued together. Solids formed in this way are called dipyramids . Thus, the regular octahedron is also called a square dipyramid. You should have built a triangular dipyramid in .  An -gonal tripyramid has two vertices where triangles meet, but at each of the vertices where the pyramids are glued together , there are four isosceles triangles touching. A net for a pentagonal dipyramid is given in .  Determine the number of vertices, faces, and edges for each of the following types of dipyramids. Do not count the bases of the pyramids as a face.   A triangular dipyramid    A pentagonal dipyramid    A hexagonal dipyramid    An -gonal dipyramid      Net for a pentagonal dipyramid   A net for a pentagonal dipyramid consisting of ten isosceles triangles.     "
+},
+{
+  "id": "exercises-semireg-polyhedra-5-2",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#exercises-semireg-polyhedra-5-2",
+  "type": "Exercise",
+  "number": "3.2.5.6",
+  "title": "",
+  "body": "  Write a letter to a friend describing one thing you found to be surprising or interesting in this section or . What questions do you have that would be interesting to explore?   "
+},
+{
+  "id": "exercises-semireg-polyhedra-5-3",
+  "level": "2",
+  "url": "sec-polyhedra-semiregular.html#exercises-semireg-polyhedra-5-3",
+  "type": "Exercise",
+  "number": "3.2.5.7",
+  "title": "",
+  "body": "  When three-dimensional objects are described verbally or illustrated in a two-dimensional space, they can be difficult to visualize. Discuss the challenges you have encountered with visualizing these solids and the techniques you have used to overcome these challenges.   "
+},
+{
+  "id": "sec-polyhedra-Prisms-Cylinders",
+  "level": "1",
+  "url": "sec-polyhedra-Prisms-Cylinders.html",
+  "type": "Section",
+  "number": "3.3",
+  "title": "Prisms and Cylinders",
+  "body": " Prisms and Cylinders   Definitions  We now explore the geometric solid known as a prism in greater detail. As noted in , a prism is a box-like geometric solid with a pair of congruent and parallel polygonal faces, called the base and the summit, joined by a band of parallelograms. The number of parallelograms connecting the bases will always equal the number of sides of each base.  We are most familiar with right prisms , namely prisms where the bases meet all the side faces at right angles; the side faces of a right prism are rectangles. An oblique prism , on the other hand, will have parallelograms rather than rectangles as its side faces. right prism  oblique prism  prism oblique  prism right    Right and Oblique Prisms    Right Prism   A rectangular box.     Oblique Prism      A cylinder is not a polyhedron since it has circular bases; however, there are some important similarities between prisms and cylinders. Both have parallel, congruent bases.   Right and Oblique Cylinders    Right Cylinder   A cylinder or can.     Oblique Cylinder   A can that is oblique.       Check your understanding   Besides the parallel circles, what other shape(s) is needed to form the surface of a right cylinder? How many of these shapes are there?    Cut two circles out of paper to cover a cylindrical can. What else do you need to cover the exposed surface?    The two circles are joined by a single rectangle. The width of this rectangle equals the circumference of a circular end.    An important measurement for prisms and cylinders is the distance between the bases. Many geometry textbooks use the term height to describe this distance.   height prism  stretch   The height of a prism or cylinder is the distance between the parallel congruent bases and is measured along a line perpendicular to the bases. When a prism or cylinder is sitting on a side other than a base, the height will be measured laterally instead of vertically. In this text, the word stretch will be used in lieu of height to clarify which dimension is being discussed.  The stretch (or height) of a right prism is usually measured along an edge of one of the rectangular sides, like in . On the other hand, the stretch of a skew prism, such as the one illustrated in , will be less than the height of a side face. Similarly, the stretch of a cylinder is also measured at a right angle to the base as indicated by in .      Volumes of Prisms and Cylinders  In this exploration, we learn how to measure the space inside of a prism or pyramid. Hopefully, exploring the meaning of volume will help you appreciate and remember how to find volume.   Understanding Volume    Suppose you have a box (right rectangular prism) that has a height (or stretch) of 6 inches, a length of 5 inches, and a width of 7 inches and you have a large supply of -cubes.   If you cover the bottom of the inside of the box with a single layer of -cubes, how many cubes will fit in this first layer?    How many horizontal layers of -cubes could you fit in the box? Would each of these layers contain the same number of cubes as the first layer?    What is the total number of 1”x1”x1”-cubes that could fit in the box?         Explain why the formula for the volume of a rectangular box is where is the length, is the width, and is the height of the box.      When is a whole number, it makes sense to think about the height as the number of layers. Not all measurements are whole numbers though. Instead we can think of as the amount that we need to stretch that first layer to reach the summit of the prism. Consider the rectangular prism in with base dimensions, inches and inches, and a stretch of inches. Find the volume of the prism.   Here you may be imagining two layers with a half layer on top of them. The half cubes ( -cubes on the top layer can be paired to create full -cubes.    A prism with dimensions 5x6x2.5.   A prism.        This notion of stretching the bottom layer holds for all prisms and cylinders, not just rectangular ones. Suppose a cylinder has a circular base with area 9.4 square centimeters. If the cylinder is one centimeter tall, we will say that the volume is cubic centimeters.  If the cylinder is two centimeters tall, how should the volume compare to that of the one-centimeter-tall cylinder with the same base? What is the volume?   If the cylinder is three centimeters tall, what is the volume?   If the cylinder is five centimeters tall, what is the volume?  If the cylinder is 7.5 centimeters tall, what is the volume?  If the cylinder is centimeters tall, what is volume?       Exploration showed that the volume of a prism or cylinder was equal to the area of the base times the number of horizontal layers. Although you may be familiar with the formula , it is preferable to have a single formula that allows us to compute the volume of all prisms, not just rectangular prisms. Note that the formula is equivalent to the formula where is the area of one base of a rectangular prism and is the distance (or stretch) between the bases, measured perpendicular to the bases. This volume formula will extend to all prisms and even cylinders! Much less to memorize! To find the volume of any prism or cylinder, whether right or oblique, we need only compute the area of the base and then multiply this area by the stretch between the bases.   Finding the Volume of Prisms and Cylinders    Use the formula to determine the volume of the right prism with an isosceles triangle base.   Isosceles triangle right prism   Prism with isosceles triangle bases. Triangles have base 12 feet and height 14 feet. Distance between the bases is 18 feet.        Show all work as you compute the following measurements for the oblique cylinder in . Formulas for the area and circumference of a circle are given in .     The stretch .           The area of a circular base.    The answers involve irrational numbers, namely a square root and .           The volume of the cylinder.    Your answer to will be more accurate if you use the actual square root and , not their estimates, in your calculation of volume. If you do use estimates, include at least four digits after the decimal point when inputting the values.    1118.3 cu. mm.         Oblique cylinder   An oblique cylinder with radius 4 mm and slant height 24 mm. A right triangle is also drawn with the slant of the cylinder being the hypotenuse and cylinder's altitude of unknown length d, corresponding to one leg. The remaining leg is 9 mm long.        Create a formula for the volume of a cylinder with height where the radius of each circular base is . Your formula should contain the variables and . Then check that your formula gives the same result as you found in .       The Surface Area of Prisms and Cylinders  While the volume measures the amount of interior space of a 3-dimensional solid, the surface area measures the amount of material needed to create the shell or surface of the solid. To compute surface area, we simply compute the area of each face and add the areas together. surface area    surface area   The surface area of a geometrical solid is the sum of the areas of the surfaces that bound the solid.     Finding the Surface Area of Prisms and Cylinders    The triangular prism in has five faces. Determine the area of each face and then compute the surface area.      The right cylinder in has a height of 20 ft. and a diameter of 10 ft.   Determine the area of each circular base.    With the circular ends removed, the cylinder looks like a tube, perhaps the cardboard center of a paper towel or toilet paper roll. If we cut this tube lengthwise Here, lengthwise means a long a line perpendicular to an edge. and flatten it out, what shape do we get?    To determine the area of this flattened surface, we will need to determine its dimensions. One of these dimensions will be the length of the once-circular edge. What is the other dimension?    To find the length of the once-circular edge, we note that this edge was the circumference of the circular base. Determine this length. Then determine the area of the flattened surface.    Add the areas of the three surfaces of the cylinder, namely the two circular bases and the flattened tube, to compute the surface area of the cylinder.      A right cylinder   Right cylinder with height 20 feet and diameter 10 ft.        Create a general formula for a right cylinder with height where the radius of each circular base is given by the variable . Your formula should contain the variables and . Then check that your formula gives the same result as you found in for the surface area of the cylinder in .       Exercises   Building Our Toolbox   As you add these items to your toolbox, you are encouraged to write them in a form that is clear, thorough, and meaningful to you so that you can refer to them later.     What is a prism? What is a cylinder? How are they similar? How do they differ?      In your own words, describe what volume means. Then explain how you find the volume of prisms and cylinders. You may include formula(s) and example(s). Make sure that your response covers all types of prisms as well as cylinders.      In your own words, describe what surface area means. Then explain how you find the surface area of prisms and cylinders. You may include formula(s) and example(s). Make sure that your response covers all types of prisms as well as cylinders.      Skills and Recall    Determine the volumes of the following prisms and cylinders:   A rectangular box with length 8 cm, width 3 cm, and height 10 cm.    A triangular prism where the stretch is 6 inches and each base is a 3-4-5 (inch) right triangle.    A cylinder with radius 15 inches and height 4 inches.        Determine the volumes of the prisms and cylinders sketched below.   The cylinder in     The rectangular prism in     The triangular prism in        Cylinder   A cylinder with height 6 meters and radius 9 meters.     Rectangular prism   A rectangular prism with height 11 inches, width 5 inches, and length 3 inches.     Triangular prism   Triangular prism with stretch 17. Triangle has a base length of 4, slant lengths of square root 34 and square root 26, and a height of 5.       Determine the surface area for each shape in .    Determine the surface area for each shape in .     Extending the Concepts   Measuring a Pentagonal Prism   The face of the right pentagonal prism in has right angles and . Segment is an altitude for the pentagon meeting at point . The lengths of the sides of are the same as those shown for the summit , namely           In addition, but not shown, is a perpendicular bisector of . The distance between the base and summit pentagon is .   Determine the volume of this pentagonal prism. Include your work and reasoning.    On graph paper, sketch a net for this pentagonal prism.    Determine the surface area of the pentagonal prism.       There will be a slight variation in answers depending on whether you use or 6.4 in your work.    Pentagonal prism for    Pentagonal prism as described in problem.       In , a cylinder can be formed by joining the edges and and then folding in the two circles. The side has length and side has length 6.     How is the length of segment related to the circle with center ?    Segment should wrap around the circle. To what measurement of a circle does this correspond?    a. The length of side will equal the circumference or distance around the circle. Perimeter is also acceptable.      Determine the area of the circle with center .    b. To find the area of the circle, we divide or 11.3 by to get the radius (or 1.79845 using 11.3). Thus, the area of each circle will be .      Determine the surface area of the cylinder.    The surface area is .      Determine the volume of the cylinder.    Volume is       A net for a cylinder   Rectangle CDFG with two congruent circles drawn just touching sides GF and CD; in other words the circles are tangent to the rectangle on opposite sides of the rectangle.       "
+},
+{
+  "id": "sec-polyhedra-Prisms-Cylinders-2-2",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "prism "
+},
+{
+  "id": "sec-polyhedra-Prisms-Cylinders-2-3",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "right prisms oblique prism "
+},
+{
+  "id": "fig-rt-skew-prism",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#fig-rt-skew-prism",
+  "type": "Figure",
+  "number": "3.3.1",
+  "title": "",
+  "body": " Right and Oblique Prisms    Right Prism   A rectangular box.     Oblique Prism     "
+},
+{
+  "id": "fig-rt-skew-cyl",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#fig-rt-skew-cyl",
+  "type": "Figure",
+  "number": "3.3.2",
+  "title": "",
+  "body": " Right and Oblique Cylinders    Right Cylinder   A cylinder or can.     Oblique Cylinder   A can that is oblique.     "
+},
+{
+  "id": "sec-polyhedra-Prisms-Cylinders-2-7",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2-7",
+  "type": "Checkpoint",
+  "number": "3.3.3",
+  "title": "Check your understanding.",
+  "body": " Check your understanding   Besides the parallel circles, what other shape(s) is needed to form the surface of a right cylinder? How many of these shapes are there?    Cut two circles out of paper to cover a cylindrical can. What else do you need to cover the exposed surface?    The two circles are joined by a single rectangle. The width of this rectangle equals the circumference of a circular end.   "
+},
+{
+  "id": "sec-polyhedra-Prisms-Cylinders-2-8",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "height "
+},
+{
+  "id": "def-height-prism",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#def-height-prism",
+  "type": "Definition",
+  "number": "3.3.4",
+  "title": "",
+  "body": " height prism  stretch   The height of a prism or cylinder is the distance between the parallel congruent bases and is measured along a line perpendicular to the bases. When a prism or cylinder is sitting on a side other than a base, the height will be measured laterally instead of vertically. In this text, the word stretch will be used in lieu of height to clarify which dimension is being discussed.  The stretch (or height) of a right prism is usually measured along an edge of one of the rectangular sides, like in . On the other hand, the stretch of a skew prism, such as the one illustrated in , will be less than the height of a side face. Similarly, the stretch of a cylinder is also measured at a right angle to the base as indicated by in .   "
+},
+{
+  "id": "exp-vol-intuitive",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#exp-vol-intuitive",
+  "type": "Exploration",
+  "number": "3.3.1",
+  "title": "Understanding Volume.",
+  "body": " Understanding Volume    Suppose you have a box (right rectangular prism) that has a height (or stretch) of 6 inches, a length of 5 inches, and a width of 7 inches and you have a large supply of -cubes.   If you cover the bottom of the inside of the box with a single layer of -cubes, how many cubes will fit in this first layer?    How many horizontal layers of -cubes could you fit in the box? Would each of these layers contain the same number of cubes as the first layer?    What is the total number of 1”x1”x1”-cubes that could fit in the box?         Explain why the formula for the volume of a rectangular box is where is the length, is the width, and is the height of the box.      When is a whole number, it makes sense to think about the height as the number of layers. Not all measurements are whole numbers though. Instead we can think of as the amount that we need to stretch that first layer to reach the summit of the prism. Consider the rectangular prism in with base dimensions, inches and inches, and a stretch of inches. Find the volume of the prism.   Here you may be imagining two layers with a half layer on top of them. The half cubes ( -cubes on the top layer can be paired to create full -cubes.    A prism with dimensions 5x6x2.5.   A prism.        This notion of stretching the bottom layer holds for all prisms and cylinders, not just rectangular ones. Suppose a cylinder has a circular base with area 9.4 square centimeters. If the cylinder is one centimeter tall, we will say that the volume is cubic centimeters.  If the cylinder is two centimeters tall, how should the volume compare to that of the one-centimeter-tall cylinder with the same base? What is the volume?   If the cylinder is three centimeters tall, what is the volume?   If the cylinder is five centimeters tall, what is the volume?  If the cylinder is 7.5 centimeters tall, what is the volume?  If the cylinder is centimeters tall, what is volume?      "
+},
+{
+  "id": "subsec-expl-prism-volume-5",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#subsec-expl-prism-volume-5",
+  "type": "Exploration",
+  "number": "3.3.2",
+  "title": "Finding the Volume of Prisms and Cylinders.",
+  "body": " Finding the Volume of Prisms and Cylinders    Use the formula to determine the volume of the right prism with an isosceles triangle base.   Isosceles triangle right prism   Prism with isosceles triangle bases. Triangles have base 12 feet and height 14 feet. Distance between the bases is 18 feet.        Show all work as you compute the following measurements for the oblique cylinder in . Formulas for the area and circumference of a circle are given in .     The stretch .           The area of a circular base.    The answers involve irrational numbers, namely a square root and .           The volume of the cylinder.    Your answer to will be more accurate if you use the actual square root and , not their estimates, in your calculation of volume. If you do use estimates, include at least four digits after the decimal point when inputting the values.    1118.3 cu. mm.         Oblique cylinder   An oblique cylinder with radius 4 mm and slant height 24 mm. A right triangle is also drawn with the slant of the cylinder being the hypotenuse and cylinder's altitude of unknown length d, corresponding to one leg. The remaining leg is 9 mm long.        Create a formula for the volume of a cylinder with height where the radius of each circular base is . Your formula should contain the variables and . Then check that your formula gives the same result as you found in .    "
+},
+{
+  "id": "subsec-surfarea-prism-cyl-2",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#subsec-surfarea-prism-cyl-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "surface area "
+},
+{
+  "id": "def-surf-area",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#def-surf-area",
+  "type": "Definition",
+  "number": "3.3.8",
+  "title": "",
+  "body": " surface area   The surface area of a geometrical solid is the sum of the areas of the surfaces that bound the solid.   "
+},
+{
+  "id": "subsec-surfarea-prism-cyl-4",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#subsec-surfarea-prism-cyl-4",
+  "type": "Exploration",
+  "number": "3.3.3",
+  "title": "Finding the Surface Area of Prisms and Cylinders.",
+  "body": " Finding the Surface Area of Prisms and Cylinders    The triangular prism in has five faces. Determine the area of each face and then compute the surface area.      The right cylinder in has a height of 20 ft. and a diameter of 10 ft.   Determine the area of each circular base.    With the circular ends removed, the cylinder looks like a tube, perhaps the cardboard center of a paper towel or toilet paper roll. If we cut this tube lengthwise Here, lengthwise means a long a line perpendicular to an edge. and flatten it out, what shape do we get?    To determine the area of this flattened surface, we will need to determine its dimensions. One of these dimensions will be the length of the once-circular edge. What is the other dimension?    To find the length of the once-circular edge, we note that this edge was the circumference of the circular base. Determine this length. Then determine the area of the flattened surface.    Add the areas of the three surfaces of the cylinder, namely the two circular bases and the flattened tube, to compute the surface area of the cylinder.      A right cylinder   Right cylinder with height 20 feet and diameter 10 ft.        Create a general formula for a right cylinder with height where the radius of each circular base is given by the variable . Your formula should contain the variables and . Then check that your formula gives the same result as you found in for the surface area of the cylinder in .    "
+},
+{
+  "id": "exercises-prismscylinders-2-3",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders-2-3",
+  "type": "Exercise",
+  "number": "3.3.4.1",
+  "title": "",
+  "body": "  What is a prism? What is a cylinder? How are they similar? How do they differ?   "
+},
+{
+  "id": "exercises-prismscylinders-2-4",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders-2-4",
+  "type": "Exercise",
+  "number": "3.3.4.2",
+  "title": "",
+  "body": "  In your own words, describe what volume means. Then explain how you find the volume of prisms and cylinders. You may include formula(s) and example(s). Make sure that your response covers all types of prisms as well as cylinders.   "
+},
+{
+  "id": "exercises-prismscylinders-2-5",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders-2-5",
+  "type": "Exercise",
+  "number": "3.3.4.3",
+  "title": "",
+  "body": "  In your own words, describe what surface area means. Then explain how you find the surface area of prisms and cylinders. You may include formula(s) and example(s). Make sure that your response covers all types of prisms as well as cylinders.   "
+},
+{
+  "id": "SAR-vol-prisms-verbal",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#SAR-vol-prisms-verbal",
+  "type": "Exercise",
+  "number": "3.3.4.4",
+  "title": "",
+  "body": "  Determine the volumes of the following prisms and cylinders:   A rectangular box with length 8 cm, width 3 cm, and height 10 cm.    A triangular prism where the stretch is 6 inches and each base is a 3-4-5 (inch) right triangle.    A cylinder with radius 15 inches and height 4 inches.      "
+},
+{
+  "id": "SAR-vol-prisms-visual",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#SAR-vol-prisms-visual",
+  "type": "Exercise",
+  "number": "3.3.4.5",
+  "title": "",
+  "body": " Determine the volumes of the prisms and cylinders sketched below.   The cylinder in     The rectangular prism in     The triangular prism in        Cylinder   A cylinder with height 6 meters and radius 9 meters.     Rectangular prism   A rectangular prism with height 11 inches, width 5 inches, and length 3 inches.     Triangular prism   Triangular prism with stretch 17. Triangle has a base length of 4, slant lengths of square root 34 and square root 26, and a height of 5.     "
+},
+{
+  "id": "exercises-prismscylinders-3-4",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders-3-4",
+  "type": "Exercise",
+  "number": "3.3.4.6",
+  "title": "",
+  "body": " Determine the surface area for each shape in .  "
+},
+{
+  "id": "exercises-prismscylinders-3-5",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders-3-5",
+  "type": "Exercise",
+  "number": "3.3.4.7",
+  "title": "",
+  "body": " Determine the surface area for each shape in .  "
+},
+{
+  "id": "exer-ExtConc-pent-prism",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#exer-ExtConc-pent-prism",
+  "type": "Exercise",
+  "number": "3.3.4.8",
+  "title": "Measuring a Pentagonal Prism.",
+  "body": " Measuring a Pentagonal Prism   The face of the right pentagonal prism in has right angles and . Segment is an altitude for the pentagon meeting at point . The lengths of the sides of are the same as those shown for the summit , namely           In addition, but not shown, is a perpendicular bisector of . The distance between the base and summit pentagon is .   Determine the volume of this pentagonal prism. Include your work and reasoning.    On graph paper, sketch a net for this pentagonal prism.    Determine the surface area of the pentagonal prism.       There will be a slight variation in answers depending on whether you use or 6.4 in your work.    Pentagonal prism for    Pentagonal prism as described in problem.    "
+},
+{
+  "id": "exercises-prismscylinders-4-3",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#exercises-prismscylinders-4-3",
+  "type": "Exercise",
+  "number": "3.3.4.9",
+  "title": "",
+  "body": "  In , a cylinder can be formed by joining the edges and and then folding in the two circles. The side has length and side has length 6.     How is the length of segment related to the circle with center ?    Segment should wrap around the circle. To what measurement of a circle does this correspond?    a. The length of side will equal the circumference or distance around the circle. Perimeter is also acceptable.      Determine the area of the circle with center .    b. To find the area of the circle, we divide or 11.3 by to get the radius (or 1.79845 using 11.3). Thus, the area of each circle will be .      Determine the surface area of the cylinder.    The surface area is .      Determine the volume of the cylinder.    Volume is     "
+},
+{
+  "id": "fig-ExtConc-cylnet",
+  "level": "2",
+  "url": "sec-polyhedra-Prisms-Cylinders.html#fig-ExtConc-cylnet",
+  "type": "Figure",
+  "number": "3.3.14",
+  "title": "",
+  "body": " A net for a cylinder   Rectangle CDFG with two congruent circles drawn just touching sides GF and CD; in other words the circles are tangent to the rectangle on opposite sides of the rectangle.    "
+},
+{
+  "id": "sec-polyhedra-pyramids-cones",
+  "level": "1",
+  "url": "sec-polyhedra-pyramids-cones.html",
+  "type": "Section",
+  "number": "3.4",
+  "title": "Pyramids and Cones",
+  "body": " Pyramids and Cones   Defining Pyramids and Cones  In this section, we will learn about pyramids and cones and how they are related to prisms and cylinders.   Pyramid  pyramid  apex pyramid  height pyramid   A pyramid is a polyhedron which may have any polygon as its base. All remaining faces are triangles that come together at a common vertex called the apex . The height of the pyramid is measured from the apex to the plane containing the base along a line perpendicular to this plane.  We name each pyramid according to its base. Thus, a triangular pyramid has a triangular base, a square pyramid has a square base, and so forth. Also, the apex of the pyramid does not have to be directly above the center of the base. In fact, the apex may not be directly above any part of the pyramid as shown in .      A square pyramid   A pyramid with a square base.     A skew pyramid   A square pyramid with apex off to the side.       Patterns with Pyramids     Use models and reasoning to complete . Pictures of a pentagonal pyramid and a hexagonal pyramid are provided in .   Counting Parts of a Pyramid        Type of Pyramid  Number of faces  Number of vertices  Number of edges    Triangular pyramid  4  4  6    Quadrilateral pyramid       Pentagonal pyramid       Hexagonal pyramid       -gonal pyramid           Examples of pyramids    Pentagonal pyramid   Pentagonal pyramid     Hexagonal pyramid   Hexagonal pyramid        What appears to be true about for each pyramid?       Measuring Pyramids  In , we shall compute measurements for a specific example, a pyramid with a rectangular base and three perpendicular edges meeting at vertex . If this exploration is done in class, your instructor may choose to assign different pyramids to different groups. If this is the case, you will want to construct your pyramid very carefully so that your pyramid can be assembled with other groups' pyramids to form a new, yet familiar, solid. Then we will be able to use this construction to compute volume.   Exploring a Rectangular Pyramid   In this activity, you will study the rectangular pyramid that is created by folding only one of the nets in . Check with your instructor to see which net you should explore.    Nets of three rectangular pyramids     Pyramid Net 1   A net that can be folded to create a rectangular pyramid with 3 by 4 rectangular base and height 5.     Pyramid Net 2   A net that can be folded to create a rectangular pyramid with 3 by 5 rectangular base and height 4.     Pyramid Net 3   A net that can be folded to create a rectangular pyramid with 4 by 5 rectangular base and height 3.         Finding Edge Lengths and Surface Area   Regardless of which pyramid net you are working with, the base is a rectangle. Angles , , , and are right angles. The dimensions of the base and the length of are given in the table below:    Dimensions of Pyramids 1, 2, and 3       Pyramid Number  Dimensions of Base  Length of    Net 1   5    Net 2   4    Net 3   3     Determine the following:     For the record, state which Pyramid Net you will study: Net 1 , Net 2 , or Net 3 .      Determine .      Determine .    The Pythagorean Theorem should be used. If your answer is not a whole number (Net 1), leave the square root in your answer.      Determine .    If your answer is not a whole number, you should leave the square root in your answer. What happens when you take the square of a square root?      Explain without performing any calculations why should equal and should equal .    Remember that the net should fold into a pyramid.      Calculate and .    Compute these separately and check that they are equal.  Leave the square root in your answer. What happens when you take the square of a square root?      Use your knowledge of area of rectangles and triangles and the definition of surface area to determine the surface area of this rectangular pyramid.      Constructing a pyramid from a net   Print your Pyramid Net To print out copies of all three nets, sized consistently, use bit.ly\/3PyramidNets. . on cardstock, cut your net out, and fold along the dashed lines to see that this forms a rectangular pyramid.  What do you notice about the corner of your pyramid at ?      Surface Area of Pyramids and Cones  With both prisms and pyramids, formulas exist to compute the surface area of some of the common types, but these formulas are often not necessary. The tough part of computing surface area is determining missing lengths and altitudes. Some formulas will alleviate the need to perform these computations. Some of these formulas use techniques that are beyond the scope of this course. However, if we can compute the area of each face, then the surface area is simply the sum of the areas of the faces. Working with nets can help us focus on measuring the surfaces.  As illustrated in , the surface of a cone will consist of two parts: the circle that forms its base and a circular sector that forms the section connecting the apex to the base. In the net for the cone, the center of the circular sector corresponds to the apex of the cone and the radius of the sector corresponds to the slant height of the cone. This slant height is measured along a line segment from the apex to the edge of the base which meets the base at an angle less than 90 degrees.   The cone, pictured in , has a circular base with radius 3 and a vertical height of 6. Using the Pythagorean Theorem, we know that the slant height is . The net for this cone consists of the radius-3 circular base and the shaded portion of the larger circle. The fact that the circumference of the base matches the curved edge of the sector enables us to find the central angle, approximately of the sector. The process of finding the angle and area of the sector is left to an exercise.   A cone and its net.   Cone with base radius 3, vertical height 6, and slant length 6.71. Two touching circles, one with radius 3. The other with radius 6.71 has shaded portion with central angle 161.      Volume of Pyramids and Cones  We end this section by stating a fact that will allow us to find the volume of many pyramids and cones.   Volume of a Pyramid  volume pyramid  pyramid volume   The volume of a pyramid is one-third the volume of a prism with the same base and height. Thus, the volume of a pyramid is given by where is the area of the base and is the height measured along a vertical line segment from the apex to the base.    A cone has a similar relationship with a cylinder.   Volume of a Cone  volume cone  cone volume   The volume of a cone is one-third the volume of a cylinder with the same base and height. Since the base of a cone or cylinder is a circle with area, , the formula for the volume of a cone can be written as where is the radius of the base and h is the vertical height when the cone is sitting on its base.    This fact may be something you choose to accept and use without further justification. In case you have doubts, the remainder of this section provides several different ways to visualize this surprising fact. As you have already experienced, visualizing three-dimensional properties can be challenging. Use the activities or videos, that work best for you or are required by your instructor.    Visualizing Pyramid and Cone Volume with Water   This is the simplest demonstration of the claim that the volume of a pyramid is one-third the volume of the corresponding prism. In order too perform this task, a special set of containers are needed. These are available through educational material companies. This exploration can also be viewed in the YouTube video in .     Typically, this set will contain two pyramids and prisms with the same base and height. It will also contain a cone and cylinder with a common base and height. Fill the pyramid (or cone) with water and then pour the water into the prism (or cylinder) that has the same base and height. Repeat until the prism (or cylinder) is filled. What do you notice?      Repeat the previous experiment with any other pyramid\/prism or cone\/cylinder pairs you have available.      Does this prove that the formula works in all cases where a pyramid (or cone) has the same base and height as a prism (or cylinder)? What are some nice properties that the paired solids you used have that other prisms and pyramid pairs might not have? What are some other pyramid\/prism pairs or cone\/cylinder pairs that you would add to the set to make the argument more convincing?     YouTube using water to compare volumes This video, compiled by Mr. Chauny, contains snips of three other videos as noted in his credits.       Visualizing the Volume of a Rectangular Pyramid by Construction from Nets   This demonstration of the volume formula for a pyramid uses the three nets created in . Because the nets are constructed using paper and tape, the ability to complete and comprehend this demonstration may depend on the quality of construction. It is essential that the scale of the three pyramids is consistent. The document bit.ly\/3PyramidNets displays all three nets with the same scale. Printing on stiffer tagboard is recommended.     Cut out each net and carefully assemble each into a pyramid with base .      Arrange the three pyramids so that they form a single rectangular prism. The faces will be -, -, and -rectangles.      Compute the volume of the prism.      Each of the three pyramids has a different base. Determine the area of the base of the pyramid formed by folding   Pyramid Net 1    Pyramid Net 2    Pyramid Net 3         Use the formula to compute the volume of the pyramid formed by   Pyramid Net 1    Pyramid Net 2    Pyramid Net 3         How does additivity of volume together with the computations in and help to confirm the formula for the volume of pyramid for this particular situation?  Bonus challenge: To what family of pyramids can we generalize this argument    For the bonus, note that these pyramids had a particular shaped base and a special base angle.      Visualizing the Volume of a Rectangular Pyramid using a GeoGebra Applet   This demonstration explores the relationship between the volume formulas of prisms and pyramids. The GeoGebra applet, (created by John Golden Golden, John, \"Pyramids in Prism,\" GeoGebra Public Resources, CC-BY-SA, 2015. Slightly edited to delete questions and adjust the graphical views. ) demonstrates how a -rectangular prism is split into three rectangular pyramids. In this activity, the shapes are the same as in , but the prism is pulled apart rather than built. The applet allows us to change the dimensions of the prism and pyramids to help us see that the formula holds for prisms of other dimensions as well. A device with a larger screen is recommended.      Verify that the blue rectangle shown on the left has the same dimensions as the base of the prism on the right. Do this by checking the coordinates on the graph.     Drag point , the lower right corner of the rectangle in the left picture. What happens to the prism on the right?      Drag point , the upper left corner of the rectangle in the left picture. How does this affect the prism on the right?       Move the vertical slider on the far left to change the value of . How does this affect the prism on the right?      Use the reset button (upper right corner of the left frame) to return the value of and the locations of and to their original setting.  Slowly move the top slider to pull the prism apart into pyramids, observing the process in the right frame. When the slider is moved all the way to the right, there should be three pyramids visible in the right frame and three rectangles visible in the left frame.  Verify that the three rectangles on the left correspond to the bases of the three pyramids on the right. You may need to adjust your viewing window by zooming out or dragging. You can also see the coordinates of the vertices by right-clicking on the point.      What are the dimensions of the base of the green prism, given by ?      What are the dimensions of the base of the red prism, given by ?          These explorations show that, at least in a few cases, the volume of a pyramid or cone is one-third that of the corresponding prism or cylinder. A proof of this fact for all situations is beyond the scope of this course.     Exercises   Skills and Recall    Determine the volumes of the following solids:     A pyramid with a square base and a height of .    V=108 cubic units.           A pyramid with a rectangular base with a length of , a width of , and a height of .    35 cubic units           A cone with height 15 cm and radius 10 cm.     cm^{2}     cubic centimeters      A triangular pyramid with a distance of 10 cm from apex to base. The base is an isosceles triangle with sides 13 cm, 13 cm, and 10 cm. Since the base is isosceles, its altitude passes through the midpoint of the 10 cm side. This pyramid is sketched in and the lengths of the sides of the base are given.    Isosceles pyramid with 10-13-13 base and height 10   Triangular Pyramid with 10-13-13 base and height 10         Determine the surface area of the solids:     The prism with an isosceles triangle base and stretch distance 10 cm where the triangle has one side of length 10 cm and two of length 13 cm.    480         Net for isosceles triangle prism   Net for a prism with 10-13-13 isosceles triangle base and stretch distance 10.        The pyramid with net given in     275.58           Net for a pyramid with 10-13-13 isosceles triangle base and stretch distance 10        The prism in and the pyramid in have the same height and base. Divide the two surface areas. Does there appear to be a nice relationship between the surface area of a pyramid and the surface area of the associated prism?    Make sure that your calculator is showing four or more digits after the decimal point. Is the ratio you compute a nice number or an ugly number? Is it familiar to you?    The ratio is 1.74178097104. There does not appear to be a nice relationship between the two surface areas.  In fact, the surface area due to the base(s) will be related by a factor of two since there are two bases in a prism and one in a pyramid. However, the heights of the triangular sides are not the same as the stretch distance of the prism, but instead are where is the distance from the centroid of the base to the edge joining the base to the face.       Extending the Concepts   Angle and Area of a Sector   The questions in this exercise refer to the cone in which has a circular base with radius 8 inches and a slant height of 17 inches.     Determine the area of the base of this cone.      The height of the cone is measured from the apex along a segment perpendicular to the base. Use this information to determine the height of this cone.      Determine the volume of this cone.    A cone with radius 8 and slant height 17   A cone with radius 8 and slant height 17        Determine the circumference of the base.    The base is a circle with radius 8. What is the formula for the circumference? Also, if you leave the constant in your answer, it will simplify your work in a later problem.                A possible net for the cone is given in . The distance from to along the circular arc, known as the arclength , should equal the distance around the circumference of the base.     What is the total circumference of a circle with radius 17 inches?    Again, you are encouraged to leave the number in your answer.      What fraction of this circumference should the arc length from to be?    The number should cancel, leaving you with a fraction where the numerator and denominator are whole numbers. Do they look familiar?      What is the rotational angle of a full circle? Use this together with the fraction you just computed to determine the measure of .    This figure only shows a rough approximation of the location of . Do not use a protractor.      Determine the area of the sector of circle from to .      Determine the surface area of the cone with radius 8 inches and slant height 17 inches.      What did you learn by doing this exercise? Did you observe anything that you think would make a good conjecture for cones in general?      Net for the cone with slant height 17 and radius 8   A circle with radius 8 and a sector of a circle with radius 17.        "
+},
+{
+  "id": "def-pyramid",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#def-pyramid",
+  "type": "Definition",
+  "number": "3.4.1",
+  "title": "Pyramid.",
+  "body": " Pyramid  pyramid  apex pyramid  height pyramid   A pyramid is a polyhedron which may have any polygon as its base. All remaining faces are triangles that come together at a common vertex called the apex . The height of the pyramid is measured from the apex to the plane containing the base along a line perpendicular to this plane.  We name each pyramid according to its base. Thus, a triangular pyramid has a triangular base, a square pyramid has a square base, and so forth. Also, the apex of the pyramid does not have to be directly above the center of the base. In fact, the apex may not be directly above any part of the pyramid as shown in .   "
+},
+{
+  "id": "fig-SqPyramid",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#fig-SqPyramid",
+  "type": "Figure",
+  "number": "3.4.2",
+  "title": "",
+  "body": " A square pyramid   A pyramid with a square base.   "
+},
+{
+  "id": "fig-skew-pyramid",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#fig-skew-pyramid",
+  "type": "Figure",
+  "number": "3.4.3",
+  "title": "",
+  "body": " A skew pyramid   A square pyramid with apex off to the side.   "
+},
+{
+  "id": "exploring-pyramid-patterns",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#exploring-pyramid-patterns",
+  "type": "Exploration",
+  "number": "3.4.1",
+  "title": "",
+  "body": "   Use models and reasoning to complete . Pictures of a pentagonal pyramid and a hexagonal pyramid are provided in .   Counting Parts of a Pyramid        Type of Pyramid  Number of faces  Number of vertices  Number of edges    Triangular pyramid  4  4  6    Quadrilateral pyramid       Pentagonal pyramid       Hexagonal pyramid       -gonal pyramid           Examples of pyramids    Pentagonal pyramid   Pentagonal pyramid     Hexagonal pyramid   Hexagonal pyramid        What appears to be true about for each pyramid?    "
+},
+{
+  "id": "explor-rect-pyr",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#explor-rect-pyr",
+  "type": "Exploration",
+  "number": "3.4.2",
+  "title": "Exploring a Rectangular Pyramid.",
+  "body": " Exploring a Rectangular Pyramid   In this activity, you will study the rectangular pyramid that is created by folding only one of the nets in . Check with your instructor to see which net you should explore.    Nets of three rectangular pyramids     Pyramid Net 1   A net that can be folded to create a rectangular pyramid with 3 by 4 rectangular base and height 5.     Pyramid Net 2   A net that can be folded to create a rectangular pyramid with 3 by 5 rectangular base and height 4.     Pyramid Net 3   A net that can be folded to create a rectangular pyramid with 4 by 5 rectangular base and height 3.         Finding Edge Lengths and Surface Area   Regardless of which pyramid net you are working with, the base is a rectangle. Angles , , , and are right angles. The dimensions of the base and the length of are given in the table below:    Dimensions of Pyramids 1, 2, and 3       Pyramid Number  Dimensions of Base  Length of    Net 1   5    Net 2   4    Net 3   3     Determine the following:     For the record, state which Pyramid Net you will study: Net 1 , Net 2 , or Net 3 .      Determine .      Determine .    The Pythagorean Theorem should be used. If your answer is not a whole number (Net 1), leave the square root in your answer.      Determine .    If your answer is not a whole number, you should leave the square root in your answer. What happens when you take the square of a square root?      Explain without performing any calculations why should equal and should equal .    Remember that the net should fold into a pyramid.      Calculate and .    Compute these separately and check that they are equal.  Leave the square root in your answer. What happens when you take the square of a square root?      Use your knowledge of area of rectangles and triangles and the definition of surface area to determine the surface area of this rectangular pyramid.      Constructing a pyramid from a net   Print your Pyramid Net To print out copies of all three nets, sized consistently, use bit.ly\/3PyramidNets. . on cardstock, cut your net out, and fold along the dashed lines to see that this forms a rectangular pyramid.  What do you notice about the corner of your pyramid at ?    "
+},
+{
+  "id": "fig-cone-surface",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#fig-cone-surface",
+  "type": "Figure",
+  "number": "3.4.8",
+  "title": "",
+  "body": " A cone and its net.   Cone with base radius 3, vertical height 6, and slant length 6.71. Two touching circles, one with radius 3. The other with radius 6.71 has shaded portion with central angle 161.   "
+},
+{
+  "id": "formula-vol-of-pyramid",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#formula-vol-of-pyramid",
+  "type": "Formula",
+  "number": "3.4.9",
+  "title": "Volume of a Pyramid.",
+  "body": " Volume of a Pyramid  volume pyramid  pyramid volume   The volume of a pyramid is one-third the volume of a prism with the same base and height. Thus, the volume of a pyramid is given by where is the area of the base and is the height measured along a vertical line segment from the apex to the base.   "
+},
+{
+  "id": "formula-vol-of-cone",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#formula-vol-of-cone",
+  "type": "Formula",
+  "number": "3.4.10",
+  "title": "Volume of a Cone.",
+  "body": " Volume of a Cone  volume cone  cone volume   The volume of a cone is one-third the volume of a cylinder with the same base and height. Since the base of a cone or cylinder is a circle with area, , the formula for the volume of a cone can be written as where is the radius of the base and h is the vertical height when the cone is sitting on its base.   "
+},
+{
+  "id": "expl-volume-by-water",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#expl-volume-by-water",
+  "type": "Exploration",
+  "number": "3.4.3",
+  "title": "Visualizing Pyramid and Cone Volume with Water.",
+  "body": " Visualizing Pyramid and Cone Volume with Water   This is the simplest demonstration of the claim that the volume of a pyramid is one-third the volume of the corresponding prism. In order too perform this task, a special set of containers are needed. These are available through educational material companies. This exploration can also be viewed in the YouTube video in .     Typically, this set will contain two pyramids and prisms with the same base and height. It will also contain a cone and cylinder with a common base and height. Fill the pyramid (or cone) with water and then pour the water into the prism (or cylinder) that has the same base and height. Repeat until the prism (or cylinder) is filled. What do you notice?      Repeat the previous experiment with any other pyramid\/prism or cone\/cylinder pairs you have available.      Does this prove that the formula works in all cases where a pyramid (or cone) has the same base and height as a prism (or cylinder)? What are some nice properties that the paired solids you used have that other prisms and pyramid pairs might not have? What are some other pyramid\/prism pairs or cone\/cylinder pairs that you would add to the set to make the argument more convincing?     YouTube using water to compare volumes This video, compiled by Mr. Chauny, contains snips of three other videos as noted in his credits.     "
+},
+{
+  "id": "expl-volume-recpyr-by-construction",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#expl-volume-recpyr-by-construction",
+  "type": "Exploration",
+  "number": "3.4.4",
+  "title": "Visualizing the Volume of a Rectangular Pyramid by Construction from Nets.",
+  "body": " Visualizing the Volume of a Rectangular Pyramid by Construction from Nets   This demonstration of the volume formula for a pyramid uses the three nets created in . Because the nets are constructed using paper and tape, the ability to complete and comprehend this demonstration may depend on the quality of construction. It is essential that the scale of the three pyramids is consistent. The document bit.ly\/3PyramidNets displays all three nets with the same scale. Printing on stiffer tagboard is recommended.     Cut out each net and carefully assemble each into a pyramid with base .      Arrange the three pyramids so that they form a single rectangular prism. The faces will be -, -, and -rectangles.      Compute the volume of the prism.      Each of the three pyramids has a different base. Determine the area of the base of the pyramid formed by folding   Pyramid Net 1    Pyramid Net 2    Pyramid Net 3         Use the formula to compute the volume of the pyramid formed by   Pyramid Net 1    Pyramid Net 2    Pyramid Net 3         How does additivity of volume together with the computations in and help to confirm the formula for the volume of pyramid for this particular situation?  Bonus challenge: To what family of pyramids can we generalize this argument    For the bonus, note that these pyramids had a particular shaped base and a special base angle.    "
+},
+{
+  "id": "subsubsec-pyramid-volume-9",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-volume-9",
+  "type": "Exploration",
+  "number": "3.4.5",
+  "title": "Visualizing the Volume of a Rectangular Pyramid using a GeoGebra Applet.",
+  "body": " Visualizing the Volume of a Rectangular Pyramid using a GeoGebra Applet   This demonstration explores the relationship between the volume formulas of prisms and pyramids. The GeoGebra applet, (created by John Golden Golden, John, \"Pyramids in Prism,\" GeoGebra Public Resources, CC-BY-SA, 2015. Slightly edited to delete questions and adjust the graphical views. ) demonstrates how a -rectangular prism is split into three rectangular pyramids. In this activity, the shapes are the same as in , but the prism is pulled apart rather than built. The applet allows us to change the dimensions of the prism and pyramids to help us see that the formula holds for prisms of other dimensions as well. A device with a larger screen is recommended.      Verify that the blue rectangle shown on the left has the same dimensions as the base of the prism on the right. Do this by checking the coordinates on the graph.     Drag point , the lower right corner of the rectangle in the left picture. What happens to the prism on the right?      Drag point , the upper left corner of the rectangle in the left picture. How does this affect the prism on the right?       Move the vertical slider on the far left to change the value of . How does this affect the prism on the right?      Use the reset button (upper right corner of the left frame) to return the value of and the locations of and to their original setting.  Slowly move the top slider to pull the prism apart into pyramids, observing the process in the right frame. When the slider is moved all the way to the right, there should be three pyramids visible in the right frame and three rectangles visible in the left frame.  Verify that the three rectangles on the left correspond to the bases of the three pyramids on the right. You may need to adjust your viewing window by zooming out or dragging. You can also see the coordinates of the vertices by right-clicking on the point.      What are the dimensions of the base of the green prism, given by ?      What are the dimensions of the base of the red prism, given by ?      "
+},
+{
+  "id": "SAR-polypyr-vol",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#SAR-polypyr-vol",
+  "type": "Exercise",
+  "number": "3.4.4.1",
+  "title": "",
+  "body": "  Determine the volumes of the following solids:     A pyramid with a square base and a height of .    V=108 cubic units.           A pyramid with a rectangular base with a length of , a width of , and a height of .    35 cubic units           A cone with height 15 cm and radius 10 cm.     cm^{2}     cubic centimeters      A triangular pyramid with a distance of 10 cm from apex to base. The base is an isosceles triangle with sides 13 cm, 13 cm, and 10 cm. Since the base is isosceles, its altitude passes through the midpoint of the 10 cm side. This pyramid is sketched in and the lengths of the sides of the base are given.    Isosceles pyramid with 10-13-13 base and height 10   Triangular Pyramid with 10-13-13 base and height 10      "
+},
+{
+  "id": "SAR-polypyr-SurfA",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#SAR-polypyr-SurfA",
+  "type": "Exercise",
+  "number": "3.4.4.2",
+  "title": "",
+  "body": "  Determine the surface area of the solids:     The prism with an isosceles triangle base and stretch distance 10 cm where the triangle has one side of length 10 cm and two of length 13 cm.    480         Net for isosceles triangle prism   Net for a prism with 10-13-13 isosceles triangle base and stretch distance 10.        The pyramid with net given in     275.58           Net for a pyramid with 10-13-13 isosceles triangle base and stretch distance 10        The prism in and the pyramid in have the same height and base. Divide the two surface areas. Does there appear to be a nice relationship between the surface area of a pyramid and the surface area of the associated prism?    Make sure that your calculator is showing four or more digits after the decimal point. Is the ratio you compute a nice number or an ugly number? Is it familiar to you?    The ratio is 1.74178097104. There does not appear to be a nice relationship between the two surface areas.  In fact, the surface area due to the base(s) will be related by a factor of two since there are two bases in a prism and one in a pyramid. However, the heights of the triangular sides are not the same as the stretch distance of the prism, but instead are where is the distance from the centroid of the base to the edge joining the base to the face.    "
+},
+{
+  "id": "ExtConc-polyhed-pyramid-2",
+  "level": "2",
+  "url": "sec-polyhedra-pyramids-cones.html#ExtConc-polyhed-pyramid-2",
+  "type": "Exercise",
+  "number": "3.4.4.3",
+  "title": "Angle and Area of a Sector.",
+  "body": " Angle and Area of a Sector   The questions in this exercise refer to the cone in which has a circular base with radius 8 inches and a slant height of 17 inches.     Determine the area of the base of this cone.      The height of the cone is measured from the apex along a segment perpendicular to the base. Use this information to determine the height of this cone.      Determine the volume of this cone.    A cone with radius 8 and slant height 17   A cone with radius 8 and slant height 17        Determine the circumference of the base.    The base is a circle with radius 8. What is the formula for the circumference? Also, if you leave the constant in your answer, it will simplify your work in a later problem.                A possible net for the cone is given in . The distance from to along the circular arc, known as the arclength , should equal the distance around the circumference of the base.     What is the total circumference of a circle with radius 17 inches?    Again, you are encouraged to leave the number in your answer.      What fraction of this circumference should the arc length from to be?    The number should cancel, leaving you with a fraction where the numerator and denominator are whole numbers. Do they look familiar?      What is the rotational angle of a full circle? Use this together with the fraction you just computed to determine the measure of .    This figure only shows a rough approximation of the location of . Do not use a protractor.      Determine the area of the sector of circle from to .      Determine the surface area of the cone with radius 8 inches and slant height 17 inches.      What did you learn by doing this exercise? Did you observe anything that you think would make a good conjecture for cones in general?      Net for the cone with slant height 17 and radius 8   A circle with radius 8 and a sector of a circle with radius 17.    "
+},
+{
+  "id": "sec-polyhedra-dimension",
+  "level": "1",
+  "url": "sec-polyhedra-dimension.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Measuring in Different Dimensions",
+  "body": " Measuring in Different Dimensions   Length, area, volume, and surface area have practical applications. A landowner may be interested about the area of the space available for planting and building. If a fence is desired, a different computation is required. Similarly, the amount of water needed to fill a pool and the quantity of waterproofing needed to protect the floor and walls of the pool require different geometrical formulas.    Measuring Interiors  What does it mean to measure the interior of a geometric object? It depends on the object and the context. A line segment is a finite one-dimensional object bounded by two endpoints. Length can be thought of as the measure of the interior space of a line segment, namely the distance between the endpoints. In a one-dimensional space, all objects lie on a single line. we move only forward and backward along that line. There is no height or width.  Two-dimensional geometry is the study of objects lying in a plane. Two-dimensional objects include polygons, circles, and other figures that can be drawn on a flat surface. A closed two-dimensional figure will be bounded by linear and\/or curved segments that separate the interior of the figure from the rest of the plane, which we refer to as the exterior of the figure. The measure of the interior of a two-dimensional figure is called its area and involves both length and width. Of course, the boundary of the planar figure can also be measured, but the boundary consists of one-dimensional objects; namely, line segments and curves.  In three-dimensional geometry, we have length, width, and a third direction called depth (or height). The geometrical solids studied in , including prisms, cylinders, cones, pyramids, and polyhedra, are examples of three-dimensional solids. The measurement of the interior space of a geometrical solid is called volume. Each three-dimensional solid is bounded by surfaces which may include polygons, circles, and other two-dimensional objects. Since these surfaces are two-dimensional, we use area to describe the size of the boundary. The total of the area of these bounding surfaces is given the appropriate name, surface area.    Match the correct type of measurement to each scenario.    Reread the above paragraphs.     The amount of ice that can fit in a cooler.  volume    The amount of vinyl to cover a floor.  area    The amount of wood to build a box.  surface area    The amount of wire to form a polygon's boundary.  perSimeter        Exploring Growth in Two-Dimensional Figures  How does the change in the length in one or more directions affect the area of a figure's interior? How does it affect the size of its boundary?   Growth in Area   Growth and Area   For each of the following rectangles compute the area:     A rectangle with length 3 inches and width 5 inches.    Area 15 square inches.      A rectangle with length 4 cm. and width 7 cm.    Area 28 cm^2.      A rectangle with length 2 ft and width 10 ft.    Area 20 square feet.      A rectangle with length units and width units.     square units       For each rectangle in , multiply the length by 3 and keep the width unchanged. Then compute the area of the enlarged rectangle.     A rectangle with length 3 inches and width 5 inches.    The length is 9 and the width is still 5.    Area 45 square inches.      A rectangle with length 4 cm and width 7 cm.    Multiply the length 4 by 3. Keep width 7.    Area 84 cm^2.      A rectangle with length 2 ft and width 10 ft.    Area 60 sq ft.      A rectangle with length units and width units.    Once again we multiple by 3 and keep .     square units      Describe how multiplying the length of a rectangle by a number affects the area of the rectangle.       Suppose you know the area of a triangle is 52 and then you multiply the base by 5. What will the area of the resulting triangle be?           Suppose you know that the area of a trapezoid is 100 and then you multiply the height of the trapezoid by 1.2. What is the area of the resulting trapezoid?    The height is unchanged. Only the area is multiplied by 1.2.    120 square units      Next we will explore what happens when we multiply both length and width (or base and height) by the same number. For each rectangle in , multiply both the length and width by 4. Then compute the area of the enlarged rectangle. Then compare the resulting areas to those computed in ..     A rectangle with length 3 inches and width 5 inches.    The new length will be inches and the new height is inches.    Area 240 square inches.      A rectangle with length 4 cm and width 7 cm.    Again multiply both the length and the width by 4.    Area .      A rectangle with length 2 ft and width 10 ft.    Area 320 sq ft.      A rectangle with length units and width units.     square units or square units.      Suppose a triangle has area 52 and you multiply both the height and the base by 5. What is the area of the resulting triangle? Why?    Multiply the area by to get .      Suppose a trapezoid has area 100 square meters and you then multiply the height and both bases by 1.2. What is the area of the resulting trapezoid?    144 m^2       Suppose a circle has area square units. If you multiply the radius by 5, what is the area of the resulting circle? Explain.      Area is the measure of the interior of a two-dimensional figure. Refer to your work in this exploration as you explain how area is effected by stretching two-dimensional figures both vertically and horizontally.      Growth in Perimeter   We can also measure the perimeter of two-dimensional figures. In this task, we will explore whether multiplying the length and\/or height of a figure by a fixed number has a predictable effect on the perimeter of the figure.     Determine the perimeter of each rectangle in .     A rectangle with length 3 inches and width 5 inches.    The perimeter is the length of the boundary of a figure. For a rectangle, add the top, right, bottom, and left side lengths.    The perimeter is inches.      A rectangle with length 4 cm. and width 7 cm.    Perimeter 22 cm.      A rectangle with length 2 ft and width 10 ft.    Perimeter 24 feet.      A rectangle with length units and width units.     units        For each rectangle in , multiply both the length and width by 4. Then compute the perimeter of the enlarged rectangle.     A rectangle with length 3 inches and width 5 inches.    Use the original rectangles, not the ones where length has been multiplied by 3.    Perimeter 64 inches.      A rectangle with length 4 cm and width 7 cm.    Perimeter 88 cm.      A rectangle with length 2 ft and width 10 ft.    Perimeter 96 ft.      A rectangle with length units and width units.     units       Suppose a rectangle has perimeter 52 and you multiply both the height and the base by 5. What is the perimeter of the resulting rectangle? Why?           Suppose a triangle has perimeter 20. If we multiply the height and base of a triangle by 3, must the perimeter equal 60? Support your answer using examples. The following GeoGebra applet will allow you to explore different shaped triangles.   A GeoGebra applet to see growth in the perimeter of a triangle.             Suppose a circle has radius 7.     What is the circumference of this circle?      Now multiply the radius by 2 to get 14. What is the circumference of the larger circle?       Suppose a circle has perimeter units. If you multiply the radius by 5, what is the circumference of the resulting circle?     units      Does circumference behave like perimeter or area? Explain.      Perimeter is the measure of the boundary of a two-dimensional figure. Refer to your work in this section of the exploration as you explain how perimeter is affected by stretching two-dimensional figures both vertically and horizontally by the same amount. Can we make the same claim if we stretch vertically by one factor and horizontally by another factor?     Before we look at three dimensional figures, we observe that area and perimeter grow in different ways. SAY MORE HERE! PERHAPS A CHECKPOINT.   Growth in Three-Dimensional Solids    Suppose a rectangular prism has width 2 inches, length 5 inches, and depth 7 inches.     Compute the volume of the prism.      What happens to the volume if just the width is multiplied by 3?      What happens to the volume of the prism if the width and the length are both multiplied by 3 but the depth remains the same?      What happens to the volume if all three dimensions, width, length, and depth, are multiplied by 3?      In a sentence or two, describe how multiplying one or more dimensions by a constant affects the volume of a rectangular prism.       In this task we explore a connection between volume of prisms and cylinders and the depth of the solid.     The base of a prism is a square with side length 7 inches.     What is the volume of the prism if the depth is 1 inch?      What is the volume of the prism if the depth is 3 inches?      What is the volume of the prism if the depth is inches?       The base of a prism is a circle with radius 5 inches.     What is the volume of the prism if the depth is 1 inch?      What is the volume of the prism if the depth is 4 inches?      What is the volume of the prism if the depth is inches?       The base of a prism is a triangle with base 4 inches and height 9 inches.     What is the volume of the prism if the depth is 1 inch?      What is the volume of the prism if the depth is 3 inches?      What is the volume of the prism if the depth is inches?       A prism has a base with area 56 square inches.     What is the volume of the prism if the depth is 1 inch?      What is the volume of the prism if the depth is 3 inches?      What is the volume of the prism if the depth is inches?       Explain how the volume of a prism or cylinder is related to the volume of a solid with the same base but depth 1 unit. Describe how this agrees with the volume formulas for prisms and cylinders.        "
+},
+{
+  "id": "polyhedra-dim-checkpoint-match-measures",
+  "level": "2",
+  "url": "sec-polyhedra-dimension.html#polyhedra-dim-checkpoint-match-measures",
+  "type": "Checkpoint",
+  "number": "3.5.1",
+  "title": "",
+  "body": "  Match the correct type of measurement to each scenario.    Reread the above paragraphs.     The amount of ice that can fit in a cooler.  volume    The amount of vinyl to cover a floor.  area    The amount of wood to build a box.  surface area    The amount of wire to form a polygon's boundary.  perSimeter    "
+},
+{
+  "id": "subsec-polyhedral-dimesion-growth-3",
+  "level": "2",
+  "url": "sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth-3",
+  "type": "Exploration",
+  "number": "3.5.1",
+  "title": "Growth in Area.",
+  "body": " Growth in Area   Growth and Area   For each of the following rectangles compute the area:     A rectangle with length 3 inches and width 5 inches.    Area 15 square inches.      A rectangle with length 4 cm. and width 7 cm.    Area 28 cm^2.      A rectangle with length 2 ft and width 10 ft.    Area 20 square feet.      A rectangle with length units and width units.     square units       For each rectangle in , multiply the length by 3 and keep the width unchanged. Then compute the area of the enlarged rectangle.     A rectangle with length 3 inches and width 5 inches.    The length is 9 and the width is still 5.    Area 45 square inches.      A rectangle with length 4 cm and width 7 cm.    Multiply the length 4 by 3. Keep width 7.    Area 84 cm^2.      A rectangle with length 2 ft and width 10 ft.    Area 60 sq ft.      A rectangle with length units and width units.    Once again we multiple by 3 and keep .     square units      Describe how multiplying the length of a rectangle by a number affects the area of the rectangle.       Suppose you know the area of a triangle is 52 and then you multiply the base by 5. What will the area of the resulting triangle be?           Suppose you know that the area of a trapezoid is 100 and then you multiply the height of the trapezoid by 1.2. What is the area of the resulting trapezoid?    The height is unchanged. Only the area is multiplied by 1.2.    120 square units      Next we will explore what happens when we multiply both length and width (or base and height) by the same number. For each rectangle in , multiply both the length and width by 4. Then compute the area of the enlarged rectangle. Then compare the resulting areas to those computed in ..     A rectangle with length 3 inches and width 5 inches.    The new length will be inches and the new height is inches.    Area 240 square inches.      A rectangle with length 4 cm and width 7 cm.    Again multiply both the length and the width by 4.    Area .      A rectangle with length 2 ft and width 10 ft.    Area 320 sq ft.      A rectangle with length units and width units.     square units or square units.      Suppose a triangle has area 52 and you multiply both the height and the base by 5. What is the area of the resulting triangle? Why?    Multiply the area by to get .      Suppose a trapezoid has area 100 square meters and you then multiply the height and both bases by 1.2. What is the area of the resulting trapezoid?    144 m^2       Suppose a circle has area square units. If you multiply the radius by 5, what is the area of the resulting circle? Explain.      Area is the measure of the interior of a two-dimensional figure. Refer to your work in this exploration as you explain how area is effected by stretching two-dimensional figures both vertically and horizontally.    "
+},
+{
+  "id": "subsec-polyhedral-dimesion-growth-4",
+  "level": "2",
+  "url": "sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth-4",
+  "type": "Exploration",
+  "number": "3.5.2",
+  "title": "Growth in Perimeter.",
+  "body": " Growth in Perimeter   We can also measure the perimeter of two-dimensional figures. In this task, we will explore whether multiplying the length and\/or height of a figure by a fixed number has a predictable effect on the perimeter of the figure.     Determine the perimeter of each rectangle in .     A rectangle with length 3 inches and width 5 inches.    The perimeter is the length of the boundary of a figure. For a rectangle, add the top, right, bottom, and left side lengths.    The perimeter is inches.      A rectangle with length 4 cm. and width 7 cm.    Perimeter 22 cm.      A rectangle with length 2 ft and width 10 ft.    Perimeter 24 feet.      A rectangle with length units and width units.     units        For each rectangle in , multiply both the length and width by 4. Then compute the perimeter of the enlarged rectangle.     A rectangle with length 3 inches and width 5 inches.    Use the original rectangles, not the ones where length has been multiplied by 3.    Perimeter 64 inches.      A rectangle with length 4 cm and width 7 cm.    Perimeter 88 cm.      A rectangle with length 2 ft and width 10 ft.    Perimeter 96 ft.      A rectangle with length units and width units.     units       Suppose a rectangle has perimeter 52 and you multiply both the height and the base by 5. What is the perimeter of the resulting rectangle? Why?           Suppose a triangle has perimeter 20. If we multiply the height and base of a triangle by 3, must the perimeter equal 60? Support your answer using examples. The following GeoGebra applet will allow you to explore different shaped triangles.   A GeoGebra applet to see growth in the perimeter of a triangle.             Suppose a circle has radius 7.     What is the circumference of this circle?      Now multiply the radius by 2 to get 14. What is the circumference of the larger circle?       Suppose a circle has perimeter units. If you multiply the radius by 5, what is the circumference of the resulting circle?     units      Does circumference behave like perimeter or area? Explain.      Perimeter is the measure of the boundary of a two-dimensional figure. Refer to your work in this section of the exploration as you explain how perimeter is affected by stretching two-dimensional figures both vertically and horizontally by the same amount. Can we make the same claim if we stretch vertically by one factor and horizontally by another factor?    "
+},
+{
+  "id": "subsec-polyhedral-dimesion-growth-6",
+  "level": "2",
+  "url": "sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth-6",
+  "type": "Exploration",
+  "number": "3.5.3",
+  "title": "Growth in Three-Dimensional Solids.",
+  "body": " Growth in Three-Dimensional Solids    Suppose a rectangular prism has width 2 inches, length 5 inches, and depth 7 inches.     Compute the volume of the prism.      What happens to the volume if just the width is multiplied by 3?      What happens to the volume of the prism if the width and the length are both multiplied by 3 but the depth remains the same?      What happens to the volume if all three dimensions, width, length, and depth, are multiplied by 3?      In a sentence or two, describe how multiplying one or more dimensions by a constant affects the volume of a rectangular prism.       In this task we explore a connection between volume of prisms and cylinders and the depth of the solid.     The base of a prism is a square with side length 7 inches.     What is the volume of the prism if the depth is 1 inch?      What is the volume of the prism if the depth is 3 inches?      What is the volume of the prism if the depth is inches?       The base of a prism is a circle with radius 5 inches.     What is the volume of the prism if the depth is 1 inch?      What is the volume of the prism if the depth is 4 inches?      What is the volume of the prism if the depth is inches?       The base of a prism is a triangle with base 4 inches and height 9 inches.     What is the volume of the prism if the depth is 1 inch?      What is the volume of the prism if the depth is 3 inches?      What is the volume of the prism if the depth is inches?       A prism has a base with area 56 square inches.     What is the volume of the prism if the depth is 1 inch?      What is the volume of the prism if the depth is 3 inches?      What is the volume of the prism if the depth is inches?       Explain how the volume of a prism or cylinder is related to the volume of a solid with the same base but depth 1 unit. Describe how this agrees with the volume formulas for prisms and cylinders.     "
+},
+{
+  "id": "sec-polyhedra-instructor",
+  "level": "1",
+  "url": "sec-polyhedra-instructor.html",
+  "type": "Section",
+  "number": "3.6",
+  "title": "Instructor’s Notes",
+  "body": " Instructor's Notes   Notes for  I am lucky to have a sufficiently large set of Polydron pieces which allow groups of students to snap equilateral triangles, squares, regular pentagons, and regular hexagons together. Even so, building the isocahedron can be tricky for many students. Groups who do succeed in this construction tend to be proud of their accomplishment and allow other groups to use their construction for counting faces, edges, and vertices.  I have made tagboard pieces available in my classes, especially for . These have been less popular, perhaps due to the small size of the triangles and need for tape. In the next section, it is essential that the side length of each polygon be the same.  An alternative for this exploration would be to provide nets for polyhedra after students have discovered the number and types of regular polygons that can fit around a vertex. This is especially true for the icosahedron and the dodecahedron.  It is possible to use combinatorics to count edges and vertices. Some students who may struggle with counting visually may appreciate a suggestion to try this. Eventually, I hope to add homework problems encouraging this technique. If you are interested, email me at and I will work on it.    Notes for  The first exploration provides an opportunity to review terminology from the preceding section before moving on. The task may be done with plastic or stiff paper polygonal pieces or you may choose to provide nets. This task may also be omitted. Wolfram MathWorld provides a set of nets of semiregular Archimedean solids and other facts about Archimedean solids at .    Notes for  Students find it helpful to have models of prisms and cylinders as the visualize these figures in the third dimension. The dimension height that typically appears in these volume formulas can be confusing when they encounter prisms that are laying on a side. For , it can be helpful to bring enough toilet paper or paper towel rolls and a pair of scissors for each group. Of course, you may choose to wait until students have discussed possible shapes of the surface before providing these.    Notes for  The triangular prism in is designed so that three of them can be put together to create a rectangular prism with the same height, width, and length. The construction of a single pyramid out of paper can be challenging for students and it is even more challenging to construct three of these triangles to form a rectangular prism.  construct-rect-pyr "
+},
+{
+  "id": "sec-isom-reflect-Cartesian",
+  "level": "1",
+  "url": "sec-isom-reflect-Cartesian.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "An Introduction to Reflections",
+  "body": " An Introduction to Reflections   Defining a Reflection  A reflection is the first transformation we will explore.   reflection  image reflection  reflecting line  mirror  preimage reflection   A reflection is a transformation of a plane which is specified by a line , called its mirror or reflecting line . Each point not on the mirror is mapped by the reflection to a point on the opposite side of . The location of each is determined by the fact that would fall directly on the corresponding when we fold the plane along the mirror line . We call the image of and call the preimage of .     In , the reflection across line maps points , , and to images , , and , respectively.     Reflection of triangle ABC across line l      Additional properties of reflections will be discovered through exploration.    Exploring Reflections by Sketching  As we begin our study of reflections, it is advantageous to use paper and colored pencils. Using these tactile tools will help us develop spacial skills, give us a broader understanding of reflections, and recognize relationships between geometry and algebra. In addition, working on paper allows us to check our work by folding.   In future sections, we will use GeoGebra tools for finding reflections. Although GeoGebra interactives are provided at the end of the current section and accessible by links in the margin notes, these GeoGebra applets are designed to mimic tasks you would normally do with paper and pencils. They do not exploit the power of GeoGebra and require additional steps to rename and recolor objects. In fact, the reflection tool in this section's applets has been turned off. You are encouraged to use paper and pencils or your device's drawing tools instead of the applets.    Reflections on Graph Paper    Print out the image in or carefully copy it onto graph paper.   A pentomino to reflect across   On graph paper, line GH passes through the points G(0,0) and H(4,4). A backwards P-pentomino is formed using the following sequence of points: A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.       On your copy of , use the coordinate grid to reflect each vertex of pentomino across line . Give the reflected image of the label , the reflected image of the label , etc. Connect the points you drew to form pentomino .   The interactive , provided at the end of the section, may be used instead of the recommended pencil and paper. Use the Plot Point tool to draw the image of each point. Plotting reflected points in alphabetical order will assign the label to the reflected image of , the label to the image of , etc. You may be able to rename these images to , , etc., or you may want to note that in the discussion that follows, , , , , , and .     If you are using paper, you can check your answer by folding across line . Otherwise, imagine what would happen if you were to fold across this line. Do your figures line up?      In what ways are the reflected image and the original figure the same? In what ways are they different?      Where does intersect ? How is this point related to segment ?      What type of angle is formed by the intersection of and ?      Using the 1 cm graph paper as a guide, what is the shortest distance from point to line ? What is the distance from to ?      What happens to the other points in the reflection? Suppose is any point in the plane and let be its image created by reflecting it across any line in the plane. What do you expect to be true about the relationship between the segment and the reflecting line?    The letter is being used as a variable that can represent any point on the plane, including , , and so forth. For example, when , . When , . This allows us to discuss properties that hold for all points in a single statement.      What happens if you reflect point across line ? Is your claim true for any point on ?      Revise the definition of reflection in to include the action on points that lie on the mirror. Add this definition to your toolbox in words and pictures that are meaningful to you.       Pentomino and its reflection are shown in . Use what you discovered in to sketch the reflecting line. Describe your technique.    What properties should the reflecting line have? Browse the GeoGebra tools to find tool(s) that will draw this line.     GeoGebra applet with reflected pentominos        Reflections and Coordinates  Every point on the Cartesian plane can be identified by its coordinates . The coordinates and represent the location of the point as being units to the right and units above the origin. In the next exploration, we observe how we can use the coordinates of a point to determine the coordinates of its image under a reflection across the - or -coordinate axes.   Reflecting Across the Coordinate Axes   Use a copy of the graph below to complete the following tasks. You will need to be able to draw in four colors as described.   Four Points on Coordinate Grid for    A coordinate grid showing the x-axis and y-axis and points A=(2,5), B=(-1,3), C=(0,-4), and D=(6,-3).        Plot the images , , , and of the points , , , and across the horizontal ( -) axis. Determine the coordinates of each new point. Create the quadrilateral and color it red. What effect does reflecting across the -axis have on coordinates?   If you choose to do this activity online using the GeoGebra applet in , you may enter a point using the Input box on the bottom of the applet. Type and GeoGebra will plot the point and label it . Of course, that is not the correct image for ! You might not be able to color code the quadrilaterals.       Plot the reflections of the original points , , , and across the vertical ( -) axis, labeling these points with double primes, , , , and . Determine the coordinates , , , and . Create the quadrilateral and color it green. What effect does reflecting across the -axis have on coordinates?      Reflect the vertices , , , and of the red quadrilateral created in across the vertical ( )-axis, Create and color this new quadrilateral blue and label the new points with asterisks, , , , and . Determine the coordinates of the newest points , , , and . What effect does reflecting first across the -axis and then across the have on the coordinates (from the original to the final for example)?      Focus on the original points , , , and and the final points , , , and . Is there a single reflecting line that gives this mapping? What type of transformation describes this mapping?    Look at the quadrilaterals and . If there is a reflecting line, the quadrilaterals should line up when you fold along that line.      Suppose that you were to reflect the green points from across the horizontal ( )-axis. What do you notice about their images in relation to other points?       Key Ideas Regarding Reflections  In this section, we have drawn reflections by hand using a coordinate grid as an aid and we observed a few of the properties of reflections. Since we will be building on these discoveries, it is wise to summarize the main ideas for future reference.   reflection  mirror  reflecting line  axis of a reflection  image   A reflection across a line is a transformation of the points in the plane which maps each point in the plane by flipping it over line . The reflecting line is called the mirror or axis . The image of a point under a reflection (or any other transformation) is the point to which the transformation sends . In this case of a reflection, is the reflection of point .    While the notion of reflecting can be intuitively understood as flipping, the properties you discovered in provide a more specific definition that can be extended to other geometries. These properties are identified in and should be added to your toolbox.   Properties of a Reflecting Line   The reflecting line meets the segment , connecting a point and its reflected image , at a -degree angle. The point where meets is between points and .    90; halfway    So far, we have only reflected across lines that were either horizontal, vertical, or which make a 45-degree angle to the horizontal. As we expand our consideration to reflections across other lines, we will drop the coordinate grid and use technology.    Optional GeoGebra Interactives  The GeoGebra interactive may be used instead of in . Since the paper version of these activities is recommended, the interactive version has been placed here at the end of the section.   GeoGebra applet for reflecting across line .    Similarly, the GeoGebra interactive may be used in the place of .   GeoGebra interactive for reflecting across axes      Exercises   Building Our Toolbox    add      Skills and Recall    Add some.      Extending the Concepts    Add      Writing Prompts    Add      "
+},
+{
+  "id": "subsec-defining-reflection-2",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#subsec-defining-reflection-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "reflection "
+},
+{
+  "id": "def-reflection",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#def-reflection",
+  "type": "Definition",
+  "number": "4.1.1",
+  "title": "",
+  "body": " reflection  image reflection  reflecting line  mirror  preimage reflection   A reflection is a transformation of a plane which is specified by a line , called its mirror or reflecting line . Each point not on the mirror is mapped by the reflection to a point on the opposite side of . The location of each is determined by the fact that would fall directly on the corresponding when we fold the plane along the mirror line . We call the image of and call the preimage of .   "
+},
+{
+  "id": "reflect-example",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#reflect-example",
+  "type": "Example",
+  "number": "4.1.2",
+  "title": "",
+  "body": " In , the reflection across line maps points , , and to images , , and , respectively.     Reflection of triangle ABC across line l     "
+},
+{
+  "id": "subsec-expl-ref-coordplane-3",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#subsec-expl-ref-coordplane-3",
+  "type": "Note",
+  "number": "4.1.4",
+  "title": "",
+  "body": " In future sections, we will use GeoGebra tools for finding reflections. Although GeoGebra interactives are provided at the end of the current section and accessible by links in the margin notes, these GeoGebra applets are designed to mimic tasks you would normally do with paper and pencils. They do not exploit the power of GeoGebra and require additional steps to rename and recolor objects. In fact, the reflection tool in this section's applets has been turned off. You are encouraged to use paper and pencils or your device's drawing tools instead of the applets.  "
+},
+{
+  "id": "expl-reflect-pentomino-coordplane",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#expl-reflect-pentomino-coordplane",
+  "type": "Exploration",
+  "number": "4.1.1",
+  "title": "Reflections on Graph Paper.",
+  "body": " Reflections on Graph Paper    Print out the image in or carefully copy it onto graph paper.   A pentomino to reflect across   On graph paper, line GH passes through the points G(0,0) and H(4,4). A backwards P-pentomino is formed using the following sequence of points: A(0,6), B(2,6), C(2,3), D(1,3), E(1,4), and F(0,4). Axes are not shown.       On your copy of , use the coordinate grid to reflect each vertex of pentomino across line . Give the reflected image of the label , the reflected image of the label , etc. Connect the points you drew to form pentomino .   The interactive , provided at the end of the section, may be used instead of the recommended pencil and paper. Use the Plot Point tool to draw the image of each point. Plotting reflected points in alphabetical order will assign the label to the reflected image of , the label to the image of , etc. You may be able to rename these images to , , etc., or you may want to note that in the discussion that follows, , , , , , and .     If you are using paper, you can check your answer by folding across line . Otherwise, imagine what would happen if you were to fold across this line. Do your figures line up?      In what ways are the reflected image and the original figure the same? In what ways are they different?      Where does intersect ? How is this point related to segment ?      What type of angle is formed by the intersection of and ?      Using the 1 cm graph paper as a guide, what is the shortest distance from point to line ? What is the distance from to ?      What happens to the other points in the reflection? Suppose is any point in the plane and let be its image created by reflecting it across any line in the plane. What do you expect to be true about the relationship between the segment and the reflecting line?    The letter is being used as a variable that can represent any point on the plane, including , , and so forth. For example, when , . When , . This allows us to discuss properties that hold for all points in a single statement.      What happens if you reflect point across line ? Is your claim true for any point on ?      Revise the definition of reflection in to include the action on points that lie on the mirror. Add this definition to your toolbox in words and pictures that are meaningful to you.       Pentomino and its reflection are shown in . Use what you discovered in to sketch the reflecting line. Describe your technique.    What properties should the reflecting line have? Browse the GeoGebra tools to find tool(s) that will draw this line.     GeoGebra applet with reflected pentominos     "
+},
+{
+  "id": "expl-reflect-across-xyaxes",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#expl-reflect-across-xyaxes",
+  "type": "Exploration",
+  "number": "4.1.2",
+  "title": "Reflecting Across the Coordinate Axes.",
+  "body": " Reflecting Across the Coordinate Axes   Use a copy of the graph below to complete the following tasks. You will need to be able to draw in four colors as described.   Four Points on Coordinate Grid for    A coordinate grid showing the x-axis and y-axis and points A=(2,5), B=(-1,3), C=(0,-4), and D=(6,-3).        Plot the images , , , and of the points , , , and across the horizontal ( -) axis. Determine the coordinates of each new point. Create the quadrilateral and color it red. What effect does reflecting across the -axis have on coordinates?   If you choose to do this activity online using the GeoGebra applet in , you may enter a point using the Input box on the bottom of the applet. Type and GeoGebra will plot the point and label it . Of course, that is not the correct image for ! You might not be able to color code the quadrilaterals.       Plot the reflections of the original points , , , and across the vertical ( -) axis, labeling these points with double primes, , , , and . Determine the coordinates , , , and . Create the quadrilateral and color it green. What effect does reflecting across the -axis have on coordinates?      Reflect the vertices , , , and of the red quadrilateral created in across the vertical ( )-axis, Create and color this new quadrilateral blue and label the new points with asterisks, , , , and . Determine the coordinates of the newest points , , , and . What effect does reflecting first across the -axis and then across the have on the coordinates (from the original to the final for example)?      Focus on the original points , , , and and the final points , , , and . Is there a single reflecting line that gives this mapping? What type of transformation describes this mapping?    Look at the quadrilaterals and . If there is a reflecting line, the quadrilaterals should line up when you fold along that line.      Suppose that you were to reflect the green points from across the horizontal ( )-axis. What do you notice about their images in relation to other points?    "
+},
+{
+  "id": "sec-isom-reflect-Cartesian-5-3",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#sec-isom-reflect-Cartesian-5-3",
+  "type": "Definition",
+  "number": "4.1.8",
+  "title": "",
+  "body": " reflection  mirror  reflecting line  axis of a reflection  image   A reflection across a line is a transformation of the points in the plane which maps each point in the plane by flipping it over line . The reflecting line is called the mirror or axis . The image of a point under a reflection (or any other transformation) is the point to which the transformation sends . In this case of a reflection, is the reflection of point .   "
+},
+{
+  "id": "fillin-refl-def-prop",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#fillin-refl-def-prop",
+  "type": "Checkpoint",
+  "number": "4.1.9",
+  "title": "Properties of a Reflecting Line.",
+  "body": " Properties of a Reflecting Line   The reflecting line meets the segment , connecting a point and its reflected image , at a -degree angle. The point where meets is between points and .    90; halfway   "
+},
+{
+  "id": "fig-GGreflectP",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#fig-GGreflectP",
+  "type": "Figure",
+  "number": "4.1.10",
+  "title": "",
+  "body": " GeoGebra applet for reflecting across line .   "
+},
+{
+  "id": "fig-Ggversion-4pt-reflect",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#fig-Ggversion-4pt-reflect",
+  "type": "Figure",
+  "number": "4.1.11",
+  "title": "",
+  "body": " GeoGebra interactive for reflecting across axes   "
+},
+{
+  "id": "Toolbox-isom-reflect-2",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#Toolbox-isom-reflect-2",
+  "type": "Exercise",
+  "number": "4.1.6.1",
+  "title": "",
+  "body": "  add   "
+},
+{
+  "id": "SAR-isom-reflect-2",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#SAR-isom-reflect-2",
+  "type": "Exercise",
+  "number": "4.1.6.2",
+  "title": "",
+  "body": "  Add some.   "
+},
+{
+  "id": "ExtConc-isom-reflect-2",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#ExtConc-isom-reflect-2",
+  "type": "Exercise",
+  "number": "4.1.6.3",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "Writing-isom-reflect-2",
+  "level": "2",
+  "url": "sec-isom-reflect-Cartesian.html#Writing-isom-reflect-2",
+  "type": "Exercise",
+  "number": "4.1.6.4",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "sec-isom-rotate-and-translate",
+  "level": "1",
+  "url": "sec-isom-rotate-and-translate.html",
+  "type": "Section",
+  "number": "4.2",
+  "title": "Orientation-Maintaining Transformations",
+  "body": " Orientation-Maintaining Transformations   Have you ever held a written message up to a mirror? You probably noticed that the direction of the words were reversed, making them more difficult to read. Even turning your head slightly did not correct this. In this section, we will look more carefully at this property, called orientation-reversing and learn about other transformations that do not reverse orientation of figures. We will also explore isometries and learn about properties that all isometries share.   The word math reflected across a line.     What do we mean by orientation-maintaining?  The picture in shows a triangle reflected across a line . Although the letters , , and are in alphabetical order when read clockwise from the original figure, the letters in the reflected image are in the reverse order. When this happens, we say that the transformation reverses orientation . Any reflection will be an orientation-reversing transformation.   A reflection reverses orientation   Triangle ABC reflected across a line m to create triangle C'B'A'.    Not all transformations change orientation. In this section, you will encounter two types of orientation-maintaining transformations, namely rotations and translations. When an orientation-maintaining transformation is performed, the order in which the vertices are read is unchanged.   Many textbooks use the term orientation-preserving instead of orientation-maintaining. Because of the oral similarity in the words, reversing and preserving, I have chosen to use the term orientation-maintaining instead of orientation-preserving in this textbook.    orientation  change orientation  reverse orientation  preserve orientation  maintain orientation  same orientation   A geometrical transformation is said to maintain orientation if the order of the vertices of any image when read clockwise are the same as that of the original figure.  On the other hand, if the resulting images have the vertices in the reverse order, we say that the transformation reverses orientation .      Determine whether orientation is maintained or reversed in each illustrated transformation:     The rotation in .    Maintained.      The reflected dilation in .    Reversed.       Collinearities and Isomorphisms  We observed that although reflections reverse orientation, they preserve distance, angle measure, and shape. Any object and its image under a reflection are congruent. In , we see the action of the reflection across line not just on triangle , but on other points on the plane. Note how points and lie on and their reflected images and lie on the image of . This suggests that this reflection, and in fact any reflection, should preserve linearity of points.   Action of a Reflection       A transformation that preserves linearity , that takes collinear points to points that also lie on a common line, is called a collineation . preserves linearity  collineation      The words collinear and collineation share the same root but describe different mathematical objects. A collinear describes a set of points as lying on a single line. A collineation , on the other hand, is a transformation or mapping that has the property that when three or more points lie on a line their images will be points that lie on a common line. The line containing the images may be a different line or the same line as the one containing the original points.    directs our attention to some qualities preserved by a reflection. As you encounter other collineations you are encouraged to check whether these properties continue to hold.   Properties Preserved by a Reflection    In , the reflected image of each illustrated point is identified by adding a prime or apostrophe. Give examples that demonstrate each of the following properties preserved by the reflection. In some cases, there may be more than one answer.     A point in the interior of a polygon maps to a point in the interior of the image of the polygon.      A point in the exterior of a polygon maps to a point in the exterior of the image of the polygon.      If a point lies between two other points on a line, then its image will also lie between the images of those two points.      Points on the right side of the mirror will reflect to a point on the left side of the mirror.      Distance between points is preserved.      Angle measure is preserved.      The image of a point maps reflects back to the original point.       Let be the point where lines and intersect. Where must , the image of be located? Why?     The transformation in is a collineation, but it does not preserve distance. For the remainder of we will focus on distance-preserving collineations. Collineations that do not preserve distance will be the focus of .   isomorphism  distance-preserving  collineation distance-preserving   A collineation is called an isomorphism if it preserves distance between points. In other words, collineation is an isomorphism if for every two points and , where and .   Here, refers to a transformation, a function mapping points.     Reflections are just one example of an isomorphism. We shall see that translations and rotations also preserve linearity and distance.    Translations  The first orientation-maintaining transformation is called a translation or slide .   translation  vector  translation vector   A translation is an transformation that slides every point on the plane a fixed distance in a specified direction. The direction and distance are often given in the form of a directed line segment called the translation vector .     Translating on a Coordinate Plane   This exploration may also be done on paper using a print copy of instead of the application. The GeoGebra tool for creating translations has been turned off. Instead, you should use the grid or coordinates to determine the locations of the translated points.      gives a picture of quadrilateral a vector on a coordinate grid. Vector goes from to suggesting that this translation moves points three units to the right and one unit down.   An interactive GeoGebra applet for translating by a coordinate vector.       Use the point tool to locate and mark the image created by moving point the distance and direction indicated by vector . What are the coordinates of ?   GeoGebra will assign a new name, perhaps , to the point you create. If you would like to rename it, right click on the point and select rename.       Create , , and in a similar fashion, recording their coordinates. Then use the polygon tool to draw quadrilateral .       Does the transformation mapping to preserve distance? In other words, is the length of each side of quadrilateral equal to its corresponding side in quadrilateral ?      Are the corresponding angles of and congruent?      Is the orientation of quadrilateral maintained under the translation? How do you know?      Sketch the segments , , , and .     What do you notice about the lengths of these segments?      Now consider what happens if we extend these segments into lines. What appears to be true about the lines , , , and ?    Since lines have infinite length, you should be looking for a property other than length.       Are the quadrilaterals and congruent?     What type of quadrilateral is ? How do you know? Can the same be said of quadrilaterals , , and ?   The hide\/show tool in GeoGebra has a blue dot and a white dot in its icon. It can be found in the second to last menu. Clicking on the interior of quadrilateral with the show\/hide tool selected will hide the quadrilateral. Click on any other tool to complete the hiding process. Use the back arrow or the show\/hide tool to bring the quadrilateral back into view.      An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of quadrilateral , and point lying in the interior of .     Sketch point , the image of under the transformation that takes to . How is the location of related to ?      Sketch point , the image of under the transformation that takes to . How is the location of related to ?      Sketch point the image of under the transformation that takes to . How is the location of related to ?       Based on the translation you explored in , describe in your own words how a translation acts on points, line segments, lines, and polygons in the plane. What properties will it have?      Properties of Translations  In , we observed many properties of a transformation called a translation . Each translation is uniquely defined by a translation vector A vector is simply a directed line segment between two points. which indicates the direction and distance that every point is moved by the translation. The choice of vector for a given tranlation is not unique. Any vector of the same length which points in the same direction may serve as the vector for the translation. In , the vector is a translation vector for the given translation; however, , , , or even your would describe the same translation. Any of these vectors point down 1 unit and to the right 3 units. You probably noticed that these vectors were parallel and had the same length.     Rotations   The third transformation we will consider is a rotation . Like a translation, a rotation maintains the orientation of the vertices. As the name suggests, a rotation turns the points of a plane around a single fixed point.   rotation  center of a rotation  angle of rotation   A rotation is a transformation of points on a plane that has a single point, called the center of the rotation, which is not moved by the rotation. All other points are rotated around the center a specific number of degrees. This specified number of degrees is referred to as the angle of rotation .    Note that we also need to specify the direction of the spin. If the direction of a rotation is not specified, we will assume that it spins in the counterclockwise direction. To indicate a clockwise rotation, the angle may be given as a negative number.    Exploring a Rotation    shows an example of the action of a translation on triangle . Use this figure to answer the following:   A rotation of   Triangle ABC is rotated around a point F to form triangle A'B'C'.        List the vertices of the original triangle clockwise order starting with . List the vertices of the image in clockwise order starting with . Does the rotation maintain the orientation of the triangle?      What point in is the center of this particular rotation? Is it on either triangle, in the interior of either triangle, or in the exterior of both triangles? How do you know that the point you identified as the center meets the criteria in the definition of center of rotation ? Is the center of rotation related to , , and ?    In this example, the center is exterior to the two given triangles. We will explore examples where the center is on the polygon or in the interior of the polygon later.  The center lies at the intersection of the perpendicular bisectors of the segments . At this point in the course, it is enough for students to recognize that the center does not lie at the intersection of the segments themselves. (In fact, there is no common intersection.)      Is the rotation distance-preserving? How do you know?    Here, your argument can be observational and based on this one example. Hopefully, you wonder whether it will always be the case and why this happens!      In , the following angle measures are given: Determine the following angle measures:                       What is the degree measure of the rotational angle of this rotation taking to ? Is it a clockwise or counterclockwise rotation?      Properties of Rotations  A rotation is specified by two pieces of information, namely its center and the angle of rotation. The center is the one point which does not move. Each point , except for the center, is moved to a new point . The distance between the center and each point does not change under the rotation. However, the direction from the center to each point is changed as dictated by the rotation angle.  The angle of rotation is given by the angle where is the center of the rotation. A positive rotation moves each point to its image in the counterclockwise direction. On the other hand, a rotational angle with negative degree measure would move the image clockwise around the center. Rotational angles may be greater than 180 degrees or negative. In fact, any number of degrees is allowed!   Check your understanding   What is the degree measure of the rotational angle of a clockwise rotation that is identical to a 123-degree counterclockwise rotation? Give two answers, one that is a negative number and other a positive number.       Exercises   Building Our Toolbox    add      Skills and Recall    Add some.      Extending the Concepts    Add      Writing Prompts    Add       "
+},
+{
+  "id": "subsec-isom-RAT-definingOP-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "reverses orientation orientation-reversing "
+},
+{
+  "id": "reversing-orientation-fig",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#reversing-orientation-fig",
+  "type": "Figure",
+  "number": "4.2.1",
+  "title": "",
+  "body": " A reflection reverses orientation   Triangle ABC reflected across a line m to create triangle C'B'A'.   "
+},
+{
+  "id": "subsec-isom-RAT-definingOP-4",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "orientation-maintaining "
+},
+{
+  "id": "subsec-isom-RAT-definingOP-5-1",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "orientation-preserving "
+},
+{
+  "id": "def-orientation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#def-orientation",
+  "type": "Definition",
+  "number": "4.2.2",
+  "title": "",
+  "body": " orientation  change orientation  reverse orientation  preserve orientation  maintain orientation  same orientation   A geometrical transformation is said to maintain orientation if the order of the vertices of any image when read clockwise are the same as that of the original figure.  On the other hand, if the resulting images have the vertices in the reverse order, we say that the transformation reverses orientation .   "
+},
+{
+  "id": "subsec-isom-RAT-definingOP-7",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP-7",
+  "type": "Checkpoint",
+  "number": "4.2.3",
+  "title": "",
+  "body": "  Determine whether orientation is maintained or reversed in each illustrated transformation:     The rotation in .    Maintained.      The reflected dilation in .    Reversed.    "
+},
+{
+  "id": "subsec-isom-RAT-collinearity-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "preserve preserve linearity "
+},
+{
+  "id": "fig-illustrate-collineation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#fig-illustrate-collineation",
+  "type": "Figure",
+  "number": "4.2.4",
+  "title": "",
+  "body": " Action of a Reflection   "
+},
+{
+  "id": "def-collineation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#def-collineation",
+  "type": "Definition",
+  "number": "4.2.5",
+  "title": "",
+  "body": "  A transformation that preserves linearity , that takes collinear points to points that also lie on a common line, is called a collineation . preserves linearity  collineation    "
+},
+{
+  "id": "subsec-isom-RAT-collinearity-5",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity-5",
+  "type": "Note",
+  "number": "4.2.6",
+  "title": "",
+  "body": " The words collinear and collineation share the same root but describe different mathematical objects. A collinear describes a set of points as lying on a single line. A collineation , on the other hand, is a transformation or mapping that has the property that when three or more points lie on a line their images will be points that lie on a common line. The line containing the images may be a different line or the same line as the one containing the original points.  "
+},
+{
+  "id": "explor-props-preserved-refl",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#explor-props-preserved-refl",
+  "type": "Exploration",
+  "number": "4.2.1",
+  "title": "Properties Preserved by a Reflection.",
+  "body": " Properties Preserved by a Reflection    In , the reflected image of each illustrated point is identified by adding a prime or apostrophe. Give examples that demonstrate each of the following properties preserved by the reflection. In some cases, there may be more than one answer.     A point in the interior of a polygon maps to a point in the interior of the image of the polygon.      A point in the exterior of a polygon maps to a point in the exterior of the image of the polygon.      If a point lies between two other points on a line, then its image will also lie between the images of those two points.      Points on the right side of the mirror will reflect to a point on the left side of the mirror.      Distance between points is preserved.      Angle measure is preserved.      The image of a point maps reflects back to the original point.       Let be the point where lines and intersect. Where must , the image of be located? Why?    "
+},
+{
+  "id": "def-isom",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#def-isom",
+  "type": "Definition",
+  "number": "4.2.7",
+  "title": "",
+  "body": " isomorphism  distance-preserving  collineation distance-preserving   A collineation is called an isomorphism if it preserves distance between points. In other words, collineation is an isomorphism if for every two points and , where and .   Here, refers to a transformation, a function mapping points.    "
+},
+{
+  "id": "subsec-Translations-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-Translations-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "translation slide "
+},
+{
+  "id": "def-translation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#def-translation",
+  "type": "Definition",
+  "number": "4.2.8",
+  "title": "",
+  "body": " translation  vector  translation vector   A translation is an transformation that slides every point on the plane a fixed distance in a specified direction. The direction and distance are often given in the form of a directed line segment called the translation vector .   "
+},
+{
+  "id": "explor-isom-RAT-translation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#explor-isom-RAT-translation",
+  "type": "Exploration",
+  "number": "4.2.2",
+  "title": "Translating on a Coordinate Plane.",
+  "body": " Translating on a Coordinate Plane   This exploration may also be done on paper using a print copy of instead of the application. The GeoGebra tool for creating translations has been turned off. Instead, you should use the grid or coordinates to determine the locations of the translated points.      gives a picture of quadrilateral a vector on a coordinate grid. Vector goes from to suggesting that this translation moves points three units to the right and one unit down.   An interactive GeoGebra applet for translating by a coordinate vector.       Use the point tool to locate and mark the image created by moving point the distance and direction indicated by vector . What are the coordinates of ?   GeoGebra will assign a new name, perhaps , to the point you create. If you would like to rename it, right click on the point and select rename.       Create , , and in a similar fashion, recording their coordinates. Then use the polygon tool to draw quadrilateral .       Does the transformation mapping to preserve distance? In other words, is the length of each side of quadrilateral equal to its corresponding side in quadrilateral ?      Are the corresponding angles of and congruent?      Is the orientation of quadrilateral maintained under the translation? How do you know?      Sketch the segments , , , and .     What do you notice about the lengths of these segments?      Now consider what happens if we extend these segments into lines. What appears to be true about the lines , , , and ?    Since lines have infinite length, you should be looking for a property other than length.       Are the quadrilaterals and congruent?     What type of quadrilateral is ? How do you know? Can the same be said of quadrilaterals , , and ?   The hide\/show tool in GeoGebra has a blue dot and a white dot in its icon. It can be found in the second to last menu. Clicking on the interior of quadrilateral with the show\/hide tool selected will hide the quadrilateral. Click on any other tool to complete the hiding process. Use the back arrow or the show\/hide tool to bring the quadrilateral back into view.      An isometry affects all points in the plane, not just those pictured. Draw three new points: point lying on side , point lying in the exterior of quadrilateral , and point lying in the interior of .     Sketch point , the image of under the transformation that takes to . How is the location of related to ?      Sketch point , the image of under the transformation that takes to . How is the location of related to ?      Sketch point the image of under the transformation that takes to . How is the location of related to ?       Based on the translation you explored in , describe in your own words how a translation acts on points, line segments, lines, and polygons in the plane. What properties will it have?    "
+},
+{
+  "id": "subsec-isom-RAT-props-translation-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-translation-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "translation translation vector vector "
+},
+{
+  "id": "subsec-isom-RAT-rotation-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-rotation-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "rotation "
+},
+{
+  "id": "def-rotation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#def-rotation",
+  "type": "Definition",
+  "number": "4.2.10",
+  "title": "",
+  "body": " rotation  center of a rotation  angle of rotation   A rotation is a transformation of points on a plane that has a single point, called the center of the rotation, which is not moved by the rotation. All other points are rotated around the center a specific number of degrees. This specified number of degrees is referred to as the angle of rotation .   "
+},
+{
+  "id": "expl-rotation",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#expl-rotation",
+  "type": "Exploration",
+  "number": "4.2.3",
+  "title": "Exploring a Rotation.",
+  "body": " Exploring a Rotation    shows an example of the action of a translation on triangle . Use this figure to answer the following:   A rotation of   Triangle ABC is rotated around a point F to form triangle A'B'C'.        List the vertices of the original triangle clockwise order starting with . List the vertices of the image in clockwise order starting with . Does the rotation maintain the orientation of the triangle?      What point in is the center of this particular rotation? Is it on either triangle, in the interior of either triangle, or in the exterior of both triangles? How do you know that the point you identified as the center meets the criteria in the definition of center of rotation ? Is the center of rotation related to , , and ?    In this example, the center is exterior to the two given triangles. We will explore examples where the center is on the polygon or in the interior of the polygon later.  The center lies at the intersection of the perpendicular bisectors of the segments . At this point in the course, it is enough for students to recognize that the center does not lie at the intersection of the segments themselves. (In fact, there is no common intersection.)      Is the rotation distance-preserving? How do you know?    Here, your argument can be observational and based on this one example. Hopefully, you wonder whether it will always be the case and why this happens!      In , the following angle measures are given: Determine the following angle measures:                       What is the degree measure of the rotational angle of this rotation taking to ? Is it a clockwise or counterclockwise rotation?    "
+},
+{
+  "id": "subsec-isom-RAT-props-rotation-4",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-rotation-4",
+  "type": "Checkpoint",
+  "number": "4.2.12",
+  "title": "Check your understanding.",
+  "body": " Check your understanding   What is the degree measure of the rotational angle of a clockwise rotation that is identical to a 123-degree counterclockwise rotation? Give two answers, one that is a negative number and other a positive number.   "
+},
+{
+  "id": "Toolbox-isom-RAT-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#Toolbox-isom-RAT-2",
+  "type": "Exercise",
+  "number": "4.2.5.1",
+  "title": "",
+  "body": "  add   "
+},
+{
+  "id": "SAR-isom-RAT-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#SAR-isom-RAT-2",
+  "type": "Exercise",
+  "number": "4.2.5.2",
+  "title": "",
+  "body": "  Add some.   "
+},
+{
+  "id": "ExtConc-isom-RAT-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#ExtConc-isom-RAT-2",
+  "type": "Exercise",
+  "number": "4.2.5.3",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "Writing-isom-RAT-2",
+  "level": "2",
+  "url": "sec-isom-rotate-and-translate.html#Writing-isom-RAT-2",
+  "type": "Exercise",
+  "number": "4.2.5.4",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "sec-isom-identifying-isometries",
+  "level": "1",
+  "url": "sec-isom-identifying-isometries.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Identifying Isometries",
+  "body": " Identifying Isometries   What do we know? What do we wonder?   As we continue to build on our knowledge of isometries, it is wise to summarize what we know so far. We know that a transformation of a plane is a mapping or function on points. A transformation sends each point on the plane to a unique point called its image under the transformation. Some transformations are collineations , meaning that if a set of points all lie on the same line, then their images will also lie on a single line. We have observed that some collineations preserve shape and angle measure and that some collineations that preserve angle measure will also preserve distance. The transformations that preserve all of these properties (collinearity, angle measure, and distance) are called isometries .    Reflect and Wonder    Before reading this section, respond to the following questions. There are no right or wrong answers!   Write down three things you know about transformations. In particular, what do you know about reflections, translations, and rotations?    Is there anything that was discussed in the first sections on transformations that you need clarity on?    What do you wonder about transformations? What questions remain?          Isometry Between Congruent Figures  We are familiar with three types of isometries: reflections, translations, and rotations. Yet many questions remain: Are there other types of isometries? Are there transformations that are not isometries? We have seen that the image of a polygon under an isometry is congruent to the original polygon. But what about the converse? If two figures are congruent, is there always an isometry mapping one to the other? If so, how do we determine what type of isometry it is?  Although we have not proved this fact, it is true that if we have two congruent figures, there will be an isometry that maps one onto the other. Our goal in this section and next will be to identify the type of isometry that takes one figure onto a congruent copy. Is it a reflection, a translation, a rotation, or something else? Then having determined the type, can we specify the exact action that performs the movement? A good place to start is to identify whether the isometry maintains orientation.   Distinguishing Between Types of Isometries by Orientation    Consider the following and be prepared to share your thoughts.     Imagine that is a triangular puzzle piece with a beach scene on the front and gray cardboard on the back. We can think of the action of an isometry as moving so that it aligns perfectly with its image . Which isometries--reflections, translations, and rotations--studied so far will keep beach side up? Which will turn over so that it is cardboard side up? What property does this represent?      Translations and rotations both preserve orientation. How might you tell the difference between a translation and a rotation? Assume that you are given a picture of two congruent triangles and where the orientation is the same. How do you know whether a translation takes to ? How do you know whether the isometry is a rotation? Could it be both? Or could it be neither?        Recognizing Isometries by Fixed Points  Another way to distinguish between isometries is to note which points, if any, are unmoved by the isometry. Such a point is called a fixed point of the isometry. Fixed points may occur when the transformation is not an isometry as well, so we will state the definition more generally.    If is any transformation, then is said to be a fixed point of transformation , if . Following our convention of denoting the image of point with the symbol , is a fixed point if . fixed point      Determining the Fixed Points of an Isometry   Figures for and are in . Click on the hyperlinks to view each figure locally.     In , which point(s) are not moved by the reflection across ? Are there unlabeled points that are also fixed by this reflection? Explain.      In , which point(s) are not moved by the rotation about point ? Are there any unlabeled points that are also fixed by this reflection? Explain.      In , which point(s) are not moved by the translation by vector ? Are there any unlabeled points that are fixed by this translation? Explain.   Translation by vector   Concave pentagon ABCDE is translated to the left and slightly down by vector FG.       Like the function you may have encountered in another course, there is a transformation of the plane that maps every point to itself. We call this transformation, the identity transformation . Under the action of the identity transformation, every point is a fixed point. Clearly, the identity function also preserves distance, angle measure, and orientation since it leaves everything unchanged. identity transformation      For each of the following, answer   reflection    rotation    translation, or    none of the above.         An isomorphism with exactly one fixed point might be a ___.    rotation      An isomorphism with exactly two fixed points might be a ___.    By exactly two, we mean that there are two and only two.    None of the above.      An isomorphism with an infinite number of fixed points might be a ___.    reflection      An isomorphism with no fixed points might be a ___.    translation        Defining Objects of Isometries  First we determine whether the isometry mapping one figure onto a congruent image is a reflection, translation, or rotation. We then need to specify which reflection, which translation, or which rotation it is. We do this by identifying the defining object(s) of the isometry. With a reflection, for example, we specify which line we are reflecting across. This line is unique; no other line will give the same reflection. lists the defining objects for the three isometries we have studied.   Defining Objects for Three Isometries         Isometry  Defining Objects    Reflection  Reflecting Line (or mirror)    Translation  Translation Vector    Rotation  Center and Rotational Angle     How do we find the mirror for a reflection, the vector for a translation, or the center and angle for an rotation? Although the defining objects determine how the isometry acts on all points in the plane, we need just a few points along with their images to find the defining objects. As you work through make note of these methods and add them to your toolbox.   Finding Defining Objects of Isometries   For each isometry, we will observe some properties of the isometry and defining object(s) and then use these properties to determine the defining object(s).    Finding the Mirror of a Reflection   Refer to which shows a reflection of across a hidden line .   An interactive GeoGebra applet for finding the mirror of a reflection.       How should the reflecting line be related to each segment connecting a vertex of the triangle to its image?    Does intersect ? If so, where and what angle is formed?      Explore the tools available in the first seven menus of the interactive in . Then use some of these tools to sketch the reflecting line for the isometry that takes to . Do not use guess and check and do not use the Reflect About Line tool! Instead choose GeoGebra tools from the other menus that will construct the exact line. If you move any of the vertices , , or , the reflecting line should move accordingly.    The tools across the top of this interactive are select, intersect, draw segment, draw line, draw perpendicular (draw parallel is also under this tab), draw perpendicular bisector, reflect across line, write text, and move graphics (zoom in, zoom out, and hide labels are also under this tab).      Use the Reflect about Line tool in the above app to check that reflecting across the line you created results in a triangle that aligns perfectly with .    To use the Reflect about Line tool, select the icon that shows two dots across a diagonal line from each other. Click the interior of the original figure and then click the mirror line that you created in .      Write down instructions of how you can create the reflecting line given any triangle and its reflected image . The instructions should be detailed enough that others can follow them.      Finding the Vector for a Translation   In , you were given a translation vector which indicated the direction and distance that each point should be moved, specifically three units right and one unit down. In the activity had the coordinates and had the coordinates . The difference of the -values, , gives the number of units moved right, and the difference of the -values tells us how far to move up. Since this latter difference is negative, we move down instead of up. Note that we could have chosen a different vector to represent three units right and one unit down.      If the starting point of vector has the coordinates , what must the coordinates of be so that represents a move of three units right and one unit down?      If the ending point has the coordinates , what would the coordinates of the starting point be so that would represent three units right and one unit down?      If point has the coordinates and the picture below shows a translation that moves the figure three units right and one unit down, what are the coordinates of ?      Draw, identify, or describe a vector for the translation that takes to in .   Triangle is translated to        Write instructions that you or someone else could use to find the translation vector when any figure and its image under a translation are given.      Finding the Center and Angle of a Rotation, part 1   In , an L-pentomino and its image under a rotation are shown.   An interactive GeoGebra applet for finding the center and angle of a rotation in .       Draw or identify the point that is the center of the rotation taking to . How do you know this point is the center?      Determine the angle of this rotation and specify whether the rotation is performed clockwise or counterclockwise.   To measure an angle on GeoGebra, be sure to click the vertex of the angle second. For example, would be found using the angle tool and clicking , , and in that counterclockwise order. If you click the vertices in the clockwise order, you will get .       Finding the Center and Angle of a Rotation, part 2   The center in is more difficult to identify. Make an initial guess at where the center might be. What are some strategies or tools we could try?   An interactive GeoGebra applet for finding the center and angle of a rotation.        Perhaps the segments , , and might provide information. Sketch these three line segments. Do they help?      GeoGebra tools will allow you to find perpendicular lines, perpendicular bisectors, angle bisectors, circles, angle measures, and lengths. Any ideas of what we might try?      Since we have sketched the segments , , and , use the perpendicular bisector tool to find the perpendicular bisector of each segment. What do you notice?      Create point as a candidate for your center. Verify that . What is the angle of rotation?      Finally, use the Rotate around Point tool to check your work.    The Rotate around Point tool has the icon showing the sweep of an angle and three points but no sides. I have placed in on the main ribbon, but it is usually found in the same menu as the Reflect across Line tool. After selecting the Rotate around Point tool, click on the interior of the figure to be rotated and the point that is the center. You will be prompted to enter an angle measure.      Write instructions to yourself and others on how to find the center and angle of a rotation. Base your instructions on the assumption that a picture of a figure and its rotated image is provided. Be sure that your argument addresses the situation in Make your argument general by including the possibility that no vertex of the figure is mapped to itself.        What have we learned?  In , the defining objects for each transformation were given. We now add new columns to this table. In the column Orientation , write either reverses or maintains for the entries. The column Fixed Points , is where you will identify the point(s), if any, that are fixed by the transformation. In the column Properties of Object(s) , you should write the properties that can assist in locating the defining object(s) for each type of transformation.    Defining Objects for Three Isometries         Isometry  Orientation  Fixed Points  Defining Object(s)  Properties of Def. Object(s)     Reflection  Reverses  Points on Mirror  Reflecting Line (or mirror)   Mirror is the perpendicular  bisector of each     Translation    Translation Vector           Rotation    Center and  Angle   Perp. bisector  of each  passes through  center        Updating Your Toolbox   Complete by filling in the column for orientation and the row for translation. Compare the last column in your table with the last item in each task of . You are encouraged to rewrite each entry in words that are meaningful to you before adding this to your toolbox. You may find this table useful in the next section.       Exercises   Building Our Toolbox    add      Skills and Recall    Add some.      Extending the Concepts    Add      Writing Prompts    Add      "
+},
+{
+  "id": "sec-isom-identifying-isometries-2-2",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "collineations isometries "
+},
+{
+  "id": "sec-isom-identifying-isometries-2-3",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2-3",
+  "type": "Exploration",
+  "number": "4.3.1",
+  "title": "Reflect and Wonder.",
+  "body": " Reflect and Wonder    Before reading this section, respond to the following questions. There are no right or wrong answers!   Write down three things you know about transformations. In particular, what do you know about reflections, translations, and rotations?    Is there anything that was discussed in the first sections on transformations that you need clarity on?    What do you wonder about transformations? What questions remain?       "
+},
+{
+  "id": "chkpt-orient-distinguish",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#chkpt-orient-distinguish",
+  "type": "Exploration",
+  "number": "4.3.2",
+  "title": "Distinguishing Between Types of Isometries by Orientation.",
+  "body": " Distinguishing Between Types of Isometries by Orientation    Consider the following and be prepared to share your thoughts.     Imagine that is a triangular puzzle piece with a beach scene on the front and gray cardboard on the back. We can think of the action of an isometry as moving so that it aligns perfectly with its image . Which isometries--reflections, translations, and rotations--studied so far will keep beach side up? Which will turn over so that it is cardboard side up? What property does this represent?      Translations and rotations both preserve orientation. How might you tell the difference between a translation and a rotation? Assume that you are given a picture of two congruent triangles and where the orientation is the same. How do you know whether a translation takes to ? How do you know whether the isometry is a rotation? Could it be both? Or could it be neither?     "
+},
+{
+  "id": "subsec-fixed-points-2",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#subsec-fixed-points-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "fixed point "
+},
+{
+  "id": "def-fixedpt",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#def-fixedpt",
+  "type": "Definition",
+  "number": "4.3.1",
+  "title": "",
+  "body": "  If is any transformation, then is said to be a fixed point of transformation , if . Following our convention of denoting the image of point with the symbol , is a fixed point if . fixed point    "
+},
+{
+  "id": "subsec-fixed-points-4",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#subsec-fixed-points-4",
+  "type": "Exploration",
+  "number": "4.3.3",
+  "title": "Determining the Fixed Points of an Isometry.",
+  "body": " Determining the Fixed Points of an Isometry   Figures for and are in . Click on the hyperlinks to view each figure locally.     In , which point(s) are not moved by the reflection across ? Are there unlabeled points that are also fixed by this reflection? Explain.      In , which point(s) are not moved by the rotation about point ? Are there any unlabeled points that are also fixed by this reflection? Explain.      In , which point(s) are not moved by the translation by vector ? Are there any unlabeled points that are fixed by this translation? Explain.   Translation by vector   Concave pentagon ABCDE is translated to the left and slightly down by vector FG.      "
+},
+{
+  "id": "subsec-fixed-points-5",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#subsec-fixed-points-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "identity transformation "
+},
+{
+  "id": "subsec-fixed-points-6",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#subsec-fixed-points-6",
+  "type": "Checkpoint",
+  "number": "4.3.3",
+  "title": "",
+  "body": "   For each of the following, answer   reflection    rotation    translation, or    none of the above.         An isomorphism with exactly one fixed point might be a ___.    rotation      An isomorphism with exactly two fixed points might be a ___.    By exactly two, we mean that there are two and only two.    None of the above.      An isomorphism with an infinite number of fixed points might be a ___.    reflection      An isomorphism with no fixed points might be a ___.    translation     "
+},
+{
+  "id": "table-def-obj-1",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#table-def-obj-1",
+  "type": "Table",
+  "number": "4.3.4",
+  "title": "Defining Objects for Three Isometries",
+  "body": " Defining Objects for Three Isometries         Isometry  Defining Objects    Reflection  Reflecting Line (or mirror)    Translation  Translation Vector    Rotation  Center and Rotational Angle    "
+},
+{
+  "id": "expl-isom-finding-defining-objects",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#expl-isom-finding-defining-objects",
+  "type": "Exploration",
+  "number": "4.3.4",
+  "title": "Finding Defining Objects of Isometries.",
+  "body": " Finding Defining Objects of Isometries   For each isometry, we will observe some properties of the isometry and defining object(s) and then use these properties to determine the defining object(s).    Finding the Mirror of a Reflection   Refer to which shows a reflection of across a hidden line .   An interactive GeoGebra applet for finding the mirror of a reflection.       How should the reflecting line be related to each segment connecting a vertex of the triangle to its image?    Does intersect ? If so, where and what angle is formed?      Explore the tools available in the first seven menus of the interactive in . Then use some of these tools to sketch the reflecting line for the isometry that takes to . Do not use guess and check and do not use the Reflect About Line tool! Instead choose GeoGebra tools from the other menus that will construct the exact line. If you move any of the vertices , , or , the reflecting line should move accordingly.    The tools across the top of this interactive are select, intersect, draw segment, draw line, draw perpendicular (draw parallel is also under this tab), draw perpendicular bisector, reflect across line, write text, and move graphics (zoom in, zoom out, and hide labels are also under this tab).      Use the Reflect about Line tool in the above app to check that reflecting across the line you created results in a triangle that aligns perfectly with .    To use the Reflect about Line tool, select the icon that shows two dots across a diagonal line from each other. Click the interior of the original figure and then click the mirror line that you created in .      Write down instructions of how you can create the reflecting line given any triangle and its reflected image . The instructions should be detailed enough that others can follow them.      Finding the Vector for a Translation   In , you were given a translation vector which indicated the direction and distance that each point should be moved, specifically three units right and one unit down. In the activity had the coordinates and had the coordinates . The difference of the -values, , gives the number of units moved right, and the difference of the -values tells us how far to move up. Since this latter difference is negative, we move down instead of up. Note that we could have chosen a different vector to represent three units right and one unit down.      If the starting point of vector has the coordinates , what must the coordinates of be so that represents a move of three units right and one unit down?      If the ending point has the coordinates , what would the coordinates of the starting point be so that would represent three units right and one unit down?      If point has the coordinates and the picture below shows a translation that moves the figure three units right and one unit down, what are the coordinates of ?      Draw, identify, or describe a vector for the translation that takes to in .   Triangle is translated to        Write instructions that you or someone else could use to find the translation vector when any figure and its image under a translation are given.      Finding the Center and Angle of a Rotation, part 1   In , an L-pentomino and its image under a rotation are shown.   An interactive GeoGebra applet for finding the center and angle of a rotation in .       Draw or identify the point that is the center of the rotation taking to . How do you know this point is the center?      Determine the angle of this rotation and specify whether the rotation is performed clockwise or counterclockwise.   To measure an angle on GeoGebra, be sure to click the vertex of the angle second. For example, would be found using the angle tool and clicking , , and in that counterclockwise order. If you click the vertices in the clockwise order, you will get .       Finding the Center and Angle of a Rotation, part 2   The center in is more difficult to identify. Make an initial guess at where the center might be. What are some strategies or tools we could try?   An interactive GeoGebra applet for finding the center and angle of a rotation.        Perhaps the segments , , and might provide information. Sketch these three line segments. Do they help?      GeoGebra tools will allow you to find perpendicular lines, perpendicular bisectors, angle bisectors, circles, angle measures, and lengths. Any ideas of what we might try?      Since we have sketched the segments , , and , use the perpendicular bisector tool to find the perpendicular bisector of each segment. What do you notice?      Create point as a candidate for your center. Verify that . What is the angle of rotation?      Finally, use the Rotate around Point tool to check your work.    The Rotate around Point tool has the icon showing the sweep of an angle and three points but no sides. I have placed in on the main ribbon, but it is usually found in the same menu as the Reflect across Line tool. After selecting the Rotate around Point tool, click on the interior of the figure to be rotated and the point that is the center. You will be prompted to enter an angle measure.      Write instructions to yourself and others on how to find the center and angle of a rotation. Base your instructions on the assumption that a picture of a figure and its rotated image is provided. Be sure that your argument addresses the situation in Make your argument general by including the possibility that no vertex of the figure is mapped to itself.     "
+},
+{
+  "id": "subsec-isom-identify-exptable-2",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#subsec-isom-identify-exptable-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Orientation Fixed Points Properties of Object(s) "
+},
+{
+  "id": "table-def-obj-2",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#table-def-obj-2",
+  "type": "Table",
+  "number": "4.3.9",
+  "title": "Defining Objects for Three Isometries",
+  "body": " Defining Objects for Three Isometries         Isometry  Orientation  Fixed Points  Defining Object(s)  Properties of Def. Object(s)     Reflection  Reverses  Points on Mirror  Reflecting Line (or mirror)   Mirror is the perpendicular  bisector of each     Translation    Translation Vector           Rotation    Center and  Angle   Perp. bisector  of each  passes through  center      "
+},
+{
+  "id": "subsec-isom-identify-exptable-4",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#subsec-isom-identify-exptable-4",
+  "type": "Checkpoint",
+  "number": "4.3.10",
+  "title": "Updating Your Toolbox.",
+  "body": " Updating Your Toolbox   Complete by filling in the column for orientation and the row for translation. Compare the last column in your table with the last item in each task of . You are encouraged to rewrite each entry in words that are meaningful to you before adding this to your toolbox. You may find this table useful in the next section.   "
+},
+{
+  "id": "Toolbox-isom-ident-2",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#Toolbox-isom-ident-2",
+  "type": "Exercise",
+  "number": "4.3.6.1",
+  "title": "",
+  "body": "  add   "
+},
+{
+  "id": "SAR-isom-ident-2",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#SAR-isom-ident-2",
+  "type": "Exercise",
+  "number": "4.3.6.2",
+  "title": "",
+  "body": "  Add some.   "
+},
+{
+  "id": "ExtConc-isom-ident-2",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#ExtConc-isom-ident-2",
+  "type": "Exercise",
+  "number": "4.3.6.3",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "Writing-isom-ident-2",
+  "level": "2",
+  "url": "sec-isom-identifying-isometries.html#Writing-isom-ident-2",
+  "type": "Exercise",
+  "number": "4.3.6.4",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "sec-isom-composing-reflections",
+  "level": "1",
+  "url": "sec-isom-composing-reflections.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Compositions of Reflections",
+  "body": " Compositions of Reflections   Compositions  Each of the transformations we have studied so far (reflections, translations, and rotations) performs an action on the points of the plane. In fact, a transformation is a function where the inputs and outputs are geometric objects instead of numbers. In algebra, you learned about the add three function, written , and the multiply by four function, . You also learned that you could perform two functions in succession. For example, you could perform the add three function on the number and then perform the multiply by 4 function on the result. In function notation, we may write where we perform the inner function first. We may also perform these operations on a generic value : We note the importance of order. If we multiply by 4 first and add 3 second, we get a different result:   We now explore what happens when we compose geometric transformations. We could compose any two transformations, but we will first focus on reflections. What happens when we perform two or more reflections in succession? Do we get another reflection? Does it matter whether the lines are parallel? Does the order in which we perform the reflections matter?   composition    The composition of and .    A composition of two transformations is a sequence of two transformations, and , performed in succession. To find the image of a point under the composition, , first find the image of under the action of . Then find the image of under .  The process of performing the two processing in succession can be written   or more simply as   Note that in the composition , we perform the inside function before the outer function .     We can also use the notation to represent the composition of composed with . It's action on point is written .    Reflecting across Parallel Lines    First we explore what happens when you reflect an object first across line and then across line where and are parallel.   An interactive GeoGebra applet for reflecting across parallel lines.       Use the Reflect across Line tool to reflect pentomino across line in to create pentomino .    To use the Reflect about Line tool, select the icon that shows two dots across a diagonal line from each other. Click the interior of the original figure and then click the mirror line.      Then reflect the new pentomino across line to form pentomino .  Finally, check the box that says Show image . Does this line up with your final image? Save a screen shot that shows the intermediate step.      To help you focus on and , click on the reset button to hide your work. Then check the Show image box to reveal the image of the composition.     What type of isometry takes to ? Is it a reflection, a translation, a rotation, or something else?      Draw the segments and measure the lengths . What do you notice?      What do you notice about the angle between each segment, and the original two lines and ?      Measure the distance between the original pair of reflecting lines and . To do this, reveal segment using the checkbox. Then use the Distance or length tool to measure .    For a smaller font, measure the segment, not the distance between points.       Each type of isometry has a special object or two that helps to determine it precisely. As shown in , a reflection has a reflecting line, a translation has a vector, and a rotation has a center and angle. Identify and draw in the specific line, vector, or center and angle for this transformation. How does this object relate to the parallel reflecting lines and ? Verify your answer using the appropriate transformation tool (Reflect across Line, Translate by Vector, or Rotate around Point) in geogebra.    These transformation tools appear in the same menu in this applet.      A second copy of the GeoGebra app for reflecting across parallel lines is provided in . This time reflect first across line and then reflect the result across line . How does the result compare to what happened when we reflected across g before h? Where is ? Have any of the distances or angles changed?   An interactive GeoGebra applet for reflecting across parallel lines.      The Show image checkbox reveals the image of the first composition, not this one.      In the next exploration, we will perform a similar experiment reflecting an object across two intersecting lines in succession.   Reflecting Across Intersecting Lines    Now we explore what happens when you reflect an object first across line and then across line where and intersect.   An interactive GeoGebra applet for reflecting across intersecting lines.       Use the reflect across line tool to reflect pentomino across line in to create pentomino .      Then reflect the new pentomino across line to form pentomino .  Now check the Show image box to check your work.       Refer to the original pentomino and its image created by reflecting across intersecting lines and in . You may choose to hide (and the duplicated ) after saving a screenshot of your work. Use the reset button and Show image checkbox.     What type of isometry takes to the final image ? Is it a reflection, a translation, a rotation, or something else?      Draw the segments . What, if anything, do you notice?      Create the perpendicular bisector of each segment . What do you notice about the perpendicular bisectors?      Each type of translation has a special object or two that helps to determine it precisely. Identify and draw in the specific line, vector, or center and angle for this transformation, referring to as needed. How does the object(s) relate to the intersecting reflecting lines and ?      Create point where the original two lines intersect. What is the measure of ? ? ? ? ? ? What does this tell you about the transformation taking to ?      Measure the angles created by the original pair of intersecting lines and . What do you notice?      Measure the lengths , , , , etc. What do you notice?       A second copy of the GeoGebra app for reflecting across intersecting lines is provided in . This time reflect first across line and then reflect the result across line . How does the result compare to what happened when we reflected across g before h? Where is ? Have any of the lengths or angles changed?   An interactive GeoGebra applet for reflecting across intersecting lines.      The Show image checkbox reveals the image of the first composition, not this one.     Next we will explore what happens when we reflect across three lines in succession. Once again, we will consider the case where the lines are parallel and when they intersect. Will we get the same transformations as before or might these be something different?   Reflecting across three lines   Orientation   Recall that a reflection across a single line reverses the orientation.     What happens to the orientation when you reflect an object across two lines in succession?      If you were to reflect the object across a third line, what would you expect to happen to the orientation?      Reflecting across three parallel lines   Reflect the triangle in across lines , , and in succession.   An interactive GeoGebra applet for reflecting across three parallel lines.       What type of single transformation (reflection, translation, rotation, or something else) takes the original triangle to the final image?      Each type of translation has a special object or two that helps to determine it precisely. Identify and draw in the specific line, vector, or center and angle for this transformation. How, if at all, is this object related to the three lines , , and ?    As of this writing, the author has not found a relationship between this defining object and the three lines. If you discover one, please let her know. You may be recognized in a future edition!  Unlabeled points on lines , , and allow the lines to be moved while staying parallel. Experiment to see whether your claims continue to hold. You can also experiment with reflecting across the three lines in a different order; however, the Show image will not work.      Reflecting across three intersecting lines   Finally, we reflect the triangle across three lines, at least some of which intersect. Use the Reflect about Line tool to reflect across , then reflect its image across line , and finally reflect across . After creating , check the result using the checkbox Show image . Record your work.   An interactive GeoGebra applet for reflecting across three intersecting lines.       You may reset your work to focus on the initial triangle and final image .     Is the orientation of the figure the same or changed under the single transformation that takes to ?      Explain how you know that this transformation is not a reflection.      Explain how you know that this transformation is not a translation.      Explain how you know that this transformation is not a rotation.      Hide lines , , and by unchecking the Show mirrors box. Plot the midpoint of each of the line segments, , , and . What do you notice about these midpoints?    GeoGebra allows you to plot the midpoint without drawing the segments.      Draw the line that passes through the midpoints of and . Then reflect across this line. What do you notice about the relationship between this new triangle and ?      Describe a two-transformation process that takes to .          The Four Isometries  In this chapter, we've explored the behavior of a particular type of transformation, called an isometry . This term comes from the Greek words iso- meaning equality and metria meaning measure .   isometry   An isometry is a function taking points on the plane to points on the plane which sends collinear points to collinear points and preserves the distance between points.    There are four types of isometries. Through our explorations, we have seen that the orientation of a figure is reversed each time it is reflected. Thus, orientation is changed under an odd number of reflections and maintained (flipped back) under an even number of reflections. Hence, the composition of two reflections in succession will be either a translation (when the reflecting lines are parallel) or a rotation (when the reflecting lines intersect). When we reflect across three lines, not all of which are parallel, we get an isometry which reverses the orientation of figures but is not a reflection. Instead we obtain what is known as a glide reflection.    A glide reflection is defined as a composition of a reflection across a line and a translation along a vector parallel to (or on) the reflecting line. In , note how the pentomino is first reflected across the line and then translated along vector . Any of the parallel vectors, like or , could be used as the translation vector, but the reflecting line here is , not . glide reflection      Glide reflection of a pentomino.   L-pentamino is reflected across line GH. Then its image is slid using vector GH. A and C are two vertices on the original.     Reflective Question   Will a glide reflection have any fixed point(s)? How do you know?    We now update to include glide reflections.   Defining Objects for Three Isometries         Isometry  Defining Objects    Reflection  Reflecting Line (or mirror)    Translation  Translation Vector    Rotation  Center and Rotational Angle    Glide Reflection  Mirror and Translation Vector The translation vector will either lie on the mirror or be parallel to the mirror.       Exercises   Building Our Toolbox    Add the information about glide reflections to complete . You should have already filled in the other rows in .   Defining Objects for Four Isometries         Isometry  Orientation  Fixed Points  Defining Object(s)  Properties of Def. Object(s)     Reflection  Reverses  Points on Mirror  Reflecting Line (or mirror)   Mirror is the perpendicular  bisector of each     Translation    Translation Vector          Rotation    Center and  Angle   Perp. bisector  of each  passes through  center      Glide Reflection    Mirror and  Vector   Midpoint of  each lies  on mirror          Skills and Recall    Add some.      Extending the Concepts    Add      Writing Prompts    Add      "
+},
+{
+  "id": "sec-isom-composing-reflections-2-2",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#sec-isom-composing-reflections-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "function "
+},
+{
+  "id": "def-composition",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#def-composition",
+  "type": "Definition",
+  "number": "4.4.1",
+  "title": "",
+  "body": " composition    The composition of and .    A composition of two transformations is a sequence of two transformations, and , performed in succession. To find the image of a point under the composition, , first find the image of under the action of . Then find the image of under .  The process of performing the two processing in succession can be written   or more simply as   Note that in the composition , we perform the inside function before the outer function .   "
+},
+{
+  "id": "explor-refl-two-parallels",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#explor-refl-two-parallels",
+  "type": "Exploration",
+  "number": "4.4.1",
+  "title": "Reflecting across Parallel Lines.",
+  "body": " Reflecting across Parallel Lines    First we explore what happens when you reflect an object first across line and then across line where and are parallel.   An interactive GeoGebra applet for reflecting across parallel lines.       Use the Reflect across Line tool to reflect pentomino across line in to create pentomino .    To use the Reflect about Line tool, select the icon that shows two dots across a diagonal line from each other. Click the interior of the original figure and then click the mirror line.      Then reflect the new pentomino across line to form pentomino .  Finally, check the box that says Show image . Does this line up with your final image? Save a screen shot that shows the intermediate step.      To help you focus on and , click on the reset button to hide your work. Then check the Show image box to reveal the image of the composition.     What type of isometry takes to ? Is it a reflection, a translation, a rotation, or something else?      Draw the segments and measure the lengths . What do you notice?      What do you notice about the angle between each segment, and the original two lines and ?      Measure the distance between the original pair of reflecting lines and . To do this, reveal segment using the checkbox. Then use the Distance or length tool to measure .    For a smaller font, measure the segment, not the distance between points.       Each type of isometry has a special object or two that helps to determine it precisely. As shown in , a reflection has a reflecting line, a translation has a vector, and a rotation has a center and angle. Identify and draw in the specific line, vector, or center and angle for this transformation. How does this object relate to the parallel reflecting lines and ? Verify your answer using the appropriate transformation tool (Reflect across Line, Translate by Vector, or Rotate around Point) in geogebra.    These transformation tools appear in the same menu in this applet.      A second copy of the GeoGebra app for reflecting across parallel lines is provided in . This time reflect first across line and then reflect the result across line . How does the result compare to what happened when we reflected across g before h? Where is ? Have any of the distances or angles changed?   An interactive GeoGebra applet for reflecting across parallel lines.      The Show image checkbox reveals the image of the first composition, not this one.     "
+},
+{
+  "id": "explor-refl-two-intersecting",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#explor-refl-two-intersecting",
+  "type": "Exploration",
+  "number": "4.4.2",
+  "title": "Reflecting Across Intersecting Lines.",
+  "body": " Reflecting Across Intersecting Lines    Now we explore what happens when you reflect an object first across line and then across line where and intersect.   An interactive GeoGebra applet for reflecting across intersecting lines.       Use the reflect across line tool to reflect pentomino across line in to create pentomino .      Then reflect the new pentomino across line to form pentomino .  Now check the Show image box to check your work.       Refer to the original pentomino and its image created by reflecting across intersecting lines and in . You may choose to hide (and the duplicated ) after saving a screenshot of your work. Use the reset button and Show image checkbox.     What type of isometry takes to the final image ? Is it a reflection, a translation, a rotation, or something else?      Draw the segments . What, if anything, do you notice?      Create the perpendicular bisector of each segment . What do you notice about the perpendicular bisectors?      Each type of translation has a special object or two that helps to determine it precisely. Identify and draw in the specific line, vector, or center and angle for this transformation, referring to as needed. How does the object(s) relate to the intersecting reflecting lines and ?      Create point where the original two lines intersect. What is the measure of ? ? ? ? ? ? What does this tell you about the transformation taking to ?      Measure the angles created by the original pair of intersecting lines and . What do you notice?      Measure the lengths , , , , etc. What do you notice?       A second copy of the GeoGebra app for reflecting across intersecting lines is provided in . This time reflect first across line and then reflect the result across line . How does the result compare to what happened when we reflected across g before h? Where is ? Have any of the lengths or angles changed?   An interactive GeoGebra applet for reflecting across intersecting lines.      The Show image checkbox reveals the image of the first composition, not this one.    "
+},
+{
+  "id": "expl-ref-three",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#expl-ref-three",
+  "type": "Exploration",
+  "number": "4.4.3",
+  "title": "Reflecting across three lines.",
+  "body": " Reflecting across three lines   Orientation   Recall that a reflection across a single line reverses the orientation.     What happens to the orientation when you reflect an object across two lines in succession?      If you were to reflect the object across a third line, what would you expect to happen to the orientation?      Reflecting across three parallel lines   Reflect the triangle in across lines , , and in succession.   An interactive GeoGebra applet for reflecting across three parallel lines.       What type of single transformation (reflection, translation, rotation, or something else) takes the original triangle to the final image?      Each type of translation has a special object or two that helps to determine it precisely. Identify and draw in the specific line, vector, or center and angle for this transformation. How, if at all, is this object related to the three lines , , and ?    As of this writing, the author has not found a relationship between this defining object and the three lines. If you discover one, please let her know. You may be recognized in a future edition!  Unlabeled points on lines , , and allow the lines to be moved while staying parallel. Experiment to see whether your claims continue to hold. You can also experiment with reflecting across the three lines in a different order; however, the Show image will not work.      Reflecting across three intersecting lines   Finally, we reflect the triangle across three lines, at least some of which intersect. Use the Reflect about Line tool to reflect across , then reflect its image across line , and finally reflect across . After creating , check the result using the checkbox Show image . Record your work.   An interactive GeoGebra applet for reflecting across three intersecting lines.       You may reset your work to focus on the initial triangle and final image .     Is the orientation of the figure the same or changed under the single transformation that takes to ?      Explain how you know that this transformation is not a reflection.      Explain how you know that this transformation is not a translation.      Explain how you know that this transformation is not a rotation.      Hide lines , , and by unchecking the Show mirrors box. Plot the midpoint of each of the line segments, , , and . What do you notice about these midpoints?    GeoGebra allows you to plot the midpoint without drawing the segments.      Draw the line that passes through the midpoints of and . Then reflect across this line. What do you notice about the relationship between this new triangle and ?      Describe a two-transformation process that takes to .       "
+},
+{
+  "id": "subsec-Four-Isometries-2",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#subsec-Four-Isometries-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "isometry "
+},
+{
+  "id": "def-isometry",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#def-isometry",
+  "type": "Definition",
+  "number": "4.4.8",
+  "title": "",
+  "body": " isometry   An isometry is a function taking points on the plane to points on the plane which sends collinear points to collinear points and preserves the distance between points.   "
+},
+{
+  "id": "def-glide-ref",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#def-glide-ref",
+  "type": "Definition",
+  "number": "4.4.9",
+  "title": "",
+  "body": "  A glide reflection is defined as a composition of a reflection across a line and a translation along a vector parallel to (or on) the reflecting line. In , note how the pentomino is first reflected across the line and then translated along vector . Any of the parallel vectors, like or , could be used as the translation vector, but the reflecting line here is , not . glide reflection    "
+},
+{
+  "id": "illustrated-glref",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#illustrated-glref",
+  "type": "Figure",
+  "number": "4.4.10",
+  "title": "",
+  "body": " Glide reflection of a pentomino.   L-pentamino is reflected across line GH. Then its image is slid using vector GH. A and C are two vertices on the original.   "
+},
+{
+  "id": "subsec-Four-Isometries-7",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#subsec-Four-Isometries-7",
+  "type": "Checkpoint",
+  "number": "4.4.11",
+  "title": "Reflective Question.",
+  "body": " Reflective Question   Will a glide reflection have any fixed point(s)? How do you know?   "
+},
+{
+  "id": "table-def-obj-4",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#table-def-obj-4",
+  "type": "Table",
+  "number": "4.4.12",
+  "title": "Defining Objects for Three Isometries",
+  "body": " Defining Objects for Three Isometries         Isometry  Defining Objects    Reflection  Reflecting Line (or mirror)    Translation  Translation Vector    Rotation  Center and Rotational Angle    Glide Reflection  Mirror and Translation Vector The translation vector will either lie on the mirror or be parallel to the mirror.    "
+},
+{
+  "id": "Toolbox-isom-comp-2",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#Toolbox-isom-comp-2",
+  "type": "Exercise",
+  "number": "4.4.3.1",
+  "title": "",
+  "body": "  Add the information about glide reflections to complete . You should have already filled in the other rows in .   Defining Objects for Four Isometries         Isometry  Orientation  Fixed Points  Defining Object(s)  Properties of Def. Object(s)     Reflection  Reverses  Points on Mirror  Reflecting Line (or mirror)   Mirror is the perpendicular  bisector of each     Translation    Translation Vector          Rotation    Center and  Angle   Perp. bisector  of each  passes through  center      Glide Reflection    Mirror and  Vector   Midpoint of  each lies  on mirror       "
+},
+{
+  "id": "SAR-isom-comp-2",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#SAR-isom-comp-2",
+  "type": "Exercise",
+  "number": "4.4.3.2",
+  "title": "",
+  "body": "  Add some.   "
+},
+{
+  "id": "ExtConc-isom-comp-2",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#ExtConc-isom-comp-2",
+  "type": "Exercise",
+  "number": "4.4.3.3",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "Writing-isom-comp-2",
+  "level": "2",
+  "url": "sec-isom-composing-reflections.html#Writing-isom-comp-2",
+  "type": "Exercise",
+  "number": "4.4.3.4",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "sec-isom-mystery-isometries",
+  "level": "1",
+  "url": "sec-isom-mystery-isometries.html",
+  "type": "Section",
+  "number": "4.5",
+  "title": "Mystery Isometries",
+  "body": " Mystery Isometries   Given two congruent figures, what is the isometry that maps one onto the other? In this section, we will learn how to identify the type of isometry for this mapping and to construct the axis of a reflection, the center and angle of a rotation, and a vector of a translation or glide reflection.    Review of Isometries  We know that an isometry is a transformation (or function) that preserves the measures of lines and angles. The original object and its image under an isometry are always congruent to each other. It turns out if we are given any two congruent figures in the plane there is an isometry that maps one of the figures onto the other.  In the exploration that follows, you will be given a pair of congruent figures for which you will determine the associated isometry that takes one figure to the other. You will need to use your recently-acquired knowledge about the four types of isometries. To prepare for the challenging detective work that lies ahead, open and complete .   Isometry Review and Tools   Orientation Review    Orientation is a good way of distinguishing between types of isometries, especially rotations and glide reflections.  In , which triangle has the same orientation as ?   Orientation of Images of   Triangles ABC, C'A'B', and C1,B1,A1 are shown.      Orientation was defined in .    Triangle has the same orientation as . Triangle has the opposite orientation.     Fixed Point Review   Sometimes we can tell which points on the plane are fixed by the isometry and use this information to identify the type of isometry.  Of the types of isometries (reflections, rotations, translations, and glide reflections):     Which type has no fixed points?    Translations and glide reflections.      Which type has exactly one fixed point?    Rotations.      Which type fixes all points that lie on a single line?    Reflections.      Review of Reflections   Use the GeoGebra interactive in as needed to answer the following:   An interactive GeoGebra applet for analyzing a reflection across a single line.       A reflection the orientation of the figure.  maintains  reverses      Reverses      How is the reflecting line related to the the segments connecting each point to its image? Consider both the location of intersection and the angle formed by the intersection.    The reflecting line is the perpendicular bisector of each       Describe how you can create the reflecting line given an illustration of two congruent triangles.    Construct for a vertex on one triangle and its corresponding vertex on the other. Draw the perpendicular bisector of .      Review of Translations   Use the GeoGebra interactive in as needed to answer the following questions about translations:   An interactive GeoGebra applet for analyzing a translation.       A translation the orientation of the figure.  maintains  reverses      maintains      How is the translation vector related to the segment from a point to its image? Once again, address both length and direction in your response.    The translation vector is parallel to and congruent to each .      Describe how you can create the translation vector from an illustration of two congruent triangles and .    One choice for the translation vector is .      Review of Rotations   The GeoGebra interactive in shows the action of a clockwise rotation of about point . Use this interactive as needed to answer the following questions about rotations:   An interactive GeoGebra applet for analyzing a rotation.       A rotation the orientation of the figure.  maintains  reverses      maintains      Where do the perpendicular bisectors of the segments , , and intersect?    At the center of the rotation      What are the measures of angles , , and ? What does this tell you about the rotation?    The measures of these angles are equal and correspond to the angle of the rotation.      If you were given a picture of a figure and what you think is its rotated image, what process would you use to determine the center of the rotation and its angle of rotation? Write this so that another student could follow your steps.    First find the center of rotation by constructing the perpendicular bisectors of and and labeling their intersection . Then measure to get the angle of rotation.      Review of Glide Reflections   A glide reflection is a two-step isometry. We first reflect across a line and then translate the result by a vector lying on (or parallel to) that line. The GeoGebra interactive shows the original triangle and its final image after a reflection across line and translation by vector . Answer the following questions:   An interactive GeoGebra applet for analyzing a glide reflection.       A glide reflection the orientation of the figure.  maintains  reverses      reverses      The glide reflection image in was produced by reflecting triangle across line to get and then translating by vector to get image . Do you get the same result if you translate by vector first and then reflect across line ?  yes  no  sometimes but not always      yes      On the sketch construct the midpoints of each of the segments from a vertex of to its final image on . What information do these midpoints give you?    The reflecting line will pass through these midpoints.      What strategy could you use to find the reflecting line and translation vector for a glide reflection if you only have the original figure and final image?    Find the midpoints of , , and and draw the line that passes through these points. Reflect across this line to create . One translation vector is .        Solving the Mysteries  Now it is time to apply our knowledge! In the next activity, each task has a pair of congruent figures. In each of the tasks, you will determine the type of isometry that maps the original figure to its image and then to sketch the defining objects (the reflecting line, translation vector, and\/or center). In the case of a rotation, also determine the angle of rotation and whether the rotation is clockwise or counterclockwise.   Mystery Isometries   Mystery Isometry 1   Consider the isometry that takes the polygon in to its image.   Mystery Isomorphism 1  Mystery Isomorphism 1 GeoGebra applet       Mystery Isometry 1 the orientation of the polygon.   maintains    reverses         Mystery Isometry 1 is a .   reflection    translation    rotation    glide reflection         The defining object for Mystery Isometry 1 is\/are and labeled on my sketch as .    See .      Mystery Isometry 2   Consider the isometry that takes the polygon in to its image.   Mystery Isomorphism 2  Mystery Isomorphism 2 GeoGebra applet       The isometry that takes the polygon in to its image the orientation of the polygon.   maintains    reverses         Mystery Isometry 2 is a .   reflection    translation    rotation    glide reflection         The defining object for Mystery Isometry 2 is\/are and labeled on my sketch as .    See .      Mystery Isometry 3   Consider the isometry that takes the polygon in to its image.   Mystery Isomorphism 3  Mystery Isomorphism 3 GeoGebra applet       The isometry that takes the polygon in to its image the orientation of the polygon.   maintains    reverses         Mystery Isometry 3 is a .   reflection    translation    rotation    glide reflection         The defining object(s) for Mystery Isometry 3 is\/are and labeled on my sketch as .    See .      Mystery Isometry 4   Consider the isometry that takes the polygon in to its image.   Mystery Isomorphism 4  Mystery Isomorphism 4 GeoGebra applet       The isometry that takes the polygon in to its image the orientation of the polygon.   maintains    reverses         Mystery Isometry 4 is a .   reflection    translation    rotation    glide reflection         The defining object(s) for Mystery Isometry 4 is\/are and labeled on my sketch as .    See .        Exercises   Building Our Toolbox    add      Skills and Recall    Add some.      Extending the Concepts    Add      Writing Prompts    Add      "
+},
+{
+  "id": "checkpt-review-4isoms",
+  "level": "2",
+  "url": "sec-isom-mystery-isometries.html#checkpt-review-4isoms",
+  "type": "Checkpoint",
+  "number": "4.5.1",
+  "title": "Isometry Review and Tools.",
+  "body": " Isometry Review and Tools   Orientation Review    Orientation is a good way of distinguishing between types of isometries, especially rotations and glide reflections.  In , which triangle has the same orientation as ?   Orientation of Images of   Triangles ABC, C'A'B', and C1,B1,A1 are shown.      Orientation was defined in .    Triangle has the same orientation as . Triangle has the opposite orientation.     Fixed Point Review   Sometimes we can tell which points on the plane are fixed by the isometry and use this information to identify the type of isometry.  Of the types of isometries (reflections, rotations, translations, and glide reflections):     Which type has no fixed points?    Translations and glide reflections.      Which type has exactly one fixed point?    Rotations.      Which type fixes all points that lie on a single line?    Reflections.      Review of Reflections   Use the GeoGebra interactive in as needed to answer the following:   An interactive GeoGebra applet for analyzing a reflection across a single line.       A reflection the orientation of the figure.  maintains  reverses      Reverses      How is the reflecting line related to the the segments connecting each point to its image? Consider both the location of intersection and the angle formed by the intersection.    The reflecting line is the perpendicular bisector of each       Describe how you can create the reflecting line given an illustration of two congruent triangles.    Construct for a vertex on one triangle and its corresponding vertex on the other. Draw the perpendicular bisector of .      Review of Translations   Use the GeoGebra interactive in as needed to answer the following questions about translations:   An interactive GeoGebra applet for analyzing a translation.       A translation the orientation of the figure.  maintains  reverses      maintains      How is the translation vector related to the segment from a point to its image? Once again, address both length and direction in your response.    The translation vector is parallel to and congruent to each .      Describe how you can create the translation vector from an illustration of two congruent triangles and .    One choice for the translation vector is .      Review of Rotations   The GeoGebra interactive in shows the action of a clockwise rotation of about point . Use this interactive as needed to answer the following questions about rotations:   An interactive GeoGebra applet for analyzing a rotation.       A rotation the orientation of the figure.  maintains  reverses      maintains      Where do the perpendicular bisectors of the segments , , and intersect?    At the center of the rotation      What are the measures of angles , , and ? What does this tell you about the rotation?    The measures of these angles are equal and correspond to the angle of the rotation.      If you were given a picture of a figure and what you think is its rotated image, what process would you use to determine the center of the rotation and its angle of rotation? Write this so that another student could follow your steps.    First find the center of rotation by constructing the perpendicular bisectors of and and labeling their intersection . Then measure to get the angle of rotation.      Review of Glide Reflections   A glide reflection is a two-step isometry. We first reflect across a line and then translate the result by a vector lying on (or parallel to) that line. The GeoGebra interactive shows the original triangle and its final image after a reflection across line and translation by vector . Answer the following questions:   An interactive GeoGebra applet for analyzing a glide reflection.       A glide reflection the orientation of the figure.  maintains  reverses      reverses      The glide reflection image in was produced by reflecting triangle across line to get and then translating by vector to get image . Do you get the same result if you translate by vector first and then reflect across line ?  yes  no  sometimes but not always      yes      On the sketch construct the midpoints of each of the segments from a vertex of to its final image on . What information do these midpoints give you?    The reflecting line will pass through these midpoints.      What strategy could you use to find the reflecting line and translation vector for a glide reflection if you only have the original figure and final image?    Find the midpoints of , , and and draw the line that passes through these points. Reflect across this line to create . One translation vector is .     "
+},
+{
+  "id": "sec-isom-mystery-isometries-4-3",
+  "level": "2",
+  "url": "sec-isom-mystery-isometries.html#sec-isom-mystery-isometries-4-3",
+  "type": "Exploration",
+  "number": "4.5.1",
+  "title": "Mystery Isometries.",
+  "body": " Mystery Isometries   Mystery Isometry 1   Consider the isometry that takes the polygon in to its image.   Mystery Isomorphism 1  Mystery Isomorphism 1 GeoGebra applet       Mystery Isometry 1 the orientation of the polygon.   maintains    reverses         Mystery Isometry 1 is a .   reflection    translation    rotation    glide reflection         The defining object for Mystery Isometry 1 is\/are and labeled on my sketch as .    See .      Mystery Isometry 2   Consider the isometry that takes the polygon in to its image.   Mystery Isomorphism 2  Mystery Isomorphism 2 GeoGebra applet       The isometry that takes the polygon in to its image the orientation of the polygon.   maintains    reverses         Mystery Isometry 2 is a .   reflection    translation    rotation    glide reflection         The defining object for Mystery Isometry 2 is\/are and labeled on my sketch as .    See .      Mystery Isometry 3   Consider the isometry that takes the polygon in to its image.   Mystery Isomorphism 3  Mystery Isomorphism 3 GeoGebra applet       The isometry that takes the polygon in to its image the orientation of the polygon.   maintains    reverses         Mystery Isometry 3 is a .   reflection    translation    rotation    glide reflection         The defining object(s) for Mystery Isometry 3 is\/are and labeled on my sketch as .    See .      Mystery Isometry 4   Consider the isometry that takes the polygon in to its image.   Mystery Isomorphism 4  Mystery Isomorphism 4 GeoGebra applet       The isometry that takes the polygon in to its image the orientation of the polygon.   maintains    reverses         Mystery Isometry 4 is a .   reflection    translation    rotation    glide reflection         The defining object(s) for Mystery Isometry 4 is\/are and labeled on my sketch as .    See .     "
+},
+{
+  "id": "Toolbox-isom-mystery-2",
+  "level": "2",
+  "url": "sec-isom-mystery-isometries.html#Toolbox-isom-mystery-2",
+  "type": "Exercise",
+  "number": "4.5.3.1",
+  "title": "",
+  "body": "  add   "
+},
+{
+  "id": "SAR-isom-mystery-2",
+  "level": "2",
+  "url": "sec-isom-mystery-isometries.html#SAR-isom-mystery-2",
+  "type": "Exercise",
+  "number": "4.5.3.2",
+  "title": "",
+  "body": "  Add some.   "
+},
+{
+  "id": "ExtConc-isom-mystery-2",
+  "level": "2",
+  "url": "sec-isom-mystery-isometries.html#ExtConc-isom-mystery-2",
+  "type": "Exercise",
+  "number": "4.5.3.3",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "Writing-isom-mystery-2",
+  "level": "2",
+  "url": "sec-isom-mystery-isometries.html#Writing-isom-mystery-2",
+  "type": "Exercise",
+  "number": "4.5.3.4",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "sec-isom-symmetry",
+  "level": "1",
+  "url": "sec-isom-symmetry.html",
+  "type": "Section",
+  "number": "4.6",
+  "title": "Symmetry",
+  "body": " Symmetry   Snowflakes, product logos, rose windows, and mandalas: these are just a few examples of symmetry in our world. While the applications to art and architecture may be most obvious, scientists observe symmetry as they study the structure and behavior of chemicals, bacterium, plants, and animals.    Two Types of Symmetry  Finite two-dimensional designs, such as snowflakes and logos, may have reflectional symmetry and\/or rotational symmetry. displays a design with both reflectional and rotational symmetry.   symmetry reflectional  reflectional symmetry  mirror symmetry  mirror line  line of symmetry  symmetry line of   A design is said to have reflectional symmetry if there is a line such that reflecting the design across that line causes the design to align perfectly with itself. This line is called a line of symmetry for the design. Each point on one side of the line of symmetry reflects to a corresponding image point on the other side of the line and the image of a point reflects back across the line to the original point.  Reflectional symmetry is also called mirror symmetry and a line of symmetry may be called a mirror . It is possible for a design with mirror symmetry to have multiple lines of symmetry.     Symmetric design created using     Check your Understanding   Draw the four lines of symmetry in . Verify that the design stays the same when reflected across each line.      A design is said to have rotational symmetry if there is a rotation about a point with a positive angle of less than 360 degrees that maps the design onto itself. The image of the design will look identical to the original in shape, location, and angle Designs may have color symmetry in which identical colors are required. Sometimes we focus only on symmetry of form and allow differences in color. . The number of positions to which the figure can be rotated and still look the same is called the order of symmetry . In calculating the order of symmetry, we count a full 360-degree turn, but not a 0-degree rotation. If the order of symmetry of a figure is , we say that the figure has -fold symmetry.      Check your understanding   Refer to the design in as you answer the following:     Where is the center of the rotation for the design in ? How is it related to the lines of symmetry?      What is the smallest positive angle of symmetry for the design?      The design has -fold symmetry for what value of ? Explain.       Exploring Symmetry of Polygons   In this section, we will focus on the symmetry of polygons and observe why regular polygons have greater symmetry than nonregular ones. Once again, we look for consistant patterns that might generalize.  We begin our exploration with triangles: As you complete the activities in , consider the following questions: What types of symmetry do triangles have? How does the shape of a triangle affect its symmetry?    and may be completed using the provided GeoGebra applets or on paper. Note that folding is an effective tool for constructing and verifying lines of symmetry. A protractor and straight edge are also helpful in performing these task.     Symmetry of Triangles   An equilateral triangle is a regular triangle. We explore its symmetry before looking at other triangles.    Symmetry of an Equilateral Triangle   The GeoGebra applet provides an equilateral triangle along with some construction tools.   An Equilateral Triangle       Draw a line of symmetry for this triangle. Then use the reflect across line tool to verify that your line works.    Browse the tool menus of the GeoGebra applet. Tools for midpoint, perpendicular line\/bisector, and angle bisector are provided.      Does the equilateral triangle have any other lines of symmetry? If so, draw all lines of symmetry. Use the reflect across line tool to check your work as needed.      An equilateral triangle also has rotational symmetry. Identify the center of rotational symmetry, drawing it if it does not already exist.    GeoGebra will only recognize a point at intersection if you construct it. Use the point tool or intersection tool.      What is the smallest positive angle of rotational symmetry for this triangle? If you rotate in a counterclockwise direction, where does vertex move to under this rotation?    Selecting the points in the reverse order will give you the measure of the other angle formed by the rays.      What other angles of symmetry are possible? What do you notice?    Rotational angle measures may be greater than 180 degrees.      Symmetries of Other Triangles    shows a picture of an isosceles triangle and a scalene triangle.   An isosceles and a scalene triangle       Does an isosceles (nonequilateral) triangle have reflective symmetry? If so, draw the line(s) of symmetry for the isosceles triangle in . If not, explain.      Does an isosceles (nonequilateral) triangle have rotational symmetry? If so, give the center and angle of symmetry for the isosceles triangle in . If not, explain.      Does a scalene triangle have either reflective or rotational symmetry? Justify your answer.      Perhaps you noticed that the symmetry of a triangle depends on the number of congruent sides it has. Since reflections and rotations preserve angle measure and length, each side and angle must map to a congruent object of the same type. Thus, an equilateral triangle has both rotational and mirror symmetry, an isosceles triangle has only mirror symmetry, and a scalene triangle has neither type of symmetry. In the next exploration, we look at the symmetry of regular -gons.   Symmetry of Regular Polygons    shows pictures of a regular quadrilateral, a regular pentagon, and a regular hexagon.   In this activity, you may want to simplify your drawings by showing segments instead of lines. The Show\/Hide Object tool is in the last menu.    GeoGebra applet with regular polygons      Mirror Symmetry of Regular Polygons    How many lines of symmetry does a square have? Draw the lines of symmetry for the square in .      How many lines of symmetry does a regular pentagon have? Draw the lines of symmetry for the pentagon in .      How many lines of symmetry does a regular hexagon have? Draw the lines of symmetry for the hexagon in .      How many lines of symmetry will a regular -gon have? Does it matter whether is odd or even? Explain your reasoning.      Rotational Symmetry of Regular Polygons    List all the positive angles of rotation up to and including 360 degrees for a square. What is the order of symmetry for a square?      List all the positive angles of rotation up to and including 360 degrees for a regular pentagon. What is the order of symmetry for a regular pentagon?      List all the positive angles of rotation up to and including 360 degrees for a regular hexagon. What is the order of symmetry for a regular hexagon?      What is the order of symmetry for a regular -gon?      What is the smallest positive angle of rotational symmetry for a regular -gon?      For a regular polygon, how is the smallest positive angle of rotation related to the order of symmetry?      Notice and Wonder   What did you notice about the lines of symmetry and centers of rotation as you were completing this activity? What do you wonder about symmetry of finite designs? What questions remain? What conjectures can you make?     As with triangles, we can find quadrilaterals (and other -gons) that possess less symmetry.   Symmetry of non-regular quadrilaterals   The following tasks may be done on paper or using the blank GeoGebra canvas provided in .     Sketch a quadrilateral that has exactly two lines of symmetry. Does your quadrilateral also have rotational symmetry? If it does, locate the center and state the lowest positive degree angle of rotation.      Sketch a quadrilateral that has no lines of symmetry and no rotational symmetry. Explain why your example satisfies these conditions.      Sketch a quadrilateral that has 2-fold rotational symmetry but no mirror symmetry. What is the smallest positive degree angle of rotation. Explain why your example satisfies these conditions.      Sketch a quadrilateral that has a line of symmetry but no rotational symmetry. Explain why your example satisfies these conditions.     A blank GeoGebra palette.       Symmetry Transformations   symmetry transformation  transformation symmetry   A symmetry transformation for a design is an isometry that sends the design perfectly onto itself. The appearance of the design remains the same after the action of a symmetry transformation.  We also may use just the word symmetry to refer to a symmetry transformation. The context of how the word appears will help us decide whether symmetry refers to the property of the design or the transformation that preserves the design.    In , we saw that when we performed a sequence of reflections in succession, the composition was the same as a single isometry, either another reflection, a translation, a rotation, or a glide reflection. The type of isometry depended on the number of reflections and whether the reflecting lines were parallel. With a finite design such as the one in , note that any lines of symmetry must intersect and their point of intersection will be in the center of the figure. If the figure also has rotational symmetry, then the center of the rotation will be at this central point.   Reflective Questions   Explain why a translation and a glide reflection cannot be symmetry transformation of finite designs or polygons. Do you think translations and\/or glide reflections could be symmetry transformations of infinite tilings or infinite wallpaper borders? Explain in words and\/or pictures.    We now focus on the symmetries of a single equilateral triangle, investigating what happens to the labeled vertices when we compose symmetry transformations.   Symmetries of an Equilateral Triangle   Throughout this exploration, you may use the GeoGebra applet as needed. For a tactile exploration, label and cut out an equilateral triangle that you can flip and rotate.    Rotations of an Equilateral Triangle   As previously discovered, an equilateral triangle has 3-fold symmetry.   GeoGebra applet for exploring the symmetries of an equilateral triangle       What is the smallest positive degree angle of symmetry?    120 degrees      Suppose we use the label to represent a counterclockwise rotation by a 120-degree angle about the center of this triangle. What is the effect of performing twice in succession? Is it the same as a reflection or rotation? Specify the reflecting line (if it is a reflection) or rotation angle (if it is a rotation) of the composed transformation    rotating counterclockwise by 240 degrees      What happens if you rotate the original triangle using three times in succession?    The triangle returns to original position,      A 0-degree rotation can be represented by . Describe in your own words what happens when you apply . How does it compare to ?    Nothing happens. The triangle remains in its original position which is the same position as when it is rotated 360 degrees.      A clockwise 120-degree rotation is the same as a counterclockwise rotation of what degree?    240 degrees      Images of Symmetries   As we record the result of performing symmetries on the triangle in , we will use the notation , , to represent counterclockwise rotations of 0 degrees, 120 degrees, and 240 degrees about the center of the triangle.  We will also use the notation , , and to denote the reflections across line with negative slope, line with positive slope, and the vertical line , respectively.   One hint to recognizing the difference is that the plural form, symmetries , will usually refer to symmetry transformations. When discussing the property of symmetry, the author will use the singular form.   Because these are symmetries, the actions will always result in the same equilateral triangle. What changes is the locations of vertices , , and . Note that the image of the triangle after performing is the same as . We call this the Home Position. When using the GeoGebra applet , we can click on the icon in the upper right that looks like a circle with clockwise-oriented arrows to return to the Home Position.   Home Position of Equilateral Triangle   An equilateral triangle. Vertex B on top and vertex A lower left and vertex C lower right.    Being sure to start in the home position each time, draw and save a sketch that shows where the vertices , , and land after each of the following symmetry transformations. You will need to refer to these sketches in tasks that follow.           : is on top; bottom left to right is .            : is on top; bottom left to right is .            : is on top; bottom left to right is .            : is on top; bottom left to right is .            : is on top; bottom left to right is .     It is not an accident that each of these five transformations results in a different arrangement of the vertices, , , and , none of which will be the same as .     Setting the Stage   To prepare for the final task, we will remind ourselves of what a multiplication table is. Complete using your knowledge of whole number multiplication.   Multiplication Table           1  2  3  4  5    1  1  2  3  4  5    2  2  4       3  3        4  4        5  5    20         Multiplication Table Key           1  2  3  4  5    1  1  2  3  4  5    2  2  4  6  8  10    3  3  6  9  12  15    4  4  8  12  15  18    5  5  10  15  20  25         Like the multiplication table above, we can create a table for the composition of symmetry isomorphisms on an equilateral triangle using the following steps as a guide. Each entry you add to will always be one of the six symmetries of the triangle; namely, , , , , , or . When you use to compute compositions, be sure to reset the triangle to home position before performing the first of the two actions and then perform the second action without resetting the triangle. Compare the final result to the vertex labels you recorded in and then use the symbol, , , , , , or that corresponds to the output of the composition.   Composition Table                                                                              The row and column headed by have already been filled in. Explain why this row and column is the same as the header row and header column. In particular, what is the action of on the vertices of triangle ?    Do you notice the similarity between the action of here and the way the number 1 acts in multiplication?      Determine the compositions of two rotations, namely , , , and . Enter these results into the table, using the appropriate or shorthand in the appropriate locations.    The column will be headed by the first action performed and the row will be headed by the second action. As an example, the result of (rotating by 240 degrees) followed by (rotating by 120 degrees) would be entered into the cell below 240 and to the right of 120.     ; ; ; .      The nine cells in the upper left should now be filled. Starting with the triangle in the home position of , perform followed by . This operation is the same as , the composition of and since the composition of two functions and is defined by mathematicians to be . See . For this activity, we will refer to the first and second action throughout to maintain clarity. . Record the symbol in that corresponds to the resulting image in the cell in the -column and the -row.     followed by results in . In symbols, .      Is the same as ? To determine , start at the home position and first perform followed by . Write the symmetry you just found in the cell of the -column and -row. Compare the two results.    The result depends on the order in which you perform the isometries!     followed by results in . In symbols, .      To complete the -column, compute the two compositions:      , by first rotating the triangle in home position 120 degrees counterclockwise and then reflecting the resulting triangle across line , and       , by first rotating the triangle in home position 120 degrees counterclockwise and then reflecting the resulting triangle across line .      The -column should now be completely filled. Each of the symmetries, , , , , , and will appear exactly once in this colunn.      The -column should now be completely filled. Each of the symmetries, , , , , , and will appear exactly once in this colunn.      Similarly, we will complete the -column by reflecting the home triangle across the line before performing the symmetry corresponding to the row heading. Check again to make sure that no symmetry appears twice in the same column.      Complete the last two columns where the first transformation is reflection across the lines and , respectively.    Ignoring the headers, each of the six isometries should appear exactly once in each row and each column.    The table follows.   Composition Table Key                                                                                Observations and Summary   Refer to your completed version of , as you answer the following:     Of the six symmetry transformations, , , , , , and , which transformation behaves like the number 1 does in multiplication? We call this transformation the identity transformation .   The number 1 is called the multiplicative identity .      is the identity transformation.      Which transformation undoes  ? In other words, which transformation can you perform after so that this two-step action gives the same result as the identity transformation? Does the order of these two transformations matter?  Algebra connection: How is this relationship like composing the multiply by five function and the divide by 5 function ?   We call multiplying by 5 and dividing by five inverse operations . The numbers and are said to be multiplicative inverses of each other since their product is the multiplicative identity 1.      undoes . Here, order does not matter.      Which transformation undoes  ? Does undo that transformation?  Algebra connection: Is there a real number such that the multiplication by function, , undoes itself?    Each reflection, like , undoes itself. The number behaves similarly in multiplication. The identities, in this symmetry group and in the real numbers, also have this property.      Algebra connection: The operation multiplication on the set of real numbers satisfies the commutative property, for all real numbers, and . Does composition of symmetry transformations satisfy the commutative property? Support your answer.    No, composition of symmetry transformations does not satisfy the commutative property.        Exercises   Building Our Toolbox    add      Skills and Recall    Add some. Identify symmetry of polyominos or letters. Pentagon with reflective but no rotational symmetry.      Extending the Concepts    Add exploring connections between -fold symmetry and number of reflecting lines.      Writing Prompts    Add      "
+},
+{
+  "id": "def-reflectional-sym",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#def-reflectional-sym",
+  "type": "Definition",
+  "number": "4.6.1",
+  "title": "",
+  "body": " symmetry reflectional  reflectional symmetry  mirror symmetry  mirror line  line of symmetry  symmetry line of   A design is said to have reflectional symmetry if there is a line such that reflecting the design across that line causes the design to align perfectly with itself. This line is called a line of symmetry for the design. Each point on one side of the line of symmetry reflects to a corresponding image point on the other side of the line and the image of a point reflects back across the line to the original point.  Reflectional symmetry is also called mirror symmetry and a line of symmetry may be called a mirror . It is possible for a design with mirror symmetry to have multiple lines of symmetry.   "
+},
+{
+  "id": "fig-rosette1",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#fig-rosette1",
+  "type": "Figure",
+  "number": "4.6.2",
+  "title": "",
+  "body": " Symmetric design created using   "
+},
+{
+  "id": "sec-isom-symmetry-3-5",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#sec-isom-symmetry-3-5",
+  "type": "Checkpoint",
+  "number": "4.6.3",
+  "title": "Check your Understanding.",
+  "body": " Check your Understanding   Draw the four lines of symmetry in . Verify that the design stays the same when reflected across each line.   "
+},
+{
+  "id": "def-rotational-symm",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#def-rotational-symm",
+  "type": "Definition",
+  "number": "4.6.4",
+  "title": "",
+  "body": "  A design is said to have rotational symmetry if there is a rotation about a point with a positive angle of less than 360 degrees that maps the design onto itself. The image of the design will look identical to the original in shape, location, and angle Designs may have color symmetry in which identical colors are required. Sometimes we focus only on symmetry of form and allow differences in color. . The number of positions to which the figure can be rotated and still look the same is called the order of symmetry . In calculating the order of symmetry, we count a full 360-degree turn, but not a 0-degree rotation. If the order of symmetry of a figure is , we say that the figure has -fold symmetry.    "
+},
+{
+  "id": "sec-isom-symmetry-3-7",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#sec-isom-symmetry-3-7",
+  "type": "Checkpoint",
+  "number": "4.6.5",
+  "title": "Check your understanding.",
+  "body": " Check your understanding   Refer to the design in as you answer the following:     Where is the center of the rotation for the design in ? How is it related to the lines of symmetry?      What is the smallest positive angle of symmetry for the design?      The design has -fold symmetry for what value of ? Explain.    "
+},
+{
+  "id": "explor-symm-triangletype",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#explor-symm-triangletype",
+  "type": "Exploration",
+  "number": "4.6.1",
+  "title": "Symmetry of Triangles.",
+  "body": " Symmetry of Triangles   An equilateral triangle is a regular triangle. We explore its symmetry before looking at other triangles.    Symmetry of an Equilateral Triangle   The GeoGebra applet provides an equilateral triangle along with some construction tools.   An Equilateral Triangle       Draw a line of symmetry for this triangle. Then use the reflect across line tool to verify that your line works.    Browse the tool menus of the GeoGebra applet. Tools for midpoint, perpendicular line\/bisector, and angle bisector are provided.      Does the equilateral triangle have any other lines of symmetry? If so, draw all lines of symmetry. Use the reflect across line tool to check your work as needed.      An equilateral triangle also has rotational symmetry. Identify the center of rotational symmetry, drawing it if it does not already exist.    GeoGebra will only recognize a point at intersection if you construct it. Use the point tool or intersection tool.      What is the smallest positive angle of rotational symmetry for this triangle? If you rotate in a counterclockwise direction, where does vertex move to under this rotation?    Selecting the points in the reverse order will give you the measure of the other angle formed by the rays.      What other angles of symmetry are possible? What do you notice?    Rotational angle measures may be greater than 180 degrees.      Symmetries of Other Triangles    shows a picture of an isosceles triangle and a scalene triangle.   An isosceles and a scalene triangle       Does an isosceles (nonequilateral) triangle have reflective symmetry? If so, draw the line(s) of symmetry for the isosceles triangle in . If not, explain.      Does an isosceles (nonequilateral) triangle have rotational symmetry? If so, give the center and angle of symmetry for the isosceles triangle in . If not, explain.      Does a scalene triangle have either reflective or rotational symmetry? Justify your answer.     "
+},
+{
+  "id": "explor-symm-regpoly",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#explor-symm-regpoly",
+  "type": "Exploration",
+  "number": "4.6.2",
+  "title": "Symmetry of Regular Polygons.",
+  "body": " Symmetry of Regular Polygons    shows pictures of a regular quadrilateral, a regular pentagon, and a regular hexagon.   In this activity, you may want to simplify your drawings by showing segments instead of lines. The Show\/Hide Object tool is in the last menu.    GeoGebra applet with regular polygons      Mirror Symmetry of Regular Polygons    How many lines of symmetry does a square have? Draw the lines of symmetry for the square in .      How many lines of symmetry does a regular pentagon have? Draw the lines of symmetry for the pentagon in .      How many lines of symmetry does a regular hexagon have? Draw the lines of symmetry for the hexagon in .      How many lines of symmetry will a regular -gon have? Does it matter whether is odd or even? Explain your reasoning.      Rotational Symmetry of Regular Polygons    List all the positive angles of rotation up to and including 360 degrees for a square. What is the order of symmetry for a square?      List all the positive angles of rotation up to and including 360 degrees for a regular pentagon. What is the order of symmetry for a regular pentagon?      List all the positive angles of rotation up to and including 360 degrees for a regular hexagon. What is the order of symmetry for a regular hexagon?      What is the order of symmetry for a regular -gon?      What is the smallest positive angle of rotational symmetry for a regular -gon?      For a regular polygon, how is the smallest positive angle of rotation related to the order of symmetry?      Notice and Wonder   What did you notice about the lines of symmetry and centers of rotation as you were completing this activity? What do you wonder about symmetry of finite designs? What questions remain? What conjectures can you make?    "
+},
+{
+  "id": "sec-isom-symmetry-4-7",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#sec-isom-symmetry-4-7",
+  "type": "Exploration",
+  "number": "4.6.3",
+  "title": "Symmetry of non-regular quadrilaterals.",
+  "body": " Symmetry of non-regular quadrilaterals   The following tasks may be done on paper or using the blank GeoGebra canvas provided in .     Sketch a quadrilateral that has exactly two lines of symmetry. Does your quadrilateral also have rotational symmetry? If it does, locate the center and state the lowest positive degree angle of rotation.      Sketch a quadrilateral that has no lines of symmetry and no rotational symmetry. Explain why your example satisfies these conditions.      Sketch a quadrilateral that has 2-fold rotational symmetry but no mirror symmetry. What is the smallest positive degree angle of rotation. Explain why your example satisfies these conditions.      Sketch a quadrilateral that has a line of symmetry but no rotational symmetry. Explain why your example satisfies these conditions.     A blank GeoGebra palette.    "
+},
+{
+  "id": "def-symm-transformation",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#def-symm-transformation",
+  "type": "Definition",
+  "number": "4.6.10",
+  "title": "",
+  "body": " symmetry transformation  transformation symmetry   A symmetry transformation for a design is an isometry that sends the design perfectly onto itself. The appearance of the design remains the same after the action of a symmetry transformation.  We also may use just the word symmetry to refer to a symmetry transformation. The context of how the word appears will help us decide whether symmetry refers to the property of the design or the transformation that preserves the design.   "
+},
+{
+  "id": "subsec-symm-transformations-4",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#subsec-symm-transformations-4",
+  "type": "Checkpoint",
+  "number": "4.6.11",
+  "title": "Reflective Questions.",
+  "body": " Reflective Questions   Explain why a translation and a glide reflection cannot be symmetry transformation of finite designs or polygons. Do you think translations and\/or glide reflections could be symmetry transformations of infinite tilings or infinite wallpaper borders? Explain in words and\/or pictures.   "
+},
+{
+  "id": "explor-sym-equitri",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#explor-sym-equitri",
+  "type": "Exploration",
+  "number": "4.6.4",
+  "title": "Symmetries of an Equilateral Triangle.",
+  "body": " Symmetries of an Equilateral Triangle   Throughout this exploration, you may use the GeoGebra applet as needed. For a tactile exploration, label and cut out an equilateral triangle that you can flip and rotate.    Rotations of an Equilateral Triangle   As previously discovered, an equilateral triangle has 3-fold symmetry.   GeoGebra applet for exploring the symmetries of an equilateral triangle       What is the smallest positive degree angle of symmetry?    120 degrees      Suppose we use the label to represent a counterclockwise rotation by a 120-degree angle about the center of this triangle. What is the effect of performing twice in succession? Is it the same as a reflection or rotation? Specify the reflecting line (if it is a reflection) or rotation angle (if it is a rotation) of the composed transformation    rotating counterclockwise by 240 degrees      What happens if you rotate the original triangle using three times in succession?    The triangle returns to original position,      A 0-degree rotation can be represented by . Describe in your own words what happens when you apply . How does it compare to ?    Nothing happens. The triangle remains in its original position which is the same position as when it is rotated 360 degrees.      A clockwise 120-degree rotation is the same as a counterclockwise rotation of what degree?    240 degrees      Images of Symmetries   As we record the result of performing symmetries on the triangle in , we will use the notation , , to represent counterclockwise rotations of 0 degrees, 120 degrees, and 240 degrees about the center of the triangle.  We will also use the notation , , and to denote the reflections across line with negative slope, line with positive slope, and the vertical line , respectively.   One hint to recognizing the difference is that the plural form, symmetries , will usually refer to symmetry transformations. When discussing the property of symmetry, the author will use the singular form.   Because these are symmetries, the actions will always result in the same equilateral triangle. What changes is the locations of vertices , , and . Note that the image of the triangle after performing is the same as . We call this the Home Position. When using the GeoGebra applet , we can click on the icon in the upper right that looks like a circle with clockwise-oriented arrows to return to the Home Position.   Home Position of Equilateral Triangle   An equilateral triangle. Vertex B on top and vertex A lower left and vertex C lower right.    Being sure to start in the home position each time, draw and save a sketch that shows where the vertices , , and land after each of the following symmetry transformations. You will need to refer to these sketches in tasks that follow.           : is on top; bottom left to right is .            : is on top; bottom left to right is .            : is on top; bottom left to right is .            : is on top; bottom left to right is .            : is on top; bottom left to right is .     It is not an accident that each of these five transformations results in a different arrangement of the vertices, , , and , none of which will be the same as .     Setting the Stage   To prepare for the final task, we will remind ourselves of what a multiplication table is. Complete using your knowledge of whole number multiplication.   Multiplication Table           1  2  3  4  5    1  1  2  3  4  5    2  2  4       3  3        4  4        5  5    20         Multiplication Table Key           1  2  3  4  5    1  1  2  3  4  5    2  2  4  6  8  10    3  3  6  9  12  15    4  4  8  12  15  18    5  5  10  15  20  25         Like the multiplication table above, we can create a table for the composition of symmetry isomorphisms on an equilateral triangle using the following steps as a guide. Each entry you add to will always be one of the six symmetries of the triangle; namely, , , , , , or . When you use to compute compositions, be sure to reset the triangle to home position before performing the first of the two actions and then perform the second action without resetting the triangle. Compare the final result to the vertex labels you recorded in and then use the symbol, , , , , , or that corresponds to the output of the composition.   Composition Table                                                                              The row and column headed by have already been filled in. Explain why this row and column is the same as the header row and header column. In particular, what is the action of on the vertices of triangle ?    Do you notice the similarity between the action of here and the way the number 1 acts in multiplication?      Determine the compositions of two rotations, namely , , , and . Enter these results into the table, using the appropriate or shorthand in the appropriate locations.    The column will be headed by the first action performed and the row will be headed by the second action. As an example, the result of (rotating by 240 degrees) followed by (rotating by 120 degrees) would be entered into the cell below 240 and to the right of 120.     ; ; ; .      The nine cells in the upper left should now be filled. Starting with the triangle in the home position of , perform followed by . This operation is the same as , the composition of and since the composition of two functions and is defined by mathematicians to be . See . For this activity, we will refer to the first and second action throughout to maintain clarity. . Record the symbol in that corresponds to the resulting image in the cell in the -column and the -row.     followed by results in . In symbols, .      Is the same as ? To determine , start at the home position and first perform followed by . Write the symmetry you just found in the cell of the -column and -row. Compare the two results.    The result depends on the order in which you perform the isometries!     followed by results in . In symbols, .      To complete the -column, compute the two compositions:      , by first rotating the triangle in home position 120 degrees counterclockwise and then reflecting the resulting triangle across line , and       , by first rotating the triangle in home position 120 degrees counterclockwise and then reflecting the resulting triangle across line .      The -column should now be completely filled. Each of the symmetries, , , , , , and will appear exactly once in this colunn.      The -column should now be completely filled. Each of the symmetries, , , , , , and will appear exactly once in this colunn.      Similarly, we will complete the -column by reflecting the home triangle across the line before performing the symmetry corresponding to the row heading. Check again to make sure that no symmetry appears twice in the same column.      Complete the last two columns where the first transformation is reflection across the lines and , respectively.    Ignoring the headers, each of the six isometries should appear exactly once in each row and each column.    The table follows.   Composition Table Key                                                                                Observations and Summary   Refer to your completed version of , as you answer the following:     Of the six symmetry transformations, , , , , , and , which transformation behaves like the number 1 does in multiplication? We call this transformation the identity transformation .   The number 1 is called the multiplicative identity .      is the identity transformation.      Which transformation undoes  ? In other words, which transformation can you perform after so that this two-step action gives the same result as the identity transformation? Does the order of these two transformations matter?  Algebra connection: How is this relationship like composing the multiply by five function and the divide by 5 function ?   We call multiplying by 5 and dividing by five inverse operations . The numbers and are said to be multiplicative inverses of each other since their product is the multiplicative identity 1.      undoes . Here, order does not matter.      Which transformation undoes  ? Does undo that transformation?  Algebra connection: Is there a real number such that the multiplication by function, , undoes itself?    Each reflection, like , undoes itself. The number behaves similarly in multiplication. The identities, in this symmetry group and in the real numbers, also have this property.      Algebra connection: The operation multiplication on the set of real numbers satisfies the commutative property, for all real numbers, and . Does composition of symmetry transformations satisfy the commutative property? Support your answer.    No, composition of symmetry transformations does not satisfy the commutative property.     "
+},
+{
+  "id": "Toolbox-isom-symm-2",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#Toolbox-isom-symm-2",
+  "type": "Exercise",
+  "number": "4.6.4.1",
+  "title": "",
+  "body": "  add   "
+},
+{
+  "id": "SAR-isom-symm-2",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#SAR-isom-symm-2",
+  "type": "Exercise",
+  "number": "4.6.4.2",
+  "title": "",
+  "body": "  Add some. Identify symmetry of polyominos or letters. Pentagon with reflective but no rotational symmetry.   "
+},
+{
+  "id": "ExtConc-isom-symm-2",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#ExtConc-isom-symm-2",
+  "type": "Exercise",
+  "number": "4.6.4.3",
+  "title": "",
+  "body": "  Add exploring connections between -fold symmetry and number of reflecting lines.   "
+},
+{
+  "id": "Writing-isom-symm-2",
+  "level": "2",
+  "url": "sec-isom-symmetry.html#Writing-isom-symm-2",
+  "type": "Exercise",
+  "number": "4.6.4.4",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "sec-isom-instructor",
+  "level": "1",
+  "url": "sec-isom-instructor.html",
+  "type": "Section",
+  "number": "4.7",
+  "title": "Instructor Notes",
+  "body": " Instructor Notes   Notes for  The author is happy to provide a pdf-version of the activities in this section. Be sure to check that students correctly sketch the reflection in . Reflecting across a diagonal line is more challenging for some students. Encourage students to compare their sketches with others and discuss if there are different sketches. Miras (math education supply stores) or small mirrors (craft stores) can be effective at resolving differences and helping students visualize, but I recommend letting them draw the reflection first without these aids. Although much of this chapter will be done with GeoGebra apps, it is worthwhile to have students do this first activity on paper in small groups. Performing actions by hand gives deeper understanding, encourages teamwork, and introduces some properties of reflections in the coordinate plane across the -axis, -axis, and lines and . In preparation for this lesson, print out copies of the illustrations in this section, bring enough reddish, greenish, and blueish pencils so each group can have at least one of each color. Should students draw in the wrong color, they can indicate the color they used by making a mark in the text.  In , students should discover that the reflecting line is the perpendicular bisector of each segment joining a point in the original figure with its image. The task also reminds students that the diagonal of a 1x1-square has length . In , students should use what they learned to draw the reflecting line. If their line is off, encourage them to fold along their line to check their work and consider what they might do. This type of task will appear more later in the chapter. Keep it at an exploratory level at this point. Note that we have not learned how to draw a perpendicular bisector. An optional exploration MAYBE AN EXERCISE might be to discover how to use folding to create these. Current plans are to add a chapter on constructions, but probably later in the text. gives an introduction to composition of reflections, a topic which will be explored in depth in .    Notes for  Add    Notes for  Add    Notes for  Note that students may be uncomfortable with the notation for compositions, especially the fact that . Students are used to performing computations from left to right. The author has debated whether to be consistent with composition notation or to use a new symbol that would facilitate a left-to-right method. This may change in future versions. Let me know what you think!  In , students should definitely be encouraged to hide as well as its vertices. The rotational angle is double the angle between the lines. Reversing the order in which points for the angle are selected may give measurements that make the doubling more obvious.    Notes for  This section gives an opportunity for students to apply their learning from this chapter in a fun challenge.    Notes for  The beginning of this section connects the notion of symmetry with the isomorphisms of this chapter. In the next chapter, we will connect dilations to similarity.  The subsection at the end of this section may be omitted or given as an extension for students who appreciate the challenge. Here, students will build a group table for compositions of symmetries of an equilateral table. Completion of this subsection provides a context for a discussion of algebraic properties like the commutative law, identity properties, and inverse properties.   "
+},
+{
+  "id": "sec-dilations-Cartesian",
+  "level": "1",
+  "url": "sec-dilations-Cartesian.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "Transformations that Scale",
+  "body": " Transformations that Scale   In this section, we explore a type of transformation which changes the distance between points. Before introducing some examples on the Cartesian -plane, we review how the Pythagorean Theorem is used to compute distance between points.    Distance on the Cartesian Plane  To compute the length of a segment on a graph we use the Pythagorean Theorem, noting that it is easy to compute distances along horizontal or vertical lines on a graph. To measure the distance between two points that not on a horizontal or vertical line, we construct a right triangle whose hypotenuse is the segment connecting the points. One leg of this triangle will be horizontal, the other vertical.  In , the coordinates of point are and of point are . We think of the segment as the hypotenuse of a triangle with a right angle at . The length of the horizontal leg is found by subtracting the -coordinates, . Similarly, the vertical distance by subtracting the -coordinates, . Since segment is the hypotenuse of the right triangle , we can use the Pythagorean Theorem to find its length, namely .   Measuring distance on a graph   Right triange ABC described above.       Dilating Figures on a Cartesian -Plane  To introduce the dilation transformation, we begin by plotting the image of a figure and observing properties.   Constructing a Dilated Quadrilateral   The following tasks refer to . This exploration may be completed virtually or on paper.    Measuring a Quadrilateral    Compute the lengths of each segment using the Pythagorean Theorem:                                  Use either a protractor or GeoGebra tools to measure the angles:          To use the Angle tool in GeoGebra, select a point on a side of the angle, followed by the vertex, and then by a point on the other side. Note that GeoGebra assumes that angles open in a counterclockwise direction. If you get the measure of an exterior angle, remeasure the angle selecting the points in the opposite direction.                         GeoGebra app to scale a quadrilateral       Dilating the Quadrilateral   Multiply the coordinates of each vertex by 2 to obtain coordinates for points , , , and .  Then plot and connect the new points to form quadrilateral .      Relationships between the Image and the Original   Refer to your construction in as you answer the following:     Describe how the quadrilateral you drew in relates to the original quadrilateral .    This task is intentionally vague and open-ended.      Measure the new angles , , , and . How do they compare to the original four angles?      Compute the lengths of the following segments                                Compare these to the original side lengths.      Let be the point . Draw the rays , , , and . What do you notice about these rays?        Defining Dilation  In , you constructed the image of quadrilateral under a geometric transformation that doubled the sides of the figure. We call this type of transformation a dilation . encourages you to reflect on the key ideas that appeared in . These properties will be useful as we work through this chapter.   Did you notice?   A few properties related to dilations appeared in . Answer the following:     Does a dilation preserve the shape of figures?    Yes, dilations preserve shape.      Does a dilation preserve the size of figures?    No, dilations do not preserve size.      What does the scale factor tell you about the relationship between the lengths of segments in the dilated image compared to the lengths of segments in the original figure?    Let be the scale factor. If is the length of a segment in the original figure, what is the length of its dilated image?    The length of a dilated image of a segment is times the length of the original.      If is a point and is its image under a dilation, what other point must lie on line ?    The line must pass through the center of the dilation.      What is the image of quadrilateral , created in under the dilation with center and scale factor ?      dilation  similarity  scale factor  center dilation  magnification   A dilation with center  and scale factor  is a geometrical transformation that maps each point to a unique point satisfying the following:    lies on line and     .   Point is called the image of under the dilation.  Although the word dilation suggests enlarging, a dilation may instead scale down as seen in .    The dilation in has a scale factor of and center  . Notice how lies on and .   Applying the Definition of Dilation   Use to answer the following:     If , what is ?     (or )           If , what is ?    Round your result to the nearest one hundredth.         Since ,       If , what is ?    How is related to and ? Wait until the end to round your result to the nearest one hundredth.    8.78           What are the center and the scale factor of the dilation that takes quadrilateral to ?    The center is still . The scale factor is     The center is still . The scale factor is . You can also use . When possible choose values that are exact, not approximate, as you compute new values.      Dilation of a quadrilateral   Quadrilateral ABCD is dilated by a factor of 1.75.      A Dilation Not Centered at the Origin   The center of a dilation does not have to be the origin, . It could be any point in the plane.     Use the GeoGebra applet or a paper copy to complete the following. You will need to plot each point individually.   GeoGebra applet for dilating triangle       Sketch or construct the dilation of triangle with center and scale factor .    You can avoid using the Pythagorean Theorem by thinking of sides and diagonals of blocks on the grid as units; for example is equal to the diagonal of a -rectangle so should be equal to three of these diagonals.    The coordinates are as follows: , , and .      Sketch or construct the dilation of triangle with center and scale factor .    The coordinates are as follows: , , and .      Sketch or construct the dilation of triangle with center and scale factor .    The coordinates are as follows: , , and .        Similar Triangles and Dilations  We have observed that a dilation maps each figure onto a figure that has the same shape as the original, but the size is not preserved. When two figures have the same shape we say that the figures are similar . Corresponding angles will be congruent and lengths of corresponding sides will be proportional. We give a formal definition for similar triangles but note that this definition can easily be generalized for polygons with more than three sides.    similar  triangles similar  Two triangles and are said to be similar triangles if the following hold:   and have three pairs of congruent corresponding angles   and the ratios of the three pairs of corresponding sides are equal .    We use the symbol to denote similar figures. Thus, means that and are similar triangles.   similar      In , we consider a situation in which a vertex of a figure is mapped to itself by a dilation. As you complete this activity, look for relationships between similarity and dilation.   Properties of a Dilation   In , a dilation takes to .   GeoGebra applet for       What is the center of the dilation? How do you know?      What is the scale factor of this dilation?      Compute each of the ratios:           What do you notice?      Compute the ratios:           Are these the same? Why or why not?      Are any of the angles in triangle congruent to an angle in ? Identify all pairs of congruent angles.      In , are triangles and  congruent ? Explain.    No.      Are the triangles in similar? Explain.    Yes.       Exercises   Building Our Toolbox    In your own words, write out definitions for each of the following. Add pictures as you find helpful.     Dilation      Scale Factor of a dilation      Center of a dilation       Skills and Recall    Determine the distance between the following pairs of points.      and .       and .       In , is the image of under a dilation with center . Given that , , , and , determine the following:      Point D is in the interior of triangle A'B'C' which is inside triangle ABC.       The scale factor for the dilation taking to .      The scale factor for the dilation taking to .      Length .      Length .      Length .      Length .       Extending the Concepts    Add       Writing Prompts    Add      "
+},
+{
+  "id": "diag-seg-measure",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#diag-seg-measure",
+  "type": "Figure",
+  "number": "5.1.1",
+  "title": "",
+  "body": " Measuring distance on a graph   Right triange ABC described above.   "
+},
+{
+  "id": "explor-magnify-quad",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#explor-magnify-quad",
+  "type": "Exploration",
+  "number": "5.1.1",
+  "title": "Constructing a Dilated Quadrilateral.",
+  "body": " Constructing a Dilated Quadrilateral   The following tasks refer to . This exploration may be completed virtually or on paper.    Measuring a Quadrilateral    Compute the lengths of each segment using the Pythagorean Theorem:                                  Use either a protractor or GeoGebra tools to measure the angles:          To use the Angle tool in GeoGebra, select a point on a side of the angle, followed by the vertex, and then by a point on the other side. Note that GeoGebra assumes that angles open in a counterclockwise direction. If you get the measure of an exterior angle, remeasure the angle selecting the points in the opposite direction.                         GeoGebra app to scale a quadrilateral       Dilating the Quadrilateral   Multiply the coordinates of each vertex by 2 to obtain coordinates for points , , , and .  Then plot and connect the new points to form quadrilateral .      Relationships between the Image and the Original   Refer to your construction in as you answer the following:     Describe how the quadrilateral you drew in relates to the original quadrilateral .    This task is intentionally vague and open-ended.      Measure the new angles , , , and . How do they compare to the original four angles?      Compute the lengths of the following segments                                Compare these to the original side lengths.      Let be the point . Draw the rays , , , and . What do you notice about these rays?     "
+},
+{
+  "id": "subsec-dilation-terminology-2",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#subsec-dilation-terminology-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "image dilation "
+},
+{
+  "id": "chkpt-notice-dilation",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#chkpt-notice-dilation",
+  "type": "Checkpoint",
+  "number": "5.1.3",
+  "title": "Did you notice?",
+  "body": " Did you notice?   A few properties related to dilations appeared in . Answer the following:     Does a dilation preserve the shape of figures?    Yes, dilations preserve shape.      Does a dilation preserve the size of figures?    No, dilations do not preserve size.      What does the scale factor tell you about the relationship between the lengths of segments in the dilated image compared to the lengths of segments in the original figure?    Let be the scale factor. If is the length of a segment in the original figure, what is the length of its dilated image?    The length of a dilated image of a segment is times the length of the original.      If is a point and is its image under a dilation, what other point must lie on line ?    The line must pass through the center of the dilation.      What is the image of quadrilateral , created in under the dilation with center and scale factor ?    "
+},
+{
+  "id": "def-dilation",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#def-dilation",
+  "type": "Definition",
+  "number": "5.1.4",
+  "title": "",
+  "body": " dilation  similarity  scale factor  center dilation  magnification   A dilation with center  and scale factor  is a geometrical transformation that maps each point to a unique point satisfying the following:    lies on line and     .   Point is called the image of under the dilation.  Although the word dilation suggests enlarging, a dilation may instead scale down as seen in .   "
+},
+{
+  "id": "subsec-dilation-terminology-5",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#subsec-dilation-terminology-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "scale factor center "
+},
+{
+  "id": "subsec-dilation-terminology-6",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#subsec-dilation-terminology-6",
+  "type": "Checkpoint",
+  "number": "5.1.5",
+  "title": "Applying the Definition of Dilation.",
+  "body": " Applying the Definition of Dilation   Use to answer the following:     If , what is ?     (or )           If , what is ?    Round your result to the nearest one hundredth.         Since ,       If , what is ?    How is related to and ? Wait until the end to round your result to the nearest one hundredth.    8.78           What are the center and the scale factor of the dilation that takes quadrilateral to ?    The center is still . The scale factor is     The center is still . The scale factor is . You can also use . When possible choose values that are exact, not approximate, as you compute new values.    "
+},
+{
+  "id": "fig-dilate-quad-sevenfourths",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#fig-dilate-quad-sevenfourths",
+  "type": "Figure",
+  "number": "5.1.6",
+  "title": "",
+  "body": " Dilation of a quadrilateral   Quadrilateral ABCD is dilated by a factor of 1.75.   "
+},
+{
+  "id": "subsec-dilation-terminology-8",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#subsec-dilation-terminology-8",
+  "type": "Exploration",
+  "number": "5.1.2",
+  "title": "A Dilation Not Centered at the Origin.",
+  "body": " A Dilation Not Centered at the Origin   The center of a dilation does not have to be the origin, . It could be any point in the plane.     Use the GeoGebra applet or a paper copy to complete the following. You will need to plot each point individually.   GeoGebra applet for dilating triangle       Sketch or construct the dilation of triangle with center and scale factor .    You can avoid using the Pythagorean Theorem by thinking of sides and diagonals of blocks on the grid as units; for example is equal to the diagonal of a -rectangle so should be equal to three of these diagonals.    The coordinates are as follows: , , and .      Sketch or construct the dilation of triangle with center and scale factor .    The coordinates are as follows: , , and .      Sketch or construct the dilation of triangle with center and scale factor .    The coordinates are as follows: , , and .     "
+},
+{
+  "id": "subsec-dilate-similartri-example-2",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#subsec-dilate-similartri-example-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "similar similar triangles "
+},
+{
+  "id": "def-similar-triangles",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#def-similar-triangles",
+  "type": "Definition",
+  "number": "5.1.8",
+  "title": "",
+  "body": "  similar  triangles similar  Two triangles and are said to be similar triangles if the following hold:   and have three pairs of congruent corresponding angles   and the ratios of the three pairs of corresponding sides are equal .    We use the symbol to denote similar figures. Thus, means that and are similar triangles.   similar     "
+},
+{
+  "id": "explor-nested-simtri",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#explor-nested-simtri",
+  "type": "Exploration",
+  "number": "5.1.3",
+  "title": "Properties of a Dilation.",
+  "body": " Properties of a Dilation   In , a dilation takes to .   GeoGebra applet for       What is the center of the dilation? How do you know?      What is the scale factor of this dilation?      Compute each of the ratios:           What do you notice?      Compute the ratios:           Are these the same? Why or why not?      Are any of the angles in triangle congruent to an angle in ? Identify all pairs of congruent angles.      In , are triangles and  congruent ? Explain.    No.      Are the triangles in similar? Explain.    Yes.    "
+},
+{
+  "id": "Toolbox-dilations-cartesian-2",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#Toolbox-dilations-cartesian-2",
+  "type": "Exercise",
+  "number": "5.1.5.1",
+  "title": "",
+  "body": "  In your own words, write out definitions for each of the following. Add pictures as you find helpful.     Dilation      Scale Factor of a dilation      Center of a dilation    "
+},
+{
+  "id": "SAR-dilations-Cartesian-2",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#SAR-dilations-Cartesian-2",
+  "type": "Exercise",
+  "number": "5.1.5.2",
+  "title": "",
+  "body": "  Determine the distance between the following pairs of points.      and .       and .    "
+},
+{
+  "id": "SAR-dilations-Cartesian-3",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#SAR-dilations-Cartesian-3",
+  "type": "Exercise",
+  "number": "5.1.5.3",
+  "title": "",
+  "body": "  In , is the image of under a dilation with center . Given that , , , and , determine the following:      Point D is in the interior of triangle A'B'C' which is inside triangle ABC.       The scale factor for the dilation taking to .      The scale factor for the dilation taking to .      Length .      Length .      Length .      Length .    "
+},
+{
+  "id": "ExtConc-dilations-cartesian-2",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#ExtConc-dilations-cartesian-2",
+  "type": "Exercise",
+  "number": "5.1.5.4",
+  "title": "",
+  "body": "  Add    "
+},
+{
+  "id": "Writing-dilations-cartesian-2",
+  "level": "2",
+  "url": "sec-dilations-Cartesian.html#Writing-dilations-cartesian-2",
+  "type": "Exercise",
+  "number": "5.1.5.5",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "sec-dilations-and-similarity",
+  "level": "1",
+  "url": "sec-dilations-and-similarity.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Dilations and Similar Figures",
+  "body": " Dilations and Similar Figures   In the last section, we used our familiarity with the Cartesian coordinate system to understand the actions of dilations. In this section, we will explore more general examples of dilations, study the role of the scale factor, and look at the relationship between dilations and similar figures.     A Dynamic Look at Dilations   Role of the Scale Factor   Use to complete the tasks in this exploration. This GeoGebra applet allows us to see how changing the scale factor affects the dilation.     With the slider for the scale factor set at , how is quadrilateral related to ?   GeoGebra applet for         What happens when the scale factor ? Why?      What happens when the slider is moved to ? Why do you think that happens?      What happens when the slider is moved to a number between 0 and 1?      What happens when the slider is moved to ? ? ? Describe the effect of a negative scale factor on a dilation.      Construct the four lines, , , , and . What do you notice about these lines and the image ? Is this true regardless of the value of ?      Use the reset tool (circle with arrows in upper right) to move the slider back to and delete the lines. Use GeoGebra tools to measure the lengths and , and , and , and and . What do you notice about these pairs of measurements? Experiment with moving center or some of the vertices of . Does your conjecture still hold?    For smaller fonts, measure segments instead of the distance between points. The Segment tool is provided.      Use the reset tool again to move the slider back to and delete the measurements. Use the GeoGebra tools to measure the four sides of the original quadrilateral, , , , and . Compare these to the measures of the four sides, , , and of the dilated quadrilateral.    Some measurements may be approximated by rounding. This could lead to small discrepancies in values.      Measure the area of quadrilateral and its image . Move the slider as helpful to determine how the area of a figure is affected by the scale factor.    The area of the image will be times the area of the original figure where is the scale factor for the dilation.       Dilations and Similar Triangles  Our work in and suggests that the image of a polygonal figure under a dilation will have the same shape as the original figure. In addition the ratio of the lengths of the image's sides to their corresponding lengths in the original, , will be preserved.    proportional sides  constant of porportionality   When two figures are similar, the ratio of corresponding sides is constant. This common ratio, , such that for all sides is called the constant of proportionality .    In , we see that with constant of proportionality . Also, in has , the absolute value of the variable scale factor of the dilation.   Understanding Proportionality, Congruence, and Similarity   The following questions encourage you to make connections between the concepts of scale factor, proportion, congruence, and similarity:     Why are absolute values necessary when we say that the constant of proportionality , the absolute value of the scale factor ?    Lengths can never be negative.    A scale factor can be any real number. The constant of proportionality is a ratio of lengths and must be nonnegative since lengths can never be negative.      Will a pair of congruent figures also be similar?    Yes, you can consider congruent figures to be similar with a constant of proportionality, . Some people may insist that size must change in which case we would not consider congruent figures to also be similar. It depends on the definition being used.      Will a pair of similar triangles also be congruent?    Similar triangles will be congruent only when they are the same size; i.e., when . Most pairs of similar triangles are not congruent.     When two figures were congruent, we were able to find an isometry that mapped one figure onto the other. Can the same be said about similar figures and dilations? When two figures are similar, must there be a dilation that maps one onto the other?   Mystery Similarity Transformations   Mystery Similarity 1   Quadrilaterals and are given in . Virtual tools for measuring angles and line segments are provided.   GeoGebra applet for .       Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar .      Determine the constant of proportionality if it exists.      Is there a dilation taking to ? If so, locate the center and state the scale factor.    What lines must lie on?    Yes, the dilation exists. Its center lies on the intersection of , , etc.      Mystery Similarity 2   Pentominos and are given in the GeoGebra applet, . Virtual tools for measuring angles and line segments are provided.   GeoGebra applet for Mystery Similarity 2       Are the two pentominos similar? Be sure to check all criteria in the definition of similar.      Determine the constant of proportionality if it exists.      Is there a dilation taking to ? If so, locate the center and state the scale factor.      Mystery Similarity 3   Concave quadrilaterals and are given in the GeoGebra applet, .   GeoGebra applet for Mystery Similarity 3.       Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.      Determine the constant of proportionality if it exists.      Is there a dilation taking to ? If so, locate the center and state the scale factor for the dilation.       Describe the technique you used to determine whether two figures were similar. How did you find the constant of proportionality?      Describe the technique you used to determine whether there was a dilation that took a figure to another figure. How did you find the center of the dilation?      Based on your explorations, which of the following are true?   If two polygons are similar there is a dilation taking one polygon to the other.    If there is a dilation taking one polygon to another, then the polygons are similar.    Both statements are true.    Neither statement is true.       b. If there is a dilation taking one polygon to another, then the polygons are similar. We saw in and examples of pairs of similar polygons for which there is no dilation mapping one onto the other. A composition of a dilation and an isometry was required.     While any dilation will send each figure to a figure that is similar to the original, we observed in that there are pairs of similar figures for which no dilation maps one onto the other. Instead, a composition of a dilation and an isometry is necessary.   similarity transformation  transformation similarity  similarity   A similarity transformation or similarity is a geometrical transformation that preserves shape, angle measure, and collinearity, but not necessarily length. A similarity maps each figure onto a figure that is similar to the original. In a similarity transformation, lengths are enlarged or reduced by a constant factor , the constant of proportionality .  A similarity is either a dilation or the composition of a dilation and an isomorphism.      Exercises   Building Our Toolbox   Add     Skills and Recall    Coordinates given, center given, find image.      Extending the Concepts    Add      Writing Prompts    Add      "
+},
+{
+  "id": "explore-sliding-scale",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#explore-sliding-scale",
+  "type": "Exploration",
+  "number": "5.2.1",
+  "title": "Role of the Scale Factor.",
+  "body": " Role of the Scale Factor   Use to complete the tasks in this exploration. This GeoGebra applet allows us to see how changing the scale factor affects the dilation.     With the slider for the scale factor set at , how is quadrilateral related to ?   GeoGebra applet for         What happens when the scale factor ? Why?      What happens when the slider is moved to ? Why do you think that happens?      What happens when the slider is moved to a number between 0 and 1?      What happens when the slider is moved to ? ? ? Describe the effect of a negative scale factor on a dilation.      Construct the four lines, , , , and . What do you notice about these lines and the image ? Is this true regardless of the value of ?      Use the reset tool (circle with arrows in upper right) to move the slider back to and delete the lines. Use GeoGebra tools to measure the lengths and , and , and , and and . What do you notice about these pairs of measurements? Experiment with moving center or some of the vertices of . Does your conjecture still hold?    For smaller fonts, measure segments instead of the distance between points. The Segment tool is provided.      Use the reset tool again to move the slider back to and delete the measurements. Use the GeoGebra tools to measure the four sides of the original quadrilateral, , , , and . Compare these to the measures of the four sides, , , and of the dilated quadrilateral.    Some measurements may be approximated by rounding. This could lead to small discrepancies in values.      Measure the area of quadrilateral and its image . Move the slider as helpful to determine how the area of a figure is affected by the scale factor.    The area of the image will be times the area of the original figure where is the scale factor for the dilation.    "
+},
+{
+  "id": "def-proportionality",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#def-proportionality",
+  "type": "Definition",
+  "number": "5.2.2",
+  "title": "",
+  "body": " proportional sides  constant of porportionality   When two figures are similar, the ratio of corresponding sides is constant. This common ratio, , such that for all sides is called the constant of proportionality .   "
+},
+{
+  "id": "subsubsec-dilations-similar-5",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#subsubsec-dilations-similar-5",
+  "type": "Checkpoint",
+  "number": "5.2.3",
+  "title": "Understanding Proportionality, Congruence, and Similarity.",
+  "body": " Understanding Proportionality, Congruence, and Similarity   The following questions encourage you to make connections between the concepts of scale factor, proportion, congruence, and similarity:     Why are absolute values necessary when we say that the constant of proportionality , the absolute value of the scale factor ?    Lengths can never be negative.    A scale factor can be any real number. The constant of proportionality is a ratio of lengths and must be nonnegative since lengths can never be negative.      Will a pair of congruent figures also be similar?    Yes, you can consider congruent figures to be similar with a constant of proportionality, . Some people may insist that size must change in which case we would not consider congruent figures to also be similar. It depends on the definition being used.      Will a pair of similar triangles also be congruent?    Similar triangles will be congruent only when they are the same size; i.e., when . Most pairs of similar triangles are not congruent.    "
+},
+{
+  "id": "explore-mystery-similarity",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#explore-mystery-similarity",
+  "type": "Exploration",
+  "number": "5.2.2",
+  "title": "Mystery Similarity Transformations.",
+  "body": " Mystery Similarity Transformations   Mystery Similarity 1   Quadrilaterals and are given in . Virtual tools for measuring angles and line segments are provided.   GeoGebra applet for .       Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar .      Determine the constant of proportionality if it exists.      Is there a dilation taking to ? If so, locate the center and state the scale factor.    What lines must lie on?    Yes, the dilation exists. Its center lies on the intersection of , , etc.      Mystery Similarity 2   Pentominos and are given in the GeoGebra applet, . Virtual tools for measuring angles and line segments are provided.   GeoGebra applet for Mystery Similarity 2       Are the two pentominos similar? Be sure to check all criteria in the definition of similar.      Determine the constant of proportionality if it exists.      Is there a dilation taking to ? If so, locate the center and state the scale factor.      Mystery Similarity 3   Concave quadrilaterals and are given in the GeoGebra applet, .   GeoGebra applet for Mystery Similarity 3.       Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.      Determine the constant of proportionality if it exists.      Is there a dilation taking to ? If so, locate the center and state the scale factor for the dilation.       Describe the technique you used to determine whether two figures were similar. How did you find the constant of proportionality?      Describe the technique you used to determine whether there was a dilation that took a figure to another figure. How did you find the center of the dilation?      Based on your explorations, which of the following are true?   If two polygons are similar there is a dilation taking one polygon to the other.    If there is a dilation taking one polygon to another, then the polygons are similar.    Both statements are true.    Neither statement is true.       b. If there is a dilation taking one polygon to another, then the polygons are similar. We saw in and examples of pairs of similar polygons for which there is no dilation mapping one onto the other. A composition of a dilation and an isometry was required.    "
+},
+{
+  "id": "def-similarity",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#def-similarity",
+  "type": "Definition",
+  "number": "5.2.7",
+  "title": "",
+  "body": " similarity transformation  transformation similarity  similarity   A similarity transformation or similarity is a geometrical transformation that preserves shape, angle measure, and collinearity, but not necessarily length. A similarity maps each figure onto a figure that is similar to the original. In a similarity transformation, lengths are enlarged or reduced by a constant factor , the constant of proportionality .  A similarity is either a dilation or the composition of a dilation and an isomorphism.   "
+},
+{
+  "id": "Toolbox-dilations-DAS-2",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#Toolbox-dilations-DAS-2",
+  "type": "Exercise",
+  "number": "5.2.3.1",
+  "title": "",
+  "body": " Add  "
+},
+{
+  "id": "SAR-dilations-DAS-2",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#SAR-dilations-DAS-2",
+  "type": "Exercise",
+  "number": "5.2.3.2",
+  "title": "",
+  "body": "  Coordinates given, center given, find image.   "
+},
+{
+  "id": "ExtConc-dilations-DAS-2",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#ExtConc-dilations-DAS-2",
+  "type": "Exercise",
+  "number": "5.2.3.3",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "Writing-dilations-DAS-2",
+  "level": "2",
+  "url": "sec-dilations-and-similarity.html#Writing-dilations-DAS-2",
+  "type": "Exercise",
+  "number": "5.2.3.4",
+  "title": "",
+  "body": "  Add   "
+},
+{
+  "id": "sec-dilations-Pyth-golden",
+  "level": "1",
+  "url": "sec-dilations-Pyth-golden.html",
+  "type": "Section",
+  "number": "5.3",
+  "title": "The Pythagorean Theorem and the Golden Triangle",
+  "body": " The Pythagorean Theorem and the Golden Triangle   In this section, we will see how similar right triangles can be used to derive yet another proof of the Pythagorean Theorem. We also will learn about self-similarity and the Golden Triangle. First, we review the key concepts of dilations and similarity already explored in this chapter.    A Review of Similarity      gives a triangle and its image . Use either the GeoGebra applet or the coordinate system to complete the following.   GeoGebra applet for       Determine the center of the dilation that takes to .    What lines must lie on?      Determine , , and . What do these ratios tell you about the dilation?    Besides the center, what else defines a dilation?     , the scale factor.      Is it true that ? Are these equal to the scale factor?     , not the scale factor.      Is it true that ? Are these equal to the scale factor?    Yes, these ratios all equal 3.      Which pairs of angles must be congruent?    There are three pairs in the original sketch of the two triangles. If you want an added challenge you can find more pairs using your center as a side point.     ; ; . Bonus: Also, ;        In , The triangles are similar . Also, and Determine the following:   Illustration for   Triangles FGH and IJK are similar. Angle GFH has measure 110.34, angle IJK has measure 53.8. FH has length 13, IK has length 7.8, and, JK has length 9.06.                                   The scale factor of the dilation that takes to                       Applications of Similarity  We now apply our knowledge of similarity to two topics: another proof of the Pythagorean Theorem and a triangle known as the Golden Triangle.   A Proof of the Pythagorean Theorem   Use for this exploration.   GeoGebra applet of a Right Triangle      Right Triangles within a Right Triangle   Complete the following:     Measure angles , , and .      Draw a line segment from point meeting side perpendicularly at a point . How many triangles are now in the sketch? Name them.      To what other angle(s) is congruent?      Explain how you know triangle is similar to . What is the constant of proportionality?      What other triangle is similar to triangle Be sure to write the letters in the order of corresponding vertices.      A Similar Triangle Proof of the Pythagorean Theorem   We continue to use and the constructions from above in this task.     Explain why and .      Since , we see . Why?      Use the equation , to complete the equation .      So that the Pythagorean Theorem will be more obvious, we will assign each length a single letter; namely, , , and . What is using these lower-case letter(s)?      Equating with , substitute the righthand expressions from the equations in the first two parts of this task. Then add the expressions. Do you get Show all work.        Self-Similar Triangles  The right triangle in has the property that the altitude drawn from the right angle to the hypotenuse splits the triangle into two smaller triangles. Both of these triangles are similar to the original triangle. This property is true for all right triangles since the measure of the two acute angles did not matter. In particular, each new triangle has a right angle and one of the original angles. Since the sum of the angles in any triangle is 180 degrees, the newly created angle has the same measure as the remaining angle of the original triangle.  Will this happen with other triangles? We explore this question in the next activity.   A Special Triangle   In , an isosceles triangle with two 72-degree angles is provided. Use the GeoGebra applet to answer the following:   A Golden Triangle       What is the measure of the third angle       Compute , the ratio of the long side to the short side. As you record this number, write down at least four digits after the decimal point. Adjust your calculator settings to show more digits if fewer than five digits are visible.    The Desmos Scientific Calculator at desmos.com may be used to perform these calculations. If you enter your computation, the application will give you a new calculation line so you can compare results.      Use the angle bisector tool to bisect angle . Let be the point where this bisector intersects side and create line segment . Use the show\/hide tool to hide bisector . Segment should still be visible.     Bisecting splits into two triangles. Use GeoGebra's Polygon tool to highlight the subtriangle that is similar to .      List the three pairs of corresponding sides.      What is the constant of proportionality, for this similarity? As you record this number, write down at least four digits after the decimal point.      Note that the constant of proportionality depends on whether you chose to divide the shorter length by the longer or to divide the longer length by the shorter. Perform whichever computation have not already done and record at least four digits after the decimal point.      What do you notice about these two numbers?    There is some slight unavoidable error in the numbers due to GeoGebra measurements and estimation. Five significant digits seems to work here.       Now use the angle bisector tool to bisect angle in . Let be the point where this angle bisector intersects segment . Draw segment and hide ray .     Identify another triangle in the sketch which is similar to .      Identify two triangles in the sketch that are similar to .      Reflective Questions and Extensions   Based on your work in this exploration, discuss the following:     If you use the arrow tool to move vertex or , the lengths of the sides of triangles will change, but the angle measures will not. Do the constants of proportionality change?      Suppose you continued this process, bisecting to create triangle , then bisecting to create , and so forth. What type of design would you get? What properties would it have?      The area tool is under the angle menu. What is the ratio of the areas of similar triangles and How is this number related to the ratio of the corresponding sides?    Use the Polygon tool to create before using the GeoGebra Area tool.  Also, review for one relationship.      Use a calculator to estimate the number . What do you notice?       The isosceles triangle explored in is known as a Golden Triangle. When we create a smaller, but similar, triangle by bisecting a base angle, the constant of proportionality equals the ratio of the long side to the short side (base) of the original triangle. We can repeat this process of bisecting the base angle of our new triangle to form even smaller similar triangles indefinitely. At every stage of the process, the ratio of the long side to the base will remain and equal to the constant of proportionality for the pair of similar triangles. This number is known as the Golden Ratio and is an irrational number An irrational number cannot be written as the ratio of integers. The decimal expansion of an irrational number is infinite and does not become an infinitely repeating block of digits. .      A Connection to a Regular Pentagon   We explored regular polygons in .     The polygon in is a regular pentagon.   A Triangle in a Regular Pentagon   Regular pentagon ABCDE       In , we learned that each vertex angle of a regular -gon measures degrees. Assume that is a regular pentagon and determine the measure of .      Draw segment . What type of triangle is       Compute . How did you determine this?      Determine showing all work.      Construct . What is the measure of How do you know?      Describe triangle as specifically as possible. Why does this exploration belong in this section?      Now extend lines and so that they meet at a point . Similarly, let be the point where meets , let be the point where and intersect, let be the intersection of and , and let be the intersection of and .     Describe the shape of the decagon .      What type of triangle is How is it related to         Exercises    Skills and Recall    In , , , and are the midpoints of , , and , respectively. Also, , , and . Angles , , and have measure 42 degrees; whereas, and . Answer the following:     Triangle ABC with midpoints DEF as described       Determine .    Look at the angles meeting at .    30 degrees           Determine , , and .    Based on the Triangle Angle Sum Theorem, degrees. Use triangle similarity to find and . Hint...Both and correspond to .    degrees  degrees  degrees    Triangles and are similar to triangle . This means their corresponding angles are equal. Since degrees, both and are also 108 degrees.      Determine and .    Use angle similarity and match corresponding angles. Which angle in the larger triangle corresponds with What about Use these relationships to find missing measures.    degrees  degrees    When D, E, and F are midpoints on the sides of , the smaller triangles like and are similar to . This means their corresponding angles are equal. So and both correspond to . Since is 30 degrees, both and are also 30 degrees.      Determine .    The interior angles of any triangle always add up to 180 degrees (Triangle Angle Sum Theorem). For , and are already known. Use these two angles measures to find .     degrees    It is given that degrees and degrees. Using the Triangle Angle Sum Theorem, is calculated as: 180 - (108 + 30) = 42 degrees.      Identify four triangles that are similar to . Be sure to list the vertices in order.    Imagine as the big triangle. If lines are drawn inside it that are parallel to its sides, smaller triangles are made. These smaller triangles will have the same angles as the big one, .    The four smaller triangles that are similar to include: , , , and .    Drawing lines parallel to the sides of triangle creates smaller triangles. Parallel lines ensure two matching angles. Since all angles in a triangle add up to 180 degrees (Triangle Angle Sum Theorem), the third angle must also match. Thus, the smaller triangles are similar to triangle .      Determine the length of . Support your answer.    Use the definition of a midpoint. What does a midpoint do to a line segment?    The length of is 5.    Point F is the midpoint of side , meaning it divides the side exactly in half. Since the total length of is 10, the length of is half of that. Therefore, the length of is 5.      Determine the length of . Support your answer.    Line segment connects points D and F. Since both are midpoints, the Midsegment Theorem applies. This theorem helps find the length of a line segment that connects two midpoints of a triangle.    The length of is 7.    When D and F are the midpoints of sides and , they create a midsegment called . The Midsegment Theorem states that this segment is always half the length of the triangle's third side, . Since measures 14, is exactly half of that, making it 7.      There is a dilation taking to . What is the center and scale factor of this dilation?    For the center of this dilation, find the vertex that is shared by both and . For scale factor, consider how the sides of are smaller because F and E are midpoints.    Center of Dilation: Point C  Scale Factor:    Point C is the center of dilation because it is the shared corner between and . The scale factor is . This is because the new triangle has sides such as that are exactly are half the length of the matching side in the original triangle.      There is an isometry taking to . What type of isometry? Identify its defining object(s).    See .    Type of Isometry: Translation  Defining Object(s): Translation Vector    This movement is a translation. It means simply slides over to become , without rotating or flipping. Every point in moves the same distance and in the same direction to align exactly with .      There is an isometry taking to . What type of isometry? Identify its defining object(s).    See . You may want to check orientation as well.    Type of Isometry: Rotation  Defining Object(s): Center and Rotational Angle    This a rotation with exactly one fixed point, the midpoint of . Rotating 180 degrees about this point aligns it exactly with .       Extending the Concepts   Calculating the Golden Ratio   The ratio that was the constant of proportionality in is known as the Golden Ratio.     Add an algebraic exploration into the number , its reciprocal, and its square.      Surprising Facts about the Golden Ratio   The ratio that was the constant of proportionality in is known as the Golden Ratio.      Writing Prompts    Write a letter to a friend in which you use nested similar right triangles, such as in to prove the Pythagorean Theorem.      Learn about the Golden Rectangle and the Golden Mean. How are these related to the Golden Triangle?      "
+},
+{
+  "id": "explore-scalefactor-proportion",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#explore-scalefactor-proportion",
+  "type": "Exploration",
+  "number": "5.3.1",
+  "title": "",
+  "body": "    gives a triangle and its image . Use either the GeoGebra applet or the coordinate system to complete the following.   GeoGebra applet for       Determine the center of the dilation that takes to .    What lines must lie on?      Determine , , and . What do these ratios tell you about the dilation?    Besides the center, what else defines a dilation?     , the scale factor.      Is it true that ? Are these equal to the scale factor?     , not the scale factor.      Is it true that ? Are these equal to the scale factor?    Yes, these ratios all equal 3.      Which pairs of angles must be congruent?    There are three pairs in the original sketch of the two triangles. If you want an added challenge you can find more pairs using your center as a side point.     ; ; . Bonus: Also, ;        In , The triangles are similar . Also, and Determine the following:   Illustration for   Triangles FGH and IJK are similar. Angle GFH has measure 110.34, angle IJK has measure 53.8. FH has length 13, IK has length 7.8, and, JK has length 9.06.                                   The scale factor of the dilation that takes to                    "
+},
+{
+  "id": "explor-similar-Pyth",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#explor-similar-Pyth",
+  "type": "Exploration",
+  "number": "5.3.2",
+  "title": "A Proof of the Pythagorean Theorem.",
+  "body": " A Proof of the Pythagorean Theorem   Use for this exploration.   GeoGebra applet of a Right Triangle      Right Triangles within a Right Triangle   Complete the following:     Measure angles , , and .      Draw a line segment from point meeting side perpendicularly at a point . How many triangles are now in the sketch? Name them.      To what other angle(s) is congruent?      Explain how you know triangle is similar to . What is the constant of proportionality?      What other triangle is similar to triangle Be sure to write the letters in the order of corresponding vertices.      A Similar Triangle Proof of the Pythagorean Theorem   We continue to use and the constructions from above in this task.     Explain why and .      Since , we see . Why?      Use the equation , to complete the equation .      So that the Pythagorean Theorem will be more obvious, we will assign each length a single letter; namely, , , and . What is using these lower-case letter(s)?      Equating with , substitute the righthand expressions from the equations in the first two parts of this task. Then add the expressions. Do you get Show all work.     "
+},
+{
+  "id": "explor-golden-triangle",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#explor-golden-triangle",
+  "type": "Exploration",
+  "number": "5.3.3",
+  "title": "A Special Triangle.",
+  "body": " A Special Triangle   In , an isosceles triangle with two 72-degree angles is provided. Use the GeoGebra applet to answer the following:   A Golden Triangle       What is the measure of the third angle       Compute , the ratio of the long side to the short side. As you record this number, write down at least four digits after the decimal point. Adjust your calculator settings to show more digits if fewer than five digits are visible.    The Desmos Scientific Calculator at desmos.com may be used to perform these calculations. If you enter your computation, the application will give you a new calculation line so you can compare results.      Use the angle bisector tool to bisect angle . Let be the point where this bisector intersects side and create line segment . Use the show\/hide tool to hide bisector . Segment should still be visible.     Bisecting splits into two triangles. Use GeoGebra's Polygon tool to highlight the subtriangle that is similar to .      List the three pairs of corresponding sides.      What is the constant of proportionality, for this similarity? As you record this number, write down at least four digits after the decimal point.      Note that the constant of proportionality depends on whether you chose to divide the shorter length by the longer or to divide the longer length by the shorter. Perform whichever computation have not already done and record at least four digits after the decimal point.      What do you notice about these two numbers?    There is some slight unavoidable error in the numbers due to GeoGebra measurements and estimation. Five significant digits seems to work here.       Now use the angle bisector tool to bisect angle in . Let be the point where this angle bisector intersects segment . Draw segment and hide ray .     Identify another triangle in the sketch which is similar to .      Identify two triangles in the sketch that are similar to .      Reflective Questions and Extensions   Based on your work in this exploration, discuss the following:     If you use the arrow tool to move vertex or , the lengths of the sides of triangles will change, but the angle measures will not. Do the constants of proportionality change?      Suppose you continued this process, bisecting to create triangle , then bisecting to create , and so forth. What type of design would you get? What properties would it have?      The area tool is under the angle menu. What is the ratio of the areas of similar triangles and How is this number related to the ratio of the corresponding sides?    Use the Polygon tool to create before using the GeoGebra Area tool.  Also, review for one relationship.      Use a calculator to estimate the number . What do you notice?     "
+},
+{
+  "id": "subsec-Connection-Regular-Pentagon-3",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#subsec-Connection-Regular-Pentagon-3",
+  "type": "Exploration",
+  "number": "5.3.4",
+  "title": "",
+  "body": "  The polygon in is a regular pentagon.   A Triangle in a Regular Pentagon   Regular pentagon ABCDE       In , we learned that each vertex angle of a regular -gon measures degrees. Assume that is a regular pentagon and determine the measure of .      Draw segment . What type of triangle is       Compute . How did you determine this?      Determine showing all work.      Construct . What is the measure of How do you know?      Describe triangle as specifically as possible. Why does this exploration belong in this section?      Now extend lines and so that they meet at a point . Similarly, let be the point where meets , let be the point where and intersect, let be the intersection of and , and let be the intersection of and .     Describe the shape of the decagon .      What type of triangle is How is it related to      "
+},
+{
+  "id": "SAR-dilations-Pyth-2",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#SAR-dilations-Pyth-2",
+  "type": "Exercise",
+  "number": "5.3.5.1",
+  "title": "",
+  "body": "  In , , , and are the midpoints of , , and , respectively. Also, , , and . Angles , , and have measure 42 degrees; whereas, and . Answer the following:     Triangle ABC with midpoints DEF as described       Determine .    Look at the angles meeting at .    30 degrees           Determine , , and .    Based on the Triangle Angle Sum Theorem, degrees. Use triangle similarity to find and . Hint...Both and correspond to .    degrees  degrees  degrees    Triangles and are similar to triangle . This means their corresponding angles are equal. Since degrees, both and are also 108 degrees.      Determine and .    Use angle similarity and match corresponding angles. Which angle in the larger triangle corresponds with What about Use these relationships to find missing measures.    degrees  degrees    When D, E, and F are midpoints on the sides of , the smaller triangles like and are similar to . This means their corresponding angles are equal. So and both correspond to . Since is 30 degrees, both and are also 30 degrees.      Determine .    The interior angles of any triangle always add up to 180 degrees (Triangle Angle Sum Theorem). For , and are already known. Use these two angles measures to find .     degrees    It is given that degrees and degrees. Using the Triangle Angle Sum Theorem, is calculated as: 180 - (108 + 30) = 42 degrees.      Identify four triangles that are similar to . Be sure to list the vertices in order.    Imagine as the big triangle. If lines are drawn inside it that are parallel to its sides, smaller triangles are made. These smaller triangles will have the same angles as the big one, .    The four smaller triangles that are similar to include: , , , and .    Drawing lines parallel to the sides of triangle creates smaller triangles. Parallel lines ensure two matching angles. Since all angles in a triangle add up to 180 degrees (Triangle Angle Sum Theorem), the third angle must also match. Thus, the smaller triangles are similar to triangle .      Determine the length of . Support your answer.    Use the definition of a midpoint. What does a midpoint do to a line segment?    The length of is 5.    Point F is the midpoint of side , meaning it divides the side exactly in half. Since the total length of is 10, the length of is half of that. Therefore, the length of is 5.      Determine the length of . Support your answer.    Line segment connects points D and F. Since both are midpoints, the Midsegment Theorem applies. This theorem helps find the length of a line segment that connects two midpoints of a triangle.    The length of is 7.    When D and F are the midpoints of sides and , they create a midsegment called . The Midsegment Theorem states that this segment is always half the length of the triangle's third side, . Since measures 14, is exactly half of that, making it 7.      There is a dilation taking to . What is the center and scale factor of this dilation?    For the center of this dilation, find the vertex that is shared by both and . For scale factor, consider how the sides of are smaller because F and E are midpoints.    Center of Dilation: Point C  Scale Factor:    Point C is the center of dilation because it is the shared corner between and . The scale factor is . This is because the new triangle has sides such as that are exactly are half the length of the matching side in the original triangle.      There is an isometry taking to . What type of isometry? Identify its defining object(s).    See .    Type of Isometry: Translation  Defining Object(s): Translation Vector    This movement is a translation. It means simply slides over to become , without rotating or flipping. Every point in moves the same distance and in the same direction to align exactly with .      There is an isometry taking to . What type of isometry? Identify its defining object(s).    See . You may want to check orientation as well.    Type of Isometry: Rotation  Defining Object(s): Center and Rotational Angle    This a rotation with exactly one fixed point, the midpoint of . Rotating 180 degrees about this point aligns it exactly with .    "
+},
+{
+  "id": "ExtConc-dilations-Pyth-2",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#ExtConc-dilations-Pyth-2",
+  "type": "Exercise",
+  "number": "5.3.5.2",
+  "title": "Calculating the Golden Ratio.",
+  "body": " Calculating the Golden Ratio   The ratio that was the constant of proportionality in is known as the Golden Ratio.     Add an algebraic exploration into the number , its reciprocal, and its square.    "
+},
+{
+  "id": "ExtConc-dilations-Pyth-3",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#ExtConc-dilations-Pyth-3",
+  "type": "Exercise",
+  "number": "5.3.5.3",
+  "title": "Surprising Facts about the Golden Ratio.",
+  "body": " Surprising Facts about the Golden Ratio   The ratio that was the constant of proportionality in is known as the Golden Ratio.   "
+},
+{
+  "id": "Writing-dilations-Pyth-2",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#Writing-dilations-Pyth-2",
+  "type": "Exercise",
+  "number": "5.3.5.4",
+  "title": "",
+  "body": "  Write a letter to a friend in which you use nested similar right triangles, such as in to prove the Pythagorean Theorem.   "
+},
+{
+  "id": "Writing-dilations-Pyth-3",
+  "level": "2",
+  "url": "sec-dilations-Pyth-golden.html#Writing-dilations-Pyth-3",
+  "type": "Exercise",
+  "number": "5.3.5.5",
+  "title": "",
+  "body": "  Learn about the Golden Rectangle and the Golden Mean. How are these related to the Golden Triangle?   "
+},
+{
+  "id": "sec-dilation-instructor",
+  "level": "1",
+  "url": "sec-dilation-instructor.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Instructor Notes",
+  "body": " Instructor Notes   Notes for  Once again, I introduce new transformations initially with a tactile approach on graph paper before moving to the online setting. Although a GeoGebra applet is provided for for instructors not wanting to print out worksheets, I think the time spent working tactilely in groups is worthwhile.    Notes for  add    Notes for   can be done virtually or on paper copies. The grid allows students to make computations that are more precise than a ruler. Besides being a review, the first task emphasizes that the scale factor is equal to the constant of proportionality and that is a different value. In fact, in this example, where is the scale factor.  The applet for is available as a full-size activity on GeoGebra . You may copy this lesson, change settings, and assign to your students as desired. Note that students will be working with the irrational number and . They should be prepared to use a calculator or app that allows them to calculate more than a few digits of irrational numbers; the more the better! I usually refer them to Desmos Scientific Calculator, , a free web application. Unfortunately, there will always be some error due to the rounding of the lengths in GeoGebra. I have set rounding in the applet to 5 digits to reduce the number of digits students would have to type into their calculators. If you would like to increase the precision in GeoGebra, use the triple line icon in the upper left to go to settings and then click on the gear icon.   "
+},
+{
+  "id": "sec-geonumberplay-star",
+  "level": "1",
+  "url": "sec-geonumberplay-star.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Star Polygons",
+  "body": " Star Polygons   In , we explored properties of convex polygons. In this section, we will create regular concave polygons, called star polygons. In addition to studying the geometrical properties of star polygons, we will observe how the relationship between a pair of numbers determines the shape of the star polygon associated with the number pair.    What is a Star Polygon?  When asked to draw a star, most people will draw a five point star polygon without lifting their pencil even though they are unfamiliar with the terminology. We will generalize this to create star polygons with different number of points. We will also see that our procedure will sometimes give us a regular polygon or no polygon at all.  To ensure that the star polygons we create are regular, we begin with equally spaced points around a circle as shown in . We draw segments from point 1 to point 3, from point 3 to point 5, from point 5 to point 2, from point 2 to point 4, and then returning to point 1 to get the star polygon in . Note that we are connecting every second point and continuing until we return to our starting point. There was no need to lift our pencil in this construction.   Constructing a -star polygon.    Five points on a circle.     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))      ${5-k}                     The star polygon     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))     ${5-k}                            The notation signifies that the star polygon has 5 points where every second point is connected. To create , we sketch a continuous path that connects each of the five points in to the first point from it (its neighbor). The resulting figure does not look like a star but rather the convex regular pentagon shown in .   The -star polygon.     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))     ${5-k}                         Our study of star polygons is not limited to figures built with five or six concentric dots.    star polygon  polygon star polygon  skip number  star polygon skip number   Star polygon on points  We define the star polygon to be the planar figure formed by a set of concentric points together with a series of line segments that join each point to the point from it moving clockwise around the circle.  For a shorter phrasing we can call the skip number of the star polygon on points, but we need to take care. We are only skipping points, connecting every point.      Sketch the - and -star polygons. What do you notice about them?    Going to the third point in clockwise direction is the same as going to the second point in the counterclockwise direction.    The -star polygon is identical to the -star polygon. The -star polygon, like the -star polygon, is a regular pentagon.    Similarly, we can draw star polygons on six vertices. The -star polygon is simply a regular hexagon.   The -star polygon.   A regular hexagon circumscribed by a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                           As we create skipping every other vertex, we return to the starting point after creating a triangle. The three even-numbered vertices have not been visited.   The -star polygon, step one.   An equilateral triangle joining vertices one, three, and five.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                        We now repeat this process starting at an unvisited vertex and joining every second vertex until we return to this new starting vertex. As shown in , this creates a second triangle congruent to the first but rotated 60 degrees about the center of the circle containing the six vertices. To aid in our exploration, a new color was used to draw the second triangle. You are also encouraged to use a new color each time you need to lift your pencil.   The star polygon.   A six two star polygon formed from two equilateral triangles, one joining odd numbered vertices and the other joining even numbered vertices.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                              connected component  star polygon connected component   Each figure created by connecting a (sub)set of points together by starting at one point and drawing a series of line segments together in one continuous process without lifting our pencil and turning only at the given points is a connected component This is a specific example of a connected component in Graph Theory where points are called vertices and line segments are called edges. . A connected component is a subset of points which are connected by line segments in the figure whose end points are those points. Two connected components will not have any endpoints in common. In , there are two connected components both of which are triangles. One triangle connects the points 1, 3, and 5 and the other connects the points 2, 4, 6.  A connected component of a star polygon is also a star polygon. It may be the entire star polygon, a star polygon with fewer points, or a single line segment, namely the degenerate star polygon .       What happens when you try to create a -star polygon by joining every third point? Is it a polygon, a star, overlapping polygons, or something else?   Template for drawing a six-vertex star polygon.   Six dots around a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                      The star polygon looks like three line segments intersecting at their midpoints.      Predict what and will look like. Explain.       Exploring Star Polygons with Seven to Ten Vertices   We have observed that star polygons may look like regular polygons, overlapping rotated copies of regular polygons, or an intersection of line segments. One more possibility will be discovered later. After completing the exploration, you should be able to predict what a star polygon will look like based on the numbers and . Make conjectures and test them as you work through the exploration.     As students work on this exploration, a quick check for symmetry can assist you (and them) in determining whether they are using the skip number consistently. Encourage them to use a different color for each connected component. At this point they should note down any conjectures they have without the concern that their answers will be graded for correctness. This explore, observe, conjecture, and justify process encourages creativity and reasoning, two important parts of mathematical learning. Don't deprive your students of this opportunity! A later exploration will examine the theory in more detail. At that time, they can revise and clarify their conjectures.    Star Polygons for   Seven-dot star polygons   Construct the star polygons , , and . Templates are provided in .   Templates for .      alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                      alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                      alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     If you are unable to sketch on the templates above, you may use the GeoGebra interactive in to draw 7-dot star polygons.   GeoGebra interactive for drawing 7-dot star polygons        Match the star polygon on the left with the star polygon on the right that is the same.    Consider which five-dot and six-dot star polygons looked the same. Why? If you are not sure, construct the remaining seven-dot star polygons.                   Eight-dot star polygons.    Describe or sketch the star polygon .    This is a regular octagon.       Sketch the star polygon using either the template in or the GeoGebra applet in . Be sure to label your design with the symbol .  Draw star polygons by beginning each new segment at the endpoint of the previous segment. When you return to the starting point, switch to a new color. The connected components, formed by connecting points in this fashion, will be easy to identify.   Template for exploring 8-point star polygons.     alignments=['nw','w','sw','s','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/8),cos(2*pi*(1+t)\/8))     ${8-k}                      GeoGebra interactive for drawing 8-dot star polygons        How many connected components does have?    Two.       What is the shape of the connected component containing point 1?    A square.       Summarize your responses in and to describe in words what a star polygon looks like.    Your answer may include the number of copies of a familiar shape. You might also include a rotational angle or how these copies are related in position.    Answers may vary. Two copies of a square with a common center rotated 45 degrees from each other.       Use copies of the template or the Geogebra applet to draw the remaining 8-dot star polygons. When two eight-dot star polygons are known to look identical, you do not need to draw the design a second time. Instead write the two symbols, below the design, replacing by the appropriate number.    See below for descriptions of and . Also , , and .      Describe . Did you need to lift your pencil to draw it?    It can be drawn in a continuous sequence of line segments without lifting the pencil. It looks like a star with eight points.       Describe . Did you need to lift your pencil to draw it?    Yes. It consists of four line segments that meet at their midpoints.       Nine-dot Star Polygons   Now that we have experience drawing star polygons, let us make some predictions for nine-dot star polygons.     Identify any nine-dot star polygons that are regular nonagons.     and        Which nine-dot star polygons can be drawn without lifting one's pencil?     , , , , and .       One of the nine-dot star polygons that requires us to lift our pencil and restart at a new dot is .     What shape is formed before we have to lift up our pencil?    A triangle.       How many copies of that shape appear in ?    Three       Will any of the 9-point star polygons look like line segments meeting at their midpoints? If so, identify the skip value(s), for which this happens. If not, explain why this will not happen.    This will not happen.       Use the nine-dot template in or the Geogebra applet in to check your answers to the above tasks and to answer the next question.  Are the star polygons and the same? Explain.   Templates for .        alignments=['nw','w','sw','s','s','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/9),cos(2*pi*(1+t)\/9))     ${9-k}                           alignments=['nw','w','sw','s','s','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/9),cos(2*pi*(1+t)\/9))     ${9-k}                         GeoGebra interactive for drawing 9-dot star polygons        Ten-dot Star Polygons   Some of the ten-point star polygons are easy to predict but with ten points we will encounter one final possibility for the first time.  As with nine dots, we try to make predictions for some of the ten-point star polygons first. In your descriptions, be sure to identify the number of connected components and the shape of each connected component. A ten-dot template is provided following the predictions to explore the less obvious cases. Feel free to use the template for visualizing and verifying the anticipated star polygons as needed.     Describe . For what other value of , is ?      Describe . This will have more than one connected component so be sure to identify the number of shape of the components. For what other value of , is ?      Will any of the 10-point star polygons look like line segments meeting at their midpoints? If so, identify the skip value(s), for which this happens. If not, explain why this will not happen.    This occurs when .      Either sketch or describe . You may use the template in   Template for exploring 10-point star polygons.     alignments=['nw','w','w','sw','s','se','e','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/10),cos(2*pi*(1+t)\/10))     ${10-k}                        GeoGebra interactive for drawing 10-dot star polygons        In this task, we encounter a somewhat new result. We break our construction into separate steps to observe the features of the design.     Without lifting your pencil, connect every fourth dot until you return to your starting dot. What figure do you see? Describe this in terms of a previously constructed star polygon, identifying the values of and .    Ignore the dots that are not part of this connected component. The value of will be the number of dots in the connected component.    The connected component is a five-pointed star, or equivalently .      Now drawing the remaining connected component(s), each starting at a previously unused dot. If possible, use a different color for each connected component. How many connected components does have? Are the connected components congruent to each other?         Making Conjectures and Generalizations about Star Polygons   By now, you may be able to predict what a star polygon looks like simply by analyzing relationships between and . In , we formalize these conjectures. When we make general conjectures and statements, we use variables instead of specific values.    Again, enable students to participate in mathematical reasoning by not grading for correctness. Some students will need encouragement to share and hone their conjectures. This is a great opportunity to work with small groups asking them questions and clarifying instructions, but not giving answers. Perhaps, each group will have a conjecture and justification they can share. Identify these opportunities for presentations as you interact with the groups and order the whole class discussion from foundational to general, conjecture to justification.      Throughout this exploration, the reader is invited to look back at their earlier work in this section. Templates for twelve-dot, fifteen-dot, twenty-dot, and twenty-four-dot circles are provided to allow students to further explore and validate their conjectures. Students wishing to use GeoGebra will find apps for 12-, 15-, 20-, and 24-dot circles at the end of the exploration. These can also be accessed via hyperlinks in the reading.     Let us begin by summarizing what we know about .     If is any natural number greater than two, what is the shape of ?      Observing a pattern is not a mathematical proof. Justify your claim in by writing a few sentences that explain why this type of shape appears whenever regardless of the choice of .    How are the dots connected in ?      We observed that and in . Fill in the blank to complete the conjecture: when      Write your answer as an algebraic expression involving the variables and .            Review the sketches of star polygons than have appeared in your reading and work. Which of these consist of a single connected component connecting every dot before one needs to lift their pencil?                                                                      Which of the following star polygons do you expect to consist of a single connected component?                             Based on , make a conjecture as to the relationship between and when a star polygon consists of a single connected component. Be sure that all of the checked star polygons in satisfy your relationship. Also, verify that any unchecked star polygons do not meet your criteria.      Explain why drawing any star polygon which does not meet your criteria in , for example , will require you to lift your pencil. Write your explanation so that it discusses general values of and . You may also include specific examples to make your argument clearer.      Explain why drawing any star polygon which meets your criteria in will allow you to connect every dot before you need to lift your pencil. Write your explanation so that it discusses general values of and . You may also include specific examples to make your argument clearer.      Next we will focus on the shape of connected components of star polygons.     Sketch the star polygons and using the templates in or the GeoGebra apps in and .   Templates for 12-dot and 15-dot star polygons.    Twelve-dot template.     alignments=['nw','nw','w','sw','sw','s','se','se','e','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/12),cos(2*pi*(1+t)\/12))     ${12-k}                          Fifteen-dot template.     alignments=['nw','nw','nw','w','sw','sw','s','s','se','se','e','ne','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/15),cos(2*pi*(1+t)\/15))     ${15-k}                              What shape is the initial connected component of and ? Do the second sketched connected components have the same shape as the first?      Identify another pair of numbers and such that a connected component of has the shape you identified in       Write a conjecture which identifies how the values and tell you that the first connected component has this shape. Include the name of this shape in your statement.      What is the shape of the first connected component of ? Revise your conjecture in to include this and similar cases.      Given the numbers and , can you determine how many copies of this shape will appear in the complete star polygon? How?      Next consider the connected components of and . What do you expect the shape of each connected component to be? Sketch these two star polygons, and , using different colors for each connected component. GeoGebra apps for these constructions may be accessed via and .   Templates for 12-dot and 20-dot star polygons.    Twelve-dot template.     alignments=['nw','nw','w','sw','sw','s','se','se','e','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/12),cos(2*pi*(1+t)\/12))     ${12-k}                          Twenty-dot template.     alignments=['nw','nw','nw','nw','w','sw','sw','sw','sw','s','se','se','se','se','e','ne','ne','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/20),cos(2*pi*(1+t)\/20))     ${20-k}                                       Did you correctly predict the shape of the connected component? What shape?      Identify another pair of numbers and for which the connected components of have this shape. You may identify one encountered already or one that you have not seen yet. How many copies of this shape will have?      Sketch the star polygons, and .   Twelve-dot template.     alignments=['nw','nw','nw','w','sw','sw','s','s','se','se','e','ne','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/15),cos(2*pi*(1+t)\/15))     ${15-k}                             Twenty-dot template.     alignments=['nw','nw','nw','nw','w','sw','sw','sw','sw','s','se','se','se','se','e','ne','ne','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/20),cos(2*pi*(1+t)\/20))     ${20-k}                                    What shape are their individual connected components?      Denote this shape using star polygon notation. What are the values of and ?      How many connected components does have?      How many connected components does have?      How is the number of connected components related to the values and ?        Summarize what you have learned about how the design of a star polygon is determined by the values of and . Include the number of connected components and the shape of the connected components.  Geogebra interactives are provided here for students wishing to use them.   GeoGebra interactive for drawing 12-dot star polygons     Geogebra interactive for drawing 15-point star polygons     Geogebra interactive for drawing 20-point star polygons        The following GeoGebra interactive can be used to verify that your claims hold for star polygons with 18 or 24 dots.   Geogebra interactive for drawing 18 and 24-point star polygons         "
+},
+{
+  "id": "fig-construct-starpoly-5-2",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#fig-construct-starpoly-5-2",
+  "type": "Figure",
+  "number": "6.1.1",
+  "title": "",
+  "body": " Constructing a -star polygon.    Five points on a circle.     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))      ${5-k}                     The star polygon     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))     ${5-k}                           "
+},
+{
+  "id": "fig-5-1-starpoly",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#fig-5-1-starpoly",
+  "type": "Figure",
+  "number": "6.1.2",
+  "title": "",
+  "body": " The -star polygon.     alignments=['nw','sw','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/5),cos(2*pi*(1+t)\/5))     ${5-k}                        "
+},
+{
+  "id": "subsec-geonumberplay-star-defs-7",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#subsec-geonumberplay-star-defs-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "star polygons "
+},
+{
+  "id": "def-star-polygon",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#def-star-polygon",
+  "type": "Definition",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  star polygon  polygon star polygon  skip number  star polygon skip number   Star polygon on points  We define the star polygon to be the planar figure formed by a set of concentric points together with a series of line segments that join each point to the point from it moving clockwise around the circle.  For a shorter phrasing we can call the skip number of the star polygon on points, but we need to take care. We are only skipping points, connecting every point.   "
+},
+{
+  "id": "ckpt5starpoly-nminusk-label",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#ckpt5starpoly-nminusk-label",
+  "type": "Checkpoint",
+  "number": "6.1.4",
+  "title": "",
+  "body": "  Sketch the - and -star polygons. What do you notice about them?    Going to the third point in clockwise direction is the same as going to the second point in the counterclockwise direction.    The -star polygon is identical to the -star polygon. The -star polygon, like the -star polygon, is a regular pentagon.   "
+},
+{
+  "id": "fig-6-1-starpoly",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#fig-6-1-starpoly",
+  "type": "Figure",
+  "number": "6.1.5",
+  "title": "",
+  "body": " The -star polygon.   A regular hexagon circumscribed by a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                          "
+},
+{
+  "id": "fig-6-2-starpoly-step1",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#fig-6-2-starpoly-step1",
+  "type": "Figure",
+  "number": "6.1.6",
+  "title": "",
+  "body": " The -star polygon, step one.   An equilateral triangle joining vertices one, three, and five.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                       "
+},
+{
+  "id": "fig-six-two-starpoly",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#fig-six-two-starpoly",
+  "type": "Figure",
+  "number": "6.1.7",
+  "title": "",
+  "body": " The star polygon.   A six two star polygon formed from two equilateral triangles, one joining odd numbered vertices and the other joining even numbered vertices.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                            "
+},
+{
+  "id": "def-connected-component",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#def-connected-component",
+  "type": "Definition",
+  "number": "6.1.8",
+  "title": "",
+  "body": " connected component  star polygon connected component   Each figure created by connecting a (sub)set of points together by starting at one point and drawing a series of line segments together in one continuous process without lifting our pencil and turning only at the given points is a connected component This is a specific example of a connected component in Graph Theory where points are called vertices and line segments are called edges. . A connected component is a subset of points which are connected by line segments in the figure whose end points are those points. Two connected components will not have any endpoints in common. In , there are two connected components both of which are triangles. One triangle connects the points 1, 3, and 5 and the other connects the points 2, 4, 6.  A connected component of a star polygon is also a star polygon. It may be the entire star polygon, a star polygon with fewer points, or a single line segment, namely the degenerate star polygon .   "
+},
+{
+  "id": "ckpt-six-dots-for-starpoly-l",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#ckpt-six-dots-for-starpoly-l",
+  "type": "Checkpoint",
+  "number": "6.1.9",
+  "title": "",
+  "body": "   What happens when you try to create a -star polygon by joining every third point? Is it a polygon, a star, overlapping polygons, or something else?   Template for drawing a six-vertex star polygon.   Six dots around a circle.    alignments=['nw','sw','s','se','ne','n']  f(t)=(-sin(2*pi*(1+t)\/6),cos(2*pi*(1+t)\/6))     ${6-k}                      The star polygon looks like three line segments intersecting at their midpoints.      Predict what and will look like. Explain.    "
+},
+{
+  "id": "expl-starpolys-l",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#expl-starpolys-l",
+  "type": "Exploration",
+  "number": "6.1.1",
+  "title": "Star Polygons <span class=\"process-math\">\\(\\{_{k}^{n}\\}\\)<\/span> for <span class=\"process-math\">\\(7\\lt n\\lt 10\\)<\/span>.",
+  "body": " Star Polygons for   Seven-dot star polygons   Construct the star polygons , , and . Templates are provided in .   Templates for .      alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                      alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                      alignments=['nw','w','sw','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/7),cos(2*pi*(1+t)\/7))     ${7-k}                     If you are unable to sketch on the templates above, you may use the GeoGebra interactive in to draw 7-dot star polygons.   GeoGebra interactive for drawing 7-dot star polygons        Match the star polygon on the left with the star polygon on the right that is the same.    Consider which five-dot and six-dot star polygons looked the same. Why? If you are not sure, construct the remaining seven-dot star polygons.                   Eight-dot star polygons.    Describe or sketch the star polygon .    This is a regular octagon.       Sketch the star polygon using either the template in or the GeoGebra applet in . Be sure to label your design with the symbol .  Draw star polygons by beginning each new segment at the endpoint of the previous segment. When you return to the starting point, switch to a new color. The connected components, formed by connecting points in this fashion, will be easy to identify.   Template for exploring 8-point star polygons.     alignments=['nw','w','sw','s','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/8),cos(2*pi*(1+t)\/8))     ${8-k}                      GeoGebra interactive for drawing 8-dot star polygons        How many connected components does have?    Two.       What is the shape of the connected component containing point 1?    A square.       Summarize your responses in and to describe in words what a star polygon looks like.    Your answer may include the number of copies of a familiar shape. You might also include a rotational angle or how these copies are related in position.    Answers may vary. Two copies of a square with a common center rotated 45 degrees from each other.       Use copies of the template or the Geogebra applet to draw the remaining 8-dot star polygons. When two eight-dot star polygons are known to look identical, you do not need to draw the design a second time. Instead write the two symbols, below the design, replacing by the appropriate number.    See below for descriptions of and . Also , , and .      Describe . Did you need to lift your pencil to draw it?    It can be drawn in a continuous sequence of line segments without lifting the pencil. It looks like a star with eight points.       Describe . Did you need to lift your pencil to draw it?    Yes. It consists of four line segments that meet at their midpoints.       Nine-dot Star Polygons   Now that we have experience drawing star polygons, let us make some predictions for nine-dot star polygons.     Identify any nine-dot star polygons that are regular nonagons.     and        Which nine-dot star polygons can be drawn without lifting one's pencil?     , , , , and .       One of the nine-dot star polygons that requires us to lift our pencil and restart at a new dot is .     What shape is formed before we have to lift up our pencil?    A triangle.       How many copies of that shape appear in ?    Three       Will any of the 9-point star polygons look like line segments meeting at their midpoints? If so, identify the skip value(s), for which this happens. If not, explain why this will not happen.    This will not happen.       Use the nine-dot template in or the Geogebra applet in to check your answers to the above tasks and to answer the next question.  Are the star polygons and the same? Explain.   Templates for .        alignments=['nw','w','sw','s','s','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/9),cos(2*pi*(1+t)\/9))     ${9-k}                           alignments=['nw','w','sw','s','s','se','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/9),cos(2*pi*(1+t)\/9))     ${9-k}                         GeoGebra interactive for drawing 9-dot star polygons        Ten-dot Star Polygons   Some of the ten-point star polygons are easy to predict but with ten points we will encounter one final possibility for the first time.  As with nine dots, we try to make predictions for some of the ten-point star polygons first. In your descriptions, be sure to identify the number of connected components and the shape of each connected component. A ten-dot template is provided following the predictions to explore the less obvious cases. Feel free to use the template for visualizing and verifying the anticipated star polygons as needed.     Describe . For what other value of , is ?      Describe . This will have more than one connected component so be sure to identify the number of shape of the components. For what other value of , is ?      Will any of the 10-point star polygons look like line segments meeting at their midpoints? If so, identify the skip value(s), for which this happens. If not, explain why this will not happen.    This occurs when .      Either sketch or describe . You may use the template in   Template for exploring 10-point star polygons.     alignments=['nw','w','w','sw','s','se','e','e','ne','n']  f(t)=(-sin(2*pi*(1+t)\/10),cos(2*pi*(1+t)\/10))     ${10-k}                        GeoGebra interactive for drawing 10-dot star polygons        In this task, we encounter a somewhat new result. We break our construction into separate steps to observe the features of the design.     Without lifting your pencil, connect every fourth dot until you return to your starting dot. What figure do you see? Describe this in terms of a previously constructed star polygon, identifying the values of and .    Ignore the dots that are not part of this connected component. The value of will be the number of dots in the connected component.    The connected component is a five-pointed star, or equivalently .      Now drawing the remaining connected component(s), each starting at a previously unused dot. If possible, use a different color for each connected component. How many connected components does have? Are the connected components congruent to each other?      "
+},
+{
+  "id": "expl-label-starpolys-general",
+  "level": "2",
+  "url": "sec-geonumberplay-star.html#expl-label-starpolys-general",
+  "type": "Exploration",
+  "number": "6.1.2",
+  "title": "",
+  "body": "  Throughout this exploration, the reader is invited to look back at their earlier work in this section. Templates for twelve-dot, fifteen-dot, twenty-dot, and twenty-four-dot circles are provided to allow students to further explore and validate their conjectures. Students wishing to use GeoGebra will find apps for 12-, 15-, 20-, and 24-dot circles at the end of the exploration. These can also be accessed via hyperlinks in the reading.     Let us begin by summarizing what we know about .     If is any natural number greater than two, what is the shape of ?      Observing a pattern is not a mathematical proof. Justify your claim in by writing a few sentences that explain why this type of shape appears whenever regardless of the choice of .    How are the dots connected in ?      We observed that and in . Fill in the blank to complete the conjecture: when      Write your answer as an algebraic expression involving the variables and .            Review the sketches of star polygons than have appeared in your reading and work. Which of these consist of a single connected component connecting every dot before one needs to lift their pencil?                                                                      Which of the following star polygons do you expect to consist of a single connected component?                             Based on , make a conjecture as to the relationship between and when a star polygon consists of a single connected component. Be sure that all of the checked star polygons in satisfy your relationship. Also, verify that any unchecked star polygons do not meet your criteria.      Explain why drawing any star polygon which does not meet your criteria in , for example , will require you to lift your pencil. Write your explanation so that it discusses general values of and . You may also include specific examples to make your argument clearer.      Explain why drawing any star polygon which meets your criteria in will allow you to connect every dot before you need to lift your pencil. Write your explanation so that it discusses general values of and . You may also include specific examples to make your argument clearer.      Next we will focus on the shape of connected components of star polygons.     Sketch the star polygons and using the templates in or the GeoGebra apps in and .   Templates for 12-dot and 15-dot star polygons.    Twelve-dot template.     alignments=['nw','nw','w','sw','sw','s','se','se','e','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/12),cos(2*pi*(1+t)\/12))     ${12-k}                          Fifteen-dot template.     alignments=['nw','nw','nw','w','sw','sw','s','s','se','se','e','ne','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/15),cos(2*pi*(1+t)\/15))     ${15-k}                              What shape is the initial connected component of and ? Do the second sketched connected components have the same shape as the first?      Identify another pair of numbers and such that a connected component of has the shape you identified in       Write a conjecture which identifies how the values and tell you that the first connected component has this shape. Include the name of this shape in your statement.      What is the shape of the first connected component of ? Revise your conjecture in to include this and similar cases.      Given the numbers and , can you determine how many copies of this shape will appear in the complete star polygon? How?      Next consider the connected components of and . What do you expect the shape of each connected component to be? Sketch these two star polygons, and , using different colors for each connected component. GeoGebra apps for these constructions may be accessed via and .   Templates for 12-dot and 20-dot star polygons.    Twelve-dot template.     alignments=['nw','nw','w','sw','sw','s','se','se','e','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/12),cos(2*pi*(1+t)\/12))     ${12-k}                          Twenty-dot template.     alignments=['nw','nw','nw','nw','w','sw','sw','sw','sw','s','se','se','se','se','e','ne','ne','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/20),cos(2*pi*(1+t)\/20))     ${20-k}                                       Did you correctly predict the shape of the connected component? What shape?      Identify another pair of numbers and for which the connected components of have this shape. You may identify one encountered already or one that you have not seen yet. How many copies of this shape will have?      Sketch the star polygons, and .   Twelve-dot template.     alignments=['nw','nw','nw','w','sw','sw','s','s','se','se','e','ne','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/15),cos(2*pi*(1+t)\/15))     ${15-k}                             Twenty-dot template.     alignments=['nw','nw','nw','nw','w','sw','sw','sw','sw','s','se','se','se','se','e','ne','ne','ne','ne','n']  f(t)=(-sin(2*pi*(1+t)\/20),cos(2*pi*(1+t)\/20))     ${20-k}                                    What shape are their individual connected components?      Denote this shape using star polygon notation. What are the values of and ?      How many connected components does have?      How many connected components does have?      How is the number of connected components related to the values and ?        Summarize what you have learned about how the design of a star polygon is determined by the values of and . Include the number of connected components and the shape of the connected components.  Geogebra interactives are provided here for students wishing to use them.   GeoGebra interactive for drawing 12-dot star polygons     Geogebra interactive for drawing 15-point star polygons     Geogebra interactive for drawing 20-point star polygons        The following GeoGebra interactive can be used to verify that your claims hold for star polygons with 18 or 24 dots.   Geogebra interactive for drawing 18 and 24-point star polygons       "
+},
+{
+  "id": "algebra-principles-3",
+  "level": "1",
+  "url": "algebra-principles-3.html",
+  "type": "Subsection",
+  "number": "A.1",
+  "title": "Algebraic Expressions and Equations",
+  "body": " Algebraic Expressions and Equations  Algebraic expressions and equations will be used when we wish to describe and demonstrate geometric facts and formulas involving lengths, areas, and other numerical quantities. The use of variables generalizes the statement so that it describes all relevant situations, not just a single example. Hence, it is essential that we can simplify expressions and solve equations.   expression  algebraic expression  numerical expression   An expression in mathematics is a representation of a numerical quantity consisting of a finite number of variables and\/or numbers joined by algebraic operations such as addition, subtraction, multiplication, division, and exponentiation. An expression is said to be algebraic if it contains at least one variable. We will also use the term numerical expression to describe any representation that is either an algebraic expression or number.    Note the difference between an expression and an equation.   algebraic equation  equation   An equation is a statement formed by joining two algebraic expressions together with an equal sign. When we solve an equation, we determine which numerical quantities will make the statement true.    The equals sign is also used when we simplify a statement, joining the equivalent expressions immediately preceding and following the sign. In this situation, a series of equal signs in succession are allowed. You show verify that any expressions joined by this symbol are indeed equal.   Simplifying an Expression   Simplify the expression .    Solving this expression requires an expansion of before we can subtract . One correct way of writing this is the following.   One might also write and then compute     In , one should avoid writing because the two expressions on either side of the first equal sign are not equal, the expression has been subtracted in the second expression, but not the first.  When solving an equation, it is bad practice to put equal signs between steps as the quantity frequently changes. Each step of the solving process should be a separate statement with a single equal sign. Simply write each step on a new line or use arrows or words (then, so, since, etc.) to link the statements.   Solving an Equation   Solve the equation     One acceptable way of writing this for exercises is the following: We have found two numbers and that solve the equation. If this were a problem about geometric quantities, we frequently rule out negative numbers as unreasonable.     As we share our solutions with others, it is important to use the equals sign appropriately. Check that the two expressions on either side of the symbol are really equal to each other.  A frequent error made by students is to link steps of a computation with equals signs when the two expressions are not equal to each other. Typically, an operation has been performed in a step which did not exist previously. For example, a student simplifying may write Why is this incorrect? Near the end of the line, we see . This would imply that , a statement that is clearly false. It appears that the student has taken the square root of both sides of but that operation changes the value. While is the solution of , the expression is not equal to so they should not be linked with an equals sign.    Find the Error   The example in also suggests that . Identify where the value changes and why the equal sign is misleading.    After the equation , the number is subtracted changing the value.    Rather than linking steps with equal signs, you may write them as a list of equations as shown in the answer to or use words or arrows between steps.  "
+},
+{
+  "id": "def-expression",
+  "level": "2",
+  "url": "algebra-principles-3.html#def-expression",
+  "type": "Definition",
+  "number": "A.1.27",
+  "title": "",
+  "body": " expression  algebraic expression  numerical expression   An expression in mathematics is a representation of a numerical quantity consisting of a finite number of variables and\/or numbers joined by algebraic operations such as addition, subtraction, multiplication, division, and exponentiation. An expression is said to be algebraic if it contains at least one variable. We will also use the term numerical expression to describe any representation that is either an algebraic expression or number.   "
+},
+{
+  "id": "def-equation",
+  "level": "2",
+  "url": "algebra-principles-3.html#def-equation",
+  "type": "Definition",
+  "number": "A.1.28",
+  "title": "",
+  "body": " algebraic equation  equation   An equation is a statement formed by joining two algebraic expressions together with an equal sign. When we solve an equation, we determine which numerical quantities will make the statement true.   "
+},
+{
+  "id": "example-simplify",
+  "level": "2",
+  "url": "algebra-principles-3.html#example-simplify",
+  "type": "Example",
+  "number": "A.1.29",
+  "title": "Simplifying an Expression.",
+  "body": " Simplifying an Expression   Simplify the expression .    Solving this expression requires an expansion of before we can subtract . One correct way of writing this is the following.   One might also write and then compute    "
+},
+{
+  "id": "example-solving",
+  "level": "2",
+  "url": "algebra-principles-3.html#example-solving",
+  "type": "Example",
+  "number": "A.1.30",
+  "title": "Solving an Equation.",
+  "body": " Solving an Equation   Solve the equation     One acceptable way of writing this for exercises is the following: We have found two numbers and that solve the equation. If this were a problem about geometric quantities, we frequently rule out negative numbers as unreasonable.   "
+},
+{
+  "id": "remark-use-equals-sign",
+  "level": "2",
+  "url": "algebra-principles-3.html#remark-use-equals-sign",
+  "type": "Remark",
+  "number": "A.1.31",
+  "title": "",
+  "body": " As we share our solutions with others, it is important to use the equals sign appropriately. Check that the two expressions on either side of the symbol are really equal to each other.  A frequent error made by students is to link steps of a computation with equals signs when the two expressions are not equal to each other. Typically, an operation has been performed in a step which did not exist previously. For example, a student simplifying may write Why is this incorrect? Near the end of the line, we see . This would imply that , a statement that is clearly false. It appears that the student has taken the square root of both sides of but that operation changes the value. While is the solution of , the expression is not equal to so they should not be linked with an equals sign.  "
+},
+{
+  "id": "algebra-principles-3-12",
+  "level": "2",
+  "url": "algebra-principles-3.html#algebra-principles-3-12",
+  "type": "Checkpoint",
+  "number": "A.1.32",
+  "title": "Find the Error.",
+  "body": " Find the Error   The example in also suggests that . Identify where the value changes and why the equal sign is misleading.    After the equation , the number is subtracted changing the value.   "
+},
+{
+  "id": "field-properties",
+  "level": "1",
+  "url": "field-properties.html",
+  "type": "Subsection",
+  "number": "A.2",
+  "title": "Field Properties of the Real Numbers",
+  "body": " Field Properties of the Real Numbers  We summarize the principles that define operations on the set of real numbers. Methods of performing calculations, simplifying algebraic expressions, and solving equations follow from these principles.   Closure of Addition and Multiplication on the Set of Real Numbers   If and are real numbers, then and are real numbers.     Commutative Laws   If and are real numbers, then and .     Associative Laws   If , , and are real numbers, then and .     The Distributive Law   If , , and are real numbers, then and .  Note that the distributive law also allows us to add fractions with a common denominator; In short,     The Distributive Law, together with the other field properties, allows us to multiply polynomial.   Multiplying a Polynomial   Multiply .     First we use the distributive law, multiplying each term in the second factor by : .  An obtional step, but one that makes the distributive law more evident, is to us the commutative law of multiplication to reverse the order of the factors in each term:   We can then use the distributive law on each term to get   Finally, we use the distributive law to combine like terms:   Although the distributive law makes the process work, we typically speed the process up by multiplying each term in the first factor by each term in the second factor:     As demonstrated in the solution of , the product of two polynomials can be found by multiplying each term in the first polynomial by each term in the second polynomial and then adding these products. If the first polynomial has terms and the second polynomial has terms, then there will be terms before we combine like terms.   The Identity Properties   If is an real number, then , , , and We call 0 the additive identity and 1 the multiplicative identity .     The Inverse Properties   If is a real number, then the number exists and has the property that . If is an nonzero real number, then the number exists and has the property that . The number is said to be the additive inverse of and the number is said to be the multiplicative inverse of .     "
+},
+{
+  "id": "principle-closure-reals",
+  "level": "2",
+  "url": "field-properties.html#principle-closure-reals",
+  "type": "Principle",
+  "number": "A.2.33",
+  "title": "Closure of Addition and Multiplication on the Set of Real Numbers.",
+  "body": " Closure of Addition and Multiplication on the Set of Real Numbers   If and are real numbers, then and are real numbers.   "
+},
+{
+  "id": "principle-commutative",
+  "level": "2",
+  "url": "field-properties.html#principle-commutative",
+  "type": "Principle",
+  "number": "A.2.34",
+  "title": "Commutative Laws.",
+  "body": " Commutative Laws   If and are real numbers, then and .   "
+},
+{
+  "id": "principle-associative",
+  "level": "2",
+  "url": "field-properties.html#principle-associative",
+  "type": "Principle",
+  "number": "A.2.35",
+  "title": "Associative Laws.",
+  "body": " Associative Laws   If , , and are real numbers, then and .   "
+},
+{
+  "id": "principle-distributive",
+  "level": "2",
+  "url": "field-properties.html#principle-distributive",
+  "type": "Principle",
+  "number": "A.2.36",
+  "title": "The Distributive Law.",
+  "body": " The Distributive Law   If , , and are real numbers, then and .  Note that the distributive law also allows us to add fractions with a common denominator; In short,    "
+},
+{
+  "id": "examp-mult-poly",
+  "level": "2",
+  "url": "field-properties.html#examp-mult-poly",
+  "type": "Example",
+  "number": "A.2.37",
+  "title": "Multiplying a Polynomial.",
+  "body": " Multiplying a Polynomial   Multiply .     First we use the distributive law, multiplying each term in the second factor by : .  An obtional step, but one that makes the distributive law more evident, is to us the commutative law of multiplication to reverse the order of the factors in each term:   We can then use the distributive law on each term to get   Finally, we use the distributive law to combine like terms:   Although the distributive law makes the process work, we typically speed the process up by multiplying each term in the first factor by each term in the second factor:    "
+},
+{
+  "id": "principle-identity",
+  "level": "2",
+  "url": "field-properties.html#principle-identity",
+  "type": "Principle",
+  "number": "A.2.38",
+  "title": "The Identity Properties.",
+  "body": " The Identity Properties   If is an real number, then , , , and We call 0 the additive identity and 1 the multiplicative identity .   "
+},
+{
+  "id": "field-properties-11",
+  "level": "2",
+  "url": "field-properties.html#field-properties-11",
+  "type": "Principle",
+  "number": "A.2.39",
+  "title": "The Inverse Properties.",
+  "body": " The Inverse Properties   If is a real number, then the number exists and has the property that . If is an nonzero real number, then the number exists and has the property that . The number is said to be the additive inverse of and the number is said to be the multiplicative inverse of .   "
+},
+{
+  "id": "equality-properties",
+  "level": "1",
+  "url": "equality-properties.html",
+  "type": "Subsection",
+  "number": "A.3",
+  "title": "Properties of Equality",
+  "body": " Properties of Equality  When solving equations, we frequently use the following properties of equality. Many of these properties are intuitively obvious. Some follow from the Field Properties for Real Numbers.    Addition Principle of Equality   If we add (or subtract) the same numerical expression from both sides of an equation, we get an equivalent Two equations are equivalent if they have exactly the same solution set. equation. In symbols, if and only if . Here, , , and may be numbers or algebraic expressions.     Multiplication Principle of Equality   If we multiply (or divide) both sides of an equation by the same nonzero numerical expression, we get an equivalent equation. In symbols, if and only if whenever , , and are numbers or algebraic expressions and . Similarly, if , then is equivalent to .    The next principle allows us to switch the left and right sides of any equation.   Symmetry Property of Equality   The statement is true if and only if the statement is true.    In addition, if two expressions are both equal to a common expression, then they must be equal to each other.   Transitive Property of Equality   If and are true statements, then .    In this course, we may use this transitivity to equate two different expressions that both give the length of a segment or the area of a figure. An additional principle, the reflexive property , states more explicitly that any numerical quantity is equal to itself; hence, the area of triangle is equal to the area of triangle .   The remaining properties of equality focus on the special role of zero.   Multiplication by Zero   For any numerical expression , .     Zero Product Property   If and are any numerical expressions such that , then at least one of the factors or must equal zero.    When solving a polynomial equation, like , is helpful.   Solving a Polynomial Equation Using Principles   Solve .    In symbols, with properties used: Click on solution to see this solution in paragraph form.    To solve , we first use to subtract from both sides of the equation so that the right side of the equation is 0. Thus, . By , . Substituting into our earlier equation, we see . Therefore, informs us that one of the following must be true: , , or . Solving each of these for gives the possible answers, , , and . Substituting each of these into the original equation verifies that the solution consists of these three values, , , and .  Click on answer to see the solution as a series of equations.    "
+},
+{
+  "id": "principle-addition-equality",
+  "level": "2",
+  "url": "equality-properties.html#principle-addition-equality",
+  "type": "Principle",
+  "number": "A.3.40",
+  "title": "Addition Principle of Equality.",
+  "body": " Addition Principle of Equality   If we add (or subtract) the same numerical expression from both sides of an equation, we get an equivalent Two equations are equivalent if they have exactly the same solution set. equation. In symbols, if and only if . Here, , , and may be numbers or algebraic expressions.   "
+},
+{
+  "id": "principle-multiplication-equality",
+  "level": "2",
+  "url": "equality-properties.html#principle-multiplication-equality",
+  "type": "Principle",
+  "number": "A.3.41",
+  "title": "Multiplication Principle of Equality.",
+  "body": " Multiplication Principle of Equality   If we multiply (or divide) both sides of an equation by the same nonzero numerical expression, we get an equivalent equation. In symbols, if and only if whenever , , and are numbers or algebraic expressions and . Similarly, if , then is equivalent to .   "
+},
+{
+  "id": "principle-symmetry-equality",
+  "level": "2",
+  "url": "equality-properties.html#principle-symmetry-equality",
+  "type": "Principle",
+  "number": "A.3.42",
+  "title": "Symmetry Property of Equality.",
+  "body": " Symmetry Property of Equality   The statement is true if and only if the statement is true.   "
+},
+{
+  "id": "principle-transtive-equality",
+  "level": "2",
+  "url": "equality-properties.html#principle-transtive-equality",
+  "type": "Principle",
+  "number": "A.3.43",
+  "title": "Transitive Property of Equality.",
+  "body": " Transitive Property of Equality   If and are true statements, then .   "
+},
+{
+  "id": "equality-properties-9",
+  "level": "2",
+  "url": "equality-properties.html#equality-properties-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "reflexive property "
+},
+{
+  "id": "principle-multiply-by-zero",
+  "level": "2",
+  "url": "equality-properties.html#principle-multiply-by-zero",
+  "type": "Principle",
+  "number": "A.3.44",
+  "title": "Multiplication by Zero.",
+  "body": " Multiplication by Zero   For any numerical expression , .   "
+},
+{
+  "id": "principle-zero-product",
+  "level": "2",
+  "url": "equality-properties.html#principle-zero-product",
+  "type": "Principle",
+  "number": "A.3.45",
+  "title": "Zero Product Property.",
+  "body": " Zero Product Property   If and are any numerical expressions such that , then at least one of the factors or must equal zero.   "
+},
+{
+  "id": "equality-properties-14",
+  "level": "2",
+  "url": "equality-properties.html#equality-properties-14",
+  "type": "Example",
+  "number": "A.3.46",
+  "title": "Solving a Polynomial Equation Using Principles.",
+  "body": " Solving a Polynomial Equation Using Principles   Solve .    In symbols, with properties used: Click on solution to see this solution in paragraph form.    To solve , we first use to subtract from both sides of the equation so that the right side of the equation is 0. Thus, . By , . Substituting into our earlier equation, we see . Therefore, informs us that one of the following must be true: , , or . Solving each of these for gives the possible answers, , , and . Substituting each of these into the original equation verifies that the solution consists of these three values, , , and .  Click on answer to see the solution as a series of equations.   "
+},
+{
+  "id": "subsec-Functions",
+  "level": "1",
+  "url": "subsec-Functions.html",
+  "type": "Subsection",
+  "number": "A.4",
+  "title": "Functions and Operations",
+  "body": " Functions and Operations   Operations, such as addition, subtraction, and multiplication, give us a way of combining numbers and expressions. It is worth the time to read the symbols that tell us what operation is being used.  Functions typically involve operations, but they play a different role. A function is a rule that allows us to assign an output for each allowable input. In algebra, functions are often given by an algebraic expression where we can replace the variable by the input and compute the value of the corresponding output. We also use letters, like or , to name our function. The symbol stands for the output when function is performed on and the symbol stands for the output when function is performed on . When graphing functions, we think of each output of the function as being and graph the pairs .   A Function from Algebra   Let . Compute the following:               a) , b) , c) which can be simplified to .    Functions do not have to have algebraic formulas; for example, we could define a function that assigns the number 0 to all even numbers and 1 to all odd numbers. In this example, , , and . In geometry, we will be looking at transformations, which are functions that map points to points. Sometimes, we can write geometric functions algebraically like but that goes beyond the scope of this course.  Having seen some examples, we now give the definition of function.   function   A function is a mapping that assigns to each input exactly one output.    As noted above the inputs and outputs be numbers or other objects such as points or even lines. What distinguishes a function from other mappings is that each input has exactly one output . Although it is possible for several inputs to have the same output, say , it is not possible for and . Under the action of a function, each input uniquely determines its output.    Working with squares and square roots  Two functions of interest to us in geometry are the squaring function and the square root function .   square root  square   The square of a number is the number . Note that the number may be negative, positive, or 0, but the square, is always greater than or equal to 0.  The square root of a number is the nonnegative number such that . We use the notation to represent the square root of .     Computing Squares and Square Roots   Compute the following using the definitions of square and square root. A calculator should not be necessary.                  a) , b) , c) , d)     In , we observe how the actions of squaring and taking the square root undo each other. The square of is and the square root of is . Similarly, the square root of is and the square of is . Thus, when we perform a square and a square root in succession, the two actions cancel each other out. For this reason, the squaring function and the square root function are said to be inverse operations on the set of nonnegative numbers A number is said to be nonnegative if . . Since geometric measurements are nonnegative, we may use the square root function to undo the squaring function and vice versa. Thus, whenever you would like to undo the squaring function in an equation such as in the above example, we will take the square root of both sides.   Inverse Property of Squares and Square Roots   Let be a nonnegative real number. Then and .    Using the Pythagorean Theorem to find lengths will require squaring and taking square roots of numbers. The equation in the Pythagorean Theorem can be written equivalently as or . Note the use of the inverse action: . In fact, the squaring function also undoes the square root function: . This is what we mean by a pair of inverse functions; applying them one right after the other (in either order) cancels their action. On the other hand, we need to be careful in applying an inverse operation. The square root of is not equal to because the square of is not . Instead, the square of is so that .   Finding the Length of a Leg of a Right Triangle   The length of the hypotenuse is 16 inches and the length of one leg is 10 inches. Determine the length of the other leg.    By the Pythagorean Theorem, we know or . Subtracting from both sides of the equation, we get . Taking the square root of both sides of the equation, we see     Our examples demonstrate that , but what if the operation is multiplication or division? In this situation, the expression can be simplified.   Exponents and Roots of Products and Quotients   Let and be nonnegative real numbers. Then and If , then and .  Moreover, if is any nonnegative integer, we can say that and . Also and when .      Other Pairs of Inverse Functions  The square and square root functions are not the only pair of functions that undo each other. Some pairs that you may be more familiar with include adding and subtracting and the two function, dividing by and multiplying by . Note how the two functions in each pair undo each other and recall how you have used them to solve equations.  Extending the equality principles, and , we often use the method of performing the same operation to both sides of an equation. Typically, the chosen operation is the inverse of an operation that appears in the equation.  When working in three dimensional geometry, we will need to compute the cube of a number which we can write as or . The cubing function and cube root function are also inverses of each other.   Using Inverses to Solve an Equation   Solve the equation .    Adding to both sides of gives us . Next we divide the expressions on both sides by , resulting in . Finally, we take the cube root of both sides, leaving us with . Checking our answer, we verify that as desired.      Order of Operations  In , you may have wondered whether it was better to add four first or divide by five. Would it even make a difference?  Because of the way that operations are built on each other Multiplication is repeated addition, and exponentiation is repeated multiplication. , the order of performing algebraic operations is prescribed. When performing computations, we perform exponentiation before multiplication and division and we perform multiplication and division before addition and subtraction. We also perform computations from left to right. Parentheses or other grouping symbols, such as a fraction bar We can also use placement and size of type, like or . , are used when we want to treat a numerical expression as a single quantity. Thus, we start with the innermost parentheses and work our way out.  When there are variables in an expression, we may not be able to perform operations in the standard order. Without a specified value, we cannot add a number like to an expression like . Instead, we use the distributive law and concept of like terms to simplify our expression.  As equations become more complex, there is no specific order in which to perform inverse operations. If one or both sides can be simplified, that is often a good first or intermediate step. Undoing operations is typically done in the reverse order, just as we need to unpeel layers of clothing in the evening, each item being removed in the opposite order in which it was put on. Our goal in a linear equation is to get down to a single appearance of the variable and to isolate that variable, as in . In polynomial equations, we usually aim to manipulate the expression until all variables and nonzero numbers are on one side of the equation so that we can factor the expression and apply to find all solutions.   Solving Equations with Order of Operations   Solve the equation, .    We will demonstrate several methods. To emphasize how order of operations are reversed when undoing operations, we note that adding 8 would be last in a computation. Thus our first step is to subtract 8 (or add ) to both sides of our equation, resulting in . Next we, divide both sides by , leaving . Finally, we add to get .  Note that if we start by dividing by 5, tells us that we must also divide 8 by 5. The resulting equation, or , is correct but more difficult to solve.  Finally, we could solve this equation by first simplifying the left side. Our expression Replacing the original left side by this simplified version gives . Adding to both sides gives and dividing by 5 gives .     "
+},
+{
+  "id": "subsec-Functions-2-3",
+  "level": "2",
+  "url": "subsec-Functions.html#subsec-Functions-2-3",
+  "type": "Example",
+  "number": "A.4.47",
+  "title": "A Function from Algebra.",
+  "body": " A Function from Algebra   Let . Compute the following:               a) , b) , c) which can be simplified to .   "
+},
+{
+  "id": "def-function",
+  "level": "2",
+  "url": "subsec-Functions.html#def-function",
+  "type": "Definition",
+  "number": "A.4.48",
+  "title": "",
+  "body": " function   A function is a mapping that assigns to each input exactly one output.   "
+},
+{
+  "id": "def-sqrt",
+  "level": "2",
+  "url": "subsec-Functions.html#def-sqrt",
+  "type": "Definition",
+  "number": "A.4.49",
+  "title": "",
+  "body": " square root  square   The square of a number is the number . Note that the number may be negative, positive, or 0, but the square, is always greater than or equal to 0.  The square root of a number is the nonnegative number such that . We use the notation to represent the square root of .   "
+},
+{
+  "id": "example-algrev-sq-sqrt",
+  "level": "2",
+  "url": "subsec-Functions.html#example-algrev-sq-sqrt",
+  "type": "Example",
+  "number": "A.4.50",
+  "title": "Computing Squares and Square Roots.",
+  "body": " Computing Squares and Square Roots   Compute the following using the definitions of square and square root. A calculator should not be necessary.                  a) , b) , c) , d)    "
+},
+{
+  "id": "subsec-algrev-sqroots-5",
+  "level": "2",
+  "url": "subsec-Functions.html#subsec-algrev-sqroots-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "inverse operations nonnegative "
+},
+{
+  "id": "principle-invpropofsqrt",
+  "level": "2",
+  "url": "subsec-Functions.html#principle-invpropofsqrt",
+  "type": "Principle",
+  "number": "A.4.51",
+  "title": "Inverse Property of Squares and Square Roots.",
+  "body": " Inverse Property of Squares and Square Roots   Let be a nonnegative real number. Then and .   "
+},
+{
+  "id": "examp-algrev-triangleleg",
+  "level": "2",
+  "url": "subsec-Functions.html#examp-algrev-triangleleg",
+  "type": "Example",
+  "number": "A.4.52",
+  "title": "Finding the Length of a Leg of a Right Triangle.",
+  "body": " Finding the Length of a Leg of a Right Triangle   The length of the hypotenuse is 16 inches and the length of one leg is 10 inches. Determine the length of the other leg.    By the Pythagorean Theorem, we know or . Subtracting from both sides of the equation, we get . Taking the square root of both sides of the equation, we see    "
+},
+{
+  "id": "principle-exp-rt-product",
+  "level": "2",
+  "url": "subsec-Functions.html#principle-exp-rt-product",
+  "type": "Principle",
+  "number": "A.4.53",
+  "title": "Exponents and Roots of Products and Quotients.",
+  "body": " Exponents and Roots of Products and Quotients   Let and be nonnegative real numbers. Then and If , then and .  Moreover, if is any nonnegative integer, we can say that and . Also and when .   "
+},
+{
+  "id": "example-inverse-solve-equation",
+  "level": "2",
+  "url": "subsec-Functions.html#example-inverse-solve-equation",
+  "type": "Example",
+  "number": "A.4.54",
+  "title": "Using Inverses to Solve an Equation.",
+  "body": " Using Inverses to Solve an Equation   Solve the equation .    Adding to both sides of gives us . Next we divide the expressions on both sides by , resulting in . Finally, we take the cube root of both sides, leaving us with . Checking our answer, we verify that as desired.   "
+},
+{
+  "id": "subsec-Functions-5-6",
+  "level": "2",
+  "url": "subsec-Functions.html#subsec-Functions-5-6",
+  "type": "Example",
+  "number": "A.4.55",
+  "title": "Solving Equations with Order of Operations.",
+  "body": " Solving Equations with Order of Operations   Solve the equation, .    We will demonstrate several methods. To emphasize how order of operations are reversed when undoing operations, we note that adding 8 would be last in a computation. Thus our first step is to subtract 8 (or add ) to both sides of our equation, resulting in . Next we, divide both sides by , leaving . Finally, we add to get .  Note that if we start by dividing by 5, tells us that we must also divide 8 by 5. The resulting equation, or , is correct but more difficult to solve.  Finally, we could solve this equation by first simplifying the left side. Our expression Replacing the original left side by this simplified version gives . Adding to both sides gives and dividing by 5 gives .   "
+},
+{
+  "id": "list-of-principles",
+  "level": "1",
+  "url": "list-of-principles.html",
+  "type": "Appendix",
+  "number": "B",
+  "title": "List of Principles",
+  "body": " List of Principles   "
+},
+{
+  "id": "backmatter-4",
+  "level": "1",
+  "url": "backmatter-4.html",
+  "type": "Appendix",
+  "number": "C",
+  "title": "List of Symbols",
+  "body": " List of Symbols   "
+},
+{
+  "id": "appendix-list-formulas",
+  "level": "1",
+  "url": "appendix-list-formulas.html",
+  "type": "Appendix",
+  "number": "D",
+  "title": "List of Formulas",
+  "body": " List of Formulas   "
+},
+{
+  "id": "backmatter-6",
+  "level": "1",
+  "url": "backmatter-6.html",
+  "type": "Index",
+  "number": "",
+  "title": "Index",
+  "body": " Index   "
+},
+{
+  "id": "backmatter-7",
+  "level": "1",
+  "url": "backmatter-7.html",
+  "type": "Colophon",
+  "number": "",
+  "title": "Colophon",
+  "body": " This book was authored in PreTeXt .  "
+}
+]
+
+var ptx_lunr_idx = lunr(function () {
+  this.ref('id')
+  this.field('title')
+  this.field('body')
+  this.metadataWhitelist = ['position']
+
+  ptx_lunr_docs.forEach(function (doc) {
+    this.add(doc)
+  }, this)
+})
