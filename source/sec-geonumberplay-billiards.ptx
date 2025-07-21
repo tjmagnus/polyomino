@@ -15,30 +15,105 @@
         and properties of the set of counting numbers.
     </p>
 </introduction>
-<section xml:id="sec-geonumplay-billiards-refl-law">
+<subsection xml:id="sec-geonumplay-billiards-refl-law">
     <title>The Law of Reflection</title>
     <p>
-        Though we describe this as billiard ball geometry, the behavior of our ideal ball is
+        Though we describe this as the path of a billiard ball, the behavior of our ideal ball is
         more like light hitting mirrors. 
     </p>    
     <exploration label="explabel-law-reflect" xml:id="expxml-law-reflect">
         <title>Discovering the Law of Reflection</title>
         <task label="tasklabel-">
-            <statement>
+            <introduction>
                 <p>
                     In <xref ref="fig-snells-law"/>, a ball traveling in direction 
                     <m>\overline{AD}</m> meets wall <m>\overleftrightarrow{CE}</m> 
                     at point <m>B</m>.   
                 </p>
                 <figure xml:id="fig-snells-law">
-                    <caption></caption>
-                    
+                    <caption>GeoGebra interactive for bounce angle</caption>
+                    <interactive xml:id="snells-app" geogebra="zhdz78b6"
+               aspect="10:3" reset-icon="yes" toolbar="yes" shift-drag-zoom="yes"/>
                 </figure>
-            </statement>
+            </introduction>
+            <task label="expltask-snells-vertical-l" xml:id="expltask-snells-vertical">
+                <statement>
+                    <p>
+                        Check the <sq>wall or mirror</sq> box to show the wall that 
+                        will deflect the ball and the angle this wall makes with the path
+                        of the ball. What is the measure of angle <m>\angle{DBE}</m>? Use 
+                        geometric principles to explain how you know this.
+                    </p>
+                </statement>
+            </task>
+            <task label="expltask-snells-ref-l" xml:id="expltask-snells-ref">
+                <statement>
+                    <p>
+                        Then check the <sq>reflection</sq> box to show the path the ball 
+                        will take after it leaves the wall. Point <m>D'</m> is the reflection
+                        of point <m>D</m> across line <m>\overleftrightarrow{CE}</m>. 
+                        Explain why <m>\angle{D'BE}\cong\angle{DBE}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement> 
+                    <p>
+                        What do <xref ref="expltask-snells-vertical"/> and
+                        <xref ref="expltask-snells-ref"/> tell you about <m>\angle{D'BE}</m>
+                        and <m>\angle{ABC}</m>? Explain.
+                    </p>   
+                </statement>
+            </task>
+            <task label="expltask-Snell-ang-incidence-l" xml:id="expltask-Snell-ang-incidence">
+                <statement>
+                    <p>
+                        In the field of Optics, the angle of incidence is defined as the 
+                        angle that the directional ray makes with the ray perpendicular to  
+                        the mirror. Check the <sq>perpendicular</sq> box to see the perpendicular 
+                        <m>\overline{BF}</m> to line <m>\overleftrightarrow{CE}</m>. What is 
+                        the measure of <m>\angle{ABF}</m>, the angle of incidence?
+                    </p>
+                </statement>
+            </task>
+            <task label="expltask-Snell-ang-reflection-l">
+                <statement>
+                    <p>
+                        In Optics, angle <m>\angle{D'BF}</m> is called the <term>angle 
+                        of reflection</term>. How is <m>\angle{D'BF}</m> related to 
+                        <m>\angle{ABF}</m>? Give a thorough argument of why this must be the case 
+                        for any acute angle of incidence.
+                    </p>
+                </statement>
+            </task>
         </task>
-        
     </exploration>
-</section>
+    <conclusion>
+        <p>
+            Whether we focus on the angles that the incoming and departing rays make with 
+            the mirror or if we, like the physicists, compare the angles those rays make 
+            with the perpendicular to the mirror, the pair of angles are congruent. Keep this   
+            in mind as you construct your billiard ball paths. 
+        </p>
+        <principle xml:id="principle-Snell">
+          <title>Snell's Law (adapted)</title>
+          <statement>
+            <p>
+              Assuming a frictionless environment and no spin on the ball, a ball 
+              traveling toward a wall at an angle will rebound at the same angle.
+            </p>
+          </statement>
+        </principle>
+    </conclusion>
+    <exercise label="ckpt-snell-find-angles">
+        <statement>
+            <p>
+                Add figure and instructions to identify angles.
+            </p>
+        </statement>
+    </exercise>
+</subsection>
 
 
 </section>
+                       
