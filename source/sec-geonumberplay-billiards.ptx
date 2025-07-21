@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-geonumberplay-billiards" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometry on a Billiard Table</title>
+
+  <introduction>
+    <p>
+        In this section, we explore the path of a billiard ball as it travels around a 
+        rectangular pool table and determine which pocket the ball will land in. Throughout
+        this section, we assume that there is no spin on the ball so that it travels in a  
+        straight line; it encounters no bumps, fuzz, or other impediments as it travels. 
+        We also assume that the ball has no resistance and will continue to 
+        travel until in lands 
+        in one of the corner pockets. Once again, we will see a connection between geometry 
+        and properties of the set of counting numbers.
+    </p>
+</introduction>
+<section xml:id="sec-geonumplay-billiards-refl-law">
+    <title>The Law of Reflection</title>
+    <p>
+        Though we describe this as billiard ball geometry, the behavior of our ideal ball is
+        more like light hitting mirrors. 
+    </p>    
+    <exploration label="explabel-law-reflect" xml:id="expxml-law-reflect">
+        <title>Discovering the Law of Reflection</title>
+        <task label="tasklabel-">
+            <statement>
+                <p>
+                    In <xref ref="fig-snells-law"/>, a ball traveling in direction 
+                    <m>\overline{AD}</m> meets wall <m>\overleftrightarrow{CE}</m> 
+                    at point <m>B</m>.   
+                </p>
+                <figure xml:id="fig-snells-law">
+                    <caption></caption>
+                    
+                </figure>
+            </statement>
+        </task>
+        
+    </exploration>
+</section>
+
+
+</section>
