@@ -20,7 +20,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   to further build our understanding of related concepts, and to support the validity of an argument.
   Most likely, you are already familiar with some of these tools from previous coursework. 
   You know how to perform 
-  computations, have used geometric formulas, and can recognize many shapes. 
+  computations, have used geometric formulas, and can recognize many shapes.
 </p>
 <p> 
   Although you already know some of the facts and formulas, we 
@@ -654,6 +654,363 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       </statement>
     </definition>
   </subsection>
+  <exercises xml:id="exercises-vocab-intro-apply">
+    <title>Vocabulary</title>
+    <subexercises xml:id="SAR-vocab-intro-apply">
+        <title>Vocabulary Review</title>
+        <exercise xml:id="HW-vocab-triangles">
+            <title>Triangles</title>
+            <introduction>
+              <p>
+                Refer to the figure below of <m>\Delta ABC</m> to answer the following questions:
+              </p>
+                <image source="righttriangleparts" width="85%">
+                  <shortdescription>(for accessibility)</shortdescription>
+                </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>right angle</term> (measure is 90 degrees).
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\angle ABC</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the two <term>acute angles</term> (measure is less than 90 degrees).
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\angle BAC</m> and <m>\angle ACB</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Identify the <term>hypotenuse</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>b=\overline{AC}</m>
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Identify the <term>legs</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>c=\overline{AB}</m> and <m>a=\overline{BC}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Based on its angle measurements, is <m>\Delta ABC</m> an <term>acute</term>, <term>obtuse</term>, or 
+                         <term>right triangle</term>?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Right triangle.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         Based on its angle congruency, is <m>\Delta ABC</m> an <term>equilateral</term>, <term>isosceles</term>, or 
+                         <term>scalene triangle</term>?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Scalene triangle.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                         What is the formula for the perimeter of <m>\Delta ABC?</m>
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        The sum of its three side lengths (a + b + c).
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+        <exercise xml:id="HW-vocab-parallelograms">
+            <title>Parallelograms</title>
+            <introduction>
+                <p>
+                    Use <xref ref="fig-parallelogram-def"/> to answer the following questions about parallelogram <m>ABCD</m>:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Based on the above figure, how many pairs of <term>parallel</term> sides does a parallelogram have?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Two pairs of parallel sides.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Name the two pairs of <term>parallel</term> sides in parallelogram <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pair 1: <m>\overline{AD}</m> and <m>\overline{BC}</m>.
+                    </p>
+                    <p>
+                        Pair 2: <m>\overline{AB}</m> and <m>\overline{CD}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>base</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        In a parallelogram, the <term>base</term> can be defined as any one of its four sides. It is often useful to 
+                        identify one side as the base. So, possible bases for parallelogram <m>ABCD</m> could include 
+                        <m>\overline{AB}</m>, <m>\overline{BC}</m>, <m>\overline{CD}</m>, or 
+                        <m>\overline{AD}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>height</term>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        The base of a parallelogram is any of its four sides. The corresponding height is along an altitude and is
+                        perpendicular to the base. For parallelogram <m>ABCD</m>, if the chosen base is <m>\overline{AB}</m>, 
+                        then the height could be <m>\overline{DE}</m>.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+        <exercise xml:id="HW-vocab-trapezoids">
+            <title>Trapezoids</title>
+            <introduction>
+                <p>
+                    Use <xref ref="fig-trapezoid-def"/> to answer the following questions about trapezoid <m>ABCD</m>:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Based on the above figure, how many pairs of <term>parallel</term> sides does a trapezoid have?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Exactly one pair of parallel sides.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the pair of <term>parallel</term> sides in trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        <m>\overline{BC}</m> and <m>\overline{AD}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        In a trapezoid, one of the parallel sides is called the <term>base</term>. Identify the 
+                        <term>base</term> in trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Base: <m>\overline{BC}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The other parallel side in a trapezoid is called the <term>summit</term>. Identify the <term>summit</term>
+                        in trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Summit: <m>\overline{AD}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The remaining two sides of a trapezoid are called legs. Identify the <term>legs</term> in trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Legs: <m>\overline{AB}</m> and <m>\overline{DC}</m>.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the <term>altitude</term> (height) of trapezoid <m>ABCD</m>.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Altitude: <m>\overline{AE}</m>.
+                    </p>
+                    <p>
+                        NOTE: In a trapezoid, the altitude is the perpendicular distance between its 
+                        two parallel bases, always forming a 90-degree angle with the bases.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+        <exercise xml:id="HW-vocab-regular-polygons">
+            <title>Regular Polygons</title>
+            <introduction>
+                <p>
+                    Use <xref ref="fig-polypad-tiling"/> to answer the following questions about regular polygons:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Starting from the top, identify the name of the yellow polygon with three sides.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Triangle.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the name of the bright blue polygon with four sides. 
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Quadrilateral.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the name of the green polygon with five sides.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Pentagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the name of the magenta polygon that has six sides?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Hexagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Give the name of the teal polygon with seven sides.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Heptagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Identify the name of the purple polygon that has eight sides.
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Octagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the name of the orange polygon with nine total sides?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Nonagon.
+                    </p>
+                </answer>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Although not included in this figure, what is the name of a polygon with ten sides?
+                    </p>
+                </statement>
+                <answer>
+                    <p>
+                        Decagon.
+                    </p>
+                </answer>
+            </task>
+        </exercise>
+    </subexercises>
+  </exercises>
   <exercises xml:id="exercises-intro-apply">
     <title>Exercises</title>
     <subexercises xml:id="SAR-intro-apply">
@@ -674,41 +1031,147 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             7 inches in shape 2.
           </p>
         </hint>
+        <answer>
+          <p>
+            Shape 1: 26 inches.
+          </p>
+          <p>
+            Shape 2: 31 inches.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The perimeter of each shape is found by adding the lengths of all its outer sides. Shape 1 has a total perimeter of 
+            26 inches, and Shape 2 has a total perimeter of 31 inches. 
+          </p>
+          <p>
+            Shape 1: 3+3+3+2+3+2+3+2+3+2 = 26 inches
+          </p>
+          <p>
+            Shape 2: 7+3+2+6+2+8+1+1+1 = 31 inches
+          </p>
+        </solution>
       </exercise>
-      <exercise>
-        <statement>
-          <p>
-            Sketch pictures of each of the following:
-            <ol>
-              <li>
-                <p>
-                  An isosceles obtuse triangle
-                </p>
-              </li>
-              <li>
-                <p>
-                  A rhombus that is not a square
-                </p>
-              </li>
-              <li>
-                <p>
-                  An equiangular hexagon which is not equilateral
-                </p>
-              </li>
-              <li>
-                <p>
-                  A concave quadrilateral
-                </p>
-              </li>
-            </ol>
-          </p>
-        </statement>
-        <hint>
-          <p>
-            Reread definitions as needed and check that your sketches satisfy
-            the criteria.
-          </p>
-        </hint>
+      <exercise xml:id="sketch-polygons">
+          <introduction>
+            <p>
+              Sketch pictures of each of the following:
+            </p>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                An isosceles obtuse triangle.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Review the definitions for both <xref ref="def-isosceles" text="custom">isosceles</xref> and 
+                <xref ref="def-triangles-by-angles" text="custom">obtuse</xref>. 
+              </p>
+            </hint>
+            <answer>
+              <figure xml:id="fig-isosceles-obtuse-def">
+                  <caption>A sample isosceles obtuse triangle <m>ABC</m>.</caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="pref-isos-obtuse-tri" 
+                      xml:id="prefid-isos-obtuse-tri">
+                      <xi:include href="prefcode-isos-obtuse-tri.ptx" />
+                  </prefigure>
+                  </image>
+                </figure>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A rhombus that is not a square.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Review the definitions for both <xref ref="def-equilateral" text="custom">rhombus</xref> and 
+                <xref ref="def-rectquads" text="custom">square</xref>. 
+              </p>
+            </hint>
+            <answer>
+              <p>
+                <figure xml:id="fig-equilateral-rhombus">
+                  <caption>A sample rhombus <m>ABCD</m>.</caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="pref-equi-rhom60" 
+                      xml:id="pref-equi-rhom60">
+                      <xi:include href="prefcode-equi-rhom60.ptx" />
+                  </prefigure>
+                  </image>
+                </figure>
+              </p>
+              <p>
+                Rhombus <m>ABCD</m> is not a square. Although all its sides are equal (making it equilateral), its angles 
+                are not all 90 degrees. A true square must have all right angles, a property not shared by every rhombus.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                An equiangular hexagon which is not equilateral.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Review the definitions for both <xref ref="def-equiangular" text="custom">equiangular</xref> and 
+                <xref ref="def-equilateral" text="custom">equilateral</xref>. Recall that a hexagon has six sides.
+              </p>
+            </hint>
+            <answer>
+              <p>
+                <figure xml:id="fig-equiangular-nonequilateral-hexagon-">
+                  <caption>A sample hexagon <m>ABCDEF</m>.</caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="pref-equiang-hexagon" 
+                      xml:id="pref-equiang-hexagon">
+                      <xi:include href="prefcode-equiang-hexagon.ptx" />
+                  </prefigure>
+                  </image>
+                </figure>
+              </p>
+              <p>
+                Hexagon <m>ABCDEF</m> is equiangular with all angles measuring 120 degrees. However, its sides are not all 
+                equal in length, meaning it is not equilateral.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                A concave quadrilateral.
+              </p>
+            </statement>
+            <hint>
+              <p>
+                Review the definitions for both <xref ref="def-convexconcave" text="custom">concave</xref> and 
+                <xref ref="def-quadrilateral" text="custom">quadrilateral</xref>.
+              </p>
+            </hint>
+            <answer>
+              <p>
+                <figure xml:id="fig-concave-quadrilateral-">
+                  <caption>A sample concave quadrilateral <m>ABCD</m>.</caption>
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="pref-concave-quad" 
+                      xml:id="pref-concave-quad">
+                      <xi:include href="prefcode-concave-quad.ptx" />
+                  </prefigure>
+                  </image>
+                </figure>
+              </p>
+              <p>
+                Quadrilateral <m>ABCD</m> is concave because at least one interior angle is greater than 180 degrees,
+                specifically <m>\angle{D}</m>.
+              </p>
+            </answer>
+          </task>
       </exercise>
       <exercise xml:id="label-altitude-etc">
         <statement>
@@ -769,24 +1232,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </hint>
       </exercise>
       <exercise xml:id="SAR-intro-apply-Tangramareas">
-        <statement>
+        <introduction>
           <p> 
             In <xref ref="trioftangrams"/>, three smaller Tangram pieces fill a 
             region congruent to the larger blue isosceles triangle. The square is half as 
             tall as the blue triangle. Suppose that the area of the blue triangle is 
-            18 square inches.
-            <ol>
-              <li>
-                <p>
-                  What is the area of one small orange triangle? How do you know?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the area of the square? How do you know?
-                </p>
-              </li>
-            </ol>
+            18 square inches. Refer to this figure to answer the following questions:
           </p>
             <figure xml:id="trioftangrams">
               <caption>Image for <xref ref="SAR-intro-apply-Tangramareas"/></caption>
@@ -807,12 +1258,44 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 </shortdescription>
               </image>
             </figure>
-        </statement>
-        <answer>
-          <p>
-            Each small triangle has area 4.5 and the square has area 9. 
-          </p>
-        </answer>
+          </introduction>
+          <task>
+            <statement>
+              <p>
+                What is the area of one small orange triangle? How do you know?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Each small orange triangle has an area of 4.5 square inches. 
+              </p>
+            </answer>
+            <solution>
+              <p>
+                The blue triangle has an area of 18 square inches. The green square and two orange triangles together also total 18 
+                square inches. Since the green square is 9 square inches, the remaining 9 is split equally between the two 
+                orange triangles. Therefore, each orange triangle has an area of 4.5 square inches.
+              </p>
+            </solution>
+          </task>
+          <task>
+            <statement>
+              <p>
+                What is the area of the square? How do you know?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                The area of the green square is 9 square inches. 
+              </p>
+            </answer>
+            <solution>
+              <p>
+                The green square is half the height of the blue triangle but has the same base. This means its area is half of 
+                the blue triangle's area. Therefore, the square has an area of 9 square inches. 
+              </p>
+            </solution>
+          </task>
       </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-intro-apply">
@@ -822,18 +1305,30 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           <p>
             Answer the questions:
           </p>
-        </introduction>>
+        </introduction>
         <task>
           <statement>
             <p>
-              Is it possible for a triangle to be equilateral but not equiangular
+              Is it possible for a triangle to be equilateral but not equiangular?
             </p>
           </statement>
+          <hint>
+            <p>
+              Review the definitions for both <xref ref="def-equilateral" text="custom">equilateral</xref> and 
+              <xref ref="def-equiangular" text="custom">equiangular</xref>.
+            </p>
+          </hint>
           <answer>
             <p>
               No
             </p>
           </answer>
+          <solution>
+            <p>
+              A triangle cannot be equilateral without also being equiangular. If all three sides are the same length, then 
+              the angles across from those sides must also be equal. So, an equilateral triangle always has three equal angles.
+            </p>
+          </solution>
         </task>  
         <task>
           <statement>
@@ -853,6 +1348,17 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
               A rhombus is equilateral but not necessarily equiangular.
             </p>
           </answer>
+          <solution>
+            <p>
+              <xref ref="fig-equilateral-rhombus"/> shows that it is possible for a rhombus to be equilateral but not equiangular.
+            </p>
+            <p>
+              A rhombus is classified as an equilateral quadrilateral, meaning all its sides are equal in length. For instance, in rhombus <m>ABCD</m>,
+              all sides are 5 units long. However, a rhombus is typically not equiangular because not all its angles are congruent. While opposite angles
+              are congruent (<m>\angle A \cong \angle C</m> and <m>\angle B \cong \angle D</m>), adjacent angles are not congruent.
+              This characteristic clearly demonstrates that an equilateral figure, such as rhombus <m>ABCD</m>, is not necessarily equiangular.
+            </p>
+          </solution>
           </task>
         <task>
           <statement>

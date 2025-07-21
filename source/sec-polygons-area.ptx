@@ -30,11 +30,12 @@
                     measures and two different lengths.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    Recall the properties of a parallelogram: opposite sides that are equal in length and opposite angles that
+                    are equal in measure. Remember that angles next to each other are supplementary and add up to 180 degrees.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
@@ -43,11 +44,13 @@
                     and four congruent sides.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    Remember that both a square and a rhombus have four congruent sides. A square, however, has all right angles. 
+                    The presence of an acute angle indicates the figure must be a rhombus. 
+                    Recall the definition of a <xref ref="def-equilateral" text="custom">rhombus</xref>.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
@@ -56,11 +59,13 @@
                     do we usually call this parallelogram?
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    A parallelogram with four congruent angles means all its angles are equal. Since the sum of angles in a 
+                    quadrilateral is 360 degrees, each angle must be 90 degrees. Recall that the parallelogram with all right
+                    angles is a <xref ref="def-rectquads" text="custom">square</xref>.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
@@ -68,11 +73,12 @@
                     Sketch two parallelograms which share the same side lengths but have different heights.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    To sketch this parallelogram, review the characteristics of a <xref ref="def-parallelogram" text="custom">parallelogram</xref>
+                    including its height, base length, and interior angle measurements.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>   
             <statement>
@@ -84,11 +90,11 @@
                     argument.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    Add a hint here.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
         <statement>
@@ -122,7 +128,8 @@
     </subsection>
     <subsection xml:id="subsec-area-tri">
         <title>The Area of a Triangle</title>
-    <exploration>
+        
+        <exploration xml:id="explore-area-formula">
         <title>Discovering the Area Formula for a Triangle</title>
         <introduction>
             <p>
@@ -133,45 +140,47 @@
             </p>
             <p>
                 Triangles come in all shapes and sizes. Sketch one or more 
-                examples of the following types of triangles.
+                examples of the following types of triangles. 
             </p>
         </introduction>
-        <task>
+        <task xml:id="task-equilateral-triangle">
             <statement>
                 <p>
                     An equilateral triangle.
                 </p>
             </statement>
             <hint>
-                <p>A sample equilateral triangle with 3 equal sides and 3 equal angles.</p>
-                <image source="equilateral-tri">
-                    <shortdescription>An equilateral triangle.</shortdescription>
-                </image>
+                <p>
+                    To draw an equilateral triangle, recall the definitions for both <xref ref="def-triangle" text="custom">triangle</xref>
+                    and <xref ref="def-equilateral" text="custom">equilateral</xref>.
+                </p>
             </hint>
         </task>
-        <task>
+        <task xml:id="task-right-isosceles">
             <statement>
                 <p>
                     A right isosceles triangle.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    To draw a right isosceles triangle, recall the definitions for both <xref ref="def-right-triangle" text="custom">right</xref>
+                    and <xref ref="def-isosceles" text="custom">isosceles</xref>.
                 </p>
-            </answer>
+            </hint>
         </task>
-        <task>
+        <task xml:id="task-acute-triangle">
             <statement>
                 <p>
                     An acute triangle that is not equilateral.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    To draw an acute triangle, recall the definition for <xref ref="def-triangles-by-angles" text="custom">acute</xref>.
+                    Also, review the definition for <xref ref="def-equilateral" text="custom">equilateral</xref> to ensure the triangle is NOT equilateral.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
@@ -179,11 +188,12 @@
                     An obtuse scalene triangle.
                 </p>
             </statement>
-            <answer>
+            <hint>
                 <p>
-                    Answer.
+                    To draw an obtuse scalene triangle, recall what it means for a triangle to be <xref ref="def-triangles-by-angles" text="custom">obtuse</xref>
+                    and <xref ref="def-scalene" text="custom">scalene</xref>.
                 </p>
-            </answer>
+            </hint>
         </task>
         <task>
             <statement>
@@ -290,7 +300,8 @@
             YouTube video: https://youtu.be/R_cFFMaPGWw-->
             <introduction>
                 <p>
-                    Sketch example(s) of each of the following trapezoids:
+                    Sketch example(s) of each of the following trapezoids. Refer to the definition of trapezoid <xref ref="def-trapezoid"/>
+                    as needed. 
                 </p>
             </introduction>
             <task>
@@ -299,6 +310,11 @@
                         An isosceles trapezoid.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To draw an isosceles trapezoid, recall what it means for a trapezoid to be <xref ref="def-isosceles" text="custom">isosceles</xref>. 
+                    </p>
+                </hint>
             </task>
             <task>
                 <statement>
@@ -306,6 +322,11 @@
                         A trapezoid with one right angle.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To draw a trapezoid with one right angle, refer to the definition <xref ref="def-typesofangles" text="custom">right angle</xref>.
+                    </p>
+                </hint>
             </task>
             <task>
                 <statement>
@@ -314,6 +335,11 @@
                         base angle.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To draw this trapezoid, review what it means for a base angle to be <xref ref="def-typesofangles" text="custom">acute or obtuse</xref>.
+                    </p>
+                </hint>
             </task>
         </task>
         <task>
@@ -1115,9 +1141,11 @@
                     </answer>
                     <solution>
                         <p>
-                            A square is circumscribed by a circle when its corners touch the circle's edge. With a radius of 5, 
-                            the circle's diameter is 10. This 10 is also the square's diagonal. The square's area is half of 10 squared,
-                            which is 50. Therefore, the area of BEFG is 50 sq units.
+                            When a square is circumscribed by a circle, its corners touch the circle's edge. A radius of 
+                            5 means the circle's diameter is 10, which is also the square's diagonal. The square can be divided 
+                            into two congruent triangles along this diagonal. Each triangle has a base of 10 (the diagonal) and 
+                            a height of 5 (half the diagonal). The area of one triangle is <m>\frac{1}{2} \cdot 10 \cdot 5 = 25</m>.
+                            Since the square comprises two such triangles, the total area of BEFG is <m>2 \cdot 25 = 50</m> sq units.
                         </p>
                     </solution>
                 </task>
