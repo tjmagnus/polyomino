@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-geonumberplay-instructor" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Instructor Notes for <xref ref="ch-geonumberplay"/></title>
+    <p>
+        This chapter provides optional opportunities to explore topics outside the 
+        standard curriculum and to observe the connections between geometry, algebra, number, 
+        and operations. Observing patterns, making conjectures, and justification is encouraged
+        throughout.   
+    </p>
+    <subsection>
+        <title>Notes for <xref ref="sec-geonumberplay-star"/></title>
+        <p>
+            In this section, we begin by showing how a star polygon is constructed. For an 
+            inclass activity, the instructor may want to provide handouts with the templates
+            and colored pencils. Small transparent straight edges can aid students in 
+            drawing these designs.  GeoGebra interactives are provided and may be used in lieu 
+            of hand sketches. 
+        </p>
+        <p>
+            Five-dot and six-dot star polygons are used to illustrate this process and to 
+            introduce the notion of connected components. In graph theory, the term connected 
+            component refers to a subset of vertices (points) that one can reach by traveling 
+            along edges. In fact, each star polygon is an example of a graph with <m>n</m> 
+            vertices and <m>n</m> edges and an instructor could use this section to introduce 
+            students to the field of graph theory. Star polygon <m>\{_{3}^{6}\}</m> shows
+            that a star "polygon" sometimes ends up simply being an asterisk-like intersection 
+            of line segments. 
+        </p>
+        <p>
+            Star polygons drawn on equally spaced dots around a circle 
+            will have rotational and reflectional symmetry. If you notice student work lacking 
+            symmetry, it is a good idea to help the student focus on skipping the same number and 
+            connecting dots. Although some students may want to sketch segments in a different order
+            like 1 to <m>k</m>, 2 to <m>k+1</m>, 3 to <m>k+2</m>, etc., they are encouraged to  
+            sketch one connected component at a time possibly without lifting their pencil. Drawing 
+            each connected component in a different color will make it easier to make and 
+            verify conjectures.
+        </p>
+        <p>
+            Once the students have drawn a few star polygons, they will be invited to predict 
+            other star polygon designs based on the number of dots and the skip number. Give  
+            the students time to figure these out on their own through experimentation and 
+            discussion. I sometimes suggest other <m>n,k</m> pairs that might confirm or 
+            contradict their claims as a way of helping them refine and support their
+            conjectures.
+        </p>
+        <p>
+            Key terms: star polygon, connected component, greatest common factor.
+        </p>
+    </subsection>
+</section>
