@@ -2,8 +2,8 @@
 
 <diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
     <coordinates bbox="(-3.5,-2.5,3.5,2.5)">
-      <polygon points="((-1,-2.598),(1,-2.598),(2.5,0),(1,2.598),(-1,2.598),(-2.5,0))" closed="yes" fill="plum" size="2">
-        <style>stroke:black; stroke-width:2;</style>
+      <polygon points="((-1,-2.598),(1,-2.598),(2.5,0),(1,2.598),(-1,2.598),(-2.5,0))" closed="yes" fill="none" size="2"
+        stroke="black" stroke-width="2">
       </polygon>
 
       <point name="A" p="(-1,-2.498)" fill = "lavender" />

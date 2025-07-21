@@ -2,8 +2,7 @@
 
 <diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
   <coordinates bbox="(-4,-1,7,6)">
-    <polygon points="((-1.5,2),(5.3,2),(3,5.2),(-3,5.2))" closed="yes" fill="pink" size="2">
-      <style>stroke:blue; stroke-width:2;</style>
+    <polygon points="((-1.5,2),(5.3,2),(3,5.2),(-3,5.2))" closed="yes" fill="none" size="2" stroke="black">
     </polygon>
 
     <point name="A" p="(-3,5.2)" />
