@@ -1670,7 +1670,7 @@
           </choice>
         </choices>
       </exercise>
-      <exercise label="Toolbox-geonum-starpoly-GCF-l">
+      <exercise label="Toolbox-geonum-starpoly-GCFgeneral-l">
         <introduction>
           <p>
             Suppose <m>d</m> is the greatest common factor of <m>n</m> and <m>k.</m>
