@@ -1,10 +1,10 @@
-<!--Why are no labels showing up?-->
+<!--Why are no points showing up?-->
+<?xml version="1.0" encoding="UTF-8"?>
 
-<diagram dimensions="(320,183.8)" margins="10">
-  
-  <coordinates bbox="(0,0,10,5.46)">
-    <definition>
-    <point p1="(0,5.46)" size="1" alignment="se"><m>A</m></point>
+ <diagram width="225" height="130" margins="10">
+ <!--<diagram dimensions="(320,183.8)" margins="10">-->
+  <coordinates bbox="(-1,-1,11,6.46)">
+    <point p1="(0,5.46)" size="1" alignment="se"/>
     <point p2="(0,0)" size="1" alignment="ne"><m>B</m></point>
     <point p3="(10,0)" size="1" alignment="nw"><m>C</m></point>
     <point p4="(10,5.46)" size="1" alignment="sw"><m>D</m></point>
@@ -12,15 +12,23 @@
     <point p6="(10,3.64)" size="1" alignment="w"><m>F</m></point>
     <point p7="(5,1.82)" size="1" alignment="n"><m>G</m></point>
     <point p8="(5,5.46)" size="1" alignment="s"><m>H</m></point>
+    <label anchor="(0,5.46)" alignment="nw" scale="0.8"> <m>A</m> </label>
+    <label anchor="(0,0)" alignment="sw" scale="0.8"> <m>B</m> </label>
+    <label anchor="(10,0)" alignment="se" scale="0.8"> <m>C</m> </label>
+    <label anchor="(10,5.46)" alignment="ne" scale="0.8"> <m>D</m> </label>
+    <label anchor="(0,3.64)" alignment="w" scale="0.8"> <m>E</m> </label>
+    <label anchor="(10,3.64)" alignment="e" scale="0.8"> <m>F</m> </label>
+    <label anchor="(5,5.46)" alignment="n" scale="0.8"> <m>G</m> </label>
+    <label anchor="(5,1.82)" alignment="n" scale="0.8"> <m>H</m> </label>
     <rectangle lower-left="(0,0)" dimensions="(10,5.46)" stroke="black"/>
-      <path start="(0,0)" stroke="blue">
-    <lineto point="(10,3.64)"/>
-    <lineto point="(5,5.46)"/>
-      <lineto point="(0,3.64)"/>
+      <path start="(0,0)" stroke="blue" thickness="1.3">
+    <lineto point="(9.92,3.64)"/>
+    <lineto point="(5,5.44)"/>
+      <lineto point="(0.08,3.64)"/>
         <lineto point="(10,0)"/>
         </path>  
-        <angle-marker points="((5,0),(0,0),(10,3.64))">
-          <m>20</m>
+        <angle-marker scale="0.65" offset="(0,1.5)" stroke="blue" thickness="1.3" points="((5,0),(0,0),(10,3.64))">
+          <m>20^{\circ}</m>
           </angle-marker>
   </coordinates>
 </diagram>
