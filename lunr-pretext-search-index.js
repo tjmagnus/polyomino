@@ -3979,9 +3979,9 @@ var ptx_lunr_docs = [
   "body": "  Suppose . What does that tell us about the relationship between , , and                                         "
 },
 {
-  "id": "Toolbox-geonum-starpoly-GCF-l",
+  "id": "Toolbox-geonum-starpoly-GCFgeneral-l",
   "level": "2",
-  "url": "sec-geonumberplay-star.html#Toolbox-geonum-starpoly-GCF-l",
+  "url": "sec-geonumberplay-star.html#Toolbox-geonum-starpoly-GCFgeneral-l",
   "type": "Exercise",
   "number": "6.1.4.5",
   "title": "",
@@ -4048,7 +4048,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.2",
   "title": "Geometry on a Billiard Table",
-  "body": " Geometry on a Billiard Table   In this section, we explore the path of a billiard ball as it travels around a rectangular pool table and determine which pocket the ball will land in. Throughout this section, we assume that there is no spin on the ball so that it travels in a straight line; it encounters no bumps, fuzz, or other impediments as it travels. We also assume that the ball has no resistance and will continue to travel until in lands in one of the corner pockets. Once again, we will see a connection between geometry and properties of the set of counting numbers.    The Law of Reflection  Though we describe this as billiard ball geometry, the behavior of our ideal ball is more like light hitting mirrors.   Discovering the Law of Reflection    In , a ball traveling in direction meets wall at point .         "
+  "body": " Geometry on a Billiard Table   In this section, we explore the path of a billiard ball as it travels around a rectangular pool table and determine which pocket the ball will land in. Throughout this section, we assume that there is no spin on the ball so that it travels in a straight line; it encounters no bumps, fuzz, or other impediments as it travels. We also assume that the ball has no resistance and will continue to travel until in lands in one of the corner pockets. Once again, we will see a connection between geometry and properties of the set of counting numbers.    The Law of Reflection  Though we describe this as the path of a billiard ball, the behavior of our ideal ball is more like light hitting mirrors.   Discovering the Law of Reflection    In , a ball traveling in direction meets wall at point .   GeoGebra interactive for bounce angle       Check the wall or mirror box to show the wall that will deflect the ball and the angle this wall makes with the path of the ball. What is the measure of angle ? Use geometric principles to explain how you know this.      Then check the reflection box to show the path the ball will take after it leaves the wall. Point is the reflection of point across line . Explain why .      What do and tell you about and ? Explain.      In the field of Optics, the angle of incidence is defined as the angle that the directional ray makes with the ray perpendicular to the mirror. Check the perpendicular box to see the perpendicular to line . What is the measure of , the angle of incidence?      In Optics, angle is called the angle of reflection . How is related to ? Give a thorough argument of why this must be the case for any acute angle of incidence.       Whether we focus on the angles that the incoming and departing rays make with the mirror or if we, like the physicists, compare the angles those rays make with the perpendicular to the mirror, the pair of angles are congruent. Keep this in mind as you construct your billiard ball paths.   Snell's Law (adapted)   Assuming a frictionless environment and no spin on the ball, a ball traveling toward a wall at an angle will rebound at the same angle.        shows the path of a billiard ball hit at a angle from the lower left-hand corner and landing in the lower right corner pocket.   Billiard Path with angle.        B  C  D  E  F  G  H   A    B    C    D    E    F    G    H           20^{\\circ}           Which of the following angles also have measure                                            Determine the measure of each of the following angles:            70   Correct.                           70   Correct.                           110   Correct.                           40   Correct.                          140   Correct.                           160   Correct.                    Use repeated applications of Snell's Law to explain why in this particular case.        "
 },
 {
   "id": "explabel-law-reflect",
@@ -4057,7 +4057,25 @@ var ptx_lunr_docs = [
   "type": "Exploration",
   "number": "6.2.1",
   "title": "Discovering the Law of Reflection.",
-  "body": " Discovering the Law of Reflection    In , a ball traveling in direction meets wall at point .       "
+  "body": " Discovering the Law of Reflection    In , a ball traveling in direction meets wall at point .   GeoGebra interactive for bounce angle       Check the wall or mirror box to show the wall that will deflect the ball and the angle this wall makes with the path of the ball. What is the measure of angle ? Use geometric principles to explain how you know this.      Then check the reflection box to show the path the ball will take after it leaves the wall. Point is the reflection of point across line . Explain why .      What do and tell you about and ? Explain.      In the field of Optics, the angle of incidence is defined as the angle that the directional ray makes with the ray perpendicular to the mirror. Check the perpendicular box to see the perpendicular to line . What is the measure of , the angle of incidence?      In Optics, angle is called the angle of reflection . How is related to ? Give a thorough argument of why this must be the case for any acute angle of incidence.     "
+},
+{
+  "id": "principle-Snell",
+  "level": "2",
+  "url": "sec-geonumberplay-billiards.html#principle-Snell",
+  "type": "Principle",
+  "number": "6.2.2",
+  "title": "Snell’s Law (adapted).",
+  "body": " Snell's Law (adapted)   Assuming a frictionless environment and no spin on the ball, a ball traveling toward a wall at an angle will rebound at the same angle.   "
+},
+{
+  "id": "ckpt-snell-find-angles",
+  "level": "2",
+  "url": "sec-geonumberplay-billiards.html#ckpt-snell-find-angles",
+  "type": "Checkpoint",
+  "number": "6.2.3",
+  "title": "",
+  "body": "   shows the path of a billiard ball hit at a angle from the lower left-hand corner and landing in the lower right corner pocket.   Billiard Path with angle.        B  C  D  E  F  G  H   A    B    C    D    E    F    G    H           20^{\\circ}           Which of the following angles also have measure                                            Determine the measure of each of the following angles:            70   Correct.                           70   Correct.                           110   Correct.                           40   Correct.                          140   Correct.                           160   Correct.                    Use repeated applications of Snell's Law to explain why in this particular case.      "
 },
 {
   "id": "sec-geonumberplay-instructor",
