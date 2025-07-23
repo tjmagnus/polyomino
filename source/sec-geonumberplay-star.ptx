@@ -1436,7 +1436,7 @@
           <task>
             <introduction>
               <p>
-                Sketch the star polygons, <m>\{_{15}^{6}\}</m> and <m>\{_{20}^{8}\}</m>.
+                Sketch the star polygons, <m>\{_{6}^{15}\}</m> and <m>\{_{8}^{20}\}</m>.
               </p>               
               <figure xml:id="fifteendotstarpolytemplate2">
                 <caption>Twelve-dot template.</caption>
@@ -1741,6 +1741,56 @@
           </match> 
         </cardsort>                   
       </exercise>
+<!--Consider randomizing some of these. Use conditions like divides, no common factors, 
+1<GCF(n,k)<k, etc.-->
+      <exercise>
+        <statement>
+          <p>
+            Identify a value of <m>k\neq 14</m> such that 
+            <m>\{_{k}^{85}\}\cong \{_{23}^{85}\}</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            62
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <task label="SAR-geonum-starpoly-findKreg">
+          <statement>
+            <p>
+              Determine all possible values of <m>k</m> such that <m>\{_{k}^{55}\}</m>
+              is a regular polygon.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>k=1</m> and <m>k=54</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise>
+        <task label="SAR-geonum-starpoly-findKregcomponents">
+          <statement>
+            <p>
+              Determine all possible values of <m>k\lt 45</m> such that <m>\{_{k}^{90}\}</m>
+              consists of multiple copies of some regular polygon.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              There are eight values!
+            </p>
+          </hint>
+          <answer>
+            <p>
+              2,3,5,6,9,10,15,18, and 30
+            </p>
+          </answer>
+        </task>
+      </exercise>
       <exercise label="SAR-geonum-starpoly-desc6042-l">
         <statement>
           <p>
@@ -1750,7 +1800,7 @@
         </statement>
         <response />
       </exercise>
-      <exercise label="SAR-geonum-starpoly-findNandKstar-l"/>
+      <exercise label="SAR-geonum-starpoly-findNandKstar-l">
         <introduction>
           <p>
             A star polygon <m>\{_{k}^{n}\}</m> consists of five copies of <m>\{_{3}^{16}\}</m> 
@@ -1779,7 +1829,8 @@
         <task label="SAR-geonum-starpoly-findKstar-l">
           <statement>
             <p>
-              Determine all possible values of <m>.</m>
+              Determine all possible values of <m>k\lt n</m> such that 
+              <m>\{_{k}^{n}\}</m> has five copies of <m>\{_{3}^{16}\}.</m>
             </p>
           </statement>
           <answer>
@@ -1794,29 +1845,118 @@
             </p>
           </solution>
         </task>
-        <task label="SAR-geonum-starpoly-findKreg">
-          <statement>
-            <p>
-              Determine all possible values of <m>k.</m>
-            </p>
-          </statement>
-          <answer>
-            <p>
-              <m>k=10</m> and <m>k=30</m>
-            </p>
-          </answer>
-        </task>
+      </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-geonum-starpoly">
       <title>Extending the Concepts</title>
-      <exercise>
-        <statement>
+      <exercise label="ExtConc-geonum-starpoly-polygon">
+        <introduction>
           <p>
-            Add some: Relationship between k, n, GCF(n,k), LCM(n,k). Relationship between GCF and the
-            connected component.
-            Symmetry? Measurement?
+            In this exercise, we will explore the relationship between star polygons and 
+            polygons.
           </p>
-        </statement>
+        </introduction>
+        <task label="ExtConc-geonum-starpoly-simple-polygon">
+          <statement>
+            <p>
+              A <term>simple polygon</term> is a polygon that does not intersect itself. In 
+              other words, the edges of a simple polygon will only intersect at their 
+              endpoints. Which, if any, star polygons are simple polygons? 
+            </p>
+          </statement>
+          <response />
+        </task>
+        <task label="ExtConc-geonum-starpoly-polygon-simplify">
+          <statement>
+            <p>
+              Show that you can <sq>simplify</sq> the star polygon <m>\{_{2}^{5}\}</m>,
+              shown in <xref ref="fig-starpoly-5-2"/>,
+              by placing an additional vertex at each point of intersection and erasing 
+              internal segments of edges. Remember that polygons may be <xref ref="def-convexconcave">convex</xref> or 
+              <xref ref="def-convexconcave">concave</xref>. 
+            </p>
+          </statement>
+        </task>
+        <task label="ExtConc-geonum-starpoly-simpoly-erasedshape">
+          <statement>
+            <p>
+              What shape was formed by the segments you erased?
+            </p>
+          </statement>
+        </task>
+        <task label="ExtConc-geonum-starpoly-simpoly-numsides">
+          <statement>
+            <p>
+              How many sides does the simplified polygon have?
+            </p>
+          </statement>
+        </task>
+      </exercise>
+<!--Add some: Relationship between k, n, GCF(n,k), LCM(n,k). Relationship between GCF and the
+connected component. Symmetry? Measurement?-->
+      <exercise>
+        <introduction>
+          <p>
+            The star polygon <m>\{_{3}^{8}\}</m> is given in <xref ref="fig-starpoly-eight3"/>.
+          </p>
+          <figure xml:id="fig-starpoly-eight3">
+            <caption>The star polygon <m>\{_{3}^{8}\}</m>.</caption>
+            <image>
+              <prefigure xmlns="https://prefigure.org" label="prefiglabel-starpoly-eight3"/>
+                <diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
+                  <definition>
+                  <!--alignments=['nw','w','sw','s','se','e','ne','n']-->
+                  </definition>
+                  <definition>f(t)=(-sin(2*pi*(1+t)/8),cos(2*pi*(1+t)/8))</definition>
+                  <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
+                  <repeat parameter="k=0..7">
+                      <point at="point" p="f(k)" alignment="alignments[k]" size="2">
+                      <!--<m>${8-k}</m>-->
+                      </point>
+                  </repeat>
+                  <path start="f(0)" stroke="magenta">
+                <lineto point="f(3)"/>
+                <lineto point="f(6)"/>
+                <lineto point="f(1)"/>
+                <lineto point="f(4)"/>
+                <lineto point="f(7)"/>
+                <lineto point="f(2)"/>
+                <lineto point="f(5)"/>
+                <lineto point="f(0)"/>
+                </path>
+                  </coordinates>
+                  <annotations>
+                    <annotation id="figure" text="Eight Points around a Circle">
+                    <annotation id="point k=0"
+                        text="Point 8"
+                        speech="point eight"/>
+                    <annotation id="point k=1"
+                        text="Point 7"
+                        speech="point seven"/>
+                    <annotation id="point k=2"
+                        text="Point 6"
+                        speech="point six"/>
+                    <annotation id="point k=3"
+                        text="Point 5"
+                        speech="point five"/>
+                    <annotation id="point k=4"
+                        text="Point 4"
+                        speech="point four"/>
+                    <annotation id="point k=5"
+                        text="Point 3"
+                        speech="point three"/>
+                    <annotation id="point k=6"
+                        text="Point 2"
+                        speech="point two"/>
+                    <annotation id="point k=7"
+                        text="Point 1"
+                        speech="point one"/>
+                    </annotation>
+                </annotations>
+              </diagram>
+            </image>
+          </figure>
+        </introduction>
       </exercise>
     </subexercises>
     <subexercises xml:id="Writing-geonum-starpoly">
@@ -1839,14 +1979,7 @@
 <!--TO DO TO DO TO DO
 In 1.2, add definition of polygon. Also add a clarification about how the sides of 
 polygons only meet at endpoints and add a non-example with intersecting sides.-->
-      <exercise>
-        Are star polygons really <!--<xref ref="def-polygon" text="custom">-->polygons<!--<\xref>-->? 
-        Recognizing that polygons may be <xref ref="def-convexconcave">convex</xref> or 
-        <xref ref="def-convexconcave">concave</xref>, how might we adapt a design like 
-        <xref ref="fig-six-two-starpoly"/> or 
-        <xref ref="fig-starpoly-5-2"/> so that it satisfies the definition of a polygon?
-        Are there some star polygons that cannot be drawn as polygons? Explain.
-      </exercise>
+      
     </subexercises>
   </exercises>
 </section>  
