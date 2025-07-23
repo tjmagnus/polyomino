@@ -2,13 +2,13 @@
 
 <diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
   <coordinates bbox="(-4,-1,7,6)">
-    <polygon points="((-1.5,2),(5.3,2),(3,5.2),(-3,5.2))" closed="yes" fill="none" size="2" stroke="black">
+    <polygon points="((-1.5,2),(5.3,2),(3,5.2),(-3,5.2))" closed="yes" fill="none" size="2" stroke="black" thickness="1.5">
     </polygon>
 
-    <point name="A" p="(-3,5.2)" />
-    <point name="B" p="(3,5.2)" />
-    <point name="C" p="(5.3,2)" />
-    <point name="D" p="(-1.5,2)" />
+    <point name="A" p="(-3,5.2)" fill="white" thickness="1.5"/>
+    <point name="B" p="(3,5.2)" fill="white" thickness="1.5"/>
+    <point name="C" p="(5.3,2)" fill="white" thickness="1.5"/>
+    <point name="D" p="(-1.5,2)" fill="white" thickness="1.5"/>
 
     <label p="(-2.1,4.8)" scale="0.8"><m>\scriptsize \textbf{60°}</m></label>
     <label p="(2.6,4.8)" scale="0.8"><m>\scriptsize \textbf{120°}</m></label>
