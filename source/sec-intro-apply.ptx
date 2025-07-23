@@ -1378,6 +1378,24 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
               A rectangle is equiangular but not necessarily equilateral.
             </p>
           </answer>
+          <solution>
+            <p>
+              <figure xml:id="fig-equiangular-rectangle-">
+                <caption>A sample rectangle <m>ABCD</m>.</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="pref-equiang-rectangle" 
+                    xml:id="pref-equiang-rectangle">
+                    <xi:include href="prefcode-equiang-rectangle.ptx" />
+                  </prefigure>
+                </image>
+              </figure>
+            </p>
+            <p>
+              A rectangle is classified as an equiangular quadrilateral because all its angles are congruent at 90 degrees.
+              However, a rectangle is not always equilateral because its sides are not necessarily the same length. In rectangle
+              <m>ABCD</m>, both these characteristics are evident.
+            </p>
+          </solution>
         </task>
       </exercise>
       <exercise>
