@@ -4,15 +4,14 @@
   <coordinates bbox="(-6,-1,6,8)">
 
     <!-- Arrowhead concave quadrilateral -->
-    <polygon points="((-3,1), (0,7), (3,1), (0,2.5))" closed="yes" fill="#B2D8B2">
-      <style>stroke:black; stroke-width:2;</style>
+    <polygon points="((-3,1), (0,7), (3,1), (0,2.5))" closed="yes" fill="none" stroke="black" thickness="1.5">
     </polygon>
 
     <!-- Points -->
-    <point name="A" p="(-2.9,1.1)" fill="green"/>
-    <point name="B" p="(0,7)" fill="green"/>
-    <point name="C" p="(2.9,1.1)" fill="green"/>
-    <point name="D" p="(0,2.5)" fill="green"/>
+    <point name="A" p="(-2.9,1.1)" fill="white" thickness="1.5"/>
+    <point name="B" p="(0,7)" fill="white" thickness="1.5"/>
+    <point name="C" p="(2.9,1.1)" fill="white" thickness="1.5"/>
+    <point name="D" p="(0,2.5)" fill="white" thickness="1.5"/>
 
     <!-- Optional labels -->
     <label p="(-2.9,0.7)" scale="0.8"><m>\scriptsize \textbf{A}</m></label>

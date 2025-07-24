@@ -32,8 +32,7 @@
             </statement>
             <hint>
                 <p>
-                    Recall the properties of a parallelogram: opposite sides that are equal in length and opposite angles that
-                    are equal in measure. Remember that angles next to each other are supplementary and add up to 180 degrees.
+                    Recall the properties of a parallelogram including side lengths and angle measures.
                 </p>
             </hint>
         </task>
@@ -46,9 +45,8 @@
             </statement>
             <hint>
                 <p>
-                    Remember that both a square and a rhombus have four congruent sides. A square, however, has all right angles. 
-                    The presence of an acute angle indicates the figure must be a rhombus. 
-                    Recall the definition of a <xref ref="def-equilateral" text="custom">rhombus</xref>.
+                    What special parallelogram has four congruent sides? How does including an acute angle determine its other 
+                    angle measures?
                 </p>
             </hint>
         </task>
@@ -61,9 +59,8 @@
             </statement>
             <hint>
                 <p>
-                    A parallelogram with four congruent angles means all its angles are equal. Since the sum of angles in a 
-                    quadrilateral is 360 degrees, each angle must be 90 degrees. Recall that the parallelogram with all right
-                    angles is a <xref ref="def-rectquads" text="custom">square</xref>.
+                    If all angles in a parallelogram are congruent, then they must each be 90 degrees. What is the special name 
+                    for a parallelogram with four right angles?
                 </p>
             </hint>
         </task>

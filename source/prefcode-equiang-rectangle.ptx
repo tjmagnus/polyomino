@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
+  <coordinates bbox="(-4,-1,7,6)">
+    <polygon points="((-3,4),(6,4),(6,2),(-3,2))" closed="yes" fill="none" size="2" stroke="black" thickness="1.5">
+    </polygon>
+
+    <point name="A" p="(-3,4)" fill="white" thickness="1.5"/>
+    <point name="B" p="(6,4)" fill="white" thickness="1.5"/>
+    <point name="C" p="(6,2)" fill="white" thickness="1.5"/>
+    <point name="D" p="(-3,2)" fill="white" thickness="1.5"/>
+
+    <label p="(-2.3,3.7)" scale="0.8"><m>\scriptsize \textbf{90°}</m></label>
+    <label p="(5.5,3.7)" scale="0.8"><m>\scriptsize \textbf{90°}</m></label>
+    <label p="(5.5,2.3)" scale="0.8"><m>\scriptsize \textbf{90°}</m></label>
+    <label p="(-2.3,2.3)" scale="0.8"><m>\scriptsize \textbf{90°}</m></label>
+
+    <label p="(-3.5,4.3)" scale="0.8"><m>\scriptsize \textbf{A}</m></label>
+    <label p="(6.5,4.3)" scale="0.8"><m>\scriptsize \textbf{B}</m></label>
+    <label p="(6.5,1.7)" scale="0.8"><m>\scriptsize \textbf{C}</m></label>
+    <label p="(-3.5,1.7)" scale="0.8"><m>\scriptsize \textbf{D}</m></label>
+
+    <label p="(6.4,3)" scale="0.8"><m>\scriptsize \textbf{2}</m></label>
+    <label p="(1.5,4.3)" scale="0.8"><m>\scriptsize \textbf{5}</m></label>
+    <label p="(1.5,1.7)" scale="0.8"><m>\scriptsize \textbf{5}</m></label>
+    <label p="(-3.4,3)" scale="0.8"><m>\scriptsize \textbf{2}</m></label>
+  </coordinates>
+</diagram>

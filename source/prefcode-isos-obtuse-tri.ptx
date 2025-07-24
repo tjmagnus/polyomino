@@ -2,16 +2,15 @@
 
 <diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
     <coordinates bbox="(-5,-5,5,5)">
-      <polygon points="((-4,0),(4,0),(0,2))" closed="yes" fill="skyblue" size="2">
-        <style>stroke:black; stroke-width:2;</style>
+      <polygon points="((-4,0),(4,0),(0,2))" closed="yes" fill="none" size="2" stroke="black" thickness="1.5">
       </polygon>
 
-      <point name="A" p="(-4,0)" />
-      <point name="B" p="(4,0)" />
-      <point name="C" p="(0,2)" />
+      <point name="A" p="(-4,0)" fill="white" thickness="1.5"/>
+      <point name="B" p="(4,0)" fill="white" thickness="1.5"/>
+      <point name="C" p="(0,2)" fill="white" thickness="1.5"/>
 
-      <label p="(-3,0.2)" scale="0.8"><m>\scriptsize \textbf{30°}</m></label>
-      <label p="(3,0.2)" scale="0.8"><m>\scriptsize \textbf{30°}</m></label>
+      <label p="(-2.8,0.25)" scale="0.8"><m>\scriptsize \textbf{30°}</m></label>
+      <label p="(2.8,0.25)" scale="0.8"><m>\scriptsize \textbf{30°}</m></label>
       <label p="(0.1,1.5)" scale="0.8"><m>\scriptsize \textbf{120°}</m></label>
 
       <label p="(-4.5,0)" scale="0.8"><m>\scriptsize \textbf{A}</m></label>
