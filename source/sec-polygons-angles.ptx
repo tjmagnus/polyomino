@@ -1540,6 +1540,24 @@
                     Explain how this follows from results of this section.
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Think about the definition of a right triangle and compare the measures of its angles. What is the sum 
+                    of the interior angles in any triangle?
+                </p>
+            </hint>
+            <answer>
+                <p>
+                    Yes, the right angle must be the largest angle in a right triangle.
+                </p>
+            </answer>
+            <solution>
+                <p>
+                    In any triangle, the angle measures add up to 180 degrees. A right triangle has one 90 degree angle, so the 
+                    other two angles must add up to 90 degrees. That means each of those two angles must be less than 90 degrees, 
+                    so they are acute. Since 90 degrees is greater than any acute angle, the right angle is the largest.
+                </p>
+            </solution>
         </exercise>
         <exercise>
             <statement>
