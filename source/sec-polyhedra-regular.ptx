@@ -740,6 +740,38 @@
                         Sketch a net for a cube and use it to construct a cube.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        Recall that a cube has six square faces. In a notebook, try sketching six connected squares that can
+                        easily fold into a 3D shape. Each face should have four edges that connect to other faces.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        There are many right answers to this problem. See the "Solution" below for a sample net of a cube.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                      <figure xml:id="fig-net-cube-">
+                        <caption>A sample net for a cube.</caption>
+                        <image>
+                          <prefigure xmlns="https://prefigure.org" label="pref-net-cube6" 
+                            xml:id="pref-net-cube6">
+                            <xi:include href="prefcode-net-cube6.ptx" />
+                          </prefigure>
+                        </image>
+                      </figure>
+                    </p>
+                    <p>
+                        There are 11 valid cube nets in total. One example of a cube net forms the shape of a "T" with one square in 
+                        the center, one square above, one to the left, one to the right, and two below.
+                    </p>
+                    <p>
+                        The T-shaped cube net can be folded by first making the center square the base. The next step is to fold up the 
+                        four squares around it to create the walls. Finally, fold the remaining square over the top to close the cube.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <title>Nets for Polyhedra?</title>
