@@ -1284,6 +1284,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 What is the area of one small orange triangle? How do you know?
               </p>
             </statement>
+            <hint>
+              <p>
+                To find the area of one small orange triangle, consider how many of these small triangles would fit into the 
+                larger blue isosceles triangle.
+              </p>
+            </hint>
             <answer>
               <p>
                 Each small orange triangle has an area of 4.5 square inches. 
@@ -1303,6 +1309,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 What is the area of the square? How do you know?
               </p>
             </statement>
+            <hint>
+              <p>
+                Refer to the given information regarding the area of the blue triangle and the height of the green square. 
+                Consider how this information can be used to determine the area of the green square.
+              </p>
+            </hint>
             <answer>
               <p>
                 The area of the green square is 9 square inches. 
