@@ -715,6 +715,23 @@
                         </image>
                     </figure>
                 </statement>
+                <hint>
+                    <p>
+                        Recall that a regular tetrahedron has four triangular faces. Each triangular face connects to three other faces.
+                        Visualize or sketch how each net (Figure a and Figure b) would fold up in 3D.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        Figure b is the correct net for a regular tetrahedron.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        In Figure b, folding each triangle along the interior lines results in a closed shape with four equal
+                        triangular faces and four vertices. This is characteristic of a regular tetrahedron.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <title>Nets for a Cube</title>
@@ -772,7 +789,7 @@
                     </statement>
                     <hint>
                         <p>
-                            Recall from earlier in this section that a octahedron has eight faces. How can the number of faces
+                            Recall from earlier in this section that an octahedron has eight faces. How can the number of faces 
                             of an octahedron be used to calculate its number of edges?
                         </p>
                     </hint>
@@ -852,9 +869,8 @@
                     </statement>
                     <hint>
                         <p>
-                            Recall from earlier in this section that a icosahedron has 20 faces. How can the number of faces
-                            of an icosahedron be used to calculate its number of edges? How can both number of faces and edges then
-                            be used to then calculate vertices?
+                            Recall from earlier in this section that a icosahedron has 20 faces. How can this information be used to'
+                            calculate both number of edges and vertices?
                         </p>
                     </hint>
                     <answer>
