@@ -818,7 +818,7 @@
       </figure>
         </statement>
       </task>
-      <task>
+      <task xml:base="semireg-tilings-surround-arrangement-task" label="semireg-tilings-surround-arrangement-task">
         <statement>
           <p>
             Choose one of the two triangles at this vertex and attempt 
@@ -827,7 +827,7 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task xml:id="semireg-tilings-surround-task-2" label="semireg-tilings-surround-task-2-label">
         <statement>
         <p>
           Note that each triangle in a 3.3.6.6 must share a side with 
@@ -845,73 +845,75 @@
         </p>
       </statement>
     </task>
-      <task>
-        <statement>
-          <p>
-            There is a second group of four regular polygons consisting of  
-            two equilateral triangles and two other polygons.
-            <ol>
-              <li>
-                <p>
-                  What are the other two polygons? We will represent the number of  
-                  sides of these polygons by <m>m</m> and <m>n</m>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Explain why the arrangement <m>3.3.m.n</m> will not extend to 
-                  a semiregular tiling using an argument similar to what we did 
-                  with <m>3.3.6.6</m>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Explain why the arrangement <m>3.m.3.n</m> also fails to create a 
-                  semiregular tiling.
-                </p>
-              </li>
-            </ol>
-          </p>
+    <task xml:id="semireg-tilings-triangles-polygons-task" label="semireg-tilings-triangles-polygons-task-label">
+      <statement>
+        <p>
+          There is a second group of four regular polygons consisting of  
+          two equilateral triangles and two other polygons.
+        </p>
+        <p>
+          What are the other two polygons? We will represent the number of  
+          sides of these polygons by <m>m</m> and <m>n</m>.
+        </p>
+      </statement>
+    </task>
+    <task xml:id="semireg-tilings-extend-argue-task" label="semireg-tilings-extend-argue-task-label">
+      <statement>
+        <p>
+          Explain why the arrangement <m>3.3.m.n</m> will not extend to 
+          a semiregular tiling using an argument similar to what we did 
+          with <m>3.3.6.6</m>.
+        </p>
         </statement>
-      </task>
-      <task>
+    </task>
+    <task xml:id="semireg-tilings-arrangement-fail-task" label="semireg-tilings-arrangement-fail-task-label">
+    <statement>
+      <p>
+        Explain why the arrangement <m>3.m.3.n</m> also fails to create a 
+        semiregular tiling.
+      </p>
+    </statement>
+    </task>
+      <task xml:id="semireg-tilings-polygons-2-task" label="semireg-tilings-polygons-2-task-label">
         <statement>
           <p>
             The remaining semiregular tiling with four polygons meeting at 
             each vertex has two squares and two other polygons in the vertex   
             arrangement.
-            <ol>
-              <li>
-                <p>
-                  What are the other two polygons? Again, the number of sides of  
-                  these two polygons are represented by <m>m</m> and <m>n</m>
-                  in the questions that follow.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Are you able to surround a square along its sides by an alternating sequence of  
-                  <m>m</m>-gons and <m>n</m>-gons?
-                </p>
-              </li>
-              <li>
-                <p>
-                  One of the polygons has an odd number, <m>m</m>, of sides. Are you 
-                  able to surround the <m>m</m>-gon along its sides by an alternating 
-                  sequence of squares and <m>n</m>-gons?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Explain in words and pictures why <m>m.4.n.4</m> extends to a semiregular tiling,
-                  but <m>m.4.4.n</m> does not. Draw or record a sketch of <m>m.4.n.4</m> if  
-                  you do not already have one. 
-                </p>
-              </li>
-            </ol>
+          </p>
+          <p>
+            What are the other two polygons? Again, the number of sides of  
+            these two polygons are represented by <m>m</m> and <m>n</m>
+            in the questions that follow.
           </p>
         </statement>
       </task>
+      <task xml:id="semireg-tilings-surround-square-task" label="semireg-tilings-surround-square-task-label">
+      <statement>
+        <p>
+          Are you able to surround a square along its sides by an alternating sequence of  
+          <m>m</m>-gons and <m>n</m>-gons?
+        </p>
+      </statement>
+      </task>
+      <task xml:id="semireg-tilings-odd-sides-surround-task" label="semireg-tilings-odd-sides-surround-task-label">
+        <statement>
+          <p>
+            One of the polygons has an odd number, <m>m</m>, of sides. Are you 
+            able to surround the <m>m</m>-gon along its sides by an alternating 
+            sequence of squares and <m>n</m>-gons?
+          </p>
+        </statement>
+        </task>
+        <task xml:id="semireg-tilings-extend-sketch-explain-task" label="semireg-tilings-extend-sketch-explain-task-label">
+          <statement>
+            <p>
+              Explain in words and pictures why <m>m.4.n.4</m> extends to a semiregular tiling,
+              but <m>m.4.4.n</m> does not. Draw or record a sketch of <m>m.4.n.4</m> if  
+              you do not already have one. 
+            </p>
+          </statement>
+        </task>
     </exploration>
     <p> 
       We conclude that there are only two semiregular tilings and one regular 
