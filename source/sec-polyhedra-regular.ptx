@@ -764,11 +764,11 @@
                       </figure>
                     </p>
                     <p>
-                        There are 11 valid cube nets in total. One example of a cube net forms the shape of a "T" with one square in 
+                        There are 11 valid cube nets in total. One example of a cube net forms the shape of a "t" with one square in 
                         the center, one square above, one to the left, one to the right, and two below.
                     </p>
                     <p>
-                        The T-shaped cube net can be folded by first making the center square the base. The next step is to fold up the 
+                        The t-shaped cube net can be folded by first making the center square the base. The next step is to fold up the 
                         four squares around it to create the walls. Finally, fold the remaining square over the top to close the cube.
                     </p>
                 </solution>
@@ -796,6 +796,39 @@
                         </image>
                     </figure>
                 </statement>
+                <hint>
+                    <p>
+                        A valid net for a regular polyhedron must fold into a completely closed 3D shape without any overlaps or 
+                        gaps. Pay close attention to how individual faces are connected and whether edges meet when folded.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        These four patterns cannot be a net for a regular polygon. See "Solution" below to read a detailed
+                        explanation as to why these patterns do not fit the criteria.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        None of these patterns can fold into a regular, closed 3D polyhedron. Below are reasons why each of
+                        these nets are invalid:
+                    </p>
+                    <p>
+                        Pattern a: Consists of six squares, but when folded some of the squares overlap. Therefore, a cube is 
+                        not formed and this net is invalid.
+                    </p>
+                    <p>
+                        Pattern b: Combines both squares and triangles, which do not fit together to form regular polygon.
+                        This net is impossible to fold into a 3D shape and is therefore invalid.
+                    </p>
+                    <p>
+                        Pattern c: A regular octahedron requires eight faces, however this net only has six. Does not
+                        fold into regular polyhedron and leaves gaps. Therefore, this net is invalid. 
+                    </p>
+                    <p>
+                        Pattern d: Also consists of overlapping when folded and therefore is an invalid net.
+                    </p>
+                </solution>
             </exercise>
         </subexercises>
         <subexercises>
