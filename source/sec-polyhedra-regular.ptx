@@ -770,6 +770,25 @@
                             many edges does the octahedron have?
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall from earlier in this section that a octahedron has eight faces. How can the number of faces
+                            of an octahedron be used to calculate its number of edges?
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            An octahedron has 12 edges.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            An octahedron has eight triangular faces, with each face having three edges. Multiply these two
+                            values to get the total number of individual face edges (<m>3 \cdot 8 = 24</m>). Since each edge of
+                            the octahedron is shared by two faces, divide this sum by two (<m>24 / 2 = 12</m>) to find the actual number
+                            of distinct edges. The result: an octahedron has 12 distinct edges. 
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -777,6 +796,26 @@
                             How many triangles meet at each vertex of an octahedron?
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall from the previous problem that an octahedron has eight triangular faces and 12 edges. First, 
+                            determine the total number of vertices. Then, consider how many faces must meet at each of those 
+                            vertices.
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            Four triangles meet at each vertex of an octahedron.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            An octahedron has eight faces. It also has six vertices. Each face is a triangle with 
+                            three vertices. Counting all face vertices individually gives <m>3 \cdot 8 = 24</m>. These 24 
+                            vertex-corners are shared among the six actual vertices. Dividing 24 by six results in four. Therefore, 
+                            four triangles meet at each vertex.
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -786,6 +825,24 @@
                             This will give you the number of vertices in the assembled octahedron.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall the number of triangles that meet at each vertex of the octahedron. This was determined in
+                            the previous problem.
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            An octahedron has six vertices.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            To find the number of vertices in the octahedron, divide the total number of vertices of the triangles
+                            (24) by the number of triangles that meet at each vertex of the octahedron (4). The result: <m>24 / 4 = 6</m>.
+                            Therefore, an octahedron has six vertices.
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -793,6 +850,32 @@
                             Use a similar argument to compute the number of edges and vertices in an icosahedron.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall from earlier in this section that a icosahedron has 20 faces. How can the number of faces
+                            of an icosahedron be used to calculate its number of edges? How can both number of faces and edges then
+                            be used to then calculate vertices?
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            An icosahedron has 30 edges and 12 vertices.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            An icosahedron has 20 triangular faces, with each face having three edges. Multiply these two
+                            values to get the total number of individual face edges (<m>3 \cdot 20 = 60</m>). Since each edge of
+                            the icosahedron is shared by two faces, divide this sum by two (<m>60 / 2 = 30</m>) to find the actual number
+                            of distinct edges. The result: an icosahedron has 30 distinct edges.
+                        </p>
+                        <p>
+                            A defining property of an icosahedron is that five faces meet at each of its vertices. As mentioned above, 
+                            the total number of individual face edges is (<m>3 \cdot 20 = 60</m>). To find the number of vertices in an
+                            icosahedron, divide this sum by the five faces that meet at each vertex (<m>60 / 5 = 12</m>). The result: an
+                            icosahedron has 12 vertices.
+                        </p>
+                    </solution>
                 </task>
             </exercise>
             <!--<exercise>
