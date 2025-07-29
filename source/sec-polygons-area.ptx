@@ -581,6 +581,12 @@
                         region. This will give an underestimate of the area.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To give an underestimate of the area, count only the squares that are completely inside the sketched 
+                        region. All partial squares that touch or cross the boundary should be ignored.
+                    </p>
+                </hint>
             </task>
             <task>
                 <statement>
@@ -589,6 +595,13 @@
                         collection of squares that completely encloses the sketched region.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To give an overestimate of the area, count all squares that are needed to enclose the sketched region.
+                        This includes both squares that are completely inside the sketched region and also those that are partially
+                        inside or touching the boundary.
+                    </p>
+                </hint>
             </task>
             <task>
                 <statement>
