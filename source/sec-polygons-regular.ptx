@@ -98,8 +98,9 @@
         the nonagon at the bottom. Pull on the dotted vertex to change the number 
         of sides. With the new <m>n</m>-gon selected, you can now use the 
         duplicated sheet icon on the flip/cut/... menu to make copies 
-        of your <m>n</m>-gon. Fullscreen, undo, redo, reset, and extract buttons 
-        are provided on the right.
+        of your <m>n</m>-gon. Undo, redo, reset, and extract buttons 
+        are provided on the right. The blue icon will enable you to open 
+        the interactive in the PolyPad application and work full screen.
       </p>
       <figure xml:id="fig-polypad-tiling">
         <caption>          
@@ -159,7 +160,19 @@
           </figure>
             <p>
               The following shorthand will be used to refer to the angles.
-              <ul cols="3">
+              <p>
+              <sidebyside>
+                <p>
+                  <m>\angle 1 = \angle EAD</m>
+                </p>
+                <p>
+                  <m>\angle 1 = \angle EAD</m>
+                </p>
+              </sidebyside>
+            </p>
+
+
+              <ul cols="3" marker="none">
                 <li>
                   <m>\angle 1 = \angle EAD</m>
                 </li>
@@ -783,43 +796,55 @@
       create a 3.6.3.6 arrangement at some vertices. On the other hand, a 3.3.6.6 
       vertex arrangement can continue indefinitely. Let us explore why this happens.  
     </p>
-    <exploration>
+    <exploration xml:id="explor-semireg-tilings">
       <title>Semiregular Tilings with Four Regular Polygons at a Vertex</title>
+      <task xml:base="semireg-tilings-polypad-task" label="semireg-tilings-polypad-task-label">
+        <statement>
+          <p>
+            Use physical or virtual triangles and hexagons to 
+            sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
+            sketch if available. The Polypad by Amplify applet below in 
+            <xref ref="fig-polypad-semireg-tiling"/> may be used.
+          </p>
+          <figure xml:id="fig-polypad-semireg-tiling">
+        <caption>          
+          <url href="https://mathigon.org/polypad/2RtlO1JO7dpDA"> 
+            Interactive tool for tiling on Polypad by Amplify.
+          </url>
+        </caption>
+      <interactive xml:id="RegularTilingPolypad" 
+      iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
+      preview="regular-polygons.png" aspect="16:12"/>
+      </figure>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Choose one of the two triangles at this vertex and attempt 
+            to surround it with triangles and/or hexagons while maintaining 
+            the 3.3.6.6 arrangement at each vertex.
+          </p>
+        </statement>
+      </task>
       <task>
         <statement>
         <p>
-          Use physical or virtual triangles and hexagons to 
-          sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
-          sketch if available. The Polypad by Amplify applet in 
-          <xref ref="fig-polypad-tiling"/> may be used.
-        <ol>
-          <li>
-            <p>
-              Choose one of the two triangles at this vertex and attempt 
-              to surround it with triangles and/or hexagons while maintaining 
-              the 3.3.6.6 arrangement at each vertex.
-            </p>
-          </li>
-          <li>
-            <p>
-              Note that each triangle in a 3.3.6.6 must share a side with 
-              one triangle and one hexagon due to the order of the 3's and 6's.
-            </p> 
-            <figure xml:id="triangle366">
-              <caption>Surrounding a regular triangle with regular triangles and 
-                regular hexagons.</caption>
-              <image source="whyno3366"></image>
-            </figure>
-            <p>
-              Will the remaining side abut a triangle or a hexagon? Discuss  
-              what happens in each case. <!--A GeoGebra interactive of this figure is 
-              available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
-            </p>
-          </li>
-        </ol>
+          Note that each triangle in a 3.3.6.6 must share a side with 
+          one triangle and one hexagon due to the order of the 3's and 6's.
+        </p> 
+        <figure xml:id="triangle366">
+          <caption>Surrounding a regular triangle with regular triangles and 
+            regular hexagons.</caption>
+          <image source="whyno3366"></image>
+        </figure>
+        <p>
+          Will the remaining side abut a triangle or a hexagon? Discuss  
+          what happens in each case. <!--A GeoGebra interactive of this figure is 
+          available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
         </p>
-        </statement>
-      </task>
+      </statement>
+    </task>
       <task>
         <statement>
           <p>
@@ -897,7 +922,7 @@
     </p>
     <exploration>
       <title>Semiregular Tilings with Three Regular Polygons at a Vertex</title>
-      <task>
+      <task xml:id="semireg-tilings-arrangements-task" label="semireg-tilings-arrangements-task-label">
         <statement>
           <p>
             Not including the regular tiling <m>6.6.6</m>, there are nine possible  
