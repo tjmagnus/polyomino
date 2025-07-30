@@ -934,14 +934,14 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task xml:id="semireg-tilings-verify-algebraic-task" label="semireg-tilings-verify-algebraic-task-label">
         <statement>
           <p>
             Verify algebraically that <m>5.5.10</m> can surround a single point. 
           </p>
         </statement>
       </task>
-      <task>
+      <task xml:id="semireg-tilings-five-explain-task" label="semireg-tilings-five-explain-task-label">
         <statement>
           <p>
             Use the fact that 5 is an odd number to explain why <m>5.5.10</m> does 
@@ -956,7 +956,7 @@
           </p>
           </hint>
       </task>
-      <task>
+      <task xml:id="semireg-tilings-three-vertex-arngmnt-task" label="semireg-tilings-three-vertex-arngmnt-task-label">
         <statement>
           <p>
             Determine the three vertex arrangements with three polygons that extend 
