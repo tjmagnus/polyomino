@@ -970,28 +970,40 @@
   <title>Exercises</title>
   <subexercises xml:id="Toolbox-polygons-regular">
     <title>Building Our Toolbox</title>
-    <p>
+    <introduction>
+      <p>
       As we conclude this long section, it is wise to reflect on what we have learned.
       What should we add to our toolbox for later use? Definitions for regular polygons,
       tilings, regular tilings, and semiregular tilings were introduced at the beginning 
       of the section. You should also note the items below:
-    </p>
-    <exercise xml:id="exer-toolbox-regpolygon-def">
+      </p>
+    </introduction>
+    <exercise xml:id="exer-toolbox-regpolygon-def" label="exer-toolbox-regpolygon-def-label">
       <statement>
         <p>
           In your own words and pictures, describe the difference between a regular and a 
           nonregular polygon.
         </p>
       </statement>
+      <response />
     </exercise>
-    <exercise xml:id="exer-toolbox-polygon-meet-vertex">
+    <exercise xml:id="exer-toolbox-polygon-meet-vertex" label="exer-toolbox-polygon-meet-vertex-label">
       <statement>
         <p>
           If a group of polygons meet at a single vertex, what must be the sum 
           of the angle measures at that vertex? Note that this wording generalizes this  
           fact to nonregular polygons as well.
         </p>
+        <fillin characters="3" answer="360" width="3" />
       </statement>
+      <evaluation>
+        <evaluate>
+            <test correct="yes">
+                <numcmp use-answer="yes" op="eq">360</numcmp>
+                <feedback>Correct.</feedback>
+            </test>
+        </evaluate>
+    </evaluation>
     </exercise>
     <exercise>
       <statement>
@@ -999,8 +1011,9 @@
           Describe the three regular tilings.
         </p>
       </statement>
+      <response />
     </exercise>
-    <exercise>
+    <exercise xml:id="exercise-toolbox-sum-convex-ngon" label="exercise-toolbox-sum-convex-ngon-label">
       <statement>
         <p>
           What is the sum of the measures of the vertex angles for any (not necessarily
@@ -1010,7 +1023,7 @@
         </p>
       </statement>
     </exercise>
-    <exercise>
+    <exercise xml:id="exercise-toolbox-sum-convex-ngon-formula" label="exercise-toolbox-sum-convex-ngon-formula-label">
       <statement>
         <p>
           What formula can be used to compute the angle measure for a regular 
@@ -1018,14 +1031,14 @@
         </p>
       </statement>
     </exercise>
-    <exercise>
+    <exercise xml:id="exercise-toolbox-mnp-vertex-arrangement" label="exercise-toolbox-mnp-vertex-arrangement-label">
       <statement>
       <p>
         What do we mean by a <m>m.n.p</m>-vertex arrangement? 
       </p>
       </statement>
     </exercise>
-    <exercise>
+    <exercise xml:id="exercise-toolbox-vertex-arrangement-counterexample" label="exercise-toolbox-vertex-arrangement-counterexample-label">
       <statement>
         <p>
           Just because a collection of regular polygons can surround a vertex  
