@@ -675,6 +675,40 @@
                         the number of faces meeting at each vertex.
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        Individual definitions may vary. See the definition for 
+                        <xref ref="def-regpolyhedron" text="custom">regular polyhedron</xref> to review
+                        the conditions that must be satisified.
+                    </p>
+                    <p>
+                        The five regular polyhedra include: <term>tetrahedron</term>, <term>hexahedron</term>,
+                        <term>octahedron</term>, <term>dodecahedron</term>, and <term>icosahedron</term>. View "Solution"
+                        below to read a description for all five.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        <term>Tetrahedron</term>: Simplest regular polyhedron. Has four equilateral triangular faces. Three 
+                        faces meet at each vertex.
+                    </p>
+                    <p>
+                        <term>Hexahedron</term>: Most familiar regular polyhedron (think: a cube or standard die). Has six square
+                        faces. Three faces meet at each vertex.
+                    </p>
+                    <p>
+                        <term>Octahedron</term>: Looks like two square pyramids joined at their bases. Has eight equilateral
+                        triangular faces. Four faces meet at each vertex. 
+                    </p>
+                    <p>
+                        <term>Dodecahedron</term>: Complex but symmetrical shape. Has 12 faces that are regular pentagons.
+                        Three faces meet at each vertex.
+                    </p>
+                    <p>
+                        <term>Icosahedron</term>: Has the most faces of any regular polyhedron giving it a rounded appearance.
+                        Has 20 equilateral triangular faces. Five faces meet at each vertex.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <statement>
@@ -683,6 +717,20 @@
                         Explain why each is not regular. 
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        Three examples of polyhedra that are not regular include a rectangular prism, square pyramid, and triangular prism.
+                        An explanation is included below under "Solution". Remember, there are many right answers to this question and these
+                        are just three examples!
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Rectangular prisms, square pyramids, and triangular prisms are not regular polyhedra. They often have 
+                        faces of different shapes or sizes. Therefore, they fail the requirement that all their faces must be 
+                        congruent regular polygons.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <statement>
@@ -691,6 +739,18 @@
                         a convex polyhedron?
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        The sum of angle measures at any vertex of a convex polyhedron must be less than 360 degrees.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        The sum of the measures at any vertex of a convex polyhedron must always be less than 360 degrees. If the sum was 
+                        exactly 360 degrees, the faces would lie flat in a plane, preventing a three-dimensional corner from forming. If the sum 
+                        was greater than 360 degrees, the polyhedron would curve inward, and therefore would not be considered a convex shape.
+                    </p>
+                </solution>
             </exercise>
         </subexercises>
         <subexercises>
