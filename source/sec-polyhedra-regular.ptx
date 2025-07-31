@@ -494,6 +494,12 @@
                                         </p>
                                     </li>                                   
                                 </ol> 
+                                <hint>
+                                    <p>
+                                        The measure of each corner of a square is 90 degrees. How many squares can meet at a single vertex 
+                                        without overlapping or lying flat?
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -536,6 +542,13 @@
                                         </p>
                                     </li>
                                 </ol>
+                                <hint>
+                                    <p>
+                                        The sum of the interior angles of a pentagon is 540 degrees. Use this sum to find the 
+                                        measure of one vertex angle. Then determine how many of these can meet at a single 
+                                        point without the faces lying flat.
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -571,6 +584,12 @@
                                         </p>
                                     </li>
                                 </ol>
+                                <hint>
+                                    <p>
+                                        Find the measure of one vertex angle, and then determine how many of these can meet at 
+                                        a single point without the faces lying flat.
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -994,7 +1013,7 @@
                     </statement>
                     <hint>
                         <p>
-                            Recall from earlier in this section that a icosahedron has 20 faces. How can this information be used to'
+                            Recall from earlier in this section that a icosahedron has 20 faces. How can this information be used to
                             calculate both number of edges and vertices?
                         </p>
                     </hint>
