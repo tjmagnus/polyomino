@@ -116,7 +116,7 @@
           In <xref ref="fig-identify-sim-parts"/>,  
           <m>\Delta FGH\sim\Delta IJK</m><fn>The triangles are similar</fn>. 
           Also, <m>FG=4.4, FH=13, IK=7.8, JK=9.06, m\angle GFH=110.34\deg</m>
-          and <m>m\angle IJK=53.8\deg</m>Determine the following:
+          and <m>m\angle IJK=53.8\deg</m>. Determine the following:
         </p>
         <figure xml:id="fig-identify-sim-parts">
           <caption>Illustration for <xref ref="exp-identify-sim-parts"/></caption>
@@ -134,6 +134,13 @@
             <m>m\angle FGH</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            In the similarity statement, <m>\Delta FGH\sim\Delta IJK</m>, the order of the letters show which angles match up
+            and are congruent. Compare the position of the letter <m>G</m> with the letters in <m>Delta IJK</m> to find the
+            corresponding angle.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -141,6 +148,11 @@
             <m>m\angle FHG</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            Look at the position of the letter <m>H</m> in <m>Delta FGH</m> to determine its matching angle in <m>Delta IJK</m>.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
