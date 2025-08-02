@@ -313,6 +313,11 @@
                                 What happens when you try to construct a polyhedron with only two triangles, and
                                 no other shapes, meeting at a vertex? 
                             </p>
+                            <hint>
+                                <p>
+                                    Try putting two triangles together. Does this create a flat shape or a three-dimensional shape?
+                                </p>
+                            </hint>
                         </li>
                         <li>
                             <p>
@@ -340,6 +345,12 @@
                                         </p>
                                     </li>
                                 </ol>
+                                <hint>
+                                    <p>
+                                        Start with one triangle and add two more, meeting at a single corner. What shape does 
+                                        this create where all faces are the same?
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -370,6 +381,12 @@
                                         </p>
                                     </li>
                                 </ol>
+                                <hint>
+                                    <p>
+                                        Imagine a pyramid with a square base. What happens if another identical pyramid is
+                                        stacked on top of this original pyramid, base to base?
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -378,12 +395,25 @@
                                 triangles meeting at each vertex? If so, build it, record your work,
                                 and count the faces, edges, and vertices.  
                             </p>
+                            <hint>
+                                <p>
+                                    This question is slightly more complex. Imagine starting with a central vertex and 
+                                    arranging five triangles around it. How do the edges of these triangles connect to form a 
+                                    larger, symmetrical shape?
+                                </p>
+                            </hint>
                         </li>
                         <li>
                             <p>
                                 What is the largest number of triangles that can meet at a vertex to form a corner or point of a 
                                 polyhedron? What happens when you squeeze one more triangle in at a vertex?
                             </p>
+                            <hint>
+                                <p>
+                                    Each triangle has a 60 degree corner. How many of these corners can fit together at a 
+                                    single point before the total angle is too large to bend and form a corner?
+                                </p>
+                            </hint>
                         </li>
                         <li>
                             <p>
@@ -438,6 +468,11 @@
                     does not satisfy the definition of a regular polyhedron. 
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Recall the definition of <xref ref="def-regpolyhedron" text="custom">regular polyhedron</xref>.
+                </p>
+            </hint>
         </task>
         <task>
             <title>Other Regular Polyhedra</title>
