@@ -257,6 +257,15 @@
                   and <m>\angle CAB</m>.
                 </p>
               </statement>
+              <hint>
+                <p>
+                  To find the measure of each of these angles, use the interactive GeoGebra tool (<xref ref="fig-right-tri-nest"/>). 
+                  On the options bar at the top, click on the sixth button from the left, indicated by a small red angle symbol.
+                  Then proceed by clicking on the three vertices of the angle. Remember that the second point clicked should be 
+                  the vertex of the angle. If the measurement given is a reflex angle, simply subtract it from 360 to find the 
+                  interior angle.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
