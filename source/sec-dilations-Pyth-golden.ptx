@@ -136,9 +136,9 @@
         </statement>
         <hint>
           <p>
-            In the similarity statement, <m>\Delta FGH\sim\Delta IJK</m>, the order of the letters show which angles match up
-            and are congruent. Compare the position of the letter <m>G</m> with the letters in <m>Delta IJK</m> to find the
-            corresponding angle.
+            In the similarity statement, <m>\Delta FGH\sim\Delta IJK</m>, the order of the letters show which angles match up. 
+            These corresponding angles are congruent. Compare the position of the letter <m>G</m> with the letters in 
+            <m>\Delta IJK</m> to find its corresponding angle.
           </p>
         </hint>
       </task>
@@ -150,7 +150,8 @@
         </statement>
         <hint>
           <p>
-            Look at the position of the letter <m>H</m> in <m>Delta FGH</m> to determine its matching angle in <m>Delta IJK</m>.
+            To find the angle that corresponds to <m>\angle H</m>, once again use the similarity statement. See which angle 
+            lines up with <m>\angle H</m> and is congruent.
           </p>
         </hint>
       </task>
@@ -160,6 +161,12 @@
             <m>m\angle JIK</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            Use the same technique as the problems above. Use the similarity statement to determine which angle corresponds 
+            to <m>\angle I</m>.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -167,6 +174,11 @@
             <m>m\angle KIJ</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            See previous hints that discuss similarity and congruency for angles.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -175,6 +187,12 @@
             to <m>\Delta IJK</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            The scale factor is the ratio of corresponding sides. Use the similarity statement, <m>\Delta FGH\sim\Delta IJK</m>,
+            to identify which sides match up, then find their lengths. The ratio of their lengths represents the scale factor.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -182,6 +200,12 @@
             <m>GH</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            To find the length of side <m>GH</m>, use the similarity statement. Find its corresponding side in 
+            <m>\Delta IJK</m> and apply the scale factor.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -189,6 +213,12 @@
             <m>IJ</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            To find the length of side <m>IJ</m>, once again use the similarity statement. Find its corresponding side in 
+            <m>\Delta FGH</m> and apply the scale factor.
+          </p>
+        </hint>
       </task> 
     </task>
   </exploration>
