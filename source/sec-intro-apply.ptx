@@ -1193,41 +1193,13 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           </task>
       </exercise>
       <exercise xml:id="label-altitude-etc">
-        <statement>
+        <introduction>
           <p>
             Triangle <m>\Delta ABC</m>, trapezoid <m>DEGF</m>, and parallelogram 
             <m>HKJI</m> are provided in <xref ref="tri-trap-par-label"/>.
-            <ol>
-              <li>
-                <p>
-                  Label a side of triangle <m>\Delta ABC</m> as the base. Then 
-                  draw and label the altitude of the triangle corresponding to 
-                  that base.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Which two sides of trapezoid <m>DEGF</m> could be considered to be bases? 
-                  Label one as the base. Also label the summit and legs of the trapezoid.
-                  Then draw and label an altitude for <m>DEGF</m>. 
-                </p>
-              </li>
-              <li>
-                <p>
-                  Label side <m>\overline{HI}</m> as the base of parallelogram 
-                  <m>HIJK</m>. Sketch and label an altitude for <m>HIJK</m> 
-                  corresponding to base <m>\overline{HI}</m>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Could another side of <m>HIJK</m> been chosen as the base? Which 
-                  one(s)? Would the altitude be the same?
-                </p>
-              </li>
-            </ol>
           </p>
-          <figure xml:id="tri-trap-par-label">
+        </introduction>
+        <figure xml:id="tri-trap-par-label">
             <caption>Shapes for <xref ref="label-altitude-etc"/></caption>
             <image component="web" source="labelbasealtitude.svg">
               <shortdescription>
@@ -1241,14 +1213,137 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 drawn at an incline.
               </shortdescription>
             </image>
-          </figure>
-        </statement>
-        <hint>
-          <p>
-            Check that each altitude is perpendicular to the corresponding 
-            base. Multiple answers are possible for most of these questions.
-          </p>
-        </hint>
+        </figure>
+        <task>
+          <statement>
+            <p>
+              Label a side of triangle <m>\Delta ABC</m> as the base. Then draw and label the altitude of the triangle 
+              corresponding to that base.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Any of the three sides of a triangle can be chosen as the base. Once chosen, draw a perpendicular line segment from
+              that base to the opposite vertex.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Possible Answer:
+            </p>
+            <p>
+              Let <m>\overline{BC}</m> be the base of triangle <m>\Delta ABC</m>. Draw the altitude as a line segment from 
+              point <m>A</m> perpendicular to <m>\overline{BC}</m>.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Step-By-Step Explanation For Drawing:
+            </p>
+            <p>
+              Choose <m>\overline{BC}</m> as the base of triangle <m>\Delta ABC</m>. From point <m>A</m>, draw a perpendicular 
+              line segment to <m>\overline{BC}</m>. Label this line segment as the altitude. This altitude represents the height
+              of the triangle from vertex <m>A</m> to base <m>\overline{BC}</m>.
+            </p>
+          </solution>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Which two sides of trapezoid <m>DEGF</m> could be considered to be bases? Label one as the base. Also label the 
+              summit and legs of the trapezoid. Then draw and label an altitude for <m>DEGF</m>. 
+            </p>
+          </statement>
+          <hint>
+            <p>
+              A trapezoid has one pair of parallel sides, which are the bases. The altitude is the perpendicular distance 
+              between these bases.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Bases: <m>\overline{DE}</m> and <m>\overline{FG}</m> (since they are parallel to each other). One of these
+              will be a base and the other will be a summit.
+            </p>
+            <p>
+              Legs: <m>\overline{DF}</m> and <m>\overline{EG}</m>.
+            </p>
+            <p>
+              Altitude (possible answer): Line segment drawn from point <m>E</m> to <m>\overline{FG}</m>. Should be perpendicular
+              to <m>\overline{FG}</m>.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Step-By-Step Explanation For Drawing:
+            </p>
+            <p>
+              Trapezoid <m>DEGF</m> has sides <m>\overline{DE}</m> and <m>\overline{FG}</m> that are parallel so these are the
+              bases. The non-parallel sides <m>\overline{DF}</m> and <m>\overline{EG}</m> are the legs. Choose base
+              <m>\overline{FG}</m> and a point opposite on <m>\overline{DE}</m> (example: point <m>E</m>). Draw a line segment
+              from point <m>E</m> that is perpendicular to <m>\overline{FG}</m>. Label this line segment as the altitude.
+              The altitude represents the distance between the bases.
+            </p>
+          </solution>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Label side <m>\overline{HI}</m> as the base of parallelogram <m>HIJK</m>. Sketch and label an altitude for 
+              <m>HIJK</m> corresponding to base <m>\overline{HI}</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              In a parallelogram, opposite sides are parallel and equal. Draw a line segment that is perpendicular to both the base
+              (side <m>\overline{HI}</m>) and its opposite side.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Let <m>\overline{HI}</m> be the base. The altitude is a perpendicular line segment from either point <m>K</m> or
+              point <m>J</m> to side <m>\overline{HI}</m>.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Label <m>\overline{HI}</m> as the base. Draw a perpendicular line segment from either point <m>K</m> or point 
+              <m>J</m> to the base <m>\overline{HI}</m>. This line segment is the altitude, representing the height corresponding 
+              to base <m>\overline{HI}</m>.
+            </p>
+          </solution>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Could another side of <m>HIJK</m> been chosen as the base? Which one(s)? Would the altitude be the same?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              In a parallelogram, there are two pairs of opposite sides. How does the choice of a base pair affect the altitude
+              (height) of a parallelogram?
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Yes, any of the four sides of parallelogram <m>HIJK</m> can be chosen as the base. The altitude will vary depending on
+              which base is chosen.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Yes, another side of <m>HIJK</m> could be chosen as the base. If <m>\overline{HI}</m> is a base, then its opposite
+              side <m>\overline{JK}</m> is a base. Alternatively, if <m>\overline{HK}</m> and <m>\overline{IJ}</m> could be used
+              as the other pair of bases.
+            </p>
+            <p>
+              The altitude is the perpendicular distance between opposite sides. The altitude is the same within each base pair
+              (example: <m>\overline{HI}</m> and <m>\overline{JK}</m>). However, the altitude is not the same between different base
+              pairs (example: <m>\overline{HI}</m> and If <m>\overline{IJ}</m>).
+            </p>
+          </solution>
+        </task>
       </exercise>
       <exercise xml:id="SAR-intro-apply-Tangramareas">
         <introduction>
