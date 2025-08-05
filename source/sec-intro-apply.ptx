@@ -1539,6 +1539,22 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           Your examples should differ from your classmates!
         </p>
       </hint>
+      <answer>
+        <p>
+          No, if two polygons have the same area, they do not necessarily have the same perimeter.
+        </p>
+      </answer>
+      <solution>
+        <p>
+          No, two polygons can have the same area but different perimeters. This can be demonstrated with a counterexample.
+          Consider a square with sides of length 4. The area of the square is <m>4 \cdot 4 = 16</m> square units and its 
+          perimeter is <m>4 + 4 + 4 + 4 = 16</m> units. Now, consider a rectangle with a width of 2 and a length of 8. Just 
+          like the square, this rectangle also has an area of <m>2 \cdot 8 = 16</m> square units. However, its perimeter is
+          <m>2 + 8 + 2 + 8 = 20</m> units. Since the square and the rectangle have the same area but different perimeters, this 
+          proves the answer above. Just because two polygons have the same area does not mean they necessarily have the same 
+          perimeter.
+        </p>
+      </solution>
       </exercise>
       <exercise>
         <statement>
