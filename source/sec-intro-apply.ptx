@@ -1631,6 +1631,26 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             any lengths in the interior.
           </p>
         </hint>
+        <answer>
+          <p>
+            No, polygons should not satisfy addivity of perimeter.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            No, polygons should not satisfy addivity of perimeter. The perimeter of a new, larger polygon is not the sum of the 
+            original perimeters. When two polygons are joined together, the side where they connect becomes an internal boundary
+            and is no longer part of the overall perimeter.
+          </p>
+          <p>
+            For example, take two identical squares with perimeters of 8 units each (2 + 2 + 2 + 2 = 8 units). If these two
+            squares are joined together, the new shape is a rectangle. The new perimeter of this rectangle is 12 units, not
+            8 + 8 = 16 units. The two sides that were joined together are no longer counted.
+          </p>
+          <p>
+            Now, can you come up with your own example to prove that polygons do not satisfy the additivity of perimeter?
+          </p>
+        </solution>
       </exercise>
     </subexercises>
     <subexercises xml:id="Writing-intro-apply-nameit">
