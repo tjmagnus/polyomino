@@ -1584,6 +1584,36 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           exist.
         </p>
       </hint>
+      <answer>
+        <p>
+          a). After tripling the side lengths of a simple polygon (like a triangle or rectangle), its new area and perimeter are no 
+          longer equal.
+        </p>
+        <p>
+          b). If the original units were yards, then the area would be expressed in square yards.
+        </p>
+      </answer>
+      <solution>
+            <p>
+              <figure xml:id="fig-rectangle-equal-area-perim">
+                <caption>A sample 6 x 3 rectangle <m>ABCD</m>.</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="pref-rect-equal-area-perim" 
+                    xml:id="pref-rect-equal-area-perim">
+                    <xi:include href="prefcode-rect-equal-area-perim.ptx" />
+                  </prefigure>
+                </image>
+              </figure>
+            </p>
+            <p>
+              For rectangle <m>ABCD</m> with a length of 6 units and a width of 3 units, its area (<m>6 \cdot 3 = 18</m>) and
+              its perimeter (<m>6 + 3 + 6 + 3 = 18</m>) are numerically equal. However, when side lengths are tripled to 18 and
+              9 units, this relationship breaks. The new area is <m>18 \cdot 9 = 162</m>, while the new perimeter is
+              <m>18 + 9 + 18 + 9 = 54</m>. Since 162 does not equal 54, tripling the side lengths of a polygon where area and
+              perimeter were initially equal breaks that relationship. This confirms the above answer that area and perimeter
+              are no longer equal.
+            </p>
+          </solution>
       </exercise>
       <exercise>
         <statement>
