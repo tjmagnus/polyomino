@@ -378,7 +378,7 @@
                                 <hint>
                                     <p>
                                         Imagine a pyramid with a square base. Examine the vertices of the shape and check if 
-                                        the same number of triangular faces meet at each vertex.
+                                        exactly four triangles meet at each vertex.
                                     </p>
                                 </hint>
                             </p>
