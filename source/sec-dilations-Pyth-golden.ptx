@@ -136,9 +136,9 @@
         </statement>
         <hint>
           <p>
-            In the similarity statement, <m>\Delta FGH\sim\Delta IJK</m>, the order of the letters show which angles match up. 
-            These corresponding angles are congruent. Compare the position of the letter <m>G</m> with the letters in 
-            <m>\Delta IJK</m> to find its corresponding angle.
+            The corresponding angles of similar triangles are congruent, meaning they have the same measure. Use the order of
+            the letters in the similarity statement <m>\Delta FGH\sim\Delta IJK</m> to identify the angle in the second
+            triangle that corresponds to <m>m\angle G</m>.
           </p>
         </hint>
       </task>

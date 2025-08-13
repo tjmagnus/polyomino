@@ -17,7 +17,7 @@
 
     <label p="(6.4,2.5)" scale="0.8"><m>\scriptsize \textbf{3}</m></label>
     <label p="(1.5,4.3)" scale="0.8"><m>\scriptsize \textbf{6}</m></label>
-    <label p="(1.5,0.7)" scale="0.8"><m>\scriptsize \textbf{3}</m></label>
-    <label p="(-3.4,2.5)" scale="0.8"><m>\scriptsize \textbf{6}</m></label>
+    <label p="(1.5,0.7)" scale="0.8"><m>\scriptsize \textbf{6}</m></label>
+    <label p="(-3.4,2.5)" scale="0.8"><m>\scriptsize \textbf{3}</m></label>
   </coordinates>
 </diagram>
