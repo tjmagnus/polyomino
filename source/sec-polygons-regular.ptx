@@ -812,7 +812,7 @@
             Interactive tool for tiling on Polypad by Amplify.
           </url>
         </caption>
-      <interactive xml:id="RegularTilingPolypad" 
+      <interactive xml:id="RegularTilingPolypad2" 
       iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
       preview="regular-polygons.png" aspect="16:12"/>
       </figure>
@@ -1051,51 +1051,121 @@
   </subexercises>
   <subexercises xml:id="SAR-polygons-regular">
       <title>Skills and Recall</title>
-      <exercise>
+      <exercise xml:id="SAR-polygons-exercise-sketch" label="SAR-polygons-exercise-sketch-label">
           <introduction>
             <p>
-              
+              Sketch a picture of each of the following:
             </p>
           </introduction>
+          <task xml:id="SAR-polygons-task-sketch-octagon" label="SAR-polygons-task-sketch-octagon-label">
+            <statement>
+              <p>
+                A concave octagon.
+              </p>
+            </statement>
+          </task>
+          <task xml:id="SAR-polygons-task-sketch-convex-hex-nonregular" label="SAR-polygons-task-sketch-convex-hex-nonregular-label">
+            <statement>
+              <p>
+                A convex hexagon that is not regular.
+              </p>
+            </statement>
+          </task>
+          <task xml:id="SAR-polygons-task-sketch-rectangle-regular-quad" label="SAR-polygons-task-sketch-rectangle-regular-quad-label">
+            <statement>
+              <p>
+                A rectange that is a regular quadrilateral.
+              </p>
+            </statement>
+          </task>
+          <task xml:id="SAR-polygons-task-sketch-rectangle-nonregular-quad" label="SAR-polygons-task-sketch-rectangle-nonregular-quad">
+            <statement>
+              <p>
+                A rectange that is not a regular quadrilateral.
+              </p>
+            </statement>
+          </task>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-exercise-angle-measure" label="SAR-polygons-exercise-angle-measure-label">
+        <introduction>
           <p>
             What is the total angle measure of each of the following?
-            <ol>
-              <li>
-                <p>
-                  a triangle
-                </p>
-              </li>
-              <li>
-                <p>
-                  a convex quadrilateral
-                </p>
-              </li>
-              <li>
-                <p>
-                  a convex 11-gon
-                </p>
-              </li>
-              <li>
-                <p>
-                  a convex 50-gon
-                </p>
-              </li>
-            </ol>
           </p>
-        </statement>
-        <answer>
+        </introduction>
+        <task xml:id="SAR-polygons-task-angle-measure-triangle" label="SAR-polygons-task-angle-measure-triangle-label">
+          <statement>
+            <p>
+              A triangle.
+            </p>
+            <fillin characters="3" answer="180" width="3" />
+          </statement>
+          <evaluation>
+              <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">180</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+        </task>
+        <task xml:id="SAR-polygons-task-angle-measure-convex-quadrilateral" label="SAR-polygons-task-angle-measure-convex-quadrilateral-label">
+          <statement>
+            <p>
+              A convex quadrilateral.
+            </p>
+            <fillin characters="3" answer="360" width="3"/>
+          </statement>
+          <evaluation>
+            <evaluate>
+              <test>
+                <numcmp use-answer="yes" op="eq">360</numcmp>
+                  <feedback>Correct.</feedback>
+              </test>
+            </evaluate>
+          </evaluation>
+        </task>
+        <task xml:id="SAR-polygons-task-angle-measure-convex-11gon" label="SAR-polygons-task-angle-measure-convex-11gon-label">
+          <statement>
+            <p>
+              A convex 11-gon.
+            </p>
+            <fillin characters="3" answer="1620" width="3"/>
+          </statement>
+          <evaluation>
+            <evaluate>
+              <test>
+                <numcmp use-answer="yes" op="eq">1620</numcmp>
+                  <feedback>Correct.</feedback>
+              </test>
+            </evaluate>
+          </evaluation>
+        </task>
+        <task>
+          <statement>
+            <p>
+              A convex 50-gon.
+            </p>
+            <fillin characters="3" answer="8640" width="3"/>
+          </statement>
+          <evaluation>
+            <evaluate>
+              <test>
+                <numcmp use-answer="yes" op="eq">8640</numcmp>
+                  <feedback>Correct.</feedback>
+              </test>
+            </evaluate>
+          </evaluation>
+        </task>
+        <!-- <answer>
           <p>
             (a) 180 degrees, (b) 360 degrees, (c) 1620 degrees, (d) 8640 degrees
           </p>
-        </answer>
-        <solution>
+        </answer> -->
+        <!-- <solution>
           <p>
             (c) <m>180*(11-2)=1620</m>
           </p>
-        </solution>
+        </solution> -->
       </exercise>
       <exercise>
           <statement>
