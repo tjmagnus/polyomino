@@ -512,7 +512,7 @@
       </p>
     </statement>
   </definition>
-<exploration xml:id="explor-semireg-tilings">
+<exploration xml:id="explor-semireg-tilings-search">
   <title>In Search of Semiregular Tilings</title>
   <introduction>
     <p>
@@ -1113,11 +1113,11 @@
             <p>
               A convex quadrilateral.
             </p>
-            <fillin characters="3" answer="360" width="3"/>
+            <fillin characters="3" answer="360" width="3" />
           </statement>
           <evaluation>
             <evaluate>
-              <test>
+              <test correct="yes">
                 <numcmp use-answer="yes" op="eq">360</numcmp>
                   <feedback>Correct.</feedback>
               </test>
@@ -1129,27 +1129,27 @@
             <p>
               A convex 11-gon.
             </p>
-            <fillin characters="3" answer="1620" width="3"/>
+            <fillin characters="3" answer="1620" width="3" />
           </statement>
           <evaluation>
             <evaluate>
-              <test>
+              <test correct="yes">
                 <numcmp use-answer="yes" op="eq">1620</numcmp>
                   <feedback>Correct.</feedback>
               </test>
             </evaluate>
           </evaluation>
         </task>
-        <task>
+        <task xml:id="SAR-polygons-task-angle-measure-convex-50gon" label="SAR-polygons-task-angle-measure-convex-50gon-label">
           <statement>
             <p>
               A convex 50-gon.
             </p>
-            <fillin characters="3" answer="8640" width="3"/>
+            <fillin characters="3" answer="8640" width="3" />
           </statement>
           <evaluation>
             <evaluate>
-              <test>
+              <test correct="yes">
                 <numcmp use-answer="yes" op="eq">8640</numcmp>
                   <feedback>Correct.</feedback>
               </test>
