@@ -115,8 +115,8 @@
         <p>
           In <xref ref="fig-identify-sim-parts"/>,  
           <m>\Delta FGH\sim\Delta IJK</m><fn>The triangles are similar</fn>. 
-          Also, <m>FG=4.4, FH=13, IK=7.8, JK=9.06, m\angle GFH=110.34\deg</m>
-          and <m>m\angle IJK=53.8\deg</m>. Determine the following:
+          Also, <m>FG=4.4, FH=13, IK=7.8, JK=9.06, m\angle GFH=110.34^{\circ}</m>
+          and <m>m\angle IJK=53.8^{\circ}</m>. Determine the following:
         </p>
         <figure xml:id="fig-identify-sim-parts">
           <caption>Illustration for <xref ref="exp-identify-sim-parts"/></caption>
@@ -694,8 +694,8 @@
           are the midpoints of <m>\overline{AB}</m>, <m>\overline{BC}</m>, and
           <m>\overline{AC}</m>, respectively. Also, <m>AB=8</m>, <m>BC=14</m>,
           and <m>AC=10</m>. Angles <m>\angle ABC</m>, <m>\angle ADF</m>, and 
-          <m>\angle FEC</m> have measure 42 degrees; whereas, <m>m\angle ACB=30\deg</m>
-          and <m>m\angle DEF=108\deg</m>. Answer the following:
+          <m>\angle FEC</m> have measure 42 degrees; whereas, <m>m\angle ACB=30^{\circ}</m>
+          and <m>m\angle DEF=108^{\circ}</m>. Answer the following:
         </p>
           <figure xml:id="fig-midpt-triangle">
             <caption></caption>
