@@ -345,12 +345,6 @@
                                         </p>
                                     </li>
                                 </ol>
-                                <hint>
-                                    <p>
-                                        Start with one triangle and add two more, meeting at a single corner. What shape does 
-                                        this create where all faces are the same?
-                                    </p>
-                                </hint>
                             </p>
                         </li>
                         <li>
@@ -383,8 +377,8 @@
                                 </ol>
                                 <hint>
                                     <p>
-                                        Imagine a pyramid with a square base. What happens if another identical pyramid is
-                                        stacked on top of this original pyramid, base to base?
+                                        Imagine a pyramid with a square base. Examine the vertices of the shape and check if 
+                                        the same number of triangular faces meet at each vertex.
                                     </p>
                                 </hint>
                             </p>
