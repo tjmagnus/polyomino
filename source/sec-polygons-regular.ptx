@@ -1052,33 +1052,11 @@
   <subexercises xml:id="SAR-polygons-regular">
       <title>Skills and Recall</title>
       <exercise>
-          <statement>
-              <p>
-                  Sketch a picture of each of the following:
-                  <ol>
-                    <li>
-                      <p>
-                        A concave octagon
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        A convex hexagon that is not regular
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        A rectangle that is a regular quadrilateral.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        A rectangle that is not a regular quadrilateral.
-                      </p>
-                    </li>
-                  </ol>
-              </p>
-          </statement>
+          <introduction>
+            <p>
+              
+            </p>
+          </introduction>
       </exercise>
       <exercise>
         <statement>
