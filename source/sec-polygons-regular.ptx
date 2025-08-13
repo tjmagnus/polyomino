@@ -1167,25 +1167,27 @@
           </p>
         </solution> -->
       </exercise>
-      <exercise>
+      <exercise xml:id="SAR-polygons-regular-sketch-polygon-hexagon" label="SAR-polygons-regular-sketch-polygon-hexagon-label" >
+        <introduction>
+          <p>
+            Demonstrate that each of the following exists by sketching an 
+            example:
+          </p>
+        </introduction>
+        <task xml:id="SAR-polygons-regular-nonconvex-pentagon-sketch" label="SAR-polygons-regular-nonconvex-pentagon-sketch-label">
           <statement>
-              <p>
-                  Demonstrate that each of the following exists by sketching an 
-                  example:
-                  <ol>
-                    <li>
-                      <p>
-                        a pentagon that is not convex
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        a convex hexagon with at least one right angle
-                      </p>
-                    </li>
-                  </ol>
-              </p>
+            <p>
+              A pentagon that is not convex.
+            </p>
           </statement>
+        </task>
+        <task xml:id="SAR-polygons-regular-convex-hexagon" label="SAR-polygons-regular-convex-hexagon-label">
+          <statement>
+            <p>
+              A convex hexagon with at least one right angle.
+            </p>
+          </statement>
+        </task>
       </exercise>
       <exercise>
         <statement>
