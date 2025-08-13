@@ -145,142 +145,144 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     </url>.
   </p>
 </introduction>
-<task>
-  <statement>
-  <p>
-    Assume that the length of each side of the square is 1 unit. Determine the area of each of  
-    the figures:
-    <ol>
-      <li>
+
+<section xml:id="area-tangram-section">
+  <title>Areas of Tangram Shapes</title>
+  <introduction>
+      <p>
+        Assume that the length of each side of the square is 1 unit. Determine the area of each of the figures:
+      </p>
+  </introduction>
+  <taskgroup>
+    <task>
+      <statement>
+        <p>The area of the square.</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>The area of one small triangle.</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>The area of the parallelogram.</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>The area of the medium triangle.</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>The area of the large triangle.</p>
+      </statement>
+      <hint>
         <p>
-          The area of the square.
+          To determine the areas for a-e, compare the sizes of the shapes and how they fit together. Consider 
+          how smaller shapes fit inside the square, and how the square might fit inside larger shapes.
         </p>
-      </li>
-      <li>
+      </hint>
+    </task>
+  </taskgroup>
+</section>
+
+<section xml:id="side-lengths-section">
+  <title>Side Lengths of Tangram Shapes</title>
+  <taskgroup>
+    <task>
+      <statement>
+        <p>Still assuming that the length of each side of the square is 1 unit, now find the lengths of the sides of the other tangram shapes. You may use the Pythagorean Theorem, but it is possible to determine these lengths without it!</p>
+      </statement>
+      <hint>
+        <p>Use the Pythagorean Theorem if preferred. This will be explored in a later section of the book.</p>
+      </hint>
+    </task>
+  </taskgroup>
+</section>
+
+<section xml:id="construct-shapes-section">
+  <title>Constructing Shapes with Tangrams</title>
+  <introduction>
+      <p>
+        Construct each of the following if possible:
+      </p>
+  </introduction>
+  <taskgroup>
+    <task>
+      <statement>
         <p>
-          The area of one small triangle.
+          A triangle using three tangram pieces.
         </p>
-      </li>
-      <li>
+      </statement>
+    </task>
+    <task>
+      <statement>
         <p>
-          The area of the parallelogram.
+          A rectangle.
         </p>
-      </li>
-      <li>
+      </statement>
+    </task>
+    <task>
+      <statement>
         <p>
-          The area of the medium triangle.
+          A parallelogram that is not a rectangle using two pieces.
         </p>
-      </li>
-      <li>
+      </statement>
+    </task>
+    <task>
+      <statement>
         <p>
-          The area of the large triangle.
+          A non-isosceles trapezoid (you choose the number of pieces).
         </p>
-      </li>
-    </ol> 
-  </p>
-</statement>
-<hint>
-    <p>
-      Compare the sizes of the shapes and how they fit together. Consider how smaller shapes fit inside the square, and how 
-      the square might fit inside larger shapes.
-    </p>
-</hint>
-</task>
-<task>
-  <statement>
-  <p> 
-    Still assuming that the length of each side of the square is 1 unit,
-    now find the lengths of the sides of the other tangram shapes. You may use the 
-    Pythagorean Theorem, but it is possible to determine these lengths 
-    without it!
-  </p>
-  </statement>
-  <hint>
-    <p>
-      Use the Pythagorean Theorem if preferred. This will be explored in a later section of the book.
-    </p>
-</hint>
-</task>
-<task>
-  <statement>
-    <p>
-      Construct each of the following if possible:
-      <ol>
-        <li>
-          <p>
-            A triangle using three tangram pieces.
-          </p>
-        </li>
-        <li>
-          <p>
-            A rectangle
-          </p>
-        </li>
-        <li>
-          <p>
-            A parallelogram that is not a rectangle using two pieces.
-          </p>
-        </li>
-        <li>
-          <p>
-            A non-isosceles trapezoid (you choose the number of pieces).
-          </p>
-        </li>
-        <li>
-          <p>
-            A pentagon.
-          </p>
-        </li>
-        <li>
-          <p>
-            A non-square rectangle using all seven pieces.
-          </p>
-        </li>
-        <li>
-          <p>
-            A square using all seven pieces.
-            <ol>
-              <li>
-                <p>
-                  What is the area of this square?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the side length of this square?
-                </p>
-              </li>
-            </ol>
-          </p>
-        </li>
-      </ol>
-    </p>
-  </statement>
-  <hint>
-    <p>
-      To create these shapes, consider how the individual tangram pieces fit together. The interactive tool,
-      <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">  
-      Interactive Tangrams on Polypad by Amplify
-      </url>, can be used to experiment by dragging the pieces to form shapes.
-    </p>
-  </hint>
-</task>
-<task>
-  <statement>
-    <p>
-      Were you able to answer the questions above without using the 
-      Pythagorean Theorem or the area formula for a triangle? 
-      If not, explore how this might be done! 
-    </p>
-  </statement>
-  <hint>
-    <p>
-      What tools do we have in our toolbox? How can these help? 
-    </p>
-  </hint>
-</task>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          A pentagon.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          A non-square rectangle using all seven pieces. What is the area of this square?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          A square using all seven pieces. What is the area of this square? What is the side length of this square?
+        </p>
+      </statement>
+      <hint>
+        <p>
+          To create the shapes in a-g, consider how the individual tangram pieces fit together. The interactive tool, 
+          <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">Interactive Tangrams on Polypad by Amplify</url>, 
+          can be used to experiment by dragging the pieces to form shapes.
+        </p>
+      </hint>
+    </task>
+  </taskgroup>
+</section>
+
+<section xml:id="reflection-section">
+  <title>Reflection</title>
+  <task>
+    <statement>
+      <p>Were you able to answer the questions above without using the Pythagorean Theorem or the area formula for a triangle? If not, explore how this might be done!</p>
+    </statement>
+    <hint>
+      <p>What tools do we have in our toolbox? How can these help?</p>
+    </hint>
+  </task>
+</section>
 
 </exploration>
+
   <p>
     In this exercise, we practiced using our initial principles and 
     identified some tools, namely the Pythagorean Theorem and the area formula 
