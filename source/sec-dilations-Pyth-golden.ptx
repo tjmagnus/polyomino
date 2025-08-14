@@ -392,6 +392,11 @@
           What is the measure of the third angle <m>\angle ACB?</m>
         </p>
       </statement>
+      <hint>
+        <p>
+          Use the Triangle Angle Sum Theorem to find <m>\angle ACB</m>.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -429,6 +434,12 @@
             that is similar to <m>\Delta ABC</m>.  
           </p>
         </statement>
+        <hint>
+          <p>
+            After bisecting <m>\angle CAB</m>, check to see which small triangle has identical angles to the original triangle,
+            <m>\Delta ABC</m>.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -436,6 +447,11 @@
             List the three pairs of corresponding sides.
           </p>
         </statement>
+        <hint>
+          <p>
+            Match equal angles to pair the corresponding sides.  
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -445,6 +461,11 @@
             down at least four digits after the decimal point. 
           </p>
         </statement>
+        <hint>
+          <p>
+            Review the definition for <xref ref="def-proportionality" text="custom">constant of proportionality</xref>.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -456,6 +477,11 @@
             after the decimal point.
           </p>
         </statement>
+        <hint>
+          <p>
+            Compute the reciprocal of the ratio in the previous problem.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -488,6 +514,12 @@
             Identify another triangle in the sketch which is similar to <m>\Delta ABE</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            The new bisector at angle <m>\Delta ABD</m> creates another isosceles triangle <m>\Delta ABE</m>.
+            Which other triangle in the sketch is similar to <m>\Delta ABE?</m>
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -495,6 +527,11 @@
             Identify two triangles in the sketch that are similar to <m>\Delta DEB</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            Look for two triangles that have identical interior angle measurements to <m>\Delta DEB</m>.
+          </p>
+        </hint>
       </task>
     </task>
     <task>
@@ -513,6 +550,13 @@
             change?
           </p>
         </statement>
+        <hint>
+          <p>
+            Again, review the definition of <xref ref="def-proportionality" text="custom">constant of proportionality</xref>.
+            Experiment with moving the vertices <m>A</m> and <m>B</m>. Use the ratio of corresponding sides to see if
+            changing side lengths has any impact on the constant of proportionality.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -524,6 +568,12 @@
             have?
           </p>
         </statement>
+        <hint>
+          <p>
+            Notice how bisection creates a smaller triangle similar to the previous one. Imagine how the pattern would look if 
+            this process was continuous.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -551,6 +601,12 @@
             What do you notice?
           </p>
         </statement>
+        <hint>
+          <p>
+            The Desmos Scientific Calculator at <url href="https://desmos.com/scientific">desmos.com</url> can be used for
+            this estimation.
+          </p>
+        </hint>
       </task>
     </task>
   </exploration>
@@ -670,7 +726,7 @@
       </statement>
       <hint>
         <p>
-          Compare the two diagonals (<m>\overline{AD}</m> and <m>\overline{BD}</m>) and the side <m>\overline{AB}</m>. Use
+          Compare the two diagonals (<m>\overline{AD}</m> and <m>\overline{BD}</m>) and the side <m>AB</m>. Use
           the Triangle Angle Sum Theorem.
         </p>
       </hint>
