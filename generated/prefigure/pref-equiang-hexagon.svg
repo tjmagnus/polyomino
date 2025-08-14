@@ -7,14 +7,14 @@
       <rect x="10.0" y="10.0" width="225.0" height="225.0"/>
     </clipPath>
   </defs>
-  <path id="path-0" d="M 90.4 239.4 L 154.6 239.4 L 202.9 122.5 L 154.6 5.6 L 90.4 5.6 L 42.1 122.5 Z" stroke="none" stroke-width="2" fill="plum" clip-path="url(#clipPath-1)"/>
-  <circle id="circle-0" cx="90.4" cy="234.9" r="4" stroke="black" stroke-width="2" fill="lavender"/>
-  <circle id="circle-1" cx="154.6" cy="234.9" r="4" stroke="black" stroke-width="2" fill="lavender"/>
-  <circle id="circle-2" cx="202.9" cy="122.5" r="4" stroke="black" stroke-width="2" fill="lavender"/>
-  <circle id="circle-3" cx="154.6" cy="10.1" r="4" stroke="black" stroke-width="2" fill="lavender"/>
-  <circle id="circle-4" cx="90.4" cy="10.1" r="4" stroke="black" stroke-width="2" fill="lavender"/>
-  <circle id="circle-5" cx="42.1" cy="122.5" r="4" stroke="black" stroke-width="2" fill="lavender"/>
-  <g id="label-0" transform="translate(100.0,221.5) scale(0.7,0.7) translate(-14.6,-4.5)">
+  <path id="path-0" d="M 90.4 219.9 L 154.6 219.9 L 202.9 122.5 L 154.6 25.1 L 90.4 25.1 L 42.1 122.5 Z" stroke="black" stroke-width="1.5" fill="none" clip-path="url(#clipPath-1)"/>
+  <circle id="circle-0" cx="90.4" cy="219.9" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <circle id="circle-1" cx="154.6" cy="219.9" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <circle id="circle-2" cx="202.9" cy="122.5" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <circle id="circle-3" cx="154.6" cy="25.1" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <circle id="circle-4" cx="90.4" cy="25.1" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <circle id="circle-5" cx="42.1" cy="122.5" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <g id="label-0" transform="translate(100.0,205.0) scale(0.7,0.7) translate(-14.6,-4.5)">
     <g id="g-0">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.128px" width="29.144px" height="9.024px" role="img" focusable="false" viewBox="0 -491.4 1610 498.4" x="0.0" y="0.0">
         <defs>
@@ -38,7 +38,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-1" transform="translate(148.2,221.5) scale(0.7,0.7) translate(-14.6,-4.5)">
+  <g id="label-1" transform="translate(148.2,205.0) scale(0.7,0.7) translate(-14.6,-4.5)">
     <g id="g-1">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.128px" width="29.144px" height="9.024px" role="img" focusable="false" viewBox="0 -491.4 1610 498.4" x="0.0" y="0.0">
         <defs>
@@ -86,7 +86,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-3" transform="translate(148.2,23.5) scale(0.7,0.7) translate(-14.6,-4.5)">
+  <g id="label-3" transform="translate(148.2,40.0) scale(0.7,0.7) translate(-14.6,-4.5)">
     <g id="g-3">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.128px" width="29.144px" height="9.024px" role="img" focusable="false" viewBox="0 -491.4 1610 498.4" x="0.0" y="0.0">
         <defs>
@@ -110,7 +110,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-4" transform="translate(100.0,23.5) scale(0.7,0.7) translate(-14.6,-4.5)">
+  <g id="label-4" transform="translate(100.0,40.0) scale(0.7,0.7) translate(-14.6,-4.5)">
     <g id="g-4">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.128px" width="29.144px" height="9.024px" role="img" focusable="false" viewBox="0 -491.4 1610 498.4" x="0.0" y="0.0">
         <defs>
@@ -158,7 +158,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-6" transform="translate(77.5,10.0) scale(0.9,0.9) translate(-5.5,-4.4)">
+  <g id="label-6" transform="translate(77.5,25.0) scale(0.9,0.9) translate(-5.5,-4.4)">
     <g id="g-6">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="11.008px" height="8.840px" role="img" focusable="false" viewBox="0 -488.6 608.3 488.6" x="0.0" y="0.0">
         <defs>
@@ -176,7 +176,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-7" transform="translate(167.5,10.0) scale(0.9,0.9) translate(-5.2,-4.3)">
+  <g id="label-7" transform="translate(167.5,25.0) scale(0.9,0.9) translate(-5.2,-4.3)">
     <g id="g-7">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="10.360px" height="8.688px" role="img" focusable="false" viewBox="0 -480.2 572.6 480.2" x="0.0" y="0.0">
         <defs>
@@ -212,7 +212,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-9" transform="translate(167.5,235.0) scale(0.9,0.9) translate(-5.6,-4.3)">
+  <g id="label-9" transform="translate(167.5,223.8) scale(0.9,0.9) translate(-5.6,-4.3)">
     <g id="g-9">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="11.176px" height="8.688px" role="img" focusable="false" viewBox="0 -480.2 617.4 480.2" x="0.0" y="0.0">
         <defs>
@@ -230,7 +230,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-10" transform="translate(77.5,235.0) scale(0.9,0.9) translate(-4.8,-4.3)">
+  <g id="label-10" transform="translate(77.5,223.8) scale(0.9,0.9) translate(-4.8,-4.3)">
     <g id="g-10">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.576px" height="8.616px" role="img" focusable="false" viewBox="0 -476 529.2 476" x="0.0" y="0.0">
         <defs>
@@ -248,7 +248,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-11" transform="translate(32.5,122.5) scale(0.9,0.9) translate(-4.6,-4.3)">
+  <g id="label-11" transform="translate(29.3,122.5) scale(0.9,0.9) translate(-4.6,-4.3)">
     <g id="g-11">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.176px" height="8.616px" role="img" focusable="false" viewBox="0 -476 506.8 476" x="0.0" y="0.0">
         <defs>
@@ -266,7 +266,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-12" transform="translate(122.5,239.5) scale(0.8,0.8) translate(-9.3,-4.2)">
+  <g id="label-12" transform="translate(122.5,227.5) scale(0.8,0.8) translate(-9.3,-4.2)">
     <g id="g-12">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.136px" width="18.608px" height="8.440px" role="img" focusable="false" viewBox="0 -458.5 1028.3 466.2" x="0.0" y="0.0">
         <defs>
@@ -288,7 +288,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-13" transform="translate(186.8,181.0) scale(0.8,0.8) translate(-3.6,-4.2)">
+  <g id="label-13" transform="translate(186.8,171.2) scale(0.8,0.8) translate(-3.6,-4.2)">
     <g id="g-13">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.136px" width="7.288px" height="8.440px" role="img" focusable="false" viewBox="0 -458.5 402.5 466.2" x="0.0" y="0.0">
         <defs>
@@ -306,7 +306,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-14" transform="translate(186.8,64.0) scale(0.8,0.8) translate(-3.6,-4.2)">
+  <g id="label-14" transform="translate(186.8,73.8) scale(0.8,0.8) translate(-3.6,-4.2)">
     <g id="g-14">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.136px" width="7.288px" height="8.440px" role="img" focusable="false" viewBox="0 -458.5 402.5 466.2" x="0.0" y="0.0">
         <defs>
@@ -324,7 +324,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-15" transform="translate(122.5,5.5) scale(0.8,0.8) translate(-9.3,-4.2)">
+  <g id="label-15" transform="translate(122.5,17.5) scale(0.8,0.8) translate(-9.3,-4.2)">
     <g id="g-15">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.136px" width="18.608px" height="8.440px" role="img" focusable="false" viewBox="0 -458.5 1028.3 466.2" x="0.0" y="0.0">
         <defs>
@@ -346,7 +346,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-16" transform="translate(58.2,64.0) scale(0.8,0.8) translate(-3.6,-4.2)">
+  <g id="label-16" transform="translate(58.2,73.8) scale(0.8,0.8) translate(-3.6,-4.2)">
     <g id="g-16">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.136px" width="7.288px" height="8.440px" role="img" focusable="false" viewBox="0 -458.5 402.5 466.2" x="0.0" y="0.0">
         <defs>
@@ -364,7 +364,7 @@
       </svg>
     </g>
   </g>
-  <g id="label-17" transform="translate(58.2,181.0) scale(0.8,0.8) translate(-3.6,-4.2)">
+  <g id="label-17" transform="translate(58.2,171.2) scale(0.8,0.8) translate(-3.6,-4.2)">
     <g id="g-17">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.136px" width="7.288px" height="8.440px" role="img" focusable="false" viewBox="0 -458.5 402.5 466.2" x="0.0" y="0.0">
         <defs>

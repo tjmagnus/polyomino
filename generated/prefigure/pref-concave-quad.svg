@@ -7,11 +7,11 @@
       <rect x="10.0" y="10.0" width="250.0" height="250.0"/>
     </clipPath>
   </defs>
-  <path id="path-0" d="M 72.5 204.4 L 135.0 37.8 L 197.5 204.4 L 135.0 162.8 Z" stroke="none" stroke-width="2" fill="#B2D8B2" clip-path="url(#clipPath-1)"/>
-  <circle id="circle-0" cx="74.6" cy="201.7" r="4" stroke="black" stroke-width="2" fill="green"/>
-  <circle id="circle-1" cx="135.0" cy="37.8" r="4" stroke="black" stroke-width="2" fill="green"/>
-  <circle id="circle-2" cx="195.4" cy="201.7" r="4" stroke="black" stroke-width="2" fill="green"/>
-  <circle id="circle-3" cx="135.0" cy="162.8" r="4" stroke="black" stroke-width="2" fill="green"/>
+  <path id="path-0" d="M 72.5 204.4 L 135.0 37.8 L 197.5 204.4 L 135.0 162.8 Z" stroke="black" stroke-width="1.5" fill="none" clip-path="url(#clipPath-1)"/>
+  <circle id="circle-0" cx="74.6" cy="201.7" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <circle id="circle-1" cx="135.0" cy="37.8" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <circle id="circle-2" cx="195.4" cy="201.7" r="4" stroke="black" stroke-width="1.5" fill="white"/>
+  <circle id="circle-3" cx="135.0" cy="162.8" r="4" stroke="black" stroke-width="1.5" fill="white"/>
   <g id="label-0" transform="translate(74.6,212.8) scale(0.8,0.8) translate(-5.5,-4.4)">
     <g id="g-0">
       <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="11.008px" height="8.840px" role="img" focusable="false" viewBox="0 -488.6 608.3 488.6" x="0.0" y="0.0">
