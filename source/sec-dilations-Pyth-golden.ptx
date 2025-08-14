@@ -604,6 +604,11 @@
           measure of <m>\angle EAB</m>.
         </p>
       </statement>
+      <hint>
+        <p>
+          The variable <m>n</m> represents the number of sides.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -611,6 +616,11 @@
           Draw segment <m>\overline{AD}</m>. What type of triangle is <m>\Delta EAD?</m>
         </p>
       </statement>
+      <hint>
+        <p>
+          Consider the properties of a regular polygon. What can be inferred about the side lengths of <m>\Delta EAD?</m>
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -618,6 +628,12 @@
           Compute <m>m\angle{EAD}</m>. How did you determine this?
         </p>
       </statement>
+      <hint>
+        <p>
+          Use the Triangle Angle Sum Theorem to compute <m>m\angle{EAD}</m>. Recall that the interior angles of a triangle
+          add up to 180 degrees.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -625,6 +641,12 @@
           Determine <m>m\angle{DAB}</m> showing all work.
         </p>
       </statement>
+      <hint>
+        <p>
+          <m>\angle EAB</m> is split by segment <m>\overline{AD}</m> into <m>\angle EAD + \angle DAB</m>. Use this to find
+          <m>m\angle{DAB}</m>.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -633,6 +655,11 @@
           How do you know?
         </p>
       </statement>
+      <hint>
+        <p>
+          Adding <m>\overline{BD}</m> does not change the measure of <m>\angle CDE</m>.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -641,6 +668,12 @@
           this exploration belong in this section?
         </p>
       </statement>
+      <hint>
+        <p>
+          Compare the two diagonals (<m>\overline{AD}</m> and <m>\overline{BD}</m>) and the side <m>\overline{AB}</m>. Use
+          the Triangle Angle Sum Theorem.
+        </p>
+      </hint>
     </task>
     <task>
       <introduction>
@@ -661,6 +694,12 @@
             Describe the shape of the decagon <m>DFCGBHAIEJ</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            Notice how extending the sides creates new points of intersection outside the pentagon. Consider what shape is
+            created when these points are connected in order.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -669,6 +708,12 @@
             <m>\Delta ADB?</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            Compare the angles and side relationships in <m>\Delta DFC</m> to <m>\Delta ADB</m>. How are these two triangles
+            related?
+          </p>
+        </hint>
       </task>
     </task>
   </exploration>
