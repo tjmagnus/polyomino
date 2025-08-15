@@ -634,7 +634,7 @@
         <hint>
           <p>
             Notice how bisection creates a smaller triangle similar to the previous one. Imagine how the pattern would look if 
-            this process was continuous.
+            this process was continued.
           </p>
         </hint>
       </task>
