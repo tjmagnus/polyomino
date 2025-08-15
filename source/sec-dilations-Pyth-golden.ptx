@@ -67,6 +67,12 @@
             Are these equal to the scale factor?
           </p>
         </statement>
+        <hint>
+          <p>
+            Recall that the scale factor is a ratio. It compares the lengths of corresponding sides of two similar shapes.
+            Do the given ratios above compare corresponding sides?
+          </p>
+        </hint>
         <answer>
           <p>
             <m>\frac{OA'}{AA'}=\frac{OB'}{BB'}=\frac{OC'}{CC'}=\frac{3}{2}</m>, not 
@@ -81,6 +87,12 @@
             Are these equal to the scale factor?
           </p>
         </statement>
+        <hint>
+          <p>
+            Remember that the scale factor is a ratio that compares corresponding sides of two similar shapes.
+            Again, determine if the given ratios above compare corresponding sides.
+          </p>
+        </hint>
         <answer>
           <p>
             Yes, these ratios all equal 3.
