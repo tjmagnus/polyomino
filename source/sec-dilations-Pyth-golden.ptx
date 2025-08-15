@@ -275,6 +275,12 @@
                   How many triangles are now in the sketch? Name them.
               </p>
               </statement>
+              <hint>
+                <p>
+                  Think of this line segment from point <m>C</m> to <m>\overline{AB}</m> as the altitude. How does it divide
+                  the larger triangle into two smaller right triangles?
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -282,6 +288,11 @@
                   To what other angle(s) is <m>\angle CDA</m> congruent?
               </p>
               </statement>
+              <hint>
+                <p>
+                  Look for angles that have the same orientation and are within a similar triangle.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -290,6 +301,13 @@
                   to <m>\Delta ABC</m>. What is the constant of proportionality?
               </p>
               </statement>
+              <hint>
+                <p>
+                  To prove that these two triangles are similar, show two of their angles are congruent using the
+                  Angle-Angle (AA) rule. Recall the definition for 
+                  <xref ref="def-proportionality" text="custom">constant of proportionality</xref>.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -299,6 +317,12 @@
                   vertices.
               </p>
               </statement>
+              <hint>
+                <p>
+                  There is another small right triangle that is formed by the perpendicular. This small right triangle is
+                  similar to <m>\Delta ABC</m>.
+                </p>
+              </hint>
             </task>
         </task>
         <task xml:id="task-Pyth-pf-sim">
@@ -316,6 +340,11 @@
                   <m>\frac{BC}{AB}=\frac{BD}{BC}</m>.
                 </p>
               </statement>
+              <hint>
+                <p>
+                  Use the property of similar triangles which states that corresponding sides are proportional.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -324,6 +353,11 @@
                   <m>AC\cdot AC=AB\cdot AD</m>. Why?
                 </p>
               </statement>
+              <hint>
+                <p>
+                  Think about what happens when two ratios are equal. How is cross multiplication being applied here?
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -332,6 +366,11 @@
                   to complete the equation <m>BC\cdot BC=</m>.
               </p>
               </statement>
+              <hint>
+                <p>
+                  Use cross multiplication to complete this equation.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -342,6 +381,12 @@
                   <m>AD+DB</m> using these lower-case letter(s)?
                 </p>
               </statement>
+              <hint>
+                <p>
+                  Look at the line segment that includes both <m>AD</m> and <m>DB</m>. What is the name of that entire line
+                  segment? By which lowercase letter is it represented?
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -352,6 +397,12 @@
                   Do you get <m>c^2?</m> Show all work.
               </p>
               </statement>
+              <hint>
+                <p>
+                  Recall the expressions for <m>a^2</m> and <m>b^2</m> found previously. Substitute those expressions into the
+                  equation, then add them up. Observe and take note of the result.
+                </p>
+              </hint>
             </task>
         </task>
     </exploration>
