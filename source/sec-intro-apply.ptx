@@ -158,6 +158,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       <statement>
         <p>The area of the square.</p>
       </statement>
+      <hint>
+        <p>
+          To determine the areas for a-e, compare the sizes of the shapes and how they fit together. Consider 
+          how smaller shapes fit inside the square, and how the square might fit inside larger shapes.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -178,12 +184,6 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       <statement>
         <p>The area of the large triangle.</p>
       </statement>
-      <hint>
-        <p>
-          To determine the areas for a-e, compare the sizes of the shapes and how they fit together. Consider 
-          how smaller shapes fit inside the square, and how the square might fit inside larger shapes.
-        </p>
-      </hint>
     </task>
   </taskgroup>
 </section>
@@ -216,6 +216,13 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           A triangle using three tangram pieces.
         </p>
       </statement>
+      <hint>
+        <p>
+          To create the shapes in a-g, consider how the individual tangram pieces fit together. The interactive tool, 
+          <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">Interactive Tangrams on Polypad by Amplify</url>, 
+          can be used to experiment by dragging the pieces to form shapes.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -258,13 +265,6 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           A square using all seven pieces. What is the area of this square? What is the side length of this square?
         </p>
       </statement>
-      <hint>
-        <p>
-          To create the shapes in a-g, consider how the individual tangram pieces fit together. The interactive tool, 
-          <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">Interactive Tangrams on Polypad by Amplify</url>, 
-          can be used to experiment by dragging the pieces to form shapes.
-        </p>
-      </hint>
     </task>
   </taskgroup>
 </section>
