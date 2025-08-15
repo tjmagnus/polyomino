@@ -235,7 +235,7 @@
             <task label="SnellLaw-compute-anglemeasureGFD-20-l">
                 <statement>
                     <p>
-                        <m>\angle GFD</m>
+                        <m>\angle GFD=</m><fillin answer="70" mode="number" width="3"/>
                     </p>
                 </statement>
                 <evaluation>
@@ -265,7 +265,7 @@
             <task label="SnellLaw-compute-anglemeasureGFC-20-l">
                 <statement>
                     <p>
-                        <m>\angle GFC</m>
+                        <m>\angle GFC = </m><fillin answer="70" mode="number" width="3"/>
                     </p>
                 </statement>
                 <evaluation>
@@ -295,7 +295,7 @@
             <task label="SnellLaw-compute-anglemeasureGFH-20-l">
                 <statement>
                     <p>
-                        <m>\angle GFH</m>
+                        <m>\angle GFH = </m><fillin answer="70" mode="number" width="3"/>
                     </p>
                 </statement>
                 <evaluation>
@@ -325,7 +325,7 @@
             <task label="SnellLaw-compute-anglemeasureEGF-20-l">
                 <statement>
                     <p>
-                        <m>\angle EGF</m>
+                        <m>\angle EGF =</m><fillin answer="70" mode="number" width="3"/>
                     </p>
                 </statement>
                 <evaluation>
@@ -357,7 +357,7 @@
             <task label="SnellLaw-compute-anglemeasureDGE-20-l">
                 <statement>
                     <p>
-                        <m>\angle DGE</m>
+                        <m>\angle DGE =</m><fillin answer="70" mode="number" width="3"/>
                     </p>
                 </statement>
                 <evaluation>

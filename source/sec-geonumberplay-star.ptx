@@ -1897,24 +1897,27 @@ connected component. Symmetry? Measurement?-->
       <exercise>
         <introduction>
           <p>
-            The star polygon <m>\{_{3}^{8}\}</m> is given in <xref ref="fig-starpoly-eight3"/>.
+            The star polygon <m>\{_{3}^{8}\}</m> is given in <xref ref="fig-starpoly-eight-three"/>.
           </p>
-          <figure xml:id="fig-starpoly-eight3">
+          </introduction>
+          <task label="star-8-3-centershape">
+            <statement>
+              <p>
+                What shape is in the center of the star polygon?
+              </p>
+          <figure xml:id="fig-starpoly-eight-three">
             <caption>The star polygon <m>\{_{3}^{8}\}</m>.</caption>
             <image>
-              <prefigure xmlns="https://prefigure.org" label="prefiglabel-starpoly-eight3"/>
-                <diagram xmlns="https://prefigure.org" width="225" height="225" margins="10">
-                  <definition>
-                  <!--alignments=['nw','w','sw','s','se','e','ne','n']-->
-                  </definition>
-                  <definition>f(t)=(-sin(2*pi*(1+t)/8),cos(2*pi*(1+t)/8))</definition>
+              <prefigure label="prefiglabel-starpoly-eight-three"
+              xml:id="pfimage-starpoly-eight-three">
+                <diagram  width="300" height="300" margins="5">
+                  <definition> f(t)=(-sin(2*pi*(1+t)/8),cos(2*pi*(1+t)/8)) </definition>
                   <coordinates bbox="[-1.4,-1.4,1.4,1.4]">
                   <repeat parameter="k=0..7">
-                      <point at="point" p="f(k)" alignment="alignments[k]" size="2">
-                      <!--<m>${8-k}</m>-->
+                      <point at="point" p="f(k)" size="2">
                       </point>
                   </repeat>
-                  <path start="f(0)" stroke="magenta">
+                  <path start="f(0)" stroke="black">
                 <lineto point="f(3)"/>
                 <lineto point="f(6)"/>
                 <lineto point="f(1)"/>
@@ -1925,7 +1928,7 @@ connected component. Symmetry? Measurement?-->
                 <lineto point="f(0)"/>
                 </path>
                   </coordinates>
-                  <annotations>
+                  <!--<annotations>
                     <annotation id="figure" text="Eight Points around a Circle">
                     <annotation id="point k=0"
                         text="Point 8"
@@ -1952,11 +1955,13 @@ connected component. Symmetry? Measurement?-->
                         text="Point 1"
                         speech="point one"/>
                     </annotation>
-                </annotations>
+                </annotations>-->
               </diagram>
+              </prefigure>
             </image>
-          </figure>
-        </introduction>
+          </figure>      
+          </statement>
+        </task>
       </exercise>
     </subexercises>
     <subexercises xml:id="Writing-geonum-starpoly">
