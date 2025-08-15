@@ -313,6 +313,11 @@
                                 What happens when you try to construct a polyhedron with only two triangles, and
                                 no other shapes, meeting at a vertex? 
                             </p>
+                            <hint>
+                                <p>
+                                    Try putting two triangles together. Does this create a flat shape or a three-dimensional shape?
+                                </p>
+                            </hint>
                         </li>
                         <li>
                             <p>
@@ -370,6 +375,12 @@
                                         </p>
                                     </li>
                                 </ol>
+                                <hint>
+                                    <p>
+                                        Imagine a pyramid with a square base. Examine the vertices of the shape and check if 
+                                        exactly four triangles meet at each vertex.
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -378,12 +389,25 @@
                                 triangles meeting at each vertex? If so, build it, record your work,
                                 and count the faces, edges, and vertices.  
                             </p>
+                            <hint>
+                                <p>
+                                    This question is slightly more complex. Imagine starting with a central vertex and 
+                                    arranging five triangles around it. How do the edges of these triangles connect to form a 
+                                    larger, symmetrical shape?
+                                </p>
+                            </hint>
                         </li>
                         <li>
                             <p>
                                 What is the largest number of triangles that can meet at a vertex to form a corner or point of a 
                                 polyhedron? What happens when you squeeze one more triangle in at a vertex?
                             </p>
+                            <hint>
+                                <p>
+                                    Each triangle has a 60 degree corner. How many of these corners can fit together at a 
+                                    single point before the total angle is too large to bend and form a corner?
+                                </p>
+                            </hint>
                         </li>
                         <li>
                             <p>
@@ -438,6 +462,11 @@
                     does not satisfy the definition of a regular polyhedron. 
                 </p>
             </statement>
+            <hint>
+                <p>
+                    Recall the definition of <xref ref="def-regpolyhedron" text="custom">regular polyhedron</xref>.
+                </p>
+            </hint>
         </task>
         <task>
             <title>Other Regular Polyhedra</title>
@@ -494,6 +523,12 @@
                                         </p>
                                     </li>                                   
                                 </ol> 
+                                <hint>
+                                    <p>
+                                        The measure of each corner of a square is 90 degrees. How many squares can meet at a single vertex 
+                                        without overlapping or lying flat?
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -536,6 +571,13 @@
                                         </p>
                                     </li>
                                 </ol>
+                                <hint>
+                                    <p>
+                                        The sum of the interior angles of a pentagon is 540 degrees. Use this sum to find the 
+                                        measure of one vertex angle. Then determine how many of these can meet at a single 
+                                        point without the faces lying flat.
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -571,6 +613,12 @@
                                         </p>
                                     </li>
                                 </ol>
+                                <hint>
+                                    <p>
+                                        Find the measure of one vertex angle, and then determine how many of these can meet at 
+                                        a single point without the faces lying flat.
+                                    </p>
+                                </hint>
                             </p>
                         </li>
                         <li>
@@ -675,6 +723,40 @@
                         the number of faces meeting at each vertex.
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        Individual definitions may vary. See the definition for 
+                        <xref ref="def-regpolyhedron" text="custom">regular polyhedron</xref> to review
+                        the conditions that must be satisified.
+                    </p>
+                    <p>
+                        The five regular polyhedra include: <term>tetrahedron</term>, <term>hexahedron</term>,
+                        <term>octahedron</term>, <term>dodecahedron</term>, and <term>icosahedron</term>. View "Solution"
+                        below to read a description for all five.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        <term>Tetrahedron</term>: Simplest regular polyhedron. Has four equilateral triangular faces. Three 
+                        faces meet at each vertex.
+                    </p>
+                    <p>
+                        <term>Hexahedron</term>: Most familiar regular polyhedron (think: a cube or standard die). Has six square
+                        faces. Three faces meet at each vertex.
+                    </p>
+                    <p>
+                        <term>Octahedron</term>: Looks like two square pyramids joined at their bases. Has eight equilateral
+                        triangular faces. Four faces meet at each vertex. 
+                    </p>
+                    <p>
+                        <term>Dodecahedron</term>: Complex but symmetrical shape. Has 12 faces that are regular pentagons.
+                        Three faces meet at each vertex.
+                    </p>
+                    <p>
+                        <term>Icosahedron</term>: Has the most faces of any regular polyhedron giving it a rounded appearance.
+                        Has 20 equilateral triangular faces. Five faces meet at each vertex.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <statement>
@@ -683,6 +765,20 @@
                         Explain why each is not regular. 
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        Three examples of polyhedra that are not regular include a rectangular prism, square pyramid, and triangular prism.
+                        An explanation is included below under "Solution". Remember, there are many right answers to this question and these
+                        are just three examples!
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        Rectangular prisms, square pyramids, and triangular prisms are not regular polyhedra. They often have 
+                        faces of different shapes or sizes. Therefore, they fail the requirement that all their faces must be 
+                        congruent regular polygons.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <statement>
@@ -691,6 +787,18 @@
                         a convex polyhedron?
                     </p>
                 </statement>
+                <answer>
+                    <p>
+                        The sum of angle measures at any vertex of a convex polyhedron must be less than 360 degrees.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        The sum of the measures at any vertex of a convex polyhedron must always be less than 360 degrees. If the sum was 
+                        exactly 360 degrees, the faces would lie flat in a plane, preventing a three-dimensional corner from forming. If the sum 
+                        was greater than 360 degrees, the polyhedron would curve inward, and therefore would not be considered a convex shape.
+                    </p>
+                </solution>
             </exercise>
         </subexercises>
         <subexercises>
@@ -715,6 +823,23 @@
                         </image>
                     </figure>
                 </statement>
+                <hint>
+                    <p>
+                        Recall that a regular tetrahedron has four triangular faces. Each triangular face connects to three other faces.
+                        Visualize or sketch how each net (Figure a and Figure b) would fold up in 3D.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        Figure b is the correct net for a regular tetrahedron.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        In Figure b, folding each triangle along the interior lines results in a closed shape with four equal
+                        triangular faces and four vertices. This is characteristic of a regular tetrahedron.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <title>Nets for a Cube</title>
@@ -723,6 +848,38 @@
                         Sketch a net for a cube and use it to construct a cube.
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        Recall that a cube has six square faces. In a notebook, try sketching six connected squares that can
+                        easily fold into a 3D shape. Each face should have four edges that connect to other faces.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        There are many right answers to this problem. See the "Solution" below for a sample net of a cube.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                      <figure xml:id="fig-net-cube-">
+                        <caption>A sample net for a cube.</caption>
+                        <image>
+                          <prefigure xmlns="https://prefigure.org" label="pref-net-cube6" 
+                            xml:id="pref-net-cube6">
+                            <xi:include href="prefcode-net-cube6.ptx" />
+                          </prefigure>
+                        </image>
+                      </figure>
+                    </p>
+                    <p>
+                        There are 11 valid cube nets in total. One example of a cube net forms the shape of a "t" with one square in 
+                        the center, one square above, one to the left, one to the right, and two below.
+                    </p>
+                    <p>
+                        The t-shaped cube net can be folded by first making the center square the base. The next step is to fold up the 
+                        four squares around it to create the walls. Finally, fold the remaining square over the top to close the cube.
+                    </p>
+                </solution>
             </exercise>
             <exercise>
                 <title>Nets for Polyhedra?</title>
@@ -747,6 +904,39 @@
                         </image>
                     </figure>
                 </statement>
+                <hint>
+                    <p>
+                        A valid net for a regular polyhedron must fold into a completely closed 3D shape without any overlaps or 
+                        gaps. Pay close attention to how individual faces are connected and whether edges meet when folded.
+                    </p>
+                </hint>
+                <answer>
+                    <p>
+                        These four patterns cannot be a net for a regular polygon. See "Solution" below to read a detailed
+                        explanation as to why these patterns do not fit the criteria.
+                    </p>
+                </answer>
+                <solution>
+                    <p>
+                        None of these patterns can fold into a regular, closed 3D polyhedron. Below are reasons why each of
+                        these nets are invalid:
+                    </p>
+                    <p>
+                        Pattern a: Consists of six squares, but when folded some of the squares overlap. Therefore, a cube is 
+                        not formed and this net is invalid.
+                    </p>
+                    <p>
+                        Pattern b: Combines both squares and triangles, which do not fit together to form regular polygon.
+                        This net is impossible to fold into a 3D shape and is therefore invalid.
+                    </p>
+                    <p>
+                        Pattern c: A regular octahedron requires eight faces, however this net only has six. Does not
+                        fold into regular polyhedron and leaves gaps. Therefore, this net is invalid. 
+                    </p>
+                    <p>
+                        Pattern d: Also consists of overlapping when folded and therefore is an invalid net.
+                    </p>
+                </solution>
             </exercise>
         </subexercises>
         <subexercises>
@@ -770,6 +960,25 @@
                             many edges does the octahedron have?
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall from earlier in this section that an octahedron has eight faces. How can the number of faces 
+                            of an octahedron be used to calculate its number of edges?
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            An octahedron has 12 edges.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            An octahedron has eight triangular faces, with each face having three edges. Multiply these two
+                            values to get the total number of individual face edges (<m>3 \cdot 8 = 24</m>). Since each edge of
+                            the octahedron is shared by two faces, divide this sum by two (<m>24 / 2 = 12</m>) to find the actual number
+                            of distinct edges. The result: an octahedron has 12 distinct edges. 
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -777,6 +986,26 @@
                             How many triangles meet at each vertex of an octahedron?
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall from the previous problem that an octahedron has eight triangular faces and 12 edges. First, 
+                            determine the total number of vertices. Then, consider how many faces must meet at each of those 
+                            vertices.
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            Four triangles meet at each vertex of an octahedron.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            An octahedron has eight faces. It also has six vertices. Each face is a triangle with 
+                            three vertices. Counting all face vertices individually gives <m>3 \cdot 8 = 24</m>. These 24 
+                            vertex-corners are shared among the six actual vertices. Dividing 24 by six results in four. Therefore, 
+                            four triangles meet at each vertex.
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -786,6 +1015,24 @@
                             This will give you the number of vertices in the assembled octahedron.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall the number of triangles that meet at each vertex of the octahedron. This was determined in
+                            the previous problem.
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            An octahedron has six vertices.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            To find the number of vertices in the octahedron, divide the total number of vertices of the triangles
+                            (24) by the number of triangles that meet at each vertex of the octahedron (4). The result: <m>24 / 4 = 6</m>.
+                            Therefore, an octahedron has six vertices.
+                        </p>
+                    </solution>
                 </task>
                 <task>
                     <statement>
@@ -793,6 +1040,31 @@
                             Use a similar argument to compute the number of edges and vertices in an icosahedron.
                         </p>
                     </statement>
+                    <hint>
+                        <p>
+                            Recall from earlier in this section that a icosahedron has 20 faces. How can this information be used to
+                            calculate both number of edges and vertices?
+                        </p>
+                    </hint>
+                    <answer>
+                        <p>
+                            An icosahedron has 30 edges and 12 vertices.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            An icosahedron has 20 triangular faces, with each face having three edges. Multiply these two
+                            values to get the total number of individual face edges (<m>3 \cdot 20 = 60</m>). Since each edge of
+                            the icosahedron is shared by two faces, divide this sum by two (<m>60 / 2 = 30</m>) to find the actual number
+                            of distinct edges. The result: an icosahedron has 30 distinct edges.
+                        </p>
+                        <p>
+                            A defining property of an icosahedron is that five faces meet at each of its vertices. As mentioned above, 
+                            the total number of individual face edges is (<m>3 \cdot 20 = 60</m>). To find the number of vertices in an
+                            icosahedron, divide this sum by the five faces that meet at each vertex (<m>60 / 5 = 12</m>). The result: an
+                            icosahedron has 12 vertices.
+                        </p>
+                    </solution>
                 </task>
             </exercise>
             <!--<exercise>
