@@ -1516,15 +1516,16 @@
   </subexercises>
   <subexercises xml:id="writing-polygons-regular">
     <title>Writing Prompts</title>
-    <exercise>
+    <exercise xml:id="writing-polygons-regular-letter-to-friend-three-interesting" label="writing-polygons-regular-letter-to-friend-three-interesting-label">
       <statement>
         <p>
           Write a letter to a friend describing one thing you found to be 
           surprising or interesting in this section.
         </p>
       </statement>
+      <response />
     </exercise>
-    <exercise xml:id="ExtConc-polygons-regular-letter-friend-formula" label="ExtConc-polygons-regular-letter-friend-formula-label">
+    <exercise xml:id="writing-polygons-regular-letter-friend-formula" label="writing-polygons-regular-letter-friend-formula-label">
       <statement>
         <p>
           Write a letter to a friend in which you give a formula for the vertex 
@@ -1534,7 +1535,7 @@
       </statement>
       <response />
     </exercise>
-    <exercise xml:id="ExtConc-polygons-regular-letter-to-friend-three-reg-tilings" label="ExtConc-polygons-regular-letter-to-friend-three-reg-tilings-label">
+    <exercise xml:id="writing-polygons-regular-letter-to-friend-three-reg-tilings" label="writing-polygons-regular-letter-to-friend-three-reg-tilings-label">
       <statement>
         <p>
           Write a letter to a friend in which you explain why there are exactly
