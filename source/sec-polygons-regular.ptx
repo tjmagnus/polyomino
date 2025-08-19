@@ -1189,90 +1189,101 @@
           </statement>
         </task>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-regular-sketch-equilateral-equiangular" label="SAR-polygons-regular-sketch-equilateral-equiangular-label">
+        <introduction>
           <p>
-            Demonstrate that each of the following exists by sketching an 
-            example:
-            <ol>
-              <li>
-                <p>
-                  an equilateral polygon that is not regular
-                </p>
-              </li>
-              <li>
-                <p>
-                  an equiangular polygon that is not regular
-                </p>
-              </li>
-            </ol>
+            Demonstrate that each of the following exists by sketching an example:
           </p>
-        </statement>
+        </introduction>
+        <task xml:id="SAR-polygons-regular-task-sketch-equilateral" label="SAR-polygons-regular-task-sketch-equilateral-label">
+          <statement>
+            <p>
+              An equilateral polygon that is not regular.
+            </p>
+          </statement>
+        </task>
+        <task xml:id="SAR-polygons-regular-task-sketch-equiangular" label="SAR-polygons-regular-task-sketch-equiangular-label">
+          <statement>
+            <p>
+              An equiangular polygon that is not regular.
+            </p>
+          </statement>
+        </task>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-regular-vertex-measure" label="SAR-polygons-regular-vertex-measure-label">
+        <introduction>
           <p>
             Answer the following:
-            <ol>
-              <li>
-                <p>
-                  What is the measure of each vertex in a regular 18-gon?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the measure of each vertex in a regular 9-gon?
-                </p>
-              </li>
-              <li>
-                <p>
-                  If a regular 18-gon, a regular 9-gon, and an equilateral triangle  
-                  meet at a vertex, will there be a gap? an overlap? or will they fit  
-                  together without gaps or overlaps?
-                </p>
-              </li>
-              <li>
-                Explain why it is impossible to create a semiregular tiling using 
-                regular 18-gons, regular 9-gons, and equilateral triangles.
-              </li>
-            </ol>
           </p>
-        </statement>
+        </introduction>
+        <task xml:id="SAR-polygons-regular-18gon-vertex-measure-task" label="SAR-polygons-regular-18gon-vertex-measure-task-label">
+          <statement>
+            <p>
+              What is the measure of each vertex in a regular 18-gon?
+            </p>
+          </statement>
+        </task>
+        <task xml:id="SAR-polygons-regular-9gon-vertex-measure-task" label="SAR-polygons-regular-9gon-vertex-measure-task-label">
+          <statement>
+            <p>
+              What is the measure of each vertex in a regular 9-gon?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              If a regular 18-gon, a regular 9-gon, and an equilateral triangle 
+              meet at a vertex, will there be a gap? an overlap? 
+              or will they fit together without gaps or overlaps?
+            </p>
+          </statement>
+        </task>
+        <task xml:id="SAR-polygons-regular-semireg-tiling-impossible-regular-task" label="SAR-polygons-regular-semireg-tiling-impossible-regular-task">
+          <statement>
+            <p>
+              Explain why it is impossible to create a semiregular 
+              tiling using regular 18-gons, regular 9-gons, 
+              and equilateral triangles.
+            </p>
+          </statement>
+        </task>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-regular-100gon" label="SAR-polygons-regular-100gon-label">
+        <introduction>
           <p>
             Answer the following questions about a 100-gon.
-            <ol>
-              <li>
-                <p>
-                  Diagonals drawn from a single vertex will divide a 100-gon into how 
-                  many triangles?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the sum of the interior angles in a convex 100-gon?
-                </p>
-              </li>
-              <li>
+          </p>
+        </introduction>
+              <task xml:id="SAR-polygons-regular-100gon-diagonals-task" label="SAR-polygons-regular-100gon-diagonals-task-label">
+                <statement>
+                  <p>
+                    Diagonals drawn from a single vertex will divide a 100-gon into how 
+                    many triangles?
+                  </p>
+                </statement>
+              </task>
+             <task xml:id="SAR-polygons-regular-100gon-convex-interior-task" label="SAR-polygons-regular-100gon-convex-interior-task-label">
+                <statement>
+                    <p>
+                      What is the sum of the interior angles in a convex 100-gon?
+                    </p>
+                </statement>
+            </task>
+              <task xml:id="SAR-polygons-regular-100gon-interior-angle-measure-task" label="SAR-polygons-regular-100gon-interior-angle-measure-task-label">
+                <statement>
                 <p>
                   In a regular 100-gon, what is the measure of each interior angle?
                 </p>
-              </li>
-              <li>
+                </statement>
+              </task>
+              <task xml:id="SAR-polygons-regular-100gon-central-angle-measure-task" label="SAR-polygons-regular-100gon-central-angle-measure-task-label">
+                <statement>
                 <p>
                   In a regular 100-gon, what is the measure of each central angle?
                 </p>
-              </li>
-            </ol>
-          </p>
-        </statement>
-        <hint>
-          <p>
-            What must the sum of the central angles be?
-          </p>
-        </hint>
+              </statement>
+            </task>
       </exercise>
       <exercise xml:id="exer-houseangle">
         <statement>
