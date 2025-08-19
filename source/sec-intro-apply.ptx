@@ -145,123 +145,144 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     </url>.
   </p>
 </introduction>
-<task>
-  <statement>
-  <p>
-    Assume that the length of each side of the square is 1 unit. Determine the area of each of  
-    the figures:
-    <ol>
-      <li>
+
+<section xml:id="area-tangram-section">
+  <title>Areas of Tangram Shapes</title>
+  <introduction>
+      <p>
+        Assume that the length of each side of the square is 1 unit. Determine the area of each of the figures:
+      </p>
+  </introduction>
+  <taskgroup>
+    <task>
+      <statement>
+        <p>The area of the square.</p>
+      </statement>
+      <hint>
         <p>
-          The area of the square.
+          To determine the areas for a-e, compare the sizes of the shapes and how they fit together. Consider 
+          how smaller shapes fit inside the square, and how the square might fit inside larger shapes.
         </p>
-      </li>
-      <li>
+      </hint>
+    </task>
+    <task>
+      <statement>
+        <p>The area of one small triangle.</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>The area of the parallelogram.</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>The area of the medium triangle.</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>The area of the large triangle.</p>
+      </statement>
+    </task>
+  </taskgroup>
+</section>
+
+<section xml:id="side-lengths-section">
+  <title>Side Lengths of Tangram Shapes</title>
+  <taskgroup>
+    <task>
+      <statement>
+        <p>Still assuming that the length of each side of the square is 1 unit, now find the lengths of the sides of the other tangram shapes. You may use the Pythagorean Theorem, but it is possible to determine these lengths without it!</p>
+      </statement>
+      <hint>
+        <p>Use the Pythagorean Theorem if preferred. This will be explored in a later section of the book.</p>
+      </hint>
+    </task>
+  </taskgroup>
+</section>
+
+<section xml:id="construct-shapes-section">
+  <title>Constructing Shapes with Tangrams</title>
+  <introduction>
+      <p>
+        Construct each of the following if possible:
+      </p>
+  </introduction>
+  <taskgroup>
+    <task>
+      <statement>
         <p>
-          The area of one small triangle.
+          A triangle using three tangram pieces.
         </p>
-      </li>
-      <li>
+      </statement>
+      <hint>
         <p>
-          The area of the parallelogram.
+          To create the shapes in a-g, consider how the individual tangram pieces fit together. The interactive tool, 
+          <url href="https://mathigon.org/polypad/ElO9tSXslRwSzw">Interactive Tangrams on Polypad by Amplify</url>, 
+          can be used to experiment by dragging the pieces to form shapes.
         </p>
-      </li>
-      <li>
+      </hint>
+    </task>
+    <task>
+      <statement>
         <p>
-          The area of the medium triangle.
+          A rectangle.
         </p>
-      </li>
-      <li>
+      </statement>
+    </task>
+    <task>
+      <statement>
         <p>
-          The area of the large triangle.
+          A parallelogram that is not a rectangle using two pieces.
         </p>
-      </li>
-    </ol> 
-  </p>
-</statement>
-</task>
-<task>
-  <statement>
-  <p> 
-    Still assuming that the length of each side of the square is 1 unit,
-    now find the lengths of the sides of the other tangram shapes. You may use the 
-    Pythagorean Theorem, but it is possible to determine these lengths 
-    without it!
-  </p>
-  </statement>
-</task>
-<task>
-  <statement>
-    <p>
-      Construct each of the following if possible:
-      <ol>
-        <li>
-          <p>
-            A triangle using three tangram pieces.
-          </p>
-        </li>
-        <li>
-          <p>
-            A rectangle
-          </p>
-        </li>
-        <li>
-          <p>
-            A parallelogram that is not a rectangle using two pieces.
-          </p>
-        </li>
-        <li>
-          <p>
-            A non-isosceles trapezoid (you choose the number of pieces).
-          </p>
-        </li>
-        <li>
-          <p>
-            A pentagon.
-          </p>
-        </li>
-        <li>
-          <p>
-            A non-square rectangle using all seven pieces.
-          </p>
-        </li>
-        <li>
-          <p>
-            A square using all seven pieces.
-            <ol>
-              <li>
-                <p>
-                  What is the area of this square?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the side length of this square?
-                </p>
-              </li>
-            </ol>
-          </p>
-        </li>
-      </ol>
-    </p>
-  </statement>
-</task>
-<task>
-  <statement>
-    <p>
-      Were you able to answer the questions above without using the 
-      Pythagorean Theorem or the area formula for a triangle? 
-      If not, explore how this might be done! 
-    </p>
-  </statement>
-  <hint>
-    <p>
-      What tools do we have in our toolbox? How can these help? 
-    </p>
-  </hint>
-</task>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          A non-isosceles trapezoid (you choose the number of pieces).
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          A pentagon.
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          A non-square rectangle using all seven pieces. What is the area of this square?
+        </p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>
+          A square using all seven pieces. What is the area of this square? What is the side length of this square?
+        </p>
+      </statement>
+    </task>
+  </taskgroup>
+</section>
+
+<section xml:id="reflection-section">
+  <title>Reflection</title>
+  <task>
+    <statement>
+      <p>Were you able to answer the questions above without using the Pythagorean Theorem or the area formula for a triangle? If not, explore how this might be done!</p>
+    </statement>
+    <hint>
+      <p>What tools do we have in our toolbox? How can these help?</p>
+    </hint>
+  </task>
+</section>
 
 </exploration>
+
   <p>
     In this exercise, we practiced using our initial principles and 
     identified some tools, namely the Pythagorean Theorem and the area formula 
@@ -1174,41 +1195,13 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           </task>
       </exercise>
       <exercise xml:id="label-altitude-etc">
-        <statement>
+        <introduction>
           <p>
             Triangle <m>\Delta ABC</m>, trapezoid <m>DEGF</m>, and parallelogram 
             <m>HKJI</m> are provided in <xref ref="tri-trap-par-label"/>.
-            <ol>
-              <li>
-                <p>
-                  Label a side of triangle <m>\Delta ABC</m> as the base. Then 
-                  draw and label the altitude of the triangle corresponding to 
-                  that base.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Which two sides of trapezoid <m>DEGF</m> could be considered to be bases? 
-                  Label one as the base. Also label the summit and legs of the trapezoid.
-                  Then draw and label an altitude for <m>DEGF</m>. 
-                </p>
-              </li>
-              <li>
-                <p>
-                  Label side <m>\overline{HI}</m> as the base of parallelogram 
-                  <m>HIJK</m>. Sketch and label an altitude for <m>HIJK</m> 
-                  corresponding to base <m>\overline{HI}</m>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Could another side of <m>HIJK</m> been chosen as the base? Which 
-                  one(s)? Would the altitude be the same?
-                </p>
-              </li>
-            </ol>
           </p>
-          <figure xml:id="tri-trap-par-label">
+        </introduction>
+        <figure xml:id="tri-trap-par-label">
             <caption>Shapes for <xref ref="label-altitude-etc"/></caption>
             <image component="web" source="labelbasealtitude.svg">
               <shortdescription>
@@ -1222,14 +1215,137 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 drawn at an incline.
               </shortdescription>
             </image>
-          </figure>
-        </statement>
-        <hint>
-          <p>
-            Check that each altitude is perpendicular to the corresponding 
-            base. Multiple answers are possible for most of these questions.
-          </p>
-        </hint>
+        </figure>
+        <task>
+          <statement>
+            <p>
+              Label a side of triangle <m>\Delta ABC</m> as the base. Then draw and label the altitude of the triangle 
+              corresponding to that base.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Any of the three sides of a triangle can be chosen as the base. Once chosen, draw a perpendicular line segment from
+              that base to the opposite vertex.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Possible Answer:
+            </p>
+            <p>
+              Let <m>\overline{BC}</m> be the base of triangle <m>\Delta ABC</m>. Draw the altitude as a line segment from 
+              point <m>A</m> perpendicular to <m>\overline{BC}</m>.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Step-By-Step Explanation For Drawing:
+            </p>
+            <p>
+              Choose <m>\overline{BC}</m> as the base of triangle <m>\Delta ABC</m>. From point <m>A</m>, draw a perpendicular 
+              line segment to <m>\overline{BC}</m>. Label this line segment as the altitude. This altitude represents the height
+              of the triangle from vertex <m>A</m> to base <m>\overline{BC}</m>.
+            </p>
+          </solution>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Which two sides of trapezoid <m>DEGF</m> could be considered to be bases? Label one as the base. Also label the 
+              summit and legs of the trapezoid. Then draw and label an altitude for <m>DEGF</m>. 
+            </p>
+          </statement>
+          <hint>
+            <p>
+              A trapezoid has one pair of parallel sides, which are the bases. The altitude is the perpendicular distance 
+              between these bases.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Bases: <m>\overline{DE}</m> and <m>\overline{FG}</m> (since they are parallel to each other). One of these
+              will be a base and the other will be a summit.
+            </p>
+            <p>
+              Legs: <m>\overline{DF}</m> and <m>\overline{EG}</m>.
+            </p>
+            <p>
+              Altitude (possible answer): Line segment drawn from point <m>E</m> to <m>\overline{FG}</m>. Should be perpendicular
+              to <m>\overline{FG}</m>.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Step-By-Step Explanation For Drawing:
+            </p>
+            <p>
+              Trapezoid <m>DEGF</m> has sides <m>\overline{DE}</m> and <m>\overline{FG}</m> that are parallel so these are the
+              bases. The non-parallel sides <m>\overline{DF}</m> and <m>\overline{EG}</m> are the legs. Choose base
+              <m>\overline{FG}</m> and a point opposite on <m>\overline{DE}</m> (example: point <m>E</m>). Draw a line segment
+              from point <m>E</m> that is perpendicular to <m>\overline{FG}</m>. Label this line segment as the altitude.
+              The altitude represents the distance between the bases.
+            </p>
+          </solution>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Label side <m>\overline{HI}</m> as the base of parallelogram <m>HIJK</m>. Sketch and label an altitude for 
+              <m>HIJK</m> corresponding to base <m>\overline{HI}</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              In a parallelogram, opposite sides are parallel and equal. Draw a line segment that is perpendicular to both the base
+              (side <m>\overline{HI}</m>) and its opposite side.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Let <m>\overline{HI}</m> be the base. The altitude is a perpendicular line segment from either point <m>K</m> or
+              point <m>J</m> to side <m>\overline{HI}</m>.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Label <m>\overline{HI}</m> as the base. Draw a perpendicular line segment from either point <m>K</m> or point 
+              <m>J</m> to the base <m>\overline{HI}</m>. This line segment is the altitude, representing the height corresponding 
+              to base <m>\overline{HI}</m>.
+            </p>
+          </solution>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Could another side of <m>HIJK</m> been chosen as the base? Which one(s)? Would the altitude be the same?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              In a parallelogram, there are two pairs of opposite sides. How does the choice of a base pair affect the altitude
+              (height) of a parallelogram?
+            </p>
+          </hint>
+          <answer>
+            <p>
+              Yes, any of the four sides of parallelogram <m>HIJK</m> can be chosen as the base. The altitude will vary depending on
+              which base is chosen.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              Yes, another side of <m>HIJK</m> could be chosen as the base. If <m>\overline{HI}</m> is a base, then its opposite
+              side <m>\overline{JK}</m> is a base. Alternatively, if <m>\overline{HK}</m> and <m>\overline{IJ}</m> could be used
+              as the other pair of bases.
+            </p>
+            <p>
+              The altitude is the perpendicular distance between opposite sides. The altitude is the same within each base pair
+              (example: <m>\overline{HI}</m> and <m>\overline{JK}</m>). However, the altitude is not the same between different base
+              pairs (example: <m>\overline{HI}</m> and If <m>\overline{IJ}</m>).
+            </p>
+          </solution>
+        </task>
       </exercise>
       <exercise xml:id="SAR-intro-apply-Tangramareas">
         <introduction>
@@ -1265,6 +1381,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 What is the area of one small orange triangle? How do you know?
               </p>
             </statement>
+            <hint>
+              <p>
+                To find the area of one small orange triangle, consider how many of these small triangles would fit into the 
+                larger blue isosceles triangle.
+              </p>
+            </hint>
             <answer>
               <p>
                 Each small orange triangle has an area of 4.5 square inches. 
@@ -1284,6 +1406,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 What is the area of the square? How do you know?
               </p>
             </statement>
+            <hint>
+              <p>
+                Refer to the given information regarding the area of the blue triangle and the height of the green square. 
+                Consider how this information can be used to determine the area of the green square.
+              </p>
+            </hint>
             <answer>
               <p>
                 The area of the green square is 9 square inches. 
@@ -1413,6 +1541,22 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           Your examples should differ from your classmates!
         </p>
       </hint>
+      <answer>
+        <p>
+          No, if two polygons have the same area, they do not necessarily have the same perimeter.
+        </p>
+      </answer>
+      <solution>
+        <p>
+          No, two polygons can have the same area but different perimeters. This can be demonstrated with a counterexample.
+          Consider a square with sides of length 4. The area of the square is <m>4 \cdot 4 = 16</m> square units and its 
+          perimeter is <m>4 + 4 + 4 + 4 = 16</m> units. Now, consider a rectangle with a width of 2 and a length of 8. Just 
+          like the square, this rectangle also has an area of <m>2 \cdot 8 = 16</m> square units. However, its perimeter is
+          <m>2 + 8 + 2 + 8 = 20</m> units. Since the square and the rectangle have the same area but different perimeters, this 
+          proves the answer above. Just because two polygons have the same area does not mean they necessarily have the same 
+          perimeter.
+        </p>
+      </solution>
       </exercise>
       <exercise>
         <statement>
@@ -1442,6 +1586,36 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           exist.
         </p>
       </hint>
+      <answer>
+        <p>
+          a). After tripling the side lengths of a simple polygon (like a triangle or rectangle), its new area and perimeter are no 
+          longer equal.
+        </p>
+        <p>
+          b). If the original units were yards, then the area would be expressed in square yards.
+        </p>
+      </answer>
+      <solution>
+            <p>
+              <figure xml:id="fig-rectangle-equal-area-perim">
+                <caption>A sample 6 x 3 rectangle <m>ABCD</m>.</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="pref-rect-equal-area-perim" 
+                    xml:id="pref-rect-equal-area-perim">
+                    <xi:include href="prefcode-rect-equal-area-perim.ptx" />
+                  </prefigure>
+                </image>
+              </figure>
+            </p>
+            <p>
+              For rectangle <m>ABCD</m> with a length of 6 units and a width of 3 units, its area (<m>6 \cdot 3 = 18</m>) and
+              its perimeter (<m>6 + 3 + 6 + 3 = 18</m>) are numerically equal. However, when side lengths are tripled to 18 and
+              9 units, this relationship breaks. The new area is <m>18 \cdot 9 = 162</m>, while the new perimeter is
+              <m>18 + 9 + 18 + 9 = 54</m>. Since 162 does not equal 54, tripling the side lengths of a polygon where area and
+              perimeter were initially equal breaks that relationship. This confirms the above answer that area and perimeter
+              are no longer equal.
+            </p>
+          </solution>
       </exercise>
       <exercise>
         <statement>
@@ -1459,6 +1633,26 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             any lengths in the interior.
           </p>
         </hint>
+        <answer>
+          <p>
+            No, polygons should not satisfy addivity of perimeter.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            No, polygons should not satisfy addivity of perimeter. The perimeter of a new, larger polygon is not the sum of the 
+            original perimeters. When two polygons are joined together, the side where they connect becomes an internal boundary
+            and is no longer part of the overall perimeter.
+          </p>
+          <p>
+            For example, take two identical squares with perimeters of 8 units each (2 + 2 + 2 + 2 = 8 units). If these two
+            squares are joined together, the new shape is a rectangle. The new perimeter of this rectangle is 12 units, not
+            8 + 8 = 16 units. The two sides that were joined together are no longer counted.
+          </p>
+          <p>
+            Now, can you come up with your own example to prove that polygons do not satisfy the additivity of perimeter?
+          </p>
+        </solution>
       </exercise>
     </subexercises>
     <subexercises xml:id="Writing-intro-apply-nameit">
