@@ -1449,53 +1449,68 @@
                   </figure>  
                 </conclusion>
         </exercise>
-        <exercise> 
+        <exercise xml:id="ExtConc-Center-Polygon-Regular" label="ExtConc-Center-Polygon-Regular-task"> 
           <title>Finding the Center of a Regular Polygon</title>
-          <statement>
-            <p>
-              In <xref ref="exer-ExtConc-pgreg-nonagon"/>, the center of the 
-              regular nonagon was provided. In this problem, we explore how to 
-              find the center of a regular <m>n</m>-gon.
-              <ol>
-                <li>
+            <introduction>
+              <p>
+                In <xref ref="exer-ExtConc-pgreg-nonagon"/>, the center of the 
+                regular nonagon was provided. In this problem, we explore how to 
+                find the center of a regular <m>n</m>-gon.
+              </p>
+            </introduction>
+            <task xml:id="ExtConc-Center-Polygon-center-def-task" label="ExtConc-Center-Polygon-center-def-task-label">
+              <statement>
+                <p>
+                  Give a definition for the center of a regular polygon in your 
+                  own words.
+                </p>
+              </statement>
+              <response />
+            </task>
+            <task xml:id="ExtConc-Center-Polygon-Regular-ngon-even-task" label="ExtConc-Center-Polygon-Regular-ngon-even-task-label">
+              <statement>
                   <p>
-                    Give a definition for the center of a regular polygon in your 
-                    own words. 
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    First give clear instructions on how one can find the center of 
+                    Explain how one can find the center of 
                     any regular <m>n</m>-gon where <m>n</m>
-                    is an even number. Explain your technique. You may use the
-                    decagon in <xref ref="fig-extConc-pgreg-findcenters"/> for exploration 
-                    and illustration. This 
-                    applet will also allow you to create other <m>n</m>-gons as needed.
+                    is an even number.
+                  </p>
+                  <p>
+                    You may use the applet in <xref ref="fig-extConc-pgreg-findcenters"/>
+                    for exploration and illustration. You may create other <m>n</m>-gons as needed.
                     The <q>circle and radius tool</q> may be used to check your work, but not 
                     for finding the center.
                   </p>
-                </li>
-                <li>
+              </statement>
+              <response />
+            </task>
+            <task xml:id="ExtConc-Center-Polygon-Regular-ngon-odd-center-task" label="ExtConc-Center-Polygon-Regular-ngon-odd-center-task-label">
+              <statement>
                   <p>
                     Refer to <xref ref="fig-nonagon-with-center"/>. Do lines connecting 
                     vertices pass through the center? Give an alternate strategy for 
                     drawing lines that will pass through the center of an <m>n</m>-gon 
-                    when <m>n</m> is odd. You may use the nonagon in the GeoGebra applet in 
+                    when <m>n</m> is odd. 
+                  </p>
+
+                  <p>
+                    You may use the nonagon in the GeoGebra applet in 
                     <xref ref="fig-extConc-pgreg-findcenters"/>. The <q>circle and radius 
                     tool</q> may be used to check your work, but not 
                     for finding the center.
                   </p>
-                </li>
-              </ol>
-            </p>
-            <figure xml:id="fig-extConc-pgreg-findcenters">
-              <caption>GeoGebra interactive with Decagon and a Nonagon</caption>
-                <interactive xml:id="centerofregpolygonapp"
-                platform="geogebra">
-                <slate surface="geogebra" material="wh7ezz6p"/>
-                </interactive>
-            </figure>
-          </statement>
+              </statement>
+              <response />
+            </task>
+            <conclusion>
+              <figure xml:id="fig-extConc-pgreg-findcenters">
+                <caption>GeoGebra interactive with Decagon and a Nonagon</caption>
+                  <interactive xml:id="centerofregpolygonapp"
+                  platform="geogebra">
+                  <slate surface="geogebra" material="wh7ezz6p"/>
+                  </interactive>
+              </figure>
+            </conclusion>
+
       </exercise>
       <!--Centers of Triangles?-->
   </subexercises>
