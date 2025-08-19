@@ -1285,7 +1285,7 @@
               </statement>
             </task>
       </exercise>
-      <exercise xml:id="exer-houseangle">
+      <exercise xml:id="SAR-polygons-regular-houseangle" label="SAR-polygons-regular-houseangle-label">
         <statement>
           <p>
             In <xref ref="fig-houseangle"/>, <m>\angle{EAB}</m> and <m>\angle{ABC}</m> are 
