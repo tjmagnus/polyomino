@@ -1293,36 +1293,45 @@
             Determine <m>m(\angle{AED})</m>.
           </p>
           <figure xml:id="fig-houseangle">
-            <caption>Pentagon for <xref ref="exer-houseangle"/></caption>
+            <caption>Pentagon for <xref ref="SAR-polygons-regular-houseangle"/></caption>
             <image source="HW-houseangle"/>
           </figure>
         </statement>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-regular-not-semireg" label="SAR-polygons-regular-not-semireg-label">
+        <introduction>
           <p>
             Explain why each of the following are not semiregular tilings:
-            <ol>
-              <li>
-                <p>
-                  The design started in <xref ref="fig-HW336"/>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  The design started in <xref ref="fig-HW-kitedartrhomb"/>
-                </p>
-              </li>
-              <li>
-                <p>
-                  The design started in <xref ref="fig-HW-skewhouse"/>
-                </p>
-              </li>
-            </ol>
           </p>
+        </introduction>
+        <task xml:id="SAR-polygons-regular-not-semireg-task-a" label="SAR-polygons-regular-not-semireg-task-a-label">
+          <statement>
+            <p>
+              The design started in <xref ref="fig-HW336"/>.
+            </p>
+          </statement>
+          <response />
+        </task>
+        <task xml:id="SAR-polygons-regular-not-semireg-task-b" label="SAR-polygons-regular-not-semireg-task-b-label">
+          <statement>
+            <p>
+              The design started in <xref ref="fig-HW-kitedartrhomb"/>
+            </p>
+          </statement>
+          <response />
+        </task>
+        <task xml:id="SAR-polygons-regular-not-semireg-task-c" label="SAR-polygons-regular-not-semireg-task-c-label">
+          <statement>
+            <p>
+              The design started in <xref ref="fig-HW-skewhouse"/>
+            </p>
+          </statement>
+          <response />
+        </task>
+        <conclusion>
           <sidebyside widths="30% 30% 30%">
             <figure xml:id="fig-HW336">
-              <caption>Not semi-regular 1.</caption>
+              <caption></caption>
               <image source="HW336.png">
                 <shortdescription>
                   Three rows where each has a regular hexagon then an hourglass pair of 
@@ -1341,15 +1350,13 @@
               </image>
             </figure>-->
             <figure xml:id="fig-HW-kitedartrhomb">
-              <caption>Not semi-regular 2.</caption>
+              <caption></caption>
               <image source="kitedartrhombus.png">
                 <shortdescription>A design made by rhombi, darts, and kites.</shortdescription>
               </image>
             </figure>
             <figure xml:id="fig-HW-skewhouse">
-              <caption>
-                Not semi-regular 3.
-              </caption>
+              <caption></caption>
               <image source="hw-skew-house.png">
                 <shortdescription>
                   A design with rows of squares and rows of alternating triangles.
@@ -1358,7 +1365,7 @@
               </image>
             </figure>
           </sidebyside>
-        </statement>
+        </conclusion>
       </exercise>
   </subexercises>
   <subexercises xml:id="ExtConc-polygons-regular">
