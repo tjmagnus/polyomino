@@ -1372,63 +1372,82 @@
   </subexercises>
   <subexercises xml:id="ExtConc-polygons-regular">
     <title>Extending the Concepts</title>
-    <exercise xml:id="exer-ExtConc-pgreg-nonagon">
+    <exercise xml:id="exer-ExtConc-pgreg-nonagon" label="exer-ExtConc-pgreg-nonagon-label">
       <title>Another Way to Calculate the Vertex Angle of a Regular Polygon</title>
-        <statement>
-            <p>
+        <introduction>
+          <p>
               In <xref ref="fig-nonagon-with-center"/>, a regular nonagon, its center <m>O</m>, 
               and segments joining each vertex to the center are shown. Use it 
               to answer the following: 
-              <ol>
-                <li>
-                  <p>
-                    Explain why each central angle must measure 40 degrees.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    What type of triangle is <m>\Delta AOB</m> ? Why?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    What is the measure of <m>\angle{ABO}</m> ? Why?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    What is the measure of <m>\angle{ABC}</m> ? Explain
-                    based on the steps in this problem.
-                  </p>
-                </li>
-                <li>
-                  <p>
+          </p>
+        </introduction>
+                <task xml:id="ExtConc-pgreg-nonagon-central-angle-task" label="ExtConc-pgreg-nonagon-central-angle-task-label">
+                  <statement>
+                    <p>
+                      Explain why each central angle must measure 40 degrees.
+                    </p>
+                  </statement>
+                  <response />
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-triangle-type-task" label="ExtConc-pgreg-nonagon-triangle-type-task-label">
+                  <statement>
+                    <p>
+                      What type of triangle is <m>\Delta AOB</m> ? Why?
+                    </p>
+                  </statement>
+                  <response />
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-triangle-measure-task" label="ExtConc-pgreg-nonagon-triangle-measure-task-label">
+                  <statement>
+                    <p>
+                      What is the measure of <m>\angle{ABO}</m> ? Why?
+                    </p>
+                  </statement>
+                  <response />
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-angle-measure-abc-task" label="ExtConc-pgreg-nonagon-angle-measure-abc-task-label">
+                  <statement>
+                    <p>
+                      What is the measure of <m>\angle{ABC}</m> ? Explain
+                      based on the steps in this problem.
+                    </p>
+                  </statement>
+                  <response />
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-central-angle-formula-task" label="ExtConc-pgreg-nonagon-central-angle-formula-task-label">
+                  <statement>
+                    <p>
                     What is the formula for the central angle of any regular
                     <m>n</m>-gon?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Explain how we can use the measure of a central angle to 
-                    justify that the vertex angle of a regular <m>n</m>-gon has  
-                    measure <m>180-\frac{360}{n}</m>.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Algebraically, show that the vertex angle of a regular <m>n</m>-gon has  
-                    measure <m>\frac{180(n-2)}{n}</m> using the steps above.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          <figure xml:id="fig-nonagon-with-center">
-            <caption>Nonagon for <xref ref="exer-ExtConc-pgreg-nonagon"/>.</caption>
-            <image source="nonagon-w-center">
-            <shortdescription>Nonagon with center and spokes.</shortdescription>
-          </image>
-          </figure>  
-          </statement>
+                    </p>
+                    <response />
+                  </statement>
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-central-vertex-angle-task" label="ExtConc-pgreg-nonagon-central-vertex-angle-task-label">
+                  <statement>
+                    <p>
+                      Explain how we can use the measure of a central angle to 
+                      justify that the vertex angle of a regular <m>n</m>-gon has  
+                      measure <m>180-\frac{360}{n}</m>.
+                    </p>
+                  </statement>
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-central-vertex-angle-algebra-task" label="ExtConc-pgreg-nonagon-central-vertex-angle-algebra-task-label">
+                  <statement>
+                    <p>
+                      Algebraically, show that the vertex angle of a regular <m>n</m>-gon has  
+                      measure <m>\frac{180(n-2)}{n}</m> using the steps above.
+                    </p>
+                  </statement>
+                </task>
+                <conclusion>
+                  <figure xml:id="fig-nonagon-with-center">
+                    <caption>Nonagon for <xref ref="exer-ExtConc-pgreg-nonagon"/>.</caption>
+                    <image source="nonagon-w-center">
+                    <shortdescription>Nonagon with center and spokes.</shortdescription>
+                    </image>
+                  </figure>  
+                </conclusion>
         </exercise>
         <exercise> 
           <title>Finding the Center of a Regular Polygon</title>
