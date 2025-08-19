@@ -1290,6 +1290,8 @@
           <p>
             In <xref ref="fig-houseangle"/>, <m>\angle{EAB}</m> and <m>\angle{ABC}</m> are 
             right angles, <m>m(\angle{CDE})=99^\circ</m>, and <m>\angle{AED}\cong\angle{BCD}</m>.
+          </p>
+          <p>
             Determine <m>m(\angle{AED})</m>.
           </p>
           <figure xml:id="fig-houseangle">
