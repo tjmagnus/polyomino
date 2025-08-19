@@ -1524,7 +1524,7 @@
         </p>
       </statement>
     </exercise>
-    <exercise>
+    <exercise xml:id="ExtConc-polygons-regular-letter-friend-formula" label="ExtConc-polygons-regular-letter-friend-formula-label">
       <statement>
         <p>
           Write a letter to a friend in which you give a formula for the vertex 
@@ -1532,14 +1532,16 @@
           <m>n</m>-gons.
         </p>
       </statement>
+      <response />
     </exercise>
-    <exercise>
+    <exercise xml:id="ExtConc-polygons-regular-letter-to-friend-three-reg-tilings" label="ExtConc-polygons-regular-letter-to-friend-three-reg-tilings-label">
       <statement>
         <p>
           Write a letter to a friend in which you explain why there are exactly
           three regular tilings.
         </p>
       </statement>
+      <response />
     </exercise>
   </subexercises>
  </exercises>
