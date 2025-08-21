@@ -5,9 +5,11 @@
   <introduction>
 
     <p>
-        Have you ever studied a tiling of a floor or a pattern on a quilt? In this  
-        section, we will define a regular polygon and explore when regular tilings 
-        can be used to tile the plane. 
+        Have you ever studied a tiling of a floor or a pattern on a quilt? Often a
+        repetition of similarly shaped tiles is used for artistic effect. In this  
+        section, we will define a regular polygon and explore tilings that consist 
+        only of regular polygons. Is there a limit to the number of tilings that 
+        can created in this way?  
     </p>
     <aside>
       <p>
@@ -22,23 +24,25 @@
     <p>
       We begin by defining what it means for a polygon to be regular.
     </p>
-  <definition>
+  <definition xml:id="def-reg-polygon">
     <idx><h>regular</h><h>polygon</h></idx>
     <idx><h>polygon</h><h>regular</h></idx>
     <statement>
     <p>
       A polygon is a <term>regular polygon</term> if all of its sides and 
-      all of its angles are congruent. <!--Have we defined congruent angles?-->
+      all of its angles are <xref ref="def-cong-angles" text="custom">congruent</xref>. 
     </p>
   </statement>
   </definition>
   <exercise>
     <title>Check Your Understanding!</title>
-    <statement>
+    <introduction>
       <p>
-        Explain why each shape below is not a regular polygon:
+        Each shape in <xref ref="fig-examples-nonreg-polygons"/> is not a regular polygon.
+        Identify the part(s) of the definition of <xref ref="def-reg-polygon" text="custom">regular
+          polygon</xref> that fail for each figure.
       </p>
-      <figure>
+      <figure xml:id="fig-examples-nonreg-polygons">
         <caption>Nonregular Polygons</caption>
         <image source="nonregularpolygons" width="90%">
           <shortdescription>
@@ -49,7 +53,46 @@
           </shortdescription>
         </image>
       </figure>
-    </statement>
+    </introduction>
+    <task label="rhom-not-regular-l">
+      <statement>
+        <p>
+          Explain why rhombus <m>ABCD</m> is not regular.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Not all angles are congruent.
+        </p>
+      </answer>
+      <response />
+    </task>
+    <task>
+      <statement>
+        <p>
+          Explain why rectangle <m>EFGH</m> is not regular. 
+        </p>
+      </statement>
+      <answer>
+        <p>
+          There are pairs of noncongruent sides.
+        </p>
+      </answer>
+      <response />
+    </task>
+    <task>
+      <statement>
+        <p>
+          Explain why pentagon <m>IJKLM</m> is not regular.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Not all angles are congruent. The sides also vary in length.
+        </p>
+      </answer>
+      <response />
+    </task>
   </exercise>
 </subsection>
 <subsection xml:id="subsec-polygons-regular-tilings">
@@ -57,10 +100,12 @@
   <p>
     In <xref ref="intro-explore-exp-pentrect"/>, we created a tiling of a square using tetrominoes. 
     In this section, we will consider tilings of the plane. Since the plane continues  
-    infinitely, we will not be able to create a complete tiling. However, we will be able to 
-    build enough of the tiling to determine whether a tiling is possible.
+    infinitely, we will not be able to create a complete tiling in a finite space or finite 
+    time span. Instead, we sketch enough of the tiling to determine whether a tiling is 
+    possible. We ask ourselves whether we can continue the pattern vertically, horizontally, 
+    and diagonally without creating gaps or irregularities.
   </p>
-  <definition>
+  <definition xml:id="def-tiling">
     <idx><h>tiling</h></idx>
     <idx><h>tiling</h><h>regular</h></idx>
     <idx><h>regular</h><h>tiling</h></idx>
@@ -91,10 +136,10 @@
       <p>
         The web application <url href="https://mathigon.org/polypad#polygons">Polypad
         by Amplify</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
-        These are the top six shapes provided. Simply drag the shape from the 
+        These are the top six shapes provided in <xref ref="fig-polypad-tiling"/>. Simply drag the shape from the 
         left into the whiteboard area and it will make a new copy. Rotate the polygon 
         using the dotted stem and move it by clicking on the interior and 
-        dragging. For <m>n</m>-gons with <m>n>8</m>, use  
+        dragging. For <m>n</m>-gons with <m>n\gt 8</m>, use  
         the nonagon at the bottom. Pull on the dotted vertex to change the number 
         of sides. With the new <m>n</m>-gon selected, you can now use the 
         duplicated sheet icon on the flip/cut/... menu to make copies 
@@ -123,6 +168,7 @@
           and the right, with no gaps and overlaps. 
         </p>
       </statement>
+<!--Add file upload option.-->
     </task>
     <task xml:id="polypad-tiling-eight-sides-task" label="polypad-tiling-eight-sides-task-label">
       <statement>
@@ -133,19 +179,25 @@
           will happen with regular polygons with more than eight sides? Why?
         </p>
       </statement>
-    <response />
+      <answer>
+        <p>
+          The only regular polygons that lead to regular tilings are the equilateral triangle,
+          the square, and the regular hexagon.
+        </p>
+      </answer>
+      <response />
+<!--Add file upload option.-->
     </task>
   </exploration>
   <exploration xml:id="explor-reg-tilings-angle-measure">
     <title>Vertex Angle Measure</title>
       <introduction>
         <p>
-          Perhaps you noticed that the vertex angle measure plays a role in determining 
+          Perhaps you noticed that the vertex angle measure plays a critical role in determining 
           whether a regular polygon can be used to create a regular tiling. The steps in 
-          this task will lead you to determine the measure of the vertex angle of a 
-          regular pentagon. We 
-          will use this technique to find the measure of the vertex angles for other   
-          regular <m>n</m>-gons.
+          this exploration will lead you to determine the measure of the vertex angle of a 
+          regular pentagon. This technique will lead to a formula for computing the 
+          measure of the vertex angles for any regular <m>n</m>-gon.
         </p>
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
@@ -159,7 +211,7 @@
             </image>
           </figure>
             <p>
-              <ul cols="3" marker="none">
+              <ul cols="3" marker="">
                 <li>
                   <m>\angle 1 = \angle EAD</m>
                 </li>
@@ -199,7 +251,7 @@
               <statement>
                 <p>
                   <m>m\angle 1 + m\angle 4 + m\angle E =</m> 
-                  <fillin characters="3" answer="180" width="3" />
+                  <fillin characters="3" answer="180" width="3" /> degrees.
                 </p>
               </statement>
               <evaluation>
@@ -216,8 +268,8 @@
                 <p>
                   <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
                   +m\angle E =</m>
+                  <fillin characters="3" answer="540" width="3" /> degrees.
                 </p>
-                <fillin characters="3" answer="540" width="3" />
               </statement>
               <hint>
                 <p>
@@ -239,7 +291,9 @@
                 Having just computed the sum of the five congruent angles of  
                 a regular pentagon, determine <m>m\angle A</m>. 
               </p>
-              <fillin characters="3" answer="108" width="3" />
+              <p>
+              <m>m\angle A=</m><fillin characters="3" answer="108" width="3" /> degrees.
+              </p>
             </statement>
             <evaluation>
                   <evaluate>
@@ -266,7 +320,7 @@
               <response />
             </task>
     <task xml:id="regular-pentagon-table-task" label="regular-pentagon-table-label">
-      <!-- Is there a way to display inputs for this table? -->
+  <!-- Is there a way for students to fill in answers for this table? -->
       <statement>
         <p>
           Use your work from the previous task to complete the row for regular 
@@ -303,47 +357,49 @@
             <row bottom="minor">
               <cell>square</cell>
               <cell>4</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="2" /></cell>
+              <cell><fillin mode="number" answer="360" /></cell>
+              <cell><fillin mode="number" answer="90" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular pentagon</cell>
               <cell>5</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="3" /></cell>
+              <cell><fillin mode="number" answer="540" /></cell>
+              <cell><fillin mode="number" answer="108" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular hexagon</cell>
               <cell>6</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="4" /></cell>
+              <cell><fillin mode="number" answer="720" /></cell>
+              <cell><fillin mode="number" answer="120" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular octagon</cell>
               <cell>8</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="6" /></cell>
+              <cell><fillin mode="number" answer="1080" /></cell>
+              <cell><fillin mode="number" answer="135" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular decagon</cell>
               <cell>10</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="8" /></cell>
+              <cell><fillin mode="number" answer="1440" /></cell>
+              <cell><fillin mode="number" answer="144" /></cell>
             </row>
             <row>
               <cell>regular <m>n</m>-gon</cell>
               <cell><m>n</m></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="math" answer="n-2" /></cell>
+              <cell><fillin mode="math" answer="180(n-2)" /></cell>
+              <cell><fillin mode="number" answer="180(n-2)/n" /></cell>
             </row>
           </tabular>
         </table>
+<!--How do I fix the fillins in the above table so that answers can be inserted? 
+What mode is needed for the last row?-->
       </statement>
     </task>
   </exploration>
