@@ -67,6 +67,12 @@
             Are these equal to the scale factor?
           </p>
         </statement>
+        <hint>
+          <p>
+            Recall that the scale factor is a ratio. It compares the lengths of corresponding sides of two similar shapes.
+            Do the given ratios above compare corresponding sides?
+          </p>
+        </hint>
         <answer>
           <p>
             <m>\frac{OA'}{AA'}=\frac{OB'}{BB'}=\frac{OC'}{CC'}=\frac{3}{2}</m>, not 
@@ -81,6 +87,12 @@
             Are these equal to the scale factor?
           </p>
         </statement>
+        <hint>
+          <p>
+            Remember that the scale factor is a ratio that compares corresponding sides of two similar shapes.
+            Again, determine if the given ratios above compare corresponding sides.
+          </p>
+        </hint>
         <answer>
           <p>
             Yes, these ratios all equal 3.
@@ -115,8 +127,8 @@
         <p>
           In <xref ref="fig-identify-sim-parts"/>,  
           <m>\Delta FGH\sim\Delta IJK</m><fn>The triangles are similar</fn>. 
-          Also, <m>FG=4.4, FH=13, IK=7.8, JK=9.06, m\angle GFH=110.34\deg</m>
-          and <m>m\angle IJK=53.8\deg</m>Determine the following:
+          Also, <m>FG=4.4, FH=13, IK=7.8, JK=9.06, m\angle GFH=110.34^{\circ}</m>
+          and <m>m\angle IJK=53.8^{\circ}</m>. Determine the following:
         </p>
         <figure xml:id="fig-identify-sim-parts">
           <caption>Illustration for <xref ref="exp-identify-sim-parts"/></caption>
@@ -134,6 +146,13 @@
             <m>m\angle FGH</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            The corresponding angles of similar triangles are congruent, meaning they have the same measure. Use the order of
+            the letters in the similarity statement <m>\Delta FGH\sim\Delta IJK</m> to identify the angle in the second
+            triangle that corresponds to <m>m\angle G</m>.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -141,6 +160,12 @@
             <m>m\angle FHG</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            To find the angle that corresponds to <m>\angle H</m>, once again use the similarity statement. See which angle 
+            lines up with <m>\angle H</m> and is congruent.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -148,6 +173,12 @@
             <m>m\angle JIK</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            Use the same technique as the problems above. Use the similarity statement to determine which angle corresponds 
+            to <m>\angle I</m>.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -155,6 +186,11 @@
             <m>m\angle KIJ</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            See previous hints that discuss similarity and congruency for angles.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -163,6 +199,12 @@
             to <m>\Delta IJK</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            The scale factor is the ratio of corresponding sides. Use the similarity statement, <m>\Delta FGH\sim\Delta IJK</m>,
+            to identify which sides match up, then find their lengths. The ratio of their lengths represents the scale factor.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -170,6 +212,12 @@
             <m>GH</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            To find the length of side <m>GH</m>, use the similarity statement. Find its corresponding side in 
+            <m>\Delta IJK</m> and apply the scale factor.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -177,6 +225,12 @@
             <m>IJ</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            To find the length of side <m>IJ</m>, once again use the similarity statement. Find its corresponding side in 
+            <m>\Delta FGH</m> and apply the scale factor.
+          </p>
+        </hint>
       </task> 
     </task>
   </exploration>
@@ -215,6 +269,15 @@
                   and <m>\angle CAB</m>.
                 </p>
               </statement>
+              <hint>
+                <p>
+                  To find the measure of each of these angles, use the interactive GeoGebra tool (<xref ref="fig-right-tri-nest"/>). 
+                  On the options bar at the top, click on the sixth button from the left, indicated by a small red angle symbol.
+                  Then proceed by clicking on the three vertices of the angle. Remember that the second point clicked should be 
+                  the vertex of the angle. If the measurement given is the larger, outside angle, simply subtract it from 
+                  360 to find the interior angle.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -224,6 +287,12 @@
                   How many triangles are now in the sketch? Name them.
               </p>
               </statement>
+              <hint>
+                <p>
+                  Think of this line segment from point <m>C</m> to <m>\overline{AB}</m> as the altitude. How does it divide
+                  the larger triangle into two smaller right triangles?
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -231,6 +300,11 @@
                   To what other angle(s) is <m>\angle CDA</m> congruent?
               </p>
               </statement>
+              <hint>
+                <p>
+                  Look for angles that have the same orientation and are within a similar triangle.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -239,6 +313,13 @@
                   to <m>\Delta ABC</m>. What is the constant of proportionality?
               </p>
               </statement>
+              <hint>
+                <p>
+                  To prove that these two triangles are similar, show two of their angles are congruent using the
+                  Angle-Angle (AA) rule. Recall the definition for 
+                  <xref ref="def-proportionality" text="custom">constant of proportionality</xref>.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -248,6 +329,12 @@
                   vertices.
               </p>
               </statement>
+              <hint>
+                <p>
+                  There is another small right triangle that is formed by the perpendicular. This small right triangle is
+                  similar to <m>\Delta ABC</m>.
+                </p>
+              </hint>
             </task>
         </task>
         <task xml:id="task-Pyth-pf-sim">
@@ -265,6 +352,11 @@
                   <m>\frac{BC}{AB}=\frac{BD}{BC}</m>.
                 </p>
               </statement>
+              <hint>
+                <p>
+                  Use the property of similar triangles which states that corresponding sides are proportional.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -273,6 +365,11 @@
                   <m>AC\cdot AC=AB\cdot AD</m>. Why?
                 </p>
               </statement>
+              <hint>
+                <p>
+                  Think about what happens when two ratios are equal. How is cross multiplication being applied here?
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -281,6 +378,11 @@
                   to complete the equation <m>BC\cdot BC=</m>.
               </p>
               </statement>
+              <hint>
+                <p>
+                  Use cross multiplication to complete this equation.
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -291,6 +393,12 @@
                   <m>AD+DB</m> using these lower-case letter(s)?
                 </p>
               </statement>
+              <hint>
+                <p>
+                  Look at the line segment that includes both <m>AD</m> and <m>DB</m>. What is the name of that entire line
+                  segment? By which lowercase letter is it represented?
+                </p>
+              </hint>
             </task>
             <task>
               <statement>
@@ -301,6 +409,12 @@
                   Do you get <m>c^2?</m> Show all work.
               </p>
               </statement>
+              <hint>
+                <p>
+                  Recall the expressions for <m>a^2</m> and <m>b^2</m> found previously. Substitute those expressions into the
+                  equation, then add them up. Observe and take note of the result.
+                </p>
+              </hint>
             </task>
         </task>
     </exploration>
@@ -341,6 +455,11 @@
           What is the measure of the third angle <m>\angle ACB?</m>
         </p>
       </statement>
+      <hint>
+        <p>
+          Use the Triangle Angle Sum Theorem to find <m>\angle ACB</m>.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -378,6 +497,12 @@
             that is similar to <m>\Delta ABC</m>.  
           </p>
         </statement>
+        <hint>
+          <p>
+            After bisecting <m>\angle CAB</m>, check to see which small triangle has identical angles to the original triangle,
+            <m>\Delta ABC</m>.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -385,6 +510,11 @@
             List the three pairs of corresponding sides.
           </p>
         </statement>
+        <hint>
+          <p>
+            Match equal angles to pair the corresponding sides.  
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -394,6 +524,11 @@
             down at least four digits after the decimal point. 
           </p>
         </statement>
+        <hint>
+          <p>
+            Review the definition for <xref ref="def-proportionality" text="custom">constant of proportionality</xref>.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -401,10 +536,15 @@
             Note that the constant of proportionality depends on whether 
             you chose to divide the shorter length by the longer or to 
             divide the longer length by the shorter. Perform whichever 
-            computation have not already done and record at least four digits
+            computation has not already been done and record at least four digits
             after the decimal point.
           </p>
         </statement>
+        <hint>
+          <p>
+            Compute the reciprocal of the ratio in the previous problem.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -437,6 +577,12 @@
             Identify another triangle in the sketch which is similar to <m>\Delta ABE</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            The new bisector at angle <m>\Delta ABD</m> creates another isosceles triangle <m>\Delta ABE</m>.
+            Which other triangle in the sketch is similar to <m>\Delta ABE?</m>
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -444,6 +590,11 @@
             Identify two triangles in the sketch that are similar to <m>\Delta DEB</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            Look for two triangles that have identical interior angle measurements to <m>\Delta DEB</m>.
+          </p>
+        </hint>
       </task>
     </task>
     <task>
@@ -462,6 +613,13 @@
             change?
           </p>
         </statement>
+        <hint>
+          <p>
+            Again, review the definition of <xref ref="def-proportionality" text="custom">constant of proportionality</xref>.
+            Experiment with moving the vertices <m>A</m> and <m>B</m>. Use the ratio of corresponding sides to see if
+            changing side lengths has any impact on the constant of proportionality.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -473,6 +631,12 @@
             have?
           </p>
         </statement>
+        <hint>
+          <p>
+            Notice how bisection creates a smaller triangle similar to the previous one. Imagine how the pattern would look if 
+            this process was continued.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -500,6 +664,12 @@
             What do you notice?
           </p>
         </statement>
+        <hint>
+          <p>
+            The Desmos Scientific Calculator at <url href="https://desmos.com/scientific">desmos.com</url> can be used for
+            this estimation.
+          </p>
+        </hint>
       </task>
     </task>
   </exploration>
@@ -553,6 +723,11 @@
           measure of <m>\angle EAB</m>.
         </p>
       </statement>
+      <hint>
+        <p>
+          The variable <m>n</m> represents the number of sides.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -560,6 +735,11 @@
           Draw segment <m>\overline{AD}</m>. What type of triangle is <m>\Delta EAD?</m>
         </p>
       </statement>
+      <hint>
+        <p>
+          Consider the properties of a regular polygon. What can be inferred about the side lengths of <m>\Delta EAD?</m>
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -567,6 +747,12 @@
           Compute <m>m\angle{EAD}</m>. How did you determine this?
         </p>
       </statement>
+      <hint>
+        <p>
+          Use the Triangle Angle Sum Theorem to compute <m>m\angle{EAD}</m>. Recall that the interior angles of a triangle
+          add up to 180 degrees.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -574,6 +760,12 @@
           Determine <m>m\angle{DAB}</m> showing all work.
         </p>
       </statement>
+      <hint>
+        <p>
+          <m>\angle EAB</m> is split by segment <m>\overline{AD}</m> into <m>\angle EAD + \angle DAB</m>. Use this to find
+          <m>m\angle{DAB}</m>.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -582,6 +774,11 @@
           How do you know?
         </p>
       </statement>
+      <hint>
+        <p>
+          Adding <m>\overline{BD}</m> does not change the measure of <m>\angle CDE</m>.
+        </p>
+      </hint>
     </task>
     <task>
       <statement>
@@ -590,6 +787,12 @@
           this exploration belong in this section?
         </p>
       </statement>
+      <hint>
+        <p>
+          Compare the two diagonals (<m>\overline{AD}</m> and <m>\overline{BD}</m>) and the side <m>AB</m>. Use
+          the Triangle Angle Sum Theorem.
+        </p>
+      </hint>
     </task>
     <task>
       <introduction>
@@ -610,6 +813,12 @@
             Describe the shape of the decagon <m>DFCGBHAIEJ</m>.
           </p>
         </statement>
+        <hint>
+          <p>
+            Notice how extending the sides creates new points of intersection outside the pentagon. Consider what shape is
+            created when these points are connected in order.
+          </p>
+        </hint>
       </task>
       <task>
         <statement>
@@ -618,6 +827,12 @@
             <m>\Delta ADB?</m>
           </p>
         </statement>
+        <hint>
+          <p>
+            Compare the angles and side relationships in <m>\Delta DFC</m> to <m>\Delta ADB</m>. How are these two triangles
+            related?
+          </p>
+        </hint>
       </task>
     </task>
   </exploration>
@@ -643,8 +858,8 @@
           are the midpoints of <m>\overline{AB}</m>, <m>\overline{BC}</m>, and
           <m>\overline{AC}</m>, respectively. Also, <m>AB=8</m>, <m>BC=14</m>,
           and <m>AC=10</m>. Angles <m>\angle ABC</m>, <m>\angle ADF</m>, and 
-          <m>\angle FEC</m> have measure 42 degrees; whereas, <m>m\angle ACB=30\deg</m>
-          and <m>m\angle DEF=108\deg</m>. Answer the following:
+          <m>\angle FEC</m> have measure 42 degrees; whereas, <m>m\angle ACB=30^{\circ}</m>
+          and <m>m\angle DEF=108^{\circ}</m>. Answer the following:
         </p>
           <figure xml:id="fig-midpt-triangle">
             <caption></caption>
