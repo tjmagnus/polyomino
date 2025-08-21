@@ -126,6 +126,11 @@
           <m>\sqrt{74}\approx8.602</m>
         </p>
       </answer>
+      <solution>
+        <p>
+          Let <m>a = 5</m> and <m>b = 7</m>. Thus, <m>\sqrt{5^2 + 7^2} = \sqrt{74} \approx 8.602</m>
+        </p>
+      </solution>
     </exercise>
     <exercise>
       <statement>
@@ -145,6 +150,16 @@
           <m>\sqrt{40}=2\sqrt{10}\approx 6.325</m>
         </p>
       </answer>
+      <solution>
+        <p>
+          We are given <m>c = \sqrt{80}</m>. The diagonal cuts the square into two right triangles
+          <m>\triangle ABC</m> and <m>\triangle DCB</m>. Therefore, let 
+          <m>a = \overline{AB} = \overline{AC} = \overline{CD} = \overline{BD}</m>. Apply the theorem: 
+          <m>\sqrt{2a^2} = \sqrt{80} \rightarrow 2a^2 = 80 \rightarrow a^2 = 40 \rightarrow 
+            a = \sqrt{40} = 2\sqrt{10} \approx 6.325
+          </m> 
+        </p>
+      </solution>
     </exercise>
   </reading-questions>
 </subsection>
