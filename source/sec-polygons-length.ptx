@@ -151,6 +151,12 @@
         </p>
       </answer>
       <solution>
+        <figure xml:id="2.5.2.2-cyu-solution">
+          <caption></caption>
+          <image source="2.5.2.2CYU.png">
+            <shortdescription>A squre with diagonal of length squre root of 80.</shortdescription>
+          </image>
+        </figure>
         <p>
           We are given <m>c = \sqrt{80}</m>. The diagonal cuts the square into two right triangles
           <m>\triangle ABC</m> and <m>\triangle DCB</m>. Therefore, let 
