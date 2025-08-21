@@ -98,8 +98,9 @@
         the nonagon at the bottom. Pull on the dotted vertex to change the number 
         of sides. With the new <m>n</m>-gon selected, you can now use the 
         duplicated sheet icon on the flip/cut/... menu to make copies 
-        of your <m>n</m>-gon. Fullscreen, undo, redo, reset, and extract buttons 
-        are provided on the right.
+        of your <m>n</m>-gon. Undo, redo, reset, and extract buttons 
+        are provided on the right. The blue icon will enable you to open 
+        the interactive in the PolyPad application and work full screen.
       </p>
       <figure xml:id="fig-polypad-tiling">
         <caption>          
@@ -158,8 +159,7 @@
             </image>
           </figure>
             <p>
-              The following shorthand will be used to refer to the angles.
-              <ul cols="3">
+              <ul cols="3" marker="none">
                 <li>
                   <m>\angle 1 = \angle EAD</m>
                 </li>
@@ -499,7 +499,7 @@
       </p>
     </statement>
   </definition>
-<exploration xml:id="explor-semireg-tilings">
+<exploration xml:id="explor-semireg-tilings-search">
   <title>In Search of Semiregular Tilings</title>
   <introduction>
     <p>
@@ -783,110 +783,124 @@
       create a 3.6.3.6 arrangement at some vertices. On the other hand, a 3.3.6.6 
       vertex arrangement can continue indefinitely. Let us explore why this happens.  
     </p>
-    <exploration>
+    <exploration xml:id="explor-semireg-tilings">
       <title>Semiregular Tilings with Four Regular Polygons at a Vertex</title>
-      <task>
-        <statement>
-        <p>
-          Use physical or virtual triangles and hexagons to 
-          sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
-          sketch if available. The Polypad by Amplify applet in 
-          <xref ref="fig-polypad-tiling"/> may be used.
-        <ol>
-          <li>
-            <p>
-              Choose one of the two triangles at this vertex and attempt 
-              to surround it with triangles and/or hexagons while maintaining 
-              the 3.3.6.6 arrangement at each vertex.
-            </p>
-          </li>
-          <li>
-            <p>
-              Note that each triangle in a 3.3.6.6 must share a side with 
-              one triangle and one hexagon due to the order of the 3's and 6's.
-            </p> 
-            <figure xml:id="triangle366">
-              <caption>Surrounding a regular triangle with regular triangles and 
-                regular hexagons.</caption>
-              <image source="whyno3366"></image>
-            </figure>
-            <p>
-              Will the remaining side abut a triangle or a hexagon? Discuss  
-              what happens in each case. <!--A GeoGebra interactive of this figure is 
-              available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
-            </p>
-          </li>
-        </ol>
-        </p>
-        </statement>
-      </task>
-      <task>
+      <task xml:base="semireg-tilings-polypad-task" label="semireg-tilings-polypad-task-label">
         <statement>
           <p>
-            There is a second group of four regular polygons consisting of  
-            two equilateral triangles and two other polygons.
-            <ol>
-              <li>
-                <p>
-                  What are the other two polygons? We will represent the number of  
-                  sides of these polygons by <m>m</m> and <m>n</m>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Explain why the arrangement <m>3.3.m.n</m> will not extend to 
-                  a semiregular tiling using an argument similar to what we did 
-                  with <m>3.3.6.6</m>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Explain why the arrangement <m>3.m.3.n</m> also fails to create a 
-                  semiregular tiling.
-                </p>
-              </li>
-            </ol>
+            Use physical or virtual triangles and hexagons to 
+            sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
+            sketch if available. The Polypad by Amplify applet below in 
+            <xref ref="fig-polypad-semireg-tiling"/> may be used.
+          </p>
+          <figure xml:id="fig-polypad-semireg-tiling">
+        <caption>          
+          <url href="https://mathigon.org/polypad/2RtlO1JO7dpDA"> 
+            Interactive tool for tiling on Polypad by Amplify.
+          </url>
+        </caption>
+      <interactive xml:id="RegularTilingPolypad2" 
+      iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
+      preview="regular-polygons.png" aspect="16:12"/>
+      </figure>
+        </statement>
+      </task>
+      <task xml:base="semireg-tilings-surround-arrangement-task" label="semireg-tilings-surround-arrangement-task">
+        <statement>
+          <p>
+            Choose one of the two triangles at this vertex and attempt 
+            to surround it with triangles and/or hexagons while maintaining 
+            the 3.3.6.6 arrangement at each vertex.
           </p>
         </statement>
       </task>
-      <task>
+      <task xml:id="semireg-tilings-surround-task-2" label="semireg-tilings-surround-task-2-label">
+        <statement>
+        <p>
+          Note that each triangle in a 3.3.6.6 must share a side with 
+          one triangle and one hexagon due to the order of the 3's and 6's.
+        </p> 
+        <figure xml:id="triangle366">
+          <caption>Surrounding a regular triangle with regular triangles and 
+            regular hexagons.</caption>
+          <image source="whyno3366"></image>
+        </figure>
+        <p>
+          Will the remaining side abut a triangle or a hexagon? Discuss  
+          what happens in each case. <!--A GeoGebra interactive of this figure is 
+          available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
+        </p>
+      </statement>
+    </task>
+    <task xml:id="semireg-tilings-triangles-polygons-task" label="semireg-tilings-triangles-polygons-task-label">
+      <statement>
+        <p>
+          There is a second group of four regular polygons consisting of  
+          two equilateral triangles and two other polygons.
+        </p>
+        <p>
+          What are the other two polygons? We will represent the number of  
+          sides of these polygons by <m>m</m> and <m>n</m>.
+        </p>
+      </statement>
+    </task>
+    <task xml:id="semireg-tilings-extend-argue-task" label="semireg-tilings-extend-argue-task-label">
+      <statement>
+        <p>
+          Explain why the arrangement <m>3.3.m.n</m> will not extend to 
+          a semiregular tiling using an argument similar to what we did 
+          with <m>3.3.6.6</m>.
+        </p>
+        </statement>
+    </task>
+    <task xml:id="semireg-tilings-arrangement-fail-task" label="semireg-tilings-arrangement-fail-task-label">
+    <statement>
+      <p>
+        Explain why the arrangement <m>3.m.3.n</m> also fails to create a 
+        semiregular tiling.
+      </p>
+    </statement>
+    </task>
+      <task xml:id="semireg-tilings-polygons-2-task" label="semireg-tilings-polygons-2-task-label">
         <statement>
           <p>
             The remaining semiregular tiling with four polygons meeting at 
             each vertex has two squares and two other polygons in the vertex   
             arrangement.
-            <ol>
-              <li>
-                <p>
-                  What are the other two polygons? Again, the number of sides of  
-                  these two polygons are represented by <m>m</m> and <m>n</m>
-                  in the questions that follow.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Are you able to surround a square along its sides by an alternating sequence of  
-                  <m>m</m>-gons and <m>n</m>-gons?
-                </p>
-              </li>
-              <li>
-                <p>
-                  One of the polygons has an odd number, <m>m</m>, of sides. Are you 
-                  able to surround the <m>m</m>-gon along its sides by an alternating 
-                  sequence of squares and <m>n</m>-gons?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Explain in words and pictures why <m>m.4.n.4</m> extends to a semiregular tiling,
-                  but <m>m.4.4.n</m> does not. Draw or record a sketch of <m>m.4.n.4</m> if  
-                  you do not already have one. 
-                </p>
-              </li>
-            </ol>
+          </p>
+          <p>
+            What are the other two polygons? Again, the number of sides of  
+            these two polygons are represented by <m>m</m> and <m>n</m>
+            in the questions that follow.
           </p>
         </statement>
       </task>
+      <task xml:id="semireg-tilings-surround-square-task" label="semireg-tilings-surround-square-task-label">
+      <statement>
+        <p>
+          Are you able to surround a square along its sides by an alternating sequence of  
+          <m>m</m>-gons and <m>n</m>-gons?
+        </p>
+      </statement>
+      </task>
+      <task xml:id="semireg-tilings-odd-sides-surround-task" label="semireg-tilings-odd-sides-surround-task-label">
+        <statement>
+          <p>
+            One of the polygons has an odd number, <m>m</m>, of sides. Are you 
+            able to surround the <m>m</m>-gon along its sides by an alternating 
+            sequence of squares and <m>n</m>-gons?
+          </p>
+        </statement>
+        </task>
+        <task xml:id="semireg-tilings-extend-sketch-explain-task" label="semireg-tilings-extend-sketch-explain-task-label">
+          <statement>
+            <p>
+              Explain in words and pictures why <m>m.4.n.4</m> extends to a semiregular tiling,
+              but <m>m.4.4.n</m> does not. Draw or record a sketch of <m>m.4.n.4</m> if  
+              you do not already have one. 
+            </p>
+          </statement>
+        </task>
     </exploration>
     <p> 
       We conclude that there are only two semiregular tilings and one regular 
@@ -897,7 +911,7 @@
     </p>
     <exploration>
       <title>Semiregular Tilings with Three Regular Polygons at a Vertex</title>
-      <task>
+      <task xml:id="semireg-tilings-arrangements-task" label="semireg-tilings-arrangements-task-label">
         <statement>
           <p>
             Not including the regular tiling <m>6.6.6</m>, there are nine possible  
@@ -907,14 +921,14 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task xml:id="semireg-tilings-verify-algebraic-task" label="semireg-tilings-verify-algebraic-task-label">
         <statement>
           <p>
             Verify algebraically that <m>5.5.10</m> can surround a single point. 
           </p>
         </statement>
       </task>
-      <task>
+      <task xml:id="semireg-tilings-five-explain-task" label="semireg-tilings-five-explain-task-label">
         <statement>
           <p>
             Use the fact that 5 is an odd number to explain why <m>5.5.10</m> does 
@@ -929,7 +943,7 @@
           </p>
           </hint>
       </task>
-      <task>
+      <task xml:id="semireg-tilings-three-vertex-arngmnt-task" label="semireg-tilings-three-vertex-arngmnt-task-label">
         <statement>
           <p>
             Determine the three vertex arrangements with three polygons that extend 
@@ -943,28 +957,40 @@
   <title>Exercises</title>
   <subexercises xml:id="Toolbox-polygons-regular">
     <title>Building Our Toolbox</title>
-    <p>
+    <introduction>
+      <p>
       As we conclude this long section, it is wise to reflect on what we have learned.
       What should we add to our toolbox for later use? Definitions for regular polygons,
       tilings, regular tilings, and semiregular tilings were introduced at the beginning 
       of the section. You should also note the items below:
-    </p>
-    <exercise xml:id="exer-toolbox-regpolygon-def">
+      </p>
+    </introduction>
+    <exercise xml:id="exer-toolbox-regpolygon-def" label="exer-toolbox-regpolygon-def-label">
       <statement>
         <p>
           In your own words and pictures, describe the difference between a regular and a 
           nonregular polygon.
         </p>
       </statement>
+      <response />
     </exercise>
-    <exercise xml:id="exer-toolbox-polygon-meet-vertex">
+    <exercise xml:id="exer-toolbox-polygon-meet-vertex" label="exer-toolbox-polygon-meet-vertex-label">
       <statement>
         <p>
           If a group of polygons meet at a single vertex, what must be the sum 
           of the angle measures at that vertex? Note that this wording generalizes this  
           fact to nonregular polygons as well.
         </p>
+        <fillin characters="3" answer="360" width="3" />
       </statement>
+      <evaluation>
+        <evaluate>
+            <test correct="yes">
+                <numcmp use-answer="yes" op="eq">360</numcmp>
+                <feedback>Correct.</feedback>
+            </test>
+        </evaluate>
+    </evaluation>
     </exercise>
     <exercise>
       <statement>
@@ -972,8 +998,9 @@
           Describe the three regular tilings.
         </p>
       </statement>
+      <response />
     </exercise>
-    <exercise>
+    <exercise xml:id="exercise-toolbox-sum-convex-ngon" label="exercise-toolbox-sum-convex-ngon-label">
       <statement>
         <p>
           What is the sum of the measures of the vertex angles for any (not necessarily
@@ -983,7 +1010,7 @@
         </p>
       </statement>
     </exercise>
-    <exercise>
+    <exercise xml:id="exercise-toolbox-sum-convex-ngon-formula" label="exercise-toolbox-sum-convex-ngon-formula-label">
       <statement>
         <p>
           What formula can be used to compute the angle measure for a regular 
@@ -991,14 +1018,14 @@
         </p>
       </statement>
     </exercise>
-    <exercise>
+    <exercise xml:id="exercise-toolbox-mnp-vertex-arrangement" label="exercise-toolbox-mnp-vertex-arrangement-label">
       <statement>
       <p>
         What do we mean by a <m>m.n.p</m>-vertex arrangement? 
       </p>
       </statement>
     </exercise>
-    <exercise>
+    <exercise xml:id="exercise-toolbox-vertex-arrangement-counterexample" label="exercise-toolbox-vertex-arrangement-counterexample-label">
       <statement>
         <p>
           Just because a collection of regular polygons can surround a vertex  
@@ -1011,217 +1038,289 @@
   </subexercises>
   <subexercises xml:id="SAR-polygons-regular">
       <title>Skills and Recall</title>
-      <exercise>
-          <statement>
+      <exercise xml:id="SAR-polygons-exercise-sketch" label="SAR-polygons-exercise-sketch-label">
+          <introduction>
+            <p>
+              Sketch a picture of each of the following:
+            </p>
+          </introduction>
+          <task xml:id="SAR-polygons-task-sketch-octagon" label="SAR-polygons-task-sketch-octagon-label">
+            <statement>
               <p>
-                  Sketch a picture of each of the following:
-                  <ol>
-                    <li>
-                      <p>
-                        A concave octagon
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        A convex hexagon that is not regular
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        A rectangle that is a regular quadrilateral.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        A rectangle that is not a regular quadrilateral.
-                      </p>
-                    </li>
-                  </ol>
+                A concave octagon.
               </p>
-          </statement>
+            </statement>
+          </task>
+          <task xml:id="SAR-polygons-task-sketch-convex-hex-nonregular" label="SAR-polygons-task-sketch-convex-hex-nonregular-label">
+            <statement>
+              <p>
+                A convex hexagon that is not regular.
+              </p>
+            </statement>
+          </task>
+          <task xml:id="SAR-polygons-task-sketch-rectangle-regular-quad" label="SAR-polygons-task-sketch-rectangle-regular-quad-label">
+            <statement>
+              <p>
+                A rectange that is a regular quadrilateral.
+              </p>
+            </statement>
+          </task>
+          <task xml:id="SAR-polygons-task-sketch-rectangle-nonregular-quad" label="SAR-polygons-task-sketch-rectangle-nonregular-quad">
+            <statement>
+              <p>
+                A rectange that is not a regular quadrilateral.
+              </p>
+            </statement>
+          </task>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-exercise-angle-measure" label="SAR-polygons-exercise-angle-measure-label">
+        <introduction>
           <p>
             What is the total angle measure of each of the following?
-            <ol>
-              <li>
-                <p>
-                  a triangle
-                </p>
-              </li>
-              <li>
-                <p>
-                  a convex quadrilateral
-                </p>
-              </li>
-              <li>
-                <p>
-                  a convex 11-gon
-                </p>
-              </li>
-              <li>
-                <p>
-                  a convex 50-gon
-                </p>
-              </li>
-            </ol>
           </p>
-        </statement>
-        <answer>
+        </introduction>
+        <task xml:id="SAR-polygons-task-angle-measure-triangle" label="SAR-polygons-task-angle-measure-triangle-label">
+          <statement>
+            <p>
+              A triangle.
+            </p>
+            <fillin characters="3" answer="180" width="3" />
+          </statement>
+          <evaluation>
+              <evaluate>
+                <test correct="yes">
+                    <numcmp use-answer="yes" op="eq">180</numcmp>
+                    <feedback>Correct.</feedback>
+                </test>
+            </evaluate>
+          </evaluation>
+        </task>
+        <task xml:id="SAR-polygons-task-angle-measure-convex-quadrilateral" label="SAR-polygons-task-angle-measure-convex-quadrilateral-label">
+          <statement>
+            <p>
+              A convex quadrilateral.
+            </p>
+            <fillin characters="3" answer="360" width="3" />
+          </statement>
+          <evaluation>
+            <evaluate>
+              <test correct="yes">
+                <numcmp use-answer="yes" op="eq">360</numcmp>
+                  <feedback>Correct.</feedback>
+              </test>
+            </evaluate>
+          </evaluation>
+        </task>
+        <task xml:id="SAR-polygons-task-angle-measure-convex-11gon" label="SAR-polygons-task-angle-measure-convex-11gon-label">
+          <statement>
+            <p>
+              A convex 11-gon.
+            </p>
+            <fillin characters="3" answer="1620" width="3" />
+          </statement>
+          <evaluation>
+            <evaluate>
+              <test correct="yes">
+                <numcmp use-answer="yes" op="eq">1620</numcmp>
+                  <feedback>Correct.</feedback>
+              </test>
+            </evaluate>
+          </evaluation>
+        </task>
+        <task xml:id="SAR-polygons-task-angle-measure-convex-50gon" label="SAR-polygons-task-angle-measure-convex-50gon-label">
+          <statement>
+            <p>
+              A convex 50-gon.
+            </p>
+            <fillin characters="3" answer="8640" width="3" />
+          </statement>
+          <evaluation>
+            <evaluate>
+              <test correct="yes">
+                <numcmp use-answer="yes" op="eq">8640</numcmp>
+                  <feedback>Correct.</feedback>
+              </test>
+            </evaluate>
+          </evaluation>
+        </task>
+        <!-- <answer>
           <p>
             (a) 180 degrees, (b) 360 degrees, (c) 1620 degrees, (d) 8640 degrees
           </p>
-        </answer>
-        <solution>
+        </answer> -->
+        <!-- <solution>
           <p>
             (c) <m>180*(11-2)=1620</m>
           </p>
-        </solution>
+        </solution> -->
       </exercise>
-      <exercise>
-          <statement>
-              <p>
-                  Demonstrate that each of the following exists by sketching an 
-                  example:
-                  <ol>
-                    <li>
-                      <p>
-                        a pentagon that is not convex
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        a convex hexagon with at least one right angle
-                      </p>
-                    </li>
-                  </ol>
-              </p>
-          </statement>
-      </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-regular-sketch-polygon-hexagon" label="SAR-polygons-regular-sketch-polygon-hexagon-label" >
+        <introduction>
           <p>
             Demonstrate that each of the following exists by sketching an 
             example:
-            <ol>
-              <li>
-                <p>
-                  an equilateral polygon that is not regular
-                </p>
-              </li>
-              <li>
-                <p>
-                  an equiangular polygon that is not regular
-                </p>
-              </li>
-            </ol>
           </p>
-        </statement>
+        </introduction>
+        <task xml:id="SAR-polygons-regular-nonconvex-pentagon-sketch" label="SAR-polygons-regular-nonconvex-pentagon-sketch-label">
+          <statement>
+            <p>
+              A pentagon that is not convex.
+            </p>
+          </statement>
+        </task>
+        <task xml:id="SAR-polygons-regular-convex-hexagon" label="SAR-polygons-regular-convex-hexagon-label">
+          <statement>
+            <p>
+              A convex hexagon with at least one right angle.
+            </p>
+          </statement>
+        </task>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-regular-sketch-equilateral-equiangular" label="SAR-polygons-regular-sketch-equilateral-equiangular-label">
+        <introduction>
+          <p>
+            Demonstrate that each of the following exists by sketching an example:
+          </p>
+        </introduction>
+        <task xml:id="SAR-polygons-regular-task-sketch-equilateral" label="SAR-polygons-regular-task-sketch-equilateral-label">
+          <statement>
+            <p>
+              An equilateral polygon that is not regular.
+            </p>
+          </statement>
+        </task>
+        <task xml:id="SAR-polygons-regular-task-sketch-equiangular" label="SAR-polygons-regular-task-sketch-equiangular-label">
+          <statement>
+            <p>
+              An equiangular polygon that is not regular.
+            </p>
+          </statement>
+        </task>
+      </exercise>
+      <exercise xml:id="SAR-polygons-regular-vertex-measure" label="SAR-polygons-regular-vertex-measure-label">
+        <introduction>
           <p>
             Answer the following:
-            <ol>
-              <li>
-                <p>
-                  What is the measure of each vertex in a regular 18-gon?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the measure of each vertex in a regular 9-gon?
-                </p>
-              </li>
-              <li>
-                <p>
-                  If a regular 18-gon, a regular 9-gon, and an equilateral triangle  
-                  meet at a vertex, will there be a gap? an overlap? or will they fit  
-                  together without gaps or overlaps?
-                </p>
-              </li>
-              <li>
-                Explain why it is impossible to create a semiregular tiling using 
-                regular 18-gons, regular 9-gons, and equilateral triangles.
-              </li>
-            </ol>
           </p>
-        </statement>
+        </introduction>
+        <task xml:id="SAR-polygons-regular-18gon-vertex-measure-task" label="SAR-polygons-regular-18gon-vertex-measure-task-label">
+          <statement>
+            <p>
+              What is the measure of each vertex in a regular 18-gon?
+            </p>
+          </statement>
+        </task>
+        <task xml:id="SAR-polygons-regular-9gon-vertex-measure-task" label="SAR-polygons-regular-9gon-vertex-measure-task-label">
+          <statement>
+            <p>
+              What is the measure of each vertex in a regular 9-gon?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              If a regular 18-gon, a regular 9-gon, and an equilateral triangle 
+              meet at a vertex, will there be a gap? an overlap? 
+              or will they fit together without gaps or overlaps?
+            </p>
+          </statement>
+        </task>
+        <task xml:id="SAR-polygons-regular-semireg-tiling-impossible-regular-task" label="SAR-polygons-regular-semireg-tiling-impossible-regular-task">
+          <statement>
+            <p>
+              Explain why it is impossible to create a semiregular 
+              tiling using regular 18-gons, regular 9-gons, 
+              and equilateral triangles.
+            </p>
+          </statement>
+        </task>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-regular-100gon" label="SAR-polygons-regular-100gon-label">
+        <introduction>
           <p>
             Answer the following questions about a 100-gon.
-            <ol>
-              <li>
-                <p>
-                  Diagonals drawn from a single vertex will divide a 100-gon into how 
-                  many triangles?
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the sum of the interior angles in a convex 100-gon?
-                </p>
-              </li>
-              <li>
+          </p>
+        </introduction>
+              <task xml:id="SAR-polygons-regular-100gon-diagonals-task" label="SAR-polygons-regular-100gon-diagonals-task-label">
+                <statement>
+                  <p>
+                    Diagonals drawn from a single vertex will divide a 100-gon into how 
+                    many triangles?
+                  </p>
+                </statement>
+              </task>
+             <task xml:id="SAR-polygons-regular-100gon-convex-interior-task" label="SAR-polygons-regular-100gon-convex-interior-task-label">
+                <statement>
+                    <p>
+                      What is the sum of the interior angles in a convex 100-gon?
+                    </p>
+                </statement>
+            </task>
+              <task xml:id="SAR-polygons-regular-100gon-interior-angle-measure-task" label="SAR-polygons-regular-100gon-interior-angle-measure-task-label">
+                <statement>
                 <p>
                   In a regular 100-gon, what is the measure of each interior angle?
                 </p>
-              </li>
-              <li>
+                </statement>
+              </task>
+              <task xml:id="SAR-polygons-regular-100gon-central-angle-measure-task" label="SAR-polygons-regular-100gon-central-angle-measure-task-label">
+                <statement>
                 <p>
                   In a regular 100-gon, what is the measure of each central angle?
                 </p>
-              </li>
-            </ol>
-          </p>
-        </statement>
-        <hint>
-          <p>
-            What must the sum of the central angles be?
-          </p>
-        </hint>
+              </statement>
+            </task>
       </exercise>
-      <exercise xml:id="exer-houseangle">
+      <exercise xml:id="SAR-polygons-regular-houseangle" label="SAR-polygons-regular-houseangle-label">
         <statement>
           <p>
             In <xref ref="fig-houseangle"/>, <m>\angle{EAB}</m> and <m>\angle{ABC}</m> are 
             right angles, <m>m(\angle{CDE})=99^\circ</m>, and <m>\angle{AED}\cong\angle{BCD}</m>.
+          </p>
+          <p>
             Determine <m>m(\angle{AED})</m>.
           </p>
           <figure xml:id="fig-houseangle">
-            <caption>Pentagon for <xref ref="exer-houseangle"/></caption>
+            <caption>Pentagon for <xref ref="SAR-polygons-regular-houseangle"/></caption>
             <image source="HW-houseangle"/>
           </figure>
         </statement>
       </exercise>
-      <exercise>
-        <statement>
+      <exercise xml:id="SAR-polygons-regular-not-semireg" label="SAR-polygons-regular-not-semireg-label">
+        <introduction>
           <p>
             Explain why each of the following are not semiregular tilings:
-            <ol>
-              <li>
-                <p>
-                  The design started in <xref ref="fig-HW336"/>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  The design started in <xref ref="fig-HW-kitedartrhomb"/>
-                </p>
-              </li>
-              <li>
-                <p>
-                  The design started in <xref ref="fig-HW-skewhouse"/>
-                </p>
-              </li>
-            </ol>
           </p>
+        </introduction>
+        <task xml:id="SAR-polygons-regular-not-semireg-task-a" label="SAR-polygons-regular-not-semireg-task-a-label">
+          <statement>
+            <p>
+              The design started in <xref ref="fig-HW336"/>.
+            </p>
+          </statement>
+          <response />
+        </task>
+        <task xml:id="SAR-polygons-regular-not-semireg-task-b" label="SAR-polygons-regular-not-semireg-task-b-label">
+          <statement>
+            <p>
+              The design started in <xref ref="fig-HW-kitedartrhomb"/>
+            </p>
+          </statement>
+          <response />
+        </task>
+        <task xml:id="SAR-polygons-regular-not-semireg-task-c" label="SAR-polygons-regular-not-semireg-task-c-label">
+          <statement>
+            <p>
+              The design started in <xref ref="fig-HW-skewhouse"/>
+            </p>
+          </statement>
+          <response />
+        </task>
+        <conclusion>
           <sidebyside widths="30% 30% 30%">
             <figure xml:id="fig-HW336">
-              <caption>Not semi-regular 1.</caption>
+              <caption></caption>
               <image source="HW336.png">
                 <shortdescription>
                   Three rows where each has a regular hexagon then an hourglass pair of 
@@ -1240,15 +1339,13 @@
               </image>
             </figure>-->
             <figure xml:id="fig-HW-kitedartrhomb">
-              <caption>Not semi-regular 2.</caption>
+              <caption></caption>
               <image source="kitedartrhombus.png">
                 <shortdescription>A design made by rhombi, darts, and kites.</shortdescription>
               </image>
             </figure>
             <figure xml:id="fig-HW-skewhouse">
-              <caption>
-                Not semi-regular 3.
-              </caption>
+              <caption></caption>
               <image source="hw-skew-house.png">
                 <shortdescription>
                   A design with rows of squares and rows of alternating triangles.
@@ -1257,130 +1354,165 @@
               </image>
             </figure>
           </sidebyside>
-        </statement>
+        </conclusion>
       </exercise>
   </subexercises>
   <subexercises xml:id="ExtConc-polygons-regular">
     <title>Extending the Concepts</title>
-    <exercise xml:id="exer-ExtConc-pgreg-nonagon">
+    <exercise xml:id="exer-ExtConc-pgreg-nonagon" label="exer-ExtConc-pgreg-nonagon-label">
       <title>Another Way to Calculate the Vertex Angle of a Regular Polygon</title>
-        <statement>
-            <p>
+        <introduction>
+          <p>
               In <xref ref="fig-nonagon-with-center"/>, a regular nonagon, its center <m>O</m>, 
               and segments joining each vertex to the center are shown. Use it 
               to answer the following: 
-              <ol>
-                <li>
-                  <p>
-                    Explain why each central angle must measure 40 degrees.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    What type of triangle is <m>\Delta AOB</m> ? Why?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    What is the measure of <m>\angle{ABO}</m> ? Why?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    What is the measure of <m>\angle{ABC}</m> ? Explain
-                    based on the steps in this problem.
-                  </p>
-                </li>
-                <li>
-                  <p>
+          </p>
+        </introduction>
+                <task xml:id="ExtConc-pgreg-nonagon-central-angle-task" label="ExtConc-pgreg-nonagon-central-angle-task-label">
+                  <statement>
+                    <p>
+                      Explain why each central angle must measure 40 degrees.
+                    </p>
+                  </statement>
+                  <response />
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-triangle-type-task" label="ExtConc-pgreg-nonagon-triangle-type-task-label">
+                  <statement>
+                    <p>
+                      What type of triangle is <m>\Delta AOB</m> ? Why?
+                    </p>
+                  </statement>
+                  <response />
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-triangle-measure-task" label="ExtConc-pgreg-nonagon-triangle-measure-task-label">
+                  <statement>
+                    <p>
+                      What is the measure of <m>\angle{ABO}</m> ? Why?
+                    </p>
+                  </statement>
+                  <response />
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-angle-measure-abc-task" label="ExtConc-pgreg-nonagon-angle-measure-abc-task-label">
+                  <statement>
+                    <p>
+                      What is the measure of <m>\angle{ABC}</m> ? Explain
+                      based on the steps in this problem.
+                    </p>
+                  </statement>
+                  <response />
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-central-angle-formula-task" label="ExtConc-pgreg-nonagon-central-angle-formula-task-label">
+                  <statement>
+                    <p>
                     What is the formula for the central angle of any regular
                     <m>n</m>-gon?
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Explain how we can use the measure of a central angle to 
-                    justify that the vertex angle of a regular <m>n</m>-gon has  
-                    measure <m>180-\frac{360}{n}</m>.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Algebraically, show that the vertex angle of a regular <m>n</m>-gon has  
-                    measure <m>\frac{180(n-2)}{n}</m> using the steps above.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          <figure xml:id="fig-nonagon-with-center">
-            <caption>Nonagon for <xref ref="exer-ExtConc-pgreg-nonagon"/>.</caption>
-            <image source="nonagon-w-center">
-            <shortdescription>Nonagon with center and spokes.</shortdescription>
-          </image>
-          </figure>  
-          </statement>
+                    </p>
+                    <response />
+                  </statement>
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-central-vertex-angle-task" label="ExtConc-pgreg-nonagon-central-vertex-angle-task-label">
+                  <statement>
+                    <p>
+                      Explain how we can use the measure of a central angle to 
+                      justify that the vertex angle of a regular <m>n</m>-gon has  
+                      measure <m>180-\frac{360}{n}</m>.
+                    </p>
+                  </statement>
+                </task>
+                <task xml:id="ExtConc-pgreg-nonagon-central-vertex-angle-algebra-task" label="ExtConc-pgreg-nonagon-central-vertex-angle-algebra-task-label">
+                  <statement>
+                    <p>
+                      Algebraically, show that the vertex angle of a regular <m>n</m>-gon has  
+                      measure <m>\frac{180(n-2)}{n}</m> using the steps above.
+                    </p>
+                  </statement>
+                </task>
+                <conclusion>
+                  <figure xml:id="fig-nonagon-with-center">
+                    <caption>Nonagon for <xref ref="exer-ExtConc-pgreg-nonagon"/>.</caption>
+                    <image source="nonagon-w-center">
+                    <shortdescription>Nonagon with center and spokes.</shortdescription>
+                    </image>
+                  </figure>  
+                </conclusion>
         </exercise>
-        <exercise> 
+        <exercise xml:id="ExtConc-Center-Polygon-Regular" label="ExtConc-Center-Polygon-Regular-task"> 
           <title>Finding the Center of a Regular Polygon</title>
-          <statement>
-            <p>
-              In <xref ref="exer-ExtConc-pgreg-nonagon"/>, the center of the 
-              regular nonagon was provided. In this problem, we explore how to 
-              find the center of a regular <m>n</m>-gon.
-              <ol>
-                <li>
+            <introduction>
+              <p>
+                In <xref ref="exer-ExtConc-pgreg-nonagon"/>, the center of the 
+                regular nonagon was provided. In this problem, we explore how to 
+                find the center of a regular <m>n</m>-gon.
+              </p>
+            </introduction>
+            <task xml:id="ExtConc-Center-Polygon-center-def-task" label="ExtConc-Center-Polygon-center-def-task-label">
+              <statement>
+                <p>
+                  Give a definition for the center of a regular polygon in your 
+                  own words.
+                </p>
+              </statement>
+              <response />
+            </task>
+            <task xml:id="ExtConc-Center-Polygon-Regular-ngon-even-task" label="ExtConc-Center-Polygon-Regular-ngon-even-task-label">
+              <statement>
                   <p>
-                    Give a definition for the center of a regular polygon in your 
-                    own words. 
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    First give clear instructions on how one can find the center of 
+                    Explain how one can find the center of 
                     any regular <m>n</m>-gon where <m>n</m>
-                    is an even number. Explain your technique. You may use the
-                    decagon in <xref ref="fig-extConc-pgreg-findcenters"/> for exploration 
-                    and illustration. This 
-                    applet will also allow you to create other <m>n</m>-gons as needed.
+                    is an even number.
+                  </p>
+                  <p>
+                    You may use the applet in <xref ref="fig-extConc-pgreg-findcenters"/>
+                    for exploration and illustration. You may create other <m>n</m>-gons as needed.
                     The <q>circle and radius tool</q> may be used to check your work, but not 
                     for finding the center.
                   </p>
-                </li>
-                <li>
+              </statement>
+              <response />
+            </task>
+            <task xml:id="ExtConc-Center-Polygon-Regular-ngon-odd-center-task" label="ExtConc-Center-Polygon-Regular-ngon-odd-center-task-label">
+              <statement>
                   <p>
                     Refer to <xref ref="fig-nonagon-with-center"/>. Do lines connecting 
                     vertices pass through the center? Give an alternate strategy for 
                     drawing lines that will pass through the center of an <m>n</m>-gon 
-                    when <m>n</m> is odd. You may use the nonagon in the GeoGebra applet in 
+                    when <m>n</m> is odd. 
+                  </p>
+
+                  <p>
+                    You may use the nonagon in the GeoGebra applet in 
                     <xref ref="fig-extConc-pgreg-findcenters"/>. The <q>circle and radius 
                     tool</q> may be used to check your work, but not 
                     for finding the center.
                   </p>
-                </li>
-              </ol>
-            </p>
-            <figure xml:id="fig-extConc-pgreg-findcenters">
-              <caption>GeoGebra interactive with Decagon and a Nonagon</caption>
-                <interactive xml:id="centerofregpolygonapp"
-                platform="geogebra">
-                <slate surface="geogebra" material="wh7ezz6p"/>
-                </interactive>
-            </figure>
-          </statement>
+              </statement>
+              <response />
+            </task>
+            <conclusion>
+              <figure xml:id="fig-extConc-pgreg-findcenters">
+                <caption>GeoGebra interactive with Decagon and a Nonagon</caption>
+                  <interactive xml:id="centerofregpolygonapp"
+                  platform="geogebra">
+                  <slate surface="geogebra" material="wh7ezz6p"/>
+                  </interactive>
+              </figure>
+            </conclusion>
+
       </exercise>
       <!--Centers of Triangles?-->
   </subexercises>
   <subexercises xml:id="writing-polygons-regular">
     <title>Writing Prompts</title>
-    <exercise>
+    <exercise xml:id="writing-polygons-regular-letter-to-friend-three-interesting" label="writing-polygons-regular-letter-to-friend-three-interesting-label">
       <statement>
         <p>
           Write a letter to a friend describing one thing you found to be 
           surprising or interesting in this section.
         </p>
       </statement>
+      <response />
     </exercise>
-    <exercise>
+    <exercise xml:id="writing-polygons-regular-letter-friend-formula" label="writing-polygons-regular-letter-friend-formula-label">
       <statement>
         <p>
           Write a letter to a friend in which you give a formula for the vertex 
@@ -1388,14 +1520,16 @@
           <m>n</m>-gons.
         </p>
       </statement>
+      <response />
     </exercise>
-    <exercise>
+    <exercise xml:id="writing-polygons-regular-letter-to-friend-three-reg-tilings" label="writing-polygons-regular-letter-to-friend-three-reg-tilings-label">
       <statement>
         <p>
           Write a letter to a friend in which you explain why there are exactly
           three regular tilings.
         </p>
       </statement>
+      <response />
     </exercise>
   </subexercises>
  </exercises>
