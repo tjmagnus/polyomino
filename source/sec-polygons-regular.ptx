@@ -563,8 +563,133 @@ What mode is needed for the last row?-->
         triangle, square, triangle, square. This arrangement is shown in 
         <xref ref="tiling33434"/> and will be discussed in the next exploration. 
       </p>
+        <p>
+          Note that <m>3.4.3.4.3</m> and <m>4.3.4.3.3</m> are two other ways 
+          of writing <m>3.3.4.3.4</m> in <xref ref="tiling33434"/>. 
+          We could begin at any polygon with a vertex at a given point and list the polygons 
+          sharing this vertex in order as we circle clockwise or counterclockwise. 
+          To avoid these repetitions, it is standard practice to begin with the polygon with the  
+          smallest number of sides and then move to its neighbor with the smallest number 
+          of sides, continuing around until all the polygons around the point have been named. 
+          Similarly, we write <m>3.3.3.4.4</m> rather than <m>3.3.4.4.3</m> for the tiling where  
+          the two squares are adjacent. 
+        </p>
     </statement>
   </definition>
+  <exercise label="CYU-def-semireg-notation">
+    <title>Check Your Understanding!</title>
+    <introduction>
+      <p>
+        Refer to the definition of <xref ref="def-semireg-tiling" text="custom">semiregular
+          tiling</xref> as you answer the following:
+      </p>
+    </introduction>
+    <task label="CU-def-semireg-notation-shapelist">
+      <statement>
+        <p>
+          What shapes are in the semiregular tiling 4.8.8?
+        </p>
+      </statement>
+      <choices>
+        <choice correct="no">
+          <statement>
+            <p>
+              A triangle, a square, and a hexagon.
+            </p>
+          </statement>
+        </choice>
+        <choice correct="no">
+          <statement>
+            <p>
+              Two squares and an octagon.
+            </p>
+          </statement>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              Two octagons and a square.
+            </p>
+          </statement>
+        </choice>
+      </choices>
+    </task>
+    <task label="CU-def-semireg-notation-verarr-multchoice">
+      <statement>
+        <p>
+          Which of the following describe the same design as 4.8.8?
+        </p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="no">
+          <statement>
+            <p>
+              4.4.8
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Check that the number of squares meeting at a vertex is the same.
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="no">
+          <statement>
+            <p>
+              4.8.4
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Check that the number of squares meeting at a vertex is the same.
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              8.4.8
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Correct. Note how we can move the first 8 to the end to get 4.8.8. The ordering 
+              is consistant even though the starting number differs.
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              8.8.4
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Correct. Note how this is the same pattern in the reverse order. Since 
+              we are going around a point in a circular fashion, we can move the last 
+              number to the beginning without changing the order of the shapes.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </task>
+    <task label="CU-defsemireg-same-vertexarr-TF">
+      <statement correct="no">
+        <p>
+          Answer True or False: The vertex arrangement 3.3.6.6 is the same as 3.6.3.6.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          In the first arrangement, the triangles are next to each other and the hexagons are next 
+          to each other. In the second arrangement the shapes alternate as they encircle each meeting
+          point. No hexagon shares a side with another hexagon.
+        </p>
+      </feedback>
+    </task>
+  </exercise>
+
 <exploration xml:id="explor-semireg-tilings-search">
   <title>In Search of Semiregular Tilings</title>
   <introduction>
@@ -581,7 +706,7 @@ What mode is needed for the last row?-->
     </p>
     <response />
     </statement>
-    <!--Change this to either short answer or fillin. Remove <solution ...-->
+    <!--Change this to either short answer or fillin. Remove component="instructor"-->
     <solution component="instructor">
       <p>
         The sum of the angle measures must be 360 degrees.
@@ -598,6 +723,9 @@ What mode is needed for the last row?-->
       <m>n</m>-gons. If the answer is not a whole number, write the answer as 
       a reduced fraction.
     </p>
+<!--We should be able to let Python or PreTeXt give credit for 128 3/7, 128.57,
+or 900/7. If so, we can rewrite the above to allow these options. How do students input
+math to be computed?-->
     <p>
       <ol cols="2">
         <li>
@@ -705,7 +833,7 @@ What mode is needed for the last row?-->
     </p>
   </hint>
   </task>
-  <!--Convert the following to nested tasks. Also add file upload capability.-->
+<!--Convert the following to nested tasks. Also add file upload capability.-->
   <task xml:id="semireg-tilings-task-three" label="semireg-tilings-task-three-label">
     <statement>
       <p>
@@ -752,7 +880,7 @@ What mode is needed for the last row?-->
       <p>
         Verify arithmetically that it is possible for an equilateral triangle, 
         a regular heptagon, and a regular tetracontakaidigon (42-gon), 
-        to fit snugly around a vertex with no overlaps. In shorthand, we can write this vertex  
+        to fit snugly around a single vertex with no overlaps. In shorthand, we can write this vertex  
         arrangement as <m>3.7.42</m>.
       </p>
       <figure xml:id="tetracontakaidigon">
@@ -775,22 +903,15 @@ What mode is needed for the last row?-->
         more than three polygons meet at a vertex, consider the different ways in 
         which they could be arranged.
       </p>
-      <!--Consider moving this aside into a paragraph. Where? Right after "tiling33434"?
-      What happens when we interrupt an exploration to make a statement? Or is it better to 
-      put it in definition def-semireg-tiling? A check understanding question encourage 
-      students to pay attention to this subtlety.-->
-      <aside>
-        <p>
-          Note that <m>3.4.3.4.3</m> and <m>4.3.4.3.3</m> are potentially two other ways 
-          of writing <m>3.3.4.3.4</m> in <xref ref="tiling33434"/>. 
-          We could begin at any polygon and list the polygons in order. To avoid these  
-          repetitions, it is standard practice to begin with the polygon with the  
-          smallest number of sides and then move to its neighbor with the smallest number 
-          of sides, continuing around until all the polygons around the point have been named. 
-          Similarly, we write <m>3.3.3.4.4</m> rather than <m>3.3.4.4.3</m> for the tiling where  
-          the two squares are adjacent. 
-        </p>
-      </aside>
+<!--I wonder whether it is possible to have PreTeXt check their answers regardless of the 
+order in which students write them. Fillin blanks could be provided of the form __.__.__ , 
+__.__.__.__ , and __.__.__.__.__ . Would showing the number of vertex patterns of each
+type (3 at a vertex, 4 at a vertex, 5 at a vertex) take away from the open exploration or 
+motivate students to find them all? As it currently stands, the hint gives this information
+anyway. Putting the numbers into an equation that computes the 
+sum of the angles is one possibility, but there may be an easier way to determine which of 
+their answers is correct. It would be nice to identify duplicate answers as well and to 
+indicate if they give the vertex arrangement for a regular tiling instead.-->
     </statement>
     <hint>
       <p>
@@ -806,7 +927,8 @@ What mode is needed for the last row?-->
     <statement>
       <p>
         Some of the vertex arrangements in the previous task will extend to create a semiregular tiling, 
-        but not all of them! Experiment by surrounding one vertex using the pattern and 
+        but not all of them! Choose some of your vertex arrangements in 
+        <xref ref="srtiling-possible-vertex-arrangements-task"/> Experiment by surrounding one vertex using the pattern and 
         then try to surround the neighboring vertices using the same arrangement. Which 
         seem to work and which fail? For the ones that fail, what seems to go wrong? 
       </p>
@@ -826,6 +948,8 @@ What mode is needed for the last row?-->
         work)? What do you wonder?
       </p>
     </statement>
+    <response />
+    
   </task>
 </exploration>
 <p>
@@ -846,9 +970,9 @@ What mode is needed for the last row?-->
       our options are very limited. Not including the regular tiling by squares, 
       you should have found three groups of four regular polygons with an 
       angle sum of 360 degrees. All of these have at least one polygon appearing 
-      twice. Why do some of these extend to a semiregular tiling while others do 
-      not? Does it matter whether the common polygons are next to each other 
-      or separated?    
+      twice. It would be nice to know why some of these extend to a semiregular tiling 
+      while others do not? For vertex patterns with the same set of shapes, does it matter 
+      whether the common polygons are next to each other or separated?    
     </p>
     <p>
       As we attempt to create a 3.3.6.6 pattern, we find that it is impossible to 
@@ -862,20 +986,20 @@ What mode is needed for the last row?-->
         <statement>
           <p>
             Use physical or virtual triangles and hexagons to 
-            sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
-            sketch if available. The Polypad by Amplify applet below in 
+            sketch a single copy of the vertex arrangement 3.3.6.6. 
+            The Polypad by Amplify applet in 
             <xref ref="fig-polypad-semireg-tiling"/> may be used.
           </p>
           <figure xml:id="fig-polypad-semireg-tiling">
-        <caption>          
-          <url href="https://mathigon.org/polypad/2RtlO1JO7dpDA"> 
-            Interactive tool for tiling on Polypad by Amplify.
-          </url>
-        </caption>
-      <interactive xml:id="RegularTilingPolypad2" 
-      iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
-      preview="regular-polygons.png" aspect="16:12"/>
-      </figure>
+            <caption>          
+              <url href="https://mathigon.org/polypad/2RtlO1JO7dpDA"> 
+                Interactive tool for tiling on Polypad by Amplify.
+              </url>
+            </caption>
+            <interactive xml:id="RegularTilingPolypad2" 
+            iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
+            preview="regular-polygons.png" aspect="16:12"/>
+          </figure>
         </statement>
       </task>
       <task xml:base="semireg-tilings-surround-arrangement-task" label="semireg-tilings-surround-arrangement-task">
@@ -898,8 +1022,11 @@ What mode is needed for the last row?-->
             regular hexagons.</caption>
           <image source="whyno3366"></image>
         </figure>
+        <!--Improve sketch so that the vertices of the green triangle are labeled A, B, and
+        C. Rewrite question or hint to encourage students to focus on the vertex arrangements
+        at the two base angles.-->
         <p>
-          Will the remaining side abut a triangle or a hexagon? Discuss  
+          Will the remaining side of the green triangle abut a hexagon or another triangle? Discuss  
           what happens in each case. <!--A GeoGebra interactive of this figure is 
           available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
         </p>
@@ -908,21 +1035,64 @@ What mode is needed for the last row?-->
     <task xml:id="semireg-tilings-triangles-polygons-task" label="semireg-tilings-triangles-polygons-task-label">
       <statement>
         <p>
-          There is a second group of four regular polygons consisting of  
-          two equilateral triangles and two other polygons.
+          In addition to 3.3.6.6 and 3.6.3.6, there is another vertex arrangement of 
+          four regular polygons consisting of two equilateral triangles and two nonequal polygons.
         </p>
         <p>
-          What are the other two polygons? We will represent the number of  
-          sides of these polygons by <m>m</m> and <m>n</m>.
+          What are the other two polygons? The other two polygons have 
+          <m>m=<fillin mode="math" answer="4" /></m> and <m>n=<fillin mode="math" answer="12" /></m>
+          sides, respectively.
         </p>
       </statement>
+<!--I'm trying to make sense of the following from 
+https://pretextbook.org/examples/sample-article/annotated/section-dynamic-exercises.html #2       <evaluation>
+The example had three answers and I have two.
+<evaluate>
+  <test correct="yes">
+  <jscmp>
+  ["4","12"].includes(ans)
+  </jscmp>
+  </test>
+  </evaluate>
+  <evaluate>
+  <test correct="yes">
+  <jscmp>
+  ["4","12"].includes(ans) &amp; !ans_array.slice(0,1).includes(ans)
+  </jscmp>
+  </test>
+  <test>
+  <jscmp>
+  ans_array.slice(0,1).includes(ans) 
+  </jscmp>
+  <feedback>
+    You already gave that answer.
+  </feedback>
+  </test>
+  </evaluate>
+  <evaluate>
+  <test correct="yes">
+  <jscmp>
+  ["continuous","positive","decreasing"].includes(ans) &amp;&amp; !ans_array.slice(0,2).includes(ans)
+  </jscmp>
+  </test>
+  <test>
+  <jscmp>
+  ans_array.slice(0,2).includes(ans)
+  </jscmp>
+  <feedback>
+    You already gave that answer.
+  </feedback>
+  </test>
+  </evaluate>
+  </evaluation>-->
+
     </task>
     <task xml:id="semireg-tilings-extend-argue-task" label="semireg-tilings-extend-argue-task-label">
       <statement>
         <p>
           Explain why the arrangement <m>3.3.m.n</m> will not extend to 
           a semiregular tiling using an argument similar to what we did 
-          with <m>3.3.6.6</m>.
+          with <m>3.3.6.6</m> in <xref ref="semireg-tilings-surround-task-2"/>.
         </p>
         </statement>
     </task>
@@ -947,6 +1117,24 @@ What mode is needed for the last row?-->
             in the questions that follow.
           </p>
         </statement>
+        <hint>
+          <p>
+            How many degrees are taken up by squares? Find two regular polygon vertex angle measures 
+            that sum to the amount that remains.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The other polygons are a triangle and a hexagon.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The two angles coming from the squares sum to 180 degrees, leaving another
+            180 degrees uncovered. The vertex angle measurements for the triangle and
+            hexagon are 60 degrees and 120 degrees.
+          </p>
+        </solution>
       </task>
       <task xml:id="semireg-tilings-surround-square-task" label="semireg-tilings-surround-square-task-label">
       <statement>
@@ -959,7 +1147,7 @@ What mode is needed for the last row?-->
       <task xml:id="semireg-tilings-odd-sides-surround-task" label="semireg-tilings-odd-sides-surround-task-label">
         <statement>
           <p>
-            One of the polygons has an odd number, <m>m</m>, of sides. Are you 
+            At least one of the polygons has an odd number,say <m>m</m>, of sides. Are you 
             able to surround the <m>m</m>-gon along its sides by an alternating 
             sequence of squares and <m>n</m>-gons?
           </p>
