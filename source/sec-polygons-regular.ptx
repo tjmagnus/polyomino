@@ -408,15 +408,20 @@ What mode is needed for the last row?-->
       <title>Regular Tilings Revisited</title>
       <introduction>
         <p>
-          Returning to the question of when a regular polygon can be  
-          used to create a regular tiling, 
+          Now that we can compute the measure of an angle of a regular polygon, we return
+          to the question of which regular tilings exist. Perhaps, you have determined the 
+          answer, but how do you convince others that you know all regular tilings? The 
+          relationship between angle measure and existance of regular tilings will be pursued 
+          in the tasks that follow. The interactive in <xref ref="fig-polypad-tiling"/> or the 
+          your work from <xref ref="explor-reg-tilings"/> may be 
+          helpful in answering the questions.
         </p>
       </introduction>
     <task xml:id="reg-tilings-triangles-task" label="reg-tilings-triangles-label"> 
       <statement>
         <p>
           How many equilateral triangles can meet at a single point
-          without overlapping?
+          without overlapping? This point will be a common vertex for the triangles. 
         </p>
          <fillin characters="1" answer="6" width="1" />
         </statement>
@@ -484,7 +489,12 @@ What mode is needed for the last row?-->
                     <numcmp use-answer="yes" op="eq">36</numcmp>
                     <feedback>Correct.</feedback>
                 </test>
+                <test correct="no">
+                    <feedback>Incorrect. Consider the total angle measure covered by the 
+                      pentagons at that point. What remains?</feedback>
+                </test>
             </evaluate>
+
           </evaluation>
       </task>
       <task xml:id="reg-tilings-ngon-task" label="reg-tilings-ngon-label">
@@ -559,8 +569,8 @@ What mode is needed for the last row?-->
   <title>In Search of Semiregular Tilings</title>
   <introduction>
     <p>
-      Once again, you are encouraged to continue the practice of saving your 
-      sketches, work, and results as they may be useful later in this section.
+      Save any sketches you make while completing this exploration. They will be useful 
+      later in this section. 
     </p>
   </introduction>
   <task xml:id="semireg-tilings-angle-measure-task" label="semireg-tilings-angle-measure-label">
@@ -571,6 +581,7 @@ What mode is needed for the last row?-->
     </p>
     <response />
     </statement>
+    <!--Change this to either short answer or fillin. Remove <solution ...-->
     <solution component="instructor">
       <p>
         The sum of the angle measures must be 360 degrees.
@@ -694,6 +705,7 @@ What mode is needed for the last row?-->
     </p>
   </hint>
   </task>
+  <!--Convert the following to nested tasks. Also add file upload capability.-->
   <task xml:id="semireg-tilings-task-three" label="semireg-tilings-task-three-label">
     <statement>
       <p>
@@ -709,15 +721,16 @@ What mode is needed for the last row?-->
           </li>
           <li>
             <p>
-              Extend the <m>3.3.4.3.4</m> design making sure that you always 
-              have one or two triangles between any two squares. Will this 
-              eventually fill the plane without gaps or overlaps? 
+              Extend the <m>3.3.4.3.4</m> design making sure that at each vertex you always 
+              have one or two triangles between any two squares; no two squares will share a side. 
+              Will this eventually fill the plane without gaps or overlaps? 
             </p>
             <response />
           </li>
           <li>
             <p>
-              Note that <m>3.3.3.4.4</m> gives a different pattern. Show that it is  
+              Note that <m>3.3.3.4.4</m> gives a different pattern. In this pattern,  
+              squares that meet at a vertex will also share a side. Show that it is  
               possible to create a tiling 
               using the vertex arrangement <m>3.3.3.4.4</m> by building outward from your 
               initial vertex arrangement.
@@ -738,7 +751,7 @@ What mode is needed for the last row?-->
     <statement>
       <p>
         Verify arithmetically that it is possible for an equilateral triangle, 
-        a regular heptagon, and a regular tetracontakaidigon (pictured below), 
+        a regular heptagon, and a regular tetracontakaidigon (42-gon), 
         to fit snugly around a vertex with no overlaps. In shorthand, we can write this vertex  
         arrangement as <m>3.7.42</m>.
       </p>
@@ -762,6 +775,10 @@ What mode is needed for the last row?-->
         more than three polygons meet at a vertex, consider the different ways in 
         which they could be arranged.
       </p>
+      <!--Consider moving this aside into a paragraph. Where? Right after "tiling33434"?
+      What happens when we interrupt an exploration to make a statement? Or is it better to 
+      put it in definition def-semireg-tiling? A check understanding question encourage 
+      students to pay attention to this subtlety.-->
       <aside>
         <p>
           Note that <m>3.4.3.4.3</m> and <m>4.3.4.3.3</m> are potentially two other ways 
