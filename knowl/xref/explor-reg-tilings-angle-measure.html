@@ -22,11 +22,9 @@
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">2.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Vertex Angle Measure.</span>
 </h4>
 <div class="introduction">
-<div class="para">Perhaps you noticed that the vertex angle measure plays a role in determining whether a regular polygon can be used to create a regular tiling. The steps in this task will lead you to determine the measure of the vertex angle of a regular pentagon. We will use this technique to find the measure of the vertex angles for other regular <span class="process-math">\(n\)</span>-gons.</div>
+<div class="para">Perhaps you noticed that the vertex angle measure plays a critical role in determining whether a regular polygon can be used to create a regular tiling. The steps in this exploration will lead you to determine the measure of the vertex angle of a regular pentagon. This technique will lead to a formula for computing the measure of the vertex angles for any regular <span class="process-math">\(n\)</span>-gon.</div>
 <figure class="figure figure-like"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/VertexAngRegPentagon.svg" role="img" class="contained" alt="A regular pentagon with vertices labeled A, B, C, D, and E. The interior angle at A has been split by diagonals into angles 1, 2, and 3. Angle D has been split into angles 4 and 5. Angle C has been split into angles 6 and 7."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.6<span class="period">.</span></span><span class="space"> </span>A triangulated regular pentagon</figcaption></figure><div class="para logical">
-<div class="para">The following shorthand will be used to refer to the angles.</div>
-<ul class="disc cols3" id="explor-reg-tilings-angle-measure-2-3-1">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.6<span class="period">.</span></span><span class="space"> </span>A triangulated regular pentagon</figcaption></figure><div class="para logical"><ul class="no-marker cols3" id="explor-reg-tilings-angle-measure-2-3-1">
 <li><div class="para"><span class="process-math">\(\displaystyle \angle 1 = \angle EAD\)</span></div></li>
 <li><div class="para"><span class="process-math">\(\displaystyle \angle 2 = \angle DAC\)</span></div></li>
 <li><div class="para"><span class="process-math">\(\displaystyle \angle 3 = \angle CAB\)</span></div></li>
@@ -36,15 +34,14 @@
 <li><div class="para"><span class="process-math">\(\displaystyle \angle 7 = \angle ACB\)</span></div></li>
 <li><div class="para">
 <span class="process-math">\(\angle E = \angle DEA\text{,}\)</span> etc.</div></li>
-</ul>
-</div>
+</ul></div>
 </div>
 <article class="task exercise-like"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone shortanswer_section"><div data-component="shortanswer" data-question_label="" class="journal" data-mathjax="" id="rs-regular-pentagon-angle-sum-one-label" data-placeholder="You can write here, and it will be saved on this device, but your response will not be graded."><div class="para" id="regular-pentagon-angle-sum-one-label-1-1">Explain why <span class="process-math">\(m\angle EAB=m\angle 1+m\angle 2+m\angle 3\)</span>
 </div></div></div></div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-regular-pentagon-angle-sum-two-label"><script type="application/json">{
-"problemHtml": "<div class=\"para\" id=\"regular-pentagon-angle-sum-two-label-1-1\"><span class=\"process-math\">\\(m\\angle 1 + m\\angle 4 + m\\angle E =\\)<\/span> <input type=\"text\" id=\"-blank1\" size=\"3\" \/><\/div>",
+"problemHtml": "<div class=\"para\" id=\"regular-pentagon-angle-sum-two-label-1-1\"><span class=\"process-math\">\\(m\\angle 1 + m\\angle 4 + m\\angle E =\\)<\/span> <input type=\"text\" id=\"-blank1\" size=\"3\" \/> degrees.<\/div>",
 "solutionHtml": "",
 "blankNames": {"blank1": 0},
 "feedbackArray": [[{"number": [180,180], "feedback": "Correct."}, {"feedback": "Incorrect."}]]
@@ -52,7 +49,7 @@
 </div></div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-regular-pentagon-angle-sum-three-label"><script type="application/json">{
-"problemHtml": "<div class=\"para\" id=\"regular-pentagon-angle-sum-three-label-1-1\"><span class=\"process-math\">\\(m\\angle EAB+m\\angle B+m\\angle BCD+m\\angle CDE \n+m\\angle E =\\)<\/span><\/div><input type=\"text\" id=\"-blank1\" size=\"3\" \/>",
+"problemHtml": "<div class=\"para\" id=\"regular-pentagon-angle-sum-three-label-1-1\"><span class=\"process-math\">\\(m\\angle EAB+m\\angle B+m\\angle BCD+m\\angle CDE \n+m\\angle E =\\)<\/span> <input type=\"text\" id=\"-blank1\" size=\"3\" \/> degrees.<\/div>",
 "solutionHtml": "",
 "blankNames": {"blank1": 0},
 "feedbackArray": [[{"number": [540,540], "feedback": "Correct."}, {"feedback": "Incorrect."}]]
@@ -61,7 +58,7 @@
 <div class="solutions"><details class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para">Use the fact that the pentagon is divided into triangles.</div></div></details></div></article><article class="task exercise-like"><h5 class="heading"><span class="codenumber">(d)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-regular-pentagon-angle-a-label"><script type="application/json">{
-"problemHtml": "<div class=\"para\" id=\"regular-pentagon-angle-a-label-1-1\">Having just computed the sum of the five congruent angles of a regular pentagon, determine <span class=\"process-math\">\\(m\\angle A\\text{.}\\)<\/span><\/div><input type=\"text\" id=\"-blank1\" size=\"3\" \/>",
+"problemHtml": "<div class=\"para\" id=\"regular-pentagon-angle-a-label-1-1\">Having just computed the sum of the five congruent angles of a regular pentagon, determine <span class=\"process-math\">\\(m\\angle A\\text{.}\\)<\/span><\/div><div class=\"para\" id=\"regular-pentagon-angle-a-label-1-2\"><span class=\"process-math\">\\(m\\angle A=\\)<\/span><input type=\"text\" id=\"-blank1\" size=\"3\" \/> degrees.<\/div>",
 "solutionHtml": "",
 "blankNames": {"blank1": 0},
 "feedbackArray": [[{"number": [108,108], "feedback": "Correct."}, {"feedback": "Incorrect."}]]
@@ -89,45 +86,45 @@
 <tr>
 <th scope="row" class="c m b1 r2 l0 t0 lines">square</th>
 <td class="c m b1 r1 l0 t0 lines">4</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
 </tr>
 <tr>
 <th scope="row" class="c m b1 r2 l0 t0 lines">regular pentagon</th>
 <td class="c m b1 r1 l0 t0 lines">5</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
 </tr>
 <tr>
 <th scope="row" class="c m b1 r2 l0 t0 lines">regular hexagon</th>
 <td class="c m b1 r1 l0 t0 lines">6</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
 </tr>
 <tr>
 <th scope="row" class="c m b1 r2 l0 t0 lines">regular octagon</th>
 <td class="c m b1 r1 l0 t0 lines">8</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
 </tr>
 <tr>
 <th scope="row" class="c m b1 r2 l0 t0 lines">regular decagon</th>
 <td class="c m b1 r1 l0 t0 lines">10</td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r1 l0 t0 lines"></td>
-<td class="c m b1 r0 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b1 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
 </tr>
 <tr>
 <th scope="row" class="c m b0 r2 l0 t0 lines">regular <span class="process-math">\(n\)</span>-gon</th>
 <td class="c m b0 r1 l0 t0 lines"><span class="process-math">\(n\)</span></td>
-<td class="c m b0 r1 l0 t0 lines"></td>
-<td class="c m b0 r1 l0 t0 lines"></td>
-<td class="c m b0 r0 l0 t0 lines"></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b0 r1 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span></td>
 </tr>
-</table></div></figure></article></article><span class="incontext"><a class="internal" href="sec-polygons-regular.html#explor-reg-tilings-angle-measure">in-context</a></span>
+</table></div></figure> </article></article><span class="incontext"><a class="internal" href="sec-polygons-regular.html#explor-reg-tilings-angle-measure">in-context</a></span>
 </body>
 </html>
