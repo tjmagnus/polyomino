@@ -962,7 +962,6 @@ indicate if they give the vertex arrangement for a regular tiling instead.-->
 </p>
 </subsection>
 
-
 <subsection xml:id="subsec-semireg-rules">
   <title>Narrowing Down the Options</title>
     <p>
@@ -1001,6 +1000,7 @@ indicate if they give the vertex arrangement for a regular tiling instead.-->
             preview="regular-polygons.png" aspect="16:12"/>
           </figure>
         </statement>
+<!--add file upload option-->
       </task>
       <task xml:base="semireg-tilings-surround-arrangement-task" label="semireg-tilings-surround-arrangement-task">
         <statement>
@@ -1013,37 +1013,38 @@ indicate if they give the vertex arrangement for a regular tiling instead.-->
       </task>
       <task xml:id="semireg-tilings-surround-task-2" label="semireg-tilings-surround-task-2-label">
         <statement>
-        <p>
-          Note that each triangle in a 3.3.6.6 must share a side with 
-          one triangle and one hexagon due to the order of the 3's and 6's.
-        </p> 
-        <figure xml:id="triangle366">
-          <caption>Surrounding a regular triangle with regular triangles and 
-            regular hexagons.</caption>
-          <image source="whyno3366"></image>
-        </figure>
-        <!--Improve sketch so that the vertices of the green triangle are labeled A, B, and
-        C. Rewrite question or hint to encourage students to focus on the vertex arrangements
-        at the two base angles.-->
-        <p>
-          Will the remaining side of the green triangle abut a hexagon or another triangle? Discuss  
-          what happens in each case. <!--A GeoGebra interactive of this figure is 
-          available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
-        </p>
-      </statement>
-    </task>
-    <task xml:id="semireg-tilings-triangles-polygons-task" label="semireg-tilings-triangles-polygons-task-label">
-      <statement>
-        <p>
-          In addition to 3.3.6.6 and 3.6.3.6, there is another vertex arrangement of 
-          four regular polygons consisting of two equilateral triangles and two nonequal polygons.
-        </p>
-        <p>
-          What are the other two polygons? The other two polygons have 
-          <m>m=<fillin mode="math" answer="4" /></m> and <m>n=<fillin mode="math" answer="12" /></m>
-          sides, respectively.
-        </p>
-      </statement>
+          <p>
+            Note that each triangle in a 3.3.6.6 must share a side with 
+            one triangle and one hexagon due to the order of the 3's and 6's.
+          </p> 
+          <figure xml:id="triangle366">
+            <caption>Surrounding a regular triangle with regular triangles and 
+              regular hexagons.</caption>
+            <image source="whyno3366"></image>
+          </figure>
+<!--Improve sketch so that the vertices of the green triangle are labeled A, B, and
+C. Rewrite question or hint to encourage students to focus on the vertex arrangements
+at the two base angles.-->
+          <p>
+            Will the remaining side of the green triangle abut a hexagon or another triangle? Discuss  
+            what happens in each case. <!--A GeoGebra interactive of this figure is 
+            available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
+          </p>
+        </statement>
+        <response />
+      </task>
+      <task xml:id="semireg-tilings-triangles-polygons-task" label="semireg-tilings-triangles-polygons-task-label">
+        <statement>
+          <p>
+            In addition to 3.3.6.6 and 3.6.3.6, there is another vertex arrangement of 
+            four regular polygons consisting of two equilateral triangles and two nonequal polygons.
+          </p>
+          <p>
+            What are the other two polygons? The other two polygons have 
+            <m>m=<fillin mode="math" answer="4" /></m> and <m>n=<fillin mode="math" answer="12" /></m>
+            sides, respectively.
+          </p>
+        </statement>
 <!--I'm trying to make sense of the following from 
 https://pretextbook.org/examples/sample-article/annotated/section-dynamic-exercises.html #2       <evaluation>
 The example had three answers and I have two.
@@ -1085,7 +1086,6 @@ The example had three answers and I have two.
   </test>
   </evaluate>
   </evaluation>-->
-
     </task>
     <task xml:id="semireg-tilings-extend-argue-task" label="semireg-tilings-extend-argue-task-label">
       <statement>
@@ -1094,7 +1094,8 @@ The example had three answers and I have two.
           a semiregular tiling using an argument similar to what we did 
           with <m>3.3.6.6</m> in <xref ref="semireg-tilings-surround-task-2"/>.
         </p>
-        </statement>
+      </statement>
+      <response />
     </task>
     <task xml:id="semireg-tilings-arrangement-fail-task" label="semireg-tilings-arrangement-fail-task-label">
     <statement>
@@ -1202,7 +1203,8 @@ The example had three answers and I have two.
             What happens as you try to surround a pentagon with the necessary 
             pentagons and decagons?
           </p>
-          </hint>
+        </hint>
+        <response />
       </task>
       <task xml:id="semireg-tilings-three-vertex-arngmnt-task" label="semireg-tilings-three-vertex-arngmnt-task-label">
         <statement>
@@ -1211,6 +1213,14 @@ The example had three answers and I have two.
             to a semiregular tiling. Why must the others be eliminated?
           </p>
         </statement>
+        <answer>
+          <p>
+            3.12.12, 4.6.12, and 4.8.8 are the three vertex arrangements that extend to 
+            a semiregular tiling. The other combinations are of the form <m>m.n.p</m> where <m>m</m>  
+            is odd and <m>n\neq p</m>.
+          </p>
+        </answer>
+        <response />
       </task>
     </exploration>
   </subsection>
