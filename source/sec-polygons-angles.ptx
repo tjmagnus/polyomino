@@ -475,7 +475,7 @@
         We give a more concise definition of angle measure and introduce the 
         notion of angle congruence.
     </p>
-    <definition>
+    <definition xml:id="def-angle-meas">
         <idx><h>angle measure</h></idx>
         <idx><h>measure</h><h>angle</h></idx>
     <notation>
@@ -490,7 +490,7 @@
         </p>
       </statement>
     </definition>
-    <definition>
+    <definition xml:id="def-cong-angles">
         <idx><h>congruent</h><h>angles</h></idx>
         <notation>
             <usage><m>\angle ABC\cong\angle DEF</m></usage>

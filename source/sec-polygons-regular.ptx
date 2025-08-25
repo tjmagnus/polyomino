@@ -5,9 +5,11 @@
   <introduction>
 
     <p>
-        Have you ever studied a tiling of a floor or a pattern on a quilt? In this  
-        section, we will define a regular polygon and explore when regular tilings 
-        can be used to tile the plane. 
+        Have you ever studied a tiling of a floor or a pattern on a quilt? Often a
+        repetition of similarly shaped tiles is used for artistic effect. In this  
+        section, we will define a regular polygon and explore tilings that consist 
+        only of regular polygons. Is there a limit to the number of tilings that 
+        can created in this way?  
     </p>
     <aside>
       <p>
@@ -22,23 +24,25 @@
     <p>
       We begin by defining what it means for a polygon to be regular.
     </p>
-  <definition>
+  <definition xml:id="def-reg-polygon">
     <idx><h>regular</h><h>polygon</h></idx>
     <idx><h>polygon</h><h>regular</h></idx>
     <statement>
     <p>
       A polygon is a <term>regular polygon</term> if all of its sides and 
-      all of its angles are congruent. <!--Have we defined congruent angles?-->
+      all of its angles are <xref ref="def-cong-angles" text="custom">congruent</xref>. 
     </p>
   </statement>
   </definition>
   <exercise>
     <title>Check Your Understanding!</title>
-    <statement>
+    <introduction>
       <p>
-        Explain why each shape below is not a regular polygon:
+        Each shape in <xref ref="fig-examples-nonreg-polygons"/> is not a regular polygon.
+        Identify the part(s) of the definition of <xref ref="def-reg-polygon" text="custom">regular
+          polygon</xref> that fail for each figure.
       </p>
-      <figure>
+      <figure xml:id="fig-examples-nonreg-polygons">
         <caption>Nonregular Polygons</caption>
         <image source="nonregularpolygons" width="90%">
           <shortdescription>
@@ -49,7 +53,46 @@
           </shortdescription>
         </image>
       </figure>
-    </statement>
+    </introduction>
+    <task label="rhom-not-regular-l">
+      <statement>
+        <p>
+          Explain why rhombus <m>ABCD</m> is not regular.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Not all angles are congruent.
+        </p>
+      </answer>
+      <response />
+    </task>
+    <task>
+      <statement>
+        <p>
+          Explain why rectangle <m>EFGH</m> is not regular. 
+        </p>
+      </statement>
+      <answer>
+        <p>
+          There are pairs of noncongruent sides.
+        </p>
+      </answer>
+      <response />
+    </task>
+    <task>
+      <statement>
+        <p>
+          Explain why pentagon <m>IJKLM</m> is not regular.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Not all angles are congruent. The sides also vary in length.
+        </p>
+      </answer>
+      <response />
+    </task>
   </exercise>
 </subsection>
 <subsection xml:id="subsec-polygons-regular-tilings">
@@ -57,10 +100,12 @@
   <p>
     In <xref ref="intro-explore-exp-pentrect"/>, we created a tiling of a square using tetrominoes. 
     In this section, we will consider tilings of the plane. Since the plane continues  
-    infinitely, we will not be able to create a complete tiling. However, we will be able to 
-    build enough of the tiling to determine whether a tiling is possible.
+    infinitely, we will not be able to create a complete tiling in a finite space or finite 
+    time span. Instead, we sketch enough of the tiling to determine whether a tiling is 
+    possible. We ask ourselves whether we can continue the pattern vertically, horizontally, 
+    and diagonally without creating gaps or irregularities.
   </p>
-  <definition>
+  <definition xml:id="def-tiling">
     <idx><h>tiling</h></idx>
     <idx><h>tiling</h><h>regular</h></idx>
     <idx><h>regular</h><h>tiling</h></idx>
@@ -91,10 +136,10 @@
       <p>
         The web application <url href="https://mathigon.org/polypad#polygons">Polypad
         by Amplify</url> provides regular <m>n</m>-gons for <m>3\leq n\leq 8</m>. 
-        These are the top six shapes provided. Simply drag the shape from the 
+        These are the top six shapes provided in <xref ref="fig-polypad-tiling"/>. Simply drag the shape from the 
         left into the whiteboard area and it will make a new copy. Rotate the polygon 
         using the dotted stem and move it by clicking on the interior and 
-        dragging. For <m>n</m>-gons with <m>n>8</m>, use  
+        dragging. For <m>n</m>-gons with <m>n\gt 8</m>, use  
         the nonagon at the bottom. Pull on the dotted vertex to change the number 
         of sides. With the new <m>n</m>-gon selected, you can now use the 
         duplicated sheet icon on the flip/cut/... menu to make copies 
@@ -123,6 +168,7 @@
           and the right, with no gaps and overlaps. 
         </p>
       </statement>
+<!--Add file upload option.-->
     </task>
     <task xml:id="polypad-tiling-eight-sides-task" label="polypad-tiling-eight-sides-task-label">
       <statement>
@@ -133,19 +179,25 @@
           will happen with regular polygons with more than eight sides? Why?
         </p>
       </statement>
-    <response />
+      <answer>
+        <p>
+          The only regular polygons that lead to regular tilings are the equilateral triangle,
+          the square, and the regular hexagon.
+        </p>
+      </answer>
+      <response />
+<!--Add file upload option.-->
     </task>
   </exploration>
   <exploration xml:id="explor-reg-tilings-angle-measure">
     <title>Vertex Angle Measure</title>
       <introduction>
         <p>
-          Perhaps you noticed that the vertex angle measure plays a role in determining 
+          Perhaps you noticed that the vertex angle measure plays a critical role in determining 
           whether a regular polygon can be used to create a regular tiling. The steps in 
-          this task will lead you to determine the measure of the vertex angle of a 
-          regular pentagon. We 
-          will use this technique to find the measure of the vertex angles for other   
-          regular <m>n</m>-gons.
+          this exploration will lead you to determine the measure of the vertex angle of a 
+          regular pentagon. This technique will lead to a formula for computing the 
+          measure of the vertex angles for any regular <m>n</m>-gon.
         </p>
           <figure xml:id="regpentagon-into-tri">
             <caption>A triangulated regular pentagon</caption>
@@ -159,7 +211,7 @@
             </image>
           </figure>
             <p>
-              <ul cols="3" marker="none">
+              <ul cols="3" marker="">
                 <li>
                   <m>\angle 1 = \angle EAD</m>
                 </li>
@@ -199,7 +251,7 @@
               <statement>
                 <p>
                   <m>m\angle 1 + m\angle 4 + m\angle E =</m> 
-                  <fillin characters="3" answer="180" width="3" />
+                  <fillin characters="3" answer="180" width="3" /> degrees.
                 </p>
               </statement>
               <evaluation>
@@ -216,8 +268,8 @@
                 <p>
                   <m>m\angle EAB+m\angle B+m\angle BCD+m\angle CDE 
                   +m\angle E =</m>
+                  <fillin characters="3" answer="540" width="3" /> degrees.
                 </p>
-                <fillin characters="3" answer="540" width="3" />
               </statement>
               <hint>
                 <p>
@@ -239,7 +291,9 @@
                 Having just computed the sum of the five congruent angles of  
                 a regular pentagon, determine <m>m\angle A</m>. 
               </p>
-              <fillin characters="3" answer="108" width="3" />
+              <p>
+              <m>m\angle A=</m><fillin characters="3" answer="108" width="3" /> degrees.
+              </p>
             </statement>
             <evaluation>
                   <evaluate>
@@ -266,7 +320,7 @@
               <response />
             </task>
     <task xml:id="regular-pentagon-table-task" label="regular-pentagon-table-label">
-      <!-- Is there a way to display inputs for this table? -->
+  <!-- Is there a way for students to fill in answers for this table? -->
       <statement>
         <p>
           Use your work from the previous task to complete the row for regular 
@@ -303,47 +357,49 @@
             <row bottom="minor">
               <cell>square</cell>
               <cell>4</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="2" /></cell>
+              <cell><fillin mode="number" answer="360" /></cell>
+              <cell><fillin mode="number" answer="90" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular pentagon</cell>
               <cell>5</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="3" /></cell>
+              <cell><fillin mode="number" answer="540" /></cell>
+              <cell><fillin mode="number" answer="108" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular hexagon</cell>
               <cell>6</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="4" /></cell>
+              <cell><fillin mode="number" answer="720" /></cell>
+              <cell><fillin mode="number" answer="120" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular octagon</cell>
               <cell>8</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="6" /></cell>
+              <cell><fillin mode="number" answer="1080" /></cell>
+              <cell><fillin mode="number" answer="135" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular decagon</cell>
               <cell>10</cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="number" answer="8" /></cell>
+              <cell><fillin mode="number" answer="1440" /></cell>
+              <cell><fillin mode="number" answer="144" /></cell>
             </row>
             <row>
               <cell>regular <m>n</m>-gon</cell>
               <cell><m>n</m></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell><fillin mode="math" answer="n-2" /></cell>
+              <cell><fillin mode="math" answer="180(n-2)" /></cell>
+              <cell><fillin mode="number" answer="180(n-2)/n" /></cell>
             </row>
           </tabular>
         </table>
+<!--How do I fix the fillins in the above table so that answers can be inserted? 
+What mode is needed for the last row?-->
       </statement>
     </task>
   </exploration>
@@ -352,15 +408,20 @@
       <title>Regular Tilings Revisited</title>
       <introduction>
         <p>
-          Returning to the question of when a regular polygon can be  
-          used to create a regular tiling, 
+          Now that we can compute the measure of an angle of a regular polygon, we return
+          to the question of which regular tilings exist. Perhaps, you have determined the 
+          answer, but how do you convince others that you know all regular tilings? The 
+          relationship between angle measure and existance of regular tilings will be pursued 
+          in the tasks that follow. The interactive in <xref ref="fig-polypad-tiling"/> or the 
+          your work from <xref ref="explor-reg-tilings"/> may be 
+          helpful in answering the questions.
         </p>
       </introduction>
     <task xml:id="reg-tilings-triangles-task" label="reg-tilings-triangles-label"> 
       <statement>
         <p>
           How many equilateral triangles can meet at a single point
-          without overlapping?
+          without overlapping? This point will be a common vertex for the triangles. 
         </p>
          <fillin characters="1" answer="6" width="1" />
         </statement>
@@ -428,7 +489,12 @@
                     <numcmp use-answer="yes" op="eq">36</numcmp>
                     <feedback>Correct.</feedback>
                 </test>
+                <test correct="no">
+                    <feedback>Incorrect. Consider the total angle measure covered by the 
+                      pentagons at that point. What remains?</feedback>
+                </test>
             </evaluate>
+
           </evaluation>
       </task>
       <task xml:id="reg-tilings-ngon-task" label="reg-tilings-ngon-label">
@@ -497,14 +563,139 @@
         triangle, square, triangle, square. This arrangement is shown in 
         <xref ref="tiling33434"/> and will be discussed in the next exploration. 
       </p>
+        <p>
+          Note that <m>3.4.3.4.3</m> and <m>4.3.4.3.3</m> are two other ways 
+          of writing <m>3.3.4.3.4</m> in <xref ref="tiling33434"/>. 
+          We could begin at any polygon with a vertex at a given point and list the polygons 
+          sharing this vertex in order as we circle clockwise or counterclockwise. 
+          To avoid these repetitions, it is standard practice to begin with the polygon with the  
+          smallest number of sides and then move to its neighbor with the smallest number 
+          of sides, continuing around until all the polygons around the point have been named. 
+          Similarly, we write <m>3.3.3.4.4</m> rather than <m>3.3.4.4.3</m> for the tiling where  
+          the two squares are adjacent. 
+        </p>
     </statement>
   </definition>
+  <exercise label="CYU-def-semireg-notation">
+    <title>Check Your Understanding!</title>
+    <introduction>
+      <p>
+        Refer to the definition of <xref ref="def-semireg-tiling" text="custom">semiregular
+          tiling</xref> as you answer the following:
+      </p>
+    </introduction>
+    <task label="CU-def-semireg-notation-shapelist">
+      <statement>
+        <p>
+          What shapes are in the semiregular tiling 4.8.8?
+        </p>
+      </statement>
+      <choices>
+        <choice correct="no">
+          <statement>
+            <p>
+              A triangle, a square, and a hexagon.
+            </p>
+          </statement>
+        </choice>
+        <choice correct="no">
+          <statement>
+            <p>
+              Two squares and an octagon.
+            </p>
+          </statement>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              Two octagons and a square.
+            </p>
+          </statement>
+        </choice>
+      </choices>
+    </task>
+    <task label="CU-def-semireg-notation-verarr-multchoice">
+      <statement>
+        <p>
+          Which of the following describe the same design as 4.8.8?
+        </p>
+      </statement>
+      <choices randomize="yes">
+        <choice correct="no">
+          <statement>
+            <p>
+              4.4.8
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Check that the number of squares meeting at a vertex is the same.
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="no">
+          <statement>
+            <p>
+              4.8.4
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Check that the number of squares meeting at a vertex is the same.
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              8.4.8
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Correct. Note how we can move the first 8 to the end to get 4.8.8. The ordering 
+              is consistant even though the starting number differs.
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              8.8.4
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Correct. Note how this is the same pattern in the reverse order. Since 
+              we are going around a point in a circular fashion, we can move the last 
+              number to the beginning without changing the order of the shapes.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </task>
+    <task label="CU-defsemireg-same-vertexarr-TF">
+      <statement correct="no">
+        <p>
+          Answer True or False: The vertex arrangement 3.3.6.6 is the same as 3.6.3.6.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          In the first arrangement, the triangles are next to each other and the hexagons are next 
+          to each other. In the second arrangement the shapes alternate as they encircle each meeting
+          point. No hexagon shares a side with another hexagon.
+        </p>
+      </feedback>
+    </task>
+  </exercise>
+
 <exploration xml:id="explor-semireg-tilings-search">
   <title>In Search of Semiregular Tilings</title>
   <introduction>
     <p>
-      Once again, you are encouraged to continue the practice of saving your 
-      sketches, work, and results as they may be useful later in this section.
+      Save any sketches you make while completing this exploration. They will be useful 
+      later in this section. 
     </p>
   </introduction>
   <task xml:id="semireg-tilings-angle-measure-task" label="semireg-tilings-angle-measure-label">
@@ -515,6 +706,7 @@
     </p>
     <response />
     </statement>
+    <!--Change this to either short answer or fillin. Remove component="instructor"-->
     <solution component="instructor">
       <p>
         The sum of the angle measures must be 360 degrees.
@@ -531,6 +723,9 @@
       <m>n</m>-gons. If the answer is not a whole number, write the answer as 
       a reduced fraction.
     </p>
+<!--We should be able to let Python or PreTeXt give credit for 128 3/7, 128.57,
+or 900/7. If so, we can rewrite the above to allow these options. How do students input
+math to be computed?-->
     <p>
       <ol cols="2">
         <li>
@@ -638,6 +833,7 @@
     </p>
   </hint>
   </task>
+<!--Convert the following to nested tasks. Also add file upload capability.-->
   <task xml:id="semireg-tilings-task-three" label="semireg-tilings-task-three-label">
     <statement>
       <p>
@@ -653,15 +849,16 @@
           </li>
           <li>
             <p>
-              Extend the <m>3.3.4.3.4</m> design making sure that you always 
-              have one or two triangles between any two squares. Will this 
-              eventually fill the plane without gaps or overlaps? 
+              Extend the <m>3.3.4.3.4</m> design making sure that at each vertex you always 
+              have one or two triangles between any two squares; no two squares will share a side. 
+              Will this eventually fill the plane without gaps or overlaps? 
             </p>
             <response />
           </li>
           <li>
             <p>
-              Note that <m>3.3.3.4.4</m> gives a different pattern. Show that it is  
+              Note that <m>3.3.3.4.4</m> gives a different pattern. In this pattern,  
+              squares that meet at a vertex will also share a side. Show that it is  
               possible to create a tiling 
               using the vertex arrangement <m>3.3.3.4.4</m> by building outward from your 
               initial vertex arrangement.
@@ -682,8 +879,8 @@
     <statement>
       <p>
         Verify arithmetically that it is possible for an equilateral triangle, 
-        a regular heptagon, and a regular tetracontakaidigon (pictured below), 
-        to fit snugly around a vertex with no overlaps. In shorthand, we can write this vertex  
+        a regular heptagon, and a regular tetracontakaidigon (42-gon), 
+        to fit snugly around a single vertex with no overlaps. In shorthand, we can write this vertex  
         arrangement as <m>3.7.42</m>.
       </p>
       <figure xml:id="tetracontakaidigon">
@@ -706,18 +903,15 @@
         more than three polygons meet at a vertex, consider the different ways in 
         which they could be arranged.
       </p>
-      <aside>
-        <p>
-          Note that <m>3.4.3.4.3</m> and <m>4.3.4.3.3</m> are potentially two other ways 
-          of writing <m>3.3.4.3.4</m> in <xref ref="tiling33434"/>. 
-          We could begin at any polygon and list the polygons in order. To avoid these  
-          repetitions, it is standard practice to begin with the polygon with the  
-          smallest number of sides and then move to its neighbor with the smallest number 
-          of sides, continuing around until all the polygons around the point have been named. 
-          Similarly, we write <m>3.3.3.4.4</m> rather than <m>3.3.4.4.3</m> for the tiling where  
-          the two squares are adjacent. 
-        </p>
-      </aside>
+<!--I wonder whether it is possible to have PreTeXt check their answers regardless of the 
+order in which students write them. Fillin blanks could be provided of the form __.__.__ , 
+__.__.__.__ , and __.__.__.__.__ . Would showing the number of vertex patterns of each
+type (3 at a vertex, 4 at a vertex, 5 at a vertex) take away from the open exploration or 
+motivate students to find them all? As it currently stands, the hint gives this information
+anyway. Putting the numbers into an equation that computes the 
+sum of the angles is one possibility, but there may be an easier way to determine which of 
+their answers is correct. It would be nice to identify duplicate answers as well and to 
+indicate if they give the vertex arrangement for a regular tiling instead.-->
     </statement>
     <hint>
       <p>
@@ -733,7 +927,8 @@
     <statement>
       <p>
         Some of the vertex arrangements in the previous task will extend to create a semiregular tiling, 
-        but not all of them! Experiment by surrounding one vertex using the pattern and 
+        but not all of them! Choose some of your vertex arrangements in 
+        <xref ref="srtiling-possible-vertex-arrangements-task"/> Experiment by surrounding one vertex using the pattern and 
         then try to surround the neighboring vertices using the same arrangement. Which 
         seem to work and which fail? For the ones that fail, what seems to go wrong? 
       </p>
@@ -753,6 +948,8 @@
         work)? What do you wonder?
       </p>
     </statement>
+    <response />
+    
   </task>
 </exploration>
 <p>
@@ -765,7 +962,6 @@
 </p>
 </subsection>
 
-
 <subsection xml:id="subsec-semireg-rules">
   <title>Narrowing Down the Options</title>
     <p>
@@ -773,9 +969,9 @@
       our options are very limited. Not including the regular tiling by squares, 
       you should have found three groups of four regular polygons with an 
       angle sum of 360 degrees. All of these have at least one polygon appearing 
-      twice. Why do some of these extend to a semiregular tiling while others do 
-      not? Does it matter whether the common polygons are next to each other 
-      or separated?    
+      twice. It would be nice to know why some of these extend to a semiregular tiling 
+      while others do not? For vertex patterns with the same set of shapes, does it matter 
+      whether the common polygons are next to each other or separated?    
     </p>
     <p>
       As we attempt to create a 3.3.6.6 pattern, we find that it is impossible to 
@@ -789,21 +985,22 @@
         <statement>
           <p>
             Use physical or virtual triangles and hexagons to 
-            sketch the vertex arrangement 3.3.6.6 or refer to an earlier  
-            sketch if available. The Polypad by Amplify applet below in 
+            sketch a single copy of the vertex arrangement 3.3.6.6. 
+            The Polypad by Amplify applet in 
             <xref ref="fig-polypad-semireg-tiling"/> may be used.
           </p>
           <figure xml:id="fig-polypad-semireg-tiling">
-        <caption>          
-          <url href="https://mathigon.org/polypad/2RtlO1JO7dpDA"> 
-            Interactive tool for tiling on Polypad by Amplify.
-          </url>
-        </caption>
-      <interactive xml:id="RegularTilingPolypad2" 
-      iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
-      preview="regular-polygons.png" aspect="16:12"/>
-      </figure>
+            <caption>          
+              <url href="https://mathigon.org/polypad/2RtlO1JO7dpDA"> 
+                Interactive tool for tiling on Polypad by Amplify.
+              </url>
+            </caption>
+            <interactive xml:id="RegularTilingPolypad2" 
+            iframe="https://www.mathigon.org/polypad/embed/2RtlO1JO7dpDA" 
+            preview="regular-polygons.png" aspect="16:12"/>
+          </figure>
         </statement>
+<!--add file upload option-->
       </task>
       <task xml:base="semireg-tilings-surround-arrangement-task" label="semireg-tilings-surround-arrangement-task">
         <statement>
@@ -816,42 +1013,89 @@
       </task>
       <task xml:id="semireg-tilings-surround-task-2" label="semireg-tilings-surround-task-2-label">
         <statement>
-        <p>
-          Note that each triangle in a 3.3.6.6 must share a side with 
-          one triangle and one hexagon due to the order of the 3's and 6's.
-        </p> 
-        <figure xml:id="triangle366">
-          <caption>Surrounding a regular triangle with regular triangles and 
-            regular hexagons.</caption>
-          <image source="whyno3366"></image>
-        </figure>
-        <p>
-          Will the remaining side abut a triangle or a hexagon? Discuss  
-          what happens in each case. <!--A GeoGebra interactive of this figure is 
-          available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
-        </p>
-      </statement>
-    </task>
-    <task xml:id="semireg-tilings-triangles-polygons-task" label="semireg-tilings-triangles-polygons-task-label">
-      <statement>
-        <p>
-          There is a second group of four regular polygons consisting of  
-          two equilateral triangles and two other polygons.
-        </p>
-        <p>
-          What are the other two polygons? We will represent the number of  
-          sides of these polygons by <m>m</m> and <m>n</m>.
-        </p>
-      </statement>
+          <p>
+            Note that each triangle in a 3.3.6.6 must share a side with 
+            one triangle and one hexagon due to the order of the 3's and 6's.
+          </p> 
+          <figure xml:id="triangle366">
+            <caption>Surrounding a regular triangle with regular triangles and 
+              regular hexagons.</caption>
+            <image source="whyno3366"></image>
+          </figure>
+<!--Improve sketch so that the vertices of the green triangle are labeled A, B, and
+C. Rewrite question or hint to encourage students to focus on the vertex arrangements
+at the two base angles.-->
+          <p>
+            Will the remaining side of the green triangle abut a hexagon or another triangle? Discuss  
+            what happens in each case. <!--A GeoGebra interactive of this figure is 
+            available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
+          </p>
+        </statement>
+        <response />
+      </task>
+      <task xml:id="semireg-tilings-triangles-polygons-task" label="semireg-tilings-triangles-polygons-task-label">
+        <statement>
+          <p>
+            In addition to 3.3.6.6 and 3.6.3.6, there is another vertex arrangement of 
+            four regular polygons consisting of two equilateral triangles and two nonequal polygons.
+          </p>
+          <p>
+            What are the other two polygons? The other two polygons have 
+            <m>m=<fillin mode="math" answer="4" /></m> and <m>n=<fillin mode="math" answer="12" /></m>
+            sides, respectively.
+          </p>
+        </statement>
+<!--I'm trying to make sense of the following from 
+https://pretextbook.org/examples/sample-article/annotated/section-dynamic-exercises.html #2       <evaluation>
+The example had three answers and I have two.
+<evaluate>
+  <test correct="yes">
+  <jscmp>
+  ["4","12"].includes(ans)
+  </jscmp>
+  </test>
+  </evaluate>
+  <evaluate>
+  <test correct="yes">
+  <jscmp>
+  ["4","12"].includes(ans) &amp; !ans_array.slice(0,1).includes(ans)
+  </jscmp>
+  </test>
+  <test>
+  <jscmp>
+  ans_array.slice(0,1).includes(ans) 
+  </jscmp>
+  <feedback>
+    You already gave that answer.
+  </feedback>
+  </test>
+  </evaluate>
+  <evaluate>
+  <test correct="yes">
+  <jscmp>
+  ["continuous","positive","decreasing"].includes(ans) &amp;&amp; !ans_array.slice(0,2).includes(ans)
+  </jscmp>
+  </test>
+  <test>
+  <jscmp>
+  ans_array.slice(0,2).includes(ans)
+  </jscmp>
+  <feedback>
+    You already gave that answer.
+  </feedback>
+  </test>
+  </evaluate>
+  </evaluation>-->
     </task>
     <task xml:id="semireg-tilings-extend-argue-task" label="semireg-tilings-extend-argue-task-label">
       <statement>
         <p>
           Explain why the arrangement <m>3.3.m.n</m> will not extend to 
           a semiregular tiling using an argument similar to what we did 
-          with <m>3.3.6.6</m>.
+          with <m>3.3.6.6</m> in <xref ref="semireg-tilings-surround-task-2"/>.
         </p>
-        </statement>
+      </statement>
+      <response />
     </task>
     <task xml:id="semireg-tilings-arrangement-fail-task" label="semireg-tilings-arrangement-fail-task-label">
     <statement>
@@ -874,6 +1118,24 @@
             in the questions that follow.
           </p>
         </statement>
+        <hint>
+          <p>
+            How many degrees are taken up by squares? Find two regular polygon vertex angle measures 
+            that sum to the amount that remains.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            The other polygons are a triangle and a hexagon.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The two angles coming from the squares sum to 180 degrees, leaving another
+            180 degrees uncovered. The vertex angle measurements for the triangle and
+            hexagon are 60 degrees and 120 degrees.
+          </p>
+        </solution>
       </task>
       <task xml:id="semireg-tilings-surround-square-task" label="semireg-tilings-surround-square-task-label">
       <statement>
@@ -886,7 +1148,7 @@
       <task xml:id="semireg-tilings-odd-sides-surround-task" label="semireg-tilings-odd-sides-surround-task-label">
         <statement>
           <p>
-            One of the polygons has an odd number, <m>m</m>, of sides. Are you 
+            At least one of the polygons has an odd number,say <m>m</m>, of sides. Are you 
             able to surround the <m>m</m>-gon along its sides by an alternating 
             sequence of squares and <m>n</m>-gons?
           </p>
@@ -941,7 +1203,8 @@
             What happens as you try to surround a pentagon with the necessary 
             pentagons and decagons?
           </p>
-          </hint>
+        </hint>
+        <response />
       </task>
       <task xml:id="semireg-tilings-three-vertex-arngmnt-task" label="semireg-tilings-three-vertex-arngmnt-task-label">
         <statement>
@@ -950,6 +1213,14 @@
             to a semiregular tiling. Why must the others be eliminated?
           </p>
         </statement>
+        <answer>
+          <p>
+            3.12.12, 4.6.12, and 4.8.8 are the three vertex arrangements that extend to 
+            a semiregular tiling. The other combinations are of the form <m>m.n.p</m> where <m>m</m>  
+            is odd and <m>n\neq p</m>.
+          </p>
+        </answer>
+        <response />
       </task>
     </exploration>
   </subsection>
