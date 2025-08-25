@@ -188,113 +188,121 @@
       <!--also he published a nonproof in 1901.--> 
     </p>
   </aside>
+  
   <exploration>
-    <title>Puzzling over Why the Pythagorean Theorem Holds</title>
+    <title>Puzzling over Why the Pythagorean Theorem Holds Pt. 1</title>
     <introduction>
       <p>
         For these explorations, we start with an arbitrary right triangle with 
         hypotenuse length <m>c</m> and legs of length <m>a</m> and <m>b</m>.
       </p>
-    </introduction>
-      <task xml:id="tri4andcsq">
-        <title>First Pythagorean Puzzle</title>
+      <p>
+        In <xref ref="PythRTriCsq"/>, the four blue triangles on the right are 
+        congruent copies of the right triangle <m>\Delta ABC</m>. Check 
+        <m>\text{Puzzle}_1</m> to reveal a second square. The side length of this new
+        orange square is <m>c</m>. To verify this, you can line up the 
+        side of the square with the hypotenuse of one of the triangles.
+      </p>
+      <p>
+        <figure xml:id="PythRTriCsq">
+      <caption>
+          An interactive GeoGebra applet for <xref ref="tri4andcsq"/>.
+      </caption>
+      <interactive xml:id="pyththmgeoapp" platform="geogebra">
+          <!--<slate surface="geogebra" material="wpd66vrf"/>-->
+          <slate surface="geogebra" material="usybhhyw"/>
+      </interactive>
+    </figure>
+      </p>
+  </introduction>
+  
+    <task xml:id="tri4andcsq">
         <statement>
           <p>
-            In <xref ref="PythRTriCsq"/>, the four blue triangles on the right are 
-            congruent copies of the right triangle <m>\Delta ABC</m>. Check 
-            Puzzle_1 to reveal a second square. The side length of this new
-            orange square is <m>c</m>. To verify this, you can line up the 
-            side of the square with the hypotenuse of one of the triangles.
-          </p>
-          <figure xml:id="PythRTriCsq">
-            <caption>
-                An interactive GeoGebra applet for <xref ref="tri4andcsq"/>.
-            </caption>
-        <interactive xml:id="pyththmgeoapp" platform="geogebra">
-            <!--<slate surface="geogebra" material="wpd66vrf"/>-->
-            <slate surface="geogebra" material="usybhhyw"/>
-        </interactive>
-        </figure>
-          <p>
-            <ol>
-              <li>
-                <p>
-                  Fill the square on the left using the four blue copies of the triangle  
-                  and the orange square on the right. Pieces can be moved by selecting 
-                  the interior and they can be rotated by moving the dotted vertex. 
-                  The red triangle labeled <m>\Delta ABC</m> is only shown for reference 
-                  and will not be used. As always, there should be  
-                  no gaps or overlaps. Preserve your work with a sketch or screenshot.
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the length of a side of the square that you filled? Give your 
-                  answer in terms of lengths <m>a</m>, <m>b</m>, and/or <m>c</m>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Determine the area of each of the pieces used to fill the square frame 
-                  using the variables <m>a</m>, <m>b</m>, and/or <m>c</m>. Write the sum 
-                  of these areas in terms of these variables.
-                </p>
-              </li>
-            </ol>
+            Fill the square on the left using the four blue copies of the triangle  
+            and the orange square on the right. Pieces can be moved by selecting 
+            the interior and they can be rotated by moving the dotted vertex. 
+            The red triangle labeled <m>\Delta ABC</m> is only shown for reference 
+            and will not be used. As always, there should be  
+            no gaps or overlaps. Preserve your work with a sketch or screenshot.
           </p>
         </statement>
       </task>
-      <task xml:id="tri4andsquaresAandB">
-        <title>Second Pythagorean Puzzle</title>
+      <task>
         <statement>
           <p>
-            For this puzzle, select Puzzle_2 in <xref ref="PythRTriABsq"/>.
+            What is the length of a side of the square that you filled? Give your 
+            answer in terms of lengths <m>a</m>, <m>b</m>, and/or <m>c</m>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Determine the area of each of the pieces used to fill the square frame 
+            using the variables <m>a</m>, <m>b</m>, and/or <m>c</m>. Write the sum 
+            of these areas in terms of these variables.
+          </p>
+        </statement>
+      </task>
+    </exploration>
+    <exploration>
+      <title>Puzzling over Why the Pythagorean Theorem Holds Pt. 2</title>
+      <introduction>
+          <p>
+            For this puzzle, select <m>\text{Puzzle}_2</m> in <xref ref="PythRTriABsq"/>.
             The orange square should no longer be visible. Instead, a green square
             with side length <m>a</m>, corresponding to the shorter leg of <m>\Delta ABC</m>. 
             The purple square below it has a side length <m>b</m> corresponding to the other leg.
           </p>
+          <p>
+            <figure xml:id="PythRTriABsq">
+              <caption>
+                  An interactive GeoGebra applet for <xref ref="tri4andsquaresAandB"/>.
+              </caption>
+              <interactive xml:id="pythproofgeoapp" platform="geogebra">
+              <!--<slate surface="geogebra" material="hsbubxhz"/>-->
+                <slate surface="geogebra" material="usybhhyw"/>
+              </interactive>
+            </figure>
+          </p>
+      </introduction>
+      <task xml:id="tri4andsquaresAandB">
+        <statement>
+          <p>
+            Fill the square frame on the lower left with the four congruent right 
+            triangles and the squares with lengths <m>a</m> and <m>b</m>, respectively.
+            Preserve your work with a sketch or screenshot. 
+          </p>
+        </statement>
+      </task>
+
           <!--<image source="PythRightTriABsquares">
             <description>Four congruent right triangles, two squares with side lengths, a 
               and b,
               corresponding to the legs of the right triangle, and a larger square frame.
             </description>
           </image>-->
-          <figure xml:id="PythRTriABsq">
-            <caption>
-                An interactive GeoGebra applet for <xref ref="tri4andsquaresAandB"/>.
-            </caption>
-        <interactive xml:id="pythproofgeoapp" platform="geogebra">
-            <!--<slate surface="geogebra" material="hsbubxhz"/>-->
-            <slate surface="geogebra" material="usybhhyw"/>
-        </interactive>
-        </figure>
+      <task>
+        <statement>
           <p>
-            <ol>
-              <li>
-                <p>
-                 Fill the square frame on the lower left with the four congruent right 
-                 triangles and the squares with lengths <m>a</m> and <m>b</m>, respectively.
-                 Preserve your work with a sketch or screenshot. 
-                </p>
-              </li>
-              <li>
-                <p>
-                  What is the length of a side of the square that you filled? Give your 
-                  answer in terms of lengths <m>a</m>, <m>b</m>, and/or <m>c</m>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Determine the area of each of the pieces used to fill the square frame 
-                  using the variables <m>a</m>, <m>b</m>, and/or <m>c</m>. Write the sum 
-                  of these areas using variables.
-                </p>
-              </li>
-            </ol>
+            What is the length of a side of the square that you filled? Give your 
+            answer in terms of lengths <m>a</m>, <m>b</m>, and/or <m>c</m>.
           </p>
         </statement>
       </task>
       <task>
+        <statement>
+          <p>
+            Determine the area of each of the pieces used to fill the square frame 
+            using the variables <m>a</m>, <m>b</m>, and/or <m>c</m>. Write the sum 
+            of these areas using variables.
+          </p>
+        </statement>
+      </task>
+    </exploration>
+<!-- <reading-questions xml:id="rqs-">
+<exercise>
         <title>Using the First Two Puzzles Together to Prove the Pythagorean Theorem</title>
         <statement>
           <p>
@@ -323,14 +331,18 @@
             sums of areas equal to each other?
           </p> 
         </hint>
-      </task>
-      <task xml:id="GarfieldTask">
-        <title>A Presidential Proof</title>
-        <statement>
-          <p>
-            This proof of the Pythagorean Theorem is attributed to James A. Garfield, 
-            the twentieth President of the United States. Refer to the diagram below:
-          </p>
+        </exercise>
+  </reading-questions> -->
+<exploration>
+<title>A Presidential Proof</title>
+<introduction>
+  <p> 
+      This proof of the Pythagorean Theorem is attributed to James A. Garfield, 
+      the twentieth President of the United States. Refer to the diagram below:
+  </p>
+      <p>
+        <figure xml:id="Garfield-Proof-Figure">
+          <caption></caption>
           <image source="Garfield">
             <shortdescription>
               Right triangle ABC with right angle at C. Point D is placed on ray 
@@ -342,124 +354,136 @@
               parallel.
             </shortdescription>
           </image>
+           </figure>
+        </p>
+        <p>
+          The diagram above consists of two congruent right triangles and 
+          one isosceles right triangle arranged to form a trapezoid. Label 
+          the hypotenuses with the letter <m>c</m>. Label the smallest side  
+          of these triangles <m>a</m> and the other leg <m>b</m>. Note that 
+          the hypotenuse of the remaining right triangle is longer than <m>c</m>.
+          Instead, call its length <m>d</m> to distinguish between the two numbers. 
+        </p>
+</introduction>
+      <task xml:id="GarfieldTask">
+          <statement>
             <p>
-            <ol>
-              <li>
-                <p>
-                  The diagram above consists of two congruent right triangles and 
-                  one isosceles right triangle arranged to form a trapezoid. Label 
-                  the hypotenuses with the letter <m>c</m>. Label the smallest side  
-                  of these triangles <m>a</m> and the other leg <m>b</m>. Note that 
-                  the hypotenuse of the remaining right triangle is longer than <m>c</m>.
-                  Instead, call its length <m>d</m> to distinguish between the two numbers. 
-                </p>
-              </li>
-              <li>
-                <p>
-                  Identify the two parallel bases for the trapezoid. Determine the 
-                  height of this trapezoid in terms of the labels you put on the 
-                  diagram. 
-                </p>
-              </li>
-              <li>
-                <p>
-                  Compute the area of the trapezoid using the trapezoid formula leaving 
-                  your answer in terms of the variables you used to label the 
-                  diagram.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Similarly, compute the areas of each of the three triangular 
-                  pieces and add them together.
-                </p>
-              </li>
-              <li>
-                <p>
-                  How does this prove the Pythagorean Theorem?
-                </p>
-              </li>
-            </ol>
-          </p>
-        </statement>
-      </task>
+              Identify the two parallel bases for the trapezoid. Determine the 
+              height of this trapezoid in terms of the labels you put on the 
+              diagram. 
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute the area of the trapezoid using the trapezoid formula leaving 
+              your answer in terms of the variables you used to label the 
+              diagram.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Similarly, compute the areas of each of the three triangular 
+              pieces and add them together.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              How does this prove the Pythagorean Theorem?
+            </p>
+          </statement>
+        </task>
+  </exploration>
+  <exploration>
+    <title>Squares to Stairs Proof</title>
+    <introduction>
+      <p>
+        The final proof of the Pythagorean Theorem is primarily 
+        visual. Almost no algebra is required. The GeoGebra interactive in 
+        <xref ref="PythBlocks"/> 
+        provides four copies of a right triangle and a smaller square of  
+        unlabeled side length that can be moved and rotated. 
+      </p>
+      <p>
+        <figure xml:id="PythBlocks">
+          <caption>
+              An interactive GeoGebra applet for proving the Pythagorean Theorem.
+          </caption>
+          <interactive xml:id="stairsteppyththmapp" platform="geogebra">
+              <slate surface="geogebra" material="xvnba5ja"/>
+          </interactive>
+        </figure>
+      </p>
+    </introduction>
       <task xml:id="sqtostairs-Pyth-task">
         <statement>
-          <p>
-            The final proof of the Pythagorean Theorem is primarily 
-            visual. Almost no algebra is required. The GeoGebra interactive in 
-            <xref ref="PythBlocks"/> 
-            provides four copies of a right triangle and a smaller square of  
-            unlabeled side length that can be moved and rotated. 
-          </p>
-          <figure xml:id="PythBlocks">
-            <caption>
-                An interactive GeoGebra applet for proving the Pythagorean Theorem.
-            </caption>
-        <interactive xml:id="stairsteppyththmapp" platform="geogebra">
-            <slate surface="geogebra" material="xvnba5ja"/>
-        </interactive>
-        </figure>
-        <p>
-        <ol>
-          <li>
             <p>
               Rearrange the four congruent triangle copies and the small square to form 
               a square. Verify that your shape is definitely a square. 
               Do not use <m>\Delta ABC</m>. Drag the centers of shapes to move 
               them and use the labeled corners to rotate. Save a copy of your work.
             </p>
-          </li>
-          <li>
+          </statement>
+        </task>
+        <task>
+          <statement>
             <p>
               What is the length of a side of this square?
             </p>
-          </li>
-          <li>
-            <p>
-              What is the area of the square you created?
-            </p>
-          </li>
-          <li>
+          </statement>
+        </task>
+        <task>
+          <statement>
             <p>
               What is the length of a side of the small square in terms of the labels <m>a</m>,
               <m>b</m>, and/or <m>c</m>?
             </p>
-          </li>
-          <li>
+          </statement>
+        </task>
+        <task>
+          <statement>
             <p>
               Once again, our goal is to show <m>a^2+b^2=c^2</m>. Use the same five pieces to 
               create a pair of touching squares of area <m>a^2</m> and <m>b^2</m>. Some puzzle 
               pieces will cover parts of both squares. A second 
               copy of the GeoGebra applet is provided below for your use.
             </p>
-            <figure xml:id="PythBlocks2">
-              <caption>
-                  An interactive GeoGebra applet for proving the Pythagorean Theorem, repeated 
-                  from above.
-              </caption>
-          <interactive xml:id="stairsteppyththmappcopy" platform="geogebra">
-              <slate surface="geogebra" material="xvnba5ja"/>
-          </interactive>
-          </figure>
-          </li>
-          <li>
+            <p>
+              <figure xml:id="PythBlocks2">
+                <caption>
+                    An interactive GeoGebra applet for proving the Pythagorean Theorem, repeated 
+                    from above.
+                </caption>
+                <interactive xml:id="stairsteppyththmappcopy" platform="geogebra">
+                <slate surface="geogebra" material="xvnba5ja"/>
+                </interactive>
+              </figure>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
             <p>
               How do you know that the two squares in your diagram are actually 
               squares and that their side lengths are <m>a</m> and <m>b</m>, respectively? 
               Base your argument on the lengths of the triangle sides.
             </p>
-          </li>
-          <li>
+          </statement>
+        </task>
+        <task>
+          <statement>
             <p>
               How do these two sketches together show that the Pythagorean Theorem holds?
             </p>
-          </li>
-        </ol>
-        </p>
-        </statement>
-      </task>
+          </statement>
+        </task>
   </exploration>
+  
 </subsection>
 <subsection>
   <title>Reflecting on the Pythagorean Theorem</title>
