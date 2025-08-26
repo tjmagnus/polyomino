@@ -87,7 +87,7 @@
       
          <dedication>
     <p>
-      For John and Paul
+      To John and Paul
     </p>
   </dedication>
 
@@ -97,12 +97,14 @@
       could produce this book. The initial design and many of the activities for this textbook
       were created during my Spring 2016 sabbatical, and the book
       was written during my year-long sabbatical in 2023-2024. In addition, 
-      I appreciate the 2024 Rivier Summer Faculty Research Grant that enabled
-      me to recruit three Rivier University student interns to review the book. The constructive
-      feedback I received from these student interns 
+      I appreciate the 2024 and 2025 Rivier Summer Faculty Research Grants that enabled
+      me to recruit Rivier University student interns. The constructive
+      feedback I received from the first group of student interns 
       Sarah Frazier, Elisabeth Jacob, and Caitlyn St. Cyr exceeded my expectations. In addition,
       to identifying errors and dead links, they suggested rephrasings of sentences and identified
-      where additional explanations, hints, or activities might be helpful. 
+      where additional explanations, hints, or activities might be helpful. In the second summer, 
+      students Alexander Hagopian and Elisabeth Jacob added problems and figures, updated code, and 
+      improved the interactivity.
       I would also like to thank my MA127 Geometrical Explorations 
       students over the years. Watching their teamwork, struggles, questioning, growth, and 
       success has helped me revise these activities and transform them into a coherent text.  
@@ -110,9 +112,10 @@
     <p>
       I thank the PROSE/PreTeXt community who made this format possible. Not only was the code
       available for use, they welcomed me as a new user, encouraged my project, and
-      offered technical support. Steven Clontz and Oscar
-      Levin were expecially helpful in helping me identify errors in my code, suggesting ways to
-      yield desired outcomes, and exploring possible ideas for new structures. 
+      offered technical support. Steven Clontz, Oscar
+      Levin, David Austin, and Chrissy Safranski were expecially helpful in helping me identify 
+      errors in my code, suggesting ways to yield desired outcomes, and introducing me to 
+      new features in PreTeXt. 
       They, and other community members, took time out of their own busy schedules and made me feel 
       welcome at their online office hours. I would also like to thank Rob Beezer and the other
       developers for creating and refining the PreTeXt markup language. 
@@ -120,18 +123,24 @@
     <p>
       My own love of mathematics was sparked by people who encouraged me to explore. My parents,
       Paul and Patricia Deltz, provided a loving home filled with crafts, games, and puzzles. 
-      We were encouraged to play, experiment, and learn from our mistakes. Saint Thomas More School
-      (Houston) teacher Crystal Mills 
-      allowed me to investigate Billiard Ball Geometry after I had demonstrated facility with 
-      seventh-grade mathematics. At the University of Dallas, professors Andrew Berner and Charles Coppin
+      We were encouraged to play, experiment, and learn from our mistakes. My seventh-grade teacher,
+      Crystal Mills at Saint Thomas More School
+      (Houston) sparked my geometrical curiosity and creativity with her intriguing polyhedra 
+      hanging from the classroom ceiling and an invition for me to explore the 
+      paths of a billiard ball as a science project. At the University of Dallas, professors Andrew Berner and Charles Coppin
       engaged us in inquiry-based lessons. Their inspiration led me to continue my studies and 
-      shaped my own philosophy of teaching. <!--John Faulkner at the University of Virginia advised
-      me in my doctoral work. --> 
+      shaped my own philosophy of teaching. My doctoral advisor, John Faulkner (the University of Virginia), 
+      encouraged me to explore the relationship between geometric and nonassociative algebraic structures.
+       
     </p>
-    <!--<p>
+    <p>
       Naturally, this book has been influenced by my previous use of textbooks and my interactions
-      with other mathematicians.
-    </p>-->
+      with other mathematicians. Early iterations of this course used <xref ref="bibSymShapeSpace"/>
+      or <xref ref="bibODafferClemens"/> and these sources influenced some activities here. The 
+      idea for the first chapter, using pentomino puzzles to motivate a study of area, most likely 
+      came from a derivative of Henri Piccioto's work. This activity is a perfect starting point 
+      employing play as an entry point to a concept that would guide and unify the rest of my textbook.
+    </p>
 
     <p>
       Last but not least, I appreciate the love, support, and encouragement I've received from my family, especially
@@ -165,7 +174,7 @@
         time they reach my classes. For most students, mathematics becomes a set of rules
         to follow, a collection of techniques to master, and a jumble of examples to mimick.
         Despite the fact that some of our most treasured mathematical results took 
-        years<mdash>even centuries</mdash> to be established, our society has emphasized speed
+        years<mdash>even centuries</mdash>to be established, our society has emphasized speed
         and completion over contemplation. Most students (and adults) spend very little time 
         thinking about problems and instead rely on other resources to provide information and 
         demonstrate methods. They search for examples to mimic instead of creating personal 
@@ -230,11 +239,10 @@
       </p>
 
       <p>
-        My hope is to continue improving the book, releasing a new edition each spring 
-        in time for fall adoptions.  These new editions will incorporate additions and 
+        My hope is to continue improving the book.  New editions will incorporate additions and 
         corrections suggested by instructors and students who use the text the previous 
         semesters.
-        Thus I encourage you to send along any corrections, suggestions, and comments 
+        I encourage you to send along any corrections, suggestions, and comments 
         as you have them.
       </p>
     <attribution>
@@ -247,7 +255,7 @@
     <title>How to use this book</title>
     <p>
       The author is writing this textbook during a 2023-2024 sabbatical. Updates and 
-      additions will be deployed every week or two to 
+      additions will be deployed to 
       <url href=" https://tjmagnus.github.io/polyomino/"/>. Suggestions on how to improve
       this textbook are appreciated.
     </p>
@@ -294,15 +302,14 @@
         inside the online textbook and hyperlinks to definitions and other items are included. 
       </p>
       <p>
-        My hope is to add other features, like how-to-use-the-software videos, in the future.
-        You can view the interactive version for free at 
-        <url href=" https://tjmagnus.github.io/polyomino/"/><!--or by scanning the 
-          QR code below with your smart phone-->.
+        My hope is to add other features, like more  in the future.
+        You can view the interactive HTML version for free at 
+        <url href=" https://tjmagnus.github.io/polyomino/"/> or by scanning the 
+          QR code below with your smart phone.
       </p>
-      <!--
       <sidebyside width="25%">
-          <image source="images/qrcode.png"/>
-      </sidebyside>-->
+          <image source="polyominoesQRcode.png"/>
+      </sidebyside>
     </paragraphs>
   </preface>
   
