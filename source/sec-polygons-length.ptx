@@ -114,7 +114,7 @@
   </p>
   <reading-questions>
     <title>Check your Understanding</title>
-    <exercise>
+    <exercise xml:id="polgyons-length-cyu-1" label="polgyons-length-cyu-1-label">
       <statement>
         <p>
           A triangle has legs of length 5 and 7. Determine the length of the 
@@ -191,7 +191,7 @@
 
 
   
-  <exploration>
+  <exploration xml:id="explor-polygons-length-puzz-pt1" label="explor-polygons-length-puzz-pt1-label">
     <title>Puzzling over Why the Pythagorean Theorem Holds Pt. 1</title>
     <introduction>
       <p>
@@ -231,15 +231,23 @@
         </statement>
         <response /> 
       </task>
-      <task>
+      <task xml:id="explor-puzz-pt1-side-length-task" label="explor-puzz-pt1-side-length-task-label">
         <statement>
           <p>
             What is the length of a side of the square that you filled? Give your 
             answer in terms of lengths <m>a</m>, <m>b</m>, and/or <m>c</m>.
           </p>
+          <fillin characters="1" answer="c" mode="string" />
         </statement>
+        <evaluation>
+          <evaluate>
+            <test correct="yes">
+              <strcmp use-answer="yes" />
+            </test>
+          </evaluate>
+        </evaluation>
       </task>
-      <task>
+      <task xml:id="explor-puzz-pt1-area-task" label="explor-puzz-pt1-area-task-label">
         <statement>
           <p>
             Determine the area of each of the pieces used to fill the square frame 
@@ -247,6 +255,11 @@
             of these areas in terms of these variables.
           </p>
         </statement>
+        <hint>
+          <p>
+            Remember <xref ref="formulas-areathroughtriangle"/>
+          </p>
+        </hint>
       </task>
     </exploration>
     <exploration>
