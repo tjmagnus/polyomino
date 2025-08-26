@@ -181,13 +181,15 @@
     <m>a^2+b^2=c^2</m> in each case. You are encouraged to try all the proofs in 
     this section and to choose one to learn well enough to convince others.
   </p>
-  <aside>
+    <aside>
     <p>
       The book, <em>The Pythagorean Proposition</em>, by Elisha S. Loomis, (NCTM:1968) 
       contains 367 proofs of the Pythagorean Theorem. 
       <!--also he published a nonproof in 1901.--> 
     </p>
   </aside>
+
+
   
   <exploration>
     <title>Puzzling over Why the Pythagorean Theorem Holds Pt. 1</title>
@@ -400,7 +402,7 @@
         </task>
   </exploration>
   <exploration>
-    <title>Squares to Stairs Proof</title>
+    <title>Square to Stairs Proof</title>
     <introduction>
       <p>
         The final proof of the Pythagorean Theorem is primarily 
@@ -520,34 +522,35 @@
     </exercise>
     <exercise xml:id="polygons-length-BOT-lengthadditivity">
       <title>Principle of Additivity of Length</title>
-      <statement>
-        <p>
-          <ol>
-            <li>
-              <p>
-                Use a picture to demonstrate why a segment formed by extending a 
-                segment of length <m>a</m> units by a segment of <m>b</m> more units 
-                produces a segment of length <m>a+b</m> units.
-              </p>
-            </li>
-            <li>
-              <p>
-                What happens when segments <m>\overline{AB}</m> of length 3 inches, 
-                <m>\overline{BC}</m> of length 5 inches, and <m>\overline{AC}</m> of 
-                length 6 inches are joined at the endpoints, <m>A</m>, <m>B</m>, and
-                <m>C</m>? Is this still a straight line?
-              </p>
-            </li>
-            <li>
-              <p>
-                Again let <m>\overline{AB}</m> have length 3 inches and 
-                <m>\overline{BC}</m> have length 5 inches. Can you create segment 
-                <m>\overline{AC}</m> with length 10 inches? Explain.
-              </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
+      <task >
+        <statement>
+          <p>
+            Use a picture to demonstrate why a segment formed by extending a 
+            segment of length <m>a</m> units by a segment of <m>b</m> more units 
+            produces a segment of length <m>a+b</m> units.
+          </p>
+        </statement>
+        <response />
+      </task>
+      <task>
+        <statement>
+          <p>
+            What happens when segments <m>\overline{AB}</m> of length 3 inches, 
+            <m>\overline{BC}</m> of length 5 inches, and <m>\overline{AC}</m> of 
+            length 6 inches are joined at the endpoints, <m>A</m>, <m>B</m>, and
+            <m>C</m>? Is this still a straight line?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            Again let <m>\overline{AB}</m> have length 3 inches and 
+            <m>\overline{BC}</m> have length 5 inches. Can you create segment 
+            <m>\overline{AC}</m> with length 10 inches? Explain.
+          </p>
+        </statement>
+      </task>
     </exercise>
     </subexercises>
   <subexercises xml:id="SAR-polygons-length">

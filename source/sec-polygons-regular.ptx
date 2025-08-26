@@ -357,50 +357,233 @@
             <row bottom="minor">
               <cell>square</cell>
               <cell>4</cell>
-              <cell><fillin mode="number" answer="2" /></cell>
-              <cell><fillin mode="number" answer="360" /></cell>
-              <cell><fillin mode="number" answer="90" /></cell>
+              <cell><fillin characters="3" answer="2" /></cell>
+              <cell><fillin  answer="360" /></cell>
+              <cell><fillin answer="90" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular pentagon</cell>
               <cell>5</cell>
-              <cell><fillin mode="number" answer="3" /></cell>
-              <cell><fillin mode="number" answer="540" /></cell>
-              <cell><fillin mode="number" answer="108" /></cell>
+              <cell><fillin  answer="3" /></cell>
+              <cell><fillin  answer="540" /></cell>
+              <cell><fillin  answer="108" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular hexagon</cell>
               <cell>6</cell>
-              <cell><fillin mode="number" answer="4" /></cell>
-              <cell><fillin mode="number" answer="720" /></cell>
-              <cell><fillin mode="number" answer="120" /></cell>
+              <cell><fillin  answer="4" characters="3" /></cell>
+              <cell><fillin  answer="720"  /></cell>
+              <cell><fillin  answer="120" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular octagon</cell>
               <cell>8</cell>
-              <cell><fillin mode="number" answer="6" /></cell>
-              <cell><fillin mode="number" answer="1080" /></cell>
-              <cell><fillin mode="number" answer="135" /></cell>
+              <cell><fillin  answer="6" /></cell>
+              <cell><fillin  answer="1080" /></cell>
+              <cell><fillin  answer="135" /></cell>
             </row>
             <row bottom="minor">
               <cell>regular decagon</cell>
               <cell>10</cell>
-              <cell><fillin mode="number" answer="8" /></cell>
-              <cell><fillin mode="number" answer="1440" /></cell>
-              <cell><fillin mode="number" answer="144" /></cell>
+              <cell><fillin  answer="8" /></cell>
+              <cell><fillin  answer="1440" /></cell>
+              <cell><fillin  answer="144" /></cell>
             </row>
             <row>
               <cell>regular <m>n</m>-gon</cell>
               <cell><m>n</m></cell>
-              <cell><fillin mode="math" answer="n-2" /></cell>
-              <cell><fillin mode="math" answer="180(n-2)" /></cell>
-              <cell><fillin mode="number" answer="180(n-2)/n" /></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
             </row>
           </tabular>
         </table>
 <!--How do I fix the fillins in the above table so that answers can be inserted? 
 What mode is needed for the last row?-->
       </statement>
+      <evaluation>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <numcmp use-answer="yes" />
+            <feedback>
+              <p>
+                Correct.
+              </p>
+            </feedback>
+          </test>
+        </evaluate>
+        
+      </evaluation>
     </task>
   </exploration>
 
@@ -1040,12 +1223,39 @@ at the two base angles.-->
             four regular polygons consisting of two equilateral triangles and two nonequal polygons.
           </p>
           <p>
-            What are the other two polygons? The other two polygons have 
-            <m>m=<fillin mode="math" answer="4" /></m> and <m>n=<fillin mode="math" answer="12" /></m>
+            What are the other two polygons? The other two polygons have
+            <m>m=</m> ? and <m>n=</m> ?
             sides, respectively.
           </p>
+            <ul cols="2" marker="">
+              <li>
+                <p>
+                  <m>m = </m> <fillin answer="4" />
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>n = </m> <fillin answer="12" /> 
+                </p>
+              </li>
+            </ul>
+
         </statement>
-<!--I'm trying to make sense of the following from 
+        <evaluation>
+          <evaluate>
+            <test correct="yes">
+              <numcmp use-answer="yes" />
+            </test>
+          </evaluate>
+          <evaluate>
+            <test correct="yes">
+              <numcmp use-answer="yes" />
+            </test>
+          </evaluate>
+        </evaluation>
+<!--
+        
+I'm trying to make sense of the following from 
 https://pretextbook.org/examples/sample-article/annotated/section-dynamic-exercises.html #2       <evaluation>
 The example had three answers and I have two.
 <evaluate>
