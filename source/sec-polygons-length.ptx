@@ -218,7 +218,7 @@
       </p>
   </introduction>
   
-    <task xml:id="tri4andcsq">
+    <task xml:id="tri4andcsq" attachment="yes"> <!-- Need Runestone hosting for attachment upload-->
         <statement>
           <p>
             Fill the square on the left using the four blue copies of the triangle  
@@ -229,6 +229,7 @@
             no gaps or overlaps. Preserve your work with a sketch or screenshot.
           </p>
         </statement>
+        <response /> 
       </task>
       <task>
         <statement>
@@ -269,7 +270,7 @@
             </figure>
           </p>
       </introduction>
-      <task xml:id="tri4andsquaresAandB">
+      <task xml:id="tri4andsquaresAandB" attachment="yes"> <!-- Need Runestone hosting-->
         <statement>
           <p>
             Fill the square frame on the lower left with the four congruent right 
@@ -277,6 +278,7 @@
             Preserve your work with a sketch or screenshot. 
           </p>
         </statement>
+        <response />
       </task>
 
           <!--<image source="PythRightTriABsquares">
@@ -422,7 +424,7 @@
         </figure>
       </p>
     </introduction>
-      <task xml:id="sqtostairs-Pyth-task">
+      <task xml:id="sqtostairs-Pyth-task" attachment="yes"> <!-- Need Runestone hosting for attachment upload-->
         <statement>
             <p>
               Rearrange the four congruent triangle copies and the small square to form 
@@ -431,8 +433,9 @@
               them and use the labeled corners to rotate. Save a copy of your work.
             </p>
           </statement>
+          <response />
         </task>
-        <task>
+        <task> <!-- Add formula <fillin> later-->
           <statement>
             <p>
               What is the length of a side of this square?
@@ -440,7 +443,7 @@
           </statement>
         </task>
         <task>
-          <statement>
+          <statement> <!-- Add formula <fillin> later-->
             <p>
               What is the length of a side of the small square in terms of the labels <m>a</m>,
               <m>b</m>, and/or <m>c</m>?
