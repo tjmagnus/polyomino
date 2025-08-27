@@ -262,7 +262,7 @@
         </hint>
       </task>
     </exploration>
-    <exploration>
+    <exploration xml:id="explor-polygons-length-puzz-pt2" label="explor-polygons-length-puzz-pt2-label">
       <title>Puzzling over Why the Pythagorean Theorem Holds Pt. 2</title>
       <introduction>
           <p>
@@ -283,7 +283,7 @@
             </figure>
           </p>
       </introduction>
-      <task xml:id="tri4andsquaresAandB" attachment="yes"> <!-- Need Runestone hosting-->
+      <task xml:id="tri4andsquaresAandB" label="tri4andsquaresAandB-label" attachment="yes"> <!-- Need Runestone hosting-->
         <statement>
           <p>
             Fill the square frame on the lower left with the four congruent right 
@@ -300,7 +300,7 @@
               corresponding to the legs of the right triangle, and a larger square frame.
             </description>
           </image>-->
-      <task>
+      <task xml:id="explor-polygons-length-puzz-pt2-length-task" label="explor-polygons-length-puzz-pt2-length-task-label">
         <statement>
           <p>
             What is the length of a side of the square that you filled? Give your 
@@ -308,7 +308,7 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task xml:id="explor-polygons-length-puzz-pt2-area-task" label="explor-polygons-length-puzz-pt2-area-task-label">
         <statement>
           <p>
             Determine the area of each of the pieces used to fill the square frame 
@@ -350,7 +350,7 @@
         </hint>
         </exercise>
   </reading-questions> -->
-<exploration>
+<exploration xml:id="explor-polygons-length-presidential" label="explor-polygons-length-presidential-label">
 <title>A Presidential Proof</title>
 <introduction>
   <p> 
@@ -382,7 +382,7 @@
           Instead, call its length <m>d</m> to distinguish between the two numbers. 
         </p>
 </introduction>
-      <task xml:id="GarfieldTask">
+      <task xml:id="GarfieldTask" label="GarfieldTask-label">
           <statement>
             <p>
               Identify the two parallel bases for the trapezoid. Determine the 
@@ -391,7 +391,7 @@
             </p>
           </statement>
         </task>
-        <task>
+        <task xml:id="explor-polygons-length-presidential-trap-area-task" label="explor-polygons-length-presidential-trap-area-task-label">
           <statement>
             <p>
               Compute the area of the trapezoid using the trapezoid formula leaving 
@@ -400,7 +400,7 @@
             </p>
           </statement>
         </task>
-        <task>
+        <task xml:id="explor-polygons-length-presidential-tri-sum-area-task" label="explor-polygons-length-presidential-tri-sum-area-task-label">
           <statement>
             <p>
               Similarly, compute the areas of each of the three triangular 
@@ -408,7 +408,7 @@
             </p>
           </statement>
         </task>
-        <task>
+        <task xml:id="explor-polygons-length-presidential-pyth-proof-task" label="explor-polygons-length-presidential-pyth-proof-task-label">
           <statement>
             <p>
               How does this prove the Pythagorean Theorem?
@@ -416,7 +416,7 @@
           </statement>
         </task>
   </exploration>
-  <exploration>
+  <exploration xml:id="explor-polygons-length-square" label="explor-polygons-length-square-laebl">
     <title>Square to Stairs Proof</title>
     <introduction>
       <p>
