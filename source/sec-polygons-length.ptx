@@ -782,20 +782,10 @@
       </exercise>
       <exercise>
         <title>Area of a Regular Hexagon</title>
-        <statement>
+        <introduction>
           <p>
-            A regular hexagon with side length 6 units is pictured in 
-            <xref ref="fig-SAR-HexArea"/>. Determine the following:
-            <ol>
-              <li>
-                <p>
-                  The height of the hexagon.
-                </p>
-                <p>
-                  The area of the hexagon.
-                </p>
-              </li>
-            </ol>
+            A regular hexagon with side length 6 units is pictured below in 
+            <xref ref="fig-SAR-HexArea"/>. 
           </p>
           <figure xml:id="fig-SAR-HexArea">
             <caption>A regular hexagon with side length 6 units.</caption>
@@ -803,7 +793,24 @@
               <shortdescription>A regular hexagon with side length 6 units.</shortdescription>
             </image>
           </figure>
-        </statement>
+          <p>
+            Determine the following:
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              The height of the hexagon.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The area of the hexagon.
+            </p>
+          </statement>
+        </task>
       </exercise>
  </subexercises>
  <subexercises xml:id="writing-polygons-length">
@@ -817,6 +824,7 @@
               should play an implicit or explicit role in your explanation.
           </p>
       </statement>
+      <response />
   </exercise>
   </subexercises>
  </exercises>
