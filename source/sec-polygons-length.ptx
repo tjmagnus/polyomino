@@ -520,46 +520,56 @@
   <subexercises xml:id="SAR-polygons-length">
       <title>Skills and Recall</title>
       <exercise xml:id="exer-SAR-Pyth" label="exer-SAR-Pyth">
-          <statement>
+            <introduction>
               <p>
-                  Determine the following in <xref ref="fig-SAR-Pyth"/>:
-                  <ol>
-                    <li>
-                      <p>
-                        The length of <m>\overline{AC}</m>.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        The length of <m>\overline{DF}</m>.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        The length of <m>\overline{IJ}</m>. Note 
-                        <m>\overline{IJ}\cong\overline{HI}</m>.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        The perimeter of quadrilateral <m>GHIJ</m>.
-                      </p>
-                    </li>
-                  </ol>
+                Determine the following in <xref ref="fig-SAR-Pyth"/>:
               </p>
-              <figure xml:id="fig-SAR-Pyth">
-                <caption>Images for <xref ref="exer-SAR-Pyth"/></caption>
-                <image source="image-SAR-Pyth">
-                  <shortdescription>Right triangle ABC has legs of length 5 
-                    and 6. Right triangle DEF has hypotenus of 5.6 and leg
-                    DE of length 5. Quadrilateral GHIJ is formed by two triangles 
-                    that share diagonal HJ of length 6. HIJ is an isosceles right 
-                    triangle with legs x and hypotenuse 6. GHJ has a right angle 
-                    at H and a hypotenuse GJ of length 6.5.
-                  </shortdescription>
-                </image>
+                <figure xml:id="fig-SAR-Pyth">
+                  <caption>Images for <xref ref="exer-SAR-Pyth"/></caption>
+                  <image source="image-SAR-Pyth">
+                    <shortdescription>Right triangle ABC has legs of length 5 
+                      and 6. Right triangle DEF has hypotenus of 5.6 and leg
+                      DE of length 5. Quadrilateral GHIJ is formed by two triangles 
+                      that share diagonal HJ of length 6. HIJ is an isosceles right 
+                      triangle with legs x and hypotenuse 6. GHJ has a right angle 
+                      at H and a hypotenuse GJ of length 6.5.
+                    </shortdescription>
+                  </image>
               </figure>
-          </statement>
+            </introduction>
+            <task>
+              <statement>
+                <p>
+                  The length of <m>\overline{AC}</m>.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  The length of <m>\overline{DF}</m>.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  The length of <m>\overline{IJ}</m>.
+                </p>
+              </statement>
+              <hint>
+                <p>
+                   Note <m>\overline{IJ}\cong\overline{HI}</m>.
+                </p>
+              </hint>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  The perimeter of quadrilateral <m>GHIJ</m>.
+                </p>
+              </statement>
+            </task>
       </exercise>
       <exercise xml:id="polgyons-length-cyu-1" label="polgyons-length-cyu-1-label">
       <statement>
