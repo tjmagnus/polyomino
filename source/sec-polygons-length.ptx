@@ -537,21 +537,21 @@
                   </image>
               </figure>
             </introduction>
-            <task>
+            <task xml:id="exer-SAR-Pyth-AC-length-task" label="exer-SAR-Pyth-AC-length-task-label">
               <statement>
                 <p>
                   The length of <m>\overline{AC}</m>.
                 </p>
               </statement>
             </task>
-            <task>
+            <task xml:id="exer-SAR-Pyth-DF-length-task" label="exer-SAR-Pyth-DF-length-task-label">
               <statement>
                 <p>
                   The length of <m>\overline{DF}</m>.
                 </p>
               </statement>
             </task>
-            <task>
+            <task xml:id="exer-SAR-Pyth-IJ-length-task" label="exer-SAR-Pyth-IJ-length-task-label">
               <statement>
                 <p>
                   The length of <m>\overline{IJ}</m>.
@@ -563,7 +563,7 @@
                 </p>
               </hint>
             </task>
-            <task>
+            <task xml:id="exer-SAR-Pyth-perimeter-task" label="exer-SAR-Pyth-perimeter-task-label">
               <statement>
                 <p>
                   The perimeter of quadrilateral <m>GHIJ</m>.
