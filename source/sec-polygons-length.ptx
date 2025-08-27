@@ -437,7 +437,7 @@
         </figure>
       </p>
     </introduction>
-      <task xml:id="sqtostairs-Pyth-task" attachment="yes"> <!-- Need Runestone hosting for attachment upload-->
+      <task xml:id="sqtostairs-Pyth-task" label="sqtostairs-Pyth-task-label" attachment="yes" > <!-- Need Runestone hosting for attachment upload-->
         <statement>
             <p>
               Rearrange the four congruent triangle copies and the small square to form 
@@ -448,14 +448,14 @@
           </statement>
           <response />
         </task>
-        <task> <!-- Add formula <fillin> later-->
+        <task xml:id="explor-polygons-length-square-length-task" label="explor-polygons-length-square-length-task-label"> <!-- Add formula <fillin> later-->
           <statement>
             <p>
               What is the length of a side of this square?
             </p>
           </statement>
         </task>
-        <task>
+        <task xml:id="explor-polygons-length-small-square-length-task" label="explor-polygons-length-small-square-length-task-label">
           <statement> <!-- Add formula <fillin> later-->
             <p>
               What is the length of a side of the small square in terms of the labels <m>a</m>,
@@ -463,13 +463,14 @@
             </p>
           </statement>
         </task>
-        <task>
+        <task xml:id="explor-polygons-length-square-applet-touching-squares-task" label="explor-polygons-length-square-applet-touching-squares-task-label" attachment="yes">
           <statement>
             <p>
               Once again, our goal is to show <m>a^2+b^2=c^2</m>. Use the same five pieces to 
               create a pair of touching squares of area <m>a^2</m> and <m>b^2</m>. Some puzzle 
               pieces will cover parts of both squares. A second 
-              copy of the GeoGebra applet is provided below for your use.
+              copy of the GeoGebra applet is provided below for your use. Save your work
+              and upload as either a screenshot or a PDF file.
             </p>
             <p>
               <figure xml:id="PythBlocks2">
@@ -483,8 +484,9 @@
               </figure>
             </p>
           </statement>
+          <response />
         </task>
-        <task>
+        <task xml:id="explor-polygons-length-squares-argue-task" label="explor-polygons-length-squares-argue-task-label">
           <statement>
             <p>
               How do you know that the two squares in your diagram are actually 
@@ -492,13 +494,15 @@
               Base your argument on the lengths of the triangle sides.
             </p>
           </statement>
+          <response />
         </task>
-        <task>
+        <task xml:id="explor-polygons-length-squares-pyth-task" label="explor-polygons-length-squares-pyth-task-label">
           <statement>
             <p>
               How do these two sketches together show that the Pythagorean Theorem holds?
             </p>
           </statement>
+          <response />
         </task>
   </exploration>
   
