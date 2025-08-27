@@ -473,7 +473,7 @@
   <title>Exercises</title>
   <subexercises xml:id="Toolbox-polygons-length">
     <title>Building Our Toolbox</title>
-    <exercise xml:id="polygons-length-BOT-Pyth">
+    <exercise xml:id="polygons-length-BOT-Pyth" label="polygons-length-BOT-Pyth-label">
       <title>Pythagorean Theorem</title>
       <statement>
         <p>
@@ -483,9 +483,9 @@
         </p>
       </statement>
     </exercise>
-    <exercise xml:id="polygons-length-BOT-lengthadditivity">
+    <exercise xml:id="polygons-length-BOT-lengthadditivity" label="polygons-length-BOT-lengthadditivity-label" attachment="yes">
       <title>Principle of Additivity of Length</title>
-      <task >
+      <task xml:id="Toolbox-polygons-length-length-additivity-segment-picture-task" label="Toolbox-polygons-length-length-additivity-segment-picture-task-label">
         <statement>
           <p>
             Use a picture to demonstrate why a segment formed by extending a 
@@ -495,7 +495,7 @@
         </statement>
         <response />
       </task>
-      <task>
+      <task xml:id="Toolbox-polygons-length-additivity-join-task" label="Toolbox-polygons-length-additivity-join-task-label">
         <statement>
           <p>
             What happens when segments <m>\overline{AB}</m> of length 3 inches, 
@@ -505,7 +505,7 @@
           </p>
         </statement>
       </task>
-      <task>
+      <task xml:id="Toolbox-polygons-length-additivity-create-explain-task" label="Toolbox-polygons-length-additivity-create-explain-task-label">
         <statement>
           <p>
             Again let <m>\overline{AB}</m> have length 3 inches and 
@@ -513,12 +513,13 @@
             <m>\overline{AC}</m> with length 10 inches? Explain.
           </p>
         </statement>
+        <response />
       </task>
     </exercise>
     </subexercises>
   <subexercises xml:id="SAR-polygons-length">
       <title>Skills and Recall</title>
-      <exercise xml:id="exer-SAR-Pyth">
+      <exercise xml:id="exer-SAR-Pyth" label="exer-SAR-Pyth">
           <statement>
               <p>
                   Determine the following in <xref ref="fig-SAR-Pyth"/>:
