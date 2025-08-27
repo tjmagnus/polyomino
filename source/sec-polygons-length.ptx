@@ -540,9 +540,20 @@
             <task xml:id="exer-SAR-Pyth-AC-length-task" label="exer-SAR-Pyth-AC-length-task-label">
               <statement>
                 <p>
-                  The length of <m>\overline{AC}</m>.
+                  The length of <m>\overline{AC}</m>. 
                 </p>
+                <fillin mode="string" />
               </statement>
+              <evaluation>
+                <evaluate>
+                  <test correct="yes">
+                    <jscmp>
+                      ["sqrt(61)", "7.81"].includes(ans)
+                    </jscmp>
+                  </test>
+                </evaluate>
+              </evaluation>
+
             </task>
             <task xml:id="exer-SAR-Pyth-DF-length-task" label="exer-SAR-Pyth-DF-length-task-label">
               <statement>
@@ -692,67 +703,82 @@
       </exercise>
       <exercise>
         <title>Generating Pythagorean Triples with Algebra</title>
-        <statement>
+        <introduction>
           <p>
             A Pythagorean triple is a set of three positive integers <m>a</m>, <m>b</m>,
             and <m>c</m> such that <m>a^2+b^2=c^2</m>. 
-              <ol>
-                <li>
-                  <p>
-                    Find <m>c</m> that forms a Pythagorean triple with the 
-                    numbers <m>a=45</m> and <m>b=200</m>. Show your work.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Find the number <m>a</m> that forms a Pythagorean triple with the 
-                    numbers <m>b=32</m> and <m>c=130</m>. Show your work.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Demonstrate by an example that it is not always possible to create 
-                    a Pythagorean triple from two given integers. In other words, name two 
-                    integers, <m>a</m> and <m>b</m>, such that <m>a^2+b^2</m> is not equal
-                    to a perfect square.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Choose two positive integers. Call the smaller one <m>j</m> and 
-                    the larger one <m>k</m>.
-                    <ol>
-                      <li>
-                        <p>
-                          Compute <m>2jk</m> and call it <m>a</m>.
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          Compute <m>k-j</m> and call it <m>b</m>.
-                        </p>
-                      </li> 
-                      <li>
-                        <p>
-                          Is there a third positive integer <m>c</m> such that
-                          <m>a</m>, <m>b</m>, and <m>c</m> form a Pythagorean triple?
-                          If so, what is <m>c</m>?
-                        </p>
-                      </li>
-                    </ol>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Use algebra to demonstrate that the sum of <m>(2jk)^2</m> and 
-                    <m>(k-j)^2</m> is always a perfect square when <m>j</m> and <m>k</m>
-                    are positive integers with <m>j\lt k</m>. What does this tell you 
-                    about Pythagorean triples?
-                  </p>
-                </li>
-              </ol>
           </p>
-        </statement>
+        </introduction>
+        <task attachment="yes">
+          <statement>
+            <p>
+              Find <m>c</m> that forms a Pythagorean triple with the 
+              numbers <m>a=45</m> and <m>b=200</m>. Show your work.
+            </p>
+          </statement>
+          <response />
+        </task>
+        <task attachment="yes">
+          <statement>
+            <p>
+              Find the number <m>a</m> that forms a Pythagorean triple with the 
+              numbers <m>b=32</m> and <m>c=130</m>. Show your work.
+            </p>
+          </statement>
+          <response />
+        </task>
+        <task>
+          <statement>
+            <p>
+              Demonstrate by an example that it is not always possible to create 
+              a Pythagorean triple from two given integers. In other words, name two 
+              integers, <m>a</m> and <m>b</m>, such that <m>a^2+b^2</m> is not equal
+              to a perfect square.
+            </p>
+          </statement>
+          <response />
+        </task>
+      </exercise>
+      <exercise>
+        <introduction>
+          <p>
+            Choose two positive integers. Call the smaller one <m>j</m> and 
+            the larger one <m>k</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Compute <m>2jk</m> and call it <m>a</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute <m>k-j</m> and call it <m>b</m>.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Is there a third positive integer <m>c</m> such that
+              <m>a</m>, <m>b</m>, and <m>c</m> form a Pythagorean triple?
+              If so, what is <m>c</m>?
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use algebra to demonstrate that the sum of <m>(2jk)^2</m> and 
+              <m>(k-j)^2</m> is always a perfect square when <m>j</m> and <m>k</m>
+              are positive integers with <m>j\lt k</m>. What does this tell you 
+              about Pythagorean triples?
+            </p>
+          </statement>
+        </task>
       </exercise>
       <exercise>
         <title>Area of a Regular Hexagon</title>
