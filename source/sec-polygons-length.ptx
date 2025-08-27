@@ -112,62 +112,6 @@
     The next set of questions will refresh your skill in 
     using the Pythagorean Theorem to determine missing lengths.
   </p>
-  <reading-questions>
-    <title>Check your Understanding</title>
-    <exercise xml:id="polgyons-length-cyu-1" label="polgyons-length-cyu-1-label">
-      <statement>
-        <p>
-          A triangle has legs of length 5 and 7. Determine the length of the 
-          hypotenuse.
-        </p>
-      </statement>
-      <answer>
-        <p>
-          <m>\sqrt{74}\approx8.602</m>
-        </p>
-      </answer>
-      <solution>
-        <p>
-          Let <m>a = 5</m> and <m>b = 7</m>. Thus, <m>\sqrt{5^2 + 7^2} = \sqrt{74} \approx 8.602</m>
-        </p>
-      </solution>
-    </exercise>
-    <exercise>
-      <statement>
-        <p>
-          A square has a diagonal of length <m>\sqrt{80}</m>. Determine the 
-          length of the sides.
-        </p>
-      </statement>
-      <hint>
-        <p>
-          Since the sides of a square are the same length, use the same letter 
-          to represent all of them. How do you create a triangle from a square?
-        </p>
-      </hint>
-      <answer>
-        <p>
-          <m>\sqrt{40}=2\sqrt{10}\approx 6.325</m>
-        </p>
-      </answer>
-      <solution>
-        <figure xml:id="2.5.2.2-cyu-solution">
-          <caption></caption>
-          <image source="2.5.2.2CYU.png">
-            <shortdescription>A squre with diagonal of length squre root of 80.</shortdescription>
-          </image>
-        </figure>
-        <p>
-          We are given <m>c = \sqrt{80}</m>. The diagonal cuts the square into two right triangles
-          <m>\triangle ABC</m> and <m>\triangle DCB</m>. Therefore, let 
-          <m>a = \overline{AB} = \overline{AC} = \overline{CD} = \overline{BD}</m>. Apply the theorem: 
-          <m>\sqrt{2a^2} = \sqrt{80} \rightarrow 2a^2 = 80 \rightarrow a^2 = 40 \rightarrow 
-            a = \sqrt{40} = 2\sqrt{10} \approx 6.325
-          </m> 
-        </p>
-      </solution>
-    </exercise>
-  </reading-questions>
 </subsection>
 <subsection>
   <title>Proving the Pythagorean Theorem with Picture Puzzles</title>
@@ -617,6 +561,59 @@
               </figure>
           </statement>
       </exercise>
+      <exercise xml:id="polgyons-length-cyu-1" label="polgyons-length-cyu-1-label">
+      <statement>
+        <p>
+          A triangle has legs of length 5 and 7. Determine the length of the 
+          hypotenuse.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>\sqrt{74}\approx8.602</m>
+        </p>
+      </answer>
+      <solution>
+        <p>
+          Let <m>a = 5</m> and <m>b = 7</m>. Thus, <m>\sqrt{5^2 + 7^2} = \sqrt{74} \approx 8.602</m>
+        </p>
+      </solution>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          A square has a diagonal of length <m>\sqrt{80}</m>. Determine the 
+          length of the sides.
+        </p>
+      </statement>
+      <hint>
+        <p>
+          Since the sides of a square are the same length, use the same letter 
+          to represent all of them. How do you create a triangle from a square?
+        </p>
+      </hint>
+      <answer>
+        <p>
+          <m>\sqrt{40}=2\sqrt{10}\approx 6.325</m>
+        </p>
+      </answer>
+      <solution>
+        <figure xml:id="2.5.2.2-cyu-solution">
+          <caption></caption>
+          <image source="2.5.2.2CYU.png">
+            <shortdescription>A squre with diagonal of length squre root of 80.</shortdescription>
+          </image>
+        </figure>
+        <p>
+          We are given <m>c = \sqrt{80}</m>. The diagonal cuts the square into two right triangles
+          <m>\triangle ABC</m> and <m>\triangle DCB</m>. Therefore, let 
+          <m>a = \overline{AB} = \overline{AC} = \overline{CD} = \overline{BD}</m>. Apply the theorem: 
+          <m>\sqrt{2a^2} = \sqrt{80} \rightarrow 2a^2 = 80 \rightarrow a^2 = 40 \rightarrow 
+            a = \sqrt{40} = 2\sqrt{10} \approx 6.325
+          </m> 
+        </p>
+      </solution>
+    </exercise>
   </subexercises>
   <subexercises xml:id="ExtConc-polygons-length">
       <title>Extending the Concepts</title>
