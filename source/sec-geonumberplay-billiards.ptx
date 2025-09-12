@@ -433,28 +433,68 @@
                     the starting corner and the ending corner in this total of hits.
                 </p>
             </introduction>
+            <sidebyside widths="60% 30%">
             <task>
-                <statement>
+                <introduction>
                     <p>
                         Sketch the path for the <m>9\times 3</m>-table pictured in 
                         <xref ref="figbilliard9by3"/>.
                     </p>
-                    <figure xml:id="figbilliard9by3">
-                        <caption>A <m>9\times 3</m> billiard table.</caption>
-                        <image width="20%">
-                            <prefigure xmlns="https://prefigure.org" label="pfbilliard9by3">
-                                <diagram dimensions="(50,150)" margins="3">
-                                    <coordinates bbox="(0,0,3,9)">
-                                        <grid spacings="((0,1,10),(0,1,10))" stroke="black" thickness="0.5"/>
-                                        <vector v="(1,1)" stroke="blue" thickness="1"/>
-                                        <point p="(0,0)" fill="blue" stroke="none" size="1"/>
-                                    </coordinates>
-                                </diagram>
-                            </prefigure>
-                        </image>
-                    </figure>
-                </statement>
-            </task>
+                </introduction>
+                    <task>
+                        <statement>
+                            <p>
+                                How many times does the ball hit a side of the table? Count 
+                                the beginning corner and the ending corner as one hit each.
+                            </p>
+                        </statement>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                               In which corner does the ball land? 
+                            </p>
+                            <choices multiple-correct="no">
+                                <choice correct="no">
+                                    <statement>
+                                        <p>
+                                            Upper Left
+                                        </p>
+                                    </statement>
+                                </choice>
+                                <choice correct="no">
+                                    <statement>
+                                        <p>
+                                            Lower Right
+                                        </p>
+                                    </statement>
+                                </choice>
+                                <choice correct="yes">
+                                    <statement>
+                                        <p>
+                                            Upper Right
+                                        </p>
+                                    </statement>
+                                </choice>
+                            </choices>
+                        </statement>
+                    </task>
+                </task>
+                <figure xml:id="figbilliard9by3">
+                    <caption>A <m>9\times 3</m> billiard table.</caption>
+                    <image width="20%">
+                        <prefigure xmlns="https://prefigure.org" label="pfbilliard9by3">
+                            <diagram dimensions="(50,150)" margins="3">
+                                <coordinates bbox="(0,0,3,9)">
+                                    <grid spacings="((0,1,10),(0,1,10))" stroke="black" thickness="0.5"/>
+                                    <vector v="(1,1)" stroke="blue" thickness="1"/>
+                                    <point p="(0,0)" fill="blue" stroke="none" size="1"/>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </figure>
+            </sidebyside>
             
         </task>
     </exploration>
