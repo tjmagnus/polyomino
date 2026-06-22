@@ -78,9 +78,8 @@
             About Teresa Magnus
           </title>
           <p>
-            Teresa "Terri" Magnus has taught mathematics at small private universities for 
-            over three decades. She believes in active learning through problem-solving.
-            Outside the classroom, Terri enjoys hiking in the White Mountains and playing games
+            Teresa "Terri" Magnus recently retired after 35 years of teaching mathematics. She believes in active learning through problem-solving.
+            Outside the classroom, Terri enjoys hiking in the White Mountains of New Hampshire, playing games, and solving puzzles
             with family and friends.
           </p>
           </biography>
@@ -125,12 +124,12 @@
       Paul and Patricia Deltz, provided a loving home filled with crafts, games, and puzzles. 
       We were encouraged to play, experiment, and learn from our mistakes. My seventh-grade teacher,
       Crystal Mills at Saint Thomas More School
-      (Houston) sparked my geometrical curiosity and creativity with her intriguing polyhedra 
-      hanging from the classroom ceiling and an invition for me to explore the 
-      paths of a billiard ball as a science project. At the University of Dallas, professors Andrew Berner and Charles Coppin
+      (Houston) sparked my geometrical curiosity and creativity with her intriguing origami polyhedra decorating 
+      her classroom and her encouraging me to explore the 
+      paths of a billiard ball as a science project. At the University of Dallas, professors Dr. Andrew Berner and Dr. Charles Coppin
       engaged us in inquiry-based lessons. Their inspiration led me to continue my studies and 
-      shaped my own philosophy of teaching. My doctoral advisor, John Faulkner (the University of Virginia), 
-      encouraged me to explore the relationship between geometric and nonassociative algebraic structures.
+      shaped my own philosophy of teaching. My doctoral advisor, Dr. John Faulkner (the University of Virginia), 
+      guided my exploration relationships between geometric and nonassociative algebraic structures.
        
     </p>
     <p>
@@ -138,7 +137,7 @@
       with other mathematicians. Early iterations of this course used <xref ref="bibSymShapeSpace"/>
       or <xref ref="bibODafferClemens"/> and these sources influenced some activities here. The 
       idea for the first chapter, using pentomino puzzles to motivate a study of area, most likely 
-      came from a derivative of Henri Piccioto's work. This activity is a perfect starting point 
+      came from a derivative of Henri Piccioto's work. These pentomino puzzles proved to be a perfect starting point: 
       employing play as an entry point to a concept that would guide and unify the rest of my textbook.
     </p>
 
@@ -167,14 +166,14 @@
         Creative problem solving should not be limited to honors or upper-level 
         courses; given the opportunity all students can grow and thrive through 
         mathematical exploration. Problems can and should be chosen
-        to be accessible yet intriguing. I visited kindergarten classes where 
+        to be accessible yet intriguing. I have visited kindergarten classes where 
         students were enthusiastic about patterns and numbers, eagerly wanting to 
         share their thoughts and try new things. As a university professor, I wanted 
         to know more about why this enthusiasm and confidence dissipates by the 
-        time they reach my classes. For most students, mathematics becomes a set of rules
-        to follow, a collection of techniques to master, and a jumble of examples to mimick.
-        Despite the fact that some of our most treasured mathematical results took 
-        years<mdash>even centuries</mdash>to be established, our society has emphasized speed
+        time students reach college. For most students, mathematics becomes a set of rules
+        to follow, a collection of techniques to master, and a jumble of examples to mimic.
+        Many of our most treasured mathematical results took 
+        years<mdash>even centuries</mdash>to be established, yet our society has emphasized speed
         and completion over contemplation. Most students (and adults) spend very little time 
         thinking about problems and instead rely on other resources to provide information and 
         demonstrate methods. They search for examples to mimic instead of creating personal 
@@ -187,7 +186,7 @@
         Many resources have mathematical tasks and problems available for students
         to explore. Noncurricular puzzles, games, applications, and fun topics are 
         great ways to encourage teamwork, creativity, and reasoning, but a mathematics 
-        course needs to have purpose and cohesion as well. In developing my course, I 
+        course should have purpose and cohesion as well. In developing my course, I 
         challenged myself to choose, sequence, and tailor activities so that 
         students would develop and build upon foundational knowledge. As students work   
         on activities in my class, I respond to their questions, celebrate their discoveries, 
@@ -195,8 +194,9 @@
         discuss the key concepts that arise from the activities.
         As I write this textbook, I find that I need to anticipate how others might use the book 
         and include more detail than I need in my own classroom. Some activities 
-        have more scaffolding to ensure that essential material is uncovered and 
-        introductory and summary reading has been added to focus and support learning.
+        have more scaffolding to ensure that essential material is uncovered while other activities
+        are open-ended and invite challenge. 
+        Introductory and summary reading has been added to focus and support learning.
         I hope that this additional detail and structure still allows for differing strategies,
         rich discussion, and the thrill of discovery. 
       </p>
@@ -214,7 +214,7 @@
         or scientists. 
       </p>
       <p>
-        The framework of this book is designed to meet most of our state's cerfication 
+        The framework of this book is designed to meet most of our state's certification 
         requirements for elementary and early childhood educators, using exploratory 
         activities to lead them to a deeper understanding of 
         the geometry that they will be teaching. Despite the fact that 
@@ -223,11 +223,11 @@
         material from an exploratory perspective with an emphasis on answering the question 
         <sq>why</sq> gives a fresh new look at familiar material. Before redesigning my
         course, I dreaded teaching the topic measurement as it seemed so dry and repetitive. Now
-        area of a rectangle forms the foundation upon which much of this book is based. 
+        the area formula of a rectangle forms the foundation upon which much of this book is based. 
         In particular, dissection and construction of polygons are used to observe and 
         justify results like the Pythagorean Theorem. The list of formulas is kept short and
         intuitive, especially with volume and surface area. Instead, students are encouraged
-        to use the definitions to compute these quantities. 
+        to use the definitions to compute these quantities and develop formulas. 
       </p>
       <p>
       The textbook includes a mix of interactive activities and 
@@ -254,7 +254,7 @@
   <preface>
     <title>How to use this book</title>
     <p>
-      The author is writing this textbook during a 2023-2024 sabbatical. Updates and 
+      The author began writing this textbook during a 2023-2024 sabbatical. Updates and 
       additions will be deployed to 
       <url href=" https://tjmagnus.github.io/polyomino/"/>. Suggestions on how to improve
       this textbook are appreciated.
@@ -271,7 +271,7 @@
         sense of the mathematics and take ownership of the content by discovering relationships 
         through hands-on activities. I am happy to share the classroom worksheets  
         on which this course is based. In fact, I plan to continue to use handouts for 
-        most of the inclass explorations even after this textbook is complete. I plan  
+        most of the in-class explorations even after this textbook is complete. I plan  
         to add many of these to an instructor-accessible  
         website. Instructors wanting to use these sooner should email me! 
       </p>
@@ -302,7 +302,7 @@
         inside the online textbook and hyperlinks to definitions and other items are included. 
       </p>
       <p>
-        My hope is to add other features, like more  in the future.
+        <!--My hope is to add other features, in the future.-->
         You can view the interactive HTML version for free at 
         <url href=" https://tjmagnus.github.io/polyomino/"/> or by scanning the 
           QR code below with your smart phone.
