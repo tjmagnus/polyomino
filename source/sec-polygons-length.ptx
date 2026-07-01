@@ -619,9 +619,9 @@
         </p>
       </answer>
       <solution>
-        <figure xml:id="2.5.2.2-cyu-solution">
+        <figure xml:id="Pyth-cyu-solution">
           <caption></caption>
-          <image source="2.5.2.2CYU.png">
+          <image source="Pyth-CYU.png">
             <shortdescription>A squre with diagonal of length squre root of 80.</shortdescription>
           </image>
         </figure>
