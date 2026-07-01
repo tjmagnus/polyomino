@@ -172,7 +172,7 @@
             no gaps or overlaps. Preserve your work with a sketch or screenshot.
           </p>
         </statement>
-        <response /> 
+        <!--<response />--> 
       </task>
       <task xml:id="explor-puzz-pt1-side-length-task" label="explor-puzz-pt1-side-length-task-label">
         <statement>
@@ -234,7 +234,7 @@
             Preserve your work with a sketch or screenshot. 
           </p>
         </statement>
-        <response />
+        <!--<response />-->
       </task>
 
           <!--<image source="PythRightTriABsquares">
@@ -389,7 +389,7 @@
               them and use the labeled corners to rotate. Save a copy of your work.
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <task xml:id="explor-polygons-length-square-length-task" label="explor-polygons-length-square-length-task-label"> <!-- Add formula <fillin> later-->
           <statement>
@@ -427,7 +427,7 @@
               </figure>
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <task xml:id="explor-polygons-length-squares-argue-task" label="explor-polygons-length-squares-argue-task-label">
           <statement>
@@ -437,7 +437,7 @@
               Base your argument on the lengths of the triangle sides.
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <task xml:id="explor-polygons-length-squares-pyth-task" label="explor-polygons-length-squares-pyth-task-label">
           <statement>
@@ -445,7 +445,7 @@
               How do these two sketches together show that the Pythagorean Theorem holds?
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
   </exploration>
   
@@ -493,7 +493,7 @@
             produces a segment of length <m>a+b</m> units.
           </p>
         </statement>
-        <response />
+        <!--<response />-->
       </task>
       <task xml:id="Toolbox-polygons-length-additivity-join-task" label="Toolbox-polygons-length-additivity-join-task-label">
         <statement>
@@ -513,7 +513,7 @@
             <m>\overline{AC}</m> with length 10 inches? Explain.
           </p>
         </statement>
-        <response />
+        <!--<response />-->
       </task>
     </exercise>
     </subexercises>
@@ -716,7 +716,7 @@
               numbers <m>a=45</m> and <m>b=200</m>. Show your work.
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <task xml:id="ExtConc-Pyth-Triples-Task-B" label="ExtConc-Pyth-Triples-Task-B-label" attachment="yes">
           <statement>
@@ -725,7 +725,7 @@
               numbers <m>b=32</m> and <m>c=130</m>. Show your work.
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <task xml:id="ExtConc-Pyth-Triples-Task-C" label="ExtConc-Pyth-Triples-Task-C-label">
           <statement>
@@ -736,7 +736,7 @@
               to a perfect square.
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
       </exercise>
       <exercise xml:id="ExtConc-Pyth-Tripes-Choose" label="ExtConc-Pyth-Tripes-Choose-label">
@@ -824,7 +824,7 @@
               should play an implicit or explicit role in your explanation.
           </p>
       </statement>
-      <response />
+      <!--<response />-->
   </exercise>
   </subexercises>
  </exercises>

@@ -26,13 +26,13 @@
                         <q>A line is ...</q>. Compare your responses to that of your classmates.
                     </p>
                 </statement>
-                <response />
+                <!--<response />-->
             </task>
             <task xml:id="parallel-task-triangle-angles" label="parallel-task-triangle-angles-label">
                 <statement>
                     <p>The sum of the measures of the interior angles of any triangle is ...</p>
                 </statement>
-                <response />
+                <!--<response />-->
                 <answer>
                     <p>
                         This question is also designed to lead to discussion without 
@@ -47,7 +47,7 @@
                 <statement>
                     <p>Two lines in the plane are parallel if ...</p>
                 </statement>
-                <response />
+                <!--<response />-->
             </task>
     </exploration>
 </subsection>
@@ -90,7 +90,7 @@
                         do they satisfy? 
                     </p>
                 </statement>
-                <response />
+                <!--<response />-->
             </task>
             <task xml:id="parallel-task-linear-features" label="parallel-task-linear-features-label">
                 <statement>
@@ -186,7 +186,7 @@
                         on a sphere? 
                     </p>
                 </statement>
-                <response />
+                <!--<response />-->
             </task>
             <task xml:id="parallel-task-longitudes" label="parallel-task-longitudes-label">
                 <statement>
@@ -195,7 +195,7 @@
                         according to this definition?
                     </p>
                 </statement>
-                <response />
+                <!--<response />-->
             </task>
             <task xml:id="parallel-task-spherical-lines" label="parallel-task-spherical-lines-label">
                 <statement>
@@ -212,7 +212,7 @@
                         intersect the equator?  Explain. 
                     </p>
                 </statement>
-                <response />
+                <!--<response />-->
             </task>
             <task xml:id="parallel-task-spherical-triangle" label="parallel-task-spherical-triangle-label">
                 <statement>
@@ -224,7 +224,7 @@
                         straight as possible, forming a great circle.
                     </p>
                 </statement>
-                <response />
+                <!--<response />-->
             </task>
             <task xml:id="parallel-task-spherical-measurements" label="parallel-task-spherical-measurements-label">
                 <statement>
@@ -390,7 +390,7 @@
                 rectangular box or room.
                 </p>
             </statement>
-            <response />
+            <!--<response />-->
         </task>
         <task xml:id="parallel-task-second-skew-line" label="parallel-task-second-skew-line-label">
             <statement>
@@ -400,7 +400,7 @@
                     be skew to <m>\overleftrightarrow{BH}</m>.
                 </p>
             </statement>
-            <response />
+            <!--<response />-->
         </task>
         <task xml:id="parallel-task-identify-parallel-lines" label="parallel-task-identify-parallel-lines-label">
             <statement>
@@ -446,7 +446,7 @@
                                         <m>\overleftrightarrow{CA'}</m>?
                                     </p>
                                 </statement>
-                                <response />
+                                <!--<response />-->
                             </task>
                             <task xml:id="parallel-task-aia-2" label="parallel-task-aia-2-label">
                                 <statement>
@@ -454,7 +454,7 @@
                                         What other two lines appear to have this property?
                                     </p>
                                 </statement>
-                                <response />
+                                <!--<response />-->
                             </task>
                             <task xml:id="parallel-task-aia-3" label="parallel-task-aia-3-label">
                                 <statement>
@@ -464,13 +464,13 @@
                                         to and then click on the point it should pass through.
                                     </p>
                                 </statement>
-                                <response />
+                                <!--<response />-->
                             </task>
                             <task xml:id="parallel-task-b-1" label="parallel-task-b-1-label">
                                 <statement>
                                     <p>What can we say about the relationship between angles <m>\angle A'CB</m> and <m>\angle ABC</m> In terms of angle measure? How do you know? </p>
                                 </statement>
-                                <response />
+                                <!--<response />-->
                             </task>
                                     <aside>
                                         <p>
@@ -487,7 +487,7 @@
                                             and <m>\overleftrightarrow{AB}</m> and the line <m>\overleftrightarrow{BC}</m>? 
                                         </p>
                                     </statement>
-                                    <response />
+                                    <!--<response />-->
                                 </task>
                                 <task xml:id="parallel-task-b-3" label="parallel-task-b-3-label">
                                     <statement>
@@ -495,7 +495,7 @@
                                             In terms of triangle <m>\Delta ABC</m> and its rotated copy <m>\Delta AC'B'</m>?
                                         </p>
                                     </statement>
-                                    <response />
+                                    <!--<response />-->
                                 </task>
             </exploration>
             <p>
@@ -906,7 +906,7 @@
                                         <xref ref="fig-transversal"/> have the same angle measure.
                                     </p>
                                 </statement>
-                                <response />
+                                <!--<response />-->
                             </task>
                             <task xml:id="SAR-parallel-task-cong" label="SAR-parallel-task-cong-label">
                                 <statement>
@@ -915,7 +915,7 @@
                                         and <m>\angle GCH</m> in <xref ref="fig-transversal"/> must be congruent.
                                     </p>
                                 </statement>
-                                <response />
+                                <!--<response />-->
                             </task>
             </exercise>
         </subexercises>
@@ -1074,7 +1074,7 @@
                             Support your answer by words and/or illustrations.
                         </p>
                     </statement>
-                    <response /> 
+                    <!--<response />--> 
                 </task>
                 <figure xml:id="fig-escher-hypdisc">
                     <caption>
@@ -1101,7 +1101,7 @@
                     spherical lines are preserved.
                 </p>
             </statement>
-            <response />
+            <!--<response />-->
         </exercise>
         </subexercises>
        </exercises>

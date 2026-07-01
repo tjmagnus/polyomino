@@ -65,7 +65,7 @@
           Not all angles are congruent.
         </p>
       </answer>
-      <response />
+      <!--<response />-->
     </task>
     <task>
       <statement>
@@ -78,7 +78,7 @@
           There are pairs of noncongruent sides.
         </p>
       </answer>
-      <response />
+      <!--<response />-->
     </task>
     <task>
       <statement>
@@ -91,7 +91,7 @@
           Not all angles are congruent. The sides also vary in length.
         </p>
       </answer>
-      <response />
+      <!--<response />-->
     </task>
   </exercise>
 </subsection>
@@ -185,7 +185,7 @@
           the square, and the regular hexagon.
         </p>
       </answer>
-      <response />
+      <!--<response />-->
 <!--Add file upload option.-->
     </task>
   </exploration>
@@ -245,7 +245,7 @@
                   Explain why <m>m\angle EAB=m\angle 1+m\angle 2+m\angle 3</m>
                 </p>
               </statement>
-              <response />
+              <!--<response />-->
           </task>
           <task xml:id="regular-pentagon-angle-sum-two-task" label="regular-pentagon-angle-sum-two-label">
               <statement>
@@ -317,7 +317,7 @@
                   non-regular convex pentagons? What will be different?
                 </p>
               </statement>
-              <response />
+              <!--<response />-->
             </task>
     <task xml:id="regular-pentagon-table-task" label="regular-pentagon-table-label">
   <!-- Is there a way for students to fill in answers for this table? -->
@@ -656,7 +656,7 @@ What mode is needed for the last row?-->
             polygons can each produce a regular tiling.
           </p>
         </statement>
-        <response />
+        <!--<response />-->
       </task>
       <task xml:id="reg-tilings-pentagons-task" label="reg-tilings-pentagons-label">
         <statement>
@@ -688,7 +688,7 @@ What mode is needed for the last row?-->
             in your explanation.
           </p>
         </statement>
-        <response />
+        <!--<response />-->
       </task>
     </exploration>
     
@@ -887,7 +887,7 @@ What mode is needed for the last row?-->
       What must be true about the measures of the angles of the vertices 
       meeting at and surrounding a single point?
     </p>
-    <response />
+    <!--<response />-->
     </statement>
     <!--Change this to either short answer or fillin. Remove component="instructor"-->
     <solution component="instructor">
@@ -1028,7 +1028,7 @@ math to be computed?-->
               Verify that the sum of the angles meeting at the vertex is  
               360 degrees.
             </p>
-            <response />
+            <!--<response />-->
           </li>
           <li>
             <p>
@@ -1036,7 +1036,7 @@ math to be computed?-->
               have one or two triangles between any two squares; no two squares will share a side. 
               Will this eventually fill the plane without gaps or overlaps? 
             </p>
-            <response />
+            <!--<response />-->
           </li>
           <li>
             <p>
@@ -1046,7 +1046,7 @@ math to be computed?-->
               using the vertex arrangement <m>3.3.3.4.4</m> by building outward from your 
               initial vertex arrangement.
             </p>
-            <response />
+            <!--<response />-->
           </li>
         </ol>
       <figure xml:id="tiling33434">
@@ -1073,7 +1073,7 @@ math to be computed?-->
         </image>
       </figure>
     </statement>
-    <response />
+    <!--<response />-->
   </task>
   <task xml:id="srtiling-possible-vertex-arrangements-task" label="srtiling-possible-vertex-arrangements-label">
     <statement>
@@ -1104,7 +1104,7 @@ indicate if they give the vertex arrangement for a regular tiling instead.-->
         four polygons, and eight more using three polygons (in addition to 3.7.42).
       </p>
     </hint>
-    <response />
+    <!--<response />-->
   </task>
   <task xml:id="semireg-tilings-arrangements-experiment-task" label="semireg-tilings-arrangements-experiment-laebl">
     <statement>
@@ -1122,7 +1122,7 @@ indicate if they give the vertex arrangement for a regular tiling instead.-->
         a semiregular tiling.
       </p>
     </hint>
-    <response />
+    <!--<response />-->
   </task>
   <task xml:id="semireg-tilings-arrangements-wonder-task" label="semireg-tilings-arrangements-wonder-label">
     <statement>
@@ -1131,7 +1131,7 @@ indicate if they give the vertex arrangement for a regular tiling instead.-->
         work)? What do you wonder?
       </p>
     </statement>
-    <response />
+    <!--<response />-->
     
   </task>
 </exploration>
@@ -1214,7 +1214,7 @@ at the two base angles.-->
             available at <url href="https://www.geogebra.org/geometry/bvquvkpn"></url>.-->
           </p>
         </statement>
-        <response />
+        <!--<response />-->
       </task>
       <task xml:id="semireg-tilings-triangles-polygons-task" label="semireg-tilings-triangles-polygons-task-label">
         <statement>
@@ -1305,7 +1305,7 @@ The example had three answers and I have two.
           with <m>3.3.6.6</m> in <xref ref="semireg-tilings-surround-task-2"/>.
         </p>
       </statement>
-      <response />
+      <!--<response />-->
     </task>
     <task xml:id="semireg-tilings-arrangement-fail-task" label="semireg-tilings-arrangement-fail-task-label">
     <statement>
@@ -1414,7 +1414,7 @@ The example had three answers and I have two.
             pentagons and decagons?
           </p>
         </hint>
-        <response />
+        <!--<response />-->
       </task>
       <task xml:id="semireg-tilings-three-vertex-arngmnt-task" label="semireg-tilings-three-vertex-arngmnt-task-label">
         <statement>
@@ -1430,7 +1430,7 @@ The example had three answers and I have two.
             is odd and <m>n\neq p</m>.
           </p>
         </answer>
-        <response />
+        <!--<response />-->
       </task>
     </exploration>
   </subsection>
@@ -1453,7 +1453,7 @@ The example had three answers and I have two.
           nonregular polygon.
         </p>
       </statement>
-      <response />
+      <!--<response />-->
     </exercise>
     <exercise xml:id="exer-toolbox-polygon-meet-vertex" label="exer-toolbox-polygon-meet-vertex-label">
       <statement>
@@ -1479,7 +1479,7 @@ The example had three answers and I have two.
           Describe the three regular tilings.
         </p>
       </statement>
-      <response />
+      <!--<response />-->
     </exercise>
     <exercise xml:id="exercise-toolbox-sum-convex-ngon" label="exercise-toolbox-sum-convex-ngon-label">
       <statement>
@@ -1780,7 +1780,7 @@ The example had three answers and I have two.
               The design started in <xref ref="fig-HW336"/>.
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <task xml:id="SAR-polygons-regular-not-semireg-task-b" label="SAR-polygons-regular-not-semireg-task-b-label">
           <statement>
@@ -1788,7 +1788,7 @@ The example had three answers and I have two.
               The design started in <xref ref="fig-HW-kitedartrhomb"/>
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <task xml:id="SAR-polygons-regular-not-semireg-task-c" label="SAR-polygons-regular-not-semireg-task-c-label">
           <statement>
@@ -1796,7 +1796,7 @@ The example had three answers and I have two.
               The design started in <xref ref="fig-HW-skewhouse"/>
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <conclusion>
           <sidebyside widths="30% 30% 30%">
@@ -1855,7 +1855,7 @@ The example had three answers and I have two.
                       Explain why each central angle must measure 40 degrees.
                     </p>
                   </statement>
-                  <response />
+                  <!--<response />-->
                 </task>
                 <task xml:id="ExtConc-pgreg-nonagon-triangle-type-task" label="ExtConc-pgreg-nonagon-triangle-type-task-label">
                   <statement>
@@ -1863,7 +1863,7 @@ The example had three answers and I have two.
                       What type of triangle is <m>\Delta AOB</m> ? Why?
                     </p>
                   </statement>
-                  <response />
+                  <!--<response />-->
                 </task>
                 <task xml:id="ExtConc-pgreg-nonagon-triangle-measure-task" label="ExtConc-pgreg-nonagon-triangle-measure-task-label">
                   <statement>
@@ -1871,7 +1871,7 @@ The example had three answers and I have two.
                       What is the measure of <m>\angle{ABO}</m> ? Why?
                     </p>
                   </statement>
-                  <response />
+                  <!--<response />-->
                 </task>
                 <task xml:id="ExtConc-pgreg-nonagon-angle-measure-abc-task" label="ExtConc-pgreg-nonagon-angle-measure-abc-task-label">
                   <statement>
@@ -1880,7 +1880,7 @@ The example had three answers and I have two.
                       based on the steps in this problem.
                     </p>
                   </statement>
-                  <response />
+                  <!--<response />-->
                 </task>
                 <task xml:id="ExtConc-pgreg-nonagon-central-angle-formula-task" label="ExtConc-pgreg-nonagon-central-angle-formula-task-label">
                   <statement>
@@ -1888,7 +1888,7 @@ The example had three answers and I have two.
                     What is the formula for the central angle of any regular
                     <m>n</m>-gon?
                     </p>
-                    <response />
+                    <!--<response />-->
                   </statement>
                 </task>
                 <task xml:id="ExtConc-pgreg-nonagon-central-vertex-angle-task" label="ExtConc-pgreg-nonagon-central-vertex-angle-task-label">
@@ -1933,7 +1933,7 @@ The example had three answers and I have two.
                   own words.
                 </p>
               </statement>
-              <response />
+              <!--<response />-->
             </task>
             <task xml:id="ExtConc-Center-Polygon-Regular-ngon-even-task" label="ExtConc-Center-Polygon-Regular-ngon-even-task-label">
               <statement>
@@ -1949,7 +1949,7 @@ The example had three answers and I have two.
                     for finding the center.
                   </p>
               </statement>
-              <response />
+              <!--<response />-->
             </task>
             <task xml:id="ExtConc-Center-Polygon-Regular-ngon-odd-center-task" label="ExtConc-Center-Polygon-Regular-ngon-odd-center-task-label">
               <statement>
@@ -1967,7 +1967,7 @@ The example had three answers and I have two.
                     for finding the center.
                   </p>
               </statement>
-              <response />
+              <!--<response />-->
             </task>
             <conclusion>
               <figure xml:id="fig-extConc-pgreg-findcenters">
@@ -1991,7 +1991,7 @@ The example had three answers and I have two.
           surprising or interesting in this section.
         </p>
       </statement>
-      <response />
+      <!--<response />-->
     </exercise>
     <exercise xml:id="writing-polygons-regular-letter-friend-formula" label="writing-polygons-regular-letter-friend-formula-label">
       <statement>
@@ -2001,7 +2001,7 @@ The example had three answers and I have two.
           <m>n</m>-gons.
         </p>
       </statement>
-      <response />
+      <!--<response />-->
     </exercise>
     <exercise xml:id="writing-polygons-regular-letter-to-friend-three-reg-tilings" label="writing-polygons-regular-letter-to-friend-three-reg-tilings-label">
       <statement>
@@ -2010,7 +2010,7 @@ The example had three answers and I have two.
           three regular tilings.
         </p>
       </statement>
-      <response />
+      <!--<response />-->
     </exercise>
   </subexercises>
  </exercises>

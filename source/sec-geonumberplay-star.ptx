@@ -507,7 +507,7 @@
             and is a regular hexagon.
           </p>
         </answer>
-        <response />
+        <!--<response />-->
       </task>
     </exercise>
   </subsection>
@@ -626,7 +626,7 @@
               This is a regular octagon.
             </p>
           </answer>
-          <response />
+          <!--<response />-->
         </task>
         <task label="explsubtask-starpolys-82-l" xml:id="explsubtask-starpolys-82">
           <statement>
@@ -671,7 +671,7 @@
               Two.
             </p>
           </answer>
-          <response />
+          <!--<response />-->
         </task>
         <task label="pencilliftshape-82-label" xml:id="pencilliftshape-82">
           <statement>
@@ -684,7 +684,7 @@
               A square.
             </p>
           </answer>
-          <response />
+          <!--<response />-->
         </task>
         <task label="describe82starpoly-label" xml:id="describe82starpoly">
           <statement>
@@ -706,7 +706,7 @@
               from each other.
             </p>
           </answer>
-          <response />
+          <!--<response />-->
         </task>
         <task label="draw-other-8starpoly-label" xml:id="draw-other-8starpoly">
           <statement>
@@ -751,7 +751,7 @@
               Yes. It consists of four line segments that meet at their midpoints.
             </p>
           </answer>
-          <response />
+          <!--<response />-->
         </task>
       </task>
       <task label="expl-ninedot-starpolys-l" xml:id="expl-ninedot-starpolys">
@@ -773,7 +773,7 @@
               <m>\{_{1}^{9}\}</m> and <m>\{_{8}^{9}\}</m>
             </p>
           </answer>
-          <response />
+          <!--<response />-->
         </task>
         <task label="expltask-9dotstarpoly-continuousdraw-l" 
           xml:id="expltask-9dotstarpoly-continuousdraw">
@@ -809,7 +809,7 @@
                 A triangle.
               </p>
             </answer>
-            <response />
+            <!--<response />-->
           </task>
           <task label="expltask-predictnumb-93starpoly-l" 
             xml:id="expltask-predictnumb-93starpoly">
@@ -823,7 +823,7 @@
                 Three
               </p>
             </answer>
-            <response />
+            <!--<response />-->
           </task>
           <task>
             <statement>
@@ -1069,7 +1069,7 @@
               A regular <m>n</m>-gon.
             </p>
           </answer>
-          <response />
+          <!--<response />-->
         </task>
         <task label="subtask-starpoly-general-k-one-label-justify"  
         xml:id="subtask-starpoly-general-k-one-justify">
@@ -1086,7 +1086,7 @@
               How are the dots connected in <m>\{_{1}^{n}\}</m>?
             </p>
           </hint>
-          <response />
+          <!--<response />-->
           
         </task>
         <task label="starpolytasklabel-general-nminusk" xml:id="starpolytask-general-nminusk">
@@ -1109,7 +1109,7 @@
               <m>n-k</m>
             </p>
           </answer>
-          <response />
+          <!--<response />-->
         </task>
         <task label="starpolysubtask-one-pencil-l" xml:id="starpolysubtask-one-pencil">
           <statement>
@@ -1578,7 +1578,7 @@
             use to draw a star polygon.
           </p>
         </statement>
-        <response />  
+        <!--<response />-->  
       </exercise>
       <exercise label="Toolbox-geonum-starpoly-GCF-l">
         <introduction>
@@ -1609,7 +1609,7 @@
               in your response. Think about why 6 is not GCF(84,120). Why is GCF(84,120) not 24?
             </p>
           </hint>
-          <response />
+          <!--<response />-->
         </task>
       </exercise>
       <exercise label="Toolbox-geonum-starpoly-reg-l">
@@ -1798,7 +1798,7 @@
             components and their shape.
           </p>
         </statement>
-        <response />
+        <!--<response />-->
       </exercise>
       <exercise label="SAR-geonum-starpoly-findNandKstar-l">
         <introduction>
@@ -1824,7 +1824,7 @@
               many dots; thus <m>n=5\cdot 16=80.</m>
             </p>
           </solution>
-          <response />
+          <!--<response />-->
         </task>
         <task label="SAR-geonum-starpoly-findKstar-l">
           <statement>
@@ -1864,7 +1864,7 @@
               endpoints. Which, if any, star polygons are simple polygons? 
             </p>
           </statement>
-          <response />
+          <!--<response />-->
         </task>
         <task label="ExtConc-geonum-starpoly-polygon-simplify">
           <statement>

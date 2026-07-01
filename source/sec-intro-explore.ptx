@@ -623,7 +623,7 @@
                 the case where the length and width are whole numbers.
               </p>
             </statement>
-            <response />
+            <!--<response />-->
           </exercise>
           <exercise label="intro-expl-toolbox-addarea-l" xml:id="intro-expl-toolbox-addarea">
             <statement>
@@ -632,7 +632,7 @@
                   </xref>? Give an example and describe in your own words. 
               </p>
             </statement>
-            <response />
+            <!--<response />-->
           </exercise>
         </subexercises>  
         <subexercises xml:id="SAR-intro-exp">
