@@ -673,7 +673,7 @@
       </task>
     </task>
   </exploration>
-  <conclusion>
+  
     <p>
       The isosceles triangle <m>\Delta ABC</m> explored in <xref ref="explor-golden-triangle"/> 
       is known as a Golden Triangle. When we create a smaller, but similar, triangle
@@ -692,15 +692,15 @@
       <!--To map ABC onto ABD, we first dilate <m>\Delta ABC</m> with center <m>B</m>
       and scale factor <m>\frac{1}{\phi}=0.5(\sqrt{5}-1)</m>. We the reflect this 
       image across the bisector of <m>\angle{ABC}</m>.-->
-  </conclusion>
+  
 </subsection>
 <subsection xml:id="subsec-Connection-Regular-Pentagon">
   <title>A Connection to a Regular Pentagon</title>
-  <introduction>
+  
     <p>
       We explored regular polygons in <xref ref="sec-polygons-regular"/>. 
     </p>
-  </introduction>
+  
   <exploration>
     <introduction>
       <p>

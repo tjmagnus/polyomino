@@ -399,7 +399,7 @@
 </subsection>
 <subsection xml:id="subsec-billiard-45degpath">
     <title>Path of a Ball Hit at a <m>45^{\circ}</m> Angle</title>
-    <introduction>
+    
         <p>
             In some games of billiards, the player names the pocket that the eight ball 
             will land in. If the ball goes into a different pocket, the player loses.    
@@ -409,7 +409,7 @@
             roll until it reaches a corner of the table. In the next exploration, we 
             discover that the final corner is determined by the side lengths.
         </p>
-    </introduction>
+    
     <exploration>
         <title>Predicting the Pocket</title>
         <introduction>
@@ -433,7 +433,7 @@
                     the starting corner and the ending corner in this total of hits.
                 </p>
             </introduction>
-            <sidebyside widths="60% 30%">
+          <!-- <sidebyside widths="60% 30%"> -->
             <task>
                 <introduction>
                     <p>
@@ -480,7 +480,7 @@
                         </statement>
                     </task>
                 </task>
-                <figure xml:id="figbilliard9by3">
+                <!-- <figure xml:id="figbilliard9by3">
                     <caption>A <m>9\times 3</m> billiard table.</caption>
                     <image width="20%">
                         <prefigure xmlns="https://prefigure.org" label="pfbilliard9by3">
@@ -493,8 +493,8 @@
                             </diagram>
                         </prefigure>
                     </image>
-                </figure>
-            </sidebyside>
+                </figure> -->
+            <!-- </sidebyside> -->
             
         </task>
     </exploration>

@@ -121,7 +121,7 @@
   </subsection>
   <subsection>
     <title>Exploring Symmetry of Polygons</title>
-    <introduction>
+    <!-- <introduction> -->
       <p>
         In this section, we will focus on the symmetry of polygons and observe
         why regular polygons have greater symmetry than nonregular ones. Once 
@@ -142,7 +142,7 @@
           straight edge are also helpful in performing these task.
         </p>
       </aside>
-      </introduction>
+      <!-- </introduction> -->
     <exploration xml:id="explor-symm-triangletype">
       <title>Symmetry of Triangles</title>
       <introduction>

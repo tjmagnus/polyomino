@@ -226,11 +226,11 @@
                             </p>
                         </statement>
                     </task>
-                    <conclusion>
+                    <!-- <conclusion> -->
                         <p>
                             Compare these to the original side lengths.
                         </p>
-                    </conclusion>
+                    <!-- </conclusion> -->
                 </task>
                 <task>
                     <statement>

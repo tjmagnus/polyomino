@@ -1017,7 +1017,7 @@
   </subsection>
   <subsection xml:id="subsec-starpolys-generalizing">
     <title>Making Conjectures and Generalizations about Star Polygons</title>
-    <introduction>
+    <!-- <introduction> -->
       <p>
         By now, you may be able to predict what a star polygon <m>\{_{k}^{n}\}</m>looks like simply by 
         analyzing relationships between <m>n</m> and <m>k</m>. In <xref ref="expl-starpolys-general"/>,
@@ -1037,7 +1037,7 @@
             foundational to general, conjecture to justification.
         </p>
       </aside>
-    </introduction>
+    <!-- </introduction> -->
     <exploration xml:id="expl-starpolys-general" label="expl-label-starpolys-general">
       <introduction>
         <p>
