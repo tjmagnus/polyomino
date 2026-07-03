@@ -97,13 +97,13 @@
                 measurements? Experiment with moving center <m>E</m> or some 
                 of the vertices of <m>ABCD</m>. Does your conjecture still hold?
             </p>
+            <aside>
+                <p>
+                    For smaller fonts, measure segments instead of the distance between 
+                    points. The <sq>Segment</sq> tool is provided.
+                </p>
+            </aside>     
         </statement>
-        <aside>
-            <p>
-                For smaller fonts, measure segments instead of the distance between 
-                points. The <sq>Segment</sq> tool is provided.
-            </p>
-        </aside>
     </task>
     <task>
         <statement>

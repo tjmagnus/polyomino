@@ -513,7 +513,7 @@
   </subsection>
   <subsection xml:id="subsec-starpoly-sevenplus">
     <title>Exploring Star Polygons with Seven to Ten Vertices</title>
-    <introduction>
+    <!-- <introduction> -->
       <p>
         We have observed that star polygons may look like regular polygons, overlapping
         rotated copies of regular polygons, or an intersection of line segments. One more 
@@ -522,7 +522,7 @@
         the numbers <m>n</m> and <m>k</m>. Make conjectures and test them as you work through
         the exploration.  
       </p>
-    </introduction>
+    <!-- </introduction> -->
 <!--Move to instructor's guide subsection?-->
       <aside component="instructor">
           <p>
@@ -591,13 +591,8 @@
             Match the star polygon on the left with the star polygon on the right that 
             is the same.
           </p>
-        </statement>
-        <feedback>
-          <p>
-            Consider which five-dot and six-dot star polygons looked the same. Why? If you 
-            are not sure, construct the remaining seven-dot star polygons.
-          </p>
-        </feedback>
+
+
         <cardsort>
           <match>
             <premise><m>\{_{4}^{7}\}</m></premise>
@@ -612,6 +607,13 @@
             <response order="2"><m>\{_{1}^{7}\}</m></response>
           </match>
         </cardsort>
+                </statement>
+                <hint>
+          <p>
+            Consider which five-dot and six-dot star polygons looked the same. Why? If you 
+            are not sure, construct the remaining seven-dot star polygons.
+          </p>
+        </hint>
       </task>
       <task label="expltask-starpolys-8dots-l" xml:id="expltask-starpolys-8dots">
         <title>Eight-dot star polygons.</title>
