@@ -70,7 +70,7 @@
                     Solving this expression requires an expansion of <m>(x+y)^2</m>
                     before we can subtract <m>2xy</m>. One correct way of writing 
                     this is the following.
-                <me>(x+y)^2-2xy=(x+y)(x+y)-2xy=x^2+2xy+y^2-2xy=x^2+y^2.</me>
+                <md>(x+y)^2-2xy=(x+y)(x+y)-2xy=x^2+2xy+y^2-2xy=x^2+y^2.</md>
                 </p>
                 <p>
                     One might also write <m>(x+y)^2=(x+y)(x+y)=x^2+2xy+y^2</m> and 
@@ -80,7 +80,7 @@
         </example>
         <p>
             In <xref ref="example-simplify"/>, one should avoid writing 
-            <me>(x+y)^2=x^2+2xy+y^2-2xy=x^2+y^2</me> because the two expressions on 
+            <md>(x+y)^2=x^2+2xy+y^2-2xy=x^2+y^2</md> because the two expressions on 
             either side of the first equal sign are not equal, the expression <m>2xy</m>
             has been subtracted in the second expression, but not the first. 
         </p>
@@ -212,10 +212,10 @@
             <p>
                 Note that the distributive law also allows us to add fractions 
                 with a common denominator;
-                <me>
+                <md>
                     \frac{x}{d}+\frac{y}{d}=\frac{1}{d}\cdot x+\frac{1}{d}\cdot y
                     =\frac{1}{d}(x+y)=\frac{x+y}{d}.
-                </me>
+                </md>
                 In short, <m>\frac{x}{d}+\frac{y}{d}=\frac{x+y}{d}.</m>
             </p>
         </statement>
@@ -416,14 +416,14 @@
             </answer>
             <solution>
                 <p>
-                    To solve <me>x^3-5x^2=6x</me>, we first use 
+                    To solve <md>x^3-5x^2=6x</md>, we first use 
                     <xref ref="principle-addition-equality" text="title"/> to subtract 
                     <m>6x</m> from both sides of the equation so that the
-                    right side of the equation is 0. Thus,<me>x^3-5x^2-6x=0</me>. 
+                    right side of the equation is 0. Thus,<md>x^3-5x^2-6x=0</md>. 
                     By <xref ref="principle-distributive" text="title"/>, 
-                    <me>x(x-6)(x+1)=(x^2-6x)(x+1)=x^3-6x^2+x^2-6x=x^3-5x^2-6x</me>. 
+                    <md>x(x-6)(x+1)=(x^2-6x)(x+1)=x^3-6x^2+x^2-6x=x^3-5x^2-6x</md>. 
                     Substituting into our earlier equation, we see  
-                    <me>x(x-6)(x+1)=0</me>. Therefore, <xref ref="principle-zero-product"
+                    <md>x(x-6)(x+1)=0</md>. Therefore, <xref ref="principle-zero-product"
                     text="title"/>
                     informs us that one of the following must be true: <m>x=0</m>, 
                     <m>x-6=0</m>, or <m>x+1=0</m>. Solving each of these for <m>x</m> 

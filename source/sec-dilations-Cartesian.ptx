@@ -584,13 +584,13 @@
                     <li>
                         <m>\Delta ABC</m> and <m>\Delta DEF</m> have three pairs 
                         of congruent corresponding angles 
-                        <me>\angle A\cong\angle D, \angle B\cong \angle E, 
-                        \angle C\cong \angle F</me>
+                        <md>\angle A\cong\angle D, \angle B\cong \angle E, 
+                        \angle C\cong \angle F</md>
                     </li>
                     <li>
                         and the ratios of the three pairs of corresponding 
                         sides are equal 
-                        <me>\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}</me>.  
+                        <md>\frac{DE}{AB}=\frac{EF}{BC}=\frac{FD}{CA}</md>.  
                     </li>
                 </ul>
             </p>

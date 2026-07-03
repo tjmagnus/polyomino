@@ -12,14 +12,14 @@
       </q> function, <m>g(x)=4x</m>. You also learned that you could perform two functions in succession.
       For example, you could perform the <q>add three</q> function on the number <m>1</m> and then 
       perform the <q>multiply by 4</q> function on the result. 
-      <me>
+      <md>
         1 \overset{x+3}{\rightarrow} 4  \overset{4x}{\rightarrow} 16
-      </me>
+      </md>
       In function notation, we may write  <m>g(f(1))=g(1+3)=g(4)=4(4)=16</m> where we perform 
       the inner function first. We may also perform these operations on a generic value <m>x</m>:
-      <me>g(f(x))=g(x+3)=4(x+3)=4x+12.</me> We note the importance of order. If we multiply by 4
+      <md>g(f(x))=g(x+3)=4(x+3)=4x+12.</md> We note the importance of order. If we multiply by 4
       first and add 3 second, we get a different result:
-      <me>f(g(x))=f(4x)=(4x)+3=4x+3.</me>
+      <md>f(g(x))=f(4x)=(4x)+3=4x+3.</md>
     </p>
     <p>
       We now explore what happens when we compose geometric transformations. We could compose any 
@@ -45,15 +45,15 @@
       <p>
         The process of performing the two processing in succession can be written
       </p>
-      <me>
+      <md>
           P \overset{s}\rightarrow s(P) \overset{t}\rightarrow t(s(P))
-      </me>
+      </md>
       <p>
         or more simply as
       </p>
-      <me>
+      <md>
           P \overset{s}\rightarrow P' \overset{t}\rightarrow P''.
-      </me>
+      </md>
       <p>
         Note that in the composition <m>P \rightarrow s(t(P))</m>, we perform the inside function 
         <m>t</m> before the outer function <m>s</m>.
