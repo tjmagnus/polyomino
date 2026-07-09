@@ -357,37 +357,37 @@
             <row bottom="minor">
               <cell>square</cell>
               <cell>4</cell>
-              <cell><fillin characters="3" answer="2" /></cell>
-              <cell><fillin  answer="360" /></cell>
-              <cell><fillin answer="90" /></cell>
+              <cell><fillin characters="3" answer="2" mode="number"/></cell>
+              <cell><fillin  answer="360" mode="number"/></cell>
+              <cell><fillin answer="90" mode="number"/></cell>
             </row>
             <row bottom="minor">
               <cell>regular pentagon</cell>
               <cell>5</cell>
-              <cell><fillin  answer="3" /></cell>
-              <cell><fillin  answer="540" /></cell>
-              <cell><fillin  answer="108" /></cell>
+              <cell><fillin  answer="3" mode="number"/></cell>
+              <cell><fillin  answer="540" mode="number"/></cell>
+              <cell><fillin  answer="108" mode="number"/></cell>
             </row>
             <row bottom="minor">
               <cell>regular hexagon</cell>
               <cell>6</cell>
-              <cell><fillin  answer="4" characters="3" /></cell>
-              <cell><fillin  answer="720"  /></cell>
-              <cell><fillin  answer="120" /></cell>
+              <cell><fillin  answer="4" characters="3" mode="number"/></cell>
+              <cell><fillin  answer="720"  mode="number"/></cell>
+              <cell><fillin  answer="120" mode="number"/></cell>
             </row>
             <row bottom="minor">
               <cell>regular octagon</cell>
               <cell>8</cell>
-              <cell><fillin  answer="6" /></cell>
-              <cell><fillin  answer="1080" /></cell>
-              <cell><fillin  answer="135" /></cell>
+              <cell><fillin  answer="6" mode="number"/></cell>
+              <cell><fillin  answer="1080" mode="number"/></cell>
+              <cell><fillin  answer="135" mode="number"/></cell>
             </row>
             <row bottom="minor">
               <cell>regular decagon</cell>
               <cell>10</cell>
-              <cell><fillin  answer="8" /></cell>
-              <cell><fillin  answer="1440" /></cell>
-              <cell><fillin  answer="144" /></cell>
+              <cell><fillin  answer="8" mode="number"/></cell>
+              <cell><fillin  answer="1440" mode="number"/></cell>
+              <cell><fillin  answer="144" mode="number"/></cell>
             </row>
             <row>
               <cell>regular <m>n</m>-gon</cell>
@@ -606,7 +606,7 @@ What mode is needed for the last row?-->
           How many equilateral triangles can meet at a single point
           without overlapping? This point will be a common vertex for the triangles. 
         </p>
-         <fillin characters="1" answer="6" width="1" />
+         <fillin characters="1" answer="6" width="1" mode="number"/>
         </statement>
         <evaluation>
             <evaluate>
@@ -622,7 +622,7 @@ What mode is needed for the last row?-->
           <p>
             How many squares can meet at a single point?
            </p>
-           <fillin characters="1" answer="4" width="1" />
+           <fillin characters="1" answer="4" width="1" mode="number"/>
         </statement>
         <evaluation>
             <evaluate>
@@ -638,7 +638,7 @@ What mode is needed for the last row?-->
           <p>
             How many regular hexagons can meet at a single point?
           </p>
-          <fillin characters="1" answer="3" width="1" />
+          <fillin characters="1" answer="3" width="1" mode="number"/>
         </statement>
         <evaluation>
             <evaluate>
@@ -664,7 +664,7 @@ What mode is needed for the last row?-->
             When we tried to surround a point with regular pentagons a 
             gap was formed. What is the degree measure of that gap?
           </p>
-          <fillin characters="3" answer="36" width="3" />
+          <fillin characters="3" answer="36" width="3" mode="number"/>
         </statement>
         <evaluation>
             <evaluate>
@@ -915,45 +915,45 @@ math to be computed?-->
           <p>
             heptagon (7 sides)
           </p>
-          <fillin characters="3" answer="900/7" width="3" />
+          <fillin characters="3" answer="900/7" width="3" mode="number"/>
         </li>
         <li>
           <p>
             nonagon (9 sides)
           </p>
-          <fillin characters="3" answer="140" width="3" />
+          <fillin characters="3" answer="140" width="3" mode="number"/>
         </li>
         <li>
           <p>
             dodecagon (12 sides)
           </p>
-          <fillin characters="3" answer="150" width="3" />
+          <fillin characters="3" answer="150" width="3" mode="number"/>
         </li>
         <li>
           <p>
             pentakaidecagon (15 sides)
           </p>
-          <fillin characters="3" answer="156" width="3" />
+          <fillin characters="3" answer="156" width="3" mode="number"/>
         </li>
         <li>
           <p>
             octakaidecagon (18 sides)
           </p>
-          <fillin characters="3" answer="160" width="3" />
+          <fillin characters="3" answer="160" width="3" mode="number" />
         </li>
         <li>
           <p>
             icosagon (20 sides)
           </p>
-          <fillin characters="3" answer="162" width="3" />
+          <fillin characters="3" answer="162" width="3" mode="number"/>
         </li>
         <li>
           <p>tetrakaicosaigon (24 sides)</p>
-          <fillin characters="3" answer="165" width="3" />
+          <fillin characters="3" answer="165" width="3" mode="number"/>
         </li>
         <li>
           <p>tetracontakaidigon (42 sides)</p>
-          <fillin characters="3" answer="1200/7" width="3" />
+          <fillin characters="3" answer="1200/7" width="3" mode="number"/>
         </li>
       </ol>
     </p>
@@ -1230,12 +1230,12 @@ at the two base angles.-->
             <ul cols="2" marker="">
               <li>
                 <p>
-                  <m>m = </m> <fillin answer="4" />
+                  <m>m = </m> <fillin answer="4" mode="number"/>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>n = </m> <fillin answer="12" /> 
+                  <m>n = </m> <fillin answer="12" mode="number"/> 
                 </p>
               </li>
             </ul>
@@ -1462,7 +1462,7 @@ The example had three answers and I have two.
           of the angle measures at that vertex? Note that this wording generalizes this  
           fact to nonregular polygons as well.
         </p>
-        <fillin characters="3" answer="360" width="3" />
+        <fillin characters="3" answer="360" width="3" mode="number"/>
       </statement>
       <evaluation>
         <evaluate>
@@ -1565,7 +1565,7 @@ The example had three answers and I have two.
             <p>
               A triangle.
             </p>
-            <fillin characters="3" answer="180" width="3" />
+            <fillin characters="3" answer="180" width="3" mode="number"/>
           </statement>
           <evaluation>
               <evaluate>
@@ -1581,7 +1581,7 @@ The example had three answers and I have two.
             <p>
               A convex quadrilateral.
             </p>
-            <fillin characters="3" answer="360" width="3" />
+            <fillin characters="3" answer="360" width="3" mode="number"/>
           </statement>
           <evaluation>
             <evaluate>
@@ -1597,7 +1597,7 @@ The example had three answers and I have two.
             <p>
               A convex 11-gon.
             </p>
-            <fillin characters="3" answer="1620" width="3" />
+            <fillin characters="3" answer="1620" width="3" mode="number"/>
           </statement>
           <evaluation>
             <evaluate>
@@ -1613,7 +1613,7 @@ The example had three answers and I have two.
             <p>
               A convex 50-gon.
             </p>
-            <fillin characters="3" answer="8640" width="3" />
+            <fillin characters="3" answer="8640" width="3" mode="number"/>
           </statement>
           <evaluation>
             <evaluate>

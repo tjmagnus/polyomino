@@ -774,7 +774,7 @@ for random problem generation?-->
                         you know?
                       </p>
                     </statement>
-                    <response/>
+                    <!-- <response/> -->
                     <hint>
                       <p>
                         How can you create rectangle <m>MHGN</m> from cutting and 
@@ -1094,7 +1094,7 @@ for random problem generation?-->
                 Note that solid lines are used to represent lengths of whole units 
                 and dashed lines represent fractional lengths
               </p>
-                  <!--<image component="web" source="hw-mixed-num-areamodel.svg" width="40%">
+                  <image component="web" source="hw-mixed-num-areamodel.svg" width="40%">
                     <shortdescription>
                       A 3 by 2 rectangle. The side of length 2 is split into one whole unit and five 
                       fifths. The side of length 3 is split into two whole units and three thirds. 
@@ -1103,7 +1103,7 @@ for random problem generation?-->
                       Four one-fifth by one rectangles are pink and there are four green one third by 
                       one-fifth rectangles forming a 2/3 by 2/5 rectangle.
                     </shortdescription>
-                  </image>-->
+                  </image>
                   <figure xml:id="ExtConc-mixednum-areamodel">
                     <caption>Area Model for <m>2 \frac{2}{3}\times 1\frac{2}{5}</m></caption>
                   <image source="hw-mixed-num-areamodel.png" width="40%">
@@ -1200,7 +1200,7 @@ for random problem generation?-->
                 of length 4x. A vertical line cuts the rectangle between these two segments.
               </shortdescription>
             </image>
-            <image component="print" source="hw1-binomareamodel.png" width="40%">
+            <!-- <image component="print" source="hw1-binomareamodel.png" width="40%">
               <shortdescription>
                 A rectangle cut into four subrectangles. The left side is made up of a 
                 segment of length 7 plus a segment of length 
@@ -1208,7 +1208,7 @@ for random problem generation?-->
                 The bottom edge is composed of a segment of length 5 plus a segment 
                 of length 4x. A vertical line cuts the rectangle between these two segments.
               </shortdescription>
-            </image>
+            </image> -->
           </figure>
         </exercise>
         <exercise label="ExtConc-intro-exp-probability-l" xml:id="ExtConc-intro-exp-probability">

@@ -294,8 +294,7 @@
         <shortdescription>
           An equilateral triangle joining vertices one, three, and five.
         </shortdescription>
-        <prefigure xmlns="https://prefigure.org" label="imlabel-6-2-starpoly-step1" 
-          xml:id="im-6-2-starpoly-step1">
+        <prefigure xmlns="https://prefigure.org" label="imlabel-6-2-starpoly-step1" >
           <diagram width="300" height="300" margins="5">
             <definition>
               alignments=['nw','sw','s','se','ne','n']
@@ -357,8 +356,7 @@
           A six two star polygon formed from two equilateral triangles, one joining odd 
           numbered vertices and the other joining even numbered vertices.
         </shortdescription>
-        <prefigure xmlns="https://prefigure.org" label="imlabel-6-2-starpoly" 
-          xml:id="im-6-2-starpoly">
+        <prefigure xmlns="https://prefigure.org" label="imlabel-6-2-starpoly" >
           <diagram width="300" height="300" margins="5">
             <definition>
               alignments=['nw','sw','s','se','ne','n']
@@ -444,8 +442,7 @@
             <caption>Template for drawing a six-vertex star polygon.</caption>
             <image>
               <shortdescription>Six dots around a circle.</shortdescription>
-              <prefigure xmlns="https://prefigure.org" label="imlabel-6dots-starpoly" 
-                xml:id="im-6dots-starpoly">
+              <prefigure xmlns="https://prefigure.org" label="imlabel-6dots-starpoly" >
                 <diagram width="300" height="300" margins="5">
                   <definition>
                     alignments=['nw','sw','s','se','ne','n']
@@ -553,8 +550,7 @@
             <caption>Templates for <xref ref="expltask-starpolys-7"/>.</caption>
             <sidebyside>
                 <image>
-                  <prefigure xmlns="https://prefigure.org" label="sevendotcircle1" 
-                  xml:id="sevendotcircle">
+                  <prefigure xmlns="https://prefigure.org" label="sevendotcircle1" >
                     <xi:include href="pref-for-7-dot-circle.ptx" />
                   </prefigure>
                 </image> 
@@ -1286,8 +1282,7 @@
                   <figure xml:id="twelvedotstarpolytemplate">
                     <caption>Twelve-dot template.</caption>
                     <image>
-                      <prefigure xmlns="https://prefigure.org" label="twelvedot4circle" 
-                      xml:id="twelvedotcircle">
+                      <prefigure xmlns="https://prefigure.org" label="twelvedot4circle" >
                         <xi:include href="pref-for-12-dot-circle.ptx" />
                       </prefigure>
                     </image> 
@@ -1295,8 +1290,7 @@
                   <figure xml:id="fifteendotstarpolytemplate">
                     <caption>Fifteen-dot template.</caption>
                     <image>
-                      <prefigure xmlns="https://prefigure.org" label="fifteendot5circle" 
-                      xml:id="fifteendot5circle">
+                      <prefigure xmlns="https://prefigure.org" label="fifteendot5circle">
                         <xi:include href="pref-for-15-dot-circle.ptx" />
                       </prefigure>
                     </image> 
@@ -1389,8 +1383,7 @@
                   <figure xml:id="twelvedotstarpolytemplate2">
                     <caption>Twelve-dot template.</caption>
                     <image>
-                      <prefigure xmlns="https://prefigure.org" label="twelvedot3circle" 
-                      xml:id="twelvedot3circle">
+                      <prefigure xmlns="https://prefigure.org" label="twelvedot3circle" >
                         <xi:include href="pref-for-12-dot-circle.ptx" />
                       </prefigure>
                     </image> 
@@ -1398,8 +1391,7 @@
                   <figure xml:id="twentydotstarpolytemplate">
                     <caption>Twenty-dot template.</caption>
                     <image>
-                      <prefigure xmlns="https://prefigure.org" label="twentydot5circle" 
-                      xml:id="twentydot5circle">
+                      <prefigure xmlns="https://prefigure.org" label="twentydot5circle" >
                         <xi:include href="pref-for-20-dot-circle.ptx" />
                       </prefigure>
                     </image> 
@@ -1443,8 +1435,7 @@
               <figure xml:id="fifteendotstarpolytemplate2">
                 <caption>Twelve-dot template.</caption>
                 <image>
-                  <prefigure xmlns="https://prefigure.org" label="fifteendot6circle" 
-                  xml:id="fifteendot6circle">
+                  <prefigure xmlns="https://prefigure.org" label="fifteendot6circle" >
                     <xi:include href="pref-for-15-dot-circle.ptx" />
                   </prefigure>
                 </image> 
@@ -1452,8 +1443,7 @@
               <figure xml:id="twentydotstarpolytemplate2">
                 <caption>Twenty-dot template.</caption>
                 <image>
-                  <prefigure xmlns="https://prefigure.org" label="twentydot8circle" 
-                  xml:id="twentydot8circle">
+                  <prefigure xmlns="https://prefigure.org" label="twentydot8circle" >
                     <xi:include href="pref-for-20-dot-circle.ptx" />
                   </prefigure>
                 </image> 
@@ -1910,8 +1900,7 @@ connected component. Symmetry? Measurement?-->
           <figure xml:id="fig-starpoly-eight-three">
             <caption>The star polygon <m>\{_{3}^{8}\}</m>.</caption>
             <image>
-              <prefigure label="prefiglabel-starpoly-eight-three"
-              xml:id="pfimage-starpoly-eight-three">
+              <prefigure label="prefiglabel-starpoly-eight-three">
                 <diagram  width="300" height="300" margins="5">
                   <definition> f(t)=(-sin(2*pi*(1+t)/8),cos(2*pi*(1+t)/8)) </definition>
                   <coordinates bbox="[-1.4,-1.4,1.4,1.4]">

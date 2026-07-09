@@ -1089,7 +1089,6 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                   <caption>A sample isosceles obtuse triangle <m>ABC</m>.</caption>
                   <image>
                     <prefigure xmlns="https://prefigure.org" label="pref-isos-obtuse-tri" >
-                      <!-- xml:id="prefid-isos-obtuse-tri"> -->
                       <xi:include href="prefcode-isos-obtuse-tri.ptx" />
                   </prefigure>
                   </image>
@@ -1113,8 +1112,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 <figure xml:id="fig-equilateral-rhombus">
                   <caption>A sample rhombus <m>ABCD</m>.</caption>
                   <image>
-                    <prefigure xmlns="https://prefigure.org" label="pref-equi-rhom60" 
-                      xml:id="pref-equi-rhom60">
+                    <prefigure xmlns="https://prefigure.org" label="pref-equi-rhom60" >
                       <xi:include href="prefcode-equi-rhom60.ptx" />
                   </prefigure>
                   </image>
@@ -1143,8 +1141,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 <figure xml:id="fig-equiangular-nonequilateral-hexagon-">
                   <caption>A sample hexagon <m>ABCDEF</m>.</caption>
                   <image>
-                    <prefigure xmlns="https://prefigure.org" label="pref-equiang-hexagon" 
-                      xml:id="pref-equiang-hexagon">
+                    <prefigure xmlns="https://prefigure.org" label="pref-equiang-hexagon" >
                       <xi:include href="prefcode-equiang-hexagon.ptx" />
                   </prefigure>
                   </image>
@@ -1173,8 +1170,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 <figure xml:id="fig-concave-quadrilateral-">
                   <caption>A sample concave quadrilateral <m>ABCD</m>.</caption>
                   <image>
-                    <prefigure xmlns="https://prefigure.org" label="pref-concave-quad" 
-                      xml:id="pref-concave-quad">
+                    <prefigure xmlns="https://prefigure.org" label="pref-concave-quad" >
                       <xi:include href="prefcode-concave-quad.ptx" />
                   </prefigure>
                   </image>
@@ -1504,8 +1500,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
               <figure xml:id="fig-equiangular-rectangle-">
                 <caption>A sample rectangle <m>ABCD</m>.</caption>
                 <image>
-                  <prefigure xmlns="https://prefigure.org" label="pref-equiang-rectangle" 
-                    xml:id="pref-equiang-rectangle">
+                  <prefigure xmlns="https://prefigure.org" label="pref-equiang-rectangle" >
                     <xi:include href="prefcode-equiang-rectangle.ptx" />
                   </prefigure>
                 </image>
@@ -1593,8 +1588,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
               <figure xml:id="fig-rectangle-equal-area-perim">
                 <caption>A sample 6 x 3 rectangle <m>ABCD</m>.</caption>
                 <image>
-                  <prefigure xmlns="https://prefigure.org" label="pref-rect-equal-area-perim" 
-                    xml:id="pref-rect-equal-area-perim">
+                  <prefigure xmlns="https://prefigure.org" label="pref-rect-equal-area-perim" >
                     <xi:include href="prefcode-rect-equal-area-perim.ptx" />
                   </prefigure>
                 </image>

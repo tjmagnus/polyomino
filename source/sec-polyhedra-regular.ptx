@@ -864,8 +864,7 @@
                       <figure xml:id="fig-net-cube-">
                         <caption>A sample net for a cube.</caption>
                         <image>
-                          <prefigure xmlns="https://prefigure.org" label="pref-net-cube6" 
-                            xml:id="pref-net-cube6">
+                          <prefigure xmlns="https://prefigure.org" label="pref-net-cube6" >
                             <xi:include href="prefcode-net-cube6.ptx" />
                           </prefigure>
                         </image>
