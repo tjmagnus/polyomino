@@ -203,7 +203,7 @@
             <task label="SnellLaw-compute-anglemeasureBFC-20-l">
                 <statement>
                     <p>
-                        <m>m(\angle BFC) = </m><fillin ansobj="70" mode="number" width="3" />
+                        <m>m(\angle BFC) = <fillin characters="3" /></m>
                     </p>
                 </statement>
                 <evaluation>
@@ -234,7 +234,7 @@
             <task label="SnellLaw-compute-anglemeasureGFD-20-l">
                 <statement>
                     <p>
-                        <m>\angle GFD=</m><fillin answer="70" mode="number" width="3"/>
+                        <m>\angle GFD=<fillin  characters="3"/> </m>
                     </p>
                 </statement>
                 <evaluation>
@@ -264,7 +264,7 @@
             <task label="SnellLaw-compute-anglemeasureGFC-20-l">
                 <statement>
                     <p>
-                        <m>\angle GFC = </m><fillin answer="70" mode="number" width="3"/>
+                        <m>\angle GFC = <fillin characters="3"/> </m>
                     </p>
                 </statement>
                 <evaluation>
@@ -294,7 +294,7 @@
             <task label="SnellLaw-compute-anglemeasureGFH-20-l">
                 <statement>
                     <p>
-                        <m>\angle GFH = </m><fillin answer="70" mode="number" width="3"/>
+                        <m>\angle GFH = <fillin characters="3"/> </m>
                     </p>
                 </statement>
                 <evaluation>
@@ -324,7 +324,7 @@
             <task label="SnellLaw-compute-anglemeasureEGF-20-l">
                 <statement>
                     <p>
-                        <m>\angle EGF =</m><fillin answer="70" mode="number" width="3"/>
+                        <m>\angle EGF =<fillin characters="3"/> </m>
                     </p>
                 </statement>
                 <evaluation>
@@ -356,7 +356,7 @@
             <task label="SnellLaw-compute-anglemeasureDGE-20-l">
                 <statement>
                     <p>
-                        <m>\angle DGE =</m><fillin answer="70" mode="number" width="3"/>
+                        <m>\angle DGE =<fillin characters="3"/> </m>
                     </p>
                 </statement>
                 <evaluation>

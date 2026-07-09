@@ -125,14 +125,14 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         as the base of the large triangle. 
       </shortdescription>
     </image>
-    <image component="print" source="tangram_pieces.png">
+    <!--<image component="print" source="tangram_pieces.png">
       <shortdescription>
         Seven tangram shapes. The triangles are all isosceles right triangles and the parallelogram 
         is equilateral. The small triangles can be arranged to fill either the square, 
         the parallelogram, or the medium triangle. The hypotenuse of the medium triangle is the same 
         as the base of the large triangle. 
       </shortdescription>
-    </image>
+    </image>-->
   </figure>
   <p> 
     To complete this exploration, you will need to move the seven tangram pieces 
@@ -145,14 +145,13 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   </p>
 </introduction>
 
-<section xml:id="area-tangram-section">
+<task xml:id="area-tangram-section">
   <title>Areas of Tangram Shapes</title>
   <introduction>
       <p>
         Assume that the length of each side of the square is 1 unit. Determine the area of each of the figures:
       </p>
   </introduction>
-  <taskgroup>
     <task>
       <statement>
         <p>The area of the square.</p>
@@ -184,12 +183,10 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         <p>The area of the large triangle.</p>
       </statement>
     </task>
-  </taskgroup>
-</section>
+  </task>
 
-<section xml:id="side-lengths-section">
+<task xml:id="side-lengths-section">
   <title>Side Lengths of Tangram Shapes</title>
-  <taskgroup>
     <task>
       <statement>
         <p>Still assuming that the length of each side of the square is 1 unit, now find the lengths of the sides of the other tangram shapes. You may use the Pythagorean Theorem, but it is possible to determine these lengths without it!</p>
@@ -198,17 +195,15 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         <p>Use the Pythagorean Theorem if preferred. This will be explored in a later section of the book.</p>
       </hint>
     </task>
-  </taskgroup>
-</section>
+  </task>
 
-<section xml:id="construct-shapes-section">
+<task xml:id="construct-shapes-section">
   <title>Constructing Shapes with Tangrams</title>
   <introduction>
       <p>
         Construct each of the following if possible:
       </p>
   </introduction>
-  <taskgroup>
     <task>
       <statement>
         <p>
@@ -265,10 +260,9 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </p>
       </statement>
     </task>
-  </taskgroup>
-</section>
+  </task>
 
-<section xml:id="reflection-section">
+<task xml:id="reflection-section">
   <title>Reflection</title>
   <task>
     <statement>
@@ -278,7 +272,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       <p>What tools do we have in our toolbox? How can these help?</p>
     </hint>
   </task>
-</section>
+</task>
 
 </exploration>
 
@@ -320,17 +314,17 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           one obtuse angle.
         </shortdescription>
       </image>
-      <image component="print" source="righttrapezoid.png">
+      <!--<image component="print" source="righttrapezoid.png">
         <shortdescription>
           A trapezoid with two right angles, one acute angle, and 
           one obtuse angle.
         </shortdescription>
-      </image>
+      </image>-->
     </figure>
     <figure>
       <caption>A concave pentagon.</caption>
       <image component="web" source="concavepentagon.svg"/>
-      <image component="print" source="concavepentagon.png"/>
+      <!--<image component="print" source="concavepentagon.png"/>-->
     </figure>
   </sidebyside>
 </figure>
@@ -363,11 +357,11 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           A figure formed by line segments with a gap remaining.
         </shortdescription>
       </image>
-      <image component="print" source="unclosed.png">
+      <!-- <image component="print" source="unclosed.png">
         <shortdescription>
           A figure formed by line segments with a gap remaining.
         </shortdescription>
-      </image>
+      </image> -->
     </figure>
     <figure>
       <caption>Curved edges</caption>
@@ -377,12 +371,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           some curved sides. 
         </shortdescription>
       </image>
-      <image component="print" source="acurvedside.png"> 
+      <!-- <image component="print" source="acurvedside.png">  
         <shortdescription>
           A closed figure consisting of some straight sides and 
           some curved sides. 
         </shortdescription>
-      </image>
+      </image>-->
     </figure>
   </sidebyside>
 </figure>
@@ -1094,8 +1088,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
               <figure xml:id="fig-isosceles-obtuse-def">
                   <caption>A sample isosceles obtuse triangle <m>ABC</m>.</caption>
                   <image>
-                    <prefigure xmlns="https://prefigure.org" label="pref-isos-obtuse-tri" 
-                      xml:id="prefid-isos-obtuse-tri">
+                    <prefigure xmlns="https://prefigure.org" label="pref-isos-obtuse-tri" >
+                      <!-- xml:id="prefid-isos-obtuse-tri"> -->
                       <xi:include href="prefcode-isos-obtuse-tri.ptx" />
                   </prefigure>
                   </image>
@@ -1506,7 +1500,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </p>
           </answer>
           <solution>
-            <p>
+            
               <figure xml:id="fig-equiangular-rectangle-">
                 <caption>A sample rectangle <m>ABCD</m>.</caption>
                 <image>
@@ -1516,7 +1510,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                   </prefigure>
                 </image>
               </figure>
-            </p>
+            
             <p>
               A rectangle is classified as an equiangular quadrilateral because all its angles are congruent at 90 degrees.
               However, a rectangle is not always equilateral because its sides are not necessarily the same length. In rectangle
@@ -1595,7 +1589,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </p>
       </answer>
       <solution>
-            <p>
+            
               <figure xml:id="fig-rectangle-equal-area-perim">
                 <caption>A sample 6 x 3 rectangle <m>ABCD</m>.</caption>
                 <image>
@@ -1605,7 +1599,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                   </prefigure>
                 </image>
               </figure>
-            </p>
+            
             <p>
               For rectangle <m>ABCD</m> with a length of 6 units and a width of 3 units, its area (<m>6 \cdot 3 = 18</m>) and
               its perimeter (<m>6 + 3 + 6 + 3 = 18</m>) are numerically equal. However, when side lengths are tripled to 18 and
