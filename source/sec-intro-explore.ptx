@@ -19,15 +19,15 @@
     </p>
     <p>
       Perhaps this course would be easier for you if you were simply told 
-      how to solve the problems, but the objective of this course is not 
+      how to solve the problems. However, the objective of this course is not 
       to learn facts and methods, but rather to develop your mathematical 
       thinking and communication skills.  In this age of technology, 
       computers can do many of the algorithms and processes that were at one 
-      time the core of mathematics education. However, they have not yet replaced man’s 
-      role of developing strategies to solve problems and recognizing when 
-      mathematics can be applied to real-world situations.  Developing these 
+      time the core of mathematics education. However, humans still have a role
+      in recognizing when mathematics can be applied to real-world situations and 
+      in developing creative strategies to solve problems.  Developing these 
       reasoning skills will help you more in your future than simply being able 
-      to quote a Theorem or follow rules. On the other hand, it is still useful to 
+      to quote a theorem or follow rules. On the other hand, it is still useful to 
       know important geometrical theorems like the Pythagorean Theorem. You should 
       be able to recognize when it can 
       (and cannot) be used to solve both elementary and complex problems.  This 
@@ -60,7 +60,7 @@
         </p>
       </blockquote>
     <p>
-      So I encourage you to embrace the experience that is mathematics.  
+      So I encourage you, my readers, to embrace the experience that is mathematics.  
       Approach each puzzle with an open mind, make guesses as to what is 
       happening, and experiment to determine whether your ideas are correct.  
       Play with the materials and the concepts and ask new questions.  In this 
@@ -95,7 +95,8 @@
           <p>
             To use the interactive tool, click and drag the L-shape to create a new 
             copy of the shape. Use the large dot, to rotate the copy. Arrange copies  
-            to cover the blue square. This may also be done on paper. 
+            to cover the blue square. This activity may also be done on paper using a
+            <m>4 \times 4</m> grid and an L-tile formed from four unit squares. 
           </p>
         <interactive xml:id="Lfillsquare" 
         iframe="https://www.mathigon.org/polypad/embed/OqM1coKhvKsMuw" 
@@ -125,7 +126,7 @@
           <p>
             Pictured below are the four other tetrominoes: 
             an I-shape, a Z-shape, a T-shape,
-            and a small square. Like the L-shape, some of these can cover the 
+            and a small square. Like the L-shape, some of these can on their own cover the 
             larger square without overlaps or gaps. Identify which tetrominoes 
             will tile one of the larger squares and show how this can be done. If there 
             are any tetrominoes which cannot tile the square alone, explain 
@@ -135,7 +136,7 @@
             Once again in the application, 
             copies of the I-shape, Z-shape, T-shape, and small square 
             can be created by clicking the shape and dragging. Four larger squares are 
-            provided; try to tile one with the I-shape, one with the Z-shape, etc.
+            provided; try to tile one square grid with the I-shape, one with the Z-shape, etc.
           </p>
 <!--
           <image component="web" source="whichtetromino.svg">
@@ -240,7 +241,7 @@
       <task label="intro-explore-exptask-hiddenapp-pentominofilling-l" xml:id="intro-explore-exptask-hiddenapp-pentominofilling">
         <statement>
           <p>
-            Use some of the pentominoes you created to 
+            Use the set of pentominoes you created in <xref ref="intro-explore-exptask-create-pentominoes"/> to 
             build solid rectangles. The hint below gives 
             access to an interactive tool.
             <ul>
@@ -248,7 +249,7 @@
                 <p>
                   What dimensions are possible? Does it matter 
                   whether you restrict yourself to never using
-                  a pentomino more than once in a rectangle?
+                  any one pentomino more than once in a rectangle?
                 </p>
               </li>
               <li>
@@ -261,7 +262,8 @@
           </p>
         </statement>
         <hint>
-          <p> Use the interactive Polypad activity below or access a fullscreen 
+          <p> If you do not have access to a set of pentominoes, you may use the 
+            interactive Polypad activity below or access a fullscreen 
             version at Polypad by Amplify using the link  
             <url href="https://mathigon.org/polypad/TDXu2UNNZgwh2Q">Pentomino Set
             </url>.
@@ -390,7 +392,7 @@
       <task label="intro-explore-exptask-tripleVtile-l" xml:id="intro-explore-exptask-tripleVtile">
         <statement>
           <p>
-            On the other hand, it is possible to create a copy of the V tile that is 
+            It is possible to create a copy of the V tile that is 
             three times the height 
             and width of the basic V tile by filling it with nine distinct pentominoes.
             <ol>
@@ -418,7 +420,7 @@
       xml:id="intro-explore-exptask-grwthsummary">
         <statement>
           <p>
-            What happens to the area of a figure when its height and width of are doubled?  tripled?  
+            What happens to the area of a figure when its height and width are both doubled?  tripled?  
             How does the number of basic pentominoes needed to fill the figure change?
           </p>
         </statement>
