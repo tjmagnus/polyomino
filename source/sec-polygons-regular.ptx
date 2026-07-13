@@ -312,8 +312,8 @@
             <task xml:id="regular-pentagon-convex-nonconvex-task" label="regular-pentagon-convex-nonconvex-label">
               <statement>
                 <p>
-                  Some of what you found, but not all, will be true for all convex 
-                  pentagons. What results about angle measure will also hold for 
+                  Some of these properties, but not all, will be true for any convex 
+                  pentagon. What results about angle measure will also hold for 
                   non-regular convex pentagons? What will be different?
                 </p>
               </statement>
@@ -389,9 +389,10 @@
               <cell><fillin  answer="1440" mode="number"/></cell>
               <cell><fillin  answer="144" mode="number"/></cell>
             </row>
+<!--Should the final row be omitted, resized, or is there a way to make it fill-in?-->
             <row>
               <cell>regular <m>n</m>-gon</cell>
-              <cell><m>n</m></cell>
+              <cell><m>n-2</m></cell>
               <cell></cell>
               <cell></cell>
               <cell></cell>

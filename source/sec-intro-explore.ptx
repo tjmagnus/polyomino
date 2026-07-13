@@ -11,11 +11,11 @@
       taken in the past.  You will be encouraged to explore geometrical ideas, 
       solve puzzles, make conjectures, discuss with classmates, make connections 
       between ideas, explain your solutions, and justify your reasoning.  You 
-      should not expect to be shown how to solve problems by the instructions. In 
-      fact, there may not be one single right way to complete some of the 
+      should not expect to be shown rigid methods for solving problems. In 
+      fact, there often is not be one single right way to complete 
       problems but rather many acceptable ways of coming to a solution.  Your 
-      teacher will encourage you to share these alternative approaches with the 
-      class. 
+      teacher will encourage you to explore your ideas and share alternative 
+      approaches with your class. 
     </p>
     <p>
       Perhaps this course would be easier for you if you were simply told 
@@ -23,15 +23,16 @@
       to learn facts and methods, but rather to develop your mathematical 
       thinking and communication skills.  In this age of technology, 
       computers can do many of the algorithms and processes that were at one 
-      time the core of mathematics education. However, they have not replaced man’s 
+      time the core of mathematics education. However, they have not yet replaced man’s 
       role of developing strategies to solve problems and recognizing when 
       mathematics can be applied to real-world situations.  Developing these 
       reasoning skills will help you more in your future than simply being able 
-      to quote the  Theorem. On the other hand, it is still useful to 
-      know the Pythagorean Theorem so that you are able to recognize when it can 
+      to quote a Theorem or follow rules. On the other hand, it is still useful to 
+      know important geometrical theorems like the Pythagorean Theorem. You should 
+      be able to recognize when it can 
       (and cannot) be used to solve both elementary and complex problems.  This 
       theorem along with some other basic formulas you have learned in the past 
-      (and can look up online) form a toolbox for our work, but we will give more 
+      (and can look up online) will form a toolbox for our work, but we will give more 
       emphasis to the creative process that is mathematics.  
     </p>
     <p>
@@ -63,9 +64,10 @@
       Approach each puzzle with an open mind, make guesses as to what is 
       happening, and experiment to determine whether your ideas are correct.  
       Play with the materials and the concepts and ask new questions.  In this 
-      course, you might even be invited to explore a question you posed instead 
+      course, you might even be invited to explore a question you asked instead 
       of the one the teacher originally posed!  Mathematics is not just about finding the answer; 
-      even when there is an answer, our work should evoke new questions: Why? What else? 
+      even when there is an answer, our work should evoke new questions: Why? Under what 
+      circumstances? What else? 
     </p>
     </subsection>
     <subsection>
@@ -74,13 +76,11 @@
       <title>Tiling Rectangles with Polyominoes</title>
       <introduction>
         <p>
-          Although this task is to fill a box, you are encouraged to think 
-          outside the box as you do this activity. You will find that a 
-          willingness to take chances and try out different strategies will  
-          be essential to your success in this course. Taking time to reflect 
-          as you respond to the "why" questions and sharing your ideas with 
-          your classmates will also contribute 
-          greatly to your learning. Have fun!
+          This task simply asks you to fill a box, but you are encouraged to think 
+          outside the box as you do this activity. Take chances and try out different 
+          strategies as the challenge increases. Take time to reflect 
+          as you respond to the "why" questions and be prepared to share your ideas with 
+          your classmates. Have fun!
         </p>
       </introduction>
       <task label="intro-explore-exptask-LpentFillSquare-l" xml:id="intro-explore-exptask-LpentFillSquare">
