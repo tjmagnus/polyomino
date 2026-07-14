@@ -430,12 +430,12 @@
   <subsection xml:id="subsec-reflect-exp-pentrect">
       <title>Learning from the Explorations</title>
         <p>
-          The purpose of <xref ref="intro-explore-exp-pentrect"/> is two-fold. It introduces the exploratory 
-          nature of the course and it also suggests a few important geometric facts and definitions that 
-          we will use as our initial geometrical foundation. These facts are chosen because  
+          The purpose of <xref ref="intro-explore-exp-pentrect"/> and 
+          <xref ref="intro-explore-exp-MoreExpPentominoes"/> is two-fold. They introduce the exploratory 
+          nature of the course and suggest a few important geometric facts and definitions that 
+          we will use as our initial geometrical foundation. These facts have been chosen because  
           they are intuitively obvious, but they give us some building blocks we will need to 
-          justify more complex ideas. We state them here for clarity and future reference beginning 
-          with a definition for area.
+          justify more complex ideas. We state them here for clarity and future reference.
         </p>
         <definition xml:id="def-area">
           <idx><h>area</h></idx>
@@ -450,7 +450,7 @@
           We noted that each tetromino was made up of four unit squares and 
           each pentomino consisted of five unit squares; thus 
           the area of a tetromino is four square units and the area of a 
-          pentomino is five square units. We also recalled the area formula for 
+          pentomino is five square units. We also applied the area formula for 
           a rectangle.
         </p>
         <!--<principle xml:id="principle-arearect">
@@ -467,18 +467,17 @@
           <statement>
             <p>
               The area <m>A</m> of a rectangle is the product of its length <m>\ell</m>
-              and its width <m>w</m>; in symbols, <m>A=\ell \times w</m>.
+              and its width <m>w</m>; in symbols, <me>A=\ell \times w</me>.
             </p>
           </statement>
         </axiom>
         <p>
-          Another observation is that if you can fill a closed region with smaller 
-          shapes so that none of the smaller shapes overlap and no part of the region 
-          is left uncovered, then the area of the region is equal to the sum of the 
+          Another observation is that if you can completely fill a closed region with smaller 
+          non-overlapping shapes, then the area of the region is equal to the sum of the 
           areas of the smaller shapes. While this may seem like a simple idea, we will  
           see that it allows us to determine the area formulas of other geometric  
           shapes and to prove the Pythagorean Theorem. We can dissect <idx><h>dissect</h></idx> 
-          a shape into smaller shapes, rearrange the pieces into another shape, and argue 
+          a shape into smaller shapes, rearrange the pieces into another shape, and assert 
           that the two regions have equal area because they both consist of the same 
           collection of smaller shapes.
         </p>
@@ -498,7 +497,7 @@
           have an area of five square units, we could only construct rectangles with areas 
           divisible by 5, namely 5, 15, 20, 25, 30, 35, 40, 45, 50, 55, and 60. 
           <fn>To construct a rectangle of area 10, the same pentomino must be used twice.</fn>
-          In the same way, any shape made up entirely of tetrominoes must have an area 
+          In the same way, any shape filled entirely with non-overlapping tetrominoes must have an area 
           divisible by 4.
         </p>
         <p>
@@ -524,7 +523,7 @@
           </hint>
           <answer>
             <p>
-              When <m>L=3/ell</m> and <m>W=3w</m>, the area is 
+              When <m>L=3\ell</m> and <m>W=3w</m>, the area is 
               <m>LW=(3\ell)(3w)=(3\cdot 3)(\ell w)=9\ell w.
               </m>
             </p>
