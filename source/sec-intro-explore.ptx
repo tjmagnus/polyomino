@@ -652,6 +652,7 @@
             <p>
               Determine the area of each shape in <xref ref="builtrects"/>.
             </p>
+<!--redraw figure so that lengths are easier to read.-->
             <figure xml:id="builtrects">
               <caption>Shapes for <xref ref="SAR-intro-exp-areas"/></caption>
               <image source="findareaeasy">
