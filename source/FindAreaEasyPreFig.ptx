@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<diagram xmlns="https://prefigure.org" width="450" height="225" margins="5">
-  <coordinates bbox="(-10,-5,10,5)">
+<diagram xmlns="https://prefigure.org" width="450" height="250" margins="5">
+  <coordinates bbox="(-10,-5,10,7)">
     <polygon points="((-9,-1),(-9,1),(-6,1),(-6,4),(-4,4),(-4,1),(-1,1),(-1,-1),(-4,-1),(-4,-4),(-6,-4),(-6,-1))" 
              closed="yes"
-             stroke="black"/>
+             stroke="black" />
       <label anchor="(-8.3,-0.5)" alignment="east" scale="0.8">3 in.</label>
       <label anchor="(-5,-4.5)" alignment="c" scale="0.8">2 in.</label>
+      <label anchor="(-1,0)" alignment="e" scale="0.8">2 in.</label>
+      <label anchor="(-1,0)" alignment="e" scale="0.8">2 in.</label>
       <label anchor="(-2.5,-0.5)" alignment="c" scale="0.8">3 in.</label>
       <label anchor="(-4,-2.5)" alignment="e" scale="0.8">3 in.</label>
       <label anchor="(-4,2.5)" alignment="e" scale="0.8">3 in.</label>
+      <label anchor="(-5,6)" alignment="c"><b>Shape 1</b></label>
+
     <polygon points="((1,1),(1,4),(8,4),(8,-4),(6,-4),(6,2),(5,2),(5,1))"
              closed="yes"
              stroke="black"/>
       <label anchor="(1,2.5)" alignment="w" scale="0.8">3 in.</label>
       <label anchor="(5,4.5)" alignment="w" scale="0.8">7 in.</label>
-      <label anchor="(4.8,2.1)" alignment="w" rotate="90" scale="0.8">1 in.</label>
+      <label anchor="(4.95,1.6)" alignment="w" scale="0.8">1 in.</label>
       <label anchor="(5.5,2.4)" alignment="c" scale="0.8">1 in.</label>
       <label anchor="(7,-4.5)" alignment="c" scale="0.8">2 in.</label>
       <label anchor="(8,0)" alignment="e" scale="0.8">8 in.</label>
+      <label anchor="(4.5,6)" alignment="c"><b>Shape 2</b></label>
   </coordinates>
 </diagram>
+
+<!--Add annotations for accessibility.-->

@@ -467,7 +467,7 @@
           <statement>
             <p>
               The area <m>A</m> of a rectangle is the product of its length <m>\ell</m>
-              and its width <m>w</m>; in symbols, <me>A=\ell \times w</me>.
+              and its width <m>w</m>; in symbols, <md>A=\ell \times w</md>.
             </p>
           </statement>
         </axiom>
@@ -650,26 +650,22 @@
         <exercise label="intro-exp-SAR-areas-l" xml:id="SAR-intro-exp-areas">
           <introduction>
             <p>
-              Determine the area of each shape in <xref ref="builtrects"/>.
+              The two polygons in <xref ref="builtrects"/> can be dissected into rectangles.
             </p>
-<!--redraw figure so that lengths are easier to read.-->
+
             <figure xml:id="builtrects">
-              <caption>Shapes for <xref ref="SAR-intro-exp-areas"/></caption>
-              <image source="findareaeasy">
-                <shortdescription>
-                  Shape 1 is a cross formed by two equal length intersecting bars. Each 
-                  bar is 2 inches by 8 inches so that their intersection is a 2 by 2 square. 
-                  Shape 2 is more irregular, close to a rotated L-shape with a 1 by 1 square 
-                  removed near where the legs meet. One leg of the L is 8 inches long and 2 inches wide. The other is 7 
-                  inches long and 3 inches wide. 
-                </shortdescription>
-              </image>
+                <caption>Finding area of concave polygons.</caption>
+                <image>
+                  <prefigure xmlns="https://prefigure.org" label="AreaDissectionTwoExercises" >
+                    <xi:include href="FindAreaEasyPreFig.ptx" />
+                  </prefigure>
+                </image> 
             </figure>
           </introduction>
           <task >
             <statement>
               <p>
-                Shape 1
+               Determine the area of Shape 1 in <xref ref="builtrects"/>.
               </p>
             </statement>
             <hint>
@@ -696,7 +692,7 @@
           <task>
             <statement>
               <p>
-                Shape 2
+                Determine the area of Shape 2 in <xref ref="builtrects"/>.
               </p>
             </statement>
             <answer>
