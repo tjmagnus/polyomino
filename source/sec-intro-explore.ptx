@@ -713,7 +713,9 @@
         <exercise label="intro-exp-SAR-standardpolygonarea-l" xml:id="SAR-intro-exp-standardpolygonarea">
 <!--Consider splitting this problem up into three focusing on the triangle, parallelogram, 
 and trapezoid separately. Use PreFigure to create three separate figures. Will this allow 
-for random problem generation?-->          
+for random problem generation?-->
+<!--Write instructor's note regarding how this foreshadows the exploration in a later section. Will this 
+diminish the challenge?-->          
           <introduction>
             <p>
               Refer to <xref ref="fig-exer-introbasicshape-area"/>
