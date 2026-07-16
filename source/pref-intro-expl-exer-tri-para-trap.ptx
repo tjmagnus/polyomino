@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<diagram xmlns="https://prefigure.org" width="540" height="360" margins="5">
+  <coordinates bbox="(-1,-1,30,19)">
+    <triangle vertices="((1,15),(7,15),(7,1))" labels="A,D,C" fill-opacity="0.7"
+              fill="steelblue"
+             closed="yes"
+             stroke="black" 
+              show-vertices="yes" point-fill="black"/>
+    <polygon points="((1,15),(1,1),(7,1))" dash="6 6" stroke="gray"/>
+    <point p="(1,1)" size="4" fill="black" alignment="sw"><m>B</m></point>
+      <label anchor="(4,17)" alignment="c"><m>\Delta ADC</m></label>
+      <label anchor="(4,15)" alignment="n" scale="0.8">6 cm.</label>
+      <label anchor="(7,8)" alignment="e" scale="0.8">14 cm.</label>
+
+    <polygon points="(11,15),(21,15),(25,9),(15,9)" labels="E,F,G,H" alignments="nw,n,s,sw" fill-opacity="0.5" 
+              fill="red" closed="yes" stroke="black"/>
+    <point p="(11,15)" size="4" fill="black" alignment="n"><m>E</m></point>
+    <point p="(25,9)" size="4" fill="black" alignment="e"><m>G</m></point>
+    <point p="(21,15)" size="4" fill="black" alignment="n"><m>F</m></point>
+    <point p="(15,9)" size="4" fill="black" alignment="w"><m>H</m></point>
+      <label anchor="(20,9)" scale="0.8" alignment="s">10 cm.</label>
+    
+    <point p="(25,15)" size="4" fill="black" alignment="ne"><m>N</m></point>
+    <point p="(15,15)" size="4" fill="black" alignment="n"><m>M</m></point>
+
+    <path start="(15,15)" dash="6 6" stroke="gray">
+      <lineto point="(15,9)"/>
+      </path>
+    <path start="(21,15)" dash="6 6" stroke="gray">
+       <horizontal distance="4"/>
+       <vertical distance="-6"/>
+      </path>
+      <label anchor="(25,12)" scale="0.8" alignment="e">6 cm.</label>
+      <label anchor="(23,15)" scale="0.8" alignment="n">4 cm.</label>
+    <label anchor="(16,17)" alignment="c"><b>Parallelogram</b> <m>EFGH</m></label>
+      
+  </coordinates>
+</diagram>
