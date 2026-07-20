@@ -723,7 +723,10 @@ diminish the challenge?-->
             </p>
             <figure xml:id="fig-exer-introbasicshape-area">
               <caption>Shapes for <xref ref="SAR-intro-exp-standardpolygonarea"/></caption>
-              <image source="basicshapesareaproblem">
+              <image>
+                  <prefigure xmlns="https://prefigure.org" label="AreaDissectionTwoExercises" >
+                    <xi:include href="FindAreaEasyPreFig.ptx" />
+                  </prefigure>
                 <shortdescription>
                   The first two shapes are described in the problem. Trapezoid IJKL 
                   in the third problem consists of a right triangle OJI and rectangle  

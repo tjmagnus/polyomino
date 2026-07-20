@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <diagram xmlns="https://prefigure.org" width="540" height="360" margins="5">
-  <coordinates bbox="(-1,-1,30,19)">
+  <coordinates bbox="(-1,-2,30,18)">
     <triangle vertices="((1,15),(7,15),(7,1))" labels="A,D,C" fill-opacity="0.7"
               fill="steelblue"
              closed="yes"
@@ -13,12 +11,13 @@
       <label anchor="(4,15)" alignment="n" scale="0.8">6 cm.</label>
       <label anchor="(7,8)" alignment="e" scale="0.8">14 cm.</label>
 
+<!--parallelogram starts here -->
     <polygon points="(11,15),(21,15),(25,9),(15,9)" labels="E,F,G,H" alignments="nw,n,s,sw" fill-opacity="0.5" 
               fill="red" closed="yes" stroke="black"/>
-    <point p="(11,15)" size="4" fill="black" alignment="n"><m>E</m></point>
-    <point p="(25,9)" size="4" fill="black" alignment="e"><m>G</m></point>
-    <point p="(21,15)" size="4" fill="black" alignment="n"><m>F</m></point>
-    <point p="(15,9)" size="4" fill="black" alignment="w"><m>H</m></point>
+      <point p="(11,15)" size="4" fill="black" alignment="n"><m>E</m></point>
+      <point p="(25,9)" size="4" fill="black" alignment="e"><m>G</m></point>
+      <point p="(21,15)" size="4" fill="black" alignment="n"><m>F</m></point>
+      <point p="(15,9)" size="4" fill="black" alignment="w"><m>H</m></point>
       <label anchor="(20,9)" scale="0.8" alignment="s">10 cm.</label>
     
     <point p="(25,15)" size="4" fill="black" alignment="ne"><m>N</m></point>
@@ -34,6 +33,24 @@
       <label anchor="(25,12)" scale="0.8" alignment="e">6 cm.</label>
       <label anchor="(23,15)" scale="0.8" alignment="n">4 cm.</label>
     <label anchor="(16,17)" alignment="c"><b>Parallelogram</b> <m>EFGH</m></label>
-      
+
+<!--trapezoid starts here-->
+  <polygon points="(10,1),(16,7),(26,7),(26,1)" labels="J,I,L,K" alignments="sw,nw,ne,se" fill-opacity="0.4" 
+              fill="lightgreen" closed="yes" stroke="black"/>
+    <point p="(10,1)" size="4" fill="black" alignment="sw"><m>J</m></point>
+    <point p="(16,7)" size="4" fill="black" alignment="w"><m>I</m></point>
+    <point p="(26,7)" size="4" fill="black" alignment="e"><m>L</m></point>
+    <point p="(26,1)" size="4" fill="black" alignment="se"><m>K</m></point>
+    <point p="(16,1)" size="4" fill="black" alignment="ne"><m>O</m></point>  
+  <path start="(16,7)" dash="6 6" stroke="gray">
+       <vertical distance="-6"/>
+      </path>
+      <label anchor="(13,1)" scale="0.8" alignment="n">6 cm.</label>
+      <label anchor="(21,1)" scale="0.8" alignment="n">10 cm.</label>
+      <label anchor="(21,7)" scale="0.8" alignment="s">10 cm.</label>
+      <label anchor="(26,4)" scale="0.8" alignment="e">6 cm.</label>
+      <label anchor="(16,0.7)" scale="0.8" alignment="s">16 cm.</label>
+      <label anchor="(18,-1)" alignment="c" ><b>Trapezoid</b> <m>IJKL</m></label>>
+
   </coordinates>
 </diagram>
