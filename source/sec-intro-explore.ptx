@@ -635,6 +635,20 @@
             </statement>
             <!--<response />-->
           </exercise>
+          <exercise label="toolbox-intro-exp-hexomino" xml:id="toolbox-intro-exp-hexomino-x">
+          <statement>
+            <p>
+              A hexomino is constructed from six <m>1 \times 1</m> squares. 
+              Explain why it is impossible to construct a solid rectangle with area twenty 
+              using non-overlapping hexomino tiles.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              What is the area of each hexomino? How does that affect the total area?
+            </p>
+          </hint>
+        </exercise>
         </subexercises>  
         <subexercises xml:id="SAR-intro-exp">
         <title>Skills and Recall</title>
@@ -724,8 +738,8 @@ diminish the challenge?-->
             <figure xml:id="fig-exer-introbasicshape-area">
               <caption>Shapes for <xref ref="SAR-intro-exp-standardpolygonarea"/></caption>
               <image>
-                  <prefigure xmlns="https://prefigure.org" label="AreaDissectionTwoExercises" >
-                    <xi:include href="FindAreaEasyPreFig.ptx" />
+                  <prefigure xmlns="https://prefigure.org" label="AreaDissectionBasicShapes" >
+                    <xi:include href="pref-intro-expl-exer-tri-para-trap.ptx" />
                   </prefigure>
                 <shortdescription>
                   The first two shapes are described in the problem. Trapezoid IJKL 
@@ -755,7 +769,7 @@ diminish the challenge?-->
               xml:id="intro-exp-SAR-stdpolyarea-recttoparallelogram">
                 <introduction>
                   <p>
-                    In <xref ref="fig-exer-introbasicshape-area"/>, parallelogram has base 10 cm
+                    In <xref ref="fig-exer-introbasicshape-area"/>, parallelogram <m>EFGH</m> has base 10 cm
                     and height 6 cm, points <m>M</m> and <m>N</m> lie on <m>\overleftrightarrow{EF}</m>
                     with <m>\angle{HMF}</m> and <m>\angle{GNF}</m> being right angles. 
                   </p>
@@ -849,20 +863,7 @@ diminish the challenge?-->
             </p>
           </answer>
         </exercise>
-        <exercise label="SAR-intro-exp-hexomino" xml:id="SAR-intro-exp-hexomino">
-          <statement>
-            <p>
-              A hexomino is constructed from six <m>1 \times 1</m> squares. 
-              Explain why it is impossible to construct a solid rectangle with area twenty 
-              using non-overlapping hexomino tiles.
-            </p>
-          </statement>
-          <hint>
-            <p>
-              What is the area of each hexomino? How does that affect the total area?
-            </p>
-          </hint>
-        </exercise>
+
         <exercise label="SAR-intro-exp-heptominoarea-l" xml:id="SAR-intro-exp-heptominoarea">
           <statement>
             <p>
@@ -884,8 +885,8 @@ diminish the challenge?-->
             xml:id="SAR-intro-exp-areaRect10Pentom">
             <statement>
               <p>
-                Show that it is possible to construct a rectangle of area 10 
-                using pentominoes if you are allowed to reuse the same tile.
+                Use a sketch to construct a rectangle of area 10 
+                using multiple copies of a single pentomino.
               </p>
             </statement>
           </task>
@@ -895,7 +896,7 @@ diminish the challenge?-->
               <p>
                 Show that if you are allowed to use copies of the same pentomino 
                     tile multiple times you can construct a rectangle of area  <m>5n</m>  
-                    for every whole number  <m>n</m>. 
+                    for <b>every</b> whole number <m>n</m>. 
               </p>
             </statement>
             <hint>
@@ -906,19 +907,7 @@ diminish the challenge?-->
             </hint>
           </task>
         </exercise>
-        <exercise label="SAR-intro-exp-rectsfromtetrominoes-l" xml:id="SAR-intro-exp-rectsfromtetrominoes">
-          <statement>
-            <p>
-              Sketch all the different rectangles with no gaps or overlaps 
-              that can be created by a 
-              single set of five tetrominoes. 
-              You don't have to use all of the tetrominoes in each rectangles 
-              and you may use  
-              a new set of tetrominoes for each rectangle; however no rectangle 
-              will use a single tile more than once.
-            </p>
-          </statement>
-        </exercise>
+
         <exercise xml:id="SAR-intro-exp-SAR-areamodel">
           <title>The Area Model for Multiplication</title>
           <introduction>
@@ -950,11 +939,29 @@ diminish the challenge?-->
       <subexercises xml:id="ExtConc-intro-exp">
         <title>Extending the Concepts</title>
         <!--exercises on patterns of polyominoes: "snake polyominoes?, branches?, etc."-->
+        <exercise label="ExtConc-intro-exp-rectsfromtetrominoes-l" xml:id="ExtConc-intro-exp-rectsfromtetrominoes">
+          <statement>
+            <p>
+              Experiment with a set of tetrominoes to sketch all the different rectangles 
+              that can be covered with no gaps or overlaps. 
+              You don't have to use all of the tetrominoes in each rectangle 
+              and you may use  
+              a new set of tetrominoes for each rectangle; however no rectangle 
+              will use a single tile more than once.
+            </p>
+            <p>
+              Record a sketch of each rectangle showing how the pentominoes fit together and label the
+              dimensions of the rectangle.
+            </p>
+          </statement>
+        </exercise>
         <exercise xml:id="ExtConc-intro-exp-areamodel-twodigit">
           <title>Area Model for Two-digit Numbers</title>
           <introduction>
             <p>
-              Multiplication of two-digit numbers can be represented 
+              In <xref ref="SAR-intro-exp-SAR-areamodel"/>, you showed how to use an area model to represent
+              multiplication of numbers. The role of place value in the multiplication of two-digit numbers 
+              can also be represented 
               using the area model: for example, to multiply 47 by 25 we can represent 
               47 as 4 tens and 7 ones and 25 as 2 tens and 5 ones.  We then can sketch 
               the product as shown in <xref ref="fig-hw2digit-rectangle"/>.  
@@ -1001,8 +1008,8 @@ diminish the challenge?-->
           xml:id="ExtConc-intro-exp-areamodel-twodigit-4subrects">
             <statement>
               <p>
-                Determine the area of each of the four subrectangles pictured. Here, the squares 
-                on the grid are not <m>1\times 1</m> but defined by the notations on the sides.
+                Determine the area of each of the four subrectangles pictured in <xref ref="fig-hw2digit-rectangle"/>. 
+                Here, the squares on the grid are not <m>1\times 1</m> but defined by the notations on the sides.
               </p>
             </statement>
             <hint>
@@ -1016,7 +1023,7 @@ diminish the challenge?-->
           xml:id="ExtConc-intro-exp-areamodel-twodigit-sum">
             <statement>
               <p>
-                Add the four areas of the subrectangles together to find the total area.
+                Add the four areas of the subrectangles to find the total area.
               </p>
             </statement>
           </task>
@@ -1026,7 +1033,7 @@ diminish the challenge?-->
               <p>
                 The standard algorithm to multiply  <m>47 \times 25</m> is shown
                 in <xref ref="fig-twodigitalgorithm"/>.   
-                Identify what the 235 and 940 in the algorithm represent in the area 
+                Identify what the values 235 and 940 in the algorithm represent in the area 
                 model pictured at the beginning of this exercise.
               </p>
             </statement>
@@ -1046,9 +1053,10 @@ diminish the challenge?-->
           <title>Multiplication of Multidigit Numbers</title>
           <statement>
             <p>
-              Sketch an area model illustration of the product <m>2132\times 51</m>,
+              Sketch an area model illustration of the product <m>1235\times 57</m>,
               not necessarily drawn to scale, but with each side length broken down 
-              into thousands, hundreds, tens, and ones as appropriate. Demonstrate 
+              into thousands, hundreds, tens, and ones as appropriate. Use your sketch
+              together with words and computations to demonstrate 
               how this area model can be used to compute the product.
             </p>
           </statement>
@@ -1064,7 +1072,7 @@ diminish the challenge?-->
           <title>Modeling the Multiplication of Fractions and Mixed Numbers</title>
           <introduction>
             <p>
-              Each side of the square, pictured in <xref ref="fig-unitsquare"/> 
+              Each side of the square, pictured in <xref ref="fig-unitsquare"/> below,
               has a length of 1. 
             </p>
           </introduction>
@@ -1086,16 +1094,17 @@ diminish the challenge?-->
                 </image>
               </figure>
             </statement>
+            <hint>
+              <p>
+                The dots along the edges of the square should be helpful.
+              </p>
+            </hint>
           </task>
           <task label="ExtConc-intro-exp-areamodel-mixnumcompute-l" xml:id="ExtConc-intro-exp-areamodel-mixnumcompute">
             <statement>
               <p>
                 The sketch in <xref ref="ExtConc-mixednum-areamodel"/>
-                shows a model of <m>2\frac{2}{3} \times 1 \frac{2}{5}</m>.  
-                Compute the areas of each of the four shaded regions 
-                (blue, orange, pink, and green), and then compute the total. 
-                Note that solid lines are used to represent lengths of whole units 
-                and dashed lines represent fractional lengths
+                shows an area model of <m>2\frac{2}{3} \times 1 \frac{2}{5}</m>.  
               </p>
                   <image component="web" source="hw-mixed-num-areamodel.svg" width="40%">
                     <shortdescription>
@@ -1120,16 +1129,40 @@ diminish the challenge?-->
                     </shortdescription>
                   </image>
                 </figure>
+                <task>
+                  <statement>
+                    <p>
+                      On the unshaded grid, indicate a vertical side length of <m>2 \frac{2}{3}</m> and a horizontal
+                      side length of <m>1 \frac{2}{5}</m>. A curly bracket or highlighter might be used to make this
+                      visible.
+                    </p>
+                  </statement>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Separately, determine the areas in each of the four colored regions: blue, orange, pink, and green.
+                    </p>
+                  </statement>
+                  </task>
+                <task>
+                  <statement>
+                    <p>
+                      Add the areas of the four colored regions. How does the sum of the areas relate to <m>2 \frac{2}{3}\times 1\frac{2}{5}</m>?
+                    </p>
+                  </statement>
+                  </task>
               </statement>
           </task>
           <task label="ExtConc-intro-exp-areamodel-fraction-usemodel-l" 
             xml:id="ExtConc-intro-exp-areamodel-fraction-usemodel-l">
             <statement>
               <p>
-                Draw an area model of  <m>\frac{2}{5} \times \frac{3}{4}</m> by dividing 
-                the unit length into fifths and the unit width into fourths.
+                Starting with a sufficiently large unit square, draw an area model of  
+                <m>\frac{2}{5} \times \frac{3}{4}</m>. Be sure to divide 
+                the unit length into fifths along one side and the unit width into fourths along the other.
                 Shade and compute the product.  Explain how you find the numerator 
-                and denominator of the unsimplified fraction from the sketch.
+                and denominator of the unsimplified fraction from your sketch.
               </p>
             </statement>
             <hint>
@@ -1148,6 +1181,28 @@ diminish the challenge?-->
               The sketch in <xref ref="fig-areamodel-polynomials"/> illustrates a 
               product of polynomials.
             </p>
+          <figure xml:id="fig-areamodel-polynomials">
+            <caption>An area model for the expression <m>(7 + x)(5 + 4x)</m>.</caption>
+            <!--Consider rebuilding this image in PreFigure.-->
+            <image component="web" source="hw1-binomareamodel.svg" width="40%">
+              <shortdescription>
+                A rectangle cut into four subrectangles. The left side is made up of a 
+                segment of length 7 plus a segment of length 
+                x with a horizontal line cutting the rectangle between these two segments. 
+                The bottom edge is composed of a segment of length 5 plus a segment 
+                of length 4x. A vertical line cuts the rectangle between these two segments.
+              </shortdescription>
+            </image>
+            <!-- <image component="print" source="hw1-binomareamodel.png" width="40%">
+              <shortdescription>
+                A rectangle cut into four subrectangles. The left side is made up of a 
+                segment of length 7 plus a segment of length 
+                x with a horizontal line cutting the rectangle between these two segments. 
+                The bottom edge is composed of a segment of length 5 plus a segment 
+                of length 4x. A vertical line cuts the rectangle between these two segments.
+              </shortdescription>
+            </image> -->
+          </figure>
           </introduction>
           <task label="ExtConc-intro-exp-areamodel-polynomials-xheight-l" 
           xml:id="ExtConc-intro-exp-areamodel-polynomials-xheight">
@@ -1192,27 +1247,7 @@ diminish the challenge?-->
               </p>
             </statement>
           </task>
-          <figure xml:id="fig-areamodel-polynomials">
-            <caption>An area model for the expression <m>(7 + x)(5 + 4x)</m>.</caption>
-            <image component="web" source="hw1-binomareamodel.svg" width="40%">
-              <shortdescription>
-                A rectangle cut into four subrectangles. The left side is made up of a 
-                segment of length 7 plus a segment of length 
-                x with a horizontal line cutting the rectangle between these two segments. 
-                The bottom edge is composed of a segment of length 5 plus a segment 
-                of length 4x. A vertical line cuts the rectangle between these two segments.
-              </shortdescription>
-            </image>
-            <!-- <image component="print" source="hw1-binomareamodel.png" width="40%">
-              <shortdescription>
-                A rectangle cut into four subrectangles. The left side is made up of a 
-                segment of length 7 plus a segment of length 
-                x with a horizontal line cutting the rectangle between these two segments. 
-                The bottom edge is composed of a segment of length 5 plus a segment 
-                of length 4x. A vertical line cuts the rectangle between these two segments.
-              </shortdescription>
-            </image> -->
-          </figure>
+
         </exercise>
         <exercise label="ExtConc-intro-exp-probability-l" xml:id="ExtConc-intro-exp-probability">
           <title>Area in Probability</title>
@@ -1271,6 +1306,19 @@ diminish the challenge?-->
                 bar, centered above the number 5, has height 6 to illustrate the 
                 fact that there are six ways of rolling a sum of 5.
               </p>
+              <figure xml:id="histogram-exercise">
+              <caption>Frequency of sums of tetrahedral dice rolls</caption>
+            <image source="histogram">
+              <shortdescription>
+                A symmetric histogram graph is shown. The following rectangular bars appear on the 
+                graph, each with width 1 and base on the x-axis. Above the number 3 and 
+                above the number 12, sits a rectangle with
+                height 1. Above both 4 and 11, the bar's height is 3. Above both 5 and 10, the 
+                height is 6. Above both 6 and 9, the height is 10. And above both 7 and 8, 
+                the height is 12.
+              </shortdescription>
+            </image>
+          </figure>
             </introduction>
             <task label="ExtConc-intro-exp-probability-histogramtotal-l"
               xml:id="ExtConc-intro-exp-probability-histogramtotal">
@@ -1310,19 +1358,7 @@ diminish the challenge?-->
               </p>
             </statement>
           </task>
-            <figure xml:id="histogram-exercise">
-              <caption>Frequency of sums of tetrahedral dice rolls</caption>
-            <image source="histogram">
-              <shortdescription>
-                A symmetric histogram graph is shown. The following rectangular bars appear on the 
-                graph, each with width 1 and base on the x-axis. Above the number 3 and 
-                above the number 12, sits a rectangle with
-                height 1. Above both 4 and 11, the bar's height is 3. Above both 5 and 10, the 
-                height is 6. Above both 6 and 9, the height is 10. And above both 7 and 8, 
-                the height is 12.
-              </shortdescription>
-            </image>
-          </figure>
+            
         </task>
         </exercise>
       </subexercises>
