@@ -19,68 +19,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "extpfeil",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/extpfeil",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js/lib"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
+<meta name="twitter:title" content="Polyominoes, Polygons, and Polyhedra">
+<meta property="og:title" content="Polyominoes, Polygons, and Polyhedra">
 <meta property="book:title" content="Polyominoes, Polygons, and Polyhedra">
-<meta property="book:author" content="Teresa D. Magnus">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<meta name="twitter:description" content="Discovering Geometry through Exploration">
+<meta property="og:description" content="Discovering Geometry through Exploration">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.43"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -102,16 +57,16 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.8';
+eBookConfig.runestone_version = '8.2.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
-<script src="_static/pretext/js/diagcess/diagcess.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/prefix-runtime.ed2cce180827a7ad.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.18fa7ea1d9f376c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
+<script src="_static/pretext/js/dist/diagcess/diagcess.js"></script><script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
@@ -119,24 +74,41 @@ eBookConfig.enable_chatcodes =  false;
 <h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
 <p class="byline">Teresa D. Magnus</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
-<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
-<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
-<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
-<div class="search-results-controls">
-<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-<h2 class="search-results-heading">Search Results: </h2>
-<div id="searchempty" class="searchempty"><span>No results.</span></div>
-<ol id="searchresults" class="searchresults"></ol>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
 </div>
-</div>
-<span class="nav-other-controls"><button id="embed-button" class="embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><div class="embed-popup hidden" id="embed-popup">
+<span class="nav-other-controls"><button id="ptx-embed-button" class="ptx-embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><dialog class="ptx-dialog ptx-embed-popup" id="ptx-embed-popup"><div class="ptx-embed-popup-controls">
 <p>Copy the code below to embed this page in your own website or LMS page.</p>
-<div class="embed-code-container">
-<textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+<button class="ptx-embed-close-button button" id="ptx-embed-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
+<div class="ptx-embed-code-container">
+<textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-polyhedra-regular.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-polyhedra.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-polyhedra-Prisms-Cylinders.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="sec-polyhedra-regular.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-polyhedra.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-polyhedra-Prisms-Cylinders.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -145,10 +117,10 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter">
 <div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-frontmatter" class="structural toc-item-list">
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-biography"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">About Teresa Magnus</span></a></div></li>
 <li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Dedication</span></a></div></li>
@@ -159,10 +131,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Invitation to Geometrical Thinking</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-intro" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-intro-explore.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Invitation to Explore</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-intro-explore" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-To-The-Student" class="internal"><span class="codenumber">1.1.1</span> <span class="title">To The Student</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#sec-intro-explore-3" class="internal"><span class="codenumber">1.1.2</span> <span class="title">First Exploration</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-explore.html#subsec-reflect-exp-pentrect" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Learning from the Explorations</span></a></div></li>
@@ -172,7 +144,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-intro-apply.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Invitation to Apply Knowledge</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-intro-apply" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-BuildingToolbox" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Building a Course Toolbox</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-apply.html#intro-apply-subsec-definingpolygons" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Defining Polygons</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-intro-apply.html#exercises-vocab-intro-apply" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Vocabulary</span></a></div></li>
@@ -181,7 +153,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-intro-share.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Invitation to Share our Discoveries</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-intro-share" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#sec-intro-share-2" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Identifying a Pattern</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-explainconjectures" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Conjectures and Explanations in Mathematics</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-share.html#subsec-letter" class="internal"><span class="codenumber">1.3.3</span> <span class="title">A Sample Explanatory Letter</span></a></div></li>
@@ -190,7 +162,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-intro-struggle.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Invitation to Overcome Challenges</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-intro-struggle" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-2" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Growing through Persistance</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#subsec-intro-struggle-reflect" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Confronting the Challenge</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-intro-struggle.html#sec-intro-struggle-4" class="internal"><span class="codenumber">1.4.3</span> <span class="title">A Geometric Tool and an Algebraic Tool</span></a></div></li>
@@ -202,16 +174,16 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-polygons.html" class="internal"><span class="codenumber">2</span> <span class="title">Exploring Polygons and Other Figures on the Plane</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-polygons" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polygons-area.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exploring Area</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polygons-area" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Area of a Parallelogram</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-area-tri" class="internal"><span class="codenumber">2.1.2</span> <span class="title">The Area of a Triangle</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-5" class="internal"><span class="codenumber">2.1.3</span> <span class="title">The Area of a Trapezoid</span></a></div></li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-polygons-area.html#sec-polygons-area-6" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Thoughts on Area</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polygons-area-6" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsec-irregular-area" class="internal"><span class="codenumber">2.1.4.1</span> <span class="title">Estimating the Area of Curved Regions</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polygons-area.html#subsubsec-area-circle" class="internal"><span class="codenumber">2.1.4.2</span> <span class="title">The Area of a Circle</span></a></div></li>
 </ul>
@@ -221,7 +193,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polygons-angles.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Exploring Angle Measure</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polygons-angles" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-defs" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Linear Objects</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-Def-and-Measuring-Angles" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Defining and Measuring Angles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-angles.html#subsec-polygons-angles-triangle" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Angles of a Triangle</span></a></div></li>
@@ -233,7 +205,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polygons-parallel.html" class="internal"><span class="codenumber">2.3</span> <span class="title">What Does Parallel Mean?</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polygons-parallel" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-review-lines" class="internal"><span class="codenumber">2.3.1</span> <span class="title">What do we remember about lines on a plane?</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-polygons-parallel-sphere" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Geometry on Another Surface</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-parallel.html#subsec-understanding-parallel" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Understanding Parallel Lines</span></a></div></li>
@@ -242,7 +214,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polygons-regular.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Exploring Regular Polygons</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polygons-regular" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#sec-polygons-regular-3" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Regular Polygons</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-polygons-regular-tilings" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Regular Tilings</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-regular.html#subsec-semiregular-tilings" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Semiregular Tilings</span></a></div></li>
@@ -252,15 +224,12 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polygons-length.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Exploring Length and the Pythagorean Theorem</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polygons-length" class="structural toc-item-list">
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Right Triangles</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Check Your Understanding</span></a></div></li></ul>
+<ul id="ptx-toc-group-sec-polygons-length-3" class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-3-3" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Check Your Understanding</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Pythagorean Theorem</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-reading-questions"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Check your Understanding</span></a></div></li></ul>
-</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-4" class="internal"><span class="codenumber">2.5.2</span> <span class="title">The Pythagorean Theorem</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-5" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Proving the Pythagorean Theorem with Picture Puzzles</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polygons-length.html#sec-polygons-length-6" class="internal"><span class="codenumber">2.5.4</span> <span class="title">Reflecting on the Pythagorean Theorem</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-polygons-length.html#exercises-polygons-length" class="internal"><span class="codenumber">2.5.5</span> <span class="title">Exercises</span></a></div></li>
@@ -271,10 +240,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-ch-polyhedra">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polyhedra-regular" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-polyhedra-reg-3DSolids" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Two-Dimensional and Three-Dimensional Objects</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#subsec-def-polyhedra" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Defining a Polyhedron</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-regular.html#sec-polyhedra-regular-4" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Defining Regular Polyhedra</span></a></div></li>
@@ -285,7 +254,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-polyhedra-semiregular.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Semiregular Polyhedra</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list active" id="ptx-toc-group-sec-polyhedra-semiregular">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-2" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Defining Semiregular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#subsec-polyhedra-semiregular-examples" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Examples of Semi-regular Polyhedra</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-semiregular.html#sec-polyhedra-semiregular-4" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Families of Semiregular Polyhedra</span></a></div></li>
@@ -295,7 +264,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Prisms and Cylinders</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polyhedra-Prisms-Cylinders" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#sec-polyhedra-Prisms-Cylinders-2" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Definitions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#subsec-expl-prism-volume" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Volumes of Prisms and Cylinders</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-Prisms-Cylinders.html#subsec-surfarea-prism-cyl" class="internal"><span class="codenumber">3.3.3</span> <span class="title">The Surface Area of Prisms and Cylinders</span></a></div></li>
@@ -304,12 +273,12 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Pyramids and Cones</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polyhedra-pyramids-cones" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-2" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Defining Pyramids and Cones</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsec-expl-Euler-pyramid" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Patterns with Pyramids</span></a></div></li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#sec-polyhedra-pyramids-cones-4" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Measuring Pyramids</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polyhedra-pyramids-cones-4" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-surfarea" class="internal"><span class="codenumber">3.4.3.1</span> <span class="title">Surface Area of Pyramids and Cones</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-polyhedra-pyramids-cones.html#subsubsec-pyramid-volume" class="internal"><span class="codenumber">3.4.3.2</span> <span class="title">Volume of Pyramids and Cones</span></a></div></li>
 </ul>
@@ -319,7 +288,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-dimension.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Measuring in Different Dimensions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-polyhedra-dimension" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedra-dimension-interior" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Measuring Interiors</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-polyhedra-dimension.html#subsec-polyhedral-dimesion-growth" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Exploring Growth in Two-Dimensional Figures</span></a></div></li>
 </ul>
@@ -328,10 +297,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-isom" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-isom-reflect-Cartesian" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-defining-reflection" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Defining a Reflection</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-expl-ref-coordplane" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Exploring Reflections by Sketching</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html#subsec-Reflections-and-Coordinate-Geometry" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Reflections and Coordinates</span></a></div></li>
@@ -342,23 +311,23 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Orientation-Maintaining Transformations</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-isom-rotate-and-translate" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-definingOP" class="internal"><span class="codenumber">4.2.1</span> <span class="title">What do we mean by orientation-maintaining?</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-collinearity" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Collinearities and Isomorphisms</span></a></div></li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-Translations" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Translations</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-translation" class="internal"><span class="codenumber">4.2.3.1</span> <span class="title">Properties of Translations</span></a></div></li></ul>
+<ul id="ptx-toc-group-subsec-Translations" class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-translation" class="internal"><span class="codenumber">4.2.3.1</span> <span class="title">Properties of Translations</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-rotation" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Rotations</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-rotation" class="internal"><span class="codenumber">4.2.4.1</span> <span class="title">Properties of Rotations</span></a></div></li></ul>
+<ul id="ptx-toc-group-subsec-isom-RAT-rotation" class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#subsec-isom-RAT-props-rotation" class="internal"><span class="codenumber">4.2.4.1</span> <span class="title">Properties of Rotations</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-rotate-and-translate.html#exer-isom-RAT" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-identifying-isometries.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Identifying Isometries</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-isom-identifying-isometries" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#sec-isom-identifying-isometries-2" class="internal"><span class="codenumber">4.3.1</span> <span class="title">What do we know? What do we wonder?</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-isom-congruent-figs-orientation" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Isometry Between Congruent Figures</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-identifying-isometries.html#subsec-fixed-points" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Recognizing Isometries by Fixed Points</span></a></div></li>
@@ -369,7 +338,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-composing-reflections.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compositions of Reflections</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-isom-composing-reflections" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#sec-isom-composing-reflections-2" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Compositions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#subsec-Four-Isometries" class="internal"><span class="codenumber">4.4.2</span> <span class="title">The Four Isometries</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-composing-reflections.html#exer-isom-comp" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Exercises</span></a></div></li>
@@ -377,7 +346,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-mystery-isometries.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Mystery Isometries</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-isom-mystery-isometries" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#subsec-Isom-mystery-review" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Review of Isometries</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#sec-isom-mystery-isometries-4" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Solving the Mysteries</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-isom-mystery-isometries.html#exer-isom-mystery" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Exercises</span></a></div></li>
@@ -385,7 +354,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-symmetry.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Symmetry</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-isom-symmetry" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-3" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Two Types of Symmetry</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#sec-isom-symmetry-4" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Exploring Symmetry of Polygons</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-isom-symmetry.html#subsec-symm-transformations" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Symmetry Transformations</span></a></div></li>
@@ -396,10 +365,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-dilation" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-dilations-Cartesian" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-distance-Cartesian" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Distance on the Cartesian Plane</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-scaling-Cartesian" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Dilating Figures on a Cartesian <span class="process-math">\(xy\)</span>-Plane</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Cartesian.html#subsec-dilation-terminology" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Defining Dilation</span></a></div></li>
@@ -409,7 +378,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-and-similarity.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Dilations and Similar Figures</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-dilations-and-similarity" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsec-DAR-sliding-dilation" class="internal"><span class="codenumber">5.2.1</span> <span class="title">A Dynamic Look at Dilations</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#subsubsec-dilations-similar" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Dilations and Similar Triangles</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-dilations-and-similarity.html#exer-dilations-DAS" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Exercises</span></a></div></li>
@@ -417,7 +386,7 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html" class="internal"><span class="codenumber">5.3</span> <span class="title">The Pythagorean Theorem and the Golden Triangle</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-dilations-Pyth-golden" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-dil-Pyth-golden-review" class="internal"><span class="codenumber">5.3.1</span> <span class="title">A Review of Similarity</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-similar-applications" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Applications of Similarity</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-dilations-Pyth-golden.html#subsec-selfsim-Triangle" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Self-Similar Triangles</span></a></div></li>
@@ -429,10 +398,10 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-ch-geonumberplay" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-geonumberplay-star" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-geonumberplay-star-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">What is a Star Polygon?</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpoly-sevenplus" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Exploring Star Polygons with Seven to Ten Vertices</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-star.html#subsec-starpolys-generalizing" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Making Conjectures and Generalizations about Star Polygons</span></a></div></li>
@@ -441,26 +410,29 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-billiards.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Geometry on a Billiard Table</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-billiards.html#sec-geonumplay-billiards-refl-law" class="internal"><span class="codenumber">6.2.1</span> <span class="title">The Law of Reflection</span></a></div></li></ul>
+<ul id="ptx-toc-group-sec-geonumberplay-billiards" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-billiards.html#sec-geonumplay-billiards-refl-law" class="internal"><span class="codenumber">6.2.1</span> <span class="title">The Law of Reflection</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-billiards.html#subsec-billiard-45degpath" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Path of a Ball Hit at a <span class="process-math">\(45^{\circ}\)</span> Angle</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-instructor.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Instructor Notes for Chapter 6</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-instructor.html#sec-geonumberplay-instructor-3" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Notes for Section 6.1</span></a></div></li></ul>
+<ul id="ptx-toc-group-sec-geonumberplay-instructor" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-geonumberplay-instructor.html#sec-geonumberplay-instructor-3" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Notes for Section 6.1</span></a></div></li></ul>
 </li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter">
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-backmatter" class="structural toc-item-list">
 <li class="toc-item toc-appendix">
 <div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">A</span> <span class="title">Algebra Review</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-algebra-principles" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles-3.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Algebraic Expressions and Equations</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="field-properties.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Field Properties of the Real Numbers</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equality-properties.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Properties of Equality</span></a></div></li>
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="subsec-Functions.html" class="internal"><span class="codenumber">A.4</span> <span class="title">Functions and Operations</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-subsec-Functions" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-algrev-sqroots" class="internal"><span class="codenumber">A.4.1</span> <span class="title">Working with squares and square roots</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-Functions-4" class="internal"><span class="codenumber">A.4.2</span> <span class="title">Other Pairs of Inverse Functions</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="subsec-Functions.html#subsec-Functions-5" class="internal"><span class="codenumber">A.4.3</span> <span class="title">Order of Operations</span></a></div></li>
@@ -476,84 +448,193 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-polyhedra-semiregular"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">3.2</span><span class="space"> </span><span class="title">Semiregular Polyhedra</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-polyhedra-semiregular">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Semiregular Polyhedra</span>
 </h2>
-<section class="subsection" id="sec-polyhedra-semiregular-2"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="space"> </span><span class="title">Defining Semiregular Polyhedra</span>
+<section class="subsection" id="sec-polyhedra-semiregular-2">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Defining Semiregular Polyhedra</span>
 </h3>
-<div class="para" id="sec-polyhedra-semiregular-2-2">We now extend our collection of polyhedra by exploring what it means for a polyhedron to be semiregular. Note the resemblance to the definition of semiregular tiling.</div>
+<div class="para" id="sec-polyhedra-semiregular-2-2">We now extend our collection of polyhedra by exploring what it means for a polyhedron to be semiregular. Note the resemblance to the definition of semiregular tiling.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="def-semiregplyhdron"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <div class="para logical" id="def-semiregplyhdron-4-1">
 <div class="para">A polyhedron is <dfn class="terminology">semiregular</dfn> if it satisfies the following conditions:</div>
 <ul class="disc" id="def-semiregplyhdron-4-1-2">
-<li id="def-semiregplyhdron-4-1-2-1"><div class="para" id="p-derived-def-semiregplyhdron-4-1-2-1">Every face is a regular polygon.</div></li>
-<li id="def-semiregplyhdron-4-1-2-2"><div class="para" id="p-derived-def-semiregplyhdron-4-1-2-2">At least two polygonal faces have a different number of sides.</div></li>
-<li id="def-semiregplyhdron-4-1-2-3"><div class="para" id="p-derived-def-semiregplyhdron-4-1-2-3">The arrangement of polygons at every vertex of the polyhedron is the same.</div></li>
+<li id="def-semiregplyhdron-4-1-2-1">
+<div class="para" id="p-derived-def-semiregplyhdron-4-1-2-1">Every face is a regular polygon.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#def-semiregplyhdron-4-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="def-semiregplyhdron-4-1-2-2">
+<div class="para" id="p-derived-def-semiregplyhdron-4-1-2-2">At least two polygonal faces have a different number of sides.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#def-semiregplyhdron-4-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="def-semiregplyhdron-4-1-2-3">
+<div class="para" id="p-derived-def-semiregplyhdron-4-1-2-3">The arrangement of polygons at every vertex of the polyhedron is the same.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#def-semiregplyhdron-4-1-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
 </ul>
-</div> <div class="para" id="def-semiregplyhdron-4-2">The notation for a vertex arrangement of a regular or semi-regular polyhedron is the same as what we used for tilings. For example, the vertex arrangement for a cube would be 4.4.4 because there are three squares meeting at any vertex of the cube.</div></article><article class="exercise exercise-like" id="sec-polyhedra-semiregular-2-4"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Check your Understanding.</span>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-semiregplyhdron-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="def-semiregplyhdron-4-2">The notation for a vertex arrangement of a regular or semi-regular polyhedron is the same as what we used for tilings. For example, the vertex arrangement for a cube would be 4.4.4 because there are three squares meeting at any vertex of the cube.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-semiregplyhdron-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 3.2.1"><a tabindex="-1" href="#def-semiregplyhdron" title="Copy heading and permalink for Definition 3.2.1" aria-label="Copy heading and permalink for Definition 3.2.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="sec-polyhedra-semiregular-2-4"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Check your Understanding.</span>
 </h4>
-<div class="para" id="sec-polyhedra-semiregular-2-4-2-1">Which regular polyhedron corresponds to the notation 3.3.3.3.3?</div>
+<div class="para" id="sec-polyhedra-semiregular-2-4-2-1">Which regular polyhedron corresponds to the notation 3.3.3.3.3?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="solutions">
-<details id="sec-polyhedra-semiregular-2-4-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="sec-polyhedra-semiregular-2-4-3-1">Does the number 3 correspond to the shape of the face or the number of faces that meet? <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/xref/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition 3.2.1</a>
-</div></div></details><details id="sec-polyhedra-semiregular-2-4-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period">.</span></summary><div class="answer solution-like knowl__content"><div class="para" id="sec-polyhedra-semiregular-2-4-4-1">The icosahedron because five triangles meet at each vertex.</div></div></details>
-</div></article></section><section class="subsection" id="subsec-polyhedra-semiregular-examples"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="space"> </span><span class="title">Examples of Semi-regular Polyhedra</span>
+<details id="sec-polyhedra-semiregular-2-4-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="hint solution-like knowl__content">
+<div class="para" id="sec-polyhedra-semiregular-2-4-3-1">Does the number 3 correspond to the shape of the face or the number of faces that meet? <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/xref/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition 3.2.1</a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-2-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 3.2.2.1"><a tabindex="-1" href="#sec-polyhedra-semiregular-2-4-3" title="Copy heading and permalink for Hint 3.2.2.1" aria-label="Copy heading and permalink for Hint 3.2.2.1">🔗</a></div>
+</div></details>
+<details id="sec-polyhedra-semiregular-2-4-4" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="answer solution-like knowl__content">
+<div class="para" id="sec-polyhedra-semiregular-2-4-4-1">The icosahedron because five triangles meet at each vertex.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-2-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 3.2.2.1"><a tabindex="-1" href="#sec-polyhedra-semiregular-2-4-4" title="Copy heading and permalink for Answer 3.2.2.1" aria-label="Copy heading and permalink for Answer 3.2.2.1">🔗</a></div>
+</div></details>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Checkpoint 3.2.2: Check your Understanding"><a tabindex="-1" href="#sec-polyhedra-semiregular-2-4" title="Copy heading and permalink for Checkpoint 3.2.2: Check your Understanding" aria-label="Copy heading and permalink for Checkpoint 3.2.2: Check your Understanding">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 3.2.1: Defining Semiregular Polyhedra"><a tabindex="-1" href="#sec-polyhedra-semiregular-2" title="Copy heading and permalink for Subsection 3.2.1: Defining Semiregular Polyhedra" aria-label="Copy heading and permalink for Subsection 3.2.1: Defining Semiregular Polyhedra">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-polyhedra-semiregular-examples">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Examples of Semi-regular Polyhedra</span>
 </h3>
 <article class="exploration project-like" id="subsec-polyhedra-semiregular-examples-2"><h4 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.2.1</span><span class="period">.</span>
+<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-1"><h5 class="heading">
-<span class="codenumber">(a)</span><span class="space"> </span><span class="title">The Great Rhombicosidodecahedron.</span>
+<span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Great Rhombicosidodecahedron.</span>
 </h5>
 <div class="introduction" id="subsec-polyhedra-semiregular-examples-2-1-2">
-<div class="para" id="subsec-polyhedra-semiregular-examples-2-1-2-1">One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron which is shown in <a href="sec-polyhedra-semiregular.html#Great_rhombicosidodecahedron" class="xref" data-knowl="./knowl/xref/Great_rhombicosidodecahedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.3">Figure 3.2.3</a><details class="ptx-footnote" aria-live="polite" id="subsec-polyhedra-semiregular-examples-2-1-2-1-2"><summary class="ptx-footnote__number" title="Footnote 3.2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="subsec-polyhedra-semiregular-examples-2-1-2-1-2">Illustration produced by Robert Webb’s <a class="external" href="https://en.wikipedia.org/wiki/Stella_(software)" target="_blank">Stella software</a> accessible via <a class="external" href="http://www.software3d.com/Stella.php" target="_blank">http://www.software3d.com/Stella.php</a>.</div></details>. Check that each visible vertex has the arrangement 4.6.10.</div>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-1-2-1">One example of a semi-regular polyhedron is the Great Rhombicosidodecahedron which is shown in <a href="sec-polyhedra-semiregular.html#Great_rhombicosidodecahedron" class="xref" data-knowl="./knowl/xref/Great_rhombicosidodecahedron.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.3">Figure 3.2.3</a><details class="ptx-footnote" aria-live="polite" id="subsec-polyhedra-semiregular-examples-2-1-2-1-2"><summary class="ptx-footnote__number" title="Footnote 3.2.1"><sup> 1 </sup></summary>
+<div class="ptx-footnote__contents" id="subsec-polyhedra-semiregular-examples-2-1-2-1-2">Illustration produced by Robert Webb’s <a class="external" href="https://en.wikipedia.org/wiki/Stella_(software)" target="_blank">Stella software</a> accessible via <a class="external" href="http://www.software3d.com/Stella.php" target="_blank">http://www.software3d.com/Stella.php</a>.
+</div></details>. Check that each visible vertex has the arrangement 4.6.10.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="Great_rhombicosidodecahedron"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/Great_rhombicosidodecahedron1.svg" class="contained" alt="The front side of a great rhombicosidodecahedron. Five decagonal faces, eight hexagonal faces, and eight square faces are clearly visible, but there is a hint of a square and hexagon alonge the bottom edge."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.3<span class="period">.</span></span><span class="space"> </span>Great Rhombicosidodecahedron</figcaption></figure>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Great Rhombicosidodecahedron<div class="autopermalink" aria-hidden="true" data-description="Figure 3.2.3"><a tabindex="-1" href="#Great_rhombicosidodecahedron" title="Copy heading and permalink for Figure 3.2.3" aria-label="Copy heading and permalink for Figure 3.2.3">🔗</a></div></figcaption>
+</figure>
 </div>
 <article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-1-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="subsec-polyhedra-semiregular-examples-2-1-3-1-1">Three polygons meet at each vertex of the great rhombicosidodecahedron. What is the sum of three angle measures at any one vertex?</div></article></article><article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2"><h5 class="heading">
-<span class="codenumber">(b)</span><span class="space"> </span><span class="title">The Icosidodecahedron.</span>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-1-3-1-1">Three polygons meet at each vertex of the great rhombicosidodecahedron. What is the sum of three angle measures at any one vertex?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.a.i"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-1-3" title="Copy heading and permalink for Task 3.2.1.a.i" aria-label="Copy heading and permalink for Task 3.2.1.a.i">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.a: The Great Rhombicosidodecahedron"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-1" title="Copy heading and permalink for Task 3.2.1.a: The Great Rhombicosidodecahedron" aria-label="Copy heading and permalink for Task 3.2.1.a: The Great Rhombicosidodecahedron">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Icosidodecahedron.</span>
 </h5>
 <div class="introduction" id="subsec-polyhedra-semiregular-examples-2-2-2">
-<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-2-1">Another Archimedean solid is the icosidodecahedron <a href="sec-polyhedra-semiregular.html#icosidod-solid" class="xref" data-knowl="./knowl/xref/icosidod-solid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.4">Figure 3.2.4</a><details class="ptx-footnote" aria-live="polite" id="subsec-polyhedra-semiregular-examples-2-2-2-1-2"><summary class="ptx-footnote__number" title="Footnote 3.2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="subsec-polyhedra-semiregular-examples-2-2-2-1-2">Illustration produced by Robert Webb’s <a class="external" href="https://en.wikipedia.org/wiki/Stella_(software)" target="_blank">Stella software</a> accessible via <a class="external" href="http://www.software3d.com/Stella.php" target="_blank">http://www.software3d.com/Stella.php</a>.</div></details>.</div>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-2-1">Another Archimedean solid is the icosidodecahedron <a href="sec-polyhedra-semiregular.html#icosidod-solid" class="xref" data-knowl="./knowl/xref/icosidod-solid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.4">Figure 3.2.4</a><details class="ptx-footnote" aria-live="polite" id="subsec-polyhedra-semiregular-examples-2-2-2-1-2"><summary class="ptx-footnote__number" title="Footnote 3.2.2"><sup> 2 </sup></summary>
+<div class="ptx-footnote__contents" id="subsec-polyhedra-semiregular-examples-2-2-2-1-2">Illustration produced by Robert Webb’s <a class="external" href="https://en.wikipedia.org/wiki/Stella_(software)" target="_blank">Stella software</a> accessible via <a class="external" href="http://www.software3d.com/Stella.php" target="_blank">http://www.software3d.com/Stella.php</a>.
+</div></details>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <figure class="figure figure-like" id="icosidod-solid"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/icosidodecahedron.svg" class="contained" alt="A picture of an icosidodecahedron"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.4<span class="period">.</span></span><span class="space"> </span>The Icosidodecahedron</figcaption></figure>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The Icosidodecahedron<div class="autopermalink" aria-hidden="true" data-description="Figure 3.2.4"><a tabindex="-1" href="#icosidod-solid" title="Copy heading and permalink for Figure 3.2.4" aria-label="Copy heading and permalink for Figure 3.2.4">🔗</a></div></figcaption>
+</figure>
 </div>
 <article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-3-1-1">What is the vertex arrangement of the icosidodecahedron?</div></article><article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-4-1-1">How many pentagons are needed to create an icosidodecahedron? Be sure to count the ones you cannot see as well.</div></article><article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-5-1-1">How many triangles are needed to create an icosidodecahedron?</div></article></article><article class="task exercise-like" id="Archimedean-construction-extension"><h5 class="heading">
-<span class="codenumber">(c)</span><span class="space"> </span><span class="title">Other Semi-regular Polyhedra.</span>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-3-1-1">What is the vertex arrangement of the icosidodecahedron?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.b.i"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-2-3" title="Copy heading and permalink for Task 3.2.1.b.i" aria-label="Copy heading and permalink for Task 3.2.1.b.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-4-1-1">How many pentagons are needed to create an icosidodecahedron? Be sure to count the ones you cannot see as well.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.b.ii"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-2-4" title="Copy heading and permalink for Task 3.2.1.b.ii" aria-label="Copy heading and permalink for Task 3.2.1.b.ii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="subsec-polyhedra-semiregular-examples-2-2-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="subsec-polyhedra-semiregular-examples-2-2-5-1-1">How many triangles are needed to create an icosidodecahedron?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.b.iii"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-2-5" title="Copy heading and permalink for Task 3.2.1.b.iii" aria-label="Copy heading and permalink for Task 3.2.1.b.iii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.b: The Icosidodecahedron"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2-2" title="Copy heading and permalink for Task 3.2.1.b: The Icosidodecahedron" aria-label="Copy heading and permalink for Task 3.2.1.b: The Icosidodecahedron">🔗</a></div>
+</article>
+<article class="task exercise-like" id="Archimedean-construction-extension"><h5 class="heading">
+<span class="codenumber">(c)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Other Semi-regular Polyhedra.</span>
 </h5>
-<div class="introduction" id="Archimedean-construction-extension-2"><div class="para" id="Archimedean-construction-extension-2-1">Choose one of the following vertex arrangements, <span class="process-math">\(3.6.6\text{,}\)</span> <span class="process-math">\(4.6.6\text{,}\)</span> <span class="process-math">\(3.4.4.4\text{,}\)</span> <span class="process-math">\(3.4.3.4\text{,}\)</span> <span class="process-math">\(3.10.10\text{,}\)</span> or <span class="process-math">\(5.6.6\text{.}\)</span>
-</div></div>
+<div class="introduction" id="Archimedean-construction-extension-2">
+<div class="para" id="Archimedean-construction-extension-2-1">Choose one of the following vertex arrangements, <span class="process-math">\(3.6.6\text{,}\)</span> <span class="process-math">\(4.6.6\text{,}\)</span> <span class="process-math">\(3.4.4.4\text{,}\)</span> <span class="process-math">\(3.4.3.4\text{,}\)</span> <span class="process-math">\(3.10.10\text{,}\)</span> or <span class="process-math">\(5.6.6\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Archimedean-construction-extension-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
 <article class="task exercise-like" id="Archimedean-construction-extension-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="Archimedean-construction-extension-3-1-1">Construct the semiregular polyhedron that has that has your chosen vertex arrangement.</div></article><article class="task exercise-like" id="Archimedean-construction-extension-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="Archimedean-construction-extension-4-1-1">How many faces of each type does your semiregular polyhedron have?</div></article><article class="task exercise-like" id="Archimedean-construction-extension-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="Archimedean-construction-extension-5-1-1">What is the total number of vertices?</div></article><article class="task exercise-like" id="Archimedean-construction-extension-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
-<div class="para" id="Archimedean-construction-extension-6-1-1">What is the total number of edges?</div></article><article class="task exercise-like" id="Archimedean-construction-extension-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
-<div class="para" id="Archimedean-construction-extension-7-1-1">As a bonus, repeat this task for other vertex arrangements. If you are up for a challenge, you may choose <span class="process-math">\(3.4.5.4\text{,}\)</span> <span class="process-math">\(3.3.3.3.4\text{,}\)</span> or <span class="process-math">\(3.3.3.3.5\text{.}\)</span>
-</div></article></article></article></section><section class="subsection" id="sec-polyhedra-semiregular-4"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.3</span><span class="space"> </span><span class="title">Families of Semiregular Polyhedra</span>
+<div class="para" id="Archimedean-construction-extension-3-1-1">Construct the semiregular polyhedron that has that has your chosen vertex arrangement.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Archimedean-construction-extension-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.c.i"><a tabindex="-1" href="#Archimedean-construction-extension-3" title="Copy heading and permalink for Task 3.2.1.c.i" aria-label="Copy heading and permalink for Task 3.2.1.c.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="Archimedean-construction-extension-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="Archimedean-construction-extension-4-1-1">How many faces of each type does your semiregular polyhedron have?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Archimedean-construction-extension-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.c.ii"><a tabindex="-1" href="#Archimedean-construction-extension-4" title="Copy heading and permalink for Task 3.2.1.c.ii" aria-label="Copy heading and permalink for Task 3.2.1.c.ii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="Archimedean-construction-extension-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="Archimedean-construction-extension-5-1-1">What is the total number of vertices?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Archimedean-construction-extension-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.c.iii"><a tabindex="-1" href="#Archimedean-construction-extension-5" title="Copy heading and permalink for Task 3.2.1.c.iii" aria-label="Copy heading and permalink for Task 3.2.1.c.iii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="Archimedean-construction-extension-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="Archimedean-construction-extension-6-1-1">What is the total number of edges?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Archimedean-construction-extension-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.c.iv"><a tabindex="-1" href="#Archimedean-construction-extension-6" title="Copy heading and permalink for Task 3.2.1.c.iv" aria-label="Copy heading and permalink for Task 3.2.1.c.iv">🔗</a></div>
+</article>
+<article class="task exercise-like" id="Archimedean-construction-extension-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="Archimedean-construction-extension-7-1-1">As a bonus, repeat this task for other vertex arrangements. If you are up for a challenge, you may choose <span class="process-math">\(3.4.5.4\text{,}\)</span> <span class="process-math">\(3.3.3.3.4\text{,}\)</span> or <span class="process-math">\(3.3.3.3.5\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Archimedean-construction-extension-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.c.v"><a tabindex="-1" href="#Archimedean-construction-extension-7" title="Copy heading and permalink for Task 3.2.1.c.v" aria-label="Copy heading and permalink for Task 3.2.1.c.v">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 3.2.1.c: Other Semi-regular Polyhedra"><a tabindex="-1" href="#Archimedean-construction-extension" title="Copy heading and permalink for Task 3.2.1.c: Other Semi-regular Polyhedra" aria-label="Copy heading and permalink for Task 3.2.1.c: Other Semi-regular Polyhedra">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exploration 3.2.1"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples-2" title="Copy heading and permalink for Exploration 3.2.1" aria-label="Copy heading and permalink for Exploration 3.2.1">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 3.2.2: Examples of Semi-regular Polyhedra"><a tabindex="-1" href="#subsec-polyhedra-semiregular-examples" title="Copy heading and permalink for Subsection 3.2.2: Examples of Semi-regular Polyhedra" aria-label="Copy heading and permalink for Subsection 3.2.2: Examples of Semi-regular Polyhedra">🔗</a></div>
+</section>
+<section class="subsection" id="sec-polyhedra-semiregular-4">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Families of Semiregular Polyhedra</span>
 </h3>
 <article class="exploration project-like" id="sec-polyhedra-semiregular-4-2"><h4 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.2.2</span><span class="period">.</span>
+<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
 <article class="task exercise-like" id="semiregprism-task"><h5 class="heading">
-<span class="codenumber">(a)</span><span class="space"> </span><span class="title">Semiregular Polyhedra with Vertex Arrangement <span class="process-math">\(4.4.n\)</span>.</span>
+<span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Semiregular Polyhedra with Vertex Arrangement <span class="process-math">\(4.4.n\)</span>.</span>
 </h5>
-<div class="introduction" id="semiregprism-task-2"><div class="para" id="semiregprism-task-2-1">Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.</div></div>
+<div class="introduction" id="semiregprism-task-2">
+<div class="para" id="semiregprism-task-2-1">Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#semiregprism-task-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
 <article class="task exercise-like" id="semiregprism-task-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
 <div class="para" id="semiregprism-task-3-1-1">
-<span class="process-math">\(3.4.4\)</span> (same as <span class="process-math">\(4.4.3\)</span>)</div></article><article class="task exercise-like" id="semiregprism-task-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="semiregprism-task-4-1-1"><span class="process-math">\(4.4.5\)</span></div></article><article class="task exercise-like" id="semiregprism-task-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="semiregprism-task-5-1-1"><span class="process-math">\(4.4.6\)</span></div></article><article class="task exercise-like" id="semiregprism-task-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
-<div class="para" id="semiregprism-task-6-1-1">Without building <span class="process-math">\(4.4.8\)</span> describe clearly what it would look like.</div></article><article class="task exercise-like" id="semiregprism-task-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
-<div class="para" id="semiregprism-task-7-1-1">The polyhedra you just created are called <dfn class="terminology">prisms</dfn>. Use your constructions to complete <a href="sec-polyhedra-semiregular.html#table-prism" class="xref" data-knowl="./knowl/xref/table-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.5: Attributes of Prisms">Table 3.2.5</a>. The first row should list the number of faces, vertices, and edges in a semiregular solid with a <span class="process-math">\(3.4.4\)</span>-vertex arrangement.</div> <figure class="table table-like" id="table-prism"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.5<span class="period">.</span></span><span class="space"> </span>Attributes of Prisms</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<span class="process-math">\(3.4.4\)</span> (same as <span class="process-math">\(4.4.3\)</span>)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#semiregprism-task-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.a.i"><a tabindex="-1" href="#semiregprism-task-3" title="Copy heading and permalink for Task 3.2.2.a.i" aria-label="Copy heading and permalink for Task 3.2.2.a.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="semiregprism-task-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="semiregprism-task-4-1-1">
+<span class="process-math">\(4.4.5\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#semiregprism-task-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.a.ii"><a tabindex="-1" href="#semiregprism-task-4" title="Copy heading and permalink for Task 3.2.2.a.ii" aria-label="Copy heading and permalink for Task 3.2.2.a.ii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="semiregprism-task-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="semiregprism-task-5-1-1">
+<span class="process-math">\(4.4.6\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#semiregprism-task-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.a.iii"><a tabindex="-1" href="#semiregprism-task-5" title="Copy heading and permalink for Task 3.2.2.a.iii" aria-label="Copy heading and permalink for Task 3.2.2.a.iii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="semiregprism-task-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="semiregprism-task-6-1-1">Without building <span class="process-math">\(4.4.8\)</span> describe clearly what it would look like.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#semiregprism-task-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.a.iv"><a tabindex="-1" href="#semiregprism-task-6" title="Copy heading and permalink for Task 3.2.2.a.iv" aria-label="Copy heading and permalink for Task 3.2.2.a.iv">🔗</a></div>
+</article>
+<article class="task exercise-like" id="semiregprism-task-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="semiregprism-task-7-1-1">The polyhedra you just created are called <dfn class="terminology">prisms</dfn>. Use your constructions to complete <a href="sec-polyhedra-semiregular.html#table-prism" class="xref" data-knowl="./knowl/xref/table-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.5: Attributes of Prisms">Table 3.2.5</a>. The first row should list the number of faces, vertices, and edges in a semiregular solid with a <span class="process-math">\(3.4.4\)</span>-vertex arrangement.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#semiregprism-task-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="table table-like" id="table-prism"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Attributes of Prisms<div class="autopermalink" aria-hidden="true" data-description="Table 3.2.5: Attributes of Prisms"><a tabindex="-1" href="#table-prism" title="Copy heading and permalink for Table 3.2.5: Attributes of Prisms" aria-label="Copy heading and permalink for Table 3.2.5: Attributes of Prisms">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b2 r2 l0 t0 lines">Shape of base</th>
 <th scope="col" class="c m b2 r1 l0 t0 lines">Number of faces <span class="process-math">\(F\)</span>
@@ -606,18 +687,50 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b0 r1 l0 t0 lines"></td>
 <td class="c m b0 r0 l0 t0 lines"></td>
 </tr>
-</table></div></figure></article></article><article class="task exercise-like" id="antiprism-task"><h5 class="heading">
-<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Semiregular Polyhedra with Vertex Arrangement <span class="process-math">\(3.3.3.n\)</span>.</span>
+</table></div>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.a.v"><a tabindex="-1" href="#semiregprism-task-7" title="Copy heading and permalink for Task 3.2.2.a.v" aria-label="Copy heading and permalink for Task 3.2.2.a.v">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.a: Semiregular Polyhedra with Vertex Arrangement 4.4.n"><a tabindex="-1" href="#semiregprism-task" title="Copy heading and permalink for Task 3.2.2.a: Semiregular Polyhedra with Vertex Arrangement 4.4.n" aria-label="Copy heading and permalink for Task 3.2.2.a: Semiregular Polyhedra with Vertex Arrangement 4.4.n">🔗</a></div>
+</article>
+<article class="task exercise-like" id="antiprism-task"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Semiregular Polyhedra with Vertex Arrangement <span class="process-math">\(3.3.3.n\)</span>.</span>
 </h5>
-<div class="introduction" id="antiprism-task-2"><div class="para" id="antiprism-task-2-1">Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.</div></div>
+<div class="introduction" id="antiprism-task-2">
+<div class="para" id="antiprism-task-2-1">Build the following semiregular polyhedron which has the following vertex arrangements. You will need these solids to answer the remainder of the questions in this task.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#antiprism-task-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
 <article class="task exercise-like" id="antiprism-task-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
 <div class="para" id="antiprism-task-3-1-1">
-<span class="process-math">\(3.3.3.3\)</span> (a regular polyhedron)</div></article><article class="task exercise-like" id="antiprism-task-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="antiprism-task-4-1-1"><span class="process-math">\(3.3.3.4\)</span></div></article><article class="task exercise-like" id="antiprism-task-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
-<div class="para" id="antiprism-task-5-1-1"><span class="process-math">\(3.3.3.5\)</span></div></article><article class="task exercise-like" id="antiprism-task-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
-<div class="para" id="antiprism-task-6-1-1"><span class="process-math">\(3.3.3.6\)</span></div></article><article class="task exercise-like" id="antiprism-task-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
-<div class="para" id="antiprism-task-7-1-1">Without building <span class="process-math">\(3.3.3.8\)</span> describe clearly what it would look like.</div></article><article class="task exercise-like" id="antiprism-task-8"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
-<div class="para" id="antiprism-task-8-1-1">The polyhedra you just created are called <dfn class="terminology">antiprisms</dfn>. Use your constructions to complete <a href="sec-polyhedra-semiregular.html#table-antiprism" class="xref" data-knowl="./knowl/xref/table-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.6: Attributes of Antiprisms">Table 3.2.6</a>.</div> <figure class="table table-like" id="table-antiprism"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.2.6<span class="period">.</span></span><span class="space"> </span>Attributes of Antiprisms</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<span class="process-math">\(3.3.3.3\)</span> (a regular polyhedron)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#antiprism-task-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.b.i"><a tabindex="-1" href="#antiprism-task-3" title="Copy heading and permalink for Task 3.2.2.b.i" aria-label="Copy heading and permalink for Task 3.2.2.b.i">🔗</a></div>
+</article>
+<article class="task exercise-like" id="antiprism-task-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<div class="para" id="antiprism-task-4-1-1">
+<span class="process-math">\(3.3.3.4\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#antiprism-task-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.b.ii"><a tabindex="-1" href="#antiprism-task-4" title="Copy heading and permalink for Task 3.2.2.b.ii" aria-label="Copy heading and permalink for Task 3.2.2.b.ii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="antiprism-task-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<div class="para" id="antiprism-task-5-1-1">
+<span class="process-math">\(3.3.3.5\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#antiprism-task-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.b.iii"><a tabindex="-1" href="#antiprism-task-5" title="Copy heading and permalink for Task 3.2.2.b.iii" aria-label="Copy heading and permalink for Task 3.2.2.b.iii">🔗</a></div>
+</article>
+<article class="task exercise-like" id="antiprism-task-6"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<div class="para" id="antiprism-task-6-1-1">
+<span class="process-math">\(3.3.3.6\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#antiprism-task-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.b.iv"><a tabindex="-1" href="#antiprism-task-6" title="Copy heading and permalink for Task 3.2.2.b.iv" aria-label="Copy heading and permalink for Task 3.2.2.b.iv">🔗</a></div>
+</article>
+<article class="task exercise-like" id="antiprism-task-7"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<div class="para" id="antiprism-task-7-1-1">Without building <span class="process-math">\(3.3.3.8\)</span> describe clearly what it would look like.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#antiprism-task-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.b.v"><a tabindex="-1" href="#antiprism-task-7" title="Copy heading and permalink for Task 3.2.2.b.v" aria-label="Copy heading and permalink for Task 3.2.2.b.v">🔗</a></div>
+</article>
+<article class="task exercise-like" id="antiprism-task-8"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
+<div class="para" id="antiprism-task-8-1-1">The polyhedra you just created are called <dfn class="terminology">antiprisms</dfn>. Use your constructions to complete <a href="sec-polyhedra-semiregular.html#table-antiprism" class="xref" data-knowl="./knowl/xref/table-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.6: Attributes of Antiprisms">Table 3.2.6</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#antiprism-task-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="table table-like" id="table-antiprism"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Attributes of Antiprisms<div class="autopermalink" aria-hidden="true" data-description="Table 3.2.6: Attributes of Antiprisms"><a tabindex="-1" href="#table-antiprism" title="Copy heading and permalink for Table 3.2.6: Attributes of Antiprisms" aria-label="Copy heading and permalink for Table 3.2.6: Attributes of Antiprisms">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
 <tr class="header-horizontal">
 <th scope="col" class="c m b2 r2 l0 t0 lines">Shape of base</th>
 <th scope="col" class="c m b2 r1 l0 t0 lines">Number of faces <span class="process-math">\(F\)</span>
@@ -670,72 +783,199 @@ eBookConfig.enable_chatcodes =  false;
 <td class="c m b1 r1 l0 t0 lines"></td>
 <td class="c m b1 r0 l0 t0 lines"></td>
 </tr>
-</table></div></figure></article></article><article class="task exercise-like" id="sec-polyhedra-semiregular-4-2-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
-<div class="para" id="sec-polyhedra-semiregular-4-2-3-1-1">Compute <span class="process-math">\(F+V-E\)</span> for each row in <a href="sec-polyhedra-semiregular.html#table-prism" class="xref" data-knowl="./knowl/xref/table-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.5: Attributes of Prisms">Table 3.2.5</a> and each row of <a href="sec-polyhedra-semiregular.html#table-antiprism" class="xref" data-knowl="./knowl/xref/table-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.6: Attributes of Antiprisms">Table 3.2.6</a>. What do you notice?</div></article></article></section><section class="subsection" id="sec-polyhedra-semiregular-5"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">3.2.4</span><span class="space"> </span><span class="title">Defining Prisms and Antiprisms</span>
+</table></div>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.b.vi"><a tabindex="-1" href="#antiprism-task-8" title="Copy heading and permalink for Task 3.2.2.b.vi" aria-label="Copy heading and permalink for Task 3.2.2.b.vi">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.b: Semiregular Polyhedra with Vertex Arrangement 3.3.3.n"><a tabindex="-1" href="#antiprism-task" title="Copy heading and permalink for Task 3.2.2.b: Semiregular Polyhedra with Vertex Arrangement 3.3.3.n" aria-label="Copy heading and permalink for Task 3.2.2.b: Semiregular Polyhedra with Vertex Arrangement 3.3.3.n">🔗</a></div>
+</article>
+<article class="task exercise-like" id="sec-polyhedra-semiregular-4-2-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="sec-polyhedra-semiregular-4-2-3-1-1">Compute <span class="process-math">\(F+V-E\)</span> for each row in <a href="sec-polyhedra-semiregular.html#table-prism" class="xref" data-knowl="./knowl/xref/table-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.5: Attributes of Prisms">Table 3.2.5</a> and each row of <a href="sec-polyhedra-semiregular.html#table-antiprism" class="xref" data-knowl="./knowl/xref/table-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 3.2.6: Attributes of Antiprisms">Table 3.2.6</a>. What do you notice?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-4-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.2.c"><a tabindex="-1" href="#sec-polyhedra-semiregular-4-2-3" title="Copy heading and permalink for Task 3.2.2.c" aria-label="Copy heading and permalink for Task 3.2.2.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exploration 3.2.2"><a tabindex="-1" href="#sec-polyhedra-semiregular-4-2" title="Copy heading and permalink for Exploration 3.2.2" aria-label="Copy heading and permalink for Exploration 3.2.2">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subsection 3.2.3: Families of Semiregular Polyhedra"><a tabindex="-1" href="#sec-polyhedra-semiregular-4" title="Copy heading and permalink for Subsection 3.2.3: Families of Semiregular Polyhedra" aria-label="Copy heading and permalink for Subsection 3.2.3: Families of Semiregular Polyhedra">🔗</a></div>
+</section>
+<section class="subsection" id="sec-polyhedra-semiregular-5">
+<h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Defining Prisms and Antiprisms</span>
 </h3>
-<div class="para" id="sec-polyhedra-semiregular-5-2">In this section we discovered two families of semiregular polygons: prisms and antiprisms. We can also create prisms and antiprisms which have irregular faces. In particular, the sides of a prism need not be squares, they could be rectangles or other parallelograms. The sides of an antiprism do not need to be equilateral. Moreover, the bases of a prism or antiprism may be any polygon whatsoever. Some examples of prisms are shown in <a href="sec-polyhedra-semiregular.html#fig-some-prisms" class="xref" data-knowl="./knowl/xref/fig-some-prisms.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.8">Figure 3.2.8</a> and <a href="sec-polyhedra-Prisms-Cylinders.html#fig-rt-skew-prism" class="xref" data-knowl="./knowl/xref/fig-rt-skew-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.3.1">Figure 3.3.1</a>
+<div class="para" id="sec-polyhedra-semiregular-5-2">In this section we discovered two families of semiregular polygons: prisms and antiprisms. We can also create prisms and antiprisms which have irregular faces. In particular, the sides of a prism need not be squares, they could be rectangles or other parallelograms. The sides of an antiprism do not need to be equilateral. Moreover, the bases of a prism or antiprism may be any polygon whatsoever. Some examples of prisms are shown in <a href="sec-polyhedra-semiregular.html#fig-some-prisms" class="xref" data-knowl="./knowl/xref/fig-some-prisms.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.8">Figure 3.2.8</a> and <a href="sec-polyhedra-Prisms-Cylinders.html#fig-rt-skew-prism" class="xref" data-knowl="./knowl/xref/fig-rt-skew-prism.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.3.1">Figure 3.3.1</a><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="definition definition-like" id="def-prism"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.7</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
-<div class="para" id="def-prism-2-1">A <dfn class="terminology">prism</dfn> is a polyhedron consisting of two congruent parallel polygonal faces joined by sides that are parallelograms, often rectangles.</div></article><figure class="figure figure-like" id="fig-some-prisms"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/prisms.png" class="contained" alt="Prisms"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.8<span class="period">.</span></span><span class="space"> </span>An assortment of right prisms</figcaption></figure><div class="para" id="sec-polyhedra-semiregular-5-5">In <a href="sec-polyhedra-semiregular.html#antiprism-task" class="xref" data-knowl="./knowl/xref/antiprism-task.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.2.2.b: Semiregular Polyhedra with Vertex Arrangement 3.3.3.n">Task 3.2.2.b</a>, you built and analyzed some antiprisms, similar to the one on the right in <a href="sec-polyhedra-semiregular.html#fig-prism-antiprism" class="xref" data-knowl="./knowl/xref/fig-prism-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.10">Figure 3.2.10</a>.</div>
+<div class="para" id="def-prism-2-1">A <dfn class="terminology">prism</dfn> is a polyhedron consisting of two congruent parallel polygonal faces joined by sides that are parallelograms, often rectangles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-prism-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 3.2.7"><a tabindex="-1" href="#def-prism" title="Copy heading and permalink for Definition 3.2.7" aria-label="Copy heading and permalink for Definition 3.2.7">🔗</a></div>
+</article>
+<figure class="figure figure-like" id="fig-some-prisms"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/prisms.png" class="contained" alt="Prisms"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>An assortment of right prisms<div class="autopermalink" aria-hidden="true" data-description="Figure 3.2.8"><a tabindex="-1" href="#fig-some-prisms" title="Copy heading and permalink for Figure 3.2.8" aria-label="Copy heading and permalink for Figure 3.2.8">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="sec-polyhedra-semiregular-5-5">In <a href="sec-polyhedra-semiregular.html#antiprism-task" class="xref" data-knowl="./knowl/xref/antiprism-task.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.2.2.b: Semiregular Polyhedra with Vertex Arrangement 3.3.3.n">Task 3.2.2.b</a>, you built and analyzed some antiprisms, similar to the one on the right in <a href="sec-polyhedra-semiregular.html#fig-prism-antiprism" class="xref" data-knowl="./knowl/xref/fig-prism-antiprism.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.10">Figure 3.2.10</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-5-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <article class="definition definition-like" id="def-antiprism"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.2.9</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h4>
-<div class="para" id="def-antiprism-2-1">An <dfn class="terminology">antiprism</dfn> is a polyhedron consisting of a pair of parallel congruent polygonal faces joined by sides that are triangles.</div></article><figure class="figure figure-like" id="fig-prism-antiprism"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/pentagonalprism-antiprism.png" class="contained" alt="pentagonal prism and antiprism"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.10<span class="period">.</span></span><span class="space"> </span>A pentagonal prism and pentagonal antiprism</figcaption></figure><div class="para" id="sec-polyhedra-semiregular-5-8">The two parallel congruent polygonal faces are called the <dfn class="terminology">bases</dfn> of the prism or antiprism. The top base may be called the <dfn class="terminology">summit</dfn> in which case the bottom would be called the <dfn class="terminology">base</dfn>. We specify the type of prism or pyramid by shape of its base so that the prism with a <span class="process-math">\(4.4.n\)</span>-vertex configuration is called an <dfn class="terminology"><span class="process-math">\(n\)</span>-gonal prism</dfn>. Of course, we can set a polyhedron on any of its faces. Sometimes the base(s) will appear to be at the ends of the solid rather than at the top and bottom. </div>
-<aside class="aside aside-like" id="sec-polyhedra-semiregular-5-9"><div class="para" id="sec-polyhedra-semiregular-5-9-1">The summit of an antiprism will be a rotated copy of the base lying in a plane parallel to the base. A prism will not have this rotation.</div></aside></section><section class="exercises" id="exercises-semireg-polyhedra"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">3.2.5</span><span class="space"> </span><span class="title">Exercises</span>
+<div class="para" id="def-antiprism-2-1">An <dfn class="terminology">antiprism</dfn> is a polyhedron consisting of a pair of parallel congruent polygonal faces joined by sides that are triangles.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-antiprism-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 3.2.9"><a tabindex="-1" href="#def-antiprism" title="Copy heading and permalink for Definition 3.2.9" aria-label="Copy heading and permalink for Definition 3.2.9">🔗</a></div>
+</article>
+<figure class="figure figure-like" id="fig-prism-antiprism"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/pentagonalprism-antiprism.png" class="contained" alt="pentagonal prism and antiprism"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A pentagonal prism and pentagonal antiprism<div class="autopermalink" aria-hidden="true" data-description="Figure 3.2.10"><a tabindex="-1" href="#fig-prism-antiprism" title="Copy heading and permalink for Figure 3.2.10" aria-label="Copy heading and permalink for Figure 3.2.10">🔗</a></div></figcaption>
+</figure>
+<div class="para" id="sec-polyhedra-semiregular-5-8">The two parallel congruent polygonal faces are called the <dfn class="terminology">bases</dfn> of the prism or antiprism. The top base may be called the <dfn class="terminology">summit</dfn> in which case the bottom would be called the <dfn class="terminology">base</dfn>. We specify the type of prism or pyramid by shape of its base so that the prism with a <span class="process-math">\(4.4.n\)</span>-vertex configuration is called an <dfn class="terminology"><span class="process-math">\(n\)</span>-gonal prism</dfn>. Of course, we can set a polyhedron on any of its faces. Sometimes the base(s) will appear to be at the ends of the solid rather than at the top and bottom. <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-5-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="sec-polyhedra-semiregular-5-9" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Aside</span></h4></summary>
+<aside class="aside aside-like knowl__content">
+<div class="para" id="sec-polyhedra-semiregular-5-9-1">The summit of an antiprism will be a rotated copy of the base lying in a plane parallel to the base. A prism will not have this rotation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-polyhedra-semiregular-5-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</aside></details><div class="autopermalink" aria-hidden="true" data-description="Subsection 3.2.4: Defining Prisms and Antiprisms"><a tabindex="-1" href="#sec-polyhedra-semiregular-5" title="Copy heading and permalink for Subsection 3.2.4: Defining Prisms and Antiprisms" aria-label="Copy heading and permalink for Subsection 3.2.4: Defining Prisms and Antiprisms">🔗</a></div>
+</section>
+<section class="exercises" id="exercises-semireg-polyhedra">
+<h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
 </h3>
 <article class="subexercises" id="exercises-semireg-polyhedra-2"><h4 class="heading"><span class="title">Building Our Toolbox</span></h4>
 <article class="exercise exercise-like" id="exercises-semireg-polyhedra-2-2"><h5 class="heading">
-<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Understanding the Definition of Semiregular Polyhedron.</span>
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Understanding the Definition of Semiregular Polyhedron.</span>
 </h5>
-<div class="introduction" id="exercises-semireg-polyhedra-2-2-2"><div class="para" id="exercises-semireg-polyhedra-2-2-2-1">State the definition of semiregular polyhedron in your own words.</div></div>
+<div class="introduction" id="exercises-semireg-polyhedra-2-2-2">
+<div class="para" id="exercises-semireg-polyhedra-2-2-2-1">State the definition of semiregular polyhedron in your own words.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
 <article class="task exercise-like" id="exercises-semireg-polyhedra-2-2-3"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<div class="para" id="exercises-semireg-polyhedra-2-2-3-1-1">Of the three criteria in <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/xref/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition 3.2.1</a>, which one rules out a cube?</div></article><article class="task exercise-like" id="exercises-semireg-polyhedra-2-2-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<div class="para" id="exercises-semireg-polyhedra-2-2-4-1-1">Of the three criteria in <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/xref/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition 3.2.1</a>, which one explains why a <span class="process-math">\(3\times 4\times 5\)</span> rectangular prism (box) is not a semiregular polyhedron?</div></article><article class="task exercise-like" id="exercises-semireg-polyhedra-2-2-5"><h6 class="heading"><span class="codenumber">(c)</span></h6>
-<div class="para" id="exercises-semireg-polyhedra-2-2-5-1-1">Could a pyramid with a square base be a semiregular polyhedron? Explain.</div></article></article><article class="exercise exercise-like" id="exercises-semireg-polyhedra-2-3"><h5 class="heading">
-<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Observing Euler’s Identity.</span>
+<div class="para" id="exercises-semireg-polyhedra-2-2-3-1-1">Of the three criteria in <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/xref/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition 3.2.1</a>, which one rules out a cube?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.5.1.a"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-2-3" title="Copy heading and permalink for Task 3.2.5.1.a" aria-label="Copy heading and permalink for Task 3.2.5.1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exercises-semireg-polyhedra-2-2-4"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="exercises-semireg-polyhedra-2-2-4-1-1">Of the three criteria in <a href="sec-polyhedra-semiregular.html#def-semiregplyhdron" class="xref" data-knowl="./knowl/xref/def-semiregplyhdron.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 3.2.1">Definition 3.2.1</a>, which one explains why a <span class="process-math">\(3\times 4\times 5\)</span> rectangular prism (box) is not a semiregular polyhedron?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.5.1.b"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-2-4" title="Copy heading and permalink for Task 3.2.5.1.b" aria-label="Copy heading and permalink for Task 3.2.5.1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="exercises-semireg-polyhedra-2-2-5"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="exercises-semireg-polyhedra-2-2-5-1-1">Could a pyramid with a square base be a semiregular polyhedron? Explain.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.2.5.1.c"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-2-5" title="Copy heading and permalink for Task 3.2.5.1.c" aria-label="Copy heading and permalink for Task 3.2.5.1.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 3.2.5.1: Understanding the Definition of Semiregular Polyhedron"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-2" title="Copy heading and permalink for Exercise 3.2.5.1: Understanding the Definition of Semiregular Polyhedron" aria-label="Copy heading and permalink for Exercise 3.2.5.1: Understanding the Definition of Semiregular Polyhedron">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exercises-semireg-polyhedra-2-3"><h5 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Observing Euler’s Identity.</span>
 </h5>
 <article class="task exercise-like" id="exercises-semireg-polyhedra-2-3-2"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<div class="para" id="exercises-semireg-polyhedra-2-3-2-1-1">You have calculated <span class="process-math">\(F+V-E\)</span> for the five regular polyhedra, several pyramids, and several prisms. What do you notice?</div> <aside class="aside aside-like" id="exercises-semireg-polyhedra-2-3-2-1-2"><div class="para" id="exercises-semireg-polyhedra-2-3-2-1-2-1">This identity, which holds for all polyhedra, is called <dfn class="terminology">Euler’s Identity</dfn> after the mathematician Leonhard Euler (1707-1783) although Francesco Maurolico stated the equation for regular polyhedra in 1537. Euler was a prolific mathematician who worked in many different areas of mathematics. In fact, if you search for Euler’s identity, you will find other identities also named for him, notably the complex number identity, <span class="process-math">\(e^{i\theta}=cos \theta +i sin \theta\text{,}\)</span> or its special case, <span class="process-math">\(e^{i\pi}+1=0\text{.}\)</span>
-</div></aside></article></article></article><article class="subexercises" id="exercises-semireg-polyhedra-3"><h4 class="heading"><span class="title">Skills and Recall</span></h4>
+<div class="para" id="exercises-semireg-polyhedra-2-3-2-1-1">You have calculated <span class="process-math">\(F+V-E\)</span> for the five regular polyhedra, several pyramids, and several prisms. What do you notice?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<details id="exercises-semireg-polyhedra-2-3-2-1-2" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h6 class="heading"><span class="type">Aside</span></h6></summary>
+<aside class="aside aside-like knowl__content">
+<div class="para" id="exercises-semireg-polyhedra-2-3-2-1-2-1">This identity, which holds for all polyhedra, is called <dfn class="terminology">Euler’s Identity</dfn> after the mathematician Leonhard Euler (1707-1783) although Francesco Maurolico stated the equation for regular polyhedra in 1537. Euler was a prolific mathematician who worked in many different areas of mathematics. In fact, if you search for Euler’s identity, you will find other identities also named for him, notably the complex number identity, <span class="process-math">\(e^{i\theta}=cos \theta +i sin \theta\text{,}\)</span> or its special case, <span class="process-math">\(e^{i\pi}+1=0\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-3-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</aside></details><div class="autopermalink" aria-hidden="true" data-description="Task 3.2.5.2.a"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-3-2" title="Copy heading and permalink for Task 3.2.5.2.a" aria-label="Copy heading and permalink for Task 3.2.5.2.a">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercise 3.2.5.2: Observing Euler’s Identity"><a tabindex="-1" href="#exercises-semireg-polyhedra-2-3" title="Copy heading and permalink for Exercise 3.2.5.2: Observing Euler’s Identity" aria-label="Copy heading and permalink for Exercise 3.2.5.2: Observing Euler’s Identity">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subexercises: Building Our Toolbox"><a tabindex="-1" href="#exercises-semireg-polyhedra-2" title="Copy heading and permalink for Subexercises: Building Our Toolbox" aria-label="Copy heading and permalink for Subexercises: Building Our Toolbox">🔗</a></div>
+</article>
+<article class="subexercises" id="exercises-semireg-polyhedra-3"><h4 class="heading"><span class="title">Skills and Recall</span></h4>
 <article class="exercise exercise-like" id="exercises-semireg-polyhedra-3-2"><h5 class="heading">
-<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Counting Vertices, Faces, and Edges.</span>
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Counting Vertices, Faces, and Edges.</span>
 </h5>
 <div class="para logical" id="exercises-semireg-polyhedra-3-2-2-1">
 <div class="para">An octadecagon is an 18-gon.</div>
 <ol class="lower-alpha lower-alpha-level-1" id="exercises-semireg-polyhedra-3-2-2-1-1">
-<li id="exercises-semireg-polyhedra-3-2-2-1-1-1"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-1-1">How many vertices will an octadecagonal prism have?</div></li>
-<li id="exercises-semireg-polyhedra-3-2-2-1-1-2"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-2-1">How many faces will an octadecagonal prism have?</div></li>
-<li id="exercises-semireg-polyhedra-3-2-2-1-1-3"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-3-1">How many edges will an octadecagonal prism have?</div></li>
-<li id="exercises-semireg-polyhedra-3-2-2-1-1-4"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-4-1">How many vertices will an octadecagonal antiprism have?</div></li>
-<li id="exercises-semireg-polyhedra-3-2-2-1-1-5"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-5-1">How many faces will an octadecagonal antiprism have?</div></li>
-<li id="exercises-semireg-polyhedra-3-2-2-1-1-6"><div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-6-1">How many edges will an octadecagonal antiprism have?</div></li>
+<li id="exercises-semireg-polyhedra-3-2-2-1-1-1">
+<div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-1-1">How many vertices will an octadecagonal prism have?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.3.a"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-1" title="Copy heading and permalink for Item 3.2.5.3.a" aria-label="Copy heading and permalink for Item 3.2.5.3.a">🔗</a></div>
+</li>
+<li id="exercises-semireg-polyhedra-3-2-2-1-1-2">
+<div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-2-1">How many faces will an octadecagonal prism have?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.3.b"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-2" title="Copy heading and permalink for Item 3.2.5.3.b" aria-label="Copy heading and permalink for Item 3.2.5.3.b">🔗</a></div>
+</li>
+<li id="exercises-semireg-polyhedra-3-2-2-1-1-3">
+<div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-3-1">How many edges will an octadecagonal prism have?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.3.c"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-3" title="Copy heading and permalink for Item 3.2.5.3.c" aria-label="Copy heading and permalink for Item 3.2.5.3.c">🔗</a></div>
+</li>
+<li id="exercises-semireg-polyhedra-3-2-2-1-1-4">
+<div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-4-1">How many vertices will an octadecagonal antiprism have?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.3.d"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-4" title="Copy heading and permalink for Item 3.2.5.3.d" aria-label="Copy heading and permalink for Item 3.2.5.3.d">🔗</a></div>
+</li>
+<li id="exercises-semireg-polyhedra-3-2-2-1-1-5">
+<div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-5-1">How many faces will an octadecagonal antiprism have?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.3.e"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-5" title="Copy heading and permalink for Item 3.2.5.3.e" aria-label="Copy heading and permalink for Item 3.2.5.3.e">🔗</a></div>
+</li>
+<li id="exercises-semireg-polyhedra-3-2-2-1-1-6">
+<div class="para" id="exercises-semireg-polyhedra-3-2-2-1-1-6-1">How many edges will an octadecagonal antiprism have?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.3.f"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1-1-6" title="Copy heading and permalink for Item 3.2.5.3.f" aria-label="Copy heading and permalink for Item 3.2.5.3.f">🔗</a></div>
+</li>
 </ol>
-</div></article><article class="exercise exercise-like" id="exercises-semireg-polyhedra-3-3"><h5 class="heading">
-<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Applying Euler’s Identity.</span>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.2.5.3: Counting Vertices, Faces, and Edges"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-2" title="Copy heading and permalink for Exercise 3.2.5.3: Counting Vertices, Faces, and Edges" aria-label="Copy heading and permalink for Exercise 3.2.5.3: Counting Vertices, Faces, and Edges">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exercises-semireg-polyhedra-3-3"><h5 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Applying Euler’s Identity.</span>
 </h5>
-<div class="para" id="exercises-semireg-polyhedra-3-3-2-1">A pentagonal cupola is a convex polyhedron with 12 faces and 25 edges. Determine how many vertices a pentagonal cupola must have.</div></article></article><article class="subexercises" id="exercises-semireg-polyhedra-4"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
+<div class="para" id="exercises-semireg-polyhedra-3-3-2-1">A pentagonal cupola is a convex polyhedron with 12 faces and 25 edges. Determine how many vertices a pentagonal cupola must have.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.2.5.4: Applying Euler’s Identity"><a tabindex="-1" href="#exercises-semireg-polyhedra-3-3" title="Copy heading and permalink for Exercise 3.2.5.4: Applying Euler’s Identity" aria-label="Copy heading and permalink for Exercise 3.2.5.4: Applying Euler’s Identity">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subexercises: Skills and Recall"><a tabindex="-1" href="#exercises-semireg-polyhedra-3" title="Copy heading and permalink for Subexercises: Skills and Recall" aria-label="Copy heading and permalink for Subexercises: Skills and Recall">🔗</a></div>
+</article>
+<article class="subexercises" id="exercises-semireg-polyhedra-4"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
 <article class="exercise exercise-like" id="exercises-semireg-polyhedra-4-2"><h5 class="heading">
-<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Dipyramids.</span>
+<span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Dipyramids.</span>
 </h5>
-<div class="para" id="exercises-semireg-polyhedra-4-2-2-1">The regular octahedron looks like two congruent square pyramids glued together. Solids formed in this way are called <dfn class="terminology">dipyramids</dfn>. Thus, the regular octahedron is also called a square dipyramid. You should have built a triangular dipyramid in <a href="sec-polyhedra-regular.html#task-tridipyramid" class="xref" data-knowl="./knowl/xref/task-tridipyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.1.1.d: A Nonregular Polyhedron made from Regular Triangles">Task 3.1.1.d</a>.</div> <div class="para" id="exercises-semireg-polyhedra-4-2-2-2">An <span class="process-math">\(n\)</span>-gonal tripyramid has two vertices where <span class="process-math">\(n\)</span> triangles meet, but at each of the <span class="process-math">\(n\)</span> vertices where the pyramids are “glued together”, there are four isosceles triangles touching. A net for a pentagonal dipyramid is given in <a href="sec-polyhedra-semiregular.html#fig-pent-dipyramid" class="xref" data-knowl="./knowl/xref/fig-pent-dipyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.11">Figure 3.2.11</a>.</div> <div class="para logical" id="exercises-semireg-polyhedra-4-2-2-3">
+<div class="para" id="exercises-semireg-polyhedra-4-2-2-1">The regular octahedron looks like two congruent square pyramids glued together. Solids formed in this way are called <dfn class="terminology">dipyramids</dfn>. Thus, the regular octahedron is also called a square dipyramid. You should have built a triangular dipyramid in <a href="sec-polyhedra-regular.html#task-tridipyramid" class="xref" data-knowl="./knowl/xref/task-tridipyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 3.1.1.d: A Nonregular Polyhedron made from Regular Triangles">Task 3.1.1.d</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="exercises-semireg-polyhedra-4-2-2-2">An <span class="process-math">\(n\)</span>-gonal tripyramid has two vertices where <span class="process-math">\(n\)</span> triangles meet, but at each of the <span class="process-math">\(n\)</span> vertices where the pyramids are “glued together”, there are four isosceles triangles touching. A net for a pentagonal dipyramid is given in <a href="sec-polyhedra-semiregular.html#fig-pent-dipyramid" class="xref" data-knowl="./knowl/xref/fig-pent-dipyramid.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 3.2.11">Figure 3.2.11</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para logical" id="exercises-semireg-polyhedra-4-2-2-3">
 <div class="para">Determine the number of vertices, faces, and edges for each of the following types of dipyramids. Do not count the bases of the pyramids as a face.</div>
 <ol class="lower-alpha lower-alpha-level-1" id="exercises-semireg-polyhedra-4-2-2-3-1">
-<li id="exercises-semireg-polyhedra-4-2-2-3-1-1"><div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-1-1">A triangular dipyramid</div></li>
-<li id="exercises-semireg-polyhedra-4-2-2-3-1-2"><div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-2-1">A pentagonal dipyramid</div></li>
-<li id="exercises-semireg-polyhedra-4-2-2-3-1-3"><div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-3-1">A hexagonal dipyramid</div></li>
-<li id="exercises-semireg-polyhedra-4-2-2-3-1-4"><div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-4-1">An <span class="process-math">\(n\)</span>-gonal dipyramid</div></li>
+<li id="exercises-semireg-polyhedra-4-2-2-3-1-1">
+<div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-1-1">A triangular dipyramid<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.5.a"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3-1-1" title="Copy heading and permalink for Item 3.2.5.5.a" aria-label="Copy heading and permalink for Item 3.2.5.5.a">🔗</a></div>
+</li>
+<li id="exercises-semireg-polyhedra-4-2-2-3-1-2">
+<div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-2-1">A pentagonal dipyramid<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.5.b"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3-1-2" title="Copy heading and permalink for Item 3.2.5.5.b" aria-label="Copy heading and permalink for Item 3.2.5.5.b">🔗</a></div>
+</li>
+<li id="exercises-semireg-polyhedra-4-2-2-3-1-3">
+<div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-3-1">A hexagonal dipyramid<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.5.c"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3-1-3" title="Copy heading and permalink for Item 3.2.5.5.c" aria-label="Copy heading and permalink for Item 3.2.5.5.c">🔗</a></div>
+</li>
+<li id="exercises-semireg-polyhedra-4-2-2-3-1-4">
+<div class="para" id="exercises-semireg-polyhedra-4-2-2-3-1-4-1">An <span class="process-math">\(n\)</span>-gonal dipyramid<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 3.2.5.5.d"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3-1-4" title="Copy heading and permalink for Item 3.2.5.5.d" aria-label="Copy heading and permalink for Item 3.2.5.5.d">🔗</a></div>
+</li>
 </ol>
-</div> <figure class="figure figure-like" id="fig-pent-dipyramid"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/pentdihedralnet.svg" role="img" class="contained" alt="A net for a pentagonal dipyramid consisting of ten isosceles triangles."></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.2.11<span class="period">.</span></span><span class="space"> </span>Net for a pentagonal dipyramid</figcaption></figure></article></article><article class="subexercises" id="exercises-semireg-polyhedra-5"><h4 class="heading"><span class="title">Writing Prompts</span></h4>
-<article class="exercise exercise-like" id="exercises-semireg-polyhedra-5-2"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
-<div class="para" id="exercises-semireg-polyhedra-5-2-1-1">Write a letter to a friend describing one thing you found to be surprising or interesting in this section or <a href="sec-polyhedra-regular.html" class="internal" title="Section 3.1: Regular Polyhedra">Section 3.1</a>. What questions do you have that would be interesting to explore?</div></article><article class="exercise exercise-like" id="exercises-semireg-polyhedra-5-3"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
-<div class="para" id="exercises-semireg-polyhedra-5-3-1-1">When three-dimensional objects are described verbally or illustrated in a two-dimensional space, they can be difficult to visualize. Discuss the challenges you have encountered with visualizing these solids and the techniques you have used to overcome these challenges.</div></article></article></section></section></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<figure class="figure figure-like" id="fig-pent-dipyramid"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/pentdihedralnet.svg" role="img" class="contained" alt="A net for a pentagonal dipyramid consisting of ten isosceles triangles."></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.2.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Net for a pentagonal dipyramid<div class="autopermalink" aria-hidden="true" data-description="Figure 3.2.11"><a tabindex="-1" href="#fig-pent-dipyramid" title="Copy heading and permalink for Figure 3.2.11" aria-label="Copy heading and permalink for Figure 3.2.11">🔗</a></div></figcaption>
+</figure><div class="autopermalink" aria-hidden="true" data-description="Exercise 3.2.5.5: Dipyramids"><a tabindex="-1" href="#exercises-semireg-polyhedra-4-2" title="Copy heading and permalink for Exercise 3.2.5.5: Dipyramids" aria-label="Copy heading and permalink for Exercise 3.2.5.5: Dipyramids">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subexercises: Extending the Concepts"><a tabindex="-1" href="#exercises-semireg-polyhedra-4" title="Copy heading and permalink for Subexercises: Extending the Concepts" aria-label="Copy heading and permalink for Subexercises: Extending the Concepts">🔗</a></div>
+</article>
+<article class="subexercises" id="exercises-semireg-polyhedra-5"><h4 class="heading"><span class="title">Writing Prompts</span></h4>
+<article class="exercise exercise-like" id="exercises-semireg-polyhedra-5-2"><h5 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="para" id="exercises-semireg-polyhedra-5-2-1-1">Write a letter to a friend describing one thing you found to be surprising or interesting in this section or <a href="sec-polyhedra-regular.html" class="internal" title="Section 3.1: Regular Polyhedra">Section 3.1</a>. What questions do you have that would be interesting to explore?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.2.5.6"><a tabindex="-1" href="#exercises-semireg-polyhedra-5-2" title="Copy heading and permalink for Exercise 3.2.5.6" aria-label="Copy heading and permalink for Exercise 3.2.5.6">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="exercises-semireg-polyhedra-5-3"><h5 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<div class="para" id="exercises-semireg-polyhedra-5-3-1-1">When three-dimensional objects are described verbally or illustrated in a two-dimensional space, they can be difficult to visualize. Discuss the challenges you have encountered with visualizing these solids and the techniques you have used to overcome these challenges.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#exercises-semireg-polyhedra-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.2.5.7"><a tabindex="-1" href="#exercises-semireg-polyhedra-5-3" title="Copy heading and permalink for Exercise 3.2.5.7" aria-label="Copy heading and permalink for Exercise 3.2.5.7">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Subexercises: Writing Prompts"><a tabindex="-1" href="#exercises-semireg-polyhedra-5" title="Copy heading and permalink for Subexercises: Writing Prompts" aria-label="Copy heading and permalink for Subexercises: Writing Prompts">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercises 3.2.5: Exercises"><a tabindex="-1" href="#exercises-semireg-polyhedra" title="Copy heading and permalink for Exercises 3.2.5: Exercises" aria-label="Copy heading and permalink for Exercises 3.2.5: Exercises">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 3.2: Semiregular Polyhedra"><a tabindex="-1" href="#sec-polyhedra-semiregular" title="Copy heading and permalink for Section 3.2: Semiregular Polyhedra" aria-label="Copy heading and permalink for Section 3.2: Semiregular Polyhedra">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-polyhedra-regular.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-polyhedra-Prisms-Cylinders.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
