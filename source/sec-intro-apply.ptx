@@ -32,7 +32,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   identify the object. We typically do not include every property of an object in the definition; 
   some properties can be proved from the initial definition. For example, we define a rectangle  
   to be a quadrilateral with four right angles. The property that opposite sides of a rectangle  
-  are congruent is not included in the definition because it can be proved from the definition.
+  are congruent is not included in the definition because it can be demonstrated from the definition.
 </p>
 <p>
   Depending on the level of a geometry textbook and the author's goals, you will see some differences 
@@ -50,9 +50,9 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   Our course toolbox currently contains the <xref ref="def-area">definition of 
   area</xref>, the <xref ref="formula-area-rectangle">area formula for a rectangle</xref>,
   and <xref ref="principle-areasums">Additivity of Area Principle</xref>. 
-  In other words, we can think about the area 
-  of a region as the number of <m>1\times1</m> blocks that fill the interior, 
-  we can use the area formula for a rectangle, and we know that
+  In other words, we can recognize the area 
+  of a region as the number of <m>1\times1</m> blocks needed to fill the interior of the region, 
+  we can state and use the area formula for a rectangle, and we know that
   the area of a region is equal to the sum of the areas of its parts. 
   Hopefully, you will agree that length should also be additive; namely,
   that if we extend a segment of length <m>n</m> by a segment of length 
@@ -100,17 +100,22 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   also use the index or textbook's search tool to find definitions.
 </p>
 
+<p>
+  In <xref ref="intro-apply-explore-tangram"/>, use the tools currently in our toolbox<fn>These tools are limited to 
+    <xref ref="def-area">definition of 
+  area</xref>, the <xref ref="formula-area-rectangle">area formula for a rectangle</xref>,
+  <xref ref="principle-areasums"> Additivity of Area Principle</xref>, and 
+  <xref ref="principle-addlengths">Additivity of Length</xref>.</fn> as you answer the questions. 
+  You may find yourself wanting to use the Pythagorean Theorem 
+  and the area formula for a triangle, but you are encouraged to try to answer the questions 
+  without these formulas. In fact, if you find yourself using the Pythagorean Theorem, you are
+  making the problem harder than it needs to be!
+</p>
+
 <exploration xml:id="intro-apply-explore-tangram">
 
 <title>Explorations with Tangrams</title>
-<introduction>
-  <p>
-    In this exploration, use the tools currently in our toolbox as you answer the questions. 
-    You may find yourself wanting to use the Pythagorean Theorem 
-    and the area formula for a triangle, but you are encouraged to try to answer the questions 
-    without these formulas. In fact, if you find yourself using the Pythagorean Theorem, there is  
-    probably an easier method!
-  </p>
+  <introduction>
   <p>
     A set of tangrams consists of the following seven pieces: two large triangles, one medium 
     triangle, a parallelogram, a square, and two small triangles. 
@@ -189,11 +194,12 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   <title>Side Lengths of Tangram Shapes</title>
     <task>
       <statement>
-        <p>Still assuming that the length of each side of the square is 1 unit, now find the lengths of the sides of the other tangram shapes. You may use the Pythagorean Theorem, but it is possible to determine these lengths without it!</p>
+        <p>
+          Still assuming that the length of each side of the square is 1 unit, now find the 
+          lengths of the sides of the other tangram shapes. You may use the Pythagorean Theorem
+          for this problem.
+        </p>
       </statement>
-      <hint>
-        <p>Use the Pythagorean Theorem if preferred. This will be explored in a later section of the book.</p>
-      </hint>
     </task>
   </task>
 
@@ -263,13 +269,29 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   </task>
 
 <task xml:id="reflection-section">
-  <title>Reflection</title>
+  <title>Reflections</title>
   <task>
     <statement>
-      <p>Were you able to answer the questions above without using the Pythagorean Theorem or the area formula for a triangle? If not, explore how this might be done!</p>
+      <p>
+        Were you able to determine the areas above without using the Pythagorean Theorem or the area formula for 
+        a triangle? If not, explore how this might be done!
+      </p>
     </statement>
     <hint>
       <p>What tools do we have in our toolbox? How can these help?</p>
+    </hint>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Use the tangram shapes to demonstrate visually that <m>\sqrt{8}=2\sqrt{2}</m>. Then use the factorization of 8 and
+        properties of the square root to demonstrate this algebraically.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        Consider the hypotenuse of the large triangle.
+      </p>
     </hint>
   </task>
 </task>
