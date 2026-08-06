@@ -96,8 +96,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   As we encounter and state new definitions, these too 
   will be added to our toolbox. As you work through the next exploration, you will 
   encounter terms like trapezoid and isosceles. Definitions for these and other terms are 
-  provided at the end of this section in case you would like to refresh your memory. You can 
-  also use the index or textbook's search tool to find definitions.
+  provided at the end of this section in case you would like to refresh your memory. You should 
+  also learn how to use the textbook's index or  search tool to find definitions.
 </p>
 
 <p>
@@ -107,8 +107,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   <xref ref="principle-areasums"> Additivity of Area Principle</xref>, and 
   <xref ref="principle-addlengths">Additivity of Length</xref>.</fn> as you answer the questions. 
   You may find yourself wanting to use the Pythagorean Theorem 
-  and the area formula for a triangle, but you are encouraged to try to answer the questions 
-  without these formulas. In fact, if you find yourself using the Pythagorean Theorem, you are
+  and the area formula for a triangle, but you are encouraged to try to determine the areas 
+  without using these formulas. In fact, if you find yourself using the Pythagorean Theorem, you are
   making the problem harder than it needs to be!
 </p>
 
@@ -307,10 +307,45 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     want to grow our toolbox to increase our ability to solve problems and justify 
     claims. 
   </p>
-  <p>
-    Perhaps you moved figures around and lined up sides to determine whether the lengths  
-    were the same. <!--definition and principle of congruence-->
-  </p>
+  <paragraphs>
+    <title>Congruence</title>
+    <idx><h>congruent</h></idx>
+      <p>
+        In geometry, we use the word <term>congruent</term> to describe two objects of the same
+        shape and size. Two line segments will be said to be congruent if they have the same length.
+        Congruent two-dimensional figures will not only have the same area,
+        but also the same number of sides, the same lengths of corresponding sides, and the same angle measures.
+      </p>
+      <p> In <xref ref="fig-example-congruence"/>, 
+
+
+      </p>
+      <figure xml:id="fig-example-congruence">
+        <caption>A pair of congruent triangles.</caption>
+        <prefigure xmlns="https://prefigure.org" label="PreFigExampleCong" >
+        <diagram xmlns="https://prefigure.org" width="350" height="350" margins="5">
+  <coordinates bbox="(-6,-6,6,6)">
+    <polygon points="((-4,2),(0,2),(0,5))" 
+             closed="yes" fill="yellow"
+             stroke="black" />
+      <label anchor="(-4,2)" alignment="sw" scale="0.8">A</label>
+      <label anchor="(0,2)" alignment="se" scale="0.8">B</label>
+      <label anchor="(0,5)" alignment="ne" scale="0.8">C</label>
+
+
+    <polygon points="((2,3),(2,-1),(5,-1))"
+             closed="yes" fill="lightgreen"
+             stroke="black"/>
+      <label anchor="(2,3)" alignment="nw" scale="0.8">D</label>
+      <label anchor="(2,-1)" alignment="sw" scale="0.8">E</label>
+      <label anchor="(5,-1)" alignment="se" scale="0.8">F</label>
+
+  </coordinates>
+</diagram>
+</prefigure>
+</figure>
+  </paragraphs>
+
 </subsection>
 <subsection xml:id="intro-apply-subsec-definingpolygons">
     <title>Defining Polygons</title>
