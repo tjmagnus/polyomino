@@ -482,6 +482,21 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </shortdescription>
       </image>-->
     </figure>
+    <figure>
+      <caption>Intersecting sides</caption>
+      <image>
+        <prefigure xmlns="https://prefigure.org" label="notpolygonSidesCrossed" >
+          <diagram width="300" height="300" margins="5">
+            <coordinates bbox="(-4,-4,6,6)">
+              <polygon points="((0,5),(4,-3),(5,1),(3,3),(-3,-2))" 
+                      closed="yes"
+                      stroke="black" />
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </figure>  
+
   </sidebyside>
 </figure>
 <p>
