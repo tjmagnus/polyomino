@@ -320,30 +320,29 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 
 
       </p>
-      <figure xml:id="fig-example-congruence">
-        <caption>A pair of congruent triangles.</caption>
-        <prefigure xmlns="https://prefigure.org" label="PreFigExampleCong" >
+    <figure  xml:id="fig-example-congruence">
+      <caption>A pair of congruent triangles.</caption>
+      <prefigure xmlns="https://prefigure.org" label="PreFigExampleCong" >
         <diagram xmlns="https://prefigure.org" width="350" height="350" margins="5">
-  <coordinates bbox="(-6,-6,6,6)">
-    <polygon points="((-4,2),(0,2),(0,5))" 
-             closed="yes" fill="yellow"
-             stroke="black" />
-      <label anchor="(-4,2)" alignment="sw" scale="0.8">A</label>
-      <label anchor="(0,2)" alignment="se" scale="0.8">B</label>
-      <label anchor="(0,5)" alignment="ne" scale="0.8">C</label>
+          <coordinates bbox="(-6,-6,6,6)">
+            <polygon points="((-4,2),(0,2),(0,5))" 
+                    closed="yes" fill="yellow"
+                    stroke="black" />
+              <label anchor="(-4,2)" alignment="sw" scale="0.8">A</label>
+              <label anchor="(0,2)" alignment="se" scale="0.8">B</label>
+              <label anchor="(0,5)" alignment="ne" scale="0.8">C</label>
 
+            <polygon points="((2,3),(2,-1),(5,-1))"
+                    closed="yes" fill="lightgreen"
+                    stroke="black"/>
+              <label anchor="(2,3)" alignment="nw" scale="0.8">D</label>
+              <label anchor="(2,-1)" alignment="sw" scale="0.8">E</label>
+              <label anchor="(5,-1)" alignment="se" scale="0.8">F</label>
 
-    <polygon points="((2,3),(2,-1),(5,-1))"
-             closed="yes" fill="lightgreen"
-             stroke="black"/>
-      <label anchor="(2,3)" alignment="nw" scale="0.8">D</label>
-      <label anchor="(2,-1)" alignment="sw" scale="0.8">E</label>
-      <label anchor="(5,-1)" alignment="se" scale="0.8">F</label>
-
-  </coordinates>
-</diagram>
-</prefigure>
-</figure>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </figure>
   </paragraphs>
 
 </subsection>
