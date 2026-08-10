@@ -25,6 +25,7 @@ hasWebworkReps: false,
 hasSage: false,
 isReact: false,
 htmlPresentation: false,
+lang: "en-US",
 });
 </script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +36,7 @@ htmlPresentation: false,
 <meta name="twitter:description" content="Discovering Geometry through Exploration">
 <meta property="og:description" content="Discovering Geometry through Exploration">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.43"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.48"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.48"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -57,21 +58,21 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.2';
+eBookConfig.runestone_version = '8.2.4';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.ed2cce180827a7ad.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.18fa7ea1d9f376c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<script src="_static/prefix-runtime.40bd1420d3277749.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
 <script src="_static/pretext/js/dist/diagcess/diagcess.js"></script><script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></div>
 <p class="byline">Teresa D. Magnus</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="ptx-search-box">
@@ -90,6 +91,16 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="ptx-embed-code-container">
 <textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
 </div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
 <h2 class="heading">Readability settings</h2>
 <button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
@@ -132,6 +143,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Invitation to Geometrical Thinking</span></a></div>
 <ul id="ptx-toc-group-ch-intro" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-intro-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-intro-explore.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Invitation to Explore</span></a></div>
 <ul id="ptx-toc-group-sec-intro-explore" class="structural toc-item-list">
@@ -175,6 +187,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-polygons.html" class="internal"><span class="codenumber">2</span> <span class="title">Exploring Polygons and Other Figures on the Plane</span></a></div>
 <ul id="ptx-toc-group-ch-polygons" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-polygons-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polygons-area.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exploring Area</span></a></div>
 <ul id="ptx-toc-group-sec-polygons-area" class="structural toc-item-list">
@@ -241,6 +254,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
 <ul id="ptx-toc-group-ch-polyhedra" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-polyhedra-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul id="ptx-toc-group-sec-polyhedra-regular" class="structural toc-item-list">
@@ -298,6 +312,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
 <ul id="ptx-toc-group-ch-isom" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-isom-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
 <ul id="ptx-toc-group-sec-isom-reflect-Cartesian" class="structural toc-item-list">
@@ -366,6 +381,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
 <ul id="ptx-toc-group-ch-dilation" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-dilation-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
 <ul id="ptx-toc-group-sec-dilations-Cartesian" class="structural toc-item-list">
@@ -399,6 +415,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul class="structural toc-item-list contains-active" id="ptx-toc-group-ch-geonumberplay">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-geonumberplay-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
 <ul id="ptx-toc-group-sec-geonumberplay-star" class="structural toc-item-list">
@@ -425,8 +442,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul id="ptx-toc-group-backmatter" class="structural toc-item-list">
 <li class="toc-item toc-appendix">
-<div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">A</span> <span class="title">Algebra Review</span></a></div>
+<div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">A.</span> <span class="title">Algebra Review</span></a></div>
 <ul id="ptx-toc-group-algebra-principles" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="algebra-principles-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles-3.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Algebraic Expressions and Equations</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="field-properties.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Field Properties of the Real Numbers</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equality-properties.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Properties of Equality</span></a></div></li>
@@ -440,9 +458,9 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
-<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="list-of-principles.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Principles</span></a></div></li>
-<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
-<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-list-formulas.html" class="internal"><span class="codenumber">D</span> <span class="title">List of Formulas</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="list-of-principles.html" class="internal"><span class="codenumber">B.</span> <span class="title">List of Principles</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C.</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-list-formulas.html" class="internal"><span class="codenumber">D.</span> <span class="title">List of Formulas</span></a></div></li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Index</span></a></div></li>
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
@@ -450,51 +468,51 @@ eBookConfig.enable_chatcodes =  false;
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <section class="section" id="sec-geonumberplay-billiards">
-<h2 class="heading hide-type">
+<h1 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Geometry on a Billiard Table</span>
-</h2>
+</h1>
 <section class="introduction" id="sec-geonumberplay-billiards-2">
 <div class="para" id="sec-geonumberplay-billiards-2-1">In this section, we explore the path of a billiard ball as it travels around a rectangular pool table and determine which pocket the ball will land in. Throughout this section, we assume that there is no spin on the ball so that it travels in a straight line; it encounters no bumps, fuzz, or other impediments as it travels. We also assume that the ball has no resistance and will continue to travel until in lands in one of the corner pockets. Once again, we will see a connection between geometry and properties of the set of counting numbers.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-geonumberplay-billiards-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section>
 <section class="subsection" id="sec-geonumplay-billiards-refl-law">
-<h3 class="heading hide-type">
+<h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Law of Reflection</span>
-</h3>
+</h2>
 <div class="para" id="sec-geonumplay-billiards-refl-law-2">Though we describe this as the path of a billiard ball, the behavior of our ideal ball is more like light hitting mirrors.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-geonumplay-billiards-refl-law-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="exploration project-like" id="explabel-law-reflect"><h4 class="heading">
+<article class="exploration project-like" id="explabel-law-reflect"><h3 class="heading">
 <span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Discovering the Law of Reflection.</span>
-</h4>
-<article class="task exercise-like" id="tasklabel-"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+</h3>
+<article class="task exercise-like" id="tasklabel-"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="introduction" id="tasklabel--1">
-<div class="para" id="tasklabel--1-1">In <a href="sec-geonumberplay-billiards.html#fig-snells-law" class="xref" data-knowl="./knowl/xref/fig-snells-law.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.1">Figure 6.2.1</a>, a ball traveling in direction <span class="process-math">\(\overrightarrow{AD}\)</span> meets wall <span class="process-math">\(\overleftrightarrow{CE}\)</span> at point <span class="process-math">\(B\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#tasklabel--1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="tasklabel--1-1">In <a href="sec-geonumberplay-billiards.html#fig-snells-law" class="xref" data-knowl="./knowl/xref/fig-snells-law.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.2">Figure 6.2.2</a>, a ball traveling in direction <span class="process-math">\(\overrightarrow{AD}\)</span> meets wall <span class="process-math">\(\overleftrightarrow{CE}\)</span> at point <span class="process-math">\(B\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#tasklabel--1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-snells-law"><div class="interactive-iframe-container"><iframe id="snells-app" style="width:600px; height:420px; display: block; " src="snells-app-if.html"></iframe></div>
 <div class="interactive-iframe-container__opener"><a href="snells-app.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra interactive for bounce angle<div class="autopermalink" aria-hidden="true" data-description="Figure 6.2.1"><a tabindex="-1" href="#fig-snells-law" title="Copy heading and permalink for Figure 6.2.1" aria-label="Copy heading and permalink for Figure 6.2.1">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra interactive for bounce angle<div class="autopermalink" aria-hidden="true" data-description="Figure 6.2.2"><a tabindex="-1" href="#fig-snells-law" title="Copy heading and permalink for Figure 6.2.2" aria-label="Copy heading and permalink for Figure 6.2.2">🔗</a></div></figcaption>
 </figure>
 </div>
-<article class="task exercise-like" id="expltask-snells-vertical-l"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<article class="task exercise-like" id="expltask-snells-vertical-l"><h5 class="heading"><span class="codenumber">(i)</span></h5>
 <div class="para" id="expltask-snells-vertical-l-1-1">Check the ‘wall or mirror’ box to show the wall that will deflect the ball and the angle this wall makes with the path of the ball. What is the measure of angle <span class="process-math">\(\angle{DBE}\text{?}\)</span> Use geometric principles to explain how you know this.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#expltask-snells-vertical-l-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 6.2.1.a.i"><a tabindex="-1" href="#expltask-snells-vertical-l" title="Copy heading and permalink for Task 6.2.1.a.i" aria-label="Copy heading and permalink for Task 6.2.1.a.i">🔗</a></div>
 </article>
-<article class="task exercise-like" id="expltask-snells-ref-l"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<article class="task exercise-like" id="expltask-snells-ref-l"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
 <div class="para" id="expltask-snells-ref-l-1-1">Then check the ‘reflection’ box to show the path the ball will take after it leaves the wall. Point <span class="process-math">\(D'\)</span> is the reflection of point <span class="process-math">\(D\)</span> across line <span class="process-math">\(\overleftrightarrow{CE}\text{.}\)</span> Explain why <span class="process-math">\(\angle{D'BE}\cong\angle{DBE}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#expltask-snells-ref-l-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 6.2.1.a.ii"><a tabindex="-1" href="#expltask-snells-ref-l" title="Copy heading and permalink for Task 6.2.1.a.ii" aria-label="Copy heading and permalink for Task 6.2.1.a.ii">🔗</a></div>
 </article>
-<article class="task exercise-like" id="tasklabel--4"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<article class="task exercise-like" id="tasklabel--4"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
 <div class="para" id="tasklabel--4-1-1">What do <a href="sec-geonumberplay-billiards.html#expltask-snells-vertical-l" class="xref" data-knowl="./knowl/xref/expltask-snells-vertical.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 6.2.1.a.i">Task 6.2.1.a.i</a> and <a href="sec-geonumberplay-billiards.html#expltask-snells-ref-l" class="xref" data-knowl="./knowl/xref/expltask-snells-ref.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 6.2.1.a.ii">Task 6.2.1.a.ii</a> tell you about <span class="process-math">\(\angle{D'BE}\)</span> and <span class="process-math">\(\angle{ABC}\text{?}\)</span> Explain.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#tasklabel--4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 6.2.1.a.iii"><a tabindex="-1" href="#tasklabel--4" title="Copy heading and permalink for Task 6.2.1.a.iii" aria-label="Copy heading and permalink for Task 6.2.1.a.iii">🔗</a></div>
 </article>
-<article class="task exercise-like" id="expltask-Snell-ang-incidence-l"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<article class="task exercise-like" id="expltask-Snell-ang-incidence-l"><h5 class="heading"><span class="codenumber">(iv)</span></h5>
 <div class="para" id="expltask-Snell-ang-incidence-l-1-1">In the field of Optics, the angle of incidence is defined as the angle that the directional ray makes with the ray perpendicular to the mirror. Check the ‘perpendicular’ box to see the perpendicular <span class="process-math">\(\overline{BF}\)</span> to line <span class="process-math">\(\overleftrightarrow{CE}\text{.}\)</span> What is the measure of <span class="process-math">\(\angle{ABF}\text{,}\)</span> the angle of incidence?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#expltask-Snell-ang-incidence-l-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 6.2.1.a.iv"><a tabindex="-1" href="#expltask-Snell-ang-incidence-l" title="Copy heading and permalink for Task 6.2.1.a.iv" aria-label="Copy heading and permalink for Task 6.2.1.a.iv">🔗</a></div>
 </article>
-<article class="task exercise-like" id="expltask-Snell-ang-reflection-l"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<article class="task exercise-like" id="expltask-Snell-ang-reflection-l"><h5 class="heading"><span class="codenumber">(v)</span></h5>
 <div class="para" id="expltask-Snell-ang-reflection-l-1-1">In Optics, angle <span class="process-math">\(\angle{D'BF}\)</span> is called the <dfn class="terminology">angle of reflection</dfn>. How is <span class="process-math">\(\angle{D'BF}\)</span> related to <span class="process-math">\(\angle{ABF}\text{?}\)</span> Give a thorough argument of why this must be the case for any acute angle of incidence.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#expltask-Snell-ang-reflection-l-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 6.2.1.a.v"><a tabindex="-1" href="#expltask-Snell-ang-reflection-l" title="Copy heading and permalink for Task 6.2.1.a.v" aria-label="Copy heading and permalink for Task 6.2.1.a.v">🔗</a></div>
@@ -504,25 +522,25 @@ eBookConfig.enable_chatcodes =  false;
 <section class="conclusion" id="sec-geonumplay-billiards-refl-law-4">
 <div class="para" id="sec-geonumplay-billiards-refl-law-4-1">Whether we focus on the angles that the incoming and departing rays make with the mirror or if we, like the physicists, compare the angles those rays make with the perpendicular to the mirror, the pair of angles are congruent. Keep this in mind as you construct your billiard ball paths.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-geonumplay-billiards-refl-law-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="principle theorem-like" id="principle-Snell"><h4 class="heading">
-<span class="type">Principle</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Snell’s Law (adapted).</span>
-</h4>
+<article class="principle theorem-like" id="principle-Snell"><h3 class="heading">
+<span class="type">Principle</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Snell’s Law (adapted).</span>
+</h3>
 <div class="para" id="principle-Snell-2-1">Assuming a frictionless environment and no spin on the ball, a ball traveling toward a wall at an angle will rebound at the same angle.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#principle-Snell-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Principle 6.2.2: Snell’s Law (adapted)"><a tabindex="-1" href="#principle-Snell" title="Copy heading and permalink for Principle 6.2.2: Snell’s Law (adapted)" aria-label="Copy heading and permalink for Principle 6.2.2: Snell’s Law (adapted)">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Principle 6.2.3: Snell’s Law (adapted)"><a tabindex="-1" href="#principle-Snell" title="Copy heading and permalink for Principle 6.2.3: Snell’s Law (adapted)" aria-label="Copy heading and permalink for Principle 6.2.3: Snell’s Law (adapted)">🔗</a></div>
 </article></section>
-<article class="exercise exercise-like" id="ckpt-snell-find-angles"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
+<article class="exercise exercise-like" id="ckpt-snell-find-angles"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
 <div class="introduction" id="ckpt-snell-find-angles-1">
 <div class="para" id="ckpt-snell-find-angles-1-1">
-<a href="sec-geonumberplay-billiards.html#figlabel-ckpt-snell-find-angles" class="xref" data-knowl="./knowl/xref/fig-ckpt-snell-find-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.4">Figure 6.2.4</a> shows the path of a billiard ball hit at a <span class="process-math">\(20^{\circ}\)</span> angle from the lower left-hand corner and landing in the lower right corner pocket.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ckpt-snell-find-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<a href="sec-geonumberplay-billiards.html#figlabel-ckpt-snell-find-angles" class="xref" data-knowl="./knowl/xref/fig-ckpt-snell-find-angles.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 6.2.5">Figure 6.2.5</a> shows the path of a billiard ball hit at a <span class="process-math">\(20^{\circ}\)</span> angle from the lower left-hand corner and landing in the lower right corner pocket.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ckpt-snell-find-angles-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="figlabel-ckpt-snell-find-angles"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/prefigure/angle-20-billiard-pfg.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Billiard Path with <span class="process-math">\(20^{\circ}\)</span> angle.<div class="autopermalink" aria-hidden="true" data-description="Figure 6.2.4"><a tabindex="-1" href="#figlabel-ckpt-snell-find-angles" title="Copy heading and permalink for Figure 6.2.4" aria-label="Copy heading and permalink for Figure 6.2.4">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Billiard Path with <span class="process-math">\(20^{\circ}\)</span> angle.<div class="autopermalink" aria-hidden="true" data-description="Figure 6.2.5"><a tabindex="-1" href="#figlabel-ckpt-snell-find-angles" title="Copy heading and permalink for Figure 6.2.5" aria-label="Copy heading and permalink for Figure 6.2.5">🔗</a></div></figcaption>
 </figure>
 </div>
-<article class="task exercise-like" id="SnellLaw-angle-measure-20-l"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<article class="task exercise-like" id="SnellLaw-angle-measure-20-l"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="ptx-runestone-container"><div class="runestone multiplechoice_section">
 <div class="exercise-statement">
 <div class="para" id="SnellLaw-angle-measure-20-l-1-1">Which of the following angles also have measure <span class="process-math">\(20^{\circ}?\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SnellLaw-angle-measure-20-l-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -551,14 +569,14 @@ eBookConfig.enable_chatcodes =  false;
 <li data-component="feedback" id="rs-SnellLaw-angle-measure-20-l_opt_e">
 </ul>
 </div></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.a"><a tabindex="-1" href="#SnellLaw-angle-measure-20-l" title="Copy heading and permalink for Task 6.2.3.a" aria-label="Copy heading and permalink for Task 6.2.3.a">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.a"><a tabindex="-1" href="#SnellLaw-angle-measure-20-l" title="Copy heading and permalink for Task 6.2.4.a" aria-label="Copy heading and permalink for Task 6.2.4.a">🔗</a></div>
 </article>
-<article class="task exercise-like" id="SnellLaw-compute-anglemeasure-20-l"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<article class="task exercise-like" id="SnellLaw-compute-anglemeasure-20-l"><h4 class="heading"><span class="codenumber">(b)</span></h4>
 <div class="introduction" id="SnellLaw-compute-anglemeasure-20-l-1">
 <div class="para" id="SnellLaw-compute-anglemeasure-20-l-1-1">Determine the measure of each of the following angles:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SnellLaw-compute-anglemeasure-20-l-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
-<article class="task exercise-like" id="SnellLaw-compute-anglemeasureBFC-20-l"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<article class="task exercise-like" id="SnellLaw-compute-anglemeasureBFC-20-l"><h5 class="heading"><span class="codenumber">(i)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-SnellLaw-compute-anglemeasureBFC-20-l"><script type="application/json">{
 "problemHtml": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureBFC-20-l-1-1\"><span class=\"process-math\">\\(m(\\angle BFC) = \\)<\/span><div class=\"autopermalink\" aria-hidden=\"true\" data-description=\"Paragraph\"><a tabindex=\"-1\" href=\"#SnellLaw-compute-anglemeasureBFC-20-l-1-1\" title=\"Copy heading and permalink for Paragraph\" aria-label=\"Copy heading and permalink for Paragraph\">🔗<\/a><\/div><\/div>",
@@ -567,9 +585,9 @@ eBookConfig.enable_chatcodes =  false;
 "feedbackArray": [[{"number": [NaN,NaN], "feedback": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureBFC-20-l-2-1-1-2-1\">Correct.<\/div>"}, {"feedback": "Incorrect."}]]
 }</script></div>
 </div></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.b.i"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureBFC-20-l" title="Copy heading and permalink for Task 6.2.3.b.i" aria-label="Copy heading and permalink for Task 6.2.3.b.i">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.b.i"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureBFC-20-l" title="Copy heading and permalink for Task 6.2.4.b.i" aria-label="Copy heading and permalink for Task 6.2.4.b.i">🔗</a></div>
 </article>
-<article class="task exercise-like" id="SnellLaw-compute-anglemeasureGFD-20-l"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<article class="task exercise-like" id="SnellLaw-compute-anglemeasureGFD-20-l"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-SnellLaw-compute-anglemeasureGFD-20-l"><script type="application/json">{
 "problemHtml": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureGFD-20-l-1-1\"><span class=\"process-math\">\\(\\angle GFD= \\)<\/span><div class=\"autopermalink\" aria-hidden=\"true\" data-description=\"Paragraph\"><a tabindex=\"-1\" href=\"#SnellLaw-compute-anglemeasureGFD-20-l-1-1\" title=\"Copy heading and permalink for Paragraph\" aria-label=\"Copy heading and permalink for Paragraph\">🔗<\/a><\/div><\/div>",
@@ -578,9 +596,9 @@ eBookConfig.enable_chatcodes =  false;
 "feedbackArray": [[{"number": [NaN,NaN], "feedback": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureGFD-20-l-2-1-1-2-1\">Correct.<\/div>"}, {"feedback": "Incorrect."}]]
 }</script></div>
 </div></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.b.ii"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureGFD-20-l" title="Copy heading and permalink for Task 6.2.3.b.ii" aria-label="Copy heading and permalink for Task 6.2.3.b.ii">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.b.ii"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureGFD-20-l" title="Copy heading and permalink for Task 6.2.4.b.ii" aria-label="Copy heading and permalink for Task 6.2.4.b.ii">🔗</a></div>
 </article>
-<article class="task exercise-like" id="SnellLaw-compute-anglemeasureGFC-20-l"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<article class="task exercise-like" id="SnellLaw-compute-anglemeasureGFC-20-l"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-SnellLaw-compute-anglemeasureGFC-20-l"><script type="application/json">{
 "problemHtml": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureGFC-20-l-1-1\"><span class=\"process-math\">\\(\\angle GFC =  \\)<\/span><div class=\"autopermalink\" aria-hidden=\"true\" data-description=\"Paragraph\"><a tabindex=\"-1\" href=\"#SnellLaw-compute-anglemeasureGFC-20-l-1-1\" title=\"Copy heading and permalink for Paragraph\" aria-label=\"Copy heading and permalink for Paragraph\">🔗<\/a><\/div><\/div>",
@@ -589,9 +607,9 @@ eBookConfig.enable_chatcodes =  false;
 "feedbackArray": [[{"number": [NaN,NaN], "feedback": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureGFC-20-l-2-1-1-2-1\">Correct.<\/div>"}, {"feedback": "Incorrect."}]]
 }</script></div>
 </div></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.b.iii"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureGFC-20-l" title="Copy heading and permalink for Task 6.2.3.b.iii" aria-label="Copy heading and permalink for Task 6.2.3.b.iii">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.b.iii"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureGFC-20-l" title="Copy heading and permalink for Task 6.2.4.b.iii" aria-label="Copy heading and permalink for Task 6.2.4.b.iii">🔗</a></div>
 </article>
-<article class="task exercise-like" id="SnellLaw-compute-anglemeasureGFH-20-l"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<article class="task exercise-like" id="SnellLaw-compute-anglemeasureGFH-20-l"><h5 class="heading"><span class="codenumber">(iv)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-SnellLaw-compute-anglemeasureGFH-20-l"><script type="application/json">{
 "problemHtml": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureGFH-20-l-1-1\"><span class=\"process-math\">\\(\\angle GFH =  \\)<\/span><div class=\"autopermalink\" aria-hidden=\"true\" data-description=\"Paragraph\"><a tabindex=\"-1\" href=\"#SnellLaw-compute-anglemeasureGFH-20-l-1-1\" title=\"Copy heading and permalink for Paragraph\" aria-label=\"Copy heading and permalink for Paragraph\">🔗<\/a><\/div><\/div>",
@@ -600,9 +618,9 @@ eBookConfig.enable_chatcodes =  false;
 "feedbackArray": [[{"number": [NaN,NaN], "feedback": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureGFH-20-l-2-1-1-2-1\">Correct.<\/div>"}, {"feedback": "Incorrect."}]]
 }</script></div>
 </div></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.b.iv"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureGFH-20-l" title="Copy heading and permalink for Task 6.2.3.b.iv" aria-label="Copy heading and permalink for Task 6.2.3.b.iv">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.b.iv"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureGFH-20-l" title="Copy heading and permalink for Task 6.2.4.b.iv" aria-label="Copy heading and permalink for Task 6.2.4.b.iv">🔗</a></div>
 </article>
-<article class="task exercise-like" id="SnellLaw-compute-anglemeasureEGF-20-l"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<article class="task exercise-like" id="SnellLaw-compute-anglemeasureEGF-20-l"><h5 class="heading"><span class="codenumber">(v)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-SnellLaw-compute-anglemeasureEGF-20-l"><script type="application/json">{
 "problemHtml": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureEGF-20-l-1-1\"><span class=\"process-math\">\\(\\angle EGF = \\)<\/span><div class=\"autopermalink\" aria-hidden=\"true\" data-description=\"Paragraph\"><a tabindex=\"-1\" href=\"#SnellLaw-compute-anglemeasureEGF-20-l-1-1\" title=\"Copy heading and permalink for Paragraph\" aria-label=\"Copy heading and permalink for Paragraph\">🔗<\/a><\/div><\/div>",
@@ -611,9 +629,9 @@ eBookConfig.enable_chatcodes =  false;
 "feedbackArray": [[{"number": [NaN,NaN], "feedback": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureEGF-20-l-2-1-1-2-1\">Correct.<\/div>"}, {"feedback": "Incorrect."}]]
 }</script></div>
 </div></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.b.v"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureEGF-20-l" title="Copy heading and permalink for Task 6.2.3.b.v" aria-label="Copy heading and permalink for Task 6.2.3.b.v">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.b.v"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureEGF-20-l" title="Copy heading and permalink for Task 6.2.4.b.v" aria-label="Copy heading and permalink for Task 6.2.4.b.v">🔗</a></div>
 </article>
-<article class="task exercise-like" id="SnellLaw-compute-anglemeasureDGE-20-l"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
+<article class="task exercise-like" id="SnellLaw-compute-anglemeasureDGE-20-l"><h5 class="heading"><span class="codenumber">(vi)</span></h5>
 <div class="ptx-runestone-container"><div class="runestone">
 <div data-component="fillintheblank" class="fillintheblank" style="visibility: hidden;" id="rs-SnellLaw-compute-anglemeasureDGE-20-l"><script type="application/json">{
 "problemHtml": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureDGE-20-l-1-1\"><span class=\"process-math\">\\(\\angle DGE = \\)<\/span><div class=\"autopermalink\" aria-hidden=\"true\" data-description=\"Paragraph\"><a tabindex=\"-1\" href=\"#SnellLaw-compute-anglemeasureDGE-20-l-1-1\" title=\"Copy heading and permalink for Paragraph\" aria-label=\"Copy heading and permalink for Paragraph\">🔗<\/a><\/div><\/div>",
@@ -622,37 +640,37 @@ eBookConfig.enable_chatcodes =  false;
 "feedbackArray": [[{"number": [NaN,NaN], "feedback": "\n<div class=\"para\" id=\"SnellLaw-compute-anglemeasureDGE-20-l-2-1-1-2-1\">Correct.<\/div>"}, {"feedback": "Incorrect."}]]
 }</script></div>
 </div></div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.b.vi"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureDGE-20-l" title="Copy heading and permalink for Task 6.2.3.b.vi" aria-label="Copy heading and permalink for Task 6.2.3.b.vi">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.b.vi"><a tabindex="-1" href="#SnellLaw-compute-anglemeasureDGE-20-l" title="Copy heading and permalink for Task 6.2.4.b.vi" aria-label="Copy heading and permalink for Task 6.2.4.b.vi">🔗</a></div>
 </article>
-<article class="task exercise-like" id="SnellLaw-explain-congruence-20-l"><h6 class="heading"><span class="codenumber">(vii)</span></h6>
+<article class="task exercise-like" id="SnellLaw-explain-congruence-20-l"><h5 class="heading"><span class="codenumber">(vii)</span></h5>
 <div class="para" id="SnellLaw-explain-congruence-20-l-1-1">Use repeated applications of Snell’s Law to explain why <span class="process-math">\(\angle ECB\cong\angle FBC\)</span> in this particular case.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SnellLaw-explain-congruence-20-l-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.b.vii"><a tabindex="-1" href="#SnellLaw-explain-congruence-20-l" title="Copy heading and permalink for Task 6.2.3.b.vii" aria-label="Copy heading and permalink for Task 6.2.3.b.vii">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Task 6.2.3.b"><a tabindex="-1" href="#SnellLaw-compute-anglemeasure-20-l" title="Copy heading and permalink for Task 6.2.3.b" aria-label="Copy heading and permalink for Task 6.2.3.b">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Checkpoint 6.2.3"><a tabindex="-1" href="#ckpt-snell-find-angles" title="Copy heading and permalink for Checkpoint 6.2.3" aria-label="Copy heading and permalink for Checkpoint 6.2.3">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.b.vii"><a tabindex="-1" href="#SnellLaw-explain-congruence-20-l" title="Copy heading and permalink for Task 6.2.4.b.vii" aria-label="Copy heading and permalink for Task 6.2.4.b.vii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 6.2.4.b"><a tabindex="-1" href="#SnellLaw-compute-anglemeasure-20-l" title="Copy heading and permalink for Task 6.2.4.b" aria-label="Copy heading and permalink for Task 6.2.4.b">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Checkpoint 6.2.4"><a tabindex="-1" href="#ckpt-snell-find-angles" title="Copy heading and permalink for Checkpoint 6.2.4" aria-label="Copy heading and permalink for Checkpoint 6.2.4">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Subsection 6.2.1: The Law of Reflection"><a tabindex="-1" href="#sec-geonumplay-billiards-refl-law" title="Copy heading and permalink for Subsection 6.2.1: The Law of Reflection" aria-label="Copy heading and permalink for Subsection 6.2.1: The Law of Reflection">🔗</a></div>
 </section>
 <section class="subsection" id="subsec-billiard-45degpath">
-<h3 class="heading hide-type">
+<h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Path of a Ball Hit at a <span class="process-math">\(45^{\circ}\)</span> Angle</span>
-</h3>
+</h2>
 <div class="para" id="subsec-billiard-45degpath-2">In some games of billiards, the player names the pocket that the eight ball will land in. If the ball goes into a different pocket, the player loses.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-billiard-45degpath-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="subsec-billiard-45degpath-3">Suppose a ball hits each side at a <span class="process-math">\(45^{\circ}\)</span> angle and continues to roll until it reaches a corner of the table. In the next exploration, we discover that the final corner is determined by the side lengths.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-billiard-45degpath-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="exploration project-like" id="subsec-billiard-45degpath-4"><h4 class="heading">
-<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Predicting the Pocket.</span>
-</h4>
+<article class="exploration project-like" id="subsec-billiard-45degpath-4"><h3 class="heading">
+<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.2.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Predicting the Pocket.</span>
+</h3>
 <div class="introduction" id="subsec-billiard-45degpath-4-2">
 <div class="para" id="subsec-billiard-45degpath-4-2-1">In our simplified game, we assume that the table has only four pockets, one in each corner and there is no spin on the ball. Whenever the ball meets a side, its path makes a <span class="process-math">\(45^{\circ}\)</span> degree angle with that side. Our ball encounters no friction or interference, continuing along this path until it lands in one of the table’s corners.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-billiard-45degpath-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
-<article class="task exercise-like" id="subsec-billiard-45degpath-4-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<article class="task exercise-like" id="subsec-billiard-45degpath-4-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="introduction" id="subsec-billiard-45degpath-4-3-1">
 <div class="para" id="subsec-billiard-45degpath-4-3-1-1">For each of the pool tables that follow, sketch the path of a billiard ball shot from the lower left corner at an angle of <span class="process-math">\(45^{\circ}\)</span> until it reaches a corner pocket. Record the pocket that the ball eventually reaches. Also record the number of hits the ball makes against the sides of the table. Include the starting corner and the ending corner in this total of hits.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
-<article class="task exercise-like" id="subsec-billiard-45degpath-4-3-2"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<article class="task exercise-like" id="subsec-billiard-45degpath-4-3-2"><h5 class="heading"><span class="codenumber">(i)</span></h5>
 <div class="introduction" id="subsec-billiard-45degpath-4-3-2-1">
 <div class="para" id="subsec-billiard-45degpath-4-3-2-1-1">Sketch the path for the <span class="process-math">\(9\times 3\)</span>-table pictured in <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -660,7 +678,7 @@ eBookConfig.enable_chatcodes =  false;
 <article class="task exercise-like" id="subsec-billiard-45degpath-4-3-2-2"><h6 class="heading"><span class="codenumber">(A)</span></h6>
 <div class="para" id="subsec-billiard-45degpath-4-3-2-2-1-1">How many times does the ball hit a side of the table? Count the beginning corner and the ending corner as one hit each.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.2.a.i.A"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2-2" title="Copy heading and permalink for Task 6.2.2.a.i.A" aria-label="Copy heading and permalink for Task 6.2.2.a.i.A">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.6.a.i.A"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2-2" title="Copy heading and permalink for Task 6.2.6.a.i.A" aria-label="Copy heading and permalink for Task 6.2.6.a.i.A">🔗</a></div>
 </article>
 <article class="task exercise-like" id="subsec-billiard-45degpath-4-3-2-3"><h6 class="heading"><span class="codenumber">(B)</span></h6>
 <div class="para" id="subsec-billiard-45degpath-4-3-2-3-1-1">In which corner does the ball land?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -674,10 +692,10 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsec-billiard-45degpath-4-3-2-3-1-2-3-1-1">Upper Right</div>
 </li>
 <li data-component="feedback" id="_opt_c">
-<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.2.a.i.B"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2-3" title="Copy heading and permalink for Task 6.2.2.a.i.B" aria-label="Copy heading and permalink for Task 6.2.2.a.i.B">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Task 6.2.2.a.i"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2" title="Copy heading and permalink for Task 6.2.2.a.i" aria-label="Copy heading and permalink for Task 6.2.2.a.i">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Task 6.2.2.a"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3" title="Copy heading and permalink for Task 6.2.2.a" aria-label="Copy heading and permalink for Task 6.2.2.a">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Exploration 6.2.2: Predicting the Pocket"><a tabindex="-1" href="#subsec-billiard-45degpath-4" title="Copy heading and permalink for Exploration 6.2.2: Predicting the Pocket" aria-label="Copy heading and permalink for Exploration 6.2.2: Predicting the Pocket">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 6.2.6.a.i.B"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2-3" title="Copy heading and permalink for Task 6.2.6.a.i.B" aria-label="Copy heading and permalink for Task 6.2.6.a.i.B">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 6.2.6.a.i"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3-2" title="Copy heading and permalink for Task 6.2.6.a.i" aria-label="Copy heading and permalink for Task 6.2.6.a.i">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 6.2.6.a"><a tabindex="-1" href="#subsec-billiard-45degpath-4-3" title="Copy heading and permalink for Task 6.2.6.a" aria-label="Copy heading and permalink for Task 6.2.6.a">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exploration 6.2.6: Predicting the Pocket"><a tabindex="-1" href="#subsec-billiard-45degpath-4" title="Copy heading and permalink for Exploration 6.2.6: Predicting the Pocket" aria-label="Copy heading and permalink for Exploration 6.2.6: Predicting the Pocket">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Subsection 6.2.2: Path of a Ball Hit at a 45^{\circ} Angle"><a tabindex="-1" href="#subsec-billiard-45degpath" title="Copy heading and permalink for Subsection 6.2.2: Path of a Ball Hit at a 45^{\circ} Angle" aria-label="Copy heading and permalink for Subsection 6.2.2: Path of a Ball Hit at a 45^{\circ} Angle">🔗</a></div>
 </section><div class="autopermalink" aria-hidden="true" data-description="Section 6.2: Geometry on a Billiard Table"><a tabindex="-1" href="#sec-geonumberplay-billiards" title="Copy heading and permalink for Section 6.2: Geometry on a Billiard Table" aria-label="Copy heading and permalink for Section 6.2: Geometry on a Billiard Table">🔗</a></div>
 </section>

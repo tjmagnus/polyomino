@@ -25,6 +25,7 @@ hasWebworkReps: false,
 hasSage: false,
 isReact: false,
 htmlPresentation: false,
+lang: "en-US",
 });
 </script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +36,7 @@ htmlPresentation: false,
 <meta name="twitter:description" content="Discovering Geometry through Exploration">
 <meta property="og:description" content="Discovering Geometry through Exploration">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.43"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.48"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.48"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -57,21 +58,21 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.2';
+eBookConfig.runestone_version = '8.2.4';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.ed2cce180827a7ad.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.18fa7ea1d9f376c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<script src="_static/prefix-runtime.40bd1420d3277749.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
 <script src="_static/pretext/js/dist/diagcess/diagcess.js"></script><script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></h1>
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="Poly-cubed-geom-explor.html"><span class="title">Polyominoes, Polygons, and Polyhedra</span> <span class="subtitle">Discovering Geometry through Exploration</span></a></div>
 <p class="byline">Teresa D. Magnus</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="ptx-search-box">
@@ -90,6 +91,16 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="ptx-embed-code-container">
 <textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
 </div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
 <h2 class="heading">Readability settings</h2>
 <button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
@@ -132,6 +143,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">Invitation to Geometrical Thinking</span></a></div>
 <ul id="ptx-toc-group-ch-intro" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-intro-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-intro-explore.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Invitation to Explore</span></a></div>
 <ul id="ptx-toc-group-sec-intro-explore" class="structural toc-item-list">
@@ -175,6 +187,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-polygons.html" class="internal"><span class="codenumber">2</span> <span class="title">Exploring Polygons and Other Figures on the Plane</span></a></div>
 <ul id="ptx-toc-group-ch-polygons" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-polygons-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polygons-area.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exploring Area</span></a></div>
 <ul id="ptx-toc-group-sec-polygons-area" class="structural toc-item-list">
@@ -241,6 +254,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-polyhedra.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Polyhedra</span></a></div>
 <ul id="ptx-toc-group-ch-polyhedra" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-polyhedra-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-polyhedra-regular.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Regular Polyhedra</span></a></div>
 <ul id="ptx-toc-group-sec-polyhedra-regular" class="structural toc-item-list">
@@ -298,6 +312,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-isom.html" class="internal"><span class="codenumber">4</span> <span class="title">Exploring Transformations</span></a></div>
 <ul id="ptx-toc-group-ch-isom" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-isom-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-isom-reflect-Cartesian.html" class="internal"><span class="codenumber">4.1</span> <span class="title">An Introduction to Reflections</span></a></div>
 <ul id="ptx-toc-group-sec-isom-reflect-Cartesian" class="structural toc-item-list">
@@ -366,6 +381,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-dilation.html" class="internal"><span class="codenumber">5</span> <span class="title">Exploring Similarity</span></a></div>
 <ul class="structural toc-item-list contains-active" id="ptx-toc-group-ch-dilation">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-dilation-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-dilations-Cartesian.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Transformations that Scale</span></a></div>
 <ul id="ptx-toc-group-sec-dilations-Cartesian" class="structural toc-item-list">
@@ -399,6 +415,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="ch-geonumberplay.html" class="internal"><span class="codenumber">6</span> <span class="title">Exploring Patterns in Geometry and Numbers</span></a></div>
 <ul id="ptx-toc-group-ch-geonumberplay" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-geonumberplay-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-geonumberplay-star.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Star Polygons</span></a></div>
 <ul id="ptx-toc-group-sec-geonumberplay-star" class="structural toc-item-list">
@@ -425,8 +442,9 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul id="ptx-toc-group-backmatter" class="structural toc-item-list">
 <li class="toc-item toc-appendix">
-<div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">A</span> <span class="title">Algebra Review</span></a></div>
+<div class="toc-title-box"><a href="algebra-principles.html" class="internal"><span class="codenumber">A.</span> <span class="title">Algebra Review</span></a></div>
 <ul id="ptx-toc-group-algebra-principles" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="algebra-principles-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="algebra-principles-3.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Algebraic Expressions and Equations</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="field-properties.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Field Properties of the Real Numbers</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equality-properties.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Properties of Equality</span></a></div></li>
@@ -440,9 +458,9 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul>
 </li>
-<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="list-of-principles.html" class="internal"><span class="codenumber">B</span> <span class="title">List of Principles</span></a></div></li>
-<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
-<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-list-formulas.html" class="internal"><span class="codenumber">D</span> <span class="title">List of Formulas</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="list-of-principles.html" class="internal"><span class="codenumber">B.</span> <span class="title">List of Principles</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C.</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-list-formulas.html" class="internal"><span class="codenumber">D.</span> <span class="title">List of Formulas</span></a></div></li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Index</span></a></div></li>
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
@@ -450,66 +468,66 @@ eBookConfig.enable_chatcodes =  false;
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <section class="section" id="sec-dilations-and-similarity">
-<h2 class="heading hide-type">
+<h1 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Dilations and Similar Figures</span>
-</h2>
+</h1>
 <section class="introduction" id="sec-dilations-and-similarity-2">
 <div class="para" id="sec-dilations-and-similarity-2-1">In the last section, we used our familiarity with the Cartesian coordinate system to understand the actions of dilations. In this section, we will explore more general examples of dilations, study the role of the scale factor, and look at the relationship between dilations and similar figures.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-dilations-and-similarity-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section>
 <section class="subsection" id="subsec-DAR-sliding-dilation">
-<h3 class="heading hide-type">
+<h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A Dynamic Look at Dilations</span>
-</h3>
-<article class="exploration project-like" id="explore-sliding-scale"><h4 class="heading">
+</h2>
+<article class="exploration project-like" id="explore-sliding-scale"><h3 class="heading">
 <span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Role of the Scale Factor.</span>
-</h4>
+</h3>
 <div class="introduction" id="explore-sliding-scale-2">
-<div class="para" id="explore-sliding-scale-2-1">Use <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.1">Figure 5.2.1</a> to complete the tasks in this exploration. This GeoGebra applet allows us to see how changing the scale factor affects the dilation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="explore-sliding-scale-2-1">Use <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.2">Figure 5.2.2</a> to complete the tasks in this exploration. This GeoGebra applet allows us to see how changing the scale factor affects the dilation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
-<article class="task exercise-like" id="explore-sliding-scale-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="para" id="explore-sliding-scale-3-1-1">With the slider for the scale factor set at <span class="process-math">\(s=3\text{,}\)</span> how is quadrilateral <span class="process-math">\(A'B'C'D'\)</span> related to <span class="process-math">\(ABCD\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <figure class="figure figure-like" id="fig-vary-scale-factor"><div class="interactive-iframe-container"><iframe id="slide-scale-app" style="width:600px; height:600px; display: block; " src="slide-scale-app-if.html"></iframe></div>
 <div class="interactive-iframe-container__opener"><a href="slide-scale-app.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#explore-sliding-scale" class="xref" data-knowl="./knowl/xref/explore-sliding-scale.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.2.1: Role of the Scale Factor">Exploration 5.2.1</a><div class="autopermalink" aria-hidden="true" data-description="Figure 5.2.1"><a tabindex="-1" href="#fig-vary-scale-factor" title="Copy heading and permalink for Figure 5.2.1" aria-label="Copy heading and permalink for Figure 5.2.1">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#explore-sliding-scale" class="xref" data-knowl="./knowl/xref/explore-sliding-scale.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.2.1: Role of the Scale Factor">Exploration 5.2.1</a><div class="autopermalink" aria-hidden="true" data-description="Figure 5.2.2"><a tabindex="-1" href="#fig-vary-scale-factor" title="Copy heading and permalink for Figure 5.2.2" aria-label="Copy heading and permalink for Figure 5.2.2">🔗</a></div></figcaption>
 </figure><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.a"><a tabindex="-1" href="#explore-sliding-scale-3" title="Copy heading and permalink for Task 5.2.1.a" aria-label="Copy heading and permalink for Task 5.2.1.a">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-sliding-scale-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
 <div class="para" id="explore-sliding-scale-4-1-1">What happens when the scale factor <span class="process-math">\(s=1\text{?}\)</span> Why?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.b"><a tabindex="-1" href="#explore-sliding-scale-4" title="Copy heading and permalink for Task 5.2.1.b" aria-label="Copy heading and permalink for Task 5.2.1.b">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-sliding-scale-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
 <div class="para" id="explore-sliding-scale-5-1-1">What happens when the slider is moved to <span class="process-math">\(s=0\text{?}\)</span> Why do you think that happens?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.c"><a tabindex="-1" href="#explore-sliding-scale-5" title="Copy heading and permalink for Task 5.2.1.c" aria-label="Copy heading and permalink for Task 5.2.1.c">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-sliding-scale-6"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-6"><h4 class="heading"><span class="codenumber">(d)</span></h4>
 <div class="para" id="explore-sliding-scale-6-1-1">What happens when the slider is moved to a number between 0 and 1?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.d"><a tabindex="-1" href="#explore-sliding-scale-6" title="Copy heading and permalink for Task 5.2.1.d" aria-label="Copy heading and permalink for Task 5.2.1.d">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-sliding-scale-7"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-7"><h4 class="heading"><span class="codenumber">(e)</span></h4>
 <div class="para" id="explore-sliding-scale-7-1-1">What happens when the slider is moved to <span class="process-math">\(s=-\frac{1}{2}\)</span> ? <span class="process-math">\(s=-1\)</span> ? <span class="process-math">\(s=-2\)</span> ? Describe the effect of a negative scale factor on a dilation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.e"><a tabindex="-1" href="#explore-sliding-scale-7" title="Copy heading and permalink for Task 5.2.1.e" aria-label="Copy heading and permalink for Task 5.2.1.e">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-sliding-scale-8"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-8"><h4 class="heading"><span class="codenumber">(f)</span></h4>
 <div class="para" id="explore-sliding-scale-8-1-1">Construct the four lines, <span class="process-math">\(\overleftrightarrow{EA}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{EB}\text{,}\)</span> <span class="process-math">\(\overleftrightarrow{EC}\text{,}\)</span> and <span class="process-math">\(\overleftrightarrow{EA}\text{.}\)</span> What do you notice about these lines and the image <span class="process-math">\(A'B'C'D'\)</span> ? Is this true regardless of the value of <span class="process-math">\(s\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.f"><a tabindex="-1" href="#explore-sliding-scale-8" title="Copy heading and permalink for Task 5.2.1.f" aria-label="Copy heading and permalink for Task 5.2.1.f">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-sliding-scale-9"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-9"><h4 class="heading"><span class="codenumber">(g)</span></h4>
 <div class="para" id="explore-sliding-scale-9-1-1">Use the reset tool (circle with arrows in upper right) to move the slider back to <span class="process-math">\(s=3\)</span> and delete the lines. Use GeoGebra tools to measure the lengths <span class="process-math">\(EA\)</span> and <span class="process-math">\(EA'\text{,}\)</span> <span class="process-math">\(EB\)</span> and <span class="process-math">\(EB'\text{,}\)</span> <span class="process-math">\(EC\)</span> and <span class="process-math">\(EC'\text{,}\)</span> and <span class="process-math">\(ED\)</span> and <span class="process-math">\(ED'\text{.}\)</span> What do you notice about these pairs of measurements? Experiment with moving center <span class="process-math">\(E\)</span> or some of the vertices of <span class="process-math">\(ABCD\text{.}\)</span> Does your conjecture still hold?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
-<details id="explore-sliding-scale-9-1-2" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h6 class="heading"><span class="type">Aside</span></h6></summary>
+<details id="explore-sliding-scale-9-1-2" class="aside aside-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading"><span class="type">Aside</span></h5></summary>
 <aside class="aside aside-like knowl__content">
 <div class="para" id="explore-sliding-scale-9-1-2-1">For smaller fonts, measure segments instead of the distance between points. The ‘Segment’ tool is provided.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-9-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </aside></details><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.g"><a tabindex="-1" href="#explore-sliding-scale-9" title="Copy heading and permalink for Task 5.2.1.g" aria-label="Copy heading and permalink for Task 5.2.1.g">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-sliding-scale-10"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-10"><h4 class="heading"><span class="codenumber">(h)</span></h4>
 <div class="para" id="explore-sliding-scale-10-1-1">Use the reset tool again to move the slider back to <span class="process-math">\(s=3\)</span> and delete the measurements. Use the GeoGebra tools to measure the four sides of the original quadrilateral, <span class="process-math">\(AB\text{,}\)</span> <span class="process-math">\(BC\text{,}\)</span> <span class="process-math">\(CD\text{,}\)</span> and <span class="process-math">\(DA\text{.}\)</span> Compare these to the measures of the four sides, <span class="process-math">\(A'B'\text{,}\)</span> <span class="process-math">\(B'C'\text{,}\)</span> <span class="process-math">\(C'D'\)</span> and <span class="process-math">\(D'A'\)</span> of the dilated quadrilateral.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
@@ -522,7 +540,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.h"><a tabindex="-1" href="#explore-sliding-scale-10" title="Copy heading and permalink for Task 5.2.1.h" aria-label="Copy heading and permalink for Task 5.2.1.h">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-sliding-scale-11"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<article class="task exercise-like" id="explore-sliding-scale-11"><h4 class="heading"><span class="codenumber">(i)</span></h4>
 <div class="para" id="explore-sliding-scale-11-1-1">Measure the area of quadrilateral <span class="process-math">\(ABCD\)</span> and its image <span class="process-math">\(A'B'C'D'\text{.}\)</span> Move the slider as helpful to determine how the area of a figure is affected by the scale factor.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Task 5.2.1.i"><a tabindex="-1" href="#explore-sliding-scale-11" title="Copy heading and permalink for Task 5.2.1.i" aria-label="Copy heading and permalink for Task 5.2.1.i">🔗</a></div>
@@ -530,28 +548,28 @@ eBookConfig.enable_chatcodes =  false;
 </article><div class="autopermalink" aria-hidden="true" data-description="Subsection 5.2.1: A Dynamic Look at Dilations"><a tabindex="-1" href="#subsec-DAR-sliding-dilation" title="Copy heading and permalink for Subsection 5.2.1: A Dynamic Look at Dilations" aria-label="Copy heading and permalink for Subsection 5.2.1: A Dynamic Look at Dilations">🔗</a></div>
 </section>
 <section class="subsection" id="subsubsec-dilations-similar">
-<h3 class="heading hide-type">
+<h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Dilations and Similar Triangles</span>
-</h3>
+</h2>
 <div class="para" id="subsubsec-dilations-similar-2">Our work in <a href="sec-dilations-Cartesian.html" class="internal" title="Section 5.1: Transformations that Scale">Section 5.1</a> and <a href="sec-dilations-and-similarity.html#explore-sliding-scale" class="xref" data-knowl="./knowl/xref/explore-sliding-scale.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.2.1: Role of the Scale Factor">Exploration 5.2.1</a> suggests that the image of a polygonal figure under a dilation will have the same shape as the original figure. In addition the ratio of the lengths of the image’s sides to their corresponding lengths in the original, <span class="process-math">\(\frac{P'Q'}{PQ}\text{,}\)</span> will be preserved. <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="definition definition-like" id="def-proportionality"><h4 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
+<article class="definition definition-like" id="def-proportionality"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
 <div class="para" id="def-proportionality-3-1">When two figures are similar, the ratio of corresponding sides is constant. This common ratio, <span class="process-math">\(k\text{,}\)</span> such that <span class="process-math">\(k=\frac{P'Q'}{PQ}\)</span> for all sides <span class="process-math">\(PQ\)</span> is called the <dfn class="terminology">constant of proportionality</dfn>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-proportionality-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 5.2.2"><a tabindex="-1" href="#def-proportionality" title="Copy heading and permalink for Definition 5.2.2" aria-label="Copy heading and permalink for Definition 5.2.2">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 5.2.3"><a tabindex="-1" href="#def-proportionality" title="Copy heading and permalink for Definition 5.2.3" aria-label="Copy heading and permalink for Definition 5.2.3">🔗</a></div>
 </article>
-<div class="para" id="subsubsec-dilations-similar-4">In <a href="sec-dilations-Cartesian.html#fig-nested-simtri" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.9">Figure 5.1.9</a>, we see that <span class="process-math">\(\Delta ABC\sim\Delta DEC\)</span> with constant of proportionality <span class="process-math">\(k=\frac{1}{3}\text{.}\)</span> Also, <span class="process-math">\(A'B'C'D'\sim ABCD\)</span> in <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.1">Figure 5.2.1</a> has  <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the variable scale factor of the dilation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsubsec-dilations-similar-4">In <a href="sec-dilations-Cartesian.html#fig-nested-simtri" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.12">Figure 5.1.12</a>, we see that <span class="process-math">\(\Delta ABC\sim\Delta DEC\)</span> with constant of proportionality <span class="process-math">\(k=\frac{1}{3}\text{.}\)</span> Also, <span class="process-math">\(A'B'C'D'\sim ABCD\)</span> in <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.2">Figure 5.2.2</a> has  <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the variable scale factor of the dilation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="exercise exercise-like" id="subsubsec-dilations-similar-5"><h4 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Understanding Proportionality, Congruence, and Similarity.</span>
-</h4>
+<article class="exercise exercise-like" id="subsubsec-dilations-similar-5"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Understanding Proportionality, Congruence, and Similarity.</span>
+</h3>
 <div class="introduction" id="subsubsec-dilations-similar-5-2">
 <div class="para" id="subsubsec-dilations-similar-5-2-1">The following questions encourage you to make connections between the concepts of scale factor, proportion, congruence, and similarity:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
-<article class="task exercise-like" id="subsubsec-dilations-similar-5-3"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<article class="task exercise-like" id="subsubsec-dilations-similar-5-3"><h4 class="heading"><span class="codenumber">(a)</span></h4>
 <div class="para" id="subsubsec-dilations-similar-5-3-1-1">Why are absolute values necessary when we say that the constant of proportionality <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the scale factor <span class="process-math">\(s\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
@@ -559,18 +577,18 @@ eBookConfig.enable_chatcodes =  false;
 <div class="hint solution-like knowl__content">
 <div class="para" id="subsubsec-dilations-similar-5-3-2-1">Lengths can never be negative.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Hint 5.2.3.a.1"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3-2" title="Copy heading and permalink for Hint 5.2.3.a.1" aria-label="Copy heading and permalink for Hint 5.2.3.a.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 5.2.4.a.1"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3-2" title="Copy heading and permalink for Hint 5.2.4.a.1" aria-label="Copy heading and permalink for Hint 5.2.4.a.1">🔗</a></div>
 </div></details>
 <details id="subsubsec-dilations-similar-5-3-3" class="answer solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Answer</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="answer solution-like knowl__content">
 <div class="para" id="subsubsec-dilations-similar-5-3-3-1">A scale factor can be any real number. The constant of proportionality is a ratio of lengths and must be nonnegative since lengths can never be negative.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Answer 5.2.3.a.1"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3-3" title="Copy heading and permalink for Answer 5.2.3.a.1" aria-label="Copy heading and permalink for Answer 5.2.3.a.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.2.4.a.1"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3-3" title="Copy heading and permalink for Answer 5.2.4.a.1" aria-label="Copy heading and permalink for Answer 5.2.4.a.1">🔗</a></div>
 </div></details>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.3.a"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3" title="Copy heading and permalink for Task 5.2.3.a" aria-label="Copy heading and permalink for Task 5.2.3.a">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.a"><a tabindex="-1" href="#subsubsec-dilations-similar-5-3" title="Copy heading and permalink for Task 5.2.4.a" aria-label="Copy heading and permalink for Task 5.2.4.a">🔗</a></div>
 </article>
-<article class="task exercise-like" id="subsubsec-dilations-similar-5-4"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<article class="task exercise-like" id="subsubsec-dilations-similar-5-4"><h4 class="heading"><span class="codenumber">(b)</span></h4>
 <div class="para" id="subsubsec-dilations-similar-5-4-1-1">Will a pair of congruent figures also be similar?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
@@ -578,12 +596,12 @@ eBookConfig.enable_chatcodes =  false;
 <div class="answer solution-like knowl__content">
 <div class="para" id="subsubsec-dilations-similar-5-4-2-1">Yes, you can consider congruent figures to be similar with a constant of proportionality, <span class="process-math">\(k=1\text{.}\)</span> Some people may insist that size must change in which case we would not consider congruent figures to also be similar. It depends on the definition being used.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Answer 5.2.3.b.1"><a tabindex="-1" href="#subsubsec-dilations-similar-5-4-2" title="Copy heading and permalink for Answer 5.2.3.b.1" aria-label="Copy heading and permalink for Answer 5.2.3.b.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.2.4.b.1"><a tabindex="-1" href="#subsubsec-dilations-similar-5-4-2" title="Copy heading and permalink for Answer 5.2.4.b.1" aria-label="Copy heading and permalink for Answer 5.2.4.b.1">🔗</a></div>
 </div></details>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.3.b"><a tabindex="-1" href="#subsubsec-dilations-similar-5-4" title="Copy heading and permalink for Task 5.2.3.b" aria-label="Copy heading and permalink for Task 5.2.3.b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.b"><a tabindex="-1" href="#subsubsec-dilations-similar-5-4" title="Copy heading and permalink for Task 5.2.4.b" aria-label="Copy heading and permalink for Task 5.2.4.b">🔗</a></div>
 </article>
-<article class="task exercise-like" id="subsubsec-dilations-similar-5-5"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<article class="task exercise-like" id="subsubsec-dilations-similar-5-5"><h4 class="heading"><span class="codenumber">(c)</span></h4>
 <div class="para" id="subsubsec-dilations-similar-5-5-1-1">Will a pair of similar triangles also be congruent?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
@@ -591,39 +609,39 @@ eBookConfig.enable_chatcodes =  false;
 <div class="answer solution-like knowl__content">
 <div class="para" id="subsubsec-dilations-similar-5-5-2-1">Similar triangles will be congruent <em class="emphasis">only</em> when they are the same size; i.e., when <span class="process-math">\(k=1\text{.}\)</span> Most pairs of similar triangles are not congruent.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Answer 5.2.3.c.1"><a tabindex="-1" href="#subsubsec-dilations-similar-5-5-2" title="Copy heading and permalink for Answer 5.2.3.c.1" aria-label="Copy heading and permalink for Answer 5.2.3.c.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Answer 5.2.4.c.1"><a tabindex="-1" href="#subsubsec-dilations-similar-5-5-2" title="Copy heading and permalink for Answer 5.2.4.c.1" aria-label="Copy heading and permalink for Answer 5.2.4.c.1">🔗</a></div>
 </div></details>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.3.c"><a tabindex="-1" href="#subsubsec-dilations-similar-5-5" title="Copy heading and permalink for Task 5.2.3.c" aria-label="Copy heading and permalink for Task 5.2.3.c">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Checkpoint 5.2.3: Understanding Proportionality, Congruence, and Similarity"><a tabindex="-1" href="#subsubsec-dilations-similar-5" title="Copy heading and permalink for Checkpoint 5.2.3: Understanding Proportionality, Congruence, and Similarity" aria-label="Copy heading and permalink for Checkpoint 5.2.3: Understanding Proportionality, Congruence, and Similarity">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.4.c"><a tabindex="-1" href="#subsubsec-dilations-similar-5-5" title="Copy heading and permalink for Task 5.2.4.c" aria-label="Copy heading and permalink for Task 5.2.4.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Checkpoint 5.2.4: Understanding Proportionality, Congruence, and Similarity"><a tabindex="-1" href="#subsubsec-dilations-similar-5" title="Copy heading and permalink for Checkpoint 5.2.4: Understanding Proportionality, Congruence, and Similarity" aria-label="Copy heading and permalink for Checkpoint 5.2.4: Understanding Proportionality, Congruence, and Similarity">🔗</a></div>
 </article>
 <div class="para" id="subsubsec-dilations-similar-6">When two figures were congruent, we were able to find an isometry that mapped one figure onto the other. Can the same be said about similar figures and dilations? When two figures are similar, must there be a dilation that maps one onto the other?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="exploration project-like" id="explore-mystery-similarity"><h4 class="heading">
-<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mystery Similarity Transformations.</span>
-</h4>
-<article class="task exercise-like" id="task-mystery-dilation-quads"><h5 class="heading">
+<article class="exploration project-like" id="explore-mystery-similarity"><h3 class="heading">
+<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mystery Similarity Transformations.</span>
+</h3>
+<article class="task exercise-like" id="task-mystery-dilation-quads"><h4 class="heading">
 <span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mystery Similarity 1.</span>
-</h5>
+</h4>
 <div class="introduction" id="task-mystery-dilation-quads-2">
-<div class="para" id="task-mystery-dilation-quads-2-1">Quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> are given in <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-quads" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-quads.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.4">Figure 5.2.4</a>. Virtual tools for measuring angles and line segments are provided.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-quads-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="task-mystery-dilation-quads-2-1">Quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> are given in <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-quads" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-quads.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.6">Figure 5.2.6</a>. Virtual tools for measuring angles and line segments are provided.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-quads-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-mystery-dilation-quads"><div class="interactive-iframe-container"><iframe id="GGapp-mystery-dilation-quads" style="width:600px; height:600px; display: block; " src="GGapp-mystery-dilation-quads-if.html"></iframe></div>
 <div class="interactive-iframe-container__opener"><a href="GGapp-mystery-dilation-quads.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-quads" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-quads.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.a: Mystery Similarity 1">Mystery Similarity 1</a>.<div class="autopermalink" aria-hidden="true" data-description="Figure 5.2.4"><a tabindex="-1" href="#fig-mystery-dilation-quads" title="Copy heading and permalink for Figure 5.2.4" aria-label="Copy heading and permalink for Figure 5.2.4">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-quads" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-quads.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.5.a: Mystery Similarity 1">Mystery Similarity 1</a>.<div class="autopermalink" aria-hidden="true" data-description="Figure 5.2.6"><a tabindex="-1" href="#fig-mystery-dilation-quads" title="Copy heading and permalink for Figure 5.2.6" aria-label="Copy heading and permalink for Figure 5.2.6">🔗</a></div></figcaption>
 </figure>
 </div>
-<article class="task exercise-like" id="task-mystery-dilation-quads-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
-<div class="para" id="task-mystery-dilation-quads-3-1-1">Are the two quadrilaterals similar? Be sure to check all criteria in the definition of <a href="sec-dilations-Cartesian.html#def-similar-triangles" class="xref" data-knowl="./knowl/xref/def-similar-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.1.8">similar</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-quads-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="task-mystery-dilation-quads-3"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<div class="para" id="task-mystery-dilation-quads-3-1-1">Are the two quadrilaterals similar? Be sure to check all criteria in the definition of <a href="sec-dilations-Cartesian.html#def-similar-triangles" class="xref" data-knowl="./knowl/xref/def-similar-triangles.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.1.10">similar</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-quads-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.a.i"><a tabindex="-1" href="#task-mystery-dilation-quads-3" title="Copy heading and permalink for Task 5.2.2.a.i" aria-label="Copy heading and permalink for Task 5.2.2.a.i">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.a.i"><a tabindex="-1" href="#task-mystery-dilation-quads-3" title="Copy heading and permalink for Task 5.2.5.a.i" aria-label="Copy heading and permalink for Task 5.2.5.a.i">🔗</a></div>
 </article>
-<article class="task exercise-like" id="task-mystery-dilation-quads-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
-<div class="para" id="task-mystery-dilation-quads-4-1-1">Determine the <a href="sec-dilations-and-similarity.html#def-proportionality" class="xref" data-knowl="./knowl/xref/def-proportionality.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.2">constant of proportionality</a> if it exists.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-quads-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="task exercise-like" id="task-mystery-dilation-quads-4"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
+<div class="para" id="task-mystery-dilation-quads-4-1-1">Determine the <a href="sec-dilations-and-similarity.html#def-proportionality" class="xref" data-knowl="./knowl/xref/def-proportionality.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 5.2.3">constant of proportionality</a> if it exists.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-quads-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.a.ii"><a tabindex="-1" href="#task-mystery-dilation-quads-4" title="Copy heading and permalink for Task 5.2.2.a.ii" aria-label="Copy heading and permalink for Task 5.2.2.a.ii">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.a.ii"><a tabindex="-1" href="#task-mystery-dilation-quads-4" title="Copy heading and permalink for Task 5.2.5.a.ii" aria-label="Copy heading and permalink for Task 5.2.5.a.ii">🔗</a></div>
 </article>
-<article class="task exercise-like" id="task-mystery-dilation-quads-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<article class="task exercise-like" id="task-mystery-dilation-quads-5"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
 <div class="para" id="task-mystery-dilation-quads-5-1-1">Is there a dilation taking <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{?}\)</span> If so, locate the center <span class="process-math">\(F\)</span> and state the scale factor.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-quads-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions">
@@ -631,77 +649,77 @@ eBookConfig.enable_chatcodes =  false;
 <div class="hint solution-like knowl__content">
 <div class="para" id="task-mystery-dilation-quads-5-2-1">What lines must <span class="process-math">\(F\)</span> lie on?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-quads-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Hint 5.2.2.a.iii.1"><a tabindex="-1" href="#task-mystery-dilation-quads-5-2" title="Copy heading and permalink for Hint 5.2.2.a.iii.1" aria-label="Copy heading and permalink for Hint 5.2.2.a.iii.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Hint 5.2.5.a.iii.1"><a tabindex="-1" href="#task-mystery-dilation-quads-5-2" title="Copy heading and permalink for Hint 5.2.5.a.iii.1" aria-label="Copy heading and permalink for Hint 5.2.5.a.iii.1">🔗</a></div>
 </div></details>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.a.iii"><a tabindex="-1" href="#task-mystery-dilation-quads-5" title="Copy heading and permalink for Task 5.2.2.a.iii" aria-label="Copy heading and permalink for Task 5.2.2.a.iii">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.a: Mystery Similarity 1"><a tabindex="-1" href="#task-mystery-dilation-quads" title="Copy heading and permalink for Task 5.2.2.a: Mystery Similarity 1" aria-label="Copy heading and permalink for Task 5.2.2.a: Mystery Similarity 1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.a.iii"><a tabindex="-1" href="#task-mystery-dilation-quads-5" title="Copy heading and permalink for Task 5.2.5.a.iii" aria-label="Copy heading and permalink for Task 5.2.5.a.iii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.a: Mystery Similarity 1"><a tabindex="-1" href="#task-mystery-dilation-quads" title="Copy heading and permalink for Task 5.2.5.a: Mystery Similarity 1" aria-label="Copy heading and permalink for Task 5.2.5.a: Mystery Similarity 1">🔗</a></div>
 </article>
-<article class="task exercise-like" id="task-mystery-dilation-pentomino"><h5 class="heading">
+<article class="task exercise-like" id="task-mystery-dilation-pentomino"><h4 class="heading">
 <span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mystery Similarity 2.</span>
-</h5>
+</h4>
 <div class="introduction" id="task-mystery-dilation-pentomino-2">
-<div class="para" id="task-mystery-dilation-pentomino-2-1">Pentominos <span class="process-math">\(ABCDEFGH\)</span> and <span class="process-math">\(A''B''C''D''E''F''G''H''\)</span> are given in the GeoGebra applet, <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-pentomino" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-pentomino.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.5">Figure 5.2.5</a>. Virtual tools for measuring angles and line segments are provided.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-pentomino-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="task-mystery-dilation-pentomino-2-1">Pentominos <span class="process-math">\(ABCDEFGH\)</span> and <span class="process-math">\(A''B''C''D''E''F''G''H''\)</span> are given in the GeoGebra applet, <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-pentomino" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-pentomino.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.7">Figure 5.2.7</a>. Virtual tools for measuring angles and line segments are provided.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-pentomino-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-mystery-dilation-pentomino"><div class="interactive-iframe-container"><iframe id="GGapp-mystery-dilation-pentomino" style="width:600px; height:600px; display: block; " src="GGapp-mystery-dilation-pentomino-if.html"></iframe></div>
 <div class="interactive-iframe-container__opener"><a href="GGapp-mystery-dilation-pentomino.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-pentomino" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-pentomino.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.b: Mystery Similarity 2">Task 5.2.2.b</a> Mystery Similarity 2<div class="autopermalink" aria-hidden="true" data-description="Figure 5.2.5"><a tabindex="-1" href="#fig-mystery-dilation-pentomino" title="Copy heading and permalink for Figure 5.2.5" aria-label="Copy heading and permalink for Figure 5.2.5">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-pentomino" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-pentomino.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.5.b: Mystery Similarity 2">Task 5.2.5.b</a> Mystery Similarity 2<div class="autopermalink" aria-hidden="true" data-description="Figure 5.2.7"><a tabindex="-1" href="#fig-mystery-dilation-pentomino" title="Copy heading and permalink for Figure 5.2.7" aria-label="Copy heading and permalink for Figure 5.2.7">🔗</a></div></figcaption>
 </figure>
 </div>
-<article class="task exercise-like" id="task-mystery-dilation-pentomino-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<article class="task exercise-like" id="task-mystery-dilation-pentomino-3"><h5 class="heading"><span class="codenumber">(i)</span></h5>
 <div class="para" id="task-mystery-dilation-pentomino-3-1-1">Are the two pentominos similar? Be sure to check all criteria in the definition of similar.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-pentomino-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.b.i"><a tabindex="-1" href="#task-mystery-dilation-pentomino-3" title="Copy heading and permalink for Task 5.2.2.b.i" aria-label="Copy heading and permalink for Task 5.2.2.b.i">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.b.i"><a tabindex="-1" href="#task-mystery-dilation-pentomino-3" title="Copy heading and permalink for Task 5.2.5.b.i" aria-label="Copy heading and permalink for Task 5.2.5.b.i">🔗</a></div>
 </article>
-<article class="task exercise-like" id="task-mystery-dilation-pentomino-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<article class="task exercise-like" id="task-mystery-dilation-pentomino-4"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
 <div class="para" id="task-mystery-dilation-pentomino-4-1-1">Determine the constant of proportionality if it exists.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-pentomino-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.b.ii"><a tabindex="-1" href="#task-mystery-dilation-pentomino-4" title="Copy heading and permalink for Task 5.2.2.b.ii" aria-label="Copy heading and permalink for Task 5.2.2.b.ii">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.b.ii"><a tabindex="-1" href="#task-mystery-dilation-pentomino-4" title="Copy heading and permalink for Task 5.2.5.b.ii" aria-label="Copy heading and permalink for Task 5.2.5.b.ii">🔗</a></div>
 </article>
-<article class="task exercise-like" id="task-mystery-dilation-pentomino-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<article class="task exercise-like" id="task-mystery-dilation-pentomino-5"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
 <div class="para" id="task-mystery-dilation-pentomino-5-1-1">Is there a dilation taking <span class="process-math">\(ABCDEFGH\)</span> to <span class="process-math">\(A''B''C''D''E''F''G''H''\text{?}\)</span> If so, locate the center <span class="process-math">\(Q\)</span> and state the scale factor.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-pentomino-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.b.iii"><a tabindex="-1" href="#task-mystery-dilation-pentomino-5" title="Copy heading and permalink for Task 5.2.2.b.iii" aria-label="Copy heading and permalink for Task 5.2.2.b.iii">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.b: Mystery Similarity 2"><a tabindex="-1" href="#task-mystery-dilation-pentomino" title="Copy heading and permalink for Task 5.2.2.b: Mystery Similarity 2" aria-label="Copy heading and permalink for Task 5.2.2.b: Mystery Similarity 2">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.b.iii"><a tabindex="-1" href="#task-mystery-dilation-pentomino-5" title="Copy heading and permalink for Task 5.2.5.b.iii" aria-label="Copy heading and permalink for Task 5.2.5.b.iii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.b: Mystery Similarity 2"><a tabindex="-1" href="#task-mystery-dilation-pentomino" title="Copy heading and permalink for Task 5.2.5.b: Mystery Similarity 2" aria-label="Copy heading and permalink for Task 5.2.5.b: Mystery Similarity 2">🔗</a></div>
 </article>
-<article class="task exercise-like" id="task-mystery-dilation-concave"><h5 class="heading">
+<article class="task exercise-like" id="task-mystery-dilation-concave"><h4 class="heading">
 <span class="codenumber">(c)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mystery Similarity 3.</span>
-</h5>
+</h4>
 <div class="introduction" id="task-mystery-dilation-concave-2">
-<div class="para" id="task-mystery-dilation-concave-2-1">Concave quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> are given in the GeoGebra applet, <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.6">Figure 5.2.6</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-concave-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="task-mystery-dilation-concave-2-1">Concave quadrilaterals <span class="process-math">\(ABCD\)</span> and <span class="process-math">\(A'B'C'D'\)</span> are given in the GeoGebra applet, <a href="sec-dilations-and-similarity.html#fig-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/fig-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.8">Figure 5.2.8</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-concave-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="fig-mystery-dilation-concave"><div class="interactive-iframe-container"><iframe id="GGapp-mystery-dilation-concave" style="width:600px; height:600px; display: block; " src="GGapp-mystery-dilation-concave-if.html"></iframe></div>
 <div class="interactive-iframe-container__opener"><a href="GGapp-mystery-dilation-concave.html" title="Open in new tab" aria-label="Open in new tab" target="_blank"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe89e;</span></a></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.2.c: Mystery Similarity 3">Task 5.2.2.c</a> Mystery Similarity 3.<div class="autopermalink" aria-hidden="true" data-description="Figure 5.2.6"><a tabindex="-1" href="#fig-mystery-dilation-concave" title="Copy heading and permalink for Figure 5.2.6" aria-label="Copy heading and permalink for Figure 5.2.6">🔗</a></div></figcaption>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra applet for <a href="sec-dilations-and-similarity.html#task-mystery-dilation-concave" class="xref" data-knowl="./knowl/xref/task-mystery-dilation-concave.html" data-reveal-label="Reveal" data-close-label="Close" title="Task 5.2.5.c: Mystery Similarity 3">Task 5.2.5.c</a> Mystery Similarity 3.<div class="autopermalink" aria-hidden="true" data-description="Figure 5.2.8"><a tabindex="-1" href="#fig-mystery-dilation-concave" title="Copy heading and permalink for Figure 5.2.8" aria-label="Copy heading and permalink for Figure 5.2.8">🔗</a></div></figcaption>
 </figure>
 </div>
-<article class="task exercise-like" id="task-mystery-dilation-concave-3"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<article class="task exercise-like" id="task-mystery-dilation-concave-3"><h5 class="heading"><span class="codenumber">(i)</span></h5>
 <div class="para" id="task-mystery-dilation-concave-3-1-1">Are the two quadrilaterals similar? Be sure to check all criteria in the definition of similar.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-concave-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.c.i"><a tabindex="-1" href="#task-mystery-dilation-concave-3" title="Copy heading and permalink for Task 5.2.2.c.i" aria-label="Copy heading and permalink for Task 5.2.2.c.i">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.c.i"><a tabindex="-1" href="#task-mystery-dilation-concave-3" title="Copy heading and permalink for Task 5.2.5.c.i" aria-label="Copy heading and permalink for Task 5.2.5.c.i">🔗</a></div>
 </article>
-<article class="task exercise-like" id="task-mystery-dilation-concave-4"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<article class="task exercise-like" id="task-mystery-dilation-concave-4"><h5 class="heading"><span class="codenumber">(ii)</span></h5>
 <div class="para" id="task-mystery-dilation-concave-4-1-1">Determine the constant of proportionality if it exists.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-concave-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.c.ii"><a tabindex="-1" href="#task-mystery-dilation-concave-4" title="Copy heading and permalink for Task 5.2.2.c.ii" aria-label="Copy heading and permalink for Task 5.2.2.c.ii">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.c.ii"><a tabindex="-1" href="#task-mystery-dilation-concave-4" title="Copy heading and permalink for Task 5.2.5.c.ii" aria-label="Copy heading and permalink for Task 5.2.5.c.ii">🔗</a></div>
 </article>
-<article class="task exercise-like" id="task-mystery-dilation-concave-5"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<article class="task exercise-like" id="task-mystery-dilation-concave-5"><h5 class="heading"><span class="codenumber">(iii)</span></h5>
 <div class="para" id="task-mystery-dilation-concave-5-1-1">Is there a dilation taking <span class="process-math">\(ABCD\)</span> to <span class="process-math">\(A'B'C'D'\text{?}\)</span> If so, locate the center <span class="process-math">\(G\)</span> and state the scale factor for the dilation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#task-mystery-dilation-concave-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.c.iii"><a tabindex="-1" href="#task-mystery-dilation-concave-5" title="Copy heading and permalink for Task 5.2.2.c.iii" aria-label="Copy heading and permalink for Task 5.2.2.c.iii">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.c: Mystery Similarity 3"><a tabindex="-1" href="#task-mystery-dilation-concave" title="Copy heading and permalink for Task 5.2.2.c: Mystery Similarity 3" aria-label="Copy heading and permalink for Task 5.2.2.c: Mystery Similarity 3">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.c.iii"><a tabindex="-1" href="#task-mystery-dilation-concave-5" title="Copy heading and permalink for Task 5.2.5.c.iii" aria-label="Copy heading and permalink for Task 5.2.5.c.iii">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.c: Mystery Similarity 3"><a tabindex="-1" href="#task-mystery-dilation-concave" title="Copy heading and permalink for Task 5.2.5.c: Mystery Similarity 3" aria-label="Copy heading and permalink for Task 5.2.5.c: Mystery Similarity 3">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-mystery-similarity-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<article class="task exercise-like" id="explore-mystery-similarity-5"><h4 class="heading"><span class="codenumber">(d)</span></h4>
 <div class="para" id="explore-mystery-similarity-5-1-1">Describe the technique you used to determine whether two figures were similar. How did you find the constant of proportionality?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-mystery-similarity-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.d"><a tabindex="-1" href="#explore-mystery-similarity-5" title="Copy heading and permalink for Task 5.2.2.d" aria-label="Copy heading and permalink for Task 5.2.2.d">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.d"><a tabindex="-1" href="#explore-mystery-similarity-5" title="Copy heading and permalink for Task 5.2.5.d" aria-label="Copy heading and permalink for Task 5.2.5.d">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-mystery-similarity-6"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<article class="task exercise-like" id="explore-mystery-similarity-6"><h4 class="heading"><span class="codenumber">(e)</span></h4>
 <div class="para" id="explore-mystery-similarity-6-1-1">Describe the technique you used to determine whether there was a dilation that took a figure to another figure. How did you find the center of the dilation?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-mystery-similarity-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.e"><a tabindex="-1" href="#explore-mystery-similarity-6" title="Copy heading and permalink for Task 5.2.2.e" aria-label="Copy heading and permalink for Task 5.2.2.e">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.e"><a tabindex="-1" href="#explore-mystery-similarity-6" title="Copy heading and permalink for Task 5.2.5.e" aria-label="Copy heading and permalink for Task 5.2.5.e">🔗</a></div>
 </article>
-<article class="task exercise-like" id="explore-mystery-similarity-7"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<article class="task exercise-like" id="explore-mystery-similarity-7"><h4 class="heading"><span class="codenumber">(f)</span></h4>
 <div class="para logical" id="explore-mystery-similarity-7-1-1">
 <div class="para">Based on your explorations, which of the following are true?</div>
 <ol class="decimal" id="explore-mystery-similarity-7-1-1-1">
@@ -728,48 +746,48 @@ eBookConfig.enable_chatcodes =  false;
 </ol>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-mystery-similarity-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.2.f"><a tabindex="-1" href="#explore-mystery-similarity-7" title="Copy heading and permalink for Task 5.2.2.f" aria-label="Copy heading and permalink for Task 5.2.2.f">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Exploration 5.2.2: Mystery Similarity Transformations"><a tabindex="-1" href="#explore-mystery-similarity" title="Copy heading and permalink for Exploration 5.2.2: Mystery Similarity Transformations" aria-label="Copy heading and permalink for Exploration 5.2.2: Mystery Similarity Transformations">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 5.2.5.f"><a tabindex="-1" href="#explore-mystery-similarity-7" title="Copy heading and permalink for Task 5.2.5.f" aria-label="Copy heading and permalink for Task 5.2.5.f">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exploration 5.2.5: Mystery Similarity Transformations"><a tabindex="-1" href="#explore-mystery-similarity" title="Copy heading and permalink for Exploration 5.2.5: Mystery Similarity Transformations" aria-label="Copy heading and permalink for Exploration 5.2.5: Mystery Similarity Transformations">🔗</a></div>
 </article>
-<div class="para" id="subsubsec-dilations-similar-8">While any dilation will send each figure to a figure that is similar to the original, we observed in <a href="sec-dilations-and-similarity.html#explore-mystery-similarity" class="xref" data-knowl="./knowl/xref/explore-mystery-similarity.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.2.2: Mystery Similarity Transformations">Exploration 5.2.2</a> that there are pairs of similar figures for which no dilation maps one onto the other. Instead, a composition of a dilation and an isometry is necessary.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsubsec-dilations-similar-8">While any dilation will send each figure to a figure that is similar to the original, we observed in <a href="sec-dilations-and-similarity.html#explore-mystery-similarity" class="xref" data-knowl="./knowl/xref/explore-mystery-similarity.html" data-reveal-label="Reveal" data-close-label="Close" title="Exploration 5.2.5: Mystery Similarity Transformations">Exploration 5.2.5</a> that there are pairs of similar figures for which no dilation maps one onto the other. Instead, a composition of a dilation and an isometry is necessary.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="definition definition-like" id="def-similarity"><h4 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h4>
+<article class="definition definition-like" id="def-similarity"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
 <div class="para" id="def-similarity-4-1">A <dfn class="terminology">similarity transformation</dfn> or <dfn class="terminology">similarity</dfn> is a geometrical transformation that preserves shape, angle measure, and collinearity, but not necessarily length. A similarity maps each figure onto a figure that is similar to the original. In a similarity transformation, lengths are enlarged or reduced by a constant factor <span class="process-math">\(k\text{,}\)</span> the <dfn class="terminology">constant of proportionality</dfn>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-similarity-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para" id="def-similarity-4-2">A similarity is either a dilation or the composition of a dilation and an isomorphism.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#def-similarity-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Definition 5.2.7"><a tabindex="-1" href="#def-similarity" title="Copy heading and permalink for Definition 5.2.7" aria-label="Copy heading and permalink for Definition 5.2.7">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Definition 5.2.9"><a tabindex="-1" href="#def-similarity" title="Copy heading and permalink for Definition 5.2.9" aria-label="Copy heading and permalink for Definition 5.2.9">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Subsection 5.2.2: Dilations and Similar Triangles"><a tabindex="-1" href="#subsubsec-dilations-similar" title="Copy heading and permalink for Subsection 5.2.2: Dilations and Similar Triangles" aria-label="Copy heading and permalink for Subsection 5.2.2: Dilations and Similar Triangles">🔗</a></div>
 </section>
 <section class="exercises" id="exer-dilations-DAS">
-<h3 class="heading hide-type">
+<h2 class="heading hide-type">
 <span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
-</h3>
-<article class="subexercises" id="Toolbox-dilations-DAS"><h4 class="heading"><span class="title">Building Our Toolbox</span></h4>
-<article class="exercise exercise-like" id="Toolbox-dilations-DAS-2"><h5 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+</h2>
+<article class="subexercises" id="Toolbox-dilations-DAS"><h3 class="heading"><span class="title">Building Our Toolbox</span></h3>
+<article class="exercise exercise-like" id="Toolbox-dilations-DAS-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="para" id="Toolbox-dilations-DAS-2-1">Add<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Toolbox-dilations-DAS-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 5.2.3.1"><a tabindex="-1" href="#Toolbox-dilations-DAS-2" title="Copy heading and permalink for Exercise 5.2.3.1" aria-label="Copy heading and permalink for Exercise 5.2.3.1">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Subexercises: Building Our Toolbox"><a tabindex="-1" href="#Toolbox-dilations-DAS" title="Copy heading and permalink for Subexercises: Building Our Toolbox" aria-label="Copy heading and permalink for Subexercises: Building Our Toolbox">🔗</a></div>
 </article>
-<article class="subexercises" id="SAR-dilations-DAS"><h4 class="heading"><span class="title">Skills and Recall</span></h4>
-<article class="exercise exercise-like" id="SAR-dilations-DAS-2"><h5 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<article class="subexercises" id="SAR-dilations-DAS"><h3 class="heading"><span class="title">Skills and Recall</span></h3>
+<article class="exercise exercise-like" id="SAR-dilations-DAS-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="para" id="SAR-dilations-DAS-2-1-1">Coordinates given, center given, find image.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#SAR-dilations-DAS-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 5.2.3.2"><a tabindex="-1" href="#SAR-dilations-DAS-2" title="Copy heading and permalink for Exercise 5.2.3.2" aria-label="Copy heading and permalink for Exercise 5.2.3.2">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Subexercises: Skills and Recall"><a tabindex="-1" href="#SAR-dilations-DAS" title="Copy heading and permalink for Subexercises: Skills and Recall" aria-label="Copy heading and permalink for Subexercises: Skills and Recall">🔗</a></div>
 </article>
-<article class="subexercises" id="ExtConc-dilations-DAS"><h4 class="heading"><span class="title">Extending the Concepts</span></h4>
-<article class="exercise exercise-like" id="ExtConc-dilations-DAS-2"><h5 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<article class="subexercises" id="ExtConc-dilations-DAS"><h3 class="heading"><span class="title">Extending the Concepts</span></h3>
+<article class="exercise exercise-like" id="ExtConc-dilations-DAS-2"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="para" id="ExtConc-dilations-DAS-2-1-1">Add<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ExtConc-dilations-DAS-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 5.2.3.3"><a tabindex="-1" href="#ExtConc-dilations-DAS-2" title="Copy heading and permalink for Exercise 5.2.3.3" aria-label="Copy heading and permalink for Exercise 5.2.3.3">🔗</a></div>
 </article><div class="autopermalink" aria-hidden="true" data-description="Subexercises: Extending the Concepts"><a tabindex="-1" href="#ExtConc-dilations-DAS" title="Copy heading and permalink for Subexercises: Extending the Concepts" aria-label="Copy heading and permalink for Subexercises: Extending the Concepts">🔗</a></div>
 </article>
-<article class="subexercises" id="Writing-dilations-DAS"><h4 class="heading"><span class="title">Writing Prompts</span></h4>
-<article class="exercise exercise-like" id="Writing-dilations-DAS-2"><h5 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
+<article class="subexercises" id="Writing-dilations-DAS"><h3 class="heading"><span class="title">Writing Prompts</span></h3>
+<article class="exercise exercise-like" id="Writing-dilations-DAS-2"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="para" id="Writing-dilations-DAS-2-1-1">Add<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#Writing-dilations-DAS-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 5.2.3.4"><a tabindex="-1" href="#Writing-dilations-DAS-2" title="Copy heading and permalink for Exercise 5.2.3.4" aria-label="Copy heading and permalink for Exercise 5.2.3.4">🔗</a></div>

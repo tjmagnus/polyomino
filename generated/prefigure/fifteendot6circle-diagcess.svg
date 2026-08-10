@@ -9,7 +9,7 @@
   </defs>
   <g id="fifteendot6circle-__group-0">
     <g id="fifteendot6circle-point-k_0">
-      <g transform="translate(86.8,46.1) translate(-18.1,-12.5)">
+      <g id="fifteendot6circle-point-k_0" transform="translate(86.8,46.1) translate(-18.1,-12.5)">
         <g id="fifteendot6circle-__g-0">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
             <defs>
@@ -30,7 +30,7 @@
       <circle cx="89.8" cy="49.1" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_1">
-      <g transform="translate(59.8,65.7) translate(-18.1,-12.3)">
+      <g id="fifteendot6circle-point-k_1" transform="translate(59.8,65.7) translate(-18.1,-12.3)">
         <g id="fifteendot6circle-__g-1">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="18.096px" height="12.256px" role="img" focusable="false" viewBox="0 -677 1000 677" x="0.0" y="0.0">
             <defs>
@@ -51,7 +51,7 @@
       <circle cx="62.8" cy="68.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_2">
-      <g transform="translate(43.1,94.7) translate(-18.1,-12.5)">
+      <g id="fifteendot6circle-point-k_2" transform="translate(43.1,94.7) translate(-18.1,-12.5)">
         <g id="fifteendot6circle-__g-2">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
             <defs>
@@ -72,7 +72,7 @@
       <circle cx="46.1" cy="97.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_3">
-      <g transform="translate(36.6,130.9) translate(-18.1,-6.0)">
+      <g id="fifteendot6circle-point-k_3" transform="translate(36.6,130.9) translate(-18.1,-6.0)">
         <g id="fifteendot6circle-__g-3">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="18.096px" height="12.056px" role="img" focusable="false" viewBox="0 -666 1000 666" x="0.0" y="0.0">
             <defs>
@@ -93,7 +93,7 @@
       <circle cx="42.6" cy="130.9" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_4">
-      <g transform="translate(49.9,165.7) translate(-18.1,-0.0)">
+      <g id="fifteendot6circle-point-k_4" transform="translate(49.9,165.7) translate(-18.1,-0.0)">
         <g id="fifteendot6circle-__g-4">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="18.096px" height="12.056px" role="img" focusable="false" viewBox="0 -666 1000 666" x="0.0" y="0.0">
             <defs>
@@ -113,7 +113,7 @@
       <circle cx="52.9" cy="162.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_5">
-      <g transform="translate(72.3,190.5) translate(-18.1,-0.0)">
+      <g id="fifteendot6circle-point-k_5" transform="translate(72.3,190.5) translate(-18.1,-0.0)">
         <g id="fifteendot6circle-__g-5">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
             <defs>
@@ -134,7 +134,7 @@
       <circle cx="75.3" cy="187.5" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_6">
-      <g transform="translate(105.8,207.1) translate(-4.5,-0.0)">
+      <g id="fifteendot6circle-point-k_6" transform="translate(105.8,207.1) translate(-4.5,-0.0)">
         <g id="fifteendot6circle-__g-6">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -153,7 +153,7 @@
       <circle cx="105.8" cy="201.1" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_7">
-      <g transform="translate(139.2,207.1) translate(-4.5,-0.0)">
+      <g id="fifteendot6circle-point-k_7" transform="translate(139.2,207.1) translate(-4.5,-0.0)">
         <g id="fifteendot6circle-__g-7">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -172,7 +172,7 @@
       <circle cx="139.2" cy="201.1" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_8">
-      <g transform="translate(172.7,190.5) translate(0.0,-0.0)">
+      <g id="fifteendot6circle-point-k_8" transform="translate(172.7,190.5) translate(0.0,-0.0)">
         <g id="fifteendot6circle-__g-8">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.632px" role="img" focusable="false" viewBox="0 -676 500 698" x="0.0" y="0.0">
             <defs>
@@ -191,7 +191,7 @@
       <circle cx="169.7" cy="187.5" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_9">
-      <g transform="translate(195.1,165.7) translate(0.0,-0.0)">
+      <g id="fifteendot6circle-point-k_9" transform="translate(195.1,165.7) translate(0.0,-0.0)">
         <g id="fifteendot6circle-__g-9">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -210,7 +210,7 @@
       <circle cx="192.1" cy="162.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_10">
-      <g transform="translate(208.4,130.9) translate(0.0,-6.2)">
+      <g id="fifteendot6circle-point-k_10" transform="translate(208.4,130.9) translate(0.0,-6.2)">
         <g id="fifteendot6circle-__g-10">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -229,7 +229,7 @@
       <circle cx="202.4" cy="130.9" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_11">
-      <g transform="translate(201.9,94.7) translate(0.0,-12.3)">
+      <g id="fifteendot6circle-point-k_11" transform="translate(201.9,94.7) translate(0.0,-12.3)">
         <g id="fifteendot6circle-__g-11">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
             <defs>
@@ -248,7 +248,7 @@
       <circle cx="198.9" cy="97.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_12">
-      <g transform="translate(185.2,65.7) translate(0.0,-12.4)">
+      <g id="fifteendot6circle-point-k_12" transform="translate(185.2,65.7) translate(0.0,-12.4)">
         <g id="fifteendot6circle-__g-12">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.432px" role="img" focusable="false" viewBox="0 -665 500 687" x="0.0" y="0.0">
             <defs>
@@ -267,7 +267,7 @@
       <circle cx="182.2" cy="68.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_13">
-      <g transform="translate(158.2,46.1) translate(0.0,-12.1)">
+      <g id="fifteendot6circle-point-k_13" transform="translate(158.2,46.1) translate(0.0,-12.1)">
         <g id="fifteendot6circle-__g-13">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
             <defs>
@@ -286,7 +286,7 @@
       <circle cx="155.2" cy="49.1" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="fifteendot6circle-point-k_14">
-      <g transform="translate(122.5,36.1) translate(-4.5,-12.1)">
+      <g id="fifteendot6circle-point-k_14" transform="translate(122.5,36.1) translate(-4.5,-12.1)">
         <g id="fifteendot6circle-__g-14">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
             <defs>

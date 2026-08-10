@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="notpolygonSidesCrossed-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="notpolygonSidesCrossed-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="notpolygonSidesCrossed-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <path id="notpolygonSidesCrossed-__path-0" d="M 125.0 35.0 L 245.0 275.0 L 275.0 155.0 L 215.0 95.0 L 35.0 245.0 Z" stroke="black" stroke-width="2" fill="none" clip-path="url(#notpolygonSidesCrossed-__clipPath-1)"/>
+</svg>

@@ -9,7 +9,7 @@
   </defs>
   <g id="tendotcircle-__group-0">
     <g id="tendotcircle-point-k_0">
-      <g transform="translate(72.3,54.5) translate(-18.1,-12.5)">
+      <g id="tendotcircle-point-k_0" transform="translate(72.3,54.5) translate(-18.1,-12.5)">
         <g id="tendotcircle-__g-0">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
             <defs>
@@ -30,7 +30,7 @@
       <circle cx="75.3" cy="57.5" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_1">
-      <g transform="translate(40.1,97.7) translate(-9.0,-6.2)">
+      <g id="tendotcircle-point-k_1" transform="translate(40.1,97.7) translate(-9.0,-6.2)">
         <g id="tendotcircle-__g-1">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -49,7 +49,7 @@
       <circle cx="46.1" cy="97.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_2">
-      <g transform="translate(40.1,147.3) translate(-9.0,-6.2)">
+      <g id="tendotcircle-point-k_2" transform="translate(40.1,147.3) translate(-9.0,-6.2)">
         <g id="tendotcircle-__g-2">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -68,7 +68,7 @@
       <circle cx="46.1" cy="147.3" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_3">
-      <g transform="translate(72.3,190.5) translate(-9.0,-0.0)">
+      <g id="tendotcircle-point-k_3" transform="translate(72.3,190.5) translate(-9.0,-0.0)">
         <g id="tendotcircle-__g-3">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.632px" role="img" focusable="false" viewBox="0 -676 500 698" x="0.0" y="0.0">
             <defs>
@@ -87,7 +87,7 @@
       <circle cx="75.3" cy="187.5" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_4">
-      <g transform="translate(122.5,208.9) translate(-4.5,-0.0)">
+      <g id="tendotcircle-point-k_4" transform="translate(122.5,208.9) translate(-4.5,-0.0)">
         <g id="tendotcircle-__g-4">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -106,7 +106,7 @@
       <circle cx="122.5" cy="202.9" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_5">
-      <g transform="translate(172.7,190.5) translate(0.0,-0.0)">
+      <g id="tendotcircle-point-k_5" transform="translate(172.7,190.5) translate(0.0,-0.0)">
         <g id="tendotcircle-__g-5">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -125,7 +125,7 @@
       <circle cx="169.7" cy="187.5" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_6">
-      <g transform="translate(204.9,147.3) translate(0.0,-6.1)">
+      <g id="tendotcircle-point-k_6" transform="translate(204.9,147.3) translate(0.0,-6.1)">
         <g id="tendotcircle-__g-6">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
             <defs>
@@ -144,7 +144,7 @@
       <circle cx="198.9" cy="147.3" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_7">
-      <g transform="translate(204.9,97.7) translate(0.0,-6.2)">
+      <g id="tendotcircle-point-k_7" transform="translate(204.9,97.7) translate(0.0,-6.2)">
         <g id="tendotcircle-__g-7">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.432px" role="img" focusable="false" viewBox="0 -665 500 687" x="0.0" y="0.0">
             <defs>
@@ -163,7 +163,7 @@
       <circle cx="198.9" cy="97.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_8">
-      <g transform="translate(172.7,54.5) translate(0.0,-12.1)">
+      <g id="tendotcircle-point-k_8" transform="translate(172.7,54.5) translate(0.0,-12.1)">
         <g id="tendotcircle-__g-8">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
             <defs>
@@ -182,7 +182,7 @@
       <circle cx="169.7" cy="57.5" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="tendotcircle-point-k_9">
-      <g transform="translate(122.5,36.1) translate(-4.5,-12.1)">
+      <g id="tendotcircle-point-k_9" transform="translate(122.5,36.1) translate(-4.5,-12.1)">
         <g id="tendotcircle-__g-9">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
             <defs>

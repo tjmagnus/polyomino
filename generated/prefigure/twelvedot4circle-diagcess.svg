@@ -9,7 +9,7 @@
   </defs>
   <g id="twelvedot4circle-__group-0">
     <g id="twelvedot4circle-point-k_0">
-      <g transform="translate(79.3,49.9) translate(-18.1,-12.1)">
+      <g id="twelvedot4circle-point-k_0" transform="translate(79.3,49.9) translate(-18.1,-12.1)">
         <g id="twelvedot4circle-__g-0">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="18.096px" height="12.056px" role="img" focusable="false" viewBox="0 -666 1000 666" x="0.0" y="0.0">
             <defs>
@@ -30,7 +30,7 @@
       <circle cx="82.3" cy="52.9" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_1">
-      <g transform="translate(49.9,79.3) translate(-18.1,-12.1)">
+      <g id="twelvedot4circle-point-k_1" transform="translate(49.9,79.3) translate(-18.1,-12.1)">
         <g id="twelvedot4circle-__g-1">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="18.096px" height="12.056px" role="img" focusable="false" viewBox="0 -666 1000 666" x="0.0" y="0.0">
             <defs>
@@ -50,7 +50,7 @@
       <circle cx="52.9" cy="82.3" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_2">
-      <g transform="translate(36.1,122.5) translate(-18.1,-6.2)">
+      <g id="twelvedot4circle-point-k_2" transform="translate(36.1,122.5) translate(-18.1,-6.2)">
         <g id="twelvedot4circle-__g-2">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
             <defs>
@@ -71,7 +71,7 @@
       <circle cx="42.1" cy="122.5" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_3">
-      <g transform="translate(49.9,165.7) translate(-9.0,-0.0)">
+      <g id="twelvedot4circle-point-k_3" transform="translate(49.9,165.7) translate(-9.0,-0.0)">
         <g id="twelvedot4circle-__g-3">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -90,7 +90,7 @@
       <circle cx="52.9" cy="162.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_4">
-      <g transform="translate(79.3,195.1) translate(-9.0,-0.0)">
+      <g id="twelvedot4circle-point-k_4" transform="translate(79.3,195.1) translate(-9.0,-0.0)">
         <g id="twelvedot4circle-__g-4">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -109,7 +109,7 @@
       <circle cx="82.3" cy="192.1" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_5">
-      <g transform="translate(122.5,208.9) translate(-4.5,-0.0)">
+      <g id="twelvedot4circle-point-k_5" transform="translate(122.5,208.9) translate(-4.5,-0.0)">
         <g id="twelvedot4circle-__g-5">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.632px" role="img" focusable="false" viewBox="0 -676 500 698" x="0.0" y="0.0">
             <defs>
@@ -128,7 +128,7 @@
       <circle cx="122.5" cy="202.9" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_6">
-      <g transform="translate(165.7,195.1) translate(0.0,-0.0)">
+      <g id="twelvedot4circle-point-k_6" transform="translate(165.7,195.1) translate(0.0,-0.0)">
         <g id="twelvedot4circle-__g-6">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -147,7 +147,7 @@
       <circle cx="162.7" cy="192.1" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_7">
-      <g transform="translate(195.1,165.7) translate(0.0,-0.0)">
+      <g id="twelvedot4circle-point-k_7" transform="translate(195.1,165.7) translate(0.0,-0.0)">
         <g id="twelvedot4circle-__g-7">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
             <defs>
@@ -166,7 +166,7 @@
       <circle cx="192.1" cy="162.7" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_8">
-      <g transform="translate(208.9,122.5) translate(0.0,-6.1)">
+      <g id="twelvedot4circle-point-k_8" transform="translate(208.9,122.5) translate(0.0,-6.1)">
         <g id="twelvedot4circle-__g-8">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
             <defs>
@@ -185,7 +185,7 @@
       <circle cx="202.9" cy="122.5" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_9">
-      <g transform="translate(195.1,79.3) translate(0.0,-12.4)">
+      <g id="twelvedot4circle-point-k_9" transform="translate(195.1,79.3) translate(0.0,-12.4)">
         <g id="twelvedot4circle-__g-9">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.432px" role="img" focusable="false" viewBox="0 -665 500 687" x="0.0" y="0.0">
             <defs>
@@ -204,7 +204,7 @@
       <circle cx="192.1" cy="82.3" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_10">
-      <g transform="translate(165.7,49.9) translate(0.0,-12.1)">
+      <g id="twelvedot4circle-point-k_10" transform="translate(165.7,49.9) translate(0.0,-12.1)">
         <g id="twelvedot4circle-__g-10">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
             <defs>
@@ -223,7 +223,7 @@
       <circle cx="162.7" cy="52.9" r="2" stroke="black" stroke-width="2" fill="red"/>
     </g>
     <g id="twelvedot4circle-point-k_11">
-      <g transform="translate(122.5,36.1) translate(-4.5,-12.1)">
+      <g id="twelvedot4circle-point-k_11" transform="translate(122.5,36.1) translate(-4.5,-12.1)">
         <g id="twelvedot4circle-__g-11">
           <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
             <defs>
