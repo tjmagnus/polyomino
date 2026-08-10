@@ -317,12 +317,15 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         but also the same number of sides, the same lengths of corresponding sides, and the same angle measures.
       </p>
       <p> In <xref ref="fig-example-congruence"/>, we see that segment <m>\overline{AB}</m> has the same measure or length as 
-        <m>\overline{DE}</m> and can write this as <m>m(\overline{AB})=m(\overline{DE})</m> where the <m>m()</m> denotes <q>measure of</q>.
+        segment <m>\overline{DE}</m>. We write this as <m>m(\overline{AB})=m(\overline{DE})</m> where the symbol <m>m( )</m> denotes <q>measure of</q>.
         Similarly, we see that <m>m(\overline{AC})=m(\overline{DF})</m> and
         <m>m(\overline{BC})=m(\overline{EF})</m>. We also observe that each pair of corresponding angles of the triangles have the
-        same measure so that <m>m(\angle{ABC})=m(\angle{DEF})</m>, <m>m(\angle {BCA})=m(\angle{EFD})</m>,
+        same measure, namely <m>m(\angle{ABC})=m(\angle{DEF})</m>, <m>m(\angle {BCA})=m(\angle{EFD})</m>,
         and <m>m(\angle{CAB})=m(\angle{FDE})</m>. Thus, we say <m>\Delta ABC</m> is congruent to <m>\Delta DEF</m>. In symbols,
-        we write <m>\Delta ABC\cong\Delta DEF</m>, <m>\overline{AB}\cong \overline{DE}</m>, <m>\angle ABC\cong\angle DEF</m>, etc. 
+        we write <m>\Delta ABC\cong\Delta DEF</m>, <m>\overline{AB}\cong \overline{DE}</m>, <m>\angle ABC\cong\angle DEF</m>, etc.
+        The order in which we arranged the vertex letters should identify the corresponding vertices: since <m>A</m> and <m>D</m>
+        appear first in <m>\Delta ABC\cong\Delta DEF</m>, vertex <m>A</m> in <m>\Delta ABC</m> corresponds to vertex <m>\angle D</m> in
+        <m>\Delta DEF</m>. 
       </p>
 
     <figure  xml:id="fig-example-congruence">
