@@ -311,38 +311,86 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <title>Congruence</title>
     <idx><h>congruent</h></idx>
       <p>
-        In geometry, we use the word <term>congruent</term> to describe two objects of the same
+        In geometry, we use the word <term>congruent</term>, denoted <m>\cong</m> to describe two objects of the same
         shape and size. Two line segments will be said to be congruent if they have the same length.
         Congruent two-dimensional figures will not only have the same area,
         but also the same number of sides, the same lengths of corresponding sides, and the same angle measures.
       </p>
-      <p> In <xref ref="fig-example-congruence"/>, 
-
-
+      <p> In <xref ref="fig-example-congruence"/>, we see that segment <m>\overline{AB}</m> has the same measure or length as 
+        <m>\overline{DE}</m> and can write this as <m>m(\overline{AB})=m(\overline{DE})</m> where the <m>m()</m> denotes <q>measure of</q>.
+        Similarly, we see that <m>m(\overline{AC})=m(\overline{DF})</m> and
+        <m>m(\overline{BC})=m(\overline{EF})</m>. We also observe that each pair of corresponding angles of the triangles have the
+        same measure so that <m>m(\angle{ABC})=m(\angle{DEF})</m>, <m>m(\angle {BCA})=m(\angle{EFD})</m>,
+        and <m>m(\angle{CAB})=m(\angle{FDE})</m>. Thus, we say <m>\Delta ABC</m> is congruent to <m>\Delta DEF</m>. In symbols,
+        we write <m>\Delta ABC\cong\Delta DEF</m>, <m>\overline{AB}\cong \overline{DE}</m>, <m>\angle ABC\cong\angle DEF</m>, etc. 
       </p>
+
     <figure  xml:id="fig-example-congruence">
       <caption>A pair of congruent triangles.</caption>
-      <prefigure xmlns="https://prefigure.org" label="PreFigExampleCong" >
-        <diagram xmlns="https://prefigure.org" width="350" height="350" margins="5">
-          <coordinates bbox="(-6,-6,6,6)">
-            <polygon points="((-4,2),(0,2),(0,5))" 
-                    closed="yes" fill="yellow"
-                    stroke="black" />
-              <label anchor="(-4,2)" alignment="sw" scale="0.8">A</label>
-              <label anchor="(0,2)" alignment="se" scale="0.8">B</label>
-              <label anchor="(0,5)" alignment="ne" scale="0.8">C</label>
+      <image>
+        <!--See 3.5.21 in PreFigure Documentation for the triangle construction.-->
+        <prefigure xmlns="https://prefigure.org" label="PreFigExampleCong" >
+          <diagram xmlns="https://prefigure.org" width="330" height="270" margins="5">
+            <coordinates bbox="(-5,-3,6,6)">
+              <polygon points="((-4,2),(0,2),(0,5))" 
+                      closed="yes" fill="yellow"
+                      stroke="black" />
+                <label anchor="(-4,2)" alignment="sw" scale="0.8">A</label>
+                <label anchor="(0,2)" alignment="se" scale="0.8">B</label>
+                <label anchor="(0,5)" alignment="ne" scale="0.8">C</label>
 
-            <polygon points="((2,3),(2,-1),(5,-1))"
-                    closed="yes" fill="lightgreen"
-                    stroke="black"/>
-              <label anchor="(2,3)" alignment="nw" scale="0.8">D</label>
-              <label anchor="(2,-1)" alignment="sw" scale="0.8">E</label>
-              <label anchor="(5,-1)" alignment="se" scale="0.8">F</label>
+              <polygon points="((2,3),(2,-1),(5,-1))"
+                      closed="yes" fill="lightgreen"
+                      stroke="black"/>
+                <label anchor="(2,3)" alignment="nw" scale="0.8">D</label>
+                <label anchor="(2,-1)" alignment="sw" scale="0.8">E</label>
+                <label anchor="(5,-1)" alignment="se" scale="0.8">F</label>
+
+            </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
+    </figure>
+    <p>
+        Note that congruence (<m>\cong</m>) describes the relationship between geometrical objects of a common type while 
+        equality (<m>=</m>) identifies a relationship between numbers. The line over the letter pair <m>AB</m> in <m>\overline{AB}</m> 
+        indicates that we are talking about the segment consisting of the set of points 
+        on line <m>\overleftrightarrow{AB}</m> between <m>A</m> and <m>B</m> together with the endpoints <m>A</m> and <m>B</m>. On the other hand,
+        the length or measure <m>m(\overline{AB})</m> of segment <m>\overline{AB}</m> is a number giving us the distance from <m>A</m>
+        to <m>B</m>. This length <m>m(\overline{AB})</m> can also written in the abbreviated form <m>AB</m>. 
+    </p>
+    <p>
+        Two geometrical objects are only equal if they
+        are the same object, they are in the same location and consist of the same set of points. Equals is not normally used with
+        segments and polygons due to their unique endpoints and vertices, but equals is often used with angles, lines, and rays 
+        where different points can be used to identify the object.
+        In <xref ref="fig-example-diffname-sameobj"/>, <m>\angle JGK</m>
+        equals <m>\angle HGK</m>, not because they have the measure but because they are the same angle; they contain the same vertex and 
+        rays. Similarly, <m>\overrightarrow{GH}</m> equals <m>\overrightarrow{GJ}</m> and <m>\overrightarrow{GH}=\overrightarrow{GJ}=\overrightarrow{JH}</m>. 
+        and 
+    </p>
+    <figure  xml:id="fig-example-diffname-sameobj">
+      <caption>Geometrical objects that can be named using different points on the object.</caption>
+      <image>
+        <prefigure xmlns="https://prefigure.org" label="PreFigDiffNameSameAngleLine" >
+          <diagram xmlns="https://prefigure.org" width="240" height="210" margins="5">
+          <coordinates bbox="(-6,-1,2,6)">
+            <polygon points="((0,5),(-4,1),(0,2))" 
+                    closed="no" arrows="2"
+                    stroke="black" />
+
+              <point p="(-4.05,.95)" size="2" style="circle" fill="black" alignment="nw" scale="0.8">G</point>
+              <point p="(-2.5,2.5)" size="2" style="circle" fill="black" alignment="se" scale="0.8">H</point>
+              <point p="(-.5,4.5)" size="2" style="circle" fill="black" alignment="s" scale="0.8">J</point>
+              <point p="(-1,1.75)" size="2" style="circle" fill="black" alignment="s" scale="0.8">K</point>
+
+              <line endpoints="((-4,1),(-5.5,-0.5))" arrows="1" dash="4 3" stroke="black"/>
 
           </coordinates>
         </diagram>
-      </prefigure>
-    </figure>
+        </prefigure>
+      </image>
+    </figure>  
   </paragraphs>
 
 </subsection>

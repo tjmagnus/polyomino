@@ -402,7 +402,7 @@
 <!--How do I fix the fillins in the above table so that answers can be inserted? 
 What mode is needed for the last row?-->
       </statement>
-      <evaluation>
+    <!--  <evaluation>
         <evaluate>
           <test>
             <numcmp use-answer="yes" />
@@ -584,7 +584,7 @@ What mode is needed for the last row?-->
           </test>
         </evaluate>
         
-      </evaluation>
+      </evaluation>-->
     </task>
   </exploration>
 
