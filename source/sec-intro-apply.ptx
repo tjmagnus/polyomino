@@ -311,7 +311,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <title>Congruence</title>
     <idx><h>congruent</h></idx>
       <p>
-        In geometry, we use the word <term>congruent</term>, denoted <m>\cong</m> to describe two objects of the same
+        In geometry, we use the word <term>congruent</term>, denoted <m>\cong</m>, to describe two objects of the same
         shape and size. Two line segments will be said to be congruent if they have the same length.
         Congruent two-dimensional figures will not only have the same area,
         but also the same number of sides, the same lengths of corresponding sides, and the same angle measures.
@@ -790,15 +790,18 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       </statement>
     </definition>
   </subsection>
-  <exercises xml:id="exercises-vocab-intro-apply">
-    <title>Vocabulary</title>
-    <subexercises xml:id="SAR-vocab-intro-apply">
-        <title>Vocabulary Review</title>
+
+  <exercises xml:id="exercises-intro-apply">
+    <title>Exercises</title>
+    <subexercises>
+      <title>Building Our Toolbox</title>
         <exercise xml:id="HW-vocab-triangles">
             <title>Triangles</title>
             <introduction>
               <p>
-                Refer to the figure below of <m>\Delta ABC</m> to answer the following questions:
+                Refer to the figure below of <m>\Delta ABC</m> to answer the following questions. The lowercase 
+                letters a, b, and c are the lengths of <m>\overline{BC}, \overline{AC}</m> and <m>\overline{AB}</m>,
+                respectively.
               </p>
                 <image source="righttriangleparts" width="85%">
                   <shortdescription>(for accessibility)</shortdescription>
@@ -807,7 +810,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             <task>
                 <statement>
                     <p>
-                        Identify the <term>right angle</term> (measure is 90 degrees).
+                        Identify the <term>right angle</term> of <m>\Delta ABC</m>.
                     </p>
                 </statement>
                 <answer>
@@ -819,7 +822,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             <task>
                 <statement>
                     <p>
-                        Identify the two <term>acute angles</term> (measure is less than 90 degrees).
+                        Identify the two <term>acute angles</term> of <m>\Delta ABC</m>.
                     </p>
                 </statement>
                 <answer>
@@ -831,7 +834,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             <task>
                 <statement>
                     <p>
-                         Identify the <term>hypotenuse</term>.
+                         Identify <term>hypotenuse</term> of <m>\Delta ABC</m>.
                     </p>
                 </statement>
                 <answer>
@@ -843,7 +846,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             <task>
                 <statement>
                     <p>
-                         Identify the <term>legs</term>.
+                         Identify the two <term>legs</term> of <m>\Delta ABC</m>.
                     </p>
                 </statement>
                 <answer>
@@ -886,7 +889,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
                 </statement>
                 <answer>
                     <p>
-                        The sum of its three side lengths (a + b + c).
+                        The sum of its three side lengths, <m>a + b + c</m>.
                     </p>
                 </answer>
             </task>
@@ -1146,9 +1149,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
             </task>
         </exercise>
     </subexercises>
-  </exercises>
-  <exercises xml:id="exercises-intro-apply">
-    <title>Exercises</title>
+      
+   
     <subexercises xml:id="SAR-intro-apply">
       <title>Skills and Recall</title>
       <exercise xml:id="SAR-intro-apply-perimeter">
