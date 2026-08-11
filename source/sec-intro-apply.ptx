@@ -55,7 +55,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   we can state and use the area formula for a rectangle, and we know that
   the area of a region is equal to the sum of the areas of its parts. 
   Hopefully, you will agree that length should also be additive; namely,
-  that if we extend a segment of length <m>n</m> by a segment of length 
+  that if we extend a line segment<fn>See <xref ref="def-line-segment"/> for the definition of line 
+  segment.</fn> of length <m>n</m> by a line segment of length 
   <m>m</m>, the resulting segment has length <m>n+m</m>. We restate this 
   below:
 </p>
@@ -299,7 +300,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 </exploration>
 
   <p>
-    In this exercise, we practiced using our initial principles and 
+    In <xref ref="intro-apply-explore-tangram"/>, we practiced using our initial principles and 
     identified some tools, namely the Pythagorean Theorem and the area formula 
     for a triangle, that will be developed later. We also noted that there are 
     multiple ways to solve a problem. Solutions do not need to use formulas and 
@@ -401,14 +402,16 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <title>Defining Polygons</title>
 <p>
   In the first part of this course, we will work 
-  primarily with polygons. What is a polygon? Giving a clear, clean definition of the word
-  "polygon" is difficult so we will describe it verbally and give several examples. If you search for 
-  the definition in books or on the web, you will find different attempts to give a clear definition.
-  We will describe a <term>polygon</term> <idx><h>polygon</h></idx> as being a closed plane figure 
-  formed by a sequence of straight sides.  
-  Thus, a polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
+  primarily with polygons. Stating a clear, clean definition of the word
+  <term>polygon</term> is difficult so we will describe it verbally and give several examples. If you search for 
+  a definition in books or on the web, you will find different attempts to give a clear definition.
+  Here, we describe a <term>polygon</term> <idx><h>polygon</h></idx> as being a closed plane figure 
+  formed by a sequence of straight sides (or line segments).  
+  Being a plane figure means that each polygon is a shape that lies in the plane or on a flat surface. By closed, we mean 
   that a polygon will have a well-defined interior; the polygon forms a solid boundary between this 
-  interior and the rest of the plane.
+  interior and the rest of the plane. In addition, each vertex (or corner) of the polygon will be an endpoint for both of the
+  sides that meet at that point, no two sides will intersect in between their endpoints, and exactly two sides will meet
+  at any vertex.
 </p>
 <figure xml:id="polygonvisualdefinition">
   <caption>Some examples of polygons</caption>
@@ -793,6 +796,18 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 
   <exercises xml:id="exercises-intro-apply">
     <title>Exercises</title>
+    <subexercises>
+      <title>Congruence</title>
+    
+      <exercise>
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+      </exercise>
+      
+    </subexercises>
     <subexercises>
       <title>Building Our Toolbox</title>
         <exercise xml:id="HW-vocab-triangles">
