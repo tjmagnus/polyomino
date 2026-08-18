@@ -433,7 +433,9 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 </subsection>
 <subsection xml:id="intro-apply-subsec-definingpolygons">
     <title>Defining Polygons</title>
+    
 <p>
+  <idx><h>polygon</h></idx>
   In the first part of this course, we will work 
   primarily with polygons. Stating a clear, clean definition of the word
   <term>polygon</term> is difficult so we will describe it verbally and give several examples. If you search for 
@@ -450,7 +452,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
   <caption>Some examples of polygons</caption>
   <sidebyside>
     <figure xml:id="figConvexPolyRightTrap">
-      <caption>A right trapezoid</caption>
+      <caption>A convex polygon.</caption>
       <!--<image component="web" source="righttrapezoid">
         <shortdescription>
           A trapezoid with two right angles, one acute angle, and 
@@ -470,18 +472,21 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </shortdescription>
         <prefigure xmlns="https://prefigure.org" label="PreFigExampleConvPoly" >
           <diagram width="250" height="150" margins="5">
-            <coordinates bbox="(1,1,11,6)">
+            <coordinates bbox="(0,0,12,7)">
               <polygon points="((1,1),(1,5),(5,5),(10,1))" 
                       closed="yes"
                       stroke="black" />
+                <label anchor="(1,1)" alignment="sw" scale="0.8">T</label>
+                <label anchor="(1,5)" alignment="nw" scale="0.8">R</label>
+                <label anchor="(5,5)" alignment="ne" scale="0.8">P</label>
+                <label anchor="(10,1)" alignment="se" scale="0.8">Z</label>
             </coordinates>
           </diagram>
-        </prefigure>
-              
+        </prefigure>  
       </image>
     </figure>
     <figure>
-      <caption>A concave pentagon.</caption>
+      <caption>A concave polygon.</caption>
       <!--<image component="web" source="concavepentagon.svg"/>-->
       <!--<image component="print" source="concavepentagon.png"/>-->
       <image>
@@ -491,10 +496,15 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </shortdescription>
         <prefigure xmlns="https://prefigure.org" label="PreFigExampleConcavePoly" >
           <diagram width="250" height="150" margins="5">
-              <coordinates bbox="(11,1,21,6)">
+              <coordinates bbox="(10,0,22,6)">
                 <polygon points="((11,2),(13,5),(17,2),(18,4),(20,1))" 
                         closed="yes"
                         stroke="black" />
+                <label anchor="(11,2)" alignment="sw" scale="0.8">C</label>
+                <label anchor="(13,5)" alignment="nw" scale="0.8">N</label>
+                <label anchor="(17,2)" alignment="e" scale="0.8">A</label>
+                <label anchor="(18,4)" alignment="ne" scale="0.8">V</label>
+                <label anchor="(20,1)" alignment="se" scale="0.8">E</label>
               </coordinates>
           </diagram>
         </prefigure>
@@ -614,6 +624,27 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </p>
       </statement>
     </definition>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Use the terms defined in <xref ref="def-quadrilateral"/> and <xref ref="def-ngon"/> to describe
+            the polygons <m>TRPZ</m> and <m>CNAVE</m> in <xref ref="polygonvisualdefinition"/>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            Although <m>TRPZ</m> is a trapezoid, that is not the answer. Refer to the terms in the linked definitions.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>TRPZ</m> is a quadrilateral and <m>CNAVE</m> is a pentagon.
+          </p>
+        </answer>
+      </task>
+    </exercise>
     <p> 
       Some polygons are defined by the types of angles they have.
     </p>
@@ -632,6 +663,50 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </p>
       </statement>
     </definition>
+
+    <exercise>
+      <introduction>
+        <p>
+          Quadrilateral <m>TRPZ</m> in <xref ref="figConvexPolyRightTrap"/> is called a right trapezoid.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Identify the two right angles.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The two right angles are <m>\angle TRP</m> and <m>\angle RTZ</m>.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What type of angle is <m>\angle RPZ</m>?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Obtuse.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What type of angle is <m>\angle PZT</m>?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Acute.
+          </p>
+        </answer>
+      </task>
+    </exercise>
     <definition xml:id="def-right-triangle">
       <idx><h>triangle</h><h>right</h></idx>
       <idx><h>hypotenuse</h></idx>
@@ -666,7 +741,7 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       <idx><h>square</h></idx>
       <statement>
         <p>
-          A quadrilateral with four right angles is called a <term>rectangle</term>
+          A quadrilateral with four right angles is called a <term>rectangle</term>.
           A <term>square</term> is a rectangle whose sides are all the same length.
         </p>
       </statement>
@@ -734,6 +809,45 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </image>
       </figure>
       <!--https://www.geogebra.org/geometry/f7u8y9xg-->
+    <exercise>
+      <task>
+        <introduction>
+          <p>
+            These questions refer to parallelogram <m>ABCD</m>
+            in <xref ref="fig-parallelogram-def"/>.
+          </p>
+        </introduction>
+        <statement>
+          <p>
+            Explain why <m>\overline{AB}</m> is not an altitude for parallelogram <m>ABCD</m>.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            See <xref ref="def-parallelogram"/>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            Angle <m>\angle ABC</m> is not a right angle.
+          </p>
+        </answer>
+      </task>
+      <task>
+        <statement>
+          <p>
+            If <m>\overline{AE}</m> is an altitude for parallelogram <m>ABCD</m>, where will
+            point <m>E</m> be located?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Point <m>E</m> will lie on segment <m>\overline{BC}</m> a little to the right of <m>B</m>
+            so that <m>m(\angle AEC)=90^{\circ}</m>.
+          </p>
+        </answer>
+      </task>
+      </exercise>
     <definition xml:id="def-trapezoid">
       <idx><h>trapezoid</h></idx>
       <idx><h>quadrilateral</h><h>trapezoid</h></idx>
@@ -770,9 +884,6 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     <p>
       Triangles and other polygons may also be classified by whether some of their 
       sides have the same length.
-      Two sides of a polygon are said to be <term>congruent</term> 
-      <idx><h>congruent sides</h></idx> 
-      if they are the same length.
     </p>
     <definition xml:id="def-equilateral">
       <idx><h>equilateral</h><h>triangle</h></idx>
@@ -843,6 +954,9 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </p>
       </statement>
     </definition>
+    </subsection>
+  <subsection xml:id="subsec-perimeter">
+      <title>Perimeter</title>
     <p>
       While area measures the interior region bounded by a polygon or other closed  
       figure in the plane, we can also measure the boundary itself. 
