@@ -319,14 +319,46 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
       </p>
       <p> In <xref ref="fig-example-congruence"/>, we see that segment <m>\overline{AB}</m> has the same measure or length as 
         segment <m>\overline{DE}</m>. We write this as <m>m(\overline{AB})=m(\overline{DE})</m> where the symbol <m>m( )</m> denotes <q>measure of</q>.
-        Similarly, we see that <m>m(\overline{AC})=m(\overline{DF})</m> and
-        <m>m(\overline{BC})=m(\overline{EF})</m>. We also observe that each pair of corresponding angles of the triangles have the
-        same measure, namely <m>m(\angle{ABC})=m(\angle{DEF})</m>, <m>m(\angle {BCA})=m(\angle{EFD})</m>,
-        and <m>m(\angle{CAB})=m(\angle{FDE})</m>. Thus, we say <m>\Delta ABC</m> is congruent to <m>\Delta DEF</m>. In symbols,
-        we write <m>\Delta ABC\cong\Delta DEF</m>, <m>\overline{AB}\cong \overline{DE}</m>, <m>\angle ABC\cong\angle DEF</m>, etc.
-        The order in which we arranged the vertex letters should identify the corresponding vertices: since <m>A</m> and <m>D</m>
-        appear first in <m>\Delta ABC\cong\Delta DEF</m>, vertex <m>A</m> in <m>\Delta ABC</m> corresponds to vertex <m>\angle D</m> in
-        <m>\Delta DEF</m>. 
+        Similarly, we can write <m>m(\angle{ABC})=m(\angle{DEF})</m> to indicate that <m>\angle{ABC}</m> and <m>\angle{DEF}</m> have 
+        the same measure. In fact, it is true that each side (or angle) of <m>\Delta ABC</m> has a <term>corresponding</term> side (or angle)
+        of <m>\Delta DEF</m> to which it is congruent:
+        <ul>
+          <li>
+            <p>
+              <m>m(\overline{AB})=m(\overline{DE})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>m(\overline{AC})=m(\overline{DF})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>m(\overline{BC})=m(\overline{EF})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>m(\angle{ABC})=m(\angle{DEF})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>m(\angle {BCA})=m(\angle{EFD})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>m(\angle{CAB})=m(\angle{FDE})</m>
+            </p>
+          </li>
+        </ul>
+        Since the two triangles have the three corresponding sides congruent and the three corresponding angles congruent, 
+        we claim <m>\Delta ABC</m> is congruent to <m>\Delta DEF</m>, being careful to order the letters in each triangle's name
+        so that corresponding vertices are in corresponding positions (both first, both second, or both third). In symbols,
+        we also use congruence notation to write <m>\Delta ABC\cong\Delta DEF</m>, <m>\overline{AB}\cong \overline{DE}</m>, 
+        <m>\angle ABC\cong\angle DEF</m>, etc. 
       </p>
 
     <figure  xml:id="fig-example-congruence">
@@ -372,7 +404,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         equals <m>\angle HGK</m>, not because they have the measure but because they are the same angle; they contain the same vertex and 
         rays. Similarly, <m>\overrightarrow{GH}</m> equals <m>\overrightarrow{GJ}</m> and <m>\overrightarrow{GH}=\overrightarrow{GJ}=\overrightarrow{JH}</m>. 
         and 
-    </p>
+    </p>  
+
     <figure  xml:id="fig-example-diffname-sameobj">
       <caption>Geometrical objects that can be named using different points on the object.</caption>
       <image>
@@ -416,25 +449,56 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 <figure xml:id="polygonvisualdefinition">
   <caption>Some examples of polygons</caption>
   <sidebyside>
-    <figure>
+    <figure xml:id="figConvexPolyRightTrap">
       <caption>A right trapezoid</caption>
-      <image component="web" source="righttrapezoid">
+      <!--<image component="web" source="righttrapezoid">
         <shortdescription>
           A trapezoid with two right angles, one acute angle, and 
           one obtuse angle.
         </shortdescription>
-      </image>
+      </image>-->
       <!--<image component="print" source="righttrapezoid.png">
         <shortdescription>
           A trapezoid with two right angles, one acute angle, and 
           one obtuse angle.
         </shortdescription>
       </image>-->
+      <image>
+        <shortdescription>
+          A right trapezoid with two adjacent right angles, one acute angle, and 
+          one obtuse angle.
+        </shortdescription>
+        <prefigure xmlns="https://prefigure.org" label="PreFigExampleConvPoly" >
+          <diagram width="250" height="150" margins="5">
+            <coordinates bbox="(1,1,11,6)">
+              <polygon points="((1,1),(1,5),(5,5),(10,1))" 
+                      closed="yes"
+                      stroke="black" />
+            </coordinates>
+          </diagram>
+        </prefigure>
+              
+      </image>
     </figure>
     <figure>
       <caption>A concave pentagon.</caption>
-      <image component="web" source="concavepentagon.svg"/>
+      <!--<image component="web" source="concavepentagon.svg"/>-->
       <!--<image component="print" source="concavepentagon.png"/>-->
+      <image>
+        <shortdescription>A concave polygon has an interior angle greater than
+          180 degrees. In this picture, the pentagon looks like a pair of mountain
+          peaks.
+        </shortdescription>
+        <prefigure xmlns="https://prefigure.org" label="PreFigExampleConcavePoly" >
+          <diagram width="250" height="150" margins="5">
+              <coordinates bbox="(11,1,21,6)">
+                <polygon points="((11,2),(13,5),(17,2),(18,4),(20,1))" 
+                        closed="yes"
+                        stroke="black" />
+              </coordinates>
+          </diagram>
+        </prefigure>
+      </image>
     </figure>
   </sidebyside>
 </figure>
@@ -467,12 +531,13 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
           A figure formed by line segments with a gap remaining.
         </shortdescription>
       </image>
-      <!-- <image component="print" source="unclosed.png">
+      <image component="print" source="unclosed.png">
         <shortdescription>
           A figure formed by line segments with a gap remaining.
         </shortdescription>
-      </image> -->
+      </image> 
     </figure>
+        
     <figure>
       <caption>Curved edges</caption>
       <image component="web" source="acurvedside.svg"> 
