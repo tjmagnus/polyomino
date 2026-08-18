@@ -308,7 +308,8 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
     want to grow our toolbox to increase our ability to solve problems and justify 
     claims. 
   </p>
-  <paragraphs>
+  </subsection>
+  <subsection>
     <title>Congruence</title>
     <idx><h>congruent</h></idx>
       <p>
@@ -387,7 +388,9 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
         </prefigure>
       </image>
     </figure>
-    <p>
+    <paragraphs xml:id="congruence-equals-distinction">
+      <title>The Distinction between Congruence and Equals</title>
+      <p>
         Note that congruence (<m>\cong</m>) describes the relationship between geometrical objects of a common type while 
         equality (<m>=</m>) identifies a relationship between numbers. The line over the letter pair <m>AB</m> in <m>\overline{AB}</m> 
         indicates that we are talking about the segment consisting of the set of points 
@@ -975,20 +978,52 @@ format: www.psychologicalscience.org/observer/dweck-growth-mindsets-->
 
   <exercises xml:id="exercises-intro-apply">
     <title>Exercises</title>
-    <subexercises>
-      <title>Congruence</title>
     
-      <exercise>
-        <statement>
-          <p>
-            
-          </p>
-        </statement>
-      </exercise>
-      
-    </subexercises>
     <subexercises>
       <title>Building Our Toolbox</title>
+      <exercise>
+      <title>Congruence and Equality</title>
+    
+      <task>
+        
+          <statement>
+          <p>
+            The paragraphs in <xref ref="congruence-equals-distinction" text="title"/> discuss the proper use of the terms congruence
+            and equals. In additon, we emphasize that <m>\overline{AB}</m> refers to the geometrical object, the line segment,
+            consisting of a set of points on or between <m>A</m> and <m>B</m> while <m>m(\overline{AB})</m> or <m>AB</m> 
+            refers to the length of a segment. Determine whether each of the following makes sense; that is, whether the
+            mathematical expression uses notation appropriately and links the right type(s) of objects. Check the box if the 
+            notation is used correctly.
+          </p>
+          <!-- DON'T FORGET TO COME BACK AND FINISH THIS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        </statement>
+        <choices randomize="yes" multiple-correct="yes">
+              <choice correct="no">
+                <statement>
+                  <p>
+                    In rectangle <m>ABCD</m>, <m>\overline{AB}=\overline{DC}</m>.
+                  </p>
+                </statement>
+              </choice>
+              <choice correct="yes">
+                <statement>
+                  <p>
+                    In equilateral triangle <m>\Delta ABC</m>, <m>AC=BC=AB</m>.
+                  </p>
+                </statement>
+              </choice>
+              <choice correct="no">
+                <statement>
+                  <p>
+                    If <m>\Delta DEF</m> is an isosceles triangle, then there are two sides, say 
+                    <m>\overline{DE}</m> and <m>\overline{EF}</m>, with <m>DE\cong EF</m>.
+                  </p>
+                </statement>
+              </choice>
+            </choices>
+            </task>
+      </exercise>
+
         <exercise xml:id="HW-vocab-triangles">
             <title>Triangles</title>
             <introduction>

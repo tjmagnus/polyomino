@@ -1189,7 +1189,7 @@
               connected component?
             </p>
           </statement>
-            <choices>
+            <choices randomize="yes" multiple-correct="yes">
               <choice correct="no">
                 <statement>
                   <p>
