@@ -6,8 +6,8 @@
   <subsection>
     <title>Identifying a Pattern</title>
     <p>
-      We begin this section by creating a pattern and using it to develop a 
-      conjecture. 
+      In this exploration, you will begin by performing computations. The results should form 
+      a pattern that you can use to formulate a conjecture. 
     </p>
     <exploration xml:id="sum-odds">
       <task>
@@ -485,6 +485,397 @@
             </image>
           </figure>
         </statement>
+      </exercise>
+      <exercise>
+        <title>Lengths on a Geoboard</title>
+        <introduction>
+          <p>
+            A Geoboard is a rectangular array of dots like the <m>4\times 4</m>-Geoboard pictured below. 
+            We will assume that the horizontal distance between neighboring points is 1 unit and the 
+            vertical distance between neighboring points is 1 unit. We will use the Pythagorean Theorem to
+            determine diagonal distances. 
+            </p>
+
+            <image component="web" source="4by4geoboard.svg" width="50%">
+            <shortdescription>
+              A grid with 16 dots arranged in four rows and four columns.
+            </shortdescription>
+          </image>
+          <image component="print" source="4by4geoboard.png" width="50%">
+            <shortdescription>
+              A grid with 16 dots arranged in four rows and four columns.
+            </shortdescription>
+          </image>
+            <p>
+            How many different length line segments connect pegs on a Geoboard? To explore this
+            question, we note that the <m>1\times 1</m>-Geoboard has only one peg and since 
+            a line segment needs two endpoints, there are no line segments on a <m>1\times 1</m>-Geoboard.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              A <m>2\times 2</m>-Geoboard consists of four pegs arranged in a square as shown in <xref ref="fig-twobytwogeoboardwithlabels"/>.
+              Normally the pegs are unlabeled, but labels are included here for clarity in the discussion that follows.
+            </p>
+            <figure xml:id="fig-twobytwogeoboardwithlabels">
+              <caption>A <m>2\times 2</m>-Geoboard.</caption>
+              <image width="30%">
+                <shortdescription>Four dots, labeled A, B, C, and D, arranged in a two by two square.</shortdescription>
+                <prefigure xmlns="https://prefigure.org" label="PreFigTwoByTwoGB">
+                  <diagram dimensions="(100, 100)" margins="5">
+                    <coordinates bbox="(0, 0,4, 4)">
+                      <point p="(1,3)" size="1" fill="black" alignment="nw"> <m>A</m> </point>
+                      <point p="(3,3)" size="1" fill="black" alignment="ne"> <m>B</m> </point>
+                      <point p="(1,1)" size="1" fill="black" alignment="sw"> <m>C</m> </point>
+                      <point p="(3,1)" size="1" fill="black" alignment="se"> <m>D</m> </point>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
+              </image>
+            </figure>
+            <task>
+              <statement>
+                <p>
+                  By definition, the distance from <m>A</m> to <m>B</m> is 1 unit; in symbols, <m>AB=1</m>. List three other pairs of points in the <m>2\times 2</m>-Geoboard with
+                  distance 1 unit.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  The distance from <m>A</m> to <m>D</m> is more than 1 unit. Use the Pythagorean Theorem to compute this distance.
+                  Are there any other pairs of points that are this distance apart?
+                </p>
+              </statement>
+            </task> 
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              You should be convinced that there were only two distances between pegs on a <m>2\times 2</m>-Geoboard. Now consider the
+              <m>3\times 3</m>-Geoboard in <xref ref="fig-threebythreegeoboardwithlabels"/>.
+            </p>
+              <figure xml:id="fig-threebythreegeoboardwithlabels">
+                <caption>A <m>3\times 3</m>-Geoboard.</caption>
+                <image width="30%">
+                  <shortdescription>Nine dots, labeled A through I, arranged in a three by three square.</shortdescription>
+                  <prefigure xmlns="https://prefigure.org" label="PreFigThreeByThreeGB">
+                    <diagram dimensions="(200, 200)" margins="5">
+                      <coordinates bbox="(0.5, 0.5, 5.5, 5.5)">
+                        <point p="(1,5)" size="1" fill="black" alignment="nw"> <m>A</m> </point>
+                        <point p="(3,5)" size="1" fill="black" alignment="n"> <m>B</m> </point>
+                        <point p="(5,5)" size="1" fill="black" alignment="ne"> <m>C</m> </point>
+                        <point p="(1,3)" size="1" fill="black" alignment="w"> <m>D</m> </point>
+                        <point p="(3,3)" size="1" fill="black" alignment="w"> <m>E</m> </point>
+                        <point p="(5,3)" size="1" fill="black" alignment="e"> <m>F</m> </point>
+                        <point p="(1,1)" size="1" fill="black" alignment="sw"> <m>G</m> </point>
+                        <point p="(3,1)" size="1" fill="black" alignment="s"> <m>H</m> </point>
+                        <point p="(5,1)" size="1" fill="black" alignment="se"> <m>I</m> </point>
+                      </coordinates>
+                    </diagram>
+                  </prefigure>
+                </image>
+            </figure>
+            <task>
+              <statement>
+                <p>
+                  Again assuming the distance <m>AB</m> is 1 unit, determine <m>AC</m> in the <m>3\times 3</m>-Geoboard.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  What is the length of <m>\overline{AE}</m>?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Determine <m>AI</m>.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Use the Pythagorean formula to determine <m>AF</m>? What other point is this distance from <m>A</m>?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Write an argument that would convince a friend that the five segment lengths we found are the only ones possible
+                  with a <m>3\times 3</m>-Geoboard.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  We now turn our attention to a <m>4\times 4</m>-Geoboard again determining the number of distinct (or different) 
+                  segment lengths. You may choose to explore this question on your own or you may use the following sequence of tasks to guide you.
+                </p>
+                <figure xml:id="fig-fourbyfourgeoboardwithlabels">
+                  <caption>A <m>3\times 3</m>-Geoboard.</caption>
+                  <image width="30%">
+                    <shortdescription>Sixteen dots, labeled A through P, arranged in a four by four square.</shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="PreFigFourByFourGB">
+                      <diagram dimensions="(200, 200)" margins="5">
+                        <coordinates bbox="(0.5, 0.5, 7.5, 7.5)">
+                          <point p="(1,7)" size="1" fill="black" alignment="nw"> <m>A</m> </point>
+                          <point p="(3,7)" size="1" fill="black" alignment="n"> <m>B</m> </point>
+                          <point p="(5,7)" size="1" fill="black" alignment="n"> <m>C</m> </point>
+                          <point p="(7,7)" size="1" fill="black" alignment="ne"> <m>D</m> </point>
+                          <point p="(1,5)" size="1" fill="black" alignment="w"> <m>E</m> </point>
+                          <point p="(3,5)" size="1" fill="black" alignment="w"> <m>F</m> </point>
+                          <point p="(5,5)" size="1" fill="black" alignment="e"> <m>G</m> </point>
+                          <point p="(7,5)" size="1" fill="black" alignment="e"> <m>H</m> </point>
+                          <point p="(1,3)" size="1" fill="black" alignment="w"> <m>I</m> </point>
+                          <point p="(3,3)" size="1" fill="black" alignment="w"> <m>J</m> </point>
+                          <point p="(5,3)" size="1" fill="black" alignment="e"> <m>K</m> </point>
+                          <point p="(7,3)" size="1" fill="black" alignment="e"> <m>L</m> </point>
+                          <point p="(1,1)" size="1" fill="black" alignment="sw"> <m>M</m> </point>
+                          <point p="(3,1)" size="1" fill="black" alignment="s"> <m>N</m> </point>
+                          <point p="(5,1)" size="1" fill="black" alignment="s"> <m>O</m> </point>
+                          <point p="(7,1)" size="1" fill="black" alignment="se"> <m>P</m> </point>
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+                <task>
+                  <statement>
+                    <p>
+                      For the labeled <m>4\times 4</m>-Geoboard in <xref ref="fig-fourbyfourgeoboardwithlabels"/>, list all of the 
+                      whole-number lengths possible. For each of these numbers, identify a segment (or pair of points) with this length
+                      (or distance).
+                    </p>
+                  </statement>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Some lengths will be multiples of <m>\sqrt{2}</m>. List the whole number multiples of <m>\sqrt{2}</m> possible and give
+                      an example of a segment with each length.
+                    </p>
+                  </statement>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Determine <m>AG</m>.
+                    </p>
+                  </statement>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Determine <m>AH</m>.
+                    </p>
+                  </statement>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Determine <m>AL</m>.
+                    </p>
+                  </statement>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Are there any other lengths? Explain.
+                    </p>
+                  </statement>
+                </task>
+              </statement>
+            </task>
+            <!--FIX THIS! THE PATTERN CHANGES AT 5X5 NOT 6X6. MOVE WORDING FROM 6X6 UP HERE.-->
+            <task>
+              <statement>
+                <p>
+                  As we move to the <m>5\times 5</m>-Geoboard, let's apply what we already know.
+                  There is a <m>4\times 4</m>-Geoboard inside of it so all of the lengths found in
+                  the <m>4\times 4</m>-Geoboard will also be lengths in the <m>5\times 5</m>-Geoboard.
+                </p>
+                <figure xml:id="fig-fivebyfivegeoboardwithlabels">
+                  <caption>A <m>5\times 5</m>-Geoboard containing a <m>4\times 4</m>-Geoboard.</caption>
+                  <image width="30%">
+                    <shortdescription>Twenty-five dots arranged in a five by five square. The upper left dot is A.
+                      The last column of dots are Q, R, S, T, and U from top to bottom. 
+                    </shortdescription>
+                    <prefigure xmlns="https://prefigure.org" label="PreFigFiveByFiveGB">
+                      <diagram dimensions="(200, 200)" margins="5">
+                        <coordinates bbox="(0, 0, 10, 10)">
+                          <point p="(1,9)" size="1" fill="black" alignment="e"> <m>A</m> </point>
+                          <point p="(3,9)" size="1" fill="black"> </point>
+                          <point p="(5,9)" size="1" fill="black"> </point>
+                          <point p="(7,9)" size="1" fill="black"> </point>
+                          <point p="(9,9)" size="1" fill="black" alignment="e"> <m>Q</m> </point>
+                          <point p="(1,7)" size="1" fill="black"> </point>
+                          <point p="(3,7)" size="1" fill="black"> </point>
+                          <point p="(5,7)" size="1" fill="black"> </point>
+                          <point p="(7,7)" size="1" fill="black"> </point>
+                          <point p="(9,7)" size="1" fill="black" alignment="e"> <m>R</m> </point>
+                          <point p="(1,5)" size="1" fill="black"> </point>
+                          <point p="(3,5)" size="1" fill="black"> </point>
+                          <point p="(5,5)" size="1" fill="black"> </point>
+                          <point p="(7,5)" size="1" fill="black"> </point>
+                          <point p="(9,5)" size="1" fill="black" alignment="e"> <m>S</m> </point>
+                          <point p="(1,3)" size="1" fill="black"> </point>
+                          <point p="(3,3)" size="1" fill="black"> </point>
+                          <point p="(5,3)" size="1" fill="black"> </point>
+                          <point p="(7,3)" size="1" fill="black"> </point>
+                          <point p="(9,3)" size="1" fill="black" alignment="e"> <m>T</m> </point>
+                          <point p="(1,1)" size="1" fill="black"> </point>
+                          <point p="(3,1)" size="1" fill="black"> </point>
+                          <point p="(5,1)" size="1" fill="black"> </point>
+                          <point p="(7,1)" size="1" fill="black"> </point>
+                          <point p="(9,1)" size="1" fill="black" alignment="se"> <m>U</m> </point>
+                          <rectangle lower-left="(0.5,2.5)" dimensions="(7,7)" stroke="green"
+                            fill="none"/>
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+                <task>
+                  <statement>
+                    <p>
+                      Determine the following lengths:
+                    </p>
+                    <task>
+                      <statement>
+                        <p>
+                          <m>AQ</m>
+                        </p>
+                      </statement>
+                    </task>
+                    <task>
+                      <statement>
+                        <p>
+                          <m>AR</m>
+                        </p>
+                      </statement>
+                    </task>
+                    <task>
+                      <statement>
+                        <p>
+                          <m>AS</m>
+                        </p>
+                      </statement>
+                    </task>
+                    <task>
+                      <statement>
+                        <p>
+                          <m>AT</m>
+                        </p>
+                      </statement>
+                    </task>
+                    <task>
+                      <statement>
+                        <p>
+                          <m>AU</m>
+                        </p>
+                      </statement>
+                    </task>
+                  </statement>
+                </task>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  How many different segment lengths are in a <m>5\times 5</m>-Geoboard?
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Having considered <m>1\times 1</m>-, <m>2\times 2</m>-, <m>3\times 3</m>-,
+                  <m>4\times 4</m>-, and <m>5\times 5</m>-Geoboard, we get <m>0,2,5,9,<fillin fill="14"/></m>
+                  for the number of different lengths.
+                  Be sure to enter the number for the <m>5\times 5</m>-Geoboard in the blank provided.
+                </p>
+              </statement>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  Based on our work thus far, how many different segment lengths do you anticipate that a
+                  <m>6\times 6</m>-Geoboard should have? Why?
+                </p>
+              </statement>
+              <hint>
+                <p>
+                  Starting with a <m>5\times 5</m>-Geoboard, add another column
+                  and row of dots to get a <m>6\times 6</m>-Geoboard. How many new lengths will you add? 
+                  Or perhaps, you can see a pattern in how the numbers in the sequence are growing.
+                </p>
+              </hint>
+            </task>
+            <task>
+              <statement>
+                <p>
+                  You may be surprised to hear that the actual number of different segment lengths in a
+                  <m>6\times 6</m>-Geoboard is actually 19. To see why this happens, compute the distance
+                  from point <m>A</m> in the upper left to a new point <m>Y</m> in the sixth column. 
+                </p>
+                <prefigure xmlns="https://prefigure.org" label="PreFigFiveByFiveGB">
+                      <diagram dimensions="(200, 200)" margins="5">
+                        <coordinates bbox="(0, 0, 12, 12)">
+                          <point p="(1,11)" size="1" fill="black" alignment="e"> <m>A</m> </point>
+                          <point p="(3,11)" size="1" fill="black"> </point>
+                          <point p="(5,11)" size="1" fill="black"> </point>
+                          <point p="(7,11)" size="1" fill="black"> </point>
+                          <point p="(9,11)" size="1" fill="black"> </point>
+                          <point p="(11,11)" size="1" fill="black" alignment="e"> <m>V</m> </point>
+                          <point p="(1,9)" size="1" fill="black"> </point>
+                          <point p="(3,9)" size="1" fill="black"> </point>
+                          <point p="(5,9)" size="1" fill="black"> </point>
+                          <point p="(7,9)" size="1" fill="black"> </point>
+                          <point p="(9,9)" size="1" fill="black"> </point>
+                          <point p="(11,9)" size="1" fill="black" alignment="e"> <m>W</m> </point>
+                          <point p="(1,7)" size="1" fill="black"> </point>
+                          <point p="(3,7)" size="1" fill="black"> </point>
+                          <point p="(5,7)" size="1" fill="black"> </point>
+                          <point p="(7,7)" size="1" fill="black"> </point>
+                          <point p="(9,7)" size="1" fill="black"> </point>
+                          <point p="(9,7)" size="1" fill="black" alignment="e"> <m>X</m> </point>
+                          <point p="(1,5)" size="1" fill="black"> </point>
+                          <point p="(3,5)" size="1" fill="black"> </point>
+                          <point p="(5,5)" size="1" fill="black"> </point>
+                          <point p="(7,5)" size="1" fill="black"> </point>
+                          <point p="(9,5)" size="1" fill="black"> </point>
+                          <point p="(11,5)" size="1" fill="black" alignment="e"> <m>Y</m> </point>
+                          <point p="(1,3)" size="1" fill="black"> </point>
+                          <point p="(3,3)" size="1" fill="black"> </point>
+                          <point p="(5,3)" size="1" fill="black"> </point>
+                          <point p="(7,3)" size="1" fill="black"> </point>
+                          <point p="(9,3)" size="1" fill="black" alignment="e"> <m>T</m> </point>
+                          <point p="(1,1)" size="1" fill="black"> </point>
+                          <point p="(3,1)" size="1" fill="black"> </point>
+                          <point p="(5,1)" size="1" fill="black"> </point>
+                          <point p="(7,1)" size="1" fill="black"> </point>
+                          <point p="(9,1)" size="1" fill="black" alignment="se"> <m>U</m> </point>
+                          <rectangle lower-left="(0.5,2.5)" dimensions="(7,7)" stroke="green"
+                            fill="none"/>
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
+                  </image>
+                </figure>
+              </statement>
+            </task>
+          </statement>
+        </task>
       </exercise>
     </subexercises>
     <subexercises xml:id="Writing-intro-share">
