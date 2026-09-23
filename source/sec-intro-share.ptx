@@ -696,7 +696,7 @@
                 </task>
               </statement>
             </task>
-            <!--FIX THIS! THE PATTERN CHANGES AT 5X5 NOT 6X6. MOVE WORDING FROM 6X6 UP HERE.-->
+            <!--A six by six Geoboard has a horizontal of length 5 and a diagonal of length 5.-->
             <task>
               <statement>
                 <p>
