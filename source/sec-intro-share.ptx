@@ -11,86 +11,106 @@
     </p>
     <exploration xml:id="sum-odds">
       <task>
-      <statement>
-        <p> Compute the following sums:
-          <ol>
-            <li>
-              <p>
+      <introduction>
+        <p>
+          Compute the following sums:
+        </p>
+      </introduction>
+        <task>
+          <statement>
+            <p>
                 <m>1+3</m>
               </p>
-            </li>
-            <li>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
               <m>1+3+5</m>
-            </li>
-            <li>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
               <m>1+3+5+7</m>
-            </li>
-            <li>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
               <m>1+3+5+7+9</m>
-            </li>
-          </ol> 
-        </p>
-      </statement>
-    </task>
-    <task>
-      <statement>
+            </p>
+          </statement>
+        </task>
+      </task>
+      <task>
+        <introduction>
         <p>
           Without actually adding the values, make a prediction for the 
           following sums:
-          <ol>
-            <li>
-              <m>1+3+5+\cdots +11</m>
-            </li>
-            <li>
+        </p>
+        </introduction>
+          <task>
+            <statement>
+              <p>
+                <m>1+3+5+\cdots +11</m>
+              </p>
+            </statement>
+            <hint>
+              <p>
+                The expression <m>1+3+5+\cdots + 11</m> is another way of writing 
+                <m>1+3+5+7+9+11</m>. We write enough addends to establish a pattern  
+                and then the <m>\cdots </m> tells the reader that the pattern continues.
+                The <m>+11</m> at the end indicates that the sum will end when the pattern 
+                reaches <m>11</m>. 
+              </p>
+              <p>
+                Observe the use of <m>2n-1</m> to represent the final addend in the sum. For example, 
+                when the final addend is <m>11</m>, we see that the sum is equal to <m>n^2</m>. How does 
+                the sum relate to <m>n</m> in each case?
+              </p>
+            </hint>
+          </task>
+          <task>
+            <statement>
               <p>
                 <m>1+3+5+\cdots + 41</m>
               </p>
-            </li>
-            <li>
-              <m>1+3+5+\cdots +201</m>
-            </li>
-          </ol>
-        </p>
-      </statement>
-      <hint>
-        <p>
-          The expression <m>1+3+5+\cdots + 11</m> is another way of writing 
-          <m>1+3+5+7+9+11</m>. We write enough addends to establish a pattern  
-          and then the <m>\cdots </m> tells the reader that the pattern continues.
-          The <m>+11</m> at the end indicates that the sum will end when the pattern 
-          reaches <m>11</m>. 
-        </p>
-
-        <p>
-          Observe the use of <m>2n-1</m> to represent the final addend in the sum. For example, 
-          when the final addend is <m>11</m>, we see that the sum is equal to <m>n^2</m>. How does 
-          the sum relate to <m>n</m> in each case?
-        </p>
-      </hint>
-    </task>
-    <task>
-      <statement>
-        <p>
-          Based on your work above, give a simple formula that can be used to 
-          calculate <m>1+3+5+\cdots+(2n-1)</m> for any positive integer <m>n</m>.
-        </p>
-      </statement>
-      <hint>
-        <p>
-          In the previous problem, <m>n=100</m> since <m>201=2(100)+1</m>. The variable <m>n</m> will also appear in the formula for the sum.
-        </p>
-      </hint>
-    </task>
-    <task>
-      <statement>
-        <p>
-          Discuss how you came up with your formula, and explain why you believe it 
-          holds for all <m>n\geq 2</m>. If you were not able to come up with 
-          a formula, describe what you have discovered about these sums.
-        </p>
-      </statement>
-    </task>
-  </exploration>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                <m>1+3+5+\cdots +201</m>
+              </p>
+            </statement>
+          </task>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Based on your work above, give a simple formula that can be used to 
+              calculate <m>1+3+5+\cdots+(2n-1)</m> for any positive integer <m>n</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              In the previous problem, <m>n=100</m> since <m>201=2(100)+1</m>. The variable <m>n</m> will also appear in the formula for the sum.
+            </p>
+          </hint>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Discuss how you came up with your formula, and explain why you believe it 
+              holds for all <m>n\geq 2</m>. If you were not able to come up with 
+              a formula, describe what you have discovered about these sums.
+            </p>
+          </statement>
+        </task>
+    </exploration>
   </subsection>
   <subsection xml:id="subsec-explainconjectures">
     <title>Conjectures and Explanations in Mathematics</title>
@@ -98,15 +118,15 @@
       Have you ever wondered how mathematics came into existence? A simple answer is 
       that people explored mathematical objects, like numbers or shapes, and noticed 
       patterns and consistencies. They then sought to convince themselves and others that 
-      these patterns were not just coincidences but universal properties of the 
-      numberic or geometric structure. For example, they observed and then proved that 
+      these patterns were universal properties of the 
+      numeric or geometric structure, not just coincidences. For example, they observed and then proved that 
       whenever a triangle had two sides of equal length the angles opposite those sides 
       must also have the same measures.
     </p>
     <p>
       How do we convince others? In mathematics, we start with basic assumptions like 
       the principles and definitions in this text  
-      and then use logic to demonstrate that our conjecture must follow. We also accept 
+      and then use logic to demonstrate that our conjecture must follow. We shall also accept 
       the algebraic properties of the 
       real number system along with properties of equality and inequality, allowing us  
       to simplify algebraic expressions and solve linear equalities and inequalities  
@@ -116,7 +136,7 @@
     </p>
     <p>
       Since this textbook is written for students majoring in fields other than mathematics, we will not 
-      spend time developing proof-writing techniques. Even so, everyone can benefit from learning to 
+      spend time developing proof-writing techniques. Instead, we will focus on writing convincing arguments. Everyone can benefit from learning to 
       write clear and thorough explanations and demonstrations. Future teachers should develop the 
       ability to explain mathematics carefully and accurately, using words, pictures, and multiple approaches 
       that their students can understand. For a future lawyer or business professional, the practice of writing 
@@ -128,10 +148,10 @@
     <p>
       How do we write mathematical explanations and establish new truths? 
       We usually let our readers know  
-      what we claim and plan to prove. In geometry, we often accompany our explanations with a sketch on which 
+      what we claim and what we plan to prove. In geometry, we often accompany our explanations with a sketch on which 
       we have labeled with the names of points and/or variables for lengths so that our reader can follow our 
-      argument visually. We do not assign numerical values to lengths as we do not want to limit our claim to 
-      one example. 
+      argument visually. We assign variables instead of numerical values to lengths so we do not limit our claim to 
+      one or two examples. 
     </p>
     <p>
       In <xref ref="sum-odds"/>, we discovered a formula for the sum 
@@ -141,40 +161,42 @@
       between 5 and 1000. Instead, consider the following <q>proof by pictures</q>:
     </p>
     <exploration>
+      <introduction>
+        <p>
+          The first four steps of a pattern are provided. 
+        </p>
+        <figure xml:id="sumofoddnumsfig">
+          <caption>
+            A geometric pattern.
+          </caption>
+          <image source="sumofoddnums.svg" xml:id="sumofoddnums-web">
+            <description>
+              First, a 1 by 1 square. Second, four 1 by 1 squares 
+              arranged to form a 2 by 2 square. Third, a 2 by 2 square with a 
+              horizontal 1 by 2 rectangle added to the bottom and a vertical 
+              2 by 1 rectangle added to the right and a 1 unit square in the 
+              lower right corner filled in. Finally, a 3 by 3 square has a 
+              1 by 3 rectangle added to the bottom edge, a 3 by 1 rectangle  
+              added along the right edge, and a 1 unit square in the lower  
+              right corner.
+            </description>
+          </image>
+          <!--<image component="print" source="sumofoddnums.png">
+            <description>
+              First, a 1 by 1 square. Second, four 1 by 1 squares 
+              arranged to form a 2 by 2 square. Third, a 2 by 2 square with a 
+              horizontal 1 by 2 rectangle added to the bottom and a vertical 
+              2 by 1 rectangle added to the right and a 1 unit square in the 
+              lower right corner filled in. Finally, a 3 by 3 square has a 
+              1 by 3 rectangle added to the bottom edge, a 3 by 1 rectangle  
+              added along the right edge, and a 1 unit square in the lower  
+              right corner.
+            </description>
+          </image>-->
+        </figure>
+      </introduction>
       <task>
         <statement>
-          <p>
-            The first four steps of a pattern are provided. 
-          </p>
-          <!--<figure>
-            <caption>
-              A geometric pattern.
-            </caption>-->
-            <image component="web" source="sumofoddnums.svg">
-              <description>
-                First, a 1 by 1 square. Second, four 1 by 1 squares 
-                arranged to form a 2 by 2 square. Third, a 2 by 2 square with a 
-                horizontal 1 by 2 rectangle added to the bottom and a vertical 
-                2 by 1 rectangle added to the right and a 1 unit square in the 
-                lower right corner filled in. Finally, a 3 by 3 square has a 
-                1 by 3 rectangle added to the bottom edge, a 3 by 1 rectangle  
-                added along the right edge, and a 1 unit square in the lower  
-                right corner.
-              </description>
-            </image>
-            <image component="print" source="sumofoddnums.png">
-              <description>
-                First, a 1 by 1 square. Second, four 1 by 1 squares 
-                arranged to form a 2 by 2 square. Third, a 2 by 2 square with a 
-                horizontal 1 by 2 rectangle added to the bottom and a vertical 
-                2 by 1 rectangle added to the right and a 1 unit square in the 
-                lower right corner filled in. Finally, a 3 by 3 square has a 
-                1 by 3 rectangle added to the bottom edge, a 3 by 1 rectangle  
-                added along the right edge, and a 1 unit square in the lower  
-                right corner.
-              </description>
-            </image>
-          <!--</figure>-->
           <p>
             Sketch what the fifth and sixth step of the pattern should look 
             like.
@@ -182,58 +204,75 @@
         </statement>
       </task>
       <task>
-        <p>
-          One way of computing the area of the figure in each step is to measure 
-          the height and width and multiply. For step one we get <m>1\times 1=1</m>, 
-          and for step two we get <m>2\times 2=4</m>. Use this technique to determine 
-          the area of
-          <ol>
-            <li>
-              <p> the third figure.</p>
-            </li>
-            <li>
-              <p>the fourth figure.</p>
-            </li>
-            <li>
-              <p>the fifth figure.</p>
-            </li>
-            <li>
-              <p>
-                the sixth figure.
-              </p>
-            </li>
-          </ol>
-        </p>
-      </task>
-      <task>
-        <statement>
+        <introduction>
           <p>
-            The area of the third figure can also be found by computing the 
-            area of each of the four rectangles that make up the figure, namely
-            <m>2^2+2+2+1</m>. Show and compute the sum of the smaller rectangles
-              <ol>
-                <li>
-                  <p>
-                    the fourth figure.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    the fifth figure.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    the sixth figure.
-                  </p>
-                </li>
-              </ol>
+            One way of computing the area of the figures in <xref ref="sumofoddnumsfig"/> is to measure
+            the height and width and multiply the two numbers. For step one, we get <m>1\times 1=1</m>, 
+            and for step two, we get <m>2\times 2=4</m>.
           </p>
+          <p>
+            Use this technique to determine the area of each of the following figures:
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p> The third figure.</p>
           </statement>
+        </task>
+        <task>
+          <statement>
+            <p>The fourth figure.</p>
+          </statement> 
+        </task>
+        <task>
+          <statement> 
+            <p> The fifth figure.</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The sixth figure.
+            </p>
+          </statement> 
+        </task>
       </task>
       <task>
-        <statement>
-          
+        <introduction>
+          <p>
+            The area of the third figure in <xref ref="sumofoddnumsfig"/> can also be found by computing the 
+            area of each of the four rectangles (blue, tan, tan, and red) that make up the figure and adding
+            the four areas, namely
+            <m>2^2+2+2+1</m>. 
+          </p>
+          <p>
+              Compute the areas of each figure showing the four smaller areas that contribute to the sum.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              The fourth figure.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The fifth figure.
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              The sixth figure.
+            </p>
+          </statement>
+        </task>
+      </task>
+      <task>
+        <introduction>
           <sidebyside widths="50% 50%">
             <p>
               The image to the right shows an <m>n\times n</m>-square with 
@@ -246,26 +285,27 @@
                 An arbitrary step in the pattern.
               </caption>
               <image component="web" source="nthsumofodds.svg"></image>
-              <image component="print" source="nthsumofodds.png"></image>
+              <!--<image component="print" source="nthsumofodds.png"></image>-->
             </figure>
           </sidebyside>
-          
           <p>
             Write the following as unsimplified algebraic expressions with the variable <m>n</m>:
-            <ol>
-              <li>
-                <p>
-                  The total area found by multiplying the height and length of the figure.
-                </p>
-              </li>
-              <li>
-                <p>
-                  The total area found by adding the areas of the four rectangles.
-                </p>
-              </li>
-            </ol>
           </p>
-        </statement>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              The total area found by multiplying the height and length of the figure.
+            </p>
+          </statement>
+        </task>         
+        <task>
+          <statement>
+            <p>
+              The total area found by adding the areas of the four rectangles.
+            </p>
+          </statement>
+        </task>
       </task>
       <task>
         <statement>
