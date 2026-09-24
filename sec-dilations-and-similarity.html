@@ -19,6 +19,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
 startMathJax({
 hasWebworkReps: false,
@@ -36,7 +39,7 @@ lang: "en-US",
 <meta name="twitter:description" content="Discovering Geometry through Exploration">
 <meta property="og:description" content="Discovering Geometry through Exploration">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.48"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.48"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.53"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.53"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -58,15 +61,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.5';
+eBookConfig.runestone_version = '8.3.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.18d8728f6d56e11d.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
+<script src="_static/prefix-runtime.8b982cdcb4aa84b9.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.0499040fbb8ea56b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.347e2ecdeacfed99.css">
 <script src="_static/pretext/js/dist/diagcess/diagcess.js"></script><script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -480,7 +483,7 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">A Dynamic Look at Dilations</span>
 </h2>
 <article class="exploration project-like" id="explore-sliding-scale"><h3 class="heading">
-<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Role of the Scale Factor.</span>
+<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Role of the Scale Factor.</span>
 </h3>
 <div class="introduction" id="explore-sliding-scale-2">
 <div class="para" id="explore-sliding-scale-2-1">Use <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.2">Figure 5.2.2</a> to complete the tasks in this exploration. This GeoGebra applet allows us to see how changing the scale factor affects the dilation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#explore-sliding-scale-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -564,7 +567,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsubsec-dilations-similar-4">In <a href="sec-dilations-Cartesian.html#fig-nested-simtri" class="xref" data-knowl="./knowl/xref/fig-nested-simtri.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.1.12">Figure 5.1.12</a>, we see that <span class="process-math">\(\Delta ABC\sim\Delta DEC\)</span> with constant of proportionality <span class="process-math">\(k=\frac{1}{3}\text{.}\)</span> Also, <span class="process-math">\(A'B'C'D'\sim ABCD\)</span> in <a href="sec-dilations-and-similarity.html#fig-vary-scale-factor" class="xref" data-knowl="./knowl/xref/fig-vary-scale-factor.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 5.2.2">Figure 5.2.2</a> has  <span class="process-math">\(k=|s|\text{,}\)</span> the absolute value of the variable scale factor of the dilation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="exercise exercise-like" id="subsubsec-dilations-similar-5"><h3 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Understanding Proportionality, Congruence, and Similarity.</span>
+<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Understanding Proportionality, Congruence, and Similarity.</span>
 </h3>
 <div class="introduction" id="subsubsec-dilations-similar-5-2">
 <div class="para" id="subsubsec-dilations-similar-5-2-1">The following questions encourage you to make connections between the concepts of scale factor, proportion, congruence, and similarity:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -619,7 +622,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para" id="subsubsec-dilations-similar-6">When two figures were congruent, we were able to find an isometry that mapped one figure onto the other. Can the same be said about similar figures and dilations? When two figures are similar, must there be a dilation that maps one onto the other?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsubsec-dilations-similar-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="exploration project-like" id="explore-mystery-similarity"><h3 class="heading">
-<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mystery Similarity Transformations.</span>
+<span class="type">Exploration</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.2.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mystery Similarity Transformations.</span>
 </h3>
 <article class="task exercise-like" id="task-mystery-dilation-quads"><h4 class="heading">
 <span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Mystery Similarity 1.</span>

@@ -19,6 +19,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-0 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
 startMathJax({
 hasWebworkReps: false,
@@ -36,7 +39,7 @@ lang: "en-US",
 <meta name="twitter:description" content="Discovering Geometry through Exploration">
 <meta property="og:description" content="Discovering Geometry through Exploration">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.48"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.48"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.53"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.53"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -58,15 +61,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.5';
+eBookConfig.runestone_version = '8.3.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.18d8728f6d56e11d.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
+<script src="_static/prefix-runtime.8b982cdcb4aa84b9.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.0499040fbb8ea56b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.347e2ecdeacfed99.css">
 <script src="_static/pretext/js/dist/diagcess/diagcess.js"></script><script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -534,7 +537,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="subindexitem">circle<span class="indexknowl"> <a href="sec-polygons-area.html#def-circle-measures" class="xref" data-knowl="./knowl/index/def-circle-measures.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 2.1.12: Measuring a circle">Definition</a></span>
 </div>
-<div class="subindexitem">of a trapezoid<span class="indexknowl"> <a href="sec-polygons-area.html#sec-polygons-area-6-2" class="xref" data-knowl="./knowl/index/sec-polygons-area-6-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
+<div class="subindexitem">of a trapezoid<span class="indexknowl"> <a href="sec-polygons-area.html#sec-polygons-area-6-2-1" class="xref" data-knowl="./knowl/index/sec-polygons-area-6-2-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
 </div>
 <div class="subindexitem">of parallelogram<span class="indexknowl"> <a href="sec-polygons-area.html#formulas-areathroughtriangle" class="xref" data-knowl="./knowl/index/formulas-areathroughtriangle.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 2.1.3: First Three Area Formulas">Table</a></span>
 </div>
@@ -988,7 +991,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <div class="subindexitem">altitude<span class="indexknowl"> <a href="sec-intro-apply.html#def-trapezoid" class="xref" data-knowl="./knowl/index/def-trapezoid.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.23">Definition</a></span>
 </div>
-<div class="subindexitem">area<span class="indexknowl"> <a href="sec-polygons-area.html#sec-polygons-area-6-2" class="xref" data-knowl="./knowl/index/sec-polygons-area-6-2.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
+<div class="subindexitem">area<span class="indexknowl"> <a href="sec-polygons-area.html#sec-polygons-area-6-2-1" class="xref" data-knowl="./knowl/index/sec-polygons-area-6-2-1.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph">Paragraph</a></span>
 </div>
 <div class="subindexitem">base<span class="indexknowl"> <a href="sec-intro-apply.html#def-trapezoid" class="xref" data-knowl="./knowl/index/def-trapezoid.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.2.23">Definition</a></span>
 </div>
