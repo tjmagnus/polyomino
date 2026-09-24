@@ -633,9 +633,9 @@
           </row>
           <row>
             <cell>Glide Reflection</cell>
-            <cell>Mirror and Translation Vector<fn>The
+            <cell>Mirror and Translation Vector<tn>The
               translation vector will either lie on the mirror
-              or be parallel to the mirror.</fn></cell>
+              or be parallel to the mirror.</tn></cell>
           </row>
       </tabular>
   </table>

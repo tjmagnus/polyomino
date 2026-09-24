@@ -307,9 +307,8 @@
         <url href=" https://tjmagnus.github.io/polyomino/"/> or by scanning the 
           QR code below with your smart phone.
       </p>
-      <sidebyside width="25%">
-          <image source="polyominoesQRcode.png"/>
-      </sidebyside>
+      <image width="25%" source="polyominoesQRcode.png"/>
+   
     </paragraphs>
   </preface>
   

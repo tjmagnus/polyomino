@@ -526,20 +526,22 @@
         <title>
             Thoughts on Area
         </title>
-        <p>
-            Adding the formula <m>A=\frac{1}{2}(b_1+b_2)h</m> for the area of a 
-            trapezoid, we now have four area formulas in our toolbox. We could 
-            continue to derive the area of more shapes like kites, pentagons, 
-            hexagons, etc., but the list would become unwieldy and unhelpful. 
-            <idx><h>trapezoid</h><h>area</h></idx>
-            <idx><h>area</h><h>of a trapezoid</h></idx>
-            Instead, we will  
-            simply break other polygons into triangles, parallelograms, 
-            and other shapes so that we can compute their area. We can then add 
-            (or subtract) the areas as appropriate. Measuring tools could 
-            be used to estimate the dimensions needed to compute the area 
-            of physical space such as floorspace or a garden.
-        </p>
+        <introduction>
+            <p>
+                Adding the formula <m>A=\frac{1}{2}(b_1+b_2)h</m> for the area of a 
+                trapezoid, we now have four area formulas in our toolbox. We could 
+                continue to derive the area of more shapes like kites, pentagons, 
+                hexagons, etc., but the list would become unwieldy and unhelpful. 
+                <idx><h>trapezoid</h><h>area</h></idx>
+                <idx><h>area</h><h>of a trapezoid</h></idx>
+                Instead, we will  
+                simply break other polygons into triangles, parallelograms, 
+                and other shapes so that we can compute their area. We can then add 
+                (or subtract) the areas as appropriate. Measuring tools could 
+                be used to estimate the dimensions needed to compute the area 
+                of physical space such as floorspace or a garden.
+            </p>
+        </introduction>
         <subsubsection xml:id="subsec-irregular-area">
             <title>Estimating the Area of Curved Regions</title>
         <p>
