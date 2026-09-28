@@ -58,6 +58,14 @@
                 <m>1+3+5+\cdots +11</m>
               </p>
             </statement>
+
+          </task>
+          <task>
+            <statement>
+              <p>
+                <m>1+3+5+\cdots + 41</m>
+              </p>
+            </statement>
             <hint>
               <p>
                 The expression <m>1+3+5+\cdots + 11</m> is another way of writing 
@@ -72,13 +80,6 @@
                 the sum relate to <m>n</m> in each case?
               </p>
             </hint>
-          </task>
-          <task>
-            <statement>
-              <p>
-                <m>1+3+5+\cdots + 41</m>
-              </p>
-            </statement>
           </task>
           <task>
             <statement>
@@ -128,9 +129,11 @@
       the principles and definitions in this text  
       and then use logic to demonstrate that our conjecture must follow. We shall also accept 
       the algebraic properties of the 
-      real number system along with properties of equality and inequality, allowing us  
+      real number system and properties of equality and inequality, allowing us  
       to simplify algebraic expressions and solve linear equalities and inequalities  
       using techniques learned in previous courses. 
+    </p>
+    <p>
       Once we prove a claim, it is no longer a conjecture and is now considered to be a theorem. We can then add the theorem to 
       our toolbox and use it to demonstrate new claims.
     </p>
@@ -155,15 +158,15 @@
     </p>
     <p>
       In <xref ref="sum-odds"/>, we discovered a formula for the sum 
-      of the first <m>n</m> odd numbers. It appears to equal <m>n^2</m>, but why? 
+      of the first <m>n</m> odd numbers. The sum appears to equal <m>n^2</m>, but why? 
       Simply observing the pattern via a few examples, does not convince us that 
       this will also be the case for <m>n=1000</m>. Something strange might happen 
       between 5 and 1000. Instead, consider the following <q>proof by pictures</q>:
     </p>
-    <exploration>
+    <exploration xml:id="pattern-dissected-squares">
       <introduction>
         <p>
-          The first four steps of a pattern are provided. 
+          The first four steps of a visual pattern are provided. 
         </p>
         <figure xml:id="sumofoddnumsfig">
           <caption>
@@ -206,8 +209,8 @@
       <task>
         <introduction>
           <p>
-            One way of computing the area of the figures in <xref ref="sumofoddnumsfig"/> is to measure
-            the height and width and multiply the two numbers. For step one, we get <m>1\times 1=1</m>, 
+            Since each of the figures in <xref ref="sumofoddnumsfig"/> is a square, we can measure
+            the height and width and multiply the two numbers to get the area. For step one, we get <m>1\times 1=1</m>, 
             and for step two, we get <m>2\times 2=4</m>.
           </p>
           <p>
@@ -240,10 +243,11 @@
       <task>
         <introduction>
           <p>
-            The area of the third figure in <xref ref="sumofoddnumsfig"/> can also be found by computing the 
+            Since our goal is not to compute the areas, but rather to show an equality of two expressions, 
+            let's also express the area of each figure in terms of the sum of its parts. The area of the third 
+            figure in <xref ref="sumofoddnumsfig"/> can be found by determining the 
             area of each of the four rectangles (blue, tan, tan, and red) that make up the figure and adding
-            the four areas, namely
-            <m>2^2+2+2+1</m>. 
+            these four areas, namely <m>2^2+2+2+1</m>. 
           </p>
           <p>
               Compute the areas of each figure showing the four smaller areas that contribute to the sum.
@@ -321,7 +325,8 @@
     <title>A Sample Explanatory Letter</title>
     <p>
       The following letter demonstrates how we might write a thorough, yet informal, 
-      explanatory letter. Note the use of variables for a general argument and labeled 
+      explanatory letter for <xref ref="pattern-dissected-squares"/>. Note the use of 
+      variables for a general argument and the use of labeled 
       sketches to help the reader follow our argument.
     </p>
     <blockquote>
@@ -337,20 +342,36 @@
         you might like it too.
       </p>
       <p>
-          In the picture below, you can see a square with side <m>n+1</m> 
-          broken up into four rectangles. (Here, I am using <m>n</m> in place of <m>x</m>.)
-          The area of this square is <m>(n+1)^2</m> of course. Notice that <m>n^2+1</m>
-          is the sum of the areas of the <m>n\times n</m> square (top left) and 
-          the small <m>1\times 1</m> square (lower right). These do not fill the 
-          entire square so <m>(n+1)^2</m> must be greater than <m>n^2+1</m>. The two missing pieces are 
-          rectangles with area <m>n\times 1=n</m>. Adding all four pieces, we see  
-          <m>(n+1)^2=n^2+2n+1</m>.
+          In the picture below, you can see a square with sides of length <m>x+1</m> 
+          broken up into four rectangles. 
+          The area of this square is <m>(x+1)^2</m> of course. Notice that <m>x^2+1</m>
+          is the sum of the areas of the large <m>x\times x</m> square (top right) and 
+          the small <m>1\times 1</m> square (lower left). These do not fill the 
+          entire square so <m>(x+1)^2</m> must be greater than <m>x^2+1</m>. The two missing pieces are 
+          rectangles with area <m>x\times 1=x</m>. Adding all four pieces, we see  
+          <m>(x+1)^2=x^2+2x+1</m>.
       </p>
       </blockquote>
-      <figure>
-        <caption>Visualizing <m>(n+1)^2=n^2+2n+1</m></caption>
-        <image component="web" source="nthsumofodds.svg" width="40%"></image>
-        <image component="print" source="nthsumofodds.png" width="40%"></image>
+
+      <figure xml:id="prefig-Josephine-square">
+        <caption>Visualization of <m>(x+1)^2=x^2+2x+1</m>, authored in <prefigure/>.</caption>
+        <image width="40%">
+          <shortdescription></shortdescription>
+          <prefigure xmlns="https://prefigure.org" label="prefig-Josephine-sq">
+            <diagram dimensions="(200, 200)" margins="5">
+              <coordinates bbox="(-5, -5, 5, 5)">
+                <rectangle lower-left="(-4,-3)" dimensions="(1,7)" fill="tan" stroke="black" stroke-width="0.5"/>
+                <rectangle lower-left="(-3,-3)" dimensions="(7,7)" fill="blue" stroke="black" stroke-width="0.5"/>
+                <rectangle lower-left="(-4,-4)" dimensions="(1,1)" fill="red" stroke="black" stroke-width="0.5"/>
+                <rectangle lower-left="(-3,-4)" dimensions="(7,1)" fill="tan" stroke="black" stroke-width="0.5"/>
+               <label p="(-4,0.5)" alignment="w" size="1.5"> <m>x</m> </label>
+                <label p="(-4,-3.5)" alignment="w" size="1"> <m>1</m> </label>
+                <label p="(-3.5,-4)" alignment="s" size="1"> <m>1</m> </label>
+                <label p="(0.5,-4)" alignment="s" size="1.5"> <m>x</m> </label>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
       </figure>
       <blockquote>
           <p>
@@ -361,28 +382,22 @@
         soon.
       </p>
       <p>
-        Sid
+        Syd
       </p>
     </blockquote>
     <p>
-      Notice how the author Sid introduces the reader to what will be demonstrated, 
+      Notice how the author Syd introduces the reader to what will be demonstrated, 
       uses a picture to help the reader visualize the explanation, and then explains  
-      in words how the picture justifies the argument. In this example, Sid 
-      has to deal with the fact that we typically use the variable <m>x</m> in algebra 
-      to represent any real number but the variable <m>n</m>, representing whole numbers  
-      appeared in the sketch. Aunt Josephine is alerted to the fact that <m>n</m>  
-      would be used in place of <m>x</m> and Sid consistently uses <m>n</m> in 
-      the logical argument. The author could have drawn a new sketch and relabeled it 
-      with <m>x</m> in place of <m>n</m>, but chose not to do so. Since the author is  
+      in words how the picture justifies the argument. Since the author is  
       using the sketch from the activity, a citation reference should be included. In fact, 
-      if a tool like Polypad or GeoGebra is used to create a sketch, the technology 
+      if a tool like Polypad, GeoGebra, or PreFigure is used to create a sketch, the technology 
       should be credited. Also, note how Aunt Josephine did not have to see the questions 
-      in the activity to understand Sid's explanation. 
+      in the activity to understand Syd's explanation. 
     </p>
   <exercise>
     <statement>
       <p>
-        Did you notice the unstated use of <xref ref="principle-areasums"/> in Sid's 
+        Did you notice the unstated use of <xref ref="principle-areasums"/> in Syd's 
         letter? Explain the role of this principle here.
       </p>
     </statement>
@@ -400,6 +415,38 @@
           </p>
         </statement>
       </exercise>
+      <exercise xml:id="SAR-intro-share-500oddsum">
+        <statement>
+          <p>
+            Determine the sum of the first 500 odd numbers. Explain your reasoning.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            See <xref ref="sum-odds"/> for a discussion of the sum of the first <m>n</m> odd numbers.
+          </p>
+        </hint>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Suppose <m>1+3+5+\cdots +n=144</m>. Determine the value of <m>n</m>. Explain your reasoning.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              See <xref ref="sum-odds"/>.
+            </p>
+          </hint>
+        </exercise>
+        <exercise>
+          <statement>
+            <p>
+              Use a sketch and geometric argument to explain why <m>(x+4)(x+3)=x^2+7x+12</m>.
+            </p>
+          </statement>
+        </exercise>
+        
     </subexercises>
     <subexercises xml:id="ExtConc-intro-share">
       <title>Extending the Concepts</title>
@@ -701,61 +748,62 @@
                     </prefigure>
                   </image>
                 </figure>
-                </introduction>
-                <task>
-                  <statement>
-                    <p>
-                      For the labeled <m>4\times 4</m>-Geoboard in <xref ref="fig-fourbyfourgeoboardwithlabels"/>, list all of the 
-                      whole-number lengths possible. For each of these numbers, identify a segment (or pair of points) with this length
-                      (or distance).
-                    </p>
-                  </statement>
-                </task>
-                <task>
-                  <statement>
-                    <p>
-                      Some lengths will be multiples of <m>\sqrt{2}</m>. List the whole number multiples of <m>\sqrt{2}</m> possible and give
-                      an example of a segment with each length.
-                    </p>
-                  </statement>
-                </task>
-                <task>
-                  <statement>
-                    <p>
-                      Determine <m>AG</m>.
-                    </p>
-                  </statement>
-                </task>
-                <task>
-                  <statement>
-                    <p>
-                      Determine <m>AH</m>.
-                    </p>
-                  </statement>
-                </task>
-                <task>
-                  <statement>
-                    <p>
-                      Determine <m>AL</m>.
-                    </p>
-                  </statement>
-                </task>
-                <task>
-                  <statement>
-                    <p>
-                      Are there any other lengths? Explain.
-                    </p>
-                  </statement>
-                </task>
-
+              </introduction>
+              <task>
+                <statement>
+                  <p>
+                    For the labeled <m>4\times 4</m>-Geoboard in <xref ref="fig-fourbyfourgeoboardwithlabels"/>, list all of the 
+                    whole-number lengths possible. For each of these numbers, identify a segment (or pair of points) with this length
+                    (or distance).
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Some lengths will be multiples of <m>\sqrt{2}</m>. List the whole number multiples of <m>\sqrt{2}</m> possible and give
+                    an example of a segment with each length.
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Determine <m>AG</m>.
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Determine <m>AH</m>.
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Determine <m>AL</m>.
+                  </p>
+                </statement>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Are there any other lengths? Explain.
+                  </p>
+                </statement>
+              </task>
             </task>
-            <!--A six by six Geoboard has a horizontal of length 5 and a diagonal of length 5.-->
+            <!--A six by six Geoboard has a horizontal of length 5 and a diagonal of length 5.This is where the 
+            contradiction arises -->
             <task>
               <introduction>
                 <p>
-                  As we move to the <m>5\times 5</m>-Geoboard, let's apply what we already know.
-                  There is a <m>4\times 4</m>-Geoboard inside of it so all of the lengths found in
-                  the <m>4\times 4</m>-Geoboard will also be lengths in the <m>5\times 5</m>-Geoboard.
+                  Let's apply what we already know to the <m>5\times 5</m>-Geoboard.
+                  As illustrated by the green square, there is a <m>4\times 4</m>-Geoboard inside of 
+                  the <m>5\times 5</m>-Geoboard, so all of the segments and lengths found in
+                  the <m>4\times 4</m>-Geoboard will also be segments andlengths in the <m>5\times 5</m>-Geoboard.
                 </p>
                 <figure xml:id="fig-fivebyfivegeoboardwithlabels">
                   <caption>A <m>5\times 5</m>-Geoboard containing a <m>4\times 4</m>-Geoboard.</caption>
