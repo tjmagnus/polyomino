@@ -407,13 +407,44 @@
   <title>Exercises</title>
     <subexercises xml:id="SAR-intro-share">
     <title>Skills and Recall</title>
-      <exercise xml:id="SAR-intro-share-insertname">
+      <exercise>
+        <statement>
+          <p>
+            Determine a likely next term in the sequence <m>5,10,15,20,\ldots</m>. Give a reason for your answer.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The next term is likely <m>25</m> since the difference between consecutive terms is <m>5</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Determine a likely next term in the sequence <m>3,6,12,24,\ldots</m>. Give a reason for your answer.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The next term is likely <m>48</m> since each term is double the previous term.
+          </p>
+        </answer>
+      </exercise>
+      <exercise xml:id="SAR-intro-share-twopossibilities">
         <statement>
           <p>
             Determine two different possibilities for the next term in the 
             sequence <m>1,2,4,\ldots</m>. Give reasons for your answers.
           </p>
         </statement>
+        <answer>
+          <p>
+            One possibility is <m>8</m>, where each term is double the previous term. 
+            Another possibility is <m>7</m>, where the differences between consecutive terms are 1, 2, 3, ...
+            Perhaps, there are other possibilities as well.
+          </p>
+        </answer>
       </exercise>
       <exercise xml:id="SAR-intro-share-500oddsum">
         <statement>
@@ -426,6 +457,17 @@
             See <xref ref="sum-odds"/> for a discussion of the sum of the first <m>n</m> odd numbers.
           </p>
         </hint>
+        <answer>
+          <p>
+            The sum of the first 500 odd numbers is <m>250000</m>.
+          </p>
+        </answer>
+        <solution>
+          <p>
+            The sum of the first <m>n</m> odd numbers is <m>n^2</m>. Therefore, the sum of the first 
+            500 odd numbers is <m>500^2=250000</m>.
+          </p>
+        </solution>
         </exercise>
         <exercise>
           <statement>
@@ -438,6 +480,17 @@
               See <xref ref="sum-odds"/>.
             </p>
           </hint>
+          <answer>
+            <p>
+              The value of <m>n</m> is <m>12</m>.
+            </p>
+          </answer>
+          <solution>
+            <p>
+              The sum of the first <m>n</m> odd numbers is <m>n^2</m>. Therefore, we have <m>n^2=144</m>, 
+              which implies that <m>n=12</m>.
+            </p>
+          </solution>
         </exercise>
         <exercise>
           <statement>
@@ -445,6 +498,14 @@
               Use a sketch and geometric argument to explain why <m>(x+4)(x+3)=x^2+7x+12</m>.
             </p>
           </statement>
+          <solution>
+            <p>
+              Consider a rectangle with length <m>x+4</m> and width <m>x+3</m>. The area of the rectangle is 
+              <m>(x+4)(x+3)</m>. We can divide the rectangle into four smaller rectangles: one with area 
+              <m>x^2</m>, two with areas <m>4x</m> and <m>3x</m>, and one with area <m>12</m>. Adding these areas together, we get 
+              <m>x^2+4x+3x+12=x^2+7x+12</m>.
+            </p>
+          </solution>
         </exercise>
         
     </subexercises>
@@ -452,132 +513,252 @@
       <title>Extending the Concepts</title>
       <exercise xml:id="exer-tri-numbers">
         <title>A Triangular Pattern of Dots</title>
-        <statement>
+        <introduction>
           <p>
             Consider the pattern suggested by the triangles of dots:
           </p>
-          <figure xml:id="fig-triangular-numbers1">
-            <caption>A Sequence of Triangles</caption>
-            <image source="trinumbersequilateral">
-              <description>
-                T1 is a dot. The remaining figures look like equilateral
-                triangles. T2 contains a row of two dots and a dot above. T3 adds a 
-                row of three dots below T2. T4 adds a row of four dots below T3. 
-                T5 adds a row of five dots below T4.
-              </description>
-            </image>
-          </figure>
-          <p>
-            <ol>
-              <li>
+        <figure xml:id="fig-triangular-numbers1">
+          <caption>A Sequence of Triangles</caption>
+          <image source="trinumbersequilateral">
+            <description>
+              T1 is a dot. The remaining figures look like equilateral
+              triangles. T2 contains a row of two dots and a dot above. T3 adds a 
+              row of three dots below T2. T4 adds a row of four dots below T3. 
+              T5 adds a row of five dots below T4.
+            </description>
+          </image>
+        </figure>
+        </introduction>
+        <task>
+          <statement>
+              <p>
+                List the number of dots in each of <m>T_1, T_2, T_3, T_4, T_5</m>.
+                Do not add these five numbers.
+              </p>
+          </statement>
+          <answer>
+            <p>
+              <m>T_1</m> has 1 dot, <m>T_2</m> has 3 dots, <m>T_3</m> has 6 dots, <m>T_4</m> has 10 dots, <m>T_5</m> has 15 dots.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Sketch <m>T_6</m>. How many dots does it have?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>T_6</m> has 21 dots. It can be sketched by adding a row of six dots below <m>T_5</m>.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Without drawing the picture, how many dots should <m>T_{10}</m>
+              have? Why?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>T_{10}</m> should have 55 dots. Reasons may vary.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <introduction>
+            <p>
+              In <xref ref="right-isos-tri-5"/>, the dots in <m>T_5</m> have been  
+              rearranged to form an isosceles right triangle, labeled <m>S_5</m>. Then a second copy 
+              of this configuration has been made and rotated so that together they 
+              form a rectangle, labeled <m>R_5</m>.
+            </p>
+            <figure xml:id="right-isos-tri-5">
+              <caption>Rearranging the fifth triangle of dots</caption>
+              <image source="trinumbersrightisosceles" width="80%">
+                <description>Described in problem.</description>
+              </image>
+            </figure>
+          </introduction>
+            <task>
+              <statement>
                 <p>
-                  List the number of dots in each of <m>T_1, T_2, T_3, T_4, T_5</m>.
-                  Do not add these five numbers.
+                  Use this process to sketch <m>R_2</m>, <m>R_3</m>, and <m>R_4</m>. What should 
+                  <m>R_1</m> look like?
                 </p>
-              </li>
-              <li>
-                <p>
-                  Sketch <m>T_6</m>. How many dots does it have?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Without drawing the picture, how many dots should <m>T_{10}</m>
-                  have? Why?
-                </p>
-              </li>
-              <li>
-                <p>
-                  In <xref ref="right-isos-tri-5"/>, the dots in <m>T_5</m> have been  
-                  rearranged to form an isosceles right triangle, labeled <m>S_5</m>. Then a second copy 
-                  of this configuration has been made and rotated so that together they 
-                  form a rectangle, labeled <m>R_5</m>. 
-                  <ol>
-                    <li>
-                      Use this process to sketch <m>R_2</m>, <m>R_3</m>, and <m>R_4</m>. What should 
-                      <m>R_1</m> look like?
-                    </li>
-                    <li>
-                      What is the number of dots (blue and red together) in each row of <m>R_5</m>?
-                    </li>
-                    <li>
-                      How many rows of dots does <m>R_5</m> have? 
-                    </li>
-                    <li>
-                      How is the product of these two numbers related to the number of dots in 
-                      <m>T_5</m>? Explain why this result is what one might expect from the picture.
-                    </li>
-                    <li>
-                      Use your sketches of <m>R_2, R_3, R_4</m> and the provided sketch of <m>R_5</m>
-                      to complete <xref ref="table-trinum"/>. 
-                    </li>
-                  </ol>
-                </p>
-              </li>
-              <li>
-                <p>
-                  Letting <m>n</m> stand for the number of rows in our triangle <m>T_n</m>,
-                  give a formula for the total number of dots in <m>T_n</m>. The formula will  
-                  use the variable <m>n</m>, work for all possible positive integers <m>n</m>, 
-                  and not require the use of <m>\cdots</m>.
-                </p>
-              </li>
-            </ol>
-          </p>
-          <table xml:id="table-trinum">
-            <title>Counting Dots in Triangles and Rectangles</title>
-            <tabular halign="center">
-              <row header="yes" bottom="minor">
-            <cell>Index <m>n</m></cell>
-            <cell>Number of dots per row</cell>
-            <cell>Number of rows of dots</cell>
-            <cell>Number of dots in <m>R_n</m></cell>
-            <cell>Number of dots in <m>T_n</m></cell>
-              </row>
-              <row>
-                <cell>1</cell>
-                <cell>1</cell>
-                <cell>2</cell>
-                <cell>2</cell>
-                <cell>1</cell>
-              </row>
-              <row>
-                <cell>2</cell>
-                <cell>2</cell>
-                <cell>3</cell>
-                <cell>6</cell>
-                <cell>3</cell>
-              </row>
-              <row>
-                <cell>3</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-              </row>
-              <row>
-                <cell>4</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-              </row>
-              <row>
-                <cell>5</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-                <cell>?</cell>
-              </row>
-            </tabular>
-          </table>
-          <figure xml:id="right-isos-tri-5">
-            <caption>Rearranging the fifth triangle of dots</caption>
-            <image source="trinumbersrightisosceles" width="80%">
-              <description>Described in problem.</description>
-            </image>
-          </figure>
-        </statement>
+                </statement>
+                <answer>
+                  <p>
+                    Each rectangle will have height <m>n+1</m> and width <m>n</m>. The two triangles
+                    should be visible.
+                    Rectangle <m>R_1</m> consists of one column with two dots.
+                  </p>
+                </answer>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    What is the number of dots (blue and red together) in each row of <m>R_5</m>?
+                  </p>
+                </statement>
+                <answer>
+                  <p>
+                    5
+                  </p>
+                </answer>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    How many rows of dots does <m>R_5</m> have?
+                  </p>
+                </statement>
+                <answer>
+                  <p>
+                    6
+                  </p>
+                </answer>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    How is the product of these two numbers related to the number of dots in 
+                    <m>T_5</m>? Explain why this result is what one might expect from the picture.
+                  </p>
+                </statement>
+                <answer>
+                  <p>
+                    The product of the number of dots per row (5) and the number of rows (6) is 30. 
+                    This equals twice the number of dots in <m>T_5</m> (15), because the rectangle <m>R_5</m> 
+                    is formed by two copies of the triangle <m>T_5</m>.
+                  </p>
+                </answer>
+              </task>
+              <task>
+                <statement>
+                  <p>
+                    Use your sketches of <m>R_2, R_3, R_4</m> and the provided sketch of <m>R_5</m>
+                    to complete <xref ref="table-trinum"/>.
+                  </p>
+                  <table xml:id="table-trinum">
+                    <title>Counting Dots in Triangles and Rectangles</title>
+                      <tabular halign="center">
+                        <row header="yes" bottom="minor">
+                          <cell>Index <m>n</m></cell>
+                          <cell>Number of dots per row</cell>
+                          <cell>Number of rows of dots</cell>
+                          <cell>Number of dots in <m>R_n</m></cell>
+                          <cell>Number of dots in <m>T_n</m></cell>
+                        </row>
+                        <row>
+                          <cell>1</cell>
+                          <cell>1</cell>
+                          <cell>2</cell>
+                          <cell>2</cell>
+                          <cell>1</cell>
+                        </row>
+                        <row>
+                          <cell>2</cell>
+                          <cell>2</cell>
+                          <cell>3</cell>
+                          <cell>6</cell>
+                          <cell>3</cell>
+                        </row>
+                        <row>
+                          <cell>3</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                        </row>
+                        <row>
+                          <cell>4</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                        </row>
+                        <row>
+                          <cell>5</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                          <cell>?</cell>
+                        </row>
+                      </tabular>
+                  </table>
+                </statement>
+                <answer>
+                  <p>
+                    The completed table is shown below.
+                  </p>
+                  <table xml:id="table-trinum-answer">
+                    <title>Counting Dots in Triangles and Rectangles</title>
+                    <tabular halign="center">
+                      <row header="yes" bottom="minor">
+                        <cell>Index <m>n</m></cell>
+                        <cell>Number of dots per row</cell>
+                        <cell>Number of rows of dots</cell>
+                        <cell>Number of dots in <m>R_n</m></cell>
+                        <cell>Number of dots in <m>T_n</m></cell>
+                      </row>
+                      <row>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>2</cell>
+                        <cell>1</cell>
+                      </row>
+                      <row>
+                        <cell>2</cell>
+                        <cell>2</cell>
+                        <cell>3</cell>
+                        <cell>6</cell>
+                        <cell>3</cell>
+                      </row>
+                      <row>
+                        <cell>3</cell>
+                        <cell>3</cell>
+                        <cell>4</cell>
+                        <cell>12</cell>
+                        <cell>6</cell>
+                      </row>
+                      <row>
+                        <cell>4</cell>
+                        <cell>4</cell>
+                        <cell>5</cell>
+                        <cell>20</cell>
+                        <cell>10</cell>
+                      </row>
+                      <row>
+                        <cell>5</cell>
+                        <cell>5</cell>
+                        <cell>6</cell>
+                        <cell>30</cell>
+                        <cell>15</cell>
+                      </row>
+                  </tabular>
+                </table>
+             </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Letting <m>n</m> stand for the number of rows in our triangle <m>T_n</m>,
+                give a formula for the total number of dots in <m>T_n</m>. The formula will  
+                use the variable <m>n</m>, work for all possible positive integers <m>n</m>, 
+                and not require the use of <m>\cdots</m>.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                The total number of dots in <m>T_n</m> is <m>\frac{n(n+1)}{2}</m>.
+              </p>
+            </answer>
+          </task>
+        </task>
       </exercise>
       <exercise>
         <title>Lengths on a Geoboard</title>
@@ -588,27 +769,26 @@
             vertical distance between neighboring points is 1 unit. We will use the Pythagorean Theorem to
             determine diagonal distances. 
             </p>
-            </introduction>
-            <figure xml:id="image4by4">
-              <caption>A <m>4\times 4</m>-Geoboard.</caption>
-            
-            <image component="web" source="4by4geoboard.svg" width="50%">
-            <shortdescription>
-              A grid with 16 dots arranged in four rows and four columns.
-            </shortdescription>
-            </image>
-           <!-- <image component="print" source="4by4geoboard.png" width="50%">
+        </introduction>
+        <figure xml:id="image4by4">
+          <caption>A <m>4\times 4</m>-Geoboard.</caption>
+        
+          <image component="web" source="4by4geoboard.svg" width="50%">
+          <shortdescription>
+            A grid with 16 dots arranged in four rows and four columns.
+          </shortdescription>
+          </image>
+          <!-- <image component="print" source="4by4geoboard.png" width="50%">
             <shortdescription>
               A grid with 16 dots arranged in four rows and four columns.
             </shortdescription>
           </image>-->
         </figure>
-            <p>
-            How many different length line segments connect pegs on a Geoboard? To explore this
-            question, we note that the <m>1\times 1</m>-Geoboard has only one peg and since 
-            a line segment needs two endpoints, there are no line segments on a <m>1\times 1</m>-Geoboard.
-          </p>
-        
+        <p>
+          How many different length line segments connect pegs on a Geoboard? To explore this
+          question, we note that the <m>1\times 1</m>-Geoboard has only one peg and since 
+          a line segment needs two endpoints, there are no line segments on a <m>1\times 1</m>-Geoboard.
+        </p>
         <task>
           <introduction>
             <p>
@@ -632,23 +812,32 @@
               </image>
             </figure>
           </introduction>
-            <task>
-              <statement>
-                <p>
-                  By definition, the distance from <m>A</m> to <m>B</m> is 1 unit; in symbols, <m>AB=1</m>. List three other pairs of points in the <m>2\times 2</m>-Geoboard with
-                  distance 1 unit.
-                </p>
-              </statement>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  The distance from <m>A</m> to <m>D</m> is more than 1 unit. Use the Pythagorean Theorem to compute this distance.
-                  Are there any other pairs of points that are this distance apart?
-                </p>
-              </statement>
-            </task> 
-          
+          <task>
+            <statement>
+              <p>
+                By definition, the distance from <m>A</m> to <m>B</m> is 1 unit; in symbols, <m>AB=1</m>. List three other pairs of points in the <m>2\times 2</m>-Geoboard with
+                distance 1 unit.
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <m>AC=1</m>, <m>BD=1</m>, and <m>CD=1</m>.
+              </p>
+            </answer>
+          </task>
+          <task>
+            <statement>
+              <p>
+                The distance from <m>A</m> to <m>D</m> is more than 1 unit. Use the Pythagorean Theorem to compute this distance.
+                Are there any other pairs of points that are this distance apart?
+              </p>
+            </statement>
+            <answer>
+              <p>
+                The distance from <m>A</m> to <m>D</m> is <m>\sqrt{2}</m>. There is one other pair of points that are this distance apart, namely <m>BC</m>.
+              </p>
+            </answer>
+          </task> 
         </task>
         <task>
           <introduction>
@@ -684,6 +873,11 @@
                   Again assuming the distance <m>AB</m> is 1 unit, determine <m>AC</m> in the <m>3\times 3</m>-Geoboard.
                 </p>
               </statement>
+              <answer>
+                <p>
+                  <m>AC=2</m>.
+                </p>
+              </answer>
             </task>
             <task>
               <statement>
@@ -698,13 +892,23 @@
                   Determine <m>AI</m>.
                 </p>
               </statement>
+              <answer>
+                <p>
+                  <m>AI=\sqrt{8}=2\sqrt{2}</m>.
+                </p>
+              </answer>
             </task>
             <task>
               <statement>
                 <p>
-                  Use the Pythagorean formula to determine <m>AF</m>? What other point is this distance from <m>A</m>?
+                  Use the Pythagorean formula to determine <m>AF</m>. What other point is this distance from <m>A</m>?
                 </p>
               </statement>
+              <answer>
+                <p>
+                  <m>AF=\sqrt{5}</m>. The other point that is this distance from <m>A</m> is <m>H</m>.
+                </p>
+              </answer>
             </task>
             <task>
               <statement>
@@ -713,6 +917,11 @@
                   with a <m>3\times 3</m>-Geoboard.
                 </p>
               </statement>
+              <answer>
+                <p>
+                  Answers will vary.
+                </p>
+              </answer>
             </task>
             <task>
               <introduction>
@@ -728,21 +937,21 @@
                       <diagram dimensions="(200, 200)" margins="5">
                         <coordinates bbox="(0.5, 0.5, 7.5, 7.5)">
                           <point p="(1,7)" size="1" fill="black" alignment="nw"> <m>A</m> </point>
-                          <point p="(3,7)" size="1" fill="black" alignment="n"> <m>B</m> </point>
-                          <point p="(5,7)" size="1" fill="black" alignment="n"> <m>C</m> </point>
-                          <point p="(7,7)" size="1" fill="black" alignment="ne"> <m>D</m> </point>
+                          <point p="(3,7)" size="1" fill="black" alignment="nw"> <m>B</m> </point>
+                          <point p="(5,7)" size="1" fill="black" alignment="nw"> <m>C</m> </point>
+                          <point p="(7,7)" size="1" fill="black" alignment="nw"> <m>D</m> </point>
                           <point p="(1,5)" size="1" fill="black" alignment="w"> <m>E</m> </point>
                           <point p="(3,5)" size="1" fill="black" alignment="w"> <m>F</m> </point>
-                          <point p="(5,5)" size="1" fill="black" alignment="e"> <m>G</m> </point>
-                          <point p="(7,5)" size="1" fill="black" alignment="e"> <m>H</m> </point>
+                          <point p="(5,5)" size="1" fill="black" alignment="w"> <m>G</m> </point>
+                          <point p="(7,5)" size="1" fill="black" alignment="w"> <m>H</m> </point>
                           <point p="(1,3)" size="1" fill="black" alignment="w"> <m>I</m> </point>
                           <point p="(3,3)" size="1" fill="black" alignment="w"> <m>J</m> </point>
-                          <point p="(5,3)" size="1" fill="black" alignment="e"> <m>K</m> </point>
-                          <point p="(7,3)" size="1" fill="black" alignment="e"> <m>L</m> </point>
-                          <point p="(1,1)" size="1" fill="black" alignment="sw"> <m>M</m> </point>
-                          <point p="(3,1)" size="1" fill="black" alignment="s"> <m>N</m> </point>
-                          <point p="(5,1)" size="1" fill="black" alignment="s"> <m>O</m> </point>
-                          <point p="(7,1)" size="1" fill="black" alignment="se"> <m>P</m> </point>
+                          <point p="(5,3)" size="1" fill="black" alignment="w"> <m>K</m> </point>
+                          <point p="(7,3)" size="1" fill="black" alignment="w"> <m>L</m> </point>
+                          <point p="(1,1)" size="1" fill="black" alignment="w"> <m>M</m> </point>
+                          <point p="(3,1)" size="1" fill="black" alignment="w"> <m>N</m> </point>
+                          <point p="(5,1)" size="1" fill="black" alignment="w"> <m>O</m> </point>
+                          <point p="(7,1)" size="1" fill="black" alignment="w"> <m>P</m> </point>
                         </coordinates>
                       </diagram>
                     </prefigure>
@@ -757,6 +966,12 @@
                     (or distance).
                   </p>
                 </statement>
+                <answer>
+                  <p>
+                    The whole-number lengths possible are 1, 2, and 3. Examples of segments with these lengths are <m>AB=1</m>, 
+                    <m>AC=2</m>, and <m>AD=3</m>.
+                  </p>
+                </answer>
               </task>
               <task>
                 <statement>
@@ -765,6 +980,12 @@
                     an example of a segment with each length.
                   </p>
                 </statement>
+                <answer>
+                  <p>
+                    The whole number multiples of <m>\sqrt{2}</m> possible are <m>2\sqrt{2}</m> and <m>3\sqrt{2}</m>. 
+                    Examples of segments with these lengths are <m>AK=2\sqrt{2}</m> and <m>AP=3\sqrt{2}</m>.
+                  </p>
+                </answer>
               </task>
               <task>
                 <statement>
@@ -772,6 +993,11 @@
                     Determine <m>AG</m>.
                   </p>
                 </statement>
+                <answer>
+                  <p>
+                    <m>AG=\sqrt{5}</m>.
+                  </p>
+                </answer>
               </task>
               <task>
                 <statement>
@@ -779,6 +1005,11 @@
                     Determine <m>AH</m>.
                   </p>
                 </statement>
+                <answer>
+                  <p>
+                    <m>AH=\sqrt{10}</m>.
+                  </p>
+                </answer>
               </task>
               <task>
                 <statement>
@@ -786,6 +1017,11 @@
                     Determine <m>AL</m>.
                   </p>
                 </statement>
+                <answer>
+                  <p>
+                    <m>AL=\sqrt{13}</m>
+                  </p>
+                </answer>
               </task>
               <task>
                 <statement>
@@ -793,10 +1029,15 @@
                     Are there any other lengths? Explain.
                   </p>
                 </statement>
+                <answer>
+                  <p>
+                    No. Explanations will vary.
+                  </p>
+                </answer>
               </task>
             </task>
-            <!--A six by six Geoboard has a horizontal of length 5 and a diagonal of length 5.This is where the 
-            contradiction arises -->
+        <!--A six by six Geoboard has a horizontal of length 5 and a diagonal of length 5.This is where the 
+        contradiction arises -->
             <task>
               <introduction>
                 <p>
@@ -838,7 +1079,7 @@
                           <point p="(3,1)" size="1.5" fill="black"> </point>
                           <point p="(5,1)" size="1.5" fill="black"> </point>
                           <point p="(7,1)" size="1.5" fill="black"> </point>
-                          <point p="(9,1)" size="1.5" fill="black" alignment="se"> <m>U</m> </point>
+                          <point p="(9,1)" size="1.5" fill="black" alignment="e"> <m>U</m> </point>
                           <rectangle lower-left="(0.5,2.5)" dimensions="(7,7)" stroke="green" dash="4 4"
                             fill="none"/>
                         </coordinates>
@@ -846,7 +1087,7 @@
                     </prefigure>
                   </image>
                 </figure>
-                </introduction>
+              </introduction>
                 <task>
                   <introduction>
                     <p>
@@ -859,6 +1100,11 @@
                           <m>AQ</m>
                         </p>
                       </statement>
+                      <answer>
+                        <p>
+                          <m>AQ=4</m>
+                        </p>
+                      </answer>
                     </task>
                     <task>
                       <statement>
@@ -866,6 +1112,11 @@
                           <m>AR</m>
                         </p>
                       </statement>
+                      <answer>
+                        <p>
+                          <m>AR=\sqrt{17}</m>
+                        </p>
+                      </answer>
                     </task>
                     <task>
                       <statement>
@@ -873,6 +1124,11 @@
                           <m>AS</m>
                         </p>
                       </statement>
+                      <answer>
+                        <p>
+                          <m>AS=\sqrt{20}=2\sqrt{5}</m>
+                        </p>
+                      </answer> 
                     </task>
                     <task>
                       <statement>
@@ -880,6 +1136,11 @@
                           <m>AT</m>
                         </p>
                       </statement>
+                      <answer>
+                        <p>
+                          <m>AT=\sqrt{25}=5</m>
+                        </p>
+                      </answer>
                     </task>
                     <task>
                       <statement>
@@ -887,43 +1148,58 @@
                           <m>AU</m>
                         </p>
                       </statement>
+                      <answer>
+                        <p>
+                          <m>AU=\sqrt{32}=4\sqrt{2}</m>
+                        </p>
+                      </answer>
                     </task>
-                  
+                  </task>
                 </task>
-              
-            </task>
-            <task>
-              <statement>
-                <p>
-                  How many different segment lengths are in a <m>5\times 5</m>-Geoboard?
-                </p>
-              </statement>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  Having considered <m>1\times 1</m>-, <m>2\times 2</m>-, <m>3\times 3</m>-,
-                  <m>4\times 4</m>-, and <m>5\times 5</m>-Geoboard, we get <m>0,2,5,9,<fillin fill="14"/></m>
-                  for the number of different lengths.
-                  Be sure to enter the number for the <m>5\times 5</m>-Geoboard in the blank provided.
-                </p>
-              </statement>
-            </task>
-            <task>
-              <statement>
-                <p>
-                  Based on our work thus far, how many different segment lengths do you anticipate that a
-                  <m>6\times 6</m>-Geoboard should have? Why?
-                </p>
-              </statement>
-              <hint>
-                <p>
-                  Starting with a <m>5\times 5</m>-Geoboard, add another column
-                  and row of dots to get a <m>6\times 6</m>-Geoboard. How many new lengths will you add? 
-                  Or perhaps, you can see a pattern in how the numbers in the sequence are growing.
-                </p>
-              </hint>
-            </task>
+                <task>
+                  <statement>
+                    <p>
+                      How many different segment lengths are in a <m>5\times 5</m>-Geoboard?
+                    </p>
+                  </statement>
+                  <answer>
+                    <p>
+                      There are 14 different segment lengths in a <m>5\times 5</m>-Geoboard.
+                    </p>
+                  </answer>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Having considered <m>1\times 1</m>-, <m>2\times 2</m>-, <m>3\times 3</m>-,
+                      <m>4\times 4</m>-, and <m>5\times 5</m>-Geoboard, we get <m>0,2,5,9,<fillin fill="14"/></m>
+                      for the number of different lengths.
+                      Be sure to enter the number for the <m>5\times 5</m>-Geoboard in the blank provided.
+                    </p>
+                  </statement>
+                </task>
+                <task>
+                  <statement>
+                    <p>
+                      Based on our work thus far, how many different segment lengths do you anticipate that a
+                      <m>6\times 6</m>-Geoboard should have? Why?
+                    </p>
+                  </statement>
+                  <hint>
+                    <p>
+                      Look for a pattern!
+                    </p>
+                  </hint>
+                  <answer>
+                    <p>
+                      It is reasonable to anticipate that a <m>6\times 6</m>-Geoboard should have 20 different 
+                      segment lengths, since the number of different segment lengths seems to be increasing by 
+                      2, 3, 4, and 5 as we move from a <m>2\times 2</m>-Geoboard to a <m>5\times 5</m>-Geoboard.
+                      We will see that this is not the case, however, and that there are only 19 different 
+                      segment lengths in a <m>6\times 6</m>-Geoboard.
+                    </p>
+                  </answer>
+                </task>
             <task>
               <statement>
                 <p>
@@ -975,6 +1251,7 @@
                           <point p="(5,1)" size="1" fill="black"> </point>
                           <point p="(7,1)" size="1" fill="black"> </point>
                           <point p="(9,1)" size="1" fill="black"></point>
+                          <point p="(11,1)" size="1" fill="black"></point>
                           <rectangle lower-left="(0.5,2.5)" dimensions="(9,9)" stroke="green" dash="4 4"
                             fill="none"/>
                         </coordinates>
@@ -984,8 +1261,7 @@
                 </figure>
               </statement>
             </task>
-        </task>
-
+          </task>
       </exercise>
     </subexercises>
     <subexercises xml:id="Writing-intro-share">
@@ -1017,8 +1293,10 @@
           how this picture shows that <m>\sqrt{8}=2\sqrt{2}.</m>
         </p>
         <aside>
-          <p>Algebraically, we know <m>\sqrt{8}=\sqrt{4\cdot 2}=\sqrt{4}\cdot\sqrt{2}
-            =2\sqrt{2}</m>. For this writing prompt, give a geometric proof.
+          <p>
+            Algebraically, we know <m>\sqrt{8}=\sqrt{4\cdot 2}=\sqrt{4}\cdot\sqrt{2}
+            =2\sqrt{2}</m>. For this writing prompt, give a geometric proof. There is
+            more than one way to do this.  
           </p>
         </aside>
       </statement>
