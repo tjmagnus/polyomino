@@ -157,7 +157,7 @@
             a height of 2 can look so different.
         </p>
         <p>
-            The vertices of the polygons must be at the geoboard pegs even though you can 
+            The vertices of the polygons must be at the GeoBoard pegs even though you can 
             have rubberbands crossing elsewhere. Eventually, some students will start creating triangles with no vertical or 
             horizontal sides. Encourage them to come up with their own strategies to compute 
             the areas. Answer questions with questions. What are they thinking? What have 
@@ -178,13 +178,13 @@
         </p>
         <image component="web" source="geoboard-tri.svg">
             <description>
-                A five by five geoboard with outer vertices connected to form a square with side 
+                A five by five GeoBoard with outer vertices connected to form a square with side 
                 four. A triangle formed by connecting the vertices (0,2), (3,4), and (4,0).
             </description>
         </image>
         <image component="print" source="geoboard-tri.png">
             <description>
-                A five by five geoboard with outer vertices connected to form a square with side 
+                A five by five GeoBoard with outer vertices connected to form a square with side 
                 four. A triangle formed by connecting the vertices (0,2), (3,4), and (4,0).
             </description>
         </image>

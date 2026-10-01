@@ -761,17 +761,17 @@
         </task>
       </exercise>
       <exercise>
-        <title>Lengths on a Geoboard</title>
+        <title>Lengths on a GeoBoard</title>
         <introduction>
           <p>
-            A Geoboard is a rectangular array of dots like the <m>4\times 4</m>-Geoboard pictured below. 
+            A GeoBoard is a rectangular array of dots like the <m>4\times 4</m>-GeoBoard pictured below. 
             We will assume that the horizontal distance between neighboring points is 1 unit and the 
             vertical distance between neighboring points is 1 unit. We will use the Pythagorean Theorem to
             determine diagonal distances. 
             </p>
         </introduction>
         <figure xml:id="image4by4">
-          <caption>A <m>4\times 4</m>-Geoboard.</caption>
+          <caption>A <m>4\times 4</m>-GeoBoard.</caption>
         
           <image component="web" source="4by4geoboard.svg" width="50%">
           <shortdescription>
@@ -785,18 +785,18 @@
           </image>-->
         </figure>
         <p>
-          How many different length line segments connect pegs on a Geoboard? To explore this
-          question, we note that the <m>1\times 1</m>-Geoboard has only one peg and since 
-          a line segment needs two endpoints, there are no line segments on a <m>1\times 1</m>-Geoboard.
+          How many different length line segments connect pegs on a GeoBoard? To explore this
+          question, we note that the <m>1\times 1</m>-GeoBoard has only one peg and since 
+          a line segment needs two endpoints, there are no line segments on a <m>1\times 1</m>-GeoBoard.
         </p>
         <task>
           <introduction>
             <p>
-              A <m>2\times 2</m>-Geoboard consists of four pegs arranged in a square as shown in <xref ref="fig-twobytwogeoboardwithlabels"/>.
+              A <m>2\times 2</m>-GeoBoard consists of four pegs arranged in a square as shown in <xref ref="fig-twobytwogeoboardwithlabels"/>.
               Normally the pegs are unlabeled, but labels are included here for clarity in the discussion that follows.
             </p>
             <figure xml:id="fig-twobytwogeoboardwithlabels">
-              <caption>A <m>2\times 2</m>-Geoboard.</caption>
+              <caption>A <m>2\times 2</m>-GeoBoard.</caption>
               <image width="30%">
                 <shortdescription>Four dots, labeled A, B, C, and D, arranged in a two by two square.</shortdescription>
                 <prefigure xmlns="https://prefigure.org" label="PreFigTwoByTwoGB">
@@ -815,7 +815,7 @@
           <task>
             <statement>
               <p>
-                By definition, the distance from <m>A</m> to <m>B</m> is 1 unit; in symbols, <m>AB=1</m>. List three other pairs of points in the <m>2\times 2</m>-Geoboard with
+                By definition, the distance from <m>A</m> to <m>B</m> is 1 unit; in symbols, <m>AB=1</m>. List three other pairs of points in the <m>2\times 2</m>-GeoBoard with
                 distance 1 unit.
               </p>
             </statement>
@@ -846,7 +846,7 @@
               <m>3\times 3</m>-Geoboard in <xref ref="fig-threebythreegeoboardwithlabels"/>.
             </p>
               <figure xml:id="fig-threebythreegeoboardwithlabels">
-                <caption>A <m>3\times 3</m>-Geoboard.</caption>
+                <caption>A <m>3\times 3</m>-GeoBoard.</caption>
                 <image width="30%">
                   <shortdescription>Nine dots, labeled A through I, arranged in a three by three square.</shortdescription>
                   <prefigure xmlns="https://prefigure.org" label="PreFigThreeByThreeGB">
@@ -870,7 +870,7 @@
             <task>
               <statement>
                 <p>
-                  Again assuming the distance <m>AB</m> is 1 unit, determine <m>AC</m> in the <m>3\times 3</m>-Geoboard.
+                  Again assuming the distance <m>AB</m> is 1 unit, determine <m>AC</m> in the <m>3\times 3</m>-GeoBoard.
                 </p>
               </statement>
               <answer>
@@ -914,7 +914,7 @@
               <statement>
                 <p>
                   Write an argument that would convince a friend that the five segment lengths we found are the only ones possible
-                  with a <m>3\times 3</m>-Geoboard.
+                  with a <m>3\times 3</m>-GeoBoard.
                 </p>
               </statement>
               <answer>
@@ -926,11 +926,11 @@
             <task>
               <introduction>
                 <p>
-                  We now turn our attention to a <m>4\times 4</m>-Geoboard again determining the number of distinct (or different) 
+                  We now turn our attention to a <m>4\times 4</m>-GeoBoard again determining the number of distinct (or different) 
                   segment lengths. You may choose to explore this question on your own or you may use the following sequence of tasks to guide you.
                 </p>
                 <figure xml:id="fig-fourbyfourgeoboardwithlabels">
-                  <caption>A <m>4\times 4</m>-Geoboard.</caption>
+                  <caption>A <m>4\times 4</m>-GeoBoard.</caption>
                   <image width="30%">
                     <shortdescription>Sixteen dots, labeled A through P, arranged in a four by four square.</shortdescription>
                     <prefigure xmlns="https://prefigure.org" label="PreFigFourByFourGB">
@@ -961,7 +961,7 @@
               <task>
                 <statement>
                   <p>
-                    For the labeled <m>4\times 4</m>-Geoboard in <xref ref="fig-fourbyfourgeoboardwithlabels"/>, list all of the 
+                    For the labeled <m>4\times 4</m>-GeoBoard in <xref ref="fig-fourbyfourgeoboardwithlabels"/>, list all of the 
                     whole-number lengths possible. For each of these numbers, identify a segment (or pair of points) with this length
                     (or distance).
                   </p>
@@ -1036,18 +1036,18 @@
                 </answer>
               </task>
             </task>
-        <!--A six by six Geoboard has a horizontal of length 5 and a diagonal of length 5.This is where the 
+        <!--A six by six GeoBoard has a horizontal of length 5 and a diagonal of length 5.This is where the 
         contradiction arises -->
             <task>
               <introduction>
                 <p>
-                  Let's apply what we already know to the <m>5\times 5</m>-Geoboard.
-                  As illustrated by the green square, there is a <m>4\times 4</m>-Geoboard inside of 
-                  the <m>5\times 5</m>-Geoboard, so all of the segments and lengths found in
-                  the <m>4\times 4</m>-Geoboard will also be segments andlengths in the <m>5\times 5</m>-Geoboard.
+                  Let's apply what we already know to the <m>5\times 5</m>-GeoBoard.
+                  As illustrated by the green square, there is a <m>4\times 4</m>-GeoBoard inside of 
+                  the <m>5\times 5</m>-GeoBoard, so all of the segments and lengths found in
+                  the <m>4\times 4</m>-GeoBoard will also be segments and lengths in the <m>5\times 5</m>-Geoboard.
                 </p>
                 <figure xml:id="fig-fivebyfivegeoboardwithlabels">
-                  <caption>A <m>5\times 5</m>-Geoboard containing a <m>4\times 4</m>-Geoboard.</caption>
+                  <caption>A <m>5\times 5</m>-GeoBoard containing a <m>4\times 4</m>-GeoBoard.</caption>
                   <image width="30%">
                     <shortdescription>Twenty-five dots arranged in a five by five square. The upper left dot is A.
                       The last column of dots are Q, R, S, T, and U from top to bottom. 
@@ -1159,12 +1159,12 @@
                 <task>
                   <statement>
                     <p>
-                      How many different segment lengths are in a <m>5\times 5</m>-Geoboard?
+                      How many different segment lengths are in a <m>5\times 5</m>-GeoBoard?
                     </p>
                   </statement>
                   <answer>
                     <p>
-                      There are 14 different segment lengths in a <m>5\times 5</m>-Geoboard.
+                      There are 14 different segment lengths in a <m>5\times 5</m>-GeoBoard.
                     </p>
                   </answer>
                 </task>
@@ -1172,9 +1172,9 @@
                   <statement>
                     <p>
                       Having considered <m>1\times 1</m>-, <m>2\times 2</m>-, <m>3\times 3</m>-,
-                      <m>4\times 4</m>-, and <m>5\times 5</m>-Geoboard, we get <m>0,2,5,9,<fillin fill="14"/></m>
+                      <m>4\times 4</m>-, and <m>5\times 5</m>-GeoBoard, we get <m>0,2,5,9,<fillin fill="14"/></m>
                       for the number of different lengths.
-                      Be sure to enter the number for the <m>5\times 5</m>-Geoboard in the blank provided.
+                      Be sure to enter the number for the <m>5\times 5</m>-GeoBoard in the blank provided.
                     </p>
                   </statement>
                 </task>
@@ -1192,11 +1192,11 @@
                   </hint>
                   <answer>
                     <p>
-                      It is reasonable to anticipate that a <m>6\times 6</m>-Geoboard should have 20 different 
+                      It is reasonable to anticipate that a <m>6\times 6</m>-GeoBoard should have 20 different 
                       segment lengths, since the number of different segment lengths seems to be increasing by 
-                      2, 3, 4, and 5 as we move from a <m>2\times 2</m>-Geoboard to a <m>5\times 5</m>-Geoboard.
+                      2, 3, 4, and 5 as we move from a <m>2\times 2</m>-GeoBoard to a <m>5\times 5</m>-GeoBoard.
                       We will see that this is not the case, however, and that there are only 19 different 
-                      segment lengths in a <m>6\times 6</m>-Geoboard.
+                      segment lengths in a <m>6\times 6</m>-GeoBoard.
                     </p>
                   </answer>
                 </task>
@@ -1204,11 +1204,11 @@
               <statement>
                 <p>
                   You may be surprised to hear that the actual number of different segment lengths in a
-                  <m>6\times 6</m>-Geoboard is actually 19. To see why this happens, compute the distance
+                  <m>6\times 6</m>-GeoBoard is actually 19. To see why this happens, compute the distance
                   from point <m>A</m> in the upper left to a new point <m>Y</m> in the sixth column. 
                 </p>
                 <figure xml:id="fig-sixbysixgeoboardwithlabels">
-                  <caption>A <m>6\times 6</m>-Geoboard containing a <m>5\times 5</m>-Geoboard.</caption>
+                  <caption>A <m>6\times 6</m>-GeoBoard containing a <m>5\times 5</m>-GeoBoard.</caption>
                   <image width="40%">
                     <shortdescription>Thirty-six points arranged in a six by six square. The upper left point is labeled A and the 
                       dot in the fourth row and sixth column is labeled Y.

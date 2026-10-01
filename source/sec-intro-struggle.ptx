@@ -1,5 +1,5 @@
 <section xml:id="sec-intro-struggle">
-    <title>Invitation to Overcome Challenges </title>
+    <title>Invitation to Grow </title>
     <subsection>
       <title>Growing through Persistance</title>
  
@@ -23,9 +23,15 @@
         try out different ideas, and don't worry about making mistakes. Allow these attempts to 
         enable growth and eventual success.
       </p>
+      <p component="instructor">
+        <strong>Instructor Note:</strong> The following exploration is designed to be 
+        challenging. Students may need to work in pairs or small groups to discuss 
+        strategies and share ideas. Encourage students to try different approaches, 
+        and allow them to struggle with the problem before sharing hints or solutions.
+      </p>
 
     <exploration xml:id="intro-struggle-exp-geoboardsq">
-      <title>Triangles on a Geoboard</title>
+      <title>Triangles on a GeoBoard</title>
       <introduction>
         <p>
           You may use tools that you remember from previous courses, such as 
@@ -35,9 +41,9 @@
         </p>
       </introduction>
       <task>
-        <statement>
+        <introduction>
           <p>
-            In this exploration, we will work with a geoboard that has four rows 
+            In this exploration, we will work with a GeoBoard that has four rows 
             and four columns of pins such as the one pictured below.
           </p>
           <image component="web" source="4by4geoboard.svg" width="50%">
@@ -49,79 +55,71 @@
             <shortdescription>
               A grid with 16 dots arranged in four rows and four columns.
             </shortdescription>
-          </image>
-          <p>
-          <ol>
-            <li>
-              <p>
-                Measuring along any row, we will assume that the horizontal 
-                distance between neighboring dots on a geoboard is one unit. 
-                What is the distance across the top of the geoboard from the leftmost 
-                pin to the rightmost pin?
-              </p>
-            </li>
-            <li>
-              <p>
-                Similarly, the vertical distance between neighboring pins in any 
-                column will be one unit. Determine the area of the square whose vertices 
-                are the four outermost pins on this geoboard.
-              </p>
-            </li>
-            <li>
-              <p>
-                Determine the shortest diagonal distance between two pins. In other
-                words, what is the distance from the pin in the upper left corner to 
-                the pin in the second row and second column?
-              </p>
-            </li>
-            <li>
-              <p>
-                What is the distance from the top left pin to the bottom right pin?
-              </p>
-            </li>
-          </ol>
-          </p>
-        </statement>
+        </image>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Measuring along any row, we will assume that the horizontal 
+              distance between neighboring dots on a GeoBoard is one unit. 
+              What is the distance across the top of the GeoBoard from the leftmost 
+              pin to the rightmost pin?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Three units.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Similarly, the vertical distance between neighboring pins in any 
+              column will be one unit. Determine the area of the square whose vertices 
+              are the four outermost pins on this GeoBoard.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Nine square units.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Determine the shortest diagonal distance between two pins. In other
+              words, what is the distance from the pin in the upper left corner to 
+              the pin in the second row and second column?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              The distance is <m>\sqrt{2}</m> units.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What is the distance from the top left pin  to 
+              the bottom right pin?
+            </p>
+          </statement>
+          <answer>  
+            <p>
+              The distance is <m>\sqrt{18}=3\sqrt{2}</m> units.
+            </p>
+          </answer>
+        </task>
       </task>
       <task>
-        <statement>
+        <introduction>
           <p>
-            As we construct triangles and other shapes on our geoboard, note that 
+            As we construct triangles and other shapes on our GeoBoard, note that 
             each vertex must be one one of the sixteen pins.
           </p>
-          <aside>
-            <p>
-              To use the embedded interactive GeoBoard via the Polypad by Amplify, 
-              <!--<url href="polypad.org/embed/OADtl0auGfB1A">
-                polypad.org/DLddLdVKLW461A</url>-->
-              select the <sq>line</sq> tool near the bottom. Then click and drag from one dot to 
-              another to create line segments. An easier to use GeoBoard is accessible from 
-              <url href="https://apps.mathlearningcenter.org/geoboard/?h78p720a">apps.mathlearningcenter.org/geoboard/
-              </url>, but gives a 5x5 board instead of 4x4.
-            </p>
-          </aside>
-          <p>
-          <ol>
-            <li xml:id="lgst-4x4geobd-tri">
-              <p>
-                Construct a triangle with the smallest possible area. 
-                What is the area?
-              </p>
-            </li>
-            <li>
-              <p>
-                <!--On the first geoboard below, construct a triangle with the largest possible area. What is this area? 
-                What is this area? On the second geoboard, construct a second 
-                triangle with a different shape but the same area.-->
-                Construct a triangle with the largest possible area. Then construct a 
-                second triangle with the same area that is not the same shape as the first.
-                Record your sketches and compute this area.
-              </p>
-              <!--<sidebyside widths="30% 30% 30%" valign="middle">
-                <image component="web" source="4by4geoboard.svg"/>
-                <image component="print" source="4by4geoboard.png"/>
-                <p> What is the common area?</p>
-              </sidebyside>-->
           <interactive xml:id="interactive4x4geoboard" 
               iframe="https://mathigon.org/polypad/embed/OADtl0auGfB1A" 
               aspect="16:12"/>
@@ -130,40 +128,73 @@
                   Interactive tool on Polypad by Amplify 
                 </url>
               </p>
-            </li>
-          </ol>
-          </p>
-            </statement>
+          <aside>
+            <p>
+              To use the embedded interactive GeoBoard via the Polypad by Amplify, 
+              <url href="polypad.org/embed/OADtl0auGfB1A">
+                polypad.org/DLddLdVKLW461A</url>
+              click on the icon at the center bottom to open the tool palette and select the <sq>line</sq> tool. 
+              Then click and drag from one dot to 
+              another to create line segments. If you accidentally move a pin, use the redo button. A <m>5\times 5</m> GeoBoard 
+              is also available at <url href="https://apps.mathlearningcenter.org/GeoBoard/">apps.mathlearningcenter.org/GeoBoard/</url>.
+            </p>
+          </aside>
+        </introduction>
+        <task xml:id="lgst-4x4geobd-tri">
+          <statement>
+              <p>
+                Construct a triangle with the smallest possible area. 
+                What is the area?
+              </p>
+          </statement>
+          <answer>
+            <p>
+              The smallest area is <m>\frac{1}{2}</m> square units.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Construct a triangle with the largest possible area. What is this area?
+              </p>
+          </statement>
+          <answer>
+            <p>
+              The largest area is <m>\frac{9}{2}=4.5</m> square units.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Now construct a second triangle with this largest area that is not the same shape as the first.
+              Record your sketches.
+            </p>
+          </statement>
       </task>
       <task>
         <statement>
-          <!--<p> 
-            On each geoboard below, construct a triangle with an area different than 
+          <p> 
+            Construct six more triangles each with an area different than 
             any triangle you've already drawn. Counting the triangles you drew in 
             <xref ref="lgst-4x4geobd-tri"/>, it is possible to create a total of eight 
             triangles each with a different area.
           </p>
-          <sidebyside widths="25% 25% 25% 25%">
-            <image source="4by4geoboard"/>
-            <image source="4by4geoboard"/>
-            <image source="4by4geoboard"/>
-            <image source="4by4geoboard"/>
+          <!--
+            <sidebyside widths="25% 25% 25% 25%">
+            <image source="4by4GeoBoard"/>
+            <image source="4by4GeoBoard"/>
+            <image source="4by4GeoBoard"/>
+            <image source="4by4GeoBoard"/>
           </sidebyside>
           <sidebyside widths="25% 25% 25% 25%">
-            <image source="4by4geoboard"/>
-            <image source="4by4geoboard"/>
-            <image source="4by4geoboard"/>
-            <image source="4by4geoboard"/>
+            <image source="4by4GeoBoard"/>
+            <image source="4by4GeoBoard"/>
+            <image source="4by4GeoBoard"/>
+            <image source="4by4GeoBoard"/>
           </sidebyside>-->
-          <p>
-            Construct triangles with an area different than 
-            any triangle you've already drawn. Counting the triangles you drew in 
-            <xref ref="lgst-4x4geobd-tri"/>, it is possible to create a total of eight 
-            triangles each with a different area. Be sure to record your sketches of the 
-            triangles and their areas for 
-            reference.
-          </p>
-          <interactive xml:id="geoboardonpolypad"
+          <interactive xml:id="GeoBoardonpolypad"
           iframe="https://mathigon.org/polypad/embed/OADtl0auGfB1A" 
            aspect="16:12"/>
           <p>
@@ -178,16 +209,25 @@
               \frac{5}{2},3, \frac{7}{2}, 4, \frac{9}{2}</m>.
           </p>
         </hint>
+        <solution>
+          <p>
+            Only a few triangles will have a horizontal or vertical side. The other triangles will have all sides slanted.
+            An easier way to compute the area of a triangle with no horizontal or vertical sides is to draw a rectangle 
+            around the triangle and then subtract the areas of the three right triangles that are outside of the triangle 
+            but inside the rectangle. Allow students to discover this method on their own.
+          </p>
+        </solution>
       </task>
       <task>
         <statement>
           <p>
-            Extension: If we use a 5x5-geoboard instead, what squares and what 
+            Extension: If we use a 5x5-GeoBoard instead, what squares and what 
             triangles are possible? Compute the areas. A virtual 5x5-GeoBoard is
-            available at <url href="https://apps.mathlearningcenter.org/geoboard/">apps.mathlearningcenter.org/geoboard/
+            available at <url href="https://apps.mathlearningcenter.org/GeoBoard/">apps.mathlearningcenter.org/GeoBoard/
             </url>.
           </p>
         </statement>
+      </task>
       </task>
     </exploration>
   </subsection>
@@ -195,18 +235,19 @@
       <title>Confronting the Challenge</title>
       <p>
         To give you the experience of confronting the challenge and the exhilaration 
-        of conquering it, the answer to the last task in this exploration will not 
-        be provided here. Searching for solutions or examples will not help you grow mathematically. 
-        Instead, consider other ways in which you might attack the problem. Dare to 
+        of conquering it, the answer to the last tasks in this exploration will not 
+        be provided here. Searching for solutions or enlisting the aid of artificial 
+        intelligence will not help you grow mathematically. 
+        Instead, consider other ways in which you might approach the problem. Dare to 
         try something new!
       </p>
       <p>
         The above exploration starts off relatively easy. 
         Once you understood 
-        how to create and measure shapes on the geoboard, you probably found  
+        how to create and measure shapes on the GeoBoard, you probably found  
         triangles with areas of <m>\frac{1}{2}, 1, 
         \frac{3}{2}, 2, 3</m>, and <m>\frac{9}{2}</m>. In fact, you might have found  
-        multiple triangles with these areas. Yet the remaining areas may
+        multiple triangles with these areas. Yet, some or all of the remaining areas may
         seem impossible. If you are still in this situation, think about why these  
         same six areas keep occurring. What do these triangles have in common?  
         What other types of triangles exist on the GeoBoard?
@@ -216,16 +257,17 @@
         compute the area of these triangles?
         To use the area formula, <m>A=\frac{1}{2}bh</m>, one usually uses the 
         values of <m>b</m> and <m>h</m>. How does one find <m>b</m> and <m>h</m> with 
-        certainty? Or is it necessary to find the base and height of the triangle? 
-        Might there be other ways of finding the area in the current setting?
+        certainty? Or might it be possible to compute the area without finding 
+        the base and height of the triangle? 
       </p>
       <p>
         There are many lessons to be learned here that go beyond measuring area. 
         Mathematics is not about doing fast calculations with provided formulas or 
-        following steps. Instead, it requires persistence, creative thinking, and 
-        exploring multiple strategies. Sometimes it is helpful to walk away from a problem for a 
+        following steps. Instead, doing mathematics requires persistence, creative thinking, and 
+        the exploration of multiple strategies. Sometimes it is helpful to walk away from a problem for a 
         little while and to return to it with a different perspective. It helps to 
-        share ideas with others even when you do not know where they will lead. 
+        share ideas with others even when you do not know where they will lead. In fact,
+        reading the problem and discussing your ideas with others may help you to discover a successful approach. 
       </p>
       <p>
         Did you discover a triangle that was not obvious? Did you 
@@ -243,9 +285,10 @@
         contributing in different ways on different activities. The important thing 
         is to believe in yourself and be open to trying new things. Unfortunately, 
         most people believe the myth that they can't do math. They spend too much energy
-        comparing themselves to others. Math is not about being perfect or fast.
-        Instead, mathematics is about exploring, creating, experimenting, conjecturing, applying,
-        and justifying.
+        comparing themselves to others and ignore their own strengths. Mathematics 
+        is not about being perfect or fast.
+        Instead, mathematics is about exploring, creating, experimenting, observing,conjecturing, 
+        justifying, and applying. It involves learning from mistakes and building on successes.
       </p> 
       <p>
         If today was not your day to shine, perhaps you were hesitant to consider 
@@ -255,7 +298,7 @@
         to overcome challenges throughout this book. As long as you are open to 
         learning and exploring your own ideas, your mathematical ability 
         and confidence will grow. After all, the course has just 
-        started, and you are just adapting to this book and its style, your 
+        started, and you are still adapting to this book, your 
         instructor, and your classmates. By the way, your brain may hurt a little as 
         you confront and conquer mathematical challenges. Like every other muscle in 
         your body, a little soreness means that you are growing in strength. Success  
@@ -267,7 +310,7 @@
       <title>A Geometric Tool and an Algebraic Tool</title>
       <p> 
         As we have noticed in this section, not all segments are horizontal or 
-        vertical. To determine the lengths of these slanted segments on a grid, the 
+        vertical. To determine the lengths of slanted segments on a grid, the 
         <xref ref="thm-Pythagorean">Pythagorean Theorem</xref> will be helpful. 
         The Pythagorean Theorem allows us to find the lengths of the sides 
         of right triangles using the fact that <m>a^2+b^2=c^2</m> where <m>c</m>
@@ -289,122 +332,252 @@
       <subexercises xml:id="SAR-intro-struggle">
       <title>Skills and Recall</title>
       <exercise xml:id="SAR-intro-struggle-squarert">
-        <statement>
+        <introduction>
           <p> 
-            Compute the following numbers if they exist. 
-            <ol>
-              <li>
-                <m>\sqrt{49}</m>
-              </li>
-              <li>
-                <m>\sqrt{900}</m>
-              </li>
-              <li>
-                <m>\sqrt{16-25}</m>
-              </li>
-              <li>
-                <m>\sqrt{\frac{16}{25}}</m>
-              </li>
-              <li>
-                <m>\sqrt{25-16}</m>
-              </li>
-              <li>
-                <m>\sqrt{25}-\sqrt{16}</m>
-              </li>
-              <li>
-                <m>\sqrt{123456789^2}</m>
-              </li>
-              <li>
+            Compute the following numbers if they exist.
+          </p> 
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{49}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              7
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{900}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              30
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{16-25}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\sqrt{16-25}</m>is not a real number
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{\frac{16}{25}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\frac{4}{5}=0.8</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{25-16}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\sqrt{9}=3</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{25}-\sqrt{16}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>5-4=1</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{123456789^2}</m>
+              </p>
+          </statement>
+          <answer>
+            <p>
+              123456789
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
                 <m>\sqrt{0}</m>
-              </li>
-              <li>
-                <m>\sqrt{3}\cdot\sqrt{3}</m>
-              </li>
-              <li>
-                <m>\sqrt{2\cdot 2}</m>
-              </li>
-            </ol>
-          </p>
-        </statement>
-        <hint>
-          <p>
-            One answer is not a real number.
-          </p>
-        </hint>
-        <answer>
-          <p>
-            a. 7, b. 30, c. is not a real number, d. <m>\frac{4}{5}=0.8</m>,
-            e. <m>\sqrt{9}=3</m>, f. <m>5-4=1</m>, g. 12345678, h. 0,
-            i. 3, j. 2
-          </p>
-        </answer>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              0
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{3}\cdot\sqrt{3}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              3
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\sqrt{2\cdot 2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              2
+            </p>
+          </answer>
+        </task>
       </exercise>
     </subexercises>
     <subexercises xml:id="ExtConc-intro-struggle">
       <title>Extending the Concepts</title>
       <exercise>
         <title>Properties of Squares and Square Roots</title>
-        <statement>
+        <introduction>
           <p>
-            Use algebra rules or experimentation to determine the following. Your 
+            Use algebraic rules or experimentation to determine the following. Your 
             answers should contain variables. A review of square roots may be found 
             in <xref ref="subsec-algrev-sqroots"/>
-            <ol>
-              <li>
-                <p>
-                  Let <m>x</m> be any nonnegative number. What is 
-                  <m>\sqrt{x\cdot x}</m>?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Let <m>x</m> be any nonnegative number. What is 
-                  <m>\sqrt{x}\cdot\sqrt{x}</m>?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Let <m>x</m> be any nonnegative number. What is <m>(\sqrt{x})^2</m>?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Let <m>x</m> be any nonnegative number. What is <m>\sqrt{x^2}</m>?
-                </p>
-              </li>
-              <li>
-                <p>
-                  Let <m>x</m> be any negative number. Is <m>\sqrt{x^2}=x</m>? Explain.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Let <m>x</m> be any negative number. Is <m>(\sqrt{x})^2=x</m>? Explain.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Is <m>x^2+y^2=(x+y)^2</m>? To support your answer, choose a nonzero number <m>x</m> 
-                  and a nonzero number <m>y</m>, substitute your values into the equation, and 
-                  carefully evaluate both sides.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Is <m>\sqrt{x^2+y^2}=x+y</m>? Explain.
-                </p>
-              </li>
-            </ol>
           </p>
-        </statement>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Let <m>x</m> be any nonnegative number. What is 
+              <m>\sqrt{x\cdot x}</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\sqrt{x\cdot x}=\sqrt{x^2}=x</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Let <m>x</m> be any nonnegative number. What is <m>\sqrt{x}\cdot\sqrt{x}</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\sqrt{x}\cdot\sqrt{x}=(\sqrt{x})^2=x</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Let <m>x</m> be any nonnegative number. What is <m>{(\sqrt{x})}^2</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>{\sqrt{x}}^2=x</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Let <m>x</m> be any nonnegative number. What is <m>\sqrt{x^2}</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\sqrt{x^2}=x</m>   
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Let <m>x</m> be any negative number. Is <m>\sqrt{x^2}=x</m>? Explain.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              No, <m>\sqrt{x^2}=-x</m> because <m>\sqrt{x^2}</m> is always nonnegative and <m>x</m> is negative.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Let <m>x</m> be any negative number. Is <m>\sqrt{x}^2=x</m>? Explain.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              No, <m>\sqrt{x}^2</m> is not defined for negative numbers <m>x</m> because the square root of a negative number is not a real number.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+          <p>
+            Is <m>x^2+y^2=(x+y)^2</m>? To support your answer, choose a nonzero number <m>x</m> 
+            and a nonzero number <m>y</m>, substitute your values into the equation, and 
+            carefully evaluate both sides.
+          </p>
+          </statement>
+          <answer>
+            <p>
+              No, <m>(x+y)^2=x^2+2xy+y^2\neq x^2+y^2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Is <m>\sqrt{x^2+y^2}=x+y</m>? Explain.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              No, <m>\sqrt{x^2+y^2}\neq x+y</m> because <m>(\sqrt{x^2+y^2})^2=x^2+y^2</m> 
+              and <m>(x+y)^2=x^2+2xy+y^2</m>, so <m>\sqrt{x^2+y^2}\neq x+y</m> unless <m>xy=0</m>.
+            </p>
+          </answer>
+        </task>  
       </exercise>
     </subexercises>
     <subexercises xml:id="Writing-intro-struggle">
       <title>
         Writing Prompts
       </title>
-      <exercise xml:id="writing-intro-struggle-geoboard">
-      <title>Geoboard Experience</title>
+      <exercise xml:id="writing-intro-struggle-GeoBoard">
+      <title>GeoBoard Experience</title>
       <statement>
         <p>
           Discuss the emotions that you experienced as you were working on this  
