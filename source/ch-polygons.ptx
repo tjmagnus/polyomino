@@ -17,6 +17,13 @@
       </p>
     </aside>
     <p>
+      In this chapter, we will show how these principles lead to the area formulas 
+      for other polygons. We will also use our knowledge of area to show why the 
+      Pythagorean Theorem holds. While you may already have these area formulas and
+      the Pythagorean Theorem memorized, you will soon have first-hand knowledge 
+      of why they hold and how they fit with basic principles.
+    </p>
+    <p>
       Before we continue, it will be useful to define what it means for two
       polygons to be congruent:
     </p>
@@ -84,13 +91,7 @@
         </p>
       </statement>
     </principle>
-    <p>
-      In this chapter, we will show how these principles lead to the area formulas 
-      for other polygons. We will also use our knowledge of area to show why the 
-      Pythagorean Theorem holds. While you may already have these area formulas and
-      the Pythagorean Theorem memorized, you will soon have first-hand knowledge 
-      of why they hold and how they fit with basic principles.
-    </p>
+
   </introduction>  
   <xi:include href="sec-polygons-area.ptx"/>
   <xi:include href="sec-polygons-angles.ptx"/>

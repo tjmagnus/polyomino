@@ -7,9 +7,9 @@
             In this section, we will determine the area formulas for three 
             shapes: a parallelogram, a triangle, and a trapezoid. Our goal 
             will be not only to use the formulas but more importantly to be  
-            able to explain why they follow from the basic principles of area. In 
-            particular, we will use the formula for the area of a rectangle,
-            <m>A=\ell\times w</m>, as a starting point to derive additional 
+            able to explain why they follow from the basic principles of area. 
+            The formula for the area of a rectangle, <m>A=\ell\times w</m>, established
+            in <xref ref="formula-area-rectangle"/>, will serve as a starting point to derive additional 
             area formulas. 
         </p>
     </introduction>
@@ -30,11 +30,6 @@
                     measures and two different lengths.
                 </p>
             </statement>
-            <hint>
-                <p>
-                    Recall the properties of a parallelogram including side lengths and angle measures.
-                </p>
-            </hint>
         </task>
         <task>
             <statement>
@@ -43,12 +38,6 @@
                     and four congruent sides.
                 </p>
             </statement>
-            <hint>
-                <p>
-                    What special parallelogram has four congruent sides? How does including an acute angle determine its other 
-                    angle measures?
-                </p>
-            </hint>
         </task>
         <task>
             <statement>
@@ -59,7 +48,7 @@
             </statement>
             <hint>
                 <p>
-                    If all angles in a parallelogram are congruent, then they must each be 90 degrees. What is the special name 
+                    If all angles in a parallelogram are congruent, what is the common angle measure? What is the special name 
                     for a parallelogram with four right angles?
                 </p>
             </hint>
@@ -72,8 +61,7 @@
             </statement>
             <hint>
                 <p>
-                    To sketch this parallelogram, review the characteristics of a <xref ref="def-parallelogram" text="custom">parallelogram</xref>
-                    including its height, base length, and interior angle measurements.
+                    Note that the height is the perpendicular distance between the two parallel sides. It is not usually the length of the slanted side. 
                 </p>
             </hint>
         </task>
@@ -86,11 +74,18 @@
                     to cut the parallelogram and rearrange or duplicate pieces as part of your 
                     argument.
                 </p>
+                            <figure xml:id="parallelogramfigtocut">
+                <caption>A parallelogram to be cut and rearranged.</caption>
+                <image source="parallelogram-arbitrary.svg" width="90%">
+                    <shortdescription>A parallelogram to be cut and rearranged</shortdescription>
+                </image>
+            </figure>
             </statement>
+            
             <hint>
                 <p>
-                    How can a parallelogram be cut and rearranged to form a rectangle of the same area? What type of cut needs
-                    to be made?
+                    What kind of cut would create a right angle? How could you use the cut pieces to create a rectangle? 
+                    How do you know the area of the new rectangle is the same as the area of the original parallelogram?
                 </p>
             </hint>
         </task>
@@ -113,7 +108,11 @@
         </hint>
         <answer>
             <p>
-                Answer.
+                Answers will vary, but should include a clear explanation of how the parallelogram 
+                can be cut and rearranged to form a rectangle, and how the area formula for the 
+                parallelogram is derived from the rectangle's formula. The argument should be general 
+                enough to apply to all parallelograms, not just the one pictured. Variables should be used
+                instead of specific values.
             </p>
         </answer>
         </task>
@@ -128,275 +127,289 @@
         <title>The Area of a Triangle</title>
         
         <exploration xml:id="explore-area-formula">
-        <title>Discovering the Area Formula for a Triangle</title>
-        <introduction>
-            <p>
-                You probably remember the area formula for a triangle; in fact, you 
-                may have used it already in this course! But why is the area 
-                <m>A_{triangle}=\frac{1}{2}bh</m>? This exploration will encourage you to 
-                answer that question.
-            </p>
-            <p>
-                Triangles come in all shapes and sizes. Sketch one or more 
-                examples of the following types of triangles. 
-            </p>
-        </introduction>
-        <task xml:id="task-equilateral-triangle">
-            <statement>
+            <title>Discovering the Area Formula for a Triangle</title>
+            <introduction>
                 <p>
-                    An equilateral triangle.
+                    You probably remember the area formula for a triangle; in fact, you 
+                    may have used it already in this course! But why is the area 
+                    <m>A_{triangle}=\frac{1}{2}bh</m>? This exploration will encourage you to 
+                    answer that question.
                 </p>
-            </statement>
-            <hint>
                 <p>
-                    To draw an equilateral triangle, recall the definitions for both <xref ref="def-triangle" text="custom">triangle</xref>
-                    and <xref ref="def-equilateral" text="custom">equilateral</xref>.
+                    Triangles come in all shapes and sizes. Sketch one or more 
+                    examples of the following types of triangles. 
                 </p>
-            </hint>
-        </task>
-        <task xml:id="task-right-isosceles">
-            <statement>
-                <p>
-                    A right isosceles triangle.
-                </p>
-            </statement>
-            <hint>
-                <p>
-                    To draw a right isosceles triangle, recall the definitions for both <xref ref="def-right-triangle" text="custom">right</xref>
-                    and <xref ref="def-isosceles" text="custom">isosceles</xref>.
-                </p>
-            </hint>
-        </task>
-        <task xml:id="task-acute-triangle">
-            <statement>
-                <p>
-                    An acute triangle that is not equilateral.
-                </p>
-            </statement>
-            <hint>
-                <p>
-                    To draw an acute triangle, recall the definition for <xref ref="def-triangles-by-angles" text="custom">acute</xref>.
-                    Also, review the definition for <xref ref="def-equilateral" text="custom">equilateral</xref> to ensure the triangle is NOT equilateral.
-                </p>
-            </hint>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    An obtuse scalene triangle.
-                </p>
-            </statement>
-            <hint>
-                <p>
-                    To draw an obtuse scalene triangle, recall what it means for a triangle to be <xref ref="def-triangles-by-angles" text="custom">obtuse</xref>
-                    and <xref ref="def-scalene" text="custom">scalene</xref>.
-                </p>
-            </hint>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    To demonstrate WHY the formula, <m>A_{triangle}=\frac{1}{2}bh</m>, 
-                    gives the area for any triangle, construct a parallelogram 
-                    based on the triangle shown below. How is the area of your 
-                    parallelogram related to the area of the triangle? Explain.
-                </p>
-                <aside>
+            </introduction>
+            <task xml:id="task-equilateral-triangle">
+                <statement>
                     <p>
-                        Resist the urge to use numbers instead of the variables,
-                        <m>b</m> and <m>h</m>. Specific triangles will have numerical  
-                        dimensions, but we want a formula that will work for all triangles, 
-                        not just the one you have. Variables allow us to generalize formulas.
+                        An equilateral triangle.
                     </p>
-                </aside>
-                <image source="obtuse-tri">
-                    <shortdescription>A scalene triangle.</shortdescription>
-                </image>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    A friend (or one of your students) asks you why the area formula 
-                    for a triangle is <m>A=\frac{1}{2}bh</m>. Rewrite and elaborate 
-                    on your answer to the previous task to give a clear, thorough, and 
-                    cohesive explanation. Be sure to use words and pictures as needed to 
-                    make the locations of <m>b</m> and <m>h</m> clear. The relationship 
-                    between the triangle and the parallelogram needs to be made explicit
-                    as well. Do they have the same height and base? Why or why not? Why 
-                    must their areas be related and how?  
-                </p>
-            </statement>
-        </task>
-    </exploration>
-    </subsection>
-    <subsection><title>The Area of a Trapezoid</title>
-    <p>
-        We now have three area formulas in our toolbox:
-    </p>
-    <table xml:id="formulas-areathroughtriangle">
-        <title>First Three Area Formulas</title>
-        <idx><h>area</h><h>of triangle</h></idx>
-        <idx><h>area</h><h>of parallelogram</h></idx>
-        <idx><h>area</h><h>of rectangle</h></idx>
-        <idx><h>triangle</h><h>area</h></idx>
-        <idx><h>parallelogram</h><h>area</h></idx>
-        <idx><h>rectangle</h><h>area</h></idx>
-        <tabular>
-            <row header ="yes">
-                <cell>Shape</cell>
-                <cell>Area Formula</cell>
-                <cell>Variables</cell>
-            </row>
-            <row>
-                <cell>Rectangle</cell>
-                <cell><m>A_{rect}=\ell w</m></cell>
-                <cell>area <m>A</m>, length <m>\ell</m>, width <m>w</m></cell>
-            </row>
-            <row>
-                <cell>Parallelogram</cell>
-                <cell><m>A_{par}=bh</m></cell>
-                <cell>area <m>A</m>, base <m>b</m>, height <m>h</m></cell>
-            </row>
-            <row>
-                <cell>Triangle</cell>
-                <cell><m>A_{tri}=\frac{1}{2}bh</m></cell>
-                <cell>area <m>A</m>, base <m>b</m>, height <m>h</m></cell>
-            </row>
-        </tabular>
-    </table>
+                </statement>
+                <hint>
+                    <p>
+                        To draw an equilateral triangle, recall the definitions for both <xref ref="def-triangle" text="custom">triangle</xref>
+                        and <xref ref="def-equilateral" text="custom">equilateral triangle</xref>.
+                    </p>
+                </hint>
+            </task>
+            <task xml:id="task-right-isosceles">
+                <statement>
+                    <p>
+                        A right isosceles triangle.
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        To draw a right isosceles triangle, recall the definitions for both <xref ref="def-right-triangle" text="custom">right triangle</xref>
+                        and <xref ref="def-isosceles" text="custom">isosceles triangle</xref>.
+                    </p>
+                </hint>
+            </task>
+            <task xml:id="task-acute-triangle">
+                <statement>
+                    <p>
+                        An acute triangle that is not equilateral.
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        To draw an acute triangle, recall the definition for <xref ref="def-triangles-by-angles" text="custom">acute triangle</xref>.
+                        Also, review the definition for <xref ref="def-equilateral" text="custom">equilateral triangle</xref> to ensure the triangle is NOT equilateral.
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        An obtuse scalene triangle.
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        To draw an obtuse scalene triangle, recall what it means for a triangle to be <xref ref="def-triangles-by-angles" text="custom">obtuse</xref>
+                        and <xref ref="def-scalene" text="custom">scalene</xref>.
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        To demonstrate WHY the formula, <m>A_{triangle}=\frac{1}{2}bh</m>, 
+                        gives the area for any triangle, construct a parallelogram 
+                        based on the triangle shown below. How is the area of your 
+                        parallelogram related to the area of the triangle? Explain.
+                    </p>
+                    <aside>
+                        <p>
+                            Resist the urge to use numbers instead of the variables,
+                            <m>b</m> and <m>h</m>. Specific triangles will have numerical  
+                            dimensions, but we want a formula that will work for all triangles, 
+                            not just the one you have. Variables allow us to generalize formulas.
+                        </p>
+                    </aside>
+                    <image source="obtuse-tri">
+                        <shortdescription>A scalene triangle.</shortdescription>
+                    </image>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A friend  asks you why the area formula 
+                        for a triangle is <m>A=\frac{1}{2}bh</m>. Rewrite and elaborate 
+                        on your answer to the previous task to give a clear, thorough, and 
+                        cohesive explanation. Be sure to use words and pictures as needed to 
+                        make the locations of <m>b</m> and <m>h</m> clear. The relationship 
+                        between the triangle and the parallelogram needs to be made explicit
+                        as well. Do they have the same height and base? Why or why not? Why 
+                        must their areas be related and how?  
+                    </p>
+                </statement>
+            </task>
+        </exploration>
+        </subsection>
+        <subsection><title>The Area of a Trapezoid</title>
         <p>
-        In the next exploration, you will use these three formulas as needed to 
-        derive and justify the formula for the area of a 
-        <xref ref="def-trapezoid" text="custom">trapezoid</xref>.
+            We now have three area formulas in our toolbox:
         </p>
-    <exploration xml:id="Exp-area-trapezoid">
-        <title>The Area Formula for a Trapezoid</title>
-        <introduction>
+        <table xml:id="formulas-areathroughtriangle">
+            <title>First Three Area Formulas</title>
+            <idx><h>area</h><h>of triangle</h></idx>
+            <idx><h>area</h><h>of parallelogram</h></idx>
+            <idx><h>area</h><h>of rectangle</h></idx>
+            <idx><h>triangle</h><h>area</h></idx>
+            <idx><h>parallelogram</h><h>area</h></idx>
+            <idx><h>rectangle</h><h>area</h></idx>
+            <tabular>
+                <row header ="yes">
+                    <cell>Shape</cell>
+                    <cell>Area Formula</cell>
+                    <cell>Variables</cell>
+                </row>
+                <row>
+                    <cell>Rectangle</cell>
+                    <cell><m>A_{rect}=\ell w</m></cell>
+                    <cell>area <m>A</m>, length <m>\ell</m>, width <m>w</m></cell>
+                </row>
+                <row>
+                    <cell>Parallelogram</cell>
+                    <cell><m>A_{par}=bh</m></cell>
+                    <cell>area <m>A</m>, base <m>b</m>, height <m>h</m></cell>
+                </row>
+                <row>
+                    <cell>Triangle</cell>
+                    <cell><m>A_{tri}=\frac{1}{2}bh</m></cell>
+                    <cell>area <m>A</m>, base <m>b</m>, height <m>h</m></cell>
+                </row>
+            </tabular>
+        </table>
             <p>
-                Once again, we look at some examples before discovering the formula 
-                for area.  
+            In the next exploration, you will use these three formulas as needed to 
+            derive and justify the formula for the area of a 
+            <xref ref="def-trapezoid" text="custom">trapezoid</xref>.
             </p>
-            <p>
-                This activity may be done using pencil, paper, scissors, and tape.
-                A GeoGebra interactive, <xref ref="fig-trapezoid-GeoG"/>, has been 
-                provided for those wishing to use it for generating ideas, experimenting,
-                or producing sketches. A 10-minute video, <xref ref="video-intro-GeoGebra-trap"/>,
-                at the end of this section introduces students to some of the GeoGebra 
-                tools.
-            </p>
-            <figure xml:id="fig-trapezoid-GeoG">
-                <caption>GeoGebra Interactive for <xref ref="Exp-area-trapezoid"/></caption>
-                <interactive xml:id="Gg-trapezoid-area" platform="geogebra">
-                  <slate surface="geogebra" material="sn4a5dpm"/>
-                </interactive>
-            </figure>
-        </introduction>
-        <task>
-            <!--CONSIDER REWRITING THIS AS A GEOGEBRA INTERACTIVE. THIS WILL ALSO 
-            BE A GOOD TIME TO ADD A GEOGEBRA VIDEO
-            YouTube video: https://youtu.be/R_cFFMaPGWw-->
+        <exploration xml:id="Exp-area-trapezoid">
+            <title>The Area Formula for a Trapezoid</title>
             <introduction>
                 <p>
-                    Sketch example(s) of each of the following trapezoids. Refer to the definition of trapezoid <xref ref="def-trapezoid"/>
-                    as needed. 
+                    Once again, we look at some examples before discovering the formula 
+                    for area.  
                 </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        An isosceles trapezoid.
-                    </p>
-                </statement>
-                <hint>
-                    <p>
-                        To draw an isosceles trapezoid, recall what it means for a trapezoid to be <xref ref="def-isosceles" text="custom">isosceles</xref>. 
-                    </p>
-                </hint>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        A trapezoid with one right angle.
-                    </p>
-                </statement>
-                <hint>
-                    <p>
-                        To draw a trapezoid with one right angle, refer to the definition <xref ref="def-typesofangles" text="custom">right angle</xref>.
-                    </p>
-                </hint>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        A trapezoid with one acute base angle and one obtuse 
-                        base angle.
-                    </p>
-                </statement>
-                <hint>
-                    <p>
-                        To draw this trapezoid, review what it means for a base angle to be <xref ref="def-typesofangles" text="custom">acute or obtuse</xref>.
-                    </p>
-                </hint>
-            </task>
-        </task>
-        <task>
-            <introduction>
                 <p>
-                    Be creative as you look for ways to apply our knowledge of 
-                    the area of parallelograms and triangles to find the area of 
-                    a trapezoid. There are many good strategies for this problem.
-                    Challenge yourself (or your group) to find a method that is  
-                    different than the methods used by others in your class. Instructions
-                    follow:
+                    This activity may be done using pencil, paper, scissors, and tape.
+                    A GeoGebra interactive, <xref ref="fig-trapezoid-GeoG"/>, has been 
+                    provided for those wishing to use it for generating ideas, experimenting,
+                    or producing sketches. A 10-minute video, <xref ref="video-intro-GeoGebra-trap"/>,
+                    at the end of this section introduces students to some of the GeoGebra 
+                    tools.
                 </p>
+                <figure xml:id="fig-trapezoid-GeoG">
+                    <caption>GeoGebra Interactive for <xref ref="Exp-area-trapezoid"/></caption>
+                    <interactive xml:id="Gg-trapezoid-area" platform="geogebra">
+                    <slate surface="geogebra" material="sn4a5dpm"/>
+                    </interactive>
+                </figure>
             </introduction>
             <task>
-                <statement>
+                <!--CONSIDER REWRITING THIS AS A GEOGEBRA INTERACTIVE. THIS WILL ALSO 
+                BE A GOOD TIME TO ADD A GEOGEBRA VIDEO
+                YouTube video: https://youtu.be/R_cFFMaPGWw-->
+                <introduction>
                     <p>
-                        Use dissection (cutting), duplication, and/or rearrangement to 
-                        construct or deconstruct a trapezoid into one or more 
-                        parallelograms and/or triangles. You may print and use the 
-                        trapezoid in <xref ref="fig-trapezoid-arbitrary"/>, draw your own, or use 
-                        the <xref ref="fig-trapezoid-GeoG" text="custom">GeoGebra interactive</xref>.
+                        Sketch example(s) of each of the following trapezoids. Refer to the definition of trapezoid <xref ref="def-trapezoid"/>
+                        as needed. 
                     </p>
-                </statement>
-                <hint>
-                    <p>
-                        You may use rectangles since they are parallelograms; however, this 
-                        exploration can also be done without rectangles.
-                    </p>
-                </hint>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            An isosceles trapezoid.
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            To draw an isosceles trapezoid, recall what it means for a trapezoid to be <xref ref="def-isosceles" text="custom">isosceles</xref>. 
+                        </p>
+                    </hint>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            A trapezoid with one right angle.
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            To draw a trapezoid with one right angle, refer to the definition <xref ref="def-typesofangles" text="custom">right angle</xref>.
+                        </p>
+                    </hint>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            A trapezoid with one acute base angle and one obtuse 
+                            base angle.
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            To draw this trapezoid, review what it means for a base angle to be <xref ref="def-typesofangles" text="custom">acute or obtuse</xref>.
+                        </p>
+                    </hint>
+                </task>
             </task>
             <task>
-                <statement>
+                <introduction>
                     <p>
-                        How would you find the area of each rectangle, parallelogram, or triangle
-                        in your dissection (or construction)? Could you compute these areas if the 
-                        only values you know are <m>h</m>, <m>b_1</m> and <m>b_2</m>?
+                        In this exploration, you will investigate the area of trapezoids by growing or subdividing them into shapes for which you already know the area formula. 
                     </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        If you find the areas difficult to compute, experiment to find other 
-                        ways of dissecting the trapezoid into parallelograms and/or triangles 
-                        or constructing one of these shapes from duplicating the trapezoid. There 
-                        are lots of ways to do this and the most obvious dissection is one of the 
-                        more challenging to use in the next step.
-                    </p>
-                </statement>
-            </task>   
-            <task>
-                <statement>
-                    <p>
-                        Briefly describe your construction or deconstruction and how you would find
-                        the area of the parts (or whole<fn>In the case where you built a larger 
-                        figure from the initial trapezoid.</fn>).
-                    </p>
-                </statement>
-            </task>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Use dissection (cutting), duplication, and/or rearrangement to 
+                            construct or deconstruct a trapezoid into one or more 
+                            parallelograms and/or triangles. You may print and use the 
+                            trapezoid in <xref ref="fig-trapezoid-arbitrary"/>, draw your own, or use 
+                            the <xref ref="fig-trapezoid-GeoG" text="custom">GeoGebra interactive</xref>.
+                        </p>
+                        <aside>
+                            
+                            <p>
+                                Be creative as you look for ways to apply our knowledge of 
+                                the area of parallelograms and triangles to find the area of 
+                                a trapezoid. There are many good strategies for this problem.
+                                Challenge yourself (or your group) to find a method that is  
+                                different than the methods used by others in your class. Instructions
+                                follow:
+                            </p>
+                        </aside>
+                    </statement>
+                    <hint>
+                        <p>
+                            You may use rectangles since they are parallelograms; however, this 
+                            exploration can also be done without rectangles.
+                        </p>
+                    </hint>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How would you find the area of each rectangle, parallelogram, or triangle
+                            in your dissection (or construction)? Could you compute these areas if the 
+                            only values you know are <m>h</m>, <m>b_1</m> and <m>b_2</m>?
+                        </p>
+                    </statement>
+                    <hint>
+                        <p>
+                            The author is aware of at least eight different methods of approaching this problem.
+                            Depending on your approach, you may find the following hints useful: If you cut through 
+                            the interior of a side of the trapezoid, you may have to
+                            introduce a new variable to represent the length of the new segment. 
+                            You may also use the fact that opposite sides of a parallelogram are congruent. 
+                            A justification of this fact using rotations is explored in <xref ref="ExtConc-oppsides-parallelogram"/>.
+                        </p>
+                    </hint>
+                </task>
+                <aside>
+                        <p>
+                            If you find the areas difficult to compute, experiment to find other 
+                            ways of dissecting the trapezoid into parallelograms and/or triangles 
+                            or constructing one of these shapes from duplicating the trapezoid. There 
+                            are lots of ways to do this and the most obvious dissection is one of the 
+                            more challenging to use in the next step.
+                        </p>
+                </aside>   
+                <task>
+                    <statement>
+                        <p>
+                            Briefly describe your construction or deconstruction and how you would find
+                            the area of the parts (or whole<fn>In the case where you built a larger 
+                            figure from the initial trapezoid.</fn>).
+                        </p>
+                    </statement>
+                </task>
                 <figure xml:id="fig-trapezoid-arbitrary">
                     <caption>
                         An arbitrary trapezoid that may be used in <xref ref="Exp-area-trapezoid"/>.
@@ -413,17 +426,16 @@
                         </shortdescription>
                     </image>
                 </figure>
-            
-        </task>
-        <task>
-            <introduction>
-                <p>
-                    How does your (de)construction demonstrate that the area formula for 
-                    a trapezoid is <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m>? The steps that 
-                    follow will assist you in forming a convincing argument. You may have
-                    already completed some of this work in the above task.
-                </p>
-            </introduction>
+            </task>
+            <task>
+                <introduction>
+                    <p>
+                        How does your (de)construction demonstrate that the area formula for 
+                        a trapezoid is <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m>? The steps that 
+                        follow will assist you in forming a convincing argument. You may have
+                        already completed some of this work in the above task.
+                    </p>
+                </introduction>
                 <task>
                     <statement>
                         <p>
@@ -471,8 +483,8 @@
                     <statement>
                         <p> 
                             You may have created triangles, rectangles, or parallelograms 
-                            which have, or might have, different base length or height. Any 
-                            new length or height should be given a different label. If you find that you need to create a lot 
+                            which have, or might have, a different base length or height. Any segment which is a different
+                            length than previously defined lengths should be given a different label. If you find that you need to create a lot 
                             of new labels, you might want to use a different construction or deconstruction
                             to reduce the amount of algebra you will need to do later. 
                         </p>
