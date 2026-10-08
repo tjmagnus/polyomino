@@ -19,8 +19,8 @@
         <title>Discovering an Area Formula for a Parallelogram</title>
         <introduction>
             <p>
-                Refer to the definition of parallelogram <xref ref="def-parallelogram"/>
-                as needed to complete the following.
+                Before we explore area, we familiarize ourselves with the definition of a <xref ref="def-parallelogram">
+                parallelogram</xref> by drawing examples. 
             </p>
         </introduction>
         <task xml:id="sketchaparallelogram">
@@ -212,6 +212,12 @@
                         <shortdescription>A scalene triangle.</shortdescription>
                     </image>
                 </statement>
+                <hint>
+                    <p>
+                        Make a copy of the triangle. Can you create a parallelogram by joining the 
+                        two triangles together? How does the area of the parallelogram compare to the area of the triangle?
+                    </p>
+                </hint>
             </task>
             <task>
                 <statement>
@@ -228,8 +234,8 @@
                 </statement>
             </task>
         </exploration>
-        </subsection>
-        <subsection><title>The Area of a Trapezoid</title>
+    </subsection>
+    <subsection><title>The Area of a Trapezoid</title>
         <p>
             We now have three area formulas in our toolbox:
         </p>
@@ -264,11 +270,24 @@
                 </row>
             </tabular>
         </table>
-            <p>
+        <p>
             In the next exploration, you will use these three formulas as needed to 
             derive and justify the formula for the area of a 
             <xref ref="def-trapezoid" text="custom">trapezoid</xref>.
-            </p>
+        </p>
+        <p>
+            This activity may be done with pencil, paper, and other drawing supplies. For those wishing to use technology for 
+            generating ideas, experimenting, or producing sketches, a GeoGebra interactive, <xref ref="fig-trapezoid-GeoG"/>, is 
+            provided. A 10-minute video, <xref ref="video-intro-GeoGebra-trap"/>,
+            at the end of this section introduces students to some of the GeoGebra 
+            tools.
+        </p>
+        <figure xml:id="fig-trapezoid-GeoG">
+            <caption>GeoGebra Interactive for <xref ref="Exp-area-trapezoid"/></caption>
+            <interactive xml:id="Gg-trapezoid-area" platform="geogebra">
+            <slate surface="geogebra" material="sn4a5dpm"/>
+            </interactive>
+        </figure>
         <exploration xml:id="Exp-area-trapezoid">
             <title>The Area Formula for a Trapezoid</title>
             <introduction>
@@ -276,20 +295,7 @@
                     Once again, we look at some examples before discovering the formula 
                     for area.  
                 </p>
-                <p>
-                    This activity may be done using pencil, paper, scissors, and tape.
-                    A GeoGebra interactive, <xref ref="fig-trapezoid-GeoG"/>, has been 
-                    provided for those wishing to use it for generating ideas, experimenting,
-                    or producing sketches. A 10-minute video, <xref ref="video-intro-GeoGebra-trap"/>,
-                    at the end of this section introduces students to some of the GeoGebra 
-                    tools.
-                </p>
-                <figure xml:id="fig-trapezoid-GeoG">
-                    <caption>GeoGebra Interactive for <xref ref="Exp-area-trapezoid"/></caption>
-                    <interactive xml:id="Gg-trapezoid-area" platform="geogebra">
-                    <slate surface="geogebra" material="sn4a5dpm"/>
-                    </interactive>
-                </figure>
+
             </introduction>
             <task>
                 <!--CONSIDER REWRITING THIS AS A GEOGEBRA INTERACTIVE. THIS WILL ALSO 
@@ -300,6 +306,7 @@
                         Sketch example(s) of each of the following trapezoids. Refer to the definition of trapezoid <xref ref="def-trapezoid"/>
                         as needed. 
                     </p>
+                    
                 </introduction>
                 <task>
                     <statement>
@@ -342,7 +349,30 @@
             <task>
                 <introduction>
                     <p>
-                        In this exploration, you will investigate the area of trapezoids by growing or subdividing them into shapes for which you already know the area formula. 
+                        Next, you will investigate the area of trapezoids by growing or subdividing them into shapes for which you already know the 
+                        area formula. We want to show this work on a trapezoid that is not isosceles and does not have a right angle to convince
+                        us that the area formula for a trapezoid works for all trapezoids, not just special cases.
+                    </p>
+                    <figure xml:id="fig-trapezoid-arbitrary">
+                            <caption>
+                                An arbitrary trapezoid that may be used in <xref ref="Exp-area-trapezoid"/>.
+                                Note how this trapezoid is not isosceles and does not have a right angle.
+                            </caption>
+                            <image component="web" source="trapezoid-arbitrary.svg" width="90%">
+                                <shortdescription>
+                                    An arbitrary trapezoid, not isosceles and not a right trapezoid.
+                                </shortdescription>
+                            </image>
+                            <image component="print" source="trapezoid-arbitrary.png" width="90%">
+                                <shortdescription>
+                                    An arbitrary trapezoid, not isosceles and not a right trapezoid.
+                                </shortdescription>
+                            </image>
+                        </figure>
+                    <p>
+                        Craft supplies such as pencils, paper, scissors, and tape are recommended for this activity. You may also use the 
+                        <xref ref="fig-trapezoid-GeoG" text="custom">GeoGebra interactive</xref> to experiment with duplication and subdivision 
+                        of trapezoids.
                     </p>
                 </introduction>
                 <task>
@@ -350,82 +380,73 @@
                         <p>
                             Use dissection (cutting), duplication, and/or rearrangement to 
                             construct or deconstruct a trapezoid into one or more 
-                            parallelograms and/or triangles. You may print and use the 
+                            parallelograms and/or triangles. You may print the 
                             trapezoid in <xref ref="fig-trapezoid-arbitrary"/>, draw your own, or use 
                             the <xref ref="fig-trapezoid-GeoG" text="custom">GeoGebra interactive</xref>.
                         </p>
-                        <aside>
-                            
-                            <p>
-                                Be creative as you look for ways to apply our knowledge of 
-                                the area of parallelograms and triangles to find the area of 
-                                a trapezoid. There are many good strategies for this problem.
-                                Challenge yourself (or your group) to find a method that is  
-                                different than the methods used by others in your class. Instructions
-                                follow:
-                            </p>
-                        </aside>
+                        
+                        <p>
+                            Be creative as you look for ways to view our trapezoid in terms of measurable 
+                            rectangles,parallelograms and triangles. There are many good strategies for this problem.
+                            Challenge yourself (or your group) to find a method that is  
+                            different than the methods used by others in your class. 
+                        </p>
                     </statement>
                     <hint>
                         <p>
-                            You may use rectangles since they are parallelograms; however, this 
-                            exploration can also be done without rectangles.
+                            You may not need to use all three types of shapes. You may use either dissection or duplication
+                            with rearrangement.
                         </p>
                     </hint>
                 </task>
                 <task>
                     <statement>
                         <p>
-                            How would you find the area of each rectangle, parallelogram, or triangle
-                            in your dissection (or construction)? Could you compute these areas if the 
-                            only values you know are <m>h</m>, <m>b_1</m> and <m>b_2</m>?
+                            Given only the dimensions <m>h</m>, <m>b_1</m> and <m>b_2</m>, how would you find the area of each rectangle, 
+                            parallelogram, or triangle in your dissection (or construction)? Could you compute these areas?
                         </p>
                     </statement>
                     <hint>
                         <p>
                             The author is aware of at least eight different methods of approaching this problem.
-                            Depending on your approach, you may find the following hints useful: If you cut through 
-                            the interior of a side of the trapezoid, you may have to
-                            introduce a new variable to represent the length of the new segment. 
-                            You may also use the fact that opposite sides of a parallelogram are congruent. 
-                            A justification of this fact using rotations is explored in <xref ref="ExtConc-oppsides-parallelogram"/>.
+                            Depending on your approach, you may find the following hints useful: 
+                            <ol>
+                                <li>
+                                    <p>
+                                        If you cut through the interior of a side of the trapezoid, you may have to
+                                        introduce new variables to represent the length of the new segment. For example, 
+                                        if you cut through the base of the trapezoid, you may call the length to the left of the cut,
+                                        <m>x</m>. Then the remaining length to the right of the cut would be <m>b_2 - x</m>. After
+                                        you combine the areas of the new shapes in the next task, you should be able to eliminate <m>x</m> from your final 
+                                        expression for the area of the trapezoid.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        You may also use the fact that opposite sides of a parallelogram are congruent. 
+                                        A justification of this fact using rotations is explored in <xref ref="ExtConc-oppsides-parallelogram"/>.
+                                    </p>
+                                </li>
+                            </ol> 
+                        </p>
+                        <p>
+                            If you find that you are introducing too many new variables or the areas are difficult to compute, you may find it helpful to 
+                            experiment with other ways of dissecting or duplicating the trapezoid. There 
+                            are lots of ways to do this and the most obvious dissection is one of the 
+                            more challenging to use in deriving  the area formula.
                         </p>
                     </hint>
                 </task>
-                <aside>
-                        <p>
-                            If you find the areas difficult to compute, experiment to find other 
-                            ways of dissecting the trapezoid into parallelograms and/or triangles 
-                            or constructing one of these shapes from duplicating the trapezoid. There 
-                            are lots of ways to do this and the most obvious dissection is one of the 
-                            more challenging to use in the next step.
-                        </p>
-                </aside>   
                 <task>
                     <statement>
                         <p>
-                            Briefly describe your construction or deconstruction and how you would find
+                            Briefly describe your construction or deconstruction and how you found
                             the area of the parts (or whole<fn>In the case where you built a larger 
                             figure from the initial trapezoid.</fn>).
                         </p>
                     </statement>
                 </task>
-                <figure xml:id="fig-trapezoid-arbitrary">
-                    <caption>
-                        An arbitrary trapezoid that may be used in <xref ref="Exp-area-trapezoid"/>.
-                        Note how this trapezoid is not isosceles and does not have a right angle.
-                    </caption>
-                    <image component="web" source="trapezoid-arbitrary.svg" width="90%">
-                        <shortdescription>
-                            An arbitrary trapezoid, not isosceles and not a right trapezoid.
-                        </shortdescription>
-                    </image>
-                    <image component="print" source="trapezoid-arbitrary.png" width="90%">
-                        <shortdescription>
-                            An arbitrary trapezoid, not isosceles and not a right trapezoid.
-                        </shortdescription>
-                    </image>
-                </figure>
+                
             </task>
             <task>
                 <introduction>
