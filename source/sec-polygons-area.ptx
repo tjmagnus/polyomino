@@ -451,17 +451,16 @@
             <task>
                 <introduction>
                     <p>
-                        How does your (de)construction demonstrate that the area formula for 
-                        a trapezoid is <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m>? The steps that 
-                        follow will assist you in forming a convincing argument. You may have
-                        already completed some of this work in the above task.
+                        The steps that follow will assist you in forming a convincing argument of why the area formula for 
+                        a trapezoid is <m>A_{trap}=\frac{1}{2}(b_1+b_2)h</m> based on your (de)construction. The work in
+                        the preceding task will be useful for this.
                     </p>
                 </introduction>
                 <task>
                     <statement>
                         <p>
-                            Choose one of the constructions or deconstructions you created 
-                            in the previous task. Label the height of the trapezoid with the 
+                            Choose a construction or deconstruction you created 
+                            in the previous task and sketch it. Label the height of the trapezoid with the 
                             variable <m>h</m>. The summit and base of the trapezoid are typically 
                             labeled <m>b_1</m> and <m>b_2</m>, and these are the labels that I will
                             use in these instructions, but you are free to assign them other labels
@@ -494,7 +493,7 @@
                     </statement>
                     <hint>
                         <p>
-                            You may use the fact that opposite sides of a parallelogram
+                            You may use the fact that opposite sides of a parallelogram (and rectangles)
                             are congruent. A justification of this fact using rotations
                             is explored in <xref ref="ExtConc-oppsides-parallelogram"/>.
                         </p>
@@ -504,26 +503,27 @@
                     <statement>
                         <p> 
                             You may have created triangles, rectangles, or parallelograms 
-                            which have, or might have, a different base length or height. Any segment which is a different
-                            length than previously defined lengths should be given a different label. If you find that you need to create a lot 
-                            of new labels, you might want to use a different construction or deconstruction
-                            to reduce the amount of algebra you will need to do later. 
+                            which have, or might have, a different base length or height. Any segment which may be a different
+                            length than previously defined lengths should be given a different label.  
                         </p>
+                        <aside>
+                            <p>
+                                If you find that you need to create a lot 
+                                of new labels, you might want to use a different construction or deconstruction
+                                to reduce the amount of algebra you will need to do later.
+                            </p>
+                        </aside>
                         <p>
-                            If you did not create any new lengths or heights, you may skip the 
+                            If you did not create any new lengths or heights, you may skip the remainder of this task and move on to the 
                             next item.
                         </p>
-                    </statement>
-                </task>
-                <task>
-                    <statement>
                         <p> 
                             Relate any new labels to the trapezoid's height, 
                             base, and/or summit. For example, if you split the base into three segments, 
                             labeled <m>x</m>, <m>y</m>, and <m>z</m>, you would write down the relationship 
                             <m>x+y+z=b_2</m>.<fn>Is <m>y</m> equal to one of the original values? If so, 
                             it is often useful to replace <m>y</m> by that variable.</fn> 
-                            If you split the base into two segments, one of which is
+                            On the other hand, if you split the base into two segments, one of which is
                             congruent to the summit, you might write <m>x+b_1=b_2</m> or equivalently,
                             <m>b_1=b_2-x</m>.
                         </p>
@@ -534,10 +534,10 @@
                         <p>
                             Compute the areas of any rectangles, parallelograms, or triangles in your 
                             construction/deconstruction, leaving variables in your expressions for each 
-                            area. Be careful to use the variables assigned in your sketch which 
+                            area. Be careful to use the variables from your sketch even though they 
                             may be different than the variables in the standard formulas. For example, if you
                             created an upside-down triangle, its base may be the summit of the trapezoid, and 
-                            so we would use the label <m>b_1</m> (or <m>a</m>) instead of <m>b</m>.
+                            so we would use the label <m>b_1</m> (or <m>a</m>) instead of <m>b_2</m>.
                         </p>
                     </statement>
                 </task>
@@ -606,7 +606,7 @@
                 </statement>
                 <hint>
                     <p>
-                        There are many, many right answers for this task!
+                        There are many, many right answers for this task! How close can you get to the actual area?
                     </p>
                 </hint>
             </task>
@@ -642,7 +642,8 @@
             <task>
                 <statement>
                     <p>
-                        Carefully add a horizontal line halfway between each pair of  
+                        The underestimate and overestimate you found probably differ significantly. Let's refine our estimates. 
+                        Carefully adding a horizontal line halfway between each pair of  
                         horizontal lines on the original grid. Similarly add vertical 
                         line between each existing pair of vertical lines. This will  
                         produce a more refined grid with smaller squares.
@@ -698,15 +699,15 @@
                 <idx><h>circle</h></idx>
                 <idx><h>radius</h></idx>
                 <idx><h>diameter</h></idx>
-                <idx><h>center</h><h>circle</h></idx>
+                <idx><h>center</h><h>of a circle</h></idx>
                 <statement>
                     <p>
                         A <term>circle</term> is the set of points<fn>Here, we consider only
                         points on a single plane or flat surface.</fn> that are of equal 
                         distance from a point called the <term>center</term> of the circle. This set 
                         of equidistant points is sometimes referred to as the circumference of the circle to 
-                        distinguish it from the interior and exterior of the circle.
-                        The <term>radius (pl. radii)</term> refers both to any segment from the center 
+                        and forms a boundary between the interior and exterior of the circle.
+                        The <term>radius (pl. radii)</term> refers to any linesegment from the center 
                         of the circle to a point on its circumference. The term <term>radius</term>
                         can also refer to the length common to 
                         all radii. A segment that joins two points of the circle 
@@ -738,7 +739,19 @@
                 approach the area of the circle, with the area of the inscribed polygons giving a lower 
                 estimate and the area of the circumscribed polygons giving an overestimate. The number  
                 <m>\pi</m> was not known at the time, but this method provides a means of calculating 
-                <m>\pi</m> to any level of precision. Note that <m>\pi\neq 3.14</m>. The value <m>3.14</m>
+                <m>\pi</m> to any level of precision. Using a 96-sided polygon, Archimedes found that 
+                <m>3\frac{10}{71}\lt \pi \lt 3\frac{1}{7}</m>.
+            </p>
+            <exercise xml:id="exer-archimedes-pi">
+                <statement>
+                    <p>
+                        Write the values of <m>3\frac{10}{71}</m> and <m>3\frac{1}{7}</m> as decimals to five decimal places.
+                        How do these values compare to the value of <m>\pi</m>?
+                    </p>
+                </statement>
+            </exercise>
+            <p> 
+                Note that <m>\pi\neq 3.14</m>. The value <m>3.14</m>
                 is only a rough estimate. In fact, mathematicians have now calculated over sixty 
                 trillion digits for <m>\pi</m>.  For our purposes, <m>\pi\approx 3.14159...</m> should 
                 be sufficient, but space travel engineers usually need about 40 digits of <m>\pi</m> for their 
@@ -781,7 +794,7 @@
             <p>
                 A technique, similar to the one described for estimating area using 
                 polygons of increasing number of sides, can be used to find the circumference 
-                or distance around a circle. We give the resulting formula below.
+                or distance around a circle. We give the resulting formulas for area and circumference below.
             </p>
 
             <!--<p>The con</p>-->
@@ -793,7 +806,7 @@
                 <idx><h>area</h><h>circle</h></idx>
                 <statement>
                     <p>
-                        The <term>area of a circle</term> is the interior space of 
+                        The <term>area of a circle</term> is the measure of the interior space of 
                         a circle and is computed by the formula 
                         <m>A=\pi r^2</m> where <m>r</m> is the radius of the circle. 
                         The <term>circumference</term> of a circle is the length of its 
