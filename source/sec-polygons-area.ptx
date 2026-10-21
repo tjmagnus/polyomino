@@ -841,171 +841,208 @@
         <subexercises xml:id="SAR-polygons-area">
             <title>Skills and Recall</title>
             <exercise xml:id="HW-compute-area">
-                <statement>
-                    <p>
-                        Compute the areas of the following figures. The 
-                        boundary of each figure is given by solid lines.
-                        Dashed segments are not part of the boundary, but 
-                        provide additional information that may be helpful.
-                        <ol>
-                            <li>
-                                <p>
-                                    Triangle <m>\Delta ABC</m> where <m>BC=11.1</m>.
-                                </p>
-                                <figure xml:id="figHWareaObTri">
-                                    <caption>Triangle <m>\Delta ABC</m></caption>
-                                    <image source="obtriarea">
-                                        <shortdescription>AB has length 5 centimeters and AC has 
-                                            length 8.8 centimeters. AD meets BC with a right angle at
-                                            D and AD has length 3.8 centimeters. Side BC has length
-                                            11.1 centimeters.
-                                        </shortdescription>
-                                    </image>
-                                </figure>
-                            </li>
-                            <li>
-                                <p>
-                                    Right Trapezoid <m>DEFG</m>.
-                                </p>
-                                <figure xml:id="fig-HW-trap-area">
-                                    <caption>Trapezoid <m>DEFG</m></caption>
-                                    <image>
-                                        <shortdescription>Trapezoid DEFG with 
-                                            right angles at D and E. DG has length 6.3 in,
-                                            GF has length 6.5 in, EF has length 11.6 in,
-                                            and the height DE has length 3.8 in.
-                                        </shortdescription>
-                                        <prefigure xmlns="https://prefigure.org" label="prfg-HW-trap-area">
-                                            <diagram dimensions="(300,100)" margins="5">
+                <task>
+                    <introduction>
+                        <p>
+                            Compute the areas of the following figures. The 
+                            boundary of each figure is given by solid lines.
+                            Dashed segments are not part of the boundary, but 
+                            provide additional information that may be helpful.
+                        </p>
+                    </introduction>
+                    <task>
+                        <statement>
+                            <p>
+                                Triangle <m>\Delta ABC</m> with sides <m>AB=5</m> centimeters, 
+                                <m>AC=8.8</m> centimeters, <m>BC=11.1</m> centimeters, and altitude <m>AD=3.8</m> centimeters.
+                            </p>
+                            <figure xml:id="figHWareaObTri">
+                                <caption>Triangle <m>\Delta ABC</m></caption>
+                                <image source="obtriarea">
+                                    <shortdescription>AB has length 5 centimeters and AC has 
+                                        length 8.8 centimeters. AD meets BC with a right angle at
+                                        D and AD has length 3.8 centimeters. Side BC has length
+                                        11.1 centimeters.
+                                    </shortdescription>
+                                </image>
+                            </figure>
+                        </statement>
+                        <answer>
+                            <p>
+                                21.09 square centimeters
+                            </p>
+                        </answer>
+                        <solution>
+                            <p>
+                                <m>\frac{1}{2}\cdot 11.1\cdot 3.8=21.09</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Trapezoid <m>DEFG</m> with a right angle at <m>D</m> and <m>E</m>.
+                            </p>
+                            <figure xml:id="fig-HW-trap-area">
+                                <caption>Trapezoid <m>DEFG</m></caption>
+                                <image>
+                                    <shortdescription>Trapezoid DEFG with 
+                                        right angles at D and E. DG has length 6.2 in,
+                                        GF has length 6.5 in, EF has length 11.6 in,
+                                        and the height DE has length 4.5 in.
+                                    </shortdescription>
+                                    <prefigure xmlns="https://prefigure.org" label="prfg-HW-trap-area">
+                                        <diagram dimensions="(300,120)" margins="5">
+                                        <coordinates bbox="(-1,-1,13,6)">
+                                            <polygon points="((0,0),(0,4.5),(6.2,4.5),(11.6,0))"
+                                                            closed="yes" fill="yellow"
+                                                            stroke="black"/>
+                                            <point  p="(0,0)" fill="black" size="2" scale="0.8" alignment="w"><m>E</m></point>
+                                            <point  p="(0,4.5)" fill="black" size="2" scale="0.8" alignment="nw"><m>D</m></point>
+                                            <point  p="(6.2,4.5)" fill="black" size="2" scale="0.8" alignment="n"><m>G</m></point>
+                                            <point  p="(11.6,0)" fill="black" size="2" scale="0.8" alignment="ne"><m>F</m></point>
+                                            <angle-marker points="((0,0),(0,4.5),(6.2,4.5))"/>
+                                            <angle-marker points="((11.6,0),(0,0),(0,4.5))"/>
+                                            <label anchor="(-0.2,2.5)" rotate="90" alignment="west" scale="0.8">4.5"</label>
+                                            <label anchor="(3,4.5)" alignment="n" scale="0.8">6.2"</label>
+                                            <label anchor="(5.8,-0.5)" alignment="west" scale="0.8">11.6"</label>
+                                            <label anchor="(9,2.7)" rotate="325" alignment="east" scale="0.8">7"</label>
+                                        </coordinates>
+
+                                        </diagram>
+                                    </prefigure>
+                                </image>
+                            </figure>
+                        </statement>
+                        <answer>
+                            <p>
+                                40.05 square inches
+                            </p>
+                        </answer>
+                        <solution>
+                            <p>
+                                <m>4.5\cdot \frac{6.2+11.6}{2}=40.05</m>
+                            </p>
+                        </solution>
+                    </task>
+                    <task>
+                        <statement>
+                            <p>
+                                Parallelogram <m>HKLM</m>.
+                            </p>
+                            <figure xml:id="fig-HW-parallelogram-area">
+                                <caption>Parallelogram <m>HKLM</m></caption>
+                                <image source="HWparallelarea">
+                                    <prefigure xmlns="https://prefigure.org" label="prfg-HW-parallelogram-area">
+                                        <diagram dimensions="(310,150)" margins="5">
                                             <definition>f(x)=2.5-x^2/2</definition>
                                             <definition>a = 1</definition>
-                                            <coordinates bbox="(-1,-1,13,5)">
-                                                <polygon points="((0,0),(0,3.8),(6.3,3.8),(11.6,0))"
-                                                                closed="yes" fill="yellow"
+                                            <coordinates bbox="(-1,-1,12,5)">
+                                                <polygon points="((0,4),(8,4),(10.7,0),(2.7,0))"
+                                                                closed="yes" fill="orange"
                                                                 stroke="black"/>
-                                                <point  p="(0,0)" fill="black" size="2" scale="0.8" alignment="w"><m>E</m></point>
-                                                <point  p="(0,3.8)" fill="black" size="2" scale="0.8" alignment="nw"><m>D</m></point>
-                                                <point  p="(6.3,3.8)" fill="black" size="2" scale="0.8" alignment="n"><m>G</m></point>
-                                                <point  p="(11.6,0)" fill="black" size="2" scale="0.8" alignment="ne"><m>F</m></point>
-                                                <angle-marker points="((11.6,0),(0,0),(0,3.8))"/>
-                                                <label anchor="(-0.2,2.5)" rotate="90" alignment="west" scale="0.8">3.8"</label>
-                                                <label anchor="(5.8,-0.5)" alignment="west" scale="0.8">11.6"</label>
+                                                <path start="(0,4)" closed="no" stroke="gray" dash="6 6">
+                                                    <vertical distance="-4"/><horizontal distance="2.7"/></path>
+                                                <point  p="(0,4)" fill="black" size="2" scale="0.8" alignment="w"><m>H</m></point>
+                                                <point  p="(8,4)" fill="black" size="2" scale="0.8" alignment="nw"><m>K</m></point>
+                                                <point  p="(2.7,0)" fill="black" size="2" scale="0.8" alignment="ne"><m>M</m></point>
+                                                <point  p="(10.7,0)" fill="black" size="2" scale="0.8" alignment="ne"><m>L</m></point>
+                                                <angle-marker points="((11.6,0),(0,0),(0,3.8))" stroke="gray" dash="4 4"/>
+                                                <label anchor="(-0.2,2.5)" rotate="90" alignment="west" scale="0.8">4 mm</label>
+                                                <label anchor="(7.4,-0.4)" alignment="west" scale="0.8">8 mm</label>
+                                                <label anchor="(4.8,4.4)" alignment="west" scale="0.8">8 mm</label>
+                                                <label anchor="(9,3)" rotate="305" scale="0.8" alignment="east">4.8 mm</label>
+                                                <label anchor="(1,3)" rotate="305" scale="0.8" alignment="east">4.8 mm</label>
                                             </coordinates>
-
-                                            </diagram>
-                                        </prefigure>
-                                    </image>
-                                </figure>
-                            </li>
-                            <li>
-                                <p>
-                                    Parallelogram <m>HKLM</m>.
-                                </p>
-                                <figure xml:id="fig-HW-parallelogram-area">
-                                    <caption>Parallelogram <m>HKLM</m></caption>
-                                    <image source="HWparallelarea">
-                                        <prefigure xmlns="https://prefigure.org" label="prfg-HW-parallelogram-area">
-                                            <diagram dimensions="(310,150)" margins="5">
-                                                <definition>f(x)=2.5-x^2/2</definition>
-                                                <definition>a = 1</definition>
-                                                <coordinates bbox="(-1,-1,12,5)">
-                                                    <polygon points="((0,4),(8,4),(10.7,0),(2.7,0))"
-                                                                    closed="yes" fill="orange"
-                                                                    stroke="black"/>
-                                                    <path start="(0,4)" closed="no" stroke="gray" dash="6 6">
-                                                        <vertical distance="-4"/><horizontal distance="2.7"/></path>
-                                                    <point  p="(0,4)" fill="black" size="2" scale="0.8" alignment="w"><m>H</m></point>
-                                                    <point  p="(8,4)" fill="black" size="2" scale="0.8" alignment="nw"><m>K</m></point>
-                                                    <point  p="(2.7,0)" fill="black" size="2" scale="0.8" alignment="n"><m>M</m></point>
-                                                    <point  p="(10.7,0)" fill="black" size="2" scale="0.8" alignment="ne"><m>L</m></point>
-                                                    <angle-marker points="((11.6,0),(0,0),(0,3.8))" stroke="gray" dash="4 4"/>
-                                                    <label anchor="(-0.2,2.5)" rotate="90" alignment="west" scale="0.8">4 mm</label>
-                                                    <label anchor="(7.8,-0.4)" alignment="west" scale="0.8">8 mm</label>
-                                                </coordinates>
-
-                                            </diagram>
-                                        </prefigure>    
-                                        <shortdescription>
-                                            Parallelogram HKLM with HK=8.1 mm,
-                                            KL=4.8 mm, LM=8.1 mm, and HM=4.8 mm. An altitude 
-                                            drawn from vertex H hitting line MN on the outside
-                                            of the parallelogram has length 4 mm. The length
-                                            from the nearest vertex M to the foot of the 
-                                            altitude is 2.7 mm.
-                                        </shortdescription>
-                                    </image>
-                                </figure>
-                            </li>
-                        </ol>
-                    </p>
-                </statement>
-                <answer>
-                    <p>
-                        (a) 21.9 sq. cm, (b) 34.01 sq. in., (c) 32.4 sq. mm.
-                    </p>
-                </answer>
-                <solution>
-                    <p>
-                        (a) <m>11.1\cdot 3.8=21.9</m>, (b) <m>3.8\cdot \frac{6.3+11.6}{2}=34.01</m>,
-                        (c) <m>4.0\cdot 8.1=32.4</m>.
-                    </p>
-                </solution>
+                                        </diagram>
+                                    </prefigure>    
+                                    <shortdescription>
+                                        Parallelogram HKLM with HK=8 mm,
+                                        KL=4.8 mm, LM=8 mm, and HM=4.8 mm. An altitude 
+                                        drawn from vertex H hitting line MN on the outside
+                                        of the parallelogram has length 4 mm. 
+                                    </shortdescription>
+                                </image>
+                            </figure>
+                        </statement>
+                        <answer>
+                            <p>
+                                32 square millimeters
+                            </p>
+                        </answer>
+                        <solution>
+                            <p>
+                                <m>4\cdot 8=32</m>
+                            </p>
+                        </solution>
+                    </task>
+                </task>
             </exercise>
             <exercise>
-                <statement>
+                <introduction>
                     <p>
                         Perimeter was defined in <xref ref="def-perimeter"/>.
                         Determine the perimeter of each of the figures in 
                         <xref ref="HW-compute-area"/>.
-                        <ol>
-                            <li>
-                                <p>
-                                    Triangle <m>\Delta ABC</m> in <xref ref="figHWareaObTri"/>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Trapezoid <m>DEFG</m> in <xref ref="fig-HW-trap-area"/>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Parallelogram <m>HKLM</m> in <xref ref="fig-HW-parallelogram-area"/>
-                                </p>
-                            </li>
-                        </ol>
                     </p>
-                </statement>
-                <answer>
-                    <p>
-                        (a) 24.9 cm, (b) 28.2 in, (c) 25.8 mm
-                    </p>
-                </answer>
-                <solution>
-                    <p>
-                        (a) <m>5.0+8.8+11.1=24.9</m>, (b) <m>3.8+6.3+6.5+11.6=28.2</m>,
-                        (c) <m>2(8.1)+2(4.8)=16.2+9.6=25.8</m>
-                    </p>
-                </solution>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Triangle <m>\Delta ABC</m> in <xref ref="figHWareaObTri"/>
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            24.9 centimeters
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            <m>5.0+8.8+11.1=24.9</m>
+                        </p>
+                    </solution>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Trapezoid <m>DEFG</m> in <xref ref="fig-HW-trap-area"/>
+                        </p>
+                    </statement> 
+                    <answer>
+                        <p>
+                            29.3 inches
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                             <m>4.5+6.2+7+11.6=29.3</m>
+                        </p>
+                    </solution>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Parallelogram <m>HKLM</m> in <xref ref="fig-HW-parallelogram-area"/>
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            25.6 millimeters
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            <m>2(8)+2(4.8)=16+9.6=25.6</m>
+                        </p>
+                    </solution>
+                </task>                          
             </exercise>
             <exercise>
-                <statement>
+                <introduction>
                     <p>
-                        Determine both the area and the perimeter of the following
-                        figure. Assume that each square of the grid has area 1 square
-                        centimeter.
-                        <ol>
-                            <li>
-                                <p>
-                                    Area
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Perimeter
-                                </p>
-                            </li>
-                        </ol>
+                        Use the fact that each square of the grid has area 1 square
+                        centimeter to determine the following:
                     </p>
                     <figure xml:id="fig-area-perim-grid">
                         <caption>A nonagon</caption>
@@ -1017,24 +1054,48 @@
                             </shortdescription>
                         </image>
                     </figure>
-                </statement>
-                <answer>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            The area of the shaded region in <xref ref="fig-area-perim-grid"/>.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            The area is 60 sq. cm.
+                        </p>
+                    </answer>
+                    <solution>
                     <p>
-                        Area is 60 sq. cm. Perimeter is <m>24+6\sqrt{2}\approx 32.485</m> cm.
+                        To determine the area, the region may be broken up into triangles and rectangles in 
+                        various ways. The area of the smaller regions can computed and then summed to find 
+                        the total area. It is also possible to use parallelograms or trapezoids in 
+                        this dissection. Some students will likely just count full squares and 
+                        half squares in each row; however, the lower 
+                        left diagonal segment does not divide squares exactly in half.    
                     </p>
-                </answer>
-                <solution>
-                    <p>
-                        For area, the region may be broken up into triangles and rectangles in 
-                        various ways. The rare student may use parallelograms or trapezoids in 
-                        their dissection. Some students will likely just count full squares and 
-                        half squares in each row. With the latter strategy, note that the lower 
-                        left segment does not divide squares exactly in half.    
-                    </p>
-                    <p>
-                        Perimeter: <m>5+3+1+3+2\sqrt{18}+4+3+\sqrt{25}</m>.
-                    </p>
-                </solution>
+                    </solution>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            The perimeter of the shaded region in <xref ref="fig-area-perim-grid"/>.
+                        </p>
+                    </statement>
+                    <answer>
+                        <p>
+                            The perimeter is <m>24+6\sqrt{2}\approx 32.485</m> cm.
+                        </p>
+                    </answer>
+                    <solution>
+                        <p>
+                            The perimeter is found by adding the lengths of all sides. For the two diagonal sides on the right, 
+                            we have two hypotenuses of length <m>\sqrt{3^2+3^2}</m> and in the lower left there is one hypotenuse 
+                            of length <m>\sqrt{25}</m>. Adding the segments together gives <m>5+3+1+3+2\sqrt{18}+4+3+\sqrt{25}</m>.
+                        </p>
+                    </solution>
+                </task>
             </exercise>
         </subexercises>
         <subexercises xml:id="ExtConc-polygons-area">
