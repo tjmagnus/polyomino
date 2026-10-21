@@ -869,12 +869,31 @@
                                 </p>
                                 <figure xml:id="fig-HW-trap-area">
                                     <caption>Trapezoid <m>DEFG</m></caption>
-                                    <image source="HWtraparea">
+                                    <image>
                                         <shortdescription>Trapezoid DEFG with 
                                             right angles at D and E. DG has length 6.3 in,
                                             GF has length 6.5 in, EF has length 11.6 in,
                                             and the height DE has length 3.8 in.
                                         </shortdescription>
+                                        <prefigure xmlns="https://prefigure.org" label="prfg-HW-trap-area">
+                                            <diagram dimensions="(300,100)" margins="5">
+                                            <definition>f(x)=2.5-x^2/2</definition>
+                                            <definition>a = 1</definition>
+                                            <coordinates bbox="(-1,-1,13,5)">
+                                                <polygon points="((0,0),(0,3.8),(6.3,3.8),(11.6,0))"
+                                                                closed="yes" fill="yellow"
+                                                                stroke="black"/>
+                                                <point  p="(0,0)" fill="black" size="2" scale="0.8" alignment="w"><m>E</m></point>
+                                                <point  p="(0,3.8)" fill="black" size="2" scale="0.8" alignment="nw"><m>D</m></point>
+                                                <point  p="(6.3,3.8)" fill="black" size="2" scale="0.8" alignment="n"><m>G</m></point>
+                                                <point  p="(11.6,0)" fill="black" size="2" scale="0.8" alignment="ne"><m>F</m></point>
+                                                <angle-marker points="((11.6,0),(0,0),(0,3.8))"/>
+                                                <label anchor="(-0.2,2.5)" rotate="90" alignment="west" scale="0.8">3.8"</label>
+                                                <label anchor="(5.8,-0.5)" alignment="west" scale="0.8">11.6"</label>
+                                            </coordinates>
+
+                                            </diagram>
+                                        </prefigure>
                                     </image>
                                 </figure>
                             </li>
@@ -885,6 +904,27 @@
                                 <figure xml:id="fig-HW-parallelogram-area">
                                     <caption>Parallelogram <m>HKLM</m></caption>
                                     <image source="HWparallelarea">
+                                        <prefigure xmlns="https://prefigure.org" label="prfg-HW-parallelogram-area">
+                                            <diagram dimensions="(310,150)" margins="5">
+                                                <definition>f(x)=2.5-x^2/2</definition>
+                                                <definition>a = 1</definition>
+                                                <coordinates bbox="(-1,-1,12,5)">
+                                                    <polygon points="((0,4),(8,4),(10.7,0),(2.7,0))"
+                                                                    closed="yes" fill="orange"
+                                                                    stroke="black"/>
+                                                    <path start="(0,4)" closed="no" stroke="gray" dash="6 6">
+                                                        <vertical distance="-4"/><horizontal distance="2.7"/></path>
+                                                    <point  p="(0,4)" fill="black" size="2" scale="0.8" alignment="w"><m>H</m></point>
+                                                    <point  p="(8,4)" fill="black" size="2" scale="0.8" alignment="nw"><m>K</m></point>
+                                                    <point  p="(2.7,0)" fill="black" size="2" scale="0.8" alignment="n"><m>M</m></point>
+                                                    <point  p="(10.7,0)" fill="black" size="2" scale="0.8" alignment="ne"><m>L</m></point>
+                                                    <angle-marker points="((11.6,0),(0,0),(0,3.8))" stroke="gray" dash="4 4"/>
+                                                    <label anchor="(-0.2,2.5)" rotate="90" alignment="west" scale="0.8">4 mm</label>
+                                                    <label anchor="(7.8,-0.4)" alignment="west" scale="0.8">8 mm</label>
+                                                </coordinates>
+
+                                            </diagram>
+                                        </prefigure>    
                                         <shortdescription>
                                             Parallelogram HKLM with HK=8.1 mm,
                                             KL=4.8 mm, LM=8.1 mm, and HM=4.8 mm. An altitude 
