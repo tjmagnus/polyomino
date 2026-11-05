@@ -1221,22 +1221,69 @@
                 <introduction>
                     <p>
                         In <xref ref="fig-circle-squares"/>, two copies of a circle of 
-                        radius 5 are given. The circle on the left circumscribes square
-                        <m>BEFG</m>, meaning that the vertices <m>B</m>, <m>E</m>, <m>F</m>,
-                        and <m>G</m> lie on the circle. The circle on the right is inscribed 
-                        in square <m>HIJK</m>. Here the circle just touches the square at the 
+                        radius 5 are given. In the figure on the left, circumscribes square
+                        <m>ABCD</m>, meaning that the vertices <m>A</m>, <m>B</m>, <m>C</m>,
+                        and <m>D</m> lie on the circle and the square is entirely within the circle. 
+                        The circle on the right is inscribed 
+                        in square <m>HIJK</m>. The circle is inside of the square and just touches the square at the 
                         midpoint of each side. 
                     </p>
+
                     <figure xml:id="fig-circle-squares">
                         <caption>Square circumscribed by and inscribed in a circle of 
                             radius 5.
                         </caption>
-                        <image source="HW-circles-squares">
+                        <sidebyside>
+                            <image>
+                                <shortdescription>
+                                    The vertices of square ABCD lie on a circle of radius 5.
+                                </shortdescription>
+                                <prefigure xmlns="https://prefigure.org" label="prfg-ExtConc-circumscribed-square">
+                                    <diagram dimensions="(300,300)" margins="5">
+                                        <coordinates bbox="(0,0,12,12)">
+                                            <grid stroke="darkgray"/>
+                                            <circle center="(6,6)" radius="5" stroke="green"/>
+                                            <rectangle center="(6,6)" dimensions="(sqrt(50),sqrt(50))" rotate="45" stroke="blue"/>
+                                            <point  p="(1,6)" stroke="none" fill="blue" size="2" alignment="nw">A</point>
+                                            <point  p="(6,1)" stroke="none" fill="blue" size="2" alignment="se">D</point>
+                                            <point  p="(6,11)" stroke="none" fill="blue" size="2" alignment="ne">B</point>
+                                            <point  p="(11,6)" stroke="none" fill="blue" size="2" alignment="ne">C</point>
+                                            <point  p="(6,6)" stroke="none" fill="blue" size="2"/>
+                                            <line endpoints="(1,6),(6,6)" stroke="blue">5</line>
+                                            <angle-marker points="((11,6),(6,1),(1,6))"/>
+                                            <angle-marker points="((6,11),(11,6),(6,1))"/>
+                                            <angle-marker points="((1,6),(6,11),(11,6))"/>
+                                        </coordinates>
+                                    </diagram>
+                                </prefigure>
+                            </image>
+                            <image>
+                                <shortdescription>
+                                    A circle of radius 5 sits inside of square EFGH, touching each side of square EFGH at the side's midpoint.
+                                </shortdescription>
+                                <prefigure xmlns="https://prefigure.org" label="prfg-ExtConc-inscribed-square">
+                                    <diagram dimensions="(300,300)" margins="5">
+                                        <coordinates bbox="(0,0,12,12)">
+                                            <grid stroke="darkgray"/>
+                                            <circle center="(6,6)" radius="5" stroke="green"/>
+                                            <rectangle center="(6,6)" dimensions="(10,10)" stroke="blue"/>
+                                            <point  p="(1,1)" stroke="none" fill="blue" size="2" alignment="nw">E</point>
+                                            <point  p="(1,11)" stroke="none" fill="blue" size="2" alignment="se">F</point>
+                                            <point  p="(11,11)" stroke="none" fill="blue" size="2" alignment="ne">G</point>
+                                            <point  p="(11,1)" stroke="none" fill="blue" size="2" alignment="ne">H</point>
+                                            <point  p="(6,6)" stroke="none" fill="blue" size="2"/>
+                                            <line endpoints="(1,6),(6,6)" stroke="blue">5</line>
+                                        </coordinates>
+                                    </diagram>
+                                </prefigure>
+                            </image>
+                        <!--<image source="HW-circles-squares">
                             <shortdescription>
                                 Square BEFG is circumscribed by a circle of
                                 radius 5. Square HIJK is inscribed in a circle of radius 5.
                             </shortdescription>
-                        </image>
+                        </image>-->
+                        </sidebyside>   
                     </figure>
                 </introduction>
                 <task>
