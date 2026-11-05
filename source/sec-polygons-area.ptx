@@ -1392,12 +1392,63 @@
                     </p>
                     <figure xml:id="fig-sq-oct-circle">
                         <caption>Square and Octagon circumscribed by a circle of radius 4</caption>
-                        <image source="HW-circle-octagon-square">
-                            <shortdescription>A square and octagon are circumscribed 
-                                by a circle of radius 4. An eighth slice of the octagon 
-                                has base 4 and height approximately 2.828.
-                            </shortdescription>
-                        </image>
+                        <!--<image source="HW-circle-octagon-square">-->
+                        <sidebyside>
+                            <image source="HW-circle-octagon-square">
+                                <shortdescription>
+                                    A square and octagon are circumscribed by a circle of radius 4. An eighth slice of the octagon has base 4 and height approximately 2.828.
+                                </shortdescription>
+                                <prefigure xmlns="https://prefigure.org" label="prfg-ExtConc-sq-oct-circle">
+                                    <diagram dimensions="(300,300)" margins="5">
+                                    <definition>
+                                        alignments=['nw','nw','ne','ne','e','se','se','sw']
+                                    </definition>
+                                    <definition substitution="no">
+                                        labels=['A','B','C','D','E','F','G','H']
+                                    </definition>
+                                    <definition>f(t)=(-4*cos(pi*t/4)+5,4*sin(pi*t/4)+5)</definition>
+                                        <definition>g(t)=(4*cos(pi*t/2)+5,4*sin(pi*t/2)+5)</definition>
+                                        <coordinates bbox="(0,0,10,10)">
+                                            <grid stroke="darkgray"/>
+                                            <circle center="(5,5)" radius="4" stroke="darkgreen"/>
+                                            <repeat parameter="k=0..7">
+                                            <point at="point" p="f(k)" alignment="alignments[k]" fill="darkgreen">
+                                                <m>${labels[k]}</m>
+                                            </point>
+                                            </repeat>
+                                            <polygon points="f(k)" parameter="k=0..7" closed="yes" stroke="red"
+                                            fill="lightsalmon" fill-opacity="0.2"/>
+                                            <polygon points="g(k)" parameter="k=0..3" closed="yes" stroke="blue" 
+                                            fill="mediumpurple" fill-opacity="0.3"/>
+                                            <line endpoints="(1,5),(5,5)" stroke="blue">4</line>
+                                        </coordinates>
+                                    </diagram>
+                                </prefigure>
+                            </image>
+                            <image source="HW-circle-octagon-square-8th">
+                                <shortdescription>
+                                    An eighth slice of the octagon has base 4 and height approximately 2.828.
+                                </shortdescription>
+                                <prefigure xmlns="https://prefigure.org" label="prfg-ExtConc-sq-oct-circle-8th"> 
+                                    <diagram dimensions="(300,300)" margins="5">
+                                        <definition>f(t)=(4*cos(pi*t/4)+5,4*sin(pi*t/4)+5)</definition>
+                                        <coordinates bbox="(0,0,10,10)">
+                                            <grid stroke="darkgray"/>
+                                            <circle center="(5,5)" radius="4" stroke="darkgreen"/>
+                                            <polygon points="f(4),f(3),(5,5)" closed="yes" stroke="darkred"
+                                            fill="lightsalmon" fill-opacity="0.2"/>
+                                            <line endpoints="(1,5),(5,5)" alignment="s">4</line>
+                                            <line endpoints="f(3),(4*cos(pi*3/4)+5,5)" stroke="black" dash="4 4"/>
+                                            <label anchor="(3.5,6.5)" alignment="n" rotate="315">2.828</label>
+                                            <label anchor="(6.5,6.5)" alignment="n" scale="1.2"><m>\frac{4}{\sqrt{2}}\approx 2.828</m></label>
+                                            <point p="f(4)" alignment="w">A</point>
+                                            <point p="f(3)" alignment="w">B</point>
+                                            <point p="(4*cos(pi*3/4)+5,5)" alignment="s" fill="black" size="1">P</point>
+                                        </coordinates>
+                                    </diagram>
+                                </prefigure>
+                            </image>
+                        </sidebyside>   
                     </figure>
                 </introduction>
                 <task>
