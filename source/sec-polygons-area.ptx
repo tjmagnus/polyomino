@@ -1225,7 +1225,7 @@
                         <m>ABCD</m>, meaning that the vertices <m>A</m>, <m>B</m>, <m>C</m>,
                         and <m>D</m> lie on the circle and the square is entirely within the circle. 
                         The circle on the right is inscribed 
-                        in square <m>HIJK</m>. The circle is inside of the square and just touches the square at the 
+                        in square <m>EFGH</m>. The circle is inside of the square and just touches the square at the 
                         midpoint of each side. 
                     </p>
 
@@ -1244,8 +1244,8 @@
                                             <grid stroke="darkgray"/>
                                             <circle center="(6,6)" radius="5" stroke="green"/>
                                             <rectangle center="(6,6)" dimensions="(sqrt(50),sqrt(50))" rotate="45" stroke="blue"/>
-                                            <point  p="(1,6)" stroke="none" fill="blue" size="2" alignment="nw">A</point>
-                                            <point  p="(6,1)" stroke="none" fill="blue" size="2" alignment="se">D</point>
+                                            <point  p="(1,6)" stroke="none" fill="blue" size="2" alignment="west">A</point>
+                                            <point  p="(6,1)" stroke="none" fill="blue" size="2" alignment="south">D</point>
                                             <point  p="(6,11)" stroke="none" fill="blue" size="2" alignment="ne">B</point>
                                             <point  p="(11,6)" stroke="none" fill="blue" size="2" alignment="ne">C</point>
                                             <point  p="(6,6)" stroke="none" fill="blue" size="2"/>
@@ -1268,7 +1268,7 @@
                                             <circle center="(6,6)" radius="5" stroke="green"/>
                                             <rectangle center="(6,6)" dimensions="(10,10)" stroke="blue"/>
                                             <point  p="(1,1)" stroke="none" fill="blue" size="2" alignment="nw">E</point>
-                                            <point  p="(1,11)" stroke="none" fill="blue" size="2" alignment="se">F</point>
+                                            <point  p="(1,11)" stroke="none" fill="blue" size="2" alignment="nw">F</point>
                                             <point  p="(11,11)" stroke="none" fill="blue" size="2" alignment="ne">G</point>
                                             <point  p="(11,1)" stroke="none" fill="blue" size="2" alignment="ne">H</point>
                                             <point  p="(6,6)" stroke="none" fill="blue" size="2"/>
@@ -1289,14 +1289,14 @@
                 <task>
                     <statement>
                         <p>
-                            Based on the picture, what should be true about the area of the circle relative
-                            to the two squares?
+                            Based on the pictures and without doing any calculations, what should be 
+                            true about the relationship between the area of the circle,
+                            the area of square <m>ABCD</m>, and the area of square <m>EFGH</m>?
                         </p>
                     </statement>
                     <hint>
                         <p>
-                            Consider the size of each shape. Which shape takes up the most space, which takes up the least space, and which 
-                            fits somewhere between? Think about how this relates to area.
+                            You may use betweenness or use less than or greater than symbols to express the relationship.
                         </p>
                     </hint>
                     <answer>
@@ -1307,8 +1307,8 @@
                     </answer>
                     <solution>
                         <p>
-                            When a circle is fitted inside a square, the square's area is larger. When that same circle has another 
-                            square fitted inside it, that inner square's area is smaller. Therefore, the circle's area is greater than 
+                            When a circle is inside a square, the square's area is larger. When that same circle has another 
+                            square inside it, that inner square's area is smaller. Therefore, the circle's area is greater than 
                             the inner square's area but less than the outer square's area.
                         </p>
                     </solution>
@@ -1316,50 +1316,43 @@
                 <task>
                     <statement>
                         <p>
-                            Compute the area of square <m>BEFG</m>.
+                            Compute the area of square <m>ABCD</m>.
                         </p>
                     </statement>
                     <hint>
                         <p>
-                            The diameter of the circle and the diagonal of the square are equal in length.
+                            You may also divide the square into triangles and use the triangle area formula. 
+                            Alternatively, you may use the diagonal of the square to determine the length of its sides. 
                         </p>
                     </hint>
                     <answer>
                         <p>
-                           Area of BEFG is 50 sq units.
+                           The area of <m>ABCD</m> is 50 sq units.
                         </p>
                     </answer>
                     <solution>
                         <p>
-                            When a square is circumscribed by a circle, its corners touch the circle's edge. A radius of 
-                            5 means the circle's diameter is 10, which is also the square's diagonal. The square can be divided 
-                            into two congruent triangles along this diagonal. Each triangle has a base of 10 (the diagonal) and 
+                            Answers may vary. The square can be divided into two congruent triangles along  diagonal <m>\overline{AC}</m>. 
+                            Each triangle has a base of 10 (the diagonal) and 
                             a height of 5 (half the diagonal). The area of one triangle is <m>\frac{1}{2} \cdot 10 \cdot 5 = 25</m>.
-                            Since the square comprises two such triangles, the total area of BEFG is <m>2 \cdot 25 = 50</m> sq units.
+                            Since the square comprises two such triangles, the total area of ABCD is <m>2 \cdot 25 = 50</m> sq units.
                         </p>
                     </solution>
                 </task>
                 <task>
                     <statement>
                         <p>
-                            Compute the area of square <m>HIJK</m>.
+                            Compute the area of square <m>EFGH</m>.
                         </p>
                     </statement>
-                    <hint>
-                        <p>
-                            The diameter of the circle equals the length of the square's sides.
-                        </p>
-                    </hint>
                     <answer>
                         <p>
-                            Area of HIJK is 100 sq units.
+                            Area of <m>EFGH</m> is 100 sq units.
                         </p>
                     </answer>
                     <solution>
                         <p>
-                            When a circle is inscribed within a square, the circle touches the middle of each of the square's sides.
-                            This means the diameter of the circle is equal to the side length of the square. With a radius of 5, the circle's 
-                            diameter is 10, making the sides of the square also 10. Therefore, the area of HIJK is <m>10\cdot 10 = 100</m>
+                            The side length of <m>EFGH</m> is twice the radius of the circle. Therefore, the area of <m>EFGH</m> is <m>10\cdot 10 = 100</m>
                             sq units.
                         </p>
                     </solution>
@@ -1372,20 +1365,14 @@
                     </statement>
                     <hint>
                         <p>
-                            Recall the formula for area of a circle: <m>A = \pi r^2</m>.
+                            Recall the formula for area of a circle: <m>Area = \pi r^2</m>.
                         </p>
                     </hint>
                     <answer>
                         <p>
-                            Area of the circle is <m>25\pi\approx 78.54</m>.
+                            The area of the circle is <m>25\pi\approx 78.54</m>.
                         </p>
                     </answer>
-                    <solution>
-                        <p>
-                            The radius of the circle is 5. Recall that the area of a circle is <m>A = \pi r^2</m>. Multiply
-                            <m>\pi</m> by <m>5^2</m> (which is 25). So, the area is <m>25\pi</m> or approximately 78.54.
-                        </p>
-                    </solution>
                 </task>
                 <task>
                     <statement>
