@@ -1,11 +1,11 @@
 <section xml:id="sec-polygons-angles" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exploring Angle Measure </title>
     <introduction>
-    <p>
-        Having looked at area as the measure of the interior space of a polygon, 
-        we now turn our attention to measuring angles. What is an angle and how do 
-        we measure it? 
-    </p>
+        <p>
+            Having looked at area as the measure of the interior space of a polygon, 
+            we now turn our attention to measuring angles. What is an angle and how do 
+            we measure it? 
+        </p>
     </introduction>
     <subsection xml:id="subsec-polygons-angles-defs">
         <title>Linear Objects</title>
@@ -38,8 +38,8 @@
             <statement>
                 <p>
                     A <term>line</term> is a one-dimensional figure that extends infinitely 
-                    in opposite directions. In Euclidean geometry, lines are straight, but we 
-                    will encounter a geometry in which they are curved. One important trait of 
+                    in opposite directions. In Euclidean geometry, lines are straight, but in 
+                    non-Euclidean geometries lines may appear to be curved. One important trait of 
                     lines is that any pair of distinct points lie on exactly one line. For this 
                     reason, we may denote the line through points <m>A</m> and <m>B</m> as 
                     <m>\overleftrightarrow{AB}</m>. 
@@ -86,6 +86,178 @@
             </aside>
             </statement>
         </definition>
+        <exercise label="cyu-line-segment-ray">
+            <introduction>
+                <p>
+                    Use <xref ref="fig-line-segment-ray"/> to answer the following questions:
+                </p>
+                <figure xml:id="fig-line-segment-ray">
+                    <caption> Recognizing lines, segments, and rays.</caption>
+                    <image>
+                        <shortdescription>
+                            Points A, B, C, and G lie left to right on a line.
+                            Points D, C, F, and E lie top to bottom on a second line.
+                        </shortdescription>
+                        <prefigure xmlns="http://prefigure.org" label="prefigure-line-segment-ray">
+                            <diagram dimensions="(300,300)" margins="5">
+                                <definition>f(x)=2-x/2</definition>
+                                <definition>g(x)=3*x/2</definition>
+                                <coordinates bbox="(-4,-4,4,4)">
+                                    <graph at="graph" function="f"/>
+                                    <graph at="graph" function="g"/>
+                                    <point at="point" p="(1,1.5)" alignment="e" offset="(0,2)">
+                                    <m>C</m>
+                                    </point>
+                                        <point at="point" p="(-2,3)" alignment="ne">
+                                    <m>A</m>
+                                    </point>
+                                        <point at="point" p="(0,2)" alignment="ne">
+                                    <m>B</m>
+                                    </point>
+                                        <point at="point" p="(3,0.5)" alignment="ne">
+                                    <m>G</m>
+                                    </point>
+                                        <point at="point" p="(2,3)" alignment="e">
+                                    <m>D</m>
+                                    </point>
+                                        <point at="point" p="(0,0)" alignment="e">
+                                    <m>F</m>
+                                    </point>
+                                        <point at="point" p="(-1,-1.5)" alignment="e">
+                                    <m>E</m>
+                                    </point>
+                                </coordinates>
+                            </diagram>
+                        </prefigure>
+                    </image>
+                </figure>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Which points lie on line <m>\overleftrightarrow{AB}</m>?
+                    </p>
+                </statement>
+                <choices>
+                    <choice correct="yes">
+                        <statement>
+                            <p>
+                                <m>A</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="yes">
+                        <statement>
+                            <p>
+                                <m>C</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="no">
+                        <statement>
+                            <p>
+                                <m>D</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="no">
+                        <statement>
+                            <p>
+                                <m>E</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="yes">
+                        <statement>
+                            <p>
+                                <m>G</m>
+                            </p>
+                        </statement>
+                    </choice>
+                </choices>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which points lie on line <m>\overline{FD}</m>?
+                    </p>
+                </statement>
+                <choices>
+                    <choice correct="no">
+                        <statement>
+                            <p>
+                                <m>A</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="yes">
+                        <statement>
+                            <p>
+                                <m>C</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="yes">
+                        <statement>
+                            <p>
+                                <m>D</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="no">
+                        <statement>
+                            <p>
+                                <m>E</m>
+                            </p>
+                        </statement>
+                    </choice>
+                </choices>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Which points lie on ray <m>\overrightarrow{CB}</m>?                        
+                    </p>
+                </statement>
+                <choices>
+                    <choice correct="yes">
+                        <statement>
+                            <p>
+                                <m>A</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="yes">
+                        <statement>
+                            <p>
+                                <m>B</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="yes">
+                        <statement>
+                            <p>
+                                <m>C</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="no">
+                        <statement>
+                            <p>
+                                <m>F</m>
+                            </p>
+                        </statement>
+                    </choice>
+                    <choice correct="no">
+                        <statement>
+                            <p>
+                                <m>G</m>
+                            </p>
+                        </statement>
+                    </choice>   
+                </choices>
+            </task>
+        </exercise>
     </subsection>
     <subsection xml:id="subsec-Def-and-Measuring-Angles">
         <title>Defining and Measuring Angles</title>

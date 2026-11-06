@@ -1437,13 +1437,13 @@
                                             <circle center="(5,5)" radius="4" stroke="darkgreen"/>
                                             <polygon points="f(4),f(3),(5,5)" closed="yes" stroke="darkred"
                                             fill="lightsalmon" fill-opacity="0.2"/>
-                                            <line endpoints="(1,5),(5,5)" alignment="s">4</line>
+                                            <line endpoints="(1,5),(5,5)" alignment="s" offset="(0,-8)">4</line>
                                             <line endpoints="f(3),(4*cos(pi*3/4)+5,5)" stroke="black" dash="4 4"/>
                                             <label anchor="(3.5,6.5)" alignment="n" rotate="315">2.828</label>
-                                            <label anchor="(6.5,6.5)" alignment="n" scale="1.2"><m>\frac{4}{\sqrt{2}}\approx 2.828</m></label>
-                                            <point p="f(4)" alignment="w">A</point>
-                                            <point p="f(3)" alignment="w">B</point>
-                                            <point p="(4*cos(pi*3/4)+5,5)" alignment="s" fill="black" size="1">P</point>
+                                            <label anchor="(6,6.5)" alignment="n" scale="1"><m>\frac{4}{\sqrt{2}}\approx 2.828</m></label>
+                                            <point p="f(4)" alignment="w" offset="(-5,-5)">A</point>
+                                            <point p="f(3)" alignment="w" offset="(-5,5)">B</point>
+                                            <point p="(4*cos(pi*3/4)+5,5)" alignment="s" offset="(0,-6)" fill="black" size="1">P</point>
                                         </coordinates>
                                     </diagram>
                                 </prefigure>
@@ -1465,14 +1465,14 @@
                     </hint>
                     <answer>
                         <p>
-                            area(square) &lt; area(circle) &lt; area (octagon),
+                            <m>area(square)\lt area(circle) \lt area (octagon)</m>
                         </p>
                     </answer>
                     <solution>
                         <p>
                             When a square and an octagon are both placed inside the same circle, with their corners touching the circle's 
                             edge, the square covers less area than the octagon. This is because the octagon's eight sides allow it to fill the 
-                            circular space more fully compared to the square's four sides. Therefore, area(square) &lt; area(octagon) &lt; area(circle).
+                            circular space more fully compared to the square's four sides. Therefore, <m>area(square)\lt area(octagon) \lt area(circle)</m>.
                         </p>
                     </solution>
                 </task>
