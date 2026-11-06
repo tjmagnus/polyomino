@@ -98,7 +98,7 @@
                             Points A, B, C, and G lie left to right on a line.
                             Points D, C, F, and E lie top to bottom on a second line.
                         </shortdescription>
-                        <prefigure xmlns="http://prefigure.org" label="prefigure-line-segment-ray">
+                        <prefigure xmlns="http://prefigure.org" label="prefig-line-segment-ray">
                             <diagram dimensions="(300,300)" margins="5">
                                 <definition>f(x)=2-x/2</definition>
                                 <definition>g(x)=3*x/2</definition>
